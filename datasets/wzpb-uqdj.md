@@ -100,11 +100,11 @@ metric m:independent_living p:integer l:INDEPENDENT_LIVING t:dataTypeName=number
 
 entity e:wzpb-uqdj l:"SFY05-14 Entries Aggregates Race Ethnicity Group" t:attribution="Department of Children and Families, Office for Research and Evaluation" t:url=https://data.ct.gov/api/views/wzpb-uqdj
 
-property e:wzpb-uqdj t:meta.view d:2017-03-10T16:06:44.357Z v:id=wzpb-uqdj v:category="Health and Human Services" v:averageRating=0 v:name="SFY05-14 Entries Aggregates Race Ethnicity Group" v:attribution="Department of Children and Families, Office for Research and Evaluation"
+property e:wzpb-uqdj t:meta.view v:id=wzpb-uqdj v:category="Health and Human Services" v:averageRating=0 v:name="SFY05-14 Entries Aggregates Race Ethnicity Group" v:attribution="Department of Children and Families, Office for Research and Evaluation"
 
-property e:wzpb-uqdj t:meta.view.license d:2017-03-10T16:06:44.357Z v:name="Public Domain"
+property e:wzpb-uqdj t:meta.view.license v:name="Public Domain"
 
-property e:wzpb-uqdj t:meta.view.owner d:2017-03-10T16:06:44.357Z v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.owner v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
 
-property e:wzpb-uqdj t:meta.view.tableauthor d:2017-03-10T16:06:44.357Z v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.tableauthor v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
 ```

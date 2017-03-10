@@ -57,9 +57,9 @@ metric m:total_visitor_days p:integer l:"Total Visitor Days" t:dataTypeName=numb
 
 entity e:puxz-9rab l:"Report Card 1:  Overall Hawaii Visitor Numbers" t:url=https://data.hawaii.gov/api/views/puxz-9rab
 
-property e:puxz-9rab t:meta.view d:2017-03-10T16:11:34.844Z v:id=puxz-9rab v:averageRating=0 v:name="Report Card 1:  Overall Hawaii Visitor Numbers"
+property e:puxz-9rab t:meta.view v:id=puxz-9rab v:averageRating=0 v:name="Report Card 1:  Overall Hawaii Visitor Numbers"
 
-property e:puxz-9rab t:meta.view.owner d:2017-03-10T16:11:34.844Z v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
+property e:puxz-9rab t:meta.view.owner v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
 
-property e:puxz-9rab t:meta.view.tableauthor d:2017-03-10T16:11:34.844Z v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
+property e:puxz-9rab t:meta.view.tableauthor v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
 ```

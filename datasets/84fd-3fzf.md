@@ -50,11 +50,11 @@ Format & Zone = seconds
 ```ls
 entity e:84fd-3fzf l:"Exceptional Trees On Oahu" t:attribution="C&C Honolulu" t:url=https://data.honolulu.gov/api/views/84fd-3fzf
 
-property e:84fd-3fzf t:meta.view d:2017-03-10T16:23:09.878Z v:id=84fd-3fzf v:category=Recreation v:attributionLink=http://www1.honolulu.gov/parks/exceptionaltrees.htm v:averageRating=0 v:name="Exceptional Trees On Oahu" v:attribution="C&C Honolulu"
+property e:84fd-3fzf t:meta.view v:id=84fd-3fzf v:category=Recreation v:attributionLink=http://www1.honolulu.gov/parks/exceptionaltrees.htm v:averageRating=0 v:name="Exceptional Trees On Oahu" v:attribution="C&C Honolulu"
 
-property e:84fd-3fzf t:meta.view.license d:2017-03-10T16:23:09.878Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:84fd-3fzf t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:84fd-3fzf t:meta.view.owner d:2017-03-10T16:23:09.878Z v:id=5vv3-gysc v:profileImageUrlMedium=/api/users/5vv3-gysc/profile_images/THUMB v:profileImageUrlLarge=/api/users/5vv3-gysc/profile_images/LARGE v:screenName="Burt Lum" v:profileImageUrlSmall=/api/users/5vv3-gysc/profile_images/TINY v:displayName="Burt Lum"
+property e:84fd-3fzf t:meta.view.owner v:id=5vv3-gysc v:profileImageUrlMedium=/api/users/5vv3-gysc/profile_images/THUMB v:profileImageUrlLarge=/api/users/5vv3-gysc/profile_images/LARGE v:screenName="Burt Lum" v:profileImageUrlSmall=/api/users/5vv3-gysc/profile_images/TINY v:displayName="Burt Lum"
 
-property e:84fd-3fzf t:meta.view.tableauthor d:2017-03-10T16:23:09.878Z v:id=5vv3-gysc v:profileImageUrlMedium=/api/users/5vv3-gysc/profile_images/THUMB v:profileImageUrlLarge=/api/users/5vv3-gysc/profile_images/LARGE v:screenName="Burt Lum" v:profileImageUrlSmall=/api/users/5vv3-gysc/profile_images/TINY v:displayName="Burt Lum"
+property e:84fd-3fzf t:meta.view.tableauthor v:id=5vv3-gysc v:profileImageUrlMedium=/api/users/5vv3-gysc/profile_images/THUMB v:profileImageUrlLarge=/api/users/5vv3-gysc/profile_images/LARGE v:screenName="Burt Lum" v:profileImageUrlSmall=/api/users/5vv3-gysc/profile_images/TINY v:displayName="Burt Lum"
 ```

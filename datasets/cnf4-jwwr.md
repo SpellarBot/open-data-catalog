@@ -47,11 +47,11 @@ Format & Zone = seconds
 ```ls
 entity e:cnf4-jwwr l:"State Drug Utilization Data 1991" t:attribution="Centers for Medicare and Medicaid Services" t:url=https://data.medicaid.gov/api/views/cnf4-jwwr
 
-property e:cnf4-jwwr t:meta.view d:2017-03-10T16:08:23.128Z v:id=cnf4-jwwr v:category="State Drug Utilization" v:attributionLink=http://www.medicaid.gov/Medicaid-CHIP-Program-Information/By-Topics/Benefits/Prescription-Drugs/Drug-Utilization-Review.html v:averageRating=0 v:name="State Drug Utilization Data 1991" v:attribution="Centers for Medicare and Medicaid Services"
+property e:cnf4-jwwr t:meta.view v:id=cnf4-jwwr v:category="State Drug Utilization" v:attributionLink=http://www.medicaid.gov/Medicaid-CHIP-Program-Information/By-Topics/Benefits/Prescription-Drugs/Drug-Utilization-Review.html v:averageRating=0 v:name="State Drug Utilization Data 1991" v:attribution="Centers for Medicare and Medicaid Services"
 
-property e:cnf4-jwwr t:meta.view.owner d:2017-03-10T16:08:23.128Z v:id=e4sc-6x5y v:profileImageUrlMedium=/api/users/e4sc-6x5y/profile_images/THUMB v:profileImageUrlLarge=/api/users/e4sc-6x5y/profile_images/LARGE v:screenName="Daniella Kuttner" v:profileImageUrlSmall=/api/users/e4sc-6x5y/profile_images/TINY v:displayName="Daniella Kuttner"
+property e:cnf4-jwwr t:meta.view.owner v:id=e4sc-6x5y v:profileImageUrlMedium=/api/users/e4sc-6x5y/profile_images/THUMB v:profileImageUrlLarge=/api/users/e4sc-6x5y/profile_images/LARGE v:screenName="Daniella Kuttner" v:profileImageUrlSmall=/api/users/e4sc-6x5y/profile_images/TINY v:displayName="Daniella Kuttner"
 
-property e:cnf4-jwwr t:meta.view.tableauthor d:2017-03-10T16:08:23.128Z v:id=e4sc-6x5y v:profileImageUrlMedium=/api/users/e4sc-6x5y/profile_images/THUMB v:profileImageUrlLarge=/api/users/e4sc-6x5y/profile_images/LARGE v:screenName="Daniella Kuttner" v:profileImageUrlSmall=/api/users/e4sc-6x5y/profile_images/TINY v:displayName="Daniella Kuttner"
+property e:cnf4-jwwr t:meta.view.tableauthor v:id=e4sc-6x5y v:profileImageUrlMedium=/api/users/e4sc-6x5y/profile_images/THUMB v:profileImageUrlLarge=/api/users/e4sc-6x5y/profile_images/LARGE v:screenName="Daniella Kuttner" v:profileImageUrlSmall=/api/users/e4sc-6x5y/profile_images/TINY v:displayName="Daniella Kuttner"
 
-property e:cnf4-jwwr t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:08:23.128Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:cnf4-jwwr t:meta.view.metadata.custom_fields.common_core v:Bureau_Code=009:00 v:Program_Code=009:076
 ```

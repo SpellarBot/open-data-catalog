@@ -85,39 +85,39 @@ series e:t2v6-g4nf d:2015-09-15T00:00:00.000Z t:energy_star_partner="Avision Inc
 ## Meta Commands
 
 ```ls
-metric m:monochrome_product_speed_ipm_or_mppm p:integer l:"Print Speed (ipm or mppm)" d:"The maximum claimed monochrome (black and white) speed in ipm (images per minute) and mppm (mail pieces per minute) when processing the given media." t:dataTypeName=number
+metric m:monochrome_product_speed_ipm_or_mppm p:integer l:"Print Speed (ipm or mppm)"ochrome (black and white) speed in ipm (images per minute) and mppm (mail pieces per minute) when processing the given media." t:dataTypeName=number
 
-metric m:typical_electricity_consumption_tec_kwh_wk l:"Typical Electricity Consumption (TEC) (kWh/wk)" d:"Typical electricity consumption (measured in kilowatt-hours) during normal operation over a specified period of time. Typical Electricity Consumption (TEC) is a method of testing and comparing the energy performance of certain imaging equipment products and focuses on the typical electricity consumed by a product while in normal operation during a representative period of time. The TEC metric is a proxy for a typical weekly electricity consumption. Please note: the TEC value should be used as a way to compare products' energy consumption values under a set duty cycle and operating conditions. Actual energy consumption will differ, based on how the product is used. TEC is not applicable to all imaging equipment products." t:dataTypeName=number
+metric m:typical_electricity_consumption_tec_kwh_wk l:"Typical Electricity Consumption (TEC) (kWh/wk)"sumption (measured in kilowatt-hours) during normal operation over a specified period of time. Typical Electricity Consumption (TEC) is a method of testing and comparing the energy performance of certain imaging equipment products and focuses on the typical electricity consumed by a product while in normal operation during a representative period of time. The TEC metric is a proxy for a typical weekly electricity consumption. Please note: the TEC value should be used as a way to compare products' energy consumption values under a set duty cycle and operating conditions. Actual energy consumption will differ, based on how the product is used. TEC is not applicable to all imaging equipment products." t:dataTypeName=number
 
 metric m:typical_electricity_consumption_tec_kwh_yr l:"Typical Electricity Consumption (TEC) (kWh/yr)" t:dataTypeName=number
 
-metric m:power_in_sleep_w l:"Power in Sleep (Watts)" d:"The power measured when a product enters Sleep Mode, either automatically after a period of inactivity, in response to user manual action, or in response to external electrical stimulus." t:dataTypeName=number
+metric m:power_in_sleep_w l:"Power in Sleep (Watts)" a product enters Sleep Mode, either automatically after a period of inactivity, in response to user manual action, or in response to external electrical stimulus." t:dataTypeName=number
 
-metric m:power_in_standby_w l:"Power in Standby (Watts)" d:"The power measured when the product is in the lowest power consumption state which cannot be switched off by the user and that may persist for an indefinite time when the product is connected to the main electricity supply and used in accordance with the manufacturer?s instructions." t:dataTypeName=number
+metric m:power_in_standby_w l:"Power in Standby (Watts)" the product is in the lowest power consumption state which cannot be switched off by the user and that may persist for an indefinite time when the product is connected to the main electricity supply and used in accordance with the manufacturer?s instructions." t:dataTypeName=number
 
-metric m:default_delay_time_to_sleep_minutes p:integer l:"Default Delay Time to Sleep (minutes)" d:"The time set by the manufacturer prior to shipping that determines when the product will enter a lower-power Mode (e.g., Sleep, Auto-off) following completion of its primary function." t:dataTypeName=number
+metric m:default_delay_time_to_sleep_minutes p:integer l:"Default Delay Time to Sleep (minutes)"ufacturer prior to shipping that determines when the product will enter a lower-power Mode (e.g., Sleep, Auto-off) following completion of its primary function." t:dataTypeName=number
 
-metric m:print_copy_time_from_ready_state_s p:integer l:"Print/Copy Time from Ready State (s)" d:"The time between job initiation and first sheet exiting the Imaging Equipment product, with the measurement taken after the product has been powered on and has indicated it is in Ready State." t:dataTypeName=number
+metric m:print_copy_time_from_ready_state_s p:integer l:"Print/Copy Time from Ready State (s)"itiation and first sheet exiting the Imaging Equipment product, with the measurement taken after the product has been powered on and has indicated it is in Ready State." t:dataTypeName=number
 
-metric m:print_copy_time_from_sleep_mode_s p:integer l:"Print/Copy Time from Sleep Mode (s)" d:"The time between job initiation and first sheet exiting the Imaging Equipment product, with the measurement taken after the product has been in Sleep Mode for 1 hour." t:dataTypeName=number
+metric m:print_copy_time_from_sleep_mode_s p:integer l:"Print/Copy Time from Sleep Mode (s)"itiation and first sheet exiting the Imaging Equipment product, with the measurement taken after the product has been in Sleep Mode for 1 hour." t:dataTypeName=number
 
-metric m:print_copy_time_from_previous_job_s p:integer l:"Print/Copy Time from Previous Job (s)" d:"The time between job initiation and first sheet exiting the Imaging Equipment product with the measurement taken 15 minutes after the start of a previous job." t:dataTypeName=number
+metric m:print_copy_time_from_previous_job_s p:integer l:"Print/Copy Time from Previous Job (s)"itiation and first sheet exiting the Imaging Equipment product with the measurement taken 15 minutes after the start of a previous job." t:dataTypeName=number
 
-metric m:dfe_typical_electricity_consumption_tec_kwh_wk l:"DFE Typical Electricity Consumption (TEC) (kWh/wk)" d:"The DFE Typical Electricity Consumption (TECDFE) metric assumes 9 hours in Ready State five days a week and the remainder in Sleep Mode. DFEs without a Sleep Mode are assumed to be in Ready State 168 hours per week." t:dataTypeName=number
+metric m:dfe_typical_electricity_consumption_tec_kwh_wk l:"DFE Typical Electricity Consumption (TEC) (kWh/wk)"city Consumption (TECDFE) metric assumes 9 hours in Ready State five days a week and the remainder in Sleep Mode. DFEs without a Sleep Mode are assumed to be in Ready State 168 hours per week." t:dataTypeName=number
 
-metric m:dfe_typical_electricity_consumption_tec_kwh_yr l:"DFE Typical Electricity Consumption (TEC) (kWh/yr)" d:"Annualized TEC of the DFE." t:dataTypeName=number
+metric m:dfe_typical_electricity_consumption_tec_kwh_yr l:"DFE Typical Electricity Consumption (TEC) (kWh/yr)"FE." t:dataTypeName=number
 
-metric m:dfe_ready_state_power_w l:"DFE Ready State Power (Watts)" d:"The average power of the DFE recorded while the main Imaging Equipment product is in Ready State." t:dataTypeName=number
+metric m:dfe_ready_state_power_w l:"DFE Ready State Power (Watts)"e DFE recorded while the main Imaging Equipment product is in Ready State." t:dataTypeName=number
 
-metric m:dfe_sleep_mode_power_w l:"DFE Sleep Mode Power (Watts)" d:"The average power of the DFE recorded while the main Imaging Equipment product is in Sleep Mode, applicable to DFEs with network-capable Sleep Modes." t:dataTypeName=number
+metric m:dfe_sleep_mode_power_w l:"DFE Sleep Mode Power (Watts)"e DFE recorded while the main Imaging Equipment product is in Sleep Mode, applicable to DFEs with network-capable Sleep Modes." t:dataTypeName=number
 
 entity e:t2v6-g4nf l:"ENERGY STAR Certified Imaging Equipment" t:url=https://data.energystar.gov/api/views/t2v6-g4nf
 
-property e:t2v6-g4nf t:meta.view d:2017-03-10T16:18:49.170Z v:id=t2v6-g4nf v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Imaging Equipment"
+property e:t2v6-g4nf t:meta.view v:id=t2v6-g4nf v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Imaging Equipment"
 
-property e:t2v6-g4nf t:meta.view.owner d:2017-03-10T16:18:49.170Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:t2v6-g4nf t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:t2v6-g4nf t:meta.view.tableauthor d:2017-03-10T16:18:49.170Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:t2v6-g4nf t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:t2v6-g4nf t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:18:49.170Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:t2v6-g4nf t:meta.view.metadata.custom_fields.common_core v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
 ```

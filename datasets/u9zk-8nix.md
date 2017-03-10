@@ -62,17 +62,17 @@ series e:u9zk-8nix d:2013-03-18T00:00:00.000Z t:unique_id=11882 t:bid_time="11:0
 ## Meta Commands
 
 ```ls
-metric m:phone_ext p:integer l:"PROJECT PHONE EXTENSION" d:"Phone number extension for the project" t:dataTypeName=number
+metric m:phone_ext p:integer l:"PROJECT PHONE EXTENSION"for the project" t:dataTypeName=number
 
-metric m:room_number p:integer l:"ROOM NUMBER" d:"Room number where bid opening will be held" t:dataTypeName=number
+metric m:room_number p:integer l:"ROOM NUMBER"pening will be held" t:dataTypeName=number
 
 entity e:u9zk-8nix l:"Bid Openings and Results" t:attribution=Purchasing t:url=https://data.brla.gov/api/views/u9zk-8nix
 
-property e:u9zk-8nix t:meta.view d:2017-03-10T16:13:17.494Z v:id=u9zk-8nix v:category=Government v:attributionLink=http://www.brgov.com/dept/purchase/bids.asp v:averageRating=0 v:name="Bid Openings and Results" v:attribution=Purchasing
+property e:u9zk-8nix t:meta.view v:id=u9zk-8nix v:category=Government v:attributionLink=http://www.brgov.com/dept/purchase/bids.asp v:averageRating=0 v:name="Bid Openings and Results" v:attribution=Purchasing
 
-property e:u9zk-8nix t:meta.view.license d:2017-03-10T16:13:17.494Z v:name="Public Domain"
+property e:u9zk-8nix t:meta.view.license v:name="Public Domain"
 
-property e:u9zk-8nix t:meta.view.owner d:2017-03-10T16:13:17.494Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:u9zk-8nix t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 
-property e:u9zk-8nix t:meta.view.tableauthor d:2017-03-10T16:13:17.494Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:u9zk-8nix t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

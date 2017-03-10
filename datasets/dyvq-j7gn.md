@@ -48,9 +48,9 @@ metric m:billablehours l:BillableHours t:dataTypeName=number
 
 entity e:dyvq-j7gn l:TPW_FleetTechnicianBillableHours t:url=https://data.srcity.org/api/views/dyvq-j7gn
 
-property e:dyvq-j7gn t:meta.view d:2017-03-10T16:12:50.596Z v:id=dyvq-j7gn v:averageRating=0 v:name=TPW_FleetTechnicianBillableHours
+property e:dyvq-j7gn t:meta.view v:id=dyvq-j7gn v:averageRating=0 v:name=TPW_FleetTechnicianBillableHours
 
-property e:dyvq-j7gn t:meta.view.owner d:2017-03-10T16:12:50.596Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:dyvq-j7gn t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 
-property e:dyvq-j7gn t:meta.view.tableauthor d:2017-03-10T16:12:50.596Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:dyvq-j7gn t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

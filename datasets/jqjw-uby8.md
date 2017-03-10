@@ -74,33 +74,33 @@ series e:jqjw-uby8 d:1996-01-01T00:00:00.000Z t:product_fda_list_name=PROMETHAZI
 ## Meta Commands
 
 ```ls
-metric m:package_size p:integer l:"Package Size" d:"Third segment of National Drug Code (NDC3) identifies package forms and sizes." t:dataTypeName=number
+metric m:package_size p:integer l:"Package Size"al Drug Code (NDC3) identifies package forms and sizes." t:dataTypeName=number
 
-metric m:period_covered p:integer l:Year d:"Calendar year" t:dataTypeName=number
+metric m:period_covered p:integer l:YearpeName=number
 
-metric m:quarter p:integer l:Quarter d:"Quarter of year (1-4) 1 = January 1 ? March 31, 2 = April 1 ? June 30, 3 = July 1 ? September 30, 4 = October 1 ? December 31" t:dataTypeName=number
+metric m:quarter p:integer l:Quarter = January 1 ? March 31, 2 = April 1 ? June 30, 3 = July 1 ? September 30, 4 = October 1 ? December 31" t:dataTypeName=number
 
-metric m:units_reimbursed l:"Units Reimbursed" d:"The total number of units (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
+metric m:units_reimbursed l:"Units Reimbursed"ts (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
 
-metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" d:"The number of prescriptions reimbursed (by the Medicaid Program ONLY) to pharmacists for the (11-digit NDC) drug for the period covered." t:dataTypeName=number
+metric m:number_of_prescriptions p:integer l:"Number of Prescriptions"ions reimbursed (by the Medicaid Program ONLY) to pharmacists for the (11-digit NDC) drug for the period covered." t:dataTypeName=number
 
-metric m:total_amount_reimbursed l:"Total Amount Reimbursed" d:"The total amount reimbursed by both Medicaid and non-Medicaid entities to pharmacies for the (11-digit NDC) drug in the period covered (two below fields added together). This total is not reduced or affected by Medicaid rebates paid to the state. This amount represents both the Federal and State Reimbursement and is inclusive of dispensing fees." t:dataTypeName=number
+metric m:total_amount_reimbursed l:"Total Amount Reimbursed"rsed by both Medicaid and non-Medicaid entities to pharmacies for the (11-digit NDC) drug in the period covered (two below fields added together). This total is not reduced or affected by Medicaid rebates paid to the state. This amount represents both the Federal and State Reimbursement and is inclusive of dispensing fees." t:dataTypeName=number
 
-metric m:medicaid_amount_reimbursed l:"Medicaid Amount Reimbursed" d:"The amount reimbursed (by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
+metric m:medicaid_amount_reimbursed l:"Medicaid Amount Reimbursed"by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
 
-metric m:non_medicaid_amount_reimbursed l:"Non Medicaid Amount Reimbursed" d:"The amount reimbursed (by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
+metric m:non_medicaid_amount_reimbursed l:"Non Medicaid Amount Reimbursed"by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
 
 metric m:ndc p:long l:ndc t:dataTypeName=number
 
 entity e:jqjw-uby8 l:"State Drug Utilization Data 1996" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/jqjw-uby8
 
-property e:jqjw-uby8 t:meta.view d:2017-03-10T16:09:08.008Z v:id=jqjw-uby8 v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 1996" v:attribution="Centers for Medicare and Medicaid"
+property e:jqjw-uby8 t:meta.view v:id=jqjw-uby8 v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 1996" v:attribution="Centers for Medicare and Medicaid"
 
-property e:jqjw-uby8 t:meta.view.license d:2017-03-10T16:09:08.008Z v:name="Public Domain"
+property e:jqjw-uby8 t:meta.view.license v:name="Public Domain"
 
-property e:jqjw-uby8 t:meta.view.owner d:2017-03-10T16:09:08.008Z v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
+property e:jqjw-uby8 t:meta.view.owner v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
 
-property e:jqjw-uby8 t:meta.view.tableauthor d:2017-03-10T16:09:08.008Z v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
+property e:jqjw-uby8 t:meta.view.tableauthor v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
 
-property e:jqjw-uby8 t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:09:08.008Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:jqjw-uby8 t:meta.view.metadata.custom_fields.common_core v:Bureau_Code=009:00 v:Program_Code=009:076
 ```

@@ -70,15 +70,15 @@ series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heat
 ## Meta Commands
 
 ```ls
-metric m:efficiency_afue l:"Efficiency (AFUE)" d:"The percentage of the heat in the incoming fuel which is converted to space heat instead of being lost." t:dataTypeName=number
+metric m:efficiency_afue l:"Efficiency (AFUE)"eat in the incoming fuel which is converted to space heat instead of being lost." t:dataTypeName=number
 
 entity e:i97v-e8au l:"ENERGY STAR Certified Furnaces" t:url=https://data.energystar.gov/api/views/i97v-e8au
 
-property e:i97v-e8au t:meta.view d:2017-03-10T16:18:37.729Z v:id=i97v-e8au v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Furnaces"
+property e:i97v-e8au t:meta.view v:id=i97v-e8au v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Furnaces"
 
-property e:i97v-e8au t:meta.view.owner d:2017-03-10T16:18:37.729Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:i97v-e8au t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:i97v-e8au t:meta.view.tableauthor d:2017-03-10T16:18:37.729Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:i97v-e8au t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:i97v-e8au t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:18:37.729Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:i97v-e8au t:meta.view.metadata.custom_fields.common_core v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
 ```

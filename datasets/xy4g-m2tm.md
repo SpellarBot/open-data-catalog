@@ -76,11 +76,11 @@ metric m:political_contributions_audit p:integer l:"Political Contributions Audi
 
 entity e:xy4g-m2tm l:"Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete" t:attribution="Cook County Board of Ethics" t:url=https://datacatalog.cookcountyil.gov/api/views/xy4g-m2tm
 
-property e:xy4g-m2tm t:meta.view d:2017-03-10T16:07:50.841Z v:id=xy4g-m2tm v:category="Finance & Administration" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/board_of_ethics/293 v:averageRating=0 v:name="Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete" v:attribution="Cook County Board of Ethics"
+property e:xy4g-m2tm t:meta.view v:id=xy4g-m2tm v:category="Finance & Administration" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/board_of_ethics/293 v:averageRating=0 v:name="Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete" v:attribution="Cook County Board of Ethics"
 
-property e:xy4g-m2tm t:meta.view.license d:2017-03-10T16:07:50.841Z v:name="Public Domain"
+property e:xy4g-m2tm t:meta.view.license v:name="Public Domain"
 
-property e:xy4g-m2tm t:meta.view.owner d:2017-03-10T16:07:50.841Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:xy4g-m2tm t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:xy4g-m2tm t:meta.view.tableauthor d:2017-03-10T16:07:50.841Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:xy4g-m2tm t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```

@@ -72,23 +72,23 @@ series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 52 N
 ## Meta Commands
 
 ```ls
-metric m:costcenter p:integer l:COSTCENTER d:"Cost Center" t:dataTypeName=number
+metric m:costcenter p:integer l:COSTCENTERName=number
 
-metric m:fy_quarter p:integer l:FY_QUARTER d:"Fiscal Year Quarter" t:dataTypeName=number
+metric m:fy_quarter p:integer l:FY_QUARTERdataTypeName=number
 
-metric m:rms_county p:integer l:RMS_COUNTY d:County t:dataTypeName=number
+metric m:rms_county p:integer l:RMS_COUNTYmber
 
-metric m:rms_milepost p:integer l:RMS_MILEPOST d:"RMS Milepost" t:dataTypeName=number
+metric m:rms_milepost p:integer l:RMS_MILEPOSTeName=number
 
-metric m:burial p:integer l:BURIAL d:Burial t:dataTypeName=number
+metric m:burial p:integer l:BURIALmber
 
-metric m:response_to_complaint l:RESPONSE_TO_COMPLAINT d:"Response to Complaint?" t:dataTypeName=number
+metric m:response_to_complaint l:RESPONSE_TO_COMPLAINT t:dataTypeName=number
 
 entity e:i6xa-cxa2 l:"Deer Kill Locations 2009" t:attribution="Iowa Department of Transportation - Office of Maintenance" t:url=https://data.iowa.gov/api/views/i6xa-cxa2
 
-property e:i6xa-cxa2 t:meta.view d:2017-03-10T16:19:48.503Z v:id=i6xa-cxa2 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Maintenance/Historic_Deer_Kill_Locations/MapServer/6 v:averageRating=0 v:name="Deer Kill Locations 2009" v:attribution="Iowa Department of Transportation - Office of Maintenance"
+property e:i6xa-cxa2 t:meta.view v:id=i6xa-cxa2 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Maintenance/Historic_Deer_Kill_Locations/MapServer/6 v:averageRating=0 v:name="Deer Kill Locations 2009" v:attribution="Iowa Department of Transportation - Office of Maintenance"
 
-property e:i6xa-cxa2 t:meta.view.owner d:2017-03-10T16:19:48.503Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:i6xa-cxa2 t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:i6xa-cxa2 t:meta.view.tableauthor d:2017-03-10T16:19:48.503Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:i6xa-cxa2 t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

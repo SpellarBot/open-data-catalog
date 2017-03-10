@@ -52,11 +52,11 @@ series e:jpdu-8y8k d:2014-05-30T14:44:38.000Z t:fiscal_year=2010-11 m:budget_app
 ```ls
 entity e:jpdu-8y8k l:"L.A. Zoo Budget Appropriation" t:url=https://data.lacity.org/api/views/jpdu-8y8k
 
-property e:jpdu-8y8k t:meta.view d:2017-03-10T16:32:57.981Z v:id=jpdu-8y8k v:averageRating=0 v:name="L.A. Zoo Budget Appropriation"
+property e:jpdu-8y8k t:meta.view v:id=jpdu-8y8k v:averageRating=0 v:name="L.A. Zoo Budget Appropriation"
 
-property e:jpdu-8y8k t:meta.view.license d:2017-03-10T16:32:57.981Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:jpdu-8y8k t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:jpdu-8y8k t:meta.view.owner d:2017-03-10T16:32:57.981Z v:id=uypn-9feh v:profileImageUrlMedium=/api/users/uypn-9feh/profile_images/THUMB v:profileImageUrlLarge=/api/users/uypn-9feh/profile_images/LARGE v:screenName="LA Zoo OpenData" v:profileImageUrlSmall=/api/users/uypn-9feh/profile_images/TINY v:roleName=editor v:displayName="LA Zoo OpenData"
+property e:jpdu-8y8k t:meta.view.owner v:id=uypn-9feh v:profileImageUrlMedium=/api/users/uypn-9feh/profile_images/THUMB v:profileImageUrlLarge=/api/users/uypn-9feh/profile_images/LARGE v:screenName="LA Zoo OpenData" v:profileImageUrlSmall=/api/users/uypn-9feh/profile_images/TINY v:roleName=editor v:displayName="LA Zoo OpenData"
 
-property e:jpdu-8y8k t:meta.view.tableauthor d:2017-03-10T16:32:57.981Z v:id=uypn-9feh v:profileImageUrlMedium=/api/users/uypn-9feh/profile_images/THUMB v:profileImageUrlLarge=/api/users/uypn-9feh/profile_images/LARGE v:screenName="LA Zoo OpenData" v:profileImageUrlSmall=/api/users/uypn-9feh/profile_images/TINY v:roleName=editor v:displayName="LA Zoo OpenData"
+property e:jpdu-8y8k t:meta.view.tableauthor v:id=uypn-9feh v:profileImageUrlMedium=/api/users/uypn-9feh/profile_images/THUMB v:profileImageUrlLarge=/api/users/uypn-9feh/profile_images/LARGE v:screenName="LA Zoo OpenData" v:profileImageUrlSmall=/api/users/uypn-9feh/profile_images/TINY v:roleName=editor v:displayName="LA Zoo OpenData"
 ```

@@ -78,27 +78,27 @@ series e:g5c2-myyj d:2006-01-09T00:00:00.000Z t:first_name=WILLIAM t:department_
 ## Meta Commands
 
 ```ls
-metric m:scheduled_hours p:integer l:"SCHEDULED HOURS" d:"Scheduled hours per pay period" t:dataTypeName=number
+metric m:scheduled_hours p:integer l:"SCHEDULED HOURS" period" t:dataTypeName=number
 
-metric m:longevity_percentage l:"LONGEVITY PERCENTAGE" d:"Percentage of pay earned by employee for longevity with City-Parish" t:dataTypeName=number
+metric m:longevity_percentage l:"LONGEVITY PERCENTAGE"d by employee for longevity with City-Parish" t:dataTypeName=number
 
-metric m:base_hourly_rate l:"BASE HOURLY RATE" d:"Hourly rate based on pay grade and step" t:dataTypeName=number
+metric m:base_hourly_rate l:"BASE HOURLY RATE"y grade and step" t:dataTypeName=number
 
-metric m:total_hourly_rate l:"TOTAL HOURLY RATE" d:"Hourly rate plus longevity and other earning allowances (Educational, Hazardous Pay, etc)" t:dataTypeName=number
+metric m:total_hourly_rate l:"TOTAL HOURLY RATE"ity and other earning allowances (Educational, Hazardous Pay, etc)" t:dataTypeName=number
 
-metric m:overtime_hourly_rate l:"OVERTIME HOURLY RATE" d:"Hourly rate plus allowable overtime earning types multiplied by 1.5" t:dataTypeName=number
+metric m:overtime_hourly_rate l:"OVERTIME HOURLY RATE"ble overtime earning types multiplied by 1.5" t:dataTypeName=number
 
-metric m:payroll_status p:integer l:"EMPLOYMENT STATUS" d:"Status in payroll system: 0 - Active, 1 - Temporary Leave (no arrears), 2 - Temporary Leave with Arrears, 3 - Inactive, 4 - Terminated Last Pay Period, 5 - No longer with City-Parish." t:dataTypeName=number
+metric m:payroll_status p:integer l:"EMPLOYMENT STATUS"m: 0 - Active, 1 - Temporary Leave (no arrears), 2 - Temporary Leave with Arrears, 3 - Inactive, 4 - Terminated Last Pay Period, 5 - No longer with City-Parish." t:dataTypeName=number
 
-metric m:total_overtime_hours l:"TOTAL OVERTIME HOURS" d:"Total number of overtime hours worked for the year" t:dataTypeName=number
+metric m:total_overtime_hours l:"TOTAL OVERTIME HOURS"e hours worked for the year" t:dataTypeName=number
 
 entity e:g5c2-myyj l:"City-Parish Employee Annual Salaries" t:attribution="City of Baton Rouge - Human Resources" t:url=https://data.brla.gov/api/views/g5c2-myyj
 
-property e:g5c2-myyj t:meta.view d:2017-03-10T16:14:23.029Z v:id=g5c2-myyj v:category=Government v:attributionLink=http://brgov.com/dept/hr v:averageRating=0 v:name="City-Parish Employee Annual Salaries" v:attribution="City of Baton Rouge - Human Resources"
+property e:g5c2-myyj t:meta.view v:id=g5c2-myyj v:category=Government v:attributionLink=http://brgov.com/dept/hr v:averageRating=0 v:name="City-Parish Employee Annual Salaries" v:attribution="City of Baton Rouge - Human Resources"
 
-property e:g5c2-myyj t:meta.view.license d:2017-03-10T16:14:23.029Z v:name="Public Domain"
+property e:g5c2-myyj t:meta.view.license v:name="Public Domain"
 
-property e:g5c2-myyj t:meta.view.owner d:2017-03-10T16:14:23.029Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:g5c2-myyj t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 
-property e:g5c2-myyj t:meta.view.tableauthor d:2017-03-10T16:14:23.029Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:g5c2-myyj t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

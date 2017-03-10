@@ -53,9 +53,9 @@ Format & Zone = seconds
 ```ls
 entity e:ysrq-tssh l:"Aquatic Pesticide and Algae Management Draft General Permit Comments" t:url=https://data.wa.gov/api/views/ysrq-tssh
 
-property e:ysrq-tssh t:meta.view d:2017-03-10T16:29:04.996Z v:id=ysrq-tssh v:category="Natural Resources & Environment" v:averageRating=0 v:name="Aquatic Pesticide and Algae Management Draft General Permit Comments"
+property e:ysrq-tssh t:meta.view v:id=ysrq-tssh v:category="Natural Resources & Environment" v:averageRating=0 v:name="Aquatic Pesticide and Algae Management Draft General Permit Comments"
 
-property e:ysrq-tssh t:meta.view.owner d:2017-03-10T16:29:04.996Z v:id=us76-w9xc v:screenName="Tim Lewis" v:roleName=publisher v:displayName="Tim Lewis"
+property e:ysrq-tssh t:meta.view.owner v:id=us76-w9xc v:screenName="Tim Lewis" v:roleName=publisher v:displayName="Tim Lewis"
 
-property e:ysrq-tssh t:meta.view.tableauthor d:2017-03-10T16:29:04.996Z v:id=us76-w9xc v:screenName="Tim Lewis" v:roleName=publisher v:displayName="Tim Lewis"
+property e:ysrq-tssh t:meta.view.tableauthor v:id=us76-w9xc v:screenName="Tim Lewis" v:roleName=publisher v:displayName="Tim Lewis"
 ```

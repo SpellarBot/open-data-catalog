@@ -15,8 +15,8 @@
 | Category | Community Development |
 | Tags | community, neighborhood associations, connected, city of jackson, super neighborhood, citizen engagement, city hall, constituent services, community improvement |
 | Created | 2016-03-23T15:03:39Z |
-| Publication Date | 2017-03-09T15:21:48Z |
-| Rows Updated | 2017-03-09T15:21:37Z |
+| Publication Date | 2017-03-10T21:09:59Z |
+| Rows Updated | 2017-03-10T21:09:49Z |
 
 ## Description
 
@@ -69,39 +69,39 @@ series e:6d4u-fgst d:2016-01-21T00:00:00.000Z m:money_saved_supervisor_completio
 ## Meta Commands
 
 ```ls
-metric m:number_of_inspections p:integer l:"Number of Inspections" t:dataTypeName=number
+metric m:number_of_inspections l:"Number of Inspections" t:dataTypeName=number
 
-metric m:number_of_hearing_notices_mailed p:integer l:"Number of Hearing Notices Mailed" t:dataTypeName=number
+metric m:number_of_hearing_notices_mailed l:"Number of Hearing Notices Mailed" t:dataTypeName=number
 
-metric m:number_of_cases_presented_to_hearing_officers p:integer l:"Number of Cases Presented to Hearing Officers" t:dataTypeName=number
+metric m:number_of_cases_presented_to_hearing_officers l:"Number of Cases Presented to Hearing Officers" t:dataTypeName=number
 
-metric m:number_of_311_complaints_received p:integer l:"Number of 311 Complaints Received" t:dataTypeName=number
+metric m:number_of_311_complaints_received l:"Number of 311 Complaints Received" t:dataTypeName=number
 
-metric m:number_of_311_complaints_resolved p:integer l:"Number of 311 Complaints Resolved" t:dataTypeName=number
+metric m:number_of_311_complaints_resolved l:"Number of 311 Complaints Resolved" t:dataTypeName=number
 
-metric m:number_of_initiated_demolition_cases p:integer l:"Number of Initiated Demolition Cases" t:dataTypeName=number
+metric m:number_of_initiated_demolition_cases l:"Number of Initiated Demolition Cases" t:dataTypeName=number
 
-metric m:number_of_demolition_cases_completed p:integer l:"Number of Demolition Cases Completed" t:dataTypeName=number
+metric m:number_of_demolition_cases_completed l:"Number of Demolition Cases Completed" t:dataTypeName=number
 
-metric m:number_of_initiated_board_up_cases p:integer l:"Number of Initiated Board Up Cases" t:dataTypeName=number
+metric m:number_of_initiated_board_up_cases l:"Number of Initiated Board Up Cases" t:dataTypeName=number
 
-metric m:number_of_board_up_cases_completed p:integer l:"Number of Board Up Cases completed" t:dataTypeName=number
+metric m:number_of_board_up_cases_completed l:"Number of Board Up Cases completed" t:dataTypeName=number
 
-metric m:number_of_initiated_grass_and_weed_cases p:integer l:"Number of Initiated Grass and Weed Cases" t:dataTypeName=number
+metric m:number_of_initiated_grass_and_weed_cases l:"Number of Initiated Grass and Weed Cases" t:dataTypeName=number
 
-metric m:number_of_grass_and_weed_casses_completed p:integer l:"Number of Grass and Weed Casses Completed" t:dataTypeName=number
+metric m:number_of_grass_and_weed_casses_completed l:"Number of Grass and Weed Casses Completed" t:dataTypeName=number
 
-metric m:number_of_housing_inspections p:integer l:"Number of Housing Inspections" t:dataTypeName=number
+metric m:number_of_housing_inspections l:"Number of Housing Inspections" t:dataTypeName=number
 
-metric m:number_of_lots_completed_by_inmate_labor p:integer l:"Number of Lots Completed by Inmate Labor" t:dataTypeName=number
+metric m:number_of_lots_completed_by_inmate_labor l:"Number of Lots Completed by Inmate Labor" t:dataTypeName=number
 
-metric m:number_of_lots_completed_by_supervisors p:integer l:"Number of Lots Completed by Supervisors" t:dataTypeName=number
+metric m:number_of_lots_completed_by_supervisors l:"Number of Lots Completed by Supervisors" t:dataTypeName=number
 
 entity e:6d4u-fgst l:"Weekly Community Improvement Numbers" t:attribution="City of Jackson - Police Department" t:url=https://data.jacksonms.gov/api/views/6d4u-fgst
 
-property e:6d4u-fgst t:meta.view d:2017-03-10T16:01:50.065Z v:id=6d4u-fgst v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Weekly Community Improvement Numbers" v:attribution="City of Jackson - Police Department"
+property e:6d4u-fgst t:meta.view v:id=6d4u-fgst v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Weekly Community Improvement Numbers" v:attribution="City of Jackson - Police Department"
 
-property e:6d4u-fgst t:meta.view.owner d:2017-03-10T16:01:50.065Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:6d4u-fgst t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 
-property e:6d4u-fgst t:meta.view.tableauthor d:2017-03-10T16:01:50.065Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:6d4u-fgst t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```

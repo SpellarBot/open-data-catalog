@@ -59,11 +59,11 @@ metric m:totals p:integer l:Totals t:dataTypeName=number
 
 entity e:z2s8-vdru l:"Building and Zoning - Violations Issued - 2005 through part of 2011" t:attribution="Cook County Department of Building and Zoning" t:url=https://datacatalog.cookcountyil.gov/api/views/z2s8-vdru
 
-property e:z2s8-vdru t:meta.view d:2017-03-10T16:08:06.436Z v:id=z2s8-vdru v:category="Economic Development" v:attributionLink=http://www.cookcountyil.gov/BuildingZoning v:averageRating=0 v:name="Building and Zoning - Violations Issued - 2005 through part of 2011" v:attribution="Cook County Department of Building and Zoning"
+property e:z2s8-vdru t:meta.view v:id=z2s8-vdru v:category="Economic Development" v:attributionLink=http://www.cookcountyil.gov/BuildingZoning v:averageRating=0 v:name="Building and Zoning - Violations Issued - 2005 through part of 2011" v:attribution="Cook County Department of Building and Zoning"
 
-property e:z2s8-vdru t:meta.view.license d:2017-03-10T16:08:06.436Z v:name="Public Domain"
+property e:z2s8-vdru t:meta.view.license v:name="Public Domain"
 
-property e:z2s8-vdru t:meta.view.owner d:2017-03-10T16:08:06.436Z v:id=8gct-yg9j v:screenName=HJF v:displayName=HJF
+property e:z2s8-vdru t:meta.view.owner v:id=8gct-yg9j v:screenName=HJF v:displayName=HJF
 
-property e:z2s8-vdru t:meta.view.tableauthor d:2017-03-10T16:08:06.436Z v:id=8gct-yg9j v:screenName=HJF v:displayName=HJF
+property e:z2s8-vdru t:meta.view.tableauthor v:id=8gct-yg9j v:screenName=HJF v:displayName=HJF
 ```

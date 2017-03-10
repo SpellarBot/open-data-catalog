@@ -18,10 +18,10 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-04
-[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-08
+[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-10
+[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-10
 [2013 Housing Inventory](datasets/e7d3-dxh5.md) | Housing and Buildings | 2015-09-23
-[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-09
+[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-10
 [Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election](datasets/85cd-6rtn.md) | City Management and Ethics | 2012-11-09
 
 ## data.jacksonms.gov
@@ -30,7 +30,7 @@ Name | Category | Updated
 ---- | -------- | -------
 [Super Neighborhood Tracker](datasets/jcxs-qmaz.md) | Community Development | 2016-03-07
 [Jackson Capital Budget Project Phases List](datasets/7f3h-pm6e.md) | Public Works | 2016-12-22
-[Weekly Community Improvement Numbers](datasets/6d4u-fgst.md) | Community Development | 2017-03-09
+[Weekly Community Improvement Numbers](datasets/6d4u-fgst.md) | Community Development | 2017-03-10
 [Thalia Mara Numbers](datasets/wr52-jff7.md) | City Services | 2016-10-17
 [Weekly Crime Statistics](datasets/jiea-vc79.md) | Public Safety | 2017-02-13
 
@@ -245,7 +245,7 @@ Name | Category | Updated
 ---- | -------- | -------
 [Parking 2015](datasets/m2gw-xt7z.md) | Transportation | 2015-05-13
 [Exceptional Trees On Oahu](datasets/84fd-3fzf.md) | Recreation | 2013-04-30
-[HPD Crime Incidents](datasets/f5dd-pqys.md) |     | 2017-03-09
+[HPD Crime Incidents](datasets/f5dd-pqys.md) |     | 2017-03-10
 [Existing Bike Facilities](datasets/5hpa-8dfv.md) | Transportation | 2015-04-16
 [Proposed FY16 Budget](datasets/rkqa-i8sr.md) | Finance | 2015-03-06
 

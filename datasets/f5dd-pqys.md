@@ -13,7 +13,7 @@
 | Name | HPD Crime Incidents |
 | Created | 2014-12-13T00:26:29Z |
 | Publication Date | 2015-03-12T00:11:07Z |
-| Rows Updated | 2017-03-09T18:15:55Z |
+| Rows Updated | 2017-03-10T18:15:52Z |
 
 ## Columns
 
@@ -58,9 +58,9 @@ metric m:side l:Side t:dataTypeName=number
 
 entity e:f5dd-pqys l:"HPD Crime Incidents" t:url=https://data.honolulu.gov/api/views/f5dd-pqys
 
-property e:f5dd-pqys t:meta.view d:2017-03-10T16:23:17.254Z v:id=f5dd-pqys v:averageRating=0 v:name="HPD Crime Incidents"
+property e:f5dd-pqys t:meta.view v:id=f5dd-pqys v:averageRating=0 v:name="HPD Crime Incidents"
 
-property e:f5dd-pqys t:meta.view.owner d:2017-03-10T16:23:17.254Z v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
+property e:f5dd-pqys t:meta.view.owner v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
 
-property e:f5dd-pqys t:meta.view.tableauthor d:2017-03-10T16:23:17.254Z v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
+property e:f5dd-pqys t:meta.view.tableauthor v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
 ```

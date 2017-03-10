@@ -70,9 +70,9 @@ metric m:license p:integer l:"License #" t:dataTypeName=number
 
 entity e:hbcs-x3a5 l:"IDPH Hospice Residence Facilities" t:attribution="Division of Health Care Facilities and Programs" t:url=https://data.illinois.gov/api/views/hbcs-x3a5
 
-property e:hbcs-x3a5 t:meta.view d:2017-03-10T16:15:35.656Z v:id=hbcs-x3a5 v:category="Public Health" v:attributionLink=http://www.idph.state.il.us/about/ohcr.htm v:averageRating=0 v:name="IDPH Hospice Residence Facilities" v:attribution="Division of Health Care Facilities and Programs"
+property e:hbcs-x3a5 t:meta.view v:id=hbcs-x3a5 v:category="Public Health" v:attributionLink=http://www.idph.state.il.us/about/ohcr.htm v:averageRating=0 v:name="IDPH Hospice Residence Facilities" v:attribution="Division of Health Care Facilities and Programs"
 
-property e:hbcs-x3a5 t:meta.view.owner d:2017-03-10T16:15:35.656Z v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
+property e:hbcs-x3a5 t:meta.view.owner v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
 
-property e:hbcs-x3a5 t:meta.view.tableauthor d:2017-03-10T16:15:35.656Z v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
+property e:hbcs-x3a5 t:meta.view.tableauthor v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
 ```

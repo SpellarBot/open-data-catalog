@@ -57,19 +57,19 @@ series e:bdcs-pnmx d:1970-01-01T00:00:00.000Z t:taxmap=GZ122 t:quad=NW t:grid=24
 ## Meta Commands
 
 ```ls
-metric m:numyc p:integer l:NUMYC d:NUMYC t:dataTypeName=number
+metric m:numyc p:integer l:NUMYCber
 
-metric m:numxc p:integer l:NUMXC d:NUMXC t:dataTypeName=number
+metric m:numxc p:integer l:NUMXCber
 
-metric m:shape_area l:SHAPE.AREA d:SHAPE.AREA t:dataTypeName=number
+metric m:shape_area l:SHAPE.AREAe=number
 
-metric m:shape_len l:SHAPE.LEN d:SHAPE.LEN t:dataTypeName=number
+metric m:shape_len l:SHAPE.LEN=number
 
 entity e:bdcs-pnmx l:"WSSC Grid [arcgis_rest_services_general_wssc_grid_MapServer_0]" t:url=https://data.montgomerycountymd.gov/api/views/bdcs-pnmx
 
-property e:bdcs-pnmx t:meta.view d:2017-03-10T16:21:21.928Z v:id=bdcs-pnmx v:category=Environment v:averageRating=0 v:name="WSSC Grid [arcgis_rest_services_general_wssc_grid_MapServer_0]"
+property e:bdcs-pnmx t:meta.view v:id=bdcs-pnmx v:category=Environment v:averageRating=0 v:name="WSSC Grid [arcgis_rest_services_general_wssc_grid_MapServer_0]"
 
-property e:bdcs-pnmx t:meta.view.owner d:2017-03-10T16:21:21.928Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:bdcs-pnmx t:meta.view.owner v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 
-property e:bdcs-pnmx t:meta.view.tableauthor d:2017-03-10T16:21:21.928Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:bdcs-pnmx t:meta.view.tableauthor v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 ```

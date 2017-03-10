@@ -90,11 +90,11 @@ metric m:confidence_limit_high l:Confidence_limit_High t:dataTypeName=number
 
 entity e:y4ft-s73h l:"Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)" t:url=https://data.cdc.gov/api/views/y4ft-s73h
 
-property e:y4ft-s73h t:meta.view d:2017-03-10T16:16:25.059Z v:id=y4ft-s73h v:category="Behavioral Risk Factors" v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)"
+property e:y4ft-s73h t:meta.view v:id=y4ft-s73h v:category="Behavioral Risk Factors" v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)"
 
-property e:y4ft-s73h t:meta.view.owner d:2017-03-10T16:16:25.059Z v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
+property e:y4ft-s73h t:meta.view.owner v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
 
-property e:y4ft-s73h t:meta.view.tableauthor d:2017-03-10T16:16:25.059Z v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
+property e:y4ft-s73h t:meta.view.tableauthor v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
 
-property e:y4ft-s73h t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:16:25.059Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:y4ft-s73h t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```

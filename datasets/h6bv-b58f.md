@@ -54,17 +54,17 @@ series e:h6bv-b58f d:1970-01-01T00:00:00.000Z t:name=BETHESDA t:objectid=3 m:sha
 ## Meta Commands
 
 ```ls
-metric m:objectid_1 p:integer l:OBJECTID_1 d:OBJECTID_1 t:dataTypeName=number
+metric m:objectid_1 p:integer l:OBJECTID_1e=number
 
-metric m:shape_area l:SHAPE.AREA d:SHAPE.AREA t:dataTypeName=number
+metric m:shape_area l:SHAPE.AREAe=number
 
-metric m:shape_len l:SHAPE.LEN d:SHAPE.LEN t:dataTypeName=number
+metric m:shape_len l:SHAPE.LEN=number
 
 entity e:h6bv-b58f l:"Urban Districts" t:url=https://data.montgomerycountymd.gov/api/views/h6bv-b58f
 
-property e:h6bv-b58f t:meta.view d:2017-03-10T16:21:02.851Z v:id=h6bv-b58f v:category=Business v:averageRating=0 v:name="Urban Districts"
+property e:h6bv-b58f t:meta.view v:id=h6bv-b58f v:category=Business v:averageRating=0 v:name="Urban Districts"
 
-property e:h6bv-b58f t:meta.view.owner d:2017-03-10T16:21:02.851Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:h6bv-b58f t:meta.view.owner v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 
-property e:h6bv-b58f t:meta.view.tableauthor d:2017-03-10T16:21:02.851Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:h6bv-b58f t:meta.view.tableauthor v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 ```

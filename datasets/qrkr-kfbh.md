@@ -74,11 +74,11 @@ metric m:2016_17_adopted_budget p:integer l:"2016-17 Adopted Budget" t:dataTypeN
 
 entity e:qrkr-kfbh l:"General Fund Revenue" t:url=https://data.lacity.org/api/views/qrkr-kfbh
 
-property e:qrkr-kfbh t:meta.view d:2017-03-10T16:33:06.266Z v:id=qrkr-kfbh v:category="A Prosperous City" v:averageRating=0 v:name="General Fund Revenue"
+property e:qrkr-kfbh t:meta.view v:id=qrkr-kfbh v:category="A Prosperous City" v:averageRating=0 v:name="General Fund Revenue"
 
-property e:qrkr-kfbh t:meta.view.license d:2017-03-10T16:33:06.266Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:qrkr-kfbh t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:qrkr-kfbh t:meta.view.owner d:2017-03-10T16:33:06.266Z v:id=95pg-i79k v:profileImageUrlMedium=/api/users/95pg-i79k/profile_images/THUMB v:profileImageUrlLarge=/api/users/95pg-i79k/profile_images/LARGE v:screenName=ChelseaU v:profileImageUrlSmall=/api/users/95pg-i79k/profile_images/TINY v:roleName=administrator v:displayName=ChelseaU
+property e:qrkr-kfbh t:meta.view.owner v:id=95pg-i79k v:profileImageUrlMedium=/api/users/95pg-i79k/profile_images/THUMB v:profileImageUrlLarge=/api/users/95pg-i79k/profile_images/LARGE v:screenName=ChelseaU v:profileImageUrlSmall=/api/users/95pg-i79k/profile_images/TINY v:roleName=administrator v:displayName=ChelseaU
 
-property e:qrkr-kfbh t:meta.view.tableauthor d:2017-03-10T16:33:06.266Z v:id=95pg-i79k v:profileImageUrlMedium=/api/users/95pg-i79k/profile_images/THUMB v:profileImageUrlLarge=/api/users/95pg-i79k/profile_images/LARGE v:screenName=ChelseaU v:profileImageUrlSmall=/api/users/95pg-i79k/profile_images/TINY v:roleName=administrator v:displayName=ChelseaU
+property e:qrkr-kfbh t:meta.view.tableauthor v:id=95pg-i79k v:profileImageUrlMedium=/api/users/95pg-i79k/profile_images/THUMB v:profileImageUrlLarge=/api/users/95pg-i79k/profile_images/LARGE v:screenName=ChelseaU v:profileImageUrlSmall=/api/users/95pg-i79k/profile_images/TINY v:roleName=administrator v:displayName=ChelseaU
 ```

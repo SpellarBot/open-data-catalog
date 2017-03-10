@@ -51,9 +51,9 @@ metric m:not_meeting p:integer l:"Not Meeting" t:dataTypeName=number
 
 entity e:spnc-z2pw l:"Statewide -- Hatchery Standards 2016 SOS 10172016" t:url=https://data.wa.gov/api/views/spnc-z2pw
 
-property e:spnc-z2pw t:meta.view d:2017-03-10T16:28:43.530Z v:id=spnc-z2pw v:averageRating=0 v:name="Statewide -- Hatchery Standards 2016 SOS 10172016"
+property e:spnc-z2pw t:meta.view v:id=spnc-z2pw v:averageRating=0 v:name="Statewide -- Hatchery Standards 2016 SOS 10172016"
 
-property e:spnc-z2pw t:meta.view.owner d:2017-03-10T16:28:43.530Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:spnc-z2pw t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 
-property e:spnc-z2pw t:meta.view.tableauthor d:2017-03-10T16:28:43.530Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:spnc-z2pw t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

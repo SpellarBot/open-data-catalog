@@ -128,11 +128,11 @@ metric m:worcester_county l:"Worcester County" t:dataTypeName=number
 
 entity e:p4s2-mc7r l:"Maryland Total Acres For Residential Development: 2006-2010" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/p4s2-mc7r
 
-property e:p4s2-mc7r t:meta.view d:2017-03-10T16:04:20.974Z v:id=p4s2-mc7r v:category=Housing v:attributionLink=http://planning.maryland.gov/msdc/md_statistical_handbook12.pdf v:averageRating=0 v:name="Maryland Total Acres For Residential Development: 2006-2010" v:attribution="Maryland Department of Planning"
+property e:p4s2-mc7r t:meta.view v:id=p4s2-mc7r v:category=Housing v:attributionLink=http://planning.maryland.gov/msdc/md_statistical_handbook12.pdf v:averageRating=0 v:name="Maryland Total Acres For Residential Development: 2006-2010" v:attribution="Maryland Department of Planning"
 
-property e:p4s2-mc7r t:meta.view.license d:2017-03-10T16:04:20.974Z v:name="Public Domain"
+property e:p4s2-mc7r t:meta.view.license v:name="Public Domain"
 
-property e:p4s2-mc7r t:meta.view.owner d:2017-03-10T16:04:20.974Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
+property e:p4s2-mc7r t:meta.view.owner v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
 
-property e:p4s2-mc7r t:meta.view.tableauthor d:2017-03-10T16:04:20.974Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
+property e:p4s2-mc7r t:meta.view.tableauthor v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
 ```

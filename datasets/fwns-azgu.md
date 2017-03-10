@@ -81,21 +81,21 @@ series e:fwns-azgu d:2000-01-01T00:00:00.000Z t:topic="Coronary Heart Disease" t
 ## Meta Commands
 
 ```ls
-metric m:data_value l:Data_Value d:"Data value (point estimate)" t:dataTypeName=number
+metric m:data_value l:Data_Valueate)" t:dataTypeName=number
 
-metric m:confidence_limit_low p:integer l:Confidence_limit_Low d:"95% confidence interval lower bound" t:dataTypeName=number
+metric m:confidence_limit_low p:integer l:Confidence_limit_Low lower bound" t:dataTypeName=number
 
-metric m:confidence_limit_high l:Confidence_limit_High d:"95% confidence interval upper bound" t:dataTypeName=number
+metric m:confidence_limit_high l:Confidence_limit_High upper bound" t:dataTypeName=number
 
 entity e:fwns-azgu l:"National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Health Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System" t:url=https://chronicdata.cdc.gov/api/views/fwns-azgu
 
-property e:fwns-azgu t:meta.view d:2017-03-10T16:22:41.301Z v:id=fwns-azgu v:category="Heart Disease & Stroke Prevention" v:attributionLink=http://www.cdc.gov/dhdsp/ncvdss/index.htm v:averageRating=0 v:name="National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Health Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System"
+property e:fwns-azgu t:meta.view v:id=fwns-azgu v:category="Heart Disease & Stroke Prevention" v:attributionLink=http://www.cdc.gov/dhdsp/ncvdss/index.htm v:averageRating=0 v:name="National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Health Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System"
 
-property e:fwns-azgu t:meta.view.license d:2017-03-10T16:22:41.301Z v:name="Public Domain"
+property e:fwns-azgu t:meta.view.license v:name="Public Domain"
 
-property e:fwns-azgu t:meta.view.owner d:2017-03-10T16:22:41.301Z v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
+property e:fwns-azgu t:meta.view.owner v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
 
-property e:fwns-azgu t:meta.view.tableauthor d:2017-03-10T16:22:41.301Z v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
+property e:fwns-azgu t:meta.view.tableauthor v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
 
-property e:fwns-azgu t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:22:41.301Z v:Publisher="CDC Info" v:Contact_Email=cdcinfo@cdc.gov v:Public_Access_Level=Public v:Contact_Name="CDC Info" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:fwns-azgu t:meta.view.metadata.custom_fields.common_core v:Publisher="CDC Info" v:Contact_Email=cdcinfo@cdc.gov v:Public_Access_Level=Public v:Contact_Name="CDC Info" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```

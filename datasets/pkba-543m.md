@@ -56,11 +56,11 @@ Format & Zone = seconds
 ```ls
 entity e:pkba-543m l:"Bills That Passed 2013 Legislature" t:attribution="Hawaii State Legislature" t:url=https://data.hawaii.gov/api/views/pkba-543m
 
-property e:pkba-543m t:meta.view d:2017-03-10T16:11:49.004Z v:id=pkba-543m v:category="Government-Wide Support" v:attributionLink=http://capitol.hawaii.gov v:averageRating=0 v:name="Bills That Passed 2013 Legislature" v:attribution="Hawaii State Legislature"
+property e:pkba-543m t:meta.view v:id=pkba-543m v:category="Government-Wide Support" v:attributionLink=http://capitol.hawaii.gov v:averageRating=0 v:name="Bills That Passed 2013 Legislature" v:attribution="Hawaii State Legislature"
 
-property e:pkba-543m t:meta.view.license d:2017-03-10T16:11:49.004Z v:name="Public Domain"
+property e:pkba-543m t:meta.view.license v:name="Public Domain"
 
-property e:pkba-543m t:meta.view.owner d:2017-03-10T16:11:49.004Z v:id=tz3q-nbms v:profileImageUrlMedium=/api/users/tz3q-nbms/profile_images/THUMB v:profileImageUrlLarge=/api/users/tz3q-nbms/profile_images/LARGE v:screenName="Russell Castagnaro" v:profileImageUrlSmall=/api/users/tz3q-nbms/profile_images/TINY v:roleName=publisher v:displayName="Russell Castagnaro"
+property e:pkba-543m t:meta.view.owner v:id=tz3q-nbms v:profileImageUrlMedium=/api/users/tz3q-nbms/profile_images/THUMB v:profileImageUrlLarge=/api/users/tz3q-nbms/profile_images/LARGE v:screenName="Russell Castagnaro" v:profileImageUrlSmall=/api/users/tz3q-nbms/profile_images/TINY v:roleName=publisher v:displayName="Russell Castagnaro"
 
-property e:pkba-543m t:meta.view.tableauthor d:2017-03-10T16:11:49.004Z v:id=tz3q-nbms v:profileImageUrlMedium=/api/users/tz3q-nbms/profile_images/THUMB v:profileImageUrlLarge=/api/users/tz3q-nbms/profile_images/LARGE v:screenName="Russell Castagnaro" v:profileImageUrlSmall=/api/users/tz3q-nbms/profile_images/TINY v:roleName=publisher v:displayName="Russell Castagnaro"
+property e:pkba-543m t:meta.view.tableauthor v:id=tz3q-nbms v:profileImageUrlMedium=/api/users/tz3q-nbms/profile_images/THUMB v:profileImageUrlLarge=/api/users/tz3q-nbms/profile_images/LARGE v:screenName="Russell Castagnaro" v:profileImageUrlSmall=/api/users/tz3q-nbms/profile_images/TINY v:roleName=publisher v:displayName="Russell Castagnaro"
 ```
