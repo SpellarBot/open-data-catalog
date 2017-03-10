@@ -63,9 +63,9 @@ metric m:shape_len l:SHAPE.LEN d:"Perimeter (Meter)" t:dataTypeName=number
 
 entity e:rfvm-5n7x l:"Federal, Institutional, and Park Lands" t:attribution="Iowa Department of Transportation - Office of Systems Planning" t:url=https://data.iowa.gov/api/views/rfvm-5n7x
 
-property e:rfvm-5n7x t:meta.view d:2017-03-10T14:30:19.526Z v:id=rfvm-5n7x v:category="Transportation & Utilities" v:averageRating=0 v:name="Federal, Institutional, and Park Lands" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
+property e:rfvm-5n7x t:meta.view d:2017-03-10T16:20:13.243Z v:id=rfvm-5n7x v:category="Transportation & Utilities" v:averageRating=0 v:name="Federal, Institutional, and Park Lands" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
 
-property e:rfvm-5n7x t:meta.view.owner d:2017-03-10T14:30:19.526Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:rfvm-5n7x t:meta.view.owner d:2017-03-10T16:20:13.243Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:rfvm-5n7x t:meta.view.tableauthor d:2017-03-10T14:30:19.526Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:rfvm-5n7x t:meta.view.tableauthor d:2017-03-10T16:20:13.243Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

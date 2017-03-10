@@ -56,9 +56,9 @@ metric m:phase_step_number p:integer l:"Phase Step Number" t:dataTypeName=number
 
 entity e:7f3h-pm6e l:"Jackson Capital Budget Project Phases List" t:url=https://data.jacksonms.gov/api/views/7f3h-pm6e
 
-property e:7f3h-pm6e t:meta.view d:2017-03-10T14:36:33.560Z v:id=7f3h-pm6e v:category="Public Works" v:averageRating=0 v:name="Jackson Capital Budget Project Phases List"
+property e:7f3h-pm6e t:meta.view d:2017-03-10T16:01:42.980Z v:id=7f3h-pm6e v:category="Public Works" v:averageRating=0 v:name="Jackson Capital Budget Project Phases List"
 
-property e:7f3h-pm6e t:meta.view.owner d:2017-03-10T14:36:33.560Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:7f3h-pm6e t:meta.view.owner d:2017-03-10T16:01:42.980Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 
-property e:7f3h-pm6e t:meta.view.tableauthor d:2017-03-10T14:36:33.560Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:7f3h-pm6e t:meta.view.tableauthor d:2017-03-10T16:01:42.980Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```

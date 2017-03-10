@@ -82,11 +82,11 @@ metric m:judicial_department_of_admission l:"Judicial Department of Admission" t
 
 entity e:eqw2-r5nb l:"NYS Attorney Registrations" t:attribution="NYS Unified Court System" t:url=https://data.ny.gov/api/views/eqw2-r5nb
 
-property e:eqw2-r5nb t:meta.view d:2017-03-10T14:26:28.703Z v:id=eqw2-r5nb v:category=Transparency v:averageRating=0 v:name="NYS Attorney Registrations" v:attribution="NYS Unified Court System"
+property e:eqw2-r5nb t:meta.view d:2017-03-10T16:17:34.023Z v:id=eqw2-r5nb v:category=Transparency v:averageRating=0 v:name="NYS Attorney Registrations" v:attribution="NYS Unified Court System"
 
-property e:eqw2-r5nb t:meta.view.owner d:2017-03-10T14:26:28.703Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:eqw2-r5nb t:meta.view.owner d:2017-03-10T16:17:34.023Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:eqw2-r5nb t:meta.view.tableauthor d:2017-03-10T14:26:28.703Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:eqw2-r5nb t:meta.view.tableauthor d:2017-03-10T16:17:34.023Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:eqw2-r5nb t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:26:28.703Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:eqw2-r5nb t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:17:34.023Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

@@ -90,9 +90,9 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:w7uw-j3pp l:"Libraries - 2016 Computer Sessions by Location" t:url=https://data.cityofchicago.org/api/views/w7uw-j3pp
 
-property e:w7uw-j3pp t:meta.view d:2017-03-10T14:16:42.644Z v:id=w7uw-j3pp v:averageRating=0 v:name="Libraries - 2016 Computer Sessions by Location"
+property e:w7uw-j3pp t:meta.view d:2017-03-10T15:59:22.877Z v:id=w7uw-j3pp v:averageRating=0 v:name="Libraries - 2016 Computer Sessions by Location"
 
-property e:w7uw-j3pp t:meta.view.owner d:2017-03-10T14:16:42.644Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:w7uw-j3pp t:meta.view.owner d:2017-03-10T15:59:22.877Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 
-property e:w7uw-j3pp t:meta.view.tableauthor d:2017-03-10T14:16:42.644Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:w7uw-j3pp t:meta.view.tableauthor d:2017-03-10T15:59:22.877Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```

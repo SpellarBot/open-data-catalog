@@ -60,11 +60,11 @@ Excluded Fields = address
 ```ls
 entity e:3qf7-xrf4 l:"Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/3qf7-xrf4
 
-property e:3qf7-xrf4 t:meta.view d:2017-03-10T14:33:37.039Z v:id=3qf7-xrf4 v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com/elections/pollinglocations/Pages/default.aspx v:averageRating=0 v:name="Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
+property e:3qf7-xrf4 t:meta.view d:2017-03-10T16:08:13.908Z v:id=3qf7-xrf4 v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com/elections/pollinglocations/Pages/default.aspx v:averageRating=0 v:name="Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
 
-property e:3qf7-xrf4 t:meta.view.license d:2017-03-10T14:33:37.039Z v:name="Public Domain"
+property e:3qf7-xrf4 t:meta.view.license d:2017-03-10T16:08:13.908Z v:name="Public Domain"
 
-property e:3qf7-xrf4 t:meta.view.owner d:2017-03-10T14:33:37.039Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
+property e:3qf7-xrf4 t:meta.view.owner d:2017-03-10T16:08:13.908Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 
-property e:3qf7-xrf4 t:meta.view.tableauthor d:2017-03-10T14:33:37.039Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
+property e:3qf7-xrf4 t:meta.view.tableauthor d:2017-03-10T16:08:13.908Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 ```

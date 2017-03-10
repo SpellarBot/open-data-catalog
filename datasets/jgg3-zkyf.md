@@ -60,11 +60,11 @@ metric m:upper_ci p:integer l:"Upper Confidence Interval" t:dataTypeName=number
 
 entity e:jgg3-zkyf l:"Percent with unmet medical need, 5-year differences by ethnicity" t:attribution="King County Public Health" t:url=https://data.kingcounty.gov/api/views/jgg3-zkyf
 
-property e:jgg3-zkyf t:meta.view d:2017-03-10T14:29:21.820Z v:id=jgg3-zkyf v:category=Health v:attributionLink=http://www.kingcounty.gov/health v:averageRating=0 v:name="Percent with unmet medical need, 5-year differences by ethnicity" v:attribution="King County Public Health"
+property e:jgg3-zkyf t:meta.view d:2017-03-10T16:12:17.271Z v:id=jgg3-zkyf v:category=Health v:attributionLink=http://www.kingcounty.gov/health v:averageRating=0 v:name="Percent with unmet medical need, 5-year differences by ethnicity" v:attribution="King County Public Health"
 
-property e:jgg3-zkyf t:meta.view.license d:2017-03-10T14:29:21.820Z v:name="Public Domain"
+property e:jgg3-zkyf t:meta.view.license d:2017-03-10T16:12:17.271Z v:name="Public Domain"
 
-property e:jgg3-zkyf t:meta.view.owner d:2017-03-10T14:29:21.820Z v:id=7ja6-sv4x v:profileImageUrlMedium=/api/users/7ja6-sv4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/7ja6-sv4x/profile_images/LARGE v:screenName="King County Open Data admin" v:profileImageUrlSmall=/api/users/7ja6-sv4x/profile_images/TINY v:roleName=administrator v:displayName="King County Open Data admin"
+property e:jgg3-zkyf t:meta.view.owner d:2017-03-10T16:12:17.271Z v:id=7ja6-sv4x v:profileImageUrlMedium=/api/users/7ja6-sv4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/7ja6-sv4x/profile_images/LARGE v:screenName="King County Open Data admin" v:profileImageUrlSmall=/api/users/7ja6-sv4x/profile_images/TINY v:roleName=administrator v:displayName="King County Open Data admin"
 
-property e:jgg3-zkyf t:meta.view.tableauthor d:2017-03-10T14:29:21.820Z v:id=7ja6-sv4x v:profileImageUrlMedium=/api/users/7ja6-sv4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/7ja6-sv4x/profile_images/LARGE v:screenName="King County Open Data admin" v:profileImageUrlSmall=/api/users/7ja6-sv4x/profile_images/TINY v:roleName=administrator v:displayName="King County Open Data admin"
+property e:jgg3-zkyf t:meta.view.tableauthor d:2017-03-10T16:12:17.271Z v:id=7ja6-sv4x v:profileImageUrlMedium=/api/users/7ja6-sv4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/7ja6-sv4x/profile_images/LARGE v:screenName="King County Open Data admin" v:profileImageUrlSmall=/api/users/7ja6-sv4x/profile_images/TINY v:roleName=administrator v:displayName="King County Open Data admin"
 ```

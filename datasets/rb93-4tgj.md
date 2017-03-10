@@ -95,13 +95,13 @@ metric m:female_2014 l:"Female, 2014" t:dataTypeName=number
 
 entity e:rb93-4tgj l:"Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/rb93-4tgj
 
-property e:rb93-4tgj t:meta.view d:2017-03-10T14:21:30.096Z v:id=rb93-4tgj v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
+property e:rb93-4tgj t:meta.view d:2017-03-10T16:16:05.834Z v:id=rb93-4tgj v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
 
-property e:rb93-4tgj t:meta.view.license d:2017-03-10T14:21:30.096Z v:name="Public Domain"
+property e:rb93-4tgj t:meta.view.license d:2017-03-10T16:16:05.834Z v:name="Public Domain"
 
-property e:rb93-4tgj t:meta.view.owner d:2017-03-10T14:21:30.096Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:rb93-4tgj t:meta.view.owner d:2017-03-10T16:16:05.834Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:rb93-4tgj t:meta.view.tableauthor d:2017-03-10T14:21:30.096Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:rb93-4tgj t:meta.view.tableauthor d:2017-03-10T16:16:05.834Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:rb93-4tgj t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:21:30.096Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:rb93-4tgj t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:16:05.834Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

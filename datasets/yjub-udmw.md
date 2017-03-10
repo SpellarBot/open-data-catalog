@@ -60,11 +60,11 @@ Excluded Fields = y,x
 ## Data Commands
 
 ```ls
-series e:yjub-udmw d:2017-03-10T14:20:25.262Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="155th St between 29th Ave and 32nd Ave" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=848 t:type="Limited Free" t:city=Queens m:long_=-73.80905 m:lat=40.77123
+series e:yjub-udmw d:2017-03-10T16:02:56.424Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="155th St between 29th Ave and 32nd Ave" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=848 t:type="Limited Free" t:city=Queens m:long_=-73.80905 m:lat=40.77123
 
-series e:yjub-udmw d:2017-03-10T14:20:25.262Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=849 t:type="Limited Free" t:city=Queens m:long_=-73.80875 m:lat=40.76975
+series e:yjub-udmw d:2017-03-10T16:02:56.424Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=849 t:type="Limited Free" t:city=Queens m:long_=-73.80875 m:lat=40.76975
 
-series e:yjub-udmw d:2017-03-10T14:20:25.262Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=850 t:type="Limited Free" t:city=Queens m:long_=-73.80751 m:lat=40.76965
+series e:yjub-udmw d:2017-03-10T16:02:56.424Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=850 t:type="Limited Free" t:city=Queens m:long_=-73.80751 m:lat=40.76965
 ```
 
 ## Meta Commands
@@ -76,9 +76,9 @@ metric m:long_ l:Long_ d:"Longitude: Points that fall East or West of the Prime 
 
 entity e:yjub-udmw l:"NYC Wi-Fi Hotspot Locations" t:attribution="Department of Information Technology & Telecommunications (DoITT)" t:url=https://data.cityofnewyork.us/api/views/yjub-udmw
 
-property e:yjub-udmw t:meta.view d:2017-03-10T14:20:25.262Z v:id=yjub-udmw v:category="City Government" v:averageRating=0 v:name="NYC Wi-Fi Hotspot Locations" v:attribution="Department of Information Technology & Telecommunications (DoITT)"
+property e:yjub-udmw t:meta.view d:2017-03-10T16:02:56.424Z v:id=yjub-udmw v:category="City Government" v:averageRating=0 v:name="NYC Wi-Fi Hotspot Locations" v:attribution="Department of Information Technology & Telecommunications (DoITT)"
 
-property e:yjub-udmw t:meta.view.owner d:2017-03-10T14:20:25.262Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:yjub-udmw t:meta.view.owner d:2017-03-10T16:02:56.424Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:yjub-udmw t:meta.view.tableauthor d:2017-03-10T14:20:25.262Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:yjub-udmw t:meta.view.tableauthor d:2017-03-10T16:02:56.424Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

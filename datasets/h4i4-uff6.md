@@ -52,11 +52,11 @@ metric m:enrollment_count p:integer l:"Enrollment Count" t:dataTypeName=number
 
 entity e:h4i4-uff6 l:"Risk Management - Employment Enrollment Summary, by Department - April 2012" t:attribution="Cook County Department of Risk Management" t:url=https://datacatalog.cookcountyil.gov/api/views/h4i4-uff6
 
-property e:h4i4-uff6 t:meta.view d:2017-03-10T14:19:17.691Z v:id=h4i4-uff6 v:category="Finance & Administration" v:attributionLink=http://www.cookcountyrisk.com/ v:averageRating=0 v:name="Risk Management - Employment Enrollment Summary, by Department - April 2012" v:attribution="Cook County Department of Risk Management"
+property e:h4i4-uff6 t:meta.view d:2017-03-10T16:08:00.090Z v:id=h4i4-uff6 v:category="Finance & Administration" v:attributionLink=http://www.cookcountyrisk.com/ v:averageRating=0 v:name="Risk Management - Employment Enrollment Summary, by Department - April 2012" v:attribution="Cook County Department of Risk Management"
 
-property e:h4i4-uff6 t:meta.view.license d:2017-03-10T14:19:17.691Z v:name="Public Domain"
+property e:h4i4-uff6 t:meta.view.license d:2017-03-10T16:08:00.090Z v:name="Public Domain"
 
-property e:h4i4-uff6 t:meta.view.owner d:2017-03-10T14:19:17.691Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:h4i4-uff6 t:meta.view.owner d:2017-03-10T16:08:00.090Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:h4i4-uff6 t:meta.view.tableauthor d:2017-03-10T14:19:17.691Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:h4i4-uff6 t:meta.view.tableauthor d:2017-03-10T16:08:00.090Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```

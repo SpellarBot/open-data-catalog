@@ -99,11 +99,11 @@ metric m:top_box_percent_of_patients_rating_of_the_dialysis_facility p:integer l
 
 entity e:utgq-v46w l:"Patient survey (ICH-CAHPS) - National" t:url=https://data.medicare.gov/api/views/utgq-v46w
 
-property e:utgq-v46w t:meta.view d:2017-03-10T14:24:14.589Z v:id=utgq-v46w v:category="Dialysis Facility Compare" v:averageRating=0 v:name="Patient survey (ICH-CAHPS) - National"
+property e:utgq-v46w t:meta.view d:2017-03-10T16:07:16.887Z v:id=utgq-v46w v:category="Dialysis Facility Compare" v:averageRating=0 v:name="Patient survey (ICH-CAHPS) - National"
 
-property e:utgq-v46w t:meta.view.owner d:2017-03-10T14:24:14.589Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:utgq-v46w t:meta.view.owner d:2017-03-10T16:07:16.887Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
 
-property e:utgq-v46w t:meta.view.tableauthor d:2017-03-10T14:24:14.589Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:utgq-v46w t:meta.view.tableauthor d:2017-03-10T16:07:16.887Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
 
-property e:utgq-v46w t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:24:14.589Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
+property e:utgq-v46w t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:07:16.887Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
 ```

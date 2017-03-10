@@ -77,9 +77,9 @@ Excluded Fields = end_date_time
 ```ls
 entity e:3iyi-2ngk l:"Archived 2013 Oregon Public Meetings" t:url=https://data.oregon.gov/api/views/3iyi-2ngk
 
-property e:3iyi-2ngk t:meta.view d:2017-03-10T14:38:32.171Z v:id=3iyi-2ngk v:category=Administrative v:averageRating=0 v:name="Archived 2013 Oregon Public Meetings"
+property e:3iyi-2ngk t:meta.view d:2017-03-10T16:24:25.110Z v:id=3iyi-2ngk v:category=Administrative v:averageRating=0 v:name="Archived 2013 Oregon Public Meetings"
 
-property e:3iyi-2ngk t:meta.view.owner d:2017-03-10T14:38:32.171Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:3iyi-2ngk t:meta.view.owner d:2017-03-10T16:24:25.110Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:3iyi-2ngk t:meta.view.tableauthor d:2017-03-10T14:38:32.171Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:3iyi-2ngk t:meta.view.tableauthor d:2017-03-10T16:24:25.110Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

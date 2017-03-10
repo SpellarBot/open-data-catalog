@@ -71,11 +71,11 @@ metric m:expected_kwh_annual_production l:"Expected KWh Annual Production" d:"Th
 
 entity e:3pzs-2zsk l:"Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/3pzs-2zsk
 
-property e:3pzs-2zsk t:meta.view d:2017-03-10T14:22:55.141Z v:id=3pzs-2zsk v:category="Energy & Environment" v:averageRating=0 v:name="Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" v:attribution="New York State Energy Research and Development Authority"
+property e:3pzs-2zsk t:meta.view d:2017-03-10T16:17:25.145Z v:id=3pzs-2zsk v:category="Energy & Environment" v:averageRating=0 v:name="Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" v:attribution="New York State Energy Research and Development Authority"
 
-property e:3pzs-2zsk t:meta.view.owner d:2017-03-10T14:22:55.141Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:3pzs-2zsk t:meta.view.owner d:2017-03-10T16:17:25.145Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:3pzs-2zsk t:meta.view.tableauthor d:2017-03-10T14:22:55.141Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:3pzs-2zsk t:meta.view.tableauthor d:2017-03-10T16:17:25.145Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:3pzs-2zsk t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:22:55.141Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:3pzs-2zsk t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:17:25.145Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

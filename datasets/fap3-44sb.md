@@ -53,9 +53,9 @@ series e:fap3-44sb d:2016-02-04T08:26:35.000Z t:program_name="FISH AND WILDLIFE 
 ```ls
 entity e:fap3-44sb l:"ARRA Grant Revenue as of COB January 31, 2016" t:url=https://data.mo.gov/api/views/fap3-44sb
 
-property e:fap3-44sb t:meta.view d:2017-03-10T14:18:51.040Z v:id=fap3-44sb v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenue as of COB January 31, 2016"
+property e:fap3-44sb t:meta.view d:2017-03-10T16:03:15.948Z v:id=fap3-44sb v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenue as of COB January 31, 2016"
 
-property e:fap3-44sb t:meta.view.owner d:2017-03-10T14:18:51.040Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:fap3-44sb t:meta.view.owner d:2017-03-10T16:03:15.948Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 
-property e:fap3-44sb t:meta.view.tableauthor d:2017-03-10T14:18:51.040Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:fap3-44sb t:meta.view.tableauthor d:2017-03-10T16:03:15.948Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

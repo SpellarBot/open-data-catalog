@@ -67,11 +67,11 @@ Excluded Fields = bdb_address
 ```ls
 entity e:2dce-kiyy l:"DEPRECATED : King County Ballot Drop Boxes" t:attribution="King County Elections" t:url=https://data.kingcounty.gov/api/views/2dce-kiyy
 
-property e:2dce-kiyy t:meta.view d:2017-03-10T14:20:12.913Z v:id=2dce-kiyy v:category="Election operations" v:attributionLink=http://kingcounty.gov/elections v:averageRating=0 v:name="DEPRECATED : King County Ballot Drop Boxes" v:attribution="King County Elections"
+property e:2dce-kiyy t:meta.view d:2017-03-10T16:12:06.144Z v:id=2dce-kiyy v:category="Election operations" v:attributionLink=http://kingcounty.gov/elections v:averageRating=0 v:name="DEPRECATED : King County Ballot Drop Boxes" v:attribution="King County Elections"
 
-property e:2dce-kiyy t:meta.view.license d:2017-03-10T14:20:12.913Z v:name="Public Domain"
+property e:2dce-kiyy t:meta.view.license d:2017-03-10T16:12:06.144Z v:name="Public Domain"
 
-property e:2dce-kiyy t:meta.view.owner d:2017-03-10T14:20:12.913Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
+property e:2dce-kiyy t:meta.view.owner d:2017-03-10T16:12:06.144Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
 
-property e:2dce-kiyy t:meta.view.tableauthor d:2017-03-10T14:20:12.913Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
+property e:2dce-kiyy t:meta.view.tableauthor d:2017-03-10T16:12:06.144Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
 ```

@@ -62,11 +62,11 @@ metric m:point_y l:POINT_Y t:dataTypeName=number
 
 entity e:jtgq-b7c5 l:"Stormwater inlets, drains and catch basins" t:url=https://data.sfgov.org/api/views/jtgq-b7c5
 
-property e:jtgq-b7c5 t:meta.view d:2017-03-10T14:18:03.229Z v:id=jtgq-b7c5 v:category="City Infrastructure" v:averageRating=0 v:name="Stormwater inlets, drains and catch basins"
+property e:jtgq-b7c5 t:meta.view d:2017-03-10T16:00:38.052Z v:id=jtgq-b7c5 v:category="City Infrastructure" v:averageRating=0 v:name="Stormwater inlets, drains and catch basins"
 
-property e:jtgq-b7c5 t:meta.view.license d:2017-03-10T14:18:03.229Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:jtgq-b7c5 t:meta.view.license d:2017-03-10T16:00:38.052Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:jtgq-b7c5 t:meta.view.owner d:2017-03-10T14:18:03.229Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:jtgq-b7c5 t:meta.view.owner d:2017-03-10T16:00:38.052Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 
-property e:jtgq-b7c5 t:meta.view.tableauthor d:2017-03-10T14:18:03.229Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:jtgq-b7c5 t:meta.view.tableauthor d:2017-03-10T16:00:38.052Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

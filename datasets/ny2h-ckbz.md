@@ -143,9 +143,9 @@ metric m:hisp10 l:hisp10 t:dataTypeName=number
 
 entity e:ny2h-ckbz l:"School Districts" t:url=https://data.mo.gov/api/views/ny2h-ckbz
 
-property e:ny2h-ckbz t:meta.view d:2017-03-10T14:32:26.693Z v:id=ny2h-ckbz v:averageRating=0 v:name="School Districts"
+property e:ny2h-ckbz t:meta.view d:2017-03-10T16:03:45.121Z v:id=ny2h-ckbz v:averageRating=0 v:name="School Districts"
 
-property e:ny2h-ckbz t:meta.view.owner d:2017-03-10T14:32:26.693Z v:id=y4bj-k9rq v:screenName="Alejandro Escobar" v:displayName="Alejandro Escobar"
+property e:ny2h-ckbz t:meta.view.owner d:2017-03-10T16:03:45.121Z v:id=y4bj-k9rq v:screenName="Alejandro Escobar" v:displayName="Alejandro Escobar"
 
-property e:ny2h-ckbz t:meta.view.tableauthor d:2017-03-10T14:32:26.693Z v:id=y4bj-k9rq v:screenName="Alejandro Escobar" v:displayName="Alejandro Escobar"
+property e:ny2h-ckbz t:meta.view.tableauthor d:2017-03-10T16:03:45.121Z v:id=y4bj-k9rq v:screenName="Alejandro Escobar" v:displayName="Alejandro Escobar"
 ```

@@ -272,11 +272,11 @@ metric m:school_of_distintion_highest_performing_high_needs p:integer l:"School 
 
 entity e:mdsf-2nsf l:"State Department of Education Next Generation School Accountability data 2014-2015" t:attribution="State Department of Education" t:url=https://data.ct.gov/api/views/mdsf-2nsf
 
-property e:mdsf-2nsf t:meta.view d:2017-03-10T14:19:24.966Z v:id=mdsf-2nsf v:category=Education v:attributionLink="http://www.sde.ct.gov/sde/cwp/view.asp?a=2683&Q=334346" v:averageRating=0 v:name="State Department of Education Next Generation School Accountability data 2014-2015" v:attribution="State Department of Education"
+property e:mdsf-2nsf t:meta.view d:2017-03-10T16:05:55.737Z v:id=mdsf-2nsf v:category=Education v:attributionLink="http://www.sde.ct.gov/sde/cwp/view.asp?a=2683&Q=334346" v:averageRating=0 v:name="State Department of Education Next Generation School Accountability data 2014-2015" v:attribution="State Department of Education"
 
-property e:mdsf-2nsf t:meta.view.license d:2017-03-10T14:19:24.966Z v:name="Public Domain"
+property e:mdsf-2nsf t:meta.view.license d:2017-03-10T16:05:55.737Z v:name="Public Domain"
 
-property e:mdsf-2nsf t:meta.view.owner d:2017-03-10T14:19:24.966Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:mdsf-2nsf t:meta.view.owner d:2017-03-10T16:05:55.737Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 
-property e:mdsf-2nsf t:meta.view.tableauthor d:2017-03-10T14:19:24.966Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:mdsf-2nsf t:meta.view.tableauthor d:2017-03-10T16:05:55.737Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```

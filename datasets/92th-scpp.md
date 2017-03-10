@@ -72,9 +72,9 @@ metric m:lasar_river_distance l:LASAR_RIVER_DISTANCE t:dataTypeName=number
 
 entity e:92th-scpp l:"SCLR LASARStations Grab Sites" t:attribution="Oregon DEQ Volunteer Program and South Coast Lower Rogue Watershed Councils" t:url=https://data.oregon.gov/api/views/92th-scpp
 
-property e:92th-scpp t:meta.view d:2017-03-10T14:35:04.590Z v:id=92th-scpp v:category="Natural Resources" v:averageRating=0 v:name="SCLR LASARStations Grab Sites" v:attribution="Oregon DEQ Volunteer Program and South Coast Lower Rogue Watershed Councils"
+property e:92th-scpp t:meta.view d:2017-03-10T16:24:03.317Z v:id=92th-scpp v:category="Natural Resources" v:averageRating=0 v:name="SCLR LASARStations Grab Sites" v:attribution="Oregon DEQ Volunteer Program and South Coast Lower Rogue Watershed Councils"
 
-property e:92th-scpp t:meta.view.owner d:2017-03-10T14:35:04.590Z v:id=mgnq-77dc v:screenName="Steve Hanson" v:roleName=editor v:displayName="Steve Hanson"
+property e:92th-scpp t:meta.view.owner d:2017-03-10T16:24:03.317Z v:id=mgnq-77dc v:screenName="Steve Hanson" v:roleName=editor v:displayName="Steve Hanson"
 
-property e:92th-scpp t:meta.view.tableauthor d:2017-03-10T14:35:04.590Z v:id=mgnq-77dc v:screenName="Steve Hanson" v:roleName=editor v:displayName="Steve Hanson"
+property e:92th-scpp t:meta.view.tableauthor d:2017-03-10T16:24:03.317Z v:id=mgnq-77dc v:screenName="Steve Hanson" v:roleName=editor v:displayName="Steve Hanson"
 ```

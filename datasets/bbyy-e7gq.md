@@ -70,9 +70,9 @@ metric m:docks_in_service p:integer l:"Docks in Service" d:"Excludes docks taken
 
 entity e:bbyy-e7gq l:"Divvy Bicycle Stations" t:attribution="Alta Bicycle Share, Inc." t:url=https://data.cityofchicago.org/api/views/bbyy-e7gq
 
-property e:bbyy-e7gq t:meta.view d:2017-03-10T14:38:14.525Z v:id=bbyy-e7gq v:category=Transportation v:attributionLink=http://divvybikes.com/stations/json v:averageRating=0 v:name="Divvy Bicycle Stations" v:attribution="Alta Bicycle Share, Inc."
+property e:bbyy-e7gq t:meta.view d:2017-03-10T16:00:28.404Z v:id=bbyy-e7gq v:category=Transportation v:attributionLink=http://divvybikes.com/stations/json v:averageRating=0 v:name="Divvy Bicycle Stations" v:attribution="Alta Bicycle Share, Inc."
 
-property e:bbyy-e7gq t:meta.view.owner d:2017-03-10T14:38:14.525Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:bbyy-e7gq t:meta.view.owner d:2017-03-10T16:00:28.404Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 
-property e:bbyy-e7gq t:meta.view.tableauthor d:2017-03-10T14:38:14.525Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:bbyy-e7gq t:meta.view.tableauthor d:2017-03-10T16:00:28.404Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```

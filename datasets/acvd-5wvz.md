@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-09T14:29:32Z |
+| Rows Updated | 2017-03-10T14:26:08Z |
 
 ## Description
 
@@ -74,11 +74,11 @@ metric m:eer_rating l:"Energy Efficiency (EER)" d:"A measure of efficiency in th
 
 entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https://data.energystar.gov/api/views/acvd-5wvz
 
-property e:acvd-5wvz t:meta.view d:2017-03-10T14:23:39.275Z v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
+property e:acvd-5wvz t:meta.view d:2017-03-10T16:17:59.173Z v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
 
-property e:acvd-5wvz t:meta.view.owner d:2017-03-10T14:23:39.275Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.owner d:2017-03-10T16:17:59.173Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:acvd-5wvz t:meta.view.tableauthor d:2017-03-10T14:23:39.275Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.tableauthor d:2017-03-10T16:17:59.173Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:23:39.275Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:17:59.173Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
 ```

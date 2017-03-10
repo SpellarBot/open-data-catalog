@@ -81,11 +81,11 @@ metric m:supervisor p:integer l:SD_NO t:dataTypeName=number
 
 entity e:e7d3-dxh5 l:"2013 Housing Inventory" t:attribution="San Francisco Planning Department" t:url=https://data.sfgov.org/api/views/e7d3-dxh5
 
-property e:e7d3-dxh5 t:meta.view d:2017-03-10T14:29:09.356Z v:id=e7d3-dxh5 v:category="Housing and Buildings" v:attributionLink=http://www.sf-planning.org/ftp/files/publications_reports/Housing_Inventory_2013.pdf v:averageRating=0 v:name="2013 Housing Inventory" v:attribution="San Francisco Planning Department"
+property e:e7d3-dxh5 t:meta.view d:2017-03-10T16:01:02.581Z v:id=e7d3-dxh5 v:category="Housing and Buildings" v:attributionLink=http://www.sf-planning.org/ftp/files/publications_reports/Housing_Inventory_2013.pdf v:averageRating=0 v:name="2013 Housing Inventory" v:attribution="San Francisco Planning Department"
 
-property e:e7d3-dxh5 t:meta.view.license d:2017-03-10T14:29:09.356Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:e7d3-dxh5 t:meta.view.license d:2017-03-10T16:01:02.581Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:e7d3-dxh5 t:meta.view.owner d:2017-03-10T14:29:09.356Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:e7d3-dxh5 t:meta.view.owner d:2017-03-10T16:01:02.581Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 
-property e:e7d3-dxh5 t:meta.view.tableauthor d:2017-03-10T14:29:09.356Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:e7d3-dxh5 t:meta.view.tableauthor d:2017-03-10T16:01:02.581Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 ```

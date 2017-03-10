@@ -53,11 +53,11 @@ Format & Zone = seconds
 ```ls
 entity e:5mzi-s8qv l:"IDOL Licensed Nurse Agencies" t:attribution="Illinois Department of Labor" t:url=https://data.illinois.gov/api/views/5mzi-s8qv
 
-property e:5mzi-s8qv t:meta.view d:2017-03-10T14:17:40.158Z v:id=5mzi-s8qv v:category=Labor v:attributionLink=http://labor.illinois.gov/ v:averageRating=0 v:name="IDOL Licensed Nurse Agencies" v:attribution="Illinois Department of Labor"
+property e:5mzi-s8qv t:meta.view d:2017-03-10T16:15:27.768Z v:id=5mzi-s8qv v:category=Labor v:attributionLink=http://labor.illinois.gov/ v:averageRating=0 v:name="IDOL Licensed Nurse Agencies" v:attribution="Illinois Department of Labor"
 
-property e:5mzi-s8qv t:meta.view.license d:2017-03-10T14:17:40.158Z v:name="Public Domain"
+property e:5mzi-s8qv t:meta.view.license d:2017-03-10T16:15:27.768Z v:name="Public Domain"
 
-property e:5mzi-s8qv t:meta.view.owner d:2017-03-10T14:17:40.158Z v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
+property e:5mzi-s8qv t:meta.view.owner d:2017-03-10T16:15:27.768Z v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
 
-property e:5mzi-s8qv t:meta.view.tableauthor d:2017-03-10T14:17:40.158Z v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
+property e:5mzi-s8qv t:meta.view.tableauthor d:2017-03-10T16:15:27.768Z v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
 ```

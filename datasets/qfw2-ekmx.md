@@ -108,11 +108,11 @@ metric m:distance l:DISTANCE d:DISTANCE t:dataTypeName=number
 
 entity e:qfw2-ekmx l:"SDOT Traffic Count Details" t:url=https://data.seattle.gov/api/views/qfw2-ekmx
 
-property e:qfw2-ekmx t:meta.view d:2017-03-10T14:29:38.660Z v:id=qfw2-ekmx v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation/ v:averageRating=0 v:name="SDOT Traffic Count Details"
+property e:qfw2-ekmx t:meta.view d:2017-03-10T16:26:07.114Z v:id=qfw2-ekmx v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation/ v:averageRating=0 v:name="SDOT Traffic Count Details"
 
-property e:qfw2-ekmx t:meta.view.license d:2017-03-10T14:29:38.660Z v:name="Public Domain"
+property e:qfw2-ekmx t:meta.view.license d:2017-03-10T16:26:07.114Z v:name="Public Domain"
 
-property e:qfw2-ekmx t:meta.view.owner d:2017-03-10T14:29:38.660Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:qfw2-ekmx t:meta.view.owner d:2017-03-10T16:26:07.114Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 
-property e:qfw2-ekmx t:meta.view.tableauthor d:2017-03-10T14:29:38.660Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:qfw2-ekmx t:meta.view.tableauthor d:2017-03-10T16:26:07.114Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 ```

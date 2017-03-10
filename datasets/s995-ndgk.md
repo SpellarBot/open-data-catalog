@@ -1,0 +1,75 @@
+# Calculated Library Indicators For Results NOLA
+
+## Dataset
+
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/calculated-library-indicators-for-results-nola-be62d) |
+| Metadata | [Link](https://data.nola.gov/api/views/s995-ndgk) |
+| Data: JSON | [100 Rows](https://data.nola.gov/api/views/s995-ndgk/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.nola.gov/api/views/s995-ndgk/rows.csv?max_rows=100) |
+| Host | data.nola.gov |
+| Id | s995-ndgk |
+| Name | Calculated Library Indicators For Results NOLA |
+| Attribution | New Orleans Public Library |
+| Category | Recreation and Culture |
+| Tags | resultsnola |
+| Created | 2016-01-19T21:00:11Z |
+| Publication Date | 2016-01-28T22:40:02Z |
+| Rows Updated | 2016-01-28T22:38:50Z |
+
+## Description
+
+This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: ?Library Cardholders (2012 - present)? and ?Annual population estimates (2012 ? present)."
+
+## Columns
+
+```ls
+| Included | Schema Type    | Field Name     | Name           | Data Type     | Render Type   |
+| ======== | ============== | ============== | ============== | ============= | ============= |
+| Yes      | series tag     | rowid          | RowID          | text          | text          |
+| Yes      | time           | date           | Date           | calendar_date | calendar_date |
+| No       |                | month          | Month          | text          | text          |
+| No       |                | year           | Year           | number        | number        |
+| Yes      | series tag     | indicatorname  | IndicatorName  | text          | text          |
+| Yes      | numeric metric | indicatorvalue | IndicatorValue | number        | number        |
+```
+
+## Time Field
+
+```ls
+Value = date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = month,year
+```
+
+## Data Commands
+
+```ls
+series e:s995-ndgk d:2012-01-01T00:00:00.000Z t:rowid="Percent of the pop. that are library cardholders (year-to-date)201201" t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)" m:indicatorvalue=14.71
+
+series e:s995-ndgk d:2012-01-01T00:00:00.000Z t:rowid="Percent of the pop. that are library cardholders (current month)201201" t:indicatorname="Percent of the pop. that are library cardholders (current month)" m:indicatorvalue=14.71
+
+series e:s995-ndgk d:2012-02-01T00:00:00.000Z t:rowid="Percent of the pop. that are library cardholders (year-to-date)201202" t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)" m:indicatorvalue=14.818
+```
+
+## Meta Commands
+
+```ls
+metric m:indicatorvalue l:IndicatorValue t:dataTypeName=number
+
+entity e:s995-ndgk l:"Calculated Library Indicators For Results NOLA" t:attribution="New Orleans Public Library" t:url=https://data.nola.gov/api/views/s995-ndgk
+
+property e:s995-ndgk t:meta.view d:2017-03-10T16:15:11.721Z v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
+
+property e:s995-ndgk t:meta.view.owner d:2017-03-10T16:15:11.721Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+
+property e:s995-ndgk t:meta.view.tableauthor d:2017-03-10T16:15:11.721Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+
+property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:15:11.721Z v:Contact_Email=data@nola.gov
+```
