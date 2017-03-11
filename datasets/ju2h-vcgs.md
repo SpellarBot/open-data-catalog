@@ -94,13 +94,13 @@ metric m:ndc p:long l:NDC t:dataTypeName=number
 
 entity e:ju2h-vcgs l:"State Drug Utilization Data 2015" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/ju2h-vcgs
 
-property e:ju2h-vcgs t:meta.view d:2017-03-10T16:08:41.953Z v:id=ju2h-vcgs v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2015" v:attribution="Centers for Medicare and Medicaid"
+property e:ju2h-vcgs t:meta.view v:id=ju2h-vcgs v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2015" v:attribution="Centers for Medicare and Medicaid"
 
-property e:ju2h-vcgs t:meta.view.license d:2017-03-10T16:08:41.953Z v:name="Public Domain"
+property e:ju2h-vcgs t:meta.view.license v:name="Public Domain"
 
-property e:ju2h-vcgs t:meta.view.owner d:2017-03-10T16:08:41.953Z v:id=nmzs-t286 v:profileImageUrlMedium=/api/users/nmzs-t286/profile_images/THUMB v:profileImageUrlLarge=/api/users/nmzs-t286/profile_images/LARGE v:screenName="Jeff Chamblee" v:profileImageUrlSmall=/api/users/nmzs-t286/profile_images/TINY v:roleName=administrator v:displayName="Jeff Chamblee"
+property e:ju2h-vcgs t:meta.view.owner v:id=nmzs-t286 v:profileImageUrlMedium=/api/users/nmzs-t286/profile_images/THUMB v:profileImageUrlLarge=/api/users/nmzs-t286/profile_images/LARGE v:screenName="Jeff Chamblee" v:profileImageUrlSmall=/api/users/nmzs-t286/profile_images/TINY v:roleName=administrator v:displayName="Jeff Chamblee"
 
-property e:ju2h-vcgs t:meta.view.tableauthor d:2017-03-10T16:08:41.953Z v:id=nmzs-t286 v:profileImageUrlMedium=/api/users/nmzs-t286/profile_images/THUMB v:profileImageUrlLarge=/api/users/nmzs-t286/profile_images/LARGE v:screenName="Jeff Chamblee" v:profileImageUrlSmall=/api/users/nmzs-t286/profile_images/TINY v:roleName=administrator v:displayName="Jeff Chamblee"
+property e:ju2h-vcgs t:meta.view.tableauthor v:id=nmzs-t286 v:profileImageUrlMedium=/api/users/nmzs-t286/profile_images/THUMB v:profileImageUrlLarge=/api/users/nmzs-t286/profile_images/LARGE v:screenName="Jeff Chamblee" v:profileImageUrlSmall=/api/users/nmzs-t286/profile_images/TINY v:roleName=administrator v:displayName="Jeff Chamblee"
 
-property e:ju2h-vcgs t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:08:41.953Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:ju2h-vcgs t:meta.view.metadata.custom_fields.common_core v:Bureau_Code=009:00 v:Program_Code=009:076
 ```

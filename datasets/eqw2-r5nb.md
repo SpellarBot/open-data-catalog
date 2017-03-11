@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | attorney, registrations, integrity |
 | Created | 2013-04-12T18:29:05Z |
-| Publication Date | 2017-03-10T11:29:52Z |
-| Rows Updated | 2017-03-10T11:29:23Z |
+| Publication Date | 2017-03-11T11:24:57Z |
+| Rows Updated | 2017-03-11T11:24:34Z |
 
 ## Description
 
@@ -66,27 +66,27 @@ Excluded Fields = email_address
 ## Data Commands
 
 ```ls
-series e:eqw2-r5nb d:1934-01-01T00:00:00.000Z t:first_name=BENJAMIN t:status=Deceased t:law_school="BROOKLYN LAW" t:last_name=BESKIN m:registration_number=1001213 m:judicial_department_of_admission=2
+series e:eqw2-r5nb d:2013-01-01T00:00:00.000Z t:zip=77056 t:phone_number="(713) 840-0499" t:status="Currently registered" t:law_school="UNIVERSITY OF IOWA COLLEGE OF LAW" t:state=TX t:city=Houston t:country="United States" t:zip_plus_four=6537 t:first_name=JIANNAN t:street_1="3050 Post Oak Blvd Ste 1200" t:next_registration="May 2017" t:county="Out of State" t:company_name="SINOPEI USA, INC." t:last_name=WEI m:registration_number=5134408 m:judicial_department_of_admission=3
 
-series e:eqw2-r5nb d:1956-01-01T00:00:00.000Z t:first_name=RUDOLPH t:status=Deceased t:middle_name=DONALD t:law_school="GEORGETOWN UNIVERSITY" t:last_name=PARSON m:registration_number=1001221 m:judicial_department_of_admission=2
+series e:eqw2-r5nb d:2013-01-01T00:00:00.000Z t:first_name=HYE-SHIL t:next_registration="May 2017" t:status="Currently registered" t:law_school="NORTHWESTERN UNIVERSITY" t:last_name=KIM m:registration_number=5134416 m:judicial_department_of_admission=3
 
-series e:eqw2-r5nb d:1965-01-01T00:00:00.000Z t:zip=13601 t:phone_number="(315) 785-7918" t:status="Currently registered" t:middle_name=A. t:law_school=ALBANY t:state=NY t:city=WATERTOWN t:country="United States" t:zip_plus_four=3744 t:first_name=HUGH t:street_1="317 WASHINGTON ST" t:next_registration="Jan 2018" t:county=Jefferson t:company_name="JEFFERSON COUNTY SUPREME COURT" t:last_name=GILBERT m:registration_number=1001239 m:judicial_department_of_admission=4
+series e:eqw2-r5nb d:2013-01-01T00:00:00.000Z t:first_name=SZE t:next_registration="Nov 2017" t:street_1="1 SUPREME COURT LANE" t:phone_number="+81 80 4319 4788" t:county="Out of USA" t:company_name="SUPREME COURT OF SINGAPORE" t:status=Delinquent t:middle_name=YAO t:law_school="UNIVERSITY OF CAMBRIDGE" t:last_name=TAN t:country=SINGAPORE t:city="SINGAPORE 178 879" m:registration_number=5134424 m:judicial_department_of_admission=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:registration_number l:"Registration Number" t:dataTypeName=number
+metric m:registration_number p:integer l:"Registration Number" t:dataTypeName=number
 
-metric m:judicial_department_of_admission l:"Judicial Department of Admission" t:dataTypeName=number
+metric m:judicial_department_of_admission p:integer l:"Judicial Department of Admission" t:dataTypeName=number
 
 entity e:eqw2-r5nb l:"NYS Attorney Registrations" t:attribution="NYS Unified Court System" t:url=https://data.ny.gov/api/views/eqw2-r5nb
 
-property e:eqw2-r5nb t:meta.view d:2017-03-10T14:26:28.703Z v:id=eqw2-r5nb v:category=Transparency v:averageRating=0 v:name="NYS Attorney Registrations" v:attribution="NYS Unified Court System"
+property e:eqw2-r5nb t:meta.view v:id=eqw2-r5nb v:category=Transparency v:averageRating=0 v:name="NYS Attorney Registrations" v:attribution="NYS Unified Court System"
 
-property e:eqw2-r5nb t:meta.view.owner d:2017-03-10T14:26:28.703Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:eqw2-r5nb t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:eqw2-r5nb t:meta.view.tableauthor d:2017-03-10T14:26:28.703Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:eqw2-r5nb t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:eqw2-r5nb t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:26:28.703Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:eqw2-r5nb t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

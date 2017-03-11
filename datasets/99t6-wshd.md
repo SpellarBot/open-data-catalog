@@ -200,11 +200,11 @@ metric m:withfoodstampsnapbenefitsinpast12monthsperofhouseholds p:integer l:With
 
 entity e:99t6-wshd l:"Behind the Rocks Southwest NRZ Census Data" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/99t6-wshd
 
-property e:99t6-wshd t:meta.view d:2017-03-10T14:27:16.308Z v:id=99t6-wshd v:category=Community v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="Behind the Rocks Southwest NRZ Census Data" v:attribution="City of Hartford"
+property e:99t6-wshd t:meta.view v:id=99t6-wshd v:category=Community v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="Behind the Rocks Southwest NRZ Census Data" v:attribution="City of Hartford"
 
-property e:99t6-wshd t:meta.view.license d:2017-03-10T14:27:16.308Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:99t6-wshd t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:99t6-wshd t:meta.view.owner d:2017-03-10T14:27:16.308Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:99t6-wshd t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 
-property e:99t6-wshd t:meta.view.tableauthor d:2017-03-10T14:27:16.308Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:99t6-wshd t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```

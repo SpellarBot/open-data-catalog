@@ -81,9 +81,9 @@ metric m:shape_len l:SHAPE.LEN d:"Length (Meter)" t:dataTypeName=number
 
 entity e:c4m7-9ycm l:"RAMS - Adjacent County Number" t:attribution="Iowa Department of Transportation - Office of Research & Analytics" t:url=https://data.iowa.gov/api/views/c4m7-9ycm
 
-property e:c4m7-9ycm t:meta.view d:2017-03-10T14:40:17.506Z v:id=c4m7-9ycm v:category="Transportation & Utilities" v:averageRating=0 v:name="RAMS - Adjacent County Number" v:attribution="Iowa Department of Transportation - Office of Research & Analytics"
+property e:c4m7-9ycm t:meta.view v:id=c4m7-9ycm v:category="Transportation & Utilities" v:averageRating=0 v:name="RAMS - Adjacent County Number" v:attribution="Iowa Department of Transportation - Office of Research & Analytics"
 
-property e:c4m7-9ycm t:meta.view.owner d:2017-03-10T14:40:17.506Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:c4m7-9ycm t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:c4m7-9ycm t:meta.view.tableauthor d:2017-03-10T14:40:17.506Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:c4m7-9ycm t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

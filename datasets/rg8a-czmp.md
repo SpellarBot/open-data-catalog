@@ -56,13 +56,13 @@ metric m:birth_rate l:"Birth Rate" t:dataTypeName=number
 
 entity e:rg8a-czmp l:"NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013" t:attribution="National Center for Health Statistics" t:url=https://data.cdc.gov/api/views/rg8a-czmp
 
-property e:rg8a-czmp t:meta.view d:2017-03-10T14:32:02.635Z v:id=rg8a-czmp v:category=NCHS v:averageRating=0 v:name="NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013" v:attribution="National Center for Health Statistics"
+property e:rg8a-czmp t:meta.view v:id=rg8a-czmp v:category=NCHS v:averageRating=0 v:name="NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013" v:attribution="National Center for Health Statistics"
 
-property e:rg8a-czmp t:meta.view.license d:2017-03-10T14:32:02.635Z v:name="Public Domain"
+property e:rg8a-czmp t:meta.view.license v:name="Public Domain"
 
-property e:rg8a-czmp t:meta.view.owner d:2017-03-10T14:32:02.635Z v:id=ki96-txhe v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:screenName=hku4@cdc.gov v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:roleName=administrator v:displayName=hku4@cdc.gov
+property e:rg8a-czmp t:meta.view.owner v:id=ki96-txhe v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:screenName=hku4@cdc.gov v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:roleName=administrator v:displayName=hku4@cdc.gov
 
-property e:rg8a-czmp t:meta.view.tableauthor d:2017-03-10T14:32:02.635Z v:id=ki96-txhe v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:screenName=hku4@cdc.gov v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:roleName=administrator v:displayName=hku4@cdc.gov
+property e:rg8a-czmp t:meta.view.tableauthor v:id=ki96-txhe v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:screenName=hku4@cdc.gov v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:roleName=administrator v:displayName=hku4@cdc.gov
 
-property e:rg8a-czmp t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:32:02.635Z v:Publisher="National Center for Health Statistics" v:Contact_Email=hku4@cdc.gov v:Contact_Name="National Center for Health Statistics" v:Bureau_Code=009:020 v:Program_Code=009:000
+property e:rg8a-czmp t:meta.view.metadata.custom_fields.common_core v:Publisher="National Center for Health Statistics" v:Contact_Email=hku4@cdc.gov v:Contact_Name="National Center for Health Statistics" v:Bureau_Code=009:020 v:Program_Code=009:000
 ```

@@ -56,9 +56,9 @@ series e:s6qx-cm2s d:2016-01-01T00:00:00.000Z t:category_description="BUILDING L
 ```ls
 entity e:s6qx-cm2s l:"2016 State Expenditures As Of COB June 30, 2016" t:attribution="Office of Administration" t:url=https://data.mo.gov/api/views/s6qx-cm2s
 
-property e:s6qx-cm2s t:meta.view d:2017-03-10T14:23:12.268Z v:id=s6qx-cm2s v:category="Government Administration" v:averageRating=0 v:name="2016 State Expenditures As Of COB June 30, 2016" v:attribution="Office of Administration"
+property e:s6qx-cm2s t:meta.view v:id=s6qx-cm2s v:category="Government Administration" v:averageRating=0 v:name="2016 State Expenditures As Of COB June 30, 2016" v:attribution="Office of Administration"
 
-property e:s6qx-cm2s t:meta.view.owner d:2017-03-10T14:23:12.268Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:s6qx-cm2s t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 
-property e:s6qx-cm2s t:meta.view.tableauthor d:2017-03-10T14:23:12.268Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:s6qx-cm2s t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

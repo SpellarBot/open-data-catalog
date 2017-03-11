@@ -77,13 +77,13 @@ metric m:duration_seconds l:duration_seconds t:dataTypeName=number
 
 entity e:qarb-kkbj l:"NOPD Body Worn Camera Metadata" t:attribution="City of New Orleans Police Department" t:url=https://data.nola.gov/api/views/qarb-kkbj
 
-property e:qarb-kkbj t:meta.view d:2017-03-10T14:26:43.462Z v:id=qarb-kkbj v:category="Public Safety and Preparedness" v:averageRating=0 v:name="NOPD Body Worn Camera Metadata" v:attribution="City of New Orleans Police Department"
+property e:qarb-kkbj t:meta.view v:id=qarb-kkbj v:category="Public Safety and Preparedness" v:averageRating=0 v:name="NOPD Body Worn Camera Metadata" v:attribution="City of New Orleans Police Department"
 
-property e:qarb-kkbj t:meta.view.license d:2017-03-10T14:26:43.462Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:qarb-kkbj t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:qarb-kkbj t:meta.view.owner d:2017-03-10T14:26:43.462Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
+property e:qarb-kkbj t:meta.view.owner v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
-property e:qarb-kkbj t:meta.view.tableauthor d:2017-03-10T14:26:43.462Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
+property e:qarb-kkbj t:meta.view.tableauthor v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
-property e:qarb-kkbj t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:26:43.462Z v:Contact_Email=data@nola.gov
+property e:qarb-kkbj t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

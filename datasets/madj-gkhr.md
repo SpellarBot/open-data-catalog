@@ -15,8 +15,8 @@
 | Category | Education |
 | Tags | attendance, schools, doe, education |
 | Created | 2015-12-31T18:03:16Z |
-| Publication Date | 2017-03-09T22:37:18Z |
-| Rows Updated | 2017-03-09T22:37:12Z |
+| Publication Date | 2017-03-10T23:56:48Z |
+| Rows Updated | 2017-03-10T23:56:41Z |
 
 ## Description
 
@@ -61,9 +61,9 @@ metric m:of_attd_taken l:%_OF_ATTD_TAKEN t:dataTypeName=number
 
 entity e:madj-gkhr l:"Attendance 4PM Report" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/madj-gkhr
 
-property e:madj-gkhr t:meta.view d:2017-03-10T14:21:42.493Z v:id=madj-gkhr v:category=Education v:averageRating=0 v:name="Attendance 4PM Report" v:attribution="Department of Education (DOE)"
+property e:madj-gkhr t:meta.view v:id=madj-gkhr v:category=Education v:averageRating=0 v:name="Attendance 4PM Report" v:attribution="Department of Education (DOE)"
 
-property e:madj-gkhr t:meta.view.owner d:2017-03-10T14:21:42.493Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:madj-gkhr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:madj-gkhr t:meta.view.tableauthor d:2017-03-10T14:21:42.493Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:madj-gkhr t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

@@ -62,9 +62,9 @@ metric m:shape_len l:SHAPE.LEN d:SHAPE.LEN t:dataTypeName=number
 
 entity e:h6bv-b58f l:"Urban Districts" t:url=https://data.montgomerycountymd.gov/api/views/h6bv-b58f
 
-property e:h6bv-b58f t:meta.view d:2017-03-10T14:35:56.074Z v:id=h6bv-b58f v:category=Business v:averageRating=0 v:name="Urban Districts"
+property e:h6bv-b58f t:meta.view v:id=h6bv-b58f v:category=Business v:averageRating=0 v:name="Urban Districts"
 
-property e:h6bv-b58f t:meta.view.owner d:2017-03-10T14:35:56.074Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:h6bv-b58f t:meta.view.owner v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 
-property e:h6bv-b58f t:meta.view.tableauthor d:2017-03-10T14:35:56.074Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:h6bv-b58f t:meta.view.tableauthor v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 ```

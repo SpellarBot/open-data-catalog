@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-09T14:29:32Z |
+| Rows Updated | 2017-03-11T14:30:51Z |
 
 ## Description
 
@@ -58,11 +58,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:acvd-5wvz d:2012-10-15T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:model_number=50YGV026 t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:energy_star_model_identifier=ES_1019658_11192012172705_5837817 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GT-PC t:brand_name=Carrier t:pd_id=2132041 m:cop_rating=4.2 m:eer_rating=23.8
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z t:energy_star_partner="Advanced Geothermal Technology" t:model_number=GC-24-XXXXX-DW t:markets="United States" t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-DW_05012013143335_7734797 t:product_type=DGX t:meets_most_efficient_criteria=No t:model_name=GC-24-XXXXX-DW t:brand_name="Advanced Geothermal Technology" t:pd_id=2179335 m:cop_rating=3.6 m:eer_rating=16.6
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB018H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172437_2459551 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274900 m:cop_rating=4.5 m:eer_rating=25.6
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z t:energy_star_partner="Advanced Geothermal Technology" t:model_number=GC-24-XXXXX-NW t:markets="United States" t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-NW_05012013143335_3698083 t:product_type=DGX t:meets_most_efficient_criteria=No t:model_name=GC-24-XXXXX-NW t:brand_name="Advanced Geothermal Technology" t:pd_id=2180086 m:cop_rating=3.6 m:eer_rating=16.6
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB018H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172437_9171949 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274901 m:cop_rating=3.8 m:eer_rating=19
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z t:energy_star_partner="Advanced Geothermal Technology" t:model_number=GC-24-XXXXX-WH t:markets="United States" t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-WH_05012013143335_6150308 t:product_type=DGX t:meets_most_efficient_criteria=No t:model_name=GC-24-XXXXX-WH t:brand_name="Advanced Geothermal Technology" t:pd_id=2179336 m:cop_rating=3.6 m:eer_rating=16.6
 ```
 
 ## Meta Commands
@@ -74,11 +74,11 @@ metric m:eer_rating l:"Energy Efficiency (EER)" d:"A measure of efficiency in th
 
 entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https://data.energystar.gov/api/views/acvd-5wvz
 
-property e:acvd-5wvz t:meta.view d:2017-03-10T14:23:39.275Z v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
+property e:acvd-5wvz t:meta.view v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
 
-property e:acvd-5wvz t:meta.view.owner d:2017-03-10T14:23:39.275Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:acvd-5wvz t:meta.view.tableauthor d:2017-03-10T14:23:39.275Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:23:39.275Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
 ```

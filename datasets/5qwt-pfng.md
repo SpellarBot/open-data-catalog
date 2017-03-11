@@ -77,9 +77,9 @@ metric m:entity_of_record_reg_number p:integer l:"Entity of Record Reg Number" t
 
 entity e:5qwt-pfng l:"New Business List - April" t:url=https://data.oregon.gov/api/views/5qwt-pfng
 
-property e:5qwt-pfng t:meta.view d:2017-03-10T14:37:06.096Z v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"
+property e:5qwt-pfng t:meta.view v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"
 
-property e:5qwt-pfng t:meta.view.owner d:2017-03-10T14:37:06.096Z v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.owner v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
 
-property e:5qwt-pfng t:meta.view.tableauthor d:2017-03-10T14:37:06.096Z v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.tableauthor v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
 ```

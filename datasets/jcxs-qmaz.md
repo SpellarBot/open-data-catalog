@@ -44,9 +44,9 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```ls
 series e:jcxs-qmaz d:2016-03-07T00:00:00.000Z t:cotacts_registered_1st_quarter_2016="Westside Civic Club" m:projected_total_by_end_of_quarter=10
 
-series e:jcxs-qmaz d:2017-03-10T14:23:05.083Z t:cotacts_registered_1st_quarter_2016="Contact projection for 2nd quarter 2016" m:projected_total_by_end_of_quarter=7
+series e:jcxs-qmaz d:2017-03-11T20:43:39.967Z t:cotacts_registered_1st_quarter_2016="Contact projection for 2nd quarter 2016" m:projected_total_by_end_of_quarter=7
 
-series e:jcxs-qmaz d:2017-03-10T14:23:05.083Z t:cotacts_registered_1st_quarter_2016="Contacts for 3rd and 4th Quarters" m:projected_total_by_end_of_quarter=13
+series e:jcxs-qmaz d:2017-03-11T20:43:39.967Z t:cotacts_registered_1st_quarter_2016="Contacts for 3rd and 4th Quarters" m:projected_total_by_end_of_quarter=13
 ```
 
 ## Meta Commands
@@ -56,9 +56,9 @@ metric m:projected_total_by_end_of_quarter p:integer l:"Projected total by end o
 
 entity e:jcxs-qmaz l:"Super Neighborhood Tracker" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/jcxs-qmaz
 
-property e:jcxs-qmaz t:meta.view d:2017-03-10T14:23:05.083Z v:id=jcxs-qmaz v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Super Neighborhood Tracker" v:attribution="City of Jackson"
+property e:jcxs-qmaz t:meta.view v:id=jcxs-qmaz v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Super Neighborhood Tracker" v:attribution="City of Jackson"
 
-property e:jcxs-qmaz t:meta.view.owner d:2017-03-10T14:23:05.083Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:jcxs-qmaz t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 
-property e:jcxs-qmaz t:meta.view.tableauthor d:2017-03-10T14:23:05.083Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:jcxs-qmaz t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```

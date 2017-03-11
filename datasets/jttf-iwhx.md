@@ -66,11 +66,11 @@ metric m:term_years l:"Term (years)" t:dataTypeName=number
 
 entity e:jttf-iwhx l:"Purchase Power Agreements" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/jttf-iwhx
 
-property e:jttf-iwhx t:meta.view d:2017-03-10T16:34:07.883Z v:id=jttf-iwhx v:category=Utility v:averageRating=0 v:name="Purchase Power Agreements" v:attribution="Austin Energy"
+property e:jttf-iwhx t:meta.view v:id=jttf-iwhx v:category=Utility v:averageRating=0 v:name="Purchase Power Agreements" v:attribution="Austin Energy"
 
-property e:jttf-iwhx t:meta.view.license d:2017-03-10T16:34:07.883Z v:name="Public Domain"
+property e:jttf-iwhx t:meta.view.license v:name="Public Domain"
 
-property e:jttf-iwhx t:meta.view.owner d:2017-03-10T16:34:07.883Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:jttf-iwhx t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 
-property e:jttf-iwhx t:meta.view.tableauthor d:2017-03-10T16:34:07.883Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:jttf-iwhx t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

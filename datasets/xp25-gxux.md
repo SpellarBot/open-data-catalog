@@ -82,9 +82,9 @@ metric m:permit_app p:integer l:permit_app t:dataTypeName=number
 
 entity e:xp25-gxux l:"LinkNYC New Site Permit Applications" t:attribution="Department of Information Technology & Telecommunications (DoITT)" t:url=https://data.cityofnewyork.us/api/views/xp25-gxux
 
-property e:xp25-gxux t:meta.view d:2017-03-10T14:17:48.539Z v:id=xp25-gxux v:category="Social Services" v:averageRating=0 v:name="LinkNYC New Site Permit Applications" v:attribution="Department of Information Technology & Telecommunications (DoITT)"
+property e:xp25-gxux t:meta.view v:id=xp25-gxux v:category="Social Services" v:averageRating=0 v:name="LinkNYC New Site Permit Applications" v:attribution="Department of Information Technology & Telecommunications (DoITT)"
 
-property e:xp25-gxux t:meta.view.owner d:2017-03-10T14:17:48.539Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:xp25-gxux t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:xp25-gxux t:meta.view.tableauthor d:2017-03-10T14:17:48.539Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:xp25-gxux t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

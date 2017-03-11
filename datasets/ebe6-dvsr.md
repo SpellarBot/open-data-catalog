@@ -63,9 +63,9 @@ metric m:noofpermits p:integer l:NoOfPermits t:dataTypeName=number
 
 entity e:ebe6-dvsr l:PED_PlanReviewMeasures_Building t:url=https://data.srcity.org/api/views/ebe6-dvsr
 
-property e:ebe6-dvsr t:meta.view d:2017-03-10T16:13:01.655Z v:id=ebe6-dvsr v:averageRating=0 v:name=PED_PlanReviewMeasures_Building
+property e:ebe6-dvsr t:meta.view v:id=ebe6-dvsr v:averageRating=0 v:name=PED_PlanReviewMeasures_Building
 
-property e:ebe6-dvsr t:meta.view.owner d:2017-03-10T16:13:01.655Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 
-property e:ebe6-dvsr t:meta.view.tableauthor d:2017-03-10T16:13:01.655Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

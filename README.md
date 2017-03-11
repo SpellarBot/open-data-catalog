@@ -6,22 +6,22 @@ Name | Category | Updated
 [Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014](datasets/35yf-6dy3.md) | Health & Human Services | 2016-01-25
 [West Nile Virus (WNV) Mosquito Test Results](datasets/jqe8-8r6s.md) | Health & Human Services | 2016-09-30
 [Libraries - 2013 Visitors by Location](datasets/x74m-smqb.md) | Education | 2014-01-15
-[Divvy Bicycle Stations](datasets/bbyy-e7gq.md) | Transportation | 2017-03-10
+[Divvy Bicycle Stations](datasets/bbyy-e7gq.md) | Transportation | 2017-03-11
 
 ## opendata.fcc.gov
 
 Name | Category | Updated
 ---- | -------- | -------
-[CGB - Consumer Complaints Data](datasets/3xyp-aqkj.md) | Consumer and Government Affairs | 2017-03-10
+[CGB - Consumer Complaints Data](datasets/3xyp-aqkj.md) | Consumer and Government Affairs | 2017-03-11
 
 ## data.sfgov.org
 
 Name | Category | Updated
 ---- | -------- | -------
-[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-10
-[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-10
+[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-11
+[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-11
 [2013 Housing Inventory](datasets/e7d3-dxh5.md) | Housing and Buildings | 2015-09-23
-[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-10
+[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-11
 [Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election](datasets/85cd-6rtn.md) | City Management and Ethics | 2012-11-09
 
 ## data.jacksonms.gov
@@ -42,7 +42,7 @@ Name | Category | Updated
 [DYCD after-school programs: Beacon Satellite At NYCHA Programs](datasets/pyif-r8qe.md) | Education | 2011-09-01
 [LinkNYC New Site Permit Applications](datasets/xp25-gxux.md) | Social Services | 2016-11-18
 [NYC Wi-Fi Hotspot Locations](datasets/yjub-udmw.md) | City Government | 2017-02-02
-[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-09
+[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-10
 
 ## data.mo.gov
 
@@ -156,8 +156,8 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[Bid Openings and Results](datasets/u9zk-8nix.md) | Government | 2017-03-10
-[Purchase Orders](datasets/54bn-2sqf.md) | Government | 2017-03-10
+[Bid Openings and Results](datasets/u9zk-8nix.md) | Government | 2017-03-11
+[Purchase Orders](datasets/54bn-2sqf.md) | Government | 2017-03-11
 [City-Parish Employee Annual Salaries](datasets/g5c2-myyj.md) | Government | 2017-01-05
 
 ## data.nola.gov
@@ -193,21 +193,21 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-10
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-11
 [NYC Transit Subway Entrance And Exit Data](datasets/i9wp-a4ja.md) | Transportation | 2015-09-18
 [Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010](datasets/3pzs-2zsk.md) | Energy & Environment | 2015-07-29
-[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-10
+[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-11
 [Public Assistance Cases with Earned Income: Beginning April 2006](datasets/5mdi-3rq9.md) | Human Services | 2017-02-02
 
 ## data.energystar.gov
 
 Name | Category | Updated
 ---- | -------- | -------
-[ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-10
-[ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-10
-[ENERGY STAR Certified Commercial Refrigerators and Freezers](datasets/59dq-uw25.md) | Active Specifications | 2017-03-10
-[ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-10
-[ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-10
+[ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-11
+[ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-11
+[ENERGY STAR Certified Commercial Refrigerators and Freezers](datasets/59dq-uw25.md) | Active Specifications | 2017-03-11
+[ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-11
+[ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-11
 
 ## data.iowa.gov
 
@@ -245,7 +245,7 @@ Name | Category | Updated
 ---- | -------- | -------
 [Parking 2015](datasets/m2gw-xt7z.md) | Transportation | 2015-05-13
 [Exceptional Trees On Oahu](datasets/84fd-3fzf.md) | Recreation | 2013-04-30
-[HPD Crime Incidents](datasets/f5dd-pqys.md) |     | 2017-03-10
+[HPD Crime Incidents](datasets/f5dd-pqys.md) |     | 2017-03-11
 [Existing Bike Facilities](datasets/5hpa-8dfv.md) | Transportation | 2015-04-16
 [Proposed FY16 Budget](datasets/rkqa-i8sr.md) | Finance | 2015-03-06
 
@@ -297,7 +297,7 @@ Name | Category | Updated
 [Statewide -- Hatchery Standards 2016 SOS 10172016](datasets/spnc-z2pw.md) |     | 2016-10-17
 [WAOFM - SAEP - School District Population Estimates, 2000-2016](datasets/krb3-8st4.md) | Demographics | 2016-09-24
 [Aquatic Pesticide and Algae Management Draft General Permit Comments](datasets/ysrq-tssh.md) | Natural Resources & Environment | 2015-12-23
-[L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-10
+[L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-11
 
 ## data.lacity.org
 

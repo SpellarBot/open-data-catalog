@@ -59,9 +59,9 @@ metric m:patents_per_100k l:"Number of Patents Issued per 100,000 Population" t:
 
 entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Business and Economic Development" t:url=https://data.maryland.gov/api/views/enjg-rjqz
 
-property e:enjg-rjqz t:meta.view d:2017-03-10T14:32:50.680Z v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://www.choosemaryland.org v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Business and Economic Development"
+property e:enjg-rjqz t:meta.view v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://www.choosemaryland.org v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Business and Economic Development"
 
-property e:enjg-rjqz t:meta.view.owner d:2017-03-10T14:32:50.680Z v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
+property e:enjg-rjqz t:meta.view.owner v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
 
-property e:enjg-rjqz t:meta.view.tableauthor d:2017-03-10T14:32:50.680Z v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
+property e:enjg-rjqz t:meta.view.tableauthor v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
 ```

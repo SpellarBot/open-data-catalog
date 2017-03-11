@@ -65,11 +65,11 @@ metric m:indicatorvalue l:IndicatorValue t:dataTypeName=number
 
 entity e:s995-ndgk l:"Calculated Library Indicators For Results NOLA" t:attribution="New Orleans Public Library" t:url=https://data.nola.gov/api/views/s995-ndgk
 
-property e:s995-ndgk t:meta.view d:2017-03-10T16:15:11.721Z v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
+property e:s995-ndgk t:meta.view v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
 
-property e:s995-ndgk t:meta.view.owner d:2017-03-10T16:15:11.721Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:s995-ndgk t:meta.view.tableauthor d:2017-03-10T16:15:11.721Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:15:11.721Z v:Contact_Email=data@nola.gov
+property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

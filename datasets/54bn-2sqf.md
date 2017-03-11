@@ -16,7 +16,7 @@
 | Tags | purchase orders, procurement, purchasing |
 | Created | 2015-03-08T04:50:19Z |
 | Publication Date | 2015-07-27T13:13:15Z |
-| Rows Updated | 2017-03-10T08:05:45Z |
+| Rows Updated | 2017-03-11T08:05:52Z |
 
 ## Description
 
@@ -127,11 +127,11 @@ metric m:dt_tot_cost l:"ITEM TOTAL COST" d:"Total (extended) cost of the PO line
 
 entity e:54bn-2sqf l:"Purchase Orders" t:attribution=Purchasing t:url=https://data.brla.gov/api/views/54bn-2sqf
 
-property e:54bn-2sqf t:meta.view d:2017-03-10T16:14:01.025Z v:id=54bn-2sqf v:category=Government v:attributionLink=http://brgov.com/dept/purchase v:averageRating=0 v:name="Purchase Orders" v:attribution=Purchasing
+property e:54bn-2sqf t:meta.view v:id=54bn-2sqf v:category=Government v:attributionLink=http://brgov.com/dept/purchase v:averageRating=0 v:name="Purchase Orders" v:attribution=Purchasing
 
-property e:54bn-2sqf t:meta.view.license d:2017-03-10T16:14:01.025Z v:name="Public Domain"
+property e:54bn-2sqf t:meta.view.license v:name="Public Domain"
 
-property e:54bn-2sqf t:meta.view.owner d:2017-03-10T16:14:01.025Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:54bn-2sqf t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 
-property e:54bn-2sqf t:meta.view.tableauthor d:2017-03-10T16:14:01.025Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:54bn-2sqf t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

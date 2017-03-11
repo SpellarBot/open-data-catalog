@@ -94,11 +94,11 @@ metric m:total_overtime_hours l:"TOTAL OVERTIME HOURS" d:"Total number of overti
 
 entity e:g5c2-myyj l:"City-Parish Employee Annual Salaries" t:attribution="City of Baton Rouge - Human Resources" t:url=https://data.brla.gov/api/views/g5c2-myyj
 
-property e:g5c2-myyj t:meta.view d:2017-03-10T16:14:23.029Z v:id=g5c2-myyj v:category=Government v:attributionLink=http://brgov.com/dept/hr v:averageRating=0 v:name="City-Parish Employee Annual Salaries" v:attribution="City of Baton Rouge - Human Resources"
+property e:g5c2-myyj t:meta.view v:id=g5c2-myyj v:category=Government v:attributionLink=http://brgov.com/dept/hr v:averageRating=0 v:name="City-Parish Employee Annual Salaries" v:attribution="City of Baton Rouge - Human Resources"
 
-property e:g5c2-myyj t:meta.view.license d:2017-03-10T16:14:23.029Z v:name="Public Domain"
+property e:g5c2-myyj t:meta.view.license v:name="Public Domain"
 
-property e:g5c2-myyj t:meta.view.owner d:2017-03-10T16:14:23.029Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:g5c2-myyj t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 
-property e:g5c2-myyj t:meta.view.tableauthor d:2017-03-10T16:14:23.029Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:g5c2-myyj t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

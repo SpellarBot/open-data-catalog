@@ -54,9 +54,9 @@ Format & Zone = seconds
 ```ls
 entity e:pyif-r8qe l:"DYCD after-school programs: Beacon Satellite At NYCHA Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/pyif-r8qe
 
-property e:pyif-r8qe t:meta.view d:2017-03-10T14:17:15.009Z v:id=pyif-r8qe v:category=Education v:averageRating=0 v:name="DYCD after-school programs: Beacon Satellite At NYCHA Programs" v:attribution="Department of Youth and Community Development (DYCD)"
+property e:pyif-r8qe t:meta.view v:id=pyif-r8qe v:category=Education v:averageRating=0 v:name="DYCD after-school programs: Beacon Satellite At NYCHA Programs" v:attribution="Department of Youth and Community Development (DYCD)"
 
-property e:pyif-r8qe t:meta.view.owner d:2017-03-10T14:17:15.009Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:pyif-r8qe t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:pyif-r8qe t:meta.view.tableauthor d:2017-03-10T14:17:15.009Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:pyif-r8qe t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```

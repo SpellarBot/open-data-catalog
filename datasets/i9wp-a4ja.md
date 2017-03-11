@@ -98,11 +98,11 @@ metric m:entrance_longitude l:"Entrance Longitude" t:dataTypeName=number
 
 entity e:i9wp-a4ja l:"NYC Transit Subway Entrance And Exit Data" t:attribution="MTA Headquarters, New York City Transit" t:url=https://data.ny.gov/api/views/i9wp-a4ja
 
-property e:i9wp-a4ja t:meta.view d:2017-03-10T14:21:50.425Z v:id=i9wp-a4ja v:category=Transportation v:attributionLink=http://www.mta.info/developers/download.html v:averageRating=0 v:name="NYC Transit Subway Entrance And Exit Data" v:attribution="MTA Headquarters, New York City Transit"
+property e:i9wp-a4ja t:meta.view v:id=i9wp-a4ja v:category=Transportation v:attributionLink=http://www.mta.info/developers/download.html v:averageRating=0 v:name="NYC Transit Subway Entrance And Exit Data" v:attribution="MTA Headquarters, New York City Transit"
 
-property e:i9wp-a4ja t:meta.view.owner d:2017-03-10T14:21:50.425Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:i9wp-a4ja t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:i9wp-a4ja t:meta.view.tableauthor d:2017-03-10T14:21:50.425Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:i9wp-a4ja t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:i9wp-a4ja t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:21:50.425Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:i9wp-a4ja t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

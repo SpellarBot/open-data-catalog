@@ -116,11 +116,11 @@ metric m:numeric_change_in_population_2010_to_2015 l:"Numeric Change in Populati
 
 entity e:krb3-8st4 l:"WAOFM - SAEP - School District Population Estimates, 2000-2016" t:attribution="Washington State Office of Financial Management, Forecasting and Research Divisio" t:url=https://data.wa.gov/api/views/krb3-8st4
 
-property e:krb3-8st4 t:meta.view d:2017-03-10T14:31:06.052Z v:id=krb3-8st4 v:category=Demographics v:attributionLink=http://www.ofm.wa.gov/pop/smallarea/default.asp v:averageRating=0 v:name="WAOFM - SAEP - School District Population Estimates, 2000-2016" v:attribution="Washington State Office of Financial Management, Forecasting and Research Divisio"
+property e:krb3-8st4 t:meta.view v:id=krb3-8st4 v:category=Demographics v:attributionLink=http://www.ofm.wa.gov/pop/smallarea/default.asp v:averageRating=0 v:name="WAOFM - SAEP - School District Population Estimates, 2000-2016" v:attribution="Washington State Office of Financial Management, Forecasting and Research Divisio"
 
-property e:krb3-8st4 t:meta.view.license d:2017-03-10T14:31:06.052Z v:name="Public Domain"
+property e:krb3-8st4 t:meta.view.license v:name="Public Domain"
 
-property e:krb3-8st4 t:meta.view.owner d:2017-03-10T14:31:06.052Z v:id=qav9-tahu v:profileImageUrlMedium=/api/users/qav9-tahu/profile_images/THUMB v:profileImageUrlLarge=/api/users/qav9-tahu/profile_images/LARGE v:screenName="Thomas Kimpel" v:profileImageUrlSmall=/api/users/qav9-tahu/profile_images/TINY v:roleName=administrator v:displayName="Thomas Kimpel"
+property e:krb3-8st4 t:meta.view.owner v:id=qav9-tahu v:profileImageUrlMedium=/api/users/qav9-tahu/profile_images/THUMB v:profileImageUrlLarge=/api/users/qav9-tahu/profile_images/LARGE v:screenName="Thomas Kimpel" v:profileImageUrlSmall=/api/users/qav9-tahu/profile_images/TINY v:roleName=administrator v:displayName="Thomas Kimpel"
 
-property e:krb3-8st4 t:meta.view.tableauthor d:2017-03-10T14:31:06.052Z v:id=qav9-tahu v:profileImageUrlMedium=/api/users/qav9-tahu/profile_images/THUMB v:profileImageUrlLarge=/api/users/qav9-tahu/profile_images/LARGE v:screenName="Thomas Kimpel" v:profileImageUrlSmall=/api/users/qav9-tahu/profile_images/TINY v:roleName=administrator v:displayName="Thomas Kimpel"
+property e:krb3-8st4 t:meta.view.tableauthor v:id=qav9-tahu v:profileImageUrlMedium=/api/users/qav9-tahu/profile_images/THUMB v:profileImageUrlLarge=/api/users/qav9-tahu/profile_images/LARGE v:screenName="Thomas Kimpel" v:profileImageUrlSmall=/api/users/qav9-tahu/profile_images/TINY v:roleName=administrator v:displayName="Thomas Kimpel"
 ```

@@ -71,11 +71,11 @@ metric m:shape_area l:Shape_Area d:Shape_Area t:dataTypeName=number
 
 entity e:mtus-f3kr l:DPD.ECA_FLOOD t:attribution="Seattle GIS Program" t:url=https://data.seattle.gov/api/views/mtus-f3kr
 
-property e:mtus-f3kr t:meta.view d:2017-03-10T16:26:35.365Z v:id=mtus-f3kr v:category="Land Base" v:attributionLink=https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/19 v:averageRating=0 v:name=DPD.ECA_FLOOD v:attribution="Seattle GIS Program"
+property e:mtus-f3kr t:meta.view v:id=mtus-f3kr v:category="Land Base" v:attributionLink=https://gisrevprxy.seattle.gov/ArcGIS/rest/services/ext/WM_CityGISLayers/MapServer/19 v:averageRating=0 v:name=DPD.ECA_FLOOD v:attribution="Seattle GIS Program"
 
-property e:mtus-f3kr t:meta.view.license d:2017-03-10T16:26:35.365Z v:name="Public Domain"
+property e:mtus-f3kr t:meta.view.license v:name="Public Domain"
 
-property e:mtus-f3kr t:meta.view.owner d:2017-03-10T16:26:35.365Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:mtus-f3kr t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 
-property e:mtus-f3kr t:meta.view.tableauthor d:2017-03-10T16:26:35.365Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:mtus-f3kr t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```

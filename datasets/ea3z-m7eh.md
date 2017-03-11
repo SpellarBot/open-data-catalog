@@ -89,11 +89,11 @@ metric m:female_2014 l:"Female, 2014" t:dataTypeName=number
 
 entity e:ea3z-m7eh l:"Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 7 - Kansas City" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/ea3z-m7eh
 
-property e:ea3z-m7eh t:meta.view d:2017-03-10T16:16:40.119Z v:id=ea3z-m7eh v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 7 - Kansas City" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
+property e:ea3z-m7eh t:meta.view v:id=ea3z-m7eh v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 7 - Kansas City" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
 
-property e:ea3z-m7eh t:meta.view.owner d:2017-03-10T16:16:40.119Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:ea3z-m7eh t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:ea3z-m7eh t:meta.view.tableauthor d:2017-03-10T16:16:40.119Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:ea3z-m7eh t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:ea3z-m7eh t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:16:40.119Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:ea3z-m7eh t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

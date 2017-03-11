@@ -77,11 +77,11 @@ metric m:sna_non_moe_cases_with_earned_income p:integer l:"SNA Non-MOE Cases wit
 
 entity e:5mdi-3rq9 l:"Public Assistance Cases with Earned Income:  Beginning April 2006" t:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" t:url=https://data.ny.gov/api/views/5mdi-3rq9
 
-property e:5mdi-3rq9 t:meta.view d:2017-03-10T14:33:54.355Z v:id=5mdi-3rq9 v:category="Human Services" v:attributionLink=http://otda.ny.gov/resources/caseload/ v:averageRating=0 v:name="Public Assistance Cases with Earned Income:  Beginning April 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
+property e:5mdi-3rq9 t:meta.view v:id=5mdi-3rq9 v:category="Human Services" v:attributionLink=http://otda.ny.gov/resources/caseload/ v:averageRating=0 v:name="Public Assistance Cases with Earned Income:  Beginning April 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
 
-property e:5mdi-3rq9 t:meta.view.owner d:2017-03-10T14:33:54.355Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:5mdi-3rq9 t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:5mdi-3rq9 t:meta.view.tableauthor d:2017-03-10T14:33:54.355Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:5mdi-3rq9 t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:5mdi-3rq9 t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:33:54.355Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:5mdi-3rq9 t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

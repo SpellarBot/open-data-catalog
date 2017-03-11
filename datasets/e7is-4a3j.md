@@ -94,13 +94,13 @@ metric m:ndc p:long l:NDC t:dataTypeName=number
 
 entity e:e7is-4a3j l:"State Drug Utilization Data 2006" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/e7is-4a3j
 
-property e:e7is-4a3j t:meta.view d:2017-03-10T16:08:54.964Z v:id=e7is-4a3j v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2006" v:attribution="Centers for Medicare and Medicaid"
+property e:e7is-4a3j t:meta.view v:id=e7is-4a3j v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2006" v:attribution="Centers for Medicare and Medicaid"
 
-property e:e7is-4a3j t:meta.view.license d:2017-03-10T16:08:54.964Z v:name="Public Domain"
+property e:e7is-4a3j t:meta.view.license v:name="Public Domain"
 
-property e:e7is-4a3j t:meta.view.owner d:2017-03-10T16:08:54.964Z v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
+property e:e7is-4a3j t:meta.view.owner v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
 
-property e:e7is-4a3j t:meta.view.tableauthor d:2017-03-10T16:08:54.964Z v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
+property e:e7is-4a3j t:meta.view.tableauthor v:id=dqu3-3w2u v:profileImageUrlMedium=/api/users/dqu3-3w2u/profile_images/THUMB v:profileImageUrlLarge=/api/users/dqu3-3w2u/profile_images/LARGE v:screenName="Mark Silverberg" v:profileImageUrlSmall=/api/users/dqu3-3w2u/profile_images/TINY v:displayName="Mark Silverberg"
 
-property e:e7is-4a3j t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:08:54.964Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:e7is-4a3j t:meta.view.metadata.custom_fields.common_core v:Bureau_Code=009:00 v:Program_Code=009:076
 ```

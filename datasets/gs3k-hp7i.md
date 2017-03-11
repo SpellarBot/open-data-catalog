@@ -16,7 +16,7 @@
 | Tags | contractor, affidavit, notes |
 | Created | 2015-10-30T20:39:23Z |
 | Publication Date | 2015-12-07T20:08:05Z |
-| Rows Updated | 2017-03-10T15:00:23Z |
+| Rows Updated | 2017-03-11T15:00:29Z |
 
 ## Description
 
@@ -55,9 +55,9 @@ Excluded Fields = id
 ```ls
 entity e:gs3k-hp7i l:"L&I Public Notes For Affidavit" t:attribution="L & I" t:url=https://data.wa.gov/api/views/gs3k-hp7i
 
-property e:gs3k-hp7i t:meta.view d:2017-03-10T16:29:13.164Z v:id=gs3k-hp7i v:category=Labor v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I"
+property e:gs3k-hp7i t:meta.view v:id=gs3k-hp7i v:category=Labor v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I"
 
-property e:gs3k-hp7i t:meta.view.owner d:2017-03-10T16:29:13.164Z v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:displayName=Nithya
+property e:gs3k-hp7i t:meta.view.owner v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:displayName=Nithya
 
-property e:gs3k-hp7i t:meta.view.tableauthor d:2017-03-10T16:29:13.164Z v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:displayName=Nithya
+property e:gs3k-hp7i t:meta.view.tableauthor v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:displayName=Nithya
 ```

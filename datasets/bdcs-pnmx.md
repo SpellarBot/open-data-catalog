@@ -67,9 +67,9 @@ metric m:shape_len l:SHAPE.LEN d:SHAPE.LEN t:dataTypeName=number
 
 entity e:bdcs-pnmx l:"WSSC Grid [arcgis_rest_services_general_wssc_grid_MapServer_0]" t:url=https://data.montgomerycountymd.gov/api/views/bdcs-pnmx
 
-property e:bdcs-pnmx t:meta.view d:2017-03-10T16:21:21.928Z v:id=bdcs-pnmx v:category=Environment v:averageRating=0 v:name="WSSC Grid [arcgis_rest_services_general_wssc_grid_MapServer_0]"
+property e:bdcs-pnmx t:meta.view v:id=bdcs-pnmx v:category=Environment v:averageRating=0 v:name="WSSC Grid [arcgis_rest_services_general_wssc_grid_MapServer_0]"
 
-property e:bdcs-pnmx t:meta.view.owner d:2017-03-10T16:21:21.928Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:bdcs-pnmx t:meta.view.owner v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 
-property e:bdcs-pnmx t:meta.view.tableauthor d:2017-03-10T16:21:21.928Z v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
+property e:bdcs-pnmx t:meta.view.tableauthor v:id=hesx-43k8 v:screenName=Dan v:roleName=publisher v:displayName=Dan
 ```

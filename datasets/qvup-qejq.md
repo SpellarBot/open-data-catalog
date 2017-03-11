@@ -314,11 +314,11 @@ metric m:stren_7 p:integer l:stren_7 t:dataTypeName=number
 
 entity e:qvup-qejq l:"Somerville High School YRBS Raw Data 2002-2014" t:attribution="City of Somerville Health & Human Services Department" t:url=https://data.somervillema.gov/api/views/qvup-qejq
 
-property e:qvup-qejq t:meta.view d:2017-03-10T16:09:22.102Z v:id=qvup-qejq v:category="Public Health" v:attributionLink=http://www.somervillema.gov/departments/health/office-of-prevention v:averageRating=0 v:name="Somerville High School YRBS Raw Data 2002-2014" v:attribution="City of Somerville Health & Human Services Department"
+property e:qvup-qejq t:meta.view v:id=qvup-qejq v:category="Public Health" v:attributionLink=http://www.somervillema.gov/departments/health/office-of-prevention v:averageRating=0 v:name="Somerville High School YRBS Raw Data 2002-2014" v:attribution="City of Somerville Health & Human Services Department"
 
-property e:qvup-qejq t:meta.view.license d:2017-03-10T16:09:22.102Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:qvup-qejq t:meta.view.license v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:qvup-qejq t:meta.view.owner d:2017-03-10T16:09:22.102Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:qvup-qejq t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 
-property e:qvup-qejq t:meta.view.tableauthor d:2017-03-10T16:09:22.102Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:qvup-qejq t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```

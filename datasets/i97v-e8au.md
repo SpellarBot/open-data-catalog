@@ -15,7 +15,7 @@
 | Tags | furnaces |
 | Created | 2014-08-08T12:06:09Z |
 | Publication Date | 2016-12-29T15:39:44Z |
-| Rows Updated | 2017-03-10T14:14:09Z |
+| Rows Updated | 2017-03-11T14:16:17Z |
 
 ## Description
 
@@ -60,11 +60,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:capable_of_two_way_communication="Not Applicable" t:model_number=OVL098-BNX* t:fuel_type=Oil t:markets="United States, Canada" t:energy_star_model_identifier=ES_1019658_06112013094056_6313371 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name=Bryant t:model_name=OVL098-BNX t:pd_id=2182974 m:efficiency_afue=85.2
+series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V045B12*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_7643006 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171639 m:efficiency_afue=95
 
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:capable_of_two_way_communication="Not Applicable" t:model_number=OVL098-CAR* t:fuel_type=Oil t:markets="United States, Canada" t:energy_star_model_identifier=ES_1019658_06112013094056_6831293 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name=Bryant t:model_name=OVL098-CAR t:pd_id=2182975 m:efficiency_afue=85.2
+series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V070B16*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_9228942 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171640 m:efficiency_afue=95
 
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:capable_of_two_way_communication="Not Applicable" t:model_number=OVL098-RBF* t:fuel_type=Oil t:markets="United States, Canada" t:energy_star_model_identifier=ES_1019658_06112013094056_3260863 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name=Bryant t:model_name=OVL098-RBF t:pd_id=2182976 m:efficiency_afue=85
+series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V090C20*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_6679033 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171641 m:efficiency_afue=95
 ```
 
 ## Meta Commands
@@ -74,11 +74,11 @@ metric m:efficiency_afue l:"Efficiency (AFUE)" d:"The percentage of the heat in 
 
 entity e:i97v-e8au l:"ENERGY STAR Certified Furnaces" t:url=https://data.energystar.gov/api/views/i97v-e8au
 
-property e:i97v-e8au t:meta.view d:2017-03-10T16:18:37.729Z v:id=i97v-e8au v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Furnaces"
+property e:i97v-e8au t:meta.view v:id=i97v-e8au v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Furnaces"
 
-property e:i97v-e8au t:meta.view.owner d:2017-03-10T16:18:37.729Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:i97v-e8au t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:i97v-e8au t:meta.view.tableauthor d:2017-03-10T16:18:37.729Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:i97v-e8au t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:i97v-e8au t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:18:37.729Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:i97v-e8au t:meta.view.metadata.custom_fields.common_core v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
 ```

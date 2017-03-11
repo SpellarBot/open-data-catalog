@@ -51,9 +51,9 @@ metric m:phase_step_number p:integer l:"Phase Step Number" t:dataTypeName=number
 
 entity e:dmhd-88xr l:"Template011: Project Phase List" t:url=https://data.srcity.org/api/views/dmhd-88xr
 
-property e:dmhd-88xr t:meta.view d:2017-03-10T16:12:55.516Z v:id=dmhd-88xr v:averageRating=0 v:name="Template011: Project Phase List"
+property e:dmhd-88xr t:meta.view v:id=dmhd-88xr v:averageRating=0 v:name="Template011: Project Phase List"
 
-property e:dmhd-88xr t:meta.view.owner d:2017-03-10T16:12:55.516Z v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:roleName=administrator v:displayName="Tickner, Brian"
+property e:dmhd-88xr t:meta.view.owner v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:roleName=administrator v:displayName="Tickner, Brian"
 
-property e:dmhd-88xr t:meta.view.tableauthor d:2017-03-10T16:12:55.516Z v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:roleName=administrator v:displayName="Tickner, Brian"
+property e:dmhd-88xr t:meta.view.tableauthor v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:roleName=administrator v:displayName="Tickner, Brian"
 ```

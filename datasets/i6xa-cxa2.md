@@ -86,9 +86,9 @@ metric m:response_to_complaint l:RESPONSE_TO_COMPLAINT d:"Response to Complaint?
 
 entity e:i6xa-cxa2 l:"Deer Kill Locations 2009" t:attribution="Iowa Department of Transportation - Office of Maintenance" t:url=https://data.iowa.gov/api/views/i6xa-cxa2
 
-property e:i6xa-cxa2 t:meta.view d:2017-03-10T14:21:17.162Z v:id=i6xa-cxa2 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Maintenance/Historic_Deer_Kill_Locations/MapServer/6 v:averageRating=0 v:name="Deer Kill Locations 2009" v:attribution="Iowa Department of Transportation - Office of Maintenance"
+property e:i6xa-cxa2 t:meta.view v:id=i6xa-cxa2 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Maintenance/Historic_Deer_Kill_Locations/MapServer/6 v:averageRating=0 v:name="Deer Kill Locations 2009" v:attribution="Iowa Department of Transportation - Office of Maintenance"
 
-property e:i6xa-cxa2 t:meta.view.owner d:2017-03-10T14:21:17.162Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:i6xa-cxa2 t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:i6xa-cxa2 t:meta.view.tableauthor d:2017-03-10T14:21:17.162Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:i6xa-cxa2 t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

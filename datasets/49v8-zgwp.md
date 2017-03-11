@@ -58,9 +58,9 @@ metric m:released_amount p:integer l:"Released Amount" t:dataTypeName=number
 
 entity e:49v8-zgwp l:"2015 State Budget Restrictions As of March 31, 2015" t:url=https://data.mo.gov/api/views/49v8-zgwp
 
-property e:49v8-zgwp t:meta.view d:2017-03-10T14:31:45.364Z v:id=49v8-zgwp v:category="Government Administration" v:averageRating=0 v:name="2015 State Budget Restrictions As of March 31, 2015"
+property e:49v8-zgwp t:meta.view v:id=49v8-zgwp v:category="Government Administration" v:averageRating=0 v:name="2015 State Budget Restrictions As of March 31, 2015"
 
-property e:49v8-zgwp t:meta.view.owner d:2017-03-10T14:31:45.364Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:49v8-zgwp t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 
-property e:49v8-zgwp t:meta.view.tableauthor d:2017-03-10T14:31:45.364Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:49v8-zgwp t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
