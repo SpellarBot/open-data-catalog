@@ -68,11 +68,11 @@ metric m:fy04_actual p:integer l:"FY04 Actual" t:dataTypeName=number
 
 entity e:nbhj-n6p6 l:"Historical Budget Summary by Category FY14-FY05" t:attribution="City of Somerville" t:url=https://data.somervillema.gov/api/views/nbhj-n6p6
 
-property e:nbhj-n6p6 t:meta.view v:id=nbhj-n6p6 v:category=Finance v:attributionLink=http://www.somervillema.gov v:averageRating=100 v:name="Historical Budget Summary by Category FY14-FY05" v:attribution="City of Somerville"
+property e:nbhj-n6p6 t:meta.view d:2017-03-10T16:11:17.455Z v:id=nbhj-n6p6 v:category=Finance v:attributionLink=http://www.somervillema.gov v:averageRating=100 v:name="Historical Budget Summary by Category FY14-FY05" v:attribution="City of Somerville"
 
-property e:nbhj-n6p6 t:meta.view.license v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:nbhj-n6p6 t:meta.view.license d:2017-03-10T16:11:17.455Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:nbhj-n6p6 t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:nbhj-n6p6 t:meta.view.owner d:2017-03-10T16:11:17.455Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 
-property e:nbhj-n6p6 t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:nbhj-n6p6 t:meta.view.tableauthor d:2017-03-10T16:11:17.455Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```

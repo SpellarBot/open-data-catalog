@@ -71,19 +71,19 @@ series e:c4m7-9ycm d:2016-01-01T06:00:00.000Z t:route_id=C005841000N t:event_id=
 ## Meta Commands
 
 ```ls
-metric m:to_measure l:TO_MEASUREame=number
+metric m:to_measure l:TO_MEASURE d:"To Measure" t:dataTypeName=number
 
-metric m:from_measure l:FROM_MEASUREeName=number
+metric m:from_measure l:FROM_MEASURE d:"From Measure" t:dataTypeName=number
 
-metric m:adjacent_county_number p:integer l:ADJACENT_COUNTY_NUMBER t:dataTypeName=number
+metric m:adjacent_county_number p:integer l:ADJACENT_COUNTY_NUMBER d:"Adjacent County Number" t:dataTypeName=number
 
-metric m:shape_len l:SHAPE.LENypeName=number
+metric m:shape_len l:SHAPE.LEN d:"Length (Meter)" t:dataTypeName=number
 
 entity e:c4m7-9ycm l:"RAMS - Adjacent County Number" t:attribution="Iowa Department of Transportation - Office of Research & Analytics" t:url=https://data.iowa.gov/api/views/c4m7-9ycm
 
-property e:c4m7-9ycm t:meta.view v:id=c4m7-9ycm v:category="Transportation & Utilities" v:averageRating=0 v:name="RAMS - Adjacent County Number" v:attribution="Iowa Department of Transportation - Office of Research & Analytics"
+property e:c4m7-9ycm t:meta.view d:2017-03-10T14:40:17.506Z v:id=c4m7-9ycm v:category="Transportation & Utilities" v:averageRating=0 v:name="RAMS - Adjacent County Number" v:attribution="Iowa Department of Transportation - Office of Research & Analytics"
 
-property e:c4m7-9ycm t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:c4m7-9ycm t:meta.view.owner d:2017-03-10T14:40:17.506Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:c4m7-9ycm t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:c4m7-9ycm t:meta.view.tableauthor d:2017-03-10T14:40:17.506Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

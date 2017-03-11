@@ -97,41 +97,41 @@ series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:vend_cont_name="**NAME CHANGED F
 ## Meta Commands
 
 ```ls
-metric m:total_amt l:"TOTAL AMOUNT"ataTypeName=number
+metric m:total_amt l:"TOTAL AMOUNT" d:"Total amount of PO" t:dataTypeName=number
 
-metric m:deptno p:integer l:"DEPARTMENT NUMBER"t which the PO is for" t:dataTypeName=number
+metric m:deptno p:integer l:"DEPARTMENT NUMBER" d:"Number of the department which the PO is for" t:dataTypeName=number
 
-metric m:cstctr p:integer l:"COST CENTER"rtment which the PO is for. This will often show which of the Department's Divisions issued the PO" t:dataTypeName=number
+metric m:cstctr p:integer l:"COST CENTER" d:"Cost Center of the Department which the PO is for. This will often show which of the Department's Divisions issued the PO" t:dataTypeName=number
 
-metric m:po_stat p:integer l:"PO STATUS CODE"tus of the PO" t:dataTypeName=number
+metric m:po_stat p:integer l:"PO STATUS CODE" d:"Code indicating the status of the PO" t:dataTypeName=number
 
-metric m:vchd_amt l:"VOUCHED AMOUNT"against PO. This amount may be less than the original PO amount" t:dataTypeName=number
+metric m:vchd_amt l:"VOUCHED AMOUNT" d:"Actual amount invoiced against PO. This amount may be less than the original PO amount" t:dataTypeName=number
 
-metric m:vend p:integer l:"VENDOR NUMBER"with the vendor" t:dataTypeName=number
+metric m:vend p:integer l:"VENDOR NUMBER" d:"Internal id associated with the vendor" t:dataTypeName=number
 
 metric m:vend_cont_phone p:long l:"VENDOR CONTACT PHONE" t:dataTypeName=number
 
 metric m:vend_cont_ph_ext p:integer l:"VENDOR CONTACT EXTENSION" t:dataTypeName=number
 
-metric m:total_items p:integer l:"TOTAL ITEMS"items on PO. Each PO will have at least 1 detail item" t:dataTypeName=number
+metric m:total_items p:integer l:"TOTAL ITEMS" d:"Total number of detail items on PO. Each PO will have at least 1 detail item" t:dataTypeName=number
 
-metric m:po_balance l:"PO BALANCE"ataTypeName=number
+metric m:po_balance l:"PO BALANCE" d:"Balance left on PO" t:dataTypeName=number
 
-metric m:dt_seq p:integer l:"ITEM NUMBER"e detail PO line item" t:dataTypeName=number
+metric m:dt_seq p:integer l:"ITEM NUMBER" d:"Sequential number of the detail PO line item" t:dataTypeName=number
 
-metric m:dt_qty_ord p:integer l:"ITEM QUANTITY ORDERED"for this PO line item" t:dataTypeName=number
+metric m:dt_qty_ord p:integer l:"ITEM QUANTITY ORDERED" d:"Quantity being ordered for this PO line item" t:dataTypeName=number
 
-metric m:dt_unit_cost l:"ITEM UNIT COST"ine item" t:dataTypeName=number
+metric m:dt_unit_cost l:"ITEM UNIT COST" d:"Unit Cost for this PO line item" t:dataTypeName=number
 
-metric m:dt_tot_cost l:"ITEM TOTAL COST"f the PO line item being ordered" t:dataTypeName=number
+metric m:dt_tot_cost l:"ITEM TOTAL COST" d:"Total (extended) cost of the PO line item being ordered" t:dataTypeName=number
 
 entity e:54bn-2sqf l:"Purchase Orders" t:attribution=Purchasing t:url=https://data.brla.gov/api/views/54bn-2sqf
 
-property e:54bn-2sqf t:meta.view v:id=54bn-2sqf v:category=Government v:attributionLink=http://brgov.com/dept/purchase v:averageRating=0 v:name="Purchase Orders" v:attribution=Purchasing
+property e:54bn-2sqf t:meta.view d:2017-03-10T16:14:01.025Z v:id=54bn-2sqf v:category=Government v:attributionLink=http://brgov.com/dept/purchase v:averageRating=0 v:name="Purchase Orders" v:attribution=Purchasing
 
-property e:54bn-2sqf t:meta.view.license v:name="Public Domain"
+property e:54bn-2sqf t:meta.view.license d:2017-03-10T16:14:01.025Z v:name="Public Domain"
 
-property e:54bn-2sqf t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:54bn-2sqf t:meta.view.owner d:2017-03-10T16:14:01.025Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 
-property e:54bn-2sqf t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:54bn-2sqf t:meta.view.tableauthor d:2017-03-10T16:14:01.025Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

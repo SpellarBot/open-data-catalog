@@ -77,17 +77,17 @@ series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:feature_type=CP t:status=R t:pro
 ## Meta Commands
 
 ```ls
-metric m:zcoord l:ZCOORDeName=number
+metric m:zcoord l:ZCOORD d:"Z Coordinate" t:dataTypeName=number
 
-metric m:capturedatemonth p:integer l:CAPTUREDATEMONTH:dataTypeName=number
+metric m:capturedatemonth p:integer l:CAPTUREDATEMONTH d:"Capture Date - Month" t:dataTypeName=number
 
-metric m:capturedateday p:integer l:CAPTUREDATEDAYataTypeName=number
+metric m:capturedateday p:integer l:CAPTUREDATEDAY d:"Capture Date - Day" t:dataTypeName=number
 
 entity e:hvmg-f4t6 l:"Survey Markers - Retired" t:attribution="Iowa Department of Transportation - Office of Design" t:url=https://data.iowa.gov/api/views/hvmg-f4t6
 
-property e:hvmg-f4t6 t:meta.view v:id=hvmg-f4t6 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Survey/Survey_Markers/MapServer/1 v:averageRating=0 v:name="Survey Markers - Retired" v:attribution="Iowa Department of Transportation - Office of Design"
+property e:hvmg-f4t6 t:meta.view d:2017-03-10T14:17:25.117Z v:id=hvmg-f4t6 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Survey/Survey_Markers/MapServer/1 v:averageRating=0 v:name="Survey Markers - Retired" v:attribution="Iowa Department of Transportation - Office of Design"
 
-property e:hvmg-f4t6 t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:hvmg-f4t6 t:meta.view.owner d:2017-03-10T14:17:25.117Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:hvmg-f4t6 t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:hvmg-f4t6 t:meta.view.tableauthor d:2017-03-10T14:17:25.117Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

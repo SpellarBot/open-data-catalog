@@ -72,19 +72,19 @@ series e:ezab-8sq5 d:2005-01-01T00:00:00.000Z t:locationabbr=AZ t:locationdesc=A
 ## Meta Commands
 
 ```ls
-metric m:data_value l:Data_ValuetaTypeName=number
+metric m:data_value l:Data_Value d:"Value of the data" t:dataTypeName=number
 
-metric m:data_value_footnote_symbol l:Data_Value_Footnote_Symbolymbol associated with footnote text" t:dataTypeName=number
+metric m:data_value_footnote_symbol l:Data_Value_Footnote_Symbol d:"Where applicable, the symbol associated with footnote text" t:dataTypeName=number
 
 entity e:ezab-8sq5 l:"Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)" t:url=https://chronicdata.cdc.gov/api/views/ezab-8sq5
 
-property e:ezab-8sq5 t:meta.view v:id=ezab-8sq5 v:category="Health Consequences and Costs" v:averageRating=0 v:name="Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)"
+property e:ezab-8sq5 t:meta.view d:2017-03-10T16:21:58.403Z v:id=ezab-8sq5 v:category="Health Consequences and Costs" v:averageRating=0 v:name="Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)"
 
-property e:ezab-8sq5 t:meta.view.license v:name="Public Domain"
+property e:ezab-8sq5 t:meta.view.license d:2017-03-10T16:21:58.403Z v:name="Public Domain"
 
-property e:ezab-8sq5 t:meta.view.owner v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:ezab-8sq5 t:meta.view.owner d:2017-03-10T16:21:58.403Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:ezab-8sq5 t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:ezab-8sq5 t:meta.view.tableauthor d:2017-03-10T16:21:58.403Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:ezab-8sq5 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:ezab-8sq5 t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:21:58.403Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```

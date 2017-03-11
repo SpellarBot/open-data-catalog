@@ -101,9 +101,9 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:x74m-smqb l:"Libraries - 2013 Visitors by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/x74m-smqb
 
-property e:x74m-smqb t:meta.view v:id=x74m-smqb v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Visitors by Location" v:attribution="Chicago Public Library"
+property e:x74m-smqb t:meta.view d:2017-03-10T14:36:20.337Z v:id=x74m-smqb v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Visitors by Location" v:attribution="Chicago Public Library"
 
-property e:x74m-smqb t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:x74m-smqb t:meta.view.owner d:2017-03-10T14:36:20.337Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 
-property e:x74m-smqb t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:x74m-smqb t:meta.view.tableauthor d:2017-03-10T14:36:20.337Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```

@@ -67,9 +67,9 @@ metric m:fund p:integer l:Fund t:dataTypeName=number
 
 entity e:rkqa-i8sr l:"Proposed FY16 Budget" t:url=https://data.honolulu.gov/api/views/rkqa-i8sr
 
-property e:rkqa-i8sr t:meta.view v:id=rkqa-i8sr v:category=Finance v:averageRating=0 v:name="Proposed FY16 Budget"
+property e:rkqa-i8sr t:meta.view d:2017-03-10T16:23:37.081Z v:id=rkqa-i8sr v:category=Finance v:averageRating=0 v:name="Proposed FY16 Budget"
 
-property e:rkqa-i8sr t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:rkqa-i8sr t:meta.view.owner d:2017-03-10T16:23:37.081Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 
-property e:rkqa-i8sr t:meta.view.tableauthor v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:rkqa-i8sr t:meta.view.tableauthor d:2017-03-10T16:23:37.081Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 ```

@@ -59,9 +59,9 @@ metric m:of_visitors l:"# of Visitors" t:dataTypeName=number
 
 entity e:wr52-jff7 l:"Thalia Mara Numbers" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/wr52-jff7
 
-property e:wr52-jff7 t:meta.view v:id=wr52-jff7 v:category="City Services" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Thalia Mara Numbers" v:attribution="City of Jackson"
+property e:wr52-jff7 t:meta.view d:2017-03-10T16:02:03.641Z v:id=wr52-jff7 v:category="City Services" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Thalia Mara Numbers" v:attribution="City of Jackson"
 
-property e:wr52-jff7 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:wr52-jff7 t:meta.view.owner d:2017-03-10T16:02:03.641Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 
-property e:wr52-jff7 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:wr52-jff7 t:meta.view.tableauthor d:2017-03-10T16:02:03.641Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```

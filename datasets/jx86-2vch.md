@@ -57,11 +57,11 @@ metric m:phone p:long l:Phone t:dataTypeName=number
 
 entity e:jx86-2vch l:"Libraries State Of Hawaii" t:attribution="Hawaii State Public Library System" t:url=https://data.hawaii.gov/api/views/jx86-2vch
 
-property e:jx86-2vch t:meta.view v:id=jx86-2vch v:category="Social Services" v:attributionLink=http://hawaii.sdp.sirsi.net/custom/web/ v:averageRating=0 v:name="Libraries State Of Hawaii" v:attribution="Hawaii State Public Library System"
+property e:jx86-2vch t:meta.view d:2017-03-10T14:36:58.410Z v:id=jx86-2vch v:category="Social Services" v:attributionLink=http://hawaii.sdp.sirsi.net/custom/web/ v:averageRating=0 v:name="Libraries State Of Hawaii" v:attribution="Hawaii State Public Library System"
 
-property e:jx86-2vch t:meta.view.license v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:jx86-2vch t:meta.view.license d:2017-03-10T14:36:58.410Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:jx86-2vch t:meta.view.owner v:id=4hgi-fxu8 v:screenName="Paola Saibene" v:displayName="Paola Saibene"
+property e:jx86-2vch t:meta.view.owner d:2017-03-10T14:36:58.410Z v:id=4hgi-fxu8 v:screenName="Paola Saibene" v:displayName="Paola Saibene"
 
-property e:jx86-2vch t:meta.view.tableauthor v:id=a5cm-ukuw v:profileImageUrlMedium=/api/users/a5cm-ukuw/profile_images/THUMB v:profileImageUrlLarge=/api/users/a5cm-ukuw/profile_images/LARGE v:screenName="OIMT Open Data Coordinator" v:profileImageUrlSmall=/api/users/a5cm-ukuw/profile_images/TINY v:roleName=publisher v:displayName="OIMT Open Data Coordinator"
+property e:jx86-2vch t:meta.view.tableauthor d:2017-03-10T14:36:58.410Z v:id=a5cm-ukuw v:profileImageUrlMedium=/api/users/a5cm-ukuw/profile_images/THUMB v:profileImageUrlLarge=/api/users/a5cm-ukuw/profile_images/LARGE v:screenName="OIMT Open Data Coordinator" v:profileImageUrlSmall=/api/users/a5cm-ukuw/profile_images/TINY v:roleName=publisher v:displayName="OIMT Open Data Coordinator"
 ```

@@ -48,9 +48,9 @@ Format & Zone = seconds
 ```ls
 entity e:im7g-fucq l:"Missouri Zip Codes by County/City" t:url=https://data.mo.gov/api/views/im7g-fucq
 
-property e:im7g-fucq t:meta.view v:id=im7g-fucq v:category=Geography v:averageRating=0 v:name="Missouri Zip Codes by County/City"
+property e:im7g-fucq t:meta.view d:2017-03-10T14:24:07.555Z v:id=im7g-fucq v:category=Geography v:averageRating=0 v:name="Missouri Zip Codes by County/City"
 
-property e:im7g-fucq t:meta.view.owner v:id=8xqn-4t42 v:profileImageUrlMedium=/api/users/8xqn-4t42/profile_images/THUMB v:profileImageUrlLarge=/api/users/8xqn-4t42/profile_images/LARGE v:screenName="Rodney Distler" v:profileImageUrlSmall=/api/users/8xqn-4t42/profile_images/TINY v:roleName=publisher v:displayName="Rodney Distler"
+property e:im7g-fucq t:meta.view.owner d:2017-03-10T14:24:07.555Z v:id=8xqn-4t42 v:profileImageUrlMedium=/api/users/8xqn-4t42/profile_images/THUMB v:profileImageUrlLarge=/api/users/8xqn-4t42/profile_images/LARGE v:screenName="Rodney Distler" v:profileImageUrlSmall=/api/users/8xqn-4t42/profile_images/TINY v:roleName=publisher v:displayName="Rodney Distler"
 
-property e:im7g-fucq t:meta.view.tableauthor v:id=8xqn-4t42 v:profileImageUrlMedium=/api/users/8xqn-4t42/profile_images/THUMB v:profileImageUrlLarge=/api/users/8xqn-4t42/profile_images/LARGE v:screenName="Rodney Distler" v:profileImageUrlSmall=/api/users/8xqn-4t42/profile_images/TINY v:roleName=publisher v:displayName="Rodney Distler"
+property e:im7g-fucq t:meta.view.tableauthor d:2017-03-10T14:24:07.555Z v:id=8xqn-4t42 v:profileImageUrlMedium=/api/users/8xqn-4t42/profile_images/THUMB v:profileImageUrlLarge=/api/users/8xqn-4t42/profile_images/LARGE v:screenName="Rodney Distler" v:profileImageUrlSmall=/api/users/8xqn-4t42/profile_images/TINY v:roleName=publisher v:displayName="Rodney Distler"
 ```

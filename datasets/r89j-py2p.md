@@ -68,9 +68,9 @@ series e:r89j-py2p d:2012-09-11T08:58:47.000Z t:fund_name="General Fund" t:fund_
 ```ls
 entity e:r89j-py2p l:"Fiscal Year 2013 Budget" t:url=https://data.montgomerycountymd.gov/api/views/r89j-py2p
 
-property e:r89j-py2p t:meta.view v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"
+property e:r89j-py2p t:meta.view d:2017-03-10T16:21:10.962Z v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"
 
-property e:r89j-py2p t:meta.view.owner v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.owner d:2017-03-10T16:21:10.962Z v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
 
-property e:r89j-py2p t:meta.view.tableauthor v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.tableauthor d:2017-03-10T16:21:10.962Z v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
 ```

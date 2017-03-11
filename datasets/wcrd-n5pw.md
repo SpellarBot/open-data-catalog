@@ -67,9 +67,9 @@ metric m:count p:integer l:Count t:dataTypeName=number
 
 entity e:wcrd-n5pw l:"05to12 Iquery Lyme Data" t:url=https://data.illinois.gov/api/views/wcrd-n5pw
 
-property e:wcrd-n5pw t:meta.view v:id=wcrd-n5pw v:averageRating=0 v:name="05to12 Iquery Lyme Data"
+property e:wcrd-n5pw t:meta.view d:2017-03-10T14:27:50.497Z v:id=wcrd-n5pw v:averageRating=0 v:name="05to12 Iquery Lyme Data"
 
-property e:wcrd-n5pw t:meta.view.owner v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
+property e:wcrd-n5pw t:meta.view.owner d:2017-03-10T14:27:50.497Z v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
 
-property e:wcrd-n5pw t:meta.view.tableauthor v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
+property e:wcrd-n5pw t:meta.view.tableauthor d:2017-03-10T14:27:50.497Z v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
 ```

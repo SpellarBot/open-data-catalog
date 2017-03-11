@@ -71,9 +71,9 @@ series e:m2gw-xt7z d:2015-05-12T18:25:05.000Z t:description="1135 Smith St (bet.
 ```ls
 entity e:m2gw-xt7z l:"Parking 2015" t:url=https://data.honolulu.gov/api/views/m2gw-xt7z
 
-property e:m2gw-xt7z t:meta.view v:id=m2gw-xt7z v:category=Transportation v:averageRating=0 v:name="Parking 2015"
+property e:m2gw-xt7z t:meta.view d:2017-03-10T16:22:57.729Z v:id=m2gw-xt7z v:category=Transportation v:averageRating=0 v:name="Parking 2015"
 
-property e:m2gw-xt7z t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:m2gw-xt7z t:meta.view.owner d:2017-03-10T16:22:57.729Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 
-property e:m2gw-xt7z t:meta.view.tableauthor v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:m2gw-xt7z t:meta.view.tableauthor d:2017-03-10T16:22:57.729Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 ```

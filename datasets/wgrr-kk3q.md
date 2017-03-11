@@ -149,11 +149,11 @@ metric m:ld_centerschool p:integer l:LD_CenterSchool t:dataTypeName=number
 
 entity e:wgrr-kk3q l:"Seattle Center Emergency Services Unit 2016 Incident Report" t:attribution="Seattle Center" t:url=https://data.seattle.gov/api/views/wgrr-kk3q
 
-property e:wgrr-kk3q t:meta.view v:id=wgrr-kk3q v:category="City Business" v:attributionLink=http://www.seattlecenter.com v:averageRating=0 v:name="Seattle Center Emergency Services Unit 2016 Incident Report" v:attribution="Seattle Center"
+property e:wgrr-kk3q t:meta.view d:2017-03-10T16:26:59.861Z v:id=wgrr-kk3q v:category="City Business" v:attributionLink=http://www.seattlecenter.com v:averageRating=0 v:name="Seattle Center Emergency Services Unit 2016 Incident Report" v:attribution="Seattle Center"
 
-property e:wgrr-kk3q t:meta.view.license v:name="Public Domain"
+property e:wgrr-kk3q t:meta.view.license d:2017-03-10T16:26:59.861Z v:name="Public Domain"
 
-property e:wgrr-kk3q t:meta.view.owner v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
+property e:wgrr-kk3q t:meta.view.owner d:2017-03-10T16:26:59.861Z v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
 
-property e:wgrr-kk3q t:meta.view.tableauthor v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
+property e:wgrr-kk3q t:meta.view.tableauthor d:2017-03-10T16:26:59.861Z v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
 ```

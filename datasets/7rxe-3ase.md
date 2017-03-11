@@ -106,9 +106,9 @@ metric m:total_assessed_parcel_value p:integer l:"Total Assessed Parcel Value" t
 
 entity e:7rxe-3ase l:"City Of Somerville Assessors Valuations FY16" t:attribution="City of Somerville Assessing Department" t:url=https://data.somervillema.gov/api/views/7rxe-3ase
 
-property e:7rxe-3ase t:meta.view v:id=7rxe-3ase v:category=Finance v:attributionLink=http://www.somervillema.gov/departments/finance/assessing v:averageRating=0 v:name="City Of Somerville Assessors Valuations FY16" v:attribution="City of Somerville Assessing Department"
+property e:7rxe-3ase t:meta.view d:2017-03-10T16:10:53.125Z v:id=7rxe-3ase v:category=Finance v:attributionLink=http://www.somervillema.gov/departments/finance/assessing v:averageRating=0 v:name="City Of Somerville Assessors Valuations FY16" v:attribution="City of Somerville Assessing Department"
 
-property e:7rxe-3ase t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:7rxe-3ase t:meta.view.owner d:2017-03-10T16:10:53.125Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 
-property e:7rxe-3ase t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:7rxe-3ase t:meta.view.tableauthor d:2017-03-10T16:10:53.125Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```

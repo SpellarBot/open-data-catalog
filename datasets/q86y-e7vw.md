@@ -62,9 +62,9 @@ Format & Zone = seconds
 ```ls
 entity e:q86y-e7vw l:"Proposed One- Day- Per- Week Watering Schedule" t:url=https://data.austintexas.gov/api/views/q86y-e7vw
 
-property e:q86y-e7vw t:meta.view v:id=q86y-e7vw v:category=Utility v:averageRating=0 v:name="Proposed One- Day- Per- Week Watering Schedule"
+property e:q86y-e7vw t:meta.view d:2017-03-10T14:23:26.710Z v:id=q86y-e7vw v:category=Utility v:averageRating=0 v:name="Proposed One- Day- Per- Week Watering Schedule"
 
-property e:q86y-e7vw t:meta.view.owner v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
+property e:q86y-e7vw t:meta.view.owner d:2017-03-10T14:23:26.710Z v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
 
-property e:q86y-e7vw t:meta.view.tableauthor v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
+property e:q86y-e7vw t:meta.view.tableauthor d:2017-03-10T14:23:26.710Z v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
 ```

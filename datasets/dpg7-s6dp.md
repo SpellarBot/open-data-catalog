@@ -68,11 +68,11 @@ metric m:total p:integer l:Total t:dataTypeName=number
 
 entity e:dpg7-s6dp l:"William Mead Homes" t:attribution=HACLA t:url=https://data.lacity.org/api/views/dpg7-s6dp
 
-property e:dpg7-s6dp t:meta.view v:id=dpg7-s6dp v:category="A Livable and Sustainable City" v:averageRating=0 v:name="William Mead Homes" v:attribution=HACLA
+property e:dpg7-s6dp t:meta.view d:2017-03-10T16:33:24.730Z v:id=dpg7-s6dp v:category="A Livable and Sustainable City" v:averageRating=0 v:name="William Mead Homes" v:attribution=HACLA
 
-property e:dpg7-s6dp t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:dpg7-s6dp t:meta.view.license d:2017-03-10T16:33:24.730Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:dpg7-s6dp t:meta.view.owner v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
+property e:dpg7-s6dp t:meta.view.owner d:2017-03-10T16:33:24.730Z v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
 
-property e:dpg7-s6dp t:meta.view.tableauthor v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
+property e:dpg7-s6dp t:meta.view.tableauthor d:2017-03-10T16:33:24.730Z v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
 ```

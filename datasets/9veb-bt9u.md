@@ -55,11 +55,11 @@ series e:9veb-bt9u d:1992-01-01T00:00:00.000Z m:percent_of_adults_currently_smok
 ```ls
 entity e:9veb-bt9u l:"Percent of Connecticut Adults, High School Students, and Middle School Students Currently Smoking Cigarettes by Year" t:attribution="CT DPH: Community Health and Prevention Section" t:url=https://data.ct.gov/api/views/9veb-bt9u
 
-property e:9veb-bt9u t:meta.view v:id=9veb-bt9u v:category="Health and Human Services" v:attributionLink=http://www.ct.gov/dph/tobacco v:averageRating=0 v:name="Percent of Connecticut Adults, High School Students, and Middle School Students Currently Smoking Cigarettes by Year" v:attribution="CT DPH: Community Health and Prevention Section"
+property e:9veb-bt9u t:meta.view d:2017-03-10T14:16:08.984Z v:id=9veb-bt9u v:category="Health and Human Services" v:attributionLink=http://www.ct.gov/dph/tobacco v:averageRating=0 v:name="Percent of Connecticut Adults, High School Students, and Middle School Students Currently Smoking Cigarettes by Year" v:attribution="CT DPH: Community Health and Prevention Section"
 
-property e:9veb-bt9u t:meta.view.license v:name="Public Domain"
+property e:9veb-bt9u t:meta.view.license d:2017-03-10T14:16:08.984Z v:name="Public Domain"
 
-property e:9veb-bt9u t:meta.view.owner v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
+property e:9veb-bt9u t:meta.view.owner d:2017-03-10T14:16:08.984Z v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
 
-property e:9veb-bt9u t:meta.view.tableauthor v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
+property e:9veb-bt9u t:meta.view.tableauthor d:2017-03-10T14:16:08.984Z v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
 ```

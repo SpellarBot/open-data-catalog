@@ -92,11 +92,11 @@ metric m:ratio p:integer l:RATIO t:dataTypeName=number
 
 entity e:i6qv-ar46 l:"Zoning Density Assumptions For Zoned Development Capacity Model" t:url=https://data.seattle.gov/api/views/i6qv-ar46
 
-property e:i6qv-ar46 t:meta.view v:id=i6qv-ar46 v:category="Land Base" v:averageRating=0 v:name="Zoning Density Assumptions For Zoned Development Capacity Model"
+property e:i6qv-ar46 t:meta.view d:2017-03-10T16:26:46.448Z v:id=i6qv-ar46 v:category="Land Base" v:averageRating=0 v:name="Zoning Density Assumptions For Zoned Development Capacity Model"
 
-property e:i6qv-ar46 t:meta.view.license v:name="Public Domain"
+property e:i6qv-ar46 t:meta.view.license d:2017-03-10T16:26:46.448Z v:name="Public Domain"
 
-property e:i6qv-ar46 t:meta.view.owner v:id=5wys-t5s3 v:screenName="Seattle DPD" v:roleName=publisher v:displayName="Seattle DPD"
+property e:i6qv-ar46 t:meta.view.owner d:2017-03-10T16:26:46.448Z v:id=5wys-t5s3 v:screenName="Seattle DPD" v:roleName=publisher v:displayName="Seattle DPD"
 
-property e:i6qv-ar46 t:meta.view.tableauthor v:id=5wys-t5s3 v:screenName="Seattle DPD" v:roleName=publisher v:displayName="Seattle DPD"
+property e:i6qv-ar46 t:meta.view.tableauthor d:2017-03-10T16:26:46.448Z v:id=5wys-t5s3 v:screenName="Seattle DPD" v:roleName=publisher v:displayName="Seattle DPD"
 ```

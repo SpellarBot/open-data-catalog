@@ -84,35 +84,35 @@ series e:qfw2-ekmx d:2007-04-02T10:15:00.000Z t:dir_from_cross_street=E t:study_
 ## Meta Commands
 
 ```ls
-metric m:actual_days p:integer l:ACTUAL_DAYSme=number
+metric m:actual_days p:integer l:ACTUAL_DAYS d:ACTUAL_DAYS t:dataTypeName=number
 
-metric m:intended_days p:integer l:INTENDED_DAYSName=number
+metric m:intended_days p:integer l:INTENDED_DAYS d:INTENDED_DAYS t:dataTypeName=number
 
-metric m:study_length p:integer l:STUDY_LENGTHame=number
+metric m:study_length p:integer l:STUDY_LENGTH d:STUDY_LENGTH t:dataTypeName=number
 
-metric m:study_adt p:integer l:STUDY_ADT=number
+metric m:study_adt p:integer l:STUDY_ADT d:STUDY_ADT t:dataTypeName=number
 
-metric m:study_awdt p:integer l:STUDY_AWDTe=number
+metric m:study_awdt p:integer l:STUDY_AWDT d:STUDY_AWDT t:dataTypeName=number
 
-metric m:study_max8 p:integer l:STUDY_MAX8e=number
+metric m:study_max8 p:integer l:STUDY_MAX8 d:STUDY_MAX8 t:dataTypeName=number
 
-metric m:study_ampk p:integer l:STUDY_AMPKe=number
+metric m:study_ampk p:integer l:STUDY_AMPK d:STUDY_AMPK t:dataTypeName=number
 
-metric m:study_pmpk p:integer l:STUDY_PMPKe=number
+metric m:study_pmpk p:integer l:STUDY_PMPK d:STUDY_PMPK t:dataTypeName=number
 
-metric m:seg_compkey p:integer l:SEG_COMPKEYme=number
+metric m:seg_compkey p:integer l:SEG_COMPKEY d:SEG_COMPKEY t:dataTypeName=number
 
-metric m:unitid2 p:integer l:UNITID2umber
+metric m:unitid2 p:integer l:UNITID2 d:UNITID2 t:dataTypeName=number
 
-metric m:distance l:DISTANCEnumber
+metric m:distance l:DISTANCE d:DISTANCE t:dataTypeName=number
 
 entity e:qfw2-ekmx l:"SDOT Traffic Count Details" t:url=https://data.seattle.gov/api/views/qfw2-ekmx
 
-property e:qfw2-ekmx t:meta.view v:id=qfw2-ekmx v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation/ v:averageRating=0 v:name="SDOT Traffic Count Details"
+property e:qfw2-ekmx t:meta.view d:2017-03-10T14:29:38.660Z v:id=qfw2-ekmx v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation/ v:averageRating=0 v:name="SDOT Traffic Count Details"
 
-property e:qfw2-ekmx t:meta.view.license v:name="Public Domain"
+property e:qfw2-ekmx t:meta.view.license d:2017-03-10T14:29:38.660Z v:name="Public Domain"
 
-property e:qfw2-ekmx t:meta.view.owner v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:qfw2-ekmx t:meta.view.owner d:2017-03-10T14:29:38.660Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 
-property e:qfw2-ekmx t:meta.view.tableauthor v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:qfw2-ekmx t:meta.view.tableauthor d:2017-03-10T14:29:38.660Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 ```

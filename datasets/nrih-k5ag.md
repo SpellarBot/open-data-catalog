@@ -81,9 +81,9 @@ Format & Zone = seconds
 ```ls
 entity e:nrih-k5ag l:"SB 272 Enterprise Software" t:url=https://data.srcity.org/api/views/nrih-k5ag
 
-property e:nrih-k5ag t:meta.view v:id=nrih-k5ag v:category=Government v:averageRating=0 v:name="SB 272 Enterprise Software"
+property e:nrih-k5ag t:meta.view d:2017-03-10T16:12:42.850Z v:id=nrih-k5ag v:category=Government v:averageRating=0 v:name="SB 272 Enterprise Software"
 
-property e:nrih-k5ag t:meta.view.owner v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
+property e:nrih-k5ag t:meta.view.owner d:2017-03-10T16:12:42.850Z v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
 
-property e:nrih-k5ag t:meta.view.tableauthor v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
+property e:nrih-k5ag t:meta.view.tableauthor d:2017-03-10T16:12:42.850Z v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
 ```

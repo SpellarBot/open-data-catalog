@@ -56,9 +56,9 @@ metric m:totalpercentage l:TotalPercentage t:dataTypeName=number
 
 entity e:ad4g-jpgv l:TPW_AssetAvailability t:url=https://data.srcity.org/api/views/ad4g-jpgv
 
-property e:ad4g-jpgv t:meta.view v:id=ad4g-jpgv v:averageRating=0 v:name=TPW_AssetAvailability
+property e:ad4g-jpgv t:meta.view d:2017-03-10T16:13:09.331Z v:id=ad4g-jpgv v:averageRating=0 v:name=TPW_AssetAvailability
 
-property e:ad4g-jpgv t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ad4g-jpgv t:meta.view.owner d:2017-03-10T16:13:09.331Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 
-property e:ad4g-jpgv t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ad4g-jpgv t:meta.view.tableauthor d:2017-03-10T16:13:09.331Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

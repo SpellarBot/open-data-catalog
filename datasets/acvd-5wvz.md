@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-10T14:26:08Z |
+| Rows Updated | 2017-03-09T14:29:32Z |
 
 ## Description
 
@@ -68,17 +68,17 @@ series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Cor
 ## Meta Commands
 
 ```ls
-metric m:cop_rating l:"COP Rating" in the heating mode that represents the ratio of total heating capacity to electrical energy input." t:dataTypeName=number
+metric m:cop_rating l:"COP Rating" d:"A measure of efficiency in the heating mode that represents the ratio of total heating capacity to electrical energy input." t:dataTypeName=number
 
-metric m:eer_rating l:"Energy Efficiency (EER)" in the cooling mode that represents the ratio of total cooling capacity to electrical energy input." t:dataTypeName=number
+metric m:eer_rating l:"Energy Efficiency (EER)" d:"A measure of efficiency in the cooling mode that represents the ratio of total cooling capacity to electrical energy input." t:dataTypeName=number
 
 entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https://data.energystar.gov/api/views/acvd-5wvz
 
-property e:acvd-5wvz t:meta.view v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
+property e:acvd-5wvz t:meta.view d:2017-03-10T14:23:39.275Z v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
 
-property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.owner d:2017-03-10T14:23:39.275Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:acvd-5wvz t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.tableauthor d:2017-03-10T14:23:39.275Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
-property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:23:39.275Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
 ```

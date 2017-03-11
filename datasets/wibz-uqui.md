@@ -112,9 +112,9 @@ metric m:weekly_hours_of_public_service p:integer l:"Weekly Hours of Public Serv
 
 entity e:wibz-uqui l:"NYPL Branch Services - Staten Island" t:attribution="New York Public Library (NYPL)" t:url=https://data.cityofnewyork.us/api/views/wibz-uqui
 
-property e:wibz-uqui t:meta.view v:id=wibz-uqui v:category=Recreation v:averageRating=0 v:name="NYPL Branch Services - Staten Island" v:attribution="New York Public Library (NYPL)"
+property e:wibz-uqui t:meta.view d:2017-03-10T14:17:00.485Z v:id=wibz-uqui v:category=Recreation v:averageRating=0 v:name="NYPL Branch Services - Staten Island" v:attribution="New York Public Library (NYPL)"
 
-property e:wibz-uqui t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:wibz-uqui t:meta.view.owner d:2017-03-10T14:17:00.485Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:wibz-uqui t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:wibz-uqui t:meta.view.tableauthor d:2017-03-10T14:17:00.485Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

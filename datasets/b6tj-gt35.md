@@ -16,7 +16,7 @@
 | Tags | permits, tables, chairs, mobile, food, truck, display, surface, mounted, excavation, temporary, occupancy, row, banner, bicycle |
 | Created | 2012-09-24T23:30:54Z |
 | Publication Date | 2015-07-17T15:43:31Z |
-| Rows Updated | 2017-03-10T16:12:50Z |
+| Rows Updated | 2017-03-09T16:12:31Z |
 
 ## Description
 
@@ -81,11 +81,11 @@ metric m:cnn p:integer l:cnn t:dataTypeName=number
 
 entity e:b6tj-gt35 l:"Street-Use Permits" t:attribution="San Francisco Department of Public Works" t:url=https://data.sfgov.org/api/views/b6tj-gt35
 
-property e:b6tj-gt35 t:meta.view v:id=b6tj-gt35 v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Street-Use Permits" v:attribution="San Francisco Department of Public Works"
+property e:b6tj-gt35 t:meta.view d:2017-03-10T14:32:10.622Z v:id=b6tj-gt35 v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Street-Use Permits" v:attribution="San Francisco Department of Public Works"
 
-property e:b6tj-gt35 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:b6tj-gt35 t:meta.view.license d:2017-03-10T14:32:10.622Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:b6tj-gt35 t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+property e:b6tj-gt35 t:meta.view.owner d:2017-03-10T14:32:10.622Z v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 
-property e:b6tj-gt35 t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+property e:b6tj-gt35 t:meta.view.tableauthor d:2017-03-10T14:32:10.622Z v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 ```

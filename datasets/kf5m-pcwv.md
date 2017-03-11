@@ -95,13 +95,13 @@ metric m:census_block p:integer l:"Census Block" t:dataTypeName=number
 
 entity e:kf5m-pcwv l:"Administrative Discretionary Grants (FY 1996-2014)" t:attribution=IMLS t:url=https://data.imls.gov/api/views/kf5m-pcwv
 
-property e:kf5m-pcwv t:meta.view v:id=kf5m-pcwv v:category="Administrative Data" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/administrative-discretionary-grant-data v:averageRating=0 v:name="Administrative Discretionary Grants (FY 1996-2014)" v:attribution=IMLS
+property e:kf5m-pcwv t:meta.view d:2017-03-10T16:32:38.632Z v:id=kf5m-pcwv v:category="Administrative Data" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/administrative-discretionary-grant-data v:averageRating=0 v:name="Administrative Discretionary Grants (FY 1996-2014)" v:attribution=IMLS
 
-property e:kf5m-pcwv t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:kf5m-pcwv t:meta.view.license d:2017-03-10T16:32:38.632Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:kf5m-pcwv t:meta.view.owner v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:kf5m-pcwv t:meta.view.owner d:2017-03-10T16:32:38.632Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
 
-property e:kf5m-pcwv t:meta.view.tableauthor v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:kf5m-pcwv t:meta.view.tableauthor d:2017-03-10T16:32:38.632Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
 
-property e:kf5m-pcwv t:meta.view.metadata.custom_fields.common_core v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:kf5m-pcwv t:meta.view.metadata.custom_fields.common_core d:2017-03-10T16:32:38.632Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
 ```
