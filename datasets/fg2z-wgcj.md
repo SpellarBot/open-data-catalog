@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.imls.gov/api/views/fg2z-wgcj/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/lsta-allotments-fy-2003-2016)
-* [Metadata URL](https://data.imls.gov/api/views/fg2z-wgcj)
-* Id = fg2z-wgcj
-* Name = LSTA Allotments (FY 2003-2016)
-* Attribution = IMLS
-* [Attribution Link](https://www.imls.gov/grants/grants-state/state-allotments)
-* Category = Administrative Data
-* Tags = [lsta, library services and technology act, allotments, budget, administrative, trends]
-* Created = 2014-10-29T21:01:56Z
-* Publication Date = 2016-08-29T18:45:41Z
-* Rows Updated = 2016-08-29T18:43:50Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/lsta-allotments-fy-2003-2016) |
+| Metadata | [Link](https://data.imls.gov/api/views/fg2z-wgcj) |
+| Data: JSON | [100 Rows](https://data.imls.gov/api/views/fg2z-wgcj/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.imls.gov/api/views/fg2z-wgcj/rows.csv?max_rows=100) |
+| Host | data.imls.gov |
+| Id | fg2z-wgcj |
+| Name | LSTA Allotments (FY 2003-2016) |
+| Attribution | IMLS |
+| Category | Administrative Data |
+| Tags | lsta, library services and technology act, allotments, budget, administrative, trends |
+| Created | 2014-10-29T21:01:56Z |
+| Publication Date | 2016-08-29T18:45:41Z |
+| Rows Updated | 2016-08-29T18:43:50Z |
 
 ## Description
 
@@ -26,23 +29,23 @@ Visit https://www.imls.gov/grants/grants-states to learn more about Grants to St
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | No       | 
-| FY 2016    | fy2016      | money     | money       | numeric metric | Yes      | 
-| FY 2015    | fy2015      | money     | money       | numeric metric | Yes      | 
-| FY 2014    | fy2014      | money     | money       | numeric metric | Yes      | 
-| FY 2013    | fy2013      | money     | money       | numeric metric | Yes      | 
-| FY 2012    | fy2012      | money     | money       | numeric metric | Yes      | 
-| FY 2011    | fy2011      | money     | money       | numeric metric | Yes      | 
-| FY 2010    | fy2010      | money     | money       | numeric metric | Yes      | 
-| FY 2009    | fy2009      | money     | money       | numeric metric | Yes      | 
-| FY 2008    | fy2008      | money     | money       | numeric metric | Yes      | 
-| FY 2007    | fy2007      | money     | money       | numeric metric | Yes      | 
-| FY 2006    | fy2006      | money     | money       | numeric metric | Yes      | 
-| FY 2005    | fy2005      | money     | money       | numeric metric | Yes      | 
-| FY 2004    | fy2004      | money     | money       | numeric metric | Yes      | 
-| FY 2003    | fy2003      | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | numeric metric | fy2016      | FY 2016    | money     | money       |
+| Yes      | numeric metric | fy2015      | FY 2015    | money     | money       |
+| Yes      | numeric metric | fy2014      | FY 2014    | money     | money       |
+| Yes      | numeric metric | fy2013      | FY 2013    | money     | money       |
+| Yes      | numeric metric | fy2012      | FY 2012    | money     | money       |
+| Yes      | numeric metric | fy2011      | FY 2011    | money     | money       |
+| Yes      | numeric metric | fy2010      | FY 2010    | money     | money       |
+| Yes      | numeric metric | fy2009      | FY 2009    | money     | money       |
+| Yes      | numeric metric | fy2008      | FY 2008    | money     | money       |
+| Yes      | numeric metric | fy2007      | FY 2007    | money     | money       |
+| Yes      | numeric metric | fy2006      | FY 2006    | money     | money       |
+| Yes      | numeric metric | fy2005      | FY 2005    | money     | money       |
+| Yes      | numeric metric | fy2004      | FY 2004    | money     | money       |
+| Yes      | numeric metric | fy2003      | FY 2003    | money     | money       |
 ```
 
 ## Time Field
@@ -50,15 +53,6 @@ Visit https://www.imls.gov/grants/grants-states to learn more about Grants to St
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,13 +70,13 @@ series e:fg2z-wgcj d:2016-08-29T18:43:33.000Z m:fy2014=254300 m:fy2005=203404 m:
 ```ls
 entity e:fg2z-wgcj l:"LSTA Allotments (FY 2003-2016)" t:attribution=IMLS t:url=https://data.imls.gov/api/views/fg2z-wgcj
 
-property e:fg2z-wgcj t:meta.view d:2017-03-08T01:33:49.387Z v:id=fg2z-wgcj v:category="Administrative Data" v:attributionLink=https://www.imls.gov/grants/grants-state/state-allotments v:averageRating=0 v:name="LSTA Allotments (FY 2003-2016)" v:attribution=IMLS
+property e:fg2z-wgcj t:meta.view v:id=fg2z-wgcj v:category="Administrative Data" v:attributionLink=https://www.imls.gov/grants/grants-state/state-allotments v:averageRating=0 v:name="LSTA Allotments (FY 2003-2016)" v:attribution=IMLS
 
-property e:fg2z-wgcj t:meta.view.license d:2017-03-08T01:33:49.387Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:fg2z-wgcj t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:fg2z-wgcj t:meta.view.owner d:2017-03-08T01:33:49.387Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:fg2z-wgcj t:meta.view.owner v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
 
-property e:fg2z-wgcj t:meta.view.tableauthor d:2017-03-08T01:33:49.387Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:fg2z-wgcj t:meta.view.tableauthor v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
 
-property e:fg2z-wgcj t:meta.view.metadata.custom_fields.common_core d:2017-03-08T01:33:49.387Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:fg2z-wgcj t:meta.view.metadata.custom_fields.common_core v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
 ```

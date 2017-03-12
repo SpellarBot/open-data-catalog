@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/7as2-ds3y/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/311-service-requests-pot-holes-reported-c4116)
-* [Metadata URL](https://data.cityofchicago.org/api/views/7as2-ds3y)
-* Id = 7as2-ds3y
-* Name = 311 Service Requests - Pot Holes Reported
-* Attribution = City of Chicago
-* [Attribution Link](http://www.cityofchicago.org)
-* Category = Service Requests
-* Tags = [streets, pot holes]
-* Created = 2011-09-30T09:11:02Z
-* Publication Date = 2017-03-07T12:05:59Z
-* Rows Updated = 2017-03-07T12:04:42Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/311-service-requests-pot-holes-reported-c4116) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/7as2-ds3y) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/7as2-ds3y/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/7as2-ds3y/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | 7as2-ds3y |
+| Name | 311 Service Requests - Pot Holes Reported |
+| Attribution | City of Chicago |
+| Category | Service Requests |
+| Tags | streets, pot holes |
+| Created | 2011-09-30T09:11:02Z |
+| Publication Date | 2017-03-11T11:40:26Z |
+| Rows Updated | 2017-03-11T11:39:08Z |
 
 ## Description
 
@@ -28,26 +31,26 @@ Data Owner: Transportation. Time Period: All open requests and all completed req
 ## Columns
 
 ```ls
-| Name                               | Field Name                         | Data Type     | Render Type   | Schema Type    | Included | 
-| ================================== | ================================== | ============= | ============= | ============== | ======== | 
-| CREATION DATE                      | creation_date                      | calendar_date | calendar_date | time           | Yes      | 
-| STATUS                             | status                             | text          | text          | series tag     | Yes      | 
-| COMPLETION DATE                    | completion_date                    | calendar_date | calendar_date |                | No       | 
-| SERVICE REQUEST NUMBER             | service_request_number             | text          | text          | series tag     | Yes      | 
-| TYPE OF SERVICE REQUEST            | type_of_service_request            | text          | text          | series tag     | Yes      | 
-| CURRENT ACTIVITY                   | current_activity                   | text          | text          | series tag     | Yes      | 
-| MOST RECENT ACTION                 | most_recent_action                 | text          | text          | series tag     | Yes      | 
-| NUMBER OF POTHOLES FILLED ON BLOCK | number_of_potholes_filled_on_block | number        | number        | numeric metric | Yes      | 
-| STREET ADDRESS                     | street_address                     | text          | text          |                | No       | 
-| ZIP                                | zip                                | text          | number        | series tag     | Yes      | 
-| X COORDINATE                       | x_coordinate                       | number        | number        |                | No       | 
-| Y COORDINATE                       | y_coordinate                       | number        | number        |                | No       | 
-| Ward                               | ward                               | text          | number        | series tag     | Yes      | 
-| Police District                    | police_district                    | text          | number        | series tag     | Yes      | 
-| Community Area                     | community_area                     | number        | number        | numeric metric | Yes      | 
-| SSA                                | ssa                                | text          | text          | series tag     | Yes      | 
-| LATITUDE                           | latitude                           | number        | number        | numeric metric | Yes      | 
-| LONGITUDE                          | longitude                          | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                         | Name                               | Data Type     | Render Type   |
+| ======== | ============== | ================================== | ================================== | ============= | ============= |
+| Yes      | time           | creation_date                      | CREATION DATE                      | calendar_date | calendar_date |
+| Yes      | series tag     | status                             | STATUS                             | text          | text          |
+| No       |                | completion_date                    | COMPLETION DATE                    | calendar_date | calendar_date |
+| Yes      | series tag     | service_request_number             | SERVICE REQUEST NUMBER             | text          | text          |
+| Yes      | series tag     | type_of_service_request            | TYPE OF SERVICE REQUEST            | text          | text          |
+| Yes      | series tag     | current_activity                   | CURRENT ACTIVITY                   | text          | text          |
+| Yes      | series tag     | most_recent_action                 | MOST RECENT ACTION                 | text          | text          |
+| Yes      | numeric metric | number_of_potholes_filled_on_block | NUMBER OF POTHOLES FILLED ON BLOCK | number        | number        |
+| No       |                | street_address                     | STREET ADDRESS                     | text          | text          |
+| Yes      | series tag     | zip                                | ZIP                                | text          | number        |
+| No       |                | x_coordinate                       | X COORDINATE                       | number        | number        |
+| No       |                | y_coordinate                       | Y COORDINATE                       | number        | number        |
+| Yes      | series tag     | ward                               | Ward                               | text          | number        |
+| Yes      | series tag     | police_district                    | Police District                    | text          | number        |
+| Yes      | numeric metric | community_area                     | Community Area                     | number        | number        |
+| Yes      | numeric metric | ssa                                | SSA                                | number        | text          |
+| No       |                | latitude                           | LATITUDE                           | number        | number        |
+| No       |                | longitude                          | LONGITUDE                          | number        | number        |
 ```
 
 ## Time Field
@@ -60,38 +63,33 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = y_coordinate,x_coordinate,completion_date,street_address
-Annotation Fields = 
+Excluded Fields = y_coordinate,x_coordinate,longitude,latitude,completion_date,street_address
 ```
 
 ## Data Commands
 
 ```ls
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:type_of_service_request="Pot Hole in Street" m:community_area=69 m:longitude=-87.63854 m:latitude=41.75608
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:type_of_service_request="Pot Hole in Street" m:community_area=69
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:ssa=3 t:service_request_number=11-00002209 t:type_of_service_request="Pot Hole in Street" m:community_area=65 m:longitude=-87.7225 m:latitude=41.76401
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:service_request_number=11-00002209 t:type_of_service_request="Pot Hole in Street" m:ssa=3 m:community_area=65
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:type_of_service_request="Pot Hole in Street" m:community_area=22 m:longitude=-87.6877 m:latitude=41.92501
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:type_of_service_request="Pot Hole in Street" m:community_area=22
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:number_of_potholes_filled_on_block l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
+metric m:number_of_potholes_filled_on_block p:integer l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
 
 metric m:community_area l:"Community Area" t:dataTypeName=number
 
-metric m:latitude l:LATITUDE t:dataTypeName=number
-
-metric m:longitude l:LONGITUDE t:dataTypeName=number
+metric m:ssa p:integer l:SSA d:"Special Service Areas are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs" t:dataTypeName=number
 
 entity e:7as2-ds3y l:"311 Service Requests - Pot Holes Reported" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/7as2-ds3y
 
-property e:7as2-ds3y t:meta.view d:2017-03-08T00:57:05.917Z v:id=7as2-ds3y v:category="Service Requests" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="311 Service Requests - Pot Holes Reported" v:attribution="City of Chicago"
+property e:7as2-ds3y t:meta.view v:id=7as2-ds3y v:category="Service Requests" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="311 Service Requests - Pot Holes Reported" v:attribution="City of Chicago"
 
-property e:7as2-ds3y t:meta.view.owner d:2017-03-08T00:57:05.917Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:7as2-ds3y t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 
-property e:7as2-ds3y t:meta.view.tableauthor d:2017-03-08T00:57:05.917Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:7as2-ds3y t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```

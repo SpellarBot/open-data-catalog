@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/early-voting-grace-period-registration-and-voting-2014-november-4-gubernatorial-election-80f3f)
-* Id = mzmn-fvgv
-* Name = Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election
-* Attribution = Cook County Clerk
-* Attribution Link = http://www.cookcountyclerk.com
-* Category = Finance & Administration
-* Tags = [elections, voting, vote, polling locations, early voting]
-* Created = 2014-10-17T15:43:43Z
-* Publication Date = 2014-10-17T16:06:29Z
-* Rows Updated = 2014-10-17T15:59:39Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/early-voting-grace-period-registration-and-voting-2014-november-4-gubernatorial-election-80f3f) |
+| Metadata | [Link](https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv) |
+| Data: JSON | [100 Rows](https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv/rows.csv?max_rows=100) |
+| Host | datacatalog.cookcountyil.gov |
+| Id | mzmn-fvgv |
+| Name | Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election |
+| Attribution | Cook County Clerk |
+| Category | Finance & Administration |
+| Tags | elections, voting, vote, polling locations, early voting |
+| Created | 2014-10-17T15:43:43Z |
+| Publication Date | 2014-10-17T16:06:29Z |
+| Rows Updated | 2014-10-17T15:59:39Z |
 
 ## Description
 
@@ -24,18 +28,18 @@ and eligible to vote in their precinct. For more information on Early Voting see
 ## Columns
 
 ```ls
-| Name                               | Field Name                       | Data Type | Render Type | Schema Type | Included | 
-| ================================== | ================================ | ========= | =========== | =========== | ======== | 
-| updated_at                         | :updated_at                      | meta_data | meta_data   | time        | Yes      | 
-| Site                               | site                             | text      | text        | series tag  | Yes      | 
-| Early Voting - Weekdays            | early_voting_weekdays            | text      | text        | series tag  | Yes      | 
-| Early Voting - Saturday            | early_voting_saturday            | text      | text        | series tag  | Yes      | 
-| Early Voting - Sunday              | early_voting_sunday              | text      | text        | series tag  | Yes      | 
-| Grace Period Registration & Voting | grace_period_registration_voting | text      | text        | series tag  | Yes      | 
-| Grace Period & In-Person Absentee  | grace_period_in_person_absentee  | text      | text        | series tag  | Yes      | 
-| Election Day Registration & Voting | election_day_registration_voting | text      | text        | series tag  | Yes      | 
-| Street                             | street                           | text      | text        | series tag  | Yes      | 
-| City                               | city                             | text      | text        | series tag  | Yes      | 
+| Included | Schema Type | Field Name                       | Name                               | Data Type | Render Type |
+| ======== | =========== | ================================ | ================================== | ========= | =========== |
+| No       | time        | :updated_at                      | updated_at                         | meta_data | meta_data   |
+| Yes      | series tag  | site                             | Site                               | text      | text        |
+| Yes      | series tag  | early_voting_weekdays            | Early Voting - Weekdays            | text      | text        |
+| Yes      | series tag  | early_voting_saturday            | Early Voting - Saturday            | text      | text        |
+| Yes      | series tag  | early_voting_sunday              | Early Voting - Sunday              | text      | text        |
+| Yes      | series tag  | grace_period_registration_voting | Grace Period Registration & Voting | text      | text        |
+| Yes      | series tag  | grace_period_in_person_absentee  | Grace Period & In-Person Absentee  | text      | text        |
+| Yes      | series tag  | election_day_registration_voting | Election Day Registration & Voting | text      | text        |
+| Yes      | series tag  | street                           | Street                             | text      | text        |
+| Yes      | series tag  | city                             | City                               | text      | text        |
 ```
 
 ## Time Field
@@ -45,23 +49,9 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
-```
-
 ## Data Commands
 
 ```ls
-
-
-
-
-
 ```
 
 ## Meta Commands
@@ -69,11 +59,11 @@ Annotation Fields =
 ```ls
 entity e:mzmn-fvgv l:"Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv
 
-property e:mzmn-fvgv t:meta.view d:2017-03-03T14:35:37.602Z v:id=mzmn-fvgv v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com v:averageRating=0 v:name="Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
+property e:mzmn-fvgv t:meta.view v:id=mzmn-fvgv v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com v:averageRating=0 v:name="Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
 
-property e:mzmn-fvgv t:meta.view.license d:2017-03-03T14:35:37.602Z v:name="Public Domain"
+property e:mzmn-fvgv t:meta.view.license v:name="Public Domain"
 
-property e:mzmn-fvgv t:meta.view.owner d:2017-03-03T14:35:37.602Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
+property e:mzmn-fvgv t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 
-property e:mzmn-fvgv t:meta.view.tableauthor d:2017-03-03T14:35:37.602Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
+property e:mzmn-fvgv t:meta.view.tableauthor v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 ```

@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/ndk3-zftj/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/public-health-statistics-tuberculosis-cases-and-average-annual-incidence-rate-chicago-2007-4fe37)
-* Id = ndk3-zftj
-* Name = Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011
-* Attribution = Public Health
-* Category = Health & Human Services
-* Created = 2012-02-29T21:06:31Z
-* Publication Date = 2014-04-11T17:03:08Z
-* Rows Updated = 2014-04-11T16:56:41Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/public-health-statistics-tuberculosis-cases-and-average-annual-incidence-rate-chicago-2007-4fe37) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/ndk3-zftj) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/ndk3-zftj/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/ndk3-zftj/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | ndk3-zftj |
+| Name | Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011 |
+| Attribution | Public Health |
+| Category | Health & Human Services |
+| Created | 2012-02-29T21:06:31Z |
+| Publication Date | 2014-04-11T17:03:08Z |
+| Rows Updated | 2014-04-11T16:56:41Z |
 
 ## Description
 
@@ -19,21 +24,21 @@ The annual number of new cases of tuberculosis and average annual tuberculosis i
 ## Columns
 
 ```ls
-| Name                                             | Field Name                              | Data Type | Render Type | Schema Type    | Included | 
-| ================================================ | ======================================= | ========= | =========== | ============== | ======== | 
-| updated_at                                       | :updated_at                             | meta_data | meta_data   | time           | Yes      | 
-| Community Area                                   | community_area                          | number    | number      | numeric metric | Yes      | 
-| Community Area Name                              | community_area_name                     | text      | text        | series tag     | Yes      | 
-| Cases 2007                                       | cases_2006                              | number    | number      | numeric metric | Yes      | 
-| Cases 2008                                       | cases_2007                              | number    | number      | numeric metric | Yes      | 
-| Cases 2009                                       | cases_2008                              | number    | number      | numeric metric | Yes      | 
-| Cases 2010                                       | cases_2009                              | number    | number      | numeric metric | Yes      | 
-| Cases 2011                                       | cases_2010                              | number    | number      | numeric metric | Yes      | 
-| Cases 2007 - 2011                                | cases_2006_2010                         | number    | number      | numeric metric | Yes      | 
-| Average Annual Incidence Rate 2007-2011          | average_annual_incidence_rate_2006_2010 | number    | number      | numeric metric | Yes      | 
-| Average Annual Incidence Rate 2007-2011 Lower CI | incidence_rate_lower_ci                 | number    | number      | numeric metric | Yes      | 
-| Average Annual Incidence Rate 2007-2011 Upper CI | incidence_rate_upper_ci                 | number    | number      | numeric metric | Yes      | 
-| WARNING                                          | warning                                 | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                              | Name                                             | Data Type | Render Type |
+| ======== | ============== | ======================================= | ================================================ | ========= | =========== |
+| No       | time           | :updated_at                             | updated_at                                       | meta_data | meta_data   |
+| Yes      | numeric metric | community_area                          | Community Area                                   | number    | number      |
+| Yes      | series tag     | community_area_name                     | Community Area Name                              | text      | text        |
+| Yes      | numeric metric | cases_2006                              | Cases 2007                                       | number    | number      |
+| Yes      | numeric metric | cases_2007                              | Cases 2008                                       | number    | number      |
+| Yes      | numeric metric | cases_2008                              | Cases 2009                                       | number    | number      |
+| Yes      | numeric metric | cases_2009                              | Cases 2010                                       | number    | number      |
+| Yes      | numeric metric | cases_2010                              | Cases 2011                                       | number    | number      |
+| Yes      | numeric metric | cases_2006_2010                         | Cases 2007 - 2011                                | number    | number      |
+| Yes      | numeric metric | average_annual_incidence_rate_2006_2010 | Average Annual Incidence Rate 2007-2011          | number    | number      |
+| Yes      | numeric metric | incidence_rate_lower_ci                 | Average Annual Incidence Rate 2007-2011 Lower CI | number    | number      |
+| Yes      | numeric metric | incidence_rate_upper_ci                 | Average Annual Incidence Rate 2007-2011 Upper CI | number    | number      |
+| Yes      | series tag     | warning                                 | WARNING                                          | text      | text        |
 ```
 
 ## Time Field
@@ -41,15 +46,6 @@ The annual number of new cases of tuberculosis and average annual tuberculosis i
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -65,7 +61,7 @@ series e:ndk3-zftj d:2012-10-05T13:15:40.000Z t:community_area_name=Uptown m:inc
 ## Meta Commands
 
 ```ls
-metric m:community_area p:integer l:"Community Area" t:dataTypeName=number
+metric m:community_area l:"Community Area" t:dataTypeName=number
 
 metric m:cases_2006 p:integer l:"Cases 2007" t:dataTypeName=number
 
@@ -87,9 +83,9 @@ metric m:incidence_rate_upper_ci l:"Average Annual Incidence Rate 2007-2011 Uppe
 
 entity e:ndk3-zftj l:"Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" t:attribution="Public Health" t:url=https://data.cityofchicago.org/api/views/ndk3-zftj
 
-property e:ndk3-zftj t:meta.view d:2017-03-03T14:35:04.484Z v:id=ndk3-zftj v:category="Health & Human Services" v:averageRating=0 v:name="Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" v:attribution="Public Health"
+property e:ndk3-zftj t:meta.view v:id=ndk3-zftj v:category="Health & Human Services" v:averageRating=0 v:name="Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" v:attribution="Public Health"
 
-property e:ndk3-zftj t:meta.view.owner d:2017-03-03T14:35:04.484Z v:id=is6y-5c5n v:screenName=Jamyia v:displayName=Jamyia
+property e:ndk3-zftj t:meta.view.owner v:id=is6y-5c5n v:screenName=Jamyia v:displayName=Jamyia
 
-property e:ndk3-zftj t:meta.view.tableauthor d:2017-03-03T14:35:04.484Z v:id=is6y-5c5n v:screenName=Jamyia v:displayName=Jamyia
+property e:ndk3-zftj t:meta.view.tableauthor v:id=is6y-5c5n v:screenName=Jamyia v:displayName=Jamyia
 ```

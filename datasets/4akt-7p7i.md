@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.hartford.gov/api/views/4akt-7p7i/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/city-of-hartford-business-listing)
-* [Metadata URL](https://data.hartford.gov/api/views/4akt-7p7i)
-* Id = 4akt-7p7i
-* Name = City of Hartford Business Listing
-* Attribution = City of Hartford
-* [Attribution Link](http://www.hartford.gov)
-* Category = Financial
-* Tags = [financial, business, property, hartford]
-* Created = 2015-09-23T14:49:51Z
-* Publication Date = 2015-09-23T18:02:05Z
-* Rows Updated = 2015-09-24T05:00:22Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/city-of-hartford-business-listing) |
+| Metadata | [Link](https://data.hartford.gov/api/views/4akt-7p7i) |
+| Data: JSON | [100 Rows](https://data.hartford.gov/api/views/4akt-7p7i/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.hartford.gov/api/views/4akt-7p7i/rows.csv?max_rows=100) |
+| Host | data.hartford.gov |
+| Id | 4akt-7p7i |
+| Name | City of Hartford Business Listing |
+| Attribution | City of Hartford |
+| Category | Financial |
+| Tags | financial, business, property, hartford |
+| Created | 2015-09-23T14:49:51Z |
+| Publication Date | 2015-09-23T18:02:05Z |
+| Rows Updated | 2015-09-24T05:00:22Z |
 
 ## Description
 
@@ -22,24 +25,24 @@ The source of this data set is the working file Personal Property Database that 
 ## Columns
 
 ```ls
-| Name       | Field Name | Data Type     | Render Type   | Schema Type    | Included | 
-| ========== | ========== | ============= | ============= | ============== | ======== | 
-| Account    | account    | number        | text          | numeric metric | Yes      | 
-| Owner      | owner      | text          | text          | series tag     | Yes      | 
-| Owner2     | owner2     | text          | text          | series tag     | Yes      | 
-| DBA        | dba        | text          | text          | series tag     | Yes      | 
-| Address    | address    | text          | text          |                | No       | 
-| Address2   | address2   | text          | text          | series tag     | Yes      | 
-| Location   | location   | text          | text          | series tag     | Yes      | 
-| City       | city       | text          | text          | series tag     | Yes      | 
-| State      | state      | text          | text          | series tag     | Yes      | 
-| Zip        | zip        | text          | text          | series tag     | Yes      | 
-| Source     | source     | text          | text          | series tag     | Yes      | 
-| Date_a     | date_a     | calendar_date | calendar_date | time           | Yes      | 
-| Assessment | assessment | money         | money         | numeric metric | Yes      | 
-| St_Number  | st_number  | number        | number        | numeric metric | Yes      | 
-| St_Name    | st_name    | text          | text          | series tag     | Yes      | 
-| Locunit    | locunit    | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name | Name       | Data Type     | Render Type   |
+| ======== | ============== | ========== | ========== | ============= | ============= |
+| Yes      | numeric metric | account    | Account    | number        | text          |
+| Yes      | series tag     | owner      | Owner      | text          | text          |
+| Yes      | series tag     | owner2     | Owner2     | text          | text          |
+| Yes      | series tag     | dba        | DBA        | text          | text          |
+| No       |                | address    | Address    | text          | text          |
+| Yes      | series tag     | address2   | Address2   | text          | text          |
+| Yes      | series tag     | location   | Location   | text          | text          |
+| Yes      | series tag     | city       | City       | text          | text          |
+| Yes      | series tag     | state      | State      | text          | text          |
+| Yes      | series tag     | zip        | Zip        | text          | text          |
+| Yes      | series tag     | source     | Source     | text          | text          |
+| Yes      | time           | date_a     | Date_a     | calendar_date | calendar_date |
+| Yes      | numeric metric | assessment | Assessment | money         | money         |
+| Yes      | numeric metric | st_number  | St_Number  | number        | number        |
+| Yes      | series tag     | st_name    | St_Name    | text          | text          |
+| Yes      | series tag     | locunit    | Locunit    | text          | text          |
 ```
 
 ## Time Field
@@ -52,10 +55,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = address
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -77,11 +77,11 @@ metric m:st_number p:integer l:St_Number t:dataTypeName=number
 
 entity e:4akt-7p7i l:"City of Hartford Business Listing" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/4akt-7p7i
 
-property e:4akt-7p7i t:meta.view d:2017-03-07T18:03:45.827Z v:id=4akt-7p7i v:category=Financial v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="City of Hartford Business Listing" v:attribution="City of Hartford"
+property e:4akt-7p7i t:meta.view v:id=4akt-7p7i v:category=Financial v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="City of Hartford Business Listing" v:attribution="City of Hartford"
 
-property e:4akt-7p7i t:meta.view.license d:2017-03-07T18:03:45.827Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:4akt-7p7i t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:4akt-7p7i t:meta.view.owner d:2017-03-07T18:03:45.827Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:4akt-7p7i t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 
-property e:4akt-7p7i t:meta.view.tableauthor d:2017-03-07T18:03:45.827Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:4akt-7p7i t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```

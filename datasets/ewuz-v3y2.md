@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/ewuz-v3y2/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/campaign-consultants-vendor-payments-066bd)
-* [Metadata URL](https://data.sfgov.org/api/views/ewuz-v3y2)
-* Id = ewuz-v3y2
-* Name = Campaign Consultants - Vendor Payments
-* Attribution = San Francisco Ethics Commission
-* [Attribution Link](http://www.sfethics.org)
-* Category = City Management and Ethics
-* Tags = [campaign consultant, ethics, vendors, sub-vendors, payments]
-* Created = 2013-07-19T23:10:46Z
-* Publication Date = 2013-07-22T22:49:57Z
-* Rows Updated = 2017-03-07T03:55:06Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/campaign-consultants-vendor-payments-066bd) |
+| Metadata | [Link](https://data.sfgov.org/api/views/ewuz-v3y2) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/ewuz-v3y2/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/ewuz-v3y2/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | ewuz-v3y2 |
+| Name | Campaign Consultants - Vendor Payments |
+| Attribution | San Francisco Ethics Commission |
+| Category | City Management and Ethics |
+| Tags | campaign consultant, ethics, vendors, sub-vendors, payments |
+| Created | 2013-07-19T23:10:46Z |
+| Publication Date | 2013-07-22T22:49:57Z |
+| Rows Updated | 2017-03-12T03:55:07Z |
 
 ## Description
 
@@ -22,16 +25,16 @@ Campaign consultants must report economic consideration promised to or received 
 ## Columns
 
 ```ls
-| Name                   | Field Name             | Data Type     | Render Type   | Schema Type    | Included | 
-| ====================== | ====================== | ============= | ============= | ============== | ======== | 
-| Consultant             | consultant             | text          | text          | series tag     | Yes      | 
-| Vendor/Sub-vendor Name | vendor_sub_vendor_name | text          | text          | series tag     | Yes      | 
-| Payments promised      | payments_promised      | money         | money         | numeric metric | Yes      | 
-| Payments received      | payments_received      | money         | money         | numeric metric | Yes      | 
-| Quarter Start Date     | quarter_start_date     | calendar_date | calendar_date | time           | Yes      | 
-| Quarter End Date       | quarter_end_date       | calendar_date | calendar_date |                | No       | 
-| Quarter                | quarter                | number        | text          | numeric metric | Yes      | 
-| Year                   | year                   | number        | text          |                | No       | 
+| Included | Schema Type    | Field Name             | Name                   | Data Type     | Render Type   |
+| ======== | ============== | ====================== | ====================== | ============= | ============= |
+| Yes      | series tag     | consultant             | Consultant             | text          | text          |
+| Yes      | series tag     | vendor_sub_vendor_name | Vendor/Sub-vendor Name | text          | text          |
+| Yes      | numeric metric | payments_promised      | Payments promised      | money         | money         |
+| Yes      | numeric metric | payments_received      | Payments received      | money         | money         |
+| Yes      | time           | quarter_start_date     | Quarter Start Date     | calendar_date | calendar_date |
+| No       |                | quarter_end_date       | Quarter End Date       | calendar_date | calendar_date |
+| Yes      | numeric metric | quarter                | Quarter                | number        | text          |
+| No       |                | year                   | Year                   | number        | text          |
 ```
 
 ## Time Field
@@ -44,10 +47,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = quarter_end_date,year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -67,11 +67,11 @@ metric m:quarter p:integer l:Quarter t:dataTypeName=number
 
 entity e:ewuz-v3y2 l:"Campaign Consultants - Vendor Payments" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/ewuz-v3y2
 
-property e:ewuz-v3y2 t:meta.view d:2017-03-08T01:47:05.697Z v:id=ewuz-v3y2 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Consultants - Vendor Payments" v:attribution="San Francisco Ethics Commission"
+property e:ewuz-v3y2 t:meta.view v:id=ewuz-v3y2 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Consultants - Vendor Payments" v:attribution="San Francisco Ethics Commission"
 
-property e:ewuz-v3y2 t:meta.view.license d:2017-03-08T01:47:05.697Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:ewuz-v3y2 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:ewuz-v3y2 t:meta.view.owner d:2017-03-08T01:47:05.697Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:ewuz-v3y2 t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 
-property e:ewuz-v3y2 t:meta.view.tableauthor d:2017-03-08T01:47:05.697Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:ewuz-v3y2 t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

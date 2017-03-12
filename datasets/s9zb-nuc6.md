@@ -68,9 +68,9 @@ series e:s9zb-nuc6 d:2014-02-03T16:08:25.000Z t:title="ANIMAL CONTROL OFFICER" t
 ```ls
 entity e:s9zb-nuc6 l:"Employee Overtime and Supplemental Earnings 2013" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/s9zb-nuc6
 
-property e:s9zb-nuc6 t:meta.view d:2017-03-10T14:39:36.945Z v:id=s9zb-nuc6 v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Employee Overtime and Supplemental Earnings 2013" v:attribution="City of Chicago"
+property e:s9zb-nuc6 t:meta.view v:id=s9zb-nuc6 v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Employee Overtime and Supplemental Earnings 2013" v:attribution="City of Chicago"
 
-property e:s9zb-nuc6 t:meta.view.owner d:2017-03-10T14:39:36.945Z v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
+property e:s9zb-nuc6 t:meta.view.owner v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
 
-property e:s9zb-nuc6 t:meta.view.tableauthor d:2017-03-10T14:39:36.945Z v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
+property e:s9zb-nuc6 t:meta.view.tableauthor v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
 ```

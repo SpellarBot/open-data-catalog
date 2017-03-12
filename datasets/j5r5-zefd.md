@@ -2,32 +2,32 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/j5r5-zefd/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/2012-age-0-17-youth-population-by-race-ethnicity-by-county)
-* Id = j5r5-zefd
-* Name = 2012 Age 0-17 Youth Population by Race/Ethnicity by County
-* Attribution = Office of Juvenile Justice
-* Attribution Link = https://dshs.wa.gov/ra/office-juvenile-justice/washington-state-juvenile-justice-annual-report
-* Created = 2015-11-17T04:24:05Z
-* Publication Date = 2015-11-17T04:26:44Z
-* Rows Updated = 2015-11-17T04:24:21Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/2012-age-0-17-youth-population-by-race-ethnicity-by-county) |
+| Metadata | [Link](https://data.wa.gov/api/views/j5r5-zefd) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/j5r5-zefd/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/j5r5-zefd/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | j5r5-zefd |
+| Name | 2012 Age 0-17 Youth Population by Race/Ethnicity by County |
+| Attribution | Office of Juvenile Justice |
+| Created | 2015-11-17T04:24:05Z |
+| Publication Date | 2015-11-17T04:26:44Z |
+| Rows Updated | 2015-11-17T04:24:21Z |
 
 ## Columns
 
 ```ls
-| Name                  | Field Name          | Data Type | Render Type | Schema Type    | Included | 
-| ===================== | =================== | ========= | =========== | ============== | ======== | 
-| updated_at            | :updated_at         | meta_data | meta_data   | time           | Yes      | 
-| County                | county              | text      | text        | series tag     | Yes      | 
-| White (Non-Hispanic)  | white_non_hispanic  | number    | number      | numeric metric | Yes      | 
-| Black (Non-Hispanic)  | black_non_hispanic  | number    | number      | numeric metric | Yes      | 
-| Indian (Non-Hispanic) | indian_non_hispanic | number    | number      | numeric metric | Yes      | 
-| Asian (Non-Hispanic)  | asian_non_hispanic  | number    | number      | numeric metric | Yes      | 
-| Hispanic              | hispanic            | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name          | Name                  | Data Type | Render Type |
+| ======== | ============== | =================== | ===================== | ========= | =========== |
+| No       | time           | :updated_at         | updated_at            | meta_data | meta_data   |
+| Yes      | series tag     | county              | County                | text      | text        |
+| Yes      | numeric metric | white_non_hispanic  | White (Non-Hispanic)  | number    | number      |
+| Yes      | numeric metric | black_non_hispanic  | Black (Non-Hispanic)  | number    | number      |
+| Yes      | numeric metric | indian_non_hispanic | Indian (Non-Hispanic) | number    | number      |
+| Yes      | numeric metric | asian_non_hispanic  | Asian (Non-Hispanic)  | number    | number      |
+| Yes      | numeric metric | hispanic            | Hispanic              | number    | number      |
 ```
 
 ## Time Field
@@ -35,15 +35,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -71,11 +62,11 @@ metric m:hispanic p:integer l:Hispanic t:dataTypeName=number
 
 entity e:j5r5-zefd l:"2012 Age 0-17 Youth Population by Race/Ethnicity by County" t:attribution="Office of Juvenile Justice" t:url=https://data.wa.gov/api/views/j5r5-zefd
 
-property e:j5r5-zefd t:meta.view d:2017-03-03T13:50:04.581Z v:id=j5r5-zefd v:attributionLink=https://dshs.wa.gov/ra/office-juvenile-justice/washington-state-juvenile-justice-annual-report v:averageRating=100 v:name="2012 Age 0-17 Youth Population by Race/Ethnicity by County" v:attribution="Office of Juvenile Justice"
+property e:j5r5-zefd t:meta.view v:id=j5r5-zefd v:attributionLink=https://dshs.wa.gov/ra/office-juvenile-justice/washington-state-juvenile-justice-annual-report v:averageRating=100 v:name="2012 Age 0-17 Youth Population by Race/Ethnicity by County" v:attribution="Office of Juvenile Justice"
 
-property e:j5r5-zefd t:meta.view.license d:2017-03-03T13:50:04.581Z v:name="Public Domain"
+property e:j5r5-zefd t:meta.view.license v:name="Public Domain"
 
-property e:j5r5-zefd t:meta.view.owner d:2017-03-03T13:50:04.581Z v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:roleName=viewer v:displayName="Alysa Kipersztok"
+property e:j5r5-zefd t:meta.view.owner v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:roleName=viewer v:displayName="Alysa Kipersztok"
 
-property e:j5r5-zefd t:meta.view.tableauthor d:2017-03-03T13:50:04.581Z v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:roleName=viewer v:displayName="Alysa Kipersztok"
+property e:j5r5-zefd t:meta.view.tableauthor v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:roleName=viewer v:displayName="Alysa Kipersztok"
 ```

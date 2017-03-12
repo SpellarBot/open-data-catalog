@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/ak95-mjh9/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/local-area-unemployment-statistics-3885c)
-* [Metadata URL](https://data.wa.gov/api/views/ak95-mjh9)
-* Id = ak95-mjh9
-* Name = Local Area Unemployment Statistics
-* Attribution = United States Department of Labor
-* [Attribution Link](http://stats.bls.gov/lau/laucntycur14.txt)
-* Category = Economics
-* Tags = [unemployment]
-* Created = 2014-02-06T04:36:01Z
-* Publication Date = 2014-02-06T05:16:54Z
-* Rows Updated = 2014-02-06T05:16:45Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/local-area-unemployment-statistics-3885c) |
+| Metadata | [Link](https://data.wa.gov/api/views/ak95-mjh9) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/ak95-mjh9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/ak95-mjh9/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | ak95-mjh9 |
+| Name | Local Area Unemployment Statistics |
+| Attribution | United States Department of Labor |
+| Category | Economics |
+| Tags | unemployment |
+| Created | 2014-02-06T04:36:01Z |
+| Publication Date | 2014-02-06T05:16:54Z |
+| Rows Updated | 2014-02-06T05:16:45Z |
 
 ## Description
 
@@ -22,20 +25,20 @@ The Local Area Unemployment Statistics (LAUS) program produces monthly and annua
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type     | Render Type   | Schema Type    | Included | 
-| ==================== | ==================== | ============= | ============= | ============== | ======== | 
-| LAUS Area Code       | laus_area_code       | text          | text          | series tag     | Yes      | 
-| State FIPS Code      | state_fips_code      | text          | number        | series tag     | Yes      | 
-| County FIPS Code     | county_fips_code     | text          | number        | series tag     | Yes      | 
-| Area Title           | area_title           | text          | text          | series tag     | Yes      | 
-| County Name          | county_name          | text          | text          | series tag     | Yes      | 
-| State                | state                | text          | text          | series tag     | Yes      | 
-| Period               | period               | text          | text          | series tag     | Yes      | 
-| Date                 | date                 | calendar_date | calendar_date | time           | Yes      | 
-| Civilian Labor Force | civilian_labor_force | number        | number        | numeric metric | Yes      | 
-| Employed Level       | employed_level       | number        | number        | numeric metric | Yes      | 
-| Unemployed Level     | unemployed_level     | number        | number        | numeric metric | Yes      | 
-| Unemployment Rate    | unemployment_rate    | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type     | Render Type   |
+| ======== | ============== | ==================== | ==================== | ============= | ============= |
+| Yes      | series tag     | laus_area_code       | LAUS Area Code       | text          | text          |
+| Yes      | series tag     | state_fips_code      | State FIPS Code      | text          | number        |
+| Yes      | series tag     | county_fips_code     | County FIPS Code     | text          | number        |
+| Yes      | series tag     | area_title           | Area Title           | text          | text          |
+| Yes      | series tag     | county_name          | County Name          | text          | text          |
+| Yes      | series tag     | state                | State                | text          | text          |
+| Yes      | series tag     | period               | Period               | text          | text          |
+| Yes      | time           | date                 | Date                 | calendar_date | calendar_date |
+| Yes      | numeric metric | civilian_labor_force | Civilian Labor Force | number        | number        |
+| Yes      | numeric metric | employed_level       | Employed Level       | number        | number        |
+| Yes      | numeric metric | unemployed_level     | Unemployed Level     | number        | number        |
+| Yes      | numeric metric | unemployment_rate    | Unemployment Rate    | number        | number        |
 ```
 
 ## Time Field
@@ -43,15 +46,6 @@ The Local Area Unemployment Statistics (LAUS) program produces monthly and annua
 ```ls
 Value = date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -77,9 +71,9 @@ metric m:unemployment_rate l:"Unemployment Rate" t:dataTypeName=number
 
 entity e:ak95-mjh9 l:"Local Area Unemployment Statistics" t:attribution="United States Department of Labor" t:url=https://data.wa.gov/api/views/ak95-mjh9
 
-property e:ak95-mjh9 t:meta.view d:2017-03-07T18:52:36.285Z v:id=ak95-mjh9 v:category=Economics v:attributionLink=http://stats.bls.gov/lau/laucntycur14.txt v:averageRating=60 v:name="Local Area Unemployment Statistics" v:attribution="United States Department of Labor"
+property e:ak95-mjh9 t:meta.view v:id=ak95-mjh9 v:category=Economics v:attributionLink=http://stats.bls.gov/lau/laucntycur14.txt v:averageRating=60 v:name="Local Area Unemployment Statistics" v:attribution="United States Department of Labor"
 
-property e:ak95-mjh9 t:meta.view.owner d:2017-03-07T18:52:36.285Z v:id=h2ue-vnnt v:profileImageUrlMedium=/api/users/h2ue-vnnt/profile_images/THUMB v:profileImageUrlLarge=/api/users/h2ue-vnnt/profile_images/LARGE v:screenName="OCIO-Will Saunders" v:profileImageUrlSmall=/api/users/h2ue-vnnt/profile_images/TINY v:roleName=publisher v:displayName="OCIO-Will Saunders"
+property e:ak95-mjh9 t:meta.view.owner v:id=h2ue-vnnt v:profileImageUrlMedium=/api/users/h2ue-vnnt/profile_images/THUMB v:profileImageUrlLarge=/api/users/h2ue-vnnt/profile_images/LARGE v:screenName="OCIO-Will Saunders" v:profileImageUrlSmall=/api/users/h2ue-vnnt/profile_images/TINY v:roleName=publisher v:displayName="OCIO-Will Saunders"
 
-property e:ak95-mjh9 t:meta.view.tableauthor d:2017-03-07T18:52:36.285Z v:id=h2ue-vnnt v:profileImageUrlMedium=/api/users/h2ue-vnnt/profile_images/THUMB v:profileImageUrlLarge=/api/users/h2ue-vnnt/profile_images/LARGE v:screenName="OCIO-Will Saunders" v:profileImageUrlSmall=/api/users/h2ue-vnnt/profile_images/TINY v:roleName=publisher v:displayName="OCIO-Will Saunders"
+property e:ak95-mjh9 t:meta.view.tableauthor v:id=h2ue-vnnt v:profileImageUrlMedium=/api/users/h2ue-vnnt/profile_images/THUMB v:profileImageUrlLarge=/api/users/h2ue-vnnt/profile_images/LARGE v:screenName="OCIO-Will Saunders" v:profileImageUrlSmall=/api/users/h2ue-vnnt/profile_images/TINY v:roleName=publisher v:displayName="OCIO-Will Saunders"
 ```

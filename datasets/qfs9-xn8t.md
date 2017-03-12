@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/qfs9-xn8t/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/nycdcp-manhattan-bike-counts-on-street-weekday)
-* [Metadata URL](https://data.cityofnewyork.us/api/views/qfs9-xn8t)
-* Id = qfs9-xn8t
-* Name = NYCDCP Manhattan Bike Counts - On Street Weekday
-* Attribution = Department of City Planning (DCP)
-* Category = Transportation
-* Created = 2016-09-12T20:51:49Z
-* Publication Date = 2016-09-12T21:23:22Z
-* Rows Updated = 2016-09-12T20:52:01Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nycdcp-manhattan-bike-counts-on-street-weekday) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/qfs9-xn8t) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/qfs9-xn8t/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/qfs9-xn8t/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | qfs9-xn8t |
+| Name | NYCDCP Manhattan Bike Counts - On Street Weekday |
+| Attribution | Department of City Planning (DCP) |
+| Category | Transportation |
+| Created | 2016-09-12T20:51:49Z |
+| Publication Date | 2016-09-12T21:23:22Z |
+| Rows Updated | 2016-09-12T20:52:01Z |
 
 ## Description
 
@@ -20,34 +24,34 @@ The Transportation Division of the New York City Department of City Planning (NY
 ## Columns
 
 ```ls
-| Name                  | Field Name            | Data Type | Render Type | Schema Type    | Included | 
-| ===================== | ===================== | ========= | =========== | ============== | ======== | 
-| LocationID            | locationid            | text      | number      | series tag     | Yes      | 
-| LocationType          | locationtype          | text      | text        | series tag     | Yes      | 
-| TypeOfTime            | typeoftime            | text      | text        | series tag     | Yes      | 
-| Location              | location              | text      | text        | series tag     | Yes      | 
-| Location_Lat          | location_lat          | number    | number      |                | No       | 
-| Location_Long         | location_long         | number    | number      |                | No       | 
-| Year                  | year                  | number    | number      | time           | Yes      | 
-| TotalUsers            | totalusers            | number    | number      | numeric metric | Yes      | 
-| NonCyc_OtherUser      | noncyc_otheruser      | number    | number      | numeric metric | Yes      | 
-| CyclistVolume         | cyclistvolume         | number    | number      | numeric metric | Yes      | 
-| CycBikeLane           | cycbikelane           | number    | number      | numeric metric | Yes      | 
-| CycAdjacentLane       | cycadjacentlane       | number    | number      | numeric metric | Yes      | 
-| CyclOtherLane         | cyclotherlane         | number    | number      | numeric metric | Yes      | 
-| CycCounterFlowInLane  | cyccounterflowinlane  | number    | number      | numeric metric | Yes      | 
-| CycSidewalk           | cycsidewalk           | number    | number      | numeric metric | Yes      | 
-| CycCnterFlowOutOfLane | cyccnterflowoutoflane | number    | number      | numeric metric | Yes      | 
-| FemaleCyc_Total       | femalecyc_total       | number    | number      | numeric metric | Yes      | 
-| MaleCyc_Total         | malecyc_total         | number    | number      | numeric metric | Yes      | 
-| Female_Cyc_Helmet     | female_cyc_helmet     | number    | number      | numeric metric | Yes      | 
-| Male_Cyc_Helmet       | male_cyc_helmet       | number    | number      | numeric metric | Yes      | 
-| Cycl_Helmet_all       | cycl_helmet_all       | number    | number      | numeric metric | Yes      | 
-| Cyc_Under16           | cyc_under16           | number    | number      | numeric metric | Yes      | 
-| Citibike_Male         | citibike_male         | number    | number      | numeric metric | Yes      | 
-| Citibike_female       | citibike_female       | number    | number      | numeric metric | Yes      | 
-| Citibike_All          | citibike_all          | number    | number      | numeric metric | Yes      | 
-| Non_citibikeCyc       | non_citibikecyc       | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name            | Name                  | Data Type | Render Type |
+| ======== | ============== | ===================== | ===================== | ========= | =========== |
+| Yes      | series tag     | locationid            | LocationID            | text      | number      |
+| Yes      | series tag     | locationtype          | LocationType          | text      | text        |
+| Yes      | series tag     | typeoftime            | TypeOfTime            | text      | text        |
+| Yes      | series tag     | location              | Location              | text      | text        |
+| No       |                | location_lat          | Location_Lat          | number    | number      |
+| No       |                | location_long         | Location_Long         | number    | number      |
+| Yes      | time           | year                  | Year                  | number    | number      |
+| Yes      | numeric metric | totalusers            | TotalUsers            | number    | number      |
+| Yes      | numeric metric | noncyc_otheruser      | NonCyc_OtherUser      | number    | number      |
+| Yes      | numeric metric | cyclistvolume         | CyclistVolume         | number    | number      |
+| Yes      | numeric metric | cycbikelane           | CycBikeLane           | number    | number      |
+| Yes      | numeric metric | cycadjacentlane       | CycAdjacentLane       | number    | number      |
+| Yes      | numeric metric | cyclotherlane         | CyclOtherLane         | number    | number      |
+| Yes      | numeric metric | cyccounterflowinlane  | CycCounterFlowInLane  | number    | number      |
+| Yes      | numeric metric | cycsidewalk           | CycSidewalk           | number    | number      |
+| Yes      | numeric metric | cyccnterflowoutoflane | CycCnterFlowOutOfLane | number    | number      |
+| Yes      | numeric metric | femalecyc_total       | FemaleCyc_Total       | number    | number      |
+| Yes      | numeric metric | malecyc_total         | MaleCyc_Total         | number    | number      |
+| Yes      | numeric metric | female_cyc_helmet     | Female_Cyc_Helmet     | number    | number      |
+| Yes      | numeric metric | male_cyc_helmet       | Male_Cyc_Helmet       | number    | number      |
+| Yes      | numeric metric | cycl_helmet_all       | Cycl_Helmet_all       | number    | number      |
+| Yes      | numeric metric | cyc_under16           | Cyc_Under16           | number    | number      |
+| Yes      | numeric metric | citibike_male         | Citibike_Male         | number    | number      |
+| Yes      | numeric metric | citibike_female       | Citibike_female       | number    | number      |
+| Yes      | numeric metric | citibike_all          | Citibike_All          | number    | number      |
+| Yes      | numeric metric | non_citibikecyc       | Non_citibikeCyc       | number    | number      |
 ```
 
 ## Time Field
@@ -60,10 +64,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = location_lat,location_long
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -119,9 +120,9 @@ metric m:non_citibikecyc p:integer l:Non_citibikeCyc t:dataTypeName=number
 
 entity e:qfs9-xn8t l:"NYCDCP Manhattan Bike Counts - On Street Weekday" t:attribution="Department of City Planning (DCP)" t:url=https://data.cityofnewyork.us/api/views/qfs9-xn8t
 
-property e:qfs9-xn8t t:meta.view d:2017-03-08T01:53:00.421Z v:id=qfs9-xn8t v:category=Transportation v:averageRating=0 v:name="NYCDCP Manhattan Bike Counts - On Street Weekday" v:attribution="Department of City Planning (DCP)"
+property e:qfs9-xn8t t:meta.view v:id=qfs9-xn8t v:category=Transportation v:averageRating=0 v:name="NYCDCP Manhattan Bike Counts - On Street Weekday" v:attribution="Department of City Planning (DCP)"
 
-property e:qfs9-xn8t t:meta.view.owner d:2017-03-08T01:53:00.421Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:qfs9-xn8t t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:qfs9-xn8t t:meta.view.tableauthor d:2017-03-08T01:53:00.421Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:qfs9-xn8t t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

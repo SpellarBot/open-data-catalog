@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/28km-nz6e/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/impaired-driving-death-rate-by-age-and-gender-2012-region-4-atlanta)
-* [Metadata URL](https://data.cdc.gov/api/views/28km-nz6e)
-* Id = 28km-nz6e
-* Name = Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta
-* Attribution = CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention
-* [Attribution Link](http://www.cdc.gov/motorvehiclesafety/)
-* Category = Motor Vehicle
-* Tags = [centers for disease control and prevention, cdc]
-* Created = 2014-12-17T15:46:24Z
-* Publication Date = 2016-09-14T15:18:14Z
-* Rows Updated = 2016-09-14T15:16:48Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/impaired-driving-death-rate-by-age-and-gender-2012-region-4-atlanta) |
+| Metadata | [Link](https://data.cdc.gov/api/views/28km-nz6e) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/28km-nz6e/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/28km-nz6e/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
+| Id | 28km-nz6e |
+| Name | Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta |
+| Attribution | CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention |
+| Category | Motor Vehicle |
+| Tags | centers for disease control and prevention, cdc |
+| Created | 2014-12-17T15:46:24Z |
+| Publication Date | 2016-09-14T15:18:14Z |
+| Rows Updated | 2016-09-14T15:16:48Z |
 
 ## Description
 
@@ -22,22 +25,22 @@ Rate of deaths by age/gender (per 100,000 population) for people killed in crash
 ## Columns
 
 ```ls
-| Name             | Field Name      | Data Type | Render Type | Schema Type    | Included | 
-| ================ | =============== | ========= | =========== | ============== | ======== | 
-| updated_at       | :updated_at     | meta_data | meta_data   | time           | No       | 
-| State            | state           | text      | text        | series tag     | Yes      | 
-| All Ages, 2012   | all_ages        | number    | number      | numeric metric | Yes      | 
-| Ages 0-20, 2012  | ages_0_20       | number    | number      | numeric metric | Yes      | 
-| Ages 21-34, 2012 | ages_21_34      | number    | number      | numeric metric | Yes      | 
-| Ages 35+, 2012   | ages_35         | number    | number      | numeric metric | Yes      | 
-| Male, 2012       | male            | number    | number      | numeric metric | Yes      | 
-| Female, 2012     | female          | number    | number      | numeric metric | Yes      | 
-| All Ages, 2014   | all_ages_2014   | number    | number      | numeric metric | Yes      | 
-| Ages 0-20, 2014  | ages_0_20_2014  | number    | number      | numeric metric | Yes      | 
-| Ages 21-34, 2014 | ages_21_34_2014 | number    | number      | numeric metric | Yes      | 
-| Ages 35+, 2014   | ages_35_2014    | number    | number      | numeric metric | Yes      | 
-| Male, 2014       | male_2014       | number    | number      | numeric metric | Yes      | 
-| Female, 2014     | female_2014     | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name      | Name             | Data Type | Render Type |
+| ======== | ============== | =============== | ================ | ========= | =========== |
+| No       | time           | :updated_at     | updated_at       | meta_data | meta_data   |
+| Yes      | series tag     | state           | State            | text      | text        |
+| Yes      | numeric metric | all_ages        | All Ages, 2012   | number    | number      |
+| Yes      | numeric metric | ages_0_20       | Ages 0-20, 2012  | number    | number      |
+| Yes      | numeric metric | ages_21_34      | Ages 21-34, 2012 | number    | number      |
+| Yes      | numeric metric | ages_35         | Ages 35+, 2012   | number    | number      |
+| Yes      | numeric metric | male            | Male, 2012       | number    | number      |
+| Yes      | numeric metric | female          | Female, 2012     | number    | number      |
+| Yes      | numeric metric | all_ages_2014   | All Ages, 2014   | number    | number      |
+| Yes      | numeric metric | ages_0_20_2014  | Ages 0-20, 2014  | number    | number      |
+| Yes      | numeric metric | ages_21_34_2014 | Ages 21-34, 2014 | number    | number      |
+| Yes      | numeric metric | ages_35_2014    | Ages 35+, 2014   | number    | number      |
+| Yes      | numeric metric | male_2014       | Male, 2014       | number    | number      |
+| Yes      | numeric metric | female_2014     | Female, 2014     | number    | number      |
 ```
 
 ## Time Field
@@ -45,15 +48,6 @@ Rate of deaths by age/gender (per 100,000 population) for people killed in crash
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -95,13 +89,13 @@ metric m:female_2014 l:"Female, 2014" t:dataTypeName=number
 
 entity e:28km-nz6e l:"Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/28km-nz6e
 
-property e:28km-nz6e t:meta.view d:2017-03-07T18:56:02.701Z v:id=28km-nz6e v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
+property e:28km-nz6e t:meta.view v:id=28km-nz6e v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
 
-property e:28km-nz6e t:meta.view.license d:2017-03-07T18:56:02.701Z v:name="Public Domain"
+property e:28km-nz6e t:meta.view.license v:name="Public Domain"
 
-property e:28km-nz6e t:meta.view.owner d:2017-03-07T18:56:02.701Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:28km-nz6e t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:28km-nz6e t:meta.view.tableauthor d:2017-03-07T18:56:02.701Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:28km-nz6e t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:28km-nz6e t:meta.view.metadata.custom_fields.common_core d:2017-03-07T18:56:02.701Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:28km-nz6e t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

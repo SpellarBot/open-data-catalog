@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/xgig-n5ch/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/county-mental-health-profiles-beginning-2006)
-* [Metadata URL](https://data.ny.gov/api/views/xgig-n5ch)
-* Id = xgig-n5ch
-* Name = County Mental Health Profiles: Beginning 2006
-* Attribution = New York State Office of Mental Health
-* [Attribution Link](http://bi.omh.ny.gov/cmhp/mh-services)
-* Category = Human Services
-* Tags = [community services, medicaid utilization]
-* Created = 2014-07-11T21:16:37Z
-* Publication Date = 2017-02-08T23:03:41Z
-* Rows Updated = 2017-02-08T23:03:37Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/county-mental-health-profiles-beginning-2006) |
+| Metadata | [Link](https://data.ny.gov/api/views/xgig-n5ch) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/xgig-n5ch/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/xgig-n5ch/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | xgig-n5ch |
+| Name | County Mental Health Profiles: Beginning 2006 |
+| Attribution | New York State Office of Mental Health |
+| Category | Human Services |
+| Tags | community services, medicaid utilization |
+| Created | 2014-07-11T21:16:37Z |
+| Publication Date | 2017-02-08T23:03:41Z |
+| Rows Updated | 2017-02-08T23:03:37Z |
 
 ## Description
 
@@ -22,19 +25,19 @@ These reports provide summary information about mental health service utilizatio
 ## Columns
 
 ```ls
-| Name                                              | Field Name                                        | Data Type     | Render Type   | Schema Type    | Included | 
-| ================================================= | ================================================= | ============= | ============= | ============== | ======== | 
-| Row Created Date Time                             | row_created_date_time                             | calendar_date | calendar_date | time           | Yes      | 
-| Service Year                                      | service_year                                      | number        | number        |                | No       | 
-| OMH Region Code                                   | omh_region_code                                   | text          | number        | series tag     | Yes      | 
-| OMH Region Label                                  | omh_region_label                                  | text          | text          | series tag     | Yes      | 
-| County Label                                      | county_label                                      | text          | text          | series tag     | Yes      | 
-| Age Group                                         | age_group                                         | text          | text          | series tag     | Yes      | 
-| Rate Code Group                                   | rate_code_group                                   | text          | text          | series tag     | Yes      | 
-| Recipient Count By County                         | recipient_count_by_county                         | number        | number        | numeric metric | Yes      | 
-| Count Of Recipients By Rate Code Group And County | count_of_recipients_by_rate_code_group_and_county | number        | number        | numeric metric | Yes      | 
-| Units Total                                       | units_total                                       | number        | number        | numeric metric | Yes      | 
-| Paid Claim Total                                  | paid_claim_total                                  | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                        | Name                                              | Data Type     | Render Type   |
+| ======== | ============== | ================================================= | ================================================= | ============= | ============= |
+| Yes      | time           | row_created_date_time                             | Row Created Date Time                             | calendar_date | calendar_date |
+| No       |                | service_year                                      | Service Year                                      | number        | number        |
+| Yes      | series tag     | omh_region_code                                   | OMH Region Code                                   | text          | number        |
+| Yes      | series tag     | omh_region_label                                  | OMH Region Label                                  | text          | text          |
+| Yes      | series tag     | county_label                                      | County Label                                      | text          | text          |
+| Yes      | series tag     | age_group                                         | Age Group                                         | text          | text          |
+| Yes      | series tag     | rate_code_group                                   | Rate Code Group                                   | text          | text          |
+| Yes      | numeric metric | recipient_count_by_county                         | Recipient Count By County                         | number        | number        |
+| Yes      | numeric metric | count_of_recipients_by_rate_code_group_and_county | Count Of Recipients By Rate Code Group And County | number        | number        |
+| Yes      | numeric metric | units_total                                       | Units Total                                       | number        | number        |
+| Yes      | numeric metric | paid_claim_total                                  | Paid Claim Total                                  | number        | number        |
 ```
 
 ## Time Field
@@ -47,10 +50,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = service_year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,11 +76,11 @@ metric m:paid_claim_total l:"Paid Claim Total" d:"Sum of total payment or reimbu
 
 entity e:xgig-n5ch l:"County Mental Health Profiles: Beginning 2006" t:attribution="New York State Office of Mental Health" t:url=https://data.ny.gov/api/views/xgig-n5ch
 
-property e:xgig-n5ch t:meta.view d:2017-03-07T17:11:07.508Z v:id=xgig-n5ch v:category="Human Services" v:attributionLink=http://bi.omh.ny.gov/cmhp/mh-services v:averageRating=0 v:name="County Mental Health Profiles: Beginning 2006" v:attribution="New York State Office of Mental Health"
+property e:xgig-n5ch t:meta.view v:id=xgig-n5ch v:category="Human Services" v:attributionLink=http://bi.omh.ny.gov/cmhp/mh-services v:averageRating=0 v:name="County Mental Health Profiles: Beginning 2006" v:attribution="New York State Office of Mental Health"
 
-property e:xgig-n5ch t:meta.view.owner d:2017-03-07T17:11:07.508Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:xgig-n5ch t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:xgig-n5ch t:meta.view.tableauthor d:2017-03-07T17:11:07.508Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:xgig-n5ch t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core d:2017-03-07T17:11:07.508Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```

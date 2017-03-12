@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ct.gov/api/views/bj6v-3hfz/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/capt-district-performance-2013)
-* [Metadata URL](https://data.ct.gov/api/views/bj6v-3hfz)
-* Id = bj6v-3hfz
-* Name = CAPT District Performance: 2013
-* Attribution = State Department of Education
-* Category = Education
-* Tags = [education, school district, capt, school performance]
-* Created = 2014-03-21T17:00:09Z
-* Publication Date = 2014-03-21T17:01:58Z
-* Rows Updated = 2014-03-21T17:00:28Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/capt-district-performance-2013) |
+| Metadata | [Link](https://data.ct.gov/api/views/bj6v-3hfz) |
+| Data: JSON | [100 Rows](https://data.ct.gov/api/views/bj6v-3hfz/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ct.gov/api/views/bj6v-3hfz/rows.csv?max_rows=100) |
+| Host | data.ct.gov |
+| Id | bj6v-3hfz |
+| Name | CAPT District Performance: 2013 |
+| Attribution | State Department of Education |
+| Category | Education |
+| Tags | education, school district, capt, school performance |
+| Created | 2014-03-21T17:00:09Z |
+| Publication Date | 2014-03-21T17:01:58Z |
+| Rows Updated | 2014-03-21T17:00:28Z |
 
 ## Description
 
@@ -23,33 +27,33 @@ Note: Target attainment status will say ?n/a? if there is no 2012-13 DPI target 
 ## Columns
 
 ```ls
-| Name                          | Field Name                    | Data Type | Render Type | Schema Type    | Included | 
-| ============================= | ============================= | ========= | =========== | ============== | ======== | 
-| updated_at                    | :updated_at                   | meta_data | meta_data   | time           | No       | 
-| District                      | district                      | text      | number      | series tag     | Yes      | 
-| District Name                 | district_name                 | text      | text        | series tag     | Yes      | 
-| DPI OVERALL 2013              | dpi_overall_2013              | number    | number      | numeric metric | Yes      | 
-| DPI OVERALL Status            | dpi_overall_status            | text      | text        | series tag     | Yes      | 
-| Black DPI OVERALL 2013        | black_dpi_overall_2013        | number    | number      | numeric metric | Yes      | 
-| Black DPI OVERALL Status      | black_dpi_overall_status      | text      | text        | series tag     | Yes      | 
-| Hispanic DPI OVERALL 2013     | hispanic_dpi_overall_2013     | number    | number      | numeric metric | Yes      | 
-| Hispanic DPI OVERALL Status   | hispanic_dpi_overall_status   | text      | text        | series tag     | Yes      | 
-| ELL DPI OVERALL 2013          | ell_dpi_overall_2013          | number    | number      | numeric metric | Yes      | 
-| ELL DPI OVERALL Status        | ell_dpi_overall_status        | text      | text        | series tag     | Yes      | 
-| FRL DPI OVERALL 2013          | frl_dpi_overall_2013          | number    | number      | numeric metric | Yes      | 
-| FRL DPI OVERALL Status        | frl_dpi_overall_status        | text      | text        | series tag     | Yes      | 
-| SWD DPI OVERALL 2013          | swd_dpi_overall_2013          | number    | number      | numeric metric | Yes      | 
-| SWD DPI OVERALL Status        | swd_dpi_overall_status        | text      | text        | series tag     | Yes      | 
-| High Needs DPI OVERALL 2013   | high_needs_dpi_overall_2013   | number    | number      | numeric metric | Yes      | 
-| High Needs DPI OVERALL Status | high_needs_dpi_overall_status | text      | text        | series tag     | Yes      | 
-| DPI MATH 2013                 | dpi_math_2013                 | number    | number      | numeric metric | Yes      | 
-| DPI MATH Target Status        | dpi_math_target_status        | text      | text        | series tag     | Yes      | 
-| DPI READ 2013                 | dpi_read_2013                 | number    | number      | numeric metric | Yes      | 
-| DPI READ Status               | dpi_read_status               | text      | text        | series tag     | Yes      | 
-| DPI WRITE 2013                | dpi_write_2013                | number    | number      | numeric metric | Yes      | 
-| DPI WRITE Status              | dpi_write_status              | text      | text        | series tag     | Yes      | 
-| DPI SCIENCE 2013              | dpi_science_2013              | number    | number      | numeric metric | Yes      | 
-| DPI SCIENCE Status            | dpi_science_status            | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                    | Name                          | Data Type | Render Type |
+| ======== | ============== | ============================= | ============================= | ========= | =========== |
+| No       | time           | :updated_at                   | updated_at                    | meta_data | meta_data   |
+| Yes      | series tag     | district                      | District                      | text      | number      |
+| Yes      | series tag     | district_name                 | District Name                 | text      | text        |
+| Yes      | numeric metric | dpi_overall_2013              | DPI OVERALL 2013              | number    | number      |
+| Yes      | series tag     | dpi_overall_status            | DPI OVERALL Status            | text      | text        |
+| Yes      | numeric metric | black_dpi_overall_2013        | Black DPI OVERALL 2013        | number    | number      |
+| Yes      | series tag     | black_dpi_overall_status      | Black DPI OVERALL Status      | text      | text        |
+| Yes      | numeric metric | hispanic_dpi_overall_2013     | Hispanic DPI OVERALL 2013     | number    | number      |
+| Yes      | series tag     | hispanic_dpi_overall_status   | Hispanic DPI OVERALL Status   | text      | text        |
+| Yes      | numeric metric | ell_dpi_overall_2013          | ELL DPI OVERALL 2013          | number    | number      |
+| Yes      | series tag     | ell_dpi_overall_status        | ELL DPI OVERALL Status        | text      | text        |
+| Yes      | numeric metric | frl_dpi_overall_2013          | FRL DPI OVERALL 2013          | number    | number      |
+| Yes      | series tag     | frl_dpi_overall_status        | FRL DPI OVERALL Status        | text      | text        |
+| Yes      | numeric metric | swd_dpi_overall_2013          | SWD DPI OVERALL 2013          | number    | number      |
+| Yes      | series tag     | swd_dpi_overall_status        | SWD DPI OVERALL Status        | text      | text        |
+| Yes      | numeric metric | high_needs_dpi_overall_2013   | High Needs DPI OVERALL 2013   | number    | number      |
+| Yes      | series tag     | high_needs_dpi_overall_status | High Needs DPI OVERALL Status | text      | text        |
+| Yes      | numeric metric | dpi_math_2013                 | DPI MATH 2013                 | number    | number      |
+| Yes      | series tag     | dpi_math_target_status        | DPI MATH Target Status        | text      | text        |
+| Yes      | numeric metric | dpi_read_2013                 | DPI READ 2013                 | number    | number      |
+| Yes      | series tag     | dpi_read_status               | DPI READ Status               | text      | text        |
+| Yes      | numeric metric | dpi_write_2013                | DPI WRITE 2013                | number    | number      |
+| Yes      | series tag     | dpi_write_status              | DPI WRITE Status              | text      | text        |
+| Yes      | numeric metric | dpi_science_2013              | DPI SCIENCE 2013              | number    | number      |
+| Yes      | series tag     | dpi_science_status            | DPI SCIENCE Status            | text      | text        |
 ```
 
 ## Time Field
@@ -57,15 +61,6 @@ Note: Target attainment status will say ?n/a? if there is no 2012-13 DPI target 
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -105,11 +100,11 @@ metric m:dpi_science_2013 l:"DPI SCIENCE 2013" t:dataTypeName=number
 
 entity e:bj6v-3hfz l:"CAPT District Performance: 2013" t:attribution="State Department of Education" t:url=https://data.ct.gov/api/views/bj6v-3hfz
 
-property e:bj6v-3hfz t:meta.view d:2017-03-07T16:46:30.829Z v:id=bj6v-3hfz v:category=Education v:averageRating=0 v:name="CAPT District Performance: 2013" v:attribution="State Department of Education"
+property e:bj6v-3hfz t:meta.view v:id=bj6v-3hfz v:category=Education v:averageRating=0 v:name="CAPT District Performance: 2013" v:attribution="State Department of Education"
 
-property e:bj6v-3hfz t:meta.view.license d:2017-03-07T16:46:30.829Z v:name="Public Domain"
+property e:bj6v-3hfz t:meta.view.license v:name="Public Domain"
 
-property e:bj6v-3hfz t:meta.view.owner d:2017-03-07T16:46:30.829Z v:id=nyku-jy9c v:screenName="Stephanie O'Day" v:roleName=editor v:displayName="Stephanie O'Day"
+property e:bj6v-3hfz t:meta.view.owner v:id=nyku-jy9c v:screenName="Stephanie O'Day" v:roleName=editor v:displayName="Stephanie O'Day"
 
-property e:bj6v-3hfz t:meta.view.tableauthor d:2017-03-07T16:46:30.829Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:bj6v-3hfz t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```

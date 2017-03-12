@@ -2,15 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/wr8u-xric/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/fire-incidents)
-* [Metadata URL](https://data.sfgov.org/api/views/wr8u-xric)
-* Id = wr8u-xric
-* Name = Fire Incidents
-* Category = Public Safety
-* Created = 2015-12-18T22:15:10Z
-* Publication Date = 2016-07-06T01:29:24Z
-* Rows Updated = 2017-03-07T09:32:29Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/fire-incidents) |
+| Metadata | [Link](https://data.sfgov.org/api/views/wr8u-xric) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/wr8u-xric/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/wr8u-xric/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | wr8u-xric |
+| Name | Fire Incidents |
+| Category | Public Safety |
+| Created | 2015-12-18T22:15:10Z |
+| Publication Date | 2016-07-06T01:29:24Z |
+| Rows Updated | 2017-03-12T09:22:04Z |
 
 ## Description
 
@@ -19,70 +23,70 @@ Fire Incidents includes a summary of each (non-medical) incident to which the SF
 ## Columns
 
 ```ls
-| Name                                         | Field Name                                   | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================================ | ============================================ | ============= | ============= | ============== | ======== | 
-| Incident Number                              | incident_number                              | number        | text          | numeric metric | Yes      | 
-| Exposure Number                              | exposure_number                              | number        | number        | numeric metric | Yes      | 
-| Address                                      | address                                      | text          | text          |                | No       | 
-| Incident Date                                | incident_date                                | calendar_date | calendar_date | time           | Yes      | 
-| Call Number                                  | call_number                                  | number        | text          | numeric metric | Yes      | 
-| Alarm DtTm                                   | alarm_dttm                                   | calendar_date | calendar_date |                | No       | 
-| Arrival DtTm                                 | arrival_dttm                                 | calendar_date | calendar_date |                | No       | 
-| Close DtTm                                   | close_dttm                                   | calendar_date | calendar_date |                | No       | 
-| City                                         | city                                         | text          | text          | series tag     | Yes      | 
-| Zipcode                                      | zipcode                                      | text          | text          | series tag     | Yes      | 
-| Battalion                                    | battalion                                    | text          | text          | series tag     | Yes      | 
-| Station Area                                 | station_area                                 | text          | text          | series tag     | Yes      | 
-| Box                                          | box                                          | text          | text          | series tag     | Yes      | 
-| Suppression Units                            | suppression_units                            | number        | number        | numeric metric | Yes      | 
-| Suppression Personnel                        | suppression_personnel                        | number        | number        | numeric metric | Yes      | 
-| EMS Units                                    | ems_units                                    | number        | number        | numeric metric | Yes      | 
-| EMS Personnel                                | ems_personnel                                | number        | number        | numeric metric | Yes      | 
-| Other Units                                  | other_units                                  | number        | number        | numeric metric | Yes      | 
-| Other Personnel                              | other_personnel                              | number        | number        | numeric metric | Yes      | 
-| First Unit On Scene                          | first_unit_on_scene                          | text          | text          | series tag     | Yes      | 
-| Estimated Property Loss                      | estimated_property_loss                      | number        | number        | numeric metric | Yes      | 
-| Estimated Contents Loss                      | estimated_contents_loss                      | number        | number        | numeric metric | Yes      | 
-| Fire Fatalities                              | fire_fatalities                              | number        | number        | numeric metric | Yes      | 
-| Fire Injuries                                | fire_injuries                                | number        | number        | numeric metric | Yes      | 
-| Civilian Fatalities                          | civilian_fatalities                          | number        | number        | numeric metric | Yes      | 
-| Civilian Injuries                            | civilian_injuries                            | number        | number        | numeric metric | Yes      | 
-| Number of Alarms                             | number_of_alarms                             | number        | number        | numeric metric | Yes      | 
-| Primary Situation                            | primary_situation                            | text          | text          | series tag     | Yes      | 
-| Mutual Aid                                   | mutual_aid                                   | text          | text          | series tag     | Yes      | 
-| Action Taken Primary                         | action_taken_primary                         | text          | text          | series tag     | Yes      | 
-| Action Taken Secondary                       | action_taken_secondary                       | text          | text          | series tag     | Yes      | 
-| Action Taken Other                           | action_taken_other                           | text          | text          | series tag     | Yes      | 
-| Detector Alerted Occupants                   | detector_alerted_occupants                   | text          | text          | series tag     | Yes      | 
-| Property Use                                 | property_use                                 | text          | text          | series tag     | Yes      | 
-| Area of Fire Origin                          | area_of_fire_origin                          | text          | text          | series tag     | Yes      | 
-| Ignition Cause                               | ignition_cause                               | text          | text          | series tag     | Yes      | 
-| Ignition Factor Primary                      | ignition_factor_primary                      | text          | text          | series tag     | Yes      | 
-| Ignition Factor Secondary                    | ignition_factor_secondary                    | text          | text          | series tag     | Yes      | 
-| Heat Source                                  | heat_source                                  | text          | text          | series tag     | Yes      | 
-| Item First Ignited                           | item_first_ignited                           | text          | text          | series tag     | Yes      | 
-| Human Factors Associated with Ignition       | human_factors_associated_with_ignition       | text          | text          | series tag     | Yes      | 
-| Structure Type                               | structure_type                               | text          | text          | series tag     | Yes      | 
-| Structure Status                             | structure_status                             | text          | text          | series tag     | Yes      | 
-| Floor of Fire Origin                         | floor_of_fire_origin                         | number        | number        | numeric metric | Yes      | 
-| Fire Spread                                  | fire_spread                                  | text          | text          | series tag     | Yes      | 
-| No Flame Spead                               | no_flame_spead                               | text          | text          | series tag     | Yes      | 
-| Number of floors with minimum damage         | number_of_floors_with_minimum_damage         | number        | number        | numeric metric | Yes      | 
-| Number of floors with significant damage     | number_of_floors_with_significant_damage     | number        | text          | numeric metric | Yes      | 
-| Number of floors with heavy damage           | number_of_floors_with_heavy_damage           | number        | number        | numeric metric | Yes      | 
-| Number of floors with extreme damage         | number_of_floors_with_extreme_damage         | number        | number        | numeric metric | Yes      | 
-| Detectors Present                            | detectors_present                            | text          | text          | series tag     | Yes      | 
-| Detector Type                                | detector_type                                | text          | text          | series tag     | Yes      | 
-| Detector Operation                           | detector_operation                           | text          | text          | series tag     | Yes      | 
-| Detector Effectiveness                       | detector_effectiveness                       | text          | text          | series tag     | Yes      | 
-| Detector Failure Reason                      | detector_failure_reason                      | text          | text          | series tag     | Yes      | 
-| Automatic Extinguishing System Present       | automatic_extinguishing_system_present       | text          | text          | series tag     | Yes      | 
-| Automatic Extinguishing Sytem Type           | automatic_extinguishing_sytem_type           | text          | text          | series tag     | Yes      | 
-| Automatic Extinguishing Sytem Perfomance     | automatic_extinguishing_sytem_perfomance     | text          | text          | series tag     | Yes      | 
-| Automatic Extinguishing Sytem Failure Reason | automatic_extinguishing_sytem_failure_reason | text          | text          | series tag     | Yes      | 
-| Number of Sprinkler Heads Operating          | number_of_sprinkler_heads_operating          | number        | number        | numeric metric | Yes      | 
-| Supervisor District                          | supervisor_district                          | text          | text          | series tag     | Yes      | 
-| Neighborhood District                        | neighborhood_district                        | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                                   | Name                                         | Data Type     | Render Type   |
+| ======== | ============== | ============================================ | ============================================ | ============= | ============= |
+| Yes      | numeric metric | incident_number                              | Incident Number                              | number        | text          |
+| Yes      | numeric metric | exposure_number                              | Exposure Number                              | number        | number        |
+| No       |                | address                                      | Address                                      | text          | text          |
+| Yes      | time           | incident_date                                | Incident Date                                | calendar_date | calendar_date |
+| Yes      | numeric metric | call_number                                  | Call Number                                  | number        | text          |
+| No       |                | alarm_dttm                                   | Alarm DtTm                                   | calendar_date | calendar_date |
+| No       |                | arrival_dttm                                 | Arrival DtTm                                 | calendar_date | calendar_date |
+| No       |                | close_dttm                                   | Close DtTm                                   | calendar_date | calendar_date |
+| Yes      | series tag     | city                                         | City                                         | text          | text          |
+| Yes      | series tag     | zipcode                                      | Zipcode                                      | text          | text          |
+| Yes      | series tag     | battalion                                    | Battalion                                    | text          | text          |
+| Yes      | series tag     | station_area                                 | Station Area                                 | text          | text          |
+| Yes      | series tag     | box                                          | Box                                          | text          | text          |
+| Yes      | numeric metric | suppression_units                            | Suppression Units                            | number        | number        |
+| Yes      | numeric metric | suppression_personnel                        | Suppression Personnel                        | number        | number        |
+| Yes      | numeric metric | ems_units                                    | EMS Units                                    | number        | number        |
+| Yes      | numeric metric | ems_personnel                                | EMS Personnel                                | number        | number        |
+| Yes      | numeric metric | other_units                                  | Other Units                                  | number        | number        |
+| Yes      | numeric metric | other_personnel                              | Other Personnel                              | number        | number        |
+| Yes      | series tag     | first_unit_on_scene                          | First Unit On Scene                          | text          | text          |
+| Yes      | numeric metric | estimated_property_loss                      | Estimated Property Loss                      | number        | number        |
+| Yes      | numeric metric | estimated_contents_loss                      | Estimated Contents Loss                      | number        | number        |
+| Yes      | numeric metric | fire_fatalities                              | Fire Fatalities                              | number        | number        |
+| Yes      | numeric metric | fire_injuries                                | Fire Injuries                                | number        | number        |
+| Yes      | numeric metric | civilian_fatalities                          | Civilian Fatalities                          | number        | number        |
+| Yes      | numeric metric | civilian_injuries                            | Civilian Injuries                            | number        | number        |
+| Yes      | numeric metric | number_of_alarms                             | Number of Alarms                             | number        | number        |
+| Yes      | series tag     | primary_situation                            | Primary Situation                            | text          | text          |
+| Yes      | series tag     | mutual_aid                                   | Mutual Aid                                   | text          | text          |
+| Yes      | series tag     | action_taken_primary                         | Action Taken Primary                         | text          | text          |
+| Yes      | series tag     | action_taken_secondary                       | Action Taken Secondary                       | text          | text          |
+| Yes      | series tag     | action_taken_other                           | Action Taken Other                           | text          | text          |
+| Yes      | series tag     | detector_alerted_occupants                   | Detector Alerted Occupants                   | text          | text          |
+| Yes      | series tag     | property_use                                 | Property Use                                 | text          | text          |
+| Yes      | series tag     | area_of_fire_origin                          | Area of Fire Origin                          | text          | text          |
+| Yes      | series tag     | ignition_cause                               | Ignition Cause                               | text          | text          |
+| Yes      | series tag     | ignition_factor_primary                      | Ignition Factor Primary                      | text          | text          |
+| Yes      | series tag     | ignition_factor_secondary                    | Ignition Factor Secondary                    | text          | text          |
+| Yes      | series tag     | heat_source                                  | Heat Source                                  | text          | text          |
+| Yes      | series tag     | item_first_ignited                           | Item First Ignited                           | text          | text          |
+| Yes      | series tag     | human_factors_associated_with_ignition       | Human Factors Associated with Ignition       | text          | text          |
+| Yes      | series tag     | structure_type                               | Structure Type                               | text          | text          |
+| Yes      | series tag     | structure_status                             | Structure Status                             | text          | text          |
+| Yes      | numeric metric | floor_of_fire_origin                         | Floor of Fire Origin                         | number        | number        |
+| Yes      | series tag     | fire_spread                                  | Fire Spread                                  | text          | text          |
+| Yes      | series tag     | no_flame_spead                               | No Flame Spead                               | text          | text          |
+| Yes      | numeric metric | number_of_floors_with_minimum_damage         | Number of floors with minimum damage         | number        | number        |
+| Yes      | numeric metric | number_of_floors_with_significant_damage     | Number of floors with significant damage     | number        | text          |
+| Yes      | numeric metric | number_of_floors_with_heavy_damage           | Number of floors with heavy damage           | number        | number        |
+| Yes      | numeric metric | number_of_floors_with_extreme_damage         | Number of floors with extreme damage         | number        | number        |
+| Yes      | series tag     | detectors_present                            | Detectors Present                            | text          | text          |
+| Yes      | series tag     | detector_type                                | Detector Type                                | text          | text          |
+| Yes      | series tag     | detector_operation                           | Detector Operation                           | text          | text          |
+| Yes      | series tag     | detector_effectiveness                       | Detector Effectiveness                       | text          | text          |
+| Yes      | series tag     | detector_failure_reason                      | Detector Failure Reason                      | text          | text          |
+| Yes      | series tag     | automatic_extinguishing_system_present       | Automatic Extinguishing System Present       | text          | text          |
+| Yes      | series tag     | automatic_extinguishing_sytem_type           | Automatic Extinguishing Sytem Type           | text          | text          |
+| Yes      | series tag     | automatic_extinguishing_sytem_perfomance     | Automatic Extinguishing Sytem Perfomance     | text          | text          |
+| Yes      | series tag     | automatic_extinguishing_sytem_failure_reason | Automatic Extinguishing Sytem Failure Reason | text          | text          |
+| Yes      | numeric metric | number_of_sprinkler_heads_operating          | Number of Sprinkler Heads Operating          | number        | number        |
+| Yes      | series tag     | supervisor_district                          | Supervisor District                          | text          | text          |
+| Yes      | series tag     | neighborhood_district                        | Neighborhood District                        | text          | text          |
 ```
 
 ## Time Field
@@ -95,10 +99,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = arrival_dttm,address,close_dttm,alarm_dttm
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -160,11 +161,11 @@ metric m:number_of_sprinkler_heads_operating p:integer l:"Number of Sprinkler He
 
 entity e:wr8u-xric l:"Fire Incidents" t:url=https://data.sfgov.org/api/views/wr8u-xric
 
-property e:wr8u-xric t:meta.view d:2017-03-07T17:19:11.229Z v:id=wr8u-xric v:category="Public Safety" v:averageRating=0 v:name="Fire Incidents"
+property e:wr8u-xric t:meta.view v:id=wr8u-xric v:category="Public Safety" v:averageRating=0 v:name="Fire Incidents"
 
-property e:wr8u-xric t:meta.view.license d:2017-03-07T17:19:11.229Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:wr8u-xric t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:wr8u-xric t:meta.view.owner d:2017-03-07T17:19:11.229Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:wr8u-xric t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 
-property e:wr8u-xric t:meta.view.tableauthor d:2017-03-07T17:19:11.229Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:wr8u-xric t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

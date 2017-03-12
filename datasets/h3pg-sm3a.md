@@ -2,15 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.mo.gov/api/views/h3pg-sm3a/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/arra-grant-revenue-as-of-cob-march-31-2016)
-* [Metadata URL](https://data.mo.gov/api/views/h3pg-sm3a)
-* Id = h3pg-sm3a
-* Name = ARRA Grant Revenue as of COB March 31, 2016
-* Category = Government Administration
-* Created = 2016-04-04T18:04:09Z
-* Publication Date = 2016-04-04T18:05:02Z
-* Rows Updated = 2016-04-04T18:04:17Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/arra-grant-revenue-as-of-cob-march-31-2016) |
+| Metadata | [Link](https://data.mo.gov/api/views/h3pg-sm3a) |
+| Data: JSON | [100 Rows](https://data.mo.gov/api/views/h3pg-sm3a/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.mo.gov/api/views/h3pg-sm3a/rows.csv?max_rows=100) |
+| Host | data.mo.gov |
+| Id | h3pg-sm3a |
+| Name | ARRA Grant Revenue as of COB March 31, 2016 |
+| Category | Government Administration |
+| Created | 2016-04-04T18:04:09Z |
+| Publication Date | 2016-04-04T18:05:02Z |
+| Rows Updated | 2016-04-04T18:04:17Z |
 
 ## Description
 
@@ -19,12 +23,12 @@ Data that shows every dollar received by the State of Missouri to date under the
 ## Columns
 
 ```ls
-| Name            | Field Name      | Data Type | Render Type | Schema Type    | Included | 
-| =============== | =============== | ========= | =========== | ============== | ======== | 
-| updated_at      | :updated_at     | meta_data | meta_data   | time           | No       | 
-| Agency Name     | agency_name     | text      | text        | series tag     | Yes      | 
-| Program Name    | program_name    | text      | text        | series tag     | Yes      | 
-| Amount Received | amount_received | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
+| ======== | ============== | =============== | =============== | ========= | =========== |
+| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
+| Yes      | series tag     | agency_name     | Agency Name     | text      | text        |
+| Yes      | series tag     | program_name    | Program Name    | text      | text        |
+| Yes      | numeric metric | amount_received | Amount Received | money     | money       |
 ```
 
 ## Time Field
@@ -32,15 +36,6 @@ Data that shows every dollar received by the State of Missouri to date under the
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -58,9 +53,9 @@ series e:h3pg-sm3a d:2016-04-04T11:04:12.000Z t:program_name="FISH AND WILDLIFE 
 ```ls
 entity e:h3pg-sm3a l:"ARRA Grant Revenue as of COB March 31, 2016" t:url=https://data.mo.gov/api/views/h3pg-sm3a
 
-property e:h3pg-sm3a t:meta.view d:2017-03-07T18:49:18.057Z v:id=h3pg-sm3a v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenue as of COB March 31, 2016"
+property e:h3pg-sm3a t:meta.view v:id=h3pg-sm3a v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenue as of COB March 31, 2016"
 
-property e:h3pg-sm3a t:meta.view.owner d:2017-03-07T18:49:18.057Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:h3pg-sm3a t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 
-property e:h3pg-sm3a t:meta.view.tableauthor d:2017-03-07T18:49:18.057Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:h3pg-sm3a t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

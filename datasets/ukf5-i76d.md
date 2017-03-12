@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/ukf5-i76d/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/emissions-by-plant)
-* Id = ukf5-i76d
-* Name = Emissions By Plant
-* Attribution = Austin Energy
-* Category = Utility
-* Tags = [emissions by plant, gas, greenhouse gas, carbon dioxide, energy]
-* Created = 2016-09-12T15:33:02Z
-* Publication Date = 2016-10-25T19:31:04Z
-* Rows Updated = 2016-10-25T19:30:33Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/emissions-by-plant) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/ukf5-i76d) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/ukf5-i76d/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/ukf5-i76d/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | ukf5-i76d |
+| Name | Emissions By Plant |
+| Attribution | Austin Energy |
+| Category | Utility |
+| Tags | emissions by plant, gas, greenhouse gas, carbon dioxide, energy |
+| Created | 2016-09-12T15:33:02Z |
+| Publication Date | 2016-10-25T19:31:04Z |
+| Rows Updated | 2016-10-25T19:30:33Z |
 
 ## Description
 
@@ -26,12 +31,12 @@ FPP=Fayette Power Project
 ## Columns
 
 ```ls
-| Name                    | Field Name              | Data Type     | Render Type   | Schema Type    | Included | 
-| ======================= | ======================= | ============= | ============= | ============== | ======== | 
-| Calendar Year           | calendar_year_2         | calendar_date | calendar_date | time           | Yes      | 
-| Gas                     | emissions               | text          | text          | series tag     | Yes      | 
-| Location                | location                | text          | text          | series tag     | Yes      | 
-| Emissions (Metric Tons) | emissions_metric_tonnes | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name              | Name                    | Data Type     | Render Type   |
+| ======== | ============== | ======================= | ======================= | ============= | ============= |
+| Yes      | time           | calendar_year_2         | Calendar Year           | calendar_date | calendar_date |
+| Yes      | series tag     | emissions               | Gas                     | text          | text          |
+| Yes      | series tag     | location                | Location                | text          | text          |
+| Yes      | numeric metric | emissions_metric_tonnes | Emissions (Metric Tons) | number        | number        |
 ```
 
 ## Time Field
@@ -39,15 +44,6 @@ FPP=Fayette Power Project
 ```ls
 Value = calendar_year_2
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -67,11 +63,11 @@ metric m:emissions_metric_tonnes p:integer l:"Emissions (Metric Tons)" t:dataTyp
 
 entity e:ukf5-i76d l:"Emissions By Plant" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/ukf5-i76d
 
-property e:ukf5-i76d t:meta.view d:2017-03-03T14:25:35.662Z v:id=ukf5-i76d v:category=Utility v:averageRating=0 v:name="Emissions By Plant" v:attribution="Austin Energy"
+property e:ukf5-i76d t:meta.view v:id=ukf5-i76d v:category=Utility v:averageRating=0 v:name="Emissions By Plant" v:attribution="Austin Energy"
 
-property e:ukf5-i76d t:meta.view.license d:2017-03-03T14:25:35.662Z v:name="Public Domain"
+property e:ukf5-i76d t:meta.view.license v:name="Public Domain"
 
-property e:ukf5-i76d t:meta.view.owner d:2017-03-03T14:25:35.662Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:ukf5-i76d t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 
-property e:ukf5-i76d t:meta.view.tableauthor d:2017-03-03T14:25:35.662Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:ukf5-i76d t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

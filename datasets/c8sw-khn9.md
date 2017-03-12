@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/c8sw-khn9/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/county-lottery-fund-expenditures-2016-2015-composite)
-* Id = c8sw-khn9
-* Name = County Lottery Fund Expenditures: 2015-2016 Composite
-* Category = Revenue & Expense
-* Tags = [county lottery expenditure reporting; hb 3188 (2011); lottery expenditures; expenditures; 2015; 2016]
-* Created = 2016-11-20T02:32:25Z
-* Publication Date = 2016-11-20T02:38:05Z
-* Rows Updated = 2016-11-20T02:32:32Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/county-lottery-fund-expenditures-2016-2015-composite) |
+| Metadata | [Link](https://data.oregon.gov/api/views/c8sw-khn9) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/c8sw-khn9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/c8sw-khn9/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | c8sw-khn9 |
+| Name | County Lottery Fund Expenditures: 2015-2016 Composite |
+| Category | Revenue & Expense |
+| Tags | county lottery expenditure reporting; hb 3188 (2011); lottery expenditures; expenditures; 2015; 2016 |
+| Created | 2016-11-20T02:32:25Z |
+| Publication Date | 2016-11-20T02:38:05Z |
+| Rows Updated | 2016-11-20T02:32:32Z |
 
 ## Description
 
@@ -20,16 +25,16 @@ For additional questions regarding this information, please contact Lara Cleland
 ## Columns
 
 ```ls
-| Name                                                      | Field Name                                              | Data Type     | Render Type   | Schema Type    | Included | 
-| ========================================================= | ======================================================= | ============= | ============= | ============== | ======== | 
-| Year Reported                                             | year_reported                                           | number        | number        |                | No       | 
-| County                                                    | county                                                  | text          | text          | series tag     | Yes      | 
-| Report Period End Date                                    | report_period_end_date                                  | calendar_date | calendar_date | time           | Yes      | 
-| Amount of Money Received ($)                              | amount_of_money_received                                | money         | money         | numeric metric | Yes      | 
-| Amount of Money Expended ($)                              | amount_of_money_expended                                | money         | money         | numeric metric | Yes      | 
-| Amount of Money Expended on Administration ($)            | amount_of_money_expended_on_administration              | money         | money         | numeric metric | Yes      | 
-| Purpose and Use of Moneys (Narrative)                     | purpose_and_use_of_moneys_narrative                     | text          | text          | series tag     | Yes      | 
-| Work and Services Provided by Employed Person (Narrative) | work_and_services_provided_by_employed_person_narrative | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                                              | Name                                                      | Data Type     | Render Type   |
+| ======== | ============== | ======================================================= | ========================================================= | ============= | ============= |
+| No       |                | year_reported                                           | Year Reported                                             | number        | number        |
+| Yes      | series tag     | county                                                  | County                                                    | text          | text          |
+| Yes      | time           | report_period_end_date                                  | Report Period End Date                                    | calendar_date | calendar_date |
+| Yes      | numeric metric | amount_of_money_received                                | Amount of Money Received ($)                              | money         | money         |
+| Yes      | numeric metric | amount_of_money_expended                                | Amount of Money Expended ($)                              | money         | money         |
+| Yes      | numeric metric | amount_of_money_expended_on_administration              | Amount of Money Expended on Administration ($)            | money         | money         |
+| Yes      | series tag     | purpose_and_use_of_moneys_narrative                     | Purpose and Use of Moneys (Narrative)                     | text          | text          |
+| Yes      | series tag     | work_and_services_provided_by_employed_person_narrative | Work and Services Provided by Employed Person (Narrative) | text          | text          |
 ```
 
 ## Time Field
@@ -42,10 +47,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = year_reported
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -63,9 +65,9 @@ series e:c8sw-khn9 d:2016-06-30T00:00:00.000Z t:county=Clackamas t:purpose_and_u
 ```ls
 entity e:c8sw-khn9 l:"County Lottery Fund Expenditures: 2015-2016 Composite" t:url=https://data.oregon.gov/api/views/c8sw-khn9
 
-property e:c8sw-khn9 t:meta.view d:2017-03-03T14:33:57.413Z v:id=c8sw-khn9 v:category="Revenue & Expense" v:averageRating=0 v:name="County Lottery Fund Expenditures: 2015-2016 Composite"
+property e:c8sw-khn9 t:meta.view v:id=c8sw-khn9 v:category="Revenue & Expense" v:averageRating=0 v:name="County Lottery Fund Expenditures: 2015-2016 Composite"
 
-property e:c8sw-khn9 t:meta.view.owner d:2017-03-03T14:33:57.413Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:c8sw-khn9 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:c8sw-khn9 t:meta.view.tableauthor d:2017-03-03T14:33:57.413Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:c8sw-khn9 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

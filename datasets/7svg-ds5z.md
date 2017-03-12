@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.seattle.gov/api/views/7svg-ds5z/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/traffic-flow-counts-8225e)
-* [Metadata URL](https://data.seattle.gov/api/views/7svg-ds5z)
-* Id = 7svg-ds5z
-* Name = Traffic Flow Counts
-* Attribution = Seattle Department of Transportation
-* [Attribution Link](http://www.seattle.gov/transportation)
-* Category = Transportation
-* Tags = [seattle, traffic, counts, volumes, transportation]
-* Created = 2010-11-04T17:59:40Z
-* Publication Date = 2011-04-17T00:03:09Z
-* Rows Updated = 2011-08-21T02:48:34Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/traffic-flow-counts-8225e) |
+| Metadata | [Link](https://data.seattle.gov/api/views/7svg-ds5z) |
+| Data: JSON | [100 Rows](https://data.seattle.gov/api/views/7svg-ds5z/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.seattle.gov/api/views/7svg-ds5z/rows.csv?max_rows=100) |
+| Host | data.seattle.gov |
+| Id | 7svg-ds5z |
+| Name | Traffic Flow Counts |
+| Attribution | Seattle Department of Transportation |
+| Category | Transportation |
+| Tags | seattle, traffic, counts, volumes, transportation |
+| Created | 2010-11-04T17:59:40Z |
+| Publication Date | 2011-04-17T00:03:09Z |
+| Rows Updated | 2011-08-21T02:48:34Z |
 
 ## Description
 
@@ -24,12 +27,12 @@ The AAWDT count is a seasonally adjusted average weekday daily total of vehicle 
 ## Columns
 
 ```ls
-| Name     | Field Name | Data Type | Render Type | Schema Type    | Included | 
-| ======== | ========== | ========= | =========== | ============== | ======== | 
-| DOWNTOWN | downtown   | checkbox  | checkbox    | series tag     | Yes      | 
-| STNAME   | stname     | text      | text        | series tag     | Yes      | 
-| YEAR     | year       | number    | number      | time           | Yes      | 
-| AAWDT    | aawdt      | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name | Name     | Data Type | Render Type |
+| ======== | ============== | ========== | ======== | ========= | =========== |
+| Yes      | series tag     | downtown   | DOWNTOWN | checkbox  | checkbox    |
+| Yes      | series tag     | stname     | STNAME   | text      | text        |
+| Yes      | time           | year       | YEAR     | number    | number      |
+| Yes      | numeric metric | aawdt      | AAWDT    | number    | number      |
 ```
 
 ## Time Field
@@ -37,15 +40,6 @@ The AAWDT count is a seasonally adjusted average weekday daily total of vehicle 
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -65,11 +59,11 @@ metric m:aawdt l:AAWDT t:dataTypeName=number
 
 entity e:7svg-ds5z l:"Traffic Flow Counts" t:attribution="Seattle Department of Transportation" t:url=https://data.seattle.gov/api/views/7svg-ds5z
 
-property e:7svg-ds5z t:meta.view d:2017-03-08T00:42:39.062Z v:id=7svg-ds5z v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation v:averageRating=0 v:name="Traffic Flow Counts" v:attribution="Seattle Department of Transportation"
+property e:7svg-ds5z t:meta.view v:id=7svg-ds5z v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation v:averageRating=0 v:name="Traffic Flow Counts" v:attribution="Seattle Department of Transportation"
 
-property e:7svg-ds5z t:meta.view.license d:2017-03-08T00:42:39.062Z v:name="Public Domain"
+property e:7svg-ds5z t:meta.view.license v:name="Public Domain"
 
-property e:7svg-ds5z t:meta.view.owner d:2017-03-08T00:42:39.062Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 
-property e:7svg-ds5z t:meta.view.tableauthor d:2017-03-08T00:42:39.062Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```

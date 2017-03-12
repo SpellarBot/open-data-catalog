@@ -2,17 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.maryland.gov/api/views/cadm-spqd/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/multi-family-housing-fy-2011-2015)
-* [Metadata URL](https://data.maryland.gov/api/views/cadm-spqd)
-* Id = cadm-spqd
-* Name = Multi-Family Housing FY 2011-2016
-* Attribution = Department of Housing & Community Development
-* [Attribution Link](http://dhcd.maryland.gov/HousingDevelopment/Pages/default.aspx)
-* Tags = [dhcd, department of housing & community development, multi-family housing, cda]
-* Created = 2016-07-01T15:26:31Z
-* Publication Date = 2017-02-27T21:40:08Z
-* Rows Updated = 2017-02-27T21:39:18Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/multi-family-housing-fy-2011-2015) |
+| Metadata | [Link](https://data.maryland.gov/api/views/cadm-spqd) |
+| Data: JSON | [100 Rows](https://data.maryland.gov/api/views/cadm-spqd/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.maryland.gov/api/views/cadm-spqd/rows.csv?max_rows=100) |
+| Host | data.maryland.gov |
+| Id | cadm-spqd |
+| Name | Multi-Family Housing FY 2011-2016 |
+| Attribution | Department of Housing & Community Development |
+| Tags | dhcd, department of housing & community development, multi-family housing, cda |
+| Created | 2016-07-01T15:26:31Z |
+| Publication Date | 2017-02-27T21:40:08Z |
+| Rows Updated | 2017-02-27T21:39:18Z |
 
 ## Description
 
@@ -27,17 +30,17 @@ DISCLAIMER: Some of the information may be tied to the Department?s bond funded 
 ## Columns
 
 ```ls
-| Name            | Field Name      | Data Type | Render Type | Schema Type    | Included | 
-| =============== | =============== | ========= | =========== | ============== | ======== | 
-| updated_at      | :updated_at     | meta_data | meta_data   | time           | No       | 
-| Project Name    | project_name    | text      | text        | series tag     | Yes      | 
-| Project Address | project_address | text      | text        |                | No       | 
-| Project City    | project_city    | text      | text        | series tag     | Yes      | 
-| Project Zip     | project_zip     | text      | text        | series tag     | Yes      | 
-| Project County  | project_county  | text      | text        | series tag     | Yes      | 
-| Units           | units           | number    | number      | numeric metric | Yes      | 
-| ProjectType     | projecttype     | text      | text        | series tag     | Yes      | 
-| FY              | fy              | number    | text        |                | No       | 
+| Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
+| ======== | ============== | =============== | =============== | ========= | =========== |
+| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
+| Yes      | series tag     | project_name    | Project Name    | text      | text        |
+| No       |                | project_address | Project Address | text      | text        |
+| Yes      | series tag     | project_city    | Project City    | text      | text        |
+| Yes      | series tag     | project_zip     | Project Zip     | text      | text        |
+| Yes      | series tag     | project_county  | Project County  | text      | text        |
+| Yes      | numeric metric | units           | Units           | number    | number      |
+| Yes      | series tag     | projecttype     | ProjectType     | text      | text        |
+| No       |                | fy              | FY              | number    | text        |
 ```
 
 ## Time Field
@@ -50,10 +53,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = fy,project_address
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -73,9 +73,9 @@ metric m:units p:integer l:Units t:dataTypeName=number
 
 entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2016" t:attribution="Department of Housing & Community Development" t:url=https://data.maryland.gov/api/views/cadm-spqd
 
-property e:cadm-spqd t:meta.view d:2017-03-07T16:48:21.088Z v:id=cadm-spqd v:attributionLink=http://dhcd.maryland.gov/HousingDevelopment/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing & Community Development"
+property e:cadm-spqd t:meta.view v:id=cadm-spqd v:attributionLink=http://dhcd.maryland.gov/HousingDevelopment/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing & Community Development"
 
-property e:cadm-spqd t:meta.view.owner d:2017-03-07T16:48:21.088Z v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
+property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
 
-property e:cadm-spqd t:meta.view.tableauthor d:2017-03-07T16:48:21.088Z v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
+property e:cadm-spqd t:meta.view.tableauthor v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
 ```

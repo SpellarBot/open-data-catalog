@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/fv2q-qaux/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/san-francisco-development-pipeline-q2-2014-f06f7)
-* [Metadata URL](https://data.sfgov.org/api/views/fv2q-qaux)
-* Id = fv2q-qaux
-* Name = San Francisco Development Pipeline 2014 Quarter 2
-* Attribution = San Francisco Planning Department
-* Category = Housing and Buildings
-* Tags = [pipeline, development, housing, construction]
-* Created = 2014-09-12T17:43:20Z
-* Publication Date = 2014-09-12T17:45:55Z
-* Rows Updated = 2014-09-12T17:44:03Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/san-francisco-development-pipeline-q2-2014-f06f7) |
+| Metadata | [Link](https://data.sfgov.org/api/views/fv2q-qaux) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/fv2q-qaux/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/fv2q-qaux/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | fv2q-qaux |
+| Name | San Francisco Development Pipeline 2014 Quarter 2 |
+| Attribution | San Francisco Planning Department |
+| Category | Housing and Buildings |
+| Tags | pipeline, development, housing, construction |
+| Created | 2014-09-12T17:43:20Z |
+| Publication Date | 2014-09-12T17:45:55Z |
+| Rows Updated | 2014-09-12T17:44:03Z |
 
 ## Description
 
@@ -21,54 +25,54 @@ Snapshot of San Francisco Development Pipeline. Tracking of construction and ent
 ## Columns
 
 ```ls
-| Name                         | Field Name                   | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================ | ============================ | ============= | ============= | ============== | ======== | 
-| Block Lot                    | block_lot                    | text          | text          | series tag     | Yes      | 
-| Planning Neighborhood        | planning_neighborhood        | text          | text          | series tag     | Yes      | 
-| Best Stat                    | best_stat                    | text          | text          | series tag     | Yes      | 
-| Best Date                    | best_date                    | calendar_date | calendar_date | time           | Yes      | 
-| Units                        | units                        | number        | number        | numeric metric | Yes      | 
-| Planning Project Description | planning_project_description | text          | text          | series tag     | Yes      | 
-| DBI Project Description      | dbi_project_description      | text          | text          | series tag     | Yes      | 
-| Zoning_Generalized           | zoning_generalized           | text          | text          | series tag     | Yes      | 
-| Zoning_Simplified            | zoning_simplified            | text          | text          | series tag     | Yes      | 
-| TAZ                          | taz                          | number        | number        | numeric metric | Yes      | 
-| Total GSF (Commercial)       | total_gsf_commercial         | number        | number        | numeric metric | Yes      | 
-| Office                       | office                       | number        | number        | numeric metric | Yes      | 
-| Cult, Inst, Educ             | cult_inst_educ               | number        | number        | numeric metric | Yes      | 
-| Medical                      | medical                      | number        | number        | numeric metric | Yes      | 
-| Prod, Dist, Rep              | prod_dist_rep                | number        | number        | numeric metric | Yes      | 
-| Ret, Ent                     | ret_ent                      | number        | number        | numeric metric | Yes      | 
-| Visitor                      | visitor                      | number        | number        | numeric metric | Yes      | 
-| Planning ID                  | planning_id                  | text          | text          | series tag     | Yes      | 
-| DBI Permit                   | dbi_permit                   | text          | text          | series tag     | Yes      | 
-| Planning Filed               | planning_filed               | calendar_date | calendar_date |                | No       | 
-| DBI Filed                    | dbi_filed                    | calendar_date | calendar_date |                | No       | 
-| HEIGHTLIMIT                  | heightlimit                  | text          | text          | series tag     | Yes      | 
-| HeightNum                    | heightnum                    | number        | number        | numeric metric | Yes      | 
-| ZONING                       | zoning                       | text          | text          | series tag     | Yes      | 
-| FirstFiled                   | firstfiled                   | calendar_date | calendar_date |                | No       | 
-| ObjectID                     | objectid                     | text          | number        | series tag     | Yes      | 
-| LANDUSE                      | landuse                      | text          | text          | series tag     | Yes      | 
-| sort                         | sort                         | text          | text          | series tag     | Yes      | 
-| Net Added Units              | net_added_units              | number        | number        | numeric metric | Yes      | 
-| Net Added SF                 | net_added_sf                 | number        | number        | numeric metric | Yes      | 
-| Net Cult, Inst, Educ         | net_cult_inst_educ           | number        | number        | numeric metric | Yes      | 
-| Net Medical                  | net_medical                  | number        | number        | numeric metric | Yes      | 
-| Net Office                   | net_office                   | number        | number        | numeric metric | Yes      | 
-| Net Prod, Dist, Rep          | net_prod_dist_rep            | number        | number        | numeric metric | Yes      | 
-| Net Ret, Ent                 | net_ret_ent                  | number        | number        | numeric metric | Yes      | 
-| Net Visitor                  | net_visitor                  | number        | number        | numeric metric | Yes      | 
-| PlanningDistrictsCombo       | planningdistrictscombo       | text          | text          | series tag     | Yes      | 
-| AFFORDABLE                   | affordable                   | number        | number        | numeric metric | Yes      | 
-| AFFORDABLENET                | affordablenet                | number        | number        | numeric metric | Yes      | 
-| EntitlementStatus            | entitlementstatus            | number        | number        | numeric metric | Yes      | 
-| Sponsor Firm                 | sponsor_firm                 | text          | text          | series tag     | Yes      | 
-| Sponsor Name                 | sponsor_name                 | text          | text          | series tag     | Yes      | 
-| CONTACTPHONE                 | contactphone                 | text          | text          | series tag     | Yes      | 
-| FULLNAME                     | fullname                     | text          | text          | series tag     | Yes      | 
-| CONTACTCITY                  | contactcity                  | text          | text          | series tag     | Yes      | 
-| CONTACTADD                   | contactadd                   | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                   | Name                         | Data Type     | Render Type   |
+| ======== | ============== | ============================ | ============================ | ============= | ============= |
+| Yes      | series tag     | block_lot                    | Block Lot                    | text          | text          |
+| Yes      | series tag     | planning_neighborhood        | Planning Neighborhood        | text          | text          |
+| Yes      | series tag     | best_stat                    | Best Stat                    | text          | text          |
+| Yes      | time           | best_date                    | Best Date                    | calendar_date | calendar_date |
+| Yes      | numeric metric | units                        | Units                        | number        | number        |
+| Yes      | series tag     | planning_project_description | Planning Project Description | text          | text          |
+| Yes      | series tag     | dbi_project_description      | DBI Project Description      | text          | text          |
+| Yes      | series tag     | zoning_generalized           | Zoning_Generalized           | text          | text          |
+| Yes      | series tag     | zoning_simplified            | Zoning_Simplified            | text          | text          |
+| Yes      | numeric metric | taz                          | TAZ                          | number        | number        |
+| Yes      | numeric metric | total_gsf_commercial         | Total GSF (Commercial)       | number        | number        |
+| Yes      | numeric metric | office                       | Office                       | number        | number        |
+| Yes      | numeric metric | cult_inst_educ               | Cult, Inst, Educ             | number        | number        |
+| Yes      | numeric metric | medical                      | Medical                      | number        | number        |
+| Yes      | numeric metric | prod_dist_rep                | Prod, Dist, Rep              | number        | number        |
+| Yes      | numeric metric | ret_ent                      | Ret, Ent                     | number        | number        |
+| Yes      | numeric metric | visitor                      | Visitor                      | number        | number        |
+| Yes      | series tag     | planning_id                  | Planning ID                  | text          | text          |
+| Yes      | series tag     | dbi_permit                   | DBI Permit                   | text          | text          |
+| No       |                | planning_filed               | Planning Filed               | calendar_date | calendar_date |
+| No       |                | dbi_filed                    | DBI Filed                    | calendar_date | calendar_date |
+| Yes      | series tag     | heightlimit                  | HEIGHTLIMIT                  | text          | text          |
+| Yes      | numeric metric | heightnum                    | HeightNum                    | number        | number        |
+| Yes      | series tag     | zoning                       | ZONING                       | text          | text          |
+| No       |                | firstfiled                   | FirstFiled                   | calendar_date | calendar_date |
+| Yes      | series tag     | objectid                     | ObjectID                     | text          | number        |
+| Yes      | series tag     | landuse                      | LANDUSE                      | text          | text          |
+| Yes      | series tag     | sort                         | sort                         | text          | text          |
+| Yes      | numeric metric | net_added_units              | Net Added Units              | number        | number        |
+| Yes      | numeric metric | net_added_sf                 | Net Added SF                 | number        | number        |
+| Yes      | numeric metric | net_cult_inst_educ           | Net Cult, Inst, Educ         | number        | number        |
+| Yes      | numeric metric | net_medical                  | Net Medical                  | number        | number        |
+| Yes      | numeric metric | net_office                   | Net Office                   | number        | number        |
+| Yes      | numeric metric | net_prod_dist_rep            | Net Prod, Dist, Rep          | number        | number        |
+| Yes      | numeric metric | net_ret_ent                  | Net Ret, Ent                 | number        | number        |
+| Yes      | numeric metric | net_visitor                  | Net Visitor                  | number        | number        |
+| Yes      | series tag     | planningdistrictscombo       | PlanningDistrictsCombo       | text          | text          |
+| Yes      | numeric metric | affordable                   | AFFORDABLE                   | number        | number        |
+| Yes      | numeric metric | affordablenet                | AFFORDABLENET                | number        | number        |
+| Yes      | numeric metric | entitlementstatus            | EntitlementStatus            | number        | number        |
+| Yes      | series tag     | sponsor_firm                 | Sponsor Firm                 | text          | text          |
+| Yes      | series tag     | sponsor_name                 | Sponsor Name                 | text          | text          |
+| Yes      | series tag     | contactphone                 | CONTACTPHONE                 | text          | text          |
+| Yes      | series tag     | fullname                     | FULLNAME                     | text          | text          |
+| Yes      | series tag     | contactcity                  | CONTACTCITY                  | text          | text          |
+| Yes      | series tag     | contactadd                   | CONTACTADD                   | text          | text          |
 ```
 
 ## Time Field
@@ -81,10 +85,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = planning_filed,firstfiled,dbi_filed
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -144,11 +145,11 @@ metric m:entitlementstatus l:EntitlementStatus t:dataTypeName=number
 
 entity e:fv2q-qaux l:"San Francisco Development Pipeline 2014 Quarter 2" t:attribution="San Francisco Planning Department" t:url=https://data.sfgov.org/api/views/fv2q-qaux
 
-property e:fv2q-qaux t:meta.view d:2017-03-08T02:11:24.300Z v:id=fv2q-qaux v:category="Housing and Buildings" v:averageRating=0 v:name="San Francisco Development Pipeline 2014 Quarter 2" v:attribution="San Francisco Planning Department"
+property e:fv2q-qaux t:meta.view v:id=fv2q-qaux v:category="Housing and Buildings" v:averageRating=0 v:name="San Francisco Development Pipeline 2014 Quarter 2" v:attribution="San Francisco Planning Department"
 
-property e:fv2q-qaux t:meta.view.license d:2017-03-08T02:11:24.300Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:fv2q-qaux t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:fv2q-qaux t:meta.view.owner d:2017-03-08T02:11:24.300Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:fv2q-qaux t:meta.view.owner v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 
-property e:fv2q-qaux t:meta.view.tableauthor d:2017-03-08T02:11:24.300Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:fv2q-qaux t:meta.view.tableauthor v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 ```

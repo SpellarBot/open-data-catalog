@@ -2,32 +2,32 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/vk9f-gvzq/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/dop-juvenile-investigations-assigned)
-* [Metadata URL](https://data.cityofnewyork.us/api/views/vk9f-gvzq)
-* Id = vk9f-gvzq
-* Name = DOP Juvenile Investigations Assigned
-* Attribution = Department of Probation (DOP)
-* Category = Public Safety
-* Tags = [dop, investigation, probation]
-* Created = 2016-11-21T15:48:22Z
-* Publication Date = 2017-02-02T22:48:13Z
-* Rows Updated = 2017-02-02T22:47:52Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/dop-juvenile-investigations-assigned) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/vk9f-gvzq) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/vk9f-gvzq/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/vk9f-gvzq/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | vk9f-gvzq |
+| Name | DOP Juvenile Investigations Assigned |
+| Attribution | Department of Probation (DOP) |
+| Category | Public Safety |
+| Tags | dop, investigation, probation |
+| Created | 2016-11-21T15:48:22Z |
+| Publication Date | 2017-03-08T18:38:56Z |
+| Rows Updated | 2017-03-08T18:38:46Z |
 
 ## Columns
 
 ```ls
-| Name                          | Field Name                    | Data Type | Render Type | Schema Type    | Included | 
-| ============================= | ============================= | ========= | =========== | ============== | ======== | 
-| Borough                       | borough                       | text      | text        | series tag     | Yes      | 
-| Total Investigations Assigned | total_investigations_assigned | text      | text        | series tag     | Yes      | 
-| Month                         | month                         | text      | text        |                | No       | 
-| Year                          | year                          | number    | number      |                | No       | 
-| Investigations Assigned Count | investigations_assigned_count | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                    | Name                          | Data Type | Render Type |
+| ======== | ============== | ============================= | ============================= | ========= | =========== |
+| Yes      | series tag     | borough                       | Borough                       | text      | text        |
+| Yes      | series tag     | total_investigations_assigned | Total Investigations Assigned | text      | text        |
+| No       |                | month                         | Month                         | text      | text        |
+| No       |                | year                          | Year                          | number    | number      |
+| Yes      | numeric metric | investigations_assigned_count | Investigations Assigned Count | number    | text        |
 ```
 
 ## Time Field
@@ -40,10 +40,7 @@ Format & Zone = yyyy-MMMM
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = month,year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -63,9 +60,9 @@ metric m:investigations_assigned_count p:integer l:"Investigations Assigned Coun
 
 entity e:vk9f-gvzq l:"DOP Juvenile Investigations Assigned" t:attribution="Department of Probation (DOP)" t:url=https://data.cityofnewyork.us/api/views/vk9f-gvzq
 
-property e:vk9f-gvzq t:meta.view d:2017-03-07T16:49:00.699Z v:id=vk9f-gvzq v:category="Public Safety" v:averageRating=0 v:name="DOP Juvenile Investigations Assigned" v:attribution="Department of Probation (DOP)"
+property e:vk9f-gvzq t:meta.view v:id=vk9f-gvzq v:category="Public Safety" v:averageRating=0 v:name="DOP Juvenile Investigations Assigned" v:attribution="Department of Probation (DOP)"
 
-property e:vk9f-gvzq t:meta.view.owner d:2017-03-07T16:49:00.699Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:vk9f-gvzq t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:vk9f-gvzq t:meta.view.tableauthor d:2017-03-07T16:49:00.699Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

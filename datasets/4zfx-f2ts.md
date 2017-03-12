@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/4zfx-f2ts/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/budget-fte-ab7fd)
-* [Metadata URL](https://data.sfgov.org/api/views/4zfx-f2ts)
-* Id = 4zfx-f2ts
-* Name = Budget - FTE
-* Attribution = SF Controller's Office
-* [Attribution Link](http://openbook.sfgov.org)
-* Category = City Management and Ethics
-* Tags = [budget, fte, staffing, sfopenbook, open book, openbook]
-* Created = 2014-06-16T21:46:43Z
-* Publication Date = 2016-05-05T20:06:55Z
-* Rows Updated = 2016-08-08T21:09:58Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/budget-fte-ab7fd) |
+| Metadata | [Link](https://data.sfgov.org/api/views/4zfx-f2ts) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/4zfx-f2ts/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/4zfx-f2ts/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | 4zfx-f2ts |
+| Name | Budget - FTE |
+| Attribution | SF Controller's Office |
+| Category | City Management and Ethics |
+| Tags | budget, fte, staffing, sfopenbook, open book, openbook |
+| Created | 2014-06-16T21:46:43Z |
+| Publication Date | 2016-05-05T20:06:55Z |
+| Rows Updated | 2016-08-08T21:09:58Z |
 
 ## Description
 
@@ -22,33 +25,33 @@ The San Francisco Controller's Office maintains a database of budgetary staffing
 ## Columns
 
 ```ls
-| Name                    | Field Name              | Data Type | Render Type | Schema Type    | Included | 
-| ======================= | ======================= | ========= | =========== | ============== | ======== | 
-| Fiscal Year             | fiscal_year             | number    | number      | time           | Yes      | 
-| Related Gov't Units     | related_gov_t_units     | text      | text        | series tag     | Yes      | 
-| Organization Group Code | organization_group_code | text      | text        | series tag     | Yes      | 
-| Organization Group      | organization_group      | text      | text        | series tag     | Yes      | 
-| Department Code         | department_code         | text      | text        | series tag     | Yes      | 
-| Department              | department              | text      | text        | series tag     | Yes      | 
-| Program Code            | program_code            | text      | text        | series tag     | Yes      | 
-| Program                 | program                 | text      | text        | series tag     | Yes      | 
-| Character Code          | character_code          | text      | text        | series tag     | Yes      | 
-| Character               | character               | text      | text        | series tag     | Yes      | 
-| Object Code             | object_code             | text      | text        | series tag     | Yes      | 
-| Object                  | object                  | text      | text        | series tag     | Yes      | 
-| Sub-object Code         | sub_object_code         | text      | text        | series tag     | Yes      | 
-| Sub-object              | sub_object              | text      | text        | series tag     | Yes      | 
-| Fund Type Code          | fund_type_code          | text      | text        | series tag     | Yes      | 
-| Fund Type               | fund_type               | text      | text        | series tag     | Yes      | 
-| Fund Code               | fund_code               | text      | text        | series tag     | Yes      | 
-| Fund                    | fund                    | text      | text        | series tag     | Yes      | 
-| Fund Category Code      | fund_category_code      | text      | text        | series tag     | Yes      | 
-| Fund Category           | fund_category           | text      | text        | series tag     | Yes      | 
-| Job Family Code         | job_family_code         | text      | text        | series tag     | Yes      | 
-| Job Family              | job_family              | text      | text        | series tag     | Yes      | 
-| Job Code                | job_code                | text      | text        | series tag     | Yes      | 
-| Job                     | job                     | text      | text        | series tag     | Yes      | 
-| FTE                     | fte                     | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name              | Name                    | Data Type | Render Type |
+| ======== | ============== | ======================= | ======================= | ========= | =========== |
+| Yes      | time           | fiscal_year             | Fiscal Year             | number    | number      |
+| Yes      | series tag     | related_gov_t_units     | Related Gov't Units     | text      | text        |
+| Yes      | series tag     | organization_group_code | Organization Group Code | text      | text        |
+| Yes      | series tag     | organization_group      | Organization Group      | text      | text        |
+| Yes      | series tag     | department_code         | Department Code         | text      | text        |
+| Yes      | series tag     | department              | Department              | text      | text        |
+| Yes      | series tag     | program_code            | Program Code            | text      | text        |
+| Yes      | series tag     | program                 | Program                 | text      | text        |
+| Yes      | series tag     | character_code          | Character Code          | text      | text        |
+| Yes      | series tag     | character               | Character               | text      | text        |
+| Yes      | series tag     | object_code             | Object Code             | text      | text        |
+| Yes      | series tag     | object                  | Object                  | text      | text        |
+| Yes      | series tag     | sub_object_code         | Sub-object Code         | text      | text        |
+| Yes      | series tag     | sub_object              | Sub-object              | text      | text        |
+| Yes      | series tag     | fund_type_code          | Fund Type Code          | text      | text        |
+| Yes      | series tag     | fund_type               | Fund Type               | text      | text        |
+| Yes      | series tag     | fund_code               | Fund Code               | text      | text        |
+| Yes      | series tag     | fund                    | Fund                    | text      | text        |
+| Yes      | series tag     | fund_category_code      | Fund Category Code      | text      | text        |
+| Yes      | series tag     | fund_category           | Fund Category           | text      | text        |
+| Yes      | series tag     | job_family_code         | Job Family Code         | text      | text        |
+| Yes      | series tag     | job_family              | Job Family              | text      | text        |
+| Yes      | series tag     | job_code                | Job Code                | text      | text        |
+| Yes      | series tag     | job                     | Job                     | text      | text        |
+| Yes      | numeric metric | fte                     | FTE                     | number    | number      |
 ```
 
 ## Time Field
@@ -56,15 +59,6 @@ The San Francisco Controller's Office maintains a database of budgetary staffing
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -84,11 +78,11 @@ metric m:fte l:FTE d:"Staffing level is represented by ""Full Time Equivalent (F
 
 entity e:4zfx-f2ts l:"Budget - FTE" t:attribution="SF Controller's Office" t:url=https://data.sfgov.org/api/views/4zfx-f2ts
 
-property e:4zfx-f2ts t:meta.view d:2017-03-08T00:17:34.411Z v:id=4zfx-f2ts v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Budget - FTE" v:attribution="SF Controller's Office"
+property e:4zfx-f2ts t:meta.view v:id=4zfx-f2ts v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Budget - FTE" v:attribution="SF Controller's Office"
 
-property e:4zfx-f2ts t:meta.view.license d:2017-03-08T00:17:34.411Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:4zfx-f2ts t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:4zfx-f2ts t:meta.view.owner d:2017-03-08T00:17:34.411Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
+property e:4zfx-f2ts t:meta.view.owner v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
 
-property e:4zfx-f2ts t:meta.view.tableauthor d:2017-03-08T00:17:34.411Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
+property e:4zfx-f2ts t:meta.view.tableauthor v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
 ```

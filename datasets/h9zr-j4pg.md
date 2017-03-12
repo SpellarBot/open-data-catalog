@@ -64,11 +64,11 @@ metric m:region p:integer l:Region d:"The New York State Department of Transport
 
 entity e:h9zr-j4pg l:"Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" t:attribution="New York State Department of Transportation (NYSDOT)" t:url=https://data.ny.gov/api/views/h9zr-j4pg
 
-property e:h9zr-j4pg t:meta.view d:2017-03-10T14:40:51.783Z v:id=h9zr-j4pg v:category=Transportation v:attributionLink=https://www.dot.ny.gov/divisions/operating/osss/bus/inspection v:averageRating=0 v:name="Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" v:attribution="New York State Department of Transportation (NYSDOT)"
+property e:h9zr-j4pg t:meta.view v:id=h9zr-j4pg v:category=Transportation v:attributionLink=https://www.dot.ny.gov/divisions/operating/osss/bus/inspection v:averageRating=0 v:name="Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" v:attribution="New York State Department of Transportation (NYSDOT)"
 
-property e:h9zr-j4pg t:meta.view.owner d:2017-03-10T14:40:51.783Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:h9zr-j4pg t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:h9zr-j4pg t:meta.view.tableauthor d:2017-03-10T14:40:51.783Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:h9zr-j4pg t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:h9zr-j4pg t:meta.view.metadata.custom_fields.common_core d:2017-03-10T14:40:51.783Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:h9zr-j4pg t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```

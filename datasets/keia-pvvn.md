@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/keia-pvvn/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/nndss-table-ii-ehrlichiosis-anaplasmosis)
-* [Metadata URL](https://data.cdc.gov/api/views/keia-pvvn)
-* Id = keia-pvvn
-* Name = NNDSS - Table II. Ehrlichiosis/Anaplasmosis
-* Attribution = Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention
-* Category = NNDSS
-* Tags = [2016, mmwr, nndss, wonder, nedss, netss, ehrlichiosis/anaplasmosis, ehrlichia chaffeensis, anaplasma phagocytophilum, undetermined]
-* Created = 2016-01-11T23:34:15Z
-* Publication Date = 2017-01-05T16:55:40Z
-* Rows Updated = 2017-01-05T14:39:08Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nndss-table-ii-ehrlichiosis-anaplasmosis) |
+| Metadata | [Link](https://data.cdc.gov/api/views/keia-pvvn) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/keia-pvvn/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/keia-pvvn/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
+| Id | keia-pvvn |
+| Name | NNDSS - Table II. Ehrlichiosis/Anaplasmosis |
+| Attribution | Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention |
+| Category | NNDSS |
+| Tags | 2016, mmwr, nndss, wonder, nedss, netss, ehrlichiosis/anaplasmosis, ehrlichia chaffeensis, anaplasma phagocytophilum, undetermined |
+| Created | 2016-01-11T23:34:15Z |
+| Publication Date | 2017-01-05T16:55:40Z |
+| Rows Updated | 2017-01-05T14:39:08Z |
 
 ## Description
 
@@ -34,41 +38,41 @@ U: Unavailable.    -: No reported cases.    N: Not reportable.    NN: Not Nation
 ## Columns
 
 ```ls
-| Name                                                                               | Field Name                                                                     | Data Type | Render Type | Schema Type    | Included | 
-| ================================================================================== | ============================================================================== | ========= | =========== | ============== | ======== | 
-| Reporting Area                                                                     | reporting_area                                                                 | text      | text        | series tag     | Yes      | 
-| MMWR Year                                                                          | mmwr_year                                                                      | number    | number      |                | No       | 
-| MMWR Week                                                                          | mmwr_week                                                                      | number    | number      |                | No       | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Current week                    | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_current_week                   | number    | number      |                | No       | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Current week, flag              | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_current_week_flag              | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Med           | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med          | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Med, flag     | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med_flag     | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Max           | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max          | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Max, flag     | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max_flag     | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2016                        | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2016                       | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2016, flag                  | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2016_flag                  | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2015                        | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015                       | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2015, flag                  | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015_flag                  | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Current week                | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week               | number    | number      |                | No       | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Current week, flag          | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week_flag          | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Med       | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med      | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Med, flag | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med_flag | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Max       | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max      | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Max, flag | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max_flag | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2016                    | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016                   | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2016, flag              | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016_flag              | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2015                    | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015                   | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2015, flag              | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015_flag              | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Current week                             | ehrlichiosis_anaplasmosis_undetermined_current_week                            | number    | number      |                | No       | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Current week, flag                       | ehrlichiosis_anaplasmosis_undetermined_current_week_flag                       | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Med                    | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med                   | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Med, flag              | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med_flag              | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Max                    | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max                   | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Max, flag              | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max_flag              | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2016                                 | ehrlichiosis_anaplasmosis_undetermined_cum_2016                                | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2016, flag                           | ehrlichiosis_anaplasmosis_undetermined_cum_2016_flag                           | number    | text        | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2015                                 | ehrlichiosis_anaplasmosis_undetermined_cum_2015                                | number    | number      | numeric metric | Yes      | 
-| Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2015, flag                           | ehrlichiosis_anaplasmosis_undetermined_cum_2015_flag                           | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                                                     | Name                                                                               | Data Type | Render Type |
+| ======== | ============== | ============================================================================== | ================================================================================== | ========= | =========== |
+| Yes      | series tag     | reporting_area                                                                 | Reporting Area                                                                     | text      | text        |
+| No       |                | mmwr_year                                                                      | MMWR Year                                                                          | number    | number      |
+| No       |                | mmwr_week                                                                      | MMWR Week                                                                          | number    | number      |
+| No       |                | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_current_week                   | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Current week                    | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_current_week_flag              | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Current week, flag              | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med          | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Med           | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med_flag     | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Med, flag     | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max          | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Max           | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max_flag     | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Previous 52 weeks Max, flag     | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2016                       | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2016                        | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2016_flag                  | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2016, flag                  | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015                       | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2015                        | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015_flag                  | Ehrlichiosis/Anaplasmosis?, Ehrlichia chaffeensis, Cum 2015, flag                  | number    | text        |
+| No       |                | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week               | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Current week                | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week_flag          | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Current week, flag          | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med      | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Med       | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med_flag | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Med, flag | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max      | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Max       | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max_flag | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Previous 52 weeks Max, flag | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016                   | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2016                    | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016_flag              | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2016, flag              | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015                   | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2015                    | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015_flag              | Ehrlichiosis/Anaplasmosis?, Anaplasma phagocytophilum, Cum 2015, flag              | number    | text        |
+| No       |                | ehrlichiosis_anaplasmosis_undetermined_current_week                            | Ehrlichiosis/Anaplasmosis?, Undetermined, Current week                             | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_current_week_flag                       | Ehrlichiosis/Anaplasmosis?, Undetermined, Current week, flag                       | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med                   | Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Med                    | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med_flag              | Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Med, flag              | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max                   | Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Max                    | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max_flag              | Ehrlichiosis/Anaplasmosis?, Undetermined, Previous 52 weeks Max, flag              | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_cum_2016                                | Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2016                                 | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_cum_2016_flag                           | Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2016, flag                           | number    | text        |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_cum_2015                                | Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2015                                 | number    | number      |
+| Yes      | numeric metric | ehrlichiosis_anaplasmosis_undetermined_cum_2015_flag                           | Ehrlichiosis/Anaplasmosis?, Undetermined, Cum 2015, flag                           | number    | text        |
 ```
 
 ## Time Field
@@ -81,10 +85,7 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = ehrlichiosis_anaplasmosis_undetermined_current_week,mmwr_year,ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week,ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_current_week,mmwr_week
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -126,11 +127,11 @@ metric m:ehrlichiosis_anaplasmosis_undetermined_cum_2015 p:integer l:"Ehrlichios
 
 entity e:keia-pvvn l:"NNDSS - Table II. Ehrlichiosis/Anaplasmosis" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/keia-pvvn
 
-property e:keia-pvvn t:meta.view d:2017-03-08T02:24:50.565Z v:id=keia-pvvn v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Ehrlichiosis/Anaplasmosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:keia-pvvn t:meta.view v:id=keia-pvvn v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Ehrlichiosis/Anaplasmosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:keia-pvvn t:meta.view.owner d:2017-03-08T02:24:50.565Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:keia-pvvn t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:keia-pvvn t:meta.view.tableauthor d:2017-03-08T02:24:50.565Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:keia-pvvn t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:keia-pvvn t:meta.view.metadata.custom_fields.common_core d:2017-03-08T02:24:50.565Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:keia-pvvn t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

@@ -2,14 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.seattle.gov/api/views/wd5q-q35v/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/sdot-road-temperature-stations-2afd8)
-* Id = wd5q-q35v
-* Name = SDOT Road Temperature Stations
-* Tags = [storm response]
-* Created = 2016-12-08T22:55:45Z
-* Publication Date = 2016-12-14T16:05:31Z
-* Rows Updated = 2016-12-08T22:55:45Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/sdot-road-temperature-stations-2afd8) |
+| Metadata | [Link](https://data.seattle.gov/api/views/wd5q-q35v) |
+| Data: JSON | [100 Rows](https://data.seattle.gov/api/views/wd5q-q35v/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.seattle.gov/api/views/wd5q-q35v/rows.csv?max_rows=100) |
+| Host | data.seattle.gov |
+| Id | wd5q-q35v |
+| Name | SDOT Road Temperature Stations |
+| Tags | storm response |
+| Created | 2016-12-08T22:55:45Z |
+| Publication Date | 2016-12-14T16:05:31Z |
+| Rows Updated | 2016-12-08T22:55:45Z |
 
 ## Description
 
@@ -18,31 +23,31 @@ Displays the location and data being collected from road temperature stations in
 ## Columns
 
 ```ls
-| Name              | Field Name        | Data Type | Render Type | Schema Type    | Included | 
-| ================= | ================= | ========= | =========== | ============== | ======== | 
-| updated_at        | :updated_at       | meta_data | meta_data   | time           | Yes      | 
-| OBJECTID          | objectid          | text      | number      | series tag     | Yes      | 
-| RWIS_STATION_NAME | rwis_station_name | text      | text        | series tag     | Yes      | 
-| RWIS_DISPLAY_NAME | rwis_display_name | text      | text        | series tag     | Yes      | 
-| RWIS_DATETIME     | rwis_datetime     | text      | text        | series tag     | Yes      | 
-| RSTEMP_CURRENT    | rstemp_current    | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_CURRENT   | airtemp_current   | number    | number      | numeric metric | Yes      | 
-| RSTEMP_15MIN      | rstemp_15min      | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_15MIN     | airtemp_15min     | number    | number      | numeric metric | Yes      | 
-| RSTEMP_30MIN      | rstemp_30min      | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_30MIN     | airtemp_30min     | number    | number      | numeric metric | Yes      | 
-| RSTEMP_45MIN      | rstemp_45min      | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_45MIN     | airtemp_45min     | number    | number      | numeric metric | Yes      | 
-| RSTEMP_60MIN      | rstemp_60min      | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_60MIN     | airtemp_60min     | number    | number      | numeric metric | Yes      | 
-| RSTEMP_75MIN      | rstemp_75min      | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_75MIN     | airtemp_75min     | number    | number      | numeric metric | Yes      | 
-| RSTEMP_90MIN      | rstemp_90min      | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_90MIN     | airtemp_90min     | number    | number      | numeric metric | Yes      | 
-| RSTEMP_105MIN     | rstemp_105min     | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_105MIN    | airtemp_105min    | number    | number      | numeric metric | Yes      | 
-| RSTEMP_120MIN     | rstemp_120min     | number    | number      | numeric metric | Yes      | 
-| AIRTEMP_120MIN    | airtemp_120min    | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name        | Name              | Data Type | Render Type |
+| ======== | ============== | ================= | ================= | ========= | =========== |
+| No       | time           | :updated_at       | updated_at        | meta_data | meta_data   |
+| Yes      | series tag     | objectid          | OBJECTID          | text      | number      |
+| Yes      | series tag     | rwis_station_name | RWIS_STATION_NAME | text      | text        |
+| Yes      | series tag     | rwis_display_name | RWIS_DISPLAY_NAME | text      | text        |
+| Yes      | series tag     | rwis_datetime     | RWIS_DATETIME     | text      | text        |
+| Yes      | numeric metric | rstemp_current    | RSTEMP_CURRENT    | number    | number      |
+| Yes      | numeric metric | airtemp_current   | AIRTEMP_CURRENT   | number    | number      |
+| Yes      | numeric metric | rstemp_15min      | RSTEMP_15MIN      | number    | number      |
+| Yes      | numeric metric | airtemp_15min     | AIRTEMP_15MIN     | number    | number      |
+| Yes      | numeric metric | rstemp_30min      | RSTEMP_30MIN      | number    | number      |
+| Yes      | numeric metric | airtemp_30min     | AIRTEMP_30MIN     | number    | number      |
+| Yes      | numeric metric | rstemp_45min      | RSTEMP_45MIN      | number    | number      |
+| Yes      | numeric metric | airtemp_45min     | AIRTEMP_45MIN     | number    | number      |
+| Yes      | numeric metric | rstemp_60min      | RSTEMP_60MIN      | number    | number      |
+| Yes      | numeric metric | airtemp_60min     | AIRTEMP_60MIN     | number    | number      |
+| Yes      | numeric metric | rstemp_75min      | RSTEMP_75MIN      | number    | number      |
+| Yes      | numeric metric | airtemp_75min     | AIRTEMP_75MIN     | number    | number      |
+| Yes      | numeric metric | rstemp_90min      | RSTEMP_90MIN      | number    | number      |
+| Yes      | numeric metric | airtemp_90min     | AIRTEMP_90MIN     | number    | number      |
+| Yes      | numeric metric | rstemp_105min     | RSTEMP_105MIN     | number    | number      |
+| Yes      | numeric metric | airtemp_105min    | AIRTEMP_105MIN    | number    | number      |
+| Yes      | numeric metric | rstemp_120min     | RSTEMP_120MIN     | number    | number      |
+| Yes      | numeric metric | airtemp_120min    | AIRTEMP_120MIN    | number    | number      |
 ```
 
 ## Time Field
@@ -52,23 +57,14 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
-```
-
 ## Data Commands
 
 ```ls
-series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-03 05:30:00" t:objectid=1 t:rwis_station_name=35thAveSW_SWMyrtleSt t:rwis_display_name="35th Ave SW at SW Myrtle St" m:airtemp_120min=43.24 m:airtemp_60min=43.3 m:rstemp_75min=43.28 m:rstemp_30min=43.31 m:airtemp_105min=43.25 m:airtemp_45min=43.3 m:airtemp_15min=43.32 m:rstemp_105min=43.25 m:airtemp_30min=43.31 m:rstemp_current=43.32 m:rstemp_15min=43.32 m:airtemp_75min=43.28 m:airtemp_current=43.32 m:rstemp_90min=43.26 m:rstemp_120min=43.24 m:rstemp_45min=43.3 m:rstemp_60min=43.3 m:airtemp_90min=43.26
+series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-12 04:30:00" t:objectid=1 t:rwis_station_name=35thAveSW_SWMyrtleSt t:rwis_display_name="35th Ave SW at SW Myrtle St" m:airtemp_60min=44.53 m:rstemp_30min=44.39 m:rstemp_75min=44.59 m:airtemp_45min=44.47 m:airtemp_15min=44.33 m:airtemp_30min=44.39 m:rstemp_15min=44.33 m:rstemp_current=44.33 m:airtemp_75min=44.59 m:airtemp_current=44.33 m:rstemp_90min=44.61 m:rstemp_45min=44.47 m:rstemp_60min=44.53 m:airtemp_90min=44.61
 
-series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-03 05:30:00" t:objectid=2 t:rwis_station_name=AlaskanWayViaduct_KingSt t:rwis_display_name="Alaskan Way Viaduct at King St" m:airtemp_120min=45.32 m:airtemp_60min=45.4 m:rstemp_75min=44.56 m:rstemp_30min=44.91 m:airtemp_105min=45.32 m:airtemp_45min=45.44 m:airtemp_15min=45.53 m:rstemp_105min=44.4 m:airtemp_30min=45.49 m:rstemp_current=45.13 m:rstemp_15min=45.04 m:airtemp_75min=45.39 m:airtemp_current=45.57 m:rstemp_90min=44.5 m:rstemp_120min=44.43 m:rstemp_45min=44.76 m:rstemp_60min=44.63 m:airtemp_90min=45.36
+series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-12 04:30:00" t:objectid=2 t:rwis_station_name=AlaskanWayViaduct_KingSt t:rwis_display_name="Alaskan Way Viaduct at King St" m:airtemp_60min=46.62 m:rstemp_30min=46.25 m:rstemp_75min=46.56 m:airtemp_45min=46.58 m:airtemp_15min=46.54 m:airtemp_30min=46.55 m:rstemp_15min=46.17 m:rstemp_current=46.12 m:airtemp_75min=46.66 m:airtemp_current=46.51 m:rstemp_90min=46.7 m:rstemp_45min=46.32 m:rstemp_60min=46.42 m:airtemp_90min=46.7
 
-series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-03 05:29:00" t:objectid=3 t:rwis_station_name=AlbroPlaceAirportWay t:rwis_display_name="Albro Place at Airport Way" m:airtemp_120min=47.74 m:airtemp_60min=48.28 m:rstemp_75min=44.17 m:rstemp_30min=44.26 m:airtemp_105min=47.71 m:airtemp_45min=48.48 m:airtemp_15min=48.53 m:rstemp_105min=44.08 m:airtemp_30min=48.45 m:rstemp_current=44.3 m:rstemp_15min=44.28 m:airtemp_75min=48.18 m:airtemp_current=48.53 m:rstemp_90min=44.13 m:rstemp_120min=44.08 m:rstemp_45min=44.23 m:rstemp_60min=44.2 m:airtemp_90min=47.9
+series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-12 04:30:00" t:objectid=3 t:rwis_station_name=AlbroPlaceAirportWay t:rwis_display_name="Albro Place at Airport Way" m:airtemp_60min=46.93 m:rstemp_30min=45.66 m:rstemp_75min=45.93 m:airtemp_45min=46.93 m:airtemp_15min=47.04 m:airtemp_30min=46.96 m:rstemp_15min=45.54 m:rstemp_current=45.45 m:airtemp_75min=46.79 m:airtemp_current=47.09 m:rstemp_90min=46.04 m:rstemp_45min=45.74 m:rstemp_60min=45.82 m:airtemp_90min=46.95
 ```
 
 ## Meta Commands
@@ -112,9 +108,9 @@ metric m:airtemp_120min l:AIRTEMP_120MIN d:AIRTEMP_120MIN t:dataTypeName=number
 
 entity e:wd5q-q35v l:"SDOT Road Temperature Stations" t:url=https://data.seattle.gov/api/views/wd5q-q35v
 
-property e:wd5q-q35v t:meta.view d:2017-03-03T13:52:29.291Z v:id=wd5q-q35v v:averageRating=0 v:name="SDOT Road Temperature Stations"
+property e:wd5q-q35v t:meta.view v:id=wd5q-q35v v:averageRating=0 v:name="SDOT Road Temperature Stations"
 
-property e:wd5q-q35v t:meta.view.owner d:2017-03-03T13:52:29.291Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:wd5q-q35v t:meta.view.owner v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 
-property e:wd5q-q35v t:meta.view.tableauthor d:2017-03-03T13:52:29.291Z v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:wd5q-q35v t:meta.view.tableauthor v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 ```

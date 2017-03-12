@@ -69,9 +69,9 @@ metric m:2011_fy_count p:integer l:"2011 FY Count" t:dataTypeName=number
 
 entity e:nd82-bi9f l:"Procurement By Industry" t:attribution="Office of the Mayor (OTM)" t:url=https://data.cityofnewyork.us/api/views/nd82-bi9f
 
-property e:nd82-bi9f t:meta.view d:2017-03-10T14:35:31.483Z v:id=nd82-bi9f v:category="City Government" v:averageRating=0 v:name="Procurement By Industry" v:attribution="Office of the Mayor (OTM)"
+property e:nd82-bi9f t:meta.view v:id=nd82-bi9f v:category="City Government" v:averageRating=0 v:name="Procurement By Industry" v:attribution="Office of the Mayor (OTM)"
 
-property e:nd82-bi9f t:meta.view.owner d:2017-03-10T14:35:31.483Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:nd82-bi9f t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:nd82-bi9f t:meta.view.tableauthor d:2017-03-10T14:35:31.483Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:nd82-bi9f t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/qwnt-35i6/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/post-employment-restriction-waivers-4d068)
-* Id = qwnt-35i6
-* Name = Post- Employment Restriction Waivers
-* Attribution = San Francisco Ethics Commission
-* Attribution Link = http://www.sfethics.org
-* Category = City Management and Ethics
-* Tags = [ethics, post-employment restriction waivers, conflict of interest]
-* Created = 2013-05-31T18:23:41Z
-* Publication Date = 2016-05-25T23:20:49Z
-* Rows Updated = 2016-05-25T23:20:27Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/post-employment-restriction-waivers-4d068) |
+| Metadata | [Link](https://data.sfgov.org/api/views/qwnt-35i6) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/qwnt-35i6/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/qwnt-35i6/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | qwnt-35i6 |
+| Name | Post- Employment Restriction Waivers |
+| Attribution | San Francisco Ethics Commission |
+| Category | City Management and Ethics |
+| Tags | ethics, post-employment restriction waivers, conflict of interest |
+| Created | 2013-05-31T18:23:41Z |
+| Publication Date | 2016-05-25T23:20:49Z |
+| Rows Updated | 2016-05-25T23:20:27Z |
 
 ## Description
 
@@ -21,11 +25,11 @@ Under section 3.234(a)(1) of the San Francisco Campaign and Governmental Conduct
 ## Columns
 
 ```ls
-| Name              | Field Name        | Data Type     | Render Type   | Schema Type | Included | 
-| ================= | ================= | ============= | ============= | =========== | ======== | 
-| Date of request   | date_of_request   | calendar_date | calendar_date | time        | Yes      | 
-| Name of requestor | name_of_requestor | text          | text          | series tag  | Yes      | 
-| Relevant law      | relevant_law      | text          | text          | series tag  | Yes      | 
+| Included | Schema Type | Field Name        | Name              | Data Type     | Render Type   |
+| ======== | =========== | ================= | ================= | ============= | ============= |
+| Yes      | time        | date_of_request   | Date of request   | calendar_date | calendar_date |
+| Yes      | series tag  | name_of_requestor | Name of requestor | text          | text          |
+| Yes      | series tag  | relevant_law      | Relevant law      | text          | text          |
 ```
 
 ## Time Field
@@ -35,23 +39,9 @@ Value = date_of_request
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
-```
-
 ## Data Commands
 
 ```ls
-
-
-
-
-
 ```
 
 ## Meta Commands
@@ -59,11 +49,11 @@ Annotation Fields =
 ```ls
 entity e:qwnt-35i6 l:"Post- Employment Restriction Waivers" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/qwnt-35i6
 
-property e:qwnt-35i6 t:meta.view d:2017-03-03T14:12:52.970Z v:id=qwnt-35i6 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Post- Employment Restriction Waivers" v:attribution="San Francisco Ethics Commission"
+property e:qwnt-35i6 t:meta.view v:id=qwnt-35i6 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Post- Employment Restriction Waivers" v:attribution="San Francisco Ethics Commission"
 
-property e:qwnt-35i6 t:meta.view.license d:2017-03-03T14:12:52.970Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:qwnt-35i6 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:qwnt-35i6 t:meta.view.owner d:2017-03-03T14:12:52.970Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:qwnt-35i6 t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 
-property e:qwnt-35i6 t:meta.view.tableauthor d:2017-03-03T14:12:52.970Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:qwnt-35i6 t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.imls.gov/api/views/9uhv-6je7/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/state-libraries-survey-fy-2005-part-2-slaa-provided-services)
-* [Metadata URL](https://data.imls.gov/api/views/9uhv-6je7)
-* Id = 9uhv-6je7
-* Name = State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services
-* Attribution = IMLS
-* [Attribution Link](https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey)
-* Category = State Library Administrative Agencies Survey
-* Tags = [state library, slaa, 2005, slaa-provided services]
-* Created = 2016-12-20T15:26:53Z
-* Publication Date = 2016-12-20T17:04:35Z
-* Rows Updated = 2016-12-20T17:21:22Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/state-libraries-survey-fy-2005-part-2-slaa-provided-services) |
+| Metadata | [Link](https://data.imls.gov/api/views/9uhv-6je7) |
+| Data: JSON | [100 Rows](https://data.imls.gov/api/views/9uhv-6je7/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.imls.gov/api/views/9uhv-6je7/rows.csv?max_rows=100) |
+| Host | data.imls.gov |
+| Id | 9uhv-6je7 |
+| Name | State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services |
+| Attribution | IMLS |
+| Category | State Library Administrative Agencies Survey |
+| Tags | state library, slaa, 2005, slaa-provided services |
+| Created | 2016-12-20T15:26:53Z |
+| Publication Date | 2016-12-20T17:04:35Z |
+| Rows Updated | 2016-12-20T17:21:22Z |
 
 ## Description
 
@@ -22,141 +25,141 @@ Find key information on state library agencies.<br><br>These data include impute
 ## Columns
 
 ```ls
-| Name                               | Field Name | Data Type | Render Type | Schema Type    | Included | 
-| ================================== | ========== | ========= | =========== | ============== | ======== | 
-| STLA Name                          | stlaname   | text      | text        | series tag     | Yes      | 
-| Street                             | physaddr   | text      | text        | series tag     | Yes      | 
-| City                               | physcity   | text      | text        | series tag     | Yes      | 
-| State                              | phys_st    | text      | text        | series tag     | Yes      | 
-| Zip                                | physzip    | text      | text        | series tag     | Yes      | 
-| Zip+4                              | physzip4   | text      | text        | series tag     | Yes      | 
-| Street (mail)                      | mailaddr   | text      | text        | series tag     | Yes      | 
-| City (mail)                        | mailcity   | text      | text        | series tag     | Yes      | 
-| State (mail)                       | mail_st    | text      | text        | series tag     | Yes      | 
-| Zip (mail)                         | mailzip    | text      | text        | series tag     | Yes      | 
-| Zip+4 (mail)                       | mailzip4   | text      | text        | series tag     | Yes      | 
-| Web Address                        | webaddr    | text      | text        | series tag     | Yes      | 
-| Accredits (pub)                    | accrliba   | number    | text        | numeric metric | Yes      | 
-| Accredits (acad)                   | accrlibb   | number    | text        | numeric metric | Yes      | 
-| Accredits (school)                 | accrlibc   | number    | text        | numeric metric | Yes      | 
-| Accredits (special)                | accrlibd   | number    | text        | numeric metric | Yes      | 
-| Accredits (Co-ops)                 | accrlibe   | number    | text        | numeric metric | Yes      | 
-| Admins LSTA grants (pub)           | lstasva    | number    | text        | numeric metric | Yes      | 
-| Admins LSTA grants (acad)          | lstasvb    | number    | text        | numeric metric | Yes      | 
-| Admins LSTA grants (school)        | lstasvc    | number    | text        | numeric metric | Yes      | 
-| Admins LSTA grants (special)       | lstasvd    | number    | text        | numeric metric | Yes      | 
-| Admins LSTA grants (Co-ops)        | lstasve    | number    | text        | numeric metric | Yes      | 
-| Admins state aid (pub)             | staidsva   | number    | text        | numeric metric | Yes      | 
-| Admins state aid (acad)            | staidsvb   | number    | text        | numeric metric | Yes      | 
-| Admins state aid (school)          | staidsvc   | number    | text        | numeric metric | Yes      | 
-| Admins state aid (special)         | staidsvd   | number    | text        | numeric metric | Yes      | 
-| Admins state aid (Co-ops)          | staidsve   | number    | text        | numeric metric | Yes      | 
-| Certs librarians (pub)             | certliba   | number    | text        | numeric metric | Yes      | 
-| Certs librarians (acad)            | certlibb   | number    | text        | numeric metric | Yes      | 
-| Certs librarians (school)          | certlibc   | number    | text        | numeric metric | Yes      | 
-| Certs librarians (special)         | certlibd   | number    | text        | numeric metric | Yes      | 
-| Certs librarians (Co-ops)          | certlibe   | number    | text        | numeric metric | Yes      | 
-| Collects stats (pub)               | collbsta   | number    | text        | numeric metric | Yes      | 
-| Collects stats (acad)              | collbstb   | number    | text        | numeric metric | Yes      | 
-| Collects stats (school)            | collbstc   | number    | text        | numeric metric | Yes      | 
-| Collects stats (special)           | collbstd   | number    | text        | numeric metric | Yes      | 
-| Collects stats (Co-ops)            | collbste   | number    | text        | numeric metric | Yes      | 
-| Consulting svcs (pub)              | cnsltsva   | number    | text        | numeric metric | Yes      | 
-| Consulting svcs (acad)             | cnsltsvb   | number    | text        | numeric metric | Yes      | 
-| Consulting svcs (school)           | cnsltsvc   | number    | text        | numeric metric | Yes      | 
-| Consulting svcs (special)          | cnsltsvd   | number    | text        | numeric metric | Yes      | 
-| Consulting svcs (Co-ops)           | cnsltsve   | number    | text        | numeric metric | Yes      | 
-| ConEd programs (pub)               | cntedpra   | number    | text        | numeric metric | Yes      | 
-| ConEd programs (acad)              | cntedprb   | number    | text        | numeric metric | Yes      | 
-| ConEd programs (school)            | cntedprc   | number    | text        | numeric metric | Yes      | 
-| ConEd programs (special)           | cntedprd   | number    | text        | numeric metric | Yes      | 
-| ConEd programs (Co-ops)            | cntedpre   | number    | text        | numeric metric | Yes      | 
-| Coop Purchasing (pub)              | cooppura   | number    | text        | numeric metric | Yes      | 
-| Coop Purchasing (acad)             | cooppurb   | number    | text        | numeric metric | Yes      | 
-| Coop Purchasing (school)           | cooppurc   | number    | text        | numeric metric | Yes      | 
-| Coop Purchasing (special)          | cooppurd   | number    | text        | numeric metric | Yes      | 
-| Coop Purchasing (Co-ops)           | cooppure   | number    | text        | numeric metric | Yes      | 
-| ILL referral (pub)                 | illrefa    | number    | text        | numeric metric | Yes      | 
-| ILL referral (acad)                | illrefb    | number    | text        | numeric metric | Yes      | 
-| ILL referral (school)              | illrefc    | number    | text        | numeric metric | Yes      | 
-| ILL referral (special)             | illrefd    | number    | text        | numeric metric | Yes      | 
-| ILL referral (Co-ops)              | illrefe    | number    | text        | numeric metric | Yes      | 
-| Legislation prep (pub)             | liblega    | number    | text        | numeric metric | Yes      | 
-| Legislation prep (acad)            | liblegb    | number    | text        | numeric metric | Yes      | 
-| Legislation prep (school)          | liblegc    | number    | text        | numeric metric | Yes      | 
-| Legislation prep (special)         | liblegd    | number    | text        | numeric metric | Yes      | 
-| Legislation prep (Co-ops)          | liblege    | number    | text        | numeric metric | Yes      | 
-| Planning/Eval/Rsch (pub)           | libplana   | number    | text        | numeric metric | Yes      | 
-| Planning/Eval/Rsch (acad)          | libplanb   | number    | text        | numeric metric | Yes      | 
-| Planning/Eval/Rsch (school)        | libplanc   | number    | text        | numeric metric | Yes      | 
-| Planning/Eval/Rsch (special)       | libpland   | number    | text        | numeric metric | Yes      | 
-| Planning/Eval/Rsch (Co-ops)        | libplane   | number    | text        | numeric metric | Yes      | 
-| Literacy Prog Support (pub)        | litprsva   | number    | text        | numeric metric | Yes      | 
-| Literacy Prog Support (acad)       | litprsvb   | number    | text        | numeric metric | Yes      | 
-| Literacy Prog Support (school)     | litprsvc   | number    | text        | numeric metric | Yes      | 
-| Literacy Prog Support (special)    | litprsvd   | number    | text        | numeric metric | Yes      | 
-| Literacy Prog Support (Co-ops)     | litprsve   | number    | text        | numeric metric | Yes      | 
-| OCLC Grp Access (pub)              | oclcgaca   | number    | text        | numeric metric | Yes      | 
-| OCLC Grp Access (acad)             | oclcgacb   | number    | text        | numeric metric | Yes      | 
-| OCLC Grp Access (school)           | oclcgacc   | number    | text        | numeric metric | Yes      | 
-| OCLC Grp Access (special)          | oclcgacd   | number    | text        | numeric metric | Yes      | 
-| OCLC Grp Access (Co-ops)           | oclcgace   | number    | text        | numeric metric | Yes      | 
-| Pres/Conserv (pub)                 | preserva   | number    | text        | numeric metric | Yes      | 
-| Pres/Conserv (acad)                | preservb   | number    | text        | numeric metric | Yes      | 
-| Pres/Conserv (school)              | preservc   | number    | text        | numeric metric | Yes      | 
-| Pres/Conserv (special)             | preservd   | number    | text        | numeric metric | Yes      | 
-| Pres/Conserv (Co-ops)              | preserve   | number    | text        | numeric metric | Yes      | 
-| Ref referral (pub)                 | refrefa    | number    | text        | numeric metric | Yes      | 
-| Ref referral (acad)                | refrefb    | number    | text        | numeric metric | Yes      | 
-| Ref referral (school)              | refrefc    | number    | text        | numeric metric | Yes      | 
-| Ref referral (special)             | refrefd    | number    | text        | numeric metric | Yes      | 
-| Ref referral (Co-ops)              | refrefe    | number    | text        | numeric metric | Yes      | 
-| Biblio Conversion (pub)            | retrocva   | number    | text        | numeric metric | Yes      | 
-| Biblio Conversion (acad)           | retrocvb   | number    | text        | numeric metric | Yes      | 
-| Biblio Conversion (school)         | retrocvc   | number    | text        | numeric metric | Yes      | 
-| Biblio Conversion (special)        | retrocvd   | number    | text        | numeric metric | Yes      | 
-| Biblio Conversion (Co-ops)         | retrocve   | number    | text        | numeric metric | Yes      | 
-| State standards (pub)              | ststanda   | number    | text        | numeric metric | Yes      | 
-| State standards (acad)             | ststandb   | number    | text        | numeric metric | Yes      | 
-| State standards (school)           | ststandc   | number    | text        | numeric metric | Yes      | 
-| State standards (special)          | ststandd   | number    | text        | numeric metric | Yes      | 
-| State standards (Co-ops)           | ststande   | number    | text        | numeric metric | Yes      | 
-| Digital prog/svc (pub)             | swdigpra   | number    | text        | numeric metric | Yes      | 
-| Digital prog/svc (acad)            | swdigprb   | number    | text        | numeric metric | Yes      | 
-| Digital prog/svc (school)          | swdigprc   | number    | text        | numeric metric | Yes      | 
-| Digital prog/svc (special)         | swdigprd   | number    | text        | numeric metric | Yes      | 
-| Digital prog/svc (Co-ops)          | swdigpre   | number    | text        | numeric metric | Yes      | 
-| PR (pub)                           | stwidpra   | number    | text        | numeric metric | Yes      | 
-| PR (acad)                          | stwidprb   | number    | text        | numeric metric | Yes      | 
-| PR (school)                        | stwidprc   | number    | text        | numeric metric | Yes      | 
-| PR (special)                       | stwidprd   | number    | text        | numeric metric | Yes      | 
-| PR (Co-ops)                        | stwidpre   | number    | text        | numeric metric | Yes      | 
-| Virtual Ref Svc (pub)              | swvrsa     | number    | text        | numeric metric | Yes      | 
-| Virtual Ref Svc (acad)             | swvrsb     | number    | text        | numeric metric | Yes      | 
-| Virtual Ref Svc (school)           | swvrsc     | number    | text        | numeric metric | Yes      | 
-| Virtual Ref Svc (special)          | swvrsd     | number    | text        | numeric metric | Yes      | 
-| Virtual Ref Svc (Co-ops)           | swvrse     | number    | text        | numeric metric | Yes      | 
-| SRP support (pub)                  | sumreada   | number    | text        | numeric metric | Yes      | 
-| SRP support (acad)                 | sumreadb   | number    | text        | numeric metric | Yes      | 
-| SRP support (school)               | sumreadc   | number    | text        | numeric metric | Yes      | 
-| SRP support (special)              | sumreadd   | number    | text        | numeric metric | Yes      | 
-| SRP support (Co-ops)               | sumreade   | number    | text        | numeric metric | Yes      | 
-| Union list dev (pub)               | uniondva   | number    | text        | numeric metric | Yes      | 
-| Union list dev (acad)              | uniondvb   | number    | text        | numeric metric | Yes      | 
-| Union list dev (school)            | uniondvc   | number    | text        | numeric metric | Yes      | 
-| Union list dev (special)           | uniondvd   | number    | text        | numeric metric | Yes      | 
-| Union list dev (Co-ops)            | uniondve   | number    | text        | numeric metric | Yes      | 
-| Univ Service prog (pub)            | univsera   | number    | text        | numeric metric | Yes      | 
-| Univ Service prog (acad)           | univserb   | number    | text        | numeric metric | Yes      | 
-| Univ Service prog (school)         | univserc   | number    | text        | numeric metric | Yes      | 
-| Univ Service prog (special)        | univserd   | number    | text        | numeric metric | Yes      | 
-| Univ Service prog (Co-ops)         | univsere   | number    | text        | numeric metric | Yes      | 
-| FIPS state code                    | pub_fips   | text      | text        | series tag     | Yes      | 
-| BEA code                           | obereg     | number    | text        | numeric metric | Yes      | 
-| Reporting Status                   | rstatus    | number    | text        | numeric metric | Yes      | 
-| Fiscal year start date, mm/dd/yyyy | fystart    | date      | date        | time           | Yes      | 
-| Fiscal year end date, mm/dd/yyyy   | fyend      | date      | date        |                | No       | 
-| Population                         | popu_st    | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name | Name                               | Data Type | Render Type |
+| ======== | ============== | ========== | ================================== | ========= | =========== |
+| Yes      | series tag     | stlaname   | STLA Name                          | text      | text        |
+| Yes      | series tag     | physaddr   | Street                             | text      | text        |
+| Yes      | series tag     | physcity   | City                               | text      | text        |
+| Yes      | series tag     | phys_st    | State                              | text      | text        |
+| Yes      | series tag     | physzip    | Zip                                | text      | text        |
+| Yes      | series tag     | physzip4   | Zip+4                              | text      | text        |
+| Yes      | series tag     | mailaddr   | Street (mail)                      | text      | text        |
+| Yes      | series tag     | mailcity   | City (mail)                        | text      | text        |
+| Yes      | series tag     | mail_st    | State (mail)                       | text      | text        |
+| Yes      | series tag     | mailzip    | Zip (mail)                         | text      | text        |
+| Yes      | series tag     | mailzip4   | Zip+4 (mail)                       | text      | text        |
+| Yes      | series tag     | webaddr    | Web Address                        | text      | text        |
+| Yes      | numeric metric | accrliba   | Accredits (pub)                    | number    | text        |
+| Yes      | numeric metric | accrlibb   | Accredits (acad)                   | number    | text        |
+| Yes      | numeric metric | accrlibc   | Accredits (school)                 | number    | text        |
+| Yes      | numeric metric | accrlibd   | Accredits (special)                | number    | text        |
+| Yes      | numeric metric | accrlibe   | Accredits (Co-ops)                 | number    | text        |
+| Yes      | numeric metric | lstasva    | Admins LSTA grants (pub)           | number    | text        |
+| Yes      | numeric metric | lstasvb    | Admins LSTA grants (acad)          | number    | text        |
+| Yes      | numeric metric | lstasvc    | Admins LSTA grants (school)        | number    | text        |
+| Yes      | numeric metric | lstasvd    | Admins LSTA grants (special)       | number    | text        |
+| Yes      | numeric metric | lstasve    | Admins LSTA grants (Co-ops)        | number    | text        |
+| Yes      | numeric metric | staidsva   | Admins state aid (pub)             | number    | text        |
+| Yes      | numeric metric | staidsvb   | Admins state aid (acad)            | number    | text        |
+| Yes      | numeric metric | staidsvc   | Admins state aid (school)          | number    | text        |
+| Yes      | numeric metric | staidsvd   | Admins state aid (special)         | number    | text        |
+| Yes      | numeric metric | staidsve   | Admins state aid (Co-ops)          | number    | text        |
+| Yes      | numeric metric | certliba   | Certs librarians (pub)             | number    | text        |
+| Yes      | numeric metric | certlibb   | Certs librarians (acad)            | number    | text        |
+| Yes      | numeric metric | certlibc   | Certs librarians (school)          | number    | text        |
+| Yes      | numeric metric | certlibd   | Certs librarians (special)         | number    | text        |
+| Yes      | numeric metric | certlibe   | Certs librarians (Co-ops)          | number    | text        |
+| Yes      | numeric metric | collbsta   | Collects stats (pub)               | number    | text        |
+| Yes      | numeric metric | collbstb   | Collects stats (acad)              | number    | text        |
+| Yes      | numeric metric | collbstc   | Collects stats (school)            | number    | text        |
+| Yes      | numeric metric | collbstd   | Collects stats (special)           | number    | text        |
+| Yes      | numeric metric | collbste   | Collects stats (Co-ops)            | number    | text        |
+| Yes      | numeric metric | cnsltsva   | Consulting svcs (pub)              | number    | text        |
+| Yes      | numeric metric | cnsltsvb   | Consulting svcs (acad)             | number    | text        |
+| Yes      | numeric metric | cnsltsvc   | Consulting svcs (school)           | number    | text        |
+| Yes      | numeric metric | cnsltsvd   | Consulting svcs (special)          | number    | text        |
+| Yes      | numeric metric | cnsltsve   | Consulting svcs (Co-ops)           | number    | text        |
+| Yes      | numeric metric | cntedpra   | ConEd programs (pub)               | number    | text        |
+| Yes      | numeric metric | cntedprb   | ConEd programs (acad)              | number    | text        |
+| Yes      | numeric metric | cntedprc   | ConEd programs (school)            | number    | text        |
+| Yes      | numeric metric | cntedprd   | ConEd programs (special)           | number    | text        |
+| Yes      | numeric metric | cntedpre   | ConEd programs (Co-ops)            | number    | text        |
+| Yes      | numeric metric | cooppura   | Coop Purchasing (pub)              | number    | text        |
+| Yes      | numeric metric | cooppurb   | Coop Purchasing (acad)             | number    | text        |
+| Yes      | numeric metric | cooppurc   | Coop Purchasing (school)           | number    | text        |
+| Yes      | numeric metric | cooppurd   | Coop Purchasing (special)          | number    | text        |
+| Yes      | numeric metric | cooppure   | Coop Purchasing (Co-ops)           | number    | text        |
+| Yes      | numeric metric | illrefa    | ILL referral (pub)                 | number    | text        |
+| Yes      | numeric metric | illrefb    | ILL referral (acad)                | number    | text        |
+| Yes      | numeric metric | illrefc    | ILL referral (school)              | number    | text        |
+| Yes      | numeric metric | illrefd    | ILL referral (special)             | number    | text        |
+| Yes      | numeric metric | illrefe    | ILL referral (Co-ops)              | number    | text        |
+| Yes      | numeric metric | liblega    | Legislation prep (pub)             | number    | text        |
+| Yes      | numeric metric | liblegb    | Legislation prep (acad)            | number    | text        |
+| Yes      | numeric metric | liblegc    | Legislation prep (school)          | number    | text        |
+| Yes      | numeric metric | liblegd    | Legislation prep (special)         | number    | text        |
+| Yes      | numeric metric | liblege    | Legislation prep (Co-ops)          | number    | text        |
+| Yes      | numeric metric | libplana   | Planning/Eval/Rsch (pub)           | number    | text        |
+| Yes      | numeric metric | libplanb   | Planning/Eval/Rsch (acad)          | number    | text        |
+| Yes      | numeric metric | libplanc   | Planning/Eval/Rsch (school)        | number    | text        |
+| Yes      | numeric metric | libpland   | Planning/Eval/Rsch (special)       | number    | text        |
+| Yes      | numeric metric | libplane   | Planning/Eval/Rsch (Co-ops)        | number    | text        |
+| Yes      | numeric metric | litprsva   | Literacy Prog Support (pub)        | number    | text        |
+| Yes      | numeric metric | litprsvb   | Literacy Prog Support (acad)       | number    | text        |
+| Yes      | numeric metric | litprsvc   | Literacy Prog Support (school)     | number    | text        |
+| Yes      | numeric metric | litprsvd   | Literacy Prog Support (special)    | number    | text        |
+| Yes      | numeric metric | litprsve   | Literacy Prog Support (Co-ops)     | number    | text        |
+| Yes      | numeric metric | oclcgaca   | OCLC Grp Access (pub)              | number    | text        |
+| Yes      | numeric metric | oclcgacb   | OCLC Grp Access (acad)             | number    | text        |
+| Yes      | numeric metric | oclcgacc   | OCLC Grp Access (school)           | number    | text        |
+| Yes      | numeric metric | oclcgacd   | OCLC Grp Access (special)          | number    | text        |
+| Yes      | numeric metric | oclcgace   | OCLC Grp Access (Co-ops)           | number    | text        |
+| Yes      | numeric metric | preserva   | Pres/Conserv (pub)                 | number    | text        |
+| Yes      | numeric metric | preservb   | Pres/Conserv (acad)                | number    | text        |
+| Yes      | numeric metric | preservc   | Pres/Conserv (school)              | number    | text        |
+| Yes      | numeric metric | preservd   | Pres/Conserv (special)             | number    | text        |
+| Yes      | numeric metric | preserve   | Pres/Conserv (Co-ops)              | number    | text        |
+| Yes      | numeric metric | refrefa    | Ref referral (pub)                 | number    | text        |
+| Yes      | numeric metric | refrefb    | Ref referral (acad)                | number    | text        |
+| Yes      | numeric metric | refrefc    | Ref referral (school)              | number    | text        |
+| Yes      | numeric metric | refrefd    | Ref referral (special)             | number    | text        |
+| Yes      | numeric metric | refrefe    | Ref referral (Co-ops)              | number    | text        |
+| Yes      | numeric metric | retrocva   | Biblio Conversion (pub)            | number    | text        |
+| Yes      | numeric metric | retrocvb   | Biblio Conversion (acad)           | number    | text        |
+| Yes      | numeric metric | retrocvc   | Biblio Conversion (school)         | number    | text        |
+| Yes      | numeric metric | retrocvd   | Biblio Conversion (special)        | number    | text        |
+| Yes      | numeric metric | retrocve   | Biblio Conversion (Co-ops)         | number    | text        |
+| Yes      | numeric metric | ststanda   | State standards (pub)              | number    | text        |
+| Yes      | numeric metric | ststandb   | State standards (acad)             | number    | text        |
+| Yes      | numeric metric | ststandc   | State standards (school)           | number    | text        |
+| Yes      | numeric metric | ststandd   | State standards (special)          | number    | text        |
+| Yes      | numeric metric | ststande   | State standards (Co-ops)           | number    | text        |
+| Yes      | numeric metric | swdigpra   | Digital prog/svc (pub)             | number    | text        |
+| Yes      | numeric metric | swdigprb   | Digital prog/svc (acad)            | number    | text        |
+| Yes      | numeric metric | swdigprc   | Digital prog/svc (school)          | number    | text        |
+| Yes      | numeric metric | swdigprd   | Digital prog/svc (special)         | number    | text        |
+| Yes      | numeric metric | swdigpre   | Digital prog/svc (Co-ops)          | number    | text        |
+| Yes      | numeric metric | stwidpra   | PR (pub)                           | number    | text        |
+| Yes      | numeric metric | stwidprb   | PR (acad)                          | number    | text        |
+| Yes      | numeric metric | stwidprc   | PR (school)                        | number    | text        |
+| Yes      | numeric metric | stwidprd   | PR (special)                       | number    | text        |
+| Yes      | numeric metric | stwidpre   | PR (Co-ops)                        | number    | text        |
+| Yes      | numeric metric | swvrsa     | Virtual Ref Svc (pub)              | number    | text        |
+| Yes      | numeric metric | swvrsb     | Virtual Ref Svc (acad)             | number    | text        |
+| Yes      | numeric metric | swvrsc     | Virtual Ref Svc (school)           | number    | text        |
+| Yes      | numeric metric | swvrsd     | Virtual Ref Svc (special)          | number    | text        |
+| Yes      | numeric metric | swvrse     | Virtual Ref Svc (Co-ops)           | number    | text        |
+| Yes      | numeric metric | sumreada   | SRP support (pub)                  | number    | text        |
+| Yes      | numeric metric | sumreadb   | SRP support (acad)                 | number    | text        |
+| Yes      | numeric metric | sumreadc   | SRP support (school)               | number    | text        |
+| Yes      | numeric metric | sumreadd   | SRP support (special)              | number    | text        |
+| Yes      | numeric metric | sumreade   | SRP support (Co-ops)               | number    | text        |
+| Yes      | numeric metric | uniondva   | Union list dev (pub)               | number    | text        |
+| Yes      | numeric metric | uniondvb   | Union list dev (acad)              | number    | text        |
+| Yes      | numeric metric | uniondvc   | Union list dev (school)            | number    | text        |
+| Yes      | numeric metric | uniondvd   | Union list dev (special)           | number    | text        |
+| Yes      | numeric metric | uniondve   | Union list dev (Co-ops)            | number    | text        |
+| Yes      | numeric metric | univsera   | Univ Service prog (pub)            | number    | text        |
+| Yes      | numeric metric | univserb   | Univ Service prog (acad)           | number    | text        |
+| Yes      | numeric metric | univserc   | Univ Service prog (school)         | number    | text        |
+| Yes      | numeric metric | univserd   | Univ Service prog (special)        | number    | text        |
+| Yes      | numeric metric | univsere   | Univ Service prog (Co-ops)         | number    | text        |
+| Yes      | series tag     | pub_fips   | FIPS state code                    | text      | text        |
+| Yes      | numeric metric | obereg     | BEA code                           | number    | text        |
+| Yes      | numeric metric | rstatus    | Reporting Status                   | number    | text        |
+| Yes      | time           | fystart    | Fiscal year start date, mm/dd/yyyy | date      | date        |
+| No       |                | fyend      | Fiscal year end date, mm/dd/yyyy   | date      | date        |
+| Yes      | numeric metric | popu_st    | Population                         | number    | number      |
 ```
 
 ## Time Field
@@ -169,10 +172,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = fyend
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -196,13 +196,13 @@ metric m:popu_st l:Population t:dataTypeName=number
 
 entity e:9uhv-6je7 l:"State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services" t:attribution=IMLS t:url=https://data.imls.gov/api/views/9uhv-6je7
 
-property e:9uhv-6je7 t:meta.view d:2017-03-08T00:57:56.026Z v:id=9uhv-6je7 v:category="State Library Administrative Agencies Survey" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey v:averageRating=0 v:name="State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services" v:attribution=IMLS
+property e:9uhv-6je7 t:meta.view v:id=9uhv-6je7 v:category="State Library Administrative Agencies Survey" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey v:averageRating=0 v:name="State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services" v:attribution=IMLS
 
-property e:9uhv-6je7 t:meta.view.license d:2017-03-08T00:57:56.026Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:9uhv-6je7 t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:9uhv-6je7 t:meta.view.owner d:2017-03-08T00:57:56.026Z v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:9uhv-6je7 t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
 
-property e:9uhv-6je7 t:meta.view.tableauthor d:2017-03-08T00:57:56.026Z v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:9uhv-6je7 t:meta.view.tableauthor v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
 
-property e:9uhv-6je7 t:meta.view.metadata.custom_fields.common_core d:2017-03-08T00:57:56.026Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:9uhv-6je7 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
 ```

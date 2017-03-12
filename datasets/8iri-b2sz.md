@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/8iri-b2sz/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/housing-balance-march-2016)
-* Id = 8iri-b2sz
-* Name = Housing Balance March 2016
-* Category = Housing and Buildings
-* Tags = [development, housing, residential]
-* Created = 2016-05-25T21:39:23Z
-* Publication Date = 2016-05-25T21:44:21Z
-* Rows Updated = 2016-05-25T21:39:54Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/housing-balance-march-2016) |
+| Metadata | [Link](https://data.sfgov.org/api/views/8iri-b2sz) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/8iri-b2sz/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/8iri-b2sz/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | 8iri-b2sz |
+| Name | Housing Balance March 2016 |
+| Category | Housing and Buildings |
+| Tags | development, housing, residential |
+| Created | 2016-05-25T21:39:23Z |
+| Publication Date | 2016-05-25T21:44:21Z |
+| Rows Updated | 2016-05-25T21:39:54Z |
 
 ## Description
 
@@ -19,32 +24,32 @@ The Board of Supervisors passed Ordinance No. 53-15 requiring the San Francisco 
 ## Columns
 
 ```ls
-| Name                | Field Name          | Data Type     | Render Type   | Schema Type    | Included | 
-| =================== | =================== | ============= | ============= | ============== | ======== | 
-| ST_NUM              | st_num              | number        | text          | numeric metric | Yes      | 
-| ST_NAME             | st_name             | text          | text          | series tag     | Yes      | 
-| ST_TYPE             | st_type             | text          | text          | series tag     | Yes      | 
-| APN                 | apn                 | text          | text          | series tag     | Yes      | 
-| UNITS               | units               | number        | number        | numeric metric | Yes      | 
-| NETUNITS_C          | netunits_c          | number        | number        | numeric metric | Yes      | 
-| AFF_HSG             | aff_hsg             | number        | number        | numeric metric | Yes      | 
-| AFF_TARGET          | aff_target          | text          | text          | series tag     | Yes      | 
-| APP_NO              | app_no              | text          | text          | series tag     | Yes      | 
-| FORM                | form                | number        | number        | numeric metric | Yes      | 
-| EXT_USE             | ext_use             | text          | text          | series tag     | Yes      | 
-| PROP_USE            | prop_use            | text          | text          | series tag     | Yes      | 
-| ACTION              | action              | text          | text          | series tag     | Yes      | 
-| ACTION_DATE         | action_date         | calendar_date | calendar_date | time           | Yes      | 
-| BP_DESCRIPT         | bp_descript         | text          | text          | series tag     | Yes      | 
-| STAFF               | staff               | text          | text          | series tag     | Yes      | 
-| YEAR                | year                | number        | number        |                | No       | 
-| YR_QTR              | yr_qtr              | text          | text          | series tag     | Yes      | 
-| PLN_DISTRICT_NAME   | pln_district_name   | text          | text          | series tag     | Yes      | 
-| SUPDIST             | supdist             | text          | text          | series tag     | Yes      | 
-| SUPERVISOR          | supervisor          | number        | number        | numeric metric | Yes      | 
-| HEIGHT              | height              | text          | text          | series tag     | Yes      | 
-| ZONING_SIM          | zoning_sim          | text          | text          | series tag     | Yes      | 
-| ZONING_DISTRICTNAME | zoning_districtname | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name          | Name                | Data Type     | Render Type   |
+| ======== | ============== | =================== | =================== | ============= | ============= |
+| Yes      | numeric metric | st_num              | ST_NUM              | number        | text          |
+| Yes      | series tag     | st_name             | ST_NAME             | text          | text          |
+| Yes      | series tag     | st_type             | ST_TYPE             | text          | text          |
+| Yes      | series tag     | apn                 | APN                 | text          | text          |
+| Yes      | numeric metric | units               | UNITS               | number        | number        |
+| Yes      | numeric metric | netunits_c          | NETUNITS_C          | number        | number        |
+| Yes      | numeric metric | aff_hsg             | AFF_HSG             | number        | number        |
+| Yes      | series tag     | aff_target          | AFF_TARGET          | text          | text          |
+| Yes      | series tag     | app_no              | APP_NO              | text          | text          |
+| Yes      | numeric metric | form                | FORM                | number        | number        |
+| Yes      | series tag     | ext_use             | EXT_USE             | text          | text          |
+| Yes      | series tag     | prop_use            | PROP_USE            | text          | text          |
+| Yes      | series tag     | action              | ACTION              | text          | text          |
+| Yes      | time           | action_date         | ACTION_DATE         | calendar_date | calendar_date |
+| Yes      | series tag     | bp_descript         | BP_DESCRIPT         | text          | text          |
+| Yes      | series tag     | staff               | STAFF               | text          | text          |
+| No       |                | year                | YEAR                | number        | number        |
+| Yes      | series tag     | yr_qtr              | YR_QTR              | text          | text          |
+| Yes      | series tag     | pln_district_name   | PLN_DISTRICT_NAME   | text          | text          |
+| Yes      | series tag     | supdist             | SUPDIST             | text          | text          |
+| Yes      | numeric metric | supervisor          | SUPERVISOR          | number        | number        |
+| Yes      | series tag     | height              | HEIGHT              | text          | text          |
+| Yes      | series tag     | zoning_sim          | ZONING_SIM          | text          | text          |
+| Yes      | series tag     | zoning_districtname | ZONING_DISTRICTNAME | text          | text          |
 ```
 
 ## Time Field
@@ -57,10 +62,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,8 +78,6 @@ series e:8iri-b2sz d:2005-12-06T00:00:00.000Z t:height=65-X t:app_no=20000307366
 ## Meta Commands
 
 ```ls
-200101240457" t:action=OK t:pln_district_name="Outer Sunset" t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 4" t:st_name=19TH t:zoning_sim=RH-2 t:zoning_districtname="RESIDENTIAL- HOUSE, TWO FAMILY" t:apn="APN 2056007" t:yr_qtr=2005_Q4 t:bp_descript="TO ERECT 3 STORY 2 FAMILY DWELLING" m:netunits_c=2 m:aff_hsg=0 m:form=2 m:st_num=1835 m:supervisor=4 m:units=0
-
 metric m:st_num p:integer l:ST_NUM t:dataTypeName=number
 
 metric m:units l:UNITS t:dataTypeName=number
@@ -92,11 +92,11 @@ metric m:supervisor p:integer l:SUPERVISOR t:dataTypeName=number
 
 entity e:8iri-b2sz l:"Housing Balance March 2016" t:url=https://data.sfgov.org/api/views/8iri-b2sz
 
-property e:8iri-b2sz t:meta.view d:2017-03-03T14:27:02.316Z v:id=8iri-b2sz v:category="Housing and Buildings" v:averageRating=0 v:name="Housing Balance March 2016"
+property e:8iri-b2sz t:meta.view v:id=8iri-b2sz v:category="Housing and Buildings" v:averageRating=0 v:name="Housing Balance March 2016"
 
-property e:8iri-b2sz t:meta.view.license d:2017-03-03T14:27:02.316Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:8iri-b2sz t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:8iri-b2sz t:meta.view.owner d:2017-03-03T14:27:02.316Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:8iri-b2sz t:meta.view.owner v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 
-property e:8iri-b2sz t:meta.view.tableauthor d:2017-03-03T14:27:02.316Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:8iri-b2sz t:meta.view.tableauthor v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 ```

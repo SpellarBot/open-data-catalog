@@ -2,15 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/i98e-djp9/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/building-permits-058f4)
-* [Metadata URL](https://data.sfgov.org/api/views/i98e-djp9)
-* Id = i98e-djp9
-* Name = Building Permits
-* Category = Housing and Buildings
-* Created = 2016-04-21T02:30:56Z
-* Publication Date = 2016-10-12T17:08:54Z
-* Rows Updated = 2017-03-06T11:57:22Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/building-permits-058f4) |
+| Metadata | [Link](https://data.sfgov.org/api/views/i98e-djp9) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/i98e-djp9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/i98e-djp9/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | i98e-djp9 |
+| Name | Building Permits |
+| Category | Housing and Buildings |
+| Created | 2016-04-21T02:30:56Z |
+| Publication Date | 2016-10-12T17:08:54Z |
+| Rows Updated | 2017-03-06T11:57:22Z |
 
 ## Description
 
@@ -19,46 +23,46 @@ This data set pertains to all types of structural permits. Data includes details
 ## Columns
 
 ```ls
-| Name                                   | Field Name                             | Data Type     | Render Type   | Schema Type    | Included | 
-| ====================================== | ====================================== | ============= | ============= | ============== | ======== | 
-| Permit Number                          | permit_number                          | text          | text          | series tag     | Yes      | 
-| Permit Type                            | permit_type                            | number        | number        | numeric metric | Yes      | 
-| Permit Type Definition                 | permit_type_definition                 | text          | text          | series tag     | Yes      | 
-| Permit Creation Date                   | permit_creation_date                   | date          | date          | time           | Yes      | 
-| Block                                  | block                                  | text          | text          | series tag     | Yes      | 
-| Lot                                    | lot                                    | text          | text          | series tag     | Yes      | 
-| Street Number                          | street_number                          | text          | text          | series tag     | Yes      | 
-| Street Number Suffix                   | street_number_suffix                   | text          | text          | series tag     | Yes      | 
-| Street Name                            | street_name                            | text          | text          | series tag     | Yes      | 
-| Street Suffix                          | street_suffix                          | text          | text          | series tag     | Yes      | 
-| Unit                                   | unit                                   | number        | text          | numeric metric | Yes      | 
-| Unit Suffix                            | unit_suffix                            | text          | text          | series tag     | Yes      | 
-| Description                            | description                            | text          | text          | series tag     | Yes      | 
-| Status                                 | status                                 | text          | text          | series tag     | Yes      | 
-| Status Date                            | status_date                            | calendar_date | calendar_date |                | No       | 
-| Structural Notification                | structural_notification                | checkbox      | checkbox      | series tag     | Yes      | 
-| Number of Existing Stories             | number_of_existing_stories             | number        | number        | numeric metric | Yes      | 
-| Number of Proposed Stories             | number_of_proposed_stories             | number        | number        | numeric metric | Yes      | 
-| Voluntary Soft-Story Retrofit          | voluntary_soft_story_retrofit          | checkbox      | checkbox      | series tag     | Yes      | 
-| Fire Only Permit                       | fire_only_permit                       | checkbox      | checkbox      | series tag     | Yes      | 
-| Permit Expiration Date                 | permit_expiration_date                 | date          | date          |                | No       | 
-| Estimated Cost                         | estimated_cost                         | number        | number        | numeric metric | Yes      | 
-| Revised Cost                           | revised_cost                           | number        | number        | numeric metric | Yes      | 
-| Existing Use                           | existing_use                           | text          | text          | series tag     | Yes      | 
-| Existing Units                         | existing_units                         | number        | number        | numeric metric | Yes      | 
-| Proposed Use                           | proposed_use                           | text          | text          | series tag     | Yes      | 
-| Proposed Units                         | proposed_units                         | number        | number        | numeric metric | Yes      | 
-| Plansets                               | plansets                               | number        | number        | numeric metric | Yes      | 
-| TIDF Compliance                        | tidf_compliance                        | checkbox      | checkbox      | series tag     | Yes      | 
-| Use Codes                              | use_codes                              | number        | text          | numeric metric | Yes      | 
-| Use Code Description                   | use_code_description                   | text          | text          | series tag     | Yes      | 
-| Existing Construction Type             | existing_construction_type             | text          | text          | series tag     | Yes      | 
-| Existing Construction Type Description | existing_construction_type_description | text          | text          | series tag     | Yes      | 
-| Proposed Construction Type             | proposed_construction_type             | text          | text          | series tag     | Yes      | 
-| Proposed Construction Type Description | proposed_construction_type_description | text          | text          | series tag     | Yes      | 
-| Supervisor District                    | supervisor_district                    | text          | text          | series tag     | Yes      | 
-| Neighborhoods - Analysis Boundaries    | neighborhoods_analysis_boundaries      | text          | text          | series tag     | Yes      | 
-| Zipcode                                | zipcode                                | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                             | Name                                   | Data Type     | Render Type   |
+| ======== | ============== | ====================================== | ====================================== | ============= | ============= |
+| Yes      | series tag     | permit_number                          | Permit Number                          | text          | text          |
+| Yes      | numeric metric | permit_type                            | Permit Type                            | number        | number        |
+| Yes      | series tag     | permit_type_definition                 | Permit Type Definition                 | text          | text          |
+| Yes      | time           | permit_creation_date                   | Permit Creation Date                   | date          | date          |
+| Yes      | series tag     | block                                  | Block                                  | text          | text          |
+| Yes      | series tag     | lot                                    | Lot                                    | text          | text          |
+| Yes      | series tag     | street_number                          | Street Number                          | text          | text          |
+| Yes      | series tag     | street_number_suffix                   | Street Number Suffix                   | text          | text          |
+| Yes      | series tag     | street_name                            | Street Name                            | text          | text          |
+| Yes      | series tag     | street_suffix                          | Street Suffix                          | text          | text          |
+| Yes      | numeric metric | unit                                   | Unit                                   | number        | text          |
+| Yes      | series tag     | unit_suffix                            | Unit Suffix                            | text          | text          |
+| Yes      | series tag     | description                            | Description                            | text          | text          |
+| Yes      | series tag     | status                                 | Status                                 | text          | text          |
+| No       |                | status_date                            | Status Date                            | calendar_date | calendar_date |
+| Yes      | series tag     | structural_notification                | Structural Notification                | checkbox      | checkbox      |
+| Yes      | numeric metric | number_of_existing_stories             | Number of Existing Stories             | number        | number        |
+| Yes      | numeric metric | number_of_proposed_stories             | Number of Proposed Stories             | number        | number        |
+| Yes      | series tag     | voluntary_soft_story_retrofit          | Voluntary Soft-Story Retrofit          | checkbox      | checkbox      |
+| Yes      | series tag     | fire_only_permit                       | Fire Only Permit                       | checkbox      | checkbox      |
+| No       |                | permit_expiration_date                 | Permit Expiration Date                 | date          | date          |
+| Yes      | numeric metric | estimated_cost                         | Estimated Cost                         | number        | number        |
+| Yes      | numeric metric | revised_cost                           | Revised Cost                           | number        | number        |
+| Yes      | series tag     | existing_use                           | Existing Use                           | text          | text          |
+| Yes      | numeric metric | existing_units                         | Existing Units                         | number        | number        |
+| Yes      | series tag     | proposed_use                           | Proposed Use                           | text          | text          |
+| Yes      | numeric metric | proposed_units                         | Proposed Units                         | number        | number        |
+| Yes      | numeric metric | plansets                               | Plansets                               | number        | number        |
+| Yes      | series tag     | tidf_compliance                        | TIDF Compliance                        | checkbox      | checkbox      |
+| Yes      | numeric metric | use_codes                              | Use Codes                              | number        | text          |
+| Yes      | series tag     | use_code_description                   | Use Code Description                   | text          | text          |
+| Yes      | series tag     | existing_construction_type             | Existing Construction Type             | text          | text          |
+| Yes      | series tag     | existing_construction_type_description | Existing Construction Type Description | text          | text          |
+| Yes      | series tag     | proposed_construction_type             | Proposed Construction Type             | text          | text          |
+| Yes      | series tag     | proposed_construction_type_description | Proposed Construction Type Description | text          | text          |
+| Yes      | series tag     | supervisor_district                    | Supervisor District                    | text          | text          |
+| Yes      | series tag     | neighborhoods_analysis_boundaries      | Neighborhoods - Analysis Boundaries    | text          | text          |
+| Yes      | series tag     | zipcode                                | Zipcode                                | text          | text          |
 ```
 
 ## Time Field
@@ -71,10 +75,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = permit_expiration_date,status_date
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -112,11 +113,11 @@ metric m:use_codes l:"Use Codes" t:dataTypeName=number
 
 entity e:i98e-djp9 l:"Building Permits" t:url=https://data.sfgov.org/api/views/i98e-djp9
 
-property e:i98e-djp9 t:meta.view d:2017-03-07T18:44:37.880Z v:id=i98e-djp9 v:category="Housing and Buildings" v:averageRating=0 v:name="Building Permits"
+property e:i98e-djp9 t:meta.view v:id=i98e-djp9 v:category="Housing and Buildings" v:averageRating=0 v:name="Building Permits"
 
-property e:i98e-djp9 t:meta.view.license d:2017-03-07T18:44:37.880Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:i98e-djp9 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:i98e-djp9 t:meta.view.owner d:2017-03-07T18:44:37.880Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:i98e-djp9 t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 
-property e:i98e-djp9 t:meta.view.tableauthor d:2017-03-07T18:44:37.880Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:i98e-djp9 t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

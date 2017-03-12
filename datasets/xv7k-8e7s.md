@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/xv7k-8e7s/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/nndss-table-ii-shiga-toxin-to-shigellosis)
-* [Metadata URL](https://data.cdc.gov/api/views/xv7k-8e7s)
-* Id = xv7k-8e7s
-* Name = NNDSS - Table II. Shiga toxin to Shigellosis
-* Attribution = Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention
-* Category = NNDSS
-* Tags = [2016, mmwr, nndss, wonder, nedss, netss, shiga toxin-producing e. coli, stec, shigellosis]
-* Created = 2016-01-12T13:20:18Z
-* Publication Date = 2017-01-05T17:34:30Z
-* Rows Updated = 2017-01-05T14:58:06Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nndss-table-ii-shiga-toxin-to-shigellosis) |
+| Metadata | [Link](https://data.cdc.gov/api/views/xv7k-8e7s) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/xv7k-8e7s/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/xv7k-8e7s/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
+| Id | xv7k-8e7s |
+| Name | NNDSS - Table II. Shiga toxin to Shigellosis |
+| Attribution | Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention |
+| Category | NNDSS |
+| Tags | 2016, mmwr, nndss, wonder, nedss, netss, shiga toxin-producing e. coli, stec, shigellosis |
+| Created | 2016-01-12T13:20:18Z |
+| Publication Date | 2017-01-05T17:34:30Z |
+| Rows Updated | 2017-01-05T14:58:06Z |
 
 ## Description
 
@@ -33,31 +37,31 @@ U: Unavailable.    -: No reported cases.    N: Not reportable.    NN: Not Nation
 ## Columns
 
 ```ls
-| Name                                                               | Field Name                                                   | Data Type | Render Type | Schema Type    | Included | 
-| ================================================================== | ============================================================ | ========= | =========== | ============== | ======== | 
-| Reporting Area                                                     | reporting_area                                               | text      | text        | series tag     | Yes      | 
-| MMWR Year                                                          | mmwr_year                                                    | number    | number      |                | No       | 
-| MMWR Week                                                          | mmwr_week                                                    | number    | number      |                | No       | 
-| Shiga toxin-producing E. coli (STEC)?, Current week                | shiga_toxin_producing_e_coli_stec_current_week               | number    | number      |                | No       | 
-| Shiga toxin-producing E. coli (STEC)?, Current week, flag          | shiga_toxin_producing_e_coli_stec_current_week_flag          | number    | text        | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med       | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med      | number    | number      | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med, flag | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med_flag | number    | text        | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max       | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max      | number    | number      | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max, flag | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max_flag | number    | text        | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Cum 2016                    | shiga_toxin_producing_e_coli_stec_cum_2016                   | number    | number      | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Cum 2016, flag              | shiga_toxin_producing_e_coli_stec_cum_2016_flag              | number    | text        | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Cum 2015                    | shiga_toxin_producing_e_coli_stec_cum_2015                   | number    | number      | numeric metric | Yes      | 
-| Shiga toxin-producing E. coli (STEC)?, Cum 2015, flag              | shiga_toxin_producing_e_coli_stec_cum_2015_flag              | number    | text        | numeric metric | Yes      | 
-| Shigellosis, Current week                                          | shigellosis_current_week                                     | number    | number      |                | No       | 
-| Shigellosis, Current week, flag                                    | shigellosis_current_week_flag                                | number    | text        | numeric metric | Yes      | 
-| Shigellosis, Previous 52 weeks Med                                 | shigellosis_previous_52_weeks_med                            | number    | number      | numeric metric | Yes      | 
-| Shigellosis, Previous 52 weeks Med, flag                           | shigellosis_previous_52_weeks_med_flag                       | number    | text        | numeric metric | Yes      | 
-| Shigellosis, Previous 52 weeks Max                                 | shigellosis_previous_52_weeks_max                            | number    | number      | numeric metric | Yes      | 
-| Shigellosis, Previous 52 weeks Max, flag                           | shigellosis_previous_52_weeks_max_flag                       | number    | text        | numeric metric | Yes      | 
-| Shigellosis, Cum 2016                                              | shigellosis_cum_2016                                         | number    | number      | numeric metric | Yes      | 
-| Shigellosis, Cum 2016, flag                                        | shigellosis_cum_2016_flag                                    | number    | text        | numeric metric | Yes      | 
-| Shigellosis, Cum 2015                                              | shigellosis_cum_2015                                         | number    | number      | numeric metric | Yes      | 
-| Shigellosis, Cum 2015, flag                                        | shigellosis_cum_2015_flag                                    | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                                   | Name                                                               | Data Type | Render Type |
+| ======== | ============== | ============================================================ | ================================================================== | ========= | =========== |
+| Yes      | series tag     | reporting_area                                               | Reporting Area                                                     | text      | text        |
+| No       |                | mmwr_year                                                    | MMWR Year                                                          | number    | number      |
+| No       |                | mmwr_week                                                    | MMWR Week                                                          | number    | number      |
+| No       |                | shiga_toxin_producing_e_coli_stec_current_week               | Shiga toxin-producing E. coli (STEC)?, Current week                | number    | number      |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_current_week_flag          | Shiga toxin-producing E. coli (STEC)?, Current week, flag          | number    | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med      | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med       | number    | number      |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med_flag | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med, flag | number    | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max      | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max       | number    | number      |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max_flag | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max, flag | number    | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2016                   | Shiga toxin-producing E. coli (STEC)?, Cum 2016                    | number    | number      |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2016_flag              | Shiga toxin-producing E. coli (STEC)?, Cum 2016, flag              | number    | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2015                   | Shiga toxin-producing E. coli (STEC)?, Cum 2015                    | number    | number      |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2015_flag              | Shiga toxin-producing E. coli (STEC)?, Cum 2015, flag              | number    | text        |
+| No       |                | shigellosis_current_week                                     | Shigellosis, Current week                                          | number    | number      |
+| Yes      | numeric metric | shigellosis_current_week_flag                                | Shigellosis, Current week, flag                                    | number    | text        |
+| Yes      | numeric metric | shigellosis_previous_52_weeks_med                            | Shigellosis, Previous 52 weeks Med                                 | number    | number      |
+| Yes      | numeric metric | shigellosis_previous_52_weeks_med_flag                       | Shigellosis, Previous 52 weeks Med, flag                           | number    | text        |
+| Yes      | numeric metric | shigellosis_previous_52_weeks_max                            | Shigellosis, Previous 52 weeks Max                                 | number    | number      |
+| Yes      | numeric metric | shigellosis_previous_52_weeks_max_flag                       | Shigellosis, Previous 52 weeks Max, flag                           | number    | text        |
+| Yes      | numeric metric | shigellosis_cum_2016                                         | Shigellosis, Cum 2016                                              | number    | number      |
+| Yes      | numeric metric | shigellosis_cum_2016_flag                                    | Shigellosis, Cum 2016, flag                                        | number    | text        |
+| Yes      | numeric metric | shigellosis_cum_2015                                         | Shigellosis, Cum 2015                                              | number    | number      |
+| Yes      | numeric metric | shigellosis_cum_2015_flag                                    | Shigellosis, Cum 2015, flag                                        | number    | text        |
 ```
 
 ## Time Field
@@ -70,10 +74,7 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = shiga_toxin_producing_e_coli_stec_current_week,shigellosis_current_week,mmwr_year,mmwr_week
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -107,11 +108,11 @@ metric m:shigellosis_cum_2015 p:integer l:"Shigellosis, Cum 2015" t:dataTypeName
 
 entity e:xv7k-8e7s l:"NNDSS - Table II. Shiga toxin to Shigellosis" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/xv7k-8e7s
 
-property e:xv7k-8e7s t:meta.view d:2017-03-08T01:40:15.709Z v:id=xv7k-8e7s v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Shiga toxin to Shigellosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:xv7k-8e7s t:meta.view v:id=xv7k-8e7s v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Shiga toxin to Shigellosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:xv7k-8e7s t:meta.view.owner d:2017-03-08T01:40:15.709Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:xv7k-8e7s t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:xv7k-8e7s t:meta.view.tableauthor d:2017-03-08T01:40:15.709Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:xv7k-8e7s t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:xv7k-8e7s t:meta.view.metadata.custom_fields.common_core d:2017-03-08T01:40:15.709Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:xv7k-8e7s t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

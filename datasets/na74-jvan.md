@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.maryland.gov/api/views/na74-jvan/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/maryland-funding-fy11-payments-data-6fda1)
-* Id = na74-jvan
-* Name = Maryland Funding FY11 Payments Data
-* Attribution = Maryland Department of Budget and Management; Maryland Department of Information Technology
-* Attribution Link = http://www.spending.dbm.maryland.gov
-* Category = Budget
-* Tags = [spending, budget, vendor, payments]
-* Created = 2013-01-18T17:42:56Z
-* Publication Date = 2014-08-22T15:52:22Z
-* Rows Updated = 2014-08-22T15:51:51Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/maryland-funding-fy11-payments-data-6fda1) |
+| Metadata | [Link](https://data.maryland.gov/api/views/na74-jvan) |
+| Data: JSON | [100 Rows](https://data.maryland.gov/api/views/na74-jvan/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.maryland.gov/api/views/na74-jvan/rows.csv?max_rows=100) |
+| Host | data.maryland.gov |
+| Id | na74-jvan |
+| Name | Maryland Funding FY11 Payments Data |
+| Attribution | Maryland Department of Budget and Management; Maryland Department of Information Technology |
+| Category | Budget |
+| Tags | spending, budget, vendor, payments |
+| Created | 2013-01-18T17:42:56Z |
+| Publication Date | 2014-08-22T15:52:22Z |
+| Rows Updated | 2014-08-22T15:51:51Z |
 
 ## Description
 
@@ -21,13 +25,13 @@ This dataset contains summary information on payments made to vendors that recei
 ## Columns
 
 ```ls
-| Name        | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| =========== | =========== | ========= | =========== | ============== | ======== | 
-| Year        | year        | number    | text        | time           | Yes      | 
-| Agency Name | agency_name | text      | text        | series tag     | Yes      | 
-| Vendor Name | vendor_name | text      | text        | series tag     | Yes      | 
-| Vendor Zip  | vendor_zip  | text      | text        | series tag     | Yes      | 
-| Amount      | amount      | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name        | Data Type | Render Type |
+| ======== | ============== | =========== | =========== | ========= | =========== |
+| Yes      | time           | year        | Year        | number    | text        |
+| Yes      | series tag     | agency_name | Agency Name | text      | text        |
+| Yes      | series tag     | vendor_name | Vendor Name | text      | text        |
+| Yes      | series tag     | vendor_zip  | Vendor Zip  | text      | text        |
+| Yes      | numeric metric | amount      | Amount      | money     | money       |
 ```
 
 ## Time Field
@@ -35,15 +39,6 @@ This dataset contains summary information on payments made to vendors that recei
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -61,11 +56,11 @@ series e:na74-jvan d:2011-01-01T00:00:00.000Z t:vendor_zip=60197 t:agency_name="
 ```ls
 entity e:na74-jvan l:"Maryland Funding FY11 Payments Data" t:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology" t:url=https://data.maryland.gov/api/views/na74-jvan
 
-property e:na74-jvan t:meta.view d:2017-03-03T14:09:21.598Z v:id=na74-jvan v:category=Budget v:attributionLink=http://www.spending.dbm.maryland.gov v:averageRating=0 v:name="Maryland Funding FY11 Payments Data" v:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology"
+property e:na74-jvan t:meta.view v:id=na74-jvan v:category=Budget v:attributionLink=http://www.spending.dbm.maryland.gov v:averageRating=0 v:name="Maryland Funding FY11 Payments Data" v:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology"
 
-property e:na74-jvan t:meta.view.license d:2017-03-03T14:09:21.598Z v:name="Public Domain"
+property e:na74-jvan t:meta.view.license v:name="Public Domain"
 
-property e:na74-jvan t:meta.view.owner d:2017-03-03T14:09:21.598Z v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
+property e:na74-jvan t:meta.view.owner v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
 
-property e:na74-jvan t:meta.view.tableauthor d:2017-03-03T14:09:21.598Z v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
+property e:na74-jvan t:meta.view.tableauthor v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
 ```

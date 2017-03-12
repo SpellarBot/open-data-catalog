@@ -66,9 +66,9 @@ metric m:zip_code l:"ZIP CODE" t:dataTypeName=number
 
 entity e:wryv-d7zf l:"Nearby Cook County Grocery Store Chains" t:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center" t:url=https://data.cityofchicago.org/api/views/wryv-d7zf
 
-property e:wryv-d7zf t:meta.view d:2017-03-10T14:40:43.164Z v:id=wryv-d7zf v:category="Community & Economic Development" v:attributionLink=http://www.csu.edu/nac/ v:averageRating=0 v:name="Nearby Cook County Grocery Store Chains" v:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center"
+property e:wryv-d7zf t:meta.view v:id=wryv-d7zf v:category="Community & Economic Development" v:attributionLink=http://www.csu.edu/nac/ v:averageRating=0 v:name="Nearby Cook County Grocery Store Chains" v:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center"
 
-property e:wryv-d7zf t:meta.view.owner d:2017-03-10T14:40:43.164Z v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
+property e:wryv-d7zf t:meta.view.owner v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
 
-property e:wryv-d7zf t:meta.view.tableauthor d:2017-03-10T14:40:43.164Z v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
+property e:wryv-d7zf t:meta.view.tableauthor v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
 ```

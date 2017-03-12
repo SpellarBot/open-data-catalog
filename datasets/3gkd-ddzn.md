@@ -59,9 +59,9 @@ metric m:community_board_number p:integer l:"Community Board Number" t:dataTypeN
 
 entity e:3gkd-ddzn l:"Community Board Appointments" t:attribution="Manhattan Borough President (MBP)" t:url=https://data.cityofnewyork.us/api/views/3gkd-ddzn
 
-property e:3gkd-ddzn t:meta.view d:2017-03-10T14:25:08.994Z v:id=3gkd-ddzn v:category="City Government" v:averageRating=0 v:name="Community Board Appointments" v:attribution="Manhattan Borough President (MBP)"
+property e:3gkd-ddzn t:meta.view v:id=3gkd-ddzn v:category="City Government" v:averageRating=0 v:name="Community Board Appointments" v:attribution="Manhattan Borough President (MBP)"
 
-property e:3gkd-ddzn t:meta.view.owner d:2017-03-10T14:25:08.994Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:3gkd-ddzn t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:3gkd-ddzn t:meta.view.tableauthor d:2017-03-10T14:25:08.994Z v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
+property e:3gkd-ddzn t:meta.view.tableauthor v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
 ```

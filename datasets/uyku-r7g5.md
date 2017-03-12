@@ -2,35 +2,35 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/uyku-r7g5/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/contracts-ous-capital-construction-retainer-program-csr-supplements-fiscal-year-2012-05ea1)
-* [Metadata URL](https://data.oregon.gov/api/views/uyku-r7g5)
-* Id = uyku-r7g5
-* Name = Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012
-* Category = Revenue & Expense
-* Created = 2012-12-18T17:02:49Z
-* Publication Date = 2012-12-18T17:03:30Z
-* Rows Updated = 2012-12-18T17:02:53Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/contracts-ous-capital-construction-retainer-program-csr-supplements-fiscal-year-2012-05ea1) |
+| Metadata | [Link](https://data.oregon.gov/api/views/uyku-r7g5) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/uyku-r7g5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/uyku-r7g5/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | uyku-r7g5 |
+| Name | Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012 |
+| Category | Revenue & Expense |
+| Created | 2012-12-18T17:02:49Z |
+| Publication Date | 2012-12-18T17:03:30Z |
+| Rows Updated | 2012-12-18T17:02:53Z |
 
 ## Columns
 
 ```ls
-| Name                | Field Name          | Data Type | Render Type | Schema Type    | Included | 
-| =================== | =================== | ========= | =========== | ============== | ======== | 
-| updated_at          | :updated_at         | meta_data | meta_data   | time           | No       | 
-| Supplement Number   | supplement_number   | text      | text        | series tag     | Yes      | 
-| Project             | project             | text      | text        | series tag     | Yes      | 
-| Organization        | organization        | text      | text        | series tag     | Yes      | 
-| Contractor          | contractor          | text      | text        | series tag     | Yes      | 
-| MWESB               | mwesb               | text      | text        | series tag     | Yes      | 
-| Retainer Period     | retainer_period     | text      | text        | series tag     | Yes      | 
-| Issue Date          | issue_date          | text      | text        | series tag     | Yes      | 
-| Price               | price               | money     | money       | numeric metric | Yes      | 
-| Compensation Method | compensation_method | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
+| ======== | ============== | =================== | =================== | ========= | =========== |
+| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag     | supplement_number   | Supplement Number   | text      | text        |
+| Yes      | series tag     | project             | Project             | text      | text        |
+| Yes      | series tag     | organization        | Organization        | text      | text        |
+| Yes      | series tag     | contractor          | Contractor          | text      | text        |
+| Yes      | series tag     | mwesb               | MWESB               | text      | text        |
+| Yes      | series tag     | retainer_period     | Retainer Period     | text      | text        |
+| Yes      | series tag     | issue_date          | Issue Date          | text      | text        |
+| Yes      | numeric metric | price               | Price               | money     | money       |
+| Yes      | series tag     | compensation_method | Compensation Method | text      | text        |
 ```
 
 ## Time Field
@@ -38,15 +38,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,9 +55,9 @@ series e:uyku-r7g5 d:2012-12-18T09:02:51.000Z t:compensation_method=Fixed t:reta
 ```ls
 entity e:uyku-r7g5 l:"Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/uyku-r7g5
 
-property e:uyku-r7g5 t:meta.view d:2017-03-07T19:55:31.289Z v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
+property e:uyku-r7g5 t:meta.view v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
 
-property e:uyku-r7g5 t:meta.view.owner d:2017-03-07T19:55:31.289Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:uyku-r7g5 t:meta.view.tableauthor d:2017-03-07T19:55:31.289Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

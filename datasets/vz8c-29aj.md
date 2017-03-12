@@ -59,9 +59,9 @@ metric m:zip_code l:"Zip Code" t:dataTypeName=number
 
 entity e:vz8c-29aj l:"Borough Enrollment Offices" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/vz8c-29aj
 
-property e:vz8c-29aj t:meta.view d:2017-03-10T14:35:23.591Z v:id=vz8c-29aj v:category=Education v:averageRating=0 v:name="Borough Enrollment Offices" v:attribution="Department of Education (DOE)"
+property e:vz8c-29aj t:meta.view v:id=vz8c-29aj v:category=Education v:averageRating=0 v:name="Borough Enrollment Offices" v:attribution="Department of Education (DOE)"
 
-property e:vz8c-29aj t:meta.view.owner d:2017-03-10T14:35:23.591Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:vz8c-29aj t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:vz8c-29aj t:meta.view.tableauthor d:2017-03-10T14:35:23.591Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:vz8c-29aj t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

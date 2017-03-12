@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.brla.gov/api/views/3j5u-jyar/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/city-court-warrants)
-* [Metadata URL](https://data.brla.gov/api/views/3j5u-jyar)
-* Id = 3j5u-jyar
-* Name = City Court Warrants
-* Attribution = Baton Rouge City Court
-* [Attribution Link](http://brgov.com/dept/citycourt)
-* Category = Public Safety
-* Tags = [warrants, court]
-* Created = 2014-12-17T16:22:27Z
-* Publication Date = 2015-07-14T15:32:39Z
-* Rows Updated = 2017-03-05T08:01:09Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/city-court-warrants) |
+| Metadata | [Link](https://data.brla.gov/api/views/3j5u-jyar) |
+| Data: JSON | [100 Rows](https://data.brla.gov/api/views/3j5u-jyar/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.brla.gov/api/views/3j5u-jyar/rows.csv?max_rows=100) |
+| Host | data.brla.gov |
+| Id | 3j5u-jyar |
+| Name | City Court Warrants |
+| Attribution | Baton Rouge City Court |
+| Category | Public Safety |
+| Tags | warrants, court |
+| Created | 2014-12-17T16:22:27Z |
+| Publication Date | 2015-07-14T15:32:39Z |
+| Rows Updated | 2017-03-10T08:01:24Z |
 
 ## Description
 
@@ -26,19 +29,19 @@ This lookup is not confirmation of an active warrant.  All City Court warrants s
 ## Columns
 
 ```ls
-| Name        | Field Name | Data Type     | Render Type   | Schema Type    | Included | 
-| =========== | ========== | ============= | ============= | ============== | ======== | 
-| NAME        | name       | text          | text          | series tag     | Yes      | 
-| CITY        | add3       | text          | text          | series tag     | Yes      | 
-| STATE       | state      | text          | text          | series tag     | Yes      | 
-| ZIPCODE     | zip        | text          | text          | series tag     | Yes      | 
-| RACE        | race       | number        | text          | numeric metric | Yes      | 
-| SEX         | sex        | number        | text          | numeric metric | Yes      | 
-| YOB         | dob        | number        | text          | numeric metric | Yes      | 
-| DOA         | doa        | calendar_date | calendar_date | time           | Yes      | 
-| FILE NUMBER | fileno     | text          | text          | series tag     | Yes      | 
-| DIV         | div        | text          | text          | series tag     | Yes      | 
-| CASE TYPE   | type       | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name | Name        | Data Type     | Render Type   |
+| ======== | ============== | ========== | =========== | ============= | ============= |
+| Yes      | series tag     | name       | NAME        | text          | text          |
+| Yes      | series tag     | add3       | CITY        | text          | text          |
+| Yes      | series tag     | state      | STATE       | text          | text          |
+| Yes      | series tag     | zip        | ZIPCODE     | text          | text          |
+| Yes      | numeric metric | race       | RACE        | number        | text          |
+| Yes      | numeric metric | sex        | SEX         | number        | text          |
+| Yes      | numeric metric | dob        | YOB         | number        | text          |
+| Yes      | time           | doa        | DOA         | calendar_date | calendar_date |
+| Yes      | series tag     | fileno     | FILE NUMBER | text          | text          |
+| Yes      | series tag     | div        | DIV         | text          | text          |
+| Yes      | series tag     | type       | CASE TYPE   | text          | text          |
 ```
 
 ## Time Field
@@ -46,15 +49,6 @@ This lookup is not confirmation of an active warrant.  All City Court warrants s
 ```ls
 Value = doa
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -74,11 +68,11 @@ metric m:dob p:integer l:YOB d:"Defendant's year of birth" t:dataTypeName=number
 
 entity e:3j5u-jyar l:"City Court Warrants" t:attribution="Baton Rouge City Court" t:url=https://data.brla.gov/api/views/3j5u-jyar
 
-property e:3j5u-jyar t:meta.view d:2017-03-07T20:24:53.264Z v:id=3j5u-jyar v:category="Public Safety" v:attributionLink=http://brgov.com/dept/citycourt v:averageRating=0 v:name="City Court Warrants" v:attribution="Baton Rouge City Court"
+property e:3j5u-jyar t:meta.view v:id=3j5u-jyar v:category="Public Safety" v:attributionLink=http://brgov.com/dept/citycourt v:averageRating=0 v:name="City Court Warrants" v:attribution="Baton Rouge City Court"
 
-property e:3j5u-jyar t:meta.view.license d:2017-03-07T20:24:53.264Z v:name="Public Domain"
+property e:3j5u-jyar t:meta.view.license v:name="Public Domain"
 
-property e:3j5u-jyar t:meta.view.owner d:2017-03-07T20:24:53.264Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:3j5u-jyar t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 
-property e:3j5u-jyar t:meta.view.tableauthor d:2017-03-07T20:24:53.264Z v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:3j5u-jyar t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

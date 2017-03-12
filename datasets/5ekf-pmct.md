@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/5ekf-pmct/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/brfss-prevalence-and-trends-data-health-care-access-coverage-for-2011)
-* Id = 5ekf-pmct
-* Name = BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011
-* Attribution = Behavioral Risk Factor Surveillance System
-* Attribution Link = http://www.cdc.gov/brfss/
-* Category = Health Statistics
-* Tags = [brfss, heath care access, adults, health care coverage]
-* Created = 2013-08-02T15:04:36Z
-* Publication Date = 2013-08-02T15:06:43Z
-* Rows Updated = 2013-08-02T15:04:49Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/brfss-prevalence-and-trends-data-health-care-access-coverage-for-2011) |
+| Metadata | [Link](https://data.cdc.gov/api/views/5ekf-pmct) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/5ekf-pmct/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/5ekf-pmct/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
+| Id | 5ekf-pmct |
+| Name | BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011 |
+| Attribution | Behavioral Risk Factor Surveillance System |
+| Category | Health Statistics |
+| Tags | brfss, heath care access, adults, health care coverage |
+| Created | 2013-08-02T15:04:36Z |
+| Publication Date | 2013-08-02T15:06:43Z |
+| Rows Updated | 2013-08-02T15:04:49Z |
 
 ## Description
 
@@ -21,14 +25,14 @@ The 2011 BRFSS data reflects a change in weighting methodology (raking) and the 
 ## Columns
 
 ```ls
-| Name      | Field Name | Data Type | Render Type | Schema Type    | Included | 
-| ========= | ========== | ========= | =========== | ============== | ======== | 
-| Year      | year       | number    | number      | time           | Yes      | 
-| State     | state      | text      | text        | series tag     | Yes      | 
-| Yes       | yes        | percent   | percent     | numeric metric | Yes      | 
-| No        | no         | percent   | percent     |                | No       | 
-| Category  | category   | text      | text        | series tag     | Yes      | 
-| Condition | condition  | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name | Name      | Data Type | Render Type |
+| ======== | ============== | ========== | ========= | ========= | =========== |
+| Yes      | time           | year       | Year      | number    | number      |
+| Yes      | series tag     | state      | State     | text      | text        |
+| Yes      | numeric metric | yes        | Yes       | percent   | percent     |
+| No       |                | no         | No        | percent   | percent     |
+| Yes      | series tag     | category   | Category  | text      | text        |
+| Yes      | series tag     | condition  | Condition | text      | text        |
 ```
 
 ## Time Field
@@ -41,10 +45,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = no
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -62,11 +63,11 @@ series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:category="Health Care Access/Cov
 ```ls
 entity e:5ekf-pmct l:"BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" t:attribution="Behavioral Risk Factor Surveillance System" t:url=https://data.cdc.gov/api/views/5ekf-pmct
 
-property e:5ekf-pmct t:meta.view d:2017-03-03T13:51:54.696Z v:id=5ekf-pmct v:category="Health Statistics" v:attributionLink=http://www.cdc.gov/brfss/ v:averageRating=0 v:name="BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" v:attribution="Behavioral Risk Factor Surveillance System"
+property e:5ekf-pmct t:meta.view v:id=5ekf-pmct v:category="Health Statistics" v:attributionLink=http://www.cdc.gov/brfss/ v:averageRating=0 v:name="BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" v:attribution="Behavioral Risk Factor Surveillance System"
 
-property e:5ekf-pmct t:meta.view.owner d:2017-03-03T13:51:54.696Z v:id=g3fc-zmqn v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:screenName=CDC v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:roleName=publisher v:displayName=CDC
+property e:5ekf-pmct t:meta.view.owner v:id=g3fc-zmqn v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:screenName=CDC v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:roleName=publisher v:displayName=CDC
 
-property e:5ekf-pmct t:meta.view.tableauthor d:2017-03-03T13:51:54.696Z v:id=g3fc-zmqn v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:screenName=CDC v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:roleName=publisher v:displayName=CDC
+property e:5ekf-pmct t:meta.view.tableauthor v:id=g3fc-zmqn v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:screenName=CDC v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:roleName=publisher v:displayName=CDC
 
-property e:5ekf-pmct t:meta.view.metadata.custom_fields.common_core d:2017-03-03T13:51:54.696Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:5ekf-pmct t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

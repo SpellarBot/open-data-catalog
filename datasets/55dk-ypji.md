@@ -2,34 +2,33 @@
 
 ## Dataset
 
-* [Dataset URL](https://datacatalog.cookcountyil.gov/api/views/55dk-ypji/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/cook-county-budget-2013-preliminary-budget-revenues-df945)
-* [Metadata URL](https://datacatalog.cookcountyil.gov/api/views/55dk-ypji)
-* Id = 55dk-ypji
-* Name = Cook County Budget - 2013 - Preliminary Budget Revenues
-* Attribution = Cook County Department of Budget and Management Services
-* [Attribution Link](http://home.cookcountyil.gov/budget/)
-* Category = Finance & Administration
-* Created = 2012-09-04T17:37:02Z
-* Publication Date = 2014-10-09T21:16:12Z
-* Rows Updated = 2014-10-09T21:15:57Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/cook-county-budget-2013-preliminary-budget-revenues-df945) |
+| Metadata | [Link](https://datacatalog.cookcountyil.gov/api/views/55dk-ypji) |
+| Data: JSON | [100 Rows](https://datacatalog.cookcountyil.gov/api/views/55dk-ypji/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://datacatalog.cookcountyil.gov/api/views/55dk-ypji/rows.csv?max_rows=100) |
+| Host | datacatalog.cookcountyil.gov |
+| Id | 55dk-ypji |
+| Name | Cook County Budget - 2013 - Preliminary Budget Revenues |
+| Attribution | Cook County Department of Budget and Management Services |
+| Category | Finance & Administration |
+| Created | 2012-09-04T17:37:02Z |
+| Publication Date | 2014-10-09T21:16:12Z |
+| Rows Updated | 2014-10-09T21:15:57Z |
 
 ## Columns
 
 ```ls
-| Name                                  | Field Name                          | Data Type | Render Type | Schema Type    | Included | 
-| ===================================== | =================================== | ========= | =========== | ============== | ======== | 
-| updated_at                            | :updated_at                         | meta_data | meta_data   | time           | No       | 
-| Description                           | description                         | text      | text        | series tag     | Yes      | 
-| FY 2012 Budgeted Revenue              | fy_2012_budgeted_revenue            | number    | number      | numeric metric | Yes      | 
-| FY 2012 Actual, Dec-May*              | fy_2012_actual_dec_may              | number    | number      | numeric metric | Yes      | 
-| FY 2012 Budgeted June-Nov (estimated) | fy_2012_budgeted_june_nov_estimated | number    | number      | numeric metric | Yes      | 
-| Estimated 2012 Year-end               | estimated_2012_year_end             | number    | number      | numeric metric | Yes      | 
-| FY 2013 Preliminary Estimate          | fy_2013_preliminary_estimate        | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                          | Name                                  | Data Type | Render Type |
+| ======== | ============== | =================================== | ===================================== | ========= | =========== |
+| No       | time           | :updated_at                         | updated_at                            | meta_data | meta_data   |
+| Yes      | series tag     | description                         | Description                           | text      | text        |
+| Yes      | numeric metric | fy_2012_budgeted_revenue            | FY 2012 Budgeted Revenue              | number    | number      |
+| Yes      | numeric metric | fy_2012_actual_dec_may              | FY 2012 Actual, Dec-May*              | number    | number      |
+| Yes      | numeric metric | fy_2012_budgeted_june_nov_estimated | FY 2012 Budgeted June-Nov (estimated) | number    | number      |
+| Yes      | numeric metric | estimated_2012_year_end             | Estimated 2012 Year-end               | number    | number      |
+| Yes      | numeric metric | fy_2013_preliminary_estimate        | FY 2013 Preliminary Estimate          | number    | number      |
 ```
 
 ## Time Field
@@ -37,15 +36,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -73,11 +63,11 @@ metric m:fy_2013_preliminary_estimate p:integer l:"FY 2013 Preliminary Estimate"
 
 entity e:55dk-ypji l:"Cook County Budget - 2013 - Preliminary Budget Revenues" t:attribution="Cook County Department of Budget and Management Services" t:url=https://datacatalog.cookcountyil.gov/api/views/55dk-ypji
 
-property e:55dk-ypji t:meta.view d:2017-03-07T16:12:46.715Z v:id=55dk-ypji v:category="Finance & Administration" v:attributionLink=http://home.cookcountyil.gov/budget/ v:averageRating=0 v:name="Cook County Budget - 2013 - Preliminary Budget Revenues" v:attribution="Cook County Department of Budget and Management Services"
+property e:55dk-ypji t:meta.view v:id=55dk-ypji v:category="Finance & Administration" v:attributionLink=http://home.cookcountyil.gov/budget/ v:averageRating=0 v:name="Cook County Budget - 2013 - Preliminary Budget Revenues" v:attribution="Cook County Department of Budget and Management Services"
 
-property e:55dk-ypji t:meta.view.license d:2017-03-07T16:12:46.715Z v:name="Public Domain"
+property e:55dk-ypji t:meta.view.license v:name="Public Domain"
 
-property e:55dk-ypji t:meta.view.owner d:2017-03-07T16:12:46.715Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:55dk-ypji t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:55dk-ypji t:meta.view.tableauthor d:2017-03-07T16:12:46.715Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:55dk-ypji t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```

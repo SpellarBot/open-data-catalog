@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.iowa.gov/api/views/y3id-d73d/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/board-of-regents-vendor-payments-by-institution-fiscal-year-and-vendor)
-* [Metadata URL](https://data.iowa.gov/api/views/y3id-d73d)
-* Id = y3id-d73d
-* Name = Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor
-* Attribution = Iowa Board of Regents
-* Category = Education
-* Tags = [vendor, payments, expenditures]
-* Created = 2014-12-23T16:26:41Z
-* Publication Date = 2016-08-30T20:02:57Z
-* Rows Updated = 2016-08-30T19:59:22Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/board-of-regents-vendor-payments-by-institution-fiscal-year-and-vendor) |
+| Metadata | [Link](https://data.iowa.gov/api/views/y3id-d73d) |
+| Data: JSON | [100 Rows](https://data.iowa.gov/api/views/y3id-d73d/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.iowa.gov/api/views/y3id-d73d/rows.csv?max_rows=100) |
+| Host | data.iowa.gov |
+| Id | y3id-d73d |
+| Name | Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor |
+| Attribution | Iowa Board of Regents |
+| Category | Education |
+| Tags | vendor, payments, expenditures |
+| Created | 2014-12-23T16:26:41Z |
+| Publication Date | 2016-08-30T20:02:57Z |
+| Rows Updated | 2016-08-30T19:59:22Z |
 
 ## Description
 
@@ -21,13 +25,13 @@ The dataset provides aggregate payments made to vendors by institution and fisca
 ## Columns
 
 ```ls
-| Name        | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| =========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at  | :updated_at | meta_data | meta_data   | time           | No       | 
-| BFY         | bfy         | number    | number      | numeric metric | Yes      | 
-| Institution | institution | text      | text        | series tag     | Yes      | 
-| Vendor Name | vendor_name | text      | text        | series tag     | Yes      | 
-| Amount      | amount      | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name        | Data Type | Render Type |
+| ======== | ============== | =========== | =========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at  | meta_data | meta_data   |
+| Yes      | numeric metric | bfy         | BFY         | number    | number      |
+| Yes      | series tag     | institution | Institution | text      | text        |
+| Yes      | series tag     | vendor_name | Vendor Name | text      | text        |
+| Yes      | numeric metric | amount      | Amount      | money     | money       |
 ```
 
 ## Time Field
@@ -35,15 +39,6 @@ The dataset provides aggregate payments made to vendors by institution and fisca
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -63,11 +58,11 @@ metric m:bfy p:integer l:BFY d:"Fiscal year payment was assigned to. As the Stat
 
 entity e:y3id-d73d l:"Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" t:attribution="Iowa Board of Regents" t:url=https://data.iowa.gov/api/views/y3id-d73d
 
-property e:y3id-d73d t:meta.view d:2017-03-07T17:08:00.535Z v:id=y3id-d73d v:category=Education v:averageRating=0 v:name="Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" v:attribution="Iowa Board of Regents"
+property e:y3id-d73d t:meta.view v:id=y3id-d73d v:category=Education v:averageRating=0 v:name="Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" v:attribution="Iowa Board of Regents"
 
-property e:y3id-d73d t:meta.view.license d:2017-03-07T17:08:00.535Z v:name="Public Domain"
+property e:y3id-d73d t:meta.view.license v:name="Public Domain"
 
-property e:y3id-d73d t:meta.view.owner d:2017-03-07T17:08:00.535Z v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
+property e:y3id-d73d t:meta.view.owner v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
 
-property e:y3id-d73d t:meta.view.tableauthor d:2017-03-07T17:08:00.535Z v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
+property e:y3id-d73d t:meta.view.tableauthor v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
 ```

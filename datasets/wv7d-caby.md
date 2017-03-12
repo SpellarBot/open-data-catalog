@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/wv7d-caby/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/campaign-finance-individual-expenditure-ceilings-iecs-november-4-2014-election-55da5)
-* [Metadata URL](https://data.sfgov.org/api/views/wv7d-caby)
-* Id = wv7d-caby
-* Name = Campaign Finance - Individual Expenditure Ceilings IECs - November 4, 2014 Election
-* Attribution = San Francisco Ethics Commission
-* [Attribution Link](http://www.sfethics.org)
-* Category = City Management and Ethics
-* Tags = [individual, expenditure, ceilings, iec, public, financing, campaign, finance, candidate, 2014, election, november]
-* Created = 2013-11-25T22:33:51Z
-* Publication Date = 2014-10-29T23:37:42Z
-* Rows Updated = 2014-10-29T23:37:29Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/campaign-finance-individual-expenditure-ceilings-iecs-november-4-2014-election-55da5) |
+| Metadata | [Link](https://data.sfgov.org/api/views/wv7d-caby) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/wv7d-caby/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/wv7d-caby/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | wv7d-caby |
+| Name | Campaign Finance - Individual Expenditure Ceilings IECs - November 4, 2014 Election |
+| Attribution | San Francisco Ethics Commission |
+| Category | City Management and Ethics |
+| Tags | individual, expenditure, ceilings, iec, public, financing, campaign, finance, candidate, 2014, election, november |
+| Created | 2013-11-25T22:33:51Z |
+| Publication Date | 2014-10-29T23:37:42Z |
+| Rows Updated | 2014-10-29T23:37:29Z |
 
 ## Description
 
@@ -22,12 +25,12 @@ In the November 4, 2014 election, only candidates for the Board of Supervisors w
 ## Columns
 
 ```ls
-| Name            | Field Name      | Data Type     | Render Type   | Schema Type    | Included | 
-| =============== | =============== | ============= | ============= | ============== | ======== | 
-| District        | district        | text          | text          | series tag     | Yes      | 
-| Candidate       | candidate       | text          | text          | series tag     | Yes      | 
-| Date IEC Raised | date_iec_raised | calendar_date | calendar_date | time           | Yes      | 
-| Amount of IEC   | amount_of_iec   | money         | money         | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
+| ======== | ============== | =============== | =============== | ============= | ============= |
+| Yes      | series tag     | district        | District        | text          | text          |
+| Yes      | series tag     | candidate       | Candidate       | text          | text          |
+| Yes      | time           | date_iec_raised | Date IEC Raised | calendar_date | calendar_date |
+| Yes      | numeric metric | amount_of_iec   | Amount of IEC   | money         | money         |
 ```
 
 ## Time Field
@@ -35,15 +38,6 @@ In the November 4, 2014 election, only candidates for the Board of Supervisors w
 ```ls
 Value = date_iec_raised
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -61,11 +55,11 @@ series e:wv7d-caby d:2014-09-08T00:00:00.000Z t:candidate="Kelly, Tony" t:distri
 ```ls
 entity e:wv7d-caby l:"Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/wv7d-caby
 
-property e:wv7d-caby t:meta.view d:2017-03-07T22:56:15.645Z v:id=wv7d-caby v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" v:attribution="San Francisco Ethics Commission"
+property e:wv7d-caby t:meta.view v:id=wv7d-caby v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" v:attribution="San Francisco Ethics Commission"
 
-property e:wv7d-caby t:meta.view.license d:2017-03-07T22:56:15.645Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:wv7d-caby t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:wv7d-caby t:meta.view.owner d:2017-03-07T22:56:15.645Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:wv7d-caby t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 
-property e:wv7d-caby t:meta.view.tableauthor d:2017-03-07T22:56:15.645Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:wv7d-caby t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

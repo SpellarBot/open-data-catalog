@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ct.gov/api/views/eugj-j27t/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/american-recovery-and-reinvestment-act-of-2009-arra)
-* Id = eugj-j27t
-* Name = American Recovery And Reinvestment Act Of 2009 ( ARRA)
-* Category = Government
-* Tags = [arra, opm]
-* Created = 2014-06-26T14:59:44Z
-* Publication Date = 2014-06-26T15:57:24Z
-* Rows Updated = 2014-06-26T14:59:52Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/american-recovery-and-reinvestment-act-of-2009-arra) |
+| Metadata | [Link](https://data.ct.gov/api/views/eugj-j27t) |
+| Data: JSON | [100 Rows](https://data.ct.gov/api/views/eugj-j27t/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ct.gov/api/views/eugj-j27t/rows.csv?max_rows=100) |
+| Host | data.ct.gov |
+| Id | eugj-j27t |
+| Name | American Recovery And Reinvestment Act Of 2009 ( ARRA) |
+| Category | Government |
+| Tags | arra, opm |
+| Created | 2014-06-26T14:59:44Z |
+| Publication Date | 2014-06-26T15:57:24Z |
+| Rows Updated | 2014-06-26T14:59:52Z |
 
 ## Description
 
@@ -19,14 +24,14 @@ Approximately $4.3 million of federal funds was distributed to 159 police depart
 ## Columns
 
 ```ls
-| Name             | Field Name       | Data Type | Render Type | Schema Type    | Included | 
-| ================ | ================ | ========= | =========== | ============== | ======== | 
-| updated_at       | :updated_at      | meta_data | meta_data   | time           | Yes      | 
-| Town_Name        | town_name        | text      | text        | series tag     | Yes      | 
-| Grant_Number     | grant_number     | text      | text        | series tag     | Yes      | 
-| Fed_Grant_Award  | fed_grant_award  | money     | money       | numeric metric | Yes      | 
-| Tot_Fed_Expended | tot_fed_expended | money     | money       | numeric metric | Yes      | 
-| PROJECT_SUMMARY  | project_summary  | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
+| ======== | ============== | ================ | ================ | ========= | =========== |
+| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
+| Yes      | series tag     | town_name        | Town_Name        | text      | text        |
+| Yes      | series tag     | grant_number     | Grant_Number     | text      | text        |
+| Yes      | numeric metric | fed_grant_award  | Fed_Grant_Award  | money     | money       |
+| Yes      | numeric metric | tot_fed_expended | Tot_Fed_Expended | money     | money       |
+| Yes      | series tag     | project_summary  | PROJECT_SUMMARY  | text      | text        |
 ```
 
 ## Time Field
@@ -34,15 +39,6 @@ Approximately $4.3 million of federal funds was distributed to 159 police depart
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -58,15 +54,11 @@ series e:eugj-j27t d:2014-06-26T07:59:48.000Z t:town_name=Avon t:grant_number=09
 ## Meta Commands
 
 ```ls
-Enhance security for recreation park. Protect town property and public safety for
-
-residents." m:fed_grant_award=9100 m:tot_fed_expended=9072
-
 entity e:eugj-j27t l:"American Recovery And Reinvestment Act Of 2009 ( ARRA)" t:url=https://data.ct.gov/api/views/eugj-j27t
 
-property e:eugj-j27t t:meta.view d:2017-03-03T13:57:13.248Z v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"
+property e:eugj-j27t t:meta.view v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"
 
-property e:eugj-j27t t:meta.view.owner d:2017-03-03T13:57:13.248Z v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.owner v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
 
-property e:eugj-j27t t:meta.view.tableauthor d:2017-03-03T13:57:13.248Z v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.tableauthor v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
 ```

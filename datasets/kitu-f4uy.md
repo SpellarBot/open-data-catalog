@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.nola.gov/api/views/kitu-f4uy/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/stop-and-search-field-interviews)
-* Id = kitu-f4uy
-* Name = Stop and Search (Field Interviews)
-* Category = Public Safety and Preparedness
-* Tags = [police, stop, search, field interview]
-* Created = 2015-07-10T16:01:09Z
-* Publication Date = 2016-04-17T06:24:07Z
-* Rows Updated = 2017-03-03T06:40:31Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/stop-and-search-field-interviews) |
+| Metadata | [Link](https://data.nola.gov/api/views/kitu-f4uy) |
+| Data: JSON | [100 Rows](https://data.nola.gov/api/views/kitu-f4uy/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.nola.gov/api/views/kitu-f4uy/rows.csv?max_rows=100) |
+| Host | data.nola.gov |
+| Id | kitu-f4uy |
+| Name | Stop and Search (Field Interviews) |
+| Category | Public Safety and Preparedness |
+| Tags | police, stop, search, field interview |
+| Created | 2015-07-10T16:01:09Z |
+| Publication Date | 2016-04-17T06:24:07Z |
+| Rows Updated | 2017-03-12T06:31:35Z |
 
 ## Description
 
@@ -19,37 +24,37 @@ A subset of data collected when individuals are interviewed by NOPD Officers (in
 ## Columns
 
 ```ls
-| Name                  | Field Name            | Data Type     | Render Type   | Schema Type    | Included | 
-| ===================== | ===================== | ============= | ============= | ============== | ======== | 
-| FieldInterviewID      | fieldinterviewid      | text          | number        | series tag     | Yes      | 
-| NOPD_Item             | nopd_item             | text          | text          | series tag     | Yes      | 
-| EventDate             | eventdate             | calendar_date | calendar_date | time           | Yes      | 
-| District              | district              | number        | number        | numeric metric | Yes      | 
-| Zone                  | zone                  | number        | text          | numeric metric | Yes      | 
-| OfficerAssignment     | officerassignment     | text          | text          | series tag     | Yes      | 
-| StopDescription       | stopdescription       | text          | text          | series tag     | Yes      | 
-| ActionsTaken          | actionstaken          | text          | text          | series tag     | Yes      | 
-| VehicleYear           | vehicleyear           | number        | number        |                | No       | 
-| VehicleMake           | vehiclemake           | text          | text          | series tag     | Yes      | 
-| VehicleModel          | vehiclemodel          | text          | text          | series tag     | Yes      | 
-| VehicleStyle          | vehiclestyle          | text          | text          | series tag     | Yes      | 
-| VehicleColor          | vehiclecolor          | text          | text          | series tag     | Yes      | 
-| SubjectID             | subjectid             | text          | number        | series tag     | Yes      | 
-| SubjectRace           | subjectrace           | text          | text          | series tag     | Yes      | 
-| SubjectGender         | subjectgender         | text          | text          | series tag     | Yes      | 
-| SubjectAge            | subjectage            | number        | number        | numeric metric | Yes      | 
-| SubjectHasPhotoID     | subjecthasphotoid     | text          | text          | series tag     | Yes      | 
-| SubjectHeight         | subjectheight         | number        | number        | numeric metric | Yes      | 
-| SubjectWeight         | subjectweight         | number        | number        | numeric metric | Yes      | 
-| SubjectEyeColor       | subjecteyecolor       | text          | text          | series tag     | Yes      | 
-| SubjectHairColor      | subjecthaircolor      | text          | text          | series tag     | Yes      | 
-| SubjectDriverLicState | subjectdriverlicstate | text          | text          | series tag     | Yes      | 
-| CreatedDateTime       | createddatetime       | calendar_date | calendar_date |                | No       | 
-| LastModifiedDateTime  | lastmodifieddatetime  | calendar_date | calendar_date |                | No       | 
-| Longitude             | longitude             | number        | number        |                | No       | 
-| Latitude              | latitude              | number        | number        |                | No       | 
-| Zip                   | zip                   | number        | number        | numeric metric | Yes      | 
-| BlockAddress          | blockaddress          | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name            | Name                  | Data Type     | Render Type   |
+| ======== | ============== | ===================== | ===================== | ============= | ============= |
+| Yes      | series tag     | fieldinterviewid      | FieldInterviewID      | text          | number        |
+| Yes      | series tag     | nopd_item             | NOPD_Item             | text          | text          |
+| Yes      | time           | eventdate             | EventDate             | calendar_date | calendar_date |
+| Yes      | series tag     | district              | District              | text          | number        |
+| Yes      | numeric metric | zone                  | Zone                  | number        | text          |
+| Yes      | series tag     | officerassignment     | OfficerAssignment     | text          | text          |
+| Yes      | series tag     | stopdescription       | StopDescription       | text          | text          |
+| Yes      | series tag     | actionstaken          | ActionsTaken          | text          | text          |
+| No       |                | vehicleyear           | VehicleYear           | number        | number        |
+| Yes      | series tag     | vehiclemake           | VehicleMake           | text          | text          |
+| Yes      | series tag     | vehiclemodel          | VehicleModel          | text          | text          |
+| Yes      | series tag     | vehiclestyle          | VehicleStyle          | text          | text          |
+| Yes      | series tag     | vehiclecolor          | VehicleColor          | text          | text          |
+| Yes      | series tag     | subjectid             | SubjectID             | text          | number        |
+| Yes      | series tag     | subjectrace           | SubjectRace           | text          | text          |
+| Yes      | series tag     | subjectgender         | SubjectGender         | text          | text          |
+| Yes      | numeric metric | subjectage            | SubjectAge            | number        | number        |
+| Yes      | series tag     | subjecthasphotoid     | SubjectHasPhotoID     | text          | text          |
+| Yes      | numeric metric | subjectheight         | SubjectHeight         | number        | number        |
+| Yes      | numeric metric | subjectweight         | SubjectWeight         | number        | number        |
+| Yes      | series tag     | subjecteyecolor       | SubjectEyeColor       | text          | text          |
+| Yes      | series tag     | subjecthaircolor      | SubjectHairColor      | text          | text          |
+| Yes      | series tag     | subjectdriverlicstate | SubjectDriverLicState | text          | text          |
+| No       |                | createddatetime       | CreatedDateTime       | calendar_date | calendar_date |
+| No       |                | lastmodifieddatetime  | LastModifiedDateTime  | calendar_date | calendar_date |
+| No       |                | longitude             | Longitude             | number        | number        |
+| No       |                | latitude              | Latitude              | number        | number        |
+| Yes      | series tag     | zip                   | Zip                   | text          | number        |
+| Yes      | series tag     | blockaddress          | BlockAddress          | text          | text          |
 ```
 
 ## Time Field
@@ -62,44 +67,37 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = lastmodifieddatetime,createddatetime,longitude,latitude,vehicleyear
-Annotation Fields = 
 ```
 
 ## Data Commands
 
 ```ls
-series e:kitu-f4uy d:2010-01-01T01:11:00.000Z t:vehiclemodel=CARAVAN t:vehiclecolor=BLACK t:subjectgender=FEMALE t:subjecthasphotoid=Yes t:subjectdriverlicstate=LA t:subjecthaircolor=Black t:vehiclemake=DODGE t:vehiclestyle=MINIVAN t:fieldinterviewid=17415 t:subjecteyecolor=Brown t:subjectid=20465 t:stopdescription="TRAFFIC VIOLATION" t:officerassignment="6th  District" t:zone=E t:subjectrace=BLACK m:subjectage=26 m:subjectweight=160 m:subjectheight=69 m:district=6
+series e:kitu-f4uy d:2010-01-01T01:11:00.000Z t:vehiclemodel=CARAVAN t:vehiclecolor=BLACK t:subjectgender=FEMALE t:subjecthasphotoid=Yes t:subjectdriverlicstate=LA t:subjecthaircolor=Black t:vehiclemake=DODGE t:vehiclestyle=MINIVAN t:fieldinterviewid=17415 t:subjecteyecolor=Brown t:district=6 t:subjectid=20465 t:stopdescription="TRAFFIC VIOLATION" t:officerassignment="6th  District" t:zone=E t:subjectrace=BLACK m:subjectage=26 m:subjectweight=160 m:subjectheight=69
 
-series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:stopdescription="CALL FOR SERVICE" t:subjectid=20466 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=17 m:subjectweight=140 m:subjectheight=65 m:district=5
+series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjectid=20466 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=17 m:subjectweight=140 m:subjectheight=65
 
-series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:stopdescription="CALL FOR SERVICE" t:subjectid=20467 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=18 m:subjectweight=145 m:subjectheight=67 m:district=5
+series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjectid=20467 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=18 m:subjectweight=145 m:subjectheight=67
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:district p:integer l:District t:dataTypeName=number
-
 metric m:subjectage p:integer l:SubjectAge t:dataTypeName=number
 
 metric m:subjectheight p:integer l:SubjectHeight t:dataTypeName=number
 
 metric m:subjectweight l:SubjectWeight t:dataTypeName=number
 
-metric m:zip p:integer l:Zip t:dataTypeName=number
-
 entity e:kitu-f4uy l:"Stop and Search (Field Interviews)" t:url=https://data.nola.gov/api/views/kitu-f4uy
 
-property e:kitu-f4uy t:meta.view d:2017-03-03T13:50:49.853Z v:id=kitu-f4uy v:category="Public Safety and Preparedness" v:averageRating=0 v:name="Stop and Search (Field Interviews)"
+property e:kitu-f4uy t:meta.view v:id=kitu-f4uy v:category="Public Safety and Preparedness" v:averageRating=0 v:name="Stop and Search (Field Interviews)"
 
-property e:kitu-f4uy t:meta.view.license d:2017-03-03T13:50:49.853Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:kitu-f4uy t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:kitu-f4uy t:meta.view.owner d:2017-03-03T13:50:49.853Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
+property e:kitu-f4uy t:meta.view.owner v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
-property e:kitu-f4uy t:meta.view.tableauthor d:2017-03-03T13:50:49.853Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
+property e:kitu-f4uy t:meta.view.tableauthor v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
-property e:kitu-f4uy t:meta.view.metadata.custom_fields.common_core d:2017-03-03T13:50:49.853Z v:Contact_Email=data@nola.gov
+property e:kitu-f4uy t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

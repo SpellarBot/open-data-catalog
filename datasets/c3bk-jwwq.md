@@ -2,31 +2,32 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.illinois.gov/api/views/c3bk-jwwq/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/vo-ag-expenditures-9b3cf)
-* Id = c3bk-jwwq
-* Name = VO-AG Expenditures
-* Created = 2014-06-27T20:26:05Z
-* Publication Date = 2014-06-27T20:27:23Z
-* Rows Updated = 2014-06-27T20:26:18Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/vo-ag-expenditures-9b3cf) |
+| Metadata | [Link](https://data.illinois.gov/api/views/c3bk-jwwq) |
+| Data: JSON | [100 Rows](https://data.illinois.gov/api/views/c3bk-jwwq/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.illinois.gov/api/views/c3bk-jwwq/rows.csv?max_rows=100) |
+| Host | data.illinois.gov |
+| Id | c3bk-jwwq |
+| Name | VO-AG Expenditures |
+| Created | 2014-06-27T20:26:05Z |
+| Publication Date | 2014-06-27T20:27:23Z |
+| Rows Updated | 2014-06-27T20:26:18Z |
 
 ## Columns
 
 ```ls
-| Name                            | Field Name                      | Data Type     | Render Type   | Schema Type    | Included | 
-| =============================== | =============================== | ============= | ============= | ============== | ======== | 
-| Grantor Agency                  | grantor_agency                  | text          | text          | series tag     | Yes      | 
-| Grantee                         | grantee                         | text          | text          | series tag     | Yes      | 
-| Description of Purpose of Award | description_of_purpose_of_award | text          | text          | series tag     | Yes      | 
-| Grant Amount                    | grant_amount                    | number        | number        | numeric metric | Yes      | 
-| Start Date                      | start_date                      | calendar_date | calendar_date | time           | Yes      | 
-| Completion Date                 | completion_date                 | calendar_date | calendar_date |                | No       | 
-| Duration (in days)              | duration_in_days                | number        | number        | numeric metric | Yes      | 
-| Grantee Zip Code                | grantee_zip_code                | text          | number        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                      | Name                            | Data Type     | Render Type   |
+| ======== | ============== | =============================== | =============================== | ============= | ============= |
+| Yes      | series tag     | grantor_agency                  | Grantor Agency                  | text          | text          |
+| Yes      | series tag     | grantee                         | Grantee                         | text          | text          |
+| Yes      | series tag     | description_of_purpose_of_award | Description of Purpose of Award | text          | text          |
+| Yes      | numeric metric | grant_amount                    | Grant Amount                    | number        | number        |
+| Yes      | time           | start_date                      | Start Date                      | calendar_date | calendar_date |
+| No       |                | completion_date                 | Completion Date                 | calendar_date | calendar_date |
+| Yes      | numeric metric | duration_in_days                | Duration (in days)              | number        | number        |
+| Yes      | series tag     | grantee_zip_code                | Grantee Zip Code                | text          | number        |
 ```
 
 ## Time Field
@@ -39,10 +40,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = completion_date
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,9 +62,9 @@ metric m:duration_in_days p:integer l:"Duration (in days)" t:dataTypeName=number
 
 entity e:c3bk-jwwq l:"VO-AG Expenditures" t:url=https://data.illinois.gov/api/views/c3bk-jwwq
 
-property e:c3bk-jwwq t:meta.view d:2017-03-03T14:29:31.948Z v:id=c3bk-jwwq v:averageRating=0 v:name="VO-AG Expenditures"
+property e:c3bk-jwwq t:meta.view v:id=c3bk-jwwq v:averageRating=0 v:name="VO-AG Expenditures"
 
-property e:c3bk-jwwq t:meta.view.owner d:2017-03-03T14:29:31.948Z v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:roleName=publisher v:displayName="Rhonda Jachino"
+property e:c3bk-jwwq t:meta.view.owner v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:roleName=publisher v:displayName="Rhonda Jachino"
 
-property e:c3bk-jwwq t:meta.view.tableauthor d:2017-03-03T14:29:31.948Z v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:roleName=publisher v:displayName="Rhonda Jachino"
+property e:c3bk-jwwq t:meta.view.tableauthor v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:roleName=publisher v:displayName="Rhonda Jachino"
 ```

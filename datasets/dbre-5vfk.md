@@ -2,31 +2,31 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/dbre-5vfk/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/2-government-by-biennium-9914b)
-* [Metadata URL](https://data.wa.gov/api/views/dbre-5vfk)
-* Id = dbre-5vfk
-* Name = 2 -- Government $$ By Biennium
-* Created = 2012-10-17T12:37:48Z
-* Publication Date = 2012-10-17T12:38:16Z
-* Rows Updated = 2012-10-17T12:37:52Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/2-government-by-biennium-9914b) |
+| Metadata | [Link](https://data.wa.gov/api/views/dbre-5vfk) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/dbre-5vfk/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/dbre-5vfk/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | dbre-5vfk |
+| Name | 2 -- Government $$ By Biennium |
+| Created | 2012-10-17T12:37:48Z |
+| Publication Date | 2012-10-17T12:38:16Z |
+| Rows Updated | 2012-10-17T12:37:52Z |
 
 ## Columns
 
 ```ls
-| Name             | Field Name       | Data Type | Render Type | Schema Type    | Included | 
-| ================ | ================ | ========= | =========== | ============== | ======== | 
-| updated_at       | :updated_at      | meta_data | meta_data   | time           | No       | 
-| Biennium         | biennium         | text      | text        | series tag     | Yes      | 
-| State -- All     | state_all        | money     | money       | numeric metric | Yes      | 
-| Local -- All     | local_all        | money     | money       | numeric metric | Yes      | 
-| Federal -- All   | federal_all      | money     | money       | numeric metric | Yes      | 
-| Total            | total            | money     | money       | numeric metric | Yes      | 
-| Cumulative Total | cumulative_total | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
+| ======== | ============== | ================ | ================ | ========= | =========== |
+| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
+| Yes      | series tag     | biennium         | Biennium         | text      | text        |
+| Yes      | numeric metric | state_all        | State -- All     | money     | money       |
+| Yes      | numeric metric | local_all        | Local -- All     | money     | money       |
+| Yes      | numeric metric | federal_all      | Federal -- All   | money     | money       |
+| Yes      | numeric metric | total            | Total            | money     | money       |
+| Yes      | numeric metric | cumulative_total | Cumulative Total | money     | money       |
 ```
 
 ## Time Field
@@ -34,15 +34,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -60,9 +51,9 @@ series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=2003-05 m:state_all=140
 ```ls
 entity e:dbre-5vfk l:"2 -- Government $$ By Biennium" t:url=https://data.wa.gov/api/views/dbre-5vfk
 
-property e:dbre-5vfk t:meta.view d:2017-03-08T01:29:14.986Z v:id=dbre-5vfk v:averageRating=0 v:name="2 -- Government $$ By Biennium"
+property e:dbre-5vfk t:meta.view v:id=dbre-5vfk v:averageRating=0 v:name="2 -- Government $$ By Biennium"
 
-property e:dbre-5vfk t:meta.view.owner d:2017-03-08T01:29:14.986Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:dbre-5vfk t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 
-property e:dbre-5vfk t:meta.view.tableauthor d:2017-03-08T01:29:14.986Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:dbre-5vfk t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

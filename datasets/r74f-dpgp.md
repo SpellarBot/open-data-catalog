@@ -2,15 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/r74f-dpgp/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/oregon-recovery-and-reinvestment-act-data-june-2012-371c3)
-* [Metadata URL](https://data.oregon.gov/api/views/r74f-dpgp)
-* Id = r74f-dpgp
-* Name = Oregon Recovery and Reinvestment Act Data - June, 2012
-* Category = Revenue & Expense
-* Created = 2012-08-08T20:56:38Z
-* Publication Date = 2012-08-08T21:00:58Z
-* Rows Updated = 2012-08-08T20:56:53Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/oregon-recovery-and-reinvestment-act-data-june-2012-371c3) |
+| Metadata | [Link](https://data.oregon.gov/api/views/r74f-dpgp) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/r74f-dpgp/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/r74f-dpgp/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | r74f-dpgp |
+| Name | Oregon Recovery and Reinvestment Act Data - June, 2012 |
+| Category | Revenue & Expense |
+| Created | 2012-08-08T20:56:38Z |
+| Publication Date | 2012-08-08T21:00:58Z |
+| Rows Updated | 2012-08-08T20:56:53Z |
 
 ## Description
 
@@ -19,31 +23,31 @@ This spreadsheet contains Oregon Recovery and Reinvestment Act (ARRA) Data repor
 ## Columns
 
 ```ls
-| Name                   | Field Name             | Data Type | Render Type | Schema Type    | Included | 
-| ====================== | ====================== | ========= | =========== | ============== | ======== | 
-| updated_at             | :updated_at            | meta_data | meta_data   | time           | No       | 
-| SORT ORDER             | sort_order             | number    | number      | numeric metric | Yes      | 
-| AWARD DESCRIPTION      | award_description      | text      | text        | series tag     | Yes      | 
-| PROJECT DESCRIPTION    | project_description    | text      | text        | series tag     | Yes      | 
-| ROOT ID                | root_id                | text      | number      | series tag     | Yes      | 
-| PRIME AWARD #          | prime_award            | text      | text        | series tag     | Yes      | 
-| AWARD ID               | award_id               | text      | number      | series tag     | Yes      | 
-| AWARD NUMBER           | award_number           | text      | text        | series tag     | Yes      | 
-| PROJECT ID             | project_id             | text      | text        | series tag     | Yes      | 
-| AWARD INSTRUMENT       | award_instrument       | text      | text        | series tag     | Yes      | 
-| RECIPIENT TYPE         | recipient_type         | text      | text        | series tag     | Yes      | 
-| VENDOR                 | vendor                 | text      | text        | series tag     | Yes      | 
-| COUNTY                 | county                 | text      | text        | series tag     | Yes      | 
-| PROJECT NAME           | project_name           | text      | text        | series tag     | Yes      | 
-| AWARD RECIPIENT        | award_recipient        | text      | text        | series tag     | Yes      | 
-| AWARD AMOUNT           | award_amount           | number    | number      | numeric metric | Yes      | 
-| AMOUNT EXPENDED        | amount_expended        | number    | number      | numeric metric | Yes      | 
-| JOBS CREATED           | jobs_created           | number    | number      | numeric metric | Yes      | 
-| PROJECT STATUS         | project_status         | text      | text        | series tag     | Yes      | 
-| ZIPCODE                | zipcode                | text      | text        | series tag     | Yes      | 
-| CONGRESSIONAL DISTRICT | congressional_district | text      | number      | series tag     | Yes      | 
-| MONTH CODE             | month_code             | text      | text        | series tag     | Yes      | 
-| Project                | project                | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
+| ======== | ============== | ====================== | ====================== | ========= | =========== |
+| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
+| Yes      | numeric metric | sort_order             | SORT ORDER             | number    | number      |
+| Yes      | series tag     | award_description      | AWARD DESCRIPTION      | text      | text        |
+| Yes      | series tag     | project_description    | PROJECT DESCRIPTION    | text      | text        |
+| Yes      | series tag     | root_id                | ROOT ID                | text      | number      |
+| Yes      | series tag     | prime_award            | PRIME AWARD #          | text      | text        |
+| Yes      | series tag     | award_id               | AWARD ID               | text      | number      |
+| Yes      | series tag     | award_number           | AWARD NUMBER           | text      | text        |
+| Yes      | series tag     | project_id             | PROJECT ID             | text      | text        |
+| Yes      | series tag     | award_instrument       | AWARD INSTRUMENT       | text      | text        |
+| Yes      | series tag     | recipient_type         | RECIPIENT TYPE         | text      | text        |
+| Yes      | series tag     | vendor                 | VENDOR                 | text      | text        |
+| Yes      | series tag     | county                 | COUNTY                 | text      | text        |
+| Yes      | series tag     | project_name           | PROJECT NAME           | text      | text        |
+| Yes      | series tag     | award_recipient        | AWARD RECIPIENT        | text      | text        |
+| Yes      | numeric metric | award_amount           | AWARD AMOUNT           | number    | number      |
+| Yes      | numeric metric | amount_expended        | AMOUNT EXPENDED        | number    | number      |
+| Yes      | numeric metric | jobs_created           | JOBS CREATED           | number    | number      |
+| Yes      | series tag     | project_status         | PROJECT STATUS         | text      | text        |
+| Yes      | series tag     | zipcode                | ZIPCODE                | text      | text        |
+| Yes      | series tag     | congressional_district | CONGRESSIONAL DISTRICT | text      | number      |
+| Yes      | series tag     | month_code             | MONTH CODE             | text      | text        |
+| Yes      | series tag     | project                | Project                | text      | text        |
 ```
 
 ## Time Field
@@ -51,15 +55,6 @@ This spreadsheet contains Oregon Recovery and Reinvestment Act (ARRA) Data repor
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -85,9 +80,9 @@ metric m:jobs_created l:"JOBS CREATED" t:dataTypeName=number
 
 entity e:r74f-dpgp l:"Oregon Recovery and Reinvestment Act Data - June, 2012" t:url=https://data.oregon.gov/api/views/r74f-dpgp
 
-property e:r74f-dpgp t:meta.view d:2017-03-07T16:48:33.609Z v:id=r74f-dpgp v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012"
+property e:r74f-dpgp t:meta.view v:id=r74f-dpgp v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012"
 
-property e:r74f-dpgp t:meta.view.owner d:2017-03-07T16:48:33.609Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:r74f-dpgp t:meta.view.tableauthor d:2017-03-07T16:48:33.609Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

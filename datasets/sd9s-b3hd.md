@@ -64,9 +64,9 @@ metric m:mediation_attempted p:integer l:"Mediation Attempted" t:dataTypeName=nu
 
 entity e:sd9s-b3hd l:"Average days for the CCRB to close case" t:attribution="Civilian Complaint Review Board (CCRB)" t:url=https://data.cityofnewyork.us/api/views/sd9s-b3hd
 
-property e:sd9s-b3hd t:meta.view d:2017-03-10T14:38:23.507Z v:id=sd9s-b3hd v:category="City Government" v:attributionLink=http://www.nyc.gov/html/ccrb/pdf/ccrbappendices2011.pdf v:averageRating=0 v:name="Average days for the CCRB to close case" v:attribution="Civilian Complaint Review Board (CCRB)"
+property e:sd9s-b3hd t:meta.view v:id=sd9s-b3hd v:category="City Government" v:attributionLink=http://www.nyc.gov/html/ccrb/pdf/ccrbappendices2011.pdf v:averageRating=0 v:name="Average days for the CCRB to close case" v:attribution="Civilian Complaint Review Board (CCRB)"
 
-property e:sd9s-b3hd t:meta.view.owner d:2017-03-10T14:38:23.507Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:sd9s-b3hd t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:sd9s-b3hd t:meta.view.tableauthor d:2017-03-10T14:38:23.507Z v:id=iacr-duv5 v:screenName=Tejas.Patel v:displayName=Tejas.Patel
+property e:sd9s-b3hd t:meta.view.tableauthor v:id=iacr-duv5 v:screenName=Tejas.Patel v:displayName=Tejas.Patel
 ```

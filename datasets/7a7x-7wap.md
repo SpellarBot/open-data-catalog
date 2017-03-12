@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/7a7x-7wap/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/city-of-albany-budget-summary-2013)
-* Id = 7a7x-7wap
-* Name = City of Albany Budget Summary: 2013
-* Attribution = City of Albany
-* Attribution Link = http://albanyny.gov/Government/MayorsOffice/Budget.aspx
-* Category = Government & Finance
-* Tags = [albany, budget]
-* Created = 2013-03-02T00:31:02Z
-* Publication Date = 2013-03-07T20:31:27Z
-* Rows Updated = 2013-03-07T20:31:14Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/city-of-albany-budget-summary-2013) |
+| Metadata | [Link](https://data.ny.gov/api/views/7a7x-7wap) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/7a7x-7wap/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/7a7x-7wap/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | 7a7x-7wap |
+| Name | City of Albany Budget Summary: 2013 |
+| Attribution | City of Albany |
+| Category | Government & Finance |
+| Tags | albany, budget |
+| Created | 2013-03-02T00:31:02Z |
+| Publication Date | 2013-03-07T20:31:27Z |
+| Rows Updated | 2013-03-07T20:31:14Z |
 
 ## Description
 
@@ -21,16 +25,16 @@ This data summarizes the 2013 adopted budget for the City of Albany.  Over the y
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type | Render Type | Schema Type    | Included | 
-| ==================== | ==================== | ========= | =========== | ============== | ======== | 
-| updated_at           | :updated_at          | meta_data | meta_data   | time           | Yes      | 
-| Department           | department           | text      | text        | series tag     | Yes      | 
-| Personal Services    | personal_services    | money     | money       | numeric metric | Yes      | 
-| Equipment            | equipment            | money     | money       | numeric metric | Yes      | 
-| Contractual Expenses | contractual_expenses | money     | money       | numeric metric | Yes      | 
-| Benefits             | benefits             | money     | money       | numeric metric | Yes      | 
-| Debt Service         | debt_service         | money     | money       | numeric metric | Yes      | 
-| Total                | total                | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
+| ======== | ============== | ==================== | ==================== | ========= | =========== |
+| No       | time           | :updated_at          | updated_at           | meta_data | meta_data   |
+| Yes      | series tag     | department           | Department           | text      | text        |
+| Yes      | numeric metric | personal_services    | Personal Services    | money     | money       |
+| Yes      | numeric metric | equipment            | Equipment            | money     | money       |
+| Yes      | numeric metric | contractual_expenses | Contractual Expenses | money     | money       |
+| Yes      | numeric metric | benefits             | Benefits             | money     | money       |
+| Yes      | numeric metric | debt_service         | Debt Service         | money     | money       |
+| Yes      | numeric metric | total                | Total                | money     | money       |
 ```
 
 ## Time Field
@@ -38,15 +42,6 @@ This data summarizes the 2013 adopted budget for the City of Albany.  Over the y
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,11 +59,11 @@ series e:7a7x-7wap d:2013-03-01T16:31:11.000Z t:department="Common Council" m:to
 ```ls
 entity e:7a7x-7wap l:"City of Albany Budget Summary: 2013" t:attribution="City of Albany" t:url=https://data.ny.gov/api/views/7a7x-7wap
 
-property e:7a7x-7wap t:meta.view d:2017-03-03T14:24:22.889Z v:id=7a7x-7wap v:category="Government & Finance" v:attributionLink=http://albanyny.gov/Government/MayorsOffice/Budget.aspx v:averageRating=0 v:name="City of Albany Budget Summary: 2013" v:attribution="City of Albany"
+property e:7a7x-7wap t:meta.view v:id=7a7x-7wap v:category="Government & Finance" v:attributionLink=http://albanyny.gov/Government/MayorsOffice/Budget.aspx v:averageRating=0 v:name="City of Albany Budget Summary: 2013" v:attribution="City of Albany"
 
-property e:7a7x-7wap t:meta.view.owner d:2017-03-03T14:24:22.889Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:7a7x-7wap t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:7a7x-7wap t:meta.view.tableauthor d:2017-03-03T14:24:22.889Z v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
+property e:7a7x-7wap t:meta.view.tableauthor v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
 
-property e:7a7x-7wap t:meta.view.metadata.custom_fields.common_core d:2017-03-03T14:24:22.889Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:7a7x-7wap t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

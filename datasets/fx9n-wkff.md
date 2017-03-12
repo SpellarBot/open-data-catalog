@@ -2,49 +2,49 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.mo.gov/api/views/fx9n-wkff/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/forecasted-9day-river-level-update-autocreated)
-* [Metadata URL](https://data.mo.gov/api/views/fx9n-wkff)
-* Id = fx9n-wkff
-* Name = forecasted-9day-river-level-update-AutoCreated
-* Created = 2014-12-17T15:09:44Z
-* Publication Date = 2015-10-15T15:12:15Z
-* Rows Updated = 2015-10-15T15:11:24Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/forecasted-9day-river-level-update-autocreated) |
+| Metadata | [Link](https://data.mo.gov/api/views/fx9n-wkff) |
+| Data: JSON | [100 Rows](https://data.mo.gov/api/views/fx9n-wkff/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.mo.gov/api/views/fx9n-wkff/rows.csv?max_rows=100) |
+| Host | data.mo.gov |
+| Id | fx9n-wkff |
+| Name | forecasted-9day-river-level-update-AutoCreated |
+| Created | 2014-12-17T15:09:44Z |
+| Publication Date | 2015-10-15T15:12:15Z |
+| Rows Updated | 2015-10-15T15:11:24Z |
 
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | No       | 
-| the_geom   | the_geom    | text      | text        | series tag     | Yes      | 
-| GaugeLID   | gaugelid    | text      | text        | series tag     | Yes      | 
-| Stage      | stage       | text      | text        | series tag     | Yes      | 
-| Location   | location    | text      | text        | series tag     | Yes      | 
-| Latitude   | latitude    | number    | text        |                | No       | 
-| Longitude  | longitude   | number    | text        |                | No       | 
-| Waterbody  | waterbody   | text      | text        | series tag     | Yes      | 
-| State      | state       | text      | text        | series tag     | Yes      | 
-| Forecast   | forecast    | number    | text        | numeric metric | Yes      | 
-| FcstTime   | fcsttime    | text      | text        | series tag     | Yes      | 
-| FcstIssunc | fcstissunc  | text      | text        | series tag     | Yes      | 
-| Units      | units       | text      | text        | series tag     | Yes      | 
-| Action     | action      | number    | text        | numeric metric | Yes      | 
-| Flood      | flood       | number    | text        | numeric metric | Yes      | 
-| Moderate   | moderate    | number    | text        | numeric metric | Yes      | 
-| Major      | major       | number    | text        | numeric metric | Yes      | 
-| LowThresh  | lowthresh   | number    | text        | numeric metric | Yes      | 
-| LowThreshU | lowthreshu  | text      | text        | series tag     | Yes      | 
-| WFO        | wfo         | text      | text        | series tag     | Yes      | 
-| HDatum     | hdatum      | text      | text        | series tag     | Yes      | 
-| PEDTS      | pedts       | text      | text        | series tag     | Yes      | 
-| SecValue   | secvalue    | number    | text        | numeric metric | Yes      | 
-| SecUnit    | secunit     | text      | text        | series tag     | Yes      | 
-| URL        | url         | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | the_geom    | the_geom   | text      | text        |
+| Yes      | series tag     | gaugelid    | GaugeLID   | text      | text        |
+| Yes      | series tag     | stage       | Stage      | text      | text        |
+| Yes      | series tag     | location    | Location   | text      | text        |
+| No       |                | latitude    | Latitude   | number    | text        |
+| No       |                | longitude   | Longitude  | number    | text        |
+| Yes      | series tag     | waterbody   | Waterbody  | text      | text        |
+| Yes      | series tag     | state       | State      | text      | text        |
+| Yes      | numeric metric | forecast    | Forecast   | number    | text        |
+| Yes      | series tag     | fcsttime    | FcstTime   | text      | text        |
+| Yes      | series tag     | fcstissunc  | FcstIssunc | text      | text        |
+| Yes      | series tag     | units       | Units      | text      | text        |
+| Yes      | numeric metric | action      | Action     | number    | text        |
+| Yes      | numeric metric | flood       | Flood      | number    | text        |
+| Yes      | numeric metric | moderate    | Moderate   | number    | text        |
+| Yes      | numeric metric | major       | Major      | number    | text        |
+| Yes      | numeric metric | lowthresh   | LowThresh  | number    | text        |
+| Yes      | series tag     | lowthreshu  | LowThreshU | text      | text        |
+| Yes      | series tag     | wfo         | WFO        | text      | text        |
+| Yes      | series tag     | hdatum      | HDatum     | text      | text        |
+| Yes      | series tag     | pedts       | PEDTS      | text      | text        |
+| Yes      | numeric metric | secvalue    | SecValue   | number    | text        |
+| Yes      | series tag     | secunit     | SecUnit    | text      | text        |
+| Yes      | series tag     | url         | URL        | text      | text        |
 ```
 
 ## Time Field
@@ -57,10 +57,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = longitude,latitude
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -92,9 +89,9 @@ metric m:secvalue l:SecValue t:dataTypeName=number
 
 entity e:fx9n-wkff l:forecasted-9day-river-level-update-AutoCreated t:url=https://data.mo.gov/api/views/fx9n-wkff
 
-property e:fx9n-wkff t:meta.view d:2017-03-08T02:31:46.195Z v:id=fx9n-wkff v:averageRating=0 v:name=forecasted-9day-river-level-update-AutoCreated
+property e:fx9n-wkff t:meta.view v:id=fx9n-wkff v:averageRating=0 v:name=forecasted-9day-river-level-update-AutoCreated
 
-property e:fx9n-wkff t:meta.view.owner d:2017-03-08T02:31:46.195Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:fx9n-wkff t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 
-property e:fx9n-wkff t:meta.view.tableauthor d:2017-03-08T02:31:46.195Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:fx9n-wkff t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 ```

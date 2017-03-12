@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/7edu-s3u7/rows.json?max_rows=100)
-* [Catalog URL](https://data.cityofchicago.org/Parks-Recreation/Beach-Weather-Stations-Automated-Sensors-2016-Humi/7edu-s3u7/about)
-* [Metadata URL](https://data.cityofchicago.org/api/views/7edu-s3u7)
-* Id = 7edu-s3u7
-* Name = Beach Weather Stations - Automated Sensors - 2016 - Humidity
-* Attribution = Chicago Park District
-* [Attribution Link](http://www.chicagoparkdistrict.com)
-* Category = Parks & Recreation
-* Tags = [beaches, parks, chicago park district, open spaces, parks & recreation, recreation, water]
-* Created = 2016-06-07T16:41:13Z
-* Publication Date = 2015-06-01T22:22:24Z
-* Rows Updated = 2017-03-07T15:45:10Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://data.cityofchicago.org/Parks-Recreation/Beach-Weather-Stations-Automated-Sensors-2016-Humi/7edu-s3u7/about) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/7edu-s3u7) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/7edu-s3u7/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/7edu-s3u7/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | 7edu-s3u7 |
+| Name | Beach Weather Stations - Automated Sensors - 2016 - Humidity |
+| Attribution | Chicago Park District |
+| Category | Parks & Recreation |
+| Tags | beaches, parks, chicago park district, open spaces, parks & recreation, recreation, water |
+| Created | 2016-06-07T16:41:13Z |
+| Publication Date | 2015-06-01T22:22:24Z |
+| Rows Updated | 2017-03-12T09:45:09Z |
 
 ## Description
 
@@ -22,26 +25,26 @@ The Chicago Park District maintains weather sensors at beaches along Chicago's L
 ## Columns
 
 ```ls
-| Name                        | Field Name                  | Data Type     | Render Type   | Schema Type    | Included | 
-| =========================== | =========================== | ============= | ============= | ============== | ======== | 
-| Station Name                | station_name                | text          | text          | series tag     | Yes      | 
-| Measurement Timestamp       | measurement_timestamp       | calendar_date | calendar_date | time           | Yes      | 
-| Air Temperature             | air_temperature             | number        | number        | numeric metric | Yes      | 
-| Wet Bulb Temperature        | wet_bulb_temperature        | number        | number        | numeric metric | Yes      | 
-| Humidity                    | humidity                    | number        | number        | numeric metric | Yes      | 
-| Rain Intensity              | rain_intensity              | number        | number        | numeric metric | Yes      | 
-| Interval Rain               | interval_rain               | number        | number        | numeric metric | Yes      | 
-| Total Rain                  | total_rain                  | number        | number        | numeric metric | Yes      | 
-| Precipitation Type          | precipitation_type          | number        | number        | numeric metric | Yes      | 
-| Wind Direction              | wind_direction              | number        | number        | numeric metric | Yes      | 
-| Wind Speed                  | wind_speed                  | number        | number        | numeric metric | Yes      | 
-| Maximum Wind Speed          | maximum_wind_speed          | number        | number        | numeric metric | Yes      | 
-| Barometric Pressure         | barometric_pressure         | number        | number        | numeric metric | Yes      | 
-| Solar Radiation             | solar_radiation             | number        | number        | numeric metric | Yes      | 
-| Heading                     | heading                     | number        | number        | numeric metric | Yes      | 
-| Battery Life                | battery_life                | number        | number        | numeric metric | Yes      | 
-| Measurement Timestamp Label | measurement_timestamp_label | text          | text          |                | No       | 
-| Measurement ID              | measurement_id              | text          | text          |                | No       | 
+| Included | Schema Type    | Field Name                  | Name                        | Data Type     | Render Type   |
+| ======== | ============== | =========================== | =========================== | ============= | ============= |
+| Yes      | series tag     | station_name                | Station Name                | text          | text          |
+| Yes      | time           | measurement_timestamp       | Measurement Timestamp       | calendar_date | calendar_date |
+| Yes      | numeric metric | air_temperature             | Air Temperature             | number        | number        |
+| Yes      | numeric metric | wet_bulb_temperature        | Wet Bulb Temperature        | number        | number        |
+| Yes      | numeric metric | humidity                    | Humidity                    | number        | number        |
+| Yes      | numeric metric | rain_intensity              | Rain Intensity              | number        | number        |
+| Yes      | numeric metric | interval_rain               | Interval Rain               | number        | number        |
+| Yes      | numeric metric | total_rain                  | Total Rain                  | number        | number        |
+| Yes      | numeric metric | precipitation_type          | Precipitation Type          | number        | number        |
+| Yes      | numeric metric | wind_direction              | Wind Direction              | number        | number        |
+| Yes      | numeric metric | wind_speed                  | Wind Speed                  | number        | number        |
+| Yes      | numeric metric | maximum_wind_speed          | Maximum Wind Speed          | number        | number        |
+| Yes      | numeric metric | barometric_pressure         | Barometric Pressure         | number        | number        |
+| Yes      | numeric metric | solar_radiation             | Solar Radiation             | number        | number        |
+| Yes      | numeric metric | heading                     | Heading                     | number        | number        |
+| Yes      | numeric metric | battery_life                | Battery Life                | number        | number        |
+| No       |                | measurement_timestamp_label | Measurement Timestamp Label | text          | text          |
+| No       |                | measurement_id              | Measurement ID              | text          | text          |
 ```
 
 ## Time Field
@@ -54,10 +57,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = measurement_id,measurement_timestamp_label
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -103,9 +103,9 @@ metric m:battery_life l:"Battery Life" d:"Battery voltage, an indicator of remai
 
 entity e:7edu-s3u7 l:"Beach Weather Stations - Automated Sensors - 2016 - Humidity" t:attribution="Chicago Park District" t:url=https://data.cityofchicago.org/api/views/7edu-s3u7
 
-property e:7edu-s3u7 t:meta.view d:2017-03-07T16:15:36.318Z v:id=7edu-s3u7 v:category="Parks & Recreation" v:attributionLink=http://www.chicagoparkdistrict.com v:averageRating=0 v:name="Beach Weather Stations - Automated Sensors - 2016 - Humidity" v:attribution="Chicago Park District"
+property e:7edu-s3u7 t:meta.view v:id=7edu-s3u7 v:category="Parks & Recreation" v:attributionLink=http://www.chicagoparkdistrict.com v:averageRating=0 v:name="Beach Weather Stations - Automated Sensors - 2016 - Humidity" v:attribution="Chicago Park District"
 
-property e:7edu-s3u7 t:meta.view.owner d:2017-03-07T16:15:36.318Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:7edu-s3u7 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 
-property e:7edu-s3u7 t:meta.view.tableauthor d:2017-03-07T16:15:36.318Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:7edu-s3u7 t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```

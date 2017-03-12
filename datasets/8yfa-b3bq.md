@@ -2,17 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/8yfa-b3bq/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/austintexas-gov-top-50-pages-by-pageviews)
-* [Metadata URL](https://data.austintexas.gov/api/views/8yfa-b3bq)
-* Id = 8yfa-b3bq
-* Name = Austintexas.gov - Top 50 Pages By Pageviews
-* Attribution = City of Austin
-* [Attribution Link](http://www.google.com/analytics)
-* Tags = [austintexas.gov, popular pages, percent exit, bounce rate, entrances, average time on page, unique pageviews, pageviews]
-* Created = 2015-04-21T15:45:40Z
-* Publication Date = 2017-01-09T18:16:53Z
-* Rows Updated = 2017-01-09T18:16:40Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/austintexas-gov-top-50-pages-by-pageviews) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/8yfa-b3bq) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/8yfa-b3bq/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/8yfa-b3bq/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | 8yfa-b3bq |
+| Name | Austintexas.gov - Top 50 Pages By Pageviews |
+| Attribution | City of Austin |
+| Tags | austintexas.gov, popular pages, percent exit, bounce rate, entrances, average time on page, unique pageviews, pageviews |
+| Created | 2015-04-21T15:45:40Z |
+| Publication Date | 2017-01-09T18:16:53Z |
+| Rows Updated | 2017-01-09T18:16:40Z |
 
 ## Description
 
@@ -27,16 +30,16 @@ Percent Exit: (number of exits) / (number of pageviews) for the page or set of p
 ## Columns
 
 ```ls
-| Name              | Field Name       | Data Type | Render Type | Schema Type    | Included | 
-| ================= | ================ | ========= | =========== | ============== | ======== | 
-| updated_at        | :updated_at      | meta_data | meta_data   | time           | No       | 
-| Page              | page             | url       | url         | series tag     | Yes      | 
-| Pageviews         | pageviews        | number    | text        | numeric metric | Yes      | 
-| Unique Pageviews  | unique_pageviews | number    | text        | numeric metric | Yes      | 
-| Avg. Time on Page | avg_time_on_page | text      | text        | series tag     | Yes      | 
-| Entrances         | entrances        | number    | text        | numeric metric | Yes      | 
-| Bounce Rate       | bounce_rate      | percent   | percent     | numeric metric | Yes      | 
-| % Exit            | exit             | percent   | percent     | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name       | Name              | Data Type | Render Type |
+| ======== | ============== | ================ | ================= | ========= | =========== |
+| No       | time           | :updated_at      | updated_at        | meta_data | meta_data   |
+| Yes      | series tag     | page             | Page              | url       | url         |
+| Yes      | numeric metric | pageviews        | Pageviews         | number    | text        |
+| Yes      | numeric metric | unique_pageviews | Unique Pageviews  | number    | text        |
+| Yes      | series tag     | avg_time_on_page | Avg. Time on Page | text      | text        |
+| Yes      | numeric metric | entrances        | Entrances         | number    | text        |
+| Yes      | numeric metric | bounce_rate      | Bounce Rate       | percent   | percent     |
+| Yes      | numeric metric | exit             | % Exit            | percent   | percent     |
 ```
 
 ## Time Field
@@ -44,15 +47,6 @@ Percent Exit: (number of exits) / (number of pageviews) for the page or set of p
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,11 +70,11 @@ metric m:entrances l:Entrances t:dataTypeName=number
 
 entity e:8yfa-b3bq l:"Austintexas.gov  - Top 50 Pages By Pageviews" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/8yfa-b3bq
 
-property e:8yfa-b3bq t:meta.view d:2017-03-08T02:24:00.362Z v:id=8yfa-b3bq v:attributionLink=http://www.google.com/analytics v:averageRating=0 v:name="Austintexas.gov  - Top 50 Pages By Pageviews" v:attribution="City of Austin"
+property e:8yfa-b3bq t:meta.view v:id=8yfa-b3bq v:attributionLink=http://www.google.com/analytics v:averageRating=0 v:name="Austintexas.gov  - Top 50 Pages By Pageviews" v:attribution="City of Austin"
 
-property e:8yfa-b3bq t:meta.view.license d:2017-03-08T02:24:00.362Z v:name="Public Domain"
+property e:8yfa-b3bq t:meta.view.license v:name="Public Domain"
 
-property e:8yfa-b3bq t:meta.view.owner d:2017-03-08T02:24:00.362Z v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
+property e:8yfa-b3bq t:meta.view.owner v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
 
-property e:8yfa-b3bq t:meta.view.tableauthor d:2017-03-08T02:24:00.362Z v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
+property e:8yfa-b3bq t:meta.view.tableauthor v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
 ```

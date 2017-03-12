@@ -44,9 +44,9 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```ls
 series e:jcxs-qmaz d:2016-03-07T00:00:00.000Z t:cotacts_registered_1st_quarter_2016="Westside Civic Club" m:projected_total_by_end_of_quarter=10
 
-series e:jcxs-qmaz d:2017-03-11T20:43:39.967Z t:cotacts_registered_1st_quarter_2016="Contact projection for 2nd quarter 2016" m:projected_total_by_end_of_quarter=7
+series e:jcxs-qmaz d:2017-03-12T10:49:33.739Z t:cotacts_registered_1st_quarter_2016="Contact projection for 2nd quarter 2016" m:projected_total_by_end_of_quarter=7
 
-series e:jcxs-qmaz d:2017-03-11T20:43:39.967Z t:cotacts_registered_1st_quarter_2016="Contacts for 3rd and 4th Quarters" m:projected_total_by_end_of_quarter=13
+series e:jcxs-qmaz d:2017-03-12T10:49:33.739Z t:cotacts_registered_1st_quarter_2016="Contacts for 3rd and 4th Quarters" m:projected_total_by_end_of_quarter=13
 ```
 
 ## Meta Commands

@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.iowa.gov/api/views/u4pw-exke/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/network-commercial-and-industrial)
-* [Metadata URL](https://data.iowa.gov/api/views/u4pw-exke)
-* Id = u4pw-exke
-* Name = Network - Commercial and Industrial
-* Attribution = Iowa Department of Transportation - Office of Research and Analytics
-* Category = Transportation & Utilities
-* Tags = [nhs, network, road, route, transportation, lrs, fcc, commercial, industrial, asset, classification, iowa dot, iowa department of transportation]
-* Created = 2016-11-08T18:04:10Z
-* Publication Date = 2016-11-08T18:08:27Z
-* Rows Updated = 2016-11-08T18:04:10Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/network-commercial-and-industrial) |
+| Metadata | [Link](https://data.iowa.gov/api/views/u4pw-exke) |
+| Data: JSON | [100 Rows](https://data.iowa.gov/api/views/u4pw-exke/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.iowa.gov/api/views/u4pw-exke/rows.csv?max_rows=100) |
+| Host | data.iowa.gov |
+| Id | u4pw-exke |
+| Name | Network - Commercial and Industrial |
+| Attribution | Iowa Department of Transportation - Office of Research and Analytics |
+| Category | Transportation & Utilities |
+| Tags | nhs, network, road, route, transportation, lrs, fcc, commercial, industrial, asset, classification, iowa dot, iowa department of transportation |
+| Created | 2016-11-08T18:04:10Z |
+| Publication Date | 2016-11-08T18:08:27Z |
+| Rows Updated | 2016-11-08T18:04:10Z |
 
 ## Description
 
@@ -40,61 +44,61 @@ b. The network of commercial and industrial highways shall not exceed two thousa
 ## Columns
 
 ```ls
-| Name                    | Field Name              | Data Type  | Render Type | Schema Type    | Included | 
-| ======================= | ======================= | ========== | =========== | ============== | ======== | 
-| updated_at              | :updated_at             | meta_data  | meta_data   | time           | No       | 
-| ID                      | id                      | text       | text        |                | No       | 
-| ROUTEID                 | routeid                 | text       | text        | series tag     | Yes      | 
-| FROMMEASURE             | frommeasure             | number     | number      | numeric metric | Yes      | 
-| TOMEASURE               | tomeasure               | number     | number      | numeric metric | Yes      | 
-| COUNTY_NUMBER           | county_number           | number     | number      | numeric metric | Yes      | 
-| ROAD_SYSTEM             | road_system             | number     | number      | numeric metric | Yes      | 
-| ROAD_STATUS             | road_status             | number     | number      | numeric metric | Yes      | 
-| ROUTE_NAME              | route_name              | text       | text        | series tag     | Yes      | 
-| ROUTE_NAME_1            | route_name_1            | text       | text        | series tag     | Yes      | 
-| ROUTE_NAME_2            | route_name_2            | text       | text        | series tag     | Yes      | 
-| ROUTE_NAME_3            | route_name_3            | text       | text        | series tag     | Yes      | 
-| ROUTE_NAME_4            | route_name_4            | text       | text        | series tag     | Yes      | 
-| H_AND_T                 | h_and_t                 | number     | number      | numeric metric | Yes      | 
-| CITY_NUMBER             | city_number             | number     | number      | numeric metric | Yes      | 
-| URBAN_AREA_CODE         | urban_area_code         | text       | number      | series tag     | Yes      | 
-| ADJACENT_CITY_NUMBER    | adjacent_city_number    | number     | number      | numeric metric | Yes      | 
-| ADJACENT_COUNTY_NUMBER  | adjacent_county_number  | number     | number      | numeric metric | Yes      | 
-| TOLL_CHARGED            | toll_charged            | number     | number      | numeric metric | Yes      | 
-| FED_FUNCTIONAL_CLASS    | fed_functional_class    | number     | number      | numeric metric | Yes      | 
-| NATIONAL_HIGHWAY_SYSTEM | national_highway_system | number     | number      | numeric metric | Yes      | 
-| ACCESS_CONTROL          | access_control          | number     | number      | numeric metric | Yes      | 
-| FACILITY_TYPE           | facility_type           | number     | number      | numeric metric | Yes      | 
-| COST_GROUP              | cost_group              | number     | number      | numeric metric | Yes      | 
-| TRUCK_ROUTE             | truck_route             | number     | number      | numeric metric | Yes      | 
-| HIGHWAY_RESPONSIBILITY  | highway_responsibility  | text       | text        | series tag     | Yes      | 
-| COMMERCIAL_NETWORK      | commercial_network      | number     | number      | numeric metric | Yes      | 
-| PLANNING_CLASS          | planning_class          | number     | number      | numeric metric | Yes      | 
-| MEDIAN_TYPE             | median_type             | number     | number      | numeric metric | Yes      | 
-| MEDIAN_WIDTH            | median_width            | number     | number      | numeric metric | Yes      | 
-| NUMBER_LANES            | number_lanes            | number     | number      | numeric metric | Yes      | 
-| LANE_TYPE               | lane_type               | text       | text        | series tag     | Yes      | 
-| LANE_POSITION           | lane_position           | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_1             | lane_type_1             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_1         | lane_position_1         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_2             | lane_type_2             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_2         | lane_position_2         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_3             | lane_type_3             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_3         | lane_position_3         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_4             | lane_type_4             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_4         | lane_position_4         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_5             | lane_type_5             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_5         | lane_position_5         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_6             | lane_type_6             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_6         | lane_position_6         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_7             | lane_type_7             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_7         | lane_position_7         | text       | text        | series tag     | Yes      | 
-| LANE_TYPE_8             | lane_type_8             | text       | text        | series tag     | Yes      | 
-| LANE_POSITION_8         | lane_position_8         | text       | text        | series tag     | Yes      | 
-| COUNTY_NAME             | county_name             | text       | text        | series tag     | Yes      | 
-| SHAPE.LEN               | shape_len               | number     | number      | numeric metric | Yes      | 
-| OBJECTID                | objectid                | text       | number      | series tag     | Yes      | 
-| SHAPE                   | shape                   | geospatial | geospatial  | series tag     | Yes      | 
+| Included | Schema Type    | Field Name              | Name                    | Data Type  | Render Type |
+| ======== | ============== | ======================= | ======================= | ========== | =========== |
+| No       | time           | :updated_at             | updated_at              | meta_data  | meta_data   |
+| No       |                | id                      | ID                      | text       | text        |
+| Yes      | series tag     | routeid                 | ROUTEID                 | text       | text        |
+| Yes      | numeric metric | frommeasure             | FROMMEASURE             | number     | number      |
+| Yes      | numeric metric | tomeasure               | TOMEASURE               | number     | number      |
+| Yes      | numeric metric | county_number           | COUNTY_NUMBER           | number     | number      |
+| Yes      | numeric metric | road_system             | ROAD_SYSTEM             | number     | number      |
+| Yes      | numeric metric | road_status             | ROAD_STATUS             | number     | number      |
+| Yes      | series tag     | route_name              | ROUTE_NAME              | text       | text        |
+| Yes      | series tag     | route_name_1            | ROUTE_NAME_1            | text       | text        |
+| Yes      | series tag     | route_name_2            | ROUTE_NAME_2            | text       | text        |
+| Yes      | series tag     | route_name_3            | ROUTE_NAME_3            | text       | text        |
+| Yes      | series tag     | route_name_4            | ROUTE_NAME_4            | text       | text        |
+| Yes      | numeric metric | h_and_t                 | H_AND_T                 | number     | number      |
+| Yes      | numeric metric | city_number             | CITY_NUMBER             | number     | number      |
+| Yes      | series tag     | urban_area_code         | URBAN_AREA_CODE         | text       | number      |
+| Yes      | numeric metric | adjacent_city_number    | ADJACENT_CITY_NUMBER    | number     | number      |
+| Yes      | numeric metric | adjacent_county_number  | ADJACENT_COUNTY_NUMBER  | number     | number      |
+| Yes      | numeric metric | toll_charged            | TOLL_CHARGED            | number     | number      |
+| Yes      | numeric metric | fed_functional_class    | FED_FUNCTIONAL_CLASS    | number     | number      |
+| Yes      | numeric metric | national_highway_system | NATIONAL_HIGHWAY_SYSTEM | number     | number      |
+| Yes      | numeric metric | access_control          | ACCESS_CONTROL          | number     | number      |
+| Yes      | numeric metric | facility_type           | FACILITY_TYPE           | number     | number      |
+| Yes      | numeric metric | cost_group              | COST_GROUP              | number     | number      |
+| Yes      | numeric metric | truck_route             | TRUCK_ROUTE             | number     | number      |
+| Yes      | series tag     | highway_responsibility  | HIGHWAY_RESPONSIBILITY  | text       | text        |
+| Yes      | numeric metric | commercial_network      | COMMERCIAL_NETWORK      | number     | number      |
+| Yes      | numeric metric | planning_class          | PLANNING_CLASS          | number     | number      |
+| Yes      | numeric metric | median_type             | MEDIAN_TYPE             | number     | number      |
+| Yes      | numeric metric | median_width            | MEDIAN_WIDTH            | number     | number      |
+| Yes      | numeric metric | number_lanes            | NUMBER_LANES            | number     | number      |
+| Yes      | series tag     | lane_type               | LANE_TYPE               | text       | text        |
+| Yes      | series tag     | lane_position           | LANE_POSITION           | text       | text        |
+| Yes      | series tag     | lane_type_1             | LANE_TYPE_1             | text       | text        |
+| Yes      | series tag     | lane_position_1         | LANE_POSITION_1         | text       | text        |
+| Yes      | series tag     | lane_type_2             | LANE_TYPE_2             | text       | text        |
+| Yes      | series tag     | lane_position_2         | LANE_POSITION_2         | text       | text        |
+| Yes      | series tag     | lane_type_3             | LANE_TYPE_3             | text       | text        |
+| Yes      | series tag     | lane_position_3         | LANE_POSITION_3         | text       | text        |
+| Yes      | series tag     | lane_type_4             | LANE_TYPE_4             | text       | text        |
+| Yes      | series tag     | lane_position_4         | LANE_POSITION_4         | text       | text        |
+| Yes      | series tag     | lane_type_5             | LANE_TYPE_5             | text       | text        |
+| Yes      | series tag     | lane_position_5         | LANE_POSITION_5         | text       | text        |
+| Yes      | series tag     | lane_type_6             | LANE_TYPE_6             | text       | text        |
+| Yes      | series tag     | lane_position_6         | LANE_POSITION_6         | text       | text        |
+| Yes      | series tag     | lane_type_7             | LANE_TYPE_7             | text       | text        |
+| Yes      | series tag     | lane_position_7         | LANE_POSITION_7         | text       | text        |
+| Yes      | series tag     | lane_type_8             | LANE_TYPE_8             | text       | text        |
+| Yes      | series tag     | lane_position_8         | LANE_POSITION_8         | text       | text        |
+| Yes      | series tag     | county_name             | COUNTY_NAME             | text       | text        |
+| Yes      | numeric metric | shape_len               | SHAPE.LEN               | number     | number      |
+| Yes      | series tag     | objectid                | OBJECTID                | text       | number      |
+| Yes      | series tag     | shape                   | SHAPE                   | geospatial | geospatial  |
 ```
 
 ## Time Field
@@ -107,10 +111,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = id
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -172,9 +173,9 @@ metric m:shape_len l:SHAPE.LEN d:"Length (Meter)" t:dataTypeName=number
 
 entity e:u4pw-exke l:"Network - Commercial and Industrial" t:attribution="Iowa Department of Transportation - Office of Research and Analytics" t:url=https://data.iowa.gov/api/views/u4pw-exke
 
-property e:u4pw-exke t:meta.view d:2017-03-08T01:53:44.754Z v:id=u4pw-exke v:category="Transportation & Utilities" v:averageRating=0 v:name="Network - Commercial and Industrial" v:attribution="Iowa Department of Transportation - Office of Research and Analytics"
+property e:u4pw-exke t:meta.view v:id=u4pw-exke v:category="Transportation & Utilities" v:averageRating=0 v:name="Network - Commercial and Industrial" v:attribution="Iowa Department of Transportation - Office of Research and Analytics"
 
-property e:u4pw-exke t:meta.view.owner d:2017-03-08T01:53:44.754Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:u4pw-exke t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:u4pw-exke t:meta.view.tableauthor d:2017-03-08T01:53:44.754Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:u4pw-exke t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

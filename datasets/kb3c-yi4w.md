@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ct.gov/api/views/kb3c-yi4w/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/mill-rates-for-2017-fiscal-year)
-* Id = kb3c-yi4w
-* Name = Mill Rates for 2017 Fiscal Year
-* Attribution = Office of Policy and Managment
-* Attribution Link = http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976
-* Category = Government
-* Tags = [mill rates, mill, tax, towns, municipal]
-* Created = 2017-01-30T20:30:47Z
-* Publication Date = 2017-01-30T20:33:09Z
-* Rows Updated = 2017-01-30T20:30:51Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/mill-rates-for-2017-fiscal-year) |
+| Metadata | [Link](https://data.ct.gov/api/views/kb3c-yi4w) |
+| Data: JSON | [100 Rows](https://data.ct.gov/api/views/kb3c-yi4w/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ct.gov/api/views/kb3c-yi4w/rows.csv?max_rows=100) |
+| Host | data.ct.gov |
+| Id | kb3c-yi4w |
+| Name | Mill Rates for 2017 Fiscal Year |
+| Attribution | Office of Policy and Managment |
+| Category | Government |
+| Tags | mill rates, mill, tax, towns, municipal |
+| Created | 2017-01-30T20:30:47Z |
+| Publication Date | 2017-01-30T20:33:09Z |
+| Rows Updated | 2017-01-30T20:30:51Z |
 
 ## Description
 
@@ -23,15 +27,15 @@ Local property tax mill rates have been set for individual Connecticut municipal
 ## Columns
 
 ```ls
-| Name                                                                | Field Name                                                    | Data Type | Render Type | Schema Type    | Included | 
-| =================================================================== | ============================================================= | ========= | =========== | ============== | ======== | 
-| updated_at                                                          | :updated_at                                                   | meta_data | meta_data   | time           | Yes      | 
-| Code                                                                | code                                                          | number    | number      | numeric metric | Yes      | 
-| Service District Code                                               | service_district_code                                         | text      | number      | series tag     | Yes      | 
-| Municipality                                                        | municipality                                                  | text      | text        | series tag     | Yes      | 
-| FY 2017 Mill Rate                                                   | fy_2017_mill_rate                                             | number    | number      | numeric metric | Yes      | 
-| FY 2017 Mill Rate - Real & Personal Property (PA 16-3 S.189 May SS) | fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss | number    | number      | numeric metric | Yes      | 
-| FY 2017 Mill Rate - Motor Vehicle (PA 16-3 S.189 May SS)            | fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss          | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                                    | Name                                                                | Data Type | Render Type |
+| ======== | ============== | ============================================================= | =================================================================== | ========= | =========== |
+| No       | time           | :updated_at                                                   | updated_at                                                          | meta_data | meta_data   |
+| Yes      | numeric metric | code                                                          | Code                                                                | number    | number      |
+| Yes      | series tag     | service_district_code                                         | Service District Code                                               | text      | number      |
+| Yes      | series tag     | municipality                                                  | Municipality                                                        | text      | text        |
+| Yes      | numeric metric | fy_2017_mill_rate                                             | FY 2017 Mill Rate                                                   | number    | number      |
+| Yes      | numeric metric | fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss | FY 2017 Mill Rate - Real & Personal Property (PA 16-3 S.189 May SS) | number    | number      |
+| Yes      | numeric metric | fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss          | FY 2017 Mill Rate - Motor Vehicle (PA 16-3 S.189 May SS)            | number    | number      |
 ```
 
 ## Time Field
@@ -39,15 +43,6 @@ Local property tax mill rates have been set for individual Connecticut municipal
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -73,11 +68,11 @@ metric m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss l:"FY 2017 Mill Ra
 
 entity e:kb3c-yi4w l:"Mill Rates for 2017 Fiscal Year" t:attribution="Office of Policy and Managment" t:url=https://data.ct.gov/api/views/kb3c-yi4w
 
-property e:kb3c-yi4w t:meta.view d:2017-03-03T14:17:26.286Z v:id=kb3c-yi4w v:category=Government v:attributionLink="http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976" v:averageRating=0 v:name="Mill Rates for 2017 Fiscal Year" v:attribution="Office of Policy and Managment"
+property e:kb3c-yi4w t:meta.view v:id=kb3c-yi4w v:category=Government v:attributionLink="http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976" v:averageRating=0 v:name="Mill Rates for 2017 Fiscal Year" v:attribution="Office of Policy and Managment"
 
-property e:kb3c-yi4w t:meta.view.license d:2017-03-03T14:17:26.286Z v:name="Public Domain"
+property e:kb3c-yi4w t:meta.view.license v:name="Public Domain"
 
-property e:kb3c-yi4w t:meta.view.owner d:2017-03-03T14:17:26.286Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 
-property e:kb3c-yi4w t:meta.view.tableauthor d:2017-03-03T14:17:26.286Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```

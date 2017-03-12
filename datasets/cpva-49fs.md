@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/cpva-49fs/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/libraries-2012-holds-placed-by-location-7fc19)
-* [Metadata URL](https://data.cityofchicago.org/api/views/cpva-49fs)
-* Id = cpva-49fs
-* Name = Libraries - 2012 Holds Placed by Location
-* Attribution = Chicago Public Library
-* [Attribution Link](http://chipublib.org)
-* Category = Education
-* Tags = [libraries, holds]
-* Created = 2012-02-17T21:26:21Z
-* Publication Date = 2013-04-08T21:31:48Z
-* Rows Updated = 2013-04-08T21:30:29Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/libraries-2012-holds-placed-by-location-7fc19) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/cpva-49fs) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/cpva-49fs/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/cpva-49fs/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | cpva-49fs |
+| Name | Libraries - 2012 Holds Placed by Location |
+| Attribution | Chicago Public Library |
+| Category | Education |
+| Tags | libraries, holds |
+| Created | 2012-02-17T21:26:21Z |
+| Publication Date | 2013-04-08T21:31:48Z |
+| Rows Updated | 2013-04-08T21:30:29Z |
 
 ## Description
 
@@ -22,26 +25,26 @@ Patrons may place holds on desired materials either online or by contacting any 
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | No       | 
-| LOCATION   | location    | text      | text        | series tag     | Yes      | 
-| ADDRESS    | address     | text      | text        |                | No       | 
-| CITY       | city        | text      | text        | series tag     | Yes      | 
-| ZIP        | zip         | text      | text        | series tag     | Yes      | 
-| JANUARY    | january     | number    | number      | numeric metric | Yes      | 
-| FEBRUARY   | february    | number    | number      | numeric metric | Yes      | 
-| MARCH      | march       | number    | number      | numeric metric | Yes      | 
-| APRIL      | april       | number    | number      | numeric metric | Yes      | 
-| MAY        | may         | number    | number      | numeric metric | Yes      | 
-| JUNE       | june        | number    | number      | numeric metric | Yes      | 
-| JULY       | july        | number    | number      | numeric metric | Yes      | 
-| AUGUST     | august      | number    | number      | numeric metric | Yes      | 
-| SEPTEMBER  | september   | number    | number      | numeric metric | Yes      | 
-| OCTOBER    | october     | number    | number      | numeric metric | Yes      | 
-| NOVEMBER   | november    | number    | number      | numeric metric | Yes      | 
-| DECEMBER   | december    | number    | number      | numeric metric | Yes      | 
-| YTD        | ytd         | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | location    | LOCATION   | text      | text        |
+| No       |                | address     | ADDRESS    | text      | text        |
+| Yes      | series tag     | city        | CITY       | text      | text        |
+| Yes      | series tag     | zip         | ZIP        | text      | text        |
+| Yes      | numeric metric | january     | JANUARY    | number    | number      |
+| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
+| Yes      | numeric metric | march       | MARCH      | number    | number      |
+| Yes      | numeric metric | april       | APRIL      | number    | number      |
+| Yes      | numeric metric | may         | MAY        | number    | number      |
+| Yes      | numeric metric | june        | JUNE       | number    | number      |
+| Yes      | numeric metric | july        | JULY       | number    | number      |
+| Yes      | numeric metric | august      | AUGUST     | number    | number      |
+| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
+| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
+| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
+| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
+| Yes      | numeric metric | ytd         | YTD        | number    | number      |
 ```
 
 ## Time Field
@@ -54,10 +57,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = address
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -101,9 +101,9 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:cpva-49fs l:"Libraries - 2012 Holds Placed by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/cpva-49fs
 
-property e:cpva-49fs t:meta.view d:2017-03-07T17:27:09.474Z v:id=cpva-49fs v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2012 Holds Placed by Location" v:attribution="Chicago Public Library"
+property e:cpva-49fs t:meta.view v:id=cpva-49fs v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2012 Holds Placed by Location" v:attribution="Chicago Public Library"
 
-property e:cpva-49fs t:meta.view.owner d:2017-03-07T17:27:09.474Z v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
+property e:cpva-49fs t:meta.view.owner v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
 
-property e:cpva-49fs t:meta.view.tableauthor d:2017-03-07T17:27:09.474Z v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
+property e:cpva-49fs t:meta.view.tableauthor v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
 ```

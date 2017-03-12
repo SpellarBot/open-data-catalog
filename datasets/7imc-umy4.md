@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/7imc-umy4/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/libraries-2015-visitors-by-location)
-* [Metadata URL](https://data.cityofchicago.org/api/views/7imc-umy4)
-* Id = 7imc-umy4
-* Name = Libraries - 2015 Visitors by Location
-* Attribution = Chicago Public Library
-* Tags = [libraries, visitors]
-* Created = 2015-02-11T22:15:54Z
-* Publication Date = 2016-01-11T19:13:52Z
-* Rows Updated = 2016-01-11T19:12:21Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/libraries-2015-visitors-by-location) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/7imc-umy4) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/7imc-umy4/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/7imc-umy4/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | 7imc-umy4 |
+| Name | Libraries - 2015 Visitors by Location |
+| Attribution | Chicago Public Library |
+| Tags | libraries, visitors |
+| Created | 2015-02-11T22:15:54Z |
+| Publication Date | 2016-01-11T19:13:52Z |
+| Rows Updated | 2016-01-11T19:12:21Z |
 
 ## Description
 
@@ -21,23 +25,23 @@ The Chicago Public Library has more than 70 locations. The Chicago Public Librar
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | No       | 
-| LOCATION   | location    | text      | text        | series tag     | Yes      | 
-| JANUARY    | january     | number    | number      | numeric metric | Yes      | 
-| FEBRUARY   | february    | number    | number      | numeric metric | Yes      | 
-| MARCH      | march       | number    | number      | numeric metric | Yes      | 
-| APRIL      | april       | number    | number      | numeric metric | Yes      | 
-| MAY        | may         | number    | number      | numeric metric | Yes      | 
-| JUNE       | june        | number    | number      | numeric metric | Yes      | 
-| JULY       | july        | number    | number      | numeric metric | Yes      | 
-| AUGUST     | august      | number    | number      | numeric metric | Yes      | 
-| SEPTEMBER  | september   | number    | number      | numeric metric | Yes      | 
-| OCTOBER    | october     | number    | number      | numeric metric | Yes      | 
-| NOVEMBER   | november    | number    | number      | numeric metric | Yes      | 
-| DECEMBER   | december    | number    | number      | numeric metric | Yes      | 
-| YTD        | ytd         | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | location    | LOCATION   | text      | text        |
+| Yes      | numeric metric | january     | JANUARY    | number    | number      |
+| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
+| Yes      | numeric metric | march       | MARCH      | number    | number      |
+| Yes      | numeric metric | april       | APRIL      | number    | number      |
+| Yes      | numeric metric | may         | MAY        | number    | number      |
+| Yes      | numeric metric | june        | JUNE       | number    | number      |
+| Yes      | numeric metric | july        | JULY       | number    | number      |
+| Yes      | numeric metric | august      | AUGUST     | number    | number      |
+| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
+| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
+| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
+| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
+| Yes      | numeric metric | ytd         | YTD        | number    | number      |
 ```
 
 ## Time Field
@@ -45,15 +49,6 @@ The Chicago Public Library has more than 70 locations. The Chicago Public Librar
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -97,9 +92,9 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:7imc-umy4 l:"Libraries - 2015 Visitors by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/7imc-umy4
 
-property e:7imc-umy4 t:meta.view d:2017-03-07T23:48:08.145Z v:id=7imc-umy4 v:averageRating=0 v:name="Libraries - 2015 Visitors by Location" v:attribution="Chicago Public Library"
+property e:7imc-umy4 t:meta.view v:id=7imc-umy4 v:averageRating=0 v:name="Libraries - 2015 Visitors by Location" v:attribution="Chicago Public Library"
 
-property e:7imc-umy4 t:meta.view.owner d:2017-03-07T23:48:08.145Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:7imc-umy4 t:meta.view.owner v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 
-property e:7imc-umy4 t:meta.view.tableauthor d:2017-03-07T23:48:08.145Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:7imc-umy4 t:meta.view.tableauthor v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```

@@ -2,31 +2,32 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.hawaii.gov/api/views/hty7-p2e9/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/2014-elections-contributions-received-more-than-100-by-contibutor-type-99b7e)
-* Id = hty7-p2e9
-* Name = 2014 Elections - Contributions Received (more than $100) by Contibutor Type
-* Category = Community
-* Tags = [cmapaign spending commission]
-* Created = 2015-01-12T21:24:48Z
-* Publication Date = 2015-01-12T21:45:56Z
-* Rows Updated = 2015-01-12T21:45:00Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/2014-elections-contributions-received-more-than-100-by-contibutor-type-99b7e) |
+| Metadata | [Link](https://data.hawaii.gov/api/views/hty7-p2e9) |
+| Data: JSON | [100 Rows](https://data.hawaii.gov/api/views/hty7-p2e9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.hawaii.gov/api/views/hty7-p2e9/rows.csv?max_rows=100) |
+| Host | data.hawaii.gov |
+| Id | hty7-p2e9 |
+| Name | 2014 Elections - Contributions Received (more than $100) by Contibutor Type |
+| Category | Community |
+| Tags | cmapaign spending commission |
+| Created | 2015-01-12T21:24:48Z |
+| Publication Date | 2015-01-12T21:45:56Z |
+| Rows Updated | 2015-01-12T21:45:00Z |
 
 ## Columns
 
 ```ls
-| Name                                       | Field Name                                 | Data Type | Render Type | Schema Type    | Included | 
-| ========================================== | ========================================== | ========= | =========== | ============== | ======== | 
-| updated_at                                 | :updated_at                                | meta_data | meta_data   | time           | Yes      | 
-| Contributor Type                           | contributor_type                           | text      | text        | series tag     | Yes      | 
-| Count                                      | count                                      | number    | number      | numeric metric | Yes      | 
-| Percentage of Total Count                  | percentage_of_total_count                  | percent   | percent     | numeric metric | Yes      | 
-| Total Contribution Received                | total_contribution_received                | money     | money       | numeric metric | Yes      | 
-| Percentage of Total Contributions Received | percentage_of_total_contributions_received | percent   | percent     | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                 | Name                                       | Data Type | Render Type |
+| ======== | ============== | ========================================== | ========================================== | ========= | =========== |
+| No       | time           | :updated_at                                | updated_at                                 | meta_data | meta_data   |
+| Yes      | series tag     | contributor_type                           | Contributor Type                           | text      | text        |
+| Yes      | numeric metric | count                                      | Count                                      | number    | number      |
+| Yes      | numeric metric | percentage_of_total_count                  | Percentage of Total Count                  | percent   | percent     |
+| Yes      | numeric metric | total_contribution_received                | Total Contribution Received                | money     | money       |
+| Yes      | numeric metric | percentage_of_total_contributions_received | Percentage of Total Contributions Received | percent   | percent     |
 ```
 
 ## Time Field
@@ -34,15 +35,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -62,11 +54,11 @@ metric m:count p:integer l:Count t:dataTypeName=number
 
 entity e:hty7-p2e9 l:"2014 Elections - Contributions Received (more than $100) by Contibutor Type" t:url=https://data.hawaii.gov/api/views/hty7-p2e9
 
-property e:hty7-p2e9 t:meta.view d:2017-03-03T14:33:26.710Z v:id=hty7-p2e9 v:category=Community v:averageRating=0 v:name="2014 Elections - Contributions Received (more than $100) by Contibutor Type"
+property e:hty7-p2e9 t:meta.view v:id=hty7-p2e9 v:category=Community v:averageRating=0 v:name="2014 Elections - Contributions Received (more than $100) by Contibutor Type"
 
-property e:hty7-p2e9 t:meta.view.license d:2017-03-03T14:33:26.710Z v:name="Public Domain"
+property e:hty7-p2e9 t:meta.view.license v:name="Public Domain"
 
-property e:hty7-p2e9 t:meta.view.owner d:2017-03-03T14:33:26.710Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
+property e:hty7-p2e9 t:meta.view.owner v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
 
-property e:hty7-p2e9 t:meta.view.tableauthor d:2017-03-03T14:33:26.710Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
+property e:hty7-p2e9 t:meta.view.tableauthor v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
 ```

@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.illinois.gov/api/views/xqn9-cme5/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/idot-average-annual-daily-traffic-2006-5756d)
-* [Metadata URL](https://data.illinois.gov/api/views/xqn9-cme5)
-* Id = xqn9-cme5
-* Name = IDOT Average Annual Daily Traffic 2006
-* Attribution = Illinois Department of Transportation
-* Category = Transportation
-* Created = 2011-06-16T20:19:50Z
-* Publication Date = 2012-01-26T16:55:17Z
-* Rows Updated = 2012-01-26T16:41:43Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/idot-average-annual-daily-traffic-2006-5756d) |
+| Metadata | [Link](https://data.illinois.gov/api/views/xqn9-cme5) |
+| Data: JSON | [100 Rows](https://data.illinois.gov/api/views/xqn9-cme5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.illinois.gov/api/views/xqn9-cme5/rows.csv?max_rows=100) |
+| Host | data.illinois.gov |
+| Id | xqn9-cme5 |
+| Name | IDOT Average Annual Daily Traffic 2006 |
+| Attribution | Illinois Department of Transportation |
+| Category | Transportation |
+| Created | 2011-06-16T20:19:50Z |
+| Publication Date | 2012-01-26T16:55:17Z |
+| Rows Updated | 2012-01-26T16:41:43Z |
 
 ## Description
 
@@ -20,24 +24,24 @@ This coverage contains a highway Annual Average Daily Traffic (AADT) subset of t
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | No       | 
-| AADT       | aadt        | text      | text        | series tag     | Yes      | 
-| AADT_YR    | aadt_yr     | number    | text        | numeric metric | Yes      | 
-| MARKED_NAM | marked_nam  | text      | text        | series tag     | Yes      | 
-| ROAD_NAME  | road_name   | text      | text        | series tag     | Yes      | 
-| COUNTY_NAM | county_nam  | text      | text        | series tag     | Yes      | 
-| HCV        | hcv         | text      | text        | series tag     | Yes      | 
-| HCV_MU_YR  | hcv_mu_yr   | number    | text        | numeric metric | Yes      | 
-| MU_VOL     | mu_vol      | text      | text        | series tag     | Yes      | 
-| SU_VOL     | su_vol      | text      | text        | series tag     | Yes      | 
-| MR_NUMBER  | mr_number   | number    | number      | numeric metric | Yes      | 
-| MR_TYPE    | mr_type     | number    | text        | numeric metric | Yes      | 
-| INVENTORY  | inventory   | text      | text        | series tag     | Yes      | 
-| KEY_RT_NBR | key_rt_nbr  | number    | number      | numeric metric | Yes      | 
-| POINT_X    | point_x     | number    | number      | numeric metric | Yes      | 
-| POINT_Y    | point_y     | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | aadt        | AADT       | text      | text        |
+| Yes      | numeric metric | aadt_yr     | AADT_YR    | number    | text        |
+| Yes      | series tag     | marked_nam  | MARKED_NAM | text      | text        |
+| Yes      | series tag     | road_name   | ROAD_NAME  | text      | text        |
+| Yes      | series tag     | county_nam  | COUNTY_NAM | text      | text        |
+| Yes      | series tag     | hcv         | HCV        | text      | text        |
+| Yes      | numeric metric | hcv_mu_yr   | HCV_MU_YR  | number    | text        |
+| Yes      | series tag     | mu_vol      | MU_VOL     | text      | text        |
+| Yes      | series tag     | su_vol      | SU_VOL     | text      | text        |
+| Yes      | numeric metric | mr_number   | MR_NUMBER  | number    | number      |
+| Yes      | numeric metric | mr_type     | MR_TYPE    | number    | text        |
+| Yes      | series tag     | inventory   | INVENTORY  | text      | text        |
+| Yes      | numeric metric | key_rt_nbr  | KEY_RT_NBR | number    | number      |
+| Yes      | numeric metric | point_x     | POINT_X    | number    | number      |
+| Yes      | numeric metric | point_y     | POINT_Y    | number    | number      |
 ```
 
 ## Time Field
@@ -45,15 +49,6 @@ This coverage contains a highway Annual Average Daily Traffic (AADT) subset of t
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -83,9 +78,9 @@ metric m:point_y l:POINT_Y t:dataTypeName=number
 
 entity e:xqn9-cme5 l:"IDOT Average Annual Daily Traffic 2006" t:attribution="Illinois Department of Transportation" t:url=https://data.illinois.gov/api/views/xqn9-cme5
 
-property e:xqn9-cme5 t:meta.view d:2017-03-07T18:05:39.812Z v:id=xqn9-cme5 v:category=Transportation v:averageRating=0 v:name="IDOT Average Annual Daily Traffic 2006" v:attribution="Illinois Department of Transportation"
+property e:xqn9-cme5 t:meta.view v:id=xqn9-cme5 v:category=Transportation v:averageRating=0 v:name="IDOT Average Annual Daily Traffic 2006" v:attribution="Illinois Department of Transportation"
 
-property e:xqn9-cme5 t:meta.view.owner d:2017-03-07T18:05:39.812Z v:id=ibpp-yb7w v:screenName="Jim Conlon" v:displayName="Jim Conlon"
+property e:xqn9-cme5 t:meta.view.owner v:id=ibpp-yb7w v:screenName="Jim Conlon" v:displayName="Jim Conlon"
 
-property e:xqn9-cme5 t:meta.view.tableauthor d:2017-03-07T18:05:39.812Z v:id=ibpp-yb7w v:screenName="Jim Conlon" v:displayName="Jim Conlon"
+property e:xqn9-cme5 t:meta.view.tableauthor v:id=ibpp-yb7w v:screenName="Jim Conlon" v:displayName="Jim Conlon"
 ```

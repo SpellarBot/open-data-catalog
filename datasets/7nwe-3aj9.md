@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://chronicdata.cdc.gov/api/views/7nwe-3aj9/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/the-tax-burden-on-tobacco-volume-49-1970-2014)
-* Id = 7nwe-3aj9
-* Name = The Tax Burden on Tobacco Volume 49, 1970-2014
-* Attribution = Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health
-* Attribution Link = http://www.cdc.gov/tobacco/STATESystem
-* Category = Policy
-* Tags = [osh, office on smoking and health, tax, tax burden on tobacco, cigarette sales, average cost per pack]
-* Created = 2014-05-27T11:46:47Z
-* Publication Date = 2017-02-07T12:20:46Z
-* Rows Updated = 2017-02-06T18:22:12Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/the-tax-burden-on-tobacco-volume-49-1970-2014) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/7nwe-3aj9) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/7nwe-3aj9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/7nwe-3aj9/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
+| Id | 7nwe-3aj9 |
+| Name | The Tax Burden on Tobacco Volume 49, 1970-2014 |
+| Attribution | Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health |
+| Category | Policy |
+| Tags | osh, office on smoking and health, tax, tax burden on tobacco, cigarette sales, average cost per pack |
+| Created | 2014-05-27T11:46:47Z |
+| Publication Date | 2017-02-07T12:20:46Z |
+| Rows Updated | 2017-02-06T18:22:12Z |
 
 ## Description
 
@@ -21,24 +25,24 @@
 ## Columns
 
 ```ls
-| Name                     | Field Name               | Data Type | Render Type | Schema Type    | Included | 
-| ======================== | ======================== | ========= | =========== | ============== | ======== | 
-| LocationAbbr             | locationabbr             | text      | text        | series tag     | Yes      | 
-| LocationDesc             | locationdesc             | text      | text        | series tag     | Yes      | 
-| Year                     | year                     | number    | number      | time           | Yes      | 
-| Datasource               | datasource               | text      | text        | series tag     | Yes      | 
-| TopicDesc                | topicdesc                | text      | text        | series tag     | Yes      | 
-| MeasureDesc              | measuredesc              | text      | text        | series tag     | Yes      | 
-| SubMeasureDesc           | submeasuredesc           | text      | text        | series tag     | Yes      | 
-| Data_Value               | data_value               | number    | number      | numeric metric | Yes      | 
-| Data_Value_Unit          | data_value_unit          | number    | text        |                | No       | 
-| Data_Value_Type          | data_value_type          | text      | text        |                | No       | 
-| Source                   | source                   | text      | text        | series tag     | Yes      | 
-| TopicTypeId              | topictypeid              | text      | text        | series tag     | Yes      | 
-| TopicId                  | topicid                  | text      | text        | series tag     | Yes      | 
-| MeasureId                | measureid                | text      | text        | series tag     | Yes      | 
-| SubMeasureID             | submeasureid             | text      | text        | series tag     | Yes      | 
-| SubMeasureIdDisplayOrder | submeasureiddisplayorder | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name               | Name                     | Data Type | Render Type |
+| ======== | ============== | ======================== | ======================== | ========= | =========== |
+| Yes      | series tag     | locationabbr             | LocationAbbr             | text      | text        |
+| Yes      | series tag     | locationdesc             | LocationDesc             | text      | text        |
+| Yes      | time           | year                     | Year                     | number    | number      |
+| Yes      | series tag     | datasource               | Datasource               | text      | text        |
+| Yes      | series tag     | topicdesc                | TopicDesc                | text      | text        |
+| Yes      | series tag     | measuredesc              | MeasureDesc              | text      | text        |
+| Yes      | series tag     | submeasuredesc           | SubMeasureDesc           | text      | text        |
+| Yes      | numeric metric | data_value               | Data_Value               | number    | number      |
+| No       |                | data_value_unit          | Data_Value_Unit          | number    | text        |
+| No       |                | data_value_type          | Data_Value_Type          | text      | text        |
+| Yes      | series tag     | source                   | Source                   | text      | text        |
+| Yes      | series tag     | topictypeid              | TopicTypeId              | text      | text        |
+| Yes      | series tag     | topicid                  | TopicId                  | text      | text        |
+| Yes      | series tag     | measureid                | MeasureId                | text      | text        |
+| Yes      | series tag     | submeasureid             | SubMeasureID             | text      | text        |
+| Yes      | numeric metric | submeasureiddisplayorder | SubMeasureIdDisplayOrder | number    | text        |
 ```
 
 ## Time Field
@@ -51,10 +55,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = data_value_unit,data_value_type
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,11 +77,11 @@ metric m:submeasureiddisplayorder p:integer l:SubMeasureIdDisplayOrder d:"For pr
 
 entity e:7nwe-3aj9 l:"The Tax Burden on Tobacco Volume 49, 1970-2014" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://chronicdata.cdc.gov/api/views/7nwe-3aj9
 
-property e:7nwe-3aj9 t:meta.view d:2017-03-03T14:02:56.450Z v:id=7nwe-3aj9 v:category=Policy v:attributionLink=http://www.cdc.gov/tobacco/STATESystem v:averageRating=0 v:name="The Tax Burden on Tobacco Volume 49, 1970-2014" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
+property e:7nwe-3aj9 t:meta.view v:id=7nwe-3aj9 v:category=Policy v:attributionLink=http://www.cdc.gov/tobacco/STATESystem v:averageRating=0 v:name="The Tax Burden on Tobacco Volume 49, 1970-2014" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
 
-property e:7nwe-3aj9 t:meta.view.owner d:2017-03-03T14:02:56.450Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:7nwe-3aj9 t:meta.view.owner v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:7nwe-3aj9 t:meta.view.tableauthor d:2017-03-03T14:02:56.450Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:7nwe-3aj9 t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:7nwe-3aj9 t:meta.view.metadata.custom_fields.common_core d:2017-03-03T14:02:56.450Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:7nwe-3aj9 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```

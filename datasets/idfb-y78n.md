@@ -2,35 +2,36 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/idfb-y78n/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/recreational-boating-permits-121b6)
-* Id = idfb-y78n
-* Name = Recreational Boating Permits
-* Attribution = Department of Environmental Protection (DEP)
-* Tags = [recreational boating permits, dep, boating]
-* Created = 2014-01-08T18:18:03Z
-* Publication Date = 2016-11-14T22:20:48Z
-* Rows Updated = 2016-11-14T22:20:44Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/recreational-boating-permits-121b6) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/idfb-y78n) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/idfb-y78n/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/idfb-y78n/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | idfb-y78n |
+| Name | Recreational Boating Permits |
+| Attribution | Department of Environmental Protection (DEP) |
+| Tags | recreational boating permits, dep, boating |
+| Created | 2014-01-08T18:18:03Z |
+| Publication Date | 2016-11-14T22:20:48Z |
+| Rows Updated | 2016-11-14T22:20:44Z |
 
 ## Columns
 
 ```ls
-| Name           | Field Name     | Data Type | Render Type | Schema Type    | Included | 
-| ============== | ============== | ========= | =========== | ============== | ======== | 
-| Year           | year           | number    | text        | time           | Yes      | 
-| Basin          | company_name   | text      | text        | series tag     | Yes      | 
-| Permits Issued | permits_issued | number    | text        | numeric metric | Yes      | 
-| Seasonal Tags  | seasonal_tags  | number    | text        | numeric metric | Yes      | 
-| Temporary Tags | temporary_tags | number    | text        | numeric metric | Yes      | 
-| Canoes         | canoes         | number    | text        | numeric metric | Yes      | 
-| Kayaks         | kayaks         | number    | text        | numeric metric | Yes      | 
-| Rowboats       | rowboats       | number    | text        | numeric metric | Yes      | 
-| Sailboats      | sailboats      | number    | text        | numeric metric | Yes      | 
-| Sculls         | sculls         | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
+| ======== | ============== | ============== | ============== | ========= | =========== |
+| Yes      | time           | year           | Year           | number    | text        |
+| Yes      | series tag     | company_name   | Basin          | text      | text        |
+| Yes      | numeric metric | permits_issued | Permits Issued | number    | text        |
+| Yes      | numeric metric | seasonal_tags  | Seasonal Tags  | number    | text        |
+| Yes      | numeric metric | temporary_tags | Temporary Tags | number    | text        |
+| Yes      | numeric metric | canoes         | Canoes         | number    | text        |
+| Yes      | numeric metric | kayaks         | Kayaks         | number    | text        |
+| Yes      | numeric metric | rowboats       | Rowboats       | number    | text        |
+| Yes      | numeric metric | sailboats      | Sailboats      | number    | text        |
+| Yes      | numeric metric | sculls         | Sculls         | number    | text        |
 ```
 
 ## Time Field
@@ -38,15 +39,6 @@
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -80,9 +72,9 @@ metric m:sculls p:integer l:Sculls t:dataTypeName=number
 
 entity e:idfb-y78n l:"Recreational Boating Permits" t:attribution="Department of Environmental Protection (DEP)" t:url=https://data.cityofnewyork.us/api/views/idfb-y78n
 
-property e:idfb-y78n t:meta.view d:2017-03-03T14:37:11.953Z v:id=idfb-y78n v:averageRating=0 v:name="Recreational Boating Permits" v:attribution="Department of Environmental Protection (DEP)"
+property e:idfb-y78n t:meta.view v:id=idfb-y78n v:averageRating=0 v:name="Recreational Boating Permits" v:attribution="Department of Environmental Protection (DEP)"
 
-property e:idfb-y78n t:meta.view.owner d:2017-03-03T14:37:11.953Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:idfb-y78n t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:idfb-y78n t:meta.view.tableauthor d:2017-03-03T14:37:11.953Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:idfb-y78n t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

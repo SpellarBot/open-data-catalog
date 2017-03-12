@@ -2,37 +2,37 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/t8dk-esb7/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/northeast-complete-cd436)
-* [Metadata URL](https://data.wa.gov/api/views/t8dk-esb7)
-* Id = t8dk-esb7
-* Name = Northeast Complete
-* Tags = [state-of-the-salmon]
-* Created = 2015-01-02T20:10:53Z
-* Publication Date = 2015-02-13T21:08:10Z
-* Rows Updated = 2015-02-13T21:08:07Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/northeast-complete-cd436) |
+| Metadata | [Link](https://data.wa.gov/api/views/t8dk-esb7) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/t8dk-esb7/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/t8dk-esb7/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | t8dk-esb7 |
+| Name | Northeast Complete |
+| Tags | state-of-the-salmon |
+| Created | 2015-01-02T20:10:53Z |
+| Publication Date | 2015-02-13T21:08:10Z |
+| Rows Updated | 2015-02-13T21:08:07Z |
 
 ## Columns
 
 ```ls
-| Name                     | Field Name               | Data Type | Render Type | Schema Type    | Included | 
-| ======================== | ======================== | ========= | =========== | ============== | ======== | 
-| Region                   | region                   | text      | text        | series tag     | Yes      | 
-| Year                     | year                     | number    | number      | time           | Yes      | 
-| Estuary Acres Treated    | estuary_acres_treated    | number    | number      | numeric metric | Yes      | 
-| Estuary Projects         | estuary_projects         | number    | number      | numeric metric | Yes      | 
-| Riparian Acres Treated   | riparian_acres_treated   | number    | number      | numeric metric | Yes      | 
-| Riparian Acre Projects   | riparian_acre_projects   | number    | number      | numeric metric | Yes      | 
-| Riparian Miles Treated   | riparian_miles_treated   | number    | number      | numeric metric | Yes      | 
-| Riparian Mile Projects   | riparian_mile_projects   | number    | number      | numeric metric | Yes      | 
-| Stream Miles Opened      | stream_miles_opened      | number    | number      | numeric metric | Yes      | 
-| Stream Mile Projects     | stream_mile_projects     | number    | number      | numeric metric | Yes      | 
-| Barriers Removed/Altered | barriers_removed_altered | number    | number      | numeric metric | Yes      | 
-| Barrier Projects         | barrier_projects         | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name               | Name                     | Data Type | Render Type |
+| ======== | ============== | ======================== | ======================== | ========= | =========== |
+| Yes      | series tag     | region                   | Region                   | text      | text        |
+| Yes      | time           | year                     | Year                     | number    | number      |
+| Yes      | numeric metric | estuary_acres_treated    | Estuary Acres Treated    | number    | number      |
+| Yes      | numeric metric | estuary_projects         | Estuary Projects         | number    | number      |
+| Yes      | numeric metric | riparian_acres_treated   | Riparian Acres Treated   | number    | number      |
+| Yes      | numeric metric | riparian_acre_projects   | Riparian Acre Projects   | number    | number      |
+| Yes      | numeric metric | riparian_miles_treated   | Riparian Miles Treated   | number    | number      |
+| Yes      | numeric metric | riparian_mile_projects   | Riparian Mile Projects   | number    | number      |
+| Yes      | numeric metric | stream_miles_opened      | Stream Miles Opened      | number    | number      |
+| Yes      | numeric metric | stream_mile_projects     | Stream Mile Projects     | number    | number      |
+| Yes      | numeric metric | barriers_removed_altered | Barriers Removed/Altered | number    | number      |
+| Yes      | numeric metric | barrier_projects         | Barrier Projects         | number    | number      |
 ```
 
 ## Time Field
@@ -40,15 +40,6 @@
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -86,9 +77,9 @@ metric m:barrier_projects p:integer l:"Barrier Projects" t:dataTypeName=number
 
 entity e:t8dk-esb7 l:"Northeast Complete" t:url=https://data.wa.gov/api/views/t8dk-esb7
 
-property e:t8dk-esb7 t:meta.view d:2017-03-08T01:37:37.035Z v:id=t8dk-esb7 v:averageRating=0 v:name="Northeast Complete"
+property e:t8dk-esb7 t:meta.view v:id=t8dk-esb7 v:averageRating=0 v:name="Northeast Complete"
 
-property e:t8dk-esb7 t:meta.view.owner d:2017-03-08T01:37:37.035Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:t8dk-esb7 t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 
-property e:t8dk-esb7 t:meta.view.tableauthor d:2017-03-08T01:37:37.035Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:t8dk-esb7 t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

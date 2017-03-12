@@ -2,34 +2,35 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.seattle.gov/api/views/ndi9-2pye/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/transit-communities-fa210)
-* Id = ndi9-2pye
-* Name = Transit communities
-* Category = Transportation
-* Created = 2011-02-14T19:50:08Z
-* Publication Date = 2011-04-17T00:03:09Z
-* Rows Updated = 2011-08-21T02:48:35Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/transit-communities-fa210) |
+| Metadata | [Link](https://data.seattle.gov/api/views/ndi9-2pye) |
+| Data: JSON | [100 Rows](https://data.seattle.gov/api/views/ndi9-2pye/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.seattle.gov/api/views/ndi9-2pye/rows.csv?max_rows=100) |
+| Host | data.seattle.gov |
+| Id | ndi9-2pye |
+| Name | Transit communities |
+| Category | Transportation |
+| Created | 2011-02-14T19:50:08Z |
+| Publication Date | 2011-04-17T00:03:09Z |
+| Rows Updated | 2011-08-21T02:48:35Z |
 
 ## Columns
 
 ```ls
-| Name                      | Field Name              | Data Type | Render Type | Schema Type | Included | 
-| ========================= | ======================= | ========= | =========== | =========== | ======== | 
-| updated_at                | :updated_at             | meta_data | meta_data   | time        | Yes      | 
-| Name                      | name                    | text      | text        | series tag  | Yes      | 
-| Typology                  | typology                | text      | text        | series tag  | Yes      | 
-| Current Conditions        | current_conditions      | text      | text        | series tag  | Yes      | 
-| Future Needs & Priorities | future_needs_priorities | text      | text        | series tag  | Yes      | 
-| District                  | district                | text      | text        | series tag  | Yes      | 
-| Neighborhood Plan         | neighborhood_plan       | url       | url         | series tag  | Yes      | 
-| Status Check              | status_check            | url       | url         | series tag  | Yes      | 
-| City Planning             | city_planning           | url       | url         | series tag  | Yes      | 
-| Major Transit project?    | major_transit_project   | url       | url         | series tag  | Yes      | 
+| Included | Schema Type | Field Name              | Name                      | Data Type | Render Type |
+| ======== | =========== | ======================= | ========================= | ========= | =========== |
+| No       | time        | :updated_at             | updated_at                | meta_data | meta_data   |
+| Yes      | series tag  | name                    | Name                      | text      | text        |
+| Yes      | series tag  | typology                | Typology                  | text      | text        |
+| Yes      | series tag  | current_conditions      | Current Conditions        | text      | text        |
+| Yes      | series tag  | future_needs_priorities | Future Needs & Priorities | text      | text        |
+| Yes      | series tag  | district                | District                  | text      | text        |
+| Yes      | series tag  | neighborhood_plan       | Neighborhood Plan         | url       | url         |
+| Yes      | series tag  | status_check            | Status Check              | url       | url         |
+| Yes      | series tag  | city_planning           | City Planning             | url       | url         |
+| Yes      | series tag  | major_transit_project   | Major Transit project?    | url       | url         |
 ```
 
 ## Time Field
@@ -39,23 +40,9 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
-```
-
 ## Data Commands
 
 ```ls
-
-
-
-
-
 ```
 
 ## Meta Commands
@@ -63,9 +50,9 @@ Annotation Fields =
 ```ls
 entity e:ndi9-2pye l:"Transit communities" t:url=https://data.seattle.gov/api/views/ndi9-2pye
 
-property e:ndi9-2pye t:meta.view d:2017-03-03T14:23:04.758Z v:id=ndi9-2pye v:category=Transportation v:averageRating=0 v:name="Transit communities"
+property e:ndi9-2pye t:meta.view v:id=ndi9-2pye v:category=Transportation v:averageRating=0 v:name="Transit communities"
 
-property e:ndi9-2pye t:meta.view.owner d:2017-03-03T14:23:04.758Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:ndi9-2pye t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 
-property e:ndi9-2pye t:meta.view.tableauthor d:2017-03-03T14:23:04.758Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:ndi9-2pye t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```

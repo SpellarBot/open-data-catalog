@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/t4zw-f3yr/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/energy-sales-kilowatt-hours-by-customer-class)
-* [Metadata URL](https://data.austintexas.gov/api/views/t4zw-f3yr)
-* Id = t4zw-f3yr
-* Name = Energy Sales - kilowatt hours by Customer Class
-* Attribution = Austin Energy
-* Category = Utility
-* Tags = [austin energy, utility data, energy sales]
-* Created = 2016-06-24T19:14:38Z
-* Publication Date = 2016-06-24T19:25:13Z
-* Rows Updated = 2016-06-24T19:24:43Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/energy-sales-kilowatt-hours-by-customer-class) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/t4zw-f3yr) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/t4zw-f3yr/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/t4zw-f3yr/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | t4zw-f3yr |
+| Name | Energy Sales - kilowatt hours by Customer Class |
+| Attribution | Austin Energy |
+| Category | Utility |
+| Tags | austin energy, utility data, energy sales |
+| Created | 2016-06-24T19:14:38Z |
+| Publication Date | 2016-06-24T19:25:13Z |
+| Rows Updated | 2016-06-24T19:24:43Z |
 
 ## Description
 
@@ -21,16 +25,16 @@ This table groups Austin Energy customers into five classes: residential, commer
 ## Columns
 
 ```ls
-| Name                    | Field Name            | Data Type | Render Type | Schema Type    | Included | 
-| ======================= | ===================== | ========= | =========== | ============== | ======== | 
-| Fiscal Year             | fiscal_year           | number    | number      | time           | Yes      | 
-| Residential             | residential           | number    | number      | numeric metric | Yes      | 
-| Commerical              | commerical            | number    | number      | numeric metric | Yes      | 
-| Industrial              | industrial            | number    | number      | numeric metric | Yes      | 
-| Public Street & Highway | public_street_highway | text      | number      | series tag     | Yes      | 
-| Government Entities*    | government_entities   | number    | number      | numeric metric | Yes      | 
-| Total Billed kWh        | total_billed_kwh      | number    | number      | numeric metric | Yes      | 
-| % Inc/Dec               | inc_dec               | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name            | Name                    | Data Type | Render Type |
+| ======== | ============== | ===================== | ======================= | ========= | =========== |
+| Yes      | time           | fiscal_year           | Fiscal Year             | number    | number      |
+| Yes      | numeric metric | residential           | Residential             | number    | number      |
+| Yes      | numeric metric | commerical            | Commerical              | number    | number      |
+| Yes      | numeric metric | industrial            | Industrial              | number    | number      |
+| Yes      | series tag     | public_street_highway | Public Street & Highway | text      | number      |
+| Yes      | numeric metric | government_entities   | Government Entities*    | number    | number      |
+| Yes      | numeric metric | total_billed_kwh      | Total Billed kWh        | number    | number      |
+| Yes      | numeric metric | inc_dec               | % Inc/Dec               | number    | number      |
 ```
 
 ## Time Field
@@ -38,15 +42,6 @@ This table groups Austin Energy customers into five classes: residential, commer
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,11 +71,11 @@ metric m:inc_dec l:"% Inc/Dec" t:dataTypeName=number
 
 entity e:t4zw-f3yr l:"Energy Sales - kilowatt hours by Customer Class" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/t4zw-f3yr
 
-property e:t4zw-f3yr t:meta.view d:2017-03-08T02:13:50.274Z v:id=t4zw-f3yr v:category=Utility v:averageRating=0 v:name="Energy Sales - kilowatt hours by Customer Class" v:attribution="Austin Energy"
+property e:t4zw-f3yr t:meta.view v:id=t4zw-f3yr v:category=Utility v:averageRating=0 v:name="Energy Sales - kilowatt hours by Customer Class" v:attribution="Austin Energy"
 
-property e:t4zw-f3yr t:meta.view.license d:2017-03-08T02:13:50.274Z v:name="Public Domain"
+property e:t4zw-f3yr t:meta.view.license v:name="Public Domain"
 
-property e:t4zw-f3yr t:meta.view.owner d:2017-03-08T02:13:50.274Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:t4zw-f3yr t:meta.view.owner v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 
-property e:t4zw-f3yr t:meta.view.tableauthor d:2017-03-08T02:13:50.274Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:t4zw-f3yr t:meta.view.tableauthor v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 ```

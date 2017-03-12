@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.imls.gov/api/views/9wry-mtm5/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/state-libraries-survey-fy-2007-part-3-revenue-expenditures)
-* [Metadata URL](https://data.imls.gov/api/views/9wry-mtm5)
-* Id = 9wry-mtm5
-* Name = State Libraries Survey, FY 2007, Part 3: Revenue & Expenditures
-* Attribution = IMLS
-* [Attribution Link](https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey)
-* Category = State Library Administrative Agencies Survey
-* Tags = [state library, slaa, 2007, revenue, expenditures]
-* Created = 2016-12-20T15:28:44Z
-* Publication Date = 2016-12-20T17:04:38Z
-* Rows Updated = 2016-12-20T17:22:38Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/state-libraries-survey-fy-2007-part-3-revenue-expenditures) |
+| Metadata | [Link](https://data.imls.gov/api/views/9wry-mtm5) |
+| Data: JSON | [100 Rows](https://data.imls.gov/api/views/9wry-mtm5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.imls.gov/api/views/9wry-mtm5/rows.csv?max_rows=100) |
+| Host | data.imls.gov |
+| Id | 9wry-mtm5 |
+| Name | State Libraries Survey, FY 2007, Part 3: Revenue & Expenditures |
+| Attribution | IMLS |
+| Category | State Library Administrative Agencies Survey |
+| Tags | state library, slaa, 2007, revenue, expenditures |
+| Created | 2016-12-20T15:28:44Z |
+| Publication Date | 2016-12-20T17:04:38Z |
+| Rows Updated | 2016-12-20T17:22:38Z |
 
 ## Description
 
@@ -22,118 +25,118 @@ Find key information on state library agencies.<br><br>These data include impute
 ## Columns
 
 ```ls
-| Name                               | Field Name | Data Type | Render Type | Schema Type    | Included | 
-| ================================== | ========== | ========= | =========== | ============== | ======== | 
-| STLA Name                          | stlaname   | text      | text        | series tag     | Yes      | 
-| Street                             | physaddr   | text      | text        | series tag     | Yes      | 
-| City                               | physcity   | text      | text        | series tag     | Yes      | 
-| State                              | phys_st    | text      | text        | series tag     | Yes      | 
-| Zip                                | physzip    | text      | text        | series tag     | Yes      | 
-| Zip+4                              | physzip4   | text      | text        | series tag     | Yes      | 
-| Street (mail)                      | mailaddr   | text      | text        | series tag     | Yes      | 
-| City (mail)                        | mailcity   | text      | text        | series tag     | Yes      | 
-| State (mail)                       | mail_st    | text      | text        | series tag     | Yes      | 
-| Zip (mail)                         | mailzip    | text      | text        | series tag     | Yes      | 
-| Zip+4 (mail)                       | mailzip4   | text      | text        | series tag     | Yes      | 
-| Web Address                        | webaddr    | text      | text        | series tag     | Yes      | 
-| Admins state funds                 | asf_pub    | number    | text        | numeric metric | Yes      | 
-| Admins state funds acad            | asf_ac     | number    | text        | numeric metric | Yes      | 
-| Admins state funds school          | asf_sch    | number    | text        | numeric metric | Yes      | 
-| Admins state funds special         | asf_sp     | number    | text        | numeric metric | Yes      | 
-| Admins state funds co-ops          | asf_lc     | number    | text        | numeric metric | Yes      | 
-| Other fed rev specified            | fiothsp    | text      | text        | series tag     | Yes      | 
-| FIPS state code                    | pub_fips   | text      | text        | series tag     | Yes      | 
-| BEA code                           | obereg     | number    | text        | numeric metric | Yes      | 
-| Reporting Status                   | rstatus    | number    | text        | numeric metric | Yes      | 
-| Fiscal year start date, mm/dd/yyyy | fystart    | date      | date        | time           | Yes      | 
-| Fiscal year end date, mm/dd/yyyy   | fyend      | date      | date        |                | No       | 
-| LSTA revenue                       | lstainc    | money     | money       | numeric metric | Yes      | 
-| Other federal revenue              | fioth      | money     | money       | numeric metric | Yes      | 
-| Total federal revenue              | total_fi   | money     | money       | numeric metric | Yes      | 
-| St rev STLA operation              | sistlaop   | money     | money       | numeric metric | Yes      | 
-| St rev aid to libraries            | siaidlib   | money     | money       | numeric metric | Yes      | 
-| St rev other                       | siother    | money     | money       | numeric metric | Yes      | 
-| St rev TOTAL                       | total_si   | money     | money       | numeric metric | Yes      | 
-| Other revenue                      | othincm    | money     | money       | numeric metric | Yes      | 
-| Total revenue                      | totincm    | money     | money       | numeric metric | Yes      | 
-| Salaries federal                   | oexpsala   | money     | money       | numeric metric | Yes      | 
-| Salaries state                     | oexpsalb   | money     | money       | numeric metric | Yes      | 
-| Salaries other                     | oexpsalc   | money     | money       | numeric metric | Yes      | 
-| Salaries TOTAL                     | oexpsald   | money     | money       | numeric metric | Yes      | 
-| Benefits federal                   | oexpbena   | money     | money       | numeric metric | Yes      | 
-| Benefits state                     | oexpbenb   | money     | money       | numeric metric | Yes      | 
-| Benefits other                     | oexpbenc   | money     | money       | numeric metric | Yes      | 
-| Benefits TOTAL                     | oexpbend   | money     | money       | numeric metric | Yes      | 
-| Staff Exp federal                  | totoxsta   | money     | money       | numeric metric | Yes      | 
-| Staff Exp state                    | totoxstb   | money     | money       | numeric metric | Yes      | 
-| Staff Exp other                    | totoxstc   | money     | money       | numeric metric | Yes      | 
-| Staff Exp TOTAL                    | totoxstd   | money     | money       | numeric metric | Yes      | 
-| Collection Exp federal             | oexpcola   | money     | money       | numeric metric | Yes      | 
-| Collection Exp state               | oexpcolb   | money     | money       | numeric metric | Yes      | 
-| Collection Exp other               | oexpcolc   | money     | money       | numeric metric | Yes      | 
-| Collection Exp TOTAL               | oexpcold   | money     | money       | numeric metric | Yes      | 
-| Other Op Exp federal               | oexpotha   | money     | money       | numeric metric | Yes      | 
-| Other Op Exp state                 | oexpothb   | money     | money       | numeric metric | Yes      | 
-| Other Op Exp other                 | oexpothc   | money     | money       | numeric metric | Yes      | 
-| Other Op Exp TOTAL                 | oexpothd   | money     | money       | numeric metric | Yes      | 
-| Tot Op Exp federal                 | totopexa   | money     | money       | numeric metric | Yes      | 
-| Tot Op Exp state                   | totopexb   | money     | money       | numeric metric | Yes      | 
-| Tot Op Exp other                   | totopexc   | money     | money       | numeric metric | Yes      | 
-| Tot Op Exp TOTAL                   | totopexd   | money     | money       | numeric metric | Yes      | 
-| Fin Asst to libraries federal      | aidipla    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to libraries state        | aidiplb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to libraries other        | aidiplc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to libraries TOTAL        | aidipld    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to coops federal          | aidplsa    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to coops state            | aidplsb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to coops other            | aidplsc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to coops TOTAL            | aidplsd    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to other federal          | aidoila    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to other state            | aidoilb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to other other            | aidoilc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst to other TOTAL            | aidoild    | money     | money       | numeric metric | Yes      | 
-| Fin Asst coops mult federal        | aidmlsa    | money     | money       | numeric metric | Yes      | 
-| Fin Asst coops mult state          | aidmlsb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst coops mult other          | aidmlsc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst coops mult TOTAL          | aidmlsd    | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr statewide federal    | aidsala    | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr statewide state      | aidsalb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr statewide other      | aidsalc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr statewide TOTAL      | aidsald    | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr constr federal       | aidlca     | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr constr state         | aidlcb     | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr constr other         | aidlcc     | money     | money       | numeric metric | Yes      | 
-| Fin Asst libr constr TOTAL         | aidlcd     | money     | money       | numeric metric | Yes      | 
-| Fin Asst other federal             | aidotha    | money     | money       | numeric metric | Yes      | 
-| Fin Asst other state               | aidothb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst other other               | aidothc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst other TOTAL               | aidothd    | money     | money       | numeric metric | Yes      | 
-| Fin Asst TOTAL federal             | totaida    | money     | money       | numeric metric | Yes      | 
-| Fin Asst TOTAL state               | totaidb    | money     | money       | numeric metric | Yes      | 
-| Fin Asst TOTAL other               | totaidc    | money     | money       | numeric metric | Yes      | 
-| Fin Asst TOTAL TOTAL               | totaidd    | money     | money       | numeric metric | Yes      | 
-| Capital outlay federal             | capitala   | money     | money       | numeric metric | Yes      | 
-| Capital outlay state               | capitalb   | money     | money       | numeric metric | Yes      | 
-| Capital outlay other               | capitalc   | money     | money       | numeric metric | Yes      | 
-| Capital outlay TOTAL               | capitald   | money     | money       | numeric metric | Yes      | 
-| Other exp federal                  | othexpa    | money     | money       | numeric metric | Yes      | 
-| Other exp state                    | othexpb    | money     | money       | numeric metric | Yes      | 
-| Other exp other                    | othexpc    | money     | money       | numeric metric | Yes      | 
-| Other exp TOTAL                    | othexpd    | money     | money       | numeric metric | Yes      | 
-| Total exp federal                  | totexpa    | money     | money       | numeric metric | Yes      | 
-| Total exp state                    | totexpb    | money     | money       | numeric metric | Yes      | 
-| Total exp other                    | totexpc    | money     | money       | numeric metric | Yes      | 
-| Total exp TOTAL                    | totexpd    | money     | money       | numeric metric | Yes      | 
-| LSTA exp statewide svcs            | swexpt     | money     | money       | numeric metric | Yes      | 
-| LSTA exp grants                    | grexpt     | money     | money       | numeric metric | Yes      | 
-| LSTA exp LSTA admin                | admexpt    | money     | money       | numeric metric | Yes      | 
-| LSTA exp by type/TOTAL             | totexpt    | money     | money       | numeric metric | Yes      | 
-| LSTA exp technology                | techxu     | money     | money       | numeric metric | Yes      | 
-| LSTA exp svcs to disab             | serdifxu   | money     | money       | numeric metric | Yes      | 
-| LSTA exp lifelong learning         | serllxu    | money     | money       | numeric metric | Yes      | 
-| LSTA exp by use/LSTA admin         | admexpu    | money     | money       | numeric metric | Yes      | 
-| LSTA exp by use/TOTAL              | totexpu    | money     | money       | numeric metric | Yes      | 
-| Population                         | popu_st    | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name | Name                               | Data Type | Render Type |
+| ======== | ============== | ========== | ================================== | ========= | =========== |
+| Yes      | series tag     | stlaname   | STLA Name                          | text      | text        |
+| Yes      | series tag     | physaddr   | Street                             | text      | text        |
+| Yes      | series tag     | physcity   | City                               | text      | text        |
+| Yes      | series tag     | phys_st    | State                              | text      | text        |
+| Yes      | series tag     | physzip    | Zip                                | text      | text        |
+| Yes      | series tag     | physzip4   | Zip+4                              | text      | text        |
+| Yes      | series tag     | mailaddr   | Street (mail)                      | text      | text        |
+| Yes      | series tag     | mailcity   | City (mail)                        | text      | text        |
+| Yes      | series tag     | mail_st    | State (mail)                       | text      | text        |
+| Yes      | series tag     | mailzip    | Zip (mail)                         | text      | text        |
+| Yes      | series tag     | mailzip4   | Zip+4 (mail)                       | text      | text        |
+| Yes      | series tag     | webaddr    | Web Address                        | text      | text        |
+| Yes      | numeric metric | asf_pub    | Admins state funds                 | number    | text        |
+| Yes      | numeric metric | asf_ac     | Admins state funds acad            | number    | text        |
+| Yes      | numeric metric | asf_sch    | Admins state funds school          | number    | text        |
+| Yes      | numeric metric | asf_sp     | Admins state funds special         | number    | text        |
+| Yes      | numeric metric | asf_lc     | Admins state funds co-ops          | number    | text        |
+| Yes      | series tag     | fiothsp    | Other fed rev specified            | text      | text        |
+| Yes      | series tag     | pub_fips   | FIPS state code                    | text      | text        |
+| Yes      | numeric metric | obereg     | BEA code                           | number    | text        |
+| Yes      | numeric metric | rstatus    | Reporting Status                   | number    | text        |
+| Yes      | time           | fystart    | Fiscal year start date, mm/dd/yyyy | date      | date        |
+| No       |                | fyend      | Fiscal year end date, mm/dd/yyyy   | date      | date        |
+| Yes      | numeric metric | lstainc    | LSTA revenue                       | money     | money       |
+| Yes      | numeric metric | fioth      | Other federal revenue              | money     | money       |
+| Yes      | numeric metric | total_fi   | Total federal revenue              | money     | money       |
+| Yes      | numeric metric | sistlaop   | St rev STLA operation              | money     | money       |
+| Yes      | numeric metric | siaidlib   | St rev aid to libraries            | money     | money       |
+| Yes      | numeric metric | siother    | St rev other                       | money     | money       |
+| Yes      | numeric metric | total_si   | St rev TOTAL                       | money     | money       |
+| Yes      | numeric metric | othincm    | Other revenue                      | money     | money       |
+| Yes      | numeric metric | totincm    | Total revenue                      | money     | money       |
+| Yes      | numeric metric | oexpsala   | Salaries federal                   | money     | money       |
+| Yes      | numeric metric | oexpsalb   | Salaries state                     | money     | money       |
+| Yes      | numeric metric | oexpsalc   | Salaries other                     | money     | money       |
+| Yes      | numeric metric | oexpsald   | Salaries TOTAL                     | money     | money       |
+| Yes      | numeric metric | oexpbena   | Benefits federal                   | money     | money       |
+| Yes      | numeric metric | oexpbenb   | Benefits state                     | money     | money       |
+| Yes      | numeric metric | oexpbenc   | Benefits other                     | money     | money       |
+| Yes      | numeric metric | oexpbend   | Benefits TOTAL                     | money     | money       |
+| Yes      | numeric metric | totoxsta   | Staff Exp federal                  | money     | money       |
+| Yes      | numeric metric | totoxstb   | Staff Exp state                    | money     | money       |
+| Yes      | numeric metric | totoxstc   | Staff Exp other                    | money     | money       |
+| Yes      | numeric metric | totoxstd   | Staff Exp TOTAL                    | money     | money       |
+| Yes      | numeric metric | oexpcola   | Collection Exp federal             | money     | money       |
+| Yes      | numeric metric | oexpcolb   | Collection Exp state               | money     | money       |
+| Yes      | numeric metric | oexpcolc   | Collection Exp other               | money     | money       |
+| Yes      | numeric metric | oexpcold   | Collection Exp TOTAL               | money     | money       |
+| Yes      | numeric metric | oexpotha   | Other Op Exp federal               | money     | money       |
+| Yes      | numeric metric | oexpothb   | Other Op Exp state                 | money     | money       |
+| Yes      | numeric metric | oexpothc   | Other Op Exp other                 | money     | money       |
+| Yes      | numeric metric | oexpothd   | Other Op Exp TOTAL                 | money     | money       |
+| Yes      | numeric metric | totopexa   | Tot Op Exp federal                 | money     | money       |
+| Yes      | numeric metric | totopexb   | Tot Op Exp state                   | money     | money       |
+| Yes      | numeric metric | totopexc   | Tot Op Exp other                   | money     | money       |
+| Yes      | numeric metric | totopexd   | Tot Op Exp TOTAL                   | money     | money       |
+| Yes      | numeric metric | aidipla    | Fin Asst to libraries federal      | money     | money       |
+| Yes      | numeric metric | aidiplb    | Fin Asst to libraries state        | money     | money       |
+| Yes      | numeric metric | aidiplc    | Fin Asst to libraries other        | money     | money       |
+| Yes      | numeric metric | aidipld    | Fin Asst to libraries TOTAL        | money     | money       |
+| Yes      | numeric metric | aidplsa    | Fin Asst to coops federal          | money     | money       |
+| Yes      | numeric metric | aidplsb    | Fin Asst to coops state            | money     | money       |
+| Yes      | numeric metric | aidplsc    | Fin Asst to coops other            | money     | money       |
+| Yes      | numeric metric | aidplsd    | Fin Asst to coops TOTAL            | money     | money       |
+| Yes      | numeric metric | aidoila    | Fin Asst to other federal          | money     | money       |
+| Yes      | numeric metric | aidoilb    | Fin Asst to other state            | money     | money       |
+| Yes      | numeric metric | aidoilc    | Fin Asst to other other            | money     | money       |
+| Yes      | numeric metric | aidoild    | Fin Asst to other TOTAL            | money     | money       |
+| Yes      | numeric metric | aidmlsa    | Fin Asst coops mult federal        | money     | money       |
+| Yes      | numeric metric | aidmlsb    | Fin Asst coops mult state          | money     | money       |
+| Yes      | numeric metric | aidmlsc    | Fin Asst coops mult other          | money     | money       |
+| Yes      | numeric metric | aidmlsd    | Fin Asst coops mult TOTAL          | money     | money       |
+| Yes      | numeric metric | aidsala    | Fin Asst libr statewide federal    | money     | money       |
+| Yes      | numeric metric | aidsalb    | Fin Asst libr statewide state      | money     | money       |
+| Yes      | numeric metric | aidsalc    | Fin Asst libr statewide other      | money     | money       |
+| Yes      | numeric metric | aidsald    | Fin Asst libr statewide TOTAL      | money     | money       |
+| Yes      | numeric metric | aidlca     | Fin Asst libr constr federal       | money     | money       |
+| Yes      | numeric metric | aidlcb     | Fin Asst libr constr state         | money     | money       |
+| Yes      | numeric metric | aidlcc     | Fin Asst libr constr other         | money     | money       |
+| Yes      | numeric metric | aidlcd     | Fin Asst libr constr TOTAL         | money     | money       |
+| Yes      | numeric metric | aidotha    | Fin Asst other federal             | money     | money       |
+| Yes      | numeric metric | aidothb    | Fin Asst other state               | money     | money       |
+| Yes      | numeric metric | aidothc    | Fin Asst other other               | money     | money       |
+| Yes      | numeric metric | aidothd    | Fin Asst other TOTAL               | money     | money       |
+| Yes      | numeric metric | totaida    | Fin Asst TOTAL federal             | money     | money       |
+| Yes      | numeric metric | totaidb    | Fin Asst TOTAL state               | money     | money       |
+| Yes      | numeric metric | totaidc    | Fin Asst TOTAL other               | money     | money       |
+| Yes      | numeric metric | totaidd    | Fin Asst TOTAL TOTAL               | money     | money       |
+| Yes      | numeric metric | capitala   | Capital outlay federal             | money     | money       |
+| Yes      | numeric metric | capitalb   | Capital outlay state               | money     | money       |
+| Yes      | numeric metric | capitalc   | Capital outlay other               | money     | money       |
+| Yes      | numeric metric | capitald   | Capital outlay TOTAL               | money     | money       |
+| Yes      | numeric metric | othexpa    | Other exp federal                  | money     | money       |
+| Yes      | numeric metric | othexpb    | Other exp state                    | money     | money       |
+| Yes      | numeric metric | othexpc    | Other exp other                    | money     | money       |
+| Yes      | numeric metric | othexpd    | Other exp TOTAL                    | money     | money       |
+| Yes      | numeric metric | totexpa    | Total exp federal                  | money     | money       |
+| Yes      | numeric metric | totexpb    | Total exp state                    | money     | money       |
+| Yes      | numeric metric | totexpc    | Total exp other                    | money     | money       |
+| Yes      | numeric metric | totexpd    | Total exp TOTAL                    | money     | money       |
+| Yes      | numeric metric | swexpt     | LSTA exp statewide svcs            | money     | money       |
+| Yes      | numeric metric | grexpt     | LSTA exp grants                    | money     | money       |
+| Yes      | numeric metric | admexpt    | LSTA exp LSTA admin                | money     | money       |
+| Yes      | numeric metric | totexpt    | LSTA exp by type/TOTAL             | money     | money       |
+| Yes      | numeric metric | techxu     | LSTA exp technology                | money     | money       |
+| Yes      | numeric metric | serdifxu   | LSTA exp svcs to disab             | money     | money       |
+| Yes      | numeric metric | serllxu    | LSTA exp lifelong learning         | money     | money       |
+| Yes      | numeric metric | admexpu    | LSTA exp by use/LSTA admin         | money     | money       |
+| Yes      | numeric metric | totexpu    | LSTA exp by use/TOTAL              | money     | money       |
+| Yes      | numeric metric | popu_st    | Population                         | number    | number      |
 ```
 
 ## Time Field
@@ -146,10 +149,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = fyend
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -173,13 +173,13 @@ metric m:popu_st l:Population t:dataTypeName=number
 
 entity e:9wry-mtm5 l:"State Libraries Survey, FY 2007, Part 3: Revenue & Expenditures" t:attribution=IMLS t:url=https://data.imls.gov/api/views/9wry-mtm5
 
-property e:9wry-mtm5 t:meta.view d:2017-03-07T23:55:13.655Z v:id=9wry-mtm5 v:category="State Library Administrative Agencies Survey" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey v:averageRating=0 v:name="State Libraries Survey, FY 2007, Part 3: Revenue & Expenditures" v:attribution=IMLS
+property e:9wry-mtm5 t:meta.view v:id=9wry-mtm5 v:category="State Library Administrative Agencies Survey" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey v:averageRating=0 v:name="State Libraries Survey, FY 2007, Part 3: Revenue & Expenditures" v:attribution=IMLS
 
-property e:9wry-mtm5 t:meta.view.license d:2017-03-07T23:55:13.655Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:9wry-mtm5 t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:9wry-mtm5 t:meta.view.owner d:2017-03-07T23:55:13.655Z v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:9wry-mtm5 t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
 
-property e:9wry-mtm5 t:meta.view.tableauthor d:2017-03-07T23:55:13.655Z v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:9wry-mtm5 t:meta.view.tableauthor v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
 
-property e:9wry-mtm5 t:meta.view.metadata.custom_fields.common_core d:2017-03-07T23:55:13.655Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:9wry-mtm5 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
 ```

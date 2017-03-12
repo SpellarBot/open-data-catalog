@@ -2,30 +2,30 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.hawaii.gov/api/views/rpbd-ypkv/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/hawaii-renewable-energy-generation-by-utility-county-source-hawaii-public-utilities-commis)
-* [Metadata URL](https://data.hawaii.gov/api/views/rpbd-ypkv)
-* Id = rpbd-ypkv
-* Name = Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)
-* Created = 2014-01-16T00:42:45Z
-* Publication Date = 2016-04-11T21:13:10Z
-* Rows Updated = 2016-04-11T21:10:49Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/hawaii-renewable-energy-generation-by-utility-county-source-hawaii-public-utilities-commis) |
+| Metadata | [Link](https://data.hawaii.gov/api/views/rpbd-ypkv) |
+| Data: JSON | [100 Rows](https://data.hawaii.gov/api/views/rpbd-ypkv/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.hawaii.gov/api/views/rpbd-ypkv/rows.csv?max_rows=100) |
+| Host | data.hawaii.gov |
+| Id | rpbd-ypkv |
+| Name | Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission) |
+| Created | 2014-01-16T00:42:45Z |
+| Publication Date | 2016-04-11T21:13:10Z |
+| Rows Updated | 2016-04-11T21:10:49Z |
 
 ## Columns
 
 ```ls
-| Name                | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| =================== | =========== | ========= | =========== | ============== | ======== | 
-| Year                | year        | number    | number      | time           | Yes      | 
-| HECO/Oahu           | heco        | number    | number      | numeric metric | Yes      | 
-| HELCO/Hawaii Island | helco       | number    | number      | numeric metric | Yes      | 
-| MECO/Maui County    | meco        | number    | number      | numeric metric | Yes      | 
-| KIUC/Kauai          | kiuc        | number    | number      | numeric metric | Yes      | 
-| State Total         | state_total | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name                | Data Type | Render Type |
+| ======== | ============== | =========== | =================== | ========= | =========== |
+| Yes      | time           | year        | Year                | number    | number      |
+| Yes      | numeric metric | heco        | HECO/Oahu           | number    | number      |
+| Yes      | numeric metric | helco       | HELCO/Hawaii Island | number    | number      |
+| Yes      | numeric metric | meco        | MECO/Maui County    | number    | number      |
+| Yes      | numeric metric | kiuc        | KIUC/Kauai          | number    | number      |
+| Yes      | numeric metric | state_total | State Total         | number    | number      |
 ```
 
 ## Time Field
@@ -33,15 +33,6 @@
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -69,9 +60,9 @@ metric m:state_total p:integer l:"State Total" t:dataTypeName=number
 
 entity e:rpbd-ypkv l:"Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)" t:url=https://data.hawaii.gov/api/views/rpbd-ypkv
 
-property e:rpbd-ypkv t:meta.view d:2017-03-07T17:21:41.762Z v:id=rpbd-ypkv v:averageRating=0 v:name="Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)"
+property e:rpbd-ypkv t:meta.view v:id=rpbd-ypkv v:averageRating=0 v:name="Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)"
 
-property e:rpbd-ypkv t:meta.view.owner d:2017-03-07T17:21:41.762Z v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
+property e:rpbd-ypkv t:meta.view.owner v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
 
-property e:rpbd-ypkv t:meta.view.tableauthor d:2017-03-07T17:21:41.762Z v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
+property e:rpbd-ypkv t:meta.view.tableauthor v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
 ```

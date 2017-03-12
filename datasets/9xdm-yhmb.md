@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/9xdm-yhmb/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/austin-energy-customer-data-by-customer-class)
-* Id = 9xdm-yhmb
-* Name = Austin Energy Customer Data by Customer Class 2006 - 2014
-* Attribution = Austin Energy
-* Category = Utility
-* Tags = [residential, industrial, commercial, "percentage of revenue", kwh, "cents per kwh", "percentage of mwh", mwh, "number of customers"]
-* Created = 2015-08-18T18:33:48Z
-* Publication Date = 2016-09-22T14:25:34Z
-* Rows Updated = 2016-09-22T14:25:07Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/austin-energy-customer-data-by-customer-class) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/9xdm-yhmb) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/9xdm-yhmb/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/9xdm-yhmb/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | 9xdm-yhmb |
+| Name | Austin Energy Customer Data by Customer Class 2006 - 2014 |
+| Attribution | Austin Energy |
+| Category | Utility |
+| Tags | residential, industrial, commercial, "percentage of revenue", kwh, "cents per kwh", "percentage of mwh", mwh, "number of customers" |
+| Created | 2015-08-18T18:33:48Z |
+| Publication Date | 2016-09-22T14:25:34Z |
+| Rows Updated | 2016-09-22T14:25:07Z |
 
 ## Description
 
@@ -28,15 +33,15 @@ The final class, other, typically refers to street lighting and facilities such 
 ## Columns
 
 ```ls
-| Name                  | Field Name            | Data Type | Render Type | Schema Type    | Included | 
-| ===================== | ===================== | ========= | =========== | ============== | ======== | 
-| Customer Class        | customer_class        | text      | text        | series tag     | Yes      | 
-| Fiscal Year           | fiscal_year           | number    | number      | time           | Yes      | 
-| Number of Customers   | number_of_customers   | number    | number      | numeric metric | Yes      | 
-| Revenue               | revenue               | money     | money       | numeric metric | Yes      | 
-| Percentage of Revenue | percentage_of_revenue | percent   | percent     | numeric metric | Yes      | 
-| Cents per kWh         | cents_per_kwh         | number    | number      | numeric metric | Yes      | 
-| Percentage of MWh     | percentage_of_mwh     | percent   | percent     | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name            | Name                  | Data Type | Render Type |
+| ======== | ============== | ===================== | ===================== | ========= | =========== |
+| Yes      | series tag     | customer_class        | Customer Class        | text      | text        |
+| Yes      | time           | fiscal_year           | Fiscal Year           | number    | number      |
+| Yes      | numeric metric | number_of_customers   | Number of Customers   | number    | number      |
+| Yes      | numeric metric | revenue               | Revenue               | money     | money       |
+| Yes      | numeric metric | percentage_of_revenue | Percentage of Revenue | percent   | percent     |
+| Yes      | numeric metric | cents_per_kwh         | Cents per kWh         | number    | number      |
+| Yes      | numeric metric | percentage_of_mwh     | Percentage of MWh     | percent   | percent     |
 ```
 
 ## Time Field
@@ -44,15 +49,6 @@ The final class, other, typically refers to street lighting and facilities such 
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -74,11 +70,11 @@ metric m:cents_per_kwh l:"Cents per kWh" t:dataTypeName=number
 
 entity e:9xdm-yhmb l:"Austin Energy Customer Data by Customer Class 2006 - 2014" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/9xdm-yhmb
 
-property e:9xdm-yhmb t:meta.view d:2017-03-03T14:12:41.663Z v:id=9xdm-yhmb v:category=Utility v:averageRating=0 v:name="Austin Energy Customer Data by Customer Class 2006 - 2014" v:attribution="Austin Energy"
+property e:9xdm-yhmb t:meta.view v:id=9xdm-yhmb v:category=Utility v:averageRating=0 v:name="Austin Energy Customer Data by Customer Class 2006 - 2014" v:attribution="Austin Energy"
 
-property e:9xdm-yhmb t:meta.view.license d:2017-03-03T14:12:41.663Z v:name="Public Domain"
+property e:9xdm-yhmb t:meta.view.license v:name="Public Domain"
 
-property e:9xdm-yhmb t:meta.view.owner d:2017-03-03T14:12:41.663Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:9xdm-yhmb t:meta.view.owner v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 
-property e:9xdm-yhmb t:meta.view.tableauthor d:2017-03-03T14:12:41.663Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:9xdm-yhmb t:meta.view.tableauthor v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 ```

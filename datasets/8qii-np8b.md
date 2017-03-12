@@ -2,35 +2,36 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.srcity.org/api/views/8qii-np8b/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/ped-newhousingpermitsissueddetail)
-* Id = 8qii-np8b
-* Name = PED_NewHousingPermitsIssuedDetail
-* Created = 2017-01-20T00:18:03Z
-* Publication Date = 2017-01-20T00:33:04Z
-* Rows Updated = 2017-02-03T18:52:46Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/ped-newhousingpermitsissueddetail) |
+| Metadata | [Link](https://data.srcity.org/api/views/8qii-np8b) |
+| Data: JSON | [100 Rows](https://data.srcity.org/api/views/8qii-np8b/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.srcity.org/api/views/8qii-np8b/rows.csv?max_rows=100) |
+| Host | data.srcity.org |
+| Id | 8qii-np8b |
+| Name | PED_NewHousingPermitsIssuedDetail |
+| Created | 2017-01-20T00:18:03Z |
+| Publication Date | 2017-01-20T00:33:04Z |
+| Rows Updated | 2017-03-09T22:40:43Z |
 
 ## Columns
 
 ```ls
-| Name                | Field Name          | Data Type     | Render Type   | Schema Type    | Included | 
-| =================== | =================== | ============= | ============= | ============== | ======== | 
-| PermitType          | permittype          | text          | text          | series tag     | Yes      | 
-| HousingUnits        | housingunits        | number        | number        | numeric metric | Yes      | 
-| SqrFt               | sqrft               | number        | number        | numeric metric | Yes      | 
-| HousingImpactType   | housingimpacttype   | text          | text          | series tag     | Yes      | 
-| HousingImpactReason | housingimpactreason | text          | text          | series tag     | Yes      | 
-| RECORD_ID           | record_id           | text          | text          | series tag     | Yes      | 
-| RECORD_TYPE         | record_type         | text          | text          | series tag     | Yes      | 
-| DATE_OPENED         | date_opened         | calendar_date | calendar_date | time           | Yes      | 
-| RECORD_TYPE_4LEVEL# | record_type_4level  | text          | text          | series tag     | Yes      | 
-| STATUS              | status              | text          | text          | series tag     | Yes      | 
-| HistoryStatus       | historystatus       | text          | text          | series tag     | Yes      | 
-| HistoryStatusDate   | historystatusdate   | calendar_date | calendar_date |                | No       | 
+| Included | Schema Type    | Field Name          | Name                | Data Type     | Render Type   |
+| ======== | ============== | =================== | =================== | ============= | ============= |
+| Yes      | series tag     | permittype          | PermitType          | text          | text          |
+| Yes      | numeric metric | housingunits        | HousingUnits        | number        | number        |
+| Yes      | numeric metric | sqrft               | SqrFt               | number        | number        |
+| Yes      | series tag     | housingimpacttype   | HousingImpactType   | text          | text          |
+| Yes      | series tag     | housingimpactreason | HousingImpactReason | text          | text          |
+| Yes      | series tag     | record_id           | RECORD_ID           | text          | text          |
+| Yes      | series tag     | record_type         | RECORD_TYPE         | text          | text          |
+| Yes      | time           | date_opened         | DATE_OPENED         | calendar_date | calendar_date |
+| Yes      | series tag     | record_type_4level  | RECORD_TYPE_4LEVEL# | text          | text          |
+| Yes      | series tag     | status              | STATUS              | text          | text          |
+| Yes      | series tag     | historystatus       | HistoryStatus       | text          | text          |
+| No       |                | historystatusdate   | HistoryStatusDate   | calendar_date | calendar_date |
 ```
 
 ## Time Field
@@ -43,10 +44,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = historystatusdate
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -68,9 +66,9 @@ metric m:sqrft p:integer l:SqrFt t:dataTypeName=number
 
 entity e:8qii-np8b l:PED_NewHousingPermitsIssuedDetail t:url=https://data.srcity.org/api/views/8qii-np8b
 
-property e:8qii-np8b t:meta.view d:2017-03-03T14:36:15.528Z v:id=8qii-np8b v:averageRating=0 v:name=PED_NewHousingPermitsIssuedDetail
+property e:8qii-np8b t:meta.view v:id=8qii-np8b v:averageRating=0 v:name=PED_NewHousingPermitsIssuedDetail
 
-property e:8qii-np8b t:meta.view.owner d:2017-03-03T14:36:15.528Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:8qii-np8b t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 
-property e:8qii-np8b t:meta.view.tableauthor d:2017-03-03T14:36:15.528Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:8qii-np8b t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

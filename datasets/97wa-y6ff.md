@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/97wa-y6ff/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/public-chauffeurs-39a87)
-* Id = 97wa-y6ff
-* Name = Public Chauffeurs
-* Attribution = City of Chicago
-* Attribution Link = http://www.cityofchicago.org
-* Category = Community & Economic Development
-* Tags = [licenses, transportation]
-* Created = 2013-02-06T18:42:30Z
-* Publication Date = 2016-02-16T17:38:59Z
-* Rows Updated = 2017-03-02T16:54:31Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/public-chauffeurs-39a87) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/97wa-y6ff) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/97wa-y6ff/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/97wa-y6ff/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | 97wa-y6ff |
+| Name | Public Chauffeurs |
+| Attribution | City of Chicago |
+| Category | Community & Economic Development |
+| Tags | licenses, transportation |
+| Created | 2013-02-06T18:42:30Z |
+| Publication Date | 2016-02-16T17:38:59Z |
+| Rows Updated | 2017-03-10T22:31:35Z |
 
 ## Description
 
@@ -21,20 +25,20 @@ List of City of Chicago licensed Public Chauffeurs, who may operate a licensed T
 ## Columns
 
 ```ls
-| Name                | Field Name    | Data Type     | Render Type   | Schema Type    | Included | 
-| =================== | ============= | ============= | ============= | ============== | ======== | 
-| License Number      | license       | number        | number        | numeric metric | Yes      | 
-| Renewed             | renewed       | text          | text          | series tag     | Yes      | 
-| Status              | status        | text          | text          | series tag     | Yes      | 
-| Status Date         | status_date   | calendar_date | calendar_date | time           | Yes      | 
-| Driver Type         | driver_type   | text          | text          | series tag     | Yes      | 
-| License Type        | license_type  | text          | text          | series tag     | Yes      | 
-| Original Issue Date | issue_date    | calendar_date | calendar_date |                | No       | 
-| Name                | name          | text          | text          | series tag     | Yes      | 
-| Sex                 | sex           | text          | text          | series tag     | Yes      | 
-| Chauffeur City      | city          | text          | text          | series tag     | Yes      | 
-| Chauffeur State     | state         | text          | text          | series tag     | Yes      | 
-| Record Number       | record_number | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name    | Name                | Data Type     | Render Type   |
+| ======== | ============== | ============= | =================== | ============= | ============= |
+| Yes      | numeric metric | license       | License Number      | number        | number        |
+| Yes      | series tag     | renewed       | Renewed             | text          | text          |
+| Yes      | series tag     | status        | Status              | text          | text          |
+| Yes      | time           | status_date   | Status Date         | calendar_date | calendar_date |
+| Yes      | series tag     | driver_type   | Driver Type         | text          | text          |
+| Yes      | series tag     | license_type  | License Type        | text          | text          |
+| No       |                | issue_date    | Original Issue Date | calendar_date | calendar_date |
+| Yes      | series tag     | name          | Name                | text          | text          |
+| Yes      | series tag     | sex           | Sex                 | text          | text          |
+| Yes      | series tag     | city          | Chauffeur City      | text          | text          |
+| Yes      | series tag     | state         | Chauffeur State     | text          | text          |
+| Yes      | series tag     | record_number | Record Number       | text          | text          |
 ```
 
 ## Time Field
@@ -47,10 +51,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = issue_date
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -70,9 +71,9 @@ metric m:license p:integer l:"License Number" d:"The Public Chauffeur license nu
 
 entity e:97wa-y6ff l:"Public Chauffeurs" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/97wa-y6ff
 
-property e:97wa-y6ff t:meta.view d:2017-03-03T14:20:46.004Z v:id=97wa-y6ff v:category="Community & Economic Development" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Public Chauffeurs" v:attribution="City of Chicago"
+property e:97wa-y6ff t:meta.view v:id=97wa-y6ff v:category="Community & Economic Development" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Public Chauffeurs" v:attribution="City of Chicago"
 
-property e:97wa-y6ff t:meta.view.owner d:2017-03-03T14:20:46.004Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:97wa-y6ff t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 
-property e:97wa-y6ff t:meta.view.tableauthor d:2017-03-03T14:20:46.004Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:97wa-y6ff t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```

@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/7gdv-fq7n/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/state-nature-centers)
-* [Metadata URL](https://data.ny.gov/api/views/7gdv-fq7n)
-* Id = 7gdv-fq7n
-* Name = State Nature Centers
-* Attribution = New York State Office of Parks, Recreation and Historic Preservation
-* [Attribution Link](http://nysparks.com/environment/nature-centers/default.aspx)
-* Category = Recreation
-* Tags = [parks, recreation, environment, nature centers]
-* Created = 2013-02-15T17:37:06Z
-* Publication Date = 2015-01-14T16:47:13Z
-* Rows Updated = 2015-01-14T16:43:55Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/state-nature-centers) |
+| Metadata | [Link](https://data.ny.gov/api/views/7gdv-fq7n) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/7gdv-fq7n/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/7gdv-fq7n/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | 7gdv-fq7n |
+| Name | State Nature Centers |
+| Attribution | New York State Office of Parks, Recreation and Historic Preservation |
+| Category | Recreation |
+| Tags | parks, recreation, environment, nature centers |
+| Created | 2013-02-15T17:37:06Z |
+| Publication Date | 2015-01-14T16:47:13Z |
+| Rows Updated | 2015-01-14T16:43:55Z |
 
 ## Description
 
@@ -22,17 +25,17 @@ The New York State Office of Parks, Recreation and Historic Preservation (OPRHP)
 ## Columns
 
 ```ls
-| Name                | Field Name          | Data Type | Render Type | Schema Type    | Included | 
-| =================== | =================== | ========= | =========== | ============== | ======== | 
-| updated_at          | :updated_at         | meta_data | meta_data   | time           | No       | 
-| State Park Facility | state_park_facility | text      | text        | series tag     | Yes      | 
-| Nature Center       | nature_center       | text      | text        | series tag     | Yes      | 
-| Region              | region              | number    | number      | numeric metric | Yes      | 
-| County              | county              | text      | text        | series tag     | Yes      | 
-| Facility URL        | facility_url        | url       | url         | series tag     | Yes      | 
-| Nature Center URL   | nature_center_url   | url       | url         | series tag     | Yes      | 
-| Longitude           | x                   | number    | number      |                | No       | 
-| Latitude            | y                   | number    | number      |                | No       | 
+| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
+| ======== | ============== | =================== | =================== | ========= | =========== |
+| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag     | state_park_facility | State Park Facility | text      | text        |
+| Yes      | series tag     | nature_center       | Nature Center       | text      | text        |
+| Yes      | numeric metric | region              | Region              | number    | number      |
+| Yes      | series tag     | county              | County              | text      | text        |
+| Yes      | series tag     | facility_url        | Facility URL        | url       | url         |
+| Yes      | series tag     | nature_center_url   | Nature Center URL   | url       | url         |
+| No       |                | x                   | Longitude           | number    | number      |
+| No       |                | y                   | Latitude            | number    | number      |
 ```
 
 ## Time Field
@@ -45,10 +48,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = y,x
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -68,11 +68,11 @@ metric m:region p:integer l:Region d:"State Park Region" t:dataTypeName=number
 
 entity e:7gdv-fq7n l:"State Nature Centers" t:attribution="New York State Office of Parks, Recreation and Historic Preservation" t:url=https://data.ny.gov/api/views/7gdv-fq7n
 
-property e:7gdv-fq7n t:meta.view d:2017-03-08T00:19:02.975Z v:id=7gdv-fq7n v:category=Recreation v:attributionLink=http://nysparks.com/environment/nature-centers/default.aspx v:averageRating=0 v:name="State Nature Centers" v:attribution="New York State Office of Parks, Recreation and Historic Preservation"
+property e:7gdv-fq7n t:meta.view v:id=7gdv-fq7n v:category=Recreation v:attributionLink=http://nysparks.com/environment/nature-centers/default.aspx v:averageRating=0 v:name="State Nature Centers" v:attribution="New York State Office of Parks, Recreation and Historic Preservation"
 
-property e:7gdv-fq7n t:meta.view.owner d:2017-03-08T00:19:02.975Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:7gdv-fq7n t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:7gdv-fq7n t:meta.view.tableauthor d:2017-03-08T00:19:02.975Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:7gdv-fq7n t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:7gdv-fq7n t:meta.view.metadata.custom_fields.common_core d:2017-03-08T00:19:02.975Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:7gdv-fq7n t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/k5fe-2e4s/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/water-quality-index-scores-1994-2013-from-the-wa-state-department-of-ecologys-river-and-st-cb79b)
-* [Metadata URL](https://data.wa.gov/api/views/k5fe-2e4s)
-* Id = k5fe-2e4s
-* Name = Water Quality Index Scores (1994-2013) from The WA State Department of Ecology's River and Stream Monitoring Program.
-* Attribution = Markus Von Prause, WA State Department of Ecology's River and Stream Monitoring Program
-* [Attribution Link](http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html)
-* Category = Natural Resources & Environment
-* Tags = [water quality index, washington state river and stream fresh water quality, ecology]
-* Created = 2014-04-23T22:08:10Z
-* Publication Date = 2014-04-28T16:52:44Z
-* Rows Updated = 2014-04-23T22:29:45Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/water-quality-index-scores-1994-2013-from-the-wa-state-department-of-ecologys-river-and-st-cb79b) |
+| Metadata | [Link](https://data.wa.gov/api/views/k5fe-2e4s) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/k5fe-2e4s/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/k5fe-2e4s/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | k5fe-2e4s |
+| Name | Water Quality Index Scores (1994-2013) from The WA State Department of Ecology's River and Stream Monitoring Program. |
+| Attribution | Markus Von Prause, WA State Department of Ecology's River and Stream Monitoring Program |
+| Category | Natural Resources & Environment |
+| Tags | water quality index, washington state river and stream fresh water quality, ecology |
+| Created | 2014-04-23T22:08:10Z |
+| Publication Date | 2014-04-28T16:52:44Z |
+| Rows Updated | 2014-04-23T22:29:45Z |
 
 ## Description
 
@@ -23,34 +26,34 @@ For nutrient and sediment measures where standards are not specific, results are
 ## Columns
 
 ```ls
-| Name         | Field Name   | Data Type | Render Type | Schema Type    | Included | 
-| ============ | ============ | ========= | =========== | ============== | ======== | 
-| updated_at   | :updated_at  | meta_data | meta_data   | time           | No       | 
-| Station      | station      | text      | text        | series tag     | Yes      | 
-| Station Name | station_name | text      | text        | series tag     | Yes      | 
-| SSR          | ssr          | text      | text        | series tag     | Yes      | 
-| 1994         | 1994         | number    | number      | numeric metric | Yes      | 
-| 1995         | 1995         | number    | number      | numeric metric | Yes      | 
-| 1996         | 1996         | number    | number      | numeric metric | Yes      | 
-| 1997         | 1997         | number    | number      | numeric metric | Yes      | 
-| 1998         | 1998         | number    | number      | numeric metric | Yes      | 
-| 1999         | 1999         | number    | number      | numeric metric | Yes      | 
-| 2000         | 2000         | number    | number      | numeric metric | Yes      | 
-| 2001         | 2001         | number    | number      | numeric metric | Yes      | 
-| 2002         | 2002         | number    | number      | numeric metric | Yes      | 
-| 2003         | 2003         | number    | number      | numeric metric | Yes      | 
-| 2004         | 2004         | number    | number      | numeric metric | Yes      | 
-| 2005         | 2005         | number    | number      | numeric metric | Yes      | 
-| 2006         | 2006         | number    | number      | numeric metric | Yes      | 
-| 2007         | 2007         | number    | number      | numeric metric | Yes      | 
-| 2008         | 2008         | number    | number      | numeric metric | Yes      | 
-| 2009         | 2009         | number    | number      | numeric metric | Yes      | 
-| 2010         | 2010         | number    | number      | numeric metric | Yes      | 
-| 2011         | 2011         | number    | number      | numeric metric | Yes      | 
-| 2012         | 2012         | number    | number      | numeric metric | Yes      | 
-| 2013         | 2013         | number    | number      | numeric metric | Yes      | 
-| Ave          | ave          | number    | number      | numeric metric | Yes      | 
-| Comment      | comment      | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name   | Name         | Data Type | Render Type |
+| ======== | ============== | ============ | ============ | ========= | =========== |
+| No       | time           | :updated_at  | updated_at   | meta_data | meta_data   |
+| Yes      | series tag     | station      | Station      | text      | text        |
+| Yes      | series tag     | station_name | Station Name | text      | text        |
+| Yes      | series tag     | ssr          | SSR          | text      | text        |
+| Yes      | numeric metric | 1994         | 1994         | number    | number      |
+| Yes      | numeric metric | 1995         | 1995         | number    | number      |
+| Yes      | numeric metric | 1996         | 1996         | number    | number      |
+| Yes      | numeric metric | 1997         | 1997         | number    | number      |
+| Yes      | numeric metric | 1998         | 1998         | number    | number      |
+| Yes      | numeric metric | 1999         | 1999         | number    | number      |
+| Yes      | numeric metric | 2000         | 2000         | number    | number      |
+| Yes      | numeric metric | 2001         | 2001         | number    | number      |
+| Yes      | numeric metric | 2002         | 2002         | number    | number      |
+| Yes      | numeric metric | 2003         | 2003         | number    | number      |
+| Yes      | numeric metric | 2004         | 2004         | number    | number      |
+| Yes      | numeric metric | 2005         | 2005         | number    | number      |
+| Yes      | numeric metric | 2006         | 2006         | number    | number      |
+| Yes      | numeric metric | 2007         | 2007         | number    | number      |
+| Yes      | numeric metric | 2008         | 2008         | number    | number      |
+| Yes      | numeric metric | 2009         | 2009         | number    | number      |
+| Yes      | numeric metric | 2010         | 2010         | number    | number      |
+| Yes      | numeric metric | 2011         | 2011         | number    | number      |
+| Yes      | numeric metric | 2012         | 2012         | number    | number      |
+| Yes      | numeric metric | 2013         | 2013         | number    | number      |
+| Yes      | numeric metric | ave          | Ave          | number    | number      |
+| Yes      | series tag     | comment      | Comment      | text      | text        |
 ```
 
 ## Time Field
@@ -58,15 +61,6 @@ For nutrient and sediment measures where standards are not specific, results are
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -126,11 +120,11 @@ metric m:ave p:integer l:Ave d:"Average WQI Score during the period of 1994-2013
 
 entity e:k5fe-2e4s l:"Water Quality Index Scores (1994-2013) from The WA State Department of Ecology's River and Stream Monitoring Program." t:attribution="Markus Von Prause, WA State Department of Ecology's River and Stream Monitoring Program" t:url=https://data.wa.gov/api/views/k5fe-2e4s
 
-property e:k5fe-2e4s t:meta.view d:2017-03-07T23:52:24.434Z v:id=k5fe-2e4s v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html v:averageRating=0 v:name="Water Quality Index Scores (1994-2013) from The WA State Department of Ecology's River and Stream Monitoring Program." v:attribution="Markus Von Prause, WA State Department of Ecology's River and Stream Monitoring Program"
+property e:k5fe-2e4s t:meta.view v:id=k5fe-2e4s v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html v:averageRating=0 v:name="Water Quality Index Scores (1994-2013) from The WA State Department of Ecology's River and Stream Monitoring Program." v:attribution="Markus Von Prause, WA State Department of Ecology's River and Stream Monitoring Program"
 
-property e:k5fe-2e4s t:meta.view.license d:2017-03-07T23:52:24.434Z v:name="Public Domain"
+property e:k5fe-2e4s t:meta.view.license v:name="Public Domain"
 
-property e:k5fe-2e4s t:meta.view.owner d:2017-03-07T23:52:24.434Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:k5fe-2e4s t:meta.view.owner v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 
-property e:k5fe-2e4s t:meta.view.tableauthor d:2017-03-07T23:52:24.434Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:k5fe-2e4s t:meta.view.tableauthor v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 ```

@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.montgomerycountymd.gov/api/views/ixte-vr7h/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/spending-disclosure-fiscal-year-2013-620d4)
-* Id = ixte-vr7h
-* Name = Spending Disclosure - Fiscal Year 2013
-* Attribution = Montgomery County Department of Finance
-* Category = Finance/Tax/Property
-* Tags = [financial, fiscal year 13, 2013, spending, $25, 000 or more]
-* Created = 2013-08-30T19:38:39Z
-* Publication Date = 2013-09-03T19:39:48Z
-* Rows Updated = 2013-09-03T19:36:30Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/spending-disclosure-fiscal-year-2013-620d4) |
+| Metadata | [Link](https://data.montgomerycountymd.gov/api/views/ixte-vr7h) |
+| Data: JSON | [100 Rows](https://data.montgomerycountymd.gov/api/views/ixte-vr7h/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.montgomerycountymd.gov/api/views/ixte-vr7h/rows.csv?max_rows=100) |
+| Host | data.montgomerycountymd.gov |
+| Id | ixte-vr7h |
+| Name | Spending Disclosure - Fiscal Year 2013 |
+| Attribution | Montgomery County Department of Finance |
+| Category | Finance/Tax/Property |
+| Tags | financial, fiscal year 13, 2013, spending, $25, 000 or more |
+| Created | 2013-08-30T19:38:39Z |
+| Publication Date | 2013-09-03T19:39:48Z |
+| Rows Updated | 2013-09-03T19:36:30Z |
 
 ## Description
 
@@ -20,13 +25,13 @@ The purpose of this Spending Disclosure FY13 dataset is to allow the public to s
 ## Columns
 
 ```ls
-| Name          | Field Name    | Data Type | Render Type | Schema Type    | Included | 
-| ============= | ============= | ========= | =========== | ============== | ======== | 
-| updated_at    | :updated_at   | meta_data | meta_data   | time           | Yes      | 
-| Supplier Name | supplier_name | text      | text        | series tag     | Yes      | 
-| Zip Code      | zip_code      | text      | text        | series tag     | Yes      | 
-| Department    | department    | text      | text        | series tag     | Yes      | 
-| Amount        | amount        | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name    | Name          | Data Type | Render Type |
+| ======== | ============== | ============= | ============= | ========= | =========== |
+| No       | time           | :updated_at   | updated_at    | meta_data | meta_data   |
+| Yes      | series tag     | supplier_name | Supplier Name | text      | text        |
+| Yes      | series tag     | zip_code      | Zip Code      | text      | text        |
+| Yes      | series tag     | department    | Department    | text      | text        |
+| Yes      | numeric metric | amount        | Amount        | money     | money       |
 ```
 
 ## Time Field
@@ -34,15 +39,6 @@ The purpose of this Spending Disclosure FY13 dataset is to allow the public to s
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -60,9 +56,9 @@ series e:ixte-vr7h d:2013-09-03T12:34:01.000Z t:zip_code=60197 t:department=Poli
 ```ls
 entity e:ixte-vr7h l:"Spending Disclosure - Fiscal Year 2013" t:attribution="Montgomery County Department of Finance" t:url=https://data.montgomerycountymd.gov/api/views/ixte-vr7h
 
-property e:ixte-vr7h t:meta.view d:2017-03-03T14:08:25.026Z v:id=ixte-vr7h v:category=Finance/Tax/Property v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance"
+property e:ixte-vr7h t:meta.view v:id=ixte-vr7h v:category=Finance/Tax/Property v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance"
 
-property e:ixte-vr7h t:meta.view.owner d:2017-03-03T14:08:25.026Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 
-property e:ixte-vr7h t:meta.view.tableauthor d:2017-03-03T14:08:25.026Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.tableauthor v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 ```

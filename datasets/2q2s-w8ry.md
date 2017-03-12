@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/2q2s-w8ry/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/oregon-state-owned-leased-buildings-7d155)
-* Id = 2q2s-w8ry
-* Name = Oregon State Owned/Leased Buildings
-* Attribution = State of Oregon Dept. of Administrative Services
-* Tags = [assets, buildings, leased, owned, oregon]
-* Created = 2010-10-25T18:43:46Z
-* Publication Date = 2011-04-17T00:03:09Z
-* Rows Updated = 2011-09-03T20:59:15Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/oregon-state-owned-leased-buildings-7d155) |
+| Metadata | [Link](https://data.oregon.gov/api/views/2q2s-w8ry) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/2q2s-w8ry/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/2q2s-w8ry/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | 2q2s-w8ry |
+| Name | Oregon State Owned/Leased Buildings |
+| Attribution | State of Oregon Dept. of Administrative Services |
+| Tags | assets, buildings, leased, owned, oregon |
+| Created | 2010-10-25T18:43:46Z |
+| Publication Date | 2011-04-17T00:03:09Z |
+| Rows Updated | 2011-09-03T20:59:15Z |
 
 ## Description
 
@@ -21,18 +26,18 @@ Locations of buildings owned and leased by the State of Oregon.
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | Yes      | 
-| Name       | name        | text      | text        | series tag     | Yes      | 
-| Address    | address     | text      | text        |                | No       | 
-| City       | city        | text      | text        | series tag     | Yes      | 
-| ZipCode    | zipcode     | text      | text        | series tag     | Yes      | 
-| Type       | type        | text      | text        | series tag     | Yes      | 
-| webpage    | webpage     | url       | url         | series tag     | Yes      | 
-| SqFt       | sqft        | number    | number      | numeric metric | Yes      | 
-| EXPdate    | expdate     | text      | text        | series tag     | Yes      | 
-| Directions | directions  | url       | url         | series tag     | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | name        | Name       | text      | text        |
+| No       |                | address     | Address    | text      | text        |
+| Yes      | series tag     | city        | City       | text      | text        |
+| Yes      | series tag     | zipcode     | ZipCode    | text      | text        |
+| Yes      | series tag     | type        | Type       | text      | text        |
+| Yes      | series tag     | webpage     | webpage    | url       | url         |
+| Yes      | numeric metric | sqft        | SqFt       | number    | number      |
+| Yes      | series tag     | expdate     | EXPdate    | text      | text        |
+| Yes      | series tag     | directions  | Directions | url       | url         |
 ```
 
 ## Time Field
@@ -45,10 +50,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = address
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -68,9 +70,9 @@ metric m:sqft p:integer l:SqFt t:dataTypeName=number
 
 entity e:2q2s-w8ry l:"Oregon State Owned/Leased Buildings" t:attribution="State of Oregon Dept. of Administrative Services" t:url=https://data.oregon.gov/api/views/2q2s-w8ry
 
-property e:2q2s-w8ry t:meta.view d:2017-03-03T14:07:37.968Z v:id=2q2s-w8ry v:averageRating=0 v:name="Oregon State Owned/Leased Buildings" v:attribution="State of Oregon Dept. of Administrative Services"
+property e:2q2s-w8ry t:meta.view v:id=2q2s-w8ry v:averageRating=0 v:name="Oregon State Owned/Leased Buildings" v:attribution="State of Oregon Dept. of Administrative Services"
 
-property e:2q2s-w8ry t:meta.view.owner d:2017-03-03T14:07:37.968Z v:id=n7yg-3wp3 v:profileImageUrlMedium=/api/users/n7yg-3wp3/profile_images/THUMB v:profileImageUrlLarge=/api/users/n7yg-3wp3/profile_images/LARGE v:screenName="Erik Endrulat" v:profileImageUrlSmall=/api/users/n7yg-3wp3/profile_images/TINY v:displayName="Erik Endrulat"
+property e:2q2s-w8ry t:meta.view.owner v:id=n7yg-3wp3 v:profileImageUrlMedium=/api/users/n7yg-3wp3/profile_images/THUMB v:profileImageUrlLarge=/api/users/n7yg-3wp3/profile_images/LARGE v:screenName="Erik Endrulat" v:profileImageUrlSmall=/api/users/n7yg-3wp3/profile_images/TINY v:displayName="Erik Endrulat"
 
-property e:2q2s-w8ry t:meta.view.tableauthor d:2017-03-03T14:07:37.968Z v:id=n7yg-3wp3 v:profileImageUrlMedium=/api/users/n7yg-3wp3/profile_images/THUMB v:profileImageUrlLarge=/api/users/n7yg-3wp3/profile_images/LARGE v:screenName="Erik Endrulat" v:profileImageUrlSmall=/api/users/n7yg-3wp3/profile_images/TINY v:displayName="Erik Endrulat"
+property e:2q2s-w8ry t:meta.view.tableauthor v:id=n7yg-3wp3 v:profileImageUrlMedium=/api/users/n7yg-3wp3/profile_images/THUMB v:profileImageUrlLarge=/api/users/n7yg-3wp3/profile_images/LARGE v:screenName="Erik Endrulat" v:profileImageUrlSmall=/api/users/n7yg-3wp3/profile_images/TINY v:displayName="Erik Endrulat"
 ```

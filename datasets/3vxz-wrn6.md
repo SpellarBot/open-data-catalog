@@ -2,31 +2,31 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.mo.gov/api/views/3vxz-wrn6/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/missouri-deaf-and-hard-of-hearing-demographics-statistics)
-* [Metadata URL](https://data.mo.gov/api/views/3vxz-wrn6)
-* Id = 3vxz-wrn6
-* Name = Missouri Deaf and Hard of Hearing Demographics Statistics
-* Category = Education
-* Created = 2015-08-06T14:26:54Z
-* Publication Date = 2015-09-04T20:13:31Z
-* Rows Updated = 2015-09-04T20:11:41Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/missouri-deaf-and-hard-of-hearing-demographics-statistics) |
+| Metadata | [Link](https://data.mo.gov/api/views/3vxz-wrn6) |
+| Data: JSON | [100 Rows](https://data.mo.gov/api/views/3vxz-wrn6/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.mo.gov/api/views/3vxz-wrn6/rows.csv?max_rows=100) |
+| Host | data.mo.gov |
+| Id | 3vxz-wrn6 |
+| Name | Missouri Deaf and Hard of Hearing Demographics Statistics |
+| Category | Education |
+| Created | 2015-08-06T14:26:54Z |
+| Publication Date | 2015-09-04T20:13:31Z |
+| Rows Updated | 2015-09-04T20:11:41Z |
 
 ## Columns
 
 ```ls
-| Name                    | Field Name            | Data Type | Render Type | Schema Type    | Included | 
-| ======================= | ===================== | ========= | =========== | ============== | ======== | 
-| updated_at              | :updated_at           | meta_data | meta_data   | time           | No       | 
-| County                  | county                | text      | text        | series tag     | Yes      | 
-| Total Population (2010) | total_population_2010 | number    | number      | numeric metric | Yes      | 
-| Est Deaf (1%)           | est_deaf_1            | number    | number      | numeric metric | Yes      | 
-| Est HoH (9%)            | est_hoh_9             | number    | number      | numeric metric | Yes      | 
-| Est Deaf + HoH (10%)    | est_deaf_hoh_10       | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name            | Name                    | Data Type | Render Type |
+| ======== | ============== | ===================== | ======================= | ========= | =========== |
+| No       | time           | :updated_at           | updated_at              | meta_data | meta_data   |
+| Yes      | series tag     | county                | County                  | text      | text        |
+| Yes      | numeric metric | total_population_2010 | Total Population (2010) | number    | number      |
+| Yes      | numeric metric | est_deaf_1            | Est Deaf (1%)           | number    | number      |
+| Yes      | numeric metric | est_hoh_9             | Est HoH (9%)            | number    | number      |
+| Yes      | numeric metric | est_deaf_hoh_10       | Est Deaf + HoH (10%)    | number    | number      |
 ```
 
 ## Time Field
@@ -34,15 +34,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -68,9 +59,9 @@ metric m:est_deaf_hoh_10 p:integer l:"Est Deaf + HoH (10%)" t:dataTypeName=numbe
 
 entity e:3vxz-wrn6 l:"Missouri Deaf and Hard of Hearing Demographics Statistics" t:url=https://data.mo.gov/api/views/3vxz-wrn6
 
-property e:3vxz-wrn6 t:meta.view d:2017-03-07T16:38:31.382Z v:id=3vxz-wrn6 v:category=Education v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics"
+property e:3vxz-wrn6 t:meta.view v:id=3vxz-wrn6 v:category=Education v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics"
 
-property e:3vxz-wrn6 t:meta.view.owner d:2017-03-07T16:38:31.382Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 
-property e:3vxz-wrn6 t:meta.view.tableauthor d:2017-03-07T16:38:31.382Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 ```

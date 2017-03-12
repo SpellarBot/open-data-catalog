@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/mbsb-z5f8/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/nndss-table-ii-invasive-pneumococcal-diseases-all-ages)
-* [Metadata URL](https://data.cdc.gov/api/views/mbsb-z5f8)
-* Id = mbsb-z5f8
-* Name = NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages
-* Attribution = Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention
-* Category = NNDSS
-* Tags = [2017, mmwr, nndss, wonder, nedss, netss, invasive pneumococcal diseases, all ages]
-* Created = 2017-01-12T19:51:08Z
-* Publication Date = 2017-03-02T18:13:57Z
-* Rows Updated = 2017-03-02T16:51:51Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nndss-table-ii-invasive-pneumococcal-diseases-all-ages) |
+| Metadata | [Link](https://data.cdc.gov/api/views/mbsb-z5f8) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/mbsb-z5f8/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/mbsb-z5f8/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
+| Id | mbsb-z5f8 |
+| Name | NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages |
+| Attribution | Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention |
+| Category | NNDSS |
+| Tags | 2017, mmwr, nndss, wonder, nedss, netss, invasive pneumococcal diseases, all ages |
+| Created | 2017-01-12T19:51:08Z |
+| Publication Date | 2017-03-09T16:17:31Z |
+| Rows Updated | 2017-03-09T14:57:31Z |
 
 ## Description
 
@@ -37,31 +41,31 @@ Footnotes:
 ## Columns
 
 ```ls
-| Name                                                                             | Field Name                                                                  | Data Type | Render Type | Schema Type    | Included | 
-| ================================================================================ | =========================================================================== | ========= | =========== | ============== | ======== | 
-| Reporting Area                                                                   | reporting_area                                                              | text      | text        | series tag     | Yes      | 
-| MMWR Year                                                                        | mmwr_year                                                                   | number    | number      |                | No       | 
-| MMWR Week                                                                        | mmwr_week                                                                   | number    | number      |                | No       | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Current week                | invasive_pneumococcal_disease_all_ages_confirmed_current_week               | number    | number      |                | No       | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Current week, flag          | invasive_pneumococcal_disease_all_ages_confirmed_current_week_flag          | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Med       | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med      | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Med, flag | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med_flag | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Max       | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max      | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Max, flag | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max_flag | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2017                    | invasive_pneumococcal_disease_all_ages_confirmed_cum_2017                   | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2017, flag              | invasive_pneumococcal_disease_all_ages_confirmed_cum_2017_flag              | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2016                    | invasive_pneumococcal_disease_all_ages_confirmed_cum_2016                   | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2016, flag              | invasive_pneumococcal_disease_all_ages_confirmed_cum_2016_flag              | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Current week                 | invasive_pneumococcal_disease_all_ages_probable_current_week                | number    | number      |                | No       | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Current week, flag           | invasive_pneumococcal_disease_all_ages_probable_current_week_flag           | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Med        | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med       | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Med, flag  | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med_flag  | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Max        | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max       | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Max, flag  | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max_flag  | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Cum 2017                     | invasive_pneumococcal_disease_all_ages_probable_cum_2017                    | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Cum 2017, flag               | invasive_pneumococcal_disease_all_ages_probable_cum_2017_flag               | number    | text        | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Cum 2016                     | invasive_pneumococcal_disease_all_ages_probable_cum_2016                    | number    | number      | numeric metric | Yes      | 
-| Invasive Pneumococcal Disease?, All ages, Probable, Cum 2016, flag               | invasive_pneumococcal_disease_all_ages_probable_cum_2016_flag               | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                                                  | Name                                                                             | Data Type | Render Type |
+| ======== | ============== | =========================================================================== | ================================================================================ | ========= | =========== |
+| Yes      | series tag     | reporting_area                                                              | Reporting Area                                                                   | text      | text        |
+| No       |                | mmwr_year                                                                   | MMWR Year                                                                        | number    | number      |
+| No       |                | mmwr_week                                                                   | MMWR Week                                                                        | number    | number      |
+| No       |                | invasive_pneumococcal_disease_all_ages_confirmed_current_week               | Invasive Pneumococcal Disease?, All ages, Confirmed, Current week                | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_current_week_flag          | Invasive Pneumococcal Disease?, All ages, Confirmed, Current week, flag          | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med      | Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Med       | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med_flag | Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Med, flag | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max      | Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Max       | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max_flag | Invasive Pneumococcal Disease?, All ages, Confirmed, Previous 52 weeks Max, flag | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_cum_2017                   | Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2017                    | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_cum_2017_flag              | Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2017, flag              | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_cum_2016                   | Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2016                    | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_cum_2016_flag              | Invasive Pneumococcal Disease?, All ages, Confirmed, Cum 2016, flag              | number    | text        |
+| No       |                | invasive_pneumococcal_disease_all_ages_probable_current_week                | Invasive Pneumococcal Disease?, All ages, Probable, Current week                 | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_current_week_flag           | Invasive Pneumococcal Disease?, All ages, Probable, Current week, flag           | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med       | Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Med        | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med_flag  | Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Med, flag  | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max       | Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Max        | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max_flag  | Invasive Pneumococcal Disease?, All ages, Probable, Previous 52 weeks Max, flag  | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_cum_2017                    | Invasive Pneumococcal Disease?, All ages, Probable, Cum 2017                     | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_cum_2017_flag               | Invasive Pneumococcal Disease?, All ages, Probable, Cum 2017, flag               | number    | text        |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_cum_2016                    | Invasive Pneumococcal Disease?, All ages, Probable, Cum 2016                     | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_cum_2016_flag               | Invasive Pneumococcal Disease?, All ages, Probable, Cum 2016, flag               | number    | text        |
 ```
 
 ## Time Field
@@ -74,10 +78,7 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = invasive_pneumococcal_disease_all_ages_probable_current_week,invasive_pneumococcal_disease_all_ages_confirmed_current_week,mmwr_year,mmwr_week
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -111,11 +112,11 @@ metric m:invasive_pneumococcal_disease_all_ages_probable_cum_2016 p:integer l:"I
 
 entity e:mbsb-z5f8 l:"NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/mbsb-z5f8
 
-property e:mbsb-z5f8 t:meta.view d:2017-03-07T16:19:58.432Z v:id=mbsb-z5f8 v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:mbsb-z5f8 t:meta.view v:id=mbsb-z5f8 v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:mbsb-z5f8 t:meta.view.owner d:2017-03-07T16:19:58.432Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:mbsb-z5f8 t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:mbsb-z5f8 t:meta.view.tableauthor d:2017-03-07T16:19:58.432Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:mbsb-z5f8 t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:mbsb-z5f8 t:meta.view.metadata.custom_fields.common_core d:2017-03-07T16:19:58.432Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:mbsb-z5f8 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

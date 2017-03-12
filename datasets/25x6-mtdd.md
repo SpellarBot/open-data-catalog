@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.iowa.gov/api/views/25x6-mtdd/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/interstate-closure-gates)
-* [Metadata URL](https://data.iowa.gov/api/views/25x6-mtdd)
-* Id = 25x6-mtdd
-* Name = Interstate Closure Gates
-* Attribution = Iowa Department of Transportation - Office of Maintenance
-* [Attribution Link](https://gis.iowadot.gov/public/rest/services/Maintenance/Closure_Gates/MapServer/0)
-* Category = Transportation & Utilities
-* Tags = [asset, inventory, operations, gates, maintenance, iowa dot, iowa department of transportation]
-* Created = 2016-06-08T19:09:21Z
-* Publication Date = 2016-06-08T19:11:20Z
-* Rows Updated = 2016-06-08T19:09:21Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/interstate-closure-gates) |
+| Metadata | [Link](https://data.iowa.gov/api/views/25x6-mtdd) |
+| Data: JSON | [100 Rows](https://data.iowa.gov/api/views/25x6-mtdd/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.iowa.gov/api/views/25x6-mtdd/rows.csv?max_rows=100) |
+| Host | data.iowa.gov |
+| Id | 25x6-mtdd |
+| Name | Interstate Closure Gates |
+| Attribution | Iowa Department of Transportation - Office of Maintenance |
+| Category | Transportation & Utilities |
+| Tags | asset, inventory, operations, gates, maintenance, iowa dot, iowa department of transportation |
+| Created | 2016-06-08T19:09:21Z |
+| Publication Date | 2016-06-08T19:11:20Z |
+| Rows Updated | 2016-06-08T19:09:21Z |
 
 ## Description
 
@@ -22,26 +25,26 @@ This is a representation of all gates and barricades that prevent access to the 
 ## Columns
 
 ```ls
-| Name                | Field Name          | Data Type | Render Type | Schema Type    | Included | 
-| =================== | =================== | ========= | =========== | ============== | ======== | 
-| updated_at          | :updated_at         | meta_data | meta_data   | time           | No       | 
-| GATE_ID             | gate_id             | text      | text        | series tag     | Yes      | 
-| DISTRICT            | district            | text      | number      | series tag     | Yes      | 
-| COST_CENTER         | cost_center         | number    | text        | numeric metric | Yes      | 
-| ROUTE               | route               | number    | number      | numeric metric | Yes      | 
-| DIRTRAVEL           | dirtravel           | text      | text        | series tag     | Yes      | 
-| SIDEOFROAD          | sideofroad          | text      | text        | series tag     | Yes      | 
-| MILEPOST            | milepost            | number    | text        | numeric metric | Yes      | 
-| MILEPOST_OFFSET     | milepost_offset     | number    | number      | numeric metric | Yes      | 
-| LATITUDE            | latitude            | number    | number      |                | No       | 
-| LONGITUDE           | longitude           | number    | number      |                | No       | 
-| SIGN_FACE_DIRECTION | sign_face_direction | text      | text        | series tag     | Yes      | 
-| SIGNTYPE            | signtype            | text      | text        | series tag     | Yes      | 
-| SUBCATEGORY         | subcategory         | text      | text        | series tag     | Yes      | 
-| DESCRIPTION         | description         | text      | text        | series tag     | Yes      | 
-| REMARKS             | remarks             | text      | text        | series tag     | Yes      | 
-| ACTIVATION_TYPE     | activation_type     | text      | text        | series tag     | Yes      | 
-| OBJECTID            | objectid            | text      | number      | series tag     | Yes      | 
+| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
+| ======== | ============== | =================== | =================== | ========= | =========== |
+| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag     | gate_id             | GATE_ID             | text      | text        |
+| Yes      | series tag     | district            | DISTRICT            | text      | number      |
+| Yes      | numeric metric | cost_center         | COST_CENTER         | number    | text        |
+| Yes      | numeric metric | route               | ROUTE               | number    | number      |
+| Yes      | series tag     | dirtravel           | DIRTRAVEL           | text      | text        |
+| Yes      | series tag     | sideofroad          | SIDEOFROAD          | text      | text        |
+| Yes      | numeric metric | milepost            | MILEPOST            | number    | text        |
+| Yes      | numeric metric | milepost_offset     | MILEPOST_OFFSET     | number    | number      |
+| No       |                | latitude            | LATITUDE            | number    | number      |
+| No       |                | longitude           | LONGITUDE           | number    | number      |
+| Yes      | series tag     | sign_face_direction | SIGN_FACE_DIRECTION | text      | text        |
+| Yes      | series tag     | signtype            | SIGNTYPE            | text      | text        |
+| Yes      | series tag     | subcategory         | SUBCATEGORY         | text      | text        |
+| Yes      | series tag     | description         | DESCRIPTION         | text      | text        |
+| Yes      | series tag     | remarks             | REMARKS             | text      | text        |
+| Yes      | series tag     | activation_type     | ACTIVATION_TYPE     | text      | text        |
+| Yes      | series tag     | objectid            | OBJECTID            | text      | number      |
 ```
 
 ## Time Field
@@ -54,10 +57,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = longitude,latitude
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -83,9 +83,9 @@ metric m:milepost_offset l:MILEPOST_OFFSET d:Offset t:dataTypeName=number
 
 entity e:25x6-mtdd l:"Interstate Closure Gates" t:attribution="Iowa Department of Transportation - Office of Maintenance" t:url=https://data.iowa.gov/api/views/25x6-mtdd
 
-property e:25x6-mtdd t:meta.view d:2017-03-08T00:36:03.286Z v:id=25x6-mtdd v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Maintenance/Closure_Gates/MapServer/0 v:averageRating=0 v:name="Interstate Closure Gates" v:attribution="Iowa Department of Transportation - Office of Maintenance"
+property e:25x6-mtdd t:meta.view v:id=25x6-mtdd v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Maintenance/Closure_Gates/MapServer/0 v:averageRating=0 v:name="Interstate Closure Gates" v:attribution="Iowa Department of Transportation - Office of Maintenance"
 
-property e:25x6-mtdd t:meta.view.owner d:2017-03-08T00:36:03.286Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:25x6-mtdd t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:25x6-mtdd t:meta.view.tableauthor d:2017-03-08T00:36:03.286Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:25x6-mtdd t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

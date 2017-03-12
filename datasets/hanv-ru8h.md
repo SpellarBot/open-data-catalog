@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.medicare.gov/api/views/hanv-ru8h/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/patient-survey-ich-cahps-state)
-* [Metadata URL](https://data.medicare.gov/api/views/hanv-ru8h)
-* Id = hanv-ru8h
-* Name = Patient survey (ICH-CAHPS) - State
-* Category = Dialysis Facility Compare
-* Tags = [dfc, dialysis, dialysis facilities, dialysis centers, cahps, patient survey, experience of care]
-* Created = 2016-09-20T19:06:24Z
-* Publication Date = 2017-01-26T01:51:07Z
-* Rows Updated = 2017-01-10T17:44:43Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/patient-survey-ich-cahps-state) |
+| Metadata | [Link](https://data.medicare.gov/api/views/hanv-ru8h) |
+| Data: JSON | [100 Rows](https://data.medicare.gov/api/views/hanv-ru8h/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.medicare.gov/api/views/hanv-ru8h/rows.csv?max_rows=100) |
+| Host | data.medicare.gov |
+| Id | hanv-ru8h |
+| Name | Patient survey (ICH-CAHPS) - State |
+| Category | Dialysis Facility Compare |
+| Tags | dfc, dialysis, dialysis facilities, dialysis centers, cahps, patient survey, experience of care |
+| Created | 2016-09-20T19:06:24Z |
+| Publication Date | 2017-01-26T01:51:07Z |
+| Rows Updated | 2017-01-10T17:44:43Z |
 
 ## Description
 
@@ -20,27 +24,27 @@ State averages for ICH-CAHPS Survey measures. The ICH-CAHPS Survey is a national
 ## Columns
 
 ```ls
-| Name                                                                          | Field Name                                                                    | Data Type | Render Type | Schema Type    | Included | 
-| ============================================================================= | ============================================================================= | ========= | =========== | ============== | ======== | 
-| updated_at                                                                    | :updated_at                                                                   | meta_data | meta_data   | time           | No       | 
-| State                                                                         | state                                                                         | text      | text        | series tag     | Yes      | 
-| Lower box percent of patients nephrologists? communication and caring         | lower_box_percent_of_patients_nephrologists_communication_and_caring          | number    | number      | numeric metric | Yes      | 
-| Middle box percent of patients nephrologists? communication and caring        | middle_box_percent_of_patients_nephrologists_communication_and_caring         | number    | number      | numeric metric | Yes      | 
-| Top box percent of patients nephrologists? communication and caring           | top_box_percent_of_patients_nephrologists_communication_and_caring            | number    | number      | numeric metric | Yes      | 
-| Lower box percent of patients-quality of dialysis center care and operations  | lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations  | number    | number      | numeric metric | Yes      | 
-| Middle box percent of patients-quality of dialysis center care and operations | middle_box_percent_of_patients_quality_of_dialysis_center_care_and_operations | number    | number      | numeric metric | Yes      | 
-| Top box percent of patients-quality of dialysis center care and operations    | top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations    | number    | number      | numeric metric | Yes      | 
-| Lower box percent of patients-providing information to patients               | lower_box_percent_of_patients_providing_information_to_patients               | number    | number      | numeric metric | Yes      | 
-| Top box percent of patients providing information to patients                 | top_box_percent_of_patients_providing_information_to_patients                 | number    | number      | numeric metric | Yes      | 
-| Lower box percent of patients-rating of the nephrologist                      | lower_box_percent_of_patients_rating_of_the_nephrologist                      | number    | number      | numeric metric | Yes      | 
-| Middle box percent of patients- rating of the nephrologist                    | middle_box_percent_of_patients_rating_of_the_nephrologist                     | number    | number      | numeric metric | Yes      | 
-| Top box percent of patients- rating of the nephrologist                       | top_box_percent_of_patients_rating_of_the_nephrologist                        | number    | number      | numeric metric | Yes      | 
-| Lower box percent of patients-rating of the dialysis center staff             | lower_box_percent_of_patients_rating_of_the_dialysis_center_staff             | number    | number      | numeric metric | Yes      | 
-| Middle box percent of patients-rating of the dialysis center staff            | middle_box_percent_of_patients_rating_of_the_dialysis_center_staff            | number    | number      | numeric metric | Yes      | 
-| Top box percent of patients-rating of the dialysis center staff               | top_box_percent_of_patients_rating_of_the_dialysis_center_staff               | number    | number      | numeric metric | Yes      | 
-| Lower box percent of patients-rating of the dialysis facility                 | lower_box_percent_of_patients_rating_of_the_dialysis_facility                 | number    | number      | numeric metric | Yes      | 
-| Middle box percent of patients-rating of the dialysis facility                | middle_box_percent_of_patients_rating_of_the_dialysis_facility                | number    | number      | numeric metric | Yes      | 
-| Top box percent of patients-rating of the dialysis facility                   | top_box_percent_of_patients_rating_of_the_dialysis_facility                   | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                                                    | Name                                                                          | Data Type | Render Type |
+| ======== | ============== | ============================================================================= | ============================================================================= | ========= | =========== |
+| No       | time           | :updated_at                                                                   | updated_at                                                                    | meta_data | meta_data   |
+| Yes      | series tag     | state                                                                         | State                                                                         | text      | text        |
+| Yes      | numeric metric | lower_box_percent_of_patients_nephrologists_communication_and_caring          | Lower box percent of patients nephrologists? communication and caring         | number    | number      |
+| Yes      | numeric metric | middle_box_percent_of_patients_nephrologists_communication_and_caring         | Middle box percent of patients nephrologists? communication and caring        | number    | number      |
+| Yes      | numeric metric | top_box_percent_of_patients_nephrologists_communication_and_caring            | Top box percent of patients nephrologists? communication and caring           | number    | number      |
+| Yes      | numeric metric | lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations  | Lower box percent of patients-quality of dialysis center care and operations  | number    | number      |
+| Yes      | numeric metric | middle_box_percent_of_patients_quality_of_dialysis_center_care_and_operations | Middle box percent of patients-quality of dialysis center care and operations | number    | number      |
+| Yes      | numeric metric | top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations    | Top box percent of patients-quality of dialysis center care and operations    | number    | number      |
+| Yes      | numeric metric | lower_box_percent_of_patients_providing_information_to_patients               | Lower box percent of patients-providing information to patients               | number    | number      |
+| Yes      | numeric metric | top_box_percent_of_patients_providing_information_to_patients                 | Top box percent of patients providing information to patients                 | number    | number      |
+| Yes      | numeric metric | lower_box_percent_of_patients_rating_of_the_nephrologist                      | Lower box percent of patients-rating of the nephrologist                      | number    | number      |
+| Yes      | numeric metric | middle_box_percent_of_patients_rating_of_the_nephrologist                     | Middle box percent of patients- rating of the nephrologist                    | number    | number      |
+| Yes      | numeric metric | top_box_percent_of_patients_rating_of_the_nephrologist                        | Top box percent of patients- rating of the nephrologist                       | number    | number      |
+| Yes      | numeric metric | lower_box_percent_of_patients_rating_of_the_dialysis_center_staff             | Lower box percent of patients-rating of the dialysis center staff             | number    | number      |
+| Yes      | numeric metric | middle_box_percent_of_patients_rating_of_the_dialysis_center_staff            | Middle box percent of patients-rating of the dialysis center staff            | number    | number      |
+| Yes      | numeric metric | top_box_percent_of_patients_rating_of_the_dialysis_center_staff               | Top box percent of patients-rating of the dialysis center staff               | number    | number      |
+| Yes      | numeric metric | lower_box_percent_of_patients_rating_of_the_dialysis_facility                 | Lower box percent of patients-rating of the dialysis facility                 | number    | number      |
+| Yes      | numeric metric | middle_box_percent_of_patients_rating_of_the_dialysis_facility                | Middle box percent of patients-rating of the dialysis facility                | number    | number      |
+| Yes      | numeric metric | top_box_percent_of_patients_rating_of_the_dialysis_facility                   | Top box percent of patients-rating of the dialysis facility                   | number    | number      |
 ```
 
 ## Time Field
@@ -48,15 +52,6 @@ State averages for ICH-CAHPS Survey measures. The ICH-CAHPS Survey is a national
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -108,11 +103,11 @@ metric m:top_box_percent_of_patients_rating_of_the_dialysis_facility p:integer l
 
 entity e:hanv-ru8h l:"Patient survey (ICH-CAHPS) - State" t:url=https://data.medicare.gov/api/views/hanv-ru8h
 
-property e:hanv-ru8h t:meta.view d:2017-03-07T17:57:29.242Z v:id=hanv-ru8h v:category="Dialysis Facility Compare" v:averageRating=0 v:name="Patient survey (ICH-CAHPS) - State"
+property e:hanv-ru8h t:meta.view v:id=hanv-ru8h v:category="Dialysis Facility Compare" v:averageRating=0 v:name="Patient survey (ICH-CAHPS) - State"
 
-property e:hanv-ru8h t:meta.view.owner d:2017-03-07T17:57:29.242Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:hanv-ru8h t:meta.view.owner v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
 
-property e:hanv-ru8h t:meta.view.tableauthor d:2017-03-07T17:57:29.242Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:hanv-ru8h t:meta.view.tableauthor v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
 
-property e:hanv-ru8h t:meta.view.metadata.custom_fields.common_core d:2017-03-07T17:57:29.242Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
+property e:hanv-ru8h t:meta.view.metadata.custom_fields.common_core v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
 ```

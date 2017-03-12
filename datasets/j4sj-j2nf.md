@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/j4sj-j2nf/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/traffic-analysis-zones-8dc6c)
-* Id = j4sj-j2nf
-* Name = Traffic Analysis Zones
-* Category = Geographic Locations and Boundaries
-* Tags = [planning, taz, census, traffic, analysis, gis, shapefile]
-* Created = 2016-07-26T18:30:09Z
-* Publication Date = 2016-08-19T21:41:29Z
-* Rows Updated = 2016-07-26T18:30:09Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/traffic-analysis-zones-8dc6c) |
+| Metadata | [Link](https://data.sfgov.org/api/views/j4sj-j2nf) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/j4sj-j2nf/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/j4sj-j2nf/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | j4sj-j2nf |
+| Name | Traffic Analysis Zones |
+| Category | Geographic Locations and Boundaries |
+| Tags | planning, taz, census, traffic, analysis, gis, shapefile |
+| Created | 2016-07-26T18:30:09Z |
+| Publication Date | 2016-08-19T21:41:29Z |
+| Rows Updated | 2016-07-26T18:30:09Z |
 
 ## Description
 
@@ -19,20 +24,20 @@ A traffic analysis zone (TAZ) is the unit of geography most commonly used in con
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | Yes      | 
-| area       | area        | number    | number      | numeric metric | Yes      | 
-| county     | county      | text      | text        | series tag     | Yes      | 
-| lsad       | lsad        | text      | text        | series tag     | Yes      | 
-| lsad_trans | lsad_trans  | text      | text        | series tag     | Yes      | 
-| name       | name        | text      | text        | series tag     | Yes      | 
-| perimeter  | perimeter   | number    | number      | numeric metric | Yes      | 
-| state      | state       | text      | text        | series tag     | Yes      | 
-| taz        | taz         | text      | text        | series tag     | Yes      | 
-| tz06_d00_  | tz06_d00_   | number    | number      | numeric metric | Yes      | 
-| tz06_d00_i | tz06_d00_i  | number    | number      | numeric metric | Yes      | 
-| geometry   | geometry    | polygon   | polygon     | series tag     | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | numeric metric | area        | area       | number    | number      |
+| Yes      | series tag     | county      | county     | text      | text        |
+| Yes      | series tag     | lsad        | lsad       | text      | text        |
+| Yes      | series tag     | lsad_trans  | lsad_trans | text      | text        |
+| Yes      | series tag     | name        | name       | text      | text        |
+| Yes      | numeric metric | perimeter   | perimeter  | number    | number      |
+| Yes      | series tag     | state       | state      | text      | text        |
+| Yes      | series tag     | taz         | taz        | text      | text        |
+| Yes      | numeric metric | tz06_d00_   | tz06_d00_  | number    | number      |
+| Yes      | numeric metric | tz06_d00_i  | tz06_d00_i | number    | number      |
+| Yes      | series tag     | geometry    | geometry   | polygon   | polygon     |
 ```
 
 ## Time Field
@@ -40,15 +45,6 @@ A traffic analysis zone (TAZ) is the unit of geography most commonly used in con
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -74,11 +70,11 @@ metric m:tz06_d00_i l:tz06_d00_i t:dataTypeName=number
 
 entity e:j4sj-j2nf l:"Traffic Analysis Zones" t:url=https://data.sfgov.org/api/views/j4sj-j2nf
 
-property e:j4sj-j2nf t:meta.view d:2017-03-03T14:17:58.674Z v:id=j4sj-j2nf v:category="Geographic Locations and Boundaries" v:averageRating=0 v:name="Traffic Analysis Zones"
+property e:j4sj-j2nf t:meta.view v:id=j4sj-j2nf v:category="Geographic Locations and Boundaries" v:averageRating=0 v:name="Traffic Analysis Zones"
 
-property e:j4sj-j2nf t:meta.view.license d:2017-03-03T14:17:58.674Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:j4sj-j2nf t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:j4sj-j2nf t:meta.view.owner d:2017-03-03T14:17:58.674Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:j4sj-j2nf t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 
-property e:j4sj-j2nf t:meta.view.tableauthor d:2017-03-03T14:17:58.674Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:j4sj-j2nf t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

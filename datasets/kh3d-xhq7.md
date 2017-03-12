@@ -63,9 +63,9 @@ Excluded Fields = mn,tu,sa,su,fr,th,we
 ```ls
 entity e:kh3d-xhq7 l:"Queens Library Branches" t:attribution="Queens Library (QBPL)" t:url=https://data.cityofnewyork.us/api/views/kh3d-xhq7
 
-property e:kh3d-xhq7 t:meta.view d:2017-03-10T14:39:49.523Z v:id=kh3d-xhq7 v:category=Recreation v:averageRating=0 v:name="Queens Library Branches" v:attribution="Queens Library (QBPL)"
+property e:kh3d-xhq7 t:meta.view v:id=kh3d-xhq7 v:category=Recreation v:averageRating=0 v:name="Queens Library Branches" v:attribution="Queens Library (QBPL)"
 
-property e:kh3d-xhq7 t:meta.view.owner d:2017-03-10T14:39:49.523Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:kh3d-xhq7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:kh3d-xhq7 t:meta.view.tableauthor d:2017-03-10T14:39:49.523Z v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
+property e:kh3d-xhq7 t:meta.view.tableauthor v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
 ```

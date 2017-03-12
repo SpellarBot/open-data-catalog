@@ -2,17 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://datacatalog.cookcountyil.gov/api/views/tjzn-e5cs/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/adoption-child-custody-advocacy-home-investigation-data-2008-cfe88)
-* [Metadata URL](https://datacatalog.cookcountyil.gov/api/views/tjzn-e5cs)
-* Id = tjzn-e5cs
-* Name = Adoption & Child Custody Advocacy - Home Investigation Data - 2008
-* Attribution = Cook County Department of Adoption & Child Custody Advocacy
-* [Attribution Link](http://www.cookcountygov.com/portal/server.pt/community/adoption___child_custody_advocacy/245)
-* Category = Finance & Administration
-* Created = 2011-08-11T14:20:59Z
-* Publication Date = 2014-10-09T22:00:35Z
-* Rows Updated = 2014-10-09T22:00:20Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/adoption-child-custody-advocacy-home-investigation-data-2008-cfe88) |
+| Metadata | [Link](https://datacatalog.cookcountyil.gov/api/views/tjzn-e5cs) |
+| Data: JSON | [100 Rows](https://datacatalog.cookcountyil.gov/api/views/tjzn-e5cs/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://datacatalog.cookcountyil.gov/api/views/tjzn-e5cs/rows.csv?max_rows=100) |
+| Host | datacatalog.cookcountyil.gov |
+| Id | tjzn-e5cs |
+| Name | Adoption & Child Custody Advocacy - Home Investigation Data - 2008 |
+| Attribution | Cook County Department of Adoption & Child Custody Advocacy |
+| Category | Finance & Administration |
+| Created | 2011-08-11T14:20:59Z |
+| Publication Date | 2014-10-09T22:00:35Z |
+| Rows Updated | 2014-10-09T22:00:20Z |
 
 ## Description
 
@@ -21,16 +24,16 @@ The department is court ordered to complete a home investigation to determine if
 ## Columns
 
 ```ls
-| Name             | Field Name       | Data Type | Render Type | Schema Type    | Included | 
-| ================ | ================ | ========= | =========== | ============== | ======== | 
-| updated_at       | :updated_at      | meta_data | meta_data   | time           | No       | 
-| Month            | month            | text      | text        | series tag     | Yes      | 
-| Output Demands   | output_demands   | number    | number      | numeric metric | Yes      | 
-| Inputs           | inputs           | number    | number      | numeric metric | Yes      | 
-| Output Workloads | output_workloads | number    | number      | numeric metric | Yes      | 
-| Efficiencies     | efficiencies     | number    | number      | numeric metric | Yes      | 
-| Effectiveness    | effectiveness    | number    | number      | numeric metric | Yes      | 
-| Outcomes         | outcomes         | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
+| ======== | ============== | ================ | ================ | ========= | =========== |
+| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
+| Yes      | series tag     | month            | Month            | text      | text        |
+| Yes      | numeric metric | output_demands   | Output Demands   | number    | number      |
+| Yes      | numeric metric | inputs           | Inputs           | number    | number      |
+| Yes      | numeric metric | output_workloads | Output Workloads | number    | number      |
+| Yes      | numeric metric | efficiencies     | Efficiencies     | number    | number      |
+| Yes      | numeric metric | effectiveness    | Effectiveness    | number    | number      |
+| Yes      | numeric metric | outcomes         | Outcomes         | number    | number      |
 ```
 
 ## Time Field
@@ -38,15 +41,6 @@ The department is court ordered to complete a home investigation to determine if
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,11 +70,11 @@ metric m:outcomes p:integer l:Outcomes t:dataTypeName=number
 
 entity e:tjzn-e5cs l:"Adoption & Child Custody Advocacy - Home Investigation Data - 2008" t:attribution="Cook County Department of Adoption & Child Custody Advocacy" t:url=https://datacatalog.cookcountyil.gov/api/views/tjzn-e5cs
 
-property e:tjzn-e5cs t:meta.view d:2017-03-08T01:12:33.771Z v:id=tjzn-e5cs v:category="Finance & Administration" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/adoption___child_custody_advocacy/245 v:averageRating=0 v:name="Adoption & Child Custody Advocacy - Home Investigation Data - 2008" v:attribution="Cook County Department of Adoption & Child Custody Advocacy"
+property e:tjzn-e5cs t:meta.view v:id=tjzn-e5cs v:category="Finance & Administration" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/adoption___child_custody_advocacy/245 v:averageRating=0 v:name="Adoption & Child Custody Advocacy - Home Investigation Data - 2008" v:attribution="Cook County Department of Adoption & Child Custody Advocacy"
 
-property e:tjzn-e5cs t:meta.view.license d:2017-03-08T01:12:33.771Z v:name="Public Domain"
+property e:tjzn-e5cs t:meta.view.license v:name="Public Domain"
 
-property e:tjzn-e5cs t:meta.view.owner d:2017-03-08T01:12:33.771Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:tjzn-e5cs t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:tjzn-e5cs t:meta.view.tableauthor d:2017-03-08T01:12:33.771Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:tjzn-e5cs t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```

@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/q8sd-9bib/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/designated-scenic-byways)
-* [Metadata URL](https://data.ny.gov/api/views/q8sd-9bib)
-* Id = q8sd-9bib
-* Name = Designated Scenic Byways
-* Attribution = New York State Department of Transportation
-* [Attribution Link](https://www.dot.ny.gov/display/programs/scenic-byways)
-* Category = Transportation
-* Tags = [scenic byways, national scenic byways, new york state scenic byways, cmp, corridor management plan, scenic roads, all american road]
-* Created = 2013-02-14T21:48:27Z
-* Publication Date = 2013-03-01T15:51:34Z
-* Rows Updated = 2013-03-01T15:42:34Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/designated-scenic-byways) |
+| Metadata | [Link](https://data.ny.gov/api/views/q8sd-9bib) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/q8sd-9bib/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/q8sd-9bib/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | q8sd-9bib |
+| Name | Designated Scenic Byways |
+| Attribution | New York State Department of Transportation |
+| Category | Transportation |
+| Tags | scenic byways, national scenic byways, new york state scenic byways, cmp, corridor management plan, scenic roads, all american road |
+| Created | 2013-02-14T21:48:27Z |
+| Publication Date | 2013-03-01T15:51:34Z |
+| Rows Updated | 2013-03-01T15:42:34Z |
 
 ## Description
 
@@ -22,17 +25,17 @@ The New York State Scenic Byways program was created in 1992 by the State Legisl
 ## Columns
 
 ```ls
-| Name                       | Field Name               | Data Type | Render Type | Schema Type    | Included | 
-| ========================== | ======================== | ========= | =========== | ============== | ======== | 
-| updated_at                 | :updated_at              | meta_data | meta_data   | time           | No       | 
-| Scenic Byway               | scenic_byway             | text      | text        | series tag     | Yes      | 
-| Approximate Length (Miles) | approximate_length_miles | number    | number      | numeric metric | Yes      | 
-| Region                     | region                   | text      | text        | series tag     | Yes      | 
-| Connects                   | connects                 | text      | text        | series tag     | Yes      | 
-| Primary Designation        | primary_designation      | text      | text        | series tag     | Yes      | 
-| Secondary Designation      | secondary_designation    | text      | text        | series tag     | Yes      | 
-| Tertiary Designation       | tertiary_designation     | number    | text        | numeric metric | Yes      | 
-| For more information (URL) | for_more_information_url | url       | url         | series tag     | Yes      | 
+| Included | Schema Type    | Field Name               | Name                       | Data Type | Render Type |
+| ======== | ============== | ======================== | ========================== | ========= | =========== |
+| No       | time           | :updated_at              | updated_at                 | meta_data | meta_data   |
+| Yes      | series tag     | scenic_byway             | Scenic Byway               | text      | text        |
+| Yes      | numeric metric | approximate_length_miles | Approximate Length (Miles) | number    | number      |
+| Yes      | series tag     | region                   | Region                     | text      | text        |
+| Yes      | series tag     | connects                 | Connects                   | text      | text        |
+| Yes      | series tag     | primary_designation      | Primary Designation        | text      | text        |
+| Yes      | series tag     | secondary_designation    | Secondary Designation      | text      | text        |
+| Yes      | numeric metric | tertiary_designation     | Tertiary Designation       | number    | text        |
+| Yes      | series tag     | for_more_information_url | For more information (URL) | url       | url         |
 ```
 
 ## Time Field
@@ -40,15 +43,6 @@ The New York State Scenic Byways program was created in 1992 by the State Legisl
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -70,11 +64,11 @@ metric m:tertiary_designation l:"Tertiary Designation" d:"The tertiary designati
 
 entity e:q8sd-9bib l:"Designated Scenic Byways" t:attribution="New York State Department of Transportation" t:url=https://data.ny.gov/api/views/q8sd-9bib
 
-property e:q8sd-9bib t:meta.view d:2017-03-07T17:12:26.268Z v:id=q8sd-9bib v:category=Transportation v:attributionLink=https://www.dot.ny.gov/display/programs/scenic-byways v:averageRating=0 v:name="Designated Scenic Byways" v:attribution="New York State Department of Transportation"
+property e:q8sd-9bib t:meta.view v:id=q8sd-9bib v:category=Transportation v:attributionLink=https://www.dot.ny.gov/display/programs/scenic-byways v:averageRating=0 v:name="Designated Scenic Byways" v:attribution="New York State Department of Transportation"
 
-property e:q8sd-9bib t:meta.view.owner d:2017-03-07T17:12:26.268Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:q8sd-9bib t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:q8sd-9bib t:meta.view.tableauthor d:2017-03-07T17:12:26.268Z v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
+property e:q8sd-9bib t:meta.view.tableauthor v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
 
-property e:q8sd-9bib t:meta.view.metadata.custom_fields.common_core d:2017-03-07T17:12:26.268Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:q8sd-9bib t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

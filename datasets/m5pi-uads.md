@@ -2,33 +2,32 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/m5pi-uads/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/combined-fund-drive-donations-2014)
-* [Metadata URL](https://data.wa.gov/api/views/m5pi-uads)
-* Id = m5pi-uads
-* Name = Combined Fund Drive Donations 2014
-* Attribution = Combined Fund Drive Administered by the Washington Secretary of State
-* [Attribution Link](http://www.cfd.wa.gov/)
-* Tags = [combine fund drive, donations, charity, 2014]
-* Created = 2015-05-18T18:36:25Z
-* Publication Date = 2015-05-19T20:17:24Z
-* Rows Updated = 2015-05-19T07:20:57Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/combined-fund-drive-donations-2014) |
+| Metadata | [Link](https://data.wa.gov/api/views/m5pi-uads) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/m5pi-uads/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/m5pi-uads/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | m5pi-uads |
+| Name | Combined Fund Drive Donations 2014 |
+| Attribution | Combined Fund Drive Administered by the Washington Secretary of State |
+| Tags | combine fund drive, donations, charity, 2014 |
+| Created | 2015-05-18T18:36:25Z |
+| Publication Date | 2015-05-19T20:17:24Z |
+| Rows Updated | 2015-05-19T07:20:57Z |
 
 ## Columns
 
 ```ls
-| Name            | Field Name      | Data Type | Render Type | Schema Type    | Included | 
-| =============== | =============== | ========= | =========== | ============== | ======== | 
-| updated_at      | :updated_at     | meta_data | meta_data   | time           | No       | 
-| Charity Code    | charity_code    | text      | number      | series tag     | Yes      | 
-| Charity Name    | charity_name    | text      | text        | series tag     | Yes      | 
-| Donations Total | donations_total | money     | money       | numeric metric | Yes      | 
-| Zip Code        | zip_code        | number    | number      | numeric metric | Yes      | 
-| Contact Email   | contact_email   | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
+| ======== | ============== | =============== | =============== | ========= | =========== |
+| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
+| Yes      | series tag     | charity_code    | Charity Code    | text      | number      |
+| Yes      | series tag     | charity_name    | Charity Name    | text      | text        |
+| Yes      | numeric metric | donations_total | Donations Total | money     | money       |
+| Yes      | numeric metric | zip_code        | Zip Code        | number    | number      |
+| Yes      | series tag     | contact_email   | Contact Email   | text      | text        |
 ```
 
 ## Time Field
@@ -36,15 +35,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,11 +54,11 @@ metric m:zip_code l:"Zip Code" t:dataTypeName=number
 
 entity e:m5pi-uads l:"Combined Fund Drive Donations 2014" t:attribution="Combined Fund Drive Administered by the Washington Secretary of State" t:url=https://data.wa.gov/api/views/m5pi-uads
 
-property e:m5pi-uads t:meta.view d:2017-03-07T20:16:20.564Z v:id=m5pi-uads v:attributionLink=http://www.cfd.wa.gov/ v:averageRating=0 v:name="Combined Fund Drive Donations 2014" v:attribution="Combined Fund Drive Administered by the Washington Secretary of State"
+property e:m5pi-uads t:meta.view v:id=m5pi-uads v:attributionLink=http://www.cfd.wa.gov/ v:averageRating=0 v:name="Combined Fund Drive Donations 2014" v:attribution="Combined Fund Drive Administered by the Washington Secretary of State"
 
-property e:m5pi-uads t:meta.view.license d:2017-03-07T20:16:20.564Z v:name="Public Domain"
+property e:m5pi-uads t:meta.view.license v:name="Public Domain"
 
-property e:m5pi-uads t:meta.view.owner d:2017-03-07T20:16:20.564Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
+property e:m5pi-uads t:meta.view.owner v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
 
-property e:m5pi-uads t:meta.view.tableauthor d:2017-03-07T20:16:20.564Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
+property e:m5pi-uads t:meta.view.tableauthor v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
 ```

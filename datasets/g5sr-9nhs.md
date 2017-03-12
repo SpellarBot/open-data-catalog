@@ -2,15 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/g5sr-9nhs/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/pipeline-q2-2016)
-* [Metadata URL](https://data.sfgov.org/api/views/g5sr-9nhs)
-* Id = g5sr-9nhs
-* Name = SF Development Pipeline 2016 Q2
-* Category = Housing and Buildings
-* Created = 2016-08-04T23:03:39Z
-* Publication Date = 2016-08-15T05:41:53Z
-* Rows Updated = 2016-08-15T05:39:33Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/pipeline-q2-2016) |
+| Metadata | [Link](https://data.sfgov.org/api/views/g5sr-9nhs) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/g5sr-9nhs/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/g5sr-9nhs/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | g5sr-9nhs |
+| Name | SF Development Pipeline 2016 Q2 |
+| Category | Housing and Buildings |
+| Created | 2016-08-04T23:03:39Z |
+| Publication Date | 2016-08-15T05:41:53Z |
+| Rows Updated | 2016-08-15T05:39:33Z |
 
 ## Description
 
@@ -19,60 +23,60 @@ Snapshot of San Francisco Development Pipeline. Tracking of construction and ent
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type     | Render Type   | Schema Type    | Included | 
-| ==================== | ==================== | ============= | ============= | ============== | ======== | 
-| NEIGHBORHOOD         | neighborhood         | text          | text          | series tag     | Yes      | 
-| APN                  | apn                  | text          | text          | series tag     | Yes      | 
-| Entitlement          | entitlement          | number        | number        | numeric metric | Yes      | 
-| BESTSTAT             | beststat             | text          | text          | series tag     | Yes      | 
-| BESTDATE             | bestdate             | calendar_date | calendar_date | time           | Yes      | 
-| NAMEADDR             | nameaddr             | text          | text          | series tag     | Yes      | 
-| Alias                | alias                | text          | text          | series tag     | Yes      | 
-| PLN_CASENO           | pln_caseno           | text          | text          | series tag     | Yes      | 
-| BPAPPLNO             | bpapplno             | number        | text          | numeric metric | Yes      | 
-| BP_FORM              | bp_form              | number        | number        | numeric metric | Yes      | 
-| UNITS                | units                | number        | number        | numeric metric | Yes      | 
-| UNITSNET             | unitsnet             | number        | number        | numeric metric | Yes      | 
-| AFF                  | aff                  | number        | number        | numeric metric | Yes      | 
-| AFFNET               | affnet               | number        | number        | numeric metric | Yes      | 
-| SECTION415           | section415           | text          | text          | series tag     | Yes      | 
-| SEC415_TENURE        | sec415_ten           | text          | text          | series tag     | Yes      | 
-| SENIOR_HSG           | senior_hsg           | number        | number        | numeric metric | Yes      | 
-| STUDENT_HSG          | student_hs           | number        | number        | numeric metric | Yes      | 
-| ADDITIONS            | additions            | number        | number        | numeric metric | Yes      | 
-| NEWCONSTRUCTION      | newconstru           | number        | number        | numeric metric | Yes      | 
-| DEMOLITION           | demolition           | number        | number        | numeric metric | Yes      | 
-| CHANGEOFUSE          | changeofus           | number        | number        | numeric metric | Yes      | 
-| COST                 | cost                 | money         | money         | numeric metric | Yes      | 
-| BldgUse              | bldguse              | text          | text          | series tag     | Yes      | 
-| TOTAL_GSF            | total_gsf            | number        | number        | numeric metric | Yes      | 
-| NET_GSF              | net_gsf              | number        | number        | numeric metric | Yes      | 
-| CIE                  | cie                  | number        | number        | numeric metric | Yes      | 
-| CIENET               | cienet               | number        | number        | numeric metric | Yes      | 
-| MED                  | med                  | number        | number        | numeric metric | Yes      | 
-| MEDNET               | mednet               | number        | number        | numeric metric | Yes      | 
-| MIPS                 | mips                 | number        | number        | numeric metric | Yes      | 
-| MIPSNET              | mipsnet              | number        | number        | numeric metric | Yes      | 
-| PDR                  | pdr                  | number        | number        | numeric metric | Yes      | 
-| PDRNET               | pdrnet               | number        | number        | numeric metric | Yes      | 
-| RET                  | ret                  | number        | number        | numeric metric | Yes      | 
-| RETNET               | retnet               | number        | number        | numeric metric | Yes      | 
-| VISIT                | visit                | number        | number        | numeric metric | Yes      | 
-| VISITNET             | visitnet             | number        | number        | numeric metric | Yes      | 
-| HOTELRM              | hotelrm              | number        | number        | numeric metric | Yes      | 
-| HOTELRMNET           | hotelrmnet           | number        | number        | numeric metric | Yes      | 
-| FirstFiled           | firstfiled           | calendar_date | calendar_date |                | No       | 
-| MULTI                | multi                | number        | number        | numeric metric | Yes      | 
-| PLN_DESC             | pln_desc             | text          | text          | series tag     | Yes      | 
-| DBI_DESC             | dbi_desc             | text          | text          | series tag     | Yes      | 
-| PLANNER              | planner              | text          | text          | series tag     | Yes      | 
-| EasternNbrhood       | easternnbrhood       | number        | number        | numeric metric | Yes      | 
-| PLN_AREA             | pln_area             | text          | text          | series tag     | Yes      | 
-| PLN_DISTRICT         | pln_district         | text          | text          | series tag     | Yes      | 
-| HEIGHT               | height               | text          | text          | series tag     | Yes      | 
-| ZONING_SIM           | zoning_sim           | text          | text          | series tag     | Yes      | 
-| ZONING_DISTRICT_NAME | zoning_district_name | text          | text          | series tag     | Yes      | 
-| Supervisorial        | supe_dist            | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type     | Render Type   |
+| ======== | ============== | ==================== | ==================== | ============= | ============= |
+| Yes      | series tag     | neighborhood         | NEIGHBORHOOD         | text          | text          |
+| Yes      | series tag     | apn                  | APN                  | text          | text          |
+| Yes      | numeric metric | entitlement          | Entitlement          | number        | number        |
+| Yes      | series tag     | beststat             | BESTSTAT             | text          | text          |
+| Yes      | time           | bestdate             | BESTDATE             | calendar_date | calendar_date |
+| Yes      | series tag     | nameaddr             | NAMEADDR             | text          | text          |
+| Yes      | series tag     | alias                | Alias                | text          | text          |
+| Yes      | series tag     | pln_caseno           | PLN_CASENO           | text          | text          |
+| Yes      | numeric metric | bpapplno             | BPAPPLNO             | number        | text          |
+| Yes      | numeric metric | bp_form              | BP_FORM              | number        | number        |
+| Yes      | numeric metric | units                | UNITS                | number        | number        |
+| Yes      | numeric metric | unitsnet             | UNITSNET             | number        | number        |
+| Yes      | numeric metric | aff                  | AFF                  | number        | number        |
+| Yes      | numeric metric | affnet               | AFFNET               | number        | number        |
+| Yes      | series tag     | section415           | SECTION415           | text          | text          |
+| Yes      | series tag     | sec415_ten           | SEC415_TENURE        | text          | text          |
+| Yes      | numeric metric | senior_hsg           | SENIOR_HSG           | number        | number        |
+| Yes      | numeric metric | student_hs           | STUDENT_HSG          | number        | number        |
+| Yes      | numeric metric | additions            | ADDITIONS            | number        | number        |
+| Yes      | numeric metric | newconstru           | NEWCONSTRUCTION      | number        | number        |
+| Yes      | numeric metric | demolition           | DEMOLITION           | number        | number        |
+| Yes      | numeric metric | changeofus           | CHANGEOFUSE          | number        | number        |
+| Yes      | numeric metric | cost                 | COST                 | money         | money         |
+| Yes      | series tag     | bldguse              | BldgUse              | text          | text          |
+| Yes      | numeric metric | total_gsf            | TOTAL_GSF            | number        | number        |
+| Yes      | numeric metric | net_gsf              | NET_GSF              | number        | number        |
+| Yes      | numeric metric | cie                  | CIE                  | number        | number        |
+| Yes      | numeric metric | cienet               | CIENET               | number        | number        |
+| Yes      | numeric metric | med                  | MED                  | number        | number        |
+| Yes      | numeric metric | mednet               | MEDNET               | number        | number        |
+| Yes      | numeric metric | mips                 | MIPS                 | number        | number        |
+| Yes      | numeric metric | mipsnet              | MIPSNET              | number        | number        |
+| Yes      | numeric metric | pdr                  | PDR                  | number        | number        |
+| Yes      | numeric metric | pdrnet               | PDRNET               | number        | number        |
+| Yes      | numeric metric | ret                  | RET                  | number        | number        |
+| Yes      | numeric metric | retnet               | RETNET               | number        | number        |
+| Yes      | numeric metric | visit                | VISIT                | number        | number        |
+| Yes      | numeric metric | visitnet             | VISITNET             | number        | number        |
+| Yes      | numeric metric | hotelrm              | HOTELRM              | number        | number        |
+| Yes      | numeric metric | hotelrmnet           | HOTELRMNET           | number        | number        |
+| No       |                | firstfiled           | FirstFiled           | calendar_date | calendar_date |
+| Yes      | numeric metric | multi                | MULTI                | number        | number        |
+| Yes      | series tag     | pln_desc             | PLN_DESC             | text          | text          |
+| Yes      | series tag     | dbi_desc             | DBI_DESC             | text          | text          |
+| Yes      | series tag     | planner              | PLANNER              | text          | text          |
+| Yes      | numeric metric | easternnbrhood       | EasternNbrhood       | number        | number        |
+| Yes      | series tag     | pln_area             | PLN_AREA             | text          | text          |
+| Yes      | series tag     | pln_district         | PLN_DISTRICT         | text          | text          |
+| Yes      | series tag     | height               | HEIGHT               | text          | text          |
+| Yes      | series tag     | zoning_sim           | ZONING_SIM           | text          | text          |
+| Yes      | series tag     | zoning_district_name | ZONING_DISTRICT_NAME | text          | text          |
+| Yes      | series tag     | supe_dist            | Supervisorial        | text          | text          |
 ```
 
 ## Time Field
@@ -85,10 +89,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = firstfiled
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -98,7 +99,7 @@ series e:g5sr-9nhs d:2015-12-17T00:00:00.000Z t:supe_dist="SUPERVISORIAL DISTRIC
 
 series e:g5sr-9nhs d:2015-05-08T00:00:00.000Z t:supe_dist="SUPERVISORIAL DISTRICT 11" t:dbi_desc="CONSTRUCT (N) 3-STORY SINGLE FAMILY DWELLING UNIT" t:height=40-X t:pln_district=Ingleside t:neighborhood="Ocean View" t:nameaddr="1 EDGAR AV" t:planner=FLORESVE t:zoning_district_name="RESIDENTIAL- HOUSE, ONE FAMILY" t:zoning_sim=RH-1 t:bldguse="1 FAMILY DWELLING" t:apn="APN 6978069" t:beststat="BP FILED" m:med=0 m:ret=0 m:cienet=0 m:hotelrm=0 m:demolition=0 m:aff=0 m:visit=0 m:pdr=0 m:visitnet=0 m:newconstru=0 m:additions=0 m:mips=0 m:entitlement=0 m:changeofus=0 m:mednet=0 m:bpapplno=201505085755 m:cie=0 m:mipsnet=0 m:cost=300000 m:units=1 m:unitsnet=1 m:easternnbrhood=0 m:total_gsf=0 m:bp_form=1 m:pdrnet=0 m:multi=0 m:student_hs=0 m:senior_hsg=0 m:affnet=0 m:retnet=0 m:hotelrmnet=0 m:net_gsf=0
 
-
+series e:g5sr-9nhs d:2016-06-16T00:00:00.000Z t:supe_dist="SUPERVISORIAL DISTRICT 5" t:dbi_desc="CONSTRUCTION OF 8-STORY 35 DWELLING UNITS W/RETAIL & PARKING." t:neighborhood="Downtown/Civic Center" t:bldguse=APARTMENTS t:zoning_sim=NCT-3 t:section415="On-site BMR Project" t:pln_area="Market and Octavia" t:pln_caseno=2010 t:sec415_ten=Ownership t:pln_district="Buena Vista" t:height=85-X t:nameaddr="1 FRANKLIN ST" t:pln_desc="Construct a new 8-story, 35-unit mixed-use building with ground-floor commercial.  See 2008.1328" t:planner=TFRYE t:zoning_district_name="MODERATE SCALE NEIGHBORHOOD COMMERCIAL TRANSIT DISTRICT" t:apn="APN 0837003" t:beststat=CONSTRUCTION m:med=0 m:ret=2384 m:cienet=0 m:hotelrm=0 m:demolition=0 m:aff=5 m:visit=0 m:pdr=0 m:visitnet=0 m:newconstru=0 m:additions=0 m:mips=0 m:entitlement=1 m:changeofus=0 m:mednet=0 m:bpapplno=200912032516 m:cie=0 m:mipsnet=0 m:cost=10050000 m:units=35 m:unitsnet=35 m:easternnbrhood=0 m:total_gsf=2384 m:bp_form=1 m:pdrnet=0 m:multi=0 m:student_hs=0 m:senior_hsg=0 m:affnet=5 m:retnet=2384 m:hotelrmnet=0 m:net_gsf=2384
 ```
 
 ## Meta Commands
@@ -168,11 +169,11 @@ metric m:easternnbrhood p:integer l:EasternNbrhood t:dataTypeName=number
 
 entity e:g5sr-9nhs l:"SF Development Pipeline 2016 Q2" t:url=https://data.sfgov.org/api/views/g5sr-9nhs
 
-property e:g5sr-9nhs t:meta.view d:2017-03-07T17:13:52.579Z v:id=g5sr-9nhs v:category="Housing and Buildings" v:averageRating=0 v:name="SF Development Pipeline 2016 Q2"
+property e:g5sr-9nhs t:meta.view v:id=g5sr-9nhs v:category="Housing and Buildings" v:averageRating=0 v:name="SF Development Pipeline 2016 Q2"
 
-property e:g5sr-9nhs t:meta.view.license d:2017-03-07T17:13:52.579Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:g5sr-9nhs t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:g5sr-9nhs t:meta.view.owner d:2017-03-07T17:13:52.579Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:g5sr-9nhs t:meta.view.owner v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 
-property e:g5sr-9nhs t:meta.view.tableauthor d:2017-03-07T17:13:52.579Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:g5sr-9nhs t:meta.view.tableauthor v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 ```

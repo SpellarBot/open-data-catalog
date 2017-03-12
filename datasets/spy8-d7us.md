@@ -2,34 +2,34 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/spy8-d7us/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/sept-2014-ecy-stations-with-exceeded-criteria-for-fecal-bacteria-temperature-oxygen-and-ph-f89c7)
-* Id = spy8-d7us
-* Name = Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH
-* Attribution = Washingotn State Department of Ecology
-* Attribution Link = http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html
-* Category = Natural Resources & Environment
-* Created = 2014-11-10T17:17:47Z
-* Publication Date = 2014-11-10T17:20:29Z
-* Rows Updated = 2014-11-10T17:18:03Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/sept-2014-ecy-stations-with-exceeded-criteria-for-fecal-bacteria-temperature-oxygen-and-ph-f89c7) |
+| Metadata | [Link](https://data.wa.gov/api/views/spy8-d7us) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/spy8-d7us/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/spy8-d7us/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | spy8-d7us |
+| Name | Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH |
+| Attribution | Washingotn State Department of Ecology |
+| Category | Natural Resources & Environment |
+| Created | 2014-11-10T17:17:47Z |
+| Publication Date | 2014-11-10T17:20:29Z |
+| Rows Updated | 2014-11-10T17:18:03Z |
 
 ## Columns
 
 ```ls
-| Name                     | Field Name               | Data Type     | Render Type   | Schema Type    | Included | 
-| ======================== | ======================== | ============= | ============= | ============== | ======== | 
-| Station                  | station                  | text          | text          | series tag     | Yes      | 
-| Station Name             | station_name             | text          | text          | series tag     | Yes      | 
-| WQ Violation Date        | wq_violation_date        | calendar_date | calendar_date | time           | Yes      | 
-| Time                     | time                     | calendar_date | calendar_date |                | No       | 
-| Variable/Units           | variable_units           | text          | text          | series tag     | Yes      | 
-| Sample Result or geo.mn  | sample_result_or_geo_mn  | number        | number        | numeric metric | Yes      | 
-| Criterion                | criterion                | number        | number        | numeric metric | Yes      | 
-| Percent exceeds standard | percent_exceeds_standard | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name               | Name                     | Data Type     | Render Type   |
+| ======== | ============== | ======================== | ======================== | ============= | ============= |
+| Yes      | series tag     | station                  | Station                  | text          | text          |
+| Yes      | series tag     | station_name             | Station Name             | text          | text          |
+| Yes      | time           | wq_violation_date        | WQ Violation Date        | calendar_date | calendar_date |
+| No       |                | time                     | Time                     | calendar_date | calendar_date |
+| Yes      | series tag     | variable_units           | Variable/Units           | text          | text          |
+| Yes      | numeric metric | sample_result_or_geo_mn  | Sample Result or geo.mn  | number        | number        |
+| Yes      | numeric metric | criterion                | Criterion                | number        | number        |
+| Yes      | numeric metric | percent_exceeds_standard | Percent exceeds standard | number        | number        |
 ```
 
 ## Time Field
@@ -42,10 +42,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = time
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -69,9 +66,9 @@ metric m:percent_exceeds_standard l:"Percent exceeds standard" t:dataTypeName=nu
 
 entity e:spy8-d7us l:"Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" t:attribution="Washingotn State Department of Ecology" t:url=https://data.wa.gov/api/views/spy8-d7us
 
-property e:spy8-d7us t:meta.view d:2017-03-03T14:28:35.867Z v:id=spy8-d7us v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html v:averageRating=0 v:name="Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" v:attribution="Washingotn State Department of Ecology"
+property e:spy8-d7us t:meta.view v:id=spy8-d7us v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html v:averageRating=0 v:name="Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" v:attribution="Washingotn State Department of Ecology"
 
-property e:spy8-d7us t:meta.view.owner d:2017-03-03T14:28:35.867Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:spy8-d7us t:meta.view.owner v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 
-property e:spy8-d7us t:meta.view.tableauthor d:2017-03-03T14:28:35.867Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:spy8-d7us t:meta.view.tableauthor v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 ```

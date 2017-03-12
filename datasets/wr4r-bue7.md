@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/wr4r-bue7/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/fair-student-funding-budget-detail-1)
-* Id = wr4r-bue7
-* Name = Fair Student Funding Budget Detail 1
-* Attribution = Department of Education (DOE)
-* Category = City Government
-* Created = 2015-10-19T18:50:29Z
-* Publication Date = 2015-10-19T18:58:20Z
-* Rows Updated = 2015-10-19T18:51:51Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/fair-student-funding-budget-detail-1) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/wr4r-bue7) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/wr4r-bue7/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/wr4r-bue7/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | wr4r-bue7 |
+| Name | Fair Student Funding Budget Detail 1 |
+| Attribution | Department of Education (DOE) |
+| Category | City Government |
+| Created | 2015-10-19T18:50:29Z |
+| Publication Date | 2015-10-19T18:58:20Z |
+| Rows Updated | 2015-10-19T18:51:51Z |
 
 ## Description
 
@@ -20,23 +25,23 @@ Click Here for further information- http://schools.nyc.gov/offices/d_chanc_oper/
 ## Columns
 
 ```ls
-| Name                                      | Field Name                             | Data Type | Render Type | Schema Type    | Included | 
-| ========================================= | ====================================== | ========= | =========== | ============== | ======== | 
-| Fiscal_Year                               | fiscal_year                            | number    | text        | time           | Yes      | 
-| Location                                  | location                               | text      | text        | series tag     | Yes      | 
-| Print_Order                               | print_order                            | number    | number      | numeric metric | Yes      | 
-| Attribute_Reference                       | attribute_reference                    | text      | text        | series tag     | Yes      | 
-| Attribute_Category                        | attribute_category                     | text      | text        | series tag     | Yes      | 
-| Need_Name                                 | need_name                              | text      | text        | series tag     | Yes      | 
-| Category                                  | category                               | text      | text        | series tag     | Yes      | 
-| Sub_Category                              | sub_category                           | text      | text        | series tag     | Yes      | 
-| Column L: FY15 Weight                     | column_l_fy15_weight                   | number    | number      | numeric metric | Yes      | 
-| Column M: FY15 Per Capita (no ATS growth) | column_m_fy15_per_capita_no_ats_growth | money     | money       | numeric metric | Yes      | 
-| Column N: FY14 Actual Registers           | column_n_fy14_actual_registers         | number    | number      | numeric metric | Yes      | 
-| Column O: Projected Register              | column_o_projected_register            | number    | number      | numeric metric | Yes      | 
-| Column P: Projected Formula               | column_p_projected_formula             | money     | money       | numeric metric | Yes      | 
-| Column Q: Register Change                 | column_q_register_change               | number    | number      | numeric metric | Yes      | 
-| Column R: Register Dollar Change          | column_r_register_dollar_change        | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                             | Name                                      | Data Type | Render Type |
+| ======== | ============== | ====================================== | ========================================= | ========= | =========== |
+| Yes      | time           | fiscal_year                            | Fiscal_Year                               | number    | text        |
+| Yes      | series tag     | location                               | Location                                  | text      | text        |
+| Yes      | numeric metric | print_order                            | Print_Order                               | number    | number      |
+| Yes      | series tag     | attribute_reference                    | Attribute_Reference                       | text      | text        |
+| Yes      | series tag     | attribute_category                     | Attribute_Category                        | text      | text        |
+| Yes      | series tag     | need_name                              | Need_Name                                 | text      | text        |
+| Yes      | series tag     | category                               | Category                                  | text      | text        |
+| Yes      | series tag     | sub_category                           | Sub_Category                              | text      | text        |
+| Yes      | numeric metric | column_l_fy15_weight                   | Column L: FY15 Weight                     | number    | number      |
+| Yes      | numeric metric | column_m_fy15_per_capita_no_ats_growth | Column M: FY15 Per Capita (no ATS growth) | money     | money       |
+| Yes      | numeric metric | column_n_fy14_actual_registers         | Column N: FY14 Actual Registers           | number    | number      |
+| Yes      | numeric metric | column_o_projected_register            | Column O: Projected Register              | number    | number      |
+| Yes      | numeric metric | column_p_projected_formula             | Column P: Projected Formula               | money     | money       |
+| Yes      | numeric metric | column_q_register_change               | Column Q: Register Change                 | number    | number      |
+| Yes      | numeric metric | column_r_register_dollar_change        | Column R: Register Dollar Change          | money     | money       |
 ```
 
 ## Time Field
@@ -44,15 +49,6 @@ Click Here for further information- http://schools.nyc.gov/offices/d_chanc_oper/
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -80,9 +76,9 @@ metric m:column_q_register_change l:"Column Q: Register Change" t:dataTypeName=n
 
 entity e:wr4r-bue7 l:"Fair Student Funding Budget Detail 1" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/wr4r-bue7
 
-property e:wr4r-bue7 t:meta.view d:2017-03-03T14:03:48.563Z v:id=wr4r-bue7 v:category="City Government" v:averageRating=0 v:name="Fair Student Funding Budget Detail 1" v:attribution="Department of Education (DOE)"
+property e:wr4r-bue7 t:meta.view v:id=wr4r-bue7 v:category="City Government" v:averageRating=0 v:name="Fair Student Funding Budget Detail 1" v:attribution="Department of Education (DOE)"
 
-property e:wr4r-bue7 t:meta.view.owner d:2017-03-03T14:03:48.563Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:wr4r-bue7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:wr4r-bue7 t:meta.view.tableauthor d:2017-03-03T14:03:48.563Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:wr4r-bue7 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

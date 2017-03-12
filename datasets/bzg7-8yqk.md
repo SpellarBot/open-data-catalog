@@ -2,14 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.mo.gov/api/views/bzg7-8yqk/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/arra-grant-expenditures-as-of-cob-january-31-2013-51d18)
-* Id = bzg7-8yqk
-* Name = ARRA Grant Expenditures As Of COB January 31, 2013
-* Category = Government Administration
-* Created = 2013-02-01T16:57:56Z
-* Publication Date = 2013-02-01T16:59:04Z
-* Rows Updated = 2013-02-01T16:58:05Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/arra-grant-expenditures-as-of-cob-january-31-2013-51d18) |
+| Metadata | [Link](https://data.mo.gov/api/views/bzg7-8yqk) |
+| Data: JSON | [100 Rows](https://data.mo.gov/api/views/bzg7-8yqk/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.mo.gov/api/views/bzg7-8yqk/rows.csv?max_rows=100) |
+| Host | data.mo.gov |
+| Id | bzg7-8yqk |
+| Name | ARRA Grant Expenditures As Of COB January 31, 2013 |
+| Category | Government Administration |
+| Created | 2013-02-01T16:57:56Z |
+| Publication Date | 2013-02-01T16:59:04Z |
+| Rows Updated | 2013-02-01T16:58:05Z |
 
 ## Description
 
@@ -18,13 +23,13 @@ Data that shows how every dollar received by the State of Missouri under the Ame
 ## Columns
 
 ```ls
-| Name           | Field Name     | Data Type | Render Type | Schema Type    | Included | 
-| ============== | ============== | ========= | =========== | ============== | ======== | 
-| updated_at     | :updated_at    | meta_data | meta_data   | time           | Yes      | 
-| Agency Name    | agency_name    | text      | text        | series tag     | Yes      | 
-| Program Name   | program_name   | text      | text        | series tag     | Yes      | 
-| Vendor Name    | vendor_name    | text      | text        | series tag     | Yes      | 
-| Payments Total | payments_total | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
+| ======== | ============== | ============== | ============== | ========= | =========== |
+| No       | time           | :updated_at    | updated_at     | meta_data | meta_data   |
+| Yes      | series tag     | agency_name    | Agency Name    | text      | text        |
+| Yes      | series tag     | program_name   | Program Name   | text      | text        |
+| Yes      | series tag     | vendor_name    | Vendor Name    | text      | text        |
+| Yes      | numeric metric | payments_total | Payments Total | money     | money       |
 ```
 
 ## Time Field
@@ -32,15 +37,6 @@ Data that shows how every dollar received by the State of Missouri under the Ame
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -58,9 +54,9 @@ series e:bzg7-8yqk d:2013-02-01T08:57:58.000Z t:program_name="AQUACULTURE ASSIST
 ```ls
 entity e:bzg7-8yqk l:"ARRA Grant Expenditures As Of COB January 31, 2013" t:url=https://data.mo.gov/api/views/bzg7-8yqk
 
-property e:bzg7-8yqk t:meta.view d:2017-03-03T14:08:47.989Z v:id=bzg7-8yqk v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Expenditures As Of COB January 31, 2013"
+property e:bzg7-8yqk t:meta.view v:id=bzg7-8yqk v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Expenditures As Of COB January 31, 2013"
 
-property e:bzg7-8yqk t:meta.view.owner d:2017-03-03T14:08:47.989Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:bzg7-8yqk t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 
-property e:bzg7-8yqk t:meta.view.tableauthor d:2017-03-03T14:08:47.989Z v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:bzg7-8yqk t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/w4v6-3sdt/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/dof-summary-of-neighborhood-sales-for-the-bronx-for-class-1-2-and-3-family-homes-2009-11c00)
-* Id = w4v6-3sdt
-* Name = DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009
-* Attribution = Department of Finance (DOF)
-* Category = Housing & Development
-* Tags = [department of finance, finance, dof, property, properties, neighborhoods, sales, neighborhood sales, homes, family homes, class-1, class-2, class-3, borough, bronx]
-* Created = 2011-10-05T17:23:15Z
-* Publication Date = 2013-06-21T20:54:26Z
-* Rows Updated = 2013-06-21T20:54:23Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/dof-summary-of-neighborhood-sales-for-the-bronx-for-class-1-2-and-3-family-homes-2009-11c00) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/w4v6-3sdt) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/w4v6-3sdt/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/w4v6-3sdt/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | w4v6-3sdt |
+| Name | DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009 |
+| Attribution | Department of Finance (DOF) |
+| Category | Housing & Development |
+| Tags | department of finance, finance, dof, property, properties, neighborhoods, sales, neighborhood sales, homes, family homes, class-1, class-2, class-3, borough, bronx |
+| Created | 2011-10-05T17:23:15Z |
+| Publication Date | 2013-06-21T20:54:26Z |
+| Rows Updated | 2013-06-21T20:54:23Z |
 
 ## Description
 
@@ -21,17 +26,17 @@ Update Schedule: Annually
 ## Columns
 
 ```ls
-| Name                    | Field Name             | Data Type | Render Type | Schema Type    | Included | 
-| ======================= | ====================== | ========= | =========== | ============== | ======== | 
-| updated_at              | :updated_at            | meta_data | meta_data   | time           | Yes      | 
-| NEIGHBORHOOD            | neighborhood           | text      | text        | series tag     | Yes      | 
-| TYPE OF HOME            | type_of_home           | text      | text        | series tag     | Yes      | 
-| TOTAL NO. OF PROPERTIES | total_no_of_properties | number    | number      | numeric metric | Yes      | 
-| NUMBER OF SALES         | number_of_sales        | number    | number      | numeric metric | Yes      | 
-| LOWEST SALE PRICE       | lowest_sale_price      | money     | money       | numeric metric | Yes      | 
-| AVERAGE SALE PRICE      | average_sale_price     | money     | money       | numeric metric | Yes      | 
-| MEDIAN SALE PRICE       | median_sale_price      | money     | money       | numeric metric | Yes      | 
-| HIGHEST SALE PRICE      | highest_sale_price     | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name             | Name                    | Data Type | Render Type |
+| ======== | ============== | ====================== | ======================= | ========= | =========== |
+| No       | time           | :updated_at            | updated_at              | meta_data | meta_data   |
+| Yes      | series tag     | neighborhood           | NEIGHBORHOOD            | text      | text        |
+| Yes      | series tag     | type_of_home           | TYPE OF HOME            | text      | text        |
+| Yes      | numeric metric | total_no_of_properties | TOTAL NO. OF PROPERTIES | number    | number      |
+| Yes      | numeric metric | number_of_sales        | NUMBER OF SALES         | number    | number      |
+| Yes      | numeric metric | lowest_sale_price      | LOWEST SALE PRICE       | money     | money       |
+| Yes      | numeric metric | average_sale_price     | AVERAGE SALE PRICE      | money     | money       |
+| Yes      | numeric metric | median_sale_price      | MEDIAN SALE PRICE       | money     | money       |
+| Yes      | numeric metric | highest_sale_price     | HIGHEST SALE PRICE      | money     | money       |
 ```
 
 ## Time Field
@@ -39,15 +44,6 @@ Update Schedule: Annually
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -69,9 +65,9 @@ metric m:number_of_sales p:integer l:"NUMBER OF SALES" t:dataTypeName=number
 
 entity e:w4v6-3sdt l:"DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" t:attribution="Department of Finance (DOF)" t:url=https://data.cityofnewyork.us/api/views/w4v6-3sdt
 
-property e:w4v6-3sdt t:meta.view d:2017-03-03T14:39:58.869Z v:id=w4v6-3sdt v:category="Housing & Development" v:averageRating=0 v:name="DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" v:attribution="Department of Finance (DOF)"
+property e:w4v6-3sdt t:meta.view v:id=w4v6-3sdt v:category="Housing & Development" v:averageRating=0 v:name="DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" v:attribution="Department of Finance (DOF)"
 
-property e:w4v6-3sdt t:meta.view.owner d:2017-03-03T14:39:58.869Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:w4v6-3sdt t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:w4v6-3sdt t:meta.view.tableauthor d:2017-03-03T14:39:58.869Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:w4v6-3sdt t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```

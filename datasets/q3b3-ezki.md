@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/q3b3-ezki/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/operations-and-maintenance-expenditures)
-* [Metadata URL](https://data.austintexas.gov/api/views/q3b3-ezki)
-* Id = q3b3-ezki
-* Name = Operations And Maintenance Expenditures
-* Attribution = Austin Energy
-* Category = Utility
-* Tags = [operations and maintenance, o&m, expenditures, energy, budget]
-* Created = 2016-08-01T14:33:01Z
-* Publication Date = 2016-10-31T13:55:05Z
-* Rows Updated = 2016-10-31T13:54:49Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/operations-and-maintenance-expenditures) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/q3b3-ezki) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/q3b3-ezki/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/q3b3-ezki/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | q3b3-ezki |
+| Name | Operations And Maintenance Expenditures |
+| Attribution | Austin Energy |
+| Category | Utility |
+| Tags | operations and maintenance, o&m, expenditures, energy, budget |
+| Created | 2016-08-01T14:33:01Z |
+| Publication Date | 2016-10-31T13:55:05Z |
+| Rows Updated | 2016-10-31T13:54:49Z |
 
 ## Description
 
@@ -22,15 +26,15 @@ Please note: Operations and Maintenance with Fuel does not include debt service 
 ## Columns
 
 ```ls
-| Name                             | Field Name                     | Data Type | Render Type | Schema Type    | Included | 
-| ================================ | ============================== | ========= | =========== | ============== | ======== | 
-| Fiscal Year                      | fiscal_year                    | number    | number      | time           | Yes      | 
-| Fuel                             | fuel                           | money     | money       | numeric metric | Yes      | 
-| Power Supply & Market Operations | power_supply_market_operations | money     | money       | numeric metric | Yes      | 
-| Electric Service Delivery        | electric_service_delivery      | money     | money       | numeric metric | Yes      | 
-| Distributed Energy Services      | distributed_energy_services    | money     | money       | numeric metric | Yes      | 
-| Customer Care                    | customer_care                  | money     | money       | numeric metric | Yes      | 
-| Administrative and General       | administrative_and_general     | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                     | Name                             | Data Type | Render Type |
+| ======== | ============== | ============================== | ================================ | ========= | =========== |
+| Yes      | time           | fiscal_year                    | Fiscal Year                      | number    | number      |
+| Yes      | numeric metric | fuel                           | Fuel                             | money     | money       |
+| Yes      | numeric metric | power_supply_market_operations | Power Supply & Market Operations | money     | money       |
+| Yes      | numeric metric | electric_service_delivery      | Electric Service Delivery        | money     | money       |
+| Yes      | numeric metric | distributed_energy_services    | Distributed Energy Services      | money     | money       |
+| Yes      | numeric metric | customer_care                  | Customer Care                    | money     | money       |
+| Yes      | numeric metric | administrative_and_general     | Administrative and General       | money     | money       |
 ```
 
 ## Time Field
@@ -38,15 +42,6 @@ Please note: Operations and Maintenance with Fuel does not include debt service 
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,11 +59,11 @@ series e:q3b3-ezki d:2009-01-01T00:00:00.000Z m:electric_service_delivery=128031
 ```ls
 entity e:q3b3-ezki l:"Operations And Maintenance Expenditures" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/q3b3-ezki
 
-property e:q3b3-ezki t:meta.view d:2017-03-07T22:56:48.454Z v:id=q3b3-ezki v:category=Utility v:averageRating=0 v:name="Operations And Maintenance Expenditures" v:attribution="Austin Energy"
+property e:q3b3-ezki t:meta.view v:id=q3b3-ezki v:category=Utility v:averageRating=0 v:name="Operations And Maintenance Expenditures" v:attribution="Austin Energy"
 
-property e:q3b3-ezki t:meta.view.license d:2017-03-07T22:56:48.454Z v:name="Public Domain"
+property e:q3b3-ezki t:meta.view.license v:name="Public Domain"
 
-property e:q3b3-ezki t:meta.view.owner d:2017-03-07T22:56:48.454Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:q3b3-ezki t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 
-property e:q3b3-ezki t:meta.view.tableauthor d:2017-03-07T22:56:48.454Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:q3b3-ezki t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

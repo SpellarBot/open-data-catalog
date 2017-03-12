@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.maryland.gov/api/views/c59t-7iqd/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/prevalence-and-mean-of-dental-caries-among-maryland-school-children-2005-2006-5d737)
-* [Metadata URL](https://data.maryland.gov/api/views/c59t-7iqd)
-* Id = c59t-7iqd
-* Name = Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006
-* Attribution = Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health
-* [Attribution Link](http://fha.dhmh.maryland.gov/oralhealth/docs1/Oral_Health_Survey_Report.pdf)
-* Category = Health and Human Services
-* Tags = [oral health, dental caries, dentist, dentalcare, toothache, children, office of oral health]
-* Created = 2013-01-04T00:06:06Z
-* Publication Date = 2013-01-04T17:46:46Z
-* Rows Updated = 2013-01-04T17:43:47Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/prevalence-and-mean-of-dental-caries-among-maryland-school-children-2005-2006-5d737) |
+| Metadata | [Link](https://data.maryland.gov/api/views/c59t-7iqd) |
+| Data: JSON | [100 Rows](https://data.maryland.gov/api/views/c59t-7iqd/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.maryland.gov/api/views/c59t-7iqd/rows.csv?max_rows=100) |
+| Host | data.maryland.gov |
+| Id | c59t-7iqd |
+| Name | Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006 |
+| Attribution | Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health |
+| Category | Health and Human Services |
+| Tags | oral health, dental caries, dentist, dentalcare, toothache, children, office of oral health |
+| Created | 2013-01-04T00:06:06Z |
+| Publication Date | 2013-01-04T17:46:46Z |
+| Rows Updated | 2013-01-04T17:43:47Z |
 
 ## Description
 
@@ -23,14 +26,14 @@ Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgo
 ## Columns
 
 ```ls
-| Name                           | Field Name                   | Data Type | Render Type | Schema Type    | Included | 
-| ============================== | ============================ | ========= | =========== | ============== | ======== | 
-| updated_at                     | :updated_at                  | meta_data | meta_data   | time           | No       | 
-| Characteristic                 | characteristic               | text      | text        | series tag     | Yes      | 
-| Prevalence (%)                 | prevalence                   | number    | number      | numeric metric | Yes      | 
-| Prevalence Standard Error (SE) | prevalence_standard_error_se | number    | number      | numeric metric | Yes      | 
-| Mean                           | mean                         | number    | number      | numeric metric | Yes      | 
-| Mean Standard Error (SE)       | mean_standard_error_se       | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                   | Name                           | Data Type | Render Type |
+| ======== | ============== | ============================ | ============================== | ========= | =========== |
+| No       | time           | :updated_at                  | updated_at                     | meta_data | meta_data   |
+| Yes      | series tag     | characteristic               | Characteristic                 | text      | text        |
+| Yes      | numeric metric | prevalence                   | Prevalence (%)                 | number    | number      |
+| Yes      | numeric metric | prevalence_standard_error_se | Prevalence Standard Error (SE) | number    | number      |
+| Yes      | numeric metric | mean                         | Mean                           | number    | number      |
+| Yes      | numeric metric | mean_standard_error_se       | Mean Standard Error (SE)       | number    | number      |
 ```
 
 ## Time Field
@@ -38,15 +41,6 @@ Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgo
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -72,9 +66,9 @@ metric m:mean_standard_error_se l:"Mean Standard Error (SE)" t:dataTypeName=numb
 
 entity e:c59t-7iqd l:"Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" t:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health" t:url=https://data.maryland.gov/api/views/c59t-7iqd
 
-property e:c59t-7iqd t:meta.view d:2017-03-08T01:56:37.645Z v:id=c59t-7iqd v:category="Health and Human Services" v:attributionLink=http://fha.dhmh.maryland.gov/oralhealth/docs1/Oral_Health_Survey_Report.pdf v:averageRating=0 v:name="Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" v:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health"
+property e:c59t-7iqd t:meta.view v:id=c59t-7iqd v:category="Health and Human Services" v:attributionLink=http://fha.dhmh.maryland.gov/oralhealth/docs1/Oral_Health_Survey_Report.pdf v:averageRating=0 v:name="Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" v:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health"
 
-property e:c59t-7iqd t:meta.view.owner d:2017-03-08T01:56:37.645Z v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
+property e:c59t-7iqd t:meta.view.owner v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
 
-property e:c59t-7iqd t:meta.view.tableauthor d:2017-03-08T01:56:37.645Z v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
+property e:c59t-7iqd t:meta.view.tableauthor v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
 ```

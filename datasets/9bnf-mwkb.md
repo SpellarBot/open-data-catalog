@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.iowa.gov/api/views/9bnf-mwkb/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/aadt-turning-traffic-1999)
-* [Metadata URL](https://data.iowa.gov/api/views/9bnf-mwkb)
-* Id = 9bnf-mwkb
-* Name = AADT Turning Traffic 1999
-* Attribution = Iowa Department of Transportation - Office of Systems Planning
-* Category = Transportation & Utilities
-* Tags = [asset, classification, total aadt, passenger, single unit, combo unit, leg label, aadt, turning movement, traffic, iowa dot, iowa department of transportation]
-* Created = 2016-09-29T19:08:21Z
-* Publication Date = 2016-09-29T19:09:55Z
-* Rows Updated = 2016-09-29T19:08:21Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/aadt-turning-traffic-1999) |
+| Metadata | [Link](https://data.iowa.gov/api/views/9bnf-mwkb) |
+| Data: JSON | [100 Rows](https://data.iowa.gov/api/views/9bnf-mwkb/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.iowa.gov/api/views/9bnf-mwkb/rows.csv?max_rows=100) |
+| Host | data.iowa.gov |
+| Id | 9bnf-mwkb |
+| Name | AADT Turning Traffic 1999 |
+| Attribution | Iowa Department of Transportation - Office of Systems Planning |
+| Category | Transportation & Utilities |
+| Tags | asset, classification, total aadt, passenger, single unit, combo unit, leg label, aadt, turning movement, traffic, iowa dot, iowa department of transportation |
+| Created | 2016-09-29T19:08:21Z |
+| Publication Date | 2016-09-29T19:09:55Z |
+| Rows Updated | 2016-09-29T19:08:21Z |
 
 ## Description
 
@@ -23,17 +27,17 @@ The Turning Movements application includes all AADT Turning Traffic data for yea
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type | Render Type | Schema Type    | Included | 
-| ==================== | ==================== | ========= | =========== | ============== | ======== | 
-| updated_at           | :updated_at          | meta_data | meta_data   | time           | No       | 
-| STATION              | station              | number    | text        | numeric metric | Yes      | 
-| INTERSECTION_LEG     | intersection_leg     | number    | text        | numeric metric | Yes      | 
-| TOTAL_AADT           | total_aadt           | number    | text        | numeric metric | Yes      | 
-| PASSENGER_AADT       | passenger_aadt       | number    | text        | numeric metric | Yes      | 
-| SINGLE_UNIT_AADT     | single_unit_aadt     | number    | text        | numeric metric | Yes      | 
-| COMBO_UNIT_AADT      | combo_unit_aadt      | number    | text        | numeric metric | Yes      | 
-| TURNING_MOVEMENT_URL | turning_movement_url | text      | text        | series tag     | Yes      | 
-| OBJECTID             | objectid             | text      | number      | series tag     | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
+| ======== | ============== | ==================== | ==================== | ========= | =========== |
+| No       | time           | :updated_at          | updated_at           | meta_data | meta_data   |
+| Yes      | numeric metric | station              | STATION              | number    | text        |
+| Yes      | numeric metric | intersection_leg     | INTERSECTION_LEG     | number    | text        |
+| Yes      | numeric metric | total_aadt           | TOTAL_AADT           | number    | text        |
+| Yes      | numeric metric | passenger_aadt       | PASSENGER_AADT       | number    | text        |
+| Yes      | numeric metric | single_unit_aadt     | SINGLE_UNIT_AADT     | number    | text        |
+| Yes      | numeric metric | combo_unit_aadt      | COMBO_UNIT_AADT      | number    | text        |
+| Yes      | series tag     | turning_movement_url | TURNING_MOVEMENT_URL | text      | text        |
+| Yes      | series tag     | objectid             | OBJECTID             | text      | number      |
 ```
 
 ## Time Field
@@ -41,15 +45,6 @@ The Turning Movements application includes all AADT Turning Traffic data for yea
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -79,9 +74,9 @@ metric m:combo_unit_aadt l:COMBO_UNIT_AADT d:"Combo Unit AADT" t:dataTypeName=nu
 
 entity e:9bnf-mwkb l:"AADT Turning Traffic 1999" t:attribution="Iowa Department of Transportation - Office of Systems Planning" t:url=https://data.iowa.gov/api/views/9bnf-mwkb
 
-property e:9bnf-mwkb t:meta.view d:2017-03-07T16:50:33.844Z v:id=9bnf-mwkb v:category="Transportation & Utilities" v:averageRating=0 v:name="AADT Turning Traffic 1999" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
+property e:9bnf-mwkb t:meta.view v:id=9bnf-mwkb v:category="Transportation & Utilities" v:averageRating=0 v:name="AADT Turning Traffic 1999" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
 
-property e:9bnf-mwkb t:meta.view.owner d:2017-03-07T16:50:33.844Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:9bnf-mwkb t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 
-property e:9bnf-mwkb t:meta.view.tableauthor d:2017-03-07T16:50:33.844Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:9bnf-mwkb t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

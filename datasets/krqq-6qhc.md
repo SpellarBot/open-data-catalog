@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ct.gov/api/views/krqq-6qhc/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/tax-exempt-organizations-extracted-from-the-internal-revenue-service)
-* [Metadata URL](https://data.ct.gov/api/views/krqq-6qhc)
-* Id = krqq-6qhc
-* Name = Tax Exempt Organizations (Extracted from the Internal Revenue Service)
-* Attribution = Internal Revenue Service
-* [Attribution Link](https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf)
-* Category = Business
-* Tags = [tax, exempt, non-profit, tax exempt, charity, charities]
-* Created = 2016-12-15T17:57:44Z
-* Publication Date = 2016-12-15T19:44:31Z
-* Rows Updated = 2017-02-15T15:48:19Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/tax-exempt-organizations-extracted-from-the-internal-revenue-service) |
+| Metadata | [Link](https://data.ct.gov/api/views/krqq-6qhc) |
+| Data: JSON | [100 Rows](https://data.ct.gov/api/views/krqq-6qhc/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ct.gov/api/views/krqq-6qhc/rows.csv?max_rows=100) |
+| Host | data.ct.gov |
+| Id | krqq-6qhc |
+| Name | Tax Exempt Organizations (Extracted from the Internal Revenue Service) |
+| Attribution | Internal Revenue Service |
+| Category | Business |
+| Tags | tax, exempt, non-profit, tax exempt, charity, charities |
+| Created | 2016-12-15T17:57:44Z |
+| Publication Date | 2016-12-15T19:44:31Z |
+| Rows Updated | 2017-02-15T15:48:19Z |
 
 ## Description
 
@@ -65,37 +68,37 @@ SORT_NAME Sort Name (Secondary Name Line)
 ## Columns
 
 ```ls
-| Name             | Field Name       | Data Type | Render Type | Schema Type    | Included | 
-| ================ | ================ | ========= | =========== | ============== | ======== | 
-| updated_at       | :updated_at      | meta_data | meta_data   | time           | No       | 
-| EIN              | ein              | number    | number      | numeric metric | Yes      | 
-| NAME             | name             | text      | text        | series tag     | Yes      | 
-| ICO              | ico              | text      | text        | series tag     | Yes      | 
-| STREET           | street           | text      | text        | series tag     | Yes      | 
-| CITY             | city             | text      | text        | series tag     | Yes      | 
-| STATE            | state            | text      | text        | series tag     | Yes      | 
-| ZIP CODE         | zip_code         | text      | text        | series tag     | Yes      | 
-| GROUP            | group            | number    | number      | numeric metric | Yes      | 
-| SUBSECTION       | subsection       | number    | number      | numeric metric | Yes      | 
-| AFFILIATION      | affiliation      | number    | number      | numeric metric | Yes      | 
-| CLASSIFICATION   | classification   | number    | number      | numeric metric | Yes      | 
-| RULING           | ruling           | number    | number      | numeric metric | Yes      | 
-| DEDUCTIBILITY    | deductibility    | number    | number      | numeric metric | Yes      | 
-| FOUNDATION       | foundation       | number    | number      | numeric metric | Yes      | 
-| ACTIVITY         | activity         | number    | number      | numeric metric | Yes      | 
-| ORGANIZATION     | organization     | number    | number      | numeric metric | Yes      | 
-| STATUS           | status           | number    | number      | numeric metric | Yes      | 
-| TAX_PERIOD       | tax_period       | number    | number      | numeric metric | Yes      | 
-| ASSET_CD         | asset_cd         | number    | number      | numeric metric | Yes      | 
-| INCOME_CD        | income_cd        | number    | number      | numeric metric | Yes      | 
-| FILING_REQ_CD    | filing_req_cd    | number    | number      | numeric metric | Yes      | 
-| PF_FILING_REQ_CD | pf_filing_req_cd | number    | number      | numeric metric | Yes      | 
-| ACCT_PD          | acct_pd          | number    | number      | numeric metric | Yes      | 
-| ASSET_AMT        | asset_amt        | number    | number      | numeric metric | Yes      | 
-| INCOME_AMT       | income_amt       | number    | number      | numeric metric | Yes      | 
-| REVENUE_AMT      | revenue_amt      | number    | number      | numeric metric | Yes      | 
-| NTEE_CD          | ntee_cd          | text      | text        | series tag     | Yes      | 
-| SORT_NAME        | sort_name        | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
+| ======== | ============== | ================ | ================ | ========= | =========== |
+| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
+| Yes      | numeric metric | ein              | EIN              | number    | number      |
+| Yes      | series tag     | name             | NAME             | text      | text        |
+| Yes      | series tag     | ico              | ICO              | text      | text        |
+| Yes      | series tag     | street           | STREET           | text      | text        |
+| Yes      | series tag     | city             | CITY             | text      | text        |
+| Yes      | series tag     | state            | STATE            | text      | text        |
+| Yes      | series tag     | zip_code         | ZIP CODE         | text      | text        |
+| Yes      | numeric metric | group            | GROUP            | number    | number      |
+| Yes      | numeric metric | subsection       | SUBSECTION       | number    | number      |
+| Yes      | numeric metric | affiliation      | AFFILIATION      | number    | number      |
+| Yes      | numeric metric | classification   | CLASSIFICATION   | number    | number      |
+| Yes      | numeric metric | ruling           | RULING           | number    | number      |
+| Yes      | numeric metric | deductibility    | DEDUCTIBILITY    | number    | number      |
+| Yes      | numeric metric | foundation       | FOUNDATION       | number    | number      |
+| Yes      | numeric metric | activity         | ACTIVITY         | number    | number      |
+| Yes      | numeric metric | organization     | ORGANIZATION     | number    | number      |
+| Yes      | numeric metric | status           | STATUS           | number    | number      |
+| Yes      | numeric metric | tax_period       | TAX_PERIOD       | number    | number      |
+| Yes      | numeric metric | asset_cd         | ASSET_CD         | number    | number      |
+| Yes      | numeric metric | income_cd        | INCOME_CD        | number    | number      |
+| Yes      | numeric metric | filing_req_cd    | FILING_REQ_CD    | number    | number      |
+| Yes      | numeric metric | pf_filing_req_cd | PF_FILING_REQ_CD | number    | number      |
+| Yes      | numeric metric | acct_pd          | ACCT_PD          | number    | number      |
+| Yes      | numeric metric | asset_amt        | ASSET_AMT        | number    | number      |
+| Yes      | numeric metric | income_amt       | INCOME_AMT       | number    | number      |
+| Yes      | numeric metric | revenue_amt      | REVENUE_AMT      | number    | number      |
+| Yes      | series tag     | ntee_cd          | NTEE_CD          | text      | text        |
+| Yes      | series tag     | sort_name        | SORT_NAME        | text      | text        |
 ```
 
 ## Time Field
@@ -103,15 +106,6 @@ SORT_NAME Sort Name (Secondary Name Line)
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -169,11 +163,11 @@ metric m:revenue_amt l:REVENUE_AMT t:dataTypeName=number
 
 entity e:krqq-6qhc l:"Tax Exempt Organizations (Extracted from the Internal Revenue Service)" t:attribution="Internal Revenue Service" t:url=https://data.ct.gov/api/views/krqq-6qhc
 
-property e:krqq-6qhc t:meta.view d:2017-03-07T22:59:04.099Z v:id=krqq-6qhc v:category=Business v:attributionLink=https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf v:averageRating=0 v:name="Tax Exempt Organizations (Extracted from the Internal Revenue Service)" v:attribution="Internal Revenue Service"
+property e:krqq-6qhc t:meta.view v:id=krqq-6qhc v:category=Business v:attributionLink=https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf v:averageRating=0 v:name="Tax Exempt Organizations (Extracted from the Internal Revenue Service)" v:attribution="Internal Revenue Service"
 
-property e:krqq-6qhc t:meta.view.license d:2017-03-07T22:59:04.099Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:krqq-6qhc t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:krqq-6qhc t:meta.view.owner d:2017-03-07T22:59:04.099Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:krqq-6qhc t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 
-property e:krqq-6qhc t:meta.view.tableauthor d:2017-03-07T22:59:04.099Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:krqq-6qhc t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```

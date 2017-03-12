@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/3m6x-h3qa/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/rsbs-smo-part-1-of-2-new-york-state-residential-statewide-baseline-study-single-and-multif)
-* Id = 3m6x-h3qa
-* Name = RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey
-* Attribution = The New York State Energy Research and Development Authority Performance and Market Standards Group
-* Attribution Link = http://www.nyserda.ny.gov/Residential-Statewide-Baseline-Study-of-New-York-State.aspx
-* Category = Energy & Environment
-* Tags = [rsbl study, energy efficiency, single-family homes, market characterization, baseline study]
-* Created = 2015-06-23T17:20:50Z
-* Publication Date = 2015-10-30T20:45:09Z
-* Rows Updated = 2015-10-29T21:27:47Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/rsbs-smo-part-1-of-2-new-york-state-residential-statewide-baseline-study-single-and-multif) |
+| Metadata | [Link](https://data.ny.gov/api/views/3m6x-h3qa) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/3m6x-h3qa/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/3m6x-h3qa/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | 3m6x-h3qa |
+| Name | RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey |
+| Attribution | The New York State Energy Research and Development Authority Performance and Market Standards Group |
+| Category | Energy & Environment |
+| Tags | rsbl study, energy efficiency, single-family homes, market characterization, baseline study |
+| Created | 2015-06-23T17:20:50Z |
+| Publication Date | 2015-10-30T20:45:09Z |
+| Rows Updated | 2015-10-29T21:27:47Z |
 
 ## Description
 
@@ -21,193 +25,193 @@ This is part 1 (contains: Behavior and Demographics; Building Shell; Kitchen App
 ## Columns
 
 ```ls
-| Name                                                | Field Name                                          | Data Type | Render Type | Schema Type    | Included | 
-| =================================================== | =================================================== | ========= | =========== | ============== | ======== | 
-| updated_at                                          | :updated_at                                         | meta_data | meta_data   | time           | Yes      | 
-| Unique Case ID                                      | unique_case_id                                      | text      | text        | series tag     | Yes      | 
-| Electric Utility                                    | electric_utility                                    | text      | text        | series tag     | Yes      | 
-| County                                              | county                                              | text      | text        | series tag     | Yes      | 
-| Region                                              | region                                              | text      | text        | series tag     | Yes      | 
-| Climate Zone                                        | climate_zone                                        | text      | text        | series tag     | Yes      | 
-| kWh Category                                        | kwh_category                                        | text      | text        | series tag     | Yes      | 
-| Therm Category                                      | therm_category                                      | text      | text        | series tag     | Yes      | 
-| Data Origin                                         | data_origin                                         | text      | text        | series tag     | Yes      | 
-| Survey Method                                       | survey_method                                       | text      | text        | series tag     | Yes      | 
-| Case Disposition                                    | case_disposition                                    | text      | text        | series tag     | Yes      | 
-| Construction Type                                   | construction_type                                   | text      | text        | series tag     | Yes      | 
-| Dwelling Type                                       | dwelling_type                                       | text      | text        | series tag     | Yes      | 
-| Recruitment                                         | recruitment                                         | text      | text        | series tag     | Yes      | 
-| Survey Weight                                       | survey_weight                                       | number    | number      | numeric metric | Yes      | 
-| Utility Electric                                    | utility_electric                                    | text      | text        | series tag     | Yes      | 
-| Electric Providers                                  | electric_providers                                  | text      | text        | series tag     | Yes      | 
-| Homes Owned in County                               | homes_owned_in_county                               | text      | text        | series tag     | Yes      | 
-| Purpose of Home                                     | purpose_of_home                                     | text      | text        | series tag     | Yes      | 
-| Home Electric Provider                              | home_electric_provider                              | text      | text        | series tag     | Yes      | 
-| Familiarity with Energy Star                        | familiarity_with_energy_star                        | text      | text        | series tag     | Yes      | 
-| Natural Gas Inclusion                               | natural_gas_inclusion                               | text      | text        | series tag     | Yes      | 
-| Natural Gas Provider                                | natural_gas_provider                                | text      | text        | series tag     | Yes      | 
-| Natural Gas Available in Street                     | natural_gas_available_in_street                     | text      | text        | series tag     | Yes      | 
-| Interest in Natural Gas Conversion                  | interest_in_natural_gas_conversion                  | text      | text        | series tag     | Yes      | 
-| Fuel Oil Inclusion                                  | fuel_oil_inclusion                                  | text      | text        | series tag     | Yes      | 
-| Propane Inclusion                                   | propane_inclusion                                   | text      | text        | series tag     | Yes      | 
-| Efficiency Program Participation in Past Five Years | efficiency_program_participation_in_past_five_years | text      | text        | series tag     | Yes      | 
-| Past - Insulation or Weatherization                 | past_insulation_or_weatherization                   | text      | text        | series tag     | Yes      | 
-| Past - Heating                                      | past_heating                                        | text      | text        | series tag     | Yes      | 
-| Past - Air Conditioning                             | past_air_conditioning                               | text      | text        | series tag     | Yes      | 
-| Past - Lighting                                     | past_lighting                                       | text      | text        | series tag     | Yes      | 
-| Past - Water Heating                                | past_water_heating                                  | text      | text        | series tag     | Yes      | 
-| Past - Clothes Washer                               | past_clothes_washer                                 | text      | text        | series tag     | Yes      | 
-| Past - Appliances                                   | past_appliances                                     | text      | text        | series tag     | Yes      | 
-| Past - Refrigeration                                | past_refrigeration                                  | text      | text        | series tag     | Yes      | 
-| Past - Other Equipment                              | past_other_equipment                                | text      | text        | series tag     | Yes      | 
-| Non Participation - Awareness                       | non_participation_awareness                         | text      | text        | series tag     | Yes      | 
-| Non Participation - Not Needed                      | non_participation_not_needed                        | text      | text        | series tag     | Yes      | 
-| Non Participation - Initiation                      | non_participation_initiation                        | text      | text        | series tag     | Yes      | 
-| Non Participation - High Cost                       | non_participation_high_cost                         | text      | text        | series tag     | Yes      | 
-| Non Participation - Low Bills                       | non_participation_low_bills                         | text      | text        | series tag     | Yes      | 
-| Non Participation - Rent                            | non_participation_rent                              | text      | text        | series tag     | Yes      | 
-| Non Participation - Other                           | non_particpation_other                              | text      | text        | series tag     | Yes      | 
-| Non Participation - Too Busy                        | non_participation_too_busy                          | text      | text        | series tag     | Yes      | 
-| Non Participation - New Residence                   | non_participation_new_residence                     | text      | text        | series tag     | Yes      | 
-| Future - Insulation or Weatherization               | future_insulation_or_weatherization                 | text      | text        | series tag     | Yes      | 
-| Future - Heating                                    | future_heating                                      | text      | text        | series tag     | Yes      | 
-| Future - Air Conditioning                           | future_air_conditioning                             | text      | text        | series tag     | Yes      | 
-| Future - Water Heating                              | future_water_heating                                | text      | text        | series tag     | Yes      | 
-| Future - Clothes Washer                             | future_clothes_washer                               | text      | text        | series tag     | Yes      | 
-| Future - Appliances                                 | future_appliances                                   | text      | text        | series tag     | Yes      | 
-| Future - None                                       | future_none                                         | text      | text        | series tag     | Yes      | 
-| Desired - Insulation or Weatherization              | desired_insulation_or_weatherization                | text      | text        | series tag     | Yes      | 
-| Desired - Heating                                   | desired_heating                                     | text      | text        | series tag     | Yes      | 
-| Desired - Air Conditioning                          | desired_air_conditioning                            | text      | text        | series tag     | Yes      | 
-| Desired - Water Heating                             | desired_water_heating                               | text      | text        | series tag     | Yes      | 
-| Desired - Clothes Washer                            | desired_clothes_washer                              | text      | text        | series tag     | Yes      | 
-| Desired - Appliances                                | desired_appliances                                  | text      | text        | series tag     | Yes      | 
-| Desired - None                                      | desired_none                                        | text      | text        | series tag     | Yes      | 
-| Annual Electricity Cost                             | annual_electricity_cost                             | text      | text        | series tag     | Yes      | 
-| Electricity Consumption Rate                        | electricity_consumption_rate                        | text      | text        | series tag     | Yes      | 
-| Number of People Age <5                             | number_of_people_age_5                              | text      | text        | series tag     | Yes      | 
-| Number of People Age 6-17                           | number_of_people_age_6_17                           | text      | text        | series tag     | Yes      | 
-| Number of People Age 18-24                          | number_of_people_age_18_24                          | text      | text        | series tag     | Yes      | 
-| Number of People Age 25-34                          | number_of_people_age_25_34                          | text      | text        | series tag     | Yes      | 
-| Number of People Age 35-44                          | number_of_people_age_35_44                          | text      | text        | series tag     | Yes      | 
-| Number of People Age 45-54                          | number_of_people_age_45_54                          | text      | text        | series tag     | Yes      | 
-| Number of People Age 55-64                          | number_of_people_age_55_64                          | text      | text        | series tag     | Yes      | 
-| Number of People Age >65                            | number_of_people_age_65                             | text      | text        | series tag     | Yes      | 
-| Highest Education Level                             | highest_education_level                             | text      | text        | series tag     | Yes      | 
-| Household Income 2012                               | household_income_2012                               | text      | text        | series tag     | Yes      | 
-| Gender                                              | gender                                              | text      | text        | series tag     | Yes      | 
-| Ownership                                           | ownership                                           | text      | text        | series tag     | Yes      | 
-| Months of Occupation                                | months_of_occupation                                | text      | text        | series tag     | Yes      | 
-| Season of Occupation - Spring                       | season_of_occupation_spring                         | text      | text        | series tag     | Yes      | 
-| Season of Occupation - Summer                       | season_of_occupation_summer                         | text      | text        | series tag     | Yes      | 
-| Season of Occupation - Fall                         | season_of_occupation_fall                           | text      | text        | series tag     | Yes      | 
-| Season of Occupation - Winter                       | season_of_occupation_winter                         | text      | text        | series tag     | Yes      | 
-| Season of Occupation - Varies                       | season_of_occupation_varies                         | text      | text        | series tag     | Yes      | 
-| Home Description                                    | home_description                                    | text      | text        | series tag     | Yes      | 
-| Number of Housing Units                             | number_of_housing_units                             | text      | text        | series tag     | Yes      | 
-| Estimated Number of Housing Units                   | estimated_number_of_housing_units                   | text      | text        | series tag     | Yes      | 
-| Number of Stories                                   | number_of_stories                                   | text      | text        | series tag     | Yes      | 
-| Other Space                                         | other_space                                         | text      | text        | series tag     | Yes      | 
-| Multiple Buildings with Housing                     | multiple_buildings_with_housing                     | text      | text        | series tag     | Yes      | 
-| Number of Buildings                                 | number_of_buildings                                 | text      | text        | series tag     | Yes      | 
-| Number of Bedrooms                                  | number_of_bedrooms                                  | text      | text        | series tag     | Yes      | 
-| Square Feet of Home                                 | square_feet_of_home                                 | text      | text        | series tag     | Yes      | 
-| Approximate Square Feet of Home                     | approximate_square_feet_of_home                     | text      | text        | series tag     | Yes      | 
-| Basement Heating                                    | basement_heating                                    | text      | text        | series tag     | Yes      | 
-| Year of Home                                        | year_of_home                                        | text      | text        | series tag     | Yes      | 
-| Major Renovations                                   | major_renovations                                   | text      | text        | series tag     | Yes      | 
-| Renovation Completion Date                          | renovation_completion_date                          | text      | text        | series tag     | Yes      | 
-| Multiple Electric Meters                            | multiple_electric_meters                            | text      | text        | series tag     | Yes      | 
-| Number of Microwave Ovens                           | number_of_microwave_ovens                           | text      | text        | series tag     | Yes      | 
-| Number of Ovens with Burners                        | number_of_ovens_with_burners                        | text      | text        | series tag     | Yes      | 
-| Number of Separate Stove Tops                       | number_of_separate_stove_tops                       | text      | text        | series tag     | Yes      | 
-| Number of Separate Oven Units                       | number_of_separate_oven_units                       | text      | text        | series tag     | Yes      | 
-| Fuel for Ovens with Burners - Electric              | fuel_for_ovens_with_burners_electric                | text      | text        | series tag     | Yes      | 
-| Fuel for Ovens with Burners - Natural Gas           | fuel_for_ovens_with_burners_natural_gas             | text      | text        | series tag     | Yes      | 
-| Fuel for Ovens with Burners - Propane               | fuel_for_ovens_with_burners_propane                 | text      | text        | series tag     | Yes      | 
-| Fuel for Ovens with Burners - Other                 | fuel_for_ovens_with_burners_other                   | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Stove Tops - Electric             | fuel_for_separate_stove_tops_electric               | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Stove Tops - Natural Gas          | fuel_for_separate_stove_tops_natural_gas            | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Stove Tops - Propane              | fuel_for_separate_stove_tops_propane                | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Stove Tops - Other                | fuel_for_separate_stove_tops_other                  | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Oven Units - Electricity          | fuel_for_separate_oven_units_electricity            | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Oven Units - Natural Gas          | fuel_for_separate_oven_units_natural_gas            | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Oven Units - Propane              | fuel_for_separate_oven_units_propane                | text      | text        | series tag     | Yes      | 
-| Fuel for Separate Oven Units - Other                | fuel_for_separate_oven_units_other                  | text      | text        | series tag     | Yes      | 
-| Fridge Description                                  | fridge_description                                  | text      | text        | series tag     | Yes      | 
-| Automatic Ice Maker                                 | automatic_ice_maker                                 | text      | text        | series tag     | Yes      | 
-| Water Dispenser                                     | water_dispenser                                     | text      | text        | series tag     | Yes      | 
-| Age of Fridge                                       | age_of_fridge                                       | text      | text        | series tag     | Yes      | 
-| Energy Star Fridge                                  | energy_star_fridge                                  | text      | text        | series tag     | Yes      | 
-| Other Running Fridges                               | other_running_fridges                               | text      | text        | series tag     | Yes      | 
-| Number of Other Running Fridges                     | number_of_other_running_fridges                     | text      | text        | series tag     | Yes      | 
-| Number of Compact Fridges                           | number_of_compact_fridges                           | text      | text        | series tag     | Yes      | 
-| Age of Second Fridge                                | age_of_second_fridge                                | text      | text        | series tag     | Yes      | 
-| Age of Third Fridge                                 | age_of_third_fridge                                 | text      | text        | series tag     | Yes      | 
-| Age of Fourth Fridge                                | age_of_fourth_fridge                                | text      | text        | series tag     | Yes      | 
-| Number of Running Chillers/Coolers                  | number_of_running_chillers_coolers                  | text      | text        | series tag     | Yes      | 
-| Energy Star Chiller/Cooler                          | energy_star_chiller_cooler                          | text      | text        | series tag     | Yes      | 
-| Energy Star Chillers/Coolers                        | energy_star_chillers_coolers                        | text      | text        | series tag     | Yes      | 
-| Running Standalone Freezer                          | running_standalone_freezer                          | text      | text        | series tag     | Yes      | 
-| Number of Running Standalone Freezers               | number_of_running_standalone_freezers               | text      | text        | series tag     | Yes      | 
-| Type of First Standalone Freezer                    | type_of_first_standalone_freezer                    | text      | text        | series tag     | Yes      | 
-| Age of First Standalone Freezer                     | age_of_first_standalone_freezer                     | text      | text        | series tag     | Yes      | 
-| Type of Second Standalone Freezer                   | type_of_second_standalone_freezer                   | text      | text        | series tag     | Yes      | 
-| Age of Second Standalone Freezer                    | age_of_second_standalone_freezer                    | text      | text        | series tag     | Yes      | 
-| Type of Third Standalone Freezer                    | type_of_third_standalone_freezer                    | text      | text        | series tag     | Yes      | 
-| Age of Third Standalone Freezer                     | age_of_third_standalone_freezer                     | text      | text        | series tag     | Yes      | 
-| Energy Star Standalone Freezer                      | energy_star_standalone_freezer                      | text      | text        | series tag     | Yes      | 
-| Energy Star Standalone Freezers                     | energy_star_standalone_freezers                     | text      | text        | series tag     | Yes      | 
-| Shared Central Heating                              | shared_central_heating                              | text      | text        | series tag     | Yes      | 
-| Primary Fuel Type                                   | primary_fuel_type                                   | text      | text        | series tag     | Yes      | 
-| Primary Heating System Type                         | primary_heating_system_type                         | text      | text        | series tag     | Yes      | 
-| Age of Primary Heating System                       | age_of_primary_heating_system                       | text      | text        | series tag     | Yes      | 
-| Energy Star Primary Heating System                  | energy_star_primary_heating_system                  | text      | text        | series tag     | Yes      | 
-| Annual Tune Up Heating System                       | annual_tune_up_heating_system                       | text      | text        | series tag     | Yes      | 
-| Number of Wood Fireplaces in Winter                 | number_of_wood_fireplaces_in_winter                 | text      | text        | series tag     | Yes      | 
-| Number of Natural Gas Fireplaces in Winter          | number_of_natural_gas_fireplaces_in_winter          | text      | text        | series tag     | Yes      | 
-| Number of Propane Fireplaces in Winter              | number_of_propane_fireplaces_in_winter              | text      | text        | series tag     | Yes      | 
-| Number of Electric Fireplaces in Winter             | number_of_electric_fireplaces_in_winter             | text      | text        | series tag     | Yes      | 
-| Number of Heat Stoves in Winter                     | number_of_heat_stoves_in_winter                     | text      | text        | series tag     | Yes      | 
-| Number of Portable Electric Heaters in Winter       | number_of_portable_electric_heaters_in_winter       | text      | text        | series tag     | Yes      | 
-| Number of Portable Kerosene Heaters in Winter       | number_of_portable_kerosene_heaters_in_winter       | text      | text        | series tag     | Yes      | 
-| Other Fuel Type                                     | other_fuel_type                                     | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Electricity                       | other_fuel_type_electricity                         | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Natural Gas                       | other_fuel_type_natural_gas                         | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Propane                           | other_fuel_type_propane                             | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - District Steam                    | other_fuel_type_district_steam                      | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Fuel Oil                          | other_fuel_type_fuel_oil                            | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Kerosene                          | other_fuel_type_kerosene                            | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Wood/Pellets                      | other_fuel_type_wood_pellets                        | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Solar                             | other_fuel_type_solar                               | text      | text        | series tag     | Yes      | 
-| Other Fuel Type - Other                             | other_fuel_type_other                               | text      | text        | series tag     | Yes      | 
-| Air Conditioning in Home                            | air_conditioning_in_home                            | text      | text        | series tag     | Yes      | 
-| Shared Air Conditioning                             | shared_air_conditioning                             | text      | text        | series tag     | Yes      | 
-| Primary Air Conditioning Type                       | primary_air_conditioning_type                       | text      | text        | series tag     | Yes      | 
-| Age of Primary Air Conditioning                     | age_of_primary_air_conditioning                     | text      | text        | series tag     | Yes      | 
-| Energy Star Air Conditioning                        | energy_star_air_conditioning                        | text      | text        | series tag     | Yes      | 
-| Annual Tune Up Air Conditioning                     | annual_tune_up_air_conditioning                     | text      | text        | series tag     | Yes      | 
-| Other Air Conditioning                              | other_air_conditioning                              | text      | text        | series tag     | Yes      | 
-| Other Air Conditioning Type - Central Air           | other_air_conditioning_type_central_air             | text      | text        | series tag     | Yes      | 
-| Other Air Conditioning Type - Room/Window Unit      | other_air_conditioning_type_room_window_unit        | text      | text        | series tag     | Yes      | 
-| Other Air Conditioning Type - Heat Pump             | other_air_conditioning_type_heat_pump               | text      | text        | series tag     | Yes      | 
-| Other Air Conditioning Type - Other                 | other_air_conditioning_type_other                   | text      | text        | series tag     | Yes      | 
-| Number of Room/Window Units                         | number_of_room_window_units                         | text      | text        | series tag     | Yes      | 
-| Programmable Thermostat                             | programmable_thermostat                             | text      | text        | series tag     | Yes      | 
-| Programmed Thermostat                               | programmed_thermostat                               | text      | text        | series tag     | Yes      | 
-| Number of Dehumidifiers                             | number_of_dehumidifiers                             | text      | text        | series tag     | Yes      | 
-| Age of First Dehumidifier                           | age_of_first_dehumidifier                           | text      | text        | series tag     | Yes      | 
-| Age of Second Dehumidifier                          | age_of_second_dehumidifier                          | text      | text        | series tag     | Yes      | 
-| Age of Third Dehumidifier                           | age_of_third_dehumidifier                           | text      | text        | series tag     | Yes      | 
-| Age of Fourth Dehumidifier                          | age_of_fourth_dehumidifier                          | text      | text        | series tag     | Yes      | 
-| Energy Star Dehumidifier                            | energy_star_dehumidifier                            | text      | text        | series tag     | Yes      | 
-| Energy Star Dehumidifers                            | energy_star_dehumidifers                            | text      | text        | series tag     | Yes      | 
-| Number of Humidifiers                               | number_of_humidifiers                               | text      | text        | series tag     | Yes      | 
-| Number of Ceiling Fans                              | number_of_ceiling_fans                              | text      | text        | series tag     | Yes      | 
-| Number of Exhaust Fans in Kitchen                   | number_of_exhaust_fans_in_kitchen                   | text      | text        | series tag     | Yes      | 
-| Number of Exhaust Fans in Other Rooms               | number_of_exhaust_fans_in_other_rooms               | text      | text        | series tag     | Yes      | 
-| Number of Attic Fans                                | number_of_attic_fans                                | text      | text        | series tag     | Yes      | 
-| Number of Whole House Fans                          | number_of_whole_house_fans                          | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                                          | Name                                                | Data Type | Render Type |
+| ======== | ============== | =================================================== | =================================================== | ========= | =========== |
+| No       | time           | :updated_at                                         | updated_at                                          | meta_data | meta_data   |
+| Yes      | series tag     | unique_case_id                                      | Unique Case ID                                      | text      | text        |
+| Yes      | series tag     | electric_utility                                    | Electric Utility                                    | text      | text        |
+| Yes      | series tag     | county                                              | County                                              | text      | text        |
+| Yes      | series tag     | region                                              | Region                                              | text      | text        |
+| Yes      | series tag     | climate_zone                                        | Climate Zone                                        | text      | text        |
+| Yes      | series tag     | kwh_category                                        | kWh Category                                        | text      | text        |
+| Yes      | series tag     | therm_category                                      | Therm Category                                      | text      | text        |
+| Yes      | series tag     | data_origin                                         | Data Origin                                         | text      | text        |
+| Yes      | series tag     | survey_method                                       | Survey Method                                       | text      | text        |
+| Yes      | series tag     | case_disposition                                    | Case Disposition                                    | text      | text        |
+| Yes      | series tag     | construction_type                                   | Construction Type                                   | text      | text        |
+| Yes      | series tag     | dwelling_type                                       | Dwelling Type                                       | text      | text        |
+| Yes      | series tag     | recruitment                                         | Recruitment                                         | text      | text        |
+| Yes      | numeric metric | survey_weight                                       | Survey Weight                                       | number    | number      |
+| Yes      | series tag     | utility_electric                                    | Utility Electric                                    | text      | text        |
+| Yes      | series tag     | electric_providers                                  | Electric Providers                                  | text      | text        |
+| Yes      | series tag     | homes_owned_in_county                               | Homes Owned in County                               | text      | text        |
+| Yes      | series tag     | purpose_of_home                                     | Purpose of Home                                     | text      | text        |
+| Yes      | series tag     | home_electric_provider                              | Home Electric Provider                              | text      | text        |
+| Yes      | series tag     | familiarity_with_energy_star                        | Familiarity with Energy Star                        | text      | text        |
+| Yes      | series tag     | natural_gas_inclusion                               | Natural Gas Inclusion                               | text      | text        |
+| Yes      | series tag     | natural_gas_provider                                | Natural Gas Provider                                | text      | text        |
+| Yes      | series tag     | natural_gas_available_in_street                     | Natural Gas Available in Street                     | text      | text        |
+| Yes      | series tag     | interest_in_natural_gas_conversion                  | Interest in Natural Gas Conversion                  | text      | text        |
+| Yes      | series tag     | fuel_oil_inclusion                                  | Fuel Oil Inclusion                                  | text      | text        |
+| Yes      | series tag     | propane_inclusion                                   | Propane Inclusion                                   | text      | text        |
+| Yes      | series tag     | efficiency_program_participation_in_past_five_years | Efficiency Program Participation in Past Five Years | text      | text        |
+| Yes      | series tag     | past_insulation_or_weatherization                   | Past - Insulation or Weatherization                 | text      | text        |
+| Yes      | series tag     | past_heating                                        | Past - Heating                                      | text      | text        |
+| Yes      | series tag     | past_air_conditioning                               | Past - Air Conditioning                             | text      | text        |
+| Yes      | series tag     | past_lighting                                       | Past - Lighting                                     | text      | text        |
+| Yes      | series tag     | past_water_heating                                  | Past - Water Heating                                | text      | text        |
+| Yes      | series tag     | past_clothes_washer                                 | Past - Clothes Washer                               | text      | text        |
+| Yes      | series tag     | past_appliances                                     | Past - Appliances                                   | text      | text        |
+| Yes      | series tag     | past_refrigeration                                  | Past - Refrigeration                                | text      | text        |
+| Yes      | series tag     | past_other_equipment                                | Past - Other Equipment                              | text      | text        |
+| Yes      | series tag     | non_participation_awareness                         | Non Participation - Awareness                       | text      | text        |
+| Yes      | series tag     | non_participation_not_needed                        | Non Participation - Not Needed                      | text      | text        |
+| Yes      | series tag     | non_participation_initiation                        | Non Participation - Initiation                      | text      | text        |
+| Yes      | series tag     | non_participation_high_cost                         | Non Participation - High Cost                       | text      | text        |
+| Yes      | series tag     | non_participation_low_bills                         | Non Participation - Low Bills                       | text      | text        |
+| Yes      | series tag     | non_participation_rent                              | Non Participation - Rent                            | text      | text        |
+| Yes      | series tag     | non_particpation_other                              | Non Participation - Other                           | text      | text        |
+| Yes      | series tag     | non_participation_too_busy                          | Non Participation - Too Busy                        | text      | text        |
+| Yes      | series tag     | non_participation_new_residence                     | Non Participation - New Residence                   | text      | text        |
+| Yes      | series tag     | future_insulation_or_weatherization                 | Future - Insulation or Weatherization               | text      | text        |
+| Yes      | series tag     | future_heating                                      | Future - Heating                                    | text      | text        |
+| Yes      | series tag     | future_air_conditioning                             | Future - Air Conditioning                           | text      | text        |
+| Yes      | series tag     | future_water_heating                                | Future - Water Heating                              | text      | text        |
+| Yes      | series tag     | future_clothes_washer                               | Future - Clothes Washer                             | text      | text        |
+| Yes      | series tag     | future_appliances                                   | Future - Appliances                                 | text      | text        |
+| Yes      | series tag     | future_none                                         | Future - None                                       | text      | text        |
+| Yes      | series tag     | desired_insulation_or_weatherization                | Desired - Insulation or Weatherization              | text      | text        |
+| Yes      | series tag     | desired_heating                                     | Desired - Heating                                   | text      | text        |
+| Yes      | series tag     | desired_air_conditioning                            | Desired - Air Conditioning                          | text      | text        |
+| Yes      | series tag     | desired_water_heating                               | Desired - Water Heating                             | text      | text        |
+| Yes      | series tag     | desired_clothes_washer                              | Desired - Clothes Washer                            | text      | text        |
+| Yes      | series tag     | desired_appliances                                  | Desired - Appliances                                | text      | text        |
+| Yes      | series tag     | desired_none                                        | Desired - None                                      | text      | text        |
+| Yes      | series tag     | annual_electricity_cost                             | Annual Electricity Cost                             | text      | text        |
+| Yes      | series tag     | electricity_consumption_rate                        | Electricity Consumption Rate                        | text      | text        |
+| Yes      | series tag     | number_of_people_age_5                              | Number of People Age <5                             | text      | text        |
+| Yes      | series tag     | number_of_people_age_6_17                           | Number of People Age 6-17                           | text      | text        |
+| Yes      | series tag     | number_of_people_age_18_24                          | Number of People Age 18-24                          | text      | text        |
+| Yes      | series tag     | number_of_people_age_25_34                          | Number of People Age 25-34                          | text      | text        |
+| Yes      | series tag     | number_of_people_age_35_44                          | Number of People Age 35-44                          | text      | text        |
+| Yes      | series tag     | number_of_people_age_45_54                          | Number of People Age 45-54                          | text      | text        |
+| Yes      | series tag     | number_of_people_age_55_64                          | Number of People Age 55-64                          | text      | text        |
+| Yes      | series tag     | number_of_people_age_65                             | Number of People Age >65                            | text      | text        |
+| Yes      | series tag     | highest_education_level                             | Highest Education Level                             | text      | text        |
+| Yes      | series tag     | household_income_2012                               | Household Income 2012                               | text      | text        |
+| Yes      | series tag     | gender                                              | Gender                                              | text      | text        |
+| Yes      | series tag     | ownership                                           | Ownership                                           | text      | text        |
+| Yes      | series tag     | months_of_occupation                                | Months of Occupation                                | text      | text        |
+| Yes      | series tag     | season_of_occupation_spring                         | Season of Occupation - Spring                       | text      | text        |
+| Yes      | series tag     | season_of_occupation_summer                         | Season of Occupation - Summer                       | text      | text        |
+| Yes      | series tag     | season_of_occupation_fall                           | Season of Occupation - Fall                         | text      | text        |
+| Yes      | series tag     | season_of_occupation_winter                         | Season of Occupation - Winter                       | text      | text        |
+| Yes      | series tag     | season_of_occupation_varies                         | Season of Occupation - Varies                       | text      | text        |
+| Yes      | series tag     | home_description                                    | Home Description                                    | text      | text        |
+| Yes      | series tag     | number_of_housing_units                             | Number of Housing Units                             | text      | text        |
+| Yes      | series tag     | estimated_number_of_housing_units                   | Estimated Number of Housing Units                   | text      | text        |
+| Yes      | series tag     | number_of_stories                                   | Number of Stories                                   | text      | text        |
+| Yes      | series tag     | other_space                                         | Other Space                                         | text      | text        |
+| Yes      | series tag     | multiple_buildings_with_housing                     | Multiple Buildings with Housing                     | text      | text        |
+| Yes      | series tag     | number_of_buildings                                 | Number of Buildings                                 | text      | text        |
+| Yes      | series tag     | number_of_bedrooms                                  | Number of Bedrooms                                  | text      | text        |
+| Yes      | series tag     | square_feet_of_home                                 | Square Feet of Home                                 | text      | text        |
+| Yes      | series tag     | approximate_square_feet_of_home                     | Approximate Square Feet of Home                     | text      | text        |
+| Yes      | series tag     | basement_heating                                    | Basement Heating                                    | text      | text        |
+| Yes      | series tag     | year_of_home                                        | Year of Home                                        | text      | text        |
+| Yes      | series tag     | major_renovations                                   | Major Renovations                                   | text      | text        |
+| Yes      | series tag     | renovation_completion_date                          | Renovation Completion Date                          | text      | text        |
+| Yes      | series tag     | multiple_electric_meters                            | Multiple Electric Meters                            | text      | text        |
+| Yes      | series tag     | number_of_microwave_ovens                           | Number of Microwave Ovens                           | text      | text        |
+| Yes      | series tag     | number_of_ovens_with_burners                        | Number of Ovens with Burners                        | text      | text        |
+| Yes      | series tag     | number_of_separate_stove_tops                       | Number of Separate Stove Tops                       | text      | text        |
+| Yes      | series tag     | number_of_separate_oven_units                       | Number of Separate Oven Units                       | text      | text        |
+| Yes      | series tag     | fuel_for_ovens_with_burners_electric                | Fuel for Ovens with Burners - Electric              | text      | text        |
+| Yes      | series tag     | fuel_for_ovens_with_burners_natural_gas             | Fuel for Ovens with Burners - Natural Gas           | text      | text        |
+| Yes      | series tag     | fuel_for_ovens_with_burners_propane                 | Fuel for Ovens with Burners - Propane               | text      | text        |
+| Yes      | series tag     | fuel_for_ovens_with_burners_other                   | Fuel for Ovens with Burners - Other                 | text      | text        |
+| Yes      | series tag     | fuel_for_separate_stove_tops_electric               | Fuel for Separate Stove Tops - Electric             | text      | text        |
+| Yes      | series tag     | fuel_for_separate_stove_tops_natural_gas            | Fuel for Separate Stove Tops - Natural Gas          | text      | text        |
+| Yes      | series tag     | fuel_for_separate_stove_tops_propane                | Fuel for Separate Stove Tops - Propane              | text      | text        |
+| Yes      | series tag     | fuel_for_separate_stove_tops_other                  | Fuel for Separate Stove Tops - Other                | text      | text        |
+| Yes      | series tag     | fuel_for_separate_oven_units_electricity            | Fuel for Separate Oven Units - Electricity          | text      | text        |
+| Yes      | series tag     | fuel_for_separate_oven_units_natural_gas            | Fuel for Separate Oven Units - Natural Gas          | text      | text        |
+| Yes      | series tag     | fuel_for_separate_oven_units_propane                | Fuel for Separate Oven Units - Propane              | text      | text        |
+| Yes      | series tag     | fuel_for_separate_oven_units_other                  | Fuel for Separate Oven Units - Other                | text      | text        |
+| Yes      | series tag     | fridge_description                                  | Fridge Description                                  | text      | text        |
+| Yes      | series tag     | automatic_ice_maker                                 | Automatic Ice Maker                                 | text      | text        |
+| Yes      | series tag     | water_dispenser                                     | Water Dispenser                                     | text      | text        |
+| Yes      | series tag     | age_of_fridge                                       | Age of Fridge                                       | text      | text        |
+| Yes      | series tag     | energy_star_fridge                                  | Energy Star Fridge                                  | text      | text        |
+| Yes      | series tag     | other_running_fridges                               | Other Running Fridges                               | text      | text        |
+| Yes      | series tag     | number_of_other_running_fridges                     | Number of Other Running Fridges                     | text      | text        |
+| Yes      | series tag     | number_of_compact_fridges                           | Number of Compact Fridges                           | text      | text        |
+| Yes      | series tag     | age_of_second_fridge                                | Age of Second Fridge                                | text      | text        |
+| Yes      | series tag     | age_of_third_fridge                                 | Age of Third Fridge                                 | text      | text        |
+| Yes      | series tag     | age_of_fourth_fridge                                | Age of Fourth Fridge                                | text      | text        |
+| Yes      | series tag     | number_of_running_chillers_coolers                  | Number of Running Chillers/Coolers                  | text      | text        |
+| Yes      | series tag     | energy_star_chiller_cooler                          | Energy Star Chiller/Cooler                          | text      | text        |
+| Yes      | series tag     | energy_star_chillers_coolers                        | Energy Star Chillers/Coolers                        | text      | text        |
+| Yes      | series tag     | running_standalone_freezer                          | Running Standalone Freezer                          | text      | text        |
+| Yes      | series tag     | number_of_running_standalone_freezers               | Number of Running Standalone Freezers               | text      | text        |
+| Yes      | series tag     | type_of_first_standalone_freezer                    | Type of First Standalone Freezer                    | text      | text        |
+| Yes      | series tag     | age_of_first_standalone_freezer                     | Age of First Standalone Freezer                     | text      | text        |
+| Yes      | series tag     | type_of_second_standalone_freezer                   | Type of Second Standalone Freezer                   | text      | text        |
+| Yes      | series tag     | age_of_second_standalone_freezer                    | Age of Second Standalone Freezer                    | text      | text        |
+| Yes      | series tag     | type_of_third_standalone_freezer                    | Type of Third Standalone Freezer                    | text      | text        |
+| Yes      | series tag     | age_of_third_standalone_freezer                     | Age of Third Standalone Freezer                     | text      | text        |
+| Yes      | series tag     | energy_star_standalone_freezer                      | Energy Star Standalone Freezer                      | text      | text        |
+| Yes      | series tag     | energy_star_standalone_freezers                     | Energy Star Standalone Freezers                     | text      | text        |
+| Yes      | series tag     | shared_central_heating                              | Shared Central Heating                              | text      | text        |
+| Yes      | series tag     | primary_fuel_type                                   | Primary Fuel Type                                   | text      | text        |
+| Yes      | series tag     | primary_heating_system_type                         | Primary Heating System Type                         | text      | text        |
+| Yes      | series tag     | age_of_primary_heating_system                       | Age of Primary Heating System                       | text      | text        |
+| Yes      | series tag     | energy_star_primary_heating_system                  | Energy Star Primary Heating System                  | text      | text        |
+| Yes      | series tag     | annual_tune_up_heating_system                       | Annual Tune Up Heating System                       | text      | text        |
+| Yes      | series tag     | number_of_wood_fireplaces_in_winter                 | Number of Wood Fireplaces in Winter                 | text      | text        |
+| Yes      | series tag     | number_of_natural_gas_fireplaces_in_winter          | Number of Natural Gas Fireplaces in Winter          | text      | text        |
+| Yes      | series tag     | number_of_propane_fireplaces_in_winter              | Number of Propane Fireplaces in Winter              | text      | text        |
+| Yes      | series tag     | number_of_electric_fireplaces_in_winter             | Number of Electric Fireplaces in Winter             | text      | text        |
+| Yes      | series tag     | number_of_heat_stoves_in_winter                     | Number of Heat Stoves in Winter                     | text      | text        |
+| Yes      | series tag     | number_of_portable_electric_heaters_in_winter       | Number of Portable Electric Heaters in Winter       | text      | text        |
+| Yes      | series tag     | number_of_portable_kerosene_heaters_in_winter       | Number of Portable Kerosene Heaters in Winter       | text      | text        |
+| Yes      | series tag     | other_fuel_type                                     | Other Fuel Type                                     | text      | text        |
+| Yes      | series tag     | other_fuel_type_electricity                         | Other Fuel Type - Electricity                       | text      | text        |
+| Yes      | series tag     | other_fuel_type_natural_gas                         | Other Fuel Type - Natural Gas                       | text      | text        |
+| Yes      | series tag     | other_fuel_type_propane                             | Other Fuel Type - Propane                           | text      | text        |
+| Yes      | series tag     | other_fuel_type_district_steam                      | Other Fuel Type - District Steam                    | text      | text        |
+| Yes      | series tag     | other_fuel_type_fuel_oil                            | Other Fuel Type - Fuel Oil                          | text      | text        |
+| Yes      | series tag     | other_fuel_type_kerosene                            | Other Fuel Type - Kerosene                          | text      | text        |
+| Yes      | series tag     | other_fuel_type_wood_pellets                        | Other Fuel Type - Wood/Pellets                      | text      | text        |
+| Yes      | series tag     | other_fuel_type_solar                               | Other Fuel Type - Solar                             | text      | text        |
+| Yes      | series tag     | other_fuel_type_other                               | Other Fuel Type - Other                             | text      | text        |
+| Yes      | series tag     | air_conditioning_in_home                            | Air Conditioning in Home                            | text      | text        |
+| Yes      | series tag     | shared_air_conditioning                             | Shared Air Conditioning                             | text      | text        |
+| Yes      | series tag     | primary_air_conditioning_type                       | Primary Air Conditioning Type                       | text      | text        |
+| Yes      | series tag     | age_of_primary_air_conditioning                     | Age of Primary Air Conditioning                     | text      | text        |
+| Yes      | series tag     | energy_star_air_conditioning                        | Energy Star Air Conditioning                        | text      | text        |
+| Yes      | series tag     | annual_tune_up_air_conditioning                     | Annual Tune Up Air Conditioning                     | text      | text        |
+| Yes      | series tag     | other_air_conditioning                              | Other Air Conditioning                              | text      | text        |
+| Yes      | series tag     | other_air_conditioning_type_central_air             | Other Air Conditioning Type - Central Air           | text      | text        |
+| Yes      | series tag     | other_air_conditioning_type_room_window_unit        | Other Air Conditioning Type - Room/Window Unit      | text      | text        |
+| Yes      | series tag     | other_air_conditioning_type_heat_pump               | Other Air Conditioning Type - Heat Pump             | text      | text        |
+| Yes      | series tag     | other_air_conditioning_type_other                   | Other Air Conditioning Type - Other                 | text      | text        |
+| Yes      | series tag     | number_of_room_window_units                         | Number of Room/Window Units                         | text      | text        |
+| Yes      | series tag     | programmable_thermostat                             | Programmable Thermostat                             | text      | text        |
+| Yes      | series tag     | programmed_thermostat                               | Programmed Thermostat                               | text      | text        |
+| Yes      | series tag     | number_of_dehumidifiers                             | Number of Dehumidifiers                             | text      | text        |
+| Yes      | series tag     | age_of_first_dehumidifier                           | Age of First Dehumidifier                           | text      | text        |
+| Yes      | series tag     | age_of_second_dehumidifier                          | Age of Second Dehumidifier                          | text      | text        |
+| Yes      | series tag     | age_of_third_dehumidifier                           | Age of Third Dehumidifier                           | text      | text        |
+| Yes      | series tag     | age_of_fourth_dehumidifier                          | Age of Fourth Dehumidifier                          | text      | text        |
+| Yes      | series tag     | energy_star_dehumidifier                            | Energy Star Dehumidifier                            | text      | text        |
+| Yes      | series tag     | energy_star_dehumidifers                            | Energy Star Dehumidifers                            | text      | text        |
+| Yes      | series tag     | number_of_humidifiers                               | Number of Humidifiers                               | text      | text        |
+| Yes      | series tag     | number_of_ceiling_fans                              | Number of Ceiling Fans                              | text      | text        |
+| Yes      | series tag     | number_of_exhaust_fans_in_kitchen                   | Number of Exhaust Fans in Kitchen                   | text      | text        |
+| Yes      | series tag     | number_of_exhaust_fans_in_other_rooms               | Number of Exhaust Fans in Other Rooms               | text      | text        |
+| Yes      | series tag     | number_of_attic_fans                                | Number of Attic Fans                                | text      | text        |
+| Yes      | series tag     | number_of_whole_house_fans                          | Number of Whole House Fans                          | text      | text        |
 ```
 
 ## Time Field
@@ -215,15 +219,6 @@ This is part 1 (contains: Behavior and Demographics; Building Shell; Kitchen App
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -243,13 +238,13 @@ metric m:survey_weight l:"Survey Weight" d:"Computed survey weight, based on cli
 
 entity e:3m6x-h3qa l:"RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey" t:attribution="The New York State Energy Research and Development Authority Performance and Market Standards Group" t:url=https://data.ny.gov/api/views/3m6x-h3qa
 
-property e:3m6x-h3qa t:meta.view d:2017-03-03T13:57:27.220Z v:id=3m6x-h3qa v:category="Energy & Environment" v:attributionLink=http://www.nyserda.ny.gov/Residential-Statewide-Baseline-Study-of-New-York-State.aspx v:averageRating=0 v:name="RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey" v:attribution="The New York State Energy Research and Development Authority Performance and Market Standards Group"
+property e:3m6x-h3qa t:meta.view v:id=3m6x-h3qa v:category="Energy & Environment" v:attributionLink=http://www.nyserda.ny.gov/Residential-Statewide-Baseline-Study-of-New-York-State.aspx v:averageRating=0 v:name="RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey" v:attribution="The New York State Energy Research and Development Authority Performance and Market Standards Group"
 
-property e:3m6x-h3qa t:meta.view.license d:2017-03-03T13:57:27.220Z v:name="Public Domain"
+property e:3m6x-h3qa t:meta.view.license v:name="Public Domain"
 
-property e:3m6x-h3qa t:meta.view.owner d:2017-03-03T13:57:27.220Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:3m6x-h3qa t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:3m6x-h3qa t:meta.view.tableauthor d:2017-03-03T13:57:27.220Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:3m6x-h3qa t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:3m6x-h3qa t:meta.view.metadata.custom_fields.common_core d:2017-03-03T13:57:27.220Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:3m6x-h3qa t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

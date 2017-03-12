@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/fnns-rqqh/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/weatherization-assistance-program)
-* [Metadata URL](https://data.austintexas.gov/api/views/fnns-rqqh)
-* Id = fnns-rqqh
-* Name = Weatherization Assistance Program
-* Attribution = Austin Energy
-* Category = Utility
-* Tags = [weatherization, assistance, weatherization assistance program, energy, savings]
-* Created = 2016-09-06T16:43:36Z
-* Publication Date = 2016-09-30T18:29:51Z
-* Rows Updated = 2016-09-30T18:29:49Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/weatherization-assistance-program) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/fnns-rqqh) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/fnns-rqqh/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/fnns-rqqh/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | fnns-rqqh |
+| Name | Weatherization Assistance Program |
+| Attribution | Austin Energy |
+| Category | Utility |
+| Tags | weatherization, assistance, weatherization assistance program, energy, savings |
+| Created | 2016-09-06T16:43:36Z |
+| Publication Date | 2016-09-30T18:29:51Z |
+| Rows Updated | 2016-09-30T18:29:49Z |
 
 ## Description
 
@@ -31,10 +35,10 @@ Under the Federal Weatherization Program which ended April 30, 2012, Austin Ener
 ## Columns
 
 ```ls
-| Name                           | Field Name                     | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================== | ============================== | ============= | ============= | ============== | ======== | 
-| Fiscal Year                    | fiscal_year_2                  | calendar_date | calendar_date | time           | Yes      | 
-| Homes Receiving Weatherization | homes_receiving_weatherization | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                     | Name                           | Data Type     | Render Type   |
+| ======== | ============== | ============================== | ============================== | ============= | ============= |
+| Yes      | time           | fiscal_year_2                  | Fiscal Year                    | calendar_date | calendar_date |
+| Yes      | numeric metric | homes_receiving_weatherization | Homes Receiving Weatherization | number        | number        |
 ```
 
 ## Time Field
@@ -42,15 +46,6 @@ Under the Federal Weatherization Program which ended April 30, 2012, Austin Ener
 ```ls
 Value = fiscal_year_2
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -70,11 +65,11 @@ metric m:homes_receiving_weatherization p:integer l:"Homes Receiving Weatherizat
 
 entity e:fnns-rqqh l:"Weatherization Assistance Program" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/fnns-rqqh
 
-property e:fnns-rqqh t:meta.view d:2017-03-07T22:54:09.504Z v:id=fnns-rqqh v:category=Utility v:averageRating=0 v:name="Weatherization Assistance Program" v:attribution="Austin Energy"
+property e:fnns-rqqh t:meta.view v:id=fnns-rqqh v:category=Utility v:averageRating=0 v:name="Weatherization Assistance Program" v:attribution="Austin Energy"
 
-property e:fnns-rqqh t:meta.view.license d:2017-03-07T22:54:09.504Z v:name="Public Domain"
+property e:fnns-rqqh t:meta.view.license v:name="Public Domain"
 
-property e:fnns-rqqh t:meta.view.owner d:2017-03-07T22:54:09.504Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:fnns-rqqh t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 
-property e:fnns-rqqh t:meta.view.tableauthor d:2017-03-07T22:54:09.504Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:fnns-rqqh t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

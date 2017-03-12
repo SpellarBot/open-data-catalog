@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.nola.gov/api/views/crd6-2w8k/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/certified-green-buildings-2005-present)
-* Id = crd6-2w8k
-* Name = Certified Green Buildings (2005 - Present)
-* Attribution = U.S. Green Building Council
-* Attribution Link = http://www.usgbc.org/projects
-* Category = Housing, Land Use, and Blight
-* Created = 2015-04-28T21:51:33Z
-* Publication Date = 2016-01-25T20:53:46Z
-* Rows Updated = 2016-01-25T20:51:43Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/certified-green-buildings-2005-present) |
+| Metadata | [Link](https://data.nola.gov/api/views/crd6-2w8k) |
+| Data: JSON | [100 Rows](https://data.nola.gov/api/views/crd6-2w8k/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.nola.gov/api/views/crd6-2w8k/rows.csv?max_rows=100) |
+| Host | data.nola.gov |
+| Id | crd6-2w8k |
+| Name | Certified Green Buildings (2005 - Present) |
+| Attribution | U.S. Green Building Council |
+| Category | Housing, Land Use, and Blight |
+| Created | 2015-04-28T21:51:33Z |
+| Publication Date | 2016-01-25T20:53:46Z |
+| Rows Updated | 2016-01-25T20:51:43Z |
 
 ## Description
 
@@ -20,15 +24,15 @@ This data comes from the U.S. Environmental Protection Agency and is reported an
 ## Columns
 
 ```ls
-| Name           | Field Name     | Data Type     | Render Type   | Schema Type    | Included | 
-| ============== | ============== | ============= | ============= | ============== | ======== | 
-| RowID          | rowid          | text          | text          | series tag     | Yes      | 
-| Date           | date           | calendar_date | calendar_date | time           | Yes      | 
-| Year           | year           | number        | number        |                | No       | 
-| City           | city           | text          | text          | series tag     | Yes      | 
-| State          | state          | text          | text          | series tag     | Yes      | 
-| Indicator      | indicator      | text          | text          | series tag     | Yes      | 
-| IndicatorValue | indicatorvalue | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name     | Name           | Data Type     | Render Type   |
+| ======== | ============== | ============== | ============== | ============= | ============= |
+| Yes      | series tag     | rowid          | RowID          | text          | text          |
+| Yes      | time           | date           | Date           | calendar_date | calendar_date |
+| No       |                | year           | Year           | number        | number        |
+| Yes      | series tag     | city           | City           | text          | text          |
+| Yes      | series tag     | state          | State          | text          | text          |
+| Yes      | series tag     | indicator      | Indicator      | text          | text          |
+| Yes      | numeric metric | indicatorvalue | IndicatorValue | number        | number        |
 ```
 
 ## Time Field
@@ -41,10 +45,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,11 +65,11 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:crd6-2w8k l:"Certified Green Buildings (2005 - Present)" t:attribution="U.S. Green Building Council" t:url=https://data.nola.gov/api/views/crd6-2w8k
 
-property e:crd6-2w8k t:meta.view d:2017-03-03T14:23:27.892Z v:id=crd6-2w8k v:category="Housing, Land Use, and Blight" v:attributionLink=http://www.usgbc.org/projects v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council"
+property e:crd6-2w8k t:meta.view v:id=crd6-2w8k v:category="Housing, Land Use, and Blight" v:attributionLink=http://www.usgbc.org/projects v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council"
 
-property e:crd6-2w8k t:meta.view.owner d:2017-03-03T14:23:27.892Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:crd6-2w8k t:meta.view.tableauthor d:2017-03-03T14:23:27.892Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core d:2017-03-03T14:23:27.892Z v:Contact_Email=data@nola.gov
+property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/6iqh-u3hk/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/campaign-finance-fppc-form-460-schedule-g-payments-made-by-an-agent-or-independent-contrac-ad4e0)
-* [Metadata URL](https://data.sfgov.org/api/views/6iqh-u3hk)
-* Id = 6iqh-u3hk
-* Name = Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor
-* Attribution = San Francisco Ethics Commission
-* [Attribution Link](http://nf4.netfile.com/pub2?aid=sfo)
-* Category = City Management and Ethics
-* Tags = [ethics, campaign, finance, payments, agent, independent, contractor, fppc, form, 460]
-* Created = 2012-04-30T16:17:42Z
-* Publication Date = 2014-08-21T09:13:40Z
-* Rows Updated = 2017-02-13T17:04:15Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/campaign-finance-fppc-form-460-schedule-g-payments-made-by-an-agent-or-independent-contrac-ad4e0) |
+| Metadata | [Link](https://data.sfgov.org/api/views/6iqh-u3hk) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/6iqh-u3hk/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/6iqh-u3hk/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | 6iqh-u3hk |
+| Name | Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor |
+| Attribution | San Francisco Ethics Commission |
+| Category | City Management and Ethics |
+| Tags | ethics, campaign, finance, payments, agent, independent, contractor, fppc, form, 460 |
+| Created | 2012-04-30T16:17:42Z |
+| Publication Date | 2014-08-21T09:13:40Z |
+| Rows Updated | 2017-03-09T16:13:14Z |
 
 ## Description
 
@@ -22,71 +25,71 @@ This dataset includes all itemized payments made by an agent or independent cont
 ## Columns
 
 ```ls
-| Name                | Field Name          | Data Type     | Render Type   | Schema Type    | Included | 
-| =================== | =================== | ============= | ============= | ============== | ======== | 
-| Filer_ID            | filer_id            | text          | text          | series tag     | Yes      | 
-| Filer_NamL          | filer_naml          | text          | text          | series tag     | Yes      | 
-| Report_Num          | report_num          | number        | number        | numeric metric | Yes      | 
-| Committee_Type      | committee_type      | text          | text          | series tag     | Yes      | 
-| Rpt_Date            | rpt_date            | calendar_date | calendar_date | time           | Yes      | 
-| From_Date           | from_date           | calendar_date | calendar_date |                | No       | 
-| Thru_Date           | thru_date           | calendar_date | calendar_date |                | No       | 
-| Elect_Date          | elect_date          | calendar_date | calendar_date |                | No       | 
-| tblCover_Office_Cd  | tblcover_office_cd  | text          | text          | series tag     | Yes      | 
-| tblCover_Offic_Dscr | tblcover_offic_dscr | text          | text          | series tag     | Yes      | 
-| Rec_Type            | rec_type            | text          | text          | series tag     | Yes      | 
-| Form_Type           | form_type           | number        | text          | numeric metric | Yes      | 
-| Tran_ID             | tran_id             | text          | text          | series tag     | Yes      | 
-| Entity_Cd           | entity_cd           | text          | text          | series tag     | Yes      | 
-| Payee_NamL          | payee_naml          | text          | text          | series tag     | Yes      | 
-| Payee_NamF          | payee_namf          | text          | text          | series tag     | Yes      | 
-| Payee_NamT          | payee_namt          | text          | text          | series tag     | Yes      | 
-| Payee_NamS          | payee_nams          | text          | text          | series tag     | Yes      | 
-| Payee_Adr1          | payee_adr1          | text          | text          | series tag     | Yes      | 
-| Payee_Adr2          | payee_adr2          | text          | text          | series tag     | Yes      | 
-| Payee_City          | payee_city          | text          | text          | series tag     | Yes      | 
-| Payee_State         | payee_state         | text          | text          | series tag     | Yes      | 
-| Payee_Zip4          | payee_zip4          | text          | text          | series tag     | Yes      | 
-| Expn_Date           | expn_date           | calendar_date | calendar_date |                | No       | 
-| Amount              | amount              | money         | money         | numeric metric | Yes      | 
-| Cum_YTD             | cum_ytd             | money         | money         | numeric metric | Yes      | 
-| Expn_ChkNo          | expn_chkno          | text          | text          | series tag     | Yes      | 
-| Expn_Code           | expn_code           | text          | text          | series tag     | Yes      | 
-| Expn_Dscr           | expn_dscr           | text          | text          | series tag     | Yes      | 
-| Agent_NamL          | agent_naml          | text          | text          | series tag     | Yes      | 
-| Agent_NamF          | agent_namf          | text          | text          | series tag     | Yes      | 
-| Agent_NamT          | agent_namt          | text          | text          | series tag     | Yes      | 
-| Agent_NamS          | agent_nams          | text          | text          | series tag     | Yes      | 
-| Cmte_ID             | cmte_id             | text          | text          | series tag     | Yes      | 
-| Tres_NamL           | tres_naml           | text          | text          | series tag     | Yes      | 
-| Tres_NamF           | tres_namf           | text          | text          | series tag     | Yes      | 
-| Tres_NamT           | tres_namt           | text          | text          | series tag     | Yes      | 
-| Tres_NamS           | tres_nams           | text          | text          | series tag     | Yes      | 
-| Tres_Adr1           | tres_adr1           | text          | text          | series tag     | Yes      | 
-| Tres_Adr2           | tres_adr2           | text          | text          | series tag     | Yes      | 
-| Tres_City           | tres_city           | text          | text          | series tag     | Yes      | 
-| Tres_ST             | tres_st             | text          | text          | series tag     | Yes      | 
-| Tres_ZIP4           | tres_zip4           | text          | text          | series tag     | Yes      | 
-| Cand_NamL           | cand_naml           | text          | text          | series tag     | Yes      | 
-| Cand_NamF           | cand_namf           | text          | text          | series tag     | Yes      | 
-| Cand_NamT           | cand_namt           | text          | text          | series tag     | Yes      | 
-| Cand_NamS           | cand_nams           | text          | text          | series tag     | Yes      | 
-| Office_Cd           | office_cd           | text          | text          | series tag     | Yes      | 
-| Offic_Dscr          | offic_dscr          | text          | text          | series tag     | Yes      | 
-| Juris_Cd            | juris_cd            | text          | text          | series tag     | Yes      | 
-| Juris_Dscr          | juris_dscr          | text          | text          | series tag     | Yes      | 
-| Dist_No             | dist_no             | text          | text          | series tag     | Yes      | 
-| Off_S_H_Cd          | off_s_h_cd          | text          | text          | series tag     | Yes      | 
-| Bal_Name            | bal_name            | text          | text          | series tag     | Yes      | 
-| Bal_Num             | bal_num             | text          | text          | series tag     | Yes      | 
-| Bal_Juris           | bal_juris           | text          | text          | series tag     | Yes      | 
-| Sup_Opp_Cd          | sup_opp_cd          | number        | text          | numeric metric | Yes      | 
-| Memo_Code           | memo_code           | text          | text          | series tag     | Yes      | 
-| Memo_RefNo          | memo_refno          | text          | text          | series tag     | Yes      | 
-| BakRef_TID          | bakref_tid          | text          | text          | series tag     | Yes      | 
-| G_From_E_F          | g_from_e_f          | number        | text          | numeric metric | Yes      | 
-| XRef_SchNm          | xref_schnm          | text          | text          | series tag     | Yes      | 
-| XRef_Match          | xref_match          | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name          | Name                | Data Type     | Render Type   |
+| ======== | ============== | =================== | =================== | ============= | ============= |
+| Yes      | series tag     | filer_id            | Filer_ID            | text          | text          |
+| Yes      | series tag     | filer_naml          | Filer_NamL          | text          | text          |
+| Yes      | numeric metric | report_num          | Report_Num          | number        | number        |
+| Yes      | series tag     | committee_type      | Committee_Type      | text          | text          |
+| Yes      | time           | rpt_date            | Rpt_Date            | calendar_date | calendar_date |
+| No       |                | from_date           | From_Date           | calendar_date | calendar_date |
+| No       |                | thru_date           | Thru_Date           | calendar_date | calendar_date |
+| No       |                | elect_date          | Elect_Date          | calendar_date | calendar_date |
+| Yes      | series tag     | tblcover_office_cd  | tblCover_Office_Cd  | text          | text          |
+| Yes      | series tag     | tblcover_offic_dscr | tblCover_Offic_Dscr | text          | text          |
+| Yes      | series tag     | rec_type            | Rec_Type            | text          | text          |
+| Yes      | numeric metric | form_type           | Form_Type           | number        | text          |
+| Yes      | series tag     | tran_id             | Tran_ID             | text          | text          |
+| Yes      | series tag     | entity_cd           | Entity_Cd           | text          | text          |
+| Yes      | series tag     | payee_naml          | Payee_NamL          | text          | text          |
+| Yes      | series tag     | payee_namf          | Payee_NamF          | text          | text          |
+| Yes      | series tag     | payee_namt          | Payee_NamT          | text          | text          |
+| Yes      | series tag     | payee_nams          | Payee_NamS          | text          | text          |
+| Yes      | series tag     | payee_adr1          | Payee_Adr1          | text          | text          |
+| Yes      | series tag     | payee_adr2          | Payee_Adr2          | text          | text          |
+| Yes      | series tag     | payee_city          | Payee_City          | text          | text          |
+| Yes      | series tag     | payee_state         | Payee_State         | text          | text          |
+| Yes      | series tag     | payee_zip4          | Payee_Zip4          | text          | text          |
+| No       |                | expn_date           | Expn_Date           | calendar_date | calendar_date |
+| Yes      | numeric metric | amount              | Amount              | money         | money         |
+| Yes      | numeric metric | cum_ytd             | Cum_YTD             | money         | money         |
+| Yes      | series tag     | expn_chkno          | Expn_ChkNo          | text          | text          |
+| Yes      | series tag     | expn_code           | Expn_Code           | text          | text          |
+| Yes      | series tag     | expn_dscr           | Expn_Dscr           | text          | text          |
+| Yes      | series tag     | agent_naml          | Agent_NamL          | text          | text          |
+| Yes      | series tag     | agent_namf          | Agent_NamF          | text          | text          |
+| Yes      | series tag     | agent_namt          | Agent_NamT          | text          | text          |
+| Yes      | series tag     | agent_nams          | Agent_NamS          | text          | text          |
+| Yes      | series tag     | cmte_id             | Cmte_ID             | text          | text          |
+| Yes      | series tag     | tres_naml           | Tres_NamL           | text          | text          |
+| Yes      | series tag     | tres_namf           | Tres_NamF           | text          | text          |
+| Yes      | series tag     | tres_namt           | Tres_NamT           | text          | text          |
+| Yes      | series tag     | tres_nams           | Tres_NamS           | text          | text          |
+| Yes      | series tag     | tres_adr1           | Tres_Adr1           | text          | text          |
+| Yes      | series tag     | tres_adr2           | Tres_Adr2           | text          | text          |
+| Yes      | series tag     | tres_city           | Tres_City           | text          | text          |
+| Yes      | series tag     | tres_st             | Tres_ST             | text          | text          |
+| Yes      | series tag     | tres_zip4           | Tres_ZIP4           | text          | text          |
+| Yes      | series tag     | cand_naml           | Cand_NamL           | text          | text          |
+| Yes      | series tag     | cand_namf           | Cand_NamF           | text          | text          |
+| Yes      | series tag     | cand_namt           | Cand_NamT           | text          | text          |
+| Yes      | series tag     | cand_nams           | Cand_NamS           | text          | text          |
+| Yes      | series tag     | office_cd           | Office_Cd           | text          | text          |
+| Yes      | series tag     | offic_dscr          | Offic_Dscr          | text          | text          |
+| Yes      | series tag     | juris_cd            | Juris_Cd            | text          | text          |
+| Yes      | series tag     | juris_dscr          | Juris_Dscr          | text          | text          |
+| Yes      | series tag     | dist_no             | Dist_No             | text          | text          |
+| Yes      | series tag     | off_s_h_cd          | Off_S_H_Cd          | text          | text          |
+| Yes      | series tag     | bal_name            | Bal_Name            | text          | text          |
+| Yes      | series tag     | bal_num             | Bal_Num             | text          | text          |
+| Yes      | series tag     | bal_juris           | Bal_Juris           | text          | text          |
+| Yes      | numeric metric | sup_opp_cd          | Sup_Opp_Cd          | number        | text          |
+| Yes      | series tag     | memo_code           | Memo_Code           | text          | text          |
+| Yes      | series tag     | memo_refno          | Memo_RefNo          | text          | text          |
+| Yes      | series tag     | bakref_tid          | BakRef_TID          | text          | text          |
+| Yes      | numeric metric | g_from_e_f          | G_From_E_F          | number        | text          |
+| Yes      | series tag     | xref_schnm          | XRef_SchNm          | text          | text          |
+| Yes      | series tag     | xref_match          | XRef_Match          | text          | text          |
 ```
 
 ## Time Field
@@ -99,10 +102,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = elect_date,thru_date,expn_date,from_date
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -122,11 +122,11 @@ metric m:report_num p:integer l:Report_Num t:dataTypeName=number
 
 entity e:6iqh-u3hk l:"Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/6iqh-u3hk
 
-property e:6iqh-u3hk t:meta.view d:2017-03-07T23:58:35.829Z v:id=6iqh-u3hk v:category="City Management and Ethics" v:attributionLink="http://nf4.netfile.com/pub2?aid=sfo" v:averageRating=0 v:name="Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" v:attribution="San Francisco Ethics Commission"
+property e:6iqh-u3hk t:meta.view v:id=6iqh-u3hk v:category="City Management and Ethics" v:attributionLink="http://nf4.netfile.com/pub2?aid=sfo" v:averageRating=0 v:name="Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" v:attribution="San Francisco Ethics Commission"
 
-property e:6iqh-u3hk t:meta.view.license d:2017-03-07T23:58:35.829Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:6iqh-u3hk t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:6iqh-u3hk t:meta.view.owner d:2017-03-07T23:58:35.829Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:6iqh-u3hk t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 
-property e:6iqh-u3hk t:meta.view.tableauthor d:2017-03-07T23:58:35.829Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:6iqh-u3hk t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

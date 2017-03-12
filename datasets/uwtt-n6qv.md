@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.illinois.gov/api/views/uwtt-n6qv/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/idor-sic-report-q3-2010-95c27)
-* [Metadata URL](https://data.illinois.gov/api/views/uwtt-n6qv)
-* Id = uwtt-n6qv
-* Name = IDOR SIC Report Q3 2010
-* Attribution = Illinois Department of Revenue
-* Category = Economics
-* Tags = [revenue, tax]
-* Created = 2011-06-15T17:26:04Z
-* Publication Date = 2011-06-15T17:26:04Z
-* Rows Updated = 2011-08-21T02:56:54Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/idor-sic-report-q3-2010-95c27) |
+| Metadata | [Link](https://data.illinois.gov/api/views/uwtt-n6qv) |
+| Data: JSON | [100 Rows](https://data.illinois.gov/api/views/uwtt-n6qv/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.illinois.gov/api/views/uwtt-n6qv/rows.csv?max_rows=100) |
+| Host | data.illinois.gov |
+| Id | uwtt-n6qv |
+| Name | IDOR SIC Report Q3 2010 |
+| Attribution | Illinois Department of Revenue |
+| Category | Economics |
+| Tags | revenue, tax |
+| Created | 2011-06-15T17:26:04Z |
+| Publication Date | 2011-06-15T17:26:04Z |
+| Rows Updated | 2011-08-21T02:56:54Z |
 
 ## Description
 
@@ -21,26 +25,26 @@ The SIC report is compiled to provide detail information regarding the types of 
 ## Columns
 
 ```ls
-| Name                                   | Field Name                           | Data Type | Render Type | Schema Type    | Included | 
-| ====================================== | ==================================== | ========= | =========== | ============== | ======== | 
-| updated_at                             | :updated_at                          | meta_data | meta_data   | time           | No       | 
-| Ending Liability Period                | ending_liability_period              | number    | text        | numeric metric | Yes      | 
-| Run Type Indicator                     | run_type_indicator                   | number    | text        | numeric metric | Yes      | 
-| Local Government Name                  | local_government_name                | text      | text        | series tag     | Yes      | 
-| Multi-County Indicator                 | multi_county_indicator               | number    | text        | numeric metric | Yes      | 
-| Tax Type Indicator                     | tax_type_indicator                   | text      | text        | series tag     | Yes      | 
-| Number of Taxpayers                    | number_of_taxpayers                  | number    | number      | numeric metric | Yes      | 
-| Total Tax Receipts                     | total_tax_receipts                   | money     | money       | numeric metric | Yes      | 
-| General Merchandise Category           | general_merchandise_category         | money     | money       | numeric metric | Yes      | 
-| Food Category                          | food_category                        | money     | money       | numeric metric | Yes      | 
-| Drinking & Eating Places Category      | drinking_eating_places_category      | money     | money       | numeric metric | Yes      | 
-| Apparel Category                       | apparel_category                     | money     | money       | numeric metric | Yes      | 
-| Funiture, H.H. & Radio Category        | funiture_h_h_radio_category          | money     | money       | numeric metric | Yes      | 
-| Lumber, Building & Hardware Category   | lumber_building_hardware_category    | money     | money       | numeric metric | Yes      | 
-| Automative & Filling Stations Category | automative_filling_stations_category | money     | money       | numeric metric | Yes      | 
-| Drugs & Misc. Retail Category          | drugs_misc_retail_category           | money     | money       | numeric metric | Yes      | 
-| Agriculture & All Others Category      | agriculture_all_others_category      | money     | money       | numeric metric | Yes      | 
-| Manufacturers Category                 | manufacturers_category               | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                           | Name                                   | Data Type | Render Type |
+| ======== | ============== | ==================================== | ====================================== | ========= | =========== |
+| No       | time           | :updated_at                          | updated_at                             | meta_data | meta_data   |
+| Yes      | numeric metric | ending_liability_period              | Ending Liability Period                | number    | text        |
+| Yes      | numeric metric | run_type_indicator                   | Run Type Indicator                     | number    | text        |
+| Yes      | series tag     | local_government_name                | Local Government Name                  | text      | text        |
+| Yes      | numeric metric | multi_county_indicator               | Multi-County Indicator                 | number    | text        |
+| Yes      | series tag     | tax_type_indicator                   | Tax Type Indicator                     | text      | text        |
+| Yes      | numeric metric | number_of_taxpayers                  | Number of Taxpayers                    | number    | number      |
+| Yes      | numeric metric | total_tax_receipts                   | Total Tax Receipts                     | money     | money       |
+| Yes      | numeric metric | general_merchandise_category         | General Merchandise Category           | money     | money       |
+| Yes      | numeric metric | food_category                        | Food Category                          | money     | money       |
+| Yes      | numeric metric | drinking_eating_places_category      | Drinking & Eating Places Category      | money     | money       |
+| Yes      | numeric metric | apparel_category                     | Apparel Category                       | money     | money       |
+| Yes      | numeric metric | funiture_h_h_radio_category          | Funiture, H.H. & Radio Category        | money     | money       |
+| Yes      | numeric metric | lumber_building_hardware_category    | Lumber, Building & Hardware Category   | money     | money       |
+| Yes      | numeric metric | automative_filling_stations_category | Automative & Filling Stations Category | money     | money       |
+| Yes      | numeric metric | drugs_misc_retail_category           | Drugs & Misc. Retail Category          | money     | money       |
+| Yes      | numeric metric | agriculture_all_others_category      | Agriculture & All Others Category      | money     | money       |
+| Yes      | numeric metric | manufacturers_category               | Manufacturers Category                 | money     | money       |
 ```
 
 ## Time Field
@@ -48,15 +52,6 @@ The SIC report is compiled to provide detail information regarding the types of 
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -80,9 +75,9 @@ metric m:number_of_taxpayers p:integer l:"Number of Taxpayers" t:dataTypeName=nu
 
 entity e:uwtt-n6qv l:"IDOR SIC Report Q3 2010" t:attribution="Illinois Department of Revenue" t:url=https://data.illinois.gov/api/views/uwtt-n6qv
 
-property e:uwtt-n6qv t:meta.view d:2017-03-07T23:00:48.584Z v:id=uwtt-n6qv v:category=Economics v:averageRating=0 v:name="IDOR SIC Report Q3 2010" v:attribution="Illinois Department of Revenue"
+property e:uwtt-n6qv t:meta.view v:id=uwtt-n6qv v:category=Economics v:averageRating=0 v:name="IDOR SIC Report Q3 2010" v:attribution="Illinois Department of Revenue"
 
-property e:uwtt-n6qv t:meta.view.owner d:2017-03-07T23:00:48.584Z v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:roleName=publisher v:displayName=wilcoxd
+property e:uwtt-n6qv t:meta.view.owner v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:roleName=publisher v:displayName=wilcoxd
 
-property e:uwtt-n6qv t:meta.view.tableauthor d:2017-03-07T23:00:48.584Z v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:roleName=publisher v:displayName=wilcoxd
+property e:uwtt-n6qv t:meta.view.tableauthor v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:roleName=publisher v:displayName=wilcoxd
 ```

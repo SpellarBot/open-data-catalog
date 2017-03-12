@@ -2,14 +2,19 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/hrkd-h2w5/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/part-iii-compiled-ez-assessor-reports-reporting-years-2015-2016)
-* Id = hrkd-h2w5
-* Name = Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016
-* Tags = [enterprise zones; assessor reports; enterprise zones composite assessor reports; 2015; 2016]
-* Created = 2016-11-25T01:40:50Z
-* Publication Date = 2016-11-25T01:45:38Z
-* Rows Updated = 2016-11-25T01:41:16Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/part-iii-compiled-ez-assessor-reports-reporting-years-2015-2016) |
+| Metadata | [Link](https://data.oregon.gov/api/views/hrkd-h2w5) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/hrkd-h2w5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/hrkd-h2w5/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | hrkd-h2w5 |
+| Name | Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016 |
+| Tags | enterprise zones; assessor reports; enterprise zones composite assessor reports; 2015; 2016 |
+| Created | 2016-11-25T01:40:50Z |
+| Publication Date | 2016-11-25T01:45:38Z |
+| Rows Updated | 2016-11-25T01:41:16Z |
 
 ## Description
 
@@ -18,18 +23,18 @@ This composite report "Part III. Recent Investments Expected to Begin Exemption 
 ## Columns
 
 ```ls
-| Name                                                                     | Field Name                                                              | Data Type | Render Type | Schema Type    | Included | 
-| ======================================================================== | ======================================================================= | ========= | =========== | ============== | ======== | 
-| Reporting Year                                                           | reporting_year                                                          | number    | number      | time           | Yes      | 
-| Property Tax Year                                                        | property_tax_year                                                       | text      | text        | series tag     | Yes      | 
-| County                                                                   | county                                                                  | text      | text        | series tag     | Yes      | 
-| Enterprise Zone                                                          | enterprise_zone                                                         | text      | text        | series tag     | Yes      | 
-| Name of Qualified Firm                                                   | name_of_qualified_firm                                                  | text      | text        | series tag     | Yes      | 
-| Expected Total Years of Exemption(3, 4 or 5)                             | expected_total_years_of_exemption_3_4_or_5                              | number    | number      | numeric metric | Yes      | 
-| Preexisting Zone Employment(annual average in authorization application) | preexisting_zone_employment_annual_average_in_authorization_application | number    | number      | numeric metric | Yes      | 
-| Reported Total Zone Employment on or before April 1 of Reporting Year    | reported_total_zone_employment_on_or_before_april_1_of_reporting_year   | number    | number      |                | No       | 
-| Tax Code Area                                                            | tax_code_area                                                           | text      | text        | series tag     | Yes      | 
-| Notes                                                                    | notes                                                                   | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                                                              | Name                                                                     | Data Type | Render Type |
+| ======== | ============== | ======================================================================= | ======================================================================== | ========= | =========== |
+| Yes      | time           | reporting_year                                                          | Reporting Year                                                           | number    | number      |
+| Yes      | series tag     | property_tax_year                                                       | Property Tax Year                                                        | text      | text        |
+| Yes      | series tag     | county                                                                  | County                                                                   | text      | text        |
+| Yes      | series tag     | enterprise_zone                                                         | Enterprise Zone                                                          | text      | text        |
+| Yes      | series tag     | name_of_qualified_firm                                                  | Name of Qualified Firm                                                   | text      | text        |
+| Yes      | numeric metric | expected_total_years_of_exemption_3_4_or_5                              | Expected Total Years of Exemption(3, 4 or 5)                             | number    | number      |
+| Yes      | numeric metric | preexisting_zone_employment_annual_average_in_authorization_application | Preexisting Zone Employment(annual average in authorization application) | number    | number      |
+| No       |                | reported_total_zone_employment_on_or_before_april_1_of_reporting_year   | Reported Total Zone Employment on or before April 1 of Reporting Year    | number    | number      |
+| Yes      | series tag     | tax_code_area                                                           | Tax Code Area                                                            | text      | text        |
+| Yes      | series tag     | notes                                                                   | Notes                                                                    | text      | text        |
 ```
 
 ## Time Field
@@ -42,10 +47,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = reported_total_zone_employment_on_or_before_april_1_of_reporting_year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -67,9 +69,9 @@ metric m:preexisting_zone_employment_annual_average_in_authorization_application
 
 entity e:hrkd-h2w5 l:"Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016" t:url=https://data.oregon.gov/api/views/hrkd-h2w5
 
-property e:hrkd-h2w5 t:meta.view d:2017-03-03T14:14:36.075Z v:id=hrkd-h2w5 v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016"
+property e:hrkd-h2w5 t:meta.view v:id=hrkd-h2w5 v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016"
 
-property e:hrkd-h2w5 t:meta.view.owner d:2017-03-03T14:14:36.075Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:hrkd-h2w5 t:meta.view.tableauthor d:2017-03-03T14:14:36.075Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

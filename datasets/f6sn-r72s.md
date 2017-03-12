@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/f6sn-r72s/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/office-of-finance-and-development-state-low-income-housing-tax-credits-slihtc-and-subsidy-)
-* [Metadata URL](https://data.ny.gov/api/views/f6sn-r72s)
-* Id = f6sn-r72s
-* Name = Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects
-* Attribution = NYS Homes and Community Renewal
-* [Attribution Link](http://www.nyshcr.org/Programs/LIHC/)
-* Category = Economic Development
-* Tags = [awards, housing, construction, tax credit, lihtc]
-* Created = 2015-12-01T23:37:55Z
-* Publication Date = 2016-01-21T23:23:37Z
-* Rows Updated = 2016-01-21T23:20:41Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/office-of-finance-and-development-state-low-income-housing-tax-credits-slihtc-and-subsidy-) |
+| Metadata | [Link](https://data.ny.gov/api/views/f6sn-r72s) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/f6sn-r72s/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/f6sn-r72s/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | f6sn-r72s |
+| Name | Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects |
+| Attribution | NYS Homes and Community Renewal |
+| Category | Economic Development |
+| Tags | awards, housing, construction, tax credit, lihtc |
+| Created | 2015-12-01T23:37:55Z |
+| Publication Date | 2016-01-21T23:23:37Z |
+| Rows Updated | 2016-01-21T23:20:41Z |
 
 ## Description
 
@@ -22,18 +25,18 @@ Listing of state tax credit and subsidies awarded by NYS Homes & Community Renew
 ## Columns
 
 ```ls
-| Name               | Field Name         | Data Type | Render Type | Schema Type    | Included | 
-| ================== | ================== | ========= | =========== | ============== | ======== | 
-| Project Number     | project_number     | number    | number      | numeric metric | Yes      | 
-| HCR Project Type   | hcr_project_type   | text      | text        | series tag     | Yes      | 
-| Project Name       | project_name       | text      | text        | series tag     | Yes      | 
-| Developer Name     | developer_name     | text      | text        | series tag     | Yes      | 
-| County             | county             | text      | text        | series tag     | Yes      | 
-| Municipality       | municipality       | text      | text        | series tag     | Yes      | 
-| Total Project Cost | total_project_cost | money     | money       | numeric metric | Yes      | 
-| Total Units        | total_units        | number    | number      | numeric metric | Yes      | 
-| Affordable Units   | affordable_units   | number    | number      | numeric metric | Yes      | 
-| Calendar Year      | calendar_year      | number    | number      | time           | Yes      | 
+| Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
+| ======== | ============== | ================== | ================== | ========= | =========== |
+| Yes      | numeric metric | project_number     | Project Number     | number    | number      |
+| Yes      | series tag     | hcr_project_type   | HCR Project Type   | text      | text        |
+| Yes      | series tag     | project_name       | Project Name       | text      | text        |
+| Yes      | series tag     | developer_name     | Developer Name     | text      | text        |
+| Yes      | series tag     | county             | County             | text      | text        |
+| Yes      | series tag     | municipality       | Municipality       | text      | text        |
+| Yes      | numeric metric | total_project_cost | Total Project Cost | money     | money       |
+| Yes      | numeric metric | total_units        | Total Units        | number    | number      |
+| Yes      | numeric metric | affordable_units   | Affordable Units   | number    | number      |
+| Yes      | time           | calendar_year      | Calendar Year      | number    | number      |
 ```
 
 ## Time Field
@@ -41,15 +44,6 @@ Listing of state tax credit and subsidies awarded by NYS Homes & Community Renew
 ```ls
 Value = calendar_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -73,9 +67,9 @@ metric m:affordable_units p:integer l:"Affordable Units" d:"Number of affordable
 
 entity e:f6sn-r72s l:"Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" t:attribution="NYS Homes and Community Renewal" t:url=https://data.ny.gov/api/views/f6sn-r72s
 
-property e:f6sn-r72s t:meta.view d:2017-03-08T02:36:39.288Z v:id=f6sn-r72s v:category="Economic Development" v:attributionLink=http://www.nyshcr.org/Programs/LIHC/ v:averageRating=0 v:name="Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" v:attribution="NYS Homes and Community Renewal"
+property e:f6sn-r72s t:meta.view v:id=f6sn-r72s v:category="Economic Development" v:attributionLink=http://www.nyshcr.org/Programs/LIHC/ v:averageRating=0 v:name="Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" v:attribution="NYS Homes and Community Renewal"
 
-property e:f6sn-r72s t:meta.view.owner d:2017-03-08T02:36:39.288Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:f6sn-r72s t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:f6sn-r72s t:meta.view.tableauthor d:2017-03-08T02:36:39.288Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:f6sn-r72s t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 ```

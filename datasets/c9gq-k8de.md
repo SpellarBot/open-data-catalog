@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/c9gq-k8de/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/fy-2016-proposed-operating-budget-expenditures-line-item-detail)
-* Id = c9gq-k8de
-* Name = FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail
-* Attribution = City of Austin
-* Category = Government
-* Tags = [proposed budget]
-* Created = 2015-08-14T21:37:06Z
-* Publication Date = 2015-08-14T21:52:16Z
-* Rows Updated = 2015-08-14T21:44:36Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/fy-2016-proposed-operating-budget-expenditures-line-item-detail) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/c9gq-k8de) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/c9gq-k8de/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/c9gq-k8de/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | c9gq-k8de |
+| Name | FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail |
+| Attribution | City of Austin |
+| Category | Government |
+| Tags | proposed budget |
+| Created | 2015-08-14T21:37:06Z |
+| Publication Date | 2015-08-14T21:52:16Z |
+| Rows Updated | 2015-08-14T21:44:36Z |
 
 ## Description
 
@@ -20,24 +25,24 @@ City of Austin FY 2016 Proposed operating budget showing expenditures by line it
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type | Render Type | Schema Type    | Included | 
-| ==================== | ==================== | ========= | =========== | ============== | ======== | 
-| PROPOSED_FISCAL_YEAR | proposed_fiscal_year | number    | number      | time           | Yes      | 
-| DEPT_ROLLUP          | dept_rollup          | number    | number      | numeric metric | Yes      | 
-| DEPT_ROLLUP_NAME     | dept_rollup_name     | text      | text        | series tag     | Yes      | 
-| DEPARTMENT_CODE      | department_code      | text      | number      | series tag     | Yes      | 
-| DEPARTMENT_NAME      | department_name      | text      | text        | series tag     | Yes      | 
-| FUND_CODE            | fund_code            | text      | number      | series tag     | Yes      | 
-| FUND_NAME            | fund_name            | text      | text        | series tag     | Yes      | 
-| PROGRAM_CODE         | program_code         | text      | text        | series tag     | Yes      | 
-| PROGRAM_NAME         | program_name         | text      | text        | series tag     | Yes      | 
-| ACTIVITY_CODE        | activity_code        | text      | text        | series tag     | Yes      | 
-| ACTIVITY_NAME        | activity_name        | text      | text        | series tag     | Yes      | 
-| UNIT_CODE            | unit_code            | text      | number      | series tag     | Yes      | 
-| UNIT_NAME            | unit_name            | text      | text        | series tag     | Yes      | 
-| EXPENSE_CODE         | expense_code         | text      | number      | series tag     | Yes      | 
-| EXPENSE_NAME         | expense_name         | text      | text        | series tag     | Yes      | 
-| PROPOSED_BUDGET      | proposed_budget      | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
+| ======== | ============== | ==================== | ==================== | ========= | =========== |
+| Yes      | time           | proposed_fiscal_year | PROPOSED_FISCAL_YEAR | number    | number      |
+| Yes      | numeric metric | dept_rollup          | DEPT_ROLLUP          | number    | number      |
+| Yes      | series tag     | dept_rollup_name     | DEPT_ROLLUP_NAME     | text      | text        |
+| Yes      | series tag     | department_code      | DEPARTMENT_CODE      | text      | number      |
+| Yes      | series tag     | department_name      | DEPARTMENT_NAME      | text      | text        |
+| Yes      | series tag     | fund_code            | FUND_CODE            | text      | number      |
+| Yes      | series tag     | fund_name            | FUND_NAME            | text      | text        |
+| Yes      | series tag     | program_code         | PROGRAM_CODE         | text      | text        |
+| Yes      | series tag     | program_name         | PROGRAM_NAME         | text      | text        |
+| Yes      | series tag     | activity_code        | ACTIVITY_CODE        | text      | text        |
+| Yes      | series tag     | activity_name        | ACTIVITY_NAME        | text      | text        |
+| Yes      | series tag     | unit_code            | UNIT_CODE            | text      | number      |
+| Yes      | series tag     | unit_name            | UNIT_NAME            | text      | text        |
+| Yes      | series tag     | expense_code         | EXPENSE_CODE         | text      | number      |
+| Yes      | series tag     | expense_name         | EXPENSE_NAME         | text      | text        |
+| Yes      | numeric metric | proposed_budget      | PROPOSED_BUDGET      | number    | number      |
 ```
 
 ## Time Field
@@ -45,15 +50,6 @@ City of Austin FY 2016 Proposed operating budget showing expenditures by line it
 ```ls
 Value = proposed_fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -75,11 +71,11 @@ metric m:proposed_budget l:PROPOSED_BUDGET t:dataTypeName=number
 
 entity e:c9gq-k8de l:"FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/c9gq-k8de
 
-property e:c9gq-k8de t:meta.view d:2017-03-03T13:54:44.904Z v:id=c9gq-k8de v:category=Government v:averageRating=0 v:name="FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail" v:attribution="City of Austin"
+property e:c9gq-k8de t:meta.view v:id=c9gq-k8de v:category=Government v:averageRating=0 v:name="FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail" v:attribution="City of Austin"
 
-property e:c9gq-k8de t:meta.view.license d:2017-03-03T13:54:44.904Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:c9gq-k8de t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:c9gq-k8de t:meta.view.owner d:2017-03-03T13:54:44.904Z v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.owner v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
 
-property e:c9gq-k8de t:meta.view.tableauthor d:2017-03-03T13:54:44.904Z v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.tableauthor v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
 ```

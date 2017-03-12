@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://chronicdata.cdc.gov/api/views/hj2x-85ya/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/cdc-state-system-tobacco-legislation-preemption-summary)
-* [Metadata URL](https://chronicdata.cdc.gov/api/views/hj2x-85ya)
-* Id = hj2x-85ya
-* Name = CDC STATE System Tobacco Legislation - Preemption Summary
-* Attribution = Office of Smoking and Health (OSH)
-* [Attribution Link](http://www.cdc.gov/tobacco/statesystem)
-* Category = Legislation
-* Tags = [tobacco, osh, state system, legislation, policy, preemption]
-* Created = 2014-12-16T18:54:59Z
-* Publication Date = 2017-02-07T18:35:59Z
-* Rows Updated = 2017-02-07T18:35:35Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/cdc-state-system-tobacco-legislation-preemption-summary) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/hj2x-85ya) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/hj2x-85ya/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/hj2x-85ya/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
+| Id | hj2x-85ya |
+| Name | CDC STATE System Tobacco Legislation - Preemption Summary |
+| Attribution | Office of Smoking and Health (OSH) |
+| Category | Legislation |
+| Tags | tobacco, osh, state system, legislation, policy, preemption |
+| Created | 2014-12-16T18:54:59Z |
+| Publication Date | 2017-02-07T18:35:59Z |
+| Rows Updated | 2017-02-07T18:35:35Z |
 
 ## Description
 
@@ -22,24 +25,24 @@
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type | Render Type | Schema Type    | Included | 
-| ==================== | ==================== | ========= | =========== | ============== | ======== | 
-| YEAR                 | year                 | number    | number      | time           | Yes      | 
-| Quarter              | quarter              | number    | number      | numeric metric | Yes      | 
-| LocationAbbr         | locationabbr         | text      | text        | series tag     | Yes      | 
-| LocationDesc         | locationdesc         | text      | text        | series tag     | Yes      | 
-| TopicTypeDesc        | topictypedesc        | text      | text        | series tag     | Yes      | 
-| TopicDesc            | topicdesc            | text      | text        | series tag     | Yes      | 
-| MeasureDesc          | measuredesc          | text      | text        | series tag     | Yes      | 
-| Smokefree_Indoor_Air | smokefree_indoor_air | text      | text        | series tag     | Yes      | 
-| Youth_Access         | youth_access         | text      | text        | series tag     | Yes      | 
-| Advertising          | advertising          | text      | text        | series tag     | Yes      | 
-| Licensure            | licensure            | text      | text        | series tag     | Yes      | 
-| Preemption           | preemption           | text      | text        | series tag     | Yes      | 
-| PreemptionAltValue   | preemptionaltvalue   | number    | number      | numeric metric | Yes      | 
-| TopicTypeId          | topictypeid          | text      | text        | series tag     | Yes      | 
-| TopicId              | topicid              | text      | number      | series tag     | Yes      | 
-| MeasureId            | measureid            | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
+| ======== | ============== | ==================== | ==================== | ========= | =========== |
+| Yes      | time           | year                 | YEAR                 | number    | number      |
+| Yes      | numeric metric | quarter              | Quarter              | number    | number      |
+| Yes      | series tag     | locationabbr         | LocationAbbr         | text      | text        |
+| Yes      | series tag     | locationdesc         | LocationDesc         | text      | text        |
+| Yes      | series tag     | topictypedesc        | TopicTypeDesc        | text      | text        |
+| Yes      | series tag     | topicdesc            | TopicDesc            | text      | text        |
+| Yes      | series tag     | measuredesc          | MeasureDesc          | text      | text        |
+| Yes      | series tag     | smokefree_indoor_air | Smokefree_Indoor_Air | text      | text        |
+| Yes      | series tag     | youth_access         | Youth_Access         | text      | text        |
+| Yes      | series tag     | advertising          | Advertising          | text      | text        |
+| Yes      | series tag     | licensure            | Licensure            | text      | text        |
+| Yes      | series tag     | preemption           | Preemption           | text      | text        |
+| Yes      | numeric metric | preemptionaltvalue   | PreemptionAltValue   | number    | number      |
+| Yes      | series tag     | topictypeid          | TopicTypeId          | text      | text        |
+| Yes      | series tag     | topicid              | TopicId              | text      | number      |
+| Yes      | series tag     | measureid            | MeasureId            | text      | text        |
 ```
 
 ## Time Field
@@ -47,15 +50,6 @@
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -77,13 +71,13 @@ metric m:preemptionaltvalue p:integer l:PreemptionAltValue d:"Alternate numeric 
 
 entity e:hj2x-85ya l:"CDC STATE System Tobacco Legislation - Preemption Summary" t:attribution="Office of Smoking and Health (OSH)" t:url=https://chronicdata.cdc.gov/api/views/hj2x-85ya
 
-property e:hj2x-85ya t:meta.view d:2017-03-07T17:27:52.256Z v:id=hj2x-85ya v:category=Legislation v:attributionLink=http://www.cdc.gov/tobacco/statesystem v:averageRating=0 v:name="CDC STATE System Tobacco Legislation - Preemption Summary" v:attribution="Office of Smoking and Health (OSH)"
+property e:hj2x-85ya t:meta.view v:id=hj2x-85ya v:category=Legislation v:attributionLink=http://www.cdc.gov/tobacco/statesystem v:averageRating=0 v:name="CDC STATE System Tobacco Legislation - Preemption Summary" v:attribution="Office of Smoking and Health (OSH)"
 
-property e:hj2x-85ya t:meta.view.license d:2017-03-07T17:27:52.256Z v:name="Public Domain"
+property e:hj2x-85ya t:meta.view.license v:name="Public Domain"
 
-property e:hj2x-85ya t:meta.view.owner d:2017-03-07T17:27:52.256Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:hj2x-85ya t:meta.view.owner v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:hj2x-85ya t:meta.view.tableauthor d:2017-03-07T17:27:52.256Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:hj2x-85ya t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:hj2x-85ya t:meta.view.metadata.custom_fields.common_core d:2017-03-07T17:27:52.256Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:029
+property e:hj2x-85ya t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:029
 ```

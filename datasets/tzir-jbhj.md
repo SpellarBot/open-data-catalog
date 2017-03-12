@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/tzir-jbhj/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/department-open-data-inventory-and-plan-status)
-* [Metadata URL](https://data.sfgov.org/api/views/tzir-jbhj)
-* Id = tzir-jbhj
-* Name = Department Open Data Inventory and Plan Status
-* Category = City Management and Ethics
-* Tags = [inventory, publishing plans, open data program]
-* Created = 2015-07-13T18:57:52Z
-* Publication Date = 2017-02-14T19:27:31Z
-* Rows Updated = 2017-02-14T19:27:15Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/department-open-data-inventory-and-plan-status) |
+| Metadata | [Link](https://data.sfgov.org/api/views/tzir-jbhj) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/tzir-jbhj/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/tzir-jbhj/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | tzir-jbhj |
+| Name | Department Open Data Inventory and Plan Status |
+| Category | City Management and Ethics |
+| Tags | inventory, publishing plans, open data program |
+| Created | 2015-07-13T18:57:52Z |
+| Publication Date | 2017-02-14T19:27:31Z |
+| Rows Updated | 2017-02-14T19:27:15Z |
 
 ## Description
 
@@ -20,19 +24,19 @@ This dataset tracks the status of departments as they move through the inventory
 ## Columns
 
 ```ls
-| Name                            | Field Name                      | Data Type | Render Type | Schema Type    | Included | 
-| =============================== | =============================== | ========= | =========== | ============== | ======== | 
-| updated_at                      | :updated_at                     | meta_data | meta_data   | time           | No       | 
-| Department Code                 | department_code                 | text      | text        | series tag     | Yes      | 
-| Department or Division          | department_or_division          | text      | text        | series tag     | Yes      | 
-| Inventory Status                | inventory_status                | text      | text        | series tag     | Yes      | 
-| Publishing Plan Status          | publishing_plan_status          | text      | text        | series tag     | Yes      | 
-| Target December 2015            | target_december_2015            | number    | number      | numeric metric | Yes      | 
-| Published through December 2015 | published_through_december_2015 | number    | number      | numeric metric | Yes      | 
-| Target June 2016                | target_june_2016                | number    | number      | numeric metric | Yes      | 
-| Published Through June 2016     | published_through_june_2016     | number    | number      | numeric metric | Yes      | 
-| Target December 2016            | target_december_2016            | number    | number      | numeric metric | Yes      | 
-| Published through December 2016 | published_through_december_2016 | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                      | Name                            | Data Type | Render Type |
+| ======== | ============== | =============================== | =============================== | ========= | =========== |
+| No       | time           | :updated_at                     | updated_at                      | meta_data | meta_data   |
+| Yes      | series tag     | department_code                 | Department Code                 | text      | text        |
+| Yes      | series tag     | department_or_division          | Department or Division          | text      | text        |
+| Yes      | series tag     | inventory_status                | Inventory Status                | text      | text        |
+| Yes      | series tag     | publishing_plan_status          | Publishing Plan Status          | text      | text        |
+| Yes      | numeric metric | target_december_2015            | Target December 2015            | number    | number      |
+| Yes      | numeric metric | published_through_december_2015 | Published through December 2015 | number    | number      |
+| Yes      | numeric metric | target_june_2016                | Target June 2016                | number    | number      |
+| Yes      | numeric metric | published_through_june_2016     | Published Through June 2016     | number    | number      |
+| Yes      | numeric metric | target_december_2016            | Target December 2016            | number    | number      |
+| Yes      | numeric metric | published_through_december_2016 | Published through December 2016 | number    | number      |
 ```
 
 ## Time Field
@@ -40,15 +44,6 @@ This dataset tracks the status of departments as they move through the inventory
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -78,11 +73,11 @@ metric m:published_through_december_2016 p:integer l:"Published through December
 
 entity e:tzir-jbhj l:"Department Open Data Inventory and Plan Status" t:url=https://data.sfgov.org/api/views/tzir-jbhj
 
-property e:tzir-jbhj t:meta.view d:2017-03-07T17:26:24.804Z v:id=tzir-jbhj v:category="City Management and Ethics" v:averageRating=0 v:name="Department Open Data Inventory and Plan Status"
+property e:tzir-jbhj t:meta.view v:id=tzir-jbhj v:category="City Management and Ethics" v:averageRating=0 v:name="Department Open Data Inventory and Plan Status"
 
-property e:tzir-jbhj t:meta.view.license d:2017-03-07T17:26:24.804Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:tzir-jbhj t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:tzir-jbhj t:meta.view.owner d:2017-03-07T17:26:24.804Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:tzir-jbhj t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 
-property e:tzir-jbhj t:meta.view.tableauthor d:2017-03-07T17:26:24.804Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:tzir-jbhj t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.maryland.gov/api/views/iyzm-8pqb/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/maryland-ozone-exceedance-days-in-2007-3ce55)
-* [Metadata URL](https://data.maryland.gov/api/views/iyzm-8pqb)
-* Id = iyzm-8pqb
-* Name = Maryland Ozone Exceedance Days in 2007
-* Category = Energy and Environment
-* Tags = [air quality, ozone, mde]
-* Created = 2012-10-26T17:50:33Z
-* Publication Date = 2012-10-26T17:52:16Z
-* Rows Updated = 2012-10-26T17:50:38Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/maryland-ozone-exceedance-days-in-2007-3ce55) |
+| Metadata | [Link](https://data.maryland.gov/api/views/iyzm-8pqb) |
+| Data: JSON | [100 Rows](https://data.maryland.gov/api/views/iyzm-8pqb/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.maryland.gov/api/views/iyzm-8pqb/rows.csv?max_rows=100) |
+| Host | data.maryland.gov |
+| Id | iyzm-8pqb |
+| Name | Maryland Ozone Exceedance Days in 2007 |
+| Category | Energy and Environment |
+| Tags | air quality, ozone, mde |
+| Created | 2012-10-26T17:50:33Z |
+| Publication Date | 2012-10-26T17:52:16Z |
+| Rows Updated | 2012-10-26T17:50:38Z |
 
 ## Description
 
@@ -20,27 +24,27 @@ Maryland 8-Hour Ozone Concentrations Exceeding 2008 Health-Based Standard in ppb
 ## Columns
 
 ```ls
-| Name                          | Field Name                   | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================= | ============================ | ============= | ============= | ============== | ======== | 
-| Date                          | date                         | calendar_date | calendar_date | time           | Yes      | 
-| Aldino                        | aldino                       | number        | number        | numeric metric | Yes      | 
-| Calvert Co / Barstow          | calvert_co_barstow           | number        | number        | numeric metric | Yes      | 
-| Davidsonville                 | davidsonville                | number        | number        | numeric metric | Yes      | 
-| Edgewood                      | edgewood                     | number        | number        | numeric metric | Yes      | 
-| Essex                         | essex                        | number        | number        | numeric metric | Yes      | 
-| Fairhill                      | fairhill                     | number        | number        | numeric metric | Yes      | 
-| Frederick Airport             | frederick_airport            | number        | number        | numeric metric | Yes      | 
-| Furley E.S. Recreation Center | furley_e_s_recreation_center | number        | text          | numeric metric | Yes      | 
-| Hagerstown                    | hagerstown                   | number        | number        | numeric metric | Yes      | 
-| HU-Beltsville                 | hu_beltsville                | number        | number        | numeric metric | Yes      | 
-| Millington                    | millington                   | number        | number        | numeric metric | Yes      | 
-| Padonia                       | padonia                      | number        | text          | numeric metric | Yes      | 
-| PG Equestrian Center          | pg_equestrian_center         | number        | number        | numeric metric | Yes      | 
-| Piney Run                     | piney_run                    | number        | text          | numeric metric | Yes      | 
-| Rockville                     | rockville                    | number        | number        | numeric metric | Yes      | 
-| South Carroll                 | south_carroll                | number        | number        | numeric metric | Yes      | 
-| Southern Maryland             | southern_maryland            | number        | number        | numeric metric | Yes      | 
-| State-wide Max                | state_wide_max               | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                   | Name                          | Data Type     | Render Type   |
+| ======== | ============== | ============================ | ============================= | ============= | ============= |
+| Yes      | time           | date                         | Date                          | calendar_date | calendar_date |
+| Yes      | numeric metric | aldino                       | Aldino                        | number        | number        |
+| Yes      | numeric metric | calvert_co_barstow           | Calvert Co / Barstow          | number        | number        |
+| Yes      | numeric metric | davidsonville                | Davidsonville                 | number        | number        |
+| Yes      | numeric metric | edgewood                     | Edgewood                      | number        | number        |
+| Yes      | numeric metric | essex                        | Essex                         | number        | number        |
+| Yes      | numeric metric | fairhill                     | Fairhill                      | number        | number        |
+| Yes      | numeric metric | frederick_airport            | Frederick Airport             | number        | number        |
+| Yes      | numeric metric | furley_e_s_recreation_center | Furley E.S. Recreation Center | number        | text          |
+| Yes      | numeric metric | hagerstown                   | Hagerstown                    | number        | number        |
+| Yes      | numeric metric | hu_beltsville                | HU-Beltsville                 | number        | number        |
+| Yes      | numeric metric | millington                   | Millington                    | number        | number        |
+| Yes      | numeric metric | padonia                      | Padonia                       | number        | text          |
+| Yes      | numeric metric | pg_equestrian_center         | PG Equestrian Center          | number        | number        |
+| Yes      | numeric metric | piney_run                    | Piney Run                     | number        | text          |
+| Yes      | numeric metric | rockville                    | Rockville                     | number        | number        |
+| Yes      | numeric metric | south_carroll                | South Carroll                 | number        | number        |
+| Yes      | numeric metric | southern_maryland            | Southern Maryland             | number        | number        |
+| Yes      | numeric metric | state_wide_max               | State-wide Max                | number        | number        |
 ```
 
 ## Time Field
@@ -48,15 +52,6 @@ Maryland 8-Hour Ozone Concentrations Exceeding 2008 Health-Based Standard in ppb
 ```ls
 Value = date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -110,11 +105,11 @@ metric m:state_wide_max p:integer l:"State-wide Max" t:dataTypeName=number
 
 entity e:iyzm-8pqb l:"Maryland Ozone Exceedance Days in 2007" t:url=https://data.maryland.gov/api/views/iyzm-8pqb
 
-property e:iyzm-8pqb t:meta.view d:2017-03-08T01:03:42.021Z v:id=iyzm-8pqb v:category="Energy and Environment" v:averageRating=0 v:name="Maryland Ozone Exceedance Days in 2007"
+property e:iyzm-8pqb t:meta.view v:id=iyzm-8pqb v:category="Energy and Environment" v:averageRating=0 v:name="Maryland Ozone Exceedance Days in 2007"
 
-property e:iyzm-8pqb t:meta.view.license d:2017-03-08T01:03:42.021Z v:name="Public Domain"
+property e:iyzm-8pqb t:meta.view.license v:name="Public Domain"
 
-property e:iyzm-8pqb t:meta.view.owner d:2017-03-08T01:03:42.021Z v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:displayName="Andrew Gosden"
+property e:iyzm-8pqb t:meta.view.owner v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:displayName="Andrew Gosden"
 
-property e:iyzm-8pqb t:meta.view.tableauthor d:2017-03-08T01:03:42.021Z v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:displayName="Andrew Gosden"
+property e:iyzm-8pqb t:meta.view.tableauthor v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:displayName="Andrew Gosden"
 ```

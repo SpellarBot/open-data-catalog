@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.nola.gov/api/views/5fn8-vtui/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/calls-for-service-2013)
-* [Metadata URL](https://data.nola.gov/api/views/5fn8-vtui)
-* Id = 5fn8-vtui
-* Name = Calls for Service 2013
-* Attribution = Orleans Parish Communications District
-* Category = Public Safety and Preparedness
-* Tags = [crime, police, nopd]
-* Created = 2013-02-04T22:04:42Z
-* Publication Date = 2016-02-11T22:53:26Z
-* Rows Updated = 2015-11-02T18:13:14Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/calls-for-service-2013) |
+| Metadata | [Link](https://data.nola.gov/api/views/5fn8-vtui) |
+| Data: JSON | [100 Rows](https://data.nola.gov/api/views/5fn8-vtui/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.nola.gov/api/views/5fn8-vtui/rows.csv?max_rows=100) |
+| Host | data.nola.gov |
+| Id | 5fn8-vtui |
+| Name | Calls for Service 2013 |
+| Attribution | Orleans Parish Communications District |
+| Category | Public Safety and Preparedness |
+| Tags | crime, police, nopd |
+| Created | 2013-02-04T22:04:42Z |
+| Publication Date | 2016-02-11T22:53:26Z |
+| Rows Updated | 2015-11-02T18:13:14Z |
 
 ## Description
 
@@ -21,23 +25,23 @@ This dataset reflects incidents that have been reported to the New Orleans Polic
 ## Columns
 
 ```ls
-| Name            | Field Name      | Data Type     | Render Type   | Schema Type    | Included | 
-| =============== | =============== | ============= | ============= | ============== | ======== | 
-| NOPD_Item       | nopd_item       | text          | text          | series tag     | Yes      | 
-| Type_           | type_           | text          | text          | series tag     | Yes      | 
-| TypeText        | typetext        | text          | text          | series tag     | Yes      | 
-| Priority        | priority        | text          | text          | series tag     | Yes      | 
-| MapX            | mapx            | number        | text          | numeric metric | Yes      | 
-| MapY            | mapy            | number        | text          | numeric metric | Yes      | 
-| TimeCreate      | timecreate      | calendar_date | calendar_date | time           | Yes      | 
-| TimeDispatch    | timedispatch    | calendar_date | calendar_date |                | No       | 
-| TimeArrive      | timearrive      | calendar_date | calendar_date |                | No       | 
-| TimeClosed      | timeclosed      | calendar_date | calendar_date |                | No       | 
-| Disposition     | disposition     | text          | text          | series tag     | Yes      | 
-| DispositionText | dispositiontext | text          | text          | series tag     | Yes      | 
-| BLOCK_ADDRESS   | block_address   | text          | text          |                | No       | 
-| Zip             | zip             | text          | text          | series tag     | Yes      | 
-| PoliceDistrict  | policedistrict  | text          | number        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
+| ======== | ============== | =============== | =============== | ============= | ============= |
+| Yes      | series tag     | nopd_item       | NOPD_Item       | text          | text          |
+| Yes      | series tag     | type_           | Type_           | text          | text          |
+| Yes      | series tag     | typetext        | TypeText        | text          | text          |
+| Yes      | series tag     | priority        | Priority        | text          | text          |
+| Yes      | numeric metric | mapx            | MapX            | number        | text          |
+| Yes      | numeric metric | mapy            | MapY            | number        | text          |
+| Yes      | time           | timecreate      | TimeCreate      | calendar_date | calendar_date |
+| No       |                | timedispatch    | TimeDispatch    | calendar_date | calendar_date |
+| No       |                | timearrive      | TimeArrive      | calendar_date | calendar_date |
+| No       |                | timeclosed      | TimeClosed      | calendar_date | calendar_date |
+| Yes      | series tag     | disposition     | Disposition     | text          | text          |
+| Yes      | series tag     | dispositiontext | DispositionText | text          | text          |
+| No       |                | block_address   | BLOCK_ADDRESS   | text          | text          |
+| Yes      | series tag     | zip             | Zip             | text          | text          |
+| Yes      | series tag     | policedistrict  | PoliceDistrict  | text          | number        |
 ```
 
 ## Time Field
@@ -50,10 +54,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = timeclosed,timearrive,timedispatch,block_address
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -75,13 +76,13 @@ metric m:mapy p:integer l:MapY t:dataTypeName=number
 
 entity e:5fn8-vtui l:"Calls for Service 2013" t:attribution="Orleans Parish Communications District" t:url=https://data.nola.gov/api/views/5fn8-vtui
 
-property e:5fn8-vtui t:meta.view d:2017-03-08T02:32:25.715Z v:id=5fn8-vtui v:category="Public Safety and Preparedness" v:averageRating=0 v:name="Calls for Service 2013" v:attribution="Orleans Parish Communications District"
+property e:5fn8-vtui t:meta.view v:id=5fn8-vtui v:category="Public Safety and Preparedness" v:averageRating=0 v:name="Calls for Service 2013" v:attribution="Orleans Parish Communications District"
 
-property e:5fn8-vtui t:meta.view.license d:2017-03-08T02:32:25.715Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:5fn8-vtui t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:5fn8-vtui t:meta.view.owner d:2017-03-08T02:32:25.715Z v:id=guap-8ddq v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:screenName="City of New Orleans GIS Department" v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:roleName=administrator v:displayName="City of New Orleans GIS Department" v:privilegesDisabled=false
+property e:5fn8-vtui t:meta.view.owner v:id=guap-8ddq v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:screenName="City of New Orleans GIS Department" v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:roleName=administrator v:displayName="City of New Orleans GIS Department" v:privilegesDisabled=false
 
-property e:5fn8-vtui t:meta.view.tableauthor d:2017-03-08T02:32:25.715Z v:id=guap-8ddq v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:screenName="City of New Orleans GIS Department" v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:roleName=administrator v:displayName="City of New Orleans GIS Department" v:privilegesDisabled=false
+property e:5fn8-vtui t:meta.view.tableauthor v:id=guap-8ddq v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:screenName="City of New Orleans GIS Department" v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:roleName=administrator v:displayName="City of New Orleans GIS Department" v:privilegesDisabled=false
 
-property e:5fn8-vtui t:meta.view.metadata.custom_fields.common_core d:2017-03-08T02:32:25.715Z v:Contact_Email=data@nola.gov
+property e:5fn8-vtui t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

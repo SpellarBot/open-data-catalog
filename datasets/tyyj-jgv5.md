@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/tyyj-jgv5/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/public-assistance-case-denials-by-reason-for-denial-beginning-2006)
-* [Metadata URL](https://data.ny.gov/api/views/tyyj-jgv5)
-* Id = tyyj-jgv5
-* Name = Public Assistance Case Denials by Reason for Denial: Beginning 2006
-* Attribution = New York State Office of Temporary and Disability Assistance (OTDA)
-* [Attribution Link](https://otda.ny.gov/resources/legislative-report/)
-* Category = Human Services
-* Tags = [ta, sna, public assistance, welfare, case denials]
-* Created = 2016-05-10T16:50:36Z
-* Publication Date = 2017-01-09T23:01:53Z
-* Rows Updated = 2017-01-09T23:01:47Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/public-assistance-case-denials-by-reason-for-denial-beginning-2006) |
+| Metadata | [Link](https://data.ny.gov/api/views/tyyj-jgv5) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/tyyj-jgv5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/tyyj-jgv5/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | tyyj-jgv5 |
+| Name | Public Assistance Case Denials by Reason for Denial: Beginning 2006 |
+| Attribution | New York State Office of Temporary and Disability Assistance (OTDA) |
+| Category | Human Services |
+| Tags | ta, sna, public assistance, welfare, case denials |
+| Created | 2016-05-10T16:50:36Z |
+| Publication Date | 2017-01-09T23:01:53Z |
+| Rows Updated | 2017-01-09T23:01:47Z |
 
 ## Description
 
@@ -22,31 +25,31 @@ This dataset, from New York State Office of Temporary and Disability Assistance,
 ## Columns
 
 ```ls
-| Name                                                       | Field Name      | Data Type | Render Type | Schema Type    | Included | 
-| ========================================================== | =============== | ========= | =========== | ============== | ======== | 
-| Year                                                       | year            | number    | number      |                | No       | 
-| Month                                                      | month           | text      | text        |                | No       | 
-| Month Code                                                 | month_code      | text      | number      | series tag     | Yes      | 
-| District Code                                              | district_code   | text      | text        | series tag     | Yes      | 
-| District                                                   | district        | text      | text        | series tag     | Yes      | 
-| Total Public Assistance (PA) Case Denials - Client Request | ta_client_req   | number    | number      | numeric metric | Yes      | 
-| Total PA Case Denials - Financial Issues                   | ta_finance      | number    | number      | numeric metric | Yes      | 
-| Total PA Case Denials - Residence Issues                   | ta_residence    | number    | number      | numeric metric | Yes      | 
-| Total PA Case Denials - Compliance Issues / Employment     | ta_comp_employ  | number    | number      | numeric metric | Yes      | 
-| Total PA Case Denials - Compliance Issues / Other          | ta_comp_other   | number    | number      | numeric metric | Yes      | 
-| Total PA Case Denials - Other                              | ta_other        | number    | number      | numeric metric | Yes      | 
-| Family Assistance (FA) Case Denials - Client Request       | fa_client_req   | number    | number      | numeric metric | Yes      | 
-| FA Denials Case - Financial Issues                         | fa_finance      | number    | number      | numeric metric | Yes      | 
-| FA Case Denials - Residence Issues                         | fa_residence    | number    | number      | numeric metric | Yes      | 
-| FA Case Denials - Compliance Issues / Employment           | fa_comp_employ  | number    | number      | numeric metric | Yes      | 
-| FA Case Denials - Compliance Issues / Other                | fa_comp_other   | number    | number      | numeric metric | Yes      | 
-| FA Case Denials - Other                                    | fa_other        | number    | number      | numeric metric | Yes      | 
-| Safety Net Assistance (SNA) Case Denials - Client Request  | sna_client_req  | number    | number      | numeric metric | Yes      | 
-| SNA Case Denials - Financial Issues                        | sna_finance     | number    | number      | numeric metric | Yes      | 
-| SNA Case Denials - Residence Issues                        | sna_residence   | number    | number      | numeric metric | Yes      | 
-| SNA Case Denials - Compliance Issues / Employment          | sna_comp_employ | number    | number      | numeric metric | Yes      | 
-| SNA Case Denials - Compliance Issues / Other               | sna_comp_other  | number    | number      | numeric metric | Yes      | 
-| SNA Case Denials - Other                                   | sna_other       | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name      | Name                                                       | Data Type | Render Type |
+| ======== | ============== | =============== | ========================================================== | ========= | =========== |
+| No       |                | year            | Year                                                       | number    | number      |
+| No       |                | month           | Month                                                      | text      | text        |
+| Yes      | series tag     | month_code      | Month Code                                                 | text      | number      |
+| Yes      | series tag     | district_code   | District Code                                              | text      | text        |
+| Yes      | series tag     | district        | District                                                   | text      | text        |
+| Yes      | numeric metric | ta_client_req   | Total Public Assistance (PA) Case Denials - Client Request | number    | number      |
+| Yes      | numeric metric | ta_finance      | Total PA Case Denials - Financial Issues                   | number    | number      |
+| Yes      | numeric metric | ta_residence    | Total PA Case Denials - Residence Issues                   | number    | number      |
+| Yes      | numeric metric | ta_comp_employ  | Total PA Case Denials - Compliance Issues / Employment     | number    | number      |
+| Yes      | numeric metric | ta_comp_other   | Total PA Case Denials - Compliance Issues / Other          | number    | number      |
+| Yes      | numeric metric | ta_other        | Total PA Case Denials - Other                              | number    | number      |
+| Yes      | numeric metric | fa_client_req   | Family Assistance (FA) Case Denials - Client Request       | number    | number      |
+| Yes      | numeric metric | fa_finance      | FA Denials Case - Financial Issues                         | number    | number      |
+| Yes      | numeric metric | fa_residence    | FA Case Denials - Residence Issues                         | number    | number      |
+| Yes      | numeric metric | fa_comp_employ  | FA Case Denials - Compliance Issues / Employment           | number    | number      |
+| Yes      | numeric metric | fa_comp_other   | FA Case Denials - Compliance Issues / Other                | number    | number      |
+| Yes      | numeric metric | fa_other        | FA Case Denials - Other                                    | number    | number      |
+| Yes      | numeric metric | sna_client_req  | Safety Net Assistance (SNA) Case Denials - Client Request  | number    | number      |
+| Yes      | numeric metric | sna_finance     | SNA Case Denials - Financial Issues                        | number    | number      |
+| Yes      | numeric metric | sna_residence   | SNA Case Denials - Residence Issues                        | number    | number      |
+| Yes      | numeric metric | sna_comp_employ | SNA Case Denials - Compliance Issues / Employment          | number    | number      |
+| Yes      | numeric metric | sna_comp_other  | SNA Case Denials - Compliance Issues / Other               | number    | number      |
+| Yes      | numeric metric | sna_other       | SNA Case Denials - Other                                   | number    | number      |
 ```
 
 ## Time Field
@@ -59,10 +62,7 @@ Format & Zone = yyyy-MMMM
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = month,year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -116,9 +116,9 @@ metric m:sna_other l:"SNA Case Denials - Other" d:"Safety Net Assistance case de
 
 entity e:tyyj-jgv5 l:"Public Assistance Case Denials by Reason for Denial: Beginning 2006" t:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" t:url=https://data.ny.gov/api/views/tyyj-jgv5
 
-property e:tyyj-jgv5 t:meta.view d:2017-03-08T00:54:37.312Z v:id=tyyj-jgv5 v:category="Human Services" v:attributionLink=https://otda.ny.gov/resources/legislative-report/ v:averageRating=0 v:name="Public Assistance Case Denials by Reason for Denial: Beginning 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
+property e:tyyj-jgv5 t:meta.view v:id=tyyj-jgv5 v:category="Human Services" v:attributionLink=https://otda.ny.gov/resources/legislative-report/ v:averageRating=0 v:name="Public Assistance Case Denials by Reason for Denial: Beginning 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
 
-property e:tyyj-jgv5 t:meta.view.owner d:2017-03-08T00:54:37.312Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:tyyj-jgv5 t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:tyyj-jgv5 t:meta.view.tableauthor d:2017-03-08T00:54:37.312Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:tyyj-jgv5 t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 ```

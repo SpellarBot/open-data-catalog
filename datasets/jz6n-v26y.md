@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/jz6n-v26y/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/nohss-adult-indicators)
-* Id = jz6n-v26y
-* Name = NOHSS Adult Indicators
-* Attribution = Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health
-* Attribution Link = http://www.cdc.gov/oralhealth/
-* Category = Oral Health
-* Tags = [division of oral health, oral health, adult, adults, dentist, dental care, dental visits, dental cleaning, tooth loss, access to care, prevalence, surveillance, brfss, nohss]
-* Created = 2015-04-22T01:28:29Z
-* Publication Date = 2016-11-17T11:18:40Z
-* Rows Updated = 2016-11-07T12:22:43Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nohss-adult-indicators-02260) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/jz6n-v26y) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/jz6n-v26y/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/jz6n-v26y/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
+| Id | jz6n-v26y |
+| Name | NOHSS Adult Indicators |
+| Attribution | Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health |
+| Category | Oral Health |
+| Tags | division of oral health, oral health, adult, adults, dentist, dental care, dental visits, dental cleaning, tooth loss, access to care, prevalence, surveillance, brfss, nohss |
+| Created | 2015-04-22T01:28:29Z |
+| Publication Date | 2016-11-17T11:18:40Z |
+| Rows Updated | 2016-11-07T12:22:43Z |
 
 ## Description
 
@@ -21,30 +25,30 @@
 ## Columns
 
 ```ls
-| Name                       | Field Name                 | Data Type | Render Type | Schema Type    | Included | 
-| ========================== | ========================== | ========= | =========== | ============== | ======== | 
-| Year                       | year                       | number    | number      | time           | Yes      | 
-| LocationAbbr               | locationabbr               | text      | text        | series tag     | Yes      | 
-| LocationDesc               | locationdesc               | text      | text        | series tag     | Yes      | 
-| Category                   | category                   | text      | text        | series tag     | Yes      | 
-| Indicator                  | indicator                  | text      | text        | series tag     | Yes      | 
-| Response                   | response                   | text      | text        | series tag     | Yes      | 
-| Datasource                 | datasource                 | text      | text        | series tag     | Yes      | 
-| Data_Value_Unit            | data_value_unit            | number    | text        |                | No       | 
-| Data_Value_Type            | data_value_type            | text      | text        |                | No       | 
-| Data_Value                 | data_value                 | number    | number      | numeric metric | Yes      | 
-| Data_Value_Footnote_Symbol | data_value_footnote_symbol | number    | text        | numeric metric | Yes      | 
-| Data_Value_Footnote        | data_value_footnote        | text      | text        |                | No       | 
-| High_Confidence_Interval   | high_confidence_interval   | number    | number      | numeric metric | Yes      | 
-| Low_Confidence_Interval    | low_confidence_interval    | number    | number      | numeric metric | Yes      | 
-| SampleSize                 | samplesize                 | number    | number      | numeric metric | Yes      | 
-| Break_Out                  | break_out                  | text      | text        | series tag     | Yes      | 
-| LocationID                 | locationid                 | text      | text        | series tag     | Yes      | 
-| SortUSFirst                | sortusfirst                | number    | text        | numeric metric | Yes      | 
-| Break_Out_Category         | break_out_category         | text      | text        | series tag     | Yes      | 
-| Break_Out_ID               | break_out_id               | text      | text        | series tag     | Yes      | 
-| SortBreakOutID             | sortbreakoutid             | text      | text        | series tag     | Yes      | 
-| IndicatorID                | indicatorid                | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                 | Name                       | Data Type | Render Type |
+| ======== | ============== | ========================== | ========================== | ========= | =========== |
+| Yes      | time           | year                       | Year                       | number    | number      |
+| Yes      | series tag     | locationabbr               | LocationAbbr               | text      | text        |
+| Yes      | series tag     | locationdesc               | LocationDesc               | text      | text        |
+| Yes      | series tag     | category                   | Category                   | text      | text        |
+| Yes      | series tag     | indicator                  | Indicator                  | text      | text        |
+| Yes      | series tag     | response                   | Response                   | text      | text        |
+| Yes      | series tag     | datasource                 | Datasource                 | text      | text        |
+| No       |                | data_value_unit            | Data_Value_Unit            | number    | text        |
+| No       |                | data_value_type            | Data_Value_Type            | text      | text        |
+| Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
+| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
+| No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
+| Yes      | numeric metric | high_confidence_interval   | High_Confidence_Interval   | number    | number      |
+| Yes      | numeric metric | low_confidence_interval    | Low_Confidence_Interval    | number    | number      |
+| Yes      | numeric metric | samplesize                 | SampleSize                 | number    | number      |
+| Yes      | series tag     | break_out                  | Break_Out                  | text      | text        |
+| Yes      | series tag     | locationid                 | LocationID                 | text      | text        |
+| Yes      | numeric metric | sortusfirst                | SortUSFirst                | number    | text        |
+| Yes      | series tag     | break_out_category         | Break_Out_Category         | text      | text        |
+| Yes      | series tag     | break_out_id               | Break_Out_ID               | text      | text        |
+| Yes      | series tag     | sortbreakoutid             | SortBreakOutID             | text      | text        |
+| Yes      | series tag     | indicatorid                | IndicatorID                | text      | text        |
 ```
 
 ## Time Field
@@ -57,10 +61,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = data_value_footnote,data_value_unit,data_value_type
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -86,15 +87,15 @@ metric m:samplesize p:integer l:SampleSize t:dataTypeName=number
 
 metric m:sortusfirst p:integer l:SortUSFirst t:dataTypeName=number
 
-entity e:jz6n-v26y l:"NOHSS Adult Indicators" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health" t:url=https://data.cdc.gov/api/views/jz6n-v26y
+entity e:jz6n-v26y l:"NOHSS Adult Indicators" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health" t:url=https://chronicdata.cdc.gov/api/views/jz6n-v26y
 
-property e:jz6n-v26y t:meta.view d:2017-03-03T14:15:38.682Z v:id=jz6n-v26y v:category="Oral Health" v:attributionLink=http://www.cdc.gov/oralhealth/ v:averageRating=0 v:name="NOHSS Adult Indicators" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health"
+property e:jz6n-v26y t:meta.view v:id=jz6n-v26y v:category="Oral Health" v:attributionLink=http://www.cdc.gov/oralhealth/ v:averageRating=0 v:name="NOHSS Adult Indicators" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health"
 
-property e:jz6n-v26y t:meta.view.license d:2017-03-03T14:15:38.682Z v:name="Public Domain"
+property e:jz6n-v26y t:meta.view.license v:name="Public Domain"
 
-property e:jz6n-v26y t:meta.view.owner d:2017-03-03T14:15:38.682Z v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
+property e:jz6n-v26y t:meta.view.owner v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
 
-property e:jz6n-v26y t:meta.view.tableauthor d:2017-03-03T14:15:38.682Z v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
+property e:jz6n-v26y t:meta.view.tableauthor v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
 
-property e:jz6n-v26y t:meta.view.metadata.custom_fields.common_core d:2017-03-03T14:15:38.682Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:10 v:Program_Code=009:020
+property e:jz6n-v26y t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:10 v:Program_Code=009:020
 ```

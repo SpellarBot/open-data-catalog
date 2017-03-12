@@ -2,34 +2,35 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/9beh-zhu8/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/contracts-ous-capital-construction-retainer-program-pc-amendments-fiscal-year-2012-b5279)
-* Id = 9beh-zhu8
-* Name = Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012
-* Category = Revenue & Expense
-* Created = 2012-12-18T16:56:02Z
-* Publication Date = 2012-12-18T16:56:50Z
-* Rows Updated = 2012-12-18T16:56:06Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/contracts-ous-capital-construction-retainer-program-pc-amendments-fiscal-year-2012-b5279) |
+| Metadata | [Link](https://data.oregon.gov/api/views/9beh-zhu8) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/9beh-zhu8/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/9beh-zhu8/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | 9beh-zhu8 |
+| Name | Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012 |
+| Category | Revenue & Expense |
+| Created | 2012-12-18T16:56:02Z |
+| Publication Date | 2012-12-18T16:56:50Z |
+| Rows Updated | 2012-12-18T16:56:06Z |
 
 ## Columns
 
 ```ls
-| Name              | Field Name        | Data Type | Render Type | Schema Type    | Included | 
-| ================= | ================= | ========= | =========== | ============== | ======== | 
-| updated_at        | :updated_at       | meta_data | meta_data   | time           | Yes      | 
-| Supplement Number | supplement_number | text      | text        | series tag     | Yes      | 
-| Project           | project           | text      | text        | series tag     | Yes      | 
-| Organization      | organization      | text      | text        | series tag     | Yes      | 
-| Consultant        | consultant        | text      | text        | series tag     | Yes      | 
-| MWESB             | mwesb             | text      | text        | series tag     | Yes      | 
-| Retainer Period   | retainer_period   | text      | text        | series tag     | Yes      | 
-| Issue Date        | issue_date        | text      | text        | series tag     | Yes      | 
-| Price             | price             | money     | money       | numeric metric | Yes      | 
-| Amendments        | amendments        | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name        | Name              | Data Type | Render Type |
+| ======== | ============== | ================= | ================= | ========= | =========== |
+| No       | time           | :updated_at       | updated_at        | meta_data | meta_data   |
+| Yes      | series tag     | supplement_number | Supplement Number | text      | text        |
+| Yes      | series tag     | project           | Project           | text      | text        |
+| Yes      | series tag     | organization      | Organization      | text      | text        |
+| Yes      | series tag     | consultant        | Consultant        | text      | text        |
+| Yes      | series tag     | mwesb             | MWESB             | text      | text        |
+| Yes      | series tag     | retainer_period   | Retainer Period   | text      | text        |
+| Yes      | series tag     | issue_date        | Issue Date        | text      | text        |
+| Yes      | numeric metric | price             | Price             | money     | money       |
+| Yes      | series tag     | amendments        | Amendments        | text      | text        |
 ```
 
 ## Time Field
@@ -37,15 +38,6 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -63,9 +55,9 @@ series e:9beh-zhu8 d:2012-12-18T08:56:03.000Z t:retainer_period=2011-2013 t:proj
 ```ls
 entity e:9beh-zhu8 l:"Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/9beh-zhu8
 
-property e:9beh-zhu8 t:meta.view d:2017-03-03T14:02:03.830Z v:id=9beh-zhu8 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012"
+property e:9beh-zhu8 t:meta.view v:id=9beh-zhu8 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012"
 
-property e:9beh-zhu8 t:meta.view.owner d:2017-03-03T14:02:03.830Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:9beh-zhu8 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:9beh-zhu8 t:meta.view.tableauthor d:2017-03-03T14:02:03.830Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:9beh-zhu8 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

@@ -2,17 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/m9jn-qzir/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/fy11-day-labor-placements)
-* [Metadata URL](https://data.austintexas.gov/api/views/m9jn-qzir)
-* Id = m9jn-qzir
-* Name = FY11 Day Labor Placements
-* Attribution = City of Austin
-* [Attribution Link](https://www.ctkodm.com/austin/)
-* Tags = [workforce, workforce development, day labor, labor]
-* Created = 2012-07-11T18:34:21Z
-* Publication Date = 2012-07-11T18:38:56Z
-* Rows Updated = 2012-07-11T18:34:25Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/fy11-day-labor-placements) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/m9jn-qzir) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/m9jn-qzir/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/m9jn-qzir/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | m9jn-qzir |
+| Name | FY11 Day Labor Placements |
+| Attribution | City of Austin |
+| Tags | workforce, workforce development, day labor, labor |
+| Created | 2012-07-11T18:34:21Z |
+| Publication Date | 2012-07-11T18:38:56Z |
+| Rows Updated | 2012-07-11T18:34:25Z |
 
 ## Description
 
@@ -21,23 +24,23 @@ This data includes hourly numbers of persons successfully negotiating temporary,
 ## Columns
 
 ```ls
-| Name               | Field Name         | Data Type     | Render Type   | Schema Type    | Included | 
-| ================== | ================== | ============= | ============= | ============== | ======== | 
-| Date               | date               | calendar_date | calendar_date | time           | Yes      | 
-| Day of Week        | day_of_week        | text          | text          | series tag     | Yes      | 
-| Log Out 6-6:59am   | log_out_6_6_59am   | number        | number        | numeric metric | Yes      | 
-| Log Out 7-7:59am   | log_out_7_7_59am   | number        | number        | numeric metric | Yes      | 
-| Log Out 8-8:59am   | log_out_8_8_59am   | number        | number        | numeric metric | Yes      | 
-| Log Out 9-9:59am   | log_out_9_9_59am   | number        | number        | numeric metric | Yes      | 
-| Log Out 10-10:59am | log_out_10_10_59am | number        | number        | numeric metric | Yes      | 
-| Log Out 11-11:59am | log_out_11_11_59am | number        | number        | numeric metric | Yes      | 
-| Log Out 12-12:59pm | log_out_12_12_59pm | number        | number        | numeric metric | Yes      | 
-| Log Out 1-1:59pm   | log_out_1_1_59pm   | number        | number        | numeric metric | Yes      | 
-| Total Signed Out   | total_signed_out   | number        | number        | numeric metric | Yes      | 
-| Total Contractors  | total_contractors  | number        | number        | numeric metric | Yes      | 
-| Total Signed In    | total_signed_in    | number        | number        | numeric metric | Yes      | 
-| Stayed Until Close | stayed_until_close | number        | number        | numeric metric | Yes      | 
-| Weather / Holiday  | weather_holiday    | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name         | Name               | Data Type     | Render Type   |
+| ======== | ============== | ================== | ================== | ============= | ============= |
+| Yes      | time           | date               | Date               | calendar_date | calendar_date |
+| Yes      | series tag     | day_of_week        | Day of Week        | text          | text          |
+| Yes      | numeric metric | log_out_6_6_59am   | Log Out 6-6:59am   | number        | number        |
+| Yes      | numeric metric | log_out_7_7_59am   | Log Out 7-7:59am   | number        | number        |
+| Yes      | numeric metric | log_out_8_8_59am   | Log Out 8-8:59am   | number        | number        |
+| Yes      | numeric metric | log_out_9_9_59am   | Log Out 9-9:59am   | number        | number        |
+| Yes      | numeric metric | log_out_10_10_59am | Log Out 10-10:59am | number        | number        |
+| Yes      | numeric metric | log_out_11_11_59am | Log Out 11-11:59am | number        | number        |
+| Yes      | numeric metric | log_out_12_12_59pm | Log Out 12-12:59pm | number        | number        |
+| Yes      | numeric metric | log_out_1_1_59pm   | Log Out 1-1:59pm   | number        | number        |
+| Yes      | numeric metric | total_signed_out   | Total Signed Out   | number        | number        |
+| Yes      | numeric metric | total_contractors  | Total Contractors  | number        | number        |
+| Yes      | numeric metric | total_signed_in    | Total Signed In    | number        | number        |
+| Yes      | numeric metric | stayed_until_close | Stayed Until Close | number        | number        |
+| Yes      | series tag     | weather_holiday    | Weather / Holiday  | text          | text          |
 ```
 
 ## Time Field
@@ -45,15 +48,6 @@ This data includes hourly numbers of persons successfully negotiating temporary,
 ```ls
 Value = date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -95,9 +89,9 @@ metric m:stayed_until_close p:integer l:"Stayed Until Close" t:dataTypeName=numb
 
 entity e:m9jn-qzir l:"FY11 Day Labor Placements" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/m9jn-qzir
 
-property e:m9jn-qzir t:meta.view d:2017-03-08T00:40:45.848Z v:id=m9jn-qzir v:attributionLink=https://www.ctkodm.com/austin/ v:averageRating=0 v:name="FY11 Day Labor Placements" v:attribution="City of Austin"
+property e:m9jn-qzir t:meta.view v:id=m9jn-qzir v:attributionLink=https://www.ctkodm.com/austin/ v:averageRating=0 v:name="FY11 Day Labor Placements" v:attribution="City of Austin"
 
-property e:m9jn-qzir t:meta.view.owner d:2017-03-08T00:40:45.848Z v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
+property e:m9jn-qzir t:meta.view.owner v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
 
-property e:m9jn-qzir t:meta.view.tableauthor d:2017-03-08T00:40:45.848Z v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
+property e:m9jn-qzir t:meta.view.tableauthor v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
 ```

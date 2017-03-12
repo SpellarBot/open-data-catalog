@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/22u3-xenr/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/building-violations-f0f5e)
-* [Metadata URL](https://data.cityofchicago.org/api/views/22u3-xenr)
-* Id = 22u3-xenr
-* Name = Building Violations
-* Attribution = City of Chicago
-* [Attribution Link](http://www.cityofchicago.org)
-* Category = Buildings
-* Tags = [violations, inspections]
-* Created = 2012-06-26T17:28:59Z
-* Publication Date = 2015-09-29T21:21:53Z
-* Rows Updated = 2017-03-06T07:40:53Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/building-violations-f0f5e) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/22u3-xenr) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/22u3-xenr/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/22u3-xenr/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | 22u3-xenr |
+| Name | Building Violations |
+| Attribution | City of Chicago |
+| Category | Buildings |
+| Tags | violations, inspections |
+| Created | 2012-06-26T17:28:59Z |
+| Publication Date | 2015-09-29T21:21:53Z |
+| Rows Updated | 2017-03-11T07:43:17Z |
 
 ## Description
 
@@ -22,29 +25,29 @@ Violations issued by the Department of Buildings from 2006 to the present.  Lend
 ## Columns
 
 ```ls
-| Name                         | Field Name                   | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================ | ============================ | ============= | ============= | ============== | ======== | 
-| ID                           | id                           | text          | text          |                | No       | 
-| VIOLATION LAST MODIFIED DATE | violation_last_modified_date | calendar_date | calendar_date | time           | Yes      | 
-| VIOLATION DATE               | violation_date               | calendar_date | calendar_date |                | No       | 
-| VIOLATION CODE               | violation_code               | text          | text          | series tag     | Yes      | 
-| VIOLATION STATUS             | violation_status             | text          | text          | series tag     | Yes      | 
-| VIOLATION STATUS DATE        | violation_status_date        | calendar_date | calendar_date |                | No       | 
-| VIOLATION DESCRIPTION        | violation_description        | text          | text          | series tag     | Yes      | 
-| VIOLATION LOCATION           | violation_location           | text          | text          | series tag     | Yes      | 
-| VIOLATION INSPECTOR COMMENTS | violation_inspector_comments | text          | text          | series tag     | Yes      | 
-| VIOLATION ORDINANCE          | violation_ordinance          | text          | text          | series tag     | Yes      | 
-| INSPECTOR ID                 | inspector_id                 | text          | text          | series tag     | Yes      | 
-| INSPECTION NUMBER            | inspection_number            | number        | number        | numeric metric | Yes      | 
-| INSPECTION STATUS            | inspection_status            | text          | text          | series tag     | Yes      | 
-| INSPECTION WAIVED            | inspection_waived            | number        | text          | numeric metric | Yes      | 
-| INSPECTION CATEGORY          | inspection_category          | text          | text          | series tag     | Yes      | 
-| DEPARTMENT BUREAU            | department_bureau            | text          | text          | series tag     | Yes      | 
-| ADDRESS                      | address                      | text          | text          |                | No       | 
-| PROPERTY GROUP               | property_group               | number        | number        | numeric metric | Yes      | 
-| SSA                          | ssa                          | number        | text          | numeric metric | Yes      | 
-| LATITUDE                     | latitude                     | number        | number        |                | No       | 
-| LONGITUDE                    | longitude                    | number        | number        |                | No       | 
+| Included | Schema Type    | Field Name                   | Name                         | Data Type     | Render Type   |
+| ======== | ============== | ============================ | ============================ | ============= | ============= |
+| No       |                | id                           | ID                           | text          | text          |
+| Yes      | time           | violation_last_modified_date | VIOLATION LAST MODIFIED DATE | calendar_date | calendar_date |
+| No       |                | violation_date               | VIOLATION DATE               | calendar_date | calendar_date |
+| Yes      | series tag     | violation_code               | VIOLATION CODE               | text          | text          |
+| Yes      | series tag     | violation_status             | VIOLATION STATUS             | text          | text          |
+| No       |                | violation_status_date        | VIOLATION STATUS DATE        | calendar_date | calendar_date |
+| Yes      | series tag     | violation_description        | VIOLATION DESCRIPTION        | text          | text          |
+| Yes      | series tag     | violation_location           | VIOLATION LOCATION           | text          | text          |
+| Yes      | series tag     | violation_inspector_comments | VIOLATION INSPECTOR COMMENTS | text          | text          |
+| Yes      | series tag     | violation_ordinance          | VIOLATION ORDINANCE          | text          | text          |
+| Yes      | series tag     | inspector_id                 | INSPECTOR ID                 | text          | text          |
+| Yes      | numeric metric | inspection_number            | INSPECTION NUMBER            | number        | number        |
+| Yes      | series tag     | inspection_status            | INSPECTION STATUS            | text          | text          |
+| Yes      | numeric metric | inspection_waived            | INSPECTION WAIVED            | number        | text          |
+| Yes      | series tag     | inspection_category          | INSPECTION CATEGORY          | text          | text          |
+| Yes      | series tag     | department_bureau            | DEPARTMENT BUREAU            | text          | text          |
+| No       |                | address                      | ADDRESS                      | text          | text          |
+| Yes      | numeric metric | property_group               | PROPERTY GROUP               | number        | number        |
+| Yes      | numeric metric | ssa                          | SSA                          | number        | text          |
+| No       |                | latitude                     | LATITUDE                     | number        | number        |
+| No       |                | longitude                    | LONGITUDE                    | number        | number        |
 ```
 
 ## Time Field
@@ -57,10 +60,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = id,address,violation_date,violation_status_date,longitude,latitude
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -84,9 +84,9 @@ metric m:ssa p:integer l:SSA d:"Special Service Areas are local tax districts th
 
 entity e:22u3-xenr l:"Building Violations" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/22u3-xenr
 
-property e:22u3-xenr t:meta.view d:2017-03-08T01:11:33.961Z v:id=22u3-xenr v:category=Buildings v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Building Violations" v:attribution="City of Chicago"
+property e:22u3-xenr t:meta.view v:id=22u3-xenr v:category=Buildings v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Building Violations" v:attribution="City of Chicago"
 
-property e:22u3-xenr t:meta.view.owner d:2017-03-08T01:11:33.961Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:22u3-xenr t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 
-property e:22u3-xenr t:meta.view.tableauthor d:2017-03-08T01:11:33.961Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:22u3-xenr t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```

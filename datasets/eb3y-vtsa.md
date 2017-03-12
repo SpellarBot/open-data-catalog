@@ -46,9 +46,9 @@ Format & Zone = seconds
 ```ls
 entity e:eb3y-vtsa l:"Food Pantry List" t:url=https://data.mo.gov/api/views/eb3y-vtsa
 
-property e:eb3y-vtsa t:meta.view d:2017-03-10T14:36:04.424Z v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"
+property e:eb3y-vtsa t:meta.view v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"
 
-property e:eb3y-vtsa t:meta.view.owner d:2017-03-10T14:36:04.424Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 
-property e:eb3y-vtsa t:meta.view.tableauthor d:2017-03-10T14:36:04.424Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 ```

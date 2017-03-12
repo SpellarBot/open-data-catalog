@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/euee-qccq/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/performance-metrics-transportation-pavement-cave-ins-a4f5b)
-* [Metadata URL](https://data.cityofchicago.org/api/views/euee-qccq)
-* Id = euee-qccq
-* Name = Performance Metrics - Transportation - Pavement Cave-ins
-* Attribution = City of Chicago
-* [Attribution Link](http://www.cityofchicago.org)
-* Category = Administration & Finance
-* Tags = [performance metrics, service delivery]
-* Created = 2011-09-22T22:10:01Z
-* Publication Date = 2014-04-29T03:01:47Z
-* Rows Updated = 2014-04-29T02:53:31Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/performance-metrics-transportation-pavement-cave-ins-a4f5b) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/euee-qccq) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/euee-qccq/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/euee-qccq/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | euee-qccq |
+| Name | Performance Metrics - Transportation - Pavement Cave-ins |
+| Attribution | City of Chicago |
+| Category | Administration & Finance |
+| Tags | performance metrics, service delivery |
+| Created | 2011-09-22T22:10:01Z |
+| Publication Date | 2014-04-29T03:01:47Z |
+| Rows Updated | 2014-04-29T02:53:31Z |
 
 ## Description
 
@@ -22,13 +25,13 @@ As underground drainage systems age, occasionally failures in the pipes and join
 ## Columns
 
 ```ls
-| Name                                               | Field Name                                         | Data Type | Render Type | Schema Type    | Included | 
-| ================================================== | ================================================== | ========= | =========== | ============== | ======== | 
-| updated_at                                         | :updated_at                                        | meta_data | meta_data   | time           | No       | 
-| Week                                               | week                                               | text      | text        | series tag     | Yes      | 
-| Average Days to Complete Pavement Cave-in Requests | average_days_to_complete_pavement_cave_in_requests | number    | number      | numeric metric | Yes      | 
-| Total Completed Requests                           | total_completed_requests                           | number    | number      | numeric metric | Yes      | 
-| Target Response Time (Days)                        | target_response_time_days_                         | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                                         | Name                                               | Data Type | Render Type |
+| ======== | ============== | ================================================== | ================================================== | ========= | =========== |
+| No       | time           | :updated_at                                        | updated_at                                         | meta_data | meta_data   |
+| Yes      | series tag     | week                                               | Week                                               | text      | text        |
+| Yes      | numeric metric | average_days_to_complete_pavement_cave_in_requests | Average Days to Complete Pavement Cave-in Requests | number    | number      |
+| Yes      | numeric metric | total_completed_requests                           | Total Completed Requests                           | number    | number      |
+| Yes      | numeric metric | target_response_time_days_                         | Target Response Time (Days)                        | number    | number      |
 ```
 
 ## Time Field
@@ -36,15 +39,6 @@ As underground drainage systems age, occasionally failures in the pipes and join
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -68,9 +62,9 @@ metric m:target_response_time_days_ p:integer l:"Target Response Time (Days)" t:
 
 entity e:euee-qccq l:"Performance Metrics - Transportation - Pavement Cave-ins" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/euee-qccq
 
-property e:euee-qccq t:meta.view d:2017-03-07T22:49:17.910Z v:id=euee-qccq v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Performance Metrics - Transportation - Pavement Cave-ins" v:attribution="City of Chicago"
+property e:euee-qccq t:meta.view v:id=euee-qccq v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Performance Metrics - Transportation - Pavement Cave-ins" v:attribution="City of Chicago"
 
-property e:euee-qccq t:meta.view.owner d:2017-03-07T22:49:17.910Z v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
+property e:euee-qccq t:meta.view.owner v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
 
-property e:euee-qccq t:meta.view.tableauthor d:2017-03-07T22:49:17.910Z v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
+property e:euee-qccq t:meta.view.tableauthor v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
 ```

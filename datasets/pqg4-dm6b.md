@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/pqg4-dm6b/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/nyc-womens-resource-network-database-b167e)
-* [Metadata URL](https://data.cityofnewyork.us/api/views/pqg4-dm6b)
-* Id = pqg4-dm6b
-* Name = NYC Women's Resource Network Database
-* Attribution = Commission on Women's Issues (CWI)
-* Category = Social Services
-* Tags = [jobs and economic mobility, women, woman, family, families, resource, network]
-* Created = 2011-07-27T14:49:32Z
-* Publication Date = 2011-10-08T21:59:56Z
-* Rows Updated = 2011-10-08T21:59:32Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nyc-womens-resource-network-database-b167e) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/pqg4-dm6b) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/pqg4-dm6b/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/pqg4-dm6b/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | pqg4-dm6b |
+| Name | NYC Women's Resource Network Database |
+| Attribution | Commission on Women's Issues (CWI) |
+| Category | Social Services |
+| Tags | jobs and economic mobility, women, woman, family, families, resource, network |
+| Created | 2011-07-27T14:49:32Z |
+| Publication Date | 2011-10-08T21:59:56Z |
+| Rows Updated | 2011-10-08T21:59:32Z |
 
 ## Description
 
@@ -21,54 +25,54 @@ The NYC Women's Resource Network is a free, user-friendly database of over 1,000
 ## Columns
 
 ```ls
-| Name                                             | Field Name                                       | Data Type | Render Type | Schema Type    | Included | 
-| ================================================ | ================================================ | ========= | =========== | ============== | ======== | 
-| updated_at                                       | :updated_at                                      | meta_data | meta_data   | time           | No       | 
-| OrganizationName                                 | organizationname                                 | text      | text        | series tag     | Yes      | 
-| Brooklyn                                         | brooklyn                                         | number    | text        | numeric metric | Yes      | 
-| Bronx                                            | bronx                                            | number    | text        | numeric metric | Yes      | 
-| Manhattan                                        | manhattan                                        | number    | text        | numeric metric | Yes      | 
-| Queens                                           | queens                                           | number    | text        | numeric metric | Yes      | 
-| Staten Island                                    | staten_island                                    | number    | text        | numeric metric | Yes      | 
-| Fax                                              | fax                                              | number    | number      | numeric metric | Yes      | 
-| Phone                                            | phone                                            | number    | number      | numeric metric | Yes      | 
-| URL                                              | url                                              | text      | text        | series tag     | Yes      | 
-| noURL                                            | nourl                                            | number    | text        | numeric metric | Yes      | 
-| Description                                      | description                                      | text      | text        | series tag     | Yes      | 
-| outsideLoc                                       | outsideloc                                       | text      | text        | series tag     | Yes      | 
-| outsideLocDesc                                   | outsidelocdesc                                   | text      | text        | series tag     | Yes      | 
-| Aging                                            | aging                                            | number    | text        | numeric metric | Yes      | 
-| Anti-Discrimination & Human Rights               | anti_discrimination_human_rights                 | number    | text        | numeric metric | Yes      | 
-| Arts & Culture                                   | arts_culture                                     | number    | text        | numeric metric | Yes      | 
-| Business                                         | business                                         | number    | text        | numeric metric | Yes      | 
-| Child Care & Parent Information                  | child_care_parent_information                    | number    | text        | numeric metric | Yes      | 
-| Community Service & Volunteerism                 | community_service_volunteerism                   | number    | text        | numeric metric | Yes      | 
-| Counseling & Support Groups                      | counseling_support_groups                        | number    | text        | numeric metric | Yes      | 
-| Disabilities                                     | disabilities                                     | number    | text        | numeric metric | Yes      | 
-| Domestic Violence                                | domestic_violence                                | number    | text        | numeric metric | Yes      | 
-| Education                                        | education                                        | number    | text        | numeric metric | Yes      | 
-| Employment & Job Training                        | employment_job_training                          | number    | text        | numeric metric | Yes      | 
-| Health                                           | health                                           | number    | text        | numeric metric | Yes      | 
-| Homelessness                                     | homelessness                                     | number    | text        | numeric metric | Yes      | 
-| Housing                                          | housing                                          | number    | text        | numeric metric | Yes      | 
-| Immigration                                      | immigration                                      | number    | text        | numeric metric | Yes      | 
-| Legal Services                                   | legal_services                                   | number    | text        | numeric metric | Yes      | 
-| Lesbian, Gay, Bisexual, and/or Transgender       | lesbian_gay_bisexual_and_or_transgender          | number    | text        | numeric metric | Yes      | 
-| Personal Finance & Financial Education           | personal_finance_financial_education             | number    | text        | numeric metric | Yes      | 
-| Professional Association                         | professional_association                         | number    | text        | numeric metric | Yes      | 
-| Veterans & Military Families                     | veterans_military_families                       | number    | text        | numeric metric | Yes      | 
-| Victim Services                                  | victim_services                                  | number    | text        | numeric metric | Yes      | 
-| Women's Groups                                   | women_s_groups                                   | text      | text        | series tag     | Yes      | 
-| Youth Services                                   | youth_services                                   | number    | text        | numeric metric | Yes      | 
-| Faith-based organization                         | faith_based_organization                         | number    | text        | numeric metric | Yes      | 
-| Foundation                                       | foundation                                       | number    | text        | numeric metric | Yes      | 
-| Is registered with the Attorney General's office | is_registered_with_the_attorney_general_s_office | number    | text        | numeric metric | Yes      | 
-| New York City Agency                             | new_york_city_agency                             | number    | text        | numeric metric | Yes      | 
-| None of the above                                | none_of_the_above                                | number    | text        | numeric metric | Yes      | 
-| Nonprofit                                        | nonprofit                                        | number    | text        | numeric metric | Yes      | 
-| Comments                                         | comments                                         | text      | text        | series tag     | Yes      | 
-| Other government organization                    | other_government_organization                    | number    | text        | numeric metric | Yes      | 
-| Published                                        | published                                        | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                                       | Name                                             | Data Type | Render Type |
+| ======== | ============== | ================================================ | ================================================ | ========= | =========== |
+| No       | time           | :updated_at                                      | updated_at                                       | meta_data | meta_data   |
+| Yes      | series tag     | organizationname                                 | OrganizationName                                 | text      | text        |
+| Yes      | numeric metric | brooklyn                                         | Brooklyn                                         | number    | text        |
+| Yes      | numeric metric | bronx                                            | Bronx                                            | number    | text        |
+| Yes      | numeric metric | manhattan                                        | Manhattan                                        | number    | text        |
+| Yes      | numeric metric | queens                                           | Queens                                           | number    | text        |
+| Yes      | numeric metric | staten_island                                    | Staten Island                                    | number    | text        |
+| Yes      | numeric metric | fax                                              | Fax                                              | number    | number      |
+| Yes      | numeric metric | phone                                            | Phone                                            | number    | number      |
+| Yes      | series tag     | url                                              | URL                                              | text      | text        |
+| Yes      | numeric metric | nourl                                            | noURL                                            | number    | text        |
+| Yes      | series tag     | description                                      | Description                                      | text      | text        |
+| Yes      | series tag     | outsideloc                                       | outsideLoc                                       | text      | text        |
+| Yes      | series tag     | outsidelocdesc                                   | outsideLocDesc                                   | text      | text        |
+| Yes      | numeric metric | aging                                            | Aging                                            | number    | text        |
+| Yes      | numeric metric | anti_discrimination_human_rights                 | Anti-Discrimination & Human Rights               | number    | text        |
+| Yes      | numeric metric | arts_culture                                     | Arts & Culture                                   | number    | text        |
+| Yes      | numeric metric | business                                         | Business                                         | number    | text        |
+| Yes      | numeric metric | child_care_parent_information                    | Child Care & Parent Information                  | number    | text        |
+| Yes      | numeric metric | community_service_volunteerism                   | Community Service & Volunteerism                 | number    | text        |
+| Yes      | numeric metric | counseling_support_groups                        | Counseling & Support Groups                      | number    | text        |
+| Yes      | numeric metric | disabilities                                     | Disabilities                                     | number    | text        |
+| Yes      | numeric metric | domestic_violence                                | Domestic Violence                                | number    | text        |
+| Yes      | numeric metric | education                                        | Education                                        | number    | text        |
+| Yes      | numeric metric | employment_job_training                          | Employment & Job Training                        | number    | text        |
+| Yes      | numeric metric | health                                           | Health                                           | number    | text        |
+| Yes      | numeric metric | homelessness                                     | Homelessness                                     | number    | text        |
+| Yes      | numeric metric | housing                                          | Housing                                          | number    | text        |
+| Yes      | numeric metric | immigration                                      | Immigration                                      | number    | text        |
+| Yes      | numeric metric | legal_services                                   | Legal Services                                   | number    | text        |
+| Yes      | numeric metric | lesbian_gay_bisexual_and_or_transgender          | Lesbian, Gay, Bisexual, and/or Transgender       | number    | text        |
+| Yes      | numeric metric | personal_finance_financial_education             | Personal Finance & Financial Education           | number    | text        |
+| Yes      | numeric metric | professional_association                         | Professional Association                         | number    | text        |
+| Yes      | numeric metric | veterans_military_families                       | Veterans & Military Families                     | number    | text        |
+| Yes      | numeric metric | victim_services                                  | Victim Services                                  | number    | text        |
+| Yes      | series tag     | women_s_groups                                   | Women's Groups                                   | text      | text        |
+| Yes      | numeric metric | youth_services                                   | Youth Services                                   | number    | text        |
+| Yes      | numeric metric | faith_based_organization                         | Faith-based organization                         | number    | text        |
+| Yes      | numeric metric | foundation                                       | Foundation                                       | number    | text        |
+| Yes      | numeric metric | is_registered_with_the_attorney_general_s_office | Is registered with the Attorney General's office | number    | text        |
+| Yes      | numeric metric | new_york_city_agency                             | New York City Agency                             | number    | text        |
+| Yes      | numeric metric | none_of_the_above                                | None of the above                                | number    | text        |
+| Yes      | numeric metric | nonprofit                                        | Nonprofit                                        | number    | text        |
+| Yes      | series tag     | comments                                         | Comments                                         | text      | text        |
+| Yes      | numeric metric | other_government_organization                    | Other government organization                    | number    | text        |
+| Yes      | series tag     | published                                        | Published                                        | text      | text        |
 ```
 
 ## Time Field
@@ -76,15 +80,6 @@ The NYC Women's Resource Network is a free, user-friendly database of over 1,000
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -106,9 +101,9 @@ metric m:phone p:long l:Phone t:dataTypeName=number
 
 entity e:pqg4-dm6b l:"NYC Women's Resource Network Database" t:attribution="Commission on Women's Issues (CWI)" t:url=https://data.cityofnewyork.us/api/views/pqg4-dm6b
 
-property e:pqg4-dm6b t:meta.view d:2017-03-07T23:50:11.975Z v:id=pqg4-dm6b v:category="Social Services" v:averageRating=0 v:name="NYC Women's Resource Network Database" v:attribution="Commission on Women's Issues (CWI)"
+property e:pqg4-dm6b t:meta.view v:id=pqg4-dm6b v:category="Social Services" v:averageRating=0 v:name="NYC Women's Resource Network Database" v:attribution="Commission on Women's Issues (CWI)"
 
-property e:pqg4-dm6b t:meta.view.owner d:2017-03-07T23:50:11.975Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:pqg4-dm6b t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:pqg4-dm6b t:meta.view.tableauthor d:2017-03-07T23:50:11.975Z v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
+property e:pqg4-dm6b t:meta.view.tableauthor v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
 ```

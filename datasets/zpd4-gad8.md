@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofnewyork.us/api/views/zpd4-gad8/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/nys-math-test-results-by-grade-2006-2011-boro-by-english-proficiency-status-fdef8)
-* [Metadata URL](https://data.cityofnewyork.us/api/views/zpd4-gad8)
-* Id = zpd4-gad8
-* Name = NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status
-* Attribution = Department of Education (DOE)
-* Category = Education
-* Tags = [lifelong learning]
-* Created = 2011-10-05T22:14:31Z
-* Publication Date = 2011-10-11T16:57:18Z
-* Rows Updated = 2011-10-05T22:14:41Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/nys-math-test-results-by-grade-2006-2011-boro-by-english-proficiency-status-fdef8) |
+| Metadata | [Link](https://data.cityofnewyork.us/api/views/zpd4-gad8) |
+| Data: JSON | [100 Rows](https://data.cityofnewyork.us/api/views/zpd4-gad8/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofnewyork.us/api/views/zpd4-gad8/rows.csv?max_rows=100) |
+| Host | data.cityofnewyork.us |
+| Id | zpd4-gad8 |
+| Name | NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status |
+| Attribution | Department of Education (DOE) |
+| Category | Education |
+| Tags | lifelong learning |
+| Created | 2011-10-05T22:14:31Z |
+| Publication Date | 2011-10-11T16:57:18Z |
+| Rows Updated | 2011-10-05T22:14:41Z |
 
 ## Description
 
@@ -25,24 +29,24 @@ Starting in 2010, NYSED changed the scale score required to meet each of the pro
 ## Columns
 
 ```ls
-| Name             | Field Name       | Data Type | Render Type | Schema Type    | Included | 
-| ================ | ================ | ========= | =========== | ============== | ======== | 
-| Borough          | borough          | text      | text        | series tag     | Yes      | 
-| Grade            | grade            | text      | text        | series tag     | Yes      | 
-| Year             | year             | number    | text        | time           | Yes      | 
-| Category         | category         | text      | text        | series tag     | Yes      | 
-| Number Tested    | number_tested    | number    | number      | numeric metric | Yes      | 
-| Mean Scale Score | mean_scale_score | number    | number      | numeric metric | Yes      | 
-| Level 1 #        | level_1_1        | number    | number      | numeric metric | Yes      | 
-| Level 1 %        | level_1_2        | percent   | percent     | numeric metric | Yes      | 
-| Level 2 #        | level_2_1        | number    | number      | numeric metric | Yes      | 
-| Level 2 %        | level_2_2        | percent   | percent     | numeric metric | Yes      | 
-| Level 3 #        | level_3_1        | number    | number      | numeric metric | Yes      | 
-| Level 3 %        | level_3_2        | percent   | percent     | numeric metric | Yes      | 
-| Level 4 #        | level_4_1        | number    | number      | numeric metric | Yes      | 
-| Level 4 %        | level_4_2        | percent   | percent     | numeric metric | Yes      | 
-| Level 3+4 #      | level_3_4_1      | number    | number      | numeric metric | Yes      | 
-| Level 3+4 %      | level_3_4_2      | percent   | percent     | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
+| ======== | ============== | ================ | ================ | ========= | =========== |
+| Yes      | series tag     | borough          | Borough          | text      | text        |
+| Yes      | series tag     | grade            | Grade            | text      | text        |
+| Yes      | time           | year             | Year             | number    | text        |
+| Yes      | series tag     | category         | Category         | text      | text        |
+| Yes      | numeric metric | number_tested    | Number Tested    | number    | number      |
+| Yes      | numeric metric | mean_scale_score | Mean Scale Score | number    | number      |
+| Yes      | numeric metric | level_1_1        | Level 1 #        | number    | number      |
+| Yes      | numeric metric | level_1_2        | Level 1 %        | percent   | percent     |
+| Yes      | numeric metric | level_2_1        | Level 2 #        | number    | number      |
+| Yes      | numeric metric | level_2_2        | Level 2 %        | percent   | percent     |
+| Yes      | numeric metric | level_3_1        | Level 3 #        | number    | number      |
+| Yes      | numeric metric | level_3_2        | Level 3 %        | percent   | percent     |
+| Yes      | numeric metric | level_4_1        | Level 4 #        | number    | number      |
+| Yes      | numeric metric | level_4_2        | Level 4 %        | percent   | percent     |
+| Yes      | numeric metric | level_3_4_1      | Level 3+4 #      | number    | number      |
+| Yes      | numeric metric | level_3_4_2      | Level 3+4 %      | percent   | percent     |
 ```
 
 ## Time Field
@@ -50,15 +54,6 @@ Starting in 2010, NYSED changed the scale score required to meet each of the pro
 ```ls
 Value = year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -90,9 +85,9 @@ metric m:level_3_4_1 p:integer l:"Level 3+4 #" t:dataTypeName=number
 
 entity e:zpd4-gad8 l:"NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/zpd4-gad8
 
-property e:zpd4-gad8 t:meta.view d:2017-03-07T18:35:36.557Z v:id=zpd4-gad8 v:category=Education v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" v:attribution="Department of Education (DOE)"
+property e:zpd4-gad8 t:meta.view v:id=zpd4-gad8 v:category=Education v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" v:attribution="Department of Education (DOE)"
 
-property e:zpd4-gad8 t:meta.view.owner d:2017-03-07T18:35:36.557Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:zpd4-gad8 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 
-property e:zpd4-gad8 t:meta.view.tableauthor d:2017-03-07T18:35:36.557Z v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
+property e:zpd4-gad8 t:meta.view.tableauthor v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
 ```

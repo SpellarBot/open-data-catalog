@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/khn9-hhpq/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/law-enforcement-personnel-by-agency-beginning-2007)
-* [Metadata URL](https://data.ny.gov/api/views/khn9-hhpq)
-* Id = khn9-hhpq
-* Name = Law Enforcement Personnel by Agency: Beginning 2007
-* Attribution = New York State Division of Criminal Justice Services
-* [Attribution Link](http://www.criminaljustice.ny.gov/crimnet/ojsa/crimereporting/index.htm)
-* Category = Public Safety
-* Tags = [personnel, law enforcement, public safety, ucr]
-* Created = 2013-03-01T17:47:03Z
-* Publication Date = 2016-03-22T22:00:59Z
-* Rows Updated = 2016-03-22T22:00:37Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/law-enforcement-personnel-by-agency-beginning-2007) |
+| Metadata | [Link](https://data.ny.gov/api/views/khn9-hhpq) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/khn9-hhpq/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/khn9-hhpq/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | khn9-hhpq |
+| Name | Law Enforcement Personnel by Agency: Beginning 2007 |
+| Attribution | New York State Division of Criminal Justice Services |
+| Category | Public Safety |
+| Tags | personnel, law enforcement, public safety, ucr |
+| Created | 2013-03-01T17:47:03Z |
+| Publication Date | 2016-03-22T22:00:59Z |
+| Rows Updated | 2016-03-22T22:00:37Z |
 
 ## Description
 
@@ -22,20 +25,20 @@ The Division of Criminal Justice Services (DCJS) collects personnel statistics f
 ## Columns
 
 ```ls
-| Name               | Field Name         | Data Type | Render Type | Schema Type    | Included | 
-| ================== | ================== | ========= | =========== | ============== | ======== | 
-| County             | county             | text      | text        | series tag     | Yes      | 
-| PD                 | pd                 | text      | text        |                | No       | 
-| Year               | year               | number    | number      | time           | Yes      | 
-| Sworn Full Time    | sworn_full_time    | number    | number      | numeric metric | Yes      | 
-| Sworn Part Time    | sworn_part_time    | number    | number      | numeric metric | Yes      | 
-| Sworn Total        | sworn_total        | number    | number      | numeric metric | Yes      | 
-| Civilian Full Time | civilian_full_time | number    | number      | numeric metric | Yes      | 
-| Civilian Part Time | civilian_park_time | number    | number      | numeric metric | Yes      | 
-| Civilian Total     | civilian_total     | number    | number      | numeric metric | Yes      | 
-| Full Time Total    | full_time_total    | number    | number      | numeric metric | Yes      | 
-| Part Time Total    | part_time_total    | number    | number      | numeric metric | Yes      | 
-| Grand Total        | grand_total        | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
+| ======== | ============== | ================== | ================== | ========= | =========== |
+| Yes      | series tag     | county             | County             | text      | text        |
+| No       |                | pd                 | PD                 | text      | text        |
+| Yes      | time           | year               | Year               | number    | number      |
+| Yes      | numeric metric | sworn_full_time    | Sworn Full Time    | number    | number      |
+| Yes      | numeric metric | sworn_part_time    | Sworn Part Time    | number    | number      |
+| Yes      | numeric metric | sworn_total        | Sworn Total        | number    | number      |
+| Yes      | numeric metric | civilian_full_time | Civilian Full Time | number    | number      |
+| Yes      | numeric metric | civilian_park_time | Civilian Part Time | number    | number      |
+| Yes      | numeric metric | civilian_total     | Civilian Total     | number    | number      |
+| Yes      | numeric metric | full_time_total    | Full Time Total    | number    | number      |
+| Yes      | numeric metric | part_time_total    | Part Time Total    | number    | number      |
+| Yes      | numeric metric | grand_total        | Grand Total        | number    | number      |
 ```
 
 ## Time Field
@@ -48,10 +51,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = pd
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -87,11 +87,11 @@ metric m:grand_total p:integer l:"Grand Total" t:dataTypeName=number
 
 entity e:khn9-hhpq l:"Law Enforcement Personnel by Agency:  Beginning 2007" t:attribution="New York State Division of Criminal Justice Services" t:url=https://data.ny.gov/api/views/khn9-hhpq
 
-property e:khn9-hhpq t:meta.view d:2017-03-08T00:36:48.466Z v:id=khn9-hhpq v:category="Public Safety" v:attributionLink=http://www.criminaljustice.ny.gov/crimnet/ojsa/crimereporting/index.htm v:averageRating=0 v:name="Law Enforcement Personnel by Agency:  Beginning 2007" v:attribution="New York State Division of Criminal Justice Services"
+property e:khn9-hhpq t:meta.view v:id=khn9-hhpq v:category="Public Safety" v:attributionLink=http://www.criminaljustice.ny.gov/crimnet/ojsa/crimereporting/index.htm v:averageRating=0 v:name="Law Enforcement Personnel by Agency:  Beginning 2007" v:attribution="New York State Division of Criminal Justice Services"
 
-property e:khn9-hhpq t:meta.view.owner d:2017-03-08T00:36:48.466Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:khn9-hhpq t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:khn9-hhpq t:meta.view.tableauthor d:2017-03-08T00:36:48.466Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:khn9-hhpq t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:khn9-hhpq t:meta.view.metadata.custom_fields.common_core d:2017-03-08T00:36:48.466Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:khn9-hhpq t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

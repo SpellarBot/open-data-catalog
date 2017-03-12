@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.wa.gov/api/views/6i3q-gfgy/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/summer-low-flow-trend-indicator-1975-2014)
-* Id = 6i3q-gfgy
-* Name = Summer Low Flow Trend Indicator 1975-2014
-* Attribution = Washington State Department of Ecology
-* Attribution Link = http://www.ecy.wa.gov
-* Category = Natural Resources & Environment
-* Tags = [flow, indicator, trend, gages, ecology, eap, salmon, puget sound, state-of-the-salmon]
-* Created = 2015-04-21T22:33:41Z
-* Publication Date = 2015-04-22T00:21:17Z
-* Rows Updated = 2015-04-22T00:19:06Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/summer-low-flow-trend-indicator-1975-2014) |
+| Metadata | [Link](https://data.wa.gov/api/views/6i3q-gfgy) |
+| Data: JSON | [100 Rows](https://data.wa.gov/api/views/6i3q-gfgy/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.wa.gov/api/views/6i3q-gfgy/rows.csv?max_rows=100) |
+| Host | data.wa.gov |
+| Id | 6i3q-gfgy |
+| Name | Summer Low Flow Trend Indicator 1975-2014 |
+| Attribution | Washington State Department of Ecology |
+| Category | Natural Resources & Environment |
+| Tags | flow, indicator, trend, gages, ecology, eap, salmon, puget sound, state-of-the-salmon |
+| Created | 2015-04-21T22:33:41Z |
+| Publication Date | 2015-04-22T00:21:17Z |
+| Rows Updated | 2015-04-22T00:19:06Z |
 
 ## Description
 
@@ -30,21 +34,21 @@ Information provided by Ecology on this Web site is accurate to the best of Ecol
 ## Columns
 
 ```ls
-| Name                   | Field Name             | Data Type | Render Type | Schema Type    | Included | 
-| ====================== | ====================== | ========= | =========== | ============== | ======== | 
-| updated_at             | :updated_at            | meta_data | meta_data   | time           | Yes      | 
-| Stn ID                 | stn_id                 | text      | text        | series tag     | Yes      | 
-| Station Name           | station_name           | text      | text        | series tag     | Yes      | 
-| Salmon Region          | salmon_region          | text      | text        | series tag     | Yes      | 
-| WRIA                   | wria                   | number    | number      | numeric metric | Yes      | 
-| Trib Level             | trib_level             | number    | number      | numeric metric | Yes      | 
-| M-K p                  | m_k_p                  | number    | number      | numeric metric | Yes      | 
-| Reg p                  | reg_p                  | number    | number      | numeric metric | Yes      | 
-| Trend category         | trend_category         | text      | text        | series tag     | Yes      | 
-| Trend (cfs/yr)         | trend_cfs_yr           | number    | number      | numeric metric | Yes      | 
-| Trend (%/year)         | trend_year             | percent   | percent     | numeric metric | Yes      | 
-| Cat. Change from 2011  | cat_change_from_2011   | text      | text        | series tag     | Yes      | 
-| Trend Change from 2013 | trend_change_from_2013 | text      | text        | series tag     | Yes      | 
+| Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
+| ======== | ============== | ====================== | ====================== | ========= | =========== |
+| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
+| Yes      | series tag     | stn_id                 | Stn ID                 | text      | text        |
+| Yes      | series tag     | station_name           | Station Name           | text      | text        |
+| Yes      | series tag     | salmon_region          | Salmon Region          | text      | text        |
+| Yes      | numeric metric | wria                   | WRIA                   | number    | number      |
+| Yes      | numeric metric | trib_level             | Trib Level             | number    | number      |
+| Yes      | numeric metric | m_k_p                  | M-K p                  | number    | number      |
+| Yes      | numeric metric | reg_p                  | Reg p                  | number    | number      |
+| Yes      | series tag     | trend_category         | Trend category         | text      | text        |
+| Yes      | numeric metric | trend_cfs_yr           | Trend (cfs/yr)         | number    | number      |
+| Yes      | numeric metric | trend_year             | Trend (%/year)         | percent   | percent     |
+| Yes      | series tag     | cat_change_from_2011   | Cat. Change from 2011  | text      | text        |
+| Yes      | series tag     | trend_change_from_2013 | Trend Change from 2013 | text      | text        |
 ```
 
 ## Time Field
@@ -52,15 +56,6 @@ Information provided by Ecology on this Web site is accurate to the best of Ecol
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -88,11 +83,11 @@ metric m:trend_cfs_yr l:"Trend (cfs/yr)" t:dataTypeName=number
 
 entity e:6i3q-gfgy l:"Summer Low Flow Trend Indicator 1975-2014" t:attribution="Washington State Department of Ecology" t:url=https://data.wa.gov/api/views/6i3q-gfgy
 
-property e:6i3q-gfgy t:meta.view d:2017-03-03T14:35:18.482Z v:id=6i3q-gfgy v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov v:averageRating=0 v:name="Summer Low Flow Trend Indicator 1975-2014" v:attribution="Washington State Department of Ecology"
+property e:6i3q-gfgy t:meta.view v:id=6i3q-gfgy v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov v:averageRating=0 v:name="Summer Low Flow Trend Indicator 1975-2014" v:attribution="Washington State Department of Ecology"
 
-property e:6i3q-gfgy t:meta.view.license d:2017-03-03T14:35:18.482Z v:name="Public Domain"
+property e:6i3q-gfgy t:meta.view.license v:name="Public Domain"
 
-property e:6i3q-gfgy t:meta.view.owner d:2017-03-03T14:35:18.482Z v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
+property e:6i3q-gfgy t:meta.view.owner v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
 
-property e:6i3q-gfgy t:meta.view.tableauthor d:2017-03-03T14:35:18.482Z v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
+property e:6i3q-gfgy t:meta.view.tableauthor v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
 ```

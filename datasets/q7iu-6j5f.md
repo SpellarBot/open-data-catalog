@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/q7iu-6j5f/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/capital-district-transportation-authority-cdta-performance-metrics)
-* [Metadata URL](https://data.ny.gov/api/views/q7iu-6j5f)
-* Id = q7iu-6j5f
-* Name = Capital District Transportation Authority (CDTA) Performance Metrics
-* Attribution = Capital District Transportation Authority
-* [Attribution Link](https://www.google.com/fusiontables/DataSource?docid=15Ha6CHeJv3MC0zlTjUSchdS6Otm6B_WCTja0r7k#rows:id=1)
-* Category = Transportation
-* Tags = [transportation, performance, ridership]
-* Created = 2013-03-03T18:22:23Z
-* Publication Date = 2016-02-08T17:05:38Z
-* Rows Updated = 2016-02-08T17:04:33Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/capital-district-transportation-authority-cdta-performance-metrics) |
+| Metadata | [Link](https://data.ny.gov/api/views/q7iu-6j5f) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/q7iu-6j5f/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/q7iu-6j5f/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | q7iu-6j5f |
+| Name | Capital District Transportation Authority (CDTA) Performance Metrics |
+| Attribution | Capital District Transportation Authority |
+| Category | Transportation |
+| Tags | transportation, performance, ridership |
+| Created | 2013-03-03T18:22:23Z |
+| Publication Date | 2016-02-08T17:05:38Z |
+| Rows Updated | 2016-02-08T17:04:33Z |
 
 ## Description
 
@@ -22,24 +25,24 @@ CDTA is a public transportation authority in the Capital Region.  This dataset p
 ## Columns
 
 ```ls
-| Name                     | Field Name               | Data Type     | Render Type   | Schema Type    | Included | 
-| ======================== | ======================== | ============= | ============= | ============== | ======== | 
-| Month-Year               | month_year               | calendar_date | calendar_date | time           | Yes      | 
-| Total Riders             | total_riders             | number        | number        | numeric metric | Yes      | 
-| STAR Riders              | star_riders              | number        | number        | numeric metric | Yes      | 
-| Fixed Riders             | fixed_riders             | number        | number        | numeric metric | Yes      | 
-| PMI-Not on Time          | pmi_not_on_time          | number        | number        | numeric metric | Yes      | 
-| PMI Completed            | pmi_completed            | number        | number        | numeric metric | Yes      | 
-| Star Denials             | star_denials             | number        | number        | numeric metric | Yes      | 
-| Service Interruptions    | service_interruptions    | number        | number        | numeric metric | Yes      | 
-| Miles                    | miles                    | number        | number        | numeric metric | Yes      | 
-| MDBSI                    | mdbsi                    | number        | number        | numeric metric | Yes      | 
-| Prevent Accidents        | prevent_accidents        | number        | number        | numeric metric | Yes      | 
-| Non-Prevent Accidents    | non_prevent_accidents    | number        | number        | numeric metric | Yes      | 
-| Fixed/Shut Complaints    | fixed_shut_complaints    | number        | number        | numeric metric | Yes      | 
-| Other Complaints         | other_complaints         | number        | number        | numeric metric | Yes      | 
-| Total Complaints         | total_complaints         | number        | number        | numeric metric | Yes      | 
-| Comp Not Address 10 Days | comp_not_address_10_days | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name               | Name                     | Data Type     | Render Type   |
+| ======== | ============== | ======================== | ======================== | ============= | ============= |
+| Yes      | time           | month_year               | Month-Year               | calendar_date | calendar_date |
+| Yes      | numeric metric | total_riders             | Total Riders             | number        | number        |
+| Yes      | numeric metric | star_riders              | STAR Riders              | number        | number        |
+| Yes      | numeric metric | fixed_riders             | Fixed Riders             | number        | number        |
+| Yes      | numeric metric | pmi_not_on_time          | PMI-Not on Time          | number        | number        |
+| Yes      | numeric metric | pmi_completed            | PMI Completed            | number        | number        |
+| Yes      | numeric metric | star_denials             | Star Denials             | number        | number        |
+| Yes      | numeric metric | service_interruptions    | Service Interruptions    | number        | number        |
+| Yes      | numeric metric | miles                    | Miles                    | number        | number        |
+| Yes      | numeric metric | mdbsi                    | MDBSI                    | number        | number        |
+| Yes      | numeric metric | prevent_accidents        | Prevent Accidents        | number        | number        |
+| Yes      | numeric metric | non_prevent_accidents    | Non-Prevent Accidents    | number        | number        |
+| Yes      | numeric metric | fixed_shut_complaints    | Fixed/Shut Complaints    | number        | number        |
+| Yes      | numeric metric | other_complaints         | Other Complaints         | number        | number        |
+| Yes      | numeric metric | total_complaints         | Total Complaints         | number        | number        |
+| Yes      | numeric metric | comp_not_address_10_days | Comp Not Address 10 Days | number        | number        |
 ```
 
 ## Time Field
@@ -47,15 +50,6 @@ CDTA is a public transportation authority in the Capital Region.  This dataset p
 ```ls
 Value = month_year
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -103,11 +97,11 @@ metric m:comp_not_address_10_days p:integer l:"Comp Not Address 10 Days" d:"Quan
 
 entity e:q7iu-6j5f l:"Capital District Transportation Authority (CDTA) Performance Metrics" t:attribution="Capital District Transportation Authority" t:url=https://data.ny.gov/api/views/q7iu-6j5f
 
-property e:q7iu-6j5f t:meta.view d:2017-03-08T00:52:20.558Z v:id=q7iu-6j5f v:category=Transportation v:attributionLink="https://www.google.com/fusiontables/DataSource?docid=15Ha6CHeJv3MC0zlTjUSchdS6Otm6B_WCTja0r7k#rows:id=1" v:averageRating=0 v:name="Capital District Transportation Authority (CDTA) Performance Metrics" v:attribution="Capital District Transportation Authority"
+property e:q7iu-6j5f t:meta.view v:id=q7iu-6j5f v:category=Transportation v:attributionLink="https://www.google.com/fusiontables/DataSource?docid=15Ha6CHeJv3MC0zlTjUSchdS6Otm6B_WCTja0r7k#rows:id=1" v:averageRating=0 v:name="Capital District Transportation Authority (CDTA) Performance Metrics" v:attribution="Capital District Transportation Authority"
 
-property e:q7iu-6j5f t:meta.view.owner d:2017-03-08T00:52:20.558Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:q7iu-6j5f t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:q7iu-6j5f t:meta.view.tableauthor d:2017-03-08T00:52:20.558Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:q7iu-6j5f t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:q7iu-6j5f t:meta.view.metadata.custom_fields.common_core d:2017-03-08T00:52:20.558Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:q7iu-6j5f t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```

@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/ba86-tr5c/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/city-university-of-new-york-cuny-university-retention-and-graduation-rates-beginning-1990)
-* Id = ba86-tr5c
-* Name = City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990
-* Attribution = City University of New York
-* Category = Education
-* Tags = [higher education, enrollment]
-* Created = 2014-01-17T17:03:53Z
-* Publication Date = 2015-12-23T17:44:26Z
-* Rows Updated = 2015-12-21T18:40:31Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/city-university-of-new-york-cuny-university-retention-and-graduation-rates-beginning-1990) |
+| Metadata | [Link](https://data.ny.gov/api/views/ba86-tr5c) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/ba86-tr5c/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/ba86-tr5c/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | ba86-tr5c |
+| Name | City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990 |
+| Attribution | City University of New York |
+| Category | Education |
+| Tags | higher education, enrollment |
+| Created | 2014-01-17T17:03:53Z |
+| Publication Date | 2015-12-23T17:44:26Z |
+| Rows Updated | 2015-12-21T18:40:31Z |
 
 ## Description
 
@@ -20,15 +25,15 @@ Data set contains one year retention rates and 150 time graduation rates (3yr ra
 ## Columns
 
 ```ls
-| Name                    | Field Name              | Data Type | Render Type | Schema Type    | Included | 
-| ======================= | ======================= | ========= | =========== | ============== | ======== | 
-| updated_at              | :updated_at             | meta_data | meta_data   | time           | Yes      | 
-| College                 | college                 | text      | text        | series tag     | Yes      | 
-| Fall Term               | fall_term               | text      | text        | series tag     | Yes      | 
-| Record Type Code        | record_type_code        | text      | number      | series tag     | Yes      | 
-| Record Type Description | record_type_description | text      | text        | series tag     | Yes      | 
-| Head Count              | head_count              | number    | number      | numeric metric | Yes      | 
-| Percentage              | percentage              | percent   | percent     | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name              | Name                    | Data Type | Render Type |
+| ======== | ============== | ======================= | ======================= | ========= | =========== |
+| No       | time           | :updated_at             | updated_at              | meta_data | meta_data   |
+| Yes      | series tag     | college                 | College                 | text      | text        |
+| Yes      | series tag     | fall_term               | Fall Term               | text      | text        |
+| Yes      | series tag     | record_type_code        | Record Type Code        | text      | number      |
+| Yes      | series tag     | record_type_description | Record Type Description | text      | text        |
+| Yes      | numeric metric | head_count              | Head Count              | number    | number      |
+| Yes      | numeric metric | percentage              | Percentage              | percent   | percent     |
 ```
 
 ## Time Field
@@ -36,15 +41,6 @@ Data set contains one year retention rates and 150 time graduation rates (3yr ra
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -64,11 +60,11 @@ metric m:head_count p:integer l:"Head Count" t:dataTypeName=number
 
 entity e:ba86-tr5c l:"City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" t:attribution="City University of New York" t:url=https://data.ny.gov/api/views/ba86-tr5c
 
-property e:ba86-tr5c t:meta.view d:2017-03-03T13:51:15.512Z v:id=ba86-tr5c v:category=Education v:averageRating=0 v:name="City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" v:attribution="City University of New York"
+property e:ba86-tr5c t:meta.view v:id=ba86-tr5c v:category=Education v:averageRating=0 v:name="City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" v:attribution="City University of New York"
 
-property e:ba86-tr5c t:meta.view.owner d:2017-03-03T13:51:15.512Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:ba86-tr5c t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:ba86-tr5c t:meta.view.tableauthor d:2017-03-03T13:51:15.512Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:ba86-tr5c t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:ba86-tr5c t:meta.view.metadata.custom_fields.common_core d:2017-03-03T13:51:15.512Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:ba86-tr5c t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

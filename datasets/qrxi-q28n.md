@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/qrxi-q28n/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/libraries-2013-computer-sessions-by-location-1a05c)
-* [Metadata URL](https://data.cityofchicago.org/api/views/qrxi-q28n)
-* Id = qrxi-q28n
-* Name = Libraries - 2013 Computer Sessions by Location
-* Attribution = Chicago Public Library
-* [Attribution Link](http://chipublib.org)
-* Category = Education
-* Tags = [libraries, technology, computer sessions]
-* Created = 2013-03-13T20:14:53Z
-* Publication Date = 2014-01-15T22:39:37Z
-* Rows Updated = 2014-01-15T22:36:19Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/libraries-2013-computer-sessions-by-location-1a05c) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/qrxi-q28n) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/qrxi-q28n/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/qrxi-q28n/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | qrxi-q28n |
+| Name | Libraries - 2013 Computer Sessions by Location |
+| Attribution | Chicago Public Library |
+| Category | Education |
+| Tags | libraries, technology, computer sessions |
+| Created | 2013-03-13T20:14:53Z |
+| Publication Date | 2014-01-15T22:39:37Z |
+| Rows Updated | 2014-01-15T22:36:19Z |
 
 ## Description
 
@@ -22,26 +25,26 @@ The Chicago Public Library offers one-hour computer sessions and 15-minute compu
 ## Columns
 
 ```ls
-| Name       | Field Name  | Data Type | Render Type | Schema Type    | Included | 
-| ========== | =========== | ========= | =========== | ============== | ======== | 
-| updated_at | :updated_at | meta_data | meta_data   | time           | No       | 
-| LOCATION   | location    | text      | text        | series tag     | Yes      | 
-| ADDRESS    | address     | text      | text        |                | No       | 
-| CITY       | city        | text      | text        | series tag     | Yes      | 
-| ZIP        | zip         | text      | number      | series tag     | Yes      | 
-| JANUARY    | january     | number    | number      | numeric metric | Yes      | 
-| FEBRUARY   | february    | number    | number      | numeric metric | Yes      | 
-| MARCH      | march       | number    | number      | numeric metric | Yes      | 
-| APRIL      | april       | number    | number      | numeric metric | Yes      | 
-| MAY        | may         | number    | number      | numeric metric | Yes      | 
-| JUNE       | june        | number    | number      | numeric metric | Yes      | 
-| JULY       | july        | number    | number      | numeric metric | Yes      | 
-| AUGUST     | august      | number    | number      | numeric metric | Yes      | 
-| SEPTEMBER  | september   | number    | number      | numeric metric | Yes      | 
-| OCTOBER    | october     | number    | number      | numeric metric | Yes      | 
-| NOVEMBER   | november    | number    | number      | numeric metric | Yes      | 
-| DECEMBER   | december    | number    | number      | numeric metric | Yes      | 
-| YTD        | ytd         | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | location    | LOCATION   | text      | text        |
+| No       |                | address     | ADDRESS    | text      | text        |
+| Yes      | series tag     | city        | CITY       | text      | text        |
+| Yes      | series tag     | zip         | ZIP        | text      | number      |
+| Yes      | numeric metric | january     | JANUARY    | number    | number      |
+| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
+| Yes      | numeric metric | march       | MARCH      | number    | number      |
+| Yes      | numeric metric | april       | APRIL      | number    | number      |
+| Yes      | numeric metric | may         | MAY        | number    | number      |
+| Yes      | numeric metric | june        | JUNE       | number    | number      |
+| Yes      | numeric metric | july        | JULY       | number    | number      |
+| Yes      | numeric metric | august      | AUGUST     | number    | number      |
+| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
+| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
+| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
+| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
+| Yes      | numeric metric | ytd         | YTD        | number    | number      |
 ```
 
 ## Time Field
@@ -54,10 +57,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = address
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -101,9 +101,9 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:qrxi-q28n l:"Libraries - 2013 Computer Sessions by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/qrxi-q28n
 
-property e:qrxi-q28n t:meta.view d:2017-03-08T01:08:15.908Z v:id=qrxi-q28n v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Computer Sessions by Location" v:attribution="Chicago Public Library"
+property e:qrxi-q28n t:meta.view v:id=qrxi-q28n v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Computer Sessions by Location" v:attribution="Chicago Public Library"
 
-property e:qrxi-q28n t:meta.view.owner d:2017-03-08T01:08:15.908Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:qrxi-q28n t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 
-property e:qrxi-q28n t:meta.view.tableauthor d:2017-03-08T01:08:15.908Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:qrxi-q28n t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```

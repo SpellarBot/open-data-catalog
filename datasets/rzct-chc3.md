@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/rzct-chc3/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/business-energy-tax-credit-program-fiscal-year-2014-0e49c)
-* [Metadata URL](https://data.oregon.gov/api/views/rzct-chc3)
-* Id = rzct-chc3
-* Name = Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)
-* Category = Revenue & Expense
-* Tags = [tax credit, busiess energy tax credit, tax credit program 2014, 2014]
-* Created = 2014-12-31T03:21:39Z
-* Publication Date = 2015-12-27T22:27:10Z
-* Rows Updated = 2015-12-27T22:25:29Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/business-energy-tax-credit-program-fiscal-year-2014-0e49c) |
+| Metadata | [Link](https://data.oregon.gov/api/views/rzct-chc3) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/rzct-chc3/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/rzct-chc3/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | rzct-chc3 |
+| Name | Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14) |
+| Category | Revenue & Expense |
+| Tags | tax credit, busiess energy tax credit, tax credit program 2014, 2014 |
+| Created | 2014-12-31T03:21:39Z |
+| Publication Date | 2015-12-27T22:27:10Z |
+| Rows Updated | 2015-12-27T22:25:29Z |
 
 ## Description
 
@@ -29,23 +33,23 @@ Historical Info
 ## Columns
 
 ```ls
-| Name                           | Field Name                     | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================== | ============================== | ============= | ============= | ============== | ======== | 
-| Agency Issuing Tax Expenditure | agency_issuing_tax_expenditure | text          | text          | series tag     | Yes      | 
-| Final Year                     | final_year                     | number        | number        |                | No       | 
-| Final Date                     | final_date                     | calendar_date | calendar_date | time           | Yes      | 
-| Applicant Business Name        | applicant_business_name        | text          | text          | series tag     | Yes      | 
-| Site City                      | site_city                      | text          | text          | series tag     | Yes      | 
-| Site Zip                       | site_zip                       | text          | number        | series tag     | Yes      | 
-| Site County                    | site_county                    | text          | text          | series tag     | Yes      | 
-| System                         | system                         | text          | text          | series tag     | Yes      | 
-| System Name                    | system_name                    | text          | text          | series tag     | Yes      | 
-| Final Month                    | final_month                    | number        | number        | numeric metric | Yes      | 
-| Final Certified Project Cost   | final_certified_project_cost   | money         | money         | numeric metric | Yes      | 
-| Final Tax Credit               | final_tax_credit               | money         | money         | numeric metric | Yes      | 
-| Total Energy (Million Btu)     | total_energy_million_btu       | number        | number        | numeric metric | Yes      | 
-| Tax Credit Rate                | tax_credit_ratepercentage      | number        | number        | numeric metric | Yes      | 
-| Application #                  | application                    | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                     | Name                           | Data Type     | Render Type   |
+| ======== | ============== | ============================== | ============================== | ============= | ============= |
+| Yes      | series tag     | agency_issuing_tax_expenditure | Agency Issuing Tax Expenditure | text          | text          |
+| No       |                | final_year                     | Final Year                     | number        | number        |
+| Yes      | time           | final_date                     | Final Date                     | calendar_date | calendar_date |
+| Yes      | series tag     | applicant_business_name        | Applicant Business Name        | text          | text          |
+| Yes      | series tag     | site_city                      | Site City                      | text          | text          |
+| Yes      | series tag     | site_zip                       | Site Zip                       | text          | number        |
+| Yes      | series tag     | site_county                    | Site County                    | text          | text          |
+| Yes      | series tag     | system                         | System                         | text          | text          |
+| Yes      | series tag     | system_name                    | System Name                    | text          | text          |
+| Yes      | numeric metric | final_month                    | Final Month                    | number        | number        |
+| Yes      | numeric metric | final_certified_project_cost   | Final Certified Project Cost   | money         | money         |
+| Yes      | numeric metric | final_tax_credit               | Final Tax Credit               | money         | money         |
+| Yes      | numeric metric | total_energy_million_btu       | Total Energy (Million Btu)     | number        | number        |
+| Yes      | numeric metric | tax_credit_ratepercentage      | Tax Credit Rate                | number        | number        |
+| Yes      | numeric metric | application                    | Application #                  | number        | number        |
 ```
 
 ## Time Field
@@ -58,10 +62,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = final_year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -87,9 +88,9 @@ metric m:application p:integer l:"Application #" t:dataTypeName=number
 
 entity e:rzct-chc3 l:"Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)" t:url=https://data.oregon.gov/api/views/rzct-chc3
 
-property e:rzct-chc3 t:meta.view d:2017-03-07T23:59:34.827Z v:id=rzct-chc3 v:category="Revenue & Expense" v:averageRating=0 v:name="Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)"
+property e:rzct-chc3 t:meta.view v:id=rzct-chc3 v:category="Revenue & Expense" v:averageRating=0 v:name="Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)"
 
-property e:rzct-chc3 t:meta.view.owner d:2017-03-07T23:59:34.827Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:rzct-chc3 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:rzct-chc3 t:meta.view.tableauthor d:2017-03-07T23:59:34.827Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:rzct-chc3 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

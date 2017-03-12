@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.sfgov.org/api/views/nuek-vuh3/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/fire-department-calls-for-service)
-* [Metadata URL](https://data.sfgov.org/api/views/nuek-vuh3)
-* Id = nuek-vuh3
-* Name = Fire Department Calls for Service
-* Category = Public Safety
-* Tags = [calls, fire, 911, medical]
-* Created = 2015-12-17T16:07:05Z
-* Publication Date = 2016-05-09T22:15:02Z
-* Rows Updated = 2017-03-07T11:07:58Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/fire-department-calls-for-service) |
+| Metadata | [Link](https://data.sfgov.org/api/views/nuek-vuh3) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/nuek-vuh3/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/nuek-vuh3/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | nuek-vuh3 |
+| Name | Fire Department Calls for Service |
+| Category | Public Safety |
+| Tags | calls, fire, 911, medical |
+| Created | 2015-12-17T16:07:05Z |
+| Publication Date | 2016-05-09T22:15:02Z |
+| Rows Updated | 2017-03-12T10:08:01Z |
 
 ## Description
 
@@ -20,41 +24,41 @@ Fire Calls-For-Service includes all fire units responses to calls. Each record i
 ## Columns
 
 ```ls
-| Name                           | Field Name                     | Data Type     | Render Type   | Schema Type    | Included | 
-| ============================== | ============================== | ============= | ============= | ============== | ======== | 
-| Call Number                    | call_number                    | number        | text          | numeric metric | Yes      | 
-| Unit ID                        | unit_id                        | text          | text          | series tag     | Yes      | 
-| Incident Number                | incident_number                | number        | text          | numeric metric | Yes      | 
-| Call Type                      | call_type                      | text          | text          | series tag     | Yes      | 
-| Call Date                      | call_date                      | calendar_date | calendar_date | time           | Yes      | 
-| Watch Date                     | watch_date                     | calendar_date | calendar_date |                | No       | 
-| Received DtTm                  | received_dttm                  | calendar_date | calendar_date |                | No       | 
-| Entry DtTm                     | entry_dttm                     | calendar_date | calendar_date |                | No       | 
-| Dispatch DtTm                  | dispatch_dttm                  | calendar_date | calendar_date |                | No       | 
-| Response DtTm                  | response_dttm                  | calendar_date | calendar_date |                | No       | 
-| On Scene DtTm                  | on_scene_dttm                  | calendar_date | calendar_date |                | No       | 
-| Transport DtTm                 | transport_dttm                 | calendar_date | calendar_date |                | No       | 
-| Hospital DtTm                  | hospital_dttm                  | calendar_date | calendar_date |                | No       | 
-| Call Final Disposition         | call_final_disposition         | text          | text          | series tag     | Yes      | 
-| Available DtTm                 | available_dttm                 | calendar_date | calendar_date |                | No       | 
-| Address                        | address                        | text          | text          |                | No       | 
-| City                           | city                           | text          | text          | series tag     | Yes      | 
-| Zipcode of Incident            | zipcode_of_incident            | text          | text          | series tag     | Yes      | 
-| Battalion                      | battalion                      | text          | text          | series tag     | Yes      | 
-| Station Area                   | station_area                   | text          | text          | series tag     | Yes      | 
-| Box                            | box                            | text          | text          | series tag     | Yes      | 
-| Original Priority              | original_priority              | number        | text          | numeric metric | Yes      | 
-| Priority                       | priority                       | number        | text          | numeric metric | Yes      | 
-| Final Priority                 | final_priority                 | number        | text          | numeric metric | Yes      | 
-| ALS Unit                       | als_unit                       | checkbox      | checkbox      | series tag     | Yes      | 
-| Call Type Group                | call_type_group                | text          | text          | series tag     | Yes      | 
-| Number of Alarms               | number_of_alarms               | number        | number        | numeric metric | Yes      | 
-| Unit Type                      | unit_type                      | text          | text          | series tag     | Yes      | 
-| Unit sequence in call dispatch | unit_sequence_in_call_dispatch | number        | number        | numeric metric | Yes      | 
-| Fire Prevention District       | fire_prevention_district       | text          | text          | series tag     | Yes      | 
-| Supervisor District            | supervisor_district            | text          | text          | series tag     | Yes      | 
-| Neighborhood District          | neighborhood_district          | text          | text          | series tag     | Yes      | 
-| RowID                          | rowid                          | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name                     | Name                           | Data Type     | Render Type   |
+| ======== | ============== | ============================== | ============================== | ============= | ============= |
+| Yes      | numeric metric | call_number                    | Call Number                    | number        | text          |
+| Yes      | series tag     | unit_id                        | Unit ID                        | text          | text          |
+| Yes      | numeric metric | incident_number                | Incident Number                | number        | text          |
+| Yes      | series tag     | call_type                      | Call Type                      | text          | text          |
+| Yes      | time           | call_date                      | Call Date                      | calendar_date | calendar_date |
+| No       |                | watch_date                     | Watch Date                     | calendar_date | calendar_date |
+| No       |                | received_dttm                  | Received DtTm                  | calendar_date | calendar_date |
+| No       |                | entry_dttm                     | Entry DtTm                     | calendar_date | calendar_date |
+| No       |                | dispatch_dttm                  | Dispatch DtTm                  | calendar_date | calendar_date |
+| No       |                | response_dttm                  | Response DtTm                  | calendar_date | calendar_date |
+| No       |                | on_scene_dttm                  | On Scene DtTm                  | calendar_date | calendar_date |
+| No       |                | transport_dttm                 | Transport DtTm                 | calendar_date | calendar_date |
+| No       |                | hospital_dttm                  | Hospital DtTm                  | calendar_date | calendar_date |
+| Yes      | series tag     | call_final_disposition         | Call Final Disposition         | text          | text          |
+| No       |                | available_dttm                 | Available DtTm                 | calendar_date | calendar_date |
+| No       |                | address                        | Address                        | text          | text          |
+| Yes      | series tag     | city                           | City                           | text          | text          |
+| Yes      | series tag     | zipcode_of_incident            | Zipcode of Incident            | text          | text          |
+| Yes      | series tag     | battalion                      | Battalion                      | text          | text          |
+| Yes      | series tag     | station_area                   | Station Area                   | text          | text          |
+| Yes      | series tag     | box                            | Box                            | text          | text          |
+| Yes      | numeric metric | original_priority              | Original Priority              | number        | text          |
+| Yes      | numeric metric | priority                       | Priority                       | number        | text          |
+| Yes      | numeric metric | final_priority                 | Final Priority                 | number        | text          |
+| Yes      | series tag     | als_unit                       | ALS Unit                       | checkbox      | checkbox      |
+| Yes      | series tag     | call_type_group                | Call Type Group                | text          | text          |
+| Yes      | numeric metric | number_of_alarms               | Number of Alarms               | number        | number        |
+| Yes      | series tag     | unit_type                      | Unit Type                      | text          | text          |
+| Yes      | numeric metric | unit_sequence_in_call_dispatch | Unit sequence in call dispatch | number        | number        |
+| Yes      | series tag     | fire_prevention_district       | Fire Prevention District       | text          | text          |
+| Yes      | series tag     | supervisor_district            | Supervisor District            | text          | text          |
+| Yes      | series tag     | neighborhood_district          | Neighborhood District          | text          | text          |
+| Yes      | series tag     | rowid                          | RowID                          | text          | text          |
 ```
 
 ## Time Field
@@ -67,10 +71,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = transport_dttm,dispatch_dttm,received_dttm,address,hospital_dttm,response_dttm,on_scene_dttm,available_dttm,watch_date,entry_dttm
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -98,11 +99,11 @@ metric m:unit_sequence_in_call_dispatch p:integer l:"Unit sequence in call dispa
 
 entity e:nuek-vuh3 l:"Fire Department Calls for Service" t:url=https://data.sfgov.org/api/views/nuek-vuh3
 
-property e:nuek-vuh3 t:meta.view d:2017-03-08T02:28:51.394Z v:id=nuek-vuh3 v:category="Public Safety" v:averageRating=0 v:name="Fire Department Calls for Service"
+property e:nuek-vuh3 t:meta.view v:id=nuek-vuh3 v:category="Public Safety" v:averageRating=0 v:name="Fire Department Calls for Service"
 
-property e:nuek-vuh3 t:meta.view.license d:2017-03-08T02:28:51.394Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:nuek-vuh3 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:nuek-vuh3 t:meta.view.owner d:2017-03-08T02:28:51.394Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:nuek-vuh3 t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 
-property e:nuek-vuh3 t:meta.view.tableauthor d:2017-03-08T02:28:51.394Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:nuek-vuh3 t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

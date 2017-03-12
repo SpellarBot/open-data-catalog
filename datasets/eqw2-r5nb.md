@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | attorney, registrations, integrity |
 | Created | 2013-04-12T18:29:05Z |
-| Publication Date | 2017-03-11T11:24:57Z |
-| Rows Updated | 2017-03-11T11:24:34Z |
+| Publication Date | 2017-03-12T10:27:45Z |
+| Rows Updated | 2017-03-12T10:27:17Z |
 
 ## Description
 
@@ -66,11 +66,11 @@ Excluded Fields = email_address
 ## Data Commands
 
 ```ls
-series e:eqw2-r5nb d:2013-01-01T00:00:00.000Z t:zip=77056 t:phone_number="(713) 840-0499" t:status="Currently registered" t:law_school="UNIVERSITY OF IOWA COLLEGE OF LAW" t:state=TX t:city=Houston t:country="United States" t:zip_plus_four=6537 t:first_name=JIANNAN t:street_1="3050 Post Oak Blvd Ste 1200" t:next_registration="May 2017" t:county="Out of State" t:company_name="SINOPEI USA, INC." t:last_name=WEI m:registration_number=5134408 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2015-01-01T00:00:00.000Z t:zip=10022 t:phone_number="(212) 256-1958" t:status="Currently registered" t:middle_name=LIN t:law_school="NORTHWESTERN UNIVERSITY SCHOOL OF LAW" t:state=NY t:city="NEW YORK" t:country="United States" t:zip_plus_four=4503 t:first_name=KARI t:street_1="641 LEXINGTON AVE., 13TH FLOOR" t:next_registration="Dec 2017" t:county="New York" t:company_name="CLINTON BROOK & PEED" t:last_name=PARKS m:registration_number=5379003 m:judicial_department_of_admission=1
 
-series e:eqw2-r5nb d:2013-01-01T00:00:00.000Z t:first_name=HYE-SHIL t:next_registration="May 2017" t:status="Currently registered" t:law_school="NORTHWESTERN UNIVERSITY" t:last_name=KIM m:registration_number=5134416 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:zip=19103 t:phone_number="(215) 561-7681" t:status="Currently registered" t:middle_name=RICHARD t:law_school="NEW YORK LAW SCHOOL" t:state=PA t:city=PHILADELPHIA t:country="United States" t:first_name=JORDANN t:street_1="1355 19TH ST., STE. 400" t:next_registration="Jan 2018" t:county="Out of State" t:company_name="SPRAGUE & SPRAGUE" t:last_name=CONABOY m:registration_number=5379011 m:judicial_department_of_admission=1
 
-series e:eqw2-r5nb d:2013-01-01T00:00:00.000Z t:first_name=SZE t:next_registration="Nov 2017" t:street_1="1 SUPREME COURT LANE" t:phone_number="+81 80 4319 4788" t:county="Out of USA" t:company_name="SUPREME COURT OF SINGAPORE" t:status=Delinquent t:middle_name=YAO t:law_school="UNIVERSITY OF CAMBRIDGE" t:last_name=TAN t:country=SINGAPORE t:city="SINGAPORE 178 879" m:registration_number=5134424 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2015-01-01T00:00:00.000Z t:zip=94710 t:phone_number="(510) 843-3670" t:status="Currently registered" t:middle_name=ROBERTS t:law_school="UNIV. OF CALIF., HASTINGS COLLEGE" t:state=CA t:city=Berkeley t:country="United States" t:zip_plus_four=1915 t:first_name=TYLER t:street_1="1816 5th St" t:next_registration="May 2017" t:county="Out of State" t:company_name="THE MEADE FIRM P.C." t:last_name=MEADE m:registration_number=5379029 m:judicial_department_of_admission=3
 ```
 
 ## Meta Commands

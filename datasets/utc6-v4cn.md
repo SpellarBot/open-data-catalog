@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.ny.gov/api/views/utc6-v4cn/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/schedule-of-debt-for-local-development-corporations)
-* [Metadata URL](https://data.ny.gov/api/views/utc6-v4cn)
-* Id = utc6-v4cn
-* Name = Schedule of Debt for Local Development Corporations
-* Attribution = Individual Local Development Corporations submitted to the Authorities Budget Office
-* [Attribution Link](http://www.abo.ny.gov/)
-* Category = Transparency
-* Tags = [ldc]
-* Created = 2015-02-23T19:35:45Z
-* Publication Date = 2016-11-04T14:31:39Z
-* Rows Updated = 2016-11-03T22:04:54Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/schedule-of-debt-for-local-development-corporations) |
+| Metadata | [Link](https://data.ny.gov/api/views/utc6-v4cn) |
+| Data: JSON | [100 Rows](https://data.ny.gov/api/views/utc6-v4cn/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.ny.gov/api/views/utc6-v4cn/rows.csv?max_rows=100) |
+| Host | data.ny.gov |
+| Id | utc6-v4cn |
+| Name | Schedule of Debt for Local Development Corporations |
+| Attribution | Individual Local Development Corporations submitted to the Authorities Budget Office |
+| Category | Transparency |
+| Tags | ldc |
+| Created | 2015-02-23T19:35:45Z |
+| Publication Date | 2016-11-04T14:31:39Z |
+| Rows Updated | 2016-11-03T22:04:54Z |
 
 ## Description
 
@@ -22,17 +25,17 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 ## Columns
 
 ```ls
-| Name                 | Field Name           | Data Type     | Render Type   | Schema Type    | Included | 
-| ==================== | ==================== | ============= | ============= | ============== | ======== | 
-| Authority Name       | authority_name       | text          | text          | series tag     | Yes      | 
-| Fiscal Year End Date | fiscal_year_end_date | calendar_date | calendar_date | time           | Yes      | 
-| Has Outstanding Debt | has_outstanding_debt | number        | text          | numeric metric | Yes      | 
-| Type Of Debt         | type_of_debt         | text          | text          | series tag     | Yes      | 
-| Debt Program         | debt_program         | text          | text          | series tag     | Yes      | 
-| Begin Amount Total   | begin_amount_total   | money         | money         | numeric metric | Yes      | 
-| New Debt Issuance    | new_debt_issuance    | money         | money         | numeric metric | Yes      | 
-| Amount Retired       | amount_retired       | money         | money         | numeric metric | Yes      | 
-| End Amount Total     | end_amount_total     | money         | money         | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name           | Name                 | Data Type     | Render Type   |
+| ======== | ============== | ==================== | ==================== | ============= | ============= |
+| Yes      | series tag     | authority_name       | Authority Name       | text          | text          |
+| Yes      | time           | fiscal_year_end_date | Fiscal Year End Date | calendar_date | calendar_date |
+| Yes      | numeric metric | has_outstanding_debt | Has Outstanding Debt | number        | text          |
+| Yes      | series tag     | type_of_debt         | Type Of Debt         | text          | text          |
+| Yes      | series tag     | debt_program         | Debt Program         | text          | text          |
+| Yes      | numeric metric | begin_amount_total   | Begin Amount Total   | money         | money         |
+| Yes      | numeric metric | new_debt_issuance    | New Debt Issuance    | money         | money         |
+| Yes      | numeric metric | amount_retired       | Amount Retired       | money         | money         |
+| Yes      | numeric metric | end_amount_total     | End Amount Total     | money         | money         |
 ```
 
 ## Time Field
@@ -40,15 +43,6 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 ```ls
 Value = fiscal_year_end_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -66,11 +60,11 @@ series e:utc6-v4cn d:2015-12-31T00:00:00.000Z t:authority_name="Albany County Ca
 ```ls
 entity e:utc6-v4cn l:"Schedule of Debt for Local Development Corporations" t:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office" t:url=https://data.ny.gov/api/views/utc6-v4cn
 
-property e:utc6-v4cn t:meta.view d:2017-03-07T20:08:06.874Z v:id=utc6-v4cn v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Schedule of Debt for Local Development Corporations" v:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office"
+property e:utc6-v4cn t:meta.view v:id=utc6-v4cn v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Schedule of Debt for Local Development Corporations" v:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office"
 
-property e:utc6-v4cn t:meta.view.owner d:2017-03-07T20:08:06.874Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:utc6-v4cn t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:utc6-v4cn t:meta.view.tableauthor d:2017-03-07T20:08:06.874Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:utc6-v4cn t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:utc6-v4cn t:meta.view.metadata.custom_fields.common_core d:2017-03-07T20:08:06.874Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:utc6-v4cn t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```

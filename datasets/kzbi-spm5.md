@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cityofchicago.org/api/views/kzbi-spm5/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/budget-2015-budget-recommendations-appropriations-68f61)
-* [Metadata URL](https://data.cityofchicago.org/api/views/kzbi-spm5)
-* Id = kzbi-spm5
-* Name = Budget - 2015 Budget Recommendations - Appropriations
-* Attribution = City of Chicago
-* [Attribution Link](http://www.cityofchicago.org/budget)
-* Category = Administration & Finance
-* Tags = [budget, 2015]
-* Created = 2014-10-15T15:06:10Z
-* Publication Date = 2014-10-15T15:41:22Z
-* Rows Updated = 2014-10-15T15:40:17Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/budget-2015-budget-recommendations-appropriations-68f61) |
+| Metadata | [Link](https://data.cityofchicago.org/api/views/kzbi-spm5) |
+| Data: JSON | [100 Rows](https://data.cityofchicago.org/api/views/kzbi-spm5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cityofchicago.org/api/views/kzbi-spm5/rows.csv?max_rows=100) |
+| Host | data.cityofchicago.org |
+| Id | kzbi-spm5 |
+| Name | Budget - 2015 Budget Recommendations - Appropriations |
+| Attribution | City of Chicago |
+| Category | Administration & Finance |
+| Tags | budget, 2015 |
+| Created | 2014-10-15T15:06:10Z |
+| Publication Date | 2014-10-15T15:41:22Z |
+| Rows Updated | 2014-10-15T15:40:17Z |
 
 ## Description
 
@@ -22,21 +25,21 @@ The dataset details 2015 Budget Recommendations, which is the line-item budget d
 ## Columns
 
 ```ls
-| Name                                | Field Name                          | Data Type | Render Type | Schema Type    | Included | 
-| =================================== | =================================== | ========= | =========== | ============== | ======== | 
-| updated_at                          | :updated_at                         | meta_data | meta_data   | time           | No       | 
-| FUND TYPE                           | fund_type                           | text      | text        | series tag     | Yes      | 
-| FUND CODE                           | fund_code                           | text      | text        | series tag     | Yes      | 
-| FUND DESCRIPTION                    | fund_description                    | text      | text        | series tag     | Yes      | 
-| DEPARTMENT NUMBER                   | department_number                   | number    | number      | numeric metric | Yes      | 
-| DEPARTMENT DESCRIPTION              | department_description              | text      | text        | series tag     | Yes      | 
-| APPROPRIATION AUTHORITY             | appropriation_authority             | number    | number      | numeric metric | Yes      | 
-| APPROPRIATION AUTHORITY DESCRIPTION | appropriation_authority_description | text      | text        | series tag     | Yes      | 
-| APPROPRIATION ACCOUNT               | appropriation_account               | number    | number      | numeric metric | Yes      | 
-| APPROPRIATION ACCOUNT DESCRIPTION   | appropriation_account_description   | text      | text        | series tag     | Yes      | 
-| 2014 APPROPRATION                   | appropration                        | money     | money       | numeric metric | Yes      | 
-| 2014 REVISED APPROPRIATION          | revised_appropriation               | money     | money       | numeric metric | Yes      | 
-| 2015 RECOMMENDATION                 | recommendation                      | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                          | Name                                | Data Type | Render Type |
+| ======== | ============== | =================================== | =================================== | ========= | =========== |
+| No       | time           | :updated_at                         | updated_at                          | meta_data | meta_data   |
+| Yes      | series tag     | fund_type                           | FUND TYPE                           | text      | text        |
+| Yes      | series tag     | fund_code                           | FUND CODE                           | text      | text        |
+| Yes      | series tag     | fund_description                    | FUND DESCRIPTION                    | text      | text        |
+| Yes      | numeric metric | department_number                   | DEPARTMENT NUMBER                   | number    | number      |
+| Yes      | series tag     | department_description              | DEPARTMENT DESCRIPTION              | text      | text        |
+| Yes      | numeric metric | appropriation_authority             | APPROPRIATION AUTHORITY             | number    | number      |
+| Yes      | series tag     | appropriation_authority_description | APPROPRIATION AUTHORITY DESCRIPTION | text      | text        |
+| Yes      | numeric metric | appropriation_account               | APPROPRIATION ACCOUNT               | number    | number      |
+| Yes      | series tag     | appropriation_account_description   | APPROPRIATION ACCOUNT DESCRIPTION   | text      | text        |
+| Yes      | numeric metric | appropration                        | 2014 APPROPRATION                   | money     | money       |
+| Yes      | numeric metric | revised_appropriation               | 2014 REVISED APPROPRIATION          | money     | money       |
+| Yes      | numeric metric | recommendation                      | 2015 RECOMMENDATION                 | money     | money       |
 ```
 
 ## Time Field
@@ -44,15 +47,6 @@ The dataset details 2015 Budget Recommendations, which is the line-item budget d
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,9 +70,9 @@ metric m:appropriation_account p:integer l:"APPROPRIATION ACCOUNT" t:dataTypeNam
 
 entity e:kzbi-spm5 l:"Budget - 2015 Budget Recommendations - Appropriations" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/kzbi-spm5
 
-property e:kzbi-spm5 t:meta.view d:2017-03-08T00:40:07.617Z v:id=kzbi-spm5 v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org/budget v:averageRating=0 v:name="Budget - 2015 Budget Recommendations - Appropriations" v:attribution="City of Chicago"
+property e:kzbi-spm5 t:meta.view v:id=kzbi-spm5 v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org/budget v:averageRating=0 v:name="Budget - 2015 Budget Recommendations - Appropriations" v:attribution="City of Chicago"
 
-property e:kzbi-spm5 t:meta.view.owner d:2017-03-08T00:40:07.617Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:kzbi-spm5 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 
-property e:kzbi-spm5 t:meta.view.tableauthor d:2017-03-08T00:40:07.617Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:kzbi-spm5 t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```

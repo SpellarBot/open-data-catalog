@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.oregon.gov/api/views/tir3-qx9v/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/oregon-new-markets-tax-credit-nmtc-program-2014-update-1-26-15-bc90e)
-* [Metadata URL](https://data.oregon.gov/api/views/tir3-qx9v)
-* Id = tir3-qx9v
-* Name = Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)
-* Category = Revenue & Expense
-* Tags = [oregon new markets tax credit program, 2014, oregon nmtc, nmtc 2014]
-* Created = 2015-01-26T21:38:18Z
-* Publication Date = 2015-01-26T22:00:14Z
-* Rows Updated = 2015-01-26T21:49:38Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/oregon-new-markets-tax-credit-nmtc-program-2014-update-1-26-15-bc90e) |
+| Metadata | [Link](https://data.oregon.gov/api/views/tir3-qx9v) |
+| Data: JSON | [100 Rows](https://data.oregon.gov/api/views/tir3-qx9v/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.oregon.gov/api/views/tir3-qx9v/rows.csv?max_rows=100) |
+| Host | data.oregon.gov |
+| Id | tir3-qx9v |
+| Name | Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15) |
+| Category | Revenue & Expense |
+| Tags | oregon new markets tax credit program, 2014, oregon nmtc, nmtc 2014 |
+| Created | 2015-01-26T21:38:18Z |
+| Publication Date | 2015-01-26T22:00:14Z |
+| Rows Updated | 2015-01-26T21:49:38Z |
 
 ## Description
 
@@ -20,28 +24,28 @@
 ## Columns
 
 ```ls
-| Name                                                                                       | Field Name                                                                                 | Data Type     | Render Type   | Schema Type    | Included | 
-| ========================================================================================== | ========================================================================================== | ============= | ============= | ============== | ======== | 
-| Issuing Agency                                                                             | issuing_agency                                                                             | text          | text          | series tag     | Yes      | 
-| Report Period End Date                                                                     | report_period_end_date                                                                     | calendar_date | calendar_date | time           | Yes      | 
-| Eligibility Determination made by Community Development Entity                             | eligibility_determination_made_by_community_development_entity                             | text          | text          | series tag     | Yes      | 
-| Quality Active Low Income Community Business                                               | quality_active_low_income_community_business                                               | text          | text          | series tag     | Yes      | 
-| Project Location                                                                           | project_location                                                                           | text          | text          | series tag     | Yes      | 
-| Project Location County Code                                                               | project_location_county_code                                                               | text          | number        | series tag     | Yes      | 
-| Project Location Congressional District                                                    | project_location_congressional_district                                                    | text          | number        | series tag     | Yes      | 
-| Number of Employment for Created Jobs                                                      | number_of_employment_for_created_jobs                                                      | text          | text          | series tag     | Yes      | 
-| Number of Employment for Retained Jobs                                                     | number_of_employment_for_retained_jobs                                                     | text          | text          | series tag     | Yes      | 
-| Number of Employment (created and/or retained) Jobs with Health Benefits                   | number_of_employment_created_and_or_retained_jobs_with_health_benefits                     | number        | number        | numeric metric | Yes      | 
-| Average Annual Salary of Employment                                                        | average_annual_salary_of_employment                                                        | text          | text          | series tag     | Yes      | 
-| Investment Satisfied/Documentation Complete (subject to confidentiality laws)              | investment_satisfied_documentation_complete_subject_to_confidentiality_laws                | text          | text          | series tag     | Yes      | 
-| Total Project Costs                                                                        | total_project_costs                                                                        | number        | number        | numeric metric | Yes      | 
-| Total Amount of State New Market Tax Allocation                                            | total_amount_of_state_new_market_tax_allocation                                            | number        | number        | numeric metric | Yes      | 
-| Total Amount of Federal New Market Tax Allocation                                          | total_amount_of_federal_new_market_tax_allocation                                          | number        | number        | numeric metric | Yes      | 
-| Total Costs of Professional Fees(note: *CDE does not charge fees)                          | total_costs_of_professional_fees_note_cde_does_not_charge_fees                             | number        | number        | numeric metric | Yes      | 
-| Meets Green Project Requirements per OAR 123-630-0090(2)(a)(b)                             | meets_green_project_requirements_per_oar_123_630_0090_2_a_b                                | text          | text          | series tag     | Yes      | 
-| Other Social, Community and/or Economic Impacts                                            | other_social_community_and_or_economic_impacts                                             | text          | text          | series tag     | Yes      | 
-| Tax Credit Recipient Quality Equity Investor                                               | tax_credit_recipient_quality_equity_investor                                               | text          | text          | series tag     | Yes      | 
-| Maximum Amount of Tax Credit Made Available to Quality Equity Investor in Current Tax Year | maximum_amount_of_tax_credit_made_available_to_quality_equity_investor_in_current_tax_year | number        | number        |                | No       | 
+| Included | Schema Type    | Field Name                                                                                 | Name                                                                                       | Data Type     | Render Type   |
+| ======== | ============== | ========================================================================================== | ========================================================================================== | ============= | ============= |
+| Yes      | series tag     | issuing_agency                                                                             | Issuing Agency                                                                             | text          | text          |
+| Yes      | time           | report_period_end_date                                                                     | Report Period End Date                                                                     | calendar_date | calendar_date |
+| Yes      | series tag     | eligibility_determination_made_by_community_development_entity                             | Eligibility Determination made by Community Development Entity                             | text          | text          |
+| Yes      | series tag     | quality_active_low_income_community_business                                               | Quality Active Low Income Community Business                                               | text          | text          |
+| Yes      | series tag     | project_location                                                                           | Project Location                                                                           | text          | text          |
+| Yes      | series tag     | project_location_county_code                                                               | Project Location County Code                                                               | text          | number        |
+| Yes      | series tag     | project_location_congressional_district                                                    | Project Location Congressional District                                                    | text          | number        |
+| Yes      | series tag     | number_of_employment_for_created_jobs                                                      | Number of Employment for Created Jobs                                                      | text          | text          |
+| Yes      | series tag     | number_of_employment_for_retained_jobs                                                     | Number of Employment for Retained Jobs                                                     | text          | text          |
+| Yes      | numeric metric | number_of_employment_created_and_or_retained_jobs_with_health_benefits                     | Number of Employment (created and/or retained) Jobs with Health Benefits                   | number        | number        |
+| Yes      | series tag     | average_annual_salary_of_employment                                                        | Average Annual Salary of Employment                                                        | text          | text          |
+| Yes      | series tag     | investment_satisfied_documentation_complete_subject_to_confidentiality_laws                | Investment Satisfied/Documentation Complete (subject to confidentiality laws)              | text          | text          |
+| Yes      | numeric metric | total_project_costs                                                                        | Total Project Costs                                                                        | number        | number        |
+| Yes      | numeric metric | total_amount_of_state_new_market_tax_allocation                                            | Total Amount of State New Market Tax Allocation                                            | number        | number        |
+| Yes      | numeric metric | total_amount_of_federal_new_market_tax_allocation                                          | Total Amount of Federal New Market Tax Allocation                                          | number        | number        |
+| Yes      | numeric metric | total_costs_of_professional_fees_note_cde_does_not_charge_fees                             | Total Costs of Professional Fees(note: *CDE does not charge fees)                          | number        | number        |
+| Yes      | series tag     | meets_green_project_requirements_per_oar_123_630_0090_2_a_b                                | Meets Green Project Requirements per OAR 123-630-0090(2)(a)(b)                             | text          | text          |
+| Yes      | series tag     | other_social_community_and_or_economic_impacts                                             | Other Social, Community and/or Economic Impacts                                            | text          | text          |
+| Yes      | series tag     | tax_credit_recipient_quality_equity_investor                                               | Tax Credit Recipient Quality Equity Investor                                               | text          | text          |
+| No       |                | maximum_amount_of_tax_credit_made_available_to_quality_equity_investor_in_current_tax_year | Maximum Amount of Tax Credit Made Available to Quality Equity Investor in Current Tax Year | number        | number        |
 ```
 
 ## Time Field
@@ -54,10 +58,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = maximum_amount_of_tax_credit_made_available_to_quality_equity_investor_in_current_tax_year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -85,9 +86,9 @@ metric m:total_costs_of_professional_fees_note_cde_does_not_charge_fees p:intege
 
 entity e:tir3-qx9v l:"Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)" t:url=https://data.oregon.gov/api/views/tir3-qx9v
 
-property e:tir3-qx9v t:meta.view d:2017-03-08T01:17:24.257Z v:id=tir3-qx9v v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)"
+property e:tir3-qx9v t:meta.view v:id=tir3-qx9v v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)"
 
-property e:tir3-qx9v t:meta.view.owner d:2017-03-08T01:17:24.257Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:tir3-qx9v t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 
-property e:tir3-qx9v t:meta.view.tableauthor d:2017-03-08T01:17:24.257Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:tir3-qx9v t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

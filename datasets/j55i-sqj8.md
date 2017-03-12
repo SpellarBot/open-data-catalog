@@ -2,16 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.montgomerycountymd.gov/api/views/j55i-sqj8/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/population-health-measures-age-adjusted-mortality-rates-6a2e8)
-* [Metadata URL](https://data.montgomerycountymd.gov/api/views/j55i-sqj8)
-* Id = j55i-sqj8
-* Name = Population Health Measures: Age-Adjusted Mortality Rates
-* Category = Health and Human Services
-* Tags = [population health, measures, age, adjusted, mortality, rates]
-* Created = 2014-12-23T19:33:23Z
-* Publication Date = 2015-01-05T14:59:24Z
-* Rows Updated = 2015-01-08T06:21:19Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/population-health-measures-age-adjusted-mortality-rates-6a2e8) |
+| Metadata | [Link](https://data.montgomerycountymd.gov/api/views/j55i-sqj8) |
+| Data: JSON | [100 Rows](https://data.montgomerycountymd.gov/api/views/j55i-sqj8/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.montgomerycountymd.gov/api/views/j55i-sqj8/rows.csv?max_rows=100) |
+| Host | data.montgomerycountymd.gov |
+| Id | j55i-sqj8 |
+| Name | Population Health Measures: Age-Adjusted Mortality Rates |
+| Category | Health and Human Services |
+| Tags | population health, measures, age, adjusted, mortality, rates |
+| Created | 2014-12-23T19:33:23Z |
+| Publication Date | 2015-01-05T14:59:24Z |
+| Rows Updated | 2015-01-08T06:21:19Z |
 
 ## Description
 
@@ -23,18 +27,18 @@ Using SAS analytic software, MCDHHS standardizes, aggregates, and calculates age
 ## Columns
 
 ```ls
-| Name                                     | Field Name                               | Data Type | Render Type | Schema Type    | Included | 
-| ======================================== | ======================================== | ========= | =========== | ============== | ======== | 
-| updated_at                               | :updated_at                              | meta_data | meta_data   | time           | No       | 
-| Unique ID                                | unique_id                                | text      | text        | series tag     | Yes      | 
-| 3-Year Period                            | year_range                               | text      | text        | series tag     | Yes      | 
-| Cause of Death                           | cause_of_death                           | text      | text        | series tag     | Yes      | 
-| Race                                     | race                                     | text      | text        | series tag     | Yes      | 
-| Hispanic or Latino Origin                | hispanic_origin                          | text      | text        | series tag     | Yes      | 
-| Gender                                   | gender                                   | text      | text        | series tag     | Yes      | 
-| Age-Adjusted Rate per 100,000 Population | age_adjusted_rate_per_100_000_population | number    | number      | numeric metric | Yes      | 
-| Lower 95% Confidence Interval            | lower_95_confidence_interval             | number    | number      | numeric metric | Yes      | 
-| Upper 95% Confidence Interval            | upper_95_confidence_interval             | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                               | Name                                     | Data Type | Render Type |
+| ======== | ============== | ======================================== | ======================================== | ========= | =========== |
+| No       | time           | :updated_at                              | updated_at                               | meta_data | meta_data   |
+| Yes      | series tag     | unique_id                                | Unique ID                                | text      | text        |
+| Yes      | series tag     | year_range                               | 3-Year Period                            | text      | text        |
+| Yes      | series tag     | cause_of_death                           | Cause of Death                           | text      | text        |
+| Yes      | series tag     | race                                     | Race                                     | text      | text        |
+| Yes      | series tag     | hispanic_origin                          | Hispanic or Latino Origin                | text      | text        |
+| Yes      | series tag     | gender                                   | Gender                                   | text      | text        |
+| Yes      | numeric metric | age_adjusted_rate_per_100_000_population | Age-Adjusted Rate per 100,000 Population | number    | number      |
+| Yes      | numeric metric | lower_95_confidence_interval             | Lower 95% Confidence Interval            | number    | number      |
+| Yes      | numeric metric | upper_95_confidence_interval             | Upper 95% Confidence Interval            | number    | number      |
 ```
 
 ## Time Field
@@ -42,15 +46,6 @@ Using SAS analytic software, MCDHHS standardizes, aggregates, and calculates age
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -74,9 +69,9 @@ metric m:upper_95_confidence_interval l:"Upper 95% Confidence Interval" d:"Upper
 
 entity e:j55i-sqj8 l:"Population Health Measures: Age-Adjusted Mortality Rates" t:url=https://data.montgomerycountymd.gov/api/views/j55i-sqj8
 
-property e:j55i-sqj8 t:meta.view d:2017-03-07T18:00:16.755Z v:id=j55i-sqj8 v:category="Health and Human Services" v:averageRating=0 v:name="Population Health Measures: Age-Adjusted Mortality Rates"
+property e:j55i-sqj8 t:meta.view v:id=j55i-sqj8 v:category="Health and Human Services" v:averageRating=0 v:name="Population Health Measures: Age-Adjusted Mortality Rates"
 
-property e:j55i-sqj8 t:meta.view.owner d:2017-03-07T18:00:16.755Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:j55i-sqj8 t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
 
-property e:j55i-sqj8 t:meta.view.tableauthor d:2017-03-07T18:00:16.755Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:j55i-sqj8 t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
 ```

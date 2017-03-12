@@ -2,18 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.nola.gov/api/views/vnht-dg7x/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/citizen-satisfaction-with-nopd-2009-present)
-* [Metadata URL](https://data.nola.gov/api/views/vnht-dg7x)
-* Id = vnht-dg7x
-* Name = Citizen Satisfaction With NOPD (2009 - Present)
-* Attribution = New Orleans Crime Coalition's Citizen Satisfaction Survey
-* [Attribution Link](http://crimecoalitionnola.com/)
-* Category = Public Safety and Preparedness
-* Tags = [resultsnola]
-* Created = 2015-11-05T16:40:05Z
-* Publication Date = 2015-11-05T16:42:03Z
-* Rows Updated = 2015-11-05T16:40:17Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/citizen-satisfaction-with-nopd-2009-present) |
+| Metadata | [Link](https://data.nola.gov/api/views/vnht-dg7x) |
+| Data: JSON | [100 Rows](https://data.nola.gov/api/views/vnht-dg7x/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.nola.gov/api/views/vnht-dg7x/rows.csv?max_rows=100) |
+| Host | data.nola.gov |
+| Id | vnht-dg7x |
+| Name | Citizen Satisfaction With NOPD (2009 - Present) |
+| Attribution | New Orleans Crime Coalition's Citizen Satisfaction Survey |
+| Category | Public Safety and Preparedness |
+| Tags | resultsnola |
+| Created | 2015-11-05T16:40:05Z |
+| Publication Date | 2015-11-05T16:42:03Z |
+| Rows Updated | 2015-11-05T16:40:17Z |
 
 ## Description
 
@@ -22,16 +25,16 @@ This data comes from a survey conducted by the New Orleans Crime Coalition's Cit
 ## Columns
 
 ```ls
-| Name           | Field Name     | Data Type     | Render Type   | Schema Type    | Included | 
-| ============== | ============== | ============= | ============= | ============== | ======== | 
-| RowID          | rowid          | text          | text          | series tag     | Yes      | 
-| IndicatorName  | indicatorname  | text          | text          | series tag     | Yes      | 
-| IndicatorLabel | indicatorlabel | text          | text          | series tag     | Yes      | 
-| Date           | date           | calendar_date | calendar_date | time           | Yes      | 
-| DateLabel      | datelabel      | text          | text          | series tag     | Yes      | 
-| Month          | month          | text          | text          |                | No       | 
-| Year           | year           | number        | number        |                | No       | 
-| IndicatorValue | indicatorvalue | number        | number        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name     | Name           | Data Type     | Render Type   |
+| ======== | ============== | ============== | ============== | ============= | ============= |
+| Yes      | series tag     | rowid          | RowID          | text          | text          |
+| Yes      | series tag     | indicatorname  | IndicatorName  | text          | text          |
+| Yes      | series tag     | indicatorlabel | IndicatorLabel | text          | text          |
+| Yes      | time           | date           | Date           | calendar_date | calendar_date |
+| Yes      | series tag     | datelabel      | DateLabel      | text          | text          |
+| No       |                | month          | Month          | text          | text          |
+| No       |                | year           | Year           | number        | number        |
+| Yes      | numeric metric | indicatorvalue | IndicatorValue | number        | number        |
 ```
 
 ## Time Field
@@ -44,10 +47,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = month,year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -67,11 +67,11 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:vnht-dg7x l:"Citizen Satisfaction With NOPD (2009 - Present)" t:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey" t:url=https://data.nola.gov/api/views/vnht-dg7x
 
-property e:vnht-dg7x t:meta.view d:2017-03-07T22:56:37.071Z v:id=vnht-dg7x v:category="Public Safety and Preparedness" v:attributionLink=http://crimecoalitionnola.com/ v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey"
+property e:vnht-dg7x t:meta.view v:id=vnht-dg7x v:category="Public Safety and Preparedness" v:attributionLink=http://crimecoalitionnola.com/ v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey"
 
-property e:vnht-dg7x t:meta.view.owner d:2017-03-07T22:56:37.071Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:vnht-dg7x t:meta.view.tableauthor d:2017-03-07T22:56:37.071Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core d:2017-03-07T22:56:37.071Z v:Contact_Email=data@nola.gov
+property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

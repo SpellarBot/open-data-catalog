@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.austintexas.gov/api/views/b2pc-2s8n/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/campaign-finance-data-report-detail-dataset)
-* Id = b2pc-2s8n
-* Name = Campaign Finance Data - Report Detail Dataset
-* Category = Government
-* Tags = [election, financial, campaign finance, contributions, expenditures, city clerk]
-* Created = 2016-01-14T17:17:15Z
-* Publication Date = 2016-10-28T21:03:32Z
-* Rows Updated = 2017-01-23T15:48:17Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/campaign-finance-data-report-detail-dataset) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/b2pc-2s8n) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/b2pc-2s8n/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/b2pc-2s8n/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | b2pc-2s8n |
+| Name | Campaign Finance Data - Report Detail Dataset |
+| Category | Government |
+| Tags | election, financial, campaign finance, contributions, expenditures, city clerk |
+| Created | 2016-01-14T17:17:15Z |
+| Publication Date | 2016-10-28T21:03:32Z |
+| Rows Updated | 2017-01-23T15:48:17Z |
 
 ## Description
 
@@ -21,43 +26,43 @@ A data dictionary for this dataset is available at http://www.austintexas.gov/ed
 ## Columns
 
 ```ls
-| Name                       | Field Name                 | Data Type     | Render Type   | Schema Type    | Included | 
-| ========================== | ========================== | ============= | ============= | ============== | ======== | 
-| Filer_Name                 | filer_name                 | text          | text          | series tag     | Yes      | 
-| Form                       | form_type                  | text          | text          | series tag     | Yes      | 
-| Report_Type                | report_type                | text          | text          | series tag     | Yes      | 
-| Report_Type2               | report_type2               | text          | text          | series tag     | Yes      | 
-| View_Report                | link_to_report             | url           | url           | series tag     | Yes      | 
-| Date_Filed                 | date_filed                 | calendar_date | calendar_date | time           | Yes      | 
-| Filer_Address              | filer_address_2            | text          | text          | series tag     | Yes      | 
-| Filer_City_State_Zip       | filer_city                 | text          | text          | series tag     | Yes      | 
-| Report_ID                  | report_id                  | text          | text          | series tag     | Yes      | 
-| Treasurer_Name             | treasurer_name             | text          | text          | series tag     | Yes      | 
-| Treasurer_Address          | treasurer_address_2        | text          | text          | series tag     | Yes      | 
-| Treasurer_City_State_Zip   | treasurer_city             | text          | text          | series tag     | Yes      | 
-| Date_Due                   | date_due                   | calendar_date | calendar_date |                | No       | 
-| Name_as_Reported           | name_as_reported           | text          | text          | series tag     | Yes      | 
-| Filer_Phone                | filer_phone                | text          | text          | series tag     | Yes      | 
-| Treasurer_State            | treasurer_state            | text          | text          | series tag     | Yes      | 
-| Treasurer_Zip_Code         | treasurer_zip_code         | text          | text          | series tag     | Yes      | 
-| Treasurer_Phone            | treasurer_phone            | text          | text          | series tag     | Yes      | 
-| Period_From                | period_from                | calendar_date | calendar_date |                | No       | 
-| Period_To                  | period_to                  | calendar_date | calendar_date |                | No       | 
-| Election_Date              | election_date              | calendar_date | calendar_date |                | No       | 
-| Election_Type              | election_type              | text          | text          | series tag     | Yes      | 
-| Office_Held                | office_held                | text          | text          | series tag     | Yes      | 
-| Office_Sought              | office_sought              | text          | text          | series tag     | Yes      | 
-| Unitemized_Contrib_Total   | unitemized_contrib_total   | money         | money         | numeric metric | Yes      | 
-| Contrib_Total              | contrib_total              | money         | money         | numeric metric | Yes      | 
-| Unitemized_Expend_Total    | unitemized_expend_total    | money         | money         | numeric metric | Yes      | 
-| Expend_Total               | expend_total               | money         | money         | numeric metric | Yes      | 
-| Contrib_Balance            | contrib_balance            | money         | money         | numeric metric | Yes      | 
-| Outstand_Loan              | outstand_loan              | money         | money         | numeric metric | Yes      | 
-| Unitemized_InKind_Total    | unitemized_inkind_total    | money         | money         | numeric metric | Yes      | 
-| Unitemized_Pledge_Total    | unitemized_pledge_total    | money         | money         | numeric metric | Yes      | 
-| Unitemized_Loan_Total      | unitemized_loan_total      | money         | money         | numeric metric | Yes      | 
-| Unitemized_Unpaid_Total    | unitemized_unpaid_total    | money         | money         | numeric metric | Yes      | 
-| Unitemized_Cred_Card_Total | unitemized_cred_card_total | money         | money         | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                 | Name                       | Data Type     | Render Type   |
+| ======== | ============== | ========================== | ========================== | ============= | ============= |
+| Yes      | series tag     | filer_name                 | Filer_Name                 | text          | text          |
+| Yes      | series tag     | form_type                  | Form                       | text          | text          |
+| Yes      | series tag     | report_type                | Report_Type                | text          | text          |
+| Yes      | series tag     | report_type2               | Report_Type2               | text          | text          |
+| Yes      | series tag     | link_to_report             | View_Report                | url           | url           |
+| Yes      | time           | date_filed                 | Date_Filed                 | calendar_date | calendar_date |
+| Yes      | series tag     | filer_address_2            | Filer_Address              | text          | text          |
+| Yes      | series tag     | filer_city                 | Filer_City_State_Zip       | text          | text          |
+| Yes      | series tag     | report_id                  | Report_ID                  | text          | text          |
+| Yes      | series tag     | treasurer_name             | Treasurer_Name             | text          | text          |
+| Yes      | series tag     | treasurer_address_2        | Treasurer_Address          | text          | text          |
+| Yes      | series tag     | treasurer_city             | Treasurer_City_State_Zip   | text          | text          |
+| No       |                | date_due                   | Date_Due                   | calendar_date | calendar_date |
+| Yes      | series tag     | name_as_reported           | Name_as_Reported           | text          | text          |
+| Yes      | series tag     | filer_phone                | Filer_Phone                | text          | text          |
+| Yes      | series tag     | treasurer_state            | Treasurer_State            | text          | text          |
+| Yes      | series tag     | treasurer_zip_code         | Treasurer_Zip_Code         | text          | text          |
+| Yes      | series tag     | treasurer_phone            | Treasurer_Phone            | text          | text          |
+| No       |                | period_from                | Period_From                | calendar_date | calendar_date |
+| No       |                | period_to                  | Period_To                  | calendar_date | calendar_date |
+| No       |                | election_date              | Election_Date              | calendar_date | calendar_date |
+| Yes      | series tag     | election_type              | Election_Type              | text          | text          |
+| Yes      | series tag     | office_held                | Office_Held                | text          | text          |
+| Yes      | series tag     | office_sought              | Office_Sought              | text          | text          |
+| Yes      | numeric metric | unitemized_contrib_total   | Unitemized_Contrib_Total   | money         | money         |
+| Yes      | numeric metric | contrib_total              | Contrib_Total              | money         | money         |
+| Yes      | numeric metric | unitemized_expend_total    | Unitemized_Expend_Total    | money         | money         |
+| Yes      | numeric metric | expend_total               | Expend_Total               | money         | money         |
+| Yes      | numeric metric | contrib_balance            | Contrib_Balance            | money         | money         |
+| Yes      | numeric metric | outstand_loan              | Outstand_Loan              | money         | money         |
+| Yes      | numeric metric | unitemized_inkind_total    | Unitemized_InKind_Total    | money         | money         |
+| Yes      | numeric metric | unitemized_pledge_total    | Unitemized_Pledge_Total    | money         | money         |
+| Yes      | numeric metric | unitemized_loan_total      | Unitemized_Loan_Total      | money         | money         |
+| Yes      | numeric metric | unitemized_unpaid_total    | Unitemized_Unpaid_Total    | money         | money         |
+| Yes      | numeric metric | unitemized_cred_card_total | Unitemized_Cred_Card_Total | money         | money         |
 ```
 
 ## Time Field
@@ -70,10 +75,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = election_date,date_due,period_from,period_to
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -91,9 +93,9 @@ series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z t:filer_city="Austin, TX, 78756" t
 ```ls
 entity e:b2pc-2s8n l:"Campaign Finance Data - Report Detail Dataset" t:url=https://data.austintexas.gov/api/views/b2pc-2s8n
 
-property e:b2pc-2s8n t:meta.view d:2017-03-03T14:39:20.383Z v:id=b2pc-2s8n v:category=Government v:averageRating=0 v:name="Campaign Finance Data - Report Detail Dataset"
+property e:b2pc-2s8n t:meta.view v:id=b2pc-2s8n v:category=Government v:averageRating=0 v:name="Campaign Finance Data - Report Detail Dataset"
 
-property e:b2pc-2s8n t:meta.view.owner d:2017-03-03T14:39:20.383Z v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:roleName=editor v:displayName="Kathryn Darnall"
+property e:b2pc-2s8n t:meta.view.owner v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:roleName=editor v:displayName="Kathryn Darnall"
 
-property e:b2pc-2s8n t:meta.view.tableauthor d:2017-03-03T14:39:20.383Z v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:roleName=editor v:displayName="Kathryn Darnall"
+property e:b2pc-2s8n t:meta.view.tableauthor v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:roleName=editor v:displayName="Kathryn Darnall"
 ```

@@ -2,39 +2,39 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.lacity.org/api/views/azy9-n2gp/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/lapd-crime-and-collision-raw-data-for-2014)
-* [Metadata URL](https://data.lacity.org/api/views/azy9-n2gp)
-* Id = azy9-n2gp
-* Name = LAPD Crime and Collision Raw Data for 2014
-* Category = A Safe City
-* Tags = [police, crime, collisions, lapd, traffic, safety]
-* Created = 2015-01-19T21:26:28Z
-* Publication Date = 2015-12-04T21:29:36Z
-* Rows Updated = 2015-01-19T21:35:52Z
-
-## Description
-
-
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/lapd-crime-and-collision-raw-data-for-2014) |
+| Metadata | [Link](https://data.lacity.org/api/views/azy9-n2gp) |
+| Data: JSON | [100 Rows](https://data.lacity.org/api/views/azy9-n2gp/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.lacity.org/api/views/azy9-n2gp/rows.csv?max_rows=100) |
+| Host | data.lacity.org |
+| Id | azy9-n2gp |
+| Name | LAPD Crime and Collision Raw Data for 2014 |
+| Category | A Safe City |
+| Tags | police, crime, collisions, lapd, traffic, safety |
+| Created | 2015-01-19T21:26:28Z |
+| Publication Date | 2015-12-04T21:29:36Z |
+| Rows Updated | 2015-01-19T21:35:52Z |
 
 ## Columns
 
 ```ls
-| Name         | Field Name   | Data Type     | Render Type   | Schema Type    | Included | 
-| ============ | ============ | ============= | ============= | ============== | ======== | 
-| Date Rptd    | date_rptd    | calendar_date | calendar_date | time           | Yes      | 
-| DR NO        | dr_no        | number        | text          | numeric metric | Yes      | 
-| DATE OCC     | date_occ     | calendar_date | calendar_date |                | No       | 
-| TIME OCC     | time_occ     | number        | text          | numeric metric | Yes      | 
-| AREA         | area         | number        | text          | numeric metric | Yes      | 
-| AREA NAME    | area_name    | text          | text          | series tag     | Yes      | 
-| RD           | rd           | number        | text          |                | No       | 
-| Crm Cd       | crm_cd       | number        | text          | numeric metric | Yes      | 
-| Crm Cd Desc  | crm_cd_desc  | text          | text          | series tag     | Yes      | 
-| Status       | status       | text          | text          | series tag     | Yes      | 
-| Status Desc  | status_desc  | text          | text          | series tag     | Yes      | 
-| LOCATION     | location     | text          | text          | series tag     | Yes      | 
-| Cross Street | cross_street | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name   | Name         | Data Type     | Render Type   |
+| ======== | ============== | ============ | ============ | ============= | ============= |
+| Yes      | time           | date_rptd    | Date Rptd    | calendar_date | calendar_date |
+| Yes      | numeric metric | dr_no        | DR NO        | number        | text          |
+| No       |                | date_occ     | DATE OCC     | calendar_date | calendar_date |
+| Yes      | numeric metric | time_occ     | TIME OCC     | number        | text          |
+| Yes      | numeric metric | area         | AREA         | number        | text          |
+| Yes      | series tag     | area_name    | AREA NAME    | text          | text          |
+| No       |                | rd           | RD           | number        | text          |
+| Yes      | numeric metric | crm_cd       | Crm Cd       | number        | text          |
+| Yes      | series tag     | crm_cd_desc  | Crm Cd Desc  | text          | text          |
+| Yes      | series tag     | status       | Status       | text          | text          |
+| Yes      | series tag     | status_desc  | Status Desc  | text          | text          |
+| Yes      | series tag     | location     | LOCATION     | text          | text          |
+| Yes      | series tag     | cross_street | Cross Street | text          | text          |
 ```
 
 ## Time Field
@@ -47,10 +47,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = date_occ,rd
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -76,11 +73,11 @@ metric m:crm_cd p:integer l:"Crm Cd" t:dataTypeName=number
 
 entity e:azy9-n2gp l:"LAPD Crime and Collision Raw Data for 2014" t:url=https://data.lacity.org/api/views/azy9-n2gp
 
-property e:azy9-n2gp t:meta.view d:2017-03-08T01:44:16.035Z v:id=azy9-n2gp v:category="A Safe City" v:averageRating=0 v:name="LAPD Crime and Collision Raw Data for 2014"
+property e:azy9-n2gp t:meta.view v:id=azy9-n2gp v:category="A Safe City" v:averageRating=0 v:name="LAPD Crime and Collision Raw Data for 2014"
 
-property e:azy9-n2gp t:meta.view.license d:2017-03-08T01:44:16.035Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:azy9-n2gp t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:azy9-n2gp t:meta.view.owner d:2017-03-08T01:44:16.035Z v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
+property e:azy9-n2gp t:meta.view.owner v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
 
-property e:azy9-n2gp t:meta.view.tableauthor d:2017-03-08T01:44:16.035Z v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
+property e:azy9-n2gp t:meta.view.tableauthor v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
 ```

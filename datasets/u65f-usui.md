@@ -49,11 +49,11 @@ Format & Zone = yyyy
 ```ls
 entity e:u65f-usui l:"Abortions By County, 1995-2012" t:attribution="Illinois Department of Public Health, Office of Finance and Administration, Division of Vital Records" t:url=https://data.illinois.gov/api/views/u65f-usui
 
-property e:u65f-usui t:meta.view d:2017-03-10T14:33:29.635Z v:id=u65f-usui v:category=Health v:averageRating=0 v:name="Abortions By County, 1995-2012" v:attribution="Illinois Department of Public Health, Office of Finance and Administration, Division of Vital Records"
+property e:u65f-usui t:meta.view v:id=u65f-usui v:category=Health v:averageRating=0 v:name="Abortions By County, 1995-2012" v:attribution="Illinois Department of Public Health, Office of Finance and Administration, Division of Vital Records"
 
-property e:u65f-usui t:meta.view.license d:2017-03-10T14:33:29.635Z v:name="Public Domain"
+property e:u65f-usui t:meta.view.license v:name="Public Domain"
 
-property e:u65f-usui t:meta.view.owner d:2017-03-10T14:33:29.635Z v:id=pf5f-nyht v:screenName="Kathryn M" v:roleName=publisher v:displayName="Kathryn M"
+property e:u65f-usui t:meta.view.owner v:id=pf5f-nyht v:screenName="Kathryn M" v:roleName=publisher v:displayName="Kathryn M"
 
-property e:u65f-usui t:meta.view.tableauthor d:2017-03-10T14:33:29.635Z v:id=pf5f-nyht v:screenName="Kathryn M" v:roleName=publisher v:displayName="Kathryn M"
+property e:u65f-usui t:meta.view.tableauthor v:id=pf5f-nyht v:screenName="Kathryn M" v:roleName=publisher v:displayName="Kathryn M"
 ```

@@ -67,11 +67,11 @@ metric m:loworg p:integer l:LowOrg t:dataTypeName=number
 
 entity e:vv8b-tzy8 l:"Non-General Fund Expenditures 2010" t:attribution="King County" t:url=https://data.kingcounty.gov/api/views/vv8b-tzy8
 
-property e:vv8b-tzy8 t:meta.view d:2017-03-10T14:37:18.404Z v:id=vv8b-tzy8 v:category=Budget v:attributionLink=http://www.kingcounty.gov v:averageRating=100 v:name="Non-General Fund Expenditures 2010" v:attribution="King County"
+property e:vv8b-tzy8 t:meta.view v:id=vv8b-tzy8 v:category=Budget v:attributionLink=http://www.kingcounty.gov v:averageRating=100 v:name="Non-General Fund Expenditures 2010" v:attribution="King County"
 
-property e:vv8b-tzy8 t:meta.view.license d:2017-03-10T14:37:18.404Z v:name="Public Domain"
+property e:vv8b-tzy8 t:meta.view.license v:name="Public Domain"
 
-property e:vv8b-tzy8 t:meta.view.owner d:2017-03-10T14:37:18.404Z v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:roleName=administrator v:displayName="King County Webteam"
+property e:vv8b-tzy8 t:meta.view.owner v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:roleName=administrator v:displayName="King County Webteam"
 
-property e:vv8b-tzy8 t:meta.view.tableauthor d:2017-03-10T14:37:18.404Z v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:roleName=administrator v:displayName="King County Webteam"
+property e:vv8b-tzy8 t:meta.view.tableauthor v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:roleName=administrator v:displayName="King County Webteam"
 ```

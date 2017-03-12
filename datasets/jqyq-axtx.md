@@ -2,17 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.nola.gov/api/views/jqyq-axtx/rows.json?max_rows=100)
-* [Catalog URL](https://catalog.data.gov/dataset/resultsnola)
-* [Metadata URL](https://data.nola.gov/api/views/jqyq-axtx)
-* Id = jqyq-axtx
-* Name = ResultsNOLA (historic)
-* Attribution = City of New Orleans
-* Category = City Administration
-* Tags = [resultsnola]
-* Created = 2015-11-10T14:28:12Z
-* Publication Date = 2016-09-13T14:20:34Z
-* Rows Updated = 2016-09-13T14:17:18Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/resultsnola) |
+| Metadata | [Link](https://data.nola.gov/api/views/jqyq-axtx) |
+| Data: JSON | [100 Rows](https://data.nola.gov/api/views/jqyq-axtx/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.nola.gov/api/views/jqyq-axtx/rows.csv?max_rows=100) |
+| Host | data.nola.gov |
+| Id | jqyq-axtx |
+| Name | ResultsNOLA (historic) |
+| Attribution | City of New Orleans |
+| Category | City Administration |
+| Tags | resultsnola |
+| Created | 2015-11-10T14:28:12Z |
+| Publication Date | 2016-09-13T14:20:34Z |
+| Rows Updated | 2016-09-13T14:17:18Z |
 
 ## Description
 
@@ -21,28 +25,28 @@ This data includes all of the key performance indicators for ResultsNOLA, the Ci
 ## Columns
 
 ```ls
-| Name               | Field Name         | Data Type     | Render Type   | Schema Type    | Included | 
-| ================== | ================== | ============= | ============= | ============== | ======== | 
-| IndicatorID        | indicatorid        | text          | number        | series tag     | Yes      | 
-| StrategyID         | strategyid         | text          | number        | series tag     | Yes      | 
-| Organization       | organization       | text          | text          | series tag     | Yes      | 
-| Name               | name               | text          | text          | series tag     | Yes      | 
-| Type               | type               | text          | text          | series tag     | Yes      | 
-| Target             | target             | text          | text          | series tag     | Yes      | 
-| Seasonality        | seasonality        | text          | text          | series tag     | Yes      | 
-| Direction          | direction          | text          | text          | series tag     | Yes      | 
-| value              | value              | number        | number        | numeric metric | Yes      | 
-| RowID              | rowid              | text          | text          | series tag     | Yes      | 
-| Date               | date               | calendar_date | calendar_date | time           | Yes      | 
-| Year               | year               | number        | number        |                | No       | 
-| Quarter            | quarter            | number        | number        | numeric metric | Yes      | 
-| DateLabel          | datelabel          | text          | text          | series tag     | Yes      | 
-| Total              | total              | number        | number        | numeric metric | Yes      | 
-| Percent            | percent            | number        | number        | numeric metric | Yes      | 
-| YTD                | ytd                | number        | number        | numeric metric | Yes      | 
-| Quarter_Label      | quarter_label      | text          | text          |                | No       | 
-| Action_Aggregation | action_aggregation | text          | text          | series tag     | Yes      | 
-| Note               | note               | text          | text          | series tag     | Yes      | 
+| Included | Schema Type    | Field Name         | Name               | Data Type     | Render Type   |
+| ======== | ============== | ================== | ================== | ============= | ============= |
+| Yes      | series tag     | indicatorid        | IndicatorID        | text          | number        |
+| Yes      | series tag     | strategyid         | StrategyID         | text          | number        |
+| Yes      | series tag     | organization       | Organization       | text          | text          |
+| Yes      | series tag     | name               | Name               | text          | text          |
+| Yes      | series tag     | type               | Type               | text          | text          |
+| Yes      | series tag     | target             | Target             | text          | text          |
+| Yes      | series tag     | seasonality        | Seasonality        | text          | text          |
+| Yes      | series tag     | direction          | Direction          | text          | text          |
+| Yes      | numeric metric | value              | value              | number        | number        |
+| Yes      | series tag     | rowid              | RowID              | text          | text          |
+| Yes      | time           | date               | Date               | calendar_date | calendar_date |
+| No       |                | year               | Year               | number        | number        |
+| Yes      | numeric metric | quarter            | Quarter            | number        | number        |
+| Yes      | series tag     | datelabel          | DateLabel          | text          | text          |
+| Yes      | numeric metric | total              | Total              | number        | number        |
+| Yes      | numeric metric | percent            | Percent            | number        | number        |
+| Yes      | numeric metric | ytd                | YTD                | number        | number        |
+| No       |                | quarter_label      | Quarter_Label      | text          | text          |
+| Yes      | series tag     | action_aggregation | Action_Aggregation | text          | text          |
+| Yes      | series tag     | note               | Note               | text          | text          |
 ```
 
 ## Time Field
@@ -55,10 +59,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = quarter_label,year
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -86,11 +87,11 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:jqyq-axtx l:"ResultsNOLA (historic)" t:attribution="City of New Orleans" t:url=https://data.nola.gov/api/views/jqyq-axtx
 
-property e:jqyq-axtx t:meta.view d:2017-03-08T00:15:31.886Z v:id=jqyq-axtx v:category="City Administration" v:averageRating=0 v:name="ResultsNOLA (historic)" v:attribution="City of New Orleans"
+property e:jqyq-axtx t:meta.view v:id=jqyq-axtx v:category="City Administration" v:averageRating=0 v:name="ResultsNOLA (historic)" v:attribution="City of New Orleans"
 
-property e:jqyq-axtx t:meta.view.owner d:2017-03-08T00:15:31.886Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:jqyq-axtx t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:jqyq-axtx t:meta.view.tableauthor d:2017-03-08T00:15:31.886Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:jqyq-axtx t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:jqyq-axtx t:meta.view.metadata.custom_fields.common_core d:2017-03-08T00:15:31.886Z v:Contact_Email=data@nola.gov
+property e:jqyq-axtx t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```

@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.cdc.gov/api/views/rpjd-ejph/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/table-iii-deaths-in-122-u-s-cities)
-* Id = rpjd-ejph
-* Name = TABLE III. Deaths in 122 U.S. cities
-* Attribution = National Center for Immunization and Respiratory Diseases (NCIRD)
-* Category = NNDSS
-* Tags = [2016, 122 cities, mortality, death, pneumonia, influenza]
-* Created = 2016-01-12T14:32:29Z
-* Publication Date = 2016-10-06T16:10:10Z
-* Rows Updated = 2016-10-06T02:20:55Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/table-iii-deaths-in-122-u-s-cities) |
+| Metadata | [Link](https://data.cdc.gov/api/views/rpjd-ejph) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/rpjd-ejph/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/rpjd-ejph/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
+| Id | rpjd-ejph |
+| Name | TABLE III. Deaths in 122 U.S. cities |
+| Attribution | National Center for Immunization and Respiratory Diseases (NCIRD) |
+| Category | NNDSS |
+| Tags | 2016, 122 cities, mortality, death, pneumonia, influenza |
+| Created | 2016-01-12T14:32:29Z |
+| Publication Date | 2016-10-06T16:10:10Z |
+| Rows Updated | 2016-10-06T02:20:55Z |
 
 ## Description
 
@@ -28,25 +33,25 @@ U: Unavailable. ?: No reported cases.
 ## Columns
 
 ```ls
-| Name                                         | Field Name                            | Data Type | Render Type | Schema Type    | Included | 
-| ============================================ | ===================================== | ========= | =========== | ============== | ======== | 
-| Reporting Area                               | reporting_area                        | text      | text        | series tag     | Yes      | 
-| MMWR YEAR                                    | mmwr_year                             | number    | number      |                | No       | 
-| MMWR WEEK                                    | mmwr_week                             | number    | number      |                | No       | 
-| All causes, by age (years), All Ages**       | all_causes_by_age_years_all_ages      | number    | number      | numeric metric | Yes      | 
-| All causes, by age (years), All Ages**, flag | all_causes_by_age_years_all_ages_flag | number    | text        | numeric metric | Yes      | 
-| All causes, by age (years), ?65              | all_causes_by_age_years_65            | number    | number      | numeric metric | Yes      | 
-| All causes, by age (years), ?65, flag        | all_causes_by_age_years_65_flag       | number    | text        | numeric metric | Yes      | 
-| All causes, by age (years), 45?64            | all_causes_by_age_years_45_64         | number    | number      | numeric metric | Yes      | 
-| All causes, by age (years), 45?64, flag      | all_causes_by_age_years_45_64_flag    | number    | text        | numeric metric | Yes      | 
-| All causes, by age (years), 25?44            | all_causes_by_age_years_25_44         | number    | number      | numeric metric | Yes      | 
-| All causes, by age (years), 25?44, flag      | all_causes_by_age_years_25_44_flag    | number    | text        | numeric metric | Yes      | 
-| All causes, by age (years), 1?24             | all_causes_by_age_years_1_24          | number    | number      | numeric metric | Yes      | 
-| All causes, by age (years), 1?24, flag       | all_causes_by_age_years_1_24_flag     | number    | text        | numeric metric | Yes      | 
-| All causes, by age (years), LT 1             | all_causes_by_age_years_lt_1          | number    | number      | numeric metric | Yes      | 
-| All causes, by age (years), LT 1, flag       | all_causes_by_age_years_lt_1_flag     | number    | text        | numeric metric | Yes      | 
-| P&I? Total                                   | p_i_total                             | number    | number      | numeric metric | Yes      | 
-| P&I? Total, flag                             | p_i_total_flag                        | number    | text        | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name                            | Name                                         | Data Type | Render Type |
+| ======== | ============== | ===================================== | ============================================ | ========= | =========== |
+| Yes      | series tag     | reporting_area                        | Reporting Area                               | text      | text        |
+| No       |                | mmwr_year                             | MMWR YEAR                                    | number    | number      |
+| No       |                | mmwr_week                             | MMWR WEEK                                    | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_all_ages      | All causes, by age (years), All Ages**       | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_all_ages_flag | All causes, by age (years), All Ages**, flag | number    | text        |
+| Yes      | numeric metric | all_causes_by_age_years_65            | All causes, by age (years), ?65              | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_65_flag       | All causes, by age (years), ?65, flag        | number    | text        |
+| Yes      | numeric metric | all_causes_by_age_years_45_64         | All causes, by age (years), 45?64            | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_45_64_flag    | All causes, by age (years), 45?64, flag      | number    | text        |
+| Yes      | numeric metric | all_causes_by_age_years_25_44         | All causes, by age (years), 25?44            | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_25_44_flag    | All causes, by age (years), 25?44, flag      | number    | text        |
+| Yes      | numeric metric | all_causes_by_age_years_1_24          | All causes, by age (years), 1?24             | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_1_24_flag     | All causes, by age (years), 1?24, flag       | number    | text        |
+| Yes      | numeric metric | all_causes_by_age_years_lt_1          | All causes, by age (years), LT 1             | number    | number      |
+| Yes      | numeric metric | all_causes_by_age_years_lt_1_flag     | All causes, by age (years), LT 1, flag       | number    | text        |
+| Yes      | numeric metric | p_i_total                             | P&I? Total                                   | number    | number      |
+| Yes      | numeric metric | p_i_total_flag                        | P&I? Total, flag                             | number    | text        |
 ```
 
 ## Time Field
@@ -59,10 +64,7 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Metric Prefix = 
-Included Fields = *
 Excluded Fields = mmwr_year,mmwr_week
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -94,11 +96,11 @@ metric m:p_i_total p:integer l:"P&I? Total" t:dataTypeName=number
 
 entity e:rpjd-ejph l:"TABLE III. Deaths in 122 U.S. cities" t:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)" t:url=https://data.cdc.gov/api/views/rpjd-ejph
 
-property e:rpjd-ejph t:meta.view d:2017-03-03T14:28:08.664Z v:id=rpjd-ejph v:category=NNDSS v:averageRating=0 v:name="TABLE III. Deaths in 122 U.S. cities" v:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)"
+property e:rpjd-ejph t:meta.view v:id=rpjd-ejph v:category=NNDSS v:averageRating=0 v:name="TABLE III. Deaths in 122 U.S. cities" v:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)"
 
-property e:rpjd-ejph t:meta.view.owner d:2017-03-03T14:28:08.664Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:rpjd-ejph t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:rpjd-ejph t:meta.view.tableauthor d:2017-03-03T14:28:08.664Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:rpjd-ejph t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:rpjd-ejph t:meta.view.metadata.custom_fields.common_core d:2017-03-03T14:28:08.664Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:rpjd-ejph t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```

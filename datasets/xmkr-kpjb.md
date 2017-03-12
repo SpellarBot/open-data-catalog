@@ -2,16 +2,21 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.iowa.gov/api/views/xmkr-kpjb/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/levy-authority-rates-by-fiscal-year)
-* Id = xmkr-kpjb
-* Name = Levy Authority Rates By Fiscal Year
-* Attribution = Iowa Department of Management, Local Budget and Finance
-* Category = Government
-* Tags = [taxes, property taxes, rates, levy authorities, tif]
-* Created = 2014-11-14T19:11:41Z
-* Publication Date = 2016-12-22T21:12:35Z
-* Rows Updated = 2016-12-22T21:12:08Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/levy-authority-rates-by-fiscal-year) |
+| Metadata | [Link](https://data.iowa.gov/api/views/xmkr-kpjb) |
+| Data: JSON | [100 Rows](https://data.iowa.gov/api/views/xmkr-kpjb/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.iowa.gov/api/views/xmkr-kpjb/rows.csv?max_rows=100) |
+| Host | data.iowa.gov |
+| Id | xmkr-kpjb |
+| Name | Levy Authority Rates By Fiscal Year |
+| Attribution | Iowa Department of Management, Local Budget and Finance |
+| Category | Government |
+| Tags | taxes, property taxes, rates, levy authorities, tif |
+| Created | 2014-11-14T19:11:41Z |
+| Publication Date | 2016-12-22T21:12:35Z |
+| Rows Updated | 2016-12-22T21:12:08Z |
 
 ## Description
 
@@ -20,22 +25,22 @@ This dataset contains property tax rates for all levy authorities within the Sta
 ## Columns
 
 ```ls
-| Name               | Field Name         | Data Type | Render Type | Schema Type    | Included | 
-| ================== | ================== | ========= | =========== | ============== | ======== | 
-| Fiscal Year        | fiscal_year        | number    | number      | time           | Yes      | 
-| Type               | type               | text      | text        | series tag     | Yes      | 
-| Levy Authority #   | levy_authority_1   | text      | text        | series tag     | Yes      | 
-| Levy Authority     | levy_authority_2   | text      | text        | series tag     | Yes      | 
-| County FIP         | county_fip         | number    | text        | numeric metric | Yes      | 
-| County Name        | county_name        | text      | text        | series tag     | Yes      | 
-| City FIPS          | city_fips          | number    | text        | numeric metric | Yes      | 
-| City Name          | city_name          | text      | text        | series tag     | Yes      | 
-| Co Subdivision FIP | co_subdivision_fip | number    | text        | numeric metric | Yes      | 
-| Urban Rate         | urban_rate         | number    | number      | numeric metric | Yes      | 
-| Rural Rate         | rural_rate         | number    | number      | numeric metric | Yes      | 
-| Debt Rate          | debt_rate          | number    | number      | numeric metric | Yes      | 
-| TIF Rate (Urban)   | tif_rate_urban     | number    | number      | numeric metric | Yes      | 
-| TIF Rate (Rural)   | tif_rate_rural     | number    | number      | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
+| ======== | ============== | ================== | ================== | ========= | =========== |
+| Yes      | time           | fiscal_year        | Fiscal Year        | number    | number      |
+| Yes      | series tag     | type               | Type               | text      | text        |
+| Yes      | series tag     | levy_authority_1   | Levy Authority #   | text      | text        |
+| Yes      | series tag     | levy_authority_2   | Levy Authority     | text      | text        |
+| Yes      | numeric metric | county_fip         | County FIP         | number    | text        |
+| Yes      | series tag     | county_name        | County Name        | text      | text        |
+| Yes      | series tag     | city_fips          | City FIPS          | text      | text        |
+| Yes      | series tag     | city_name          | City Name          | text      | text        |
+| Yes      | numeric metric | co_subdivision_fip | Co Subdivision FIP | number    | text        |
+| Yes      | numeric metric | urban_rate         | Urban Rate         | number    | number      |
+| Yes      | numeric metric | rural_rate         | Rural Rate         | number    | number      |
+| Yes      | numeric metric | debt_rate          | Debt Rate          | number    | number      |
+| Yes      | numeric metric | tif_rate_urban     | TIF Rate (Urban)   | number    | number      |
+| Yes      | numeric metric | tif_rate_rural     | TIF Rate (Rural)   | number    | number      |
 ```
 
 ## Time Field
@@ -43,15 +48,6 @@ This dataset contains property tax rates for all levy authorities within the Sta
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -69,8 +65,6 @@ series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ALLAMAKEE t:lev
 ```ls
 metric m:county_fip p:integer l:"County FIP" d:"A five-digit Federal Information Processing Series code to ensure uniform identification of counties" t:dataTypeName=number
 
-metric m:city_fips p:integer l:"City FIPS" d:"A seven-digit Federal Information Processing Series code to ensure uniform identification of cities and other populated places" t:dataTypeName=number
-
 metric m:co_subdivision_fip p:integer l:"Co Subdivision FIP" d:"A ten-digit Federal Information Processing Series code to ensure uniform identification of county subdivisions" t:dataTypeName=number
 
 metric m:urban_rate p:integer l:"Urban Rate" d:"Rate applied to property considered urban" t:dataTypeName=number
@@ -85,11 +79,11 @@ metric m:tif_rate_rural l:"TIF Rate (Rural)" t:dataTypeName=number
 
 entity e:xmkr-kpjb l:"Levy Authority Rates By Fiscal Year" t:attribution="Iowa Department of Management, Local Budget and Finance" t:url=https://data.iowa.gov/api/views/xmkr-kpjb
 
-property e:xmkr-kpjb t:meta.view d:2017-03-03T14:31:18.293Z v:id=xmkr-kpjb v:category=Government v:averageRating=0 v:name="Levy Authority Rates By Fiscal Year" v:attribution="Iowa Department of Management, Local Budget and Finance"
+property e:xmkr-kpjb t:meta.view v:id=xmkr-kpjb v:category=Government v:averageRating=0 v:name="Levy Authority Rates By Fiscal Year" v:attribution="Iowa Department of Management, Local Budget and Finance"
 
-property e:xmkr-kpjb t:meta.view.license d:2017-03-03T14:31:18.293Z v:name="Public Domain"
+property e:xmkr-kpjb t:meta.view.license v:name="Public Domain"
 
-property e:xmkr-kpjb t:meta.view.owner d:2017-03-03T14:31:18.293Z v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:roleName=editor v:displayName="IDOM, Local Budget & Finance"
+property e:xmkr-kpjb t:meta.view.owner v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:roleName=editor v:displayName="IDOM, Local Budget & Finance"
 
-property e:xmkr-kpjb t:meta.view.tableauthor d:2017-03-03T14:31:18.293Z v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:roleName=editor v:displayName="IDOM, Local Budget & Finance"
+property e:xmkr-kpjb t:meta.view.tableauthor v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:roleName=editor v:displayName="IDOM, Local Budget & Finance"
 ```

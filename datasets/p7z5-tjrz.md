@@ -2,15 +2,20 @@
 
 ## Dataset
 
-* [Dataset URL](https://data.montgomerycountymd.gov/api/views/p7z5-tjrz/rows.json?accessType=DOWNLOAD)
-* [Catalog URL](https://catalog.data.gov/dataset/tuition-assistance-5fc94)
-* Id = p7z5-tjrz
-* Name = Tuition Assistance
-* Category = Education
-* Tags = [tuition assistance, course, school, class curriculum, reimburse, employee]
-* Created = 2013-08-14T13:48:25Z
-* Publication Date = 2015-08-15T07:34:25Z
-* Rows Updated = 2017-02-15T08:30:29Z
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/tuition-assistance-5fc94) |
+| Metadata | [Link](https://data.montgomerycountymd.gov/api/views/p7z5-tjrz) |
+| Data: JSON | [100 Rows](https://data.montgomerycountymd.gov/api/views/p7z5-tjrz/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.montgomerycountymd.gov/api/views/p7z5-tjrz/rows.csv?max_rows=100) |
+| Host | data.montgomerycountymd.gov |
+| Id | p7z5-tjrz |
+| Name | Tuition Assistance |
+| Category | Education |
+| Tags | tuition assistance, course, school, class curriculum, reimburse, employee |
+| Created | 2013-08-14T13:48:25Z |
+| Publication Date | 2015-08-15T07:34:25Z |
+| Rows Updated | 2017-02-15T08:30:29Z |
 
 ## Description
 
@@ -19,16 +24,16 @@ This dataset includes a list of classes approved and paid through the County tui
 ## Columns
 
 ```ls
-| Name               | Field Name   | Data Type | Render Type | Schema Type    | Included | 
-| ================== | ============ | ========= | =========== | ============== | ======== | 
-| updated_at         | :updated_at  | meta_data | meta_data   | time           | Yes      | 
-| Department         | department   | text      | text        | series tag     | Yes      | 
-| Major              | major_desc   | text      | text        | series tag     | Yes      | 
-| Degree             | degree_desc  | text      | text        | series tag     | Yes      | 
-| School             | school_desc  | text      | text        | series tag     | Yes      | 
-| Course Title       | course_title | text      | text        | series tag     | Yes      | 
-| Course Description | course_desc  | text      | text        | series tag     | Yes      | 
-| Cost               | cost         | money     | money       | numeric metric | Yes      | 
+| Included | Schema Type    | Field Name   | Name               | Data Type | Render Type |
+| ======== | ============== | ============ | ================== | ========= | =========== |
+| No       | time           | :updated_at  | updated_at         | meta_data | meta_data   |
+| Yes      | series tag     | department   | Department         | text      | text        |
+| Yes      | series tag     | major_desc   | Major              | text      | text        |
+| Yes      | series tag     | degree_desc  | Degree             | text      | text        |
+| Yes      | series tag     | school_desc  | School             | text      | text        |
+| Yes      | series tag     | course_title | Course Title       | text      | text        |
+| Yes      | series tag     | course_desc  | Course Description | text      | text        |
+| Yes      | numeric metric | cost         | Cost               | money     | money       |
 ```
 
 ## Time Field
@@ -36,15 +41,6 @@ This dataset includes a list of classes approved and paid through the County tui
 ```ls
 Value = updated_at
 Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Metric Prefix = 
-Included Fields = *
-Excluded Fields = 
-Annotation Fields = 
 ```
 
 ## Data Commands
@@ -60,27 +56,11 @@ series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:degree_desc=AA t:major_desc=Busi
 ## Meta Commands
 
 ```ls
-the United States health care system is studied. Concepts and 
-
-applications of the system are explored as well as comparisons with international health care paradigms. Introduction to the s" m:cost=1569
-
-network (WAN) projects using Cisco IOS command set." m:cost=0
-
-network topologies, IP addressing, subnet masks, basic network 
-
-design and cable installation." m:cost=363.33
-
-include attitudes toward anxiety, issues of guilt, exi" m:cost=234
-
-troubleshoot Cisco routers and components." m:cost=363.33
-
-inclu" m:cost=915
-
 entity e:p7z5-tjrz l:"Tuition Assistance" t:url=https://data.montgomerycountymd.gov/api/views/p7z5-tjrz
 
-property e:p7z5-tjrz t:meta.view d:2017-03-03T14:08:36.055Z v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"
+property e:p7z5-tjrz t:meta.view v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"
 
-property e:p7z5-tjrz t:meta.view.owner d:2017-03-03T14:08:36.055Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
 
-property e:p7z5-tjrz t:meta.view.tableauthor d:2017-03-03T14:08:36.055Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
 ```
