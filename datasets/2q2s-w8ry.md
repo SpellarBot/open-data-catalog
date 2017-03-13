@@ -56,11 +56,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:name="Agriculture Building" t:type=Owned t:city=Salem m:sqft=76817
+series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=635+CAPITOL+ST+NE+Salem+97301" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info/agriculture.shtml t:name="Agriculture Building" t:type=Owned t:city=Salem m:sqft=76817
 
-series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:name="Consumer & Bus Services" t:expdate=10/31/2009 t:type=Leased t:city=Portland m:sqft=90
+series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=811+SW+Sixth+Avenue+Portland+97204" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info t:name="Consumer & Bus Services" t:expdate=10/31/2009 t:type=Leased t:city=Portland m:sqft=90
 
-series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:name="Corrections, Dept" t:expdate=1/31/2012 t:type=Leased t:city=Salem m:sqft=12000
+series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2757+22nd+Street+SE+Salem+97302" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info t:name="Corrections, Dept" t:expdate=1/31/2012 t:type=Leased t:city=Salem m:sqft=12000
 ```
 
 ## Meta Commands

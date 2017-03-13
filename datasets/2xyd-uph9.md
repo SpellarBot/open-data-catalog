@@ -51,6 +51,8 @@ series e:2xyd-uph9 d:2014-12-02T10:50:18.000Z t:program_name="FISH AND WILDLIFE 
 ## Meta Commands
 
 ```ls
+metric m:amount_received p:double l:"Amount Received" t:dataTypeName=money
+
 entity e:2xyd-uph9 l:"ARRA Grant Revenues As Of COB November 30, 2014" t:url=https://data.mo.gov/api/views/2xyd-uph9
 
 property e:2xyd-uph9 t:meta.view v:id=2xyd-uph9 v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenues As Of COB November 30, 2014"

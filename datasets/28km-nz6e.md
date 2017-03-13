@@ -63,29 +63,29 @@ series e:28km-nz6e d:2016-09-14T15:16:38.000Z t:state=Florida m:ages_21_34_2014=
 ## Meta Commands
 
 ```ls
-metric m:all_ages l:"All Ages, 2012" t:dataTypeName=number
+metric m:all_ages p:float l:"All Ages, 2012" t:dataTypeName=number
 
-metric m:ages_0_20 l:"Ages 0-20, 2012" t:dataTypeName=number
+metric m:ages_0_20 p:float l:"Ages 0-20, 2012" t:dataTypeName=number
 
-metric m:ages_21_34 l:"Ages 21-34, 2012" t:dataTypeName=number
+metric m:ages_21_34 p:float l:"Ages 21-34, 2012" t:dataTypeName=number
 
-metric m:ages_35 l:"Ages 35+, 2012" t:dataTypeName=number
+metric m:ages_35 p:float l:"Ages 35+, 2012" t:dataTypeName=number
 
-metric m:male l:"Male, 2012" t:dataTypeName=number
+metric m:male p:float l:"Male, 2012" t:dataTypeName=number
 
-metric m:female l:"Female, 2012" t:dataTypeName=number
+metric m:female p:float l:"Female, 2012" t:dataTypeName=number
 
-metric m:all_ages_2014 l:"All Ages, 2014" t:dataTypeName=number
+metric m:all_ages_2014 p:double l:"All Ages, 2014" t:dataTypeName=number
 
-metric m:ages_0_20_2014 l:"Ages 0-20, 2014" t:dataTypeName=number
+metric m:ages_0_20_2014 p:float l:"Ages 0-20, 2014" t:dataTypeName=number
 
-metric m:ages_21_34_2014 l:"Ages 21-34, 2014" t:dataTypeName=number
+metric m:ages_21_34_2014 p:float l:"Ages 21-34, 2014" t:dataTypeName=number
 
-metric m:ages_35_2014 l:"Ages 35+, 2014" t:dataTypeName=number
+metric m:ages_35_2014 p:float l:"Ages 35+, 2014" t:dataTypeName=number
 
-metric m:male_2014 l:"Male, 2014" t:dataTypeName=number
+metric m:male_2014 p:float l:"Male, 2014" t:dataTypeName=number
 
-metric m:female_2014 l:"Female, 2014" t:dataTypeName=number
+metric m:female_2014 p:float l:"Female, 2014" t:dataTypeName=number
 
 entity e:28km-nz6e l:"Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/28km-nz6e
 

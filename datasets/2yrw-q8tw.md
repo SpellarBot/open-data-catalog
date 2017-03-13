@@ -52,7 +52,7 @@ series e:2yrw-q8tw d:2017-02-21T22:03:21.000Z t:quarter_fiscalyear="Q3 FY08" m:i
 ## Meta Commands
 
 ```ls
-metric m:installed_capacity_from_solar_incentive_program_in_quarter_kw l:"Solar Incentive Program Cumulative Installed Capacity(kW)" d:"Cumulative Installed Capacity for Solar Incentive Program" t:dataTypeName=number
+metric m:installed_capacity_from_solar_incentive_program_in_quarter_kw p:float l:"Solar Incentive Program Cumulative Installed Capacity(kW)" d:"Cumulative Installed Capacity for Solar Incentive Program" t:dataTypeName=number
 
 entity e:2yrw-q8tw l:"LADWP Solar Incentive Program" t:attribution=LADWP t:url=https://data.lacity.org/api/views/2yrw-q8tw
 

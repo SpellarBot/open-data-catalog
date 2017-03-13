@@ -28,7 +28,7 @@ Violations issued by the Department of Buildings from 2006 to the present.  Lend
 | Included | Schema Type    | Field Name                   | Name                         | Data Type     | Render Type   |
 | ======== | ============== | ============================ | ============================ | ============= | ============= |
 | No       |                | id                           | ID                           | text          | text          |
-| Yes      | time           | violation_last_modified_date | VIOLATION LAST MODIFIED DATE | calendar_date | calendar_date |
+| No       | time           | violation_last_modified_date | VIOLATION LAST MODIFIED DATE | calendar_date | calendar_date |
 | No       |                | violation_date               | VIOLATION DATE               | calendar_date | calendar_date |
 | Yes      | series tag     | violation_code               | VIOLATION CODE               | text          | text          |
 | Yes      | series tag     | violation_status             | VIOLATION STATUS             | text          | text          |
@@ -40,12 +40,12 @@ Violations issued by the Department of Buildings from 2006 to the present.  Lend
 | Yes      | series tag     | inspector_id                 | INSPECTOR ID                 | text          | text          |
 | Yes      | numeric metric | inspection_number            | INSPECTION NUMBER            | number        | number        |
 | Yes      | series tag     | inspection_status            | INSPECTION STATUS            | text          | text          |
-| Yes      | numeric metric | inspection_waived            | INSPECTION WAIVED            | number        | text          |
+| Yes      | series tag     | inspection_waived            | INSPECTION WAIVED            | text          | text          |
 | Yes      | series tag     | inspection_category          | INSPECTION CATEGORY          | text          | text          |
 | Yes      | series tag     | department_bureau            | DEPARTMENT BUREAU            | text          | text          |
 | No       |                | address                      | ADDRESS                      | text          | text          |
 | Yes      | numeric metric | property_group               | PROPERTY GROUP               | number        | number        |
-| Yes      | numeric metric | ssa                          | SSA                          | number        | text          |
+| Yes      | series tag     | ssa                          | SSA                          | text          | text          |
 | No       |                | latitude                     | LATITUDE                     | number        | number        |
 | No       |                | longitude                    | LONGITUDE                    | number        | number        |
 ```
@@ -79,8 +79,6 @@ series e:22u3-xenr d:2016-02-02T08:12:23.000Z t:violation_inspector_comments="SO
 metric m:inspection_number p:integer l:"INSPECTION NUMBER" t:dataTypeName=number
 
 metric m:property_group p:integer l:"PROPERTY GROUP" d:"Properties (lots) in the City of Chicago can typically have multiple point addresses, range addresses and buildings. Examples are corner lots, large lots, lots with front and rear buildings, etc.. As a result, inspections (and their associated violations), permits and complaints related to a single property could have different addresses. This problem can be reconciled by using Property Group. All point and range addresses for a property are assigned the same Property Group key." t:dataTypeName=number
-
-metric m:ssa p:integer l:SSA d:"Special Service Areas are local tax districts that fund expanded services and programs, to foster commercial and economic development, through a localized property tax. In other cities these areas are sometimes called Business Improvement Districts (BIDs). This portal contains a map of all Chicago SSAs" t:dataTypeName=number
 
 entity e:22u3-xenr l:"Building Violations" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/22u3-xenr
 

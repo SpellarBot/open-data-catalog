@@ -53,6 +53,12 @@ series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type=Asparagus m:other_sour
 ## Meta Commands
 
 ```ls
+metric m:from_new_york_state_source p:integer l:"From New York State Source" t:dataTypeName=money
+
+metric m:other_source_during_new_york_state_availability_period p:integer l:"Other Source - During New York State Availability Period" t:dataTypeName=money
+
+metric m:other_source_outside_new_york_state_availability_period p:integer l:"Other Source - Outside New York State Availability Period" t:dataTypeName=money
+
 entity e:2rd2-9uwy l:"Local Law 50 New York State Food Purchasing FY15" t:attribution="Mayor's Office of Contract Services (MOCS)" t:url=https://data.cityofnewyork.us/api/views/2rd2-9uwy
 
 property e:2rd2-9uwy t:meta.view v:id=2rd2-9uwy v:category="City Government" v:averageRating=0 v:name="Local Law 50 New York State Food Purchasing FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"

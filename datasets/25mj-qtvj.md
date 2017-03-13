@@ -26,7 +26,7 @@ Salaries of state work force sorted by agency - 2016. For more information go to
 ```ls
 | Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
 | ======== | ============== | ============== | ============== | ========= | =========== |
-| Yes      | time           | fiscal_year    | FISCAL YEAR    | number    | number      |
+| No       | time           | fiscal_year    | FISCAL YEAR    | number    | number      |
 | Yes      | numeric metric | agency         | AGENCY #       | number    | text        |
 | Yes      | series tag     | agency_title   | AGENCY TITLE   | text      | text        |
 | Yes      | series tag     | classification | CLASSIFICATION | text      | text        |
@@ -56,6 +56,8 @@ series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:cla
 
 ```ls
 metric m:agency p:integer l:"AGENCY #" t:dataTypeName=number
+
+metric m:annual_salary p:float l:"ANNUAL SALARY" t:dataTypeName=money
 
 entity e:25mj-qtvj l:"Salaries of State Agencies FY 2016" t:url=https://data.oregon.gov/api/views/25mj-qtvj
 

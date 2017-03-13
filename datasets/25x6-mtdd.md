@@ -44,7 +44,7 @@ This is a representation of all gates and barricades that prevent access to the 
 | Yes      | series tag     | description         | DESCRIPTION         | text      | text        |
 | Yes      | series tag     | remarks             | REMARKS             | text      | text        |
 | Yes      | series tag     | activation_type     | ACTIVATION_TYPE     | text      | text        |
-| Yes      | series tag     | objectid            | OBJECTID            | text      | number      |
+| Yes      | numeric metric | objectid            | OBJECTID            | number    | number      |
 ```
 
 ## Time Field
@@ -63,11 +63,11 @@ Excluded Fields = longitude,latitude
 ## Data Commands
 
 ```ls
-series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=A91341ADAF9244C890920563507EC3F4 t:activation_type=Manual t:description="Ramp Barricade" t:dirtravel=Ramp t:sideofroad=Left t:objectid=1 t:district=1 t:sign_face_direction=N t:signtype=Regulatory m:cost_center=551609 m:milepost=159 m:route=35 m:milepost_offset=0
+series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=A91341ADAF9244C890920563507EC3F4 t:activation_type=Manual t:description="Ramp Barricade" t:dirtravel=Ramp t:sideofroad=Left t:district=1 t:sign_face_direction=N t:signtype=Regulatory m:cost_center=551609 m:milepost=159 m:route=35 m:objectid=1 m:milepost_offset=0
 
-series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=0FA20C59470E43D88F65A88F67A49F2E t:activation_type=Remote t:description="Right Mainline Barricade" t:subcategory="No Subcategory" t:dirtravel="With Milepost (increasing in number)" t:sideofroad=Right t:objectid=2 t:district=4 t:sign_face_direction=S t:signtype=Guide m:cost_center=554810 m:milepost=75 m:route=29 m:milepost_offset=0.557
+series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=0FA20C59470E43D88F65A88F67A49F2E t:activation_type=Remote t:description="Right Mainline Barricade" t:subcategory="No Subcategory" t:dirtravel="With Milepost (increasing in number)" t:sideofroad=Right t:district=4 t:sign_face_direction=S t:signtype=Guide m:cost_center=554810 m:milepost=75 m:route=29 m:objectid=2 m:milepost_offset=0.557
 
-series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=7EF1FEF2035948EEB2C197E3593193A1 t:activation_type=Manual t:description="Ramp Barricade" t:dirtravel=Ramp t:remarks="Sign face SE when gate is CLOSED" t:sideofroad=Right t:objectid=3 t:district=4 t:sign_face_direction=SE t:signtype=Regulatory m:cost_center=554810 m:milepost=75 m:route=29 m:milepost_offset=0
+series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=7EF1FEF2035948EEB2C197E3593193A1 t:activation_type=Manual t:description="Ramp Barricade" t:dirtravel=Ramp t:remarks="Sign face SE when gate is CLOSED" t:sideofroad=Right t:district=4 t:sign_face_direction=SE t:signtype=Regulatory m:cost_center=554810 m:milepost=75 m:route=29 m:objectid=3 m:milepost_offset=0
 ```
 
 ## Meta Commands
@@ -79,7 +79,9 @@ metric m:route p:integer l:ROUTE d:Route t:dataTypeName=number
 
 metric m:milepost p:integer l:MILEPOST d:"Mile Post" t:dataTypeName=number
 
-metric m:milepost_offset l:MILEPOST_OFFSET d:Offset t:dataTypeName=number
+metric m:milepost_offset p:decimal l:MILEPOST_OFFSET d:Offset t:dataTypeName=number
+
+metric m:objectid p:integer l:OBJECTID d:OBJECTID t:dataTypeName=number
 
 entity e:25x6-mtdd l:"Interstate Closure Gates" t:attribution="Iowa Department of Transportation - Office of Maintenance" t:url=https://data.iowa.gov/api/views/25x6-mtdd
 

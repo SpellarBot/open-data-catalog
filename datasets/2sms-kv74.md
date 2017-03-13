@@ -39,55 +39,55 @@ Find key information on state library agencies.<br><br>These data include impute
 | Yes      | series tag     | mailzip    | Zip (mail)                                                 | text      | text        |
 | Yes      | series tag     | mailzip4   | Zip+4 (mail)                                               | text      | text        |
 | Yes      | series tag     | webaddr    | Web Address                                                | text      | text        |
-| Yes      | numeric metric | branch     | Branch of government [L]egis/[E]xec                        | number    | text        |
-| Yes      | numeric metric | indagy     | SLAA reports to [G]overnor/[B]oard                         | number    | text        |
-| Yes      | numeric metric | appbygov   | Appointed by governor [X]Yes/[P]n/a                        | number    | text        |
-| Yes      | numeric metric | appbyoth   | Appointed by other official [X]Yes/[P]n/a                  | number    | text        |
-| Yes      | numeric metric | largerag   | Part of Dept of [E]duc/[C]ult Resrc/[S]tate/[O]ther/[P]n/a | number    | text        |
+| Yes      | series tag     | branch     | Branch of government [L]egis/[E]xec                        | text      | text        |
+| Yes      | series tag     | indagy     | SLAA reports to [G]overnor/[B]oard                         | text      | text        |
+| Yes      | series tag     | appbygov   | Appointed by governor [X]Yes/[P]n/a                        | text      | text        |
+| Yes      | series tag     | appbyoth   | Appointed by other official [X]Yes/[P]n/a                  | text      | text        |
+| Yes      | series tag     | largerag   | Part of Dept of [E]duc/[C]ult Resrc/[S]tate/[O]ther/[P]n/a | text      | text        |
 | Yes      | series tag     | othagsp    | Other agency; [P]n/a                                       | text      | text        |
-| Yes      | numeric metric | pla_brco   | SLAA is sub-agency, has board [Y]es/[N]o/[P]n/a            | number    | text        |
-| Yes      | numeric metric | pla_gov    | Board appointed by Governor [X]Yes/[P]n/a                  | number    | text        |
-| Yes      | numeric metric | pld_oth    | Board appointed by other official [X]Yes/[P]n/a            | number    | text        |
-| Yes      | numeric metric | starchiv   | State archives                                             | number    | text        |
-| Yes      | numeric metric | stlegref   | Primary state legislative research organization            | number    | text        |
-| Yes      | numeric metric | sthstmus   | State history museum/art gallery                           | number    | text        |
-| Yes      | numeric metric | strecmng   | State records management service                           | number    | text        |
-| Yes      | numeric metric | othallop   | Other allied operation                                     | number    | text        |
+| Yes      | series tag     | pla_brco   | SLAA is sub-agency, has board [Y]es/[N]o/[P]n/a            | text      | text        |
+| Yes      | series tag     | pla_gov    | Board appointed by Governor [X]Yes/[P]n/a                  | text      | text        |
+| Yes      | series tag     | pld_oth    | Board appointed by other official [X]Yes/[P]n/a            | text      | text        |
+| Yes      | series tag     | starchiv   | State archives                                             | text      | text        |
+| Yes      | series tag     | stlegref   | Primary state legislative research organization            | text      | text        |
+| Yes      | series tag     | sthstmus   | State history museum/art gallery                           | text      | text        |
+| Yes      | series tag     | strecmng   | State records management service                           | text      | text        |
+| Yes      | series tag     | othallop   | Other allied operation                                     | text      | text        |
 | Yes      | series tag     | othallsp   | Other allied operation; [P]n/a                             | text      | text        |
-| Yes      | numeric metric | stlacont   | SLAA contracts with local/academic libraries               | number    | text        |
-| Yes      | numeric metric | stlahost   | SLAA hosts or funds State Center for the Book              | number    | text        |
-| Yes      | numeric metric | stdeplib   | State depository library                                   | number    | text        |
-| Yes      | numeric metric | fddeplib   | Federal depository library                                 | number    | text        |
-| Yes      | numeric metric | regional   | Regional fed dep library                                   | number    | text        |
-| Yes      | numeric metric | selectiv   | Selective fed dep library                                  | number    | text        |
-| Yes      | numeric metric | elecplan   | Network planning/monitoring                                | number    | text        |
-| Yes      | numeric metric | elecoper   | Network operation                                          | number    | text        |
-| Yes      | numeric metric | elecbibl   | DB/Bibliographic databases                                 | number    | text        |
-| Yes      | numeric metric | electext   | DB/Full text or data                                       | number    | text        |
-| Yes      | numeric metric | dig_stla   | Digitization support/STLA                                  | number    | text        |
-| Yes      | numeric metric | dig_ag     | Digitization support/Other agencies                        | number    | text        |
-| Yes      | numeric metric | dig_lib    | Digitization support/libraries                             | number    | text        |
-| Yes      | numeric metric | nettrstf   | Internet access support thru staffing                      | number    | text        |
-| Yes      | numeric metric | nettrcus   | Internet access support thru st lib end-users              | number    | text        |
-| Yes      | numeric metric | netsub     | Internet access support thru direct funding                | number    | text        |
-| Yes      | numeric metric | netequip   | Intenet access support thru prov equip                     | number    | text        |
-| Yes      | numeric metric | netmount   | Internet access support thru online resrcs                 | number    | text        |
-| Yes      | numeric metric | netgoph    | Internet access support thru website/server/list mgmt      | number    | text        |
-| Yes      | numeric metric | pubswdbl   | DBs avail to public libr                                   | number    | text        |
-| Yes      | numeric metric | acswdbl    | DBs avail to acad libr                                     | number    | text        |
-| Yes      | numeric metric | schswdbl   | DBs avail to sch libr                                      | number    | text        |
-| Yes      | numeric metric | spcswdbl   | DBs avail to special libr                                  | number    | text        |
-| Yes      | numeric metric | lcswdbl    | DBs avail to co-ops                                        | number    | text        |
-| Yes      | numeric metric | othswdbl   | DBs avail to state agencies                                | number    | text        |
-| Yes      | numeric metric | remoteac   | DBs avail to remote users                                  | number    | text        |
-| Yes      | numeric metric | accwbcat   | Union catalog                                              | number    | text        |
-| Yes      | numeric metric | accoth     | Other access to other libr                                 | number    | text        |
+| Yes      | series tag     | stlacont   | SLAA contracts with local/academic libraries               | text      | text        |
+| Yes      | series tag     | stlahost   | SLAA hosts or funds State Center for the Book              | text      | text        |
+| Yes      | series tag     | stdeplib   | State depository library                                   | text      | text        |
+| Yes      | series tag     | fddeplib   | Federal depository library                                 | text      | text        |
+| Yes      | series tag     | regional   | Regional fed dep library                                   | text      | text        |
+| Yes      | series tag     | selectiv   | Selective fed dep library                                  | text      | text        |
+| Yes      | series tag     | elecplan   | Network planning/monitoring                                | text      | text        |
+| Yes      | series tag     | elecoper   | Network operation                                          | text      | text        |
+| Yes      | series tag     | elecbibl   | DB/Bibliographic databases                                 | text      | text        |
+| Yes      | series tag     | electext   | DB/Full text or data                                       | text      | text        |
+| Yes      | series tag     | dig_stla   | Digitization support/STLA                                  | text      | text        |
+| Yes      | series tag     | dig_ag     | Digitization support/Other agencies                        | text      | text        |
+| Yes      | series tag     | dig_lib    | Digitization support/libraries                             | text      | text        |
+| Yes      | series tag     | nettrstf   | Internet access support thru staffing                      | text      | text        |
+| Yes      | series tag     | nettrcus   | Internet access support thru st lib end-users              | text      | text        |
+| Yes      | series tag     | netsub     | Internet access support thru direct funding                | text      | text        |
+| Yes      | series tag     | netequip   | Intenet access support thru prov equip                     | text      | text        |
+| Yes      | series tag     | netmount   | Internet access support thru online resrcs                 | text      | text        |
+| Yes      | series tag     | netgoph    | Internet access support thru website/server/list mgmt      | text      | text        |
+| Yes      | series tag     | pubswdbl   | DBs avail to public libr                                   | text      | text        |
+| Yes      | series tag     | acswdbl    | DBs avail to acad libr                                     | text      | text        |
+| Yes      | series tag     | schswdbl   | DBs avail to sch libr                                      | text      | text        |
+| Yes      | series tag     | spcswdbl   | DBs avail to special libr                                  | text      | text        |
+| Yes      | series tag     | lcswdbl    | DBs avail to co-ops                                        | text      | text        |
+| Yes      | series tag     | othswdbl   | DBs avail to state agencies                                | text      | text        |
+| Yes      | series tag     | remoteac   | DBs avail to remote users                                  | text      | text        |
+| Yes      | series tag     | accwbcat   | Union catalog                                              | text      | text        |
+| Yes      | series tag     | accoth     | Other access to other libr                                 | text      | text        |
 | Yes      | series tag     | othaccsp   | Other access specified                                     | text      | text        |
-| Yes      | numeric metric | erateapp   | E-rate discount                                            | number    | text        |
+| Yes      | series tag     | erateapp   | E-rate discount                                            | text      | text        |
 | Yes      | series tag     | fipsst     | FIPS state code                                            | text      | text        |
 | Yes      | numeric metric | obereg     | BEA code                                                   | number    | text        |
 | Yes      | numeric metric | rstatus    | Reporting Status                                           | number    | text        |
-| Yes      | time           | fystart    | Fiscal year start date, mm/dd/yyyy                         | date      | date        |
+| No       | time           | fystart    | Fiscal year start date, mm/dd/yyyy                         | date      | date        |
 | No       |                | fyend      | Fiscal year end date, mm/dd/yyyy                           | date      | date        |
 | Yes      | numeric metric | tothrs     | Hours open typical week                                    | number    | number      |
 | Yes      | numeric metric | tothrsce   | Hours open main outlet                                     | number    | number      |
@@ -271,45 +271,45 @@ metric m:events p:integer l:"Number of events" t:dataTypeName=number
 
 metric m:atevents p:integer l:"Total attendance" t:dataTypeName=number
 
-metric m:madmin l:"Admin ALA-MLS" t:dataTypeName=number
+metric m:madmin p:float l:"Admin ALA-MLS" t:dataTypeName=number
 
-metric m:nadmin l:"Admin non-MLS" t:dataTypeName=number
+metric m:nadmin p:float l:"Admin non-MLS" t:dataTypeName=number
 
-metric m:oadmin l:"Admin other" t:dataTypeName=number
+metric m:oadmin p:float l:"Admin other" t:dataTypeName=number
 
-metric m:admin l:"Admin TOTAL" t:dataTypeName=number
+metric m:admin p:float l:"Admin TOTAL" t:dataTypeName=number
 
-metric m:mlibdev l:"Dev ALA-MLS" t:dataTypeName=number
+metric m:mlibdev p:float l:"Dev ALA-MLS" t:dataTypeName=number
 
-metric m:nlibdev l:"Dev non-MLS" t:dataTypeName=number
+metric m:nlibdev p:float l:"Dev non-MLS" t:dataTypeName=number
 
-metric m:olibdev l:"Dev other" t:dataTypeName=number
+metric m:olibdev p:float l:"Dev other" t:dataTypeName=number
 
-metric m:libdev l:"Dev TOTAL" t:dataTypeName=number
+metric m:libdev p:float l:"Dev TOTAL" t:dataTypeName=number
 
-metric m:mlibserv l:"Services ALA-MLS" t:dataTypeName=number
+metric m:mlibserv p:float l:"Services ALA-MLS" t:dataTypeName=number
 
-metric m:nlibserv l:"Services non-MLS" t:dataTypeName=number
+metric m:nlibserv p:float l:"Services non-MLS" t:dataTypeName=number
 
-metric m:olibserv l:"Services other" t:dataTypeName=number
+metric m:olibserv p:float l:"Services other" t:dataTypeName=number
 
-metric m:libserv l:"Services TOTAL" t:dataTypeName=number
+metric m:libserv p:float l:"Services TOTAL" t:dataTypeName=number
 
-metric m:mothserv l:"Other ALA-MLS" t:dataTypeName=number
+metric m:mothserv p:float l:"Other ALA-MLS" t:dataTypeName=number
 
 metric m:nothserv p:integer l:"Other non-MLS" t:dataTypeName=number
 
-metric m:oothserv l:"Other other" t:dataTypeName=number
+metric m:oothserv p:float l:"Other other" t:dataTypeName=number
 
-metric m:othserv l:"Other TOTAL" t:dataTypeName=number
+metric m:othserv p:float l:"Other TOTAL" t:dataTypeName=number
 
-metric m:mtotstaf l:"Total ALA-MLS" t:dataTypeName=number
+metric m:mtotstaf p:float l:"Total ALA-MLS" t:dataTypeName=number
 
-metric m:ntotstaf l:"Total non-MLS" t:dataTypeName=number
+metric m:ntotstaf p:float l:"Total non-MLS" t:dataTypeName=number
 
-metric m:ototstaf l:"Total other" t:dataTypeName=number
+metric m:ototstaf p:float l:"Total other" t:dataTypeName=number
 
-metric m:totstaf l:"TOTAL STAFF" t:dataTypeName=number
+metric m:totstaf p:float l:"TOTAL STAFF" t:dataTypeName=number
 
 metric m:pagiw_lo p:integer l:"Internet access thru lib owned terminals" t:dataTypeName=number
 
