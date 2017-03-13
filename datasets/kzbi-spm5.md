@@ -27,15 +27,14 @@ The dataset details 2015 Budget Recommendations, which is the line-item budget d
 ```ls
 | Included | Schema Type    | Field Name                          | Name                                | Data Type | Render Type |
 | ======== | ============== | =================================== | =================================== | ========= | =========== |
-| No       | time           | :updated_at                         | updated_at                          | meta_data | meta_data   |
 | Yes      | series tag     | fund_type                           | FUND TYPE                           | text      | text        |
 | Yes      | series tag     | fund_code                           | FUND CODE                           | text      | text        |
 | Yes      | series tag     | fund_description                    | FUND DESCRIPTION                    | text      | text        |
-| Yes      | numeric metric | department_number                   | DEPARTMENT NUMBER                   | number    | number      |
+| Yes      | series tag     | department_number                   | DEPARTMENT NUMBER                   | text      | number      |
 | Yes      | series tag     | department_description              | DEPARTMENT DESCRIPTION              | text      | text        |
-| Yes      | numeric metric | appropriation_authority             | APPROPRIATION AUTHORITY             | number    | number      |
+| Yes      | series tag     | appropriation_authority             | APPROPRIATION AUTHORITY             | text      | number      |
 | Yes      | series tag     | appropriation_authority_description | APPROPRIATION AUTHORITY DESCRIPTION | text      | text        |
-| Yes      | numeric metric | appropriation_account               | APPROPRIATION ACCOUNT               | number    | number      |
+| Yes      | series tag     | appropriation_account               | APPROPRIATION ACCOUNT               | text      | number      |
 | Yes      | series tag     | appropriation_account_description   | APPROPRIATION ACCOUNT DESCRIPTION   | text      | text        |
 | Yes      | numeric metric | appropration                        | 2014 APPROPRATION                   | money     | money       |
 | Yes      | numeric metric | revised_appropriation               | 2014 REVISED APPROPRIATION          | money     | money       |
@@ -45,28 +44,28 @@ The dataset details 2015 Budget Recommendations, which is the line-item budget d
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:kzbi-spm5 d:2014-10-15T08:40:01.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_type=LOCAL t:fund_code=0100 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_account_description="SALARIES AND WAGES - ON PAYROLL" t:fund_description="CORPORATE FUND" m:appropriation_account=5 m:appropration=5511957 m:appropriation_authority=2005 m:department_number=1 m:revised_appropriation=5511957 m:recommendation=5550657
+series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:fund_type=LOCAL t:appropriation_account=5 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_authority=2005 t:department_number=1 t:appropriation_account_description="SALARIES AND WAGES - ON PAYROLL" t:fund_description="CORPORATE FUND" m:appropration=5511957 m:revised_appropriation=5511957 m:recommendation=5550657
 
-series e:kzbi-spm5 d:2014-10-15T08:40:01.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_type=LOCAL t:fund_code=0100 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_account_description="OFFICE CONVENIENCES" t:fund_description="CORPORATE FUND" m:appropriation_account=126 m:appropration=1200 m:appropriation_authority=2005 m:department_number=1 m:revised_appropriation=1200 m:recommendation=1000
+series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:fund_type=LOCAL t:appropriation_account=126 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_authority=2005 t:department_number=1 t:appropriation_account_description="OFFICE CONVENIENCES" t:fund_description="CORPORATE FUND" m:appropration=1200 m:revised_appropriation=1200 m:recommendation=1000
 
-series e:kzbi-spm5 d:2014-10-15T08:40:01.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_type=LOCAL t:fund_code=0100 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_account_description=POSTAGE t:fund_description="CORPORATE FUND" m:appropriation_account=130 m:appropration=10000 m:appropriation_authority=2005 m:department_number=1 m:revised_appropriation=10000 m:recommendation=5019
+series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:fund_type=LOCAL t:appropriation_account=130 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_authority=2005 t:department_number=1 t:appropriation_account_description=POSTAGE t:fund_description="CORPORATE FUND" m:appropration=10000 m:revised_appropriation=10000 m:recommendation=5019
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:department_number p:integer l:"DEPARTMENT NUMBER" t:dataTypeName=number
+metric m:appropration p:integer l:"2014 APPROPRATION" t:dataTypeName=money
 
-metric m:appropriation_authority p:integer l:"APPROPRIATION AUTHORITY" t:dataTypeName=number
+metric m:revised_appropriation p:integer l:"2014 REVISED APPROPRIATION" t:dataTypeName=money
 
-metric m:appropriation_account p:integer l:"APPROPRIATION ACCOUNT" t:dataTypeName=number
+metric m:recommendation p:integer l:"2015 RECOMMENDATION" t:dataTypeName=money
 
 entity e:kzbi-spm5 l:"Budget - 2015 Budget Recommendations - Appropriations" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/kzbi-spm5
 

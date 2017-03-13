@@ -55,7 +55,13 @@ series e:enjg-rjqz d:2017-01-17T17:47:50.000Z t:state=Arizona m:federal_rd_spend
 ## Meta Commands
 
 ```ls
-metric m:patents_per_100k l:"Number of Patents Issued per 100,000 Population" t:dataTypeName=number
+metric m:federal_rd_spending_obligations p:integer l:"Federal R&D Spending/Obligations ($ Thousands)" t:dataTypeName=money
+
+metric m:nih_rd_awards p:integer l:"National Institutes of Health R&D Contract Awards ($ Dollars)" t:dataTypeName=money
+
+metric m:sbir_awards_per_capita p:double l:"SBIR Awards, Value Per Capita ($ Dollars)" t:dataTypeName=money
+
+metric m:patents_per_100k p:float l:"Number of Patents Issued per 100,000 Population" t:dataTypeName=number
 
 entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Business and Economic Development" t:url=https://data.maryland.gov/api/views/enjg-rjqz
 

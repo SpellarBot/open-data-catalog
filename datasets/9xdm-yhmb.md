@@ -66,7 +66,13 @@ series e:9xdm-yhmb d:2008-01-01T00:00:00.000Z t:customer_class=Residential m:cen
 ```ls
 metric m:number_of_customers p:integer l:"Number of Customers" t:dataTypeName=number
 
-metric m:cents_per_kwh l:"Cents per kWh" t:dataTypeName=number
+metric m:revenue p:double l:Revenue t:dataTypeName=money
+
+metric m:percentage_of_revenue p:float l:"Percentage of Revenue" t:dataTypeName=percent
+
+metric m:cents_per_kwh p:float l:"Cents per kWh" t:dataTypeName=number
+
+metric m:percentage_of_mwh p:float l:"Percentage of MWh" t:dataTypeName=percent
 
 entity e:9xdm-yhmb l:"Austin Energy Customer Data by Customer Class 2006 - 2014" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/9xdm-yhmb
 

@@ -33,7 +33,7 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | series tag     | product_code                   | Product Code                   | text          | text          |
 | Yes      | numeric metric | package_size                   | Package Size                   | number        | text          |
 | Yes      | numeric metric | period_covered                 | Year                           | number        | text          |
-| Yes      | numeric metric | quarter                        | Quarter                        | number        | text          |
+| No       |                | quarter                        | Quarter                        | number        | text          |
 | Yes      | series tag     | product_fda_list_name          | Product Name                   | text          | text          |
 | Yes      | series tag     | suppression_used               | Suppression Used               | checkbox      | checkbox      |
 | Yes      | numeric metric | units_reimbursed               | Units Reimbursed               | number        | number        |
@@ -58,37 +58,35 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = longitude,latitude
+Excluded Fields = latitude,longitude,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:ju2h-vcgs d:2015-07-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=7/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:suppression_used=true t:record_id=FFSU m:package_size=85 m:ndc=2445385 m:period_covered=2015 m:quarter=3
+series e:ju2h-vcgs d:2015-07-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=7/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:suppression_used=true t:record_id=FFSU m:package_size=85 m:ndc=2445385 m:period_covered=2015
 
-series e:ju2h-vcgs d:2015-10-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=10/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:suppression_used=true t:record_id=FFSU m:package_size=1 m:ndc=2445301 m:period_covered=2015 m:quarter=4
+series e:ju2h-vcgs d:2015-10-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=10/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:suppression_used=true t:record_id=FFSU m:package_size=1 m:ndc=2445301 m:period_covered=2015
 
-series e:ju2h-vcgs d:2015-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:suppression_used=true t:record_id=FFSU m:package_size=85 m:ndc=2445385 m:period_covered=2015 m:quarter=1
+series e:ju2h-vcgs d:2015-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:suppression_used=true t:record_id=FFSU m:package_size=85 m:ndc=2445385 m:period_covered=2015
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:package_size p:integer l:"Package Size" d:"Third segment of National Drug Code (NDC3) identifies package forms and sizes." t:dataTypeName=number
+metric m:package_size p:long l:"Package Size" d:"Third segment of National Drug Code (NDC3) identifies package forms and sizes." t:dataTypeName=number
 
 metric m:period_covered p:integer l:Year d:"Calendar year" t:dataTypeName=number
 
-metric m:quarter p:integer l:Quarter d:"Quarter of year (1-4) 1 = January 1 ? March 31, 2 = April 1 ? June 30, 3 = July 1 ? September 30, 4 = October 1 ? December 31" t:dataTypeName=number
-
-metric m:units_reimbursed l:"Units Reimbursed" d:"The total number of units (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
+metric m:units_reimbursed p:double l:"Units Reimbursed" d:"The total number of units (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
 
 metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" d:"The number of prescriptions reimbursed (by the Medicaid Program ONLY) to pharmacists for the (11-digit NDC) drug for the period covered." t:dataTypeName=number
 
-metric m:total_amount_reimbursed l:"Total Amount Reimbursed" d:"The total amount reimbursed by both Medicaid and non-Medicaid entities to pharmacies for the (11-digit NDC) drug in the period covered (two below fields added together). This total is not reduced or affected by Medicaid rebates paid to the state. This amount represents both the Federal and State Reimbursement and is inclusive of dispensing fees." t:dataTypeName=number
+metric m:total_amount_reimbursed p:double l:"Total Amount Reimbursed" d:"The total amount reimbursed by both Medicaid and non-Medicaid entities to pharmacies for the (11-digit NDC) drug in the period covered (two below fields added together). This total is not reduced or affected by Medicaid rebates paid to the state. This amount represents both the Federal and State Reimbursement and is inclusive of dispensing fees." t:dataTypeName=number
 
-metric m:medicaid_amount_reimbursed l:"Medicaid Amount Reimbursed" d:"The amount reimbursed (by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
+metric m:medicaid_amount_reimbursed p:double l:"Medicaid Amount Reimbursed" d:"The amount reimbursed (by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
 
-metric m:non_medicaid_amount_reimbursed l:"Non Medicaid Amount Reimbursed" d:"The amount reimbursed (by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
+metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimbursed" d:"The amount reimbursed (by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
 
 metric m:ndc p:long l:NDC t:dataTypeName=number
 

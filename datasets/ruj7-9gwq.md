@@ -36,7 +36,7 @@
 | Yes      | series tag     | new_unit        | NEW UNIT        | text          | text          |
 | Yes      | time           | effective_date  | EFFECTIVE DATE  | calendar_date | calendar_date |
 | Yes      | series tag     | tax_id          | TAX ID          | text          | text          |
-| Yes      | numeric metric | key_number      | KEY NUMBER      | number        | number        |
+| Yes      | series tag     | key_number      | KEY NUMBER      | text          | number        |
 ```
 
 ## Time Field
@@ -49,11 +49,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:ruj7-9gwq d:2016-09-26T00:00:00.000Z t:new_type=LN t:old_type=LN t:old_street_name=WINSTED t:new_street_name=WINSTED t:new_bldg=2 t:tax_id=0115040605 m:key_number=14121 m:new_house=2400 m:old_house=2400
+series e:ruj7-9gwq d:2016-09-26T00:00:00.000Z t:new_type=LN t:old_type=LN t:old_street_name=WINSTED t:key_number=14121 t:new_street_name=WINSTED t:new_bldg=2 t:tax_id=0115040605 m:new_house=2400 m:old_house=2400
 
-series e:ruj7-9gwq d:2016-09-12T00:00:00.000Z t:new_type=DR t:old_type=DR t:old_street_name="IVALENES HOPE" t:new_street_name="IVALENES HOPE" t:tax_id=R498117 m:key_number=13960 m:new_house=9200 m:old_house=9200
+series e:ruj7-9gwq d:2016-09-12T00:00:00.000Z t:new_type=DR t:old_type=DR t:old_street_name="IVALENES HOPE" t:key_number=13960 t:new_street_name="IVALENES HOPE" t:tax_id=R498117 m:new_house=9200 m:old_house=9200
 
-series e:ruj7-9gwq d:2016-09-06T00:00:00.000Z t:new_type=RD t:old_unit=25-B t:old_type=RD t:old_street_name=969 t:new_street_name=969 t:tax_id=0210310512 t:new_unit=31 m:key_number=13921 m:new_house=9308 m:old_house=9308
+series e:ruj7-9gwq d:2016-09-06T00:00:00.000Z t:new_type=RD t:old_unit=25-B t:old_type=RD t:old_street_name=969 t:key_number=13921 t:new_street_name=969 t:tax_id=0210310512 t:new_unit=31 m:new_house=9308 m:old_house=9308
 ```
 
 ## Meta Commands
@@ -62,8 +62,6 @@ series e:ruj7-9gwq d:2016-09-06T00:00:00.000Z t:new_type=RD t:old_unit=25-B t:ol
 metric m:old_house p:integer l:"OLD HOUSE #" t:dataTypeName=number
 
 metric m:new_house p:integer l:"NEW HOUSE #" t:dataTypeName=number
-
-metric m:key_number p:integer l:"KEY NUMBER" t:dataTypeName=number
 
 entity e:ruj7-9gwq l:"Address Changes" t:url=https://data.austintexas.gov/api/views/ruj7-9gwq
 

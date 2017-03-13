@@ -56,6 +56,8 @@ series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:degree_desc=AA t:major_desc=Busi
 ## Meta Commands
 
 ```ls
+metric m:cost p:double l:Cost t:dataTypeName=money
+
 entity e:p7z5-tjrz l:"Tuition Assistance" t:url=https://data.montgomerycountymd.gov/api/views/p7z5-tjrz
 
 property e:p7z5-tjrz t:meta.view v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"

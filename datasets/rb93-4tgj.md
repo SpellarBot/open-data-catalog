@@ -27,7 +27,6 @@ Rate of deaths by age/gender (per 100,000 population) for motor vehicle occupant
 ```ls
 | Included | Schema Type    | Field Name     | Name            | Data Type | Render Type |
 | ======== | ============== | ============== | =============== | ========= | =========== |
-| No       | time           | :updated_at    | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | state          | State           | text      | text        |
 | Yes      | numeric metric | all_ages       | All Ages, 2012  | number    | number      |
 | Yes      | numeric metric | all_ages_2014  | All Ages, 2014  | number    | number      |
@@ -48,50 +47,50 @@ Rate of deaths by age/gender (per 100,000 population) for motor vehicle occupant
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:rb93-4tgj d:2016-10-18T18:05:09.000Z t:state="United States" m:male_2014=9.2 m:female_2014=4.5 m:age_35_54=6.8 m:age_21_34_2014=10.1 m:male=9.4 m:age_0_20_2014=3.7 m:age_55=8.1 m:all_ages_2014=6.8 m:age_35_54_2014=6.6 m:age_21_34=10.8 m:age_55_2014=7.8 m:female=4.7 m:age_0_20=4 m:all_ages=7
+series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state="United States" m:male_2014=9.2 m:female_2014=4.5 m:age_35_54=6.8 m:age_21_34_2014=10.1 m:male=9.4 m:age_0_20_2014=3.7 m:age_55=8.1 m:all_ages_2014=6.8 m:age_35_54_2014=6.6 m:age_21_34=10.8 m:age_55_2014=7.8 m:female=4.7 m:age_0_20=4 m:all_ages=7
 
-series e:rb93-4tgj d:2016-10-18T18:05:09.000Z t:state=Tennessee m:male_2014=15 m:female_2014=7.4 m:age_35_54=12.3 m:age_21_34_2014=15.6 m:male=16.8 m:age_0_20_2014=5.4 m:age_55=15 m:all_ages_2014=11.1 m:age_35_54_2014=11.5 m:age_21_34=16.4 m:age_55_2014=13 m:female=6.9 m:age_0_20=6.1 m:all_ages=11.7
+series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state=Tennessee m:male_2014=15 m:female_2014=7.4 m:age_35_54=12.3 m:age_21_34_2014=15.6 m:male=16.8 m:age_0_20_2014=5.4 m:age_55=15 m:all_ages_2014=11.1 m:age_35_54_2014=11.5 m:age_21_34=16.4 m:age_55_2014=13 m:female=6.9 m:age_0_20=6.1 m:all_ages=11.7
 
-series e:rb93-4tgj d:2016-10-18T18:05:09.000Z t:state="South Carolina" m:male_2014=16 m:female_2014=8.1 m:age_35_54=12.7 m:age_21_34_2014=20.9 m:male=17 m:age_0_20_2014=7.6 m:age_55=11.8 m:all_ages_2014=12 m:age_35_54_2014=10.2 m:age_21_34=19.8 m:age_55_2014=11.7 m:female=7.2 m:age_0_20=6.8 m:all_ages=12
+series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state="South Carolina" m:male_2014=16 m:female_2014=8.1 m:age_35_54=12.7 m:age_21_34_2014=20.9 m:male=17 m:age_0_20_2014=7.6 m:age_55=11.8 m:all_ages_2014=12 m:age_35_54_2014=10.2 m:age_21_34=19.8 m:age_55_2014=11.7 m:female=7.2 m:age_0_20=6.8 m:all_ages=12
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:all_ages l:"All Ages, 2012" t:dataTypeName=number
+metric m:all_ages p:float l:"All Ages, 2012" t:dataTypeName=number
 
-metric m:all_ages_2014 l:"All Ages, 2014" t:dataTypeName=number
+metric m:all_ages_2014 p:float l:"All Ages, 2014" t:dataTypeName=number
 
-metric m:age_0_20 l:"Age 0-20, 2012" t:dataTypeName=number
+metric m:age_0_20 p:float l:"Age 0-20, 2012" t:dataTypeName=number
 
-metric m:age_0_20_2014 l:"Age 0-20, 2014" t:dataTypeName=number
+metric m:age_0_20_2014 p:float l:"Age 0-20, 2014" t:dataTypeName=number
 
-metric m:age_21_34 l:"Age 21-34, 2012" t:dataTypeName=number
+metric m:age_21_34 p:float l:"Age 21-34, 2012" t:dataTypeName=number
 
-metric m:age_21_34_2014 l:"Age 21-34, 2014" t:dataTypeName=number
+metric m:age_21_34_2014 p:float l:"Age 21-34, 2014" t:dataTypeName=number
 
-metric m:age_35_54 l:"Age 35-54, 2012" t:dataTypeName=number
+metric m:age_35_54 p:float l:"Age 35-54, 2012" t:dataTypeName=number
 
-metric m:age_35_54_2014 l:"Age 35-54, 2014" t:dataTypeName=number
+metric m:age_35_54_2014 p:float l:"Age 35-54, 2014" t:dataTypeName=number
 
-metric m:age_55 l:"Age 55+, 2012" t:dataTypeName=number
+metric m:age_55 p:float l:"Age 55+, 2012" t:dataTypeName=number
 
-metric m:age_55_2014 l:"Age 55+, 2014" t:dataTypeName=number
+metric m:age_55_2014 p:float l:"Age 55+, 2014" t:dataTypeName=number
 
-metric m:male l:"Male, 2012" t:dataTypeName=number
+metric m:male p:float l:"Male, 2012" t:dataTypeName=number
 
-metric m:male_2014 l:"Male, 2014" t:dataTypeName=number
+metric m:male_2014 p:float l:"Male, 2014" t:dataTypeName=number
 
-metric m:female l:"Female, 2012" t:dataTypeName=number
+metric m:female p:float l:"Female, 2012" t:dataTypeName=number
 
-metric m:female_2014 l:"Female, 2014" t:dataTypeName=number
+metric m:female_2014 p:float l:"Female, 2014" t:dataTypeName=number
 
 entity e:rb93-4tgj l:"Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/rb93-4tgj
 

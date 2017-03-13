@@ -62,7 +62,7 @@ Format & Zone = yyyy-MMMM
 ## Series Fields
 
 ```ls
-Excluded Fields = month,year
+Excluded Fields = year,month
 ```
 
 ## Data Commands
@@ -78,41 +78,41 @@ series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=03 t:month_code=1 
 ## Meta Commands
 
 ```ls
-metric m:ta_client_req l:"Total Public Assistance (PA) Case Denials - Client Request" d:"Total Public Assistance case denials at the request of the client. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
+metric m:ta_client_req p:float l:"Total Public Assistance (PA) Case Denials - Client Request" d:"Total Public Assistance case denials at the request of the client. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
 
-metric m:ta_finance l:"Total PA Case Denials - Financial Issues" d:"Total Public Assistance case denials due to financial issues; these include increased earned or unearned income, exceeding resource limits, or other household circumstance changes that make the case financially ineligible. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
+metric m:ta_finance p:float l:"Total PA Case Denials - Financial Issues" d:"Total Public Assistance case denials due to financial issues; these include increased earned or unearned income, exceeding resource limits, or other household circumstance changes that make the case financially ineligible. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
 
-metric m:ta_residence l:"Total PA Case Denials - Residence Issues" d:"Total Public Assistance case denials due to residence issues; these include cases not residing in the jurisdiction of application or where the client cannot be located. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
+metric m:ta_residence p:float l:"Total PA Case Denials - Residence Issues" d:"Total Public Assistance case denials due to residence issues; these include cases not residing in the jurisdiction of application or where the client cannot be located. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
 
-metric m:ta_comp_employ l:"Total PA Case Denials - Compliance Issues / Employment" d:"Total Public Assistance case denials due to compliance issues related to employment; these include failure to participate as required in Public Assistance work participation requirements, such as failure to cooperate with establishing employability, failure to attend work program assignments and voluntarily leaving or failing to accept employment without good cause. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
+metric m:ta_comp_employ p:float l:"Total PA Case Denials - Compliance Issues / Employment" d:"Total Public Assistance case denials due to compliance issues related to employment; these include failure to participate as required in Public Assistance work participation requirements, such as failure to cooperate with establishing employability, failure to attend work program assignments and voluntarily leaving or failing to accept employment without good cause. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
 
-metric m:ta_comp_other l:"Total PA Case Denials - Compliance Issues / Other" d:"Total Public Assistance case denials due to compliance issues other than employment; these include failure to comply with rules other than those related to employment, such as failure to show for eligibility interviews, provide required documentation to verify eligibility or comply with household composition requirements. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
+metric m:ta_comp_other p:float l:"Total PA Case Denials - Compliance Issues / Other" d:"Total Public Assistance case denials due to compliance issues other than employment; these include failure to comply with rules other than those related to employment, such as failure to show for eligibility interviews, provide required documentation to verify eligibility or comply with household composition requirements. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
 
-metric m:ta_other l:"Total PA Case Denials - Other" d:"Total Public Assistance case denials due to issues not included in the previous categories. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
+metric m:ta_other p:float l:"Total PA Case Denials - Other" d:"Total Public Assistance case denials due to issues not included in the previous categories. Sum of Family Assistance and Safety Net Assistance case denials." t:dataTypeName=number
 
-metric m:fa_client_req l:"Family Assistance (FA) Case Denials - Client Request" d:"Family Assistance case denials at the request of the client." t:dataTypeName=number
+metric m:fa_client_req p:float l:"Family Assistance (FA) Case Denials - Client Request" d:"Family Assistance case denials at the request of the client." t:dataTypeName=number
 
-metric m:fa_finance l:"FA Denials Case - Financial Issues" d:"Family Assistance case denials due to financial issues; these include increased earned or unearned income, exceeding resource limits, or other household circumstance changes that make the case financially ineligible." t:dataTypeName=number
+metric m:fa_finance p:float l:"FA Denials Case - Financial Issues" d:"Family Assistance case denials due to financial issues; these include increased earned or unearned income, exceeding resource limits, or other household circumstance changes that make the case financially ineligible." t:dataTypeName=number
 
-metric m:fa_residence l:"FA Case Denials - Residence Issues" d:"Family Assistance case denials due to residence issues; these include cases not residing in the jurisdiction of application or where the client cannot be located." t:dataTypeName=number
+metric m:fa_residence p:float l:"FA Case Denials - Residence Issues" d:"Family Assistance case denials due to residence issues; these include cases not residing in the jurisdiction of application or where the client cannot be located." t:dataTypeName=number
 
-metric m:fa_comp_employ l:"FA Case Denials - Compliance Issues / Employment" d:"Family Assistance case denials due to compliance issues related to employment; these include failure to participate as required in Public Assistance work participation requirements, such as failure to cooperate with establishing employability, failure to attend work program assignments and voluntarily leaving or failing to accept employment without good cause." t:dataTypeName=number
+metric m:fa_comp_employ p:float l:"FA Case Denials - Compliance Issues / Employment" d:"Family Assistance case denials due to compliance issues related to employment; these include failure to participate as required in Public Assistance work participation requirements, such as failure to cooperate with establishing employability, failure to attend work program assignments and voluntarily leaving or failing to accept employment without good cause." t:dataTypeName=number
 
-metric m:fa_comp_other l:"FA Case Denials - Compliance Issues / Other" d:"Family Assistance case denials due to compliance issues other than employment; these include failure to comply with rules other than those related to employment, such as failure to show for eligibility interviews, provide required documentation to verify eligibility or comply with household composition requirements." t:dataTypeName=number
+metric m:fa_comp_other p:float l:"FA Case Denials - Compliance Issues / Other" d:"Family Assistance case denials due to compliance issues other than employment; these include failure to comply with rules other than those related to employment, such as failure to show for eligibility interviews, provide required documentation to verify eligibility or comply with household composition requirements." t:dataTypeName=number
 
-metric m:fa_other l:"FA Case Denials - Other" d:"Family Assistance case denials due to issues not included in the previous categories." t:dataTypeName=number
+metric m:fa_other p:float l:"FA Case Denials - Other" d:"Family Assistance case denials due to issues not included in the previous categories." t:dataTypeName=number
 
-metric m:sna_client_req l:"Safety Net Assistance (SNA) Case Denials - Client Request" d:"Safety Net Assistance case denials at the request of the client." t:dataTypeName=number
+metric m:sna_client_req p:float l:"Safety Net Assistance (SNA) Case Denials - Client Request" d:"Safety Net Assistance case denials at the request of the client." t:dataTypeName=number
 
-metric m:sna_finance l:"SNA Case Denials - Financial Issues" d:"Safety Net Assistance case denials due to financial issues; these include increased earned or unearned income, exceeding resource limits, or other household circumstance changes that make the case financially ineligible." t:dataTypeName=number
+metric m:sna_finance p:float l:"SNA Case Denials - Financial Issues" d:"Safety Net Assistance case denials due to financial issues; these include increased earned or unearned income, exceeding resource limits, or other household circumstance changes that make the case financially ineligible." t:dataTypeName=number
 
-metric m:sna_residence l:"SNA Case Denials - Residence Issues" d:"Safety Net Assistance case denials due to residence issues; these include cases not residing in the jurisdiction of application or where the client cannot be located." t:dataTypeName=number
+metric m:sna_residence p:float l:"SNA Case Denials - Residence Issues" d:"Safety Net Assistance case denials due to residence issues; these include cases not residing in the jurisdiction of application or where the client cannot be located." t:dataTypeName=number
 
-metric m:sna_comp_employ l:"SNA Case Denials - Compliance Issues / Employment" d:"Safety Net Assistance case denials due to compliance issues related to employment; these include failure to participate as required in Public Assistance work participation requirements, such as failure to cooperate with establishing employability, failure to attend work program assignments and voluntarily leaving or failing to accept employment without good cause." t:dataTypeName=number
+metric m:sna_comp_employ p:float l:"SNA Case Denials - Compliance Issues / Employment" d:"Safety Net Assistance case denials due to compliance issues related to employment; these include failure to participate as required in Public Assistance work participation requirements, such as failure to cooperate with establishing employability, failure to attend work program assignments and voluntarily leaving or failing to accept employment without good cause." t:dataTypeName=number
 
-metric m:sna_comp_other l:"SNA Case Denials - Compliance Issues / Other" d:"Safety Net Assistance case denials due to compliance issues other than employment; these include failure to comply with rules other than those related to employment, such as failure to show for eligibility interviews, provide required documentation to verify eligibility or comply with household composition requirements." t:dataTypeName=number
+metric m:sna_comp_other p:float l:"SNA Case Denials - Compliance Issues / Other" d:"Safety Net Assistance case denials due to compliance issues other than employment; these include failure to comply with rules other than those related to employment, such as failure to show for eligibility interviews, provide required documentation to verify eligibility or comply with household composition requirements." t:dataTypeName=number
 
-metric m:sna_other l:"SNA Case Denials - Other" d:"Safety Net Assistance case denials due to issues not included in the previous categories." t:dataTypeName=number
+metric m:sna_other p:float l:"SNA Case Denials - Other" d:"Safety Net Assistance case denials due to issues not included in the previous categories." t:dataTypeName=number
 
 entity e:tyyj-jgv5 l:"Public Assistance Case Denials by Reason for Denial: Beginning 2006" t:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" t:url=https://data.ny.gov/api/views/tyyj-jgv5
 

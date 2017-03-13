@@ -16,7 +16,7 @@
 | Tags | warrants, court |
 | Created | 2014-12-17T16:22:27Z |
 | Publication Date | 2015-07-14T15:32:39Z |
-| Rows Updated | 2017-03-10T08:01:24Z |
+| Rows Updated | 2017-03-13T07:00:36Z |
 
 ## Description
 
@@ -35,8 +35,8 @@ This lookup is not confirmation of an active warrant.  All City Court warrants s
 | Yes      | series tag     | add3       | CITY        | text          | text          |
 | Yes      | series tag     | state      | STATE       | text          | text          |
 | Yes      | series tag     | zip        | ZIPCODE     | text          | text          |
-| Yes      | numeric metric | race       | RACE        | number        | text          |
-| Yes      | numeric metric | sex        | SEX         | number        | text          |
+| Yes      | series tag     | race       | RACE        | text          | text          |
+| Yes      | series tag     | sex        | SEX         | text          | text          |
 | Yes      | numeric metric | dob        | YOB         | number        | text          |
 | Yes      | time           | doa        | DOA         | calendar_date | calendar_date |
 | Yes      | series tag     | fileno     | FILE NUMBER | text          | text          |
@@ -72,7 +72,7 @@ property e:3j5u-jyar t:meta.view v:id=3j5u-jyar v:category="Public Safety" v:att
 
 property e:3j5u-jyar t:meta.view.license v:name="Public Domain"
 
-property e:3j5u-jyar t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:3j5u-jyar t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:displayName="Open Data BR"
 
 property e:3j5u-jyar t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

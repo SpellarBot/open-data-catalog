@@ -67,7 +67,7 @@ metric m:employed_level p:integer l:"Employed Level" t:dataTypeName=number
 
 metric m:unemployed_level p:integer l:"Unemployed Level" t:dataTypeName=number
 
-metric m:unemployment_rate l:"Unemployment Rate" t:dataTypeName=number
+metric m:unemployment_rate p:float l:"Unemployment Rate" t:dataTypeName=number
 
 entity e:ak95-mjh9 l:"Local Area Unemployment Statistics" t:attribution="United States Department of Labor" t:url=https://data.wa.gov/api/views/ak95-mjh9
 

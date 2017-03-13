@@ -14,7 +14,7 @@
 | Category | Public Safety |
 | Created | 2015-12-18T22:15:10Z |
 | Publication Date | 2016-07-06T01:29:24Z |
-| Rows Updated | 2017-03-12T09:22:04Z |
+| Rows Updated | 2017-03-13T08:39:03Z |
 
 ## Description
 
@@ -25,11 +25,11 @@ Fire Incidents includes a summary of each (non-medical) incident to which the SF
 ```ls
 | Included | Schema Type    | Field Name                                   | Name                                         | Data Type     | Render Type   |
 | ======== | ============== | ============================================ | ============================================ | ============= | ============= |
-| Yes      | numeric metric | incident_number                              | Incident Number                              | number        | text          |
-| Yes      | numeric metric | exposure_number                              | Exposure Number                              | number        | number        |
+| Yes      | series tag     | incident_number                              | Incident Number                              | text          | text          |
+| Yes      | series tag     | exposure_number                              | Exposure Number                              | text          | number        |
 | No       |                | address                                      | Address                                      | text          | text          |
 | Yes      | time           | incident_date                                | Incident Date                                | calendar_date | calendar_date |
-| Yes      | numeric metric | call_number                                  | Call Number                                  | number        | text          |
+| Yes      | series tag     | call_number                                  | Call Number                                  | text          | text          |
 | No       |                | alarm_dttm                                   | Alarm DtTm                                   | calendar_date | calendar_date |
 | No       |                | arrival_dttm                                 | Arrival DtTm                                 | calendar_date | calendar_date |
 | No       |                | close_dttm                                   | Close DtTm                                   | calendar_date | calendar_date |
@@ -99,28 +99,22 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = arrival_dttm,address,close_dttm,alarm_dttm
+Excluded Fields = address,alarm_dttm,arrival_dttm,close_dttm
 ```
 
 ## Data Commands
 
 ```ls
-series e:wr8u-xric d:2009-04-12T00:00:00.000Z t:first_unit_on_scene=T15 t:primary_situation="551 - assist pd or other govern. agency" t:property_use="000 - property use, other" t:action_taken_other=- t:station_area=15 t:mutual_aid=none t:detector_alerted_occupants=- t:battalion=B09 t:action_taken_primary="52 - forcible entry" t:action_taken_secondary=- t:city=SF m:ems_personnel=0 m:civilian_fatalities=0 m:other_units=0 m:exposure_number=0 m:incident_number=9030109 m:suppression_units=1 m:other_personnel=0 m:call_number=91020273 m:ems_units=0 m:fire_fatalities=0 m:suppression_personnel=5 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2009-04-12T00:00:00.000Z t:first_unit_on_scene=T15 t:primary_situation="551 - assist pd or other govern. agency" t:property_use="000 - property use, other" t:action_taken_other=- t:station_area=15 t:call_number=091020273 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="52 - forcible entry" t:action_taken_secondary=- t:incident_number=09030109 t:city=SF m:suppression_units=1 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=5 m:fire_injuries=0 m:civilian_injuries=0
 
-series e:wr8u-xric d:2013-07-18T00:00:00.000Z t:first_unit_on_scene=E39 t:primary_situation="745 - alarm system sounded/no fire-accidental" t:property_use="429 - multifamily dwellings" t:action_taken_other=- t:station_area=39 t:mutual_aid=none t:detector_alerted_occupants=- t:battalion=B09 t:action_taken_primary="86 - investigate" t:action_taken_secondary=- t:box=8571 t:city=SF m:ems_personnel=0 m:civilian_fatalities=0 m:other_units=0 m:exposure_number=0 m:incident_number=13067402 m:suppression_units=3 m:other_personnel=0 m:call_number=131990117 m:ems_units=0 m:fire_fatalities=0 m:suppression_personnel=11 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2013-07-18T00:00:00.000Z t:first_unit_on_scene=E39 t:primary_situation="745 - alarm system sounded/no fire-accidental" t:property_use="429 - multifamily dwellings" t:action_taken_other=- t:station_area=39 t:call_number=131990117 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="86 - investigate" t:action_taken_secondary=- t:box=8571 t:incident_number=13067402 t:city=SF m:suppression_units=3 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=11 m:fire_injuries=0 m:civilian_injuries=0
 
-series e:wr8u-xric d:2012-05-13T00:00:00.000Z t:primary_situation="711 - municipal alarm system, street box false" t:property_use="963 - street or road in commercial area" t:station_area=01 t:mutual_aid=none t:zipcode=94103 t:detector_alerted_occupants=- t:neighborhood_district="South of Market" t:supervisor_district=6 t:city=SF t:first_unit_on_scene=B03 t:action_taken_other=- t:battalion=B03 t:action_taken_secondary=- t:action_taken_primary="86 - investigate" m:ems_personnel=0 m:civilian_fatalities=0 m:other_units=0 m:exposure_number=0 m:incident_number=12044490 m:suppression_units=3 m:other_personnel=0 m:call_number=121340051 m:ems_units=0 m:fire_fatalities=0 m:suppression_personnel=10 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2012-05-13T00:00:00.000Z t:primary_situation="711 - municipal alarm system, street box false" t:property_use="963 - street or road in commercial area" t:station_area=01 t:mutual_aid=none t:zipcode=94103 t:detector_alerted_occupants=- t:neighborhood_district="South of Market" t:exposure_number=0 t:incident_number=12044490 t:supervisor_district=6 t:city=SF t:first_unit_on_scene=B03 t:action_taken_other=- t:call_number=121340051 t:battalion=B03 t:action_taken_secondary=- t:action_taken_primary="86 - investigate" m:suppression_units=3 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=10 m:fire_injuries=0 m:civilian_injuries=0
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:incident_number p:integer l:"Incident Number" t:dataTypeName=number
-
-metric m:exposure_number p:integer l:"Exposure Number" t:dataTypeName=number
-
-metric m:call_number p:integer l:"Call Number" t:dataTypeName=number
-
 metric m:suppression_units p:integer l:"Suppression Units" t:dataTypeName=number
 
 metric m:suppression_personnel p:integer l:"Suppression Personnel" t:dataTypeName=number
@@ -133,9 +127,9 @@ metric m:other_units p:integer l:"Other Units" t:dataTypeName=number
 
 metric m:other_personnel p:integer l:"Other Personnel" t:dataTypeName=number
 
-metric m:estimated_property_loss l:"Estimated Property Loss" t:dataTypeName=number
+metric m:estimated_property_loss p:integer l:"Estimated Property Loss" t:dataTypeName=number
 
-metric m:estimated_contents_loss l:"Estimated Contents Loss" t:dataTypeName=number
+metric m:estimated_contents_loss p:integer l:"Estimated Contents Loss" t:dataTypeName=number
 
 metric m:fire_fatalities p:integer l:"Fire Fatalities" t:dataTypeName=number
 
@@ -145,9 +139,9 @@ metric m:civilian_fatalities p:integer l:"Civilian Fatalities" t:dataTypeName=nu
 
 metric m:civilian_injuries p:integer l:"Civilian Injuries" t:dataTypeName=number
 
-metric m:number_of_alarms l:"Number of Alarms" t:dataTypeName=number
+metric m:number_of_alarms p:long l:"Number of Alarms" t:dataTypeName=number
 
-metric m:floor_of_fire_origin l:"Floor of Fire Origin" t:dataTypeName=number
+metric m:floor_of_fire_origin p:integer l:"Floor of Fire Origin" t:dataTypeName=number
 
 metric m:number_of_floors_with_minimum_damage p:integer l:"Number of floors with minimum damage" t:dataTypeName=number
 

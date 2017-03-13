@@ -27,7 +27,6 @@ Progress Reports grade each school with an A, B, C, D, or F. ?These reports focu
 ```ls
 | Included | Schema Type    | Field Name                           | Name                                 | Data Type | Render Type |
 | ======== | ============== | ==================================== | ==================================== | ========= | =========== |
-| No       | time           | :updated_at                          | updated_at                           | meta_data | meta_data   |
 | Yes      | series tag     | dbn                                  | DBN                                  | text      | text        |
 | Yes      | series tag     | district                             | DISTRICT                             | text      | text        |
 | Yes      | series tag     | school                               | SCHOOL                               | text      | text        |
@@ -35,49 +34,49 @@ Progress Reports grade each school with an A, B, C, D, or F. ?These reports focu
 | Yes      | series tag     | progress_report_type                 | PROGRESS REPORT TYPE                 | text      | text        |
 | Yes      | series tag     | school_level                         | SCHOOL LEVEL*                        | text      | text        |
 | Yes      | numeric metric | peer_index                           | PEER INDEX*                          | number    | text        |
-| Yes      | numeric metric | 2010_2011_overall_grade              | 2010-2011 OVERALL GRADE              | number    | text        |
+| Yes      | series tag     | 2010_2011_overall_grade              | 2010-2011 OVERALL GRADE              | text      | text        |
 | Yes      | numeric metric | 2010_2011_overall_score              | 2010-2011 OVERALL SCORE              | number    | text        |
 | Yes      | numeric metric | 2010_2011_environment_category_score | 2010-2011 ENVIRONMENT CATEGORY SCORE | number    | text        |
-| Yes      | numeric metric | 2010_2011_environment_grade          | 2010-2011 ENVIRONMENT GRADE          | number    | text        |
+| Yes      | series tag     | 2010_2011_environment_grade          | 2010-2011 ENVIRONMENT GRADE          | text      | text        |
 | Yes      | numeric metric | 2010_2011_performance_category_score | 2010-2011 PERFORMANCE CATEGORY SCORE | number    | text        |
-| Yes      | numeric metric | 2010_2011_performance_grade          | 2010-2011 PERFORMANCE GRADE          | number    | text        |
+| Yes      | series tag     | 2010_2011_performance_grade          | 2010-2011 PERFORMANCE GRADE          | text      | text        |
 | Yes      | numeric metric | 2010_2011_progress_category_score    | 2010-2011 PROGRESS CATEGORY SCORE    | number    | text        |
-| Yes      | numeric metric | 2010_2011_progress_grade             | 2010-2011 PROGRESS GRADE             | number    | text        |
+| Yes      | series tag     | 2010_2011_progress_grade             | 2010-2011 PROGRESS GRADE             | text      | text        |
 | Yes      | numeric metric | 2010_2011_additional_credit          | 2010-2011 ADDITIONAL CREDIT          | number    | text        |
-| Yes      | numeric metric | 2009_10_progress_report_grade        | 2009-10 PROGRESS REPORT GRADE        | number    | text        |
+| Yes      | series tag     | 2009_10_progress_report_grade        | 2009-10 PROGRESS REPORT GRADE        | text      | text        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:upwt-zvh3 d:2013-02-20T20:38:30.000Z t:school="P.S. 015 Roberto Clemente" t:2010_2011_overall_grade=C t:principal="Irene Sanchez" t:dbn=01M015 t:progress_report_type=EMS t:2010_2011_performance_grade=D t:2010_2011_progress_grade=C t:district=1 t:2009_10_progress_report_grade=C t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=27 m:2010_2011_performance_category_score=2.1 m:2010_2011_environment_category_score=6.4 m:2010_2011_additional_credit=0.5 m:peer_index=63.61 m:2010_2011_progress_category_score=18
+series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:school="P.S. 015 Roberto Clemente" t:2010_2011_overall_grade=C t:principal="Irene Sanchez" t:dbn=01M015 t:progress_report_type=EMS t:2010_2011_performance_grade=D t:2010_2011_progress_grade=C t:district=1 t:2009_10_progress_report_grade=C t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=27 m:2010_2011_performance_category_score=2.1 m:2010_2011_environment_category_score=6.4 m:2010_2011_additional_credit=0.5 m:peer_index=63.61 m:2010_2011_progress_category_score=18
 
-series e:upwt-zvh3 d:2013-02-20T20:38:30.000Z t:school="P.S. 019 Asher Levy" t:2010_2011_overall_grade=B t:principal="Jacqueline Flanagan" t:dbn=01M019 t:progress_report_type=EMS t:2010_2011_performance_grade=D t:2010_2011_progress_grade=A t:district=1 t:2009_10_progress_report_grade=C t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=48.7 m:2010_2011_performance_category_score=5.2 m:2010_2011_environment_category_score=7.8 m:2010_2011_additional_credit=0.5 m:peer_index=49.48 m:2010_2011_progress_category_score=35.1
+series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:school="P.S. 019 Asher Levy" t:2010_2011_overall_grade=B t:principal="Jacqueline Flanagan" t:dbn=01M019 t:progress_report_type=EMS t:2010_2011_performance_grade=D t:2010_2011_progress_grade=A t:district=1 t:2009_10_progress_report_grade=C t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=48.7 m:2010_2011_performance_category_score=5.2 m:2010_2011_environment_category_score=7.8 m:2010_2011_additional_credit=0.5 m:peer_index=49.48 m:2010_2011_progress_category_score=35.1
 
-series e:upwt-zvh3 d:2013-02-20T20:38:30.000Z t:school="P.S. 020 Anna Silver" t:2010_2011_overall_grade=B t:principal="James Lee" t:dbn=01M020 t:progress_report_type=EMS t:2010_2011_performance_grade=C t:2010_2011_progress_grade=B t:district=1 t:2009_10_progress_report_grade=A t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=48.2 m:2010_2011_performance_category_score=7.4 m:2010_2011_environment_category_score=7.7 m:2010_2011_additional_credit=2 m:peer_index=56.65 m:2010_2011_progress_category_score=31.1
+series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:school="P.S. 020 Anna Silver" t:2010_2011_overall_grade=B t:principal="James Lee" t:dbn=01M020 t:progress_report_type=EMS t:2010_2011_performance_grade=C t:2010_2011_progress_grade=B t:district=1 t:2009_10_progress_report_grade=A t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=48.2 m:2010_2011_performance_category_score=7.4 m:2010_2011_environment_category_score=7.7 m:2010_2011_additional_credit=2 m:peer_index=56.65 m:2010_2011_progress_category_score=31.1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:peer_index l:"PEER INDEX*" t:dataTypeName=number
+metric m:peer_index p:float l:"PEER INDEX*" t:dataTypeName=number
 
-metric m:2010_2011_overall_score l:"2010-2011 OVERALL SCORE" t:dataTypeName=number
+metric m:2010_2011_overall_score p:float l:"2010-2011 OVERALL SCORE" t:dataTypeName=number
 
-metric m:2010_2011_environment_category_score l:"2010-2011 ENVIRONMENT CATEGORY SCORE" t:dataTypeName=number
+metric m:2010_2011_environment_category_score p:float l:"2010-2011 ENVIRONMENT CATEGORY SCORE" t:dataTypeName=number
 
-metric m:2010_2011_performance_category_score l:"2010-2011 PERFORMANCE CATEGORY SCORE" t:dataTypeName=number
+metric m:2010_2011_performance_category_score p:float l:"2010-2011 PERFORMANCE CATEGORY SCORE" t:dataTypeName=number
 
-metric m:2010_2011_progress_category_score l:"2010-2011 PROGRESS CATEGORY SCORE" t:dataTypeName=number
+metric m:2010_2011_progress_category_score p:float l:"2010-2011 PROGRESS CATEGORY SCORE" t:dataTypeName=number
 
-metric m:2010_2011_additional_credit l:"2010-2011 ADDITIONAL CREDIT" t:dataTypeName=number
+metric m:2010_2011_additional_credit p:float l:"2010-2011 ADDITIONAL CREDIT" t:dataTypeName=number
 
 entity e:upwt-zvh3 l:"School Progress Report 2010-2011" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/upwt-zvh3
 

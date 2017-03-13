@@ -27,7 +27,6 @@ Data set contains one year retention rates and 150 time graduation rates (3yr ra
 ```ls
 | Included | Schema Type    | Field Name              | Name                    | Data Type | Render Type |
 | ======== | ============== | ======================= | ======================= | ========= | =========== |
-| No       | time           | :updated_at             | updated_at              | meta_data | meta_data   |
 | Yes      | series tag     | college                 | College                 | text      | text        |
 | Yes      | series tag     | fall_term               | Fall Term               | text      | text        |
 | Yes      | series tag     | record_type_code        | Record Type Code        | text      | number      |
@@ -39,24 +38,26 @@ Data set contains one year retention rates and 150 time graduation rates (3yr ra
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:ba86-tr5c d:2014-01-17T09:03:56.000Z t:record_type_code=1 t:record_type_description="1 Year Retention" t:college="CUNY Baruch College" t:fall_term="Fall 1990" m:percentage=81.8 m:head_count=1278
+series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:record_type_code=1 t:record_type_description="1 Year Retention" t:college="CUNY Baruch College" t:fall_term="Fall 1990" m:percentage=81.8 m:head_count=1278
 
-series e:ba86-tr5c d:2014-01-17T09:03:56.000Z t:record_type_code=2 t:record_type_description="150 Time Graduation" t:college="CUNY Baruch College" t:fall_term="Fall 1990" m:percentage=39.3 m:head_count=1278
+series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:record_type_code=2 t:record_type_description="150 Time Graduation" t:college="CUNY Baruch College" t:fall_term="Fall 1990" m:percentage=39.3 m:head_count=1278
 
-series e:ba86-tr5c d:2014-01-17T09:03:56.000Z t:record_type_code=1 t:record_type_description="1 Year Retention" t:college="CUNY Baruch College" t:fall_term="Fall 1991" m:percentage=84.4 m:head_count=1170
+series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:record_type_code=1 t:record_type_description="1 Year Retention" t:college="CUNY Baruch College" t:fall_term="Fall 1991" m:percentage=84.4 m:head_count=1170
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:head_count p:integer l:"Head Count" t:dataTypeName=number
+
+metric m:percentage p:float l:Percentage t:dataTypeName=percent
 
 entity e:ba86-tr5c l:"City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" t:attribution="City University of New York" t:url=https://data.ny.gov/api/views/ba86-tr5c
 

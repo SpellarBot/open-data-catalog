@@ -53,7 +53,7 @@ series e:d683-uqui d:2008-09-01T00:00:00.000Z m:system_annual_average_production
 ## Meta Commands
 
 ```ls
-metric m:system_annual_average_production_cost_cents_per_kwh l:"System annual average production cost (cents per kWh)" t:dataTypeName=number
+metric m:system_annual_average_production_cost_cents_per_kwh p:float l:"System annual average production cost (cents per kWh)" t:dataTypeName=number
 
 entity e:d683-uqui l:"System Production Cost" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/d683-uqui
 

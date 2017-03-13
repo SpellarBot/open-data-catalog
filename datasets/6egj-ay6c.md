@@ -63,7 +63,13 @@ series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Blanton Elementary 
 ```ls
 metric m:date_completed p:integer l:"Date Completed" t:dataTypeName=number
 
-metric m:system_size_dc_kw l:"System Size (DC kW)" t:dataTypeName=number
+metric m:estimated_ae_cost p:double l:"Estimated AE Cost ($)" d:"includes $35,304.25 change order note: Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing" t:dataTypeName=money
+
+metric m:estimated_grant_funds p:double l:"Estimated Grant Funds ($)" d:"includes $35,304.25 change order. Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing" t:dataTypeName=money
+
+metric m:estimated_total_cost p:double l:"Estimated Total Cost ($)" d:"includes $35,304.25 change order. Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing" t:dataTypeName=money
+
+metric m:system_size_dc_kw p:float l:"System Size (DC kW)" t:dataTypeName=number
 
 metric m:estimated_annual_production_kwh p:integer l:"Estimated Annual Production (kWh)" t:dataTypeName=number
 

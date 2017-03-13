@@ -21,7 +21,6 @@
 ```ls
 | Included | Schema Type    | Field Name          | Name                  | Data Type | Render Type |
 | ======== | ============== | =================== | ===================== | ========= | =========== |
-| No       | time           | :updated_at         | updated_at            | meta_data | meta_data   |
 | Yes      | series tag     | county              | County                | text      | text        |
 | Yes      | numeric metric | white_non_hispanic  | White (Non-Hispanic)  | number    | number      |
 | Yes      | numeric metric | black_non_hispanic  | Black (Non-Hispanic)  | number    | number      |
@@ -33,18 +32,18 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:j5r5-zefd d:2015-11-16T20:24:12.000Z t:county=Adams m:asian_non_hispanic=37 m:indian_non_hispanic=31 m:black_non_hispanic=46 m:white_non_hispanic=1574 m:hispanic=4932
+series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Adams m:asian_non_hispanic=37 m:indian_non_hispanic=31 m:black_non_hispanic=46 m:white_non_hispanic=1574 m:hispanic=4932
 
-series e:j5r5-zefd d:2015-11-16T20:24:12.000Z t:county=Asotin m:asian_non_hispanic=52 m:indian_non_hispanic=112 m:black_non_hispanic=75 m:white_non_hispanic=4131 m:hispanic=293
+series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Asotin m:asian_non_hispanic=52 m:indian_non_hispanic=112 m:black_non_hispanic=75 m:white_non_hispanic=4131 m:hispanic=293
 
-series e:j5r5-zefd d:2015-11-16T20:24:12.000Z t:county=Benton m:asian_non_hispanic=1474 m:indian_non_hispanic=453 m:black_non_hispanic=1110 m:white_non_hispanic=30847 m:hispanic=14429
+series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Benton m:asian_non_hispanic=1474 m:indian_non_hispanic=453 m:black_non_hispanic=1110 m:white_non_hispanic=30847 m:hispanic=14429
 ```
 
 ## Meta Commands

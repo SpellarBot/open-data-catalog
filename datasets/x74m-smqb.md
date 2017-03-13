@@ -25,33 +25,32 @@ The Chicago Public Library has more than 70 locations. The Chicago Public Librar
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
-| ======== | ============== | =========== | ========== | ========= | =========== |
-| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag     | location    | LOCATION   | text      | text        |
-| No       |                | address     | ADDRESS    | text      | text        |
-| Yes      | series tag     | city        | CITY       | text      | text        |
-| Yes      | series tag     | zip         | ZIP        | text      | text        |
-| Yes      | numeric metric | january     | JANUARY    | number    | number      |
-| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
-| Yes      | numeric metric | march       | MARCH      | number    | number      |
-| Yes      | numeric metric | april       | APRIL      | number    | number      |
-| Yes      | numeric metric | may         | MAY        | number    | number      |
-| Yes      | numeric metric | june        | JUNE       | number    | number      |
-| Yes      | numeric metric | july        | JULY       | number    | number      |
-| Yes      | numeric metric | august      | AUGUST     | number    | number      |
-| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
-| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
-| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
-| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
-| Yes      | numeric metric | ytd         | YTD        | number    | number      |
+| Included | Schema Type    | Field Name | Name      | Data Type | Render Type |
+| ======== | ============== | ========== | ========= | ========= | =========== |
+| Yes      | series tag     | location   | LOCATION  | text      | text        |
+| No       |                | address    | ADDRESS   | text      | text        |
+| Yes      | series tag     | city       | CITY      | text      | text        |
+| Yes      | series tag     | zip        | ZIP       | text      | text        |
+| Yes      | numeric metric | january    | JANUARY   | number    | number      |
+| Yes      | numeric metric | february   | FEBRUARY  | number    | number      |
+| Yes      | numeric metric | march      | MARCH     | number    | number      |
+| Yes      | numeric metric | april      | APRIL     | number    | number      |
+| Yes      | numeric metric | may        | MAY       | number    | number      |
+| Yes      | numeric metric | june       | JUNE      | number    | number      |
+| Yes      | numeric metric | july       | JULY      | number    | number      |
+| Yes      | numeric metric | august     | AUGUST    | number    | number      |
+| Yes      | numeric metric | september  | SEPTEMBER | number    | number      |
+| Yes      | numeric metric | october    | OCTOBER   | number    | number      |
+| Yes      | numeric metric | november   | NOVEMBER  | number    | number      |
+| Yes      | numeric metric | december   | DECEMBER  | number    | number      |
+| Yes      | numeric metric | ytd        | YTD       | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Series Fields
@@ -63,11 +62,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:x74m-smqb d:2014-01-15T14:20:49.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=36 m:may=0 m:november=89 m:march=0 m:april=0 m:february=0 m:june=0 m:january=0 m:ytd=421 m:august=74 m:july=0 m:october=117 m:september=105
+series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=36 m:may=0 m:november=89 m:march=0 m:april=0 m:february=0 m:june=0 m:january=0 m:ytd=421 m:august=74 m:july=0 m:october=117 m:september=105
 
-series e:x74m-smqb d:2014-01-15T14:20:49.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=4906 m:may=5176 m:november=5277 m:march=5301 m:april=5668 m:february=4014 m:june=5142 m:january=5741 m:ytd=63052 m:august=6104 m:july=5276 m:october=5228 m:september=5219
+series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=4906 m:may=5176 m:november=5277 m:march=5301 m:april=5668 m:february=4014 m:june=5142 m:january=5741 m:ytd=63052 m:august=6104 m:july=5276 m:october=5228 m:september=5219
 
-series e:x74m-smqb d:2014-01-15T14:20:49.000Z t:zip=60632 t:location="Archer Heights*" t:city=CHICAGO m:december=7382 m:may=8054 m:november=9448 m:march=9405 m:april=9712 m:february=7994 m:june=8470 m:january=9744 m:ytd=110419 m:august=9768 m:july=10180 m:october=10915 m:september=9347
+series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights*" t:city=CHICAGO m:december=7382 m:may=8054 m:november=9448 m:march=9405 m:april=9712 m:february=7994 m:june=8470 m:january=9744 m:ytd=110419 m:august=9768 m:july=10180 m:october=10915 m:september=9347
 ```
 
 ## Meta Commands

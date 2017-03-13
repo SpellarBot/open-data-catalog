@@ -13,7 +13,7 @@
 | Name | HPD Crime Incidents |
 | Created | 2014-12-13T00:26:29Z |
 | Publication Date | 2015-03-12T00:11:07Z |
-| Rows Updated | 2017-03-11T18:15:41Z |
+| Rows Updated | 2017-03-12T18:15:52Z |
 
 ## Columns
 
@@ -27,9 +27,9 @@
 | Yes      | series tag     | cmagency     | CMAgency     | text      | text        |
 | Yes      | time           | date         | Date         | date      | date        |
 | Yes      | series tag     | type         | Type         | text      | text        |
-| Yes      | numeric metric | status       | Status       | number    | text        |
+| Yes      | series tag     | status       | Status       | text      | text        |
 | Yes      | numeric metric | score        | Score        | number    | text        |
-| Yes      | numeric metric | side         | Side         | number    | text        |
+| Yes      | series tag     | side         | Side         | text      | text        |
 ```
 
 ## Time Field
@@ -53,8 +53,6 @@ series e:f5dd-pqys d:2016-12-09T19:44:00.000Z t:blockaddress="911400 BLOCK MIULA
 
 ```ls
 metric m:score p:integer l:Score t:dataTypeName=number
-
-metric m:side l:Side t:dataTypeName=number
 
 entity e:f5dd-pqys l:"HPD Crime Incidents" t:url=https://data.honolulu.gov/api/views/f5dd-pqys
 

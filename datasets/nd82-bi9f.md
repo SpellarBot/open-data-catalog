@@ -61,11 +61,19 @@ series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=CCHR m:2012_fy_value=6125
 ```ls
 metric m:2014_fy_count p:integer l:"2014 FY Count" t:dataTypeName=number
 
+metric m:2014_fy_value p:long l:"2014 FY Value" t:dataTypeName=money
+
 metric m:2013_fy_count p:integer l:"2013 FY Count" t:dataTypeName=number
+
+metric m:2013_fy_value p:integer l:"2013 FY Value" t:dataTypeName=money
 
 metric m:2012_fy_count p:integer l:"2012 FY Count" t:dataTypeName=number
 
+metric m:2012_fy_value p:integer l:"2012 FY Value" t:dataTypeName=money
+
 metric m:2011_fy_count p:integer l:"2011 FY Count" t:dataTypeName=number
+
+metric m:2011_fy_value p:integer l:"2011 FY Value" t:dataTypeName=money
 
 entity e:nd82-bi9f l:"Procurement By Industry" t:attribution="Office of the Mayor (OTM)" t:url=https://data.cityofnewyork.us/api/views/nd82-bi9f
 

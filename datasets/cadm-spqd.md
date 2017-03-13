@@ -32,7 +32,6 @@ DISCLAIMER: Some of the information may be tied to the Department?s bond funded 
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
 | ======== | ============== | =============== | =============== | ========= | =========== |
-| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | project_name    | Project Name    | text      | text        |
 | No       |                | project_address | Project Address | text      | text        |
 | Yes      | series tag     | project_city    | Project City    | text      | text        |
@@ -46,24 +45,24 @@ DISCLAIMER: Some of the information may be tied to the Department?s bond funded 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = fy,project_address
+Excluded Fields = project_address,fy
 ```
 
 ## Data Commands
 
 ```ls
-series e:cadm-spqd d:2017-02-27T21:39:12.000Z t:project_name="Park View at Colonial Landing" t:project_county=Howard t:projecttype=Acq./Rehab. t:project_city=Elkridge t:project_zip=21075 m:units=100
+series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Park View at Colonial Landing" t:project_county=Howard t:projecttype=Acq./Rehab. t:project_city=Elkridge t:project_zip=21075 m:units=100
 
-series e:cadm-spqd d:2017-02-27T21:39:12.000Z t:project_name="Park View at Bladensburg" t:project_county="Prince George's" t:projecttype=Acq./Rehab. t:project_city=Bladensburg t:project_zip=20710 m:units=101
+series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Park View at Bladensburg" t:project_county="Prince George's" t:projecttype=Acq./Rehab. t:project_city=Bladensburg t:project_zip=20710 m:units=101
 
-series e:cadm-spqd d:2017-02-27T21:39:12.000Z t:project_name="Burwood Gardens Phase I" t:project_county="Anne Arundel" t:projecttype=New t:project_city="Glen Burnie" t:project_zip=21061 m:units=100
+series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Burwood Gardens Phase I" t:project_county="Anne Arundel" t:projecttype=New t:project_city="Glen Burnie" t:project_zip=21061 m:units=100
 ```
 
 ## Meta Commands

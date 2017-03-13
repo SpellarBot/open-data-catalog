@@ -22,7 +22,6 @@
 ```ls
 | Included | Schema Type    | Field Name                                 | Name                                       | Data Type | Render Type |
 | ======== | ============== | ========================================== | ========================================== | ========= | =========== |
-| No       | time           | :updated_at                                | updated_at                                 | meta_data | meta_data   |
 | Yes      | series tag     | contributor_type                           | Contributor Type                           | text      | text        |
 | Yes      | numeric metric | count                                      | Count                                      | number    | number      |
 | Yes      | numeric metric | percentage_of_total_count                  | Percentage of Total Count                  | percent   | percent     |
@@ -33,24 +32,30 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:hty7-p2e9 d:2015-01-12T13:35:55.000Z t:contributor_type="Candidate Committee" m:count=128 m:percentage_of_total_contributions_received=0.34 m:percentage_of_total_count=0.64 m:total_contribution_received=39575.16
+series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type="Candidate Committee" m:count=128 m:percentage_of_total_contributions_received=0.34 m:percentage_of_total_count=0.64 m:total_contribution_received=39575.16
 
-series e:hty7-p2e9 d:2015-01-12T13:36:43.000Z t:contributor_type="Immediate Family" m:count=310 m:percentage_of_total_contributions_received=2.06 m:percentage_of_total_count=1.54 m:total_contribution_received=238752.53
+series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type="Immediate Family" m:count=310 m:percentage_of_total_contributions_received=2.06 m:percentage_of_total_count=1.54 m:total_contribution_received=238752.53
 
-series e:hty7-p2e9 d:2015-01-12T13:37:33.000Z t:contributor_type=Individual m:count=14966 m:percentage_of_total_contributions_received=68.21 m:percentage_of_total_count=74.57 m:total_contribution_received=7912040.29
+series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type=Individual m:count=14966 m:percentage_of_total_contributions_received=68.21 m:percentage_of_total_count=74.57 m:total_contribution_received=7912040.29
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:count p:integer l:Count t:dataTypeName=number
+
+metric m:percentage_of_total_count p:float l:"Percentage of Total Count" t:dataTypeName=percent
+
+metric m:total_contribution_received p:double l:"Total Contribution Received" t:dataTypeName=money
+
+metric m:percentage_of_total_contributions_received p:float l:"Percentage of Total Contributions Received" t:dataTypeName=percent
 
 entity e:hty7-p2e9 l:"2014 Elections - Contributions Received (more than $100) by Contibutor Type" t:url=https://data.hawaii.gov/api/views/hty7-p2e9
 

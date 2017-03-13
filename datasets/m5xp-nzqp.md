@@ -22,7 +22,6 @@
 ```ls
 | Included | Schema Type | Field Name                                                 | Name                                                         | Data Type | Render Type |
 | ======== | =========== | ========================================================== | ============================================================ | ========= | =========== |
-| No       | time        | :updated_at                                                | updated_at                                                   | meta_data | meta_data   |
 | Yes      | series tag  | agency_issuing_tax_expenditure                             | Agency Issuing Tax Expenditure                               | text      | text        |
 | Yes      | series tag  | report_period_end_date                                     | Report Period End Date                                       | text      | text        |
 | Yes      | series tag  | business_firm_name                                         | Business Firm Name                                           | text      | text        |
@@ -42,8 +41,8 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Series Fields

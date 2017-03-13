@@ -16,7 +16,7 @@
 | Tags | campaign consultant, ethics, vendors, sub-vendors, payments |
 | Created | 2013-07-19T23:10:46Z |
 | Publication Date | 2013-07-22T22:49:57Z |
-| Rows Updated | 2017-03-12T03:55:07Z |
+| Rows Updated | 2017-03-13T02:55:07Z |
 
 ## Description
 
@@ -33,7 +33,7 @@ Campaign consultants must report economic consideration promised to or received 
 | Yes      | numeric metric | payments_received      | Payments received      | money         | money         |
 | Yes      | time           | quarter_start_date     | Quarter Start Date     | calendar_date | calendar_date |
 | No       |                | quarter_end_date       | Quarter End Date       | calendar_date | calendar_date |
-| Yes      | numeric metric | quarter                | Quarter                | number        | text          |
+| No       |                | quarter                | Quarter                | number        | text          |
 | No       |                | year                   | Year                   | number        | text          |
 ```
 
@@ -47,23 +47,25 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = quarter_end_date,year
+Excluded Fields = quarter_end_date,year,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:ewuz-v3y2 d:2016-03-01T00:00:00.000Z t:consultant="Muir Consulting" t:vendor_sub_vendor_name="Spot On" m:payments_received=3250 m:payments_promised=3250 m:quarter=2
+series e:ewuz-v3y2 d:2016-03-01T00:00:00.000Z t:consultant="Muir Consulting" t:vendor_sub_vendor_name="Spot On" m:payments_received=3250 m:payments_promised=3250
 
-series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Pacific Print Resource" m:payments_received=630.5 m:payments_promised=630.5 m:quarter=4
+series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Pacific Print Resource" m:payments_received=630.5 m:payments_promised=630.5
 
-series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Lizard Press" m:payments_received=875 m:payments_promised=875 m:quarter=4
+series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Lizard Press" m:payments_received=875 m:payments_promised=875
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:quarter p:integer l:Quarter t:dataTypeName=number
+metric m:payments_promised p:double l:"Payments promised" t:dataTypeName=money
+
+metric m:payments_received p:double l:"Payments received" t:dataTypeName=money
 
 entity e:ewuz-v3y2 l:"Campaign Consultants - Vendor Payments" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/ewuz-v3y2
 

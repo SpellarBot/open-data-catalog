@@ -28,7 +28,6 @@ Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgo
 ```ls
 | Included | Schema Type    | Field Name                   | Name                           | Data Type | Render Type |
 | ======== | ============== | ============================ | ============================== | ========= | =========== |
-| No       | time           | :updated_at                  | updated_at                     | meta_data | meta_data   |
 | Yes      | series tag     | characteristic               | Characteristic                 | text      | text        |
 | Yes      | numeric metric | prevalence                   | Prevalence (%)                 | number    | number      |
 | Yes      | numeric metric | prevalence_standard_error_se | Prevalence Standard Error (SE) | number    | number      |
@@ -39,30 +38,30 @@ Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgo
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:c59t-7iqd d:2013-01-03T16:06:08.000Z t:characteristic=Overall m:mean_standard_error_se=0.2 m:prevalence=31.1 m:prevalence_standard_error_se=2.4 m:mean=2.7
+series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic=Overall m:mean_standard_error_se=0.2 m:prevalence=31.1 m:prevalence_standard_error_se=2.4 m:mean=2.7
 
-series e:c59t-7iqd d:2013-01-03T16:06:08.000Z t:characteristic="Urban (region II, IV)" m:mean_standard_error_se=0.2 m:prevalence=31 m:prevalence_standard_error_se=3.5 m:mean=2.9
+series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic="Urban (region II, IV)" m:mean_standard_error_se=0.2 m:prevalence=31 m:prevalence_standard_error_se=3.5 m:mean=2.9
 
-series e:c59t-7iqd d:2013-01-03T16:06:08.000Z t:characteristic="Rural (region I,III, V)" m:mean_standard_error_se=0.3 m:prevalence=31.1 m:prevalence_standard_error_se=3 m:mean=2.6
+series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic="Rural (region I,III, V)" m:mean_standard_error_se=0.3 m:prevalence=31.1 m:prevalence_standard_error_se=3 m:mean=2.6
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:prevalence l:"Prevalence (%)" t:dataTypeName=number
+metric m:prevalence p:float l:"Prevalence (%)" t:dataTypeName=number
 
-metric m:prevalence_standard_error_se l:"Prevalence Standard Error (SE)" t:dataTypeName=number
+metric m:prevalence_standard_error_se p:float l:"Prevalence Standard Error (SE)" t:dataTypeName=number
 
-metric m:mean l:Mean t:dataTypeName=number
+metric m:mean p:float l:Mean t:dataTypeName=number
 
-metric m:mean_standard_error_se l:"Mean Standard Error (SE)" t:dataTypeName=number
+metric m:mean_standard_error_se p:float l:"Mean Standard Error (SE)" t:dataTypeName=number
 
 entity e:c59t-7iqd l:"Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" t:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health" t:url=https://data.maryland.gov/api/views/c59t-7iqd
 

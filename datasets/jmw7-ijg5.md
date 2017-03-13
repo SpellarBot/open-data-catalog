@@ -62,7 +62,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = address,y_coordinate,x_coordinate,longitude,latitude
+Excluded Fields = address,x_coordinate,y_coordinate,latitude,longitude
 ```
 
 ## Data Commands

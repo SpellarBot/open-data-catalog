@@ -50,6 +50,8 @@ series e:jpdu-8y8k d:2014-05-30T14:44:38.000Z t:fiscal_year=2010-11 m:budget_app
 ## Meta Commands
 
 ```ls
+metric m:budget_appropriation p:integer l:"Budget Appropriation" t:dataTypeName=money
+
 entity e:jpdu-8y8k l:"L.A. Zoo Budget Appropriation" t:url=https://data.lacity.org/api/views/jpdu-8y8k
 
 property e:jpdu-8y8k t:meta.view v:id=jpdu-8y8k v:averageRating=0 v:name="L.A. Zoo Budget Appropriation"

@@ -66,9 +66,9 @@ metric m:2014_15_actuals p:integer l:"2014-15 Actuals" t:dataTypeName=number
 
 metric m:2015_16_adopted_budget p:integer l:"2015-16 Adopted Budget" t:dataTypeName=number
 
-metric m:2015_16_estimates l:"2015-16 Estimates" t:dataTypeName=number
+metric m:2015_16_estimates p:integer l:"2015-16 Estimates" t:dataTypeName=number
 
-metric m:2016_17_proposed_budget l:"2016-17 Proposed Budget" t:dataTypeName=number
+metric m:2016_17_proposed_budget p:integer l:"2016-17 Proposed Budget" t:dataTypeName=number
 
 metric m:2016_17_adopted_budget p:integer l:"2016-17 Adopted Budget" t:dataTypeName=number
 

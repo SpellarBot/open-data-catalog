@@ -15,7 +15,7 @@
 | Tags | furnaces |
 | Created | 2014-08-08T12:06:09Z |
 | Publication Date | 2016-12-29T15:39:44Z |
-| Rows Updated | 2017-03-11T14:16:17Z |
+| Rows Updated | 2017-03-12T13:16:25Z |
 
 ## Description
 
@@ -60,17 +60,17 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V045B12*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_7643006 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171639 m:efficiency_afue=95
+series e:i97v-e8au d:2013-09-09T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2E110C20*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_08232013141014_3067864 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Allied Air Enterprises" t:model_name="A952E SERIES" t:pd_id=2188762 m:efficiency_afue=95
 
-series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V070B16*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_9228942 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171640 m:efficiency_afue=95
+series e:i97v-e8au d:2014-11-15T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A96US2V045B12*-* t:fuel_type="Natural Gas,Propane Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_11242015142521_7190643 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Allied Air Enterprises" t:model_name="A962V SERIES" t:pd_id=2253302 m:efficiency_afue=96
 
-series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V090C20*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_6679033 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171641 m:efficiency_afue=95
+series e:i97v-e8au d:2014-11-15T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A96US2V070B12*-* t:fuel_type="Natural Gas,Propane Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_11242015142521_4647189 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Allied Air Enterprises" t:model_name="A962V SERIES" t:pd_id=2253303 m:efficiency_afue=96
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:efficiency_afue l:"Efficiency (AFUE)" d:"The percentage of the heat in the incoming fuel which is converted to space heat instead of being lost." t:dataTypeName=number
+metric m:efficiency_afue p:float l:"Efficiency (AFUE)" d:"The percentage of the heat in the incoming fuel which is converted to space heat instead of being lost." t:dataTypeName=number
 
 entity e:i97v-e8au l:"ENERGY STAR Certified Furnaces" t:url=https://data.energystar.gov/api/views/i97v-e8au
 

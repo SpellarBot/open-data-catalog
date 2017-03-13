@@ -85,7 +85,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = planning_filed,firstfiled,dbi_filed
+Excluded Fields = planning_filed,dbi_filed,firstfiled
 ```
 
 ## Data Commands
@@ -121,27 +121,27 @@ metric m:visitor p:integer l:Visitor t:dataTypeName=number
 
 metric m:heightnum p:integer l:HeightNum t:dataTypeName=number
 
-metric m:net_added_units l:"Net Added Units" t:dataTypeName=number
+metric m:net_added_units p:integer l:"Net Added Units" t:dataTypeName=number
 
-metric m:net_added_sf l:"Net Added SF" t:dataTypeName=number
+metric m:net_added_sf p:integer l:"Net Added SF" t:dataTypeName=number
 
-metric m:net_cult_inst_educ l:"Net Cult, Inst, Educ" t:dataTypeName=number
+metric m:net_cult_inst_educ p:integer l:"Net Cult, Inst, Educ" t:dataTypeName=number
 
-metric m:net_medical l:"Net Medical" t:dataTypeName=number
+metric m:net_medical p:integer l:"Net Medical" t:dataTypeName=number
 
-metric m:net_office l:"Net Office" t:dataTypeName=number
+metric m:net_office p:integer l:"Net Office" t:dataTypeName=number
 
-metric m:net_prod_dist_rep l:"Net Prod, Dist, Rep" t:dataTypeName=number
+metric m:net_prod_dist_rep p:integer l:"Net Prod, Dist, Rep" t:dataTypeName=number
 
-metric m:net_ret_ent l:"Net Ret, Ent" t:dataTypeName=number
+metric m:net_ret_ent p:integer l:"Net Ret, Ent" t:dataTypeName=number
 
-metric m:net_visitor l:"Net Visitor" t:dataTypeName=number
+metric m:net_visitor p:integer l:"Net Visitor" t:dataTypeName=number
 
 metric m:affordable p:integer l:AFFORDABLE t:dataTypeName=number
 
-metric m:affordablenet l:AFFORDABLENET t:dataTypeName=number
+metric m:affordablenet p:integer l:AFFORDABLENET t:dataTypeName=number
 
-metric m:entitlementstatus l:EntitlementStatus t:dataTypeName=number
+metric m:entitlementstatus p:integer l:EntitlementStatus t:dataTypeName=number
 
 entity e:fv2q-qaux l:"San Francisco Development Pipeline 2014 Quarter 2" t:attribution="San Francisco Planning Department" t:url=https://data.sfgov.org/api/views/fv2q-qaux
 

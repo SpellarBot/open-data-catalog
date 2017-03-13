@@ -27,7 +27,6 @@ Data Updated 10/27/2014. This dataset contains the Polling Place locations in su
 ```ls
 | Included | Schema Type | Field Name                  | Name                        | Data Type | Render Type |
 | ======== | =========== | =========================== | =========================== | ========= | =========== |
-| No       | time        | :updated_at                 | updated_at                  | meta_data | meta_data   |
 | Yes      | series tag  | precinct                    | Precinct                    | text      | number      |
 | Yes      | series tag  | polling_place_id            | Polling Place ID            | text      | number      |
 | Yes      | series tag  | polling_place_location_name | Polling Place Location Name | text      | text        |
@@ -40,8 +39,8 @@ Data Updated 10/27/2014. This dataset contains the Polling Place locations in su
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Series Fields

@@ -55,11 +55,11 @@ The New York State Energy Research and Development Authority (NYSERDA), in colla
 | Yes      | series tag     | energy_star_certified                                                                               | Appliance Energy Star Certified?                                                                    | text      | text        |
 | Yes      | series tag     | computer_monitor_type                                                                               | Computer Monitor Type                                                                               | text      | text        |
 | Yes      | series tag     | dishwasher_efficiency_energy_factor                                                                 | Dishwasher Efficiency (Energy Factor)                                                               | text      | text        |
-| Yes      | series tag     | dishwasher_usage_pattern_cycles_week                                                                | Dishwasher Usage Pattern (cycles/week)                                                              | text      | text        |
+| No       |                | dishwasher_usage_pattern_cycles_week                                                                | Dishwasher Usage Pattern (cycles/week)                                                              | text      | text        |
 | Yes      | series tag     | fan_usage                                                                                           | Fan Usage                                                                                           | text      | text        |
 | Yes      | series tag     | humidifier_dehumidifier_usage                                                                       | Humidifier/Dehumidifier Usage                                                                       | text      | text        |
 | Yes      | series tag     | clothes_washing_machine_temperature                                                                 | Clothes Washing Machine Temperature                                                                 | text      | text        |
-| Yes      | series tag     | clothes_washer_usage_pattern_loads_week                                                             | Clothes Washer Usage Pattern (loads/week)                                                           | text      | text        |
+| No       |                | clothes_washer_usage_pattern_loads_week                                                             | Clothes Washer Usage Pattern (loads/week)                                                           | text      | text        |
 | Yes      | series tag     | heated_pool_hot_tub                                                                                 | Heated Pool/Hot Tub                                                                                 | text      | text        |
 | Yes      | series tag     | location_of_refrigerator                                                                            | Location of Refrigerator                                                                            | text      | text        |
 | Yes      | series tag     | size_of_refrigerator_freezer_cubic_ft                                                               | Size of Refrigerator/Freezer (cubic ft.)                                                            | text      | text        |
@@ -213,6 +213,12 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = dishwasher_usage_pattern_cycles_week,clothes_washer_usage_pattern_loads_week
+```
+
 ## Data Commands
 
 ```ls
@@ -229,7 +235,7 @@ metric m:what_percentage_of_conditioned_space_does_the_hvac_cooling_unit_serve p
 
 metric m:no_ac_units p:integer l:"Number of AC Units" d:"Number of AC units identified during on-site visit [e.g., 1-20]" t:dataTypeName=number
 
-metric m:rated_efficiency_of_hvac_cooling_system p:integer l:"Rated Efficiency of HVAC Cooling System" d:"Rated efficiency of HVAC cooling system based on on-site visit [e.g., 7-23]" t:dataTypeName=number
+metric m:rated_efficiency_of_hvac_cooling_system p:double l:"Rated Efficiency of HVAC Cooling System" d:"Rated efficiency of HVAC cooling system based on on-site visit [e.g., 7-23]" t:dataTypeName=number
 
 metric m:what_percentage_of_conditioned_space_does_the_hvac_heating_unit_serve p:integer l:"What Percentage of Conditioned Space Does the HVAC Heating Unit Serve?" d:"What Percentage of Conditioned Space Does the HVAC Heating Unit Serve? [e.g., 10-100]" t:dataTypeName=number
 

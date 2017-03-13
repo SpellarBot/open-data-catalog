@@ -54,7 +54,9 @@ series e:avst-7ttu d:2010-08-01T00:00:00.000Z m:usage_kwh=683354.61 m:cost=64074
 ## Meta Commands
 
 ```ls
-metric m:usage_kwh l:"Usage (kWh)" t:dataTypeName=number
+metric m:usage_kwh p:double l:"Usage (kWh)" t:dataTypeName=number
+
+metric m:cost p:double l:Cost t:dataTypeName=money
 
 entity e:avst-7ttu l:"Facilities Management - Electricity Usage, 2121 Euclid Av Facility, by Month - Fiscal Year 2008 through February 2012" t:attribution="Cook County Department of Facilities Management" t:url=https://datacatalog.cookcountyil.gov/api/views/avst-7ttu
 

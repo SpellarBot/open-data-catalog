@@ -39,19 +39,19 @@ U: Unavailable. ?: No reported cases.
 | No       |                | mmwr_year                             | MMWR YEAR                                    | number    | number      |
 | No       |                | mmwr_week                             | MMWR WEEK                                    | number    | number      |
 | Yes      | numeric metric | all_causes_by_age_years_all_ages      | All causes, by age (years), All Ages**       | number    | number      |
-| Yes      | numeric metric | all_causes_by_age_years_all_ages_flag | All causes, by age (years), All Ages**, flag | number    | text        |
+| No       |                | all_causes_by_age_years_all_ages_flag | All causes, by age (years), All Ages**, flag | text      | text        |
 | Yes      | numeric metric | all_causes_by_age_years_65            | All causes, by age (years), ?65              | number    | number      |
-| Yes      | numeric metric | all_causes_by_age_years_65_flag       | All causes, by age (years), ?65, flag        | number    | text        |
+| No       |                | all_causes_by_age_years_65_flag       | All causes, by age (years), ?65, flag        | text      | text        |
 | Yes      | numeric metric | all_causes_by_age_years_45_64         | All causes, by age (years), 45?64            | number    | number      |
-| Yes      | numeric metric | all_causes_by_age_years_45_64_flag    | All causes, by age (years), 45?64, flag      | number    | text        |
+| No       |                | all_causes_by_age_years_45_64_flag    | All causes, by age (years), 45?64, flag      | text      | text        |
 | Yes      | numeric metric | all_causes_by_age_years_25_44         | All causes, by age (years), 25?44            | number    | number      |
-| Yes      | numeric metric | all_causes_by_age_years_25_44_flag    | All causes, by age (years), 25?44, flag      | number    | text        |
+| No       |                | all_causes_by_age_years_25_44_flag    | All causes, by age (years), 25?44, flag      | text      | text        |
 | Yes      | numeric metric | all_causes_by_age_years_1_24          | All causes, by age (years), 1?24             | number    | number      |
-| Yes      | numeric metric | all_causes_by_age_years_1_24_flag     | All causes, by age (years), 1?24, flag       | number    | text        |
+| No       |                | all_causes_by_age_years_1_24_flag     | All causes, by age (years), 1?24, flag       | text      | text        |
 | Yes      | numeric metric | all_causes_by_age_years_lt_1          | All causes, by age (years), LT 1             | number    | number      |
-| Yes      | numeric metric | all_causes_by_age_years_lt_1_flag     | All causes, by age (years), LT 1, flag       | number    | text        |
+| No       |                | all_causes_by_age_years_lt_1_flag     | All causes, by age (years), LT 1, flag       | text      | text        |
 | Yes      | numeric metric | p_i_total                             | P&I? Total                                   | number    | number      |
-| Yes      | numeric metric | p_i_total_flag                        | P&I? Total, flag                             | number    | text        |
+| No       |                | p_i_total_flag                        | P&I? Total, flag                             | text      | text        |
 ```
 
 ## Time Field
@@ -64,7 +64,7 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Excluded Fields = mmwr_year,mmwr_week
+Excluded Fields = all_causes_by_age_years_all_ages_flag,all_causes_by_age_years_65_flag,all_causes_by_age_years_45_64_flag,all_causes_by_age_years_25_44_flag,all_causes_by_age_years_1_24_flag,all_causes_by_age_years_lt_1_flag,p_i_total_flag,mmwr_year,mmwr_week
 ```
 
 ## Data Commands

@@ -69,9 +69,9 @@ metric m:block p:integer l:BLOCK t:dataTypeName=number
 
 metric m:lot p:integer l:LOT t:dataTypeName=number
 
-metric m:units l:UNITS t:dataTypeName=number
+metric m:units p:integer l:UNITS t:dataTypeName=number
 
-metric m:netunits l:NETUNITS t:dataTypeName=number
+metric m:netunits p:integer l:NETUNITS t:dataTypeName=number
 
 metric m:aff_hsg p:integer l:AFF_HSG t:dataTypeName=number
 

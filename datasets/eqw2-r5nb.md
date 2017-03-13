@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | attorney, registrations, integrity |
 | Created | 2013-04-12T18:29:05Z |
-| Publication Date | 2017-03-12T10:27:45Z |
-| Rows Updated | 2017-03-12T10:27:17Z |
+| Publication Date | 2017-03-13T10:34:52Z |
+| Rows Updated | 2017-03-13T10:34:25Z |
 
 ## Description
 
@@ -27,7 +27,7 @@ The data included here is the information in the NYS Attorney Registration Datab
 ```ls
 | Included | Schema Type    | Field Name                       | Name                             | Data Type | Render Type |
 | ======== | ============== | ================================ | ================================ | ========= | =========== |
-| Yes      | numeric metric | registration_number              | Registration Number              | number    | number      |
+| Yes      | series tag     | registration_number              | Registration Number              | text      | number      |
 | Yes      | series tag     | first_name                       | First Name                       | text      | text        |
 | Yes      | series tag     | middle_name                      | Middle Name                      | text      | text        |
 | Yes      | series tag     | last_name                        | Last Name                        | text      | text        |
@@ -66,18 +66,16 @@ Excluded Fields = email_address
 ## Data Commands
 
 ```ls
-series e:eqw2-r5nb d:2015-01-01T00:00:00.000Z t:zip=10022 t:phone_number="(212) 256-1958" t:status="Currently registered" t:middle_name=LIN t:law_school="NORTHWESTERN UNIVERSITY SCHOOL OF LAW" t:state=NY t:city="NEW YORK" t:country="United States" t:zip_plus_four=4503 t:first_name=KARI t:street_1="641 LEXINGTON AVE., 13TH FLOOR" t:next_registration="Dec 2017" t:county="New York" t:company_name="CLINTON BROOK & PEED" t:last_name=PARKS m:registration_number=5379003 m:judicial_department_of_admission=1
+series e:eqw2-r5nb d:2012-01-01T00:00:00.000Z t:street_2="CHAOYANG DISTRICT" t:first_name=SHANZHE t:next_registration="Jan 2018" t:street_1="35 JINRONG DAJIE, 4TH FLOOR OF A TOWER" t:phone_number="00 8613701032648" t:county="Out of USA" t:company_name="SOUTHWEST SECURITIES CORPORATION" t:status="Currently registered" t:law_school="Boston University School of Law" t:last_name=CHEN t:registration_number=5079215 t:country=CHINA t:city="BEIJING 100033" m:judicial_department_of_admission=3
 
-series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:zip=19103 t:phone_number="(215) 561-7681" t:status="Currently registered" t:middle_name=RICHARD t:law_school="NEW YORK LAW SCHOOL" t:state=PA t:city=PHILADELPHIA t:country="United States" t:first_name=JORDANN t:street_1="1355 19TH ST., STE. 400" t:next_registration="Jan 2018" t:county="Out of State" t:company_name="SPRAGUE & SPRAGUE" t:last_name=CONABOY m:registration_number=5379011 m:judicial_department_of_admission=1
+series e:eqw2-r5nb d:2012-01-01T00:00:00.000Z t:zip=60604 t:phone_number="(312) 283-4929" t:status="Currently registered" t:middle_name=ANASTASIA t:law_school="COLUMBIA LAW SCHOOL" t:state=IL t:city=Chicago t:country="United States" t:zip_plus_four=3123 t:first_name=NICOLE t:street_1="141 W Jackson Blvd Ste 300" t:next_registration="Nov 2018" t:county="Out of State" t:company_name="AMLI Residential" t:last_name=TAGUE t:registration_number=5079223 m:judicial_department_of_admission=1
 
-series e:eqw2-r5nb d:2015-01-01T00:00:00.000Z t:zip=94710 t:phone_number="(510) 843-3670" t:status="Currently registered" t:middle_name=ROBERTS t:law_school="UNIV. OF CALIF., HASTINGS COLLEGE" t:state=CA t:city=Berkeley t:country="United States" t:zip_plus_four=1915 t:first_name=TYLER t:street_1="1816 5th St" t:next_registration="May 2017" t:county="Out of State" t:company_name="THE MEADE FIRM P.C." t:last_name=MEADE m:registration_number=5379029 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2012-01-01T00:00:00.000Z t:zip=75604 t:phone_number="(903) 297-2585" t:status="Currently registered" t:middle_name=AMAKA t:law_school="UNIVERSITY OF BENIN" t:state=TX t:city=Longview t:country="United States" t:street_2="Suite 100A" t:first_name=LOUISA t:street_1="3000 Gilmer Road" t:next_registration="Jul 2018" t:county="Out of State" t:company_name="Akpassa & Iwobho Law Firm PLLC" t:last_name=ORAJIAKA t:registration_number=5079231 m:judicial_department_of_admission=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:registration_number p:integer l:"Registration Number" t:dataTypeName=number
-
 metric m:judicial_department_of_admission p:integer l:"Judicial Department of Admission" t:dataTypeName=number
 
 entity e:eqw2-r5nb l:"NYS Attorney Registrations" t:attribution="NYS Unified Court System" t:url=https://data.ny.gov/api/views/eqw2-r5nb

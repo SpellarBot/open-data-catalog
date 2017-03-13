@@ -57,7 +57,7 @@ Find key information on state library agencies.<br><br>These data include impute
 | Yes      | numeric metric | fiotht48   | Other fed inc Titles IV-VIII       | money     | money       |
 | Yes      | series tag     | fit4       | Fed inc Title IV                   | text      | text        |
 | Yes      | series tag     | fit5       | Fed inc Title V                    | text      | text        |
-| Yes      | numeric metric | fit6       | Fed inc Title VI                   | number    | text        |
+| Yes      | series tag     | fit6       | Fed inc Title VI                   | text      | text        |
 | Yes      | series tag     | fit7       | Fed inc Title VII                  | text      | text        |
 | Yes      | series tag     | fit8       | Fed inc Title VIII                 | text      | text        |
 | Yes      | numeric metric | oexpsala   | Salaries federal                   | money     | money       |
@@ -173,7 +173,201 @@ series e:xzhn-73j5 d:1996-07-01T00:00:00.000Z t:physzip4=1081.0 t:physcity="LITT
 ## Meta Commands
 
 ```ls
-metric m:period_e l:"Population estimate NCES" t:dataTypeName=number
+metric m:fioth p:double l:"Other federal revenue" t:dataTypeName=money
+
+metric m:total_fi p:double l:"Total federal revenue" t:dataTypeName=money
+
+metric m:sistlaop p:double l:"St rev STLA operation" t:dataTypeName=money
+
+metric m:siaidlib p:double l:"St rev aid to libraries" t:dataTypeName=money
+
+metric m:siother p:double l:"St rev other" t:dataTypeName=money
+
+metric m:total_si p:double l:"St rev TOTAL" t:dataTypeName=money
+
+metric m:othincm p:double l:"Other revenue" t:dataTypeName=money
+
+metric m:totincm p:double l:"Total revenue" t:dataTypeName=money
+
+metric m:fit1 p:double l:"Fed inc LSCA Title I" t:dataTypeName=money
+
+metric m:fit2 p:double l:"Fed inc LSCA Title II" t:dataTypeName=money
+
+metric m:fit3 p:double l:"Fed inc LSCA Title III" t:dataTypeName=money
+
+metric m:fitott13 p:double l:"Total fed inc LSCA Titles I-III" t:dataTypeName=money
+
+metric m:fiotht48 p:double l:"Other fed inc Titles IV-VIII" t:dataTypeName=money
+
+metric m:oexpsala p:double l:"Salaries federal" t:dataTypeName=money
+
+metric m:oexpsalb p:double l:"Salaries state" t:dataTypeName=money
+
+metric m:oexpsalc p:double l:"Salaries other" t:dataTypeName=money
+
+metric m:oexpsald p:double l:"Salaries TOTAL" t:dataTypeName=money
+
+metric m:oexpbena p:double l:"Benefits federal" t:dataTypeName=money
+
+metric m:oexpbenb p:double l:"Benefits state" t:dataTypeName=money
+
+metric m:oexpbenc p:double l:"Benefits other" t:dataTypeName=money
+
+metric m:oexpbend p:double l:"Benefits TOTAL" t:dataTypeName=money
+
+metric m:totoxsta p:double l:"Staff Exp federal" t:dataTypeName=money
+
+metric m:totoxstb p:double l:"Staff Exp state" t:dataTypeName=money
+
+metric m:totoxstc p:double l:"Staff Exp other" t:dataTypeName=money
+
+metric m:totoxstd p:double l:"Staff Exp TOTAL" t:dataTypeName=money
+
+metric m:oexpcola p:double l:"Collection Exp federal" t:dataTypeName=money
+
+metric m:oexpcolb p:double l:"Collection Exp state" t:dataTypeName=money
+
+metric m:oexpcolc p:double l:"Collection Exp other" t:dataTypeName=money
+
+metric m:oexpcold p:double l:"Collection Exp TOTAL" t:dataTypeName=money
+
+metric m:oexpotha p:double l:"Other Op Exp federal" t:dataTypeName=money
+
+metric m:oexpothb p:double l:"Other Op Exp state" t:dataTypeName=money
+
+metric m:oexpothc p:double l:"Other Op Exp other" t:dataTypeName=money
+
+metric m:oexpothd p:double l:"Other Op Exp TOTAL" t:dataTypeName=money
+
+metric m:totopexa p:double l:"Tot Op Exp federal" t:dataTypeName=money
+
+metric m:totopexb p:double l:"Tot Op Exp state" t:dataTypeName=money
+
+metric m:totopexc p:double l:"Tot Op Exp other" t:dataTypeName=money
+
+metric m:totopexd p:double l:"Tot Op Exp TOTAL" t:dataTypeName=money
+
+metric m:aidipla p:double l:"Fin Asst to libraries federal" t:dataTypeName=money
+
+metric m:aidiplb p:double l:"Fin Asst to libraries state" t:dataTypeName=money
+
+metric m:aidiplc p:double l:"Fin Asst to libraries other" t:dataTypeName=money
+
+metric m:aidipld p:double l:"Fin Asst to libraries TOTAL" t:dataTypeName=money
+
+metric m:aidplsa p:double l:"Fin Asst to coops federal" t:dataTypeName=money
+
+metric m:aidplsb p:double l:"Fin Asst to coops state" t:dataTypeName=money
+
+metric m:aidplsc p:double l:"Fin Asst to coops other" t:dataTypeName=money
+
+metric m:aidplsd p:double l:"Fin Asst to coops TOTAL" t:dataTypeName=money
+
+metric m:aidoila p:double l:"Fin Asst to other federal" t:dataTypeName=money
+
+metric m:aidoilb p:double l:"Fin Asst to other state" t:dataTypeName=money
+
+metric m:aidoilc p:double l:"Fin Asst to other other" t:dataTypeName=money
+
+metric m:aidoild p:double l:"Fin Asst to other TOTAL" t:dataTypeName=money
+
+metric m:aidmlsa p:double l:"Fin Asst coops mult federal" t:dataTypeName=money
+
+metric m:aidmlsb p:double l:"Fin Asst coops mult state" t:dataTypeName=money
+
+metric m:aidmlsc p:double l:"Fin Asst coops mult other" t:dataTypeName=money
+
+metric m:aidmlsd p:double l:"Fin Asst coops mult TOTAL" t:dataTypeName=money
+
+metric m:aidsala p:double l:"Fin Asst libr statewide federal" t:dataTypeName=money
+
+metric m:aidsalb p:double l:"Fin Asst libr statewide state" t:dataTypeName=money
+
+metric m:aidsalc p:double l:"Fin Asst libr statewide other" t:dataTypeName=money
+
+metric m:aidsald p:double l:"Fin Asst libr statewide TOTAL" t:dataTypeName=money
+
+metric m:aidlca p:double l:"Fin Asst libr constr federal" t:dataTypeName=money
+
+metric m:aidlcb p:double l:"Fin Asst libr constr state" t:dataTypeName=money
+
+metric m:aidlcc p:double l:"Fin Asst libr constr other" t:dataTypeName=money
+
+metric m:aidlcd p:double l:"Fin Asst libr constr TOTAL" t:dataTypeName=money
+
+metric m:aidotha p:double l:"Fin Asst other federal" t:dataTypeName=money
+
+metric m:aidothb p:double l:"Fin Asst other state" t:dataTypeName=money
+
+metric m:aidothc p:double l:"Fin Asst other other" t:dataTypeName=money
+
+metric m:aidothd p:double l:"Fin Asst other TOTAL" t:dataTypeName=money
+
+metric m:totaida p:double l:"Fin Asst TOTAL federal" t:dataTypeName=money
+
+metric m:totaidb p:double l:"Fin Asst TOTAL state" t:dataTypeName=money
+
+metric m:totaidc p:double l:"Fin Asst TOTAL other" t:dataTypeName=money
+
+metric m:totaidd p:double l:"Fin Asst TOTAL TOTAL" t:dataTypeName=money
+
+metric m:capitala p:double l:"Capital outlay federal" t:dataTypeName=money
+
+metric m:capitalb p:double l:"Capital outlay state" t:dataTypeName=money
+
+metric m:capitalc p:double l:"Capital outlay other" t:dataTypeName=money
+
+metric m:capitald p:double l:"Capital outlay TOTAL" t:dataTypeName=money
+
+metric m:othexpa p:double l:"Other exp federal" t:dataTypeName=money
+
+metric m:othexpb p:double l:"Other exp state" t:dataTypeName=money
+
+metric m:othexpc p:double l:"Other exp other" t:dataTypeName=money
+
+metric m:othexpd p:double l:"Other exp TOTAL" t:dataTypeName=money
+
+metric m:totexpa p:double l:"Total exp federal" t:dataTypeName=money
+
+metric m:totexpb p:double l:"Total exp state" t:dataTypeName=money
+
+metric m:totexpc p:double l:"Total exp other" t:dataTypeName=money
+
+metric m:totexpd p:double l:"Total exp TOTAL" t:dataTypeName=money
+
+metric m:t1expstw p:double l:"Title I exp statwide" t:dataTypeName=money
+
+metric m:t1expgrt p:double l:"Title I exp grants" t:dataTypeName=money
+
+metric m:t1expadm p:double l:"Title I exp LSCA admin" t:dataTypeName=money
+
+metric m:totexpt1 p:double l:"Title I exp TOTAL" t:dataTypeName=money
+
+metric m:t2expgrt p:double l:"Title II exp grants" t:dataTypeName=money
+
+metric m:t2expadm p:double l:"Title II exp LSCA admin" t:dataTypeName=money
+
+metric m:totexpt2 p:double l:"Title II exp TOTAL" t:dataTypeName=money
+
+metric m:t3expstw p:double l:"Title III exp statewide" t:dataTypeName=money
+
+metric m:t3expgrt p:double l:"Title III exp grants" t:dataTypeName=money
+
+metric m:totexpt3 p:double l:"Title III exp TOTAL" t:dataTypeName=money
+
+metric m:totex123 p:double l:"Titles I-III exp TOTAL" t:dataTypeName=money
+
+metric m:allopstf p:double l:"Oper exp staff total" t:dataTypeName=money
+
+metric m:allopoth p:double l:"Oper exp other total" t:dataTypeName=money
+
+metric m:totox_ao p:double l:"Oper exp TOTAL" t:dataTypeName=money
+
+metric m:allopcap p:double l:"Capital outlay" t:dataTypeName=money
+
+metric m:totexpao p:double l:"Total expenditures" t:dataTypeName=money
+
+metric m:period_e p:double l:"Population estimate NCES" t:dataTypeName=number
 
 entity e:xzhn-73j5 l:"State Libraries Survey, FY 1997, Part 3: Revenue & Expenditures" t:attribution=IMLS t:url=https://data.imls.gov/api/views/xzhn-73j5
 

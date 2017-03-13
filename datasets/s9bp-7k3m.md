@@ -27,7 +27,6 @@ Source: Behavioral Risk Factor Surveillance System (BRFSS), 2012 & 2014.
 ```ls
 | Included | Schema Type    | Field Name      | Name             | Data Type | Render Type |
 | ======== | ============== | =============== | ================ | ========= | =========== |
-| No       | time           | :updated_at     | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | state           | State            | text      | text        |
 | Yes      | numeric metric | prevalence_2012 | Prevalence, 2012 | number    | number      |
 | Yes      | numeric metric | prevalence_2014 | Prevalence, 2014 | number    | number      |
@@ -36,26 +35,26 @@ Source: Behavioral Risk Factor Surveillance System (BRFSS), 2012 & 2014.
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:s9bp-7k3m d:2016-09-26T19:24:37.000Z t:state="United States" m:prevalence_2014=1.7 m:prevalence_2012=1.9
+series e:s9bp-7k3m d:2012-01-01T00:00:00.000Z t:state="United States" m:prevalence_2014=1.7 m:prevalence_2012=1.9
 
-series e:s9bp-7k3m d:2016-09-26T19:24:45.000Z t:state=Arizona m:prevalence_2014=1.6 m:prevalence_2012=1.7
+series e:s9bp-7k3m d:2012-01-01T00:00:00.000Z t:state=Arizona m:prevalence_2014=1.6 m:prevalence_2012=1.7
 
-series e:s9bp-7k3m d:2016-09-26T19:24:45.000Z t:state=Georgia m:prevalence_2014=0.7 m:prevalence_2012=1.4
+series e:s9bp-7k3m d:2012-01-01T00:00:00.000Z t:state=Georgia m:prevalence_2014=0.7 m:prevalence_2012=1.4
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:prevalence_2012 l:"Prevalence, 2012" t:dataTypeName=number
+metric m:prevalence_2012 p:float l:"Prevalence, 2012" t:dataTypeName=number
 
-metric m:prevalence_2014 l:"Prevalence, 2014" t:dataTypeName=number
+metric m:prevalence_2014 p:float l:"Prevalence, 2014" t:dataTypeName=number
 
 entity e:s9bp-7k3m l:"Percentage of Adults Who Report Driving After Drinking Too Much (in the past 30 days), All States, 2012 & 2014" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/s9bp-7k3m
 

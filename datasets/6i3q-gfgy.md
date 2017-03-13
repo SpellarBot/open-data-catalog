@@ -36,7 +36,6 @@ Information provided by Ecology on this Web site is accurate to the best of Ecol
 ```ls
 | Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
 | ======== | ============== | ====================== | ====================== | ========= | =========== |
-| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
 | Yes      | series tag     | stn_id                 | Stn ID                 | text      | text        |
 | Yes      | series tag     | station_name           | Station Name           | text      | text        |
 | Yes      | series tag     | salmon_region          | Salmon Region          | text      | text        |
@@ -54,18 +53,18 @@ Information provided by Ecology on this Web site is accurate to the best of Ecol
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:6i3q-gfgy d:2015-04-21T17:13:37.000Z t:trend_change_from_2013=down t:station_name="ANDREWS CREEK NEAR MAZAMA, WA" t:salmon_region=UC t:stn_id=12447390 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.2 m:reg_p=0.728 m:trib_level=4 m:trend_cfs_yr=0.02 m:m_k_p=0.709 m:wria=48
+series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:trend_change_from_2013=down t:station_name="ANDREWS CREEK NEAR MAZAMA, WA" t:salmon_region=UC t:stn_id=12447390 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.2 m:reg_p=0.728 m:trib_level=4 m:trend_cfs_yr=0.02 m:m_k_p=0.709 m:wria=48
 
-series e:6i3q-gfgy d:2015-04-21T17:13:37.000Z t:trend_change_from_2013=up t:station_name="BIG SOOS CREEK ABOVE HATCHERY NR AUBURN" t:salmon_region=PS t:stn_id=12112600 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.1 m:reg_p=0.837 m:trib_level=2 m:trend_cfs_yr=0.02 m:m_k_p=0.666 m:wria=9
+series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:trend_change_from_2013=up t:station_name="BIG SOOS CREEK ABOVE HATCHERY NR AUBURN" t:salmon_region=PS t:stn_id=12112600 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.1 m:reg_p=0.837 m:trib_level=2 m:trend_cfs_yr=0.02 m:m_k_p=0.666 m:wria=9
 
-series e:6i3q-gfgy d:2015-04-21T17:13:37.000Z t:trend_change_from_2013=down t:station_name="CHAMOKANE CREEK BELOW FALLS NEAR LONG LAKE, WA" t:salmon_region=NE t:stn_id=12433200 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.1 m:reg_p=0.801 m:trib_level=3 m:trend_cfs_yr=0.02 m:m_k_p=0.619 m:wria=54
+series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:trend_change_from_2013=down t:station_name="CHAMOKANE CREEK BELOW FALLS NEAR LONG LAKE, WA" t:salmon_region=NE t:stn_id=12433200 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.1 m:reg_p=0.801 m:trib_level=3 m:trend_cfs_yr=0.02 m:m_k_p=0.619 m:wria=54
 ```
 
 ## Meta Commands
@@ -75,11 +74,13 @@ metric m:wria p:integer l:WRIA t:dataTypeName=number
 
 metric m:trib_level p:integer l:"Trib Level" t:dataTypeName=number
 
-metric m:m_k_p l:"M-K p" t:dataTypeName=number
+metric m:m_k_p p:float l:"M-K p" t:dataTypeName=number
 
-metric m:reg_p l:"Reg p" t:dataTypeName=number
+metric m:reg_p p:float l:"Reg p" t:dataTypeName=number
 
-metric m:trend_cfs_yr l:"Trend (cfs/yr)" t:dataTypeName=number
+metric m:trend_cfs_yr p:float l:"Trend (cfs/yr)" t:dataTypeName=number
+
+metric m:trend_year p:float l:"Trend (%/year)" t:dataTypeName=percent
 
 entity e:6i3q-gfgy l:"Summer Low Flow Trend Indicator 1975-2014" t:attribution="Washington State Department of Ecology" t:url=https://data.wa.gov/api/views/6i3q-gfgy
 

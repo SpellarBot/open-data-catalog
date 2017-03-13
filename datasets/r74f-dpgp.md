@@ -25,7 +25,6 @@ This spreadsheet contains Oregon Recovery and Reinvestment Act (ARRA) Data repor
 ```ls
 | Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
 | ======== | ============== | ====================== | ====================== | ========= | =========== |
-| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
 | Yes      | numeric metric | sort_order             | SORT ORDER             | number    | number      |
 | Yes      | series tag     | award_description      | AWARD DESCRIPTION      | text      | text        |
 | Yes      | series tag     | project_description    | PROJECT DESCRIPTION    | text      | text        |
@@ -53,18 +52,18 @@ This spreadsheet contains Oregon Recovery and Reinvestment Act (ARRA) Data repor
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:r74f-dpgp d:2012-08-08T13:56:41.000Z t:award_number=OR-00J03801 t:project_name="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:project_status=Completed t:vendor=NO t:award_instrument=Q10002 t:root_id=5 t:zipcode=97365-4338 t:recipient_type=SUB t:award_id=6062 t:congressional_district=5 t:project_description="Port of Newport's International Terminal Clean-up - Award ID: 6062" t:project="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:month_code=1106 t:award_description="Brownfields Clean-up" t:county=Lincoln t:prime_award=00J03801 t:award_recipient="Port of Newport" m:amount_expended=200000 m:award_amount=200000 m:jobs_created=0 m:sort_order=2
+series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:award_number=OR-00J03801 t:project_name="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:project_status=Completed t:vendor=NO t:award_instrument=Q10002 t:root_id=5 t:zipcode=97365-4338 t:recipient_type=SUB t:award_id=6062 t:congressional_district=5 t:project_description="Port of Newport's International Terminal Clean-up - Award ID: 6062" t:project="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:month_code=1106 t:award_description="Brownfields Clean-up" t:county=Lincoln t:prime_award=00J03801 t:award_recipient="Port of Newport" m:amount_expended=200000 m:award_amount=200000 m:jobs_created=0 m:sort_order=2
 
-series e:r74f-dpgp d:2012-08-08T13:56:41.000Z t:award_number=OR-00J03801 t:project_name="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:project_status=Completed t:vendor=NO t:award_instrument=Q10003 t:root_id=5 t:zipcode=97526-2000 t:recipient_type=SUB t:award_id=9245 t:congressional_district=2 t:project_description="Grant Pass River Road Reserve Clean-up Project - Award ID: 9245" t:project="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:month_code=1203 t:award_description="Brownfields Clean-up" t:county=Josephine t:prime_award=00J03801 t:award_recipient="City of Grants Pass" m:amount_expended=220938 m:award_amount=220938 m:jobs_created=0 m:sort_order=5
+series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:award_number=OR-00J03801 t:project_name="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:project_status=Completed t:vendor=NO t:award_instrument=Q10003 t:root_id=5 t:zipcode=97526-2000 t:recipient_type=SUB t:award_id=9245 t:congressional_district=2 t:project_description="Grant Pass River Road Reserve Clean-up Project - Award ID: 9245" t:project="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:month_code=1203 t:award_description="Brownfields Clean-up" t:county=Josephine t:prime_award=00J03801 t:award_recipient="City of Grants Pass" m:amount_expended=220938 m:award_amount=220938 m:jobs_created=0 m:sort_order=5
 
-series e:r74f-dpgp d:2012-08-08T13:56:41.000Z t:award_number=OR-00J03801 t:project_name="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:project_status=Completed t:vendor=NO t:award_instrument=Q10004 t:root_id=5 t:zipcode=97463 t:recipient_type=SUB t:award_id=9247 t:congressional_district=4 t:project_description="Oakridge Industrial Park Clean-up project - Award ID: 9247" t:project="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:month_code=1112 t:award_description="Brownfields Clean-up" t:county=Lane t:prime_award=00J03801 t:award_recipient="City of Oakridge" m:amount_expended=160000 m:award_amount=160000 m:jobs_created=0 m:sort_order=9
+series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:award_number=OR-00J03801 t:project_name="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:project_status=Completed t:vendor=NO t:award_instrument=Q10004 t:root_id=5 t:zipcode=97463 t:recipient_type=SUB t:award_id=9247 t:congressional_district=4 t:project_description="Oakridge Industrial Park Clean-up project - Award ID: 9247" t:project="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:month_code=1112 t:award_description="Brownfields Clean-up" t:county=Lane t:prime_award=00J03801 t:award_recipient="City of Oakridge" m:amount_expended=160000 m:award_amount=160000 m:jobs_created=0 m:sort_order=9
 ```
 
 ## Meta Commands
@@ -72,11 +71,11 @@ series e:r74f-dpgp d:2012-08-08T13:56:41.000Z t:award_number=OR-00J03801 t:proje
 ```ls
 metric m:sort_order p:integer l:"SORT ORDER" t:dataTypeName=number
 
-metric m:award_amount l:"AWARD AMOUNT" t:dataTypeName=number
+metric m:award_amount p:double l:"AWARD AMOUNT" t:dataTypeName=number
 
-metric m:amount_expended l:"AMOUNT EXPENDED" t:dataTypeName=number
+metric m:amount_expended p:double l:"AMOUNT EXPENDED" t:dataTypeName=number
 
-metric m:jobs_created l:"JOBS CREATED" t:dataTypeName=number
+metric m:jobs_created p:float l:"JOBS CREATED" t:dataTypeName=number
 
 entity e:r74f-dpgp l:"Oregon Recovery and Reinvestment Act Data - June, 2012" t:url=https://data.oregon.gov/api/views/r74f-dpgp
 

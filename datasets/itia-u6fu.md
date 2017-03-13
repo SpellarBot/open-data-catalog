@@ -27,8 +27,8 @@
 ```ls
 | Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
 | ======== | ============== | ================== | ================== | ========= | =========== |
-| Yes      | time           | year               | YEAR               | number    | number      |
-| Yes      | numeric metric | quarter            | Quarter            | number    | number      |
+| No       |                | year               | YEAR               | number    | number      |
+| No       |                | quarter            | Quarter            | number    | number      |
 | Yes      | series tag     | locationabbr       | LocationAbbr       | text      | text        |
 | Yes      | series tag     | locationdesc       | LocationDesc       | text      | text        |
 | Yes      | series tag     | topicdesc          | TopicDesc          | text      | text        |
@@ -54,31 +54,29 @@
 ## Time Field
 
 ```ls
-Value = year
-Format & Zone = yyyy
+Value = year+quarter
+Format & Zone = yyyy+q
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = displayorder
+Excluded Fields = displayorder,year,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:itia-u6fu d:1995-01-01T00:00:00.000Z t:locationabbr=AK t:locationdesc=Alaska t:topicid=1043LEG t:provisiondesc="Smokefree Campus" t:measureid=1017PUS t:measuredesc="Public Schools (K-12)" t:provisiongroupdesc=Restrictions t:provisiongroupid=10GRP t:provisionvalue="No Provision" t:provisionid=525 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0 m:quarter=4
+series e:itia-u6fu d:1995-10-01T00:00:00.000Z t:locationabbr=AK t:locationdesc=Alaska t:topicid=1043LEG t:provisiondesc="Smokefree Campus" t:measureid=1017PUS t:measuredesc="Public Schools (K-12)" t:provisiongroupdesc=Restrictions t:provisiongroupid=10GRP t:provisionvalue="No Provision" t:provisionid=525 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
 
-series e:itia-u6fu d:2014-01-01T00:00:00.000Z t:locationabbr=WY t:locationdesc=Wyoming t:topicid=1043LEG t:provisiondesc="Type of Restriction on Bus" t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiongroupdesc="Restriction Areas" t:provisiongroupid=15GRP t:provisionvalue="No Provision" t:provisionid=548 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0 m:quarter=1
+series e:itia-u6fu d:2014-01-01T00:00:00.000Z t:locationabbr=WY t:locationdesc=Wyoming t:topicid=1043LEG t:provisiondesc="Type of Restriction on Bus" t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiongroupdesc="Restriction Areas" t:provisiongroupid=15GRP t:provisionvalue="No Provision" t:provisionid=548 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
 
-series e:itia-u6fu d:2004-01-01T00:00:00.000Z t:locationabbr=RI t:locationdesc="Rhode Island" t:topicid=1043LEG t:provisiondesc="Type of Restriction Indoors" t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiongroupdesc="Restriction Areas" t:provisiongroupid=15GRP t:provisionvalue="No Provision" t:provisionid=543 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0 m:quarter=4
+series e:itia-u6fu d:2004-10-01T00:00:00.000Z t:locationabbr=RI t:locationdesc="Rhode Island" t:topicid=1043LEG t:provisiondesc="Type of Restriction Indoors" t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiongroupdesc="Restriction Areas" t:provisiongroupid=15GRP t:provisionvalue="No Provision" t:provisionid=543 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:quarter p:integer l:Quarter d:Quarter t:dataTypeName=number
-
 metric m:provisionaltvalue p:integer l:ProvisionAltValue d:"Alternate numeric value for non-numeric provision value; used for mapping and graphing" t:dataTypeName=number
 
 entity e:itia-u6fu l:"CDC STATE System E-Cigarette Legislation - Smokefree Campus" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://chronicdata.cdc.gov/api/views/itia-u6fu

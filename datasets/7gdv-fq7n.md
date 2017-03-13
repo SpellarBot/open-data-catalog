@@ -48,17 +48,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = y,x
+Excluded Fields = x,y
 ```
 
 ## Data Commands
 
 ```ls
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:county=Cattaraugus t:nature_center="Red House Natural History Museum" t:state_park_facility="Allegany State Park" m:region=2
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:facility_url=http://nysparks.com/parks/136/details.aspx t:county=Cattaraugus t:nature_center="Red House Natural History Museum" t:state_park_facility="Allegany State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/12/details.aspx m:region=2
 
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:county=Erie t:nature_center="Beaver Island Nature Center" t:state_park_facility="Beaver Island State Park" m:region=1
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:facility_url=http://nysparks.com/parks/56/details.aspx t:county=Erie t:nature_center="Beaver Island Nature Center" t:state_park_facility="Beaver Island State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/11/details.aspx m:region=1
 
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:county=Suffolk t:nature_center="Caleb Smith Park Preserve Nature Museum" t:state_park_facility="Caleb Smith Park Preserve" m:region=9
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:facility_url=http://nysparks.com/parks/124/details.aspx t:county=Suffolk t:nature_center="Caleb Smith Park Preserve Nature Museum" t:state_park_facility="Caleb Smith Park Preserve" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/9/details.aspx m:region=9
 ```
 
 ## Meta Commands

@@ -61,6 +61,8 @@ series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:category="Health Care Access/Cov
 ## Meta Commands
 
 ```ls
+metric m:yes p:float l:Yes t:dataTypeName=percent
+
 entity e:5ekf-pmct l:"BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" t:attribution="Behavioral Risk Factor Surveillance System" t:url=https://data.cdc.gov/api/views/5ekf-pmct
 
 property e:5ekf-pmct t:meta.view v:id=5ekf-pmct v:category="Health Statistics" v:attributionLink=http://www.cdc.gov/brfss/ v:averageRating=0 v:name="BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" v:attribution="Behavioral Risk Factor Surveillance System"

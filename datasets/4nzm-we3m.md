@@ -25,7 +25,6 @@ Data that shows how every dollar received by the State of Missouri under the Ame
 ```ls
 | Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
 | ======== | ============== | ============== | ============== | ========= | =========== |
-| No       | time           | :updated_at    | updated_at     | meta_data | meta_data   |
 | Yes      | series tag     | agency_name    | Agency Name    | text      | text        |
 | Yes      | series tag     | program_name   | Program Name   | text      | text        |
 | Yes      | series tag     | vendor_name    | Vendor Name    | text      | text        |
@@ -35,24 +34,24 @@ Data that shows how every dollar received by the State of Missouri under the Ame
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:4nzm-we3m d:2016-06-02T13:06:45.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE t:vendor_name="CRYSTAL LAKE FISHERIES INC" m:payments_total=52809.14
+series e:4nzm-we3m d:2016-01-01T00:00:00.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE t:vendor_name="CRYSTAL LAKE FISHERIES INC" m:payments_total=52809.14
 
-series e:4nzm-we3m d:2016-06-02T13:06:45.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE t:vendor_name="FLOWERS FISH FARM LLC" m:payments_total=37285.06
+series e:4nzm-we3m d:2016-01-01T00:00:00.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE t:vendor_name="FLOWERS FISH FARM LLC" m:payments_total=37285.06
 
-series e:4nzm-we3m d:2016-06-02T13:06:45.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE t:vendor_name="FRENCH FARMS" m:payments_total=21755.01
+series e:4nzm-we3m d:2016-01-01T00:00:00.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE t:vendor_name="FRENCH FARMS" m:payments_total=21755.01
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:payments_total l:"Payments Total" t:dataTypeName=number
+metric m:payments_total p:double l:"Payments Total" t:dataTypeName=number
 
 entity e:4nzm-we3m l:"ARRA Grant Expenditures As Of COB May 31, 2016" t:url=https://data.mo.gov/api/views/4nzm-we3m
 

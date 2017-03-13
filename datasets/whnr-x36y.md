@@ -22,7 +22,6 @@
 ```ls
 | Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
 | ======== | ============== | ====================== | ====================== | ========= | =========== |
-| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
 | Yes      | series tag     | ous_division           | OUS Division           | text      | text        |
 | Yes      | series tag     | account_category       | Account Category       | text      | text        |
 | No       |                | vendor_address         | Vendor Address         | text      | text        |
@@ -36,8 +35,8 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Series Fields
@@ -49,16 +48,18 @@ Excluded Fields = vendor_address
 ## Data Commands
 
 ```ls
-series e:whnr-x36y d:2014-12-26T18:09:02.000Z t:vendor_city="GRANTS PASS" t:vendor_state=OR t:account_category="Accounting Service" t:vendor_name="Rogue Community College" t:ous_division="Southern Oregon University" m:amount=9175.25
+series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:vendor_city="GRANTS PASS" t:vendor_state=OR t:account_category="Accounting Service" t:vendor_name="Rogue Community College" t:ous_division="Southern Oregon University" m:amount=9175.25
 
-series e:whnr-x36y d:2014-12-26T18:09:02.000Z t:vendor_city=PASADENA t:vendor_state=CA t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_name="Mail Tribune Co" t:ous_division="Southern Oregon University" m:amount=13616.19
+series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:vendor_city=PASADENA t:vendor_state=CA t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_name="Mail Tribune Co" t:ous_division="Southern Oregon University" m:amount=13616.19
 
-series e:whnr-x36y d:2014-12-26T18:09:02.000Z t:vendor_city=ASHLAND t:vendor_state=OR t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_zip_postal_code=97520 t:vendor_name="Ashland Chamber of Commerce" t:ous_division="Southern Oregon University" m:amount=13125
+series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:vendor_city=ASHLAND t:vendor_state=OR t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_zip_postal_code=97520 t:vendor_name="Ashland Chamber of Commerce" t:ous_division="Southern Oregon University" m:amount=13125
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:amount p:double l:Amount t:dataTypeName=money
+
 entity e:whnr-x36y l:"Expenditures: OUS: Southern Oregon University: FY 2014" t:url=https://data.oregon.gov/api/views/whnr-x36y
 
 property e:whnr-x36y t:meta.view v:id=whnr-x36y v:category="Revenue & Expense" v:averageRating=0 v:name="Expenditures: OUS: Southern Oregon University: FY 2014"

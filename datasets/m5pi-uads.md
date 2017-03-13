@@ -22,35 +22,34 @@
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
 | ======== | ============== | =============== | =============== | ========= | =========== |
-| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | charity_code    | Charity Code    | text      | number      |
 | Yes      | series tag     | charity_name    | Charity Name    | text      | text        |
 | Yes      | numeric metric | donations_total | Donations Total | money     | money       |
-| Yes      | numeric metric | zip_code        | Zip Code        | number    | number      |
+| Yes      | series tag     | zip_code        | Zip Code        | text      | number      |
 | Yes      | series tag     | contact_email   | Contact Email   | text      | text        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:m5pi-uads d:2015-05-18T11:36:30.000Z t:charity_name="Planned Parenthood Federation of America" t:charity_code=1481041 m:donations_total=17026.37
+series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Planned Parenthood Federation of America" t:charity_code=1481041 m:donations_total=17026.37
 
-series e:m5pi-uads d:2015-05-18T11:36:31.000Z t:charity_name="Injured Marine Semper Fi Fund" t:charity_code=1479167 t:contact_email=theresa@charitystateregistration.org m:zip_code=92055 m:donations_total=1018.63
+series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Injured Marine Semper Fi Fund" t:charity_code=1479167 t:contact_email=theresa@charitystateregistration.org t:zip_code=92055 m:donations_total=1018.63
 
-series e:m5pi-uads d:2015-05-18T11:36:31.000Z t:charity_name="Milgard School of Business Fund for Excellence" t:charity_code=1479537 m:donations_total=1007.67
+series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Milgard School of Business Fund for Excellence" t:charity_code=1479537 m:donations_total=1007.67
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:zip_code l:"Zip Code" t:dataTypeName=number
+metric m:donations_total p:double l:"Donations Total" t:dataTypeName=money
 
 entity e:m5pi-uads l:"Combined Fund Drive Donations 2014" t:attribution="Combined Fund Drive Administered by the Washington Secretary of State" t:url=https://data.wa.gov/api/views/m5pi-uads
 

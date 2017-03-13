@@ -87,59 +87,59 @@ series e:ny2h-ckbz d:2015-06-16T14:53:35.000Z t:higrade10=12 t:funcstat10=E t:na
 ## Meta Commands
 
 ```ls
-metric m:aland10 l:aland10 t:dataTypeName=number
+metric m:aland10 p:long l:aland10 t:dataTypeName=number
 
-metric m:awater10 l:awater10 t:dataTypeName=number
+metric m:awater10 p:long l:awater10 t:dataTypeName=number
 
-metric m:pop90 l:pop90 t:dataTypeName=number
+metric m:pop90 p:long l:pop90 t:dataTypeName=number
 
-metric m:white90 l:white90 t:dataTypeName=number
+metric m:white90 p:long l:white90 t:dataTypeName=number
 
-metric m:black90 l:black90 t:dataTypeName=number
+metric m:black90 p:long l:black90 t:dataTypeName=number
 
-metric m:asian90 l:asian90 t:dataTypeName=number
+metric m:asian90 p:long l:asian90 t:dataTypeName=number
 
-metric m:amind90 l:amind90 t:dataTypeName=number
+metric m:amind90 p:long l:amind90 t:dataTypeName=number
 
-metric m:other90 l:other90 t:dataTypeName=number
+metric m:other90 p:long l:other90 t:dataTypeName=number
 
-metric m:hisp90 l:hisp90 t:dataTypeName=number
+metric m:hisp90 p:long l:hisp90 t:dataTypeName=number
 
-metric m:pop00 l:pop00 t:dataTypeName=number
+metric m:pop00 p:long l:pop00 t:dataTypeName=number
 
-metric m:white00 l:white00 t:dataTypeName=number
+metric m:white00 p:long l:white00 t:dataTypeName=number
 
-metric m:black00 l:black00 t:dataTypeName=number
+metric m:black00 p:long l:black00 t:dataTypeName=number
 
-metric m:asian00 l:asian00 t:dataTypeName=number
+metric m:asian00 p:long l:asian00 t:dataTypeName=number
 
-metric m:amind00 l:amind00 t:dataTypeName=number
+metric m:amind00 p:long l:amind00 t:dataTypeName=number
 
-metric m:hawnpi00 l:hawnpi00 t:dataTypeName=number
+metric m:hawnpi00 p:long l:hawnpi00 t:dataTypeName=number
 
-metric m:other00 l:other00 t:dataTypeName=number
+metric m:other00 p:long l:other00 t:dataTypeName=number
 
-metric m:multra00 l:multra00 t:dataTypeName=number
+metric m:multra00 p:long l:multra00 t:dataTypeName=number
 
-metric m:hisp00 l:hisp00 t:dataTypeName=number
+metric m:hisp00 p:long l:hisp00 t:dataTypeName=number
 
-metric m:pop10 l:pop10 t:dataTypeName=number
+metric m:pop10 p:long l:pop10 t:dataTypeName=number
 
-metric m:white10 l:white10 t:dataTypeName=number
+metric m:white10 p:long l:white10 t:dataTypeName=number
 
-metric m:black10 l:black10 t:dataTypeName=number
+metric m:black10 p:long l:black10 t:dataTypeName=number
 
-metric m:asian10 l:asian10 t:dataTypeName=number
+metric m:asian10 p:long l:asian10 t:dataTypeName=number
 
-metric m:amind10 l:amind10 t:dataTypeName=number
+metric m:amind10 p:long l:amind10 t:dataTypeName=number
 
-metric m:hawnpi10 l:hawnpi10 t:dataTypeName=number
+metric m:hawnpi10 p:long l:hawnpi10 t:dataTypeName=number
 
-metric m:other10 l:other10 t:dataTypeName=number
+metric m:other10 p:long l:other10 t:dataTypeName=number
 
-metric m:multra10 l:multra10 t:dataTypeName=number
+metric m:multra10 p:long l:multra10 t:dataTypeName=number
 
-metric m:hisp10 l:hisp10 t:dataTypeName=number
+metric m:hisp10 p:long l:hisp10 t:dataTypeName=number
 
 entity e:ny2h-ckbz l:"School Districts" t:url=https://data.mo.gov/api/views/ny2h-ckbz
 

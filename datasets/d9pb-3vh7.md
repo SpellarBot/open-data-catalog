@@ -55,7 +55,9 @@ series e:d9pb-3vh7 d:2000-03-01T00:00:00.000Z m:average_bill=45.91 m:fuel_charge
 ```ls
 metric m:average_kwh p:integer l:"Average kWh" t:dataTypeName=number
 
-metric m:fuel_charge_cents_kwh l:"Fuel Charge (Cents/kWh)" t:dataTypeName=number
+metric m:fuel_charge_cents_kwh p:float l:"Fuel Charge (Cents/kWh)" t:dataTypeName=number
+
+metric m:average_bill p:double l:"Average Bill" t:dataTypeName=money
 
 entity e:d9pb-3vh7 l:"Residential Average Monthly kWh and Bills" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/d9pb-3vh7
 

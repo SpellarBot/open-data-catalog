@@ -68,27 +68,27 @@ series e:i6qv-ar46 d:2015-06-09T15:39:03.000Z t:category=C1 t:stat_type=DR:SQFT 
 ```ls
 metric m:empl_per_sqft p:integer l:EMPL_PER_SQFT t:dataTypeName=number
 
-metric m:splitres p:integer l:SPLITRES t:dataTypeName=number
+metric m:splitres p:double l:SPLITRES t:dataTypeName=number
 
-metric m:splitcom p:integer l:SPLITCOM t:dataTypeName=number
+metric m:splitcom p:double l:SPLITCOM t:dataTypeName=number
 
 metric m:maxrdens p:integer l:MAXRDENS t:dataTypeName=number
 
 metric m:du_gross_sqft p:integer l:DU_GROSS_SQFT t:dataTypeName=number
 
-metric m:res_obs_far l:RES_OBS_FAR t:dataTypeName=number
+metric m:res_obs_far p:float l:RES_OBS_FAR t:dataTypeName=number
 
-metric m:res_max_far l:RES_MAX_FAR t:dataTypeName=number
+metric m:res_max_far p:float l:RES_MAX_FAR t:dataTypeName=number
 
-metric m:comm_obs_far p:integer l:COMM_OBS_FAR t:dataTypeName=number
+metric m:comm_obs_far p:double l:COMM_OBS_FAR t:dataTypeName=number
 
-metric m:comm_max_far p:integer l:COMM_MAX_FAR t:dataTypeName=number
+metric m:comm_max_far p:double l:COMM_MAX_FAR t:dataTypeName=number
 
 metric m:max_height p:integer l:MAX_HEIGHT t:dataTypeName=number
 
 metric m:du_acre p:integer l:DU_ACRE t:dataTypeName=number
 
-metric m:ratio p:integer l:RATIO t:dataTypeName=number
+metric m:ratio p:double l:RATIO t:dataTypeName=number
 
 entity e:i6qv-ar46 l:"Zoning Density Assumptions For Zoned Development Capacity Model" t:url=https://data.seattle.gov/api/views/i6qv-ar46
 

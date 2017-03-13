@@ -55,7 +55,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = longitude,latitude
+Excluded Fields = latitude,longitude
 ```
 
 ## Data Commands
@@ -71,9 +71,9 @@ series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:47:0
 ## Meta Commands
 
 ```ls
-metric m:size_mb l:size_mb t:dataTypeName=number
+metric m:size_mb p:decimal l:size_mb t:dataTypeName=number
 
-metric m:duration_seconds l:duration_seconds t:dataTypeName=number
+metric m:duration_seconds p:double l:duration_seconds t:dataTypeName=number
 
 entity e:qarb-kkbj l:"NOPD Body Worn Camera Metadata" t:attribution="City of New Orleans Police Department" t:url=https://data.nola.gov/api/views/qarb-kkbj
 

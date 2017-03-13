@@ -21,7 +21,6 @@
 ```ls
 | Included | Schema Type | Field Name                                                       | Name                                                                    | Data Type | Render Type |
 | ======== | =========== | ================================================================ | ======================================================================= | ========= | =========== |
-| No       | time        | :updated_at                                                      | updated_at                                                              | meta_data | meta_data   |
 | Yes      | series tag  | goal_1_ensure_a_fair_accurate_property_valuation_appeals_process | Goal 1: Ensure A Fair & Accurate Property Valuation & Appeals Process * | text      | text        |
 | Yes      | series tag  | reporting_office                                                 | Reporting Office                                                        | text      | text        |
 | Yes      | series tag  | tax_year_2009                                                    | Tax Year 2009                                                           | text      | text        |
@@ -34,8 +33,8 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands

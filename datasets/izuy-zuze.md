@@ -21,7 +21,6 @@
 ```ls
 | Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
 | ======== | ============== | ================ | ================ | ========= | =========== |
-| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | month            | Month            | text      | text        |
 | Yes      | numeric metric | animals_fostered | Animals Fostered | number    | number      |
 ```
@@ -29,18 +28,18 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:izuy-zuze d:2015-03-06T15:21:04.000Z t:month=Feb m:animals_fostered=34
+series e:izuy-zuze d:2015-01-01T00:00:00.000Z t:month=Feb m:animals_fostered=34
 
-series e:izuy-zuze d:2015-05-11T09:10:54.000Z t:month=Apr m:animals_fostered=54
+series e:izuy-zuze d:2015-01-01T00:00:00.000Z t:month=Apr m:animals_fostered=54
 
-series e:izuy-zuze d:2015-06-03T15:28:43.000Z t:month=May m:animals_fostered=135
+series e:izuy-zuze d:2015-01-01T00:00:00.000Z t:month=May m:animals_fostered=135
 ```
 
 ## Meta Commands
