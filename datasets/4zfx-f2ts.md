@@ -74,7 +74,7 @@ series e:4zfx-f2ts d:2012-01-01T00:00:00.000Z t:organization_group="Public Works
 ## Meta Commands
 
 ```ls
-metric m:fte p:double l:FTE d:"Staffing level is represented by ""Full Time Equivalent (FTE)"". One FTE equals one or more employees who together work 40 hours per week. For instance, an employee who works 40 hours per week is counted as one FTE, and two part-time employees who each work 20 hours per week are also counted as one FTE. Overtime hours are excluded from this calculation. FTE is relative to the time period. Annual FTEs are based on 2080, 2088 or 2096 hours per year depending on how week days and leap day affect a particular year." t:dataTypeName=number
+metric m:fte l:FTE d:"Staffing level is represented by ""Full Time Equivalent (FTE)"". One FTE equals one or more employees who together work 40 hours per week. For instance, an employee who works 40 hours per week is counted as one FTE, and two part-time employees who each work 20 hours per week are also counted as one FTE. Overtime hours are excluded from this calculation. FTE is relative to the time period. Annual FTEs are based on 2080, 2088 or 2096 hours per year depending on how week days and leap day affect a particular year." t:dataTypeName=number
 
 entity e:4zfx-f2ts l:"Budget - FTE" t:attribution="SF Controller's Office" t:url=https://data.sfgov.org/api/views/4zfx-f2ts
 

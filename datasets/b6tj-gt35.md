@@ -16,7 +16,7 @@
 | Tags | permits, tables, chairs, mobile, food, truck, display, surface, mounted, excavation, temporary, occupancy, row, banner, bicycle |
 | Created | 2012-09-24T23:30:54Z |
 | Publication Date | 2015-07-17T15:43:31Z |
-| Rows Updated | 2017-03-12T15:11:49Z |
+| Rows Updated | 2017-03-11T16:11:48Z |
 
 ## Description
 
@@ -61,7 +61,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = permit_start_date,permit_end_date,permit_address,x,y,latitude,longitude
+Excluded Fields = permit_address,permit_start_date,longitude,latitude,permit_end_date,y,x
 ```
 
 ## Data Commands

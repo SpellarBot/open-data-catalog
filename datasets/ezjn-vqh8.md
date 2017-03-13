@@ -33,7 +33,7 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | series tag     | product_code                   | Product Code                   | text          | text          |
 | Yes      | numeric metric | package_size                   | Package Size                   | number        | text          |
 | Yes      | numeric metric | period_covered                 | Year                           | number        | text          |
-| No       |                | quarter                        | Quarter                        | number        | text          |
+| Yes      | numeric metric | quarter                        | Quarter                        | number        | text          |
 | Yes      | series tag     | product_fda_list_name          | Product Name                   | text          | text          |
 | Yes      | series tag     | suppression_used               | Suppression Used               | checkbox      | checkbox      |
 | Yes      | numeric metric | units_reimbursed               | Units Reimbursed               | number        | number        |
@@ -58,17 +58,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude,quarter
+Excluded Fields = longitude,latitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:ezjn-vqh8 d:2005-04-01T00:00:00.000Z t:product_fda_list_name=INTAL t:quarter_begin=4/1 t:state_code=MO t:labeler_code=60793 t:product_code=0011 t:suppression_used=false t:record_id=FFSU m:package_size=8 m:ndc=60793001108 m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=2953.32 m:number_of_prescriptions=38 m:units_reimbursed=364.5 m:period_covered=2005 m:non_medicaid_amount_reimbursed=0
+series e:ezjn-vqh8 d:2005-04-01T00:00:00.000Z t:product_fda_list_name=INTAL t:quarter_begin=4/1 t:state_code=MO t:labeler_code=60793 t:product_code=0011 t:suppression_used=false t:record_id=FFSU m:package_size=8 m:ndc=60793001108 m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=2953.32 m:number_of_prescriptions=38 m:units_reimbursed=364.5 m:period_covered=2005 m:non_medicaid_amount_reimbursed=0 m:quarter=2
 
-series e:ezjn-vqh8 d:2005-01-01T00:00:00.000Z t:product_fda_list_name=LACTULOSE t:quarter_begin=1/1 t:state_code=VA t:labeler_code=50383 t:product_code=0795 t:suppression_used=false t:record_id=FFSU m:package_size=16 m:ndc=50383079516 m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=6713.48 m:number_of_prescriptions=432 m:units_reimbursed=255853 m:period_covered=2005 m:non_medicaid_amount_reimbursed=0
+series e:ezjn-vqh8 d:2005-01-01T00:00:00.000Z t:product_fda_list_name=LACTULOSE t:quarter_begin=1/1 t:state_code=VA t:labeler_code=50383 t:product_code=0795 t:suppression_used=false t:record_id=FFSU m:package_size=16 m:ndc=50383079516 m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=6713.48 m:number_of_prescriptions=432 m:units_reimbursed=255853 m:period_covered=2005 m:non_medicaid_amount_reimbursed=0 m:quarter=1
 
-series e:ezjn-vqh8 d:2005-01-01T00:00:00.000Z t:product_fda_list_name="ESTRING VA" t:quarter_begin=1/1 t:state_code=NE t:labeler_code=00013 t:product_code=2150 t:suppression_used=true t:record_id=FFSU m:package_size=36 m:ndc=13215036 m:period_covered=2005
+series e:ezjn-vqh8 d:2005-01-01T00:00:00.000Z t:product_fda_list_name="ESTRING VA" t:quarter_begin=1/1 t:state_code=NE t:labeler_code=00013 t:product_code=2150 t:suppression_used=true t:record_id=FFSU m:package_size=36 m:ndc=13215036 m:period_covered=2005 m:quarter=1
 ```
 
 ## Meta Commands
@@ -78,15 +78,17 @@ metric m:package_size p:integer l:"Package Size" d:"Third segment of National Dr
 
 metric m:period_covered p:integer l:Year d:"Calendar year" t:dataTypeName=number
 
-metric m:units_reimbursed p:double l:"Units Reimbursed" d:"The total number of units (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
+metric m:quarter p:integer l:Quarter d:"Quarter of year (1-4) 1 = January 1 ? March 31, 2 = April 1 ? June 30, 3 = July 1 ? September 30, 4 = October 1 ? December 31" t:dataTypeName=number
+
+metric m:units_reimbursed l:"Units Reimbursed" d:"The total number of units (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
 
 metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" d:"The number of prescriptions reimbursed (by the Medicaid Program ONLY) to pharmacists for the (11-digit NDC) drug for the period covered." t:dataTypeName=number
 
-metric m:total_amount_reimbursed p:double l:"Total Amount Reimbursed" d:"The total amount reimbursed by both Medicaid and non-Medicaid entities to pharmacies for the (11-digit NDC) drug in the period covered (two below fields added together). This total is not reduced or affected by Medicaid rebates paid to the state. This amount represents both the Federal and State Reimbursement and is inclusive of dispensing fees." t:dataTypeName=number
+metric m:total_amount_reimbursed l:"Total Amount Reimbursed" d:"The total amount reimbursed by both Medicaid and non-Medicaid entities to pharmacies for the (11-digit NDC) drug in the period covered (two below fields added together). This total is not reduced or affected by Medicaid rebates paid to the state. This amount represents both the Federal and State Reimbursement and is inclusive of dispensing fees." t:dataTypeName=number
 
-metric m:medicaid_amount_reimbursed p:double l:"Medicaid Amount Reimbursed" d:"The amount reimbursed (by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
+metric m:medicaid_amount_reimbursed l:"Medicaid Amount Reimbursed" d:"The amount reimbursed (by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
 
-metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimbursed" d:"The amount reimbursed (by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
+metric m:non_medicaid_amount_reimbursed l:"Non Medicaid Amount Reimbursed" d:"The amount reimbursed (by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
 
 metric m:ndc p:long l:NDC t:dataTypeName=number
 

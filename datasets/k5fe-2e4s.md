@@ -28,6 +28,7 @@ For nutrient and sediment measures where standards are not specific, results are
 ```ls
 | Included | Schema Type    | Field Name   | Name         | Data Type | Render Type |
 | ======== | ============== | ============ | ============ | ========= | =========== |
+| No       | time           | :updated_at  | updated_at   | meta_data | meta_data   |
 | Yes      | series tag     | station      | Station      | text      | text        |
 | Yes      | series tag     | station_name | Station Name | text      | text        |
 | Yes      | series tag     | ssr          | SSR          | text      | text        |
@@ -58,18 +59,18 @@ For nutrient and sediment measures where standards are not specific, results are
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:k5fe-2e4s d:1994-01-01T00:00:00.000Z t:station_name="Humptulips R nr Humptulips" t:station=22A070 t:ssr=Coast t:comment="Annual sediment and phosphorus scores were usually below 80.  Temperature scores were below 80 about half the time. Average Bacteria, Oxygen, Nitrogen and pH scores were usually above 80. The Humptulips has an approved temperature management plan and is listed for oxygen and pH." m:2008=73 m:2009=78 m:2006=70 m:2007=67 m:2013=84 m:2004=68 m:2005=77 m:2002=75 m:2003=74 m:1995=76 m:1996=75 m:1997=76 m:1998=66 m:1994=84 m:2012=94 m:2011=70 m:2010=75 m:1999=76 m:ave=76 m:2001=81 m:2000=86
+series e:k5fe-2e4s d:2014-04-23T15:08:16.000Z t:station_name="Humptulips R nr Humptulips" t:station=22A070 t:ssr=Coast t:comment="Annual sediment and phosphorus scores were usually below 80.  Temperature scores were below 80 about half the time. Average Bacteria, Oxygen, Nitrogen and pH scores were usually above 80. The Humptulips has an approved temperature management plan and is listed for oxygen and pH." m:2008=73 m:2009=78 m:2006=70 m:2007=67 m:2013=84 m:2004=68 m:2005=77 m:2002=75 m:2003=74 m:1995=76 m:1996=75 m:1997=76 m:1998=66 m:1994=84 m:2012=94 m:2011=70 m:2010=75 m:1999=76 m:ave=76 m:2001=81 m:2000=86
 
-series e:k5fe-2e4s d:1994-01-01T00:00:00.000Z t:station_name="Hoh R @ DNR Campground" t:station=20B070 t:ssr=Coast t:comment="Annual sediment and phosphorus scores were usually below 80. Bacteria and temperature scores were occasionally below 80. Other scores were usually above 80. The watershed contains glaciers that contribute much of the sediment that is the primary contributor to overall WQI scores below 80. However, higher bacteria counts since the mid-2000s have also contributed to lower scores.  The Hoh is currently on the 303(d) list for bacteria." m:2008=68 m:2009=67 m:2006=60 m:2007=39 m:2013=68 m:2004=51 m:2005=56 m:2002=80 m:2003=72 m:1995=67 m:1996=73 m:1997=57 m:1998=66 m:1994=77 m:2012=83 m:2011=70 m:2010=60 m:1999=64 m:ave=67 m:2001=76 m:2000=79
+series e:k5fe-2e4s d:2014-04-23T15:08:16.000Z t:station_name="Hoh R @ DNR Campground" t:station=20B070 t:ssr=Coast t:comment="Annual sediment and phosphorus scores were usually below 80. Bacteria and temperature scores were occasionally below 80. Other scores were usually above 80. The watershed contains glaciers that contribute much of the sediment that is the primary contributor to overall WQI scores below 80. However, higher bacteria counts since the mid-2000s have also contributed to lower scores.  The Hoh is currently on the 303(d) list for bacteria." m:2008=68 m:2009=67 m:2006=60 m:2007=39 m:2013=68 m:2004=51 m:2005=56 m:2002=80 m:2003=72 m:1995=67 m:1996=73 m:1997=57 m:1998=66 m:1994=77 m:2012=83 m:2011=70 m:2010=60 m:1999=64 m:ave=67 m:2001=76 m:2000=79
 
-series e:k5fe-2e4s d:1994-01-01T00:00:00.000Z t:station_name="Naselle R nr Naselle" t:station=24F070 t:ssr=Coast t:comment="Annual bacteria, temperature, nutrient, and sediment scores were all below 80 most of the time. Oxygen and pH scores were occasionally below 80.  The Naselle is currently listed for temperature." m:2008=84 m:2009=84 m:2006=76 m:2007=77 m:2013=79 m:2004=65 m:2005=78 m:2002=51 m:2003=64 m:1995=4 m:1996=60 m:1997=74 m:1998=46 m:2012=74 m:2011=63 m:2010=58 m:1999=58 m:ave=65 m:2001=69 m:2000=67
+series e:k5fe-2e4s d:2014-04-23T15:08:16.000Z t:station_name="Naselle R nr Naselle" t:station=24F070 t:ssr=Coast t:comment="Annual bacteria, temperature, nutrient, and sediment scores were all below 80 most of the time. Oxygen and pH scores were occasionally below 80.  The Naselle is currently listed for temperature." m:2008=84 m:2009=84 m:2006=76 m:2007=77 m:2013=79 m:2004=65 m:2005=78 m:2002=51 m:2003=64 m:1995=4 m:1996=60 m:1997=74 m:1998=46 m:2012=74 m:2011=63 m:2010=58 m:1999=58 m:ave=65 m:2001=69 m:2000=67
 ```
 
 ## Meta Commands

@@ -67,15 +67,15 @@ metric m:county_fip p:integer l:"County FIP" d:"A five-digit Federal Information
 
 metric m:co_subdivision_fip p:integer l:"Co Subdivision FIP" d:"A ten-digit Federal Information Processing Series code to ensure uniform identification of county subdivisions" t:dataTypeName=number
 
-metric m:urban_rate p:double l:"Urban Rate" d:"Rate applied to property considered urban" t:dataTypeName=number
+metric m:urban_rate p:integer l:"Urban Rate" d:"Rate applied to property considered urban" t:dataTypeName=number
 
-metric m:rural_rate p:float l:"Rural Rate" d:"Rate applied to property considered rural" t:dataTypeName=number
+metric m:rural_rate l:"Rural Rate" d:"Rate applied to property considered rural" t:dataTypeName=number
 
-metric m:debt_rate p:float l:"Debt Rate" d:"Rate applied to the levy authority's debt" t:dataTypeName=number
+metric m:debt_rate l:"Debt Rate" d:"Rate applied to the levy authority's debt" t:dataTypeName=number
 
-metric m:tif_rate_urban p:double l:"TIF Rate (Urban)" t:dataTypeName=number
+metric m:tif_rate_urban l:"TIF Rate (Urban)" t:dataTypeName=number
 
-metric m:tif_rate_rural p:float l:"TIF Rate (Rural)" t:dataTypeName=number
+metric m:tif_rate_rural l:"TIF Rate (Rural)" t:dataTypeName=number
 
 entity e:xmkr-kpjb l:"Levy Authority Rates By Fiscal Year" t:attribution="Iowa Department of Management, Local Budget and Finance" t:url=https://data.iowa.gov/api/views/xmkr-kpjb
 

@@ -54,8 +54,6 @@ series e:na74-jvan d:2011-01-01T00:00:00.000Z t:vendor_zip=60197 t:agency_name="
 ## Meta Commands
 
 ```ls
-metric m:amount p:double l:Amount t:dataTypeName=money
-
 entity e:na74-jvan l:"Maryland Funding FY11 Payments Data" t:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology" t:url=https://data.maryland.gov/api/views/na74-jvan
 
 property e:na74-jvan t:meta.view v:id=na74-jvan v:category=Budget v:attributionLink=http://www.spending.dbm.maryland.gov v:averageRating=0 v:name="Maryland Funding FY11 Payments Data" v:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology"

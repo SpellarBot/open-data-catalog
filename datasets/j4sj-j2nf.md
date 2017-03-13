@@ -60,13 +60,13 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:taz=704 t:county=007 t:name=704 
 ## Meta Commands
 
 ```ls
-metric m:area p:long l:area t:dataTypeName=number
+metric m:area l:area t:dataTypeName=number
 
-metric m:perimeter p:long l:perimeter t:dataTypeName=number
+metric m:perimeter l:perimeter t:dataTypeName=number
 
-metric m:tz06_d00_ p:long l:tz06_d00_ t:dataTypeName=number
+metric m:tz06_d00_ l:tz06_d00_ t:dataTypeName=number
 
-metric m:tz06_d00_i p:long l:tz06_d00_i t:dataTypeName=number
+metric m:tz06_d00_i l:tz06_d00_i t:dataTypeName=number
 
 entity e:j4sj-j2nf l:"Traffic Analysis Zones" t:url=https://data.sfgov.org/api/views/j4sj-j2nf
 

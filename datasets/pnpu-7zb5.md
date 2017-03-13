@@ -56,8 +56,6 @@ series e:pnpu-7zb5 d:2015-06-24T00:00:00.000Z t:pending_completed=Completed t:ca
 ## Meta Commands
 
 ```ls
-metric m:funds_disbursed p:integer l:"Funds Disbursed" t:dataTypeName=money
-
 entity e:pnpu-7zb5 l:"Campaign Finance - Public Funds Disbursed - November 3, 2015 Election" t:url=https://data.sfgov.org/api/views/pnpu-7zb5
 
 property e:pnpu-7zb5 t:meta.view v:id=pnpu-7zb5 v:category="City Management and Ethics" v:averageRating=0 v:name="Campaign Finance - Public Funds Disbursed - November 3, 2015 Election"

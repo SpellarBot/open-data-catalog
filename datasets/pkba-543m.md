@@ -27,6 +27,7 @@ Bills that Passed the 2013 Legislature
 ```ls
 | Included | Schema Type | Field Name       | Name             | Data Type | Render Type |
 | ======== | =========== | ================ | ================ | ========= | =========== |
+| No       | time        | :updated_at      | updated_at       | meta_data | meta_data   |
 | Yes      | series tag  | bill             | Bill             | text      | text        |
 | Yes      | series tag  | subject          | Subject          | text      | text        |
 | Yes      | series tag  | appropriation    | Appropriation    | text      | text        |
@@ -41,8 +42,8 @@ Bills that Passed the 2013 Legislature
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands

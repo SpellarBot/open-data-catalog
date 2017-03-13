@@ -68,7 +68,7 @@ series e:92th-scpp d:2011-07-20T15:48:40.000Z t:lasar_location_description="Flor
 ```ls
 metric m:lasar_elevation p:integer l:LASAR_ELEVATION t:dataTypeName=number
 
-metric m:lasar_river_distance p:float l:LASAR_RIVER_DISTANCE t:dataTypeName=number
+metric m:lasar_river_distance l:LASAR_RIVER_DISTANCE t:dataTypeName=number
 
 entity e:92th-scpp l:"SCLR LASARStations Grab Sites" t:attribution="Oregon DEQ Volunteer Program and South Coast Lower Rogue Watershed Councils" t:url=https://data.oregon.gov/api/views/92th-scpp
 

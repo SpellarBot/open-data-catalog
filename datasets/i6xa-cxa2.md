@@ -30,7 +30,7 @@ This database is a yearly snapshot of deer kill sites as entered by Maintenance 
 | Yes      | numeric metric | costcenter            | COSTCENTER            | number    | text        |
 | No       |                | calyear               | CALYEAR               | number    | number      |
 | No       |                | fiscal_year           | FISCAL_YEAR           | number    | number      |
-| No       |                | fy_quarter            | FY_QUARTER            | number    | number      |
+| Yes      | numeric metric | fy_quarter            | FY_QUARTER            | number    | number      |
 | Yes      | time           | dk_date               | DK_DATE               | date      | date        |
 | Yes      | numeric metric | rms_county            | RMS_COUNTY            | number    | number      |
 | Yes      | series tag     | route_name            | ROUTE_NAME            | text      | text        |
@@ -56,17 +56,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = fiscal_year,latitude,longitude,calyear,fy_quarter
+Excluded Fields = fiscal_year,longitude,latitude,calyear
 ```
 
 ## Data Commands
 
 ```ls
-series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 20 E" t:objectid=29498 t:district=1 m:rms_county=40 m:costcenter=551609 m:rms_milepost=150 m:burial=1
+series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 20 E" t:objectid=29498 t:district=1 m:rms_county=40 m:costcenter=551609 m:rms_milepost=150 m:fy_quarter=1 m:burial=1
 
-series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 20 E" t:objectid=29499 t:district=1 m:rms_county=38 m:costcenter=551607 m:rms_milepost=184.3 m:burial=1
+series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 20 E" t:objectid=29499 t:district=1 m:rms_county=38 m:costcenter=551607 m:rms_milepost=184.3 m:fy_quarter=1 m:burial=1
 
-series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 52 N" t:objectid=29500 t:district=2 m:rms_county=22 m:costcenter=552822 m:rms_milepost=91.3 m:burial=1
+series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 52 N" t:objectid=29500 t:district=2 m:rms_county=22 m:costcenter=552822 m:rms_milepost=91.3 m:fy_quarter=1 m:burial=1
 ```
 
 ## Meta Commands
@@ -74,13 +74,15 @@ series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:sex=Female t:route_name="US 52 N
 ```ls
 metric m:costcenter p:integer l:COSTCENTER d:"Cost Center" t:dataTypeName=number
 
+metric m:fy_quarter p:integer l:FY_QUARTER d:"Fiscal Year Quarter" t:dataTypeName=number
+
 metric m:rms_county p:integer l:RMS_COUNTY d:County t:dataTypeName=number
 
-metric m:rms_milepost p:double l:RMS_MILEPOST d:"RMS Milepost" t:dataTypeName=number
+metric m:rms_milepost p:integer l:RMS_MILEPOST d:"RMS Milepost" t:dataTypeName=number
 
 metric m:burial p:integer l:BURIAL d:Burial t:dataTypeName=number
 
-metric m:response_to_complaint p:long l:RESPONSE_TO_COMPLAINT d:"Response to Complaint?" t:dataTypeName=number
+metric m:response_to_complaint l:RESPONSE_TO_COMPLAINT d:"Response to Complaint?" t:dataTypeName=number
 
 entity e:i6xa-cxa2 l:"Deer Kill Locations 2009" t:attribution="Iowa Department of Transportation - Office of Maintenance" t:url=https://data.iowa.gov/api/views/i6xa-cxa2
 

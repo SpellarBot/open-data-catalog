@@ -23,6 +23,7 @@
 ```ls
 | Included | Schema Type | Field Name                             | Name                                    | Data Type | Render Type |
 | ======== | =========== | ====================================== | ======================================= | ========= | =========== |
+| No       | time        | :updated_at                            | updated_at                              | meta_data | meta_data   |
 | Yes      | series tag  | tuesday_aug_6                          | ?Tuesday, Aug. 6                        | text      | text        |
 | Yes      | series tag  | 8_15_p_m                               | 8:15 p.m.                               | text      | text        |
 | Yes      | series tag  | election_day_results_posted_to_the_web | Election day results posted to the web. | text      | text        |
@@ -31,8 +32,8 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands

@@ -26,7 +26,7 @@ LAPD Calls for Service
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
 | ======== | ============== | =============== | =============== | ============= | ============= |
-| Yes      | series tag     | incident_number | Incident_Number | text          | text          |
+| Yes      | numeric metric | incident_number | Incident_Number | number        | text          |
 | Yes      | series tag     | area_occ        | Area_Occ        | text          | text          |
 | Yes      | numeric metric | rpt_dist        | Rpt_Dist        | number        | text          |
 | Yes      | time           | dispatch_date   | Dispatch_Date   | calendar_date | calendar_date |
@@ -45,16 +45,18 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:xwgr-xw5q d:2016-10-31T00:00:00.000Z t:call_type_code=9212 t:call_type_text="TRESPASS SUSP" t:area_occ=Newton t:dispatch_time=04:57:44 t:incident_number=161031000621 m:rpt_dist=1321
+series e:xwgr-xw5q d:2016-10-31T00:00:00.000Z t:call_type_code=9212 t:call_type_text="TRESPASS SUSP" t:area_occ=Newton t:dispatch_time=04:57:44 m:rpt_dist=1321 m:incident_number=161031000621
 
-series e:xwgr-xw5q d:2016-10-31T00:00:00.000Z t:call_type_code=459X t:call_type_text=I/P t:area_occ=Southwest t:dispatch_time=04:55:22 t:incident_number=161031000620 m:rpt_dist=396
+series e:xwgr-xw5q d:2016-10-31T00:00:00.000Z t:call_type_code=459X t:call_type_text=I/P t:area_occ=Southwest t:dispatch_time=04:55:22 m:rpt_dist=396 m:incident_number=161031000620
 
-series e:xwgr-xw5q d:2016-10-31T00:00:00.000Z t:call_type_code=906B1 t:call_type_text="CODE 30 RINGER" t:area_occ=Olympic t:dispatch_time=04:54:49 t:incident_number=161031000600 m:rpt_dist=2029
+series e:xwgr-xw5q d:2016-10-31T00:00:00.000Z t:call_type_code=906B1 t:call_type_text="CODE 30 RINGER" t:area_occ=Olympic t:dispatch_time=04:54:49 m:rpt_dist=2029 m:incident_number=161031000600
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:incident_number p:long l:Incident_Number t:dataTypeName=number
+
 metric m:rpt_dist p:integer l:Rpt_Dist t:dataTypeName=number
 
 entity e:xwgr-xw5q l:"LAPD Calls for Service 2015" t:url=https://data.lacity.org/api/views/xwgr-xw5q

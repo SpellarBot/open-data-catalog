@@ -37,7 +37,7 @@ Note that ownership information shows record owner as of January 1, 2015.  Howev
 | Yes      | series tag     | building_type               | Building Type               | text      | text        |
 | Yes      | series tag     | gis_id                      | GIS ID                      | text      | text        |
 | Yes      | numeric metric | bldg_no                     | Bldg No                     | number    | number      |
-| Yes      | series tag     | cls                         | Cls                         | text      | text        |
+| Yes      | numeric metric | cls                         | Cls                         | number    | text        |
 | Yes      | series tag     | use_code                    | Use Code                    | text      | text        |
 | Yes      | numeric metric | land_area_in_acres          | Land Area in Acres          | number    | number      |
 | Yes      | numeric metric | living_area                 | Living Area                 | number    | number      |
@@ -86,7 +86,7 @@ metric m:res_nbhd p:integer l:"Res NBHD" t:dataTypeName=number
 
 metric m:bldg_no p:integer l:"Bldg No" t:dataTypeName=number
 
-metric m:land_area_in_acres p:decimal l:"Land Area in Acres" t:dataTypeName=number
+metric m:land_area_in_acres l:"Land Area in Acres" t:dataTypeName=number
 
 metric m:living_area p:integer l:"Living Area" t:dataTypeName=number
 

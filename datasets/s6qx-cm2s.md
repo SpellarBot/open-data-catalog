@@ -54,8 +54,6 @@ series e:s6qx-cm2s d:2016-01-01T00:00:00.000Z t:category_description="BUILDING L
 ## Meta Commands
 
 ```ls
-metric m:payments_total p:double l:"Payments Total" t:dataTypeName=money
-
 entity e:s6qx-cm2s l:"2016 State Expenditures As Of COB June 30, 2016" t:attribution="Office of Administration" t:url=https://data.mo.gov/api/views/s6qx-cm2s
 
 property e:s6qx-cm2s t:meta.view v:id=s6qx-cm2s v:category="Government Administration" v:averageRating=0 v:name="2016 State Expenditures As Of COB June 30, 2016" v:attribution="Office of Administration"

@@ -27,6 +27,7 @@ King County 2010 Budget Expenditures outside the General Fund
 ```ls
 | Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
 | ======== | ============== | ================== | ================== | ========= | =========== |
+| No       | time           | :updated_at        | updated_at         | meta_data | meta_data   |
 | Yes      | numeric metric | fundnumber         | FundNumber         | number    | number      |
 | Yes      | series tag     | funddescription    | FundDescription    | text      | text        |
 | Yes      | numeric metric | dept               | Dept               | number    | number      |
@@ -41,18 +42,18 @@ King County 2010 Budget Expenditures outside the General Fund
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC SYSTEMS UNIT(1644)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 m:dept=730 m:fundnumber=1030 m:loworg=1644
+series e:vv8b-tzy8 d:2010-09-21T16:00:57.000Z t:loworgdescription="TRAFFIC SYSTEMS UNIT(1644)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 m:dept=730 m:fundnumber=1030 m:loworg=1644
 
-series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC BASIC-BURIEN(3906)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 m:dept=730 m:fundnumber=1030 m:loworg=3906
+series e:vv8b-tzy8 d:2010-09-21T16:00:57.000Z t:loworgdescription="TRAFFIC BASIC-BURIEN(3906)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 m:dept=730 m:fundnumber=1030 m:loworg=3906
 
-series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC BASIC-SNOQUALMIE(3910)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 m:dept=730 m:fundnumber=1030 m:loworg=3910
+series e:vv8b-tzy8 d:2010-09-21T16:00:57.000Z t:loworgdescription="TRAFFIC BASIC-SNOQUALMIE(3910)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 m:dept=730 m:fundnumber=1030 m:loworg=3910
 ```
 
 ## Meta Commands
@@ -63,8 +64,6 @@ metric m:fundnumber p:integer l:FundNumber t:dataTypeName=number
 metric m:dept p:integer l:Dept t:dataTypeName=number
 
 metric m:loworg p:integer l:LowOrg t:dataTypeName=number
-
-metric m:adopted p:integer l:Adopted t:dataTypeName=money
 
 entity e:vv8b-tzy8 l:"Non-General Fund Expenditures 2010" t:attribution="King County" t:url=https://data.kingcounty.gov/api/views/vv8b-tzy8
 

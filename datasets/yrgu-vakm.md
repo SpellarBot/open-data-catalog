@@ -16,7 +16,7 @@
 | Tags | exceptions, street, restrictions, permits |
 | Created | 2012-09-25T00:09:14Z |
 | Publication Date | 2015-07-17T15:20:34Z |
-| Rows Updated | 2017-03-12T15:04:55Z |
+| Rows Updated | 2017-03-11T16:04:53Z |
 
 ## Description
 
@@ -53,7 +53,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = expirationdate,modifieddate
+Excluded Fields = modifieddate,expirationdate
 ```
 
 ## Data Commands

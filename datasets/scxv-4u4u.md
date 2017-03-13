@@ -45,35 +45,35 @@ Footnotes:
 | No       |                | mmwr_year                                              | MMWR Year                                                 | number    | number      |
 | No       |                | mmwr_week                                              | MMWR Week                                                 | number    | number      |
 | No       |                | rabies_animal_current_week                             | Rabies, animal, Current week                              | number    | number      |
-| No       |                | rabies_animal_current_week_flag                        | Rabies, animal, Current week, flag                        | text      | text        |
+| Yes      | numeric metric | rabies_animal_current_week_flag                        | Rabies, animal, Current week, flag                        | number    | text        |
 | Yes      | numeric metric | rabies_animal_previous_52_weeks_med                    | Rabies, animal, Previous 52 weeks Med                     | number    | number      |
-| No       |                | rabies_animal_previous_52_weeks_med_flag               | Rabies, animal, Previous 52 weeks Med, flag               | text      | text        |
+| Yes      | numeric metric | rabies_animal_previous_52_weeks_med_flag               | Rabies, animal, Previous 52 weeks Med, flag               | number    | text        |
 | Yes      | numeric metric | rabies_animal_previous_52_weeks_max                    | Rabies, animal, Previous 52 weeks Max                     | number    | number      |
-| No       |                | rabies_animal_previous_52_weeks_max_flag               | Rabies, animal, Previous 52 weeks Max, flag               | text      | text        |
+| Yes      | numeric metric | rabies_animal_previous_52_weeks_max_flag               | Rabies, animal, Previous 52 weeks Max, flag               | number    | text        |
 | Yes      | numeric metric | rabies_animal_cum_2017                                 | Rabies, animal, Cum 2017                                  | number    | number      |
-| No       |                | rabies_animal_cum_2017_flag                            | Rabies, animal, Cum 2017, flag                            | text      | text        |
+| Yes      | numeric metric | rabies_animal_cum_2017_flag                            | Rabies, animal, Cum 2017, flag                            | number    | text        |
 | Yes      | numeric metric | rabies_animal_cum_2016                                 | Rabies, animal, Cum 2016                                  | number    | number      |
-| No       |                | rabies_animal_cum_2016_flag                            | Rabies, animal, Cum 2016, flag                            | text      | text        |
+| Yes      | numeric metric | rabies_animal_cum_2016_flag                            | Rabies, animal, Cum 2016, flag                            | number    | text        |
 | No       |                | rubella_current_week                                   | Rubella, Current week                                     | number    | number      |
-| No       |                | rubella_current_week_flag                              | Rubella, Current week, flag                               | text      | text        |
+| Yes      | numeric metric | rubella_current_week_flag                              | Rubella, Current week, flag                               | number    | text        |
 | Yes      | numeric metric | rubella_previous_52_weeks_med                          | Rubella, Previous 52 weeks Med                            | number    | number      |
-| No       |                | rubella_previous_52_weeks_med_flag                     | Rubella, Previous 52 weeks Med, flag                      | text      | text        |
+| Yes      | numeric metric | rubella_previous_52_weeks_med_flag                     | Rubella, Previous 52 weeks Med, flag                      | number    | text        |
 | Yes      | numeric metric | rubella_previous_52_weeks_max                          | Rubella, Previous 52 weeks Max                            | number    | number      |
-| No       |                | rubella_previous_52_weeks_max_flag                     | Rubella, Previous 52 weeks Max, flag                      | text      | text        |
+| Yes      | numeric metric | rubella_previous_52_weeks_max_flag                     | Rubella, Previous 52 weeks Max, flag                      | number    | text        |
 | Yes      | numeric metric | rubella_cum_2017                                       | Rubella, Cum 2017                                         | number    | number      |
-| No       |                | rubella_cum_2017_flag                                  | Rubella, Cum 2017, flag                                   | text      | text        |
+| Yes      | numeric metric | rubella_cum_2017_flag                                  | Rubella, Cum 2017, flag                                   | number    | text        |
 | Yes      | numeric metric | rubella_cum_2016                                       | Rubella, Cum 2016                                         | number    | number      |
-| No       |                | rubella_cum_2016_flag                                  | Rubella, Cum 2016, flag                                   | text      | text        |
+| Yes      | numeric metric | rubella_cum_2016_flag                                  | Rubella, Cum 2016, flag                                   | number    | text        |
 | No       |                | rubella_congenital_syndrome_current_week               | Rubella, congenital syndrome, Current week                | number    | number      |
-| No       |                | rubella_congenital_syndrome_current_week_flag          | Rubella, congenital syndrome, Current week, flag          | text      | text        |
+| Yes      | numeric metric | rubella_congenital_syndrome_current_week_flag          | Rubella, congenital syndrome, Current week, flag          | number    | text        |
 | Yes      | numeric metric | rubella_congenital_syndrome_previous_52_weeks_med      | Rubella, congenital syndrome, Previous 52 weeks Med       | number    | number      |
-| No       |                | rubella_congenital_syndrome_previous_52_weeks_med_flag | Rubella, congenital syndrome, Previous 52 weeks Med, flag | text      | text        |
+| Yes      | numeric metric | rubella_congenital_syndrome_previous_52_weeks_med_flag | Rubella, congenital syndrome, Previous 52 weeks Med, flag | number    | text        |
 | Yes      | numeric metric | rubella_congenital_syndrome_previous_52_weeks_max      | Rubella, congenital syndrome, Previous 52 weeks Max       | number    | number      |
-| No       |                | rubella_congenital_syndrome_previous_52_weeks_max_flag | Rubella, congenital syndrome, Previous 52 weeks Max, flag | text      | text        |
+| Yes      | numeric metric | rubella_congenital_syndrome_previous_52_weeks_max_flag | Rubella, congenital syndrome, Previous 52 weeks Max, flag | number    | text        |
 | Yes      | numeric metric | rubella_congenital_syndrome_cum_2017                   | Rubella, congenital syndrome, Cum 2017                    | number    | number      |
-| No       |                | rubella_congenital_syndrome_cum_2017_flag              | Rubella, congenital syndrome, Cum 2017, flag              | text      | text        |
+| Yes      | numeric metric | rubella_congenital_syndrome_cum_2017_flag              | Rubella, congenital syndrome, Cum 2017, flag              | number    | text        |
 | Yes      | numeric metric | rubella_congenital_syndrome_cum_2016                   | Rubella, congenital syndrome, Cum 2016                    | number    | number      |
-| No       |                | rubella_congenital_syndrome_cum_2016_flag              | Rubella, congenital syndrome, Cum 2016, flag              | text      | text        |
+| Yes      | numeric metric | rubella_congenital_syndrome_cum_2016_flag              | Rubella, congenital syndrome, Cum 2016, flag              | number    | text        |
 ```
 
 ## Time Field
@@ -86,17 +86,17 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Excluded Fields = rabies_animal_current_week,rabies_animal_current_week_flag,rabies_animal_previous_52_weeks_med_flag,rabies_animal_previous_52_weeks_max_flag,rabies_animal_cum_2017_flag,rabies_animal_cum_2016_flag,rubella_current_week,rubella_current_week_flag,rubella_previous_52_weeks_med_flag,rubella_previous_52_weeks_max_flag,rubella_cum_2017_flag,rubella_cum_2016_flag,rubella_congenital_syndrome_current_week,rubella_congenital_syndrome_current_week_flag,rubella_congenital_syndrome_previous_52_weeks_med_flag,rubella_congenital_syndrome_previous_52_weeks_max_flag,rubella_congenital_syndrome_cum_2017_flag,rubella_congenital_syndrome_cum_2016_flag,mmwr_year,mmwr_week
+Excluded Fields = rubella_congenital_syndrome_current_week,mmwr_year,rubella_current_week,rabies_animal_current_week,mmwr_week
 ```
 
 ## Data Commands
 
 ```ls
-series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rabies_animal_previous_52_weeks_max=112 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=34 m:rubella_previous_52_weeks_max=2 m:rabies_animal_previous_52_weeks_med=52
+series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:rubella_cum_2016_flag=- t:rubella_congenital_syndrome_cum_2017_flag=- t:rubella_cum_2017_flag=- t:rubella_current_week_flag=- t:rubella_congenital_syndrome_current_week_flag=- t:rubella_congenital_syndrome_cum_2016_flag=- t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rabies_animal_previous_52_weeks_max=112 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=34 m:rubella_previous_52_weeks_max=2 m:rabies_animal_previous_52_weeks_med=52
 
-series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
+series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:rubella_cum_2016_flag=- t:rabies_animal_current_week_flag=- t:rubella_congenital_syndrome_cum_2017_flag=- t:rabies_animal_cum_2016_flag=- t:rubella_cum_2017_flag=- t:rubella_current_week_flag=- t:rabies_animal_cum_2017_flag=- t:rubella_congenital_syndrome_current_week_flag=- t:rubella_congenital_syndrome_cum_2016_flag=- t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
 
-series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rabies_animal_previous_52_weeks_max=33 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=5 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=8
+series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:rubella_cum_2016_flag=- t:rubella_congenital_syndrome_cum_2017_flag=- t:rubella_cum_2017_flag=- t:rubella_current_week_flag=- t:rubella_congenital_syndrome_current_week_flag=- t:rubella_congenital_syndrome_cum_2016_flag=- t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rabies_animal_previous_52_weeks_max=33 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=5 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=8
 ```
 
 ## Meta Commands
@@ -124,7 +124,7 @@ metric m:rubella_congenital_syndrome_previous_52_weeks_max p:integer l:"Rubella,
 
 metric m:rubella_congenital_syndrome_cum_2017 p:integer l:"Rubella, congenital syndrome, Cum 2017" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_cum_2016 p:long l:"Rubella, congenital syndrome, Cum 2016" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_cum_2016 l:"Rubella, congenital syndrome, Cum 2016" t:dataTypeName=number
 
 entity e:scxv-4u4u l:"NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/scxv-4u4u
 

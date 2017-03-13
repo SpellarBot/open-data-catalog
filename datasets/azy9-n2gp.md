@@ -67,7 +67,7 @@ metric m:dr_no p:integer l:"DR NO" t:dataTypeName=number
 
 metric m:time_occ p:integer l:"TIME OCC" t:dataTypeName=number
 
-metric m:area p:long l:AREA t:dataTypeName=number
+metric m:area p:integer l:AREA t:dataTypeName=number
 
 metric m:crm_cd p:integer l:"Crm Cd" t:dataTypeName=number
 

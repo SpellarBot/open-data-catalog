@@ -23,39 +23,40 @@ The Chicago Public Library offers one-hour computer sessions and 15-minute compu
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name | Name      | Data Type | Render Type |
-| ======== | ============== | ========== | ========= | ========= | =========== |
-| Yes      | series tag     | location   | LOCATION  | text      | text        |
-| Yes      | numeric metric | january    | JANUARY   | number    | number      |
-| Yes      | numeric metric | february   | FEBRUARY  | number    | number      |
-| Yes      | numeric metric | march      | MARCH     | number    | number      |
-| Yes      | numeric metric | april      | APRIL     | number    | number      |
-| Yes      | numeric metric | may        | MAY       | number    | number      |
-| Yes      | numeric metric | june       | JUNE      | number    | number      |
-| Yes      | numeric metric | july       | JULY      | number    | number      |
-| Yes      | numeric metric | august     | AUGUST    | number    | number      |
-| Yes      | numeric metric | september  | SEPTEMBER | number    | number      |
-| Yes      | numeric metric | october    | OCTOBER   | number    | number      |
-| Yes      | numeric metric | november   | NOVEMBER  | number    | number      |
-| Yes      | numeric metric | december   | DECEMBER  | number    | number      |
-| Yes      | numeric metric | ytd        | YTD       | number    | number      |
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | location    | LOCATION   | text      | text        |
+| Yes      | numeric metric | january     | JANUARY    | number    | number      |
+| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
+| Yes      | numeric metric | march       | MARCH      | number    | number      |
+| Yes      | numeric metric | april       | APRIL      | number    | number      |
+| Yes      | numeric metric | may         | MAY        | number    | number      |
+| Yes      | numeric metric | june        | JUNE       | number    | number      |
+| Yes      | numeric metric | july        | JULY       | number    | number      |
+| Yes      | numeric metric | august      | AUGUST     | number    | number      |
+| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
+| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
+| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
+| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
+| Yes      | numeric metric | ytd         | YTD        | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location="Albany Park" m:december=2513 m:november=3121 m:may=2779 m:march=3485 m:april=3522 m:february=3117 m:june=3076 m:january=3275 m:ytd=37025 m:august=3174 m:july=2778 m:october=3202 m:september=2983
+series e:w7uw-j3pp d:2017-01-13T17:16:33.000Z t:location="Albany Park" m:december=2513 m:may=2779 m:november=3121 m:march=3485 m:april=3522 m:february=3117 m:june=3076 m:january=3275 m:ytd=37025 m:august=3174 m:july=2778 m:october=3202 m:september=2983
 
-series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location=Altgeld m:december=1147 m:november=1493 m:may=1289 m:march=1360 m:april=1501 m:february=1458 m:june=1609 m:january=1893 m:ytd=18826 m:august=2115 m:july=1962 m:october=1457 m:september=1542
+series e:w7uw-j3pp d:2017-01-13T17:16:33.000Z t:location=Altgeld m:december=1147 m:may=1289 m:november=1493 m:march=1360 m:april=1501 m:february=1458 m:june=1609 m:january=1893 m:ytd=18826 m:august=2115 m:july=1962 m:october=1457 m:september=1542
 
-series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location="Archer Heights" m:december=1785 m:november=1966 m:may=1829 m:march=2029 m:april=2030 m:february=1877 m:june=1832 m:january=1951 m:ytd=23467 m:august=2202 m:july=1935 m:october=2071 m:september=1960
+series e:w7uw-j3pp d:2017-01-13T17:16:33.000Z t:location="Archer Heights" m:december=1785 m:may=1829 m:november=1966 m:march=2029 m:april=2030 m:february=1877 m:june=1832 m:january=1951 m:ytd=23467 m:august=2202 m:july=1935 m:october=2071 m:september=1960
 ```
 
 ## Meta Commands

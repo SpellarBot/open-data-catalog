@@ -65,18 +65,6 @@ series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:fund_name="General Fund" t:divis
 ```ls
 metric m:fund p:integer l:Fund t:dataTypeName=number
 
-metric m:fy_2013_actual p:double l:"FY 2013 Actual" t:dataTypeName=money
-
-metric m:fy_2014_actual p:double l:"FY 2014 Actual" t:dataTypeName=money
-
-metric m:fy_2015_budget p:double l:"FY 2015 Budget" t:dataTypeName=money
-
-metric m:fy_2016_current_services p:double l:"FY 2016 Current Services" t:dataTypeName=money
-
-metric m:fy_2016_budget_issues p:double l:"FY 2016 Budget Issues" t:dataTypeName=money
-
-metric m:fy_2016_proposed_budget p:double l:"FY 2016 Proposed Budget" t:dataTypeName=money
-
 entity e:rkqa-i8sr l:"Proposed FY16 Budget" t:url=https://data.honolulu.gov/api/views/rkqa-i8sr
 
 property e:rkqa-i8sr t:meta.view v:id=rkqa-i8sr v:category=Finance v:averageRating=0 v:name="Proposed FY16 Budget"

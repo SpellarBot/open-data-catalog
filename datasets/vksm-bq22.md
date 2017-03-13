@@ -34,7 +34,7 @@ Speed limits are indicated primarily for streets that have speeds higher than 25
 | Yes      | series tag     | to_street        | To Street        | text      | text        |
 | Yes      | numeric metric | speed_limit      | Speed Limit      | number    | number      |
 | Yes      | time           | last_edited_date | Last Edited Date | date      | date        |
-| No       |                | geom             | Geom             | line      | line        |
+| Yes      | series tag     | geom             | Geom             | line      | line        |
 ```
 
 ## Time Field
@@ -44,26 +44,20 @@ Value = last_edited_date
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = geom
-```
-
 ## Data Commands
 
 ```ls
-series e:vksm-bq22 d:2017-03-13T14:55:44.046Z t:cnn_segment_id=3837000 t:street_name=CAYUGA t:object_id=1 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-03-12T10:45:56.872Z t:cnn_segment_id=3837000 t:street_name=CAYUGA t:object_id=1 t:geom="LINESTRING (-122.44096027285825 37.72018929105033, -122.44141420138112 37.71987030057758)" t:street_type=AVE m:speed_limit=15
 
-series e:vksm-bq22 d:2017-03-13T14:55:44.046Z t:cnn_segment_id=3835000 t:street_name=CAYUGA t:object_id=2 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-03-12T10:45:56.872Z t:cnn_segment_id=3835000 t:street_name=CAYUGA t:object_id=2 t:geom="LINESTRING (-122.44012245471575 37.72152164062292, -122.44048613103382 37.720938754346285)" t:street_type=AVE m:speed_limit=15
 
-series e:vksm-bq22 d:2017-03-13T14:55:44.046Z t:cnn_segment_id=3834000 t:street_name=CAYUGA t:object_id=3 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-03-12T10:45:56.872Z t:cnn_segment_id=3834000 t:street_name=CAYUGA t:object_id=3 t:geom="LINESTRING (-122.43977785474799 37.72207394101123, -122.44012245471575 37.72152164062292)" t:street_type=AVE m:speed_limit=15
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:speed_limit p:long l:"Speed Limit" t:dataTypeName=number
+metric m:speed_limit l:"Speed Limit" t:dataTypeName=number
 
 entity e:vksm-bq22 l:"Speed Limits" t:url=https://data.sfgov.org/api/views/vksm-bq22
 

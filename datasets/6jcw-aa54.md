@@ -22,6 +22,7 @@
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
 | ======== | ============== | =============== | =============== | ========= | =========== |
+| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | manner_of_death | MANNER OF DEATH | text      | text        |
 | Yes      | series tag     | sex_            | SEX             | text      | text        |
 | Yes      | numeric metric | count           | COUNT           | number    | number      |
@@ -30,18 +31,18 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:6jcw-aa54 d:2009-01-01T00:00:00.000Z t:manner_of_death=ACCIDENT t:sex_=MALE m:count=995
+series e:6jcw-aa54 d:2011-09-22T10:22:25.000Z t:manner_of_death=ACCIDENT t:sex_=MALE m:count=995
 
-series e:6jcw-aa54 d:2009-01-01T00:00:00.000Z t:manner_of_death=ACCIDENT t:sex_=FEMALE m:count=439
+series e:6jcw-aa54 d:2011-09-22T10:22:25.000Z t:manner_of_death=ACCIDENT t:sex_=FEMALE m:count=439
 
-series e:6jcw-aa54 d:2009-01-01T00:00:00.000Z t:manner_of_death=HOMICIDE t:sex_=MALE m:count=535
+series e:6jcw-aa54 d:2011-09-22T10:22:25.000Z t:manner_of_death=HOMICIDE t:sex_=MALE m:count=535
 ```
 
 ## Meta Commands

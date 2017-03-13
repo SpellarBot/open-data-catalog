@@ -35,7 +35,7 @@ Proposed New Site applications for ?Links? Wi-Fi Provider: LinkNYC - CityBridge,
 | Yes      | series tag     | borough         | Borough         | text          | text          |
 | Yes      | series tag     | zoningnumb      | ZoningNumb      | text          | text          |
 | No       |                | cb              | CB              | number        | number        |
-| Yes      | series tag     | building_number | Building_Number | text          | number        |
+| Yes      | numeric metric | building_number | Building_Number | number        | number        |
 | Yes      | series tag     | street_name     | Street_Name     | text          | text          |
 | Yes      | series tag     | cross_street_1  | Cross_Street 1  | text          | text          |
 | Yes      | series tag     | cross_street_2  | Cross_Street 2  | text          | text          |
@@ -60,13 +60,13 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude,cb
+Excluded Fields = cb,longitude,latitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:xp25-gxux d:2016-08-19T00:00:00.000Z t:company_na="CityBridge LLC" t:pavementty="2 STREET" t:street_name="NEW DORP LANE" t:zoningnumb=C2-1/R3-1 t:borough=SI t:cross_street_2="2 STREET" t:cross_street_1="RICHMOND ROAD" t:cblinkid=LINK-005408 t:kiosktype="advertising unit" t:linkinbid=NO t:linkinhist=NONE t:appl_type="new site" t:building_number=8 m:permit_app=81420
+series e:xp25-gxux d:2016-08-19T00:00:00.000Z t:cblinkid=LINK-005408 t:company_na="CityBridge LLC" t:kiosktype="advertising unit" t:pavementty="2 STREET" t:linkinbid=NO t:street_name="NEW DORP LANE" t:zoningnumb=C2-1/R3-1 t:linkinhist=NONE t:appl_type="new site" t:borough=SI t:cross_street_2="2 STREET" t:cross_street_1="RICHMOND ROAD" m:permit_app=81420 m:building_number=8
 
 series e:xp25-gxux d:2016-08-19T00:00:00.000Z t:cblinkid=LINK-006874 t:company_na="CityBridge LLC" t:kiosktype="advertising unit" t:pavementty="72 AVENUE" t:linkinbid=NO t:street_name="QUEENS BOULEVARD" t:zoningnumb=C4-5X/FH t:linkinhist=NONE t:appl_type="new site" t:borough=Queens t:cross_street_2="72 AVENUE" t:cross_street_1="71 ROAD" m:permit_app=81450
 
@@ -76,6 +76,8 @@ series e:xp25-gxux d:2016-08-19T00:00:00.000Z t:cblinkid=LINK-006876 t:company_n
 ## Meta Commands
 
 ```ls
+metric m:building_number p:integer l:Building_Number t:dataTypeName=number
+
 metric m:permit_app p:integer l:permit_app t:dataTypeName=number
 
 entity e:xp25-gxux l:"LinkNYC New Site Permit Applications" t:attribution="Department of Information Technology & Telecommunications (DoITT)" t:url=https://data.cityofnewyork.us/api/views/xp25-gxux

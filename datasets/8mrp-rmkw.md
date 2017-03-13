@@ -65,7 +65,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = yearend,data_value_unit,data_value_type,data_value_alt,data_value_footnote_symbol,data_value_footnote
+Excluded Fields = data_value_footnote,data_value_footnote_symbol,data_value_unit,data_value_alt,data_value_type,yearend
 ```
 
 ## Data Commands
@@ -81,11 +81,11 @@ series e:8mrp-rmkw d:2009-01-01T00:00:00.000Z t:total=Total t:topic="Physical Ac
 ## Meta Commands
 
 ```ls
-metric m:data_value p:float l:Data_Value t:dataTypeName=number
+metric m:data_value l:Data_Value t:dataTypeName=number
 
-metric m:low_confidence_limit p:float l:Low_Confidence_Limit t:dataTypeName=number
+metric m:low_confidence_limit l:Low_Confidence_Limit t:dataTypeName=number
 
-metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=number
+metric m:high_confidence_limit l:High_Confidence_Limit t:dataTypeName=number
 
 entity e:8mrp-rmkw l:"Nutrition, Physical Activity, and Obesity - American Community Survey" t:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity" t:url=https://chronicdata.cdc.gov/api/views/8mrp-rmkw
 

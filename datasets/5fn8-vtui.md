@@ -54,7 +54,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = timedispatch,timearrive,timeclosed,block_address
+Excluded Fields = timeclosed,timearrive,timedispatch,block_address
 ```
 
 ## Data Commands
@@ -70,7 +70,7 @@ series e:5fn8-vtui d:2013-01-01T00:00:22.000Z t:zip=70130 t:type_=67S t:nopd_ite
 ## Meta Commands
 
 ```ls
-metric m:mapx p:integer l:MapX t:dataTypeName=number
+metric m:mapx l:MapX t:dataTypeName=number
 
 metric m:mapy p:integer l:MapY t:dataTypeName=number
 

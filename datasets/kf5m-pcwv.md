@@ -73,7 +73,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = address,fiscal_year
+Excluded Fields = fiscal_year,address
 ```
 
 ## Data Commands
@@ -89,16 +89,6 @@ series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:first_name=Rita t:program_type=I
 ## Meta Commands
 
 ```ls
-metric m:total_amount_originally_awarded p:double l:"Total Amount Originally Awarded" t:dataTypeName=money
-
-metric m:total_amount_awarded_and_disbursed p:double l:"Total Amount Awarded and Disbursed" t:dataTypeName=money
-
-metric m:applicant_matching_amount p:double l:"Applicant Matching Amount" t:dataTypeName=money
-
-metric m:requested_award_amount p:double l:"Requested Award Amount" t:dataTypeName=money
-
-metric m:requested_matching_amount p:double l:"Requested Matching Amount" t:dataTypeName=money
-
 metric m:census_tract p:integer l:"Census Tract" t:dataTypeName=number
 
 metric m:census_block p:integer l:"Census Block" t:dataTypeName=number

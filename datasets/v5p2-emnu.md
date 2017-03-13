@@ -110,21 +110,21 @@ metric m:visitor p:integer l:visitor t:dataTypeName=number
 
 metric m:dbi_permit p:long l:"dbi permit" t:dataTypeName=number
 
-metric m:net_added_units p:integer l:"net added units" t:dataTypeName=number
+metric m:net_added_units l:"net added units" t:dataTypeName=number
 
-metric m:net_added_sf p:integer l:"net added sf" t:dataTypeName=number
+metric m:net_added_sf l:"net added sf" t:dataTypeName=number
 
-metric m:net_cult_inst_educ p:integer l:"net cult, inst, educ" t:dataTypeName=number
+metric m:net_cult_inst_educ l:"net cult, inst, educ" t:dataTypeName=number
 
-metric m:net_medical p:integer l:"net medical" t:dataTypeName=number
+metric m:net_medical l:"net medical" t:dataTypeName=number
 
-metric m:net_office p:integer l:"net office" t:dataTypeName=number
+metric m:net_office l:"net office" t:dataTypeName=number
 
-metric m:net_prod_dist_rep p:integer l:"net prod, dist, rep" t:dataTypeName=number
+metric m:net_prod_dist_rep l:"net prod, dist, rep" t:dataTypeName=number
 
-metric m:net_ret_ent p:integer l:"net ret, ent" t:dataTypeName=number
+metric m:net_ret_ent l:"net ret, ent" t:dataTypeName=number
 
-metric m:net_visitor p:integer l:"net visitor" t:dataTypeName=number
+metric m:net_visitor l:"net visitor" t:dataTypeName=number
 
 metric m:sitearea p:integer l:sitearea t:dataTypeName=number
 

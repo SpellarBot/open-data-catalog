@@ -27,7 +27,7 @@ This data includes hourly numbers of persons successfully negotiating temporary,
 | Included | Schema Type    | Field Name         | Name               | Data Type     | Render Type   |
 | ======== | ============== | ================== | ================== | ============= | ============= |
 | Yes      | time           | date               | Date               | calendar_date | calendar_date |
-| No       |                | day_of_week        | Day of Week        | text          | text          |
+| Yes      | series tag     | day_of_week        | Day of Week        | text          | text          |
 | Yes      | numeric metric | log_out_6_6_59am   | Log Out 6-6:59am   | number        | number        |
 | Yes      | numeric metric | log_out_7_7_59am   | Log Out 7-7:59am   | number        | number        |
 | Yes      | numeric metric | log_out_8_8_59am   | Log Out 8-8:59am   | number        | number        |
@@ -50,20 +50,14 @@ Value = date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = day_of_week
-```
-
 ## Data Commands
 
 ```ls
-series e:m9jn-qzir d:2011-09-30T00:00:00.000Z t:weather_holiday=Clear m:log_out_9_9_59am=13 m:stayed_until_close=10 m:log_out_11_11_59am=2 m:log_out_10_10_59am=3 m:log_out_12_12_59pm=19 m:total_signed_in=91 m:total_signed_out=52 m:log_out_7_7_59am=9 m:log_out_1_1_59pm=0 m:log_out_6_6_59am=2 m:total_contractors=9 m:log_out_8_8_59am=4
+series e:m9jn-qzir d:2011-09-30T00:00:00.000Z t:day_of_week=Friday t:weather_holiday=Clear m:log_out_9_9_59am=13 m:stayed_until_close=10 m:log_out_11_11_59am=2 m:log_out_10_10_59am=3 m:log_out_12_12_59pm=19 m:total_signed_in=91 m:total_signed_out=52 m:log_out_7_7_59am=9 m:log_out_1_1_59pm=0 m:log_out_6_6_59am=2 m:total_contractors=9 m:log_out_8_8_59am=4
 
-series e:m9jn-qzir d:2011-09-29T00:00:00.000Z t:weather_holiday=Clear m:log_out_9_9_59am=2 m:stayed_until_close=9 m:log_out_11_11_59am=6 m:log_out_10_10_59am=0 m:log_out_12_12_59pm=13 m:total_signed_in=99 m:total_signed_out=50 m:log_out_7_7_59am=7 m:log_out_1_1_59pm=11 m:log_out_6_6_59am=8 m:total_contractors=5 m:log_out_8_8_59am=3
+series e:m9jn-qzir d:2011-09-29T00:00:00.000Z t:day_of_week=Thursday t:weather_holiday=Clear m:log_out_9_9_59am=2 m:stayed_until_close=9 m:log_out_11_11_59am=6 m:log_out_10_10_59am=0 m:log_out_12_12_59pm=13 m:total_signed_in=99 m:total_signed_out=50 m:log_out_7_7_59am=7 m:log_out_1_1_59pm=11 m:log_out_6_6_59am=8 m:total_contractors=5 m:log_out_8_8_59am=3
 
-series e:m9jn-qzir d:2011-09-28T00:00:00.000Z t:weather_holiday=Clear m:log_out_9_9_59am=4 m:stayed_until_close=10 m:log_out_11_11_59am=3 m:log_out_10_10_59am=9 m:log_out_12_12_59pm=5 m:total_signed_in=97 m:total_signed_out=46 m:log_out_7_7_59am=4 m:log_out_1_1_59pm=6 m:log_out_6_6_59am=11 m:total_contractors=11 m:log_out_8_8_59am=4
+series e:m9jn-qzir d:2011-09-28T00:00:00.000Z t:day_of_week=Wednesday t:weather_holiday=Clear m:log_out_9_9_59am=4 m:stayed_until_close=10 m:log_out_11_11_59am=3 m:log_out_10_10_59am=9 m:log_out_12_12_59pm=5 m:total_signed_in=97 m:total_signed_out=46 m:log_out_7_7_59am=4 m:log_out_1_1_59pm=6 m:log_out_6_6_59am=11 m:total_contractors=11 m:log_out_8_8_59am=4
 ```
 
 ## Meta Commands

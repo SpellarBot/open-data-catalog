@@ -57,9 +57,9 @@ series e:k7a5-emiw d:2014-10-03T16:00:51.000Z t:file_date_time=@2014031019215 t:
 ## Meta Commands
 
 ```ls
-metric m:duration p:float l:Duration t:dataTypeName=number
+metric m:duration l:Duration t:dataTypeName=number
 
-metric m:fps p:float l:FPS d:"Frames Per Second" t:dataTypeName=number
+metric m:fps l:FPS d:"Frames Per Second" t:dataTypeName=number
 
 metric m:dropped_frames p:integer l:"Dropped Frames" d:"Count of dropped frames in 10 second sample period" t:dataTypeName=number
 

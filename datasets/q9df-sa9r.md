@@ -36,12 +36,12 @@ Data Refresh Frequency - Daily
 | No       |                | last_renewal_date | Last Renewal Date            | calendar_date | calendar_date |
 | No       |                | next_renewal_date | Next Renewal Date            | calendar_date | calendar_date |
 | No       |                | expire_date       | License Expiration Date      | calendar_date | calendar_date |
-| Yes      | series tag     | in_county         | IN_COUNTY                    | text          | text          |
-| Yes      | series tag     | out_county        | OUT_COUNTY                   | text          | text          |
+| Yes      | numeric metric | in_county         | IN_COUNTY                    | number        | text          |
+| Yes      | numeric metric | out_county        | OUT_COUNTY                   | number        | text          |
 | Yes      | series tag     | product_sold      | PRODUCT_SOLD                 | text          | text          |
 | Yes      | series tag     | farm_name         | Farm name                    | text          | text          |
 | Yes      | numeric metric | stno              | Street Number                | number        | text          |
-| Yes      | series tag     | predir            | Pre-direction                | text          | text          |
+| Yes      | numeric metric | predir            | Pre-direction                | number        | text          |
 | Yes      | series tag     | stname            | Street name of work location | text          | text          |
 | Yes      | series tag     | suffix            | Street Suffix                | text          | text          |
 | Yes      | series tag     | postdir           | Post-direction               | text          | text          |
@@ -61,7 +61,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = license_date,issued_date,last_renewal_date,next_renewal_date,expire_date
+Excluded Fields = expire_date,last_renewal_date,issued_date,license_date,next_renewal_date
 ```
 
 ## Data Commands

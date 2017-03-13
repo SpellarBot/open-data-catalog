@@ -77,7 +77,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = xcoord,ycoord
+Excluded Fields = ycoord,xcoord
 ```
 
 ## Data Commands
@@ -111,7 +111,7 @@ metric m:dateinstl6 p:integer l:DATEINSTL6 t:dataTypeName=number
 
 metric m:height_ft p:integer l:Height_ft t:dataTypeName=number
 
-metric m:height_in p:float l:Height_In t:dataTypeName=number
+metric m:height_in l:Height_In t:dataTypeName=number
 
 metric m:horiz_gap p:integer l:Horiz_Gap t:dataTypeName=number
 

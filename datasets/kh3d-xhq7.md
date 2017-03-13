@@ -50,7 +50,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = mn,tu,we,th,fr,sa,su
+Excluded Fields = mn,tu,sa,su,fr,th,we
 ```
 
 ## Data Commands

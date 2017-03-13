@@ -24,39 +24,40 @@ The Chicago Public Library has more than 70 locations. The Chicago Public Librar
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name | Name      | Data Type | Render Type |
-| ======== | ============== | ========== | ========= | ========= | =========== |
-| Yes      | series tag     | location   | LOCATION  | text      | text        |
-| Yes      | numeric metric | january    | JANUARY   | number    | number      |
-| Yes      | numeric metric | february   | FEBRUARY  | number    | number      |
-| Yes      | numeric metric | march      | MARCH     | number    | number      |
-| Yes      | numeric metric | april      | APRIL     | number    | number      |
-| Yes      | numeric metric | may        | MAY       | number    | number      |
-| Yes      | numeric metric | june       | JUNE      | number    | number      |
-| Yes      | numeric metric | july       | JULY      | number    | number      |
-| Yes      | numeric metric | august     | AUGUST    | number    | number      |
-| Yes      | numeric metric | september  | SEPTEMBER | number    | number      |
-| Yes      | numeric metric | october    | OCTOBER   | number    | number      |
-| Yes      | numeric metric | november   | NOVEMBER  | number    | number      |
-| Yes      | numeric metric | december   | DECEMBER  | number    | number      |
-| Yes      | numeric metric | ytd        | YTD       | number    | number      |
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | location    | LOCATION   | text      | text        |
+| Yes      | numeric metric | january     | JANUARY    | number    | number      |
+| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
+| Yes      | numeric metric | march       | MARCH      | number    | number      |
+| Yes      | numeric metric | april       | APRIL      | number    | number      |
+| Yes      | numeric metric | may         | MAY        | number    | number      |
+| Yes      | numeric metric | june        | JUNE       | number    | number      |
+| Yes      | numeric metric | july        | JULY       | number    | number      |
+| Yes      | numeric metric | august      | AUGUST     | number    | number      |
+| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
+| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
+| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
+| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
+| Yes      | numeric metric | ytd         | YTD        | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location="Albany Park" m:december=12789 m:november=14463 m:may=10915 m:march=12368 m:april=12556 m:february=10593 m:june=15341 m:january=11735 m:ytd=159397 m:august=13907 m:july=14151 m:october=16460 m:september=14119
+series e:cpc6-pxmp d:2017-01-13T17:13:57.000Z t:location="Albany Park" m:december=12789 m:may=10915 m:november=14463 m:march=12368 m:april=12556 m:february=10593 m:june=15341 m:january=11735 m:ytd=159397 m:august=13907 m:july=14151 m:october=16460 m:september=14119
 
-series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location=Altgeld m:december=3325 m:november=4584 m:may=3880 m:march=4529 m:april=4471 m:february=5034 m:june=4431 m:january=5335 m:ytd=57479 m:august=5867 m:july=5526 m:october=5064 m:september=5433
+series e:cpc6-pxmp d:2017-01-13T17:13:57.000Z t:location=Altgeld m:december=3325 m:may=3880 m:november=4584 m:march=4529 m:april=4471 m:february=5034 m:june=4431 m:january=5335 m:ytd=57479 m:august=5867 m:july=5526 m:october=5064 m:september=5433
 
-series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location="Archer Heights*" m:december=6754 m:november=8400 m:may=8714 m:march=10522 m:april=9747 m:february=9079 m:june=9567 m:january=8375 m:ytd=107323 m:august=8831 m:july=9514 m:october=9209 m:september=8611
+series e:cpc6-pxmp d:2017-01-13T17:13:57.000Z t:location="Archer Heights*" m:december=6754 m:may=8714 m:november=8400 m:march=10522 m:april=9747 m:february=9079 m:june=9567 m:january=8375 m:ytd=107323 m:august=8831 m:july=9514 m:october=9209 m:september=8611
 ```
 
 ## Meta Commands

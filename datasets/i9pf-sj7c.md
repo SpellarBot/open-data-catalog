@@ -27,6 +27,7 @@ Directory of High School programs
 ```ls
 | Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
 | ======== | ============== | ================== | ================== | ========= | =========== |
+| No       | time           | :updated_at        | updated_at         | meta_data | meta_data   |
 | Yes      | series tag     | dbn                | DBN                | text      | text        |
 | Yes      | series tag     | program            | PROGRAM            | text      | text        |
 | Yes      | series tag     | prgdesc            | PRGDESC            | text      | text        |
@@ -119,10 +120,10 @@ Directory of High School programs
 | Yes      | series tag     | end08              | end08              | text      | text        |
 | Yes      | series tag     | end09              | end09              | text      | text        |
 | Yes      | series tag     | end10              | end10              | text      | text        |
-| Yes      | series tag     | end11              | end11              | text      | text        |
-| Yes      | series tag     | end12              | end12              | text      | text        |
-| Yes      | series tag     | end13              | end13              | text      | text        |
-| Yes      | series tag     | end14              | end14              | text      | text        |
+| Yes      | numeric metric | end11              | end11              | number    | text        |
+| Yes      | numeric metric | end12              | end12              | number    | text        |
+| Yes      | numeric metric | end13              | end13              | number    | text        |
+| Yes      | numeric metric | end14              | end14              | number    | text        |
 | Yes      | series tag     | end15              | end15              | text      | text        |
 | Yes      | series tag     | end16              | end16              | text      | text        |
 | Yes      | series tag     | end17              | end17              | text      | text        |
@@ -134,18 +135,18 @@ Directory of High School programs
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:i9pf-sj7c d:2013-01-01T00:00:00.000Z t:dbn=01M292 t:program="International Studies" t:interest="Humanities & Interdisciplinary" t:10seats=None t:method="Limited Unscreened" t:code=M46X t:10ap=None m:9app=234 m:9seats=98
+series e:i9pf-sj7c d:2014-09-03T12:08:11.000Z t:dbn=01M292 t:program="International Studies" t:interest="Humanities & Interdisciplinary" t:10seats=None t:method="Limited Unscreened" t:code=M46X t:10ap=None m:9app=234 m:9seats=98
 
-series e:i9pf-sj7c d:2013-01-01T00:00:00.000Z t:req2="Open only to students whose home language is Chinese (Mandarin)" t:prgdesc="An interdisciplinary, project-based program, with advisories, art and music electives, community service requirements and learning centers." t:dbn=01M448 t:program="University Neighborhood High School" t:interest="Science & Math" t:10seats=10 t:method="Ed. Opt." t:code=M35A t:10ap=17 m:9app=280 m:9seats=125
+series e:i9pf-sj7c d:2014-09-03T12:08:11.000Z t:req2="Open only to students whose home language is Chinese (Mandarin)" t:prgdesc="An interdisciplinary, project-based program, with advisories, art and music electives, community service requirements and learning centers." t:dbn=01M448 t:program="University Neighborhood High School" t:interest="Science & Math" t:10seats=10 t:method="Ed. Opt." t:code=M35A t:10ap=17 m:9app=280 m:9seats=125
 
-series e:i9pf-sj7c d:2013-01-01T00:00:00.000Z t:prgdesc="Students with limited English are taught by bilingual Mandarin speaking teachers in all core subjects and get extra support during Academic Intervention Services (AIS)." t:10seats=20 t:stm=N/A t:code=M35B t:10ap=0 t:math=N/A t:dbn=01M448 t:program="Bilingual Mandarin" t:interest=Business t:sci=N/A t:method="Screened: Language" t:ela=N/A t:eng=N/A t:soc=N/A m:9app=21 m:9seats=50
+series e:i9pf-sj7c d:2014-09-03T12:08:11.000Z t:prgdesc="Students with limited English are taught by bilingual Mandarin speaking teachers in all core subjects and get extra support during Academic Intervention Services (AIS)." t:10seats=20 t:stm=N/A t:code=M35B t:10ap=0 t:math=N/A t:dbn=01M448 t:program="Bilingual Mandarin" t:interest=Business t:sci=N/A t:method="Screened: Language" t:ela=N/A t:eng=N/A t:soc=N/A m:9app=21 m:9seats=50
 ```
 
 ## Meta Commands
@@ -154,6 +155,14 @@ series e:i9pf-sj7c d:2013-01-01T00:00:00.000Z t:prgdesc="Students with limited E
 metric m:9seats p:integer l:9SEATS t:dataTypeName=number
 
 metric m:9app p:integer l:9APP t:dataTypeName=number
+
+metric m:end11 l:end11 t:dataTypeName=number
+
+metric m:end12 l:end12 t:dataTypeName=number
+
+metric m:end13 l:end13 t:dataTypeName=number
+
+metric m:end14 l:end14 t:dataTypeName=number
 
 entity e:i9pf-sj7c l:"DOE High School Programs 2013-2014" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/i9pf-sj7c
 

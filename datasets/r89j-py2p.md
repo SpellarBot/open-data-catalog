@@ -31,6 +31,7 @@ Update Frequency:  Annually
 ```ls
 | Included | Schema Type    | Field Name                         | Name                                 | Data Type | Render Type |
 | ======== | ============== | ================================== | ==================================== | ========= | =========== |
+| No       | time           | :updated_at                        | updated_at                           | meta_data | meta_data   |
 | Yes      | series tag     | function                           | Function                             | text      | text        |
 | Yes      | series tag     | department                         | Department                           | text      | text        |
 | Yes      | series tag     | program_name                       | Program Name                         | text      | text        |
@@ -48,25 +49,23 @@ Update Frequency:  Annually
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name=ACS t:subfund_name="General Fund" t:department="Correction and Rehabilitation" t:program_name="Pre-Trial Services" t:object_name=Retirement t:fund_subtype="General Fund" t:account_name=RSP t:function="Public Safety" m:amount=4295
+series e:r89j-py2p d:2012-09-11T08:58:47.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name=ACS t:subfund_name="General Fund" t:department="Correction and Rehabilitation" t:program_name="Pre-Trial Services" t:object_name=Retirement t:fund_subtype="General Fund" t:function="Public Safety" t:account_name=RSP m:amount=4295
 
-series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name="5th District S.A.T" t:subfund_name="General Fund" t:department=Police t:program_name="Field Services" t:object_name=Retirement t:fund_subtype="General Fund" t:account_name=ERS t:function="Public Safety" m:amount=193146
+series e:r89j-py2p d:2012-09-11T08:58:47.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name="5th District S.A.T" t:subfund_name="General Fund" t:department=Police t:program_name="Field Services" t:object_name=Retirement t:fund_subtype="General Fund" t:function="Public Safety" t:account_name=ERS m:amount=193146
 
-series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name="C.I.D-Auto Theft" t:subfund_name="General Fund" t:department=Police t:program_name="Investigative Services" t:object_name=Retirement t:fund_subtype="General Fund" t:account_name=ERS t:function="Public Safety" m:amount=229661
+series e:r89j-py2p d:2012-09-11T08:58:47.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name="C.I.D-Auto Theft" t:subfund_name="General Fund" t:department=Police t:program_name="Investigative Services" t:object_name=Retirement t:fund_subtype="General Fund" t:function="Public Safety" t:account_name=ERS m:amount=229661
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:amount p:double l:Amount t:dataTypeName=money
-
 entity e:r89j-py2p l:"Fiscal Year 2013 Budget" t:url=https://data.montgomerycountymd.gov/api/views/r89j-py2p
 
 property e:r89j-py2p t:meta.view v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"

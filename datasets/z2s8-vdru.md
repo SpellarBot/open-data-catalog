@@ -26,6 +26,7 @@ Violations issued by Townships. Data from 2005 through part of 2011. Data last u
 ```ls
 | Included | Schema Type    | Field Name    | Name          | Data Type | Render Type |
 | ======== | ============== | ============= | ============= | ========= | =========== |
+| No       | time           | :updated_at   | updated_at    | meta_data | meta_data   |
 | Yes      | series tag     | fiscal_year   | Fiscal Year   | text      | text        |
 | Yes      | series tag     | township_name | Township Name | text      | text        |
 | Yes      | numeric metric | violation     | Violation     | number    | number      |
@@ -35,18 +36,18 @@ Violations issued by Townships. Data from 2005 through part of 2011. Data last u
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:z2s8-vdru d:2005-01-01T00:00:00.000Z t:fiscal_year=2005 t:township_name=Barrington m:violation=11 m:totals=11
+series e:z2s8-vdru d:2011-09-27T09:11:44.000Z t:fiscal_year=2005 t:township_name=Barrington m:violation=11 m:totals=11
 
-series e:z2s8-vdru d:2005-01-01T00:00:00.000Z t:fiscal_year=2005 t:township_name=Berwyn m:violation=0 m:totals=0
+series e:z2s8-vdru d:2011-09-27T09:11:44.000Z t:fiscal_year=2005 t:township_name=Berwyn m:violation=0 m:totals=0
 
-series e:z2s8-vdru d:2005-01-01T00:00:00.000Z t:fiscal_year=2005 t:township_name=Bloom m:violation=46 m:totals=46
+series e:z2s8-vdru d:2011-09-27T09:11:44.000Z t:fiscal_year=2005 t:township_name=Bloom m:violation=46 m:totals=46
 ```
 
 ## Meta Commands

@@ -43,25 +43,25 @@ U: Unavailable.    -: No reported cases.    N: Not reportable.    NN: Not Nation
 | No       |                | mmwr_year                                                    | MMWR Year                                                          | number    | number      |
 | No       |                | mmwr_week                                                    | MMWR Week                                                          | number    | number      |
 | No       |                | shiga_toxin_producing_e_coli_stec_current_week               | Shiga toxin-producing E. coli (STEC)?, Current week                | number    | number      |
-| No       |                | shiga_toxin_producing_e_coli_stec_current_week_flag          | Shiga toxin-producing E. coli (STEC)?, Current week, flag          | text      | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_current_week_flag          | Shiga toxin-producing E. coli (STEC)?, Current week, flag          | number    | text        |
 | Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med      | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med       | number    | number      |
-| No       |                | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med_flag | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med, flag | text      | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_med_flag | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Med, flag | number    | text        |
 | Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max      | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max       | number    | number      |
-| No       |                | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max_flag | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max, flag | text      | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_previous_52_weeks_max_flag | Shiga toxin-producing E. coli (STEC)?, Previous 52 weeks Max, flag | number    | text        |
 | Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2016                   | Shiga toxin-producing E. coli (STEC)?, Cum 2016                    | number    | number      |
-| No       |                | shiga_toxin_producing_e_coli_stec_cum_2016_flag              | Shiga toxin-producing E. coli (STEC)?, Cum 2016, flag              | text      | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2016_flag              | Shiga toxin-producing E. coli (STEC)?, Cum 2016, flag              | number    | text        |
 | Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2015                   | Shiga toxin-producing E. coli (STEC)?, Cum 2015                    | number    | number      |
-| No       |                | shiga_toxin_producing_e_coli_stec_cum_2015_flag              | Shiga toxin-producing E. coli (STEC)?, Cum 2015, flag              | text      | text        |
+| Yes      | numeric metric | shiga_toxin_producing_e_coli_stec_cum_2015_flag              | Shiga toxin-producing E. coli (STEC)?, Cum 2015, flag              | number    | text        |
 | No       |                | shigellosis_current_week                                     | Shigellosis, Current week                                          | number    | number      |
-| No       |                | shigellosis_current_week_flag                                | Shigellosis, Current week, flag                                    | text      | text        |
+| Yes      | numeric metric | shigellosis_current_week_flag                                | Shigellosis, Current week, flag                                    | number    | text        |
 | Yes      | numeric metric | shigellosis_previous_52_weeks_med                            | Shigellosis, Previous 52 weeks Med                                 | number    | number      |
-| No       |                | shigellosis_previous_52_weeks_med_flag                       | Shigellosis, Previous 52 weeks Med, flag                           | text      | text        |
+| Yes      | numeric metric | shigellosis_previous_52_weeks_med_flag                       | Shigellosis, Previous 52 weeks Med, flag                           | number    | text        |
 | Yes      | numeric metric | shigellosis_previous_52_weeks_max                            | Shigellosis, Previous 52 weeks Max                                 | number    | number      |
-| No       |                | shigellosis_previous_52_weeks_max_flag                       | Shigellosis, Previous 52 weeks Max, flag                           | text      | text        |
+| Yes      | numeric metric | shigellosis_previous_52_weeks_max_flag                       | Shigellosis, Previous 52 weeks Max, flag                           | number    | text        |
 | Yes      | numeric metric | shigellosis_cum_2016                                         | Shigellosis, Cum 2016                                              | number    | number      |
-| No       |                | shigellosis_cum_2016_flag                                    | Shigellosis, Cum 2016, flag                                        | text      | text        |
+| Yes      | numeric metric | shigellosis_cum_2016_flag                                    | Shigellosis, Cum 2016, flag                                        | number    | text        |
 | Yes      | numeric metric | shigellosis_cum_2015                                         | Shigellosis, Cum 2015                                              | number    | number      |
-| No       |                | shigellosis_cum_2015_flag                                    | Shigellosis, Cum 2015, flag                                        | text      | text        |
+| Yes      | numeric metric | shigellosis_cum_2015_flag                                    | Shigellosis, Cum 2015, flag                                        | number    | text        |
 ```
 
 ## Time Field
@@ -74,7 +74,7 @@ Format & Zone = yyyy+w
 ## Series Fields
 
 ```ls
-Excluded Fields = shiga_toxin_producing_e_coli_stec_current_week,shiga_toxin_producing_e_coli_stec_current_week_flag,shiga_toxin_producing_e_coli_stec_previous_52_weeks_med_flag,shiga_toxin_producing_e_coli_stec_previous_52_weeks_max_flag,shiga_toxin_producing_e_coli_stec_cum_2016_flag,shiga_toxin_producing_e_coli_stec_cum_2015_flag,shigellosis_current_week,shigellosis_current_week_flag,shigellosis_previous_52_weeks_med_flag,shigellosis_previous_52_weeks_max_flag,shigellosis_cum_2016_flag,shigellosis_cum_2015_flag,mmwr_year,mmwr_week
+Excluded Fields = shiga_toxin_producing_e_coli_stec_current_week,shigellosis_current_week,mmwr_year,mmwr_week
 ```
 
 ## Data Commands
@@ -82,7 +82,7 @@ Excluded Fields = shiga_toxin_producing_e_coli_stec_current_week,shiga_toxin_pro
 ```ls
 series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:reporting_area="UNITED STATES" m:shiga_toxin_producing_e_coli_stec_cum_2015=56 m:shiga_toxin_producing_e_coli_stec_cum_2016=16 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=194 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111 m:shigellosis_previous_52_weeks_med=408 m:shigellosis_previous_52_weeks_max=610 m:shigellosis_cum_2015=332 m:shigellosis_cum_2016=166
 
-series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:shiga_toxin_producing_e_coli_stec_cum_2015=3 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=17 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=3 m:shigellosis_previous_52_weeks_med=5 m:shigellosis_previous_52_weeks_max=17 m:shigellosis_cum_2015=2 m:shigellosis_cum_2016=1
+series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:shiga_toxin_producing_e_coli_stec_current_week_flag=- t:shiga_toxin_producing_e_coli_stec_cum_2016_flag=- t:reporting_area="NEW ENGLAND" m:shiga_toxin_producing_e_coli_stec_cum_2015=3 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=17 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=3 m:shigellosis_previous_52_weeks_med=5 m:shigellosis_previous_52_weeks_max=17 m:shigellosis_cum_2015=2 m:shigellosis_cum_2016=1
 
 series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:shiga_toxin_producing_e_coli_stec_cum_2015=4 m:shiga_toxin_producing_e_coli_stec_cum_2016=2 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=23 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=12 m:shigellosis_previous_52_weeks_med=28 m:shigellosis_previous_52_weeks_max=82 m:shigellosis_cum_2015=49 m:shigellosis_cum_2016=12
 ```

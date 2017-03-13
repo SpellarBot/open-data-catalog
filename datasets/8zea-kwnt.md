@@ -27,8 +27,8 @@
 ```ls
 | Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
 | ======== | ============== | ================== | ================== | ========= | =========== |
-| No       |                | year               | YEAR               | number    | number      |
-| No       |                | quarter            | Quarter            | number    | number      |
+| Yes      | time           | year               | YEAR               | number    | number      |
+| Yes      | numeric metric | quarter            | Quarter            | number    | number      |
 | Yes      | series tag     | locationabbr       | LocationAbbr       | text      | text        |
 | Yes      | series tag     | locationdesc       | LocationDesc       | text      | text        |
 | Yes      | series tag     | topicdesc          | TopicDesc          | text      | text        |
@@ -54,30 +54,32 @@
 ## Time Field
 
 ```ls
-Value = year+quarter
-Format & Zone = yyyy+q
+Value = year
+Format & Zone = yyyy
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = displayorder,year,quarter
+Excluded Fields = displayorder
 ```
 
 ## Data Commands
 
 ```ls
-series e:8zea-kwnt d:1995-10-01T00:00:00.000Z t:locationabbr=AK t:locationdesc=Alaska t:topicid=1045LEG t:provisiondesc="Restriction on Access" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Restrictions t:provisiongroupid=10GRP t:provisionvalue="No Provision" t:provisionid=495 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:8zea-kwnt d:1995-01-01T00:00:00.000Z t:locationabbr=AK t:locationdesc=Alaska t:topicid=1045LEG t:provisiondesc="Restriction on Access" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Restrictions t:provisiongroupid=10GRP t:provisionvalue="No Provision" t:provisionid=495 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0 m:quarter=4
 
-series e:8zea-kwnt d:2006-10-01T00:00:00.000Z t:locationabbr=MT t:locationdesc=Montana t:topicid=1045LEG t:provisiondesc="Maximum Penalty ($)" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Penalties t:provisiongroupid=60GRP t:provisionvalue="No Provision" t:provisionid=506 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Money t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:8zea-kwnt d:2006-01-01T00:00:00.000Z t:locationabbr=MT t:locationdesc=Montana t:topicid=1045LEG t:provisiondesc="Maximum Penalty ($)" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Penalties t:provisiongroupid=60GRP t:provisionvalue="No Provision" t:provisionid=506 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Money t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0 m:quarter=4
 
-series e:8zea-kwnt d:2008-01-01T00:00:00.000Z t:locationabbr=DC t:locationdesc="District of Columbia" t:topicid=1045LEG t:provisiondesc="Minimum Penalty ($)" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Penalties t:provisiongroupid=60GRP t:provisionvalue="No Provision" t:provisionid=505 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Money t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:8zea-kwnt d:2008-01-01T00:00:00.000Z t:locationabbr=DC t:locationdesc="District of Columbia" t:topicid=1045LEG t:provisiondesc="Minimum Penalty ($)" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Penalties t:provisiongroupid=60GRP t:provisionvalue="No Provision" t:provisionid=505 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Money t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0 m:quarter=1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:provisionaltvalue p:double l:ProvisionAltValue d:"Alternate numeric value for non-numeric provision value; used for mapping and graphing" t:dataTypeName=number
+metric m:quarter p:integer l:Quarter d:Quarter t:dataTypeName=number
+
+metric m:provisionaltvalue p:integer l:ProvisionAltValue d:"Alternate numeric value for non-numeric provision value; used for mapping and graphing" t:dataTypeName=number
 
 entity e:8zea-kwnt l:"CDC STATE System E-Cigarette Legislation - Youth Access" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://data.cdc.gov/api/views/8zea-kwnt
 

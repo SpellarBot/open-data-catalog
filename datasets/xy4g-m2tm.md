@@ -26,6 +26,7 @@ Data covers December 2010 through June 2011.
 ```ls
 | Included | Schema Type    | Field Name                      | Name                              | Data Type | Render Type |
 | ======== | ============== | =============================== | ================================= | ========= | =========== |
+| No       | time           | :updated_at                     | updated_at                        | meta_data | meta_data   |
 | Yes      | series tag     | month                           | Month                             | text      | text        |
 | Yes      | numeric metric | training_seminars               | Training Seminars                 | number    | number      |
 | Yes      | numeric metric | employees_trained               | Employees Trained                 | number    | number      |
@@ -40,18 +41,18 @@ Data covers December 2010 through June 2011.
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=DEC m:vendor_compliance_audit=20 m:training_seminars=3 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:inquiries_pre_bid_mtgs_included=24 m:lobbyist_expense_audit=0 m:employees_trained=29 m:new_investigations_opened=6
+series e:xy4g-m2tm d:2011-09-07T09:37:28.000Z t:month=DEC m:vendor_compliance_audit=20 m:training_seminars=3 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:inquiries_pre_bid_mtgs_included=24 m:lobbyist_expense_audit=0 m:employees_trained=29 m:new_investigations_opened=6
 
-series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=JAN m:vendor_compliance_audit=10 m:training_seminars=2 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:inquiries_pre_bid_mtgs_included=22 m:lobbyist_expense_audit=0 m:employees_trained=29 m:new_investigations_opened=1
+series e:xy4g-m2tm d:2011-09-07T09:37:28.000Z t:month=JAN m:vendor_compliance_audit=10 m:training_seminars=2 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:inquiries_pre_bid_mtgs_included=22 m:lobbyist_expense_audit=0 m:employees_trained=29 m:new_investigations_opened=1
 
-series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=FEB m:vendor_compliance_audit=23 m:training_seminars=2 m:advisory_opinions_issued=2 m:political_contributions_audit=0 m:inquiries_pre_bid_mtgs_included=10 m:lobbyist_expense_audit=0 m:employees_trained=26 m:new_investigations_opened=0
+series e:xy4g-m2tm d:2011-09-07T09:37:28.000Z t:month=FEB m:vendor_compliance_audit=23 m:training_seminars=2 m:advisory_opinions_issued=2 m:political_contributions_audit=0 m:inquiries_pre_bid_mtgs_included=10 m:lobbyist_expense_audit=0 m:employees_trained=26 m:new_investigations_opened=0
 ```
 
 ## Meta Commands

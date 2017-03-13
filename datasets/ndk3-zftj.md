@@ -26,7 +26,8 @@ The annual number of new cases of tuberculosis and average annual tuberculosis i
 ```ls
 | Included | Schema Type    | Field Name                              | Name                                             | Data Type | Render Type |
 | ======== | ============== | ======================================= | ================================================ | ========= | =========== |
-| Yes      | series tag     | community_area                          | Community Area                                   | text      | number      |
+| No       | time           | :updated_at                             | updated_at                                       | meta_data | meta_data   |
+| Yes      | numeric metric | community_area                          | Community Area                                   | number    | number      |
 | Yes      | series tag     | community_area_name                     | Community Area Name                              | text      | text        |
 | Yes      | numeric metric | cases_2006                              | Cases 2007                                       | number    | number      |
 | Yes      | numeric metric | cases_2007                              | Cases 2008                                       | number    | number      |
@@ -43,23 +44,25 @@ The annual number of new cases of tuberculosis and average annual tuberculosis i
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area_name="Rogers Park" t:community_area=1 m:incidence_rate_upper_ci=16.1 m:cases_2006=8 m:cases_2006_2010=32 m:cases_2007=7 m:cases_2008=4 m:cases_2009=6 m:incidence_rate_lower_ci=7.8 m:cases_2010=7 m:average_annual_incidence_rate_2006_2010=11.4
+series e:ndk3-zftj d:2012-10-05T13:15:40.000Z t:community_area_name="Rogers Park" m:incidence_rate_upper_ci=16.1 m:cases_2006_2010=32 m:cases_2006=8 m:cases_2007=7 m:cases_2008=4 m:cases_2009=6 m:incidence_rate_lower_ci=7.8 m:community_area=1 m:cases_2010=7 m:average_annual_incidence_rate_2006_2010=11.4
 
-series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area_name="West Ridge" t:community_area=2 m:incidence_rate_upper_ci=12.5 m:cases_2006=8 m:cases_2006_2010=32 m:cases_2007=7 m:cases_2008=5 m:cases_2009=3 m:incidence_rate_lower_ci=6.1 m:cases_2010=9 m:average_annual_incidence_rate_2006_2010=8.9
+series e:ndk3-zftj d:2012-10-05T13:15:40.000Z t:community_area_name="West Ridge" m:incidence_rate_upper_ci=12.5 m:cases_2006_2010=32 m:cases_2006=8 m:cases_2007=7 m:cases_2008=5 m:cases_2009=3 m:incidence_rate_lower_ci=6.1 m:community_area=2 m:cases_2010=9 m:average_annual_incidence_rate_2006_2010=8.9
 
-series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area_name=Uptown t:community_area=3 m:incidence_rate_upper_ci=18.6 m:cases_2006=6 m:cases_2006_2010=39 m:cases_2007=8 m:cases_2008=13 m:cases_2009=2 m:incidence_rate_lower_ci=9.7 m:cases_2010=10 m:average_annual_incidence_rate_2006_2010=13.6
+series e:ndk3-zftj d:2012-10-05T13:15:40.000Z t:community_area_name=Uptown m:incidence_rate_upper_ci=18.6 m:cases_2006_2010=39 m:cases_2006=6 m:cases_2007=8 m:cases_2008=13 m:cases_2009=2 m:incidence_rate_lower_ci=9.7 m:community_area=3 m:cases_2010=10 m:average_annual_incidence_rate_2006_2010=13.6
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:community_area l:"Community Area" t:dataTypeName=number
+
 metric m:cases_2006 p:integer l:"Cases 2007" t:dataTypeName=number
 
 metric m:cases_2007 p:integer l:"Cases 2008" t:dataTypeName=number
@@ -72,11 +75,11 @@ metric m:cases_2010 p:integer l:"Cases 2011" t:dataTypeName=number
 
 metric m:cases_2006_2010 p:integer l:"Cases 2007 - 2011" t:dataTypeName=number
 
-metric m:average_annual_incidence_rate_2006_2010 p:float l:"Average Annual Incidence Rate 2007-2011" t:dataTypeName=number
+metric m:average_annual_incidence_rate_2006_2010 l:"Average Annual Incidence Rate 2007-2011" t:dataTypeName=number
 
-metric m:incidence_rate_lower_ci p:float l:"Average Annual Incidence Rate 2007-2011 Lower CI" t:dataTypeName=number
+metric m:incidence_rate_lower_ci l:"Average Annual Incidence Rate 2007-2011 Lower CI" t:dataTypeName=number
 
-metric m:incidence_rate_upper_ci p:float l:"Average Annual Incidence Rate 2007-2011 Upper CI" t:dataTypeName=number
+metric m:incidence_rate_upper_ci l:"Average Annual Incidence Rate 2007-2011 Upper CI" t:dataTypeName=number
 
 entity e:ndk3-zftj l:"Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" t:attribution="Public Health" t:url=https://data.cityofchicago.org/api/views/ndk3-zftj
 

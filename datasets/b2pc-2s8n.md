@@ -75,44 +75,22 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = date_due,period_from,period_to,election_date
+Excluded Fields = election_date,date_due,period_from,period_to
 ```
 
 ## Data Commands
 
 ```ls
-series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z t:filer_city="Austin, TX, 78729" t:filer_name="Flannigan, James T. ""Jimmy""" t:link_to_report="http://www.austintexas.gov/edims/document.cfm?id=258182" t:treasurer_name="Landuyt, Noel" t:office_sought="District 6" t:election_type=General t:report_type="July 15 Seminannual Report" t:treasurer_phone=5127738437 t:treasurer_city="Austin, TX, 78717" t:treasurer_address_2="10100 Lachlan Dr." t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report" t:name_as_reported="James, Flannigan, T., ""Jimmy""" t:filer_address_2="12304 B Cahone Trl" t:report_id=R20160715180436 t:filer_phone=5129178428 m:unitemized_inkind_total=0 m:unitemized_unpaid_total=0 m:expend_total=12209.9 m:unitemized_contrib_total=0 m:unitemized_expend_total=0 m:unitemized_pledge_total=0 m:contrib_balance=20487.21 m:unitemized_loan_total=0 m:contrib_total=46951.54 m:outstand_loan=0 m:unitemized_cred_card_total=0
+series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z t:filer_city="Austin, TX, 78729" t:filer_name="Flannigan, James T. ""Jimmy""" t:treasurer_name="Landuyt, Noel" t:office_sought="District 6" t:election_type=General t:report_type="July 15 Seminannual Report" t:treasurer_phone=5127738437 t:treasurer_city="Austin, TX, 78717" t:treasurer_address_2="10100 Lachlan Dr." t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report" t:name_as_reported="James, Flannigan, T., ""Jimmy""" t:filer_address_2="12304 B Cahone Trl" t:report_id=R20160715180436 t:filer_phone=5129178428 m:unitemized_inkind_total=0 m:unitemized_unpaid_total=0 m:expend_total=12209.9 m:unitemized_contrib_total=0 m:unitemized_expend_total=0 m:unitemized_pledge_total=0 m:contrib_balance=20487.21 m:unitemized_loan_total=0 m:contrib_total=46951.54 m:outstand_loan=0 m:unitemized_cred_card_total=0
 
-series e:b2pc-2s8n d:2016-07-14T00:00:00.000Z t:filer_city="Austin, TX, 78755" t:filer_name="Gallo, Sheri P." t:link_to_report="http://www.austintexas.gov/edims/document.cfm?id=258109" t:treasurer_name="Little, Lew, Jr." t:office_sought="District 10" t:election_type=General t:report_type="July 15 Seminannual Report" t:treasurer_phone=512-480-9702 t:treasurer_city="Austin, TX, 78746" t:treasurer_address_2="2806 Stratford Drive" t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report" t:name_as_reported="Gallo, Sheri" t:filer_address_2="PO Box 26550" t:report_id=R20160715181229 t:filer_phone=512-978-2110 t:office_held="District 10" m:unitemized_inkind_total=0 m:unitemized_unpaid_total=0 m:expend_total=0 m:unitemized_contrib_total=0 m:unitemized_expend_total=0 m:unitemized_pledge_total=0 m:contrib_balance=0 m:unitemized_loan_total=0 m:contrib_total=0 m:outstand_loan=0 m:unitemized_cred_card_total=0
+series e:b2pc-2s8n d:2016-07-14T00:00:00.000Z t:filer_city="Austin, TX, 78755" t:filer_name="Gallo, Sheri P." t:treasurer_name="Little, Lew, Jr." t:office_sought="District 10" t:election_type=General t:report_type="July 15 Seminannual Report" t:treasurer_phone=512-480-9702 t:treasurer_city="Austin, TX, 78746" t:treasurer_address_2="2806 Stratford Drive" t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report" t:name_as_reported="Gallo, Sheri" t:filer_address_2="PO Box 26550" t:report_id=R20160715181229 t:filer_phone=512-978-2110 t:office_held="District 10" m:unitemized_inkind_total=0 m:unitemized_unpaid_total=0 m:expend_total=0 m:unitemized_contrib_total=0 m:unitemized_expend_total=0 m:unitemized_pledge_total=0 m:contrib_balance=0 m:unitemized_loan_total=0 m:contrib_total=0 m:outstand_loan=0 m:unitemized_cred_card_total=0
 
-series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z t:filer_city="Austin, TX, 78756" t:filer_name="Gauldin, Natalie B." t:link_to_report="http://www.austintexas.gov/edims/document.cfm?id=258191" t:treasurer_name="Baxter, Audrey" t:office_sought="District 7" t:election_type=General t:report_type="July 15 Seminannual Report" t:treasurer_phone=5124180239 t:treasurer_city="Austin, TX, 78731" t:treasurer_address_2="7304 Valburn Dr." t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report" t:name_as_reported="Gauldin, Natalie" t:filer_address_2="5015 Shoal Creek Blvd" t:report_id=R20160715173219 t:filer_phone=5126562759 m:unitemized_inkind_total=0 m:unitemized_unpaid_total=0 m:expend_total=1748.11 m:unitemized_contrib_total=0 m:unitemized_expend_total=0 m:unitemized_pledge_total=0 m:contrib_balance=18711.89 m:unitemized_loan_total=0 m:contrib_total=20460 m:outstand_loan=0 m:unitemized_cred_card_total=0
+series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z t:filer_city="Austin, TX, 78756" t:filer_name="Gauldin, Natalie B." t:treasurer_name="Baxter, Audrey" t:office_sought="District 7" t:election_type=General t:report_type="July 15 Seminannual Report" t:treasurer_phone=5124180239 t:treasurer_city="Austin, TX, 78731" t:treasurer_address_2="7304 Valburn Dr." t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report" t:name_as_reported="Gauldin, Natalie" t:filer_address_2="5015 Shoal Creek Blvd" t:report_id=R20160715173219 t:filer_phone=5126562759 m:unitemized_inkind_total=0 m:unitemized_unpaid_total=0 m:expend_total=1748.11 m:unitemized_contrib_total=0 m:unitemized_expend_total=0 m:unitemized_pledge_total=0 m:contrib_balance=18711.89 m:unitemized_loan_total=0 m:contrib_total=20460 m:outstand_loan=0 m:unitemized_cred_card_total=0
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:unitemized_contrib_total p:double l:Unitemized_Contrib_Total d:"The total of all unitemized contributions received by the filer during the reporting period" t:dataTypeName=money
-
-metric m:contrib_total p:double l:Contrib_Total d:"The total of all contributions received by the filer during the reporting period (itemized and unitemized)" t:dataTypeName=money
-
-metric m:unitemized_expend_total p:double l:Unitemized_Expend_Total d:"The total of all unitemized expenditures made by the filer during the reporting period" t:dataTypeName=money
-
-metric m:expend_total p:double l:Expend_Total d:"The total of all expenditures made by the filer during the reporting period (itemized and unitemized)" t:dataTypeName=money
-
-metric m:contrib_balance p:double l:Contrib_Balance d:"The total of all political contributions, including interest and additional income, as of the last day of the reporting period" t:dataTypeName=money
-
-metric m:outstand_loan p:double l:Outstand_Loan d:"Outstanding principal of all loans maintained as of the last day of the reporting period" t:dataTypeName=money
-
-metric m:unitemized_inkind_total p:double l:Unitemized_InKind_Total d:"The total of all unitemized in-kind contributions received by the filer during the reporting period" t:dataTypeName=money
-
-metric m:unitemized_pledge_total p:integer l:Unitemized_Pledge_Total d:"The total of all unitemized pledges received by the filer during the reporting period" t:dataTypeName=money
-
-metric m:unitemized_loan_total p:integer l:Unitemized_Loan_Total d:"The total of all unitemized loans maintained by the filer during the reporting period" t:dataTypeName=money
-
-metric m:unitemized_unpaid_total p:double l:Unitemized_Unpaid_Total d:"The total of all unitemized unpaid obligations incurred by the filer during the reporting period" t:dataTypeName=money
-
-metric m:unitemized_cred_card_total p:integer l:Unitemized_Cred_Card_Total d:"The total of all unitemized credit card expenditures made by the filer during the reporting period" t:dataTypeName=money
-
 entity e:b2pc-2s8n l:"Campaign Finance Data - Report Detail Dataset" t:url=https://data.austintexas.gov/api/views/b2pc-2s8n
 
 property e:b2pc-2s8n t:meta.view v:id=b2pc-2s8n v:category=Government v:averageRating=0 v:name="Campaign Finance Data - Report Detail Dataset"

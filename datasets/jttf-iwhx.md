@@ -60,9 +60,9 @@ series e:jttf-iwhx d:2017-12-30T00:00:00.000Z t:duration=2005-2017 t:location="W
 ## Meta Commands
 
 ```ls
-metric m:capacity_mw p:float l:"Capacity (MW)" t:dataTypeName=number
+metric m:capacity_mw l:"Capacity (MW)" t:dataTypeName=number
 
-metric m:term_years p:double l:"Term (years)" t:dataTypeName=number
+metric m:term_years l:"Term (years)" t:dataTypeName=number
 
 entity e:jttf-iwhx l:"Purchase Power Agreements" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/jttf-iwhx
 

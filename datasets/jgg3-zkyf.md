@@ -54,8 +54,6 @@ series e:jgg3-zkyf d:2013-03-12T16:47:07.000Z t:ethnicity=Asian/PI m:upper_ci=10
 ## Meta Commands
 
 ```ls
-metric m:percent p:integer l:Percent t:dataTypeName=percent
-
 metric m:lower_ci p:integer l:"Lower Confidence Interval" t:dataTypeName=number
 
 metric m:upper_ci p:integer l:"Upper Confidence Interval" t:dataTypeName=number

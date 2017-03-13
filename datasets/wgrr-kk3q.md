@@ -37,7 +37,7 @@ This dataset provides summary tallies by day for the different types of incident
 | Yes      | numeric metric | ld_suspiciousincident      | LD_SuspiciousIncident      | number        | number        |
 | Yes      | numeric metric | ld_lostfound               | LD_LostFound               | number        | number        |
 | Yes      | numeric metric | ld_alcoholdrug             | LD_AlcoholDrug             | number        | number        |
-| Yes      | numeric metric | ld_injuryfirstaid          | LD_InjuryFirstAid          | number        | number        |
+| Yes      | series tag     | ld_injuryfirstaid          | LD_InjuryFirstAid          | text          | number        |
 | Yes      | numeric metric | ld_skateboardroller        | LD_SkateboardRoller        | number        | number        |
 | Yes      | numeric metric | ld_keycorerequest          | LD_KeyCoreRequest          | number        | number        |
 | Yes      | numeric metric | ld_parkingcit              | LD_ParkingCit              | number        | number        |
@@ -73,11 +73,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=0 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
+series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z t:ld_injuryfirstaid=0 m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=0 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
 
-series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=6 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
+series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z t:ld_injuryfirstaid=0 m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=6 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
 
-series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=0 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
+series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z t:ld_injuryfirstaid=0 m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=0 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
 ```
 
 ## Meta Commands
@@ -100,8 +100,6 @@ metric m:ld_suspiciousincident p:integer l:LD_SuspiciousIncident t:dataTypeName=
 metric m:ld_lostfound p:integer l:LD_LostFound t:dataTypeName=number
 
 metric m:ld_alcoholdrug p:integer l:LD_AlcoholDrug t:dataTypeName=number
-
-metric m:ld_injuryfirstaid p:integer l:LD_InjuryFirstAid t:dataTypeName=number
 
 metric m:ld_skateboardroller p:integer l:LD_SkateboardRoller t:dataTypeName=number
 

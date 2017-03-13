@@ -128,11 +128,7 @@ metric m:totalpopulation p:integer l:TotalPopulation t:dataTypeName=number
 
 metric m:malepopulation p:integer l:MalePopulation t:dataTypeName=number
 
-metric m:malepopulationper p:integer l:MalePopulationPer t:dataTypeName=percent
-
 metric m:femalepopulation p:integer l:FemalePopulation t:dataTypeName=number
-
-metric m:femalepopulationper p:integer l:FemalePopulationPer t:dataTypeName=percent
 
 metric m:medianageyears p:integer l:MedianAgeYears t:dataTypeName=number
 
@@ -140,63 +136,31 @@ metric m:totalhouseholds p:integer l:TotalHouseholds t:dataTypeName=number
 
 metric m:femalehouseholder p:integer l:FemaleHouseholder t:dataTypeName=number
 
-metric m:femalehouseholderper p:integer l:FemaleHouseholderPer t:dataTypeName=percent
-
 metric m:occupiedhousingunits p:integer l:OccupiedHousingUnits t:dataTypeName=number
-
-metric m:occupiedhousingunitsper p:integer l:OccupiedHousingUnitsPer t:dataTypeName=percent
 
 metric m:vacanthousingunits p:integer l:VacantHousingUnits t:dataTypeName=number
 
-metric m:vacanthousingunitsper p:integer l:VacantHousingUnitsPer t:dataTypeName=percent
-
 metric m:owneroccupiedunits p:integer l:OwnerOccupiedUnits t:dataTypeName=number
-
-metric m:owneroccupiedunitsper p:integer l:OwnerOccupiedUnitsPer t:dataTypeName=percent
 
 metric m:renteroccupiedunits p:integer l:RenterOccupiedUnits t:dataTypeName=number
 
-metric m:renteroccupiedunitsper p:integer l:RenterOccupiedUnitsPer t:dataTypeName=percent
-
-metric m:homeownervacancyrateper p:double l:HomeownerVacancyRatePer t:dataTypeName=percent
-
-metric m:rentervacancyrateper p:integer l:RenterVacancyRatePer t:dataTypeName=percent
-
 metric m:hispaniclatinopopulation p:integer l:HispanicLatinoPopulation t:dataTypeName=number
-
-metric m:hispaniclatinopopulationper p:integer l:HispanicLatinoPopulationPer t:dataTypeName=percent
 
 metric m:nothispanicorlatino p:integer l:NotHispanicorLatino t:dataTypeName=number
 
-metric m:nothispanicorlatinoper p:integer l:NotHispanicorLatinoPer t:dataTypeName=percent
-
 metric m:whitealone p:integer l:Whitealone t:dataTypeName=number
-
-metric m:whitealoneper p:integer l:WhitealonePer t:dataTypeName=percent
 
 metric m:blackorafricanamerican p:integer l:BlackorAfricanAmerican t:dataTypeName=number
 
-metric m:blackorafricanamericanper p:integer l:BlackorAfricanAmericanPer t:dataTypeName=percent
-
 metric m:puertorican p:integer l:PuertoRican t:dataTypeName=number
-
-metric m:puertoricanper p:double l:PuertoRicanPer t:dataTypeName=percent
 
 metric m:mexican p:integer l:Mexican t:dataTypeName=number
 
-metric m:mexicanper p:double l:MexicanPer t:dataTypeName=percent
-
 metric m:otherhispanicorlatino p:integer l:OtherHispanicorLatino t:dataTypeName=number
-
-metric m:otherhispanicorlatinoper p:integer l:OtherHispanicorLatinoPer t:dataTypeName=percent
 
 metric m:other p:integer l:Other t:dataTypeName=number
 
-metric m:otherper p:integer l:OtherPer t:dataTypeName=percent
-
 metric m:nothispanicorlatinoother p:integer l:NotHispanicorLatinoOther t:dataTypeName=number
-
-metric m:nothispanicorlatinootherper p:integer l:NotHispanicorLatinoOtherPer t:dataTypeName=percent
 
 metric m:population18_24 p:integer l:Population18_24 t:dataTypeName=number
 
@@ -224,41 +188,15 @@ metric m:bachelorsdegreeper25plus p:integer l:BachelorsDegreePer25Plus t:dataTyp
 
 metric m:graduateorprofessionaldegreeper25plus p:integer l:GraduateorProfessionalDegreePer25Plus t:dataTypeName=number
 
-metric m:highschoolgraduateorhigherper25plus p:double l:HighSchoolGraduateorHigherPer25Plus t:dataTypeName=number
+metric m:highschoolgraduateorhigherper25plus l:HighSchoolGraduateorHigherPer25Plus t:dataTypeName=number
 
 metric m:precentbachelorsdegreeorhigherper25plus p:integer l:PrecentBachelorsDegreeorHigherPer25Plus t:dataTypeName=number
 
-metric m:population16yearsandoverinlaborforceper p:integer l:Population16yearsandoverinLaborForcePer t:dataTypeName=percent
-
-metric m:employedper p:integer l:EmployedPer t:dataTypeName=percent
-
-metric m:unemployedper p:integer l:UnemployedPer t:dataTypeName=percent
-
-metric m:privatewageandsalaryworkersper p:integer l:PrivatewageandsalaryworkersPer t:dataTypeName=percent
-
-metric m:governmentworkersper p:integer l:GovernmentworkersPer t:dataTypeName=percent
-
 metric m:selfemployedworkersinownnotincorporatedbusiness p:integer l:Selfemployedworkersinownnotincorporatedbusiness t:dataTypeName=number
-
-metric m:medianhouseholdincome p:integer l:MedianHouseholdIncome t:dataTypeName=money
 
 metric m:percapitaincome p:integer l:Percapitaincome t:dataTypeName=number
 
-metric m:householdswithearningsper p:integer l:HouseholdswithearningsPer t:dataTypeName=percent
-
-metric m:householdswithsocialsecurityincomeper p:integer l:HouseholdswithsocialsecurityincomePer t:dataTypeName=percent
-
 metric m:withfoodstampsnapbenefitsinpast12monthsperofhouseholds p:integer l:WithFoodStampSNAPbenefitsinpast12monthsPerofhouseholds t:dataTypeName=number
-
-metric m:householdswithpublicassistanceincomeper p:integer l:HouseholdswithpublicassistanceincomePer t:dataTypeName=percent
-
-metric m:familieswhoseincomeinpast12monthsisbelowpovertylineper p:integer l:FamilieswhoseIncomeinpast12monthsisbelowpovertylinePer t:dataTypeName=percent
-
-metric m:femaleheadedfamilieswhoseincomeinpast12monthsisbelowpovertylineper p:integer l:FemaleHeadedFamilieswhoseIncomeinpast12monthsisbelowpovertylinePer t:dataTypeName=percent
-
-metric m:allpeoplewhoseincomeinpast12monthsisbelowpovertylineper p:integer l:AllpeoplewhoseIncomeinpast12monthsisbelowpovertylinePer t:dataTypeName=percent
-
-metric m:peopleunder18belowthepovertylevelper p:integer l:Peopleunder18belowthepovertylevelPer t:dataTypeName=percent
 
 entity e:99t6-wshd l:"Behind the Rocks Southwest NRZ Census Data" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/99t6-wshd
 

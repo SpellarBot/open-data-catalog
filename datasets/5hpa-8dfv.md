@@ -70,7 +70,7 @@ series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="Mililani Ravine Path
 ```ls
 metric m:objectid_1 p:integer l:OBJECTID_1 t:dataTypeName=number
 
-metric m:length_mi p:double l:Length_Mi t:dataTypeName=number
+metric m:length_mi l:Length_Mi t:dataTypeName=number
 
 entity e:5hpa-8dfv l:"Existing Bike Facilities" t:url=https://data.honolulu.gov/api/views/5hpa-8dfv
 

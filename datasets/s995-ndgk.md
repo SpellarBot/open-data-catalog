@@ -45,7 +45,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = year,month
+Excluded Fields = month,year
 ```
 
 ## Data Commands
@@ -61,7 +61,7 @@ series e:s995-ndgk d:2012-02-01T00:00:00.000Z t:rowid="Percent of the pop. that 
 ## Meta Commands
 
 ```ls
-metric m:indicatorvalue p:float l:IndicatorValue t:dataTypeName=number
+metric m:indicatorvalue l:IndicatorValue t:dataTypeName=number
 
 entity e:s995-ndgk l:"Calculated Library Indicators For Results NOLA" t:attribution="New Orleans Public Library" t:url=https://data.nola.gov/api/views/s995-ndgk
 

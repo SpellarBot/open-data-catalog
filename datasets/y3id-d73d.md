@@ -56,8 +56,6 @@ series e:y3id-d73d d:2014-12-23T08:26:44.000Z t:vendor_name="Access Systems" t:i
 ```ls
 metric m:bfy p:integer l:BFY d:"Fiscal year payment was assigned to. As the State of Iowa operates on modified cash basis of budgeting, the fiscal year includes a hold-over period for payments made after year end for good and services received on or before June 30." t:dataTypeName=number
 
-metric m:amount p:double l:Amount d:"Aggregated total payments received by vendor in the fiscal year" t:dataTypeName=money
-
 entity e:y3id-d73d l:"Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" t:attribution="Iowa Board of Regents" t:url=https://data.iowa.gov/api/views/y3id-d73d
 
 property e:y3id-d73d t:meta.view v:id=y3id-d73d v:category=Education v:averageRating=0 v:name="Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" v:attribution="Iowa Board of Regents"

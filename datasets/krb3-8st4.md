@@ -27,6 +27,7 @@ Small Area Estimate Program (SAEP) April 1 population estimates for school distr
 ```ls
 | Included | Schema Type    | Field Name                                | Name                                      | Data Type | Render Type |
 | ======== | ============== | ========================================= | ========================================= | ========= | =========== |
+| No       | time           | :updated_at                               | updated_at                                | meta_data | meta_data   |
 | Yes      | series tag     | unified_school_district_name              | Unified School District Name              | text      | text        |
 | Yes      | series tag     | unified_school_district_code              | Unified School District Code              | text      | text        |
 | Yes      | series tag     | washington_school_district_code           | Washington School District Code           | text      | text        |
@@ -58,18 +59,18 @@ Small Area Estimate Program (SAEP) April 1 population estimates for school distr
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:krb3-8st4 d:2000-01-01T00:00:00.000Z t:saep_version="September 21, 2016" t:educational_service_district_code=113 t:unified_school_district_name="Aberdeen School District" t:percent_change_in_population_2000_to_2010=1.57% t:washington_school_district_code=14005 t:unified_school_district_code=30 m:numeric_change_in_population_2000_to_2010=314 m:numeric_change_in_population_2010_to_2015=-196 m:estimated_total_population_2007=20537 m:estimated_total_population_2006=20537 m:estimated_total_population_2009=20430 m:estimated_total_population_2008=20480 m:estimated_total_population_2016=20172 m:estimated_total_population_2015=20229 m:estimated_total_population_2001=20368 m:estimated_total_population_2014=20317 m:estimated_total_population_2000=20054 m:estimated_total_population_2013=20323 m:estimated_total_population_2012=20364 m:estimated_total_population_2003=20315 m:estimated_total_population_2011=20341 m:estimated_total_population_2002=20386 m:estimated_total_population_2010=20368 m:estimated_total_population_2005=20447 m:estimated_total_population_2004=20364
+series e:krb3-8st4 d:2016-09-24T00:14:08.000Z t:saep_version="September 21, 2016" t:educational_service_district_code=113 t:unified_school_district_name="Aberdeen School District" t:percent_change_in_population_2000_to_2010=1.57% t:washington_school_district_code=14005 t:unified_school_district_code=30 m:numeric_change_in_population_2000_to_2010=314 m:numeric_change_in_population_2010_to_2015=-196 m:estimated_total_population_2007=20537 m:estimated_total_population_2006=20537 m:estimated_total_population_2009=20430 m:estimated_total_population_2008=20480 m:estimated_total_population_2016=20172 m:estimated_total_population_2015=20229 m:estimated_total_population_2001=20368 m:estimated_total_population_2014=20317 m:estimated_total_population_2000=20054 m:estimated_total_population_2013=20323 m:estimated_total_population_2012=20364 m:estimated_total_population_2003=20315 m:estimated_total_population_2011=20341 m:estimated_total_population_2002=20386 m:estimated_total_population_2010=20368 m:estimated_total_population_2005=20447 m:estimated_total_population_2004=20364
 
-series e:krb3-8st4 d:2000-01-01T00:00:00.000Z t:saep_version="September 21, 2016" t:educational_service_district_code=113 t:unified_school_district_name="Adna School District" t:percent_change_in_population_2000_to_2010=30.37% t:washington_school_district_code=21226 t:unified_school_district_code=60 m:numeric_change_in_population_2000_to_2010=870 m:numeric_change_in_population_2010_to_2015=118 m:estimated_total_population_2007=3505 m:estimated_total_population_2006=3403 m:estimated_total_population_2009=3675 m:estimated_total_population_2008=3598 m:estimated_total_population_2016=3854 m:percent_change_in_population_2010_to_2015=3.15 m:estimated_total_population_2015=3838 m:estimated_total_population_2001=2956 m:estimated_total_population_2014=3805 m:estimated_total_population_2013=3795 m:estimated_total_population_2000=2866 m:estimated_total_population_2012=3799 m:estimated_total_population_2003=3115 m:estimated_total_population_2011=3791 m:estimated_total_population_2002=3045 m:estimated_total_population_2010=3736 m:estimated_total_population_2005=3289 m:estimated_total_population_2004=3201
+series e:krb3-8st4 d:2016-09-24T00:14:08.000Z t:saep_version="September 21, 2016" t:educational_service_district_code=113 t:unified_school_district_name="Adna School District" t:percent_change_in_population_2000_to_2010=30.37% t:washington_school_district_code=21226 t:unified_school_district_code=60 m:numeric_change_in_population_2000_to_2010=870 m:numeric_change_in_population_2010_to_2015=118 m:estimated_total_population_2007=3505 m:estimated_total_population_2006=3403 m:estimated_total_population_2009=3675 m:estimated_total_population_2008=3598 m:estimated_total_population_2016=3854 m:percent_change_in_population_2010_to_2015=3.15 m:estimated_total_population_2015=3838 m:estimated_total_population_2001=2956 m:estimated_total_population_2014=3805 m:estimated_total_population_2013=3795 m:estimated_total_population_2000=2866 m:estimated_total_population_2012=3799 m:estimated_total_population_2003=3115 m:estimated_total_population_2011=3791 m:estimated_total_population_2002=3045 m:estimated_total_population_2010=3736 m:estimated_total_population_2005=3289 m:estimated_total_population_2004=3201
 
-series e:krb3-8st4 d:2000-01-01T00:00:00.000Z t:saep_version="September 21, 2016" t:educational_service_district_code=101 t:unified_school_district_name="Almira School District" t:percent_change_in_population_2000_to_2010="(  4.760%)" t:washington_school_district_code=22017 t:unified_school_district_code=90 m:numeric_change_in_population_2000_to_2010=-24 m:numeric_change_in_population_2010_to_2015=-12 m:estimated_total_population_2007=500 m:estimated_total_population_2006=499 m:estimated_total_population_2009=495 m:estimated_total_population_2008=500 m:estimated_total_population_2016=477 m:estimated_total_population_2015=484 m:estimated_total_population_2001=515 m:estimated_total_population_2014=485 m:estimated_total_population_2000=513 m:estimated_total_population_2013=490 m:estimated_total_population_2012=490 m:estimated_total_population_2003=499 m:estimated_total_population_2011=490 m:estimated_total_population_2002=509 m:estimated_total_population_2010=489 m:estimated_total_population_2005=500 m:estimated_total_population_2004=502
+series e:krb3-8st4 d:2016-09-24T00:14:08.000Z t:saep_version="September 21, 2016" t:educational_service_district_code=101 t:unified_school_district_name="Almira School District" t:percent_change_in_population_2000_to_2010="(  4.760%)" t:washington_school_district_code=22017 t:unified_school_district_code=90 m:numeric_change_in_population_2000_to_2010=-24 m:numeric_change_in_population_2010_to_2015=-12 m:estimated_total_population_2007=500 m:estimated_total_population_2006=499 m:estimated_total_population_2009=495 m:estimated_total_population_2008=500 m:estimated_total_population_2016=477 m:estimated_total_population_2015=484 m:estimated_total_population_2001=515 m:estimated_total_population_2014=485 m:estimated_total_population_2000=513 m:estimated_total_population_2013=490 m:estimated_total_population_2012=490 m:estimated_total_population_2003=499 m:estimated_total_population_2011=490 m:estimated_total_population_2002=509 m:estimated_total_population_2010=489 m:estimated_total_population_2005=500 m:estimated_total_population_2004=502
 ```
 
 ## Meta Commands
@@ -109,11 +110,9 @@ metric m:estimated_total_population_2015 p:integer l:"Estimated Total Population
 
 metric m:estimated_total_population_2016 p:integer l:"Estimated Total Population 2016" t:dataTypeName=number
 
-metric m:numeric_change_in_population_2000_to_2010 p:integer l:"Numeric Change in Population 2000 to 2010" t:dataTypeName=number
+metric m:numeric_change_in_population_2000_to_2010 l:"Numeric Change in Population 2000 to 2010" t:dataTypeName=number
 
-metric m:numeric_change_in_population_2010_to_2015 p:integer l:"Numeric Change in Population 2010 to 2016" t:dataTypeName=number
-
-metric m:percent_change_in_population_2010_to_2015 p:float l:"Percent Change in Population 2010 to 2016" t:dataTypeName=percent
+metric m:numeric_change_in_population_2010_to_2015 l:"Numeric Change in Population 2010 to 2016" t:dataTypeName=number
 
 entity e:krb3-8st4 l:"WAOFM - SAEP - School District Population Estimates, 2000-2016" t:attribution="Washington State Office of Financial Management, Forecasting and Research Divisio" t:url=https://data.wa.gov/api/views/krb3-8st4
 

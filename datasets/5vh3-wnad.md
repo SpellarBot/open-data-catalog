@@ -27,21 +27,21 @@ Last Updated: February 2017
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name                | Name                      | Data Type     | Render Type   |
-| ======== | =========== | ========================= | ========================= | ============= | ============= |
-| Yes      | series tag  | contractor_name           | CONTRACTOR NAME           | text          | text          |
-| No       |             | address                   | ADDRESS                   | text          | text          |
-| Yes      | series tag  | city                      | CITY                      | text          | text          |
-| Yes      | series tag  | state                     | STATE                     | text          | text          |
-| Yes      | series tag  | zip_code                  | ZIP CODE                  | text          | text          |
-| Yes      | series tag  | county                    | COUNTY                    | text          | text          |
-| Yes      | series tag  | contact_person            | CONTACT PERSON            | text          | text          |
-| Yes      | series tag  | residential_removal       | RESIDENTIAL REMOVAL       | text          | text          |
-| Yes      | series tag  | insurance_expiration_date | INSURANCE EXPIRATION DATE | text          | text          |
-| Yes      | series tag  | phone                     | PHONE                     | text          | number        |
-| Yes      | series tag  | fax                       | FAX                       | text          | number        |
-| Yes      | series tag  | email                     | EMAIL                     | email         | email         |
-| Yes      | time        | license_expiration_date   | License Expiration Date   | calendar_date | calendar_date |
+| Included | Schema Type    | Field Name                | Name                      | Data Type     | Render Type   |
+| ======== | ============== | ========================= | ========================= | ============= | ============= |
+| Yes      | series tag     | contractor_name           | CONTRACTOR NAME           | text          | text          |
+| No       |                | address                   | ADDRESS                   | text          | text          |
+| Yes      | series tag     | city                      | CITY                      | text          | text          |
+| Yes      | series tag     | state                     | STATE                     | text          | text          |
+| Yes      | series tag     | zip_code                  | ZIP CODE                  | text          | text          |
+| Yes      | series tag     | county                    | COUNTY                    | text          | text          |
+| Yes      | series tag     | contact_person            | CONTACT PERSON            | text          | text          |
+| Yes      | series tag     | residential_removal       | RESIDENTIAL REMOVAL       | text          | text          |
+| Yes      | series tag     | insurance_expiration_date | INSURANCE EXPIRATION DATE | text          | text          |
+| Yes      | numeric metric | phone                     | PHONE                     | number        | number        |
+| Yes      | numeric metric | fax                       | FAX                       | number        | number        |
+| Yes      | series tag     | email                     | EMAIL                     | email         | email         |
+| Yes      | time           | license_expiration_date   | License Expiration Date   | calendar_date | calendar_date |
 ```
 
 ## Time Field
@@ -65,6 +65,10 @@ Excluded Fields = address
 ## Meta Commands
 
 ```ls
+metric m:phone p:long l:PHONE t:dataTypeName=number
+
+metric m:fax p:long l:FAX t:dataTypeName=number
+
 entity e:5vh3-wnad l:"IDPH ASBESTOS LICENSED CONTRACTORS" t:attribution="Illinois Department of Public Health, Division of Environmental Health" t:url=https://data.illinois.gov/api/views/5vh3-wnad
 
 property e:5vh3-wnad t:meta.view v:id=5vh3-wnad v:category="Public Health" v:attributionLink=http://www.dph.illinois.gov/topics-services/environmental-health-protection/abatement-structures-migrant-labor/asbestos v:averageRating=0 v:name="IDPH ASBESTOS LICENSED CONTRACTORS" v:attribution="Illinois Department of Public Health, Division of Environmental Health"

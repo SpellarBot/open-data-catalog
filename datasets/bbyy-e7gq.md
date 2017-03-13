@@ -16,7 +16,7 @@
 | Tags | bicycling, sustainability, transportation |
 | Created | 2013-07-18T21:57:41Z |
 | Publication Date | 2015-12-21T21:33:36Z |
-| Rows Updated | 2017-03-13T11:00:38Z |
+| Rows Updated | 2017-03-11T12:00:36Z |
 
 ## Description
 
@@ -48,7 +48,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = id,address,latitude,longitude
+Excluded Fields = id,address,longitude,latitude
 ```
 
 ## Data Commands

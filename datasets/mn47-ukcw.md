@@ -21,6 +21,7 @@
 ```ls
 | Included | Schema Type | Field Name        | Name              | Data Type | Render Type |
 | ======== | =========== | ================= | ================= | ========= | =========== |
+| No       | time        | :updated_at       | updated_at        | meta_data | meta_data   |
 | Yes      | series tag  | facility          | Facility          | text      | text        |
 | Yes      | series tag  | asbeston_open     | Asbeston Open     | text      | text        |
 | Yes      | series tag  | asbestos_close    | Asbestos Close    | text      | text        |
@@ -59,8 +60,8 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands

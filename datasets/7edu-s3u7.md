@@ -16,7 +16,7 @@
 | Tags | beaches, parks, chicago park district, open spaces, parks & recreation, recreation, water |
 | Created | 2016-06-07T16:41:13Z |
 | Publication Date | 2015-06-01T22:22:24Z |
-| Rows Updated | 2017-03-13T14:45:09Z |
+| Rows Updated | 2017-03-12T09:45:09Z |
 
 ## Description
 
@@ -35,7 +35,7 @@ The Chicago Park District maintains weather sensors at beaches along Chicago's L
 | Yes      | numeric metric | rain_intensity              | Rain Intensity              | number        | number        |
 | Yes      | numeric metric | interval_rain               | Interval Rain               | number        | number        |
 | Yes      | numeric metric | total_rain                  | Total Rain                  | number        | number        |
-| Yes      | series tag     | precipitation_type          | Precipitation Type          | text          | number        |
+| Yes      | numeric metric | precipitation_type          | Precipitation Type          | number        | number        |
 | Yes      | numeric metric | wind_direction              | Wind Direction              | number        | number        |
 | Yes      | numeric metric | wind_speed                  | Wind Speed                  | number        | number        |
 | Yes      | numeric metric | maximum_wind_speed          | Maximum Wind Speed          | number        | number        |
@@ -57,7 +57,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = measurement_timestamp_label,measurement_id
+Excluded Fields = measurement_id,measurement_timestamp_label
 ```
 
 ## Data Commands
@@ -65,39 +65,41 @@ Excluded Fields = measurement_timestamp_label,measurement_id
 ```ls
 series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="Foster Weather Station" m:barometric_pressure=1000 m:humidity=62 m:wind_direction=197 m:interval_rain=0 m:maximum_wind_speed=5 m:solar_radiation=0 m:wind_speed=3.6 m:battery_life=15.2 m:air_temperature=-3.67
 
-series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="Oak Street Weather Station" t:precipitation_type=0.0 m:wind_direction=260 m:interval_rain=0 m:solar_radiation=3 m:wind_speed=4 m:wet_bulb_temperature=-4 m:air_temperature=-2.3 m:barometric_pressure=1000.5 m:humidity=67 m:total_rain=6.3 m:maximum_wind_speed=7.6 m:heading=359 m:battery_life=12.1 m:rain_intensity=0
+series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="Oak Street Weather Station" m:wind_direction=260 m:interval_rain=0 m:solar_radiation=3 m:wind_speed=4 m:wet_bulb_temperature=-4 m:air_temperature=-2.3 m:barometric_pressure=1000.5 m:humidity=67 m:precipitation_type=0 m:total_rain=6.3 m:maximum_wind_speed=7.6 m:rain_intensity=0 m:heading=359 m:battery_life=12.1
 
-series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="63rd Street Weather Station" t:precipitation_type=0.0 m:wind_direction=255 m:interval_rain=0 m:solar_radiation=5 m:wind_speed=3.8 m:wet_bulb_temperature=-4.4 m:air_temperature=-2.8 m:barometric_pressure=1000.5 m:humidity=69 m:total_rain=6.7 m:maximum_wind_speed=6.4 m:heading=353 m:battery_life=11.9 m:rain_intensity=0
+series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="63rd Street Weather Station" m:wind_direction=255 m:interval_rain=0 m:solar_radiation=5 m:wind_speed=3.8 m:wet_bulb_temperature=-4.4 m:air_temperature=-2.8 m:barometric_pressure=1000.5 m:humidity=69 m:precipitation_type=0 m:total_rain=6.7 m:maximum_wind_speed=6.4 m:rain_intensity=0 m:heading=353 m:battery_life=11.9
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:air_temperature p:float l:"Air Temperature" d:"Air Temperature in Celsius degrees." t:dataTypeName=number
+metric m:air_temperature l:"Air Temperature" d:"Air Temperature in Celsius degrees." t:dataTypeName=number
 
-metric m:wet_bulb_temperature p:float l:"Wet Bulb Temperature" d:"Wet bulb temperature in Celsius degrees." t:dataTypeName=number
+metric m:wet_bulb_temperature l:"Wet Bulb Temperature" d:"Wet bulb temperature in Celsius degrees." t:dataTypeName=number
 
-metric m:humidity p:float l:Humidity d:"Percent relative humidity." t:dataTypeName=number
+metric m:humidity l:Humidity d:"Percent relative humidity." t:dataTypeName=number
 
-metric m:rain_intensity p:float l:"Rain Intensity" d:"Rain intensity in mm per hour." t:dataTypeName=number
+metric m:rain_intensity l:"Rain Intensity" d:"Rain intensity in mm per hour." t:dataTypeName=number
 
-metric m:interval_rain p:float l:"Interval Rain" d:"Rain since the last hourly measurement, in mm." t:dataTypeName=number
+metric m:interval_rain l:"Interval Rain" d:"Rain since the last hourly measurement, in mm." t:dataTypeName=number
 
-metric m:total_rain p:float l:"Total Rain" d:"Total rain since midnight in mm." t:dataTypeName=number
+metric m:total_rain l:"Total Rain" d:"Total rain since midnight in mm." t:dataTypeName=number
 
-metric m:wind_direction p:float l:"Wind Direction" d:"Wind direction in degrees." t:dataTypeName=number
+metric m:precipitation_type l:"Precipitation Type" d:"0 = No precipitation 60 = Liquid precipitation, e.g. rain - Ice, hail and sleet are transmitted as rain (60). 70 = Solid precipitation, e.g. snow 40 = unspecified precipitation" t:dataTypeName=number
 
-metric m:wind_speed p:float l:"Wind Speed" d:"Wind speed in meters per second." t:dataTypeName=number
+metric m:wind_direction l:"Wind Direction" d:"Wind direction in degrees." t:dataTypeName=number
 
-metric m:maximum_wind_speed p:float l:"Maximum Wind Speed" d:"Maximum wind speed since midnight in meters per second." t:dataTypeName=number
+metric m:wind_speed l:"Wind Speed" d:"Wind speed in meters per second." t:dataTypeName=number
 
-metric m:barometric_pressure p:float l:"Barometric Pressure" d:"Barometric pressure in hPa." t:dataTypeName=number
+metric m:maximum_wind_speed l:"Maximum Wind Speed" d:"Maximum wind speed since midnight in meters per second." t:dataTypeName=number
 
-metric m:solar_radiation p:float l:"Solar Radiation" d:"Solar radiation in watts per square meter." t:dataTypeName=number
+metric m:barometric_pressure l:"Barometric Pressure" d:"Barometric pressure in hPa." t:dataTypeName=number
 
-metric m:heading p:float l:Heading d:"The current heading of the wind-measurement unit. The ideal value to get the most accurate measurements is true north (0 degrees) and the unit is manually adjusted, as necessary, to keep it close to this heading" t:dataTypeName=number
+metric m:solar_radiation l:"Solar Radiation" d:"Solar radiation in watts per square meter." t:dataTypeName=number
 
-metric m:battery_life p:float l:"Battery Life" d:"Battery voltage, an indicator of remaining battery life used by the Chicago Park District to know when batteries should be replaced." t:dataTypeName=number
+metric m:heading l:Heading d:"The current heading of the wind-measurement unit. The ideal value to get the most accurate measurements is true north (0 degrees) and the unit is manually adjusted, as necessary, to keep it close to this heading" t:dataTypeName=number
+
+metric m:battery_life l:"Battery Life" d:"Battery voltage, an indicator of remaining battery life used by the Chicago Park District to know when batteries should be replaced." t:dataTypeName=number
 
 entity e:7edu-s3u7 l:"Beach Weather Stations - Automated Sensors - 2016 - Humidity" t:attribution="Chicago Park District" t:url=https://data.cityofchicago.org/api/views/7edu-s3u7
 

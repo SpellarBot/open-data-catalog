@@ -39,8 +39,8 @@ This data includes all of the key performance indicators for ResultsNOLA, the Ci
 | Yes      | series tag     | rowid              | RowID              | text          | text          |
 | Yes      | time           | date               | Date               | calendar_date | calendar_date |
 | No       |                | year               | Year               | number        | number        |
-| No       |                | quarter            | Quarter            | number        | number        |
-| No       |                | datelabel          | DateLabel          | text          | text          |
+| Yes      | numeric metric | quarter            | Quarter            | number        | number        |
+| Yes      | series tag     | datelabel          | DateLabel          | text          | text          |
 | Yes      | numeric metric | total              | Total              | number        | number        |
 | Yes      | numeric metric | percent            | Percent            | number        | number        |
 | Yes      | numeric metric | ytd                | YTD                | number        | number        |
@@ -59,25 +59,27 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = datelabel,quarter_label,year,quarter
+Excluded Fields = quarter_label,year
 ```
 
 ## Data Commands
 
 ```ls
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization=Budget t:indicatorid=101 t:action_aggregation="Maintain Below" t:direction=Under t:name="Avg. days to approve requisitions for the purchase of goods or services" t:target=1 t:seasonality="Not Seasonal" t:type=Average t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31" t:note="6,973 requisitions approved in 2016." m:total=0.63 m:ytd=0.63498 m:value=0.63
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization=Budget t:indicatorid=101 t:action_aggregation="Maintain Below" t:direction=Under t:name="Avg. days to approve requisitions for the purchase of goods or services" t:target=1 t:seasonality="Not Seasonal" t:datelabel="2016, Q1" t:type=Average t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31" t:note="6,973 requisitions approved in 2016." m:total=0.63 m:ytd=0.63498 m:value=0.63 m:quarter=1
 
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=40103 t:organization="Capital Projects" t:indicatorid=201 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of projects delivered on schedule" t:target=80% t:seasonality="Not Seasonal" t:type="Average Percent" t:rowid="Percent of projects delivered on schedule_2016-03-31" t:note="111 of 140 project milestones delivered on schedule in 2016." m:percent=82.4 m:value=82.4
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=40103 t:organization="Capital Projects" t:indicatorid=201 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of projects delivered on schedule" t:target=80% t:seasonality="Not Seasonal" t:datelabel="2016, Q1" t:type="Average Percent" t:rowid="Percent of projects delivered on schedule_2016-03-31" t:note="111 of 140 project milestones delivered on schedule in 2016." m:percent=82.4 m:value=82.4 m:quarter=1
 
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization="Capital Projects" t:indicatorid=203 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds" t:target=80% t:seasonality="Not Seasonal" t:type="Average Percent" t:rowid="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds_2016-03-31" t:note="387 of 451 invoices paid within respective time periods in 2016." m:percent=82.1 m:value=82.1
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization="Capital Projects" t:indicatorid=203 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds" t:target=80% t:seasonality="Not Seasonal" t:datelabel="2016, Q1" t:type="Average Percent" t:rowid="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds_2016-03-31" t:note="387 of 451 invoices paid within respective time periods in 2016." m:percent=82.1 m:value=82.1 m:quarter=1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:value p:double l:value t:dataTypeName=number
+metric m:value p:integer l:value t:dataTypeName=number
 
-metric m:total p:double l:Total t:dataTypeName=number
+metric m:quarter p:integer l:Quarter t:dataTypeName=number
+
+metric m:total p:integer l:Total t:dataTypeName=number
 
 metric m:percent p:integer l:Percent t:dataTypeName=number
 

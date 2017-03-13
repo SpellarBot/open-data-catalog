@@ -24,6 +24,7 @@ Pursuant to the State Officials and Employees Ethics Act, 5 ILCS 430/20-85, each
 ```ls
 | Included | Schema Type    | Field Name    | Name         | Data Type | Render Type |
 | ======== | ============== | ============= | ============ | ========= | =========== |
+| No       | time           | :updated_at   | updated_at   | meta_data | meta_data   |
 | Yes      | series tag     | november_2012 | October 2012 | text      | text        |
 | Yes      | numeric metric | number        | Number       | number    | number      |
 ```
@@ -31,18 +32,18 @@ Pursuant to the State Officials and Employees Ethics Act, 5 ILCS 430/20-85, each
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:as52-whec d:2012-01-01T00:00:00.000Z t:november_2012="Number of allegations received:" m:number=238
+series e:as52-whec d:2013-01-16T08:54:43.000Z t:november_2012="Number of allegations received:" m:number=238
 
-series e:as52-whec d:2012-01-01T00:00:00.000Z t:november_2012="Number of investigations initiated:" m:number=20
+series e:as52-whec d:2013-01-16T08:54:43.000Z t:november_2012="Number of investigations initiated:" m:number=20
 
-series e:as52-whec d:2012-01-01T00:00:00.000Z t:november_2012="Number of investigations concluded:" m:number=14
+series e:as52-whec d:2013-01-16T08:54:43.000Z t:november_2012="Number of investigations concluded:" m:number=14
 ```
 
 ## Meta Commands

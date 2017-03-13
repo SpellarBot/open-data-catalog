@@ -252,25 +252,25 @@ series e:qvup-qejq d:2002-01-01T00:00:00.000Z t:dwi_ride="0 times" t:cig_get="I 
 ## Meta Commands
 
 ```ls
-metric m:nothing p:long l:nothing t:dataTypeName=number
+metric m:nothing l:nothing t:dataTypeName=number
 
-metric m:trystop p:long l:trystop t:dataTypeName=number
+metric m:trystop l:trystop t:dataTypeName=number
 
-metric m:teltea p:long l:teltea t:dataTypeName=number
+metric m:teltea l:teltea t:dataTypeName=number
 
-metric m:telpar p:long l:telpar t:dataTypeName=number
+metric m:telpar l:telpar t:dataTypeName=number
 
-metric m:telfri p:long l:telfri t:dataTypeName=number
+metric m:telfri l:telfri t:dataTypeName=number
 
-metric m:tookpart p:long l:tookpart t:dataTypeName=number
+metric m:tookpart l:tookpart t:dataTypeName=number
 
-metric m:justsaw p:long l:justsaw t:dataTypeName=number
+metric m:justsaw l:justsaw t:dataTypeName=number
 
-metric m:intervene p:long l:intervene t:dataTypeName=number
+metric m:intervene l:intervene t:dataTypeName=number
 
-metric m:toldtea p:long l:toldtea t:dataTypeName=number
+metric m:toldtea l:toldtea t:dataTypeName=number
 
-metric m:family p:long l:family t:dataTypeName=number
+metric m:family l:family t:dataTypeName=number
 
 metric m:children p:integer l:children t:dataTypeName=number
 
@@ -280,27 +280,27 @@ metric m:manage p:integer l:manage t:dataTypeName=number
 
 metric m:inj_fit p:integer l:inj_fit t:dataTypeName=number
 
-metric m:tense p:long l:tense t:dataTypeName=number
+metric m:tense l:tense t:dataTypeName=number
 
-metric m:heartrac p:long l:heartrac t:dataTypeName=number
+metric m:heartrac l:heartrac t:dataTypeName=number
 
-metric m:soc_fear p:long l:soc_fear t:dataTypeName=number
+metric m:soc_fear l:soc_fear t:dataTypeName=number
 
-metric m:repeat p:long l:repeat t:dataTypeName=number
+metric m:repeat l:repeat t:dataTypeName=number
 
-metric m:fear p:long l:fear t:dataTypeName=number
+metric m:fear l:fear t:dataTypeName=number
 
-metric m:cigarage p:long l:cigarage t:dataTypeName=number
+metric m:cigarage l:cigarage t:dataTypeName=number
 
-metric m:chew_age p:long l:chew_age t:dataTypeName=number
+metric m:chew_age l:chew_age t:dataTypeName=number
 
-metric m:fr_smok p:long l:fr_smok t:dataTypeName=number
+metric m:fr_smok l:fr_smok t:dataTypeName=number
 
-metric m:fr_alc p:long l:fr_alc t:dataTypeName=number
+metric m:fr_alc l:fr_alc t:dataTypeName=number
 
-metric m:fr_pot p:long l:fr_pot t:dataTypeName=number
+metric m:fr_pot l:fr_pot t:dataTypeName=number
 
-metric m:fr_oth p:long l:fr_oth t:dataTypeName=number
+metric m:fr_oth l:fr_oth t:dataTypeName=number
 
 metric m:talk_sex p:integer l:talk_sex t:dataTypeName=number
 

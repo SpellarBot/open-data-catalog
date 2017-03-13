@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-12T13:30:36Z |
+| Rows Updated | 2017-03-11T14:30:51Z |
 
 ## Description
 
@@ -58,19 +58,19 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB048H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172439_9952294 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274962 m:cop_rating=3.7 m:eer_rating=20
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z t:energy_star_partner="Advanced Geothermal Technology" t:model_number=GC-24-XXXXX-DW t:markets="United States" t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-DW_05012013143335_7734797 t:product_type=DGX t:meets_most_efficient_criteria=No t:model_name=GC-24-XXXXX-DW t:brand_name="Advanced Geothermal Technology" t:pd_id=2179335 m:cop_rating=3.6 m:eer_rating=16.6
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB060H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172440_7907956 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274973 m:cop_rating=4.9 m:eer_rating=24.1
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z t:energy_star_partner="Advanced Geothermal Technology" t:model_number=GC-24-XXXXX-NW t:markets="United States" t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-NW_05012013143335_3698083 t:product_type=DGX t:meets_most_efficient_criteria=No t:model_name=GC-24-XXXXX-NW t:brand_name="Advanced Geothermal Technology" t:pd_id=2180086 m:cop_rating=3.6 m:eer_rating=16.6
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB060H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172440_8549659 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274974 m:cop_rating=4.2 m:eer_rating=18.5
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z t:energy_star_partner="Advanced Geothermal Technology" t:model_number=GC-24-XXXXX-WH t:markets="United States" t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-WH_05012013143335_6150308 t:product_type=DGX t:meets_most_efficient_criteria=No t:model_name=GC-24-XXXXX-WH t:brand_name="Advanced Geothermal Technology" t:pd_id=2179336 m:cop_rating=3.6 m:eer_rating=16.6
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:cop_rating p:float l:"COP Rating" d:"A measure of efficiency in the heating mode that represents the ratio of total heating capacity to electrical energy input." t:dataTypeName=number
+metric m:cop_rating l:"COP Rating" d:"A measure of efficiency in the heating mode that represents the ratio of total heating capacity to electrical energy input." t:dataTypeName=number
 
-metric m:eer_rating p:float l:"Energy Efficiency (EER)" d:"A measure of efficiency in the cooling mode that represents the ratio of total cooling capacity to electrical energy input." t:dataTypeName=number
+metric m:eer_rating l:"Energy Efficiency (EER)" d:"A measure of efficiency in the cooling mode that represents the ratio of total cooling capacity to electrical energy input." t:dataTypeName=number
 
 entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https://data.energystar.gov/api/views/acvd-5wvz
 

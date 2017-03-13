@@ -49,7 +49,7 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | numeric metric | dvv_timestmp        | DVV_TIMESTMP        | number    | number      |
 | Yes      | series tag     | dvv_filler3         | DVV_FILLER3         | text      | text        |
 | Yes      | numeric metric | dvv_filler4         | DVV_FILLER4         | number    | number      |
-| Yes      | series tag     | dvv_print_flag      | DVV_PRINT_FLAG      | text      | text        |
+| Yes      | numeric metric | dvv_print_flag      | DVV_PRINT_FLAG      | number    | text        |
 | Yes      | numeric metric | dvv_checked_date    | DVV_CHECKED_DATE    | number    | number      |
 | Yes      | numeric metric | dvv_timestmp_upd    | DVV_TIMESTMP_UPD    | number    | number      |
 | Yes      | numeric metric | dvv_final_disp_date | DVV_FINAL_DISP_DATE | number    | number      |
@@ -61,18 +61,18 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | series tag     | dvv_hold_no         | DVV_HOLD_NO         | text      | text        |
 | Yes      | series tag     | dvv_filler5         | DVV_FILLER5         | text      | text        |
 | Yes      | numeric metric | dvv_filler6         | DVV_FILLER6         | number    | number      |
-| Yes      | series tag     | dvv_se_status       | DVV_SE_STATUS       | text      | text        |
-| Yes      | series tag     | dvv_over48_ind      | DVV_OVER48_IND      | text      | text        |
-| Yes      | series tag     | dvv_chrge_48        | DVV_CHRGE_48        | text      | text        |
-| Yes      | series tag     | dvv_challenge_48    | DVV_CHALLENGE_48    | text      | text        |
-| Yes      | series tag     | dvv_hq_approve      | DVV_HQ_APPROVE      | text      | text        |
+| Yes      | numeric metric | dvv_se_status       | DVV_SE_STATUS       | number    | text        |
+| Yes      | numeric metric | dvv_over48_ind      | DVV_OVER48_IND      | number    | text        |
+| Yes      | numeric metric | dvv_chrge_48        | DVV_CHRGE_48        | number    | text        |
+| Yes      | numeric metric | dvv_challenge_48    | DVV_CHALLENGE_48    | number    | text        |
+| Yes      | numeric metric | dvv_hq_approve      | DVV_HQ_APPROVE      | number    | text        |
 | Yes      | numeric metric | dvv_vin_timestmp    | DVV_VIN_TIMESTMP    | number    | number      |
-| Yes      | series tag     | dvv_rental_find     | DVV_RENTAL_FIND     | text      | text        |
-| Yes      | series tag     | dvv_rental_indic    | DVV_RENTAL_INDIC    | text      | text        |
+| Yes      | numeric metric | dvv_rental_find     | DVV_RENTAL_FIND     | number    | text        |
+| Yes      | numeric metric | dvv_rental_indic    | DVV_RENTAL_INDIC    | number    | text        |
 | Yes      | series tag     | dvv_city            | DVV_CITY            | text      | text        |
 | Yes      | series tag     | dvv_state           | DVV_STATE           | text      | text        |
-| Yes      | series tag     | dvv_stolen_indic    | DVV_STOLEN_INDIC    | text      | text        |
-| Yes      | series tag     | dvv_lor_indic       | DVV_LOR_INDIC       | text      | text        |
+| Yes      | numeric metric | dvv_stolen_indic    | DVV_STOLEN_INDIC    | number    | text        |
+| Yes      | numeric metric | dvv_lor_indic       | DVV_LOR_INDIC       | number    | text        |
 | Yes      | numeric metric | dvv_dot             | DVV_DOT             | number    | number      |
 | Yes      | numeric metric | dvv_kdvo_cnt        | DVV_KDVO_CNT        | number    | number      |
 | Yes      | numeric metric | dvv_nicb_timestmp   | DVV_NICB_TIMESTMP   | number    | number      |
@@ -93,11 +93,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:bjuu-44hx d:2017-03-13T14:56:37.034Z t:dvv_print_flag=F t:dvv_type=4D t:dvv_464_color=BLACK t:dvv_final_disp_cd=NOL t:dvv_tag_remarks="EMERGENCY TOW" t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_yard_resp=DVO999 t:dvv_464_type=4D m:dvv_tag_time=900 m:dvv_timestmp=19891117162634 m:isn=1 m:dvv_tag_date=19891117 m:dvv_final_disp_date=19891117 m:dvv_timestmp_upd=19970606070052 m:dvv_tag_no=1
+series e:bjuu-44hx d:2017-03-12T10:59:47.102Z t:dvv_print_flag=F t:dvv_type=4D t:dvv_464_color=BLACK t:dvv_final_disp_cd=NOL t:dvv_tag_remarks="EMERGENCY TOW" t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_yard_resp=DVO999 t:dvv_464_type=4D m:dvv_tag_time=900 m:dvv_timestmp=19891117162634 m:isn=1 m:dvv_tag_date=19891117 m:dvv_final_disp_date=19891117 m:dvv_timestmp_upd=19970606070052 m:dvv_tag_no=1
 
-series e:bjuu-44hx d:2017-03-13T14:56:37.034Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_464_type=2D m:dvv_tag_time=900 m:dvv_timestmp=19891120113336 m:isn=2 m:dvv_tag_date=19891119 m:dvv_final_disp_date=99999999 m:dvv_timestmp_upd=19900711055802 m:dvv_tag_no=2
+series e:bjuu-44hx d:2017-03-12T10:59:47.102Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_464_type=2D m:dvv_tag_time=900 m:dvv_timestmp=19891120113336 m:isn=2 m:dvv_tag_date=19891119 m:dvv_final_disp_date=99999999 m:dvv_timestmp_upd=19900711055802 m:dvv_tag_no=2
 
-series e:bjuu-44hx d:2017-03-13T14:56:37.034Z t:dvv_print_flag=F t:dvv_type=SW t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:dvv_final_disp_cd=RTC t:dvv_tag_loc1=LOCATION t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_yard_resp=DVO999 t:dvv_464_type=SW m:dvv_tag_time=900 m:dvv_timestmp=19891120103827 m:isn=3 m:dvv_tag_date=19891120 m:dvv_final_disp_date=19891120 m:dvv_checked_date=19891120 m:dvv_tag_no=5
+series e:bjuu-44hx d:2017-03-12T10:59:47.102Z t:dvv_print_flag=F t:dvv_type=SW t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:dvv_final_disp_cd=RTC t:dvv_tag_loc1=LOCATION t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_yard_resp=DVO999 t:dvv_464_type=SW m:dvv_tag_time=900 m:dvv_timestmp=19891120103827 m:isn=3 m:dvv_tag_date=19891120 m:dvv_final_disp_date=19891120 m:dvv_checked_date=19891120 m:dvv_tag_no=5
 ```
 
 ## Meta Commands
@@ -117,7 +117,7 @@ metric m:dvv_prev_463 p:integer l:DVV_PREV_463 t:dataTypeName=number
 
 metric m:dvv_timestmp p:long l:DVV_TIMESTMP t:dataTypeName=number
 
-metric m:dvv_filler4 p:long l:DVV_FILLER4 t:dataTypeName=number
+metric m:dvv_filler4 l:DVV_FILLER4 t:dataTypeName=number
 
 metric m:dvv_checked_date p:integer l:DVV_CHECKED_DATE t:dataTypeName=number
 
@@ -125,9 +125,13 @@ metric m:dvv_timestmp_upd p:long l:DVV_TIMESTMP_UPD t:dataTypeName=number
 
 metric m:dvv_final_disp_date p:integer l:DVV_FINAL_DISP_DATE t:dataTypeName=number
 
-metric m:dvv_filler6 p:long l:DVV_FILLER6 t:dataTypeName=number
+metric m:dvv_filler6 l:DVV_FILLER6 t:dataTypeName=number
 
 metric m:dvv_vin_timestmp p:long l:DVV_VIN_TIMESTMP t:dataTypeName=number
+
+metric m:dvv_rental_find l:DVV_RENTAL_FIND t:dataTypeName=number
+
+metric m:dvv_rental_indic l:DVV_RENTAL_INDIC t:dataTypeName=number
 
 metric m:dvv_dot p:integer l:DVV_DOT t:dataTypeName=number
 
@@ -135,7 +139,7 @@ metric m:dvv_kdvo_cnt p:integer l:DVV_KDVO_CNT t:dataTypeName=number
 
 metric m:dvv_nicb_timestmp p:long l:DVV_NICB_TIMESTMP t:dataTypeName=number
 
-metric m:dvv_summons p:integer l:DVV_SUMMONS t:dataTypeName=number
+metric m:dvv_summons l:DVV_SUMMONS t:dataTypeName=number
 
 metric m:dvv_yd_sub_contr p:integer l:DVV_YD_SUB_CONTR t:dataTypeName=number
 

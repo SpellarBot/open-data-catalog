@@ -21,42 +21,43 @@
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name | Name   | Data Type | Render Type |
-| ======== | ============== | ========== | ====== | ========= | =========== |
-| Yes      | series tag     | county     | County | text      | text        |
-| No       |                | _1         | 2000   | number    | number      |
-| No       |                | _2         | 2001   | number    | number      |
-| No       |                | _3         | 2002   | number    | number      |
-| No       |                | _4         | 2003   | number    | number      |
-| No       |                | _5         | 2004   | number    | number      |
-| No       |                | _6         | 2005   | number    | number      |
-| No       |                | _7         | 2006   | number    | number      |
-| No       |                | _8         | 2007   | number    | number      |
-| No       |                | _9         | 2008   | number    | number      |
-| Yes      | numeric metric | _10        | 2009   | number    | number      |
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | county      | County     | text      | text        |
+| No       |                | _1          | 2000       | number    | number      |
+| No       |                | _2          | 2001       | number    | number      |
+| No       |                | _3          | 2002       | number    | number      |
+| No       |                | _4          | 2003       | number    | number      |
+| No       |                | _5          | 2004       | number    | number      |
+| No       |                | _6          | 2005       | number    | number      |
+| No       |                | _7          | 2006       | number    | number      |
+| No       |                | _8          | 2007       | number    | number      |
+| No       |                | _9          | 2008       | number    | number      |
+| Yes      | numeric metric | _10         | 2009       | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = _1,_2,_3,_4,_5,_6,_7,_8,_9
+Excluded Fields = _7,_8,_9,_3,_4,_5,_6,_1,_2
 ```
 
 ## Data Commands
 
 ```ls
-series e:hs5g-tdzr d:2000-01-01T00:00:00.000Z t:county=Adams m:_10=503
+series e:hs5g-tdzr d:2012-01-18T13:35:11.000Z t:county=Adams m:_10=503
 
-series e:hs5g-tdzr d:2000-01-01T00:00:00.000Z t:county=Alexander m:_10=44
+series e:hs5g-tdzr d:2012-01-18T13:35:11.000Z t:county=Alexander m:_10=44
 
-series e:hs5g-tdzr d:2000-01-01T00:00:00.000Z t:county=Bond m:_10=103
+series e:hs5g-tdzr d:2012-01-18T13:35:11.000Z t:county=Bond m:_10=103
 ```
 
 ## Meta Commands

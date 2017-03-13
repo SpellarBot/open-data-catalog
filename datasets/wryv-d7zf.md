@@ -25,15 +25,15 @@ A list of grocery stores which are part of a multi-store chain and are located a
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name  | Name       | Data Type | Render Type |
-| ======== | =========== | =========== | ========== | ========= | =========== |
-| No       | time        | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag  | company     | COMPANY    | text      | text        |
-| Yes      | series tag  | store_type  | STORE TYPE | text      | text        |
-| No       |             | address     | ADDRESS    | text      | text        |
-| Yes      | series tag  | city        | CITY       | text      | text        |
-| Yes      | series tag  | zip_code    | ZIP CODE   | text      | number      |
-| Yes      | series tag  | state       | STATE      | text      | text        |
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | company     | COMPANY    | text      | text        |
+| Yes      | series tag     | store_type  | STORE TYPE | text      | text        |
+| No       |                | address     | ADDRESS    | text      | text        |
+| Yes      | series tag     | city        | CITY       | text      | text        |
+| Yes      | numeric metric | zip_code    | ZIP CODE   | number    | number      |
+| Yes      | series tag     | state       | STATE      | text      | text        |
 ```
 
 ## Time Field
@@ -52,11 +52,18 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
+series e:wryv-d7zf d:2013-08-26T12:36:45.000Z t:company="Trader Joe's" t:state=IL t:store_type=Specialty t:city="Park Ridge" m:zip_code=60068
+
+series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:company="Food 4 Less" t:state=IL t:store_type=FullService t:city=Evanston m:zip_code=60202
+
+series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:company=Aldi t:state=IL t:store_type=Discount t:city=Cicero m:zip_code=60804
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:zip_code l:"ZIP CODE" t:dataTypeName=number
+
 entity e:wryv-d7zf l:"Nearby Cook County Grocery Store Chains" t:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center" t:url=https://data.cityofchicago.org/api/views/wryv-d7zf
 
 property e:wryv-d7zf t:meta.view v:id=wryv-d7zf v:category="Community & Economic Development" v:attributionLink=http://www.csu.edu/nac/ v:averageRating=0 v:name="Nearby Cook County Grocery Store Chains" v:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center"

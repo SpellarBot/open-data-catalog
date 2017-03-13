@@ -27,6 +27,7 @@ Mapping of reported ballot measure names and ID numbers to the corresponding mea
 ```ls
 | Included | Schema Type | Field Name         | Name               | Data Type | Render Type |
 | ======== | =========== | ================== | ================== | ========= | =========== |
+| No       | time        | :updated_at        | updated_at         | meta_data | meta_data   |
 | Yes      | series tag  | filerid            | FilerID            | text      | text        |
 | Yes      | series tag  | reportered_filerid | Reportered FilerID | text      | text        |
 | Yes      | series tag  | filer_naml         | Filer Naml         | text      | text        |
@@ -37,8 +38,8 @@ Mapping of reported ballot measure names and ID numbers to the corresponding mea
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands

@@ -24,8 +24,8 @@
 | ======== | ============== | ================== | ================== | ============= | ============= |
 | Yes      | numeric metric | stop_nbr           | STOP_NBR           | number        | number        |
 | Yes      | numeric metric | form_ref_nbr       | FORM_REF_NBR       | number        | number        |
-| Yes      | series tag     | persn_gender_cd    | PERSN_GENDER_CD    | text          | text          |
-| Yes      | series tag     | persn_descent_cd   | PERSN_DESCENT_CD   | text          | text          |
+| Yes      | numeric metric | persn_gender_cd    | PERSN_GENDER_CD    | number        | text          |
+| Yes      | numeric metric | persn_descent_cd   | PERSN_DESCENT_CD   | number        | text          |
 | Yes      | series tag     | descent_desc       | DESCENT_DESC       | text          | text          |
 | Yes      | time           | stop_dt            | STOP_DT            | calendar_date | calendar_date |
 | Yes      | series tag     | stop_tm            | STOP_TM            | text          | text          |
@@ -37,7 +37,7 @@
 | Yes      | series tag     | div2_desc          | DIV2_DESC          | text          | text          |
 | Yes      | numeric metric | rpt_dist_nbr       | RPT_DIST_NBR       | number        | number        |
 | Yes      | series tag     | stop_type          | STOP_TYPE          | text          | text          |
-| Yes      | series tag     | post_stop_actv_ind | POST_STOP_ACTV_IND | text          | text          |
+| Yes      | numeric metric | post_stop_actv_ind | POST_STOP_ACTV_IND | number        | text          |
 ```
 
 ## Time Field

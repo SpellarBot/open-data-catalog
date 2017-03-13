@@ -27,6 +27,7 @@ This data summarizes the 2013 adopted budget for the City of Albany.  Over the y
 ```ls
 | Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
 | ======== | ============== | ==================== | ==================== | ========= | =========== |
+| No       | time           | :updated_at          | updated_at           | meta_data | meta_data   |
 | Yes      | series tag     | department           | Department           | text      | text        |
 | Yes      | numeric metric | personal_services    | Personal Services    | money     | money       |
 | Yes      | numeric metric | equipment            | Equipment            | money     | money       |
@@ -39,35 +40,23 @@ This data summarizes the 2013 adopted budget for the City of Albany.  Over the y
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department=Mayor m:total=735784 m:personal_services=598685 m:debt_service=0 m:equipment=0 m:contractual_expenses=10300 m:benefits=126799
+series e:7a7x-7wap d:2013-03-01T16:31:11.000Z t:department=Mayor m:total=735784 m:personal_services=598685 m:debt_service=0 m:equipment=0 m:contractual_expenses=10300 m:benefits=126799
 
-series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department="Central Data Processing" m:total=668792 m:personal_services=394605 m:debt_service=0 m:equipment=52000 m:contractual_expenses=133000 m:benefits=89187
+series e:7a7x-7wap d:2013-03-01T16:31:11.000Z t:department="Central Data Processing" m:total=668792 m:personal_services=394605 m:debt_service=0 m:equipment=52000 m:contractual_expenses=133000 m:benefits=89187
 
-series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department="Common Council" m:total=592268 m:personal_services=435920 m:debt_service=0 m:equipment=1500 m:contractual_expenses=33500 m:benefits=121348
+series e:7a7x-7wap d:2013-03-01T16:31:11.000Z t:department="Common Council" m:total=592268 m:personal_services=435920 m:debt_service=0 m:equipment=1500 m:contractual_expenses=33500 m:benefits=121348
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:personal_services p:integer l:"Personal Services" t:dataTypeName=money
-
-metric m:equipment p:integer l:Equipment t:dataTypeName=money
-
-metric m:contractual_expenses p:integer l:"Contractual Expenses" t:dataTypeName=money
-
-metric m:benefits p:integer l:Benefits t:dataTypeName=money
-
-metric m:debt_service p:integer l:"Debt Service" t:dataTypeName=money
-
-metric m:total p:integer l:Total t:dataTypeName=money
-
 entity e:7a7x-7wap l:"City of Albany Budget Summary: 2013" t:attribution="City of Albany" t:url=https://data.ny.gov/api/views/7a7x-7wap
 
 property e:7a7x-7wap t:meta.view v:id=7a7x-7wap v:category="Government & Finance" v:attributionLink=http://albanyny.gov/Government/MayorsOffice/Budget.aspx v:averageRating=0 v:name="City of Albany Budget Summary: 2013" v:attribution="City of Albany"

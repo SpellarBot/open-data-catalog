@@ -29,15 +29,15 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 | ======== | ============== | ================================= | ================================= | ============= | ============= |
 | Yes      | series tag     | authority_name                    | Authority Name                    | text          | text          |
 | Yes      | time           | fiscal_year_end_date              | Fiscal Year End Date              | calendar_date | calendar_date |
-| Yes      | series tag     | has_employees                     | Has Employees                     | text          | text          |
+| Yes      | numeric metric | has_employees                     | Has Employees                     | number        | text          |
 | Yes      | series tag     | last_name                         | Last Name                         | text          | text          |
-| Yes      | series tag     | middle_initial                    | Middle Initial                    | text          | text          |
+| Yes      | numeric metric | middle_initial                    | Middle Initial                    | number        | text          |
 | Yes      | series tag     | first_name                        | First Name                        | text          | text          |
 | Yes      | series tag     | title                             | Title                             | text          | text          |
 | Yes      | series tag     | group                             | Group                             | text          | text          |
 | Yes      | series tag     | department                        | Department                        | text          | text          |
 | Yes      | series tag     | pay_type                          | Pay Type                          | text          | text          |
-| Yes      | series tag     | exempt_indicator                  | Exempt Indicator                  | text          | text          |
+| Yes      | numeric metric | exempt_indicator                  | Exempt Indicator                  | number        | text          |
 | Yes      | numeric metric | base_annualized_salary            | Base Annualized Salary            | money         | money         |
 | Yes      | numeric metric | actual_salary_paid                | Actual Salary Paid                | money         | money         |
 | Yes      | numeric metric | overtime_paid                     | Overtime Paid                     | money         | money         |
@@ -45,8 +45,8 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 | Yes      | numeric metric | extra_pay                         | Extra Pay                         | money         | money         |
 | Yes      | numeric metric | other_compensation                | Other Compensation                | money         | money         |
 | Yes      | numeric metric | total_compensation                | Total Compensation                | money         | money         |
-| Yes      | series tag     | paid_by_another_entity            | Paid By Another Entity            | text          | text          |
-| Yes      | series tag     | paid_by_state_or_local_government | Paid by State or Local Government | text          | text          |
+| Yes      | numeric metric | paid_by_another_entity            | Paid By Another Entity            | number        | text          |
+| Yes      | numeric metric | paid_by_state_or_local_government | Paid by State or Local Government | number        | text          |
 ```
 
 ## Time Field
@@ -69,19 +69,9 @@ series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community
 ## Meta Commands
 
 ```ls
-metric m:base_annualized_salary p:double l:"Base Annualized Salary" d:"The annual base salary associated with a particular job title or position. For hourly or part-time staff, annualized salary would be the actual wages paid to the individual for the reporting period." t:dataTypeName=money
+metric m:has_employees l:"Has Employees" d:"N indicates that the authority reported having no staff. All the remaining fields are blank when authorities report having no staff." t:dataTypeName=number
 
-metric m:actual_salary_paid p:double l:"Actual Salary Paid" d:"The actual salary or wages paid to the individual for the reporting period. This amount could be less than the annualized salary if the individual was employed in the position for less than the full year." t:dataTypeName=money
-
-metric m:overtime_paid p:double l:"Overtime Paid" d:"Extra cash payments to the individual for hours worked in excess of normal work week hours, as authorized by the authority?s policies, an employment contract or a collective bargaining agreement. Overtime would include holiday pay." t:dataTypeName=money
-
-metric m:performance_bonus p:double l:"Performance Bonus" d:"A cash payment to the individual that does not become part of the base annualized salary. This payment must be linked to the individual meeting clearly defined and measurable performance goals established and approved by the Board of Directors prior to the start of the fiscal year, or detailed in a performance contract approved by the Board. These performance goals should reflect accomplishments that exceed the expected job standards of the position. The amount of the bonus payment should be calculated based on a formula defined in the authority?s performance bonus policy. A performance bonus would include a bonus earned in a prior year but deferred until the reporting year, provided that the payment is consistent with the policy governing other bonuses." t:dataTypeName=money
-
-metric m:extra_pay p:double l:"Extra Pay" d:"Payments made to the individual for unused accrued vacation or personal time, commissions, longevity, as incentives for such purposes as excellent attendance or maintaining proper standing with professional licensure requirements; cash payments to the individual in lieu of an authority?s contribution to the individual?s pension fund or health insurance coverage; or other financial awards to the individual not based on performance goals. The terms and type of extra pay to be awarded to an individual should be defined in collectively bargained or employment contracts." t:dataTypeName=money
-
-metric m:other_compensation p:double l:"Other Compensation" d:"Allowances, reimbursement for authorized expenses, or all other forms of taxable income not included in one of the above categories. This could include adjustments to previously paid compensation to correct payment errors." t:dataTypeName=money
-
-metric m:total_compensation p:double l:"Total Compensation" d:"Total payments made to the individual during the year including any overtime, bonus, extra, or other compensation amounts. This field is the sum of the Actual Salary Paid, Overtime Paid, Performance Bonus, Extra Pay and Other Compensation fields." t:dataTypeName=money
+metric m:paid_by_state_or_local_government l:"Paid by State or Local Government" d:"?Y? indicates that the individual was paid by a State or local government to perform the work of the Authority, and is blank otherwise. This field is completed only when the Paid by Another Entity field is ?Y?." t:dataTypeName=number
 
 entity e:fx93-cifz l:"Salary Information for Local Authorities" t:attribution="Individual Local Authorities submitted to Authorities Budget Office" t:url=https://data.ny.gov/api/views/fx93-cifz
 

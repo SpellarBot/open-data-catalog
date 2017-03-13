@@ -29,7 +29,7 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 | ======== | ============== | ==================== | ==================== | ============= | ============= |
 | Yes      | series tag     | authority_name       | Authority Name       | text          | text          |
 | Yes      | time           | fiscal_year_end_date | Fiscal Year End Date | calendar_date | calendar_date |
-| Yes      | series tag     | has_outstanding_debt | Has Outstanding Debt | text          | text          |
+| Yes      | numeric metric | has_outstanding_debt | Has Outstanding Debt | number        | text          |
 | Yes      | series tag     | type_of_debt         | Type Of Debt         | text          | text          |
 | Yes      | series tag     | debt_program         | Debt Program         | text          | text          |
 | Yes      | numeric metric | begin_amount_total   | Begin Amount Total   | money         | money         |
@@ -58,14 +58,6 @@ series e:utc6-v4cn d:2015-12-31T00:00:00.000Z t:authority_name="Albany County Ca
 ## Meta Commands
 
 ```ls
-metric m:begin_amount_total p:double l:"Begin Amount Total" d:"Amount of debt outstanding at the beginning of the fiscal year. This amount is specific to the type of debt indicated in the ""Type of Debt"" field. This is a pre-populated field and consists of the End Amount Total from the prior fiscal year. This field is blank when the authority reported having no outstanding debt." t:dataTypeName=money
-
-metric m:new_debt_issuance p:double l:"New Debt Issuance" d:"Amount of debt issued during the fiscal year. This amount is specific to the type of debt indicated in the ""Type of Debt"" field. This field is blank when the authority reported having no outstanding debt." t:dataTypeName=money
-
-metric m:amount_retired p:double l:"Amount Retired" d:"Amount of debt retired during the fiscal year. This amount is specific to the type of debt indicated in the ""Type of Debt"" field. This field is blank when the authority reported having no outstanding debt." t:dataTypeName=money
-
-metric m:end_amount_total p:double l:"End Amount Total" d:"Amount of debt outstanding at the end of the fiscal year. This is a calculated field and consists of the Begin Amount Total plus the New Debt Issuance, less the Amount Retired. This amount is specific to the type of debt indicated in the ""Type of Debt"" field. This field is blank when the authority reported having no outstanding debt." t:dataTypeName=money
-
 entity e:utc6-v4cn l:"Schedule of Debt for Local Development Corporations" t:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office" t:url=https://data.ny.gov/api/views/utc6-v4cn
 
 property e:utc6-v4cn t:meta.view v:id=utc6-v4cn v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Schedule of Debt for Local Development Corporations" v:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office"

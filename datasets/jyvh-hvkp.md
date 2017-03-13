@@ -23,6 +23,7 @@
 ```ls
 | Included | Schema Type    | Field Name              | Name                      | Data Type | Render Type |
 | ======== | ============== | ======================= | ========================= | ========= | =========== |
+| No       | time           | :updated_at             | updated_at                | meta_data | meta_data   |
 | Yes      | series tag     | utility                 | Utility                   | text      | text        |
 | Yes      | numeric metric | annual_solar_wac_person | Annual Solar (WAC/person) | number    | number      |
 ```
@@ -30,24 +31,24 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:jyvh-hvkp d:2010-01-01T00:00:00.000Z t:utility="1. Silicon Valley Power (CA)" m:annual_solar_wac_person=40
+series e:jyvh-hvkp d:2012-08-28T13:29:41.000Z t:utility="1. Silicon Valley Power (CA)" m:annual_solar_wac_person=40
 
-series e:jyvh-hvkp d:2010-01-01T00:00:00.000Z t:utility="2. Public Service Electric & Gas Co. (NJ)" m:annual_solar_wac_person=35.2
+series e:jyvh-hvkp d:2012-08-28T13:29:41.000Z t:utility="2. Public Service Electric & Gas Co. (NJ)" m:annual_solar_wac_person=35.2
 
-series e:jyvh-hvkp d:2010-01-01T00:00:00.000Z t:utility="3. Hawaiian Electric Co., Inc. (HI)" m:annual_solar_wac_person=33.2
+series e:jyvh-hvkp d:2012-08-28T13:29:41.000Z t:utility="3. Hawaiian Electric Co., Inc. (HI)" m:annual_solar_wac_person=33.2
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:annual_solar_wac_person p:float l:"Annual Solar (WAC/person)" t:dataTypeName=number
+metric m:annual_solar_wac_person l:"Annual Solar (WAC/person)" t:dataTypeName=number
 
 entity e:jyvh-hvkp l:"DBEDT HECO Ranks Third In 2010 Annual Solar Watts Per Customer" t:attribution="Department of Economic Development and Tourism" t:url=https://data.hawaii.gov/api/views/jyvh-hvkp
 

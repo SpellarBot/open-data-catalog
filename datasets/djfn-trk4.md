@@ -63,17 +63,17 @@ series e:djfn-trk4 d:2012-01-01T00:00:00.000Z m:commercial_total=20.9 m:resident
 ## Meta Commands
 
 ```ls
-metric m:residential_total p:float l:"Residential Total" d:"Million Metric Tons" t:dataTypeName=number
+metric m:residential_total l:"Residential Total" d:"Million Metric Tons" t:dataTypeName=number
 
-metric m:commercial_total p:float l:"Commercial Total" d:"Million Metric Tons" t:dataTypeName=number
+metric m:commercial_total l:"Commercial Total" d:"Million Metric Tons" t:dataTypeName=number
 
-metric m:industrial_total p:float l:"Industrial Total" d:"Million Metric Tons" t:dataTypeName=number
+metric m:industrial_total l:"Industrial Total" d:"Million Metric Tons" t:dataTypeName=number
 
-metric m:transportation_total p:float l:"Transportation Total" d:"Million Metric Tons" t:dataTypeName=number
+metric m:transportation_total l:"Transportation Total" d:"Million Metric Tons" t:dataTypeName=number
 
-metric m:electric_generation_total p:float l:"Electric Generation Total" d:"Million Metric Tons" t:dataTypeName=number
+metric m:electric_generation_total l:"Electric Generation Total" d:"Million Metric Tons" t:dataTypeName=number
 
-metric m:net_imports_of_electricity p:float l:"Net Imports of Electricity" d:"Million Metric Tons" t:dataTypeName=number
+metric m:net_imports_of_electricity l:"Net Imports of Electricity" d:"Million Metric Tons" t:dataTypeName=number
 
 entity e:djfn-trk4 l:"Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/djfn-trk4
 

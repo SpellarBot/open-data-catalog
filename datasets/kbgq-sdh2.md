@@ -48,7 +48,7 @@ series e:kbgq-sdh2 d:2012-08-28T13:24:11.000Z t:utility="4. Hawaii Electric Ligh
 ## Meta Commands
 
 ```ls
-metric m:cumulative_through_2010_wac_customer p:float l:"Cumulative Through 2010 (WAC/customer)" t:dataTypeName=number
+metric m:cumulative_through_2010_wac_customer l:"Cumulative Through 2010 (WAC/customer)" t:dataTypeName=number
 
 entity e:kbgq-sdh2 l:"DBEDT Hawaii Utility Companies Rank Among The Top In Cumulative Solar Watts Per Customer" t:attribution="Department of Economic Development and Tourism" t:url=https://data.hawaii.gov/api/views/kbgq-sdh2
 

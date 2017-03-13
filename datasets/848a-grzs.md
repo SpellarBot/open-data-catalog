@@ -65,18 +65,6 @@ series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_
 ## Meta Commands
 
 ```ls
-metric m:budget p:integer l:"2017 Budget" t:dataTypeName=money
-
-metric m:current_period_exp p:integer l:"Current Period Expenditures" t:dataTypeName=money
-
-metric m:ytd_exp p:integer l:"YTD Expenditures" t:dataTypeName=money
-
-metric m:encumb p:integer l:Encumbrances t:dataTypeName=money
-
-metric m:bal_available_to_spend p:integer l:"Bal Available to Spend" t:dataTypeName=money
-
-metric m:of_budget_spent p:float l:"% of Budget Spent" t:dataTypeName=percent
-
 entity e:848a-grzs l:"Jackson Operating Expenses Budget" t:attribution="City of Jackson, Department of Administration" t:url=https://data.jacksonms.gov/api/views/848a-grzs
 
 property e:848a-grzs t:meta.view v:id=848a-grzs v:category="Budget and Finance" v:attributionLink="http://www.jacksonms.gov/index.aspx?nid=114" v:averageRating=0 v:name="Jackson Operating Expenses Budget" v:attribution="City of Jackson, Department of Administration"

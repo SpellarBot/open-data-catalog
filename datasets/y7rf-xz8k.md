@@ -26,6 +26,7 @@ This dataset includes the Fiscal Year* 2015 County Executive Recommended operati
 ```ls
 | Included | Schema Type    | Field Name                             | Name                                 | Data Type | Render Type |
 | ======== | ============== | ====================================== | ==================================== | ========= | =========== |
+| No       | time           | :updated_at                            | updated_at                           | meta_data | meta_data   |
 | Yes      | series tag     | function                               | Function                             | text      | text        |
 | Yes      | series tag     | department                             | Department                           | text      | text        |
 | Yes      | series tag     | program_name                           | Program Name                         | text      | text        |
@@ -43,25 +44,23 @@ This dataset includes the Fiscal Year* 2015 County Executive Recommended operati
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name="Contract and Services" t:fund_subtype="General Fund" t:account_name="Preparation Of Transcripts/Recorders" t:function="General Government" m:recommended_amount=15000
+series e:y7rf-xz8k d:2014-08-18T14:12:59.000Z t:fund_name="General Fund" t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name="Contract and Services" t:fund_subtype="General Fund" t:account_name="Preparation Of Transcripts/Recorders" t:function="General Government" m:recommended_amount=15000
 
-series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name=Maintenance t:fund_subtype="General Fund" t:account_name="Other Office Equip Repair / Maint" t:function="General Government" m:recommended_amount=180
+series e:y7rf-xz8k d:2014-08-18T14:12:59.000Z t:fund_name="General Fund" t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name=Maintenance t:fund_subtype="General Fund" t:account_name="Other Office Equip Repair / Maint" t:function="General Government" m:recommended_amount=180
 
-series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name="Rental Leases" t:fund_subtype="General Fund" t:account_name=Copiers t:function="General Government" m:recommended_amount=6000
+series e:y7rf-xz8k d:2014-08-18T14:12:59.000Z t:fund_name="General Fund" t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name="Rental Leases" t:fund_subtype="General Fund" t:account_name=Copiers t:function="General Government" m:recommended_amount=6000
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:recommended_amount p:double l:"Recommended Amount" d:"the County Executive?s recommended budget for the upcoming fiscal year, submitted to Council for review each year by March 15th." t:dataTypeName=money
-
 entity e:y7rf-xz8k l:"Fiscal Year 2015 County Executive Recommended Operating Budget" t:url=https://data.montgomerycountymd.gov/api/views/y7rf-xz8k
 
 property e:y7rf-xz8k t:meta.view v:id=y7rf-xz8k v:category=Government v:averageRating=0 v:name="Fiscal Year 2015 County Executive Recommended Operating Budget"

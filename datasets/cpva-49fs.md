@@ -25,32 +25,33 @@ Patrons may place holds on desired materials either online or by contacting any 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name | Name      | Data Type | Render Type |
-| ======== | ============== | ========== | ========= | ========= | =========== |
-| Yes      | series tag     | location   | LOCATION  | text      | text        |
-| No       |                | address    | ADDRESS   | text      | text        |
-| Yes      | series tag     | city       | CITY      | text      | text        |
-| Yes      | series tag     | zip        | ZIP       | text      | text        |
-| Yes      | numeric metric | january    | JANUARY   | number    | number      |
-| Yes      | numeric metric | february   | FEBRUARY  | number    | number      |
-| Yes      | numeric metric | march      | MARCH     | number    | number      |
-| Yes      | numeric metric | april      | APRIL     | number    | number      |
-| Yes      | numeric metric | may        | MAY       | number    | number      |
-| Yes      | numeric metric | june       | JUNE      | number    | number      |
-| Yes      | numeric metric | july       | JULY      | number    | number      |
-| Yes      | numeric metric | august     | AUGUST    | number    | number      |
-| Yes      | numeric metric | september  | SEPTEMBER | number    | number      |
-| Yes      | numeric metric | october    | OCTOBER   | number    | number      |
-| Yes      | numeric metric | november   | NOVEMBER  | number    | number      |
-| Yes      | numeric metric | december   | DECEMBER  | number    | number      |
-| Yes      | numeric metric | ytd        | YTD       | number    | number      |
+| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
+| ======== | ============== | =========== | ========== | ========= | =========== |
+| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | series tag     | location    | LOCATION   | text      | text        |
+| No       |                | address     | ADDRESS    | text      | text        |
+| Yes      | series tag     | city        | CITY       | text      | text        |
+| Yes      | series tag     | zip         | ZIP        | text      | text        |
+| Yes      | numeric metric | january     | JANUARY    | number    | number      |
+| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
+| Yes      | numeric metric | march       | MARCH      | number    | number      |
+| Yes      | numeric metric | april       | APRIL      | number    | number      |
+| Yes      | numeric metric | may         | MAY        | number    | number      |
+| Yes      | numeric metric | june        | JUNE       | number    | number      |
+| Yes      | numeric metric | july        | JULY       | number    | number      |
+| Yes      | numeric metric | august      | AUGUST     | number    | number      |
+| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
+| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
+| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
+| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
+| Yes      | numeric metric | ytd         | YTD        | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
@@ -62,11 +63,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:cpva-49fs d:2012-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=0 m:may=195 m:november=0 m:march=230 m:april=239 m:february=224 m:june=197 m:january=198 m:ytd=1719 m:august=137 m:july=254 m:october=1 m:september=44
+series e:cpva-49fs d:2013-04-08T14:29:20.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=0 m:may=195 m:november=0 m:march=230 m:april=239 m:february=224 m:june=197 m:january=198 m:ytd=1719 m:august=137 m:july=254 m:october=1 m:september=44
 
-series e:cpva-49fs d:2012-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=29 m:may=8 m:november=12 m:march=16 m:april=21 m:february=20 m:june=5 m:january=30 m:ytd=216 m:august=9 m:july=19 m:october=13 m:september=34
+series e:cpva-49fs d:2013-04-08T14:29:20.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=29 m:may=8 m:november=12 m:march=16 m:april=21 m:february=20 m:june=5 m:january=30 m:ytd=216 m:august=9 m:july=19 m:october=13 m:september=34
 
-series e:cpva-49fs d:2012-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=73 m:may=139 m:november=122 m:march=109 m:april=122 m:february=76 m:june=106 m:january=88 m:ytd=1344 m:august=143 m:july=136 m:october=128 m:september=102
+series e:cpva-49fs d:2013-04-08T14:29:20.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=73 m:may=139 m:november=122 m:march=109 m:april=122 m:february=76 m:june=106 m:january=88 m:ytd=1344 m:august=143 m:july=136 m:october=128 m:september=102
 ```
 
 ## Meta Commands

@@ -28,6 +28,7 @@ Update Schedule: Annually
 ```ls
 | Included | Schema Type    | Field Name             | Name                    | Data Type | Render Type |
 | ======== | ============== | ====================== | ======================= | ========= | =========== |
+| No       | time           | :updated_at            | updated_at              | meta_data | meta_data   |
 | Yes      | series tag     | neighborhood           | NEIGHBORHOOD            | text      | text        |
 | Yes      | series tag     | type_of_home           | TYPE OF HOME            | text      | text        |
 | Yes      | numeric metric | total_no_of_properties | TOTAL NO. OF PROPERTIES | number    | number      |
@@ -41,18 +42,18 @@ Update Schedule: Annually
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="01 ONE FAMILY HOMES" m:average_sale_price=345752 m:lowest_sale_price=345752 m:median_sale_price=345752 m:highest_sale_price=345752 m:total_no_of_properties=87 m:number_of_sales=1
+series e:w4v6-3sdt d:2011-10-05T10:23:17.000Z t:neighborhood=BATHGATE t:type_of_home="01 ONE FAMILY HOMES" m:average_sale_price=345752 m:lowest_sale_price=345752 m:median_sale_price=345752 m:highest_sale_price=345752 m:total_no_of_properties=87 m:number_of_sales=1
 
-series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="02 TWO FAMILY HOMES" m:average_sale_price=327310 m:lowest_sale_price=183028 m:median_sale_price=334750 m:highest_sale_price=415440 m:total_no_of_properties=308 m:number_of_sales=8
+series e:w4v6-3sdt d:2011-10-05T10:23:17.000Z t:neighborhood=BATHGATE t:type_of_home="02 TWO FAMILY HOMES" m:average_sale_price=327310 m:lowest_sale_price=183028 m:median_sale_price=334750 m:highest_sale_price=415440 m:total_no_of_properties=308 m:number_of_sales=8
 
-series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="03 THREE FAMILY HOMES" m:average_sale_price=536674 m:lowest_sale_price=162240 m:median_sale_price=602500 m:highest_sale_price=640000 m:total_no_of_properties=131 m:number_of_sales=10
+series e:w4v6-3sdt d:2011-10-05T10:23:17.000Z t:neighborhood=BATHGATE t:type_of_home="03 THREE FAMILY HOMES" m:average_sale_price=536674 m:lowest_sale_price=162240 m:median_sale_price=602500 m:highest_sale_price=640000 m:total_no_of_properties=131 m:number_of_sales=10
 ```
 
 ## Meta Commands
@@ -61,14 +62,6 @@ series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_
 metric m:total_no_of_properties p:integer l:"TOTAL NO. OF PROPERTIES" t:dataTypeName=number
 
 metric m:number_of_sales p:integer l:"NUMBER OF SALES" t:dataTypeName=number
-
-metric m:lowest_sale_price p:integer l:"LOWEST SALE PRICE" t:dataTypeName=money
-
-metric m:average_sale_price p:integer l:"AVERAGE SALE PRICE" t:dataTypeName=money
-
-metric m:median_sale_price p:integer l:"MEDIAN SALE PRICE" t:dataTypeName=money
-
-metric m:highest_sale_price p:integer l:"HIGHEST SALE PRICE" t:dataTypeName=money
 
 entity e:w4v6-3sdt l:"DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" t:attribution="Department of Finance (DOF)" t:url=https://data.cityofnewyork.us/api/views/w4v6-3sdt
 

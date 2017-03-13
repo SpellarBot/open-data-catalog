@@ -46,9 +46,9 @@ Glossary: http://apps.nccd.cdc.gov/BRFSSQuest/index.asp
 | Yes      | numeric metric | confidence_limit_low       | Confidence_limit_Low       | number    | number      |
 | Yes      | numeric metric | confidence_limit_high      | Confidence_limit_High      | number    | number      |
 | No       |                | display_order              | Display_order              | number    | number      |
-| No       |                | data_value_unit            | Data_value_unit            | text      | text        |
+| No       |                | data_value_unit            | Data_value_unit            | number    | text        |
 | No       |                | data_value_type            | Data_value_type            | text      | text        |
-| No       |                | data_value_footnote_symbol | Data_Value_Footnote_Symbol | text      | text        |
+| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
 | No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
 | Yes      | series tag     | datasource                 | DataSource                 | text      | text        |
 | Yes      | series tag     | classid                    | ClassId                    | text      | text        |
@@ -70,7 +70,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = display_order,data_value_unit,data_value_type,data_value_footnote_symbol,data_value_footnote
+Excluded Fields = data_value_footnote,data_value_unit,data_value_type,display_order
 ```
 
 ## Data Commands
@@ -88,11 +88,11 @@ series e:d2rk-yvas d:2015-01-01T00:00:00.000Z t:topic="Binge Drinking" t:locatio
 ```ls
 metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
-metric m:data_value p:float l:Data_value t:dataTypeName=number
+metric m:data_value l:Data_value t:dataTypeName=number
 
-metric m:confidence_limit_low p:float l:Confidence_limit_Low t:dataTypeName=number
+metric m:confidence_limit_low l:Confidence_limit_Low t:dataTypeName=number
 
-metric m:confidence_limit_high p:float l:Confidence_limit_High t:dataTypeName=number
+metric m:confidence_limit_high l:Confidence_limit_High t:dataTypeName=number
 
 entity e:d2rk-yvas l:"Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch" t:url=https://chronicdata.cdc.gov/api/views/d2rk-yvas
 

@@ -20,12 +20,12 @@
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name      | Name                            | Data Type | Render Type |
-| ======== | =========== | =============== | =============================== | ========= | =========== |
-| No       | time        | :updated_at     | updated_at                      | meta_data | meta_data   |
-| Yes      | series tag  | state           | State                           | text      | text        |
-| Yes      | series tag  | provider_number | CMS Certification Number (CCN)* | text      | text        |
-| Yes      | series tag  | zip_code        | ZIP Code                        | text      | text        |
+| Included | Schema Type    | Field Name      | Name                            | Data Type | Render Type |
+| ======== | ============== | =============== | =============================== | ========= | =========== |
+| No       | time           | :updated_at     | updated_at                      | meta_data | meta_data   |
+| Yes      | series tag     | state           | State                           | text      | text        |
+| Yes      | numeric metric | provider_number | CMS Certification Number (CCN)* | number    | text        |
+| Yes      | series tag     | zip_code        | ZIP Code                        | text      | text        |
 ```
 
 ## Time Field
@@ -38,11 +38,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=36104 t:state=AL m:provider_number=17000
+
+series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35005 t:state=AL m:provider_number=17008
+
+series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35020 t:state=AL m:provider_number=17008
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:provider_number p:integer l:"CMS Certification Number (CCN)*" d:"formerly Medicare Provider Number" t:dataTypeName=number
+
 entity e:m5eg-upu5 l:"Home Health Care - Zip Codes" t:url=https://data.medicare.gov/api/views/m5eg-upu5
 
 property e:m5eg-upu5 t:meta.view v:id=m5eg-upu5 v:category="Home Health Compare" v:averageRating=0 v:name="Home Health Care - Zip Codes"

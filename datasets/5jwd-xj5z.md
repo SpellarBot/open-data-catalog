@@ -47,8 +47,6 @@ series e:5jwd-xj5z d:2015-12-17T08:45:48.000Z t:reason_commodity_service="Docume
 ## Meta Commands
 
 ```ls
-metric m:contract_value p:integer l:"Contract Value" t:dataTypeName=money
-
 entity e:5jwd-xj5z l:"Preferred Source Procurements FY15" t:attribution="Mayor's Office of Contract Services (MOCS)" t:url=https://data.cityofnewyork.us/api/views/5jwd-xj5z
 
 property e:5jwd-xj5z t:meta.view v:id=5jwd-xj5z v:category="City Government" v:averageRating=0 v:name="Preferred Source Procurements FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"

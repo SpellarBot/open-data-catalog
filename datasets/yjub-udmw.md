@@ -54,25 +54,25 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = x,y
+Excluded Fields = y,x
 ```
 
 ## Data Commands
 
 ```ls
-series e:yjub-udmw d:2017-03-13T14:56:07.984Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="155th St between 29th Ave and 32nd Ave" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=848 t:type="Limited Free" t:city=Queens m:long_=-73.80905 m:lat=40.77123
+series e:yjub-udmw d:2017-03-12T10:51:13.484Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="155th St between 29th Ave and 32nd Ave" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=848 t:type="Limited Free" t:city=Queens m:long_=-73.80905 m:lat=40.77123
 
-series e:yjub-udmw d:2017-03-13T14:56:07.984Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=849 t:type="Limited Free" t:city=Queens m:long_=-73.80875 m:lat=40.76975
+series e:yjub-udmw d:2017-03-12T10:51:13.484Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=849 t:type="Limited Free" t:city=Queens m:long_=-73.80875 m:lat=40.76975
 
-series e:yjub-udmw d:2017-03-13T14:56:07.984Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=850 t:type="Limited Free" t:city=Queens m:long_=-73.80751 m:lat=40.76965
+series e:yjub-udmw d:2017-03-12T10:51:13.484Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=850 t:type="Limited Free" t:city=Queens m:long_=-73.80751 m:lat=40.76965
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:lat p:double l:Lat d:"Latitude: Points that fall North or South of the Equator, expressed in degrees." t:dataTypeName=number
+metric m:lat l:Lat d:"Latitude: Points that fall North or South of the Equator, expressed in degrees." t:dataTypeName=number
 
-metric m:long_ p:double l:Long_ d:"Longitude: Points that fall East or West of the Prime Meridian, expressed in degrees." t:dataTypeName=number
+metric m:long_ l:Long_ d:"Longitude: Points that fall East or West of the Prime Meridian, expressed in degrees." t:dataTypeName=number
 
 entity e:yjub-udmw l:"NYC Wi-Fi Hotspot Locations" t:attribution="Department of Information Technology & Telecommunications (DoITT)" t:url=https://data.cityofnewyork.us/api/views/yjub-udmw
 

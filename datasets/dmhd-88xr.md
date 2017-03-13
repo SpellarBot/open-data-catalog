@@ -18,13 +18,13 @@
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name             | Name                   | Data Type | Render Type |
-| ======== | =========== | ====================== | ====================== | ========= | =========== |
-| No       | time        | :updated_at            | updated_at             | meta_data | meta_data   |
-| Yes      | series tag  | phase_type             | Phase Type             | text      | text        |
-| Yes      | series tag  | phase_step_number      | Phase Step Number      | text      | number      |
-| Yes      | series tag  | phase_step_name        | Phase Step Name        | text      | text        |
-| Yes      | series tag  | phase_step_description | Phase Step Description | text      | text        |
+| Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
+| ======== | ============== | ====================== | ====================== | ========= | =========== |
+| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
+| Yes      | series tag     | phase_type             | Phase Type             | text      | text        |
+| Yes      | numeric metric | phase_step_number      | Phase Step Number      | number    | number      |
+| Yes      | series tag     | phase_step_name        | Phase Step Name        | text      | text        |
+| Yes      | series tag     | phase_step_description | Phase Step Description | text      | text        |
 ```
 
 ## Time Field
@@ -37,11 +37,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usually in-house. POR (Program of Requirements) produced at this stage" t:phase_type=default t:phase_step_name=Planning m:phase_step_number=1
+
+series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and  produce construction drawings, etc." t:phase_type=default t:phase_step_name="Preliminary Design" m:phase_step_number=2
+
+series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Design complete. Construction documents complete. Ready to award contract." t:phase_type=default t:phase_step_name="Final Design" m:phase_step_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:phase_step_number p:integer l:"Phase Step Number" t:dataTypeName=number
+
 entity e:dmhd-88xr l:"Template011: Project Phase List" t:url=https://data.srcity.org/api/views/dmhd-88xr
 
 property e:dmhd-88xr t:meta.view v:id=dmhd-88xr v:averageRating=0 v:name="Template011: Project Phase List"

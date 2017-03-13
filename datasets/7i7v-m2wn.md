@@ -16,14 +16,14 @@
 | Tags | campaign finance dashboards 2016 |
 | Created | 2016-08-18T20:50:38Z |
 | Publication Date | 2016-08-18T21:00:00Z |
-| Rows Updated | 2017-03-13T00:30:26Z |
+| Rows Updated | 2017-03-12T01:30:27Z |
 
 ## Columns
 
 ```ls
 | Included | Schema Type    | Field Name                       | Name                             | Data Type     | Render Type   |
 | ======== | ============== | ================================ | ================================ | ============= | ============= |
-| Yes      | series tag     | form_type                        | Form Type                        | text          | text          |
+| Yes      | numeric metric | form_type                        | Form Type                        | number        | text          |
 | Yes      | series tag     | report_number                    | Report Number                    | text          | text          |
 | Yes      | time           | date_filed                       | Date Filed                       | calendar_date | calendar_date |
 | Yes      | series tag     | filer                            | Filer                            | text          | text          |
@@ -47,23 +47,23 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = start_date_of_distribution,end_or_only_date_of_distribution
+Excluded Fields = end_or_only_date_of_distribution,start_date_of_distribution
 ```
 
 ## Data Commands
 
 ```ls
-series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-013 t:form_type=496 t:candidate_identified="Joshua Arce" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 9" m:amount=5000
+series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-013 t:candidate_identified="Joshua Arce" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 9" m:amount=5000 m:form_type=496
 
-series e:7i7v-m2wn d:2016-08-18T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-008 t:form_type=496 t:candidate_identified="Marjan Philhour" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 1" m:amount=5000
+series e:7i7v-m2wn d:2016-08-18T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-008 t:candidate_identified="Marjan Philhour" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 1" m:amount=5000 m:form_type=496
 
-series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-012 t:form_type=496 t:candidate_identified="Marjan Philhour" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 1" m:amount=5000
+series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-012 t:candidate_identified="Marjan Philhour" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 1" m:amount=5000 m:form_type=496
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:amount p:double l:Amount t:dataTypeName=money
+metric m:form_type p:integer l:"Form Type" t:dataTypeName=number
 
 entity e:7i7v-m2wn l:"Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/7i7v-m2wn
 

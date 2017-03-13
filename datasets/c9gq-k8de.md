@@ -67,7 +67,7 @@ series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:fund_code=1000 t:expense_name=Ov
 ```ls
 metric m:dept_rollup p:integer l:DEPT_ROLLUP t:dataTypeName=number
 
-metric m:proposed_budget p:integer l:PROPOSED_BUDGET t:dataTypeName=number
+metric m:proposed_budget l:PROPOSED_BUDGET t:dataTypeName=number
 
 entity e:c9gq-k8de l:"FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/c9gq-k8de
 

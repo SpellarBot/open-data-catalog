@@ -54,7 +54,7 @@ series e:hvys-xbzt d:2012-07-06T00:00:00.000Z t:compensation_method="Time and Ma
 ## Meta Commands
 
 ```ls
-metric m:price p:double l:Price t:dataTypeName=number
+metric m:price l:Price t:dataTypeName=number
 
 entity e:hvys-xbzt l:"Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013" t:url=https://data.oregon.gov/api/views/hvys-xbzt
 

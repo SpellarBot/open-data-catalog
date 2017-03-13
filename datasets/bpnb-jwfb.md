@@ -16,7 +16,7 @@
 | Tags | spending, revenue, amount, sfopenbook, open book, openbook |
 | Created | 2013-04-02T20:46:47Z |
 | Publication Date | 2014-10-07T16:15:22Z |
-| Rows Updated | 2017-03-13T06:15:42Z |
+| Rows Updated | 2017-03-06T09:59:29Z |
 
 ## Description
 
@@ -71,7 +71,7 @@ series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:organization_group="Public Prote
 ## Meta Commands
 
 ```ls
-metric m:amount p:double l:Amount d:"The amount earned (Revenue) or spent (Spending) by the City and County of San Francisco." t:dataTypeName=number
+metric m:amount l:Amount d:"The amount earned (Revenue) or spent (Spending) by the City and County of San Francisco." t:dataTypeName=number
 
 entity e:bpnb-jwfb l:"Spending And Revenue" t:attribution="SF Controller's Office" t:url=https://data.sfgov.org/api/views/bpnb-jwfb
 

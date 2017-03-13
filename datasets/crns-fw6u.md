@@ -56,7 +56,7 @@ Format & Zone = yyyy-MMMM
 ## Series Fields
 
 ```ls
-Excluded Fields = address,year,month
+Excluded Fields = address,month,year
 ```
 
 ## Data Commands

@@ -27,7 +27,7 @@ Lyme disease is caused by the bacterium Borrelia burgdorferi and is transmitted 
 | Yes      | series tag     | disease       | Disease       | text      | text        |
 | Yes      | series tag     | yeartext      | YearText      | text      | text        |
 | Yes      | time           | year          | Year          | number    | number      |
-| Yes      | series tag     | stateorcounty | StateOrCounty | text      | text        |
+| Yes      | numeric metric | stateorcounty | StateOrCounty | number    | text        |
 | No       |                | il            | IL            | text      | text        |
 | Yes      | series tag     | race          | Race          | text      | text        |
 | Yes      | series tag     | ethnicity     | Ethnicity     | text      | text        |

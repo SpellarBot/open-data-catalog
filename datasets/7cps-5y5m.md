@@ -46,10 +46,6 @@ series e:7cps-5y5m d:2011-01-01T00:00:00.000Z m:solar_projects=22.5 m:solar_proj
 ## Meta Commands
 
 ```ls
-metric m:solar_projects p:float l:"Solar Projects" t:dataTypeName=percent
-
-metric m:solar_projects_in_million_dollars p:double l:"Solar Projects (in million dollars)" t:dataTypeName=money
-
 entity e:7cps-5y5m l:"Solar- Related Construction Expenditures (value of solar projects as percentage of total building permit value)    (Source: DBEDT)" t:attribution=DBEDT t:url=https://data.hawaii.gov/api/views/7cps-5y5m
 
 property e:7cps-5y5m t:meta.view v:id=7cps-5y5m v:averageRating=0 v:name="Solar- Related Construction Expenditures (value of solar projects as percentage of total building permit value)    (Source: DBEDT)" v:attribution=DBEDT

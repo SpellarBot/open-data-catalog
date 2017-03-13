@@ -53,8 +53,6 @@ series e:wv7d-caby d:2014-09-08T00:00:00.000Z t:candidate="Kelly, Tony" t:distri
 ## Meta Commands
 
 ```ls
-metric m:amount_of_iec p:integer l:"Amount of IEC" t:dataTypeName=money
-
 entity e:wv7d-caby l:"Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/wv7d-caby
 
 property e:wv7d-caby t:meta.view v:id=wv7d-caby v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" v:attribution="San Francisco Ethics Commission"

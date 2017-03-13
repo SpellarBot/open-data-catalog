@@ -27,10 +27,11 @@ The SIC report is compiled to provide detail information regarding the types of 
 ```ls
 | Included | Schema Type    | Field Name                           | Name                                   | Data Type | Render Type |
 | ======== | ============== | ==================================== | ====================================== | ========= | =========== |
+| No       | time           | :updated_at                          | updated_at                             | meta_data | meta_data   |
 | Yes      | numeric metric | ending_liability_period              | Ending Liability Period                | number    | text        |
 | Yes      | numeric metric | run_type_indicator                   | Run Type Indicator                     | number    | text        |
 | Yes      | series tag     | local_government_name                | Local Government Name                  | text      | text        |
-| Yes      | series tag     | multi_county_indicator               | Multi-County Indicator                 | text      | text        |
+| Yes      | numeric metric | multi_county_indicator               | Multi-County Indicator                 | number    | text        |
 | Yes      | series tag     | tax_type_indicator                   | Tax Type Indicator                     | text      | text        |
 | Yes      | numeric metric | number_of_taxpayers                  | Number of Taxpayers                    | number    | number      |
 | Yes      | numeric metric | total_tax_receipts                   | Total Tax Receipts                     | money     | money       |
@@ -49,18 +50,18 @@ The SIC report is compiled to provide detail information regarding the types of 
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:k5hg-a9v2 d:2010-01-01T00:00:00.000Z t:local_government_name="ADAMS COUNTY GOVERNMENT" t:multi_county_indicator=N t:tax_type_indicator=ST m:apparel_category=0 m:run_type_indicator=2 m:drinking_eating_places_category=11537.56 m:general_merchandise_category=0 m:lumber_building_hardware_category=94737.19 m:agriculture_all_others_category=274944.28 m:automative_filling_stations_category=786327.57 m:food_category=334.31 m:ending_liability_period=201012 m:manufacturers_category=46355.93 m:number_of_taxpayers=278 m:drugs_misc_retail_category=96790.6 m:funiture_h_h_radio_category=4247.23 m:total_tax_receipts=1316274.65
+series e:k5hg-a9v2 d:2011-06-15T11:47:06.000Z t:local_government_name="ADAMS COUNTY GOVERNMENT" t:multi_county_indicator=N t:tax_type_indicator=ST m:apparel_category=0 m:run_type_indicator=2 m:drinking_eating_places_category=11537.56 m:general_merchandise_category=0 m:lumber_building_hardware_category=94737.19 m:agriculture_all_others_category=274944.28 m:automative_filling_stations_category=786327.57 m:food_category=334.31 m:ending_liability_period=201012 m:manufacturers_category=46355.93 m:number_of_taxpayers=278 m:drugs_misc_retail_category=96790.6 m:funiture_h_h_radio_category=4247.23 m:total_tax_receipts=1316274.65
 
-series e:k5hg-a9v2 d:2010-01-01T00:00:00.000Z t:local_government_name="ADAMS COUNTY GOVERNMENT" t:multi_county_indicator=N t:tax_type_indicator=CT m:apparel_category=0 m:run_type_indicator=2 m:drinking_eating_places_category=2320.26 m:general_merchandise_category=0 m:lumber_building_hardware_category=18942 m:agriculture_all_others_category=57554.3 m:automative_filling_stations_category=157441.22 m:food_category=726.9 m:ending_liability_period=201012 m:manufacturers_category=9623.71 m:number_of_taxpayers=0 m:drugs_misc_retail_category=20782.87 m:funiture_h_h_radio_category=911.67 m:total_tax_receipts=268502.93
+series e:k5hg-a9v2 d:2011-06-15T11:47:06.000Z t:local_government_name="ADAMS COUNTY GOVERNMENT" t:multi_county_indicator=N t:tax_type_indicator=CT m:apparel_category=0 m:run_type_indicator=2 m:drinking_eating_places_category=2320.26 m:general_merchandise_category=0 m:lumber_building_hardware_category=18942 m:agriculture_all_others_category=57554.3 m:automative_filling_stations_category=157441.22 m:food_category=726.9 m:ending_liability_period=201012 m:manufacturers_category=9623.71 m:number_of_taxpayers=0 m:drugs_misc_retail_category=20782.87 m:funiture_h_h_radio_category=911.67 m:total_tax_receipts=268502.93
 
-series e:k5hg-a9v2 d:2010-01-01T00:00:00.000Z t:local_government_name="ADAMS COUNTY GOVERNMENT" t:multi_county_indicator=N t:tax_type_indicator=CST m:apparel_category=0 m:run_type_indicator=2 m:drinking_eating_places_category=576.87 m:general_merchandise_category=0 m:lumber_building_hardware_category=4735.48 m:agriculture_all_others_category=13715.92 m:automative_filling_stations_category=39307.96 m:food_category=16.72 m:ending_liability_period=201012 m:manufacturers_category=2317.76 m:number_of_taxpayers=0 m:drugs_misc_retail_category=4809.89 m:funiture_h_h_radio_category=212.22 m:total_tax_receipts=65742.82
+series e:k5hg-a9v2 d:2011-06-15T11:47:06.000Z t:local_government_name="ADAMS COUNTY GOVERNMENT" t:multi_county_indicator=N t:tax_type_indicator=CST m:apparel_category=0 m:run_type_indicator=2 m:drinking_eating_places_category=576.87 m:general_merchandise_category=0 m:lumber_building_hardware_category=4735.48 m:agriculture_all_others_category=13715.92 m:automative_filling_stations_category=39307.96 m:food_category=16.72 m:ending_liability_period=201012 m:manufacturers_category=2317.76 m:number_of_taxpayers=0 m:drugs_misc_retail_category=4809.89 m:funiture_h_h_radio_category=212.22 m:total_tax_receipts=65742.82
 ```
 
 ## Meta Commands
@@ -71,28 +72,6 @@ metric m:ending_liability_period p:integer l:"Ending Liability Period" t:dataTyp
 metric m:run_type_indicator p:integer l:"Run Type Indicator" t:dataTypeName=number
 
 metric m:number_of_taxpayers p:integer l:"Number of Taxpayers" t:dataTypeName=number
-
-metric m:total_tax_receipts p:double l:"Total Tax Receipts" t:dataTypeName=money
-
-metric m:general_merchandise_category p:double l:"General Merchandise Category" t:dataTypeName=money
-
-metric m:food_category p:double l:"Food Category" t:dataTypeName=money
-
-metric m:drinking_eating_places_category p:double l:"Drinking & Eating Places Category" t:dataTypeName=money
-
-metric m:apparel_category p:double l:"Apparel Category" t:dataTypeName=money
-
-metric m:funiture_h_h_radio_category p:double l:"Funiture, H.H. & Radio Category" t:dataTypeName=money
-
-metric m:lumber_building_hardware_category p:double l:"Lumber, Building & Hardware Category" t:dataTypeName=money
-
-metric m:automative_filling_stations_category p:double l:"Automative & Filling Stations Category" t:dataTypeName=money
-
-metric m:drugs_misc_retail_category p:double l:"Drugs & Misc. Retail Category" t:dataTypeName=money
-
-metric m:agriculture_all_others_category p:double l:"Agriculture & All Others Category" t:dataTypeName=money
-
-metric m:manufacturers_category p:double l:"Manufacturers Category" t:dataTypeName=money
 
 entity e:k5hg-a9v2 l:"IDOR SIC Report Q4 2010" t:attribution="Illinois Department of Revenue" t:url=https://data.illinois.gov/api/views/k5hg-a9v2
 

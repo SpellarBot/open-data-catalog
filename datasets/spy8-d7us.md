@@ -58,11 +58,11 @@ series e:spy8-d7us d:2014-09-08T00:00:00.000Z t:station_name="Columbia R @ North
 ## Meta Commands
 
 ```ls
-metric m:sample_result_or_geo_mn p:double l:"Sample Result or geo.mn" t:dataTypeName=number
+metric m:sample_result_or_geo_mn l:"Sample Result or geo.mn" t:dataTypeName=number
 
-metric m:criterion p:double l:Criterion t:dataTypeName=number
+metric m:criterion p:integer l:Criterion t:dataTypeName=number
 
-metric m:percent_exceeds_standard p:double l:"Percent exceeds standard" t:dataTypeName=number
+metric m:percent_exceeds_standard l:"Percent exceeds standard" t:dataTypeName=number
 
 entity e:spy8-d7us l:"Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" t:attribution="Washingotn State Department of Ecology" t:url=https://data.wa.gov/api/views/spy8-d7us
 

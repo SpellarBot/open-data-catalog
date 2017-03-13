@@ -80,11 +80,11 @@ series e:8iri-b2sz d:2005-12-06T00:00:00.000Z t:height=65-X t:app_no=20000307366
 ```ls
 metric m:st_num p:integer l:ST_NUM t:dataTypeName=number
 
-metric m:units p:integer l:UNITS t:dataTypeName=number
+metric m:units l:UNITS t:dataTypeName=number
 
-metric m:netunits_c p:integer l:NETUNITS_C t:dataTypeName=number
+metric m:netunits_c l:NETUNITS_C t:dataTypeName=number
 
-metric m:aff_hsg p:integer l:AFF_HSG t:dataTypeName=number
+metric m:aff_hsg l:AFF_HSG t:dataTypeName=number
 
 metric m:form p:integer l:FORM t:dataTypeName=number
 

@@ -52,7 +52,7 @@ series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:expenditures=Expenditure t:agenc
 ## Meta Commands
 
 ```ls
-metric m:encumbrances p:double l:Totals t:dataTypeName=number
+metric m:encumbrances l:Totals t:dataTypeName=number
 
 entity e:pmbr-njwn l:"CIP 2011-2012" t:attribution=OIMT t:url=https://data.hawaii.gov/api/views/pmbr-njwn
 

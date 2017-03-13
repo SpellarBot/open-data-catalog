@@ -80,13 +80,9 @@ series e:rzct-chc3 d:2013-07-31T00:00:00.000Z t:site_city=Tualatin t:applicant_b
 ```ls
 metric m:final_month p:integer l:"Final Month" t:dataTypeName=number
 
-metric m:final_certified_project_cost p:integer l:"Final Certified Project Cost" t:dataTypeName=money
-
-metric m:final_tax_credit p:integer l:"Final Tax Credit" t:dataTypeName=money
-
 metric m:total_energy_million_btu p:integer l:"Total Energy (Million Btu)" t:dataTypeName=number
 
-metric m:tax_credit_ratepercentage p:decimal l:"Tax Credit Rate" t:dataTypeName=number
+metric m:tax_credit_ratepercentage l:"Tax Credit Rate" t:dataTypeName=number
 
 metric m:application p:integer l:"Application #" t:dataTypeName=number
 

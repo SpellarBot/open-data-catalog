@@ -35,7 +35,7 @@
 | Yes      | series tag     | question                   | Question                   | text      | text        |
 | Yes      | series tag     | datasource                 | DataSource                 | text      | text        |
 | Yes      | series tag     | response                   | Response                   | text      | text        |
-| No       |                | data_value_unit            | Data_Value_Unit            | text      | text        |
+| No       |                | data_value_unit            | Data_Value_Unit            | number    | text        |
 | No       |                | data_value_type            | Data_Value_Type            | text      | text        |
 | Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
 | Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | number      |
@@ -65,7 +65,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_unit,data_value_type,data_value_footnote
+Excluded Fields = data_value_footnote,data_value_unit,data_value_type
 ```
 
 ## Data Commands
@@ -81,13 +81,13 @@ series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK
 ## Meta Commands
 
 ```ls
-metric m:data_value p:float l:Data_Value t:dataTypeName=number
+metric m:data_value l:Data_Value t:dataTypeName=number
 
 metric m:data_value_footnote_symbol p:integer l:Data_Value_Footnote_Symbol t:dataTypeName=number
 
-metric m:low_confidence_limit p:float l:Low_Confidence_Limit t:dataTypeName=number
+metric m:low_confidence_limit l:Low_Confidence_Limit t:dataTypeName=number
 
-metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=number
+metric m:high_confidence_limit l:High_Confidence_Limit t:dataTypeName=number
 
 metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 

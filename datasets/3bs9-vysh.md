@@ -60,7 +60,7 @@ series e:3bs9-vysh d:2014-10-29T00:00:00.000Z t:account_desc="PROMOTIONAL MATERI
 ```ls
 metric m:item p:integer l:"Item #" t:dataTypeName=number
 
-metric m:amount p:float l:Amount t:dataTypeName=number
+metric m:amount l:Amount t:dataTypeName=number
 
 metric m:check p:integer l:"Check #" t:dataTypeName=number
 

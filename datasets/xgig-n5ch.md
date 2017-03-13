@@ -70,9 +70,9 @@ metric m:recipient_count_by_county p:integer l:"Recipient Count By County" d:"Co
 
 metric m:count_of_recipients_by_rate_code_group_and_county p:integer l:"Count Of Recipients By Rate Code Group And County" d:"Count of distinct Client Identification Numbers by rate code group and county." t:dataTypeName=number
 
-metric m:units_total p:integer l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: ?Notes? link at ?http://bi.omh.ny.gov/cmhp/mh-services?)" t:dataTypeName=number
+metric m:units_total l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: ?Notes? link at ?http://bi.omh.ny.gov/cmhp/mh-services?)" t:dataTypeName=number
 
-metric m:paid_claim_total p:integer l:"Paid Claim Total" d:"Sum of total payment or reimbursement amount for a claim or claim line." t:dataTypeName=number
+metric m:paid_claim_total l:"Paid Claim Total" d:"Sum of total payment or reimbursement amount for a claim or claim line." t:dataTypeName=number
 
 entity e:xgig-n5ch l:"County Mental Health Profiles: Beginning 2006" t:attribution="New York State Office of Mental Health" t:url=https://data.ny.gov/api/views/xgig-n5ch
 

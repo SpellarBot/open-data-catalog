@@ -75,23 +75,13 @@ metric m:mean_scale_score p:integer l:"Mean Scale Score" t:dataTypeName=number
 
 metric m:level_1_1 p:integer l:"Level 1 #" t:dataTypeName=number
 
-metric m:level_1_2 p:float l:"Level 1 %" t:dataTypeName=percent
-
 metric m:level_2_1 p:integer l:"Level 2 #" t:dataTypeName=number
-
-metric m:level_2_2 p:float l:"Level 2 %" t:dataTypeName=percent
 
 metric m:level_3_1 p:integer l:"Level 3 #" t:dataTypeName=number
 
-metric m:level_3_2 p:float l:"Level 3 %" t:dataTypeName=percent
-
 metric m:level_4_1 p:integer l:"Level 4 #" t:dataTypeName=number
 
-metric m:level_4_2 p:float l:"Level 4 %" t:dataTypeName=percent
-
 metric m:level_3_4_1 p:integer l:"Level 3+4 #" t:dataTypeName=number
-
-metric m:level_3_4_2 p:float l:"Level 3+4 %" t:dataTypeName=percent
 
 entity e:zpd4-gad8 l:"NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/zpd4-gad8
 

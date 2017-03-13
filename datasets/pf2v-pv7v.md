@@ -50,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:pf2v-pv7v d:2014-10-20T10:18:28.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=503-854-3366 t:facility="Detroit Lake  (Blowout Arm)" t:waterbody="Detroit Lake" t:name="USFS, Detroit Ranger District" t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:type="Floating Restroom" m:point_size=20
+series e:pf2v-pv7v d:2014-10-20T10:18:28.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=503-854-3366 t:facility="Detroit Lake  (Blowout Arm)" t:waterbody="Detroit Lake" t:name="USFS, Detroit Ranger District" t:type="Floating Restroom" m:point_size=20
 
-series e:pf2v-pv7v d:2014-10-20T10:21:27.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=541-776-7001 t:facility="Howard Prairie Reservoir" t:waterbody="Howard Praire Reservoir" t:name="Jackson County" t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:type="Floating Restroom" m:point_size=10
+series e:pf2v-pv7v d:2014-10-20T10:21:27.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=541-776-7001 t:facility="Howard Prairie Reservoir" t:waterbody="Howard Praire Reservoir" t:name="Jackson County" t:type="Floating Restroom" m:point_size=10
 
-series e:pf2v-pv7v d:2014-10-20T10:23:18.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=541-682-2000 t:facility="Siltcoos Lake" t:waterbody="Siltcoos Lake" t:name="Lane County" t:river_mile=--- t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:type="Floating Restroom" m:point_size=5
+series e:pf2v-pv7v d:2014-10-20T10:23:18.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=541-682-2000 t:facility="Siltcoos Lake" t:waterbody="Siltcoos Lake" t:name="Lane County" t:river_mile=--- t:type="Floating Restroom" m:point_size=5
 ```
 
 ## Meta Commands

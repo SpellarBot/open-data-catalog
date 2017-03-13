@@ -56,9 +56,9 @@ series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node
 ## Meta Commands
 
 ```ls
-metric m:point_x p:double l:POINT_X t:dataTypeName=number
+metric m:point_x l:POINT_X t:dataTypeName=number
 
-metric m:point_y p:double l:POINT_Y t:dataTypeName=number
+metric m:point_y l:POINT_Y t:dataTypeName=number
 
 entity e:jtgq-b7c5 l:"Stormwater inlets, drains and catch basins" t:url=https://data.sfgov.org/api/views/jtgq-b7c5
 

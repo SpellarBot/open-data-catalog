@@ -26,6 +26,7 @@ The department is court ordered to complete a home investigation to determine if
 ```ls
 | Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
 | ======== | ============== | ================ | ================ | ========= | =========== |
+| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | month            | Month            | text      | text        |
 | Yes      | numeric metric | output_demands   | Output Demands   | number    | number      |
 | Yes      | numeric metric | inputs           | Inputs           | number    | number      |
@@ -38,18 +39,18 @@ The department is court ordered to complete a home investigation to determine if
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:tjzn-e5cs d:2008-01-01T00:00:00.000Z t:month=Dec m:output_workloads=20 m:outcomes=20 m:inputs=240 m:effectiveness=6 m:efficiencies=6 m:output_demands=40
+series e:tjzn-e5cs d:2011-08-11T07:21:10.000Z t:month=Dec m:output_workloads=20 m:outcomes=20 m:inputs=240 m:effectiveness=6 m:efficiencies=6 m:output_demands=40
 
-series e:tjzn-e5cs d:2008-01-01T00:00:00.000Z t:month=Jan m:output_workloads=23 m:outcomes=23 m:inputs=184 m:effectiveness=8 m:efficiencies=8 m:output_demands=46
+series e:tjzn-e5cs d:2011-08-11T07:21:10.000Z t:month=Jan m:output_workloads=23 m:outcomes=23 m:inputs=184 m:effectiveness=8 m:efficiencies=8 m:output_demands=46
 
-series e:tjzn-e5cs d:2008-01-01T00:00:00.000Z t:month=Feb m:output_workloads=35 m:outcomes=35 m:inputs=280 m:effectiveness=4 m:efficiencies=4 m:output_demands=70
+series e:tjzn-e5cs d:2011-08-11T07:21:10.000Z t:month=Feb m:output_workloads=35 m:outcomes=35 m:inputs=280 m:effectiveness=4 m:efficiencies=4 m:output_demands=70
 ```
 
 ## Meta Commands

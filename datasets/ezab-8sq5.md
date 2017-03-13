@@ -34,10 +34,10 @@
 | Yes      | series tag     | topicdesc                  | TopicDesc                  | text      | text        |
 | Yes      | series tag     | measuredesc                | MeasureDesc                | text      | text        |
 | Yes      | series tag     | variable                   | Variable                   | text      | text        |
-| No       |                | data_value_unit            | Data_Value_Unit            | text      | text        |
+| No       |                | data_value_unit            | Data_Value_Unit            | number    | text        |
 | No       |                | data_value_type            | Data_Value_Type            | text      | text        |
 | Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
-| No       |                | data_value_footnote_symbol | Data_Value_Footnote_Symbol | text      | text        |
+| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
 | No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
 | Yes      | series tag     | topic_type_id              | Topic Type ID              | text      | text        |
 | Yes      | series tag     | topic_id                   | Topic ID                   | text      | text        |
@@ -56,7 +56,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,data_value_footnote,displayorder
+Excluded Fields = data_value_footnote,data_value_unit,data_value_type,displayorder
 ```
 
 ## Data Commands
@@ -72,7 +72,9 @@ series e:ezab-8sq5 d:2005-01-01T00:00:00.000Z t:locationabbr=AZ t:locationdesc=A
 ## Meta Commands
 
 ```ls
-metric m:data_value p:float l:Data_Value d:"Value of the data" t:dataTypeName=number
+metric m:data_value l:Data_Value d:"Value of the data" t:dataTypeName=number
+
+metric m:data_value_footnote_symbol l:Data_Value_Footnote_Symbol d:"Where applicable, the symbol associated with footnote text" t:dataTypeName=number
 
 entity e:ezab-8sq5 l:"Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)" t:url=https://chronicdata.cdc.gov/api/views/ezab-8sq5
 

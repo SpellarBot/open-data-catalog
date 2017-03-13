@@ -60,15 +60,11 @@ series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Asian t:age_sex=1
 ```ls
 metric m:count p:integer l:Count t:dataTypeName=number
 
-metric m:profile_percent p:float l:"Profile Percent" t:dataTypeName=percent
-
 metric m:male p:integer l:Male t:dataTypeName=number
 
 metric m:female p:integer l:Female t:dataTypeName=number
 
 metric m:total p:integer l:Total t:dataTypeName=number
-
-metric m:percent p:float l:Percent t:dataTypeName=percent
 
 entity e:dpg7-s6dp l:"William Mead Homes" t:attribution=HACLA t:url=https://data.lacity.org/api/views/dpg7-s6dp
 

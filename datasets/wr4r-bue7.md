@@ -66,19 +66,13 @@ series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:category=K-5 t:attribute_categor
 ```ls
 metric m:print_order p:integer l:Print_Order t:dataTypeName=number
 
-metric m:column_l_fy15_weight p:double l:"Column L: FY15 Weight" t:dataTypeName=number
-
-metric m:column_m_fy15_per_capita_no_ats_growth p:double l:"Column M: FY15 Per Capita (no ATS growth)" t:dataTypeName=money
+metric m:column_l_fy15_weight l:"Column L: FY15 Weight" t:dataTypeName=number
 
 metric m:column_n_fy14_actual_registers p:integer l:"Column N: FY14 Actual Registers" t:dataTypeName=number
 
 metric m:column_o_projected_register p:integer l:"Column O: Projected Register" t:dataTypeName=number
 
-metric m:column_p_projected_formula p:double l:"Column P: Projected Formula" t:dataTypeName=money
-
-metric m:column_q_register_change p:double l:"Column Q: Register Change" t:dataTypeName=number
-
-metric m:column_r_register_dollar_change p:double l:"Column R: Register Dollar Change" t:dataTypeName=money
+metric m:column_q_register_change l:"Column Q: Register Change" t:dataTypeName=number
 
 entity e:wr4r-bue7 l:"Fair Student Funding Budget Detail 1" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/wr4r-bue7
 

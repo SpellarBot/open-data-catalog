@@ -53,11 +53,9 @@ series e:wr52-jff7 d:2015-03-31T00:00:00.000Z m:of_shows=3 m:of_visitors=4585 m:
 ## Meta Commands
 
 ```ls
-metric m:revenue p:double l:Revenue t:dataTypeName=money
+metric m:of_shows l:"# of Shows" t:dataTypeName=number
 
-metric m:of_shows p:float l:"# of Shows" t:dataTypeName=number
-
-metric m:of_visitors p:float l:"# of Visitors" t:dataTypeName=number
+metric m:of_visitors l:"# of Visitors" t:dataTypeName=number
 
 entity e:wr52-jff7 l:"Thalia Mara Numbers" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/wr52-jff7
 

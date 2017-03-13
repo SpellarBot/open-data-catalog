@@ -29,6 +29,7 @@ http://publicpay.ca.gov/Reports/Cities/City.aspx?entityid=497&fiscalyear=2014
 ```ls
 | Included | Schema Type    | Field Name                   | Name                           | Data Type | Render Type |
 | ======== | ============== | ============================ | ============================== | ========= | =========== |
+| No       | time           | :updated_at                  | updated_at                     | meta_data | meta_data   |
 | Yes      | series tag     | position                     | Position                       | text      | text        |
 | Yes      | series tag     | department                   | Department                     | text      | text        |
 | Yes      | numeric metric | total_wages                  | Total Wages                    | money     | money       |
@@ -38,27 +39,23 @@ http://publicpay.ca.gov/Reports/Cities/City.aspx?entityid=497&fiscalyear=2014
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:4xtp-hh3v d:2014-01-01T00:00:00.000Z t:position="Activity Specialist" t:department="Recreation And Parks" m:total_retirement_health_cost=7 m:total_wages=12
+series e:4xtp-hh3v d:2016-02-09T17:04:11.000Z t:position="Activity Specialist" t:department="Recreation And Parks" m:total_retirement_health_cost=7 m:total_wages=12
 
-series e:4xtp-hh3v d:2014-01-01T00:00:00.000Z t:position="Activity Specialist" t:department="Recreation And Parks" m:total_retirement_health_cost=133 m:total_wages=706
+series e:4xtp-hh3v d:2016-02-09T17:04:11.000Z t:position="Activity Specialist" t:department="Recreation And Parks" m:total_retirement_health_cost=133 m:total_wages=706
 
-series e:4xtp-hh3v d:2014-01-01T00:00:00.000Z t:position="Police Technician" t:department="Police Department" m:total_retirement_health_cost=169 m:total_wages=1506
+series e:4xtp-hh3v d:2016-02-09T17:04:11.000Z t:position="Police Technician" t:department="Police Department" m:total_retirement_health_cost=169 m:total_wages=1506
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:total_wages p:integer l:"Total Wages" t:dataTypeName=money
-
-metric m:total_retirement_health_cost p:integer l:"Total Retirement & Health Cost" t:dataTypeName=money
-
 entity e:4xtp-hh3v l:"2014 Employee Wage Detail By Type" t:attribution="California State Controllers Office" t:url=https://data.srcity.org/api/views/4xtp-hh3v
 
 property e:4xtp-hh3v t:meta.view v:id=4xtp-hh3v v:category=Finances v:attributionLink="http://publicpay.ca.gov/Reports/Cities/City.aspx?entityid=497&fiscalyear=2014" v:averageRating=0 v:name="2014 Employee Wage Detail By Type" v:attribution="California State Controllers Office"

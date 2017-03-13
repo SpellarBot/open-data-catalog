@@ -23,6 +23,7 @@
 ```ls
 | Included | Schema Type    | Field Name         | Name                | Data Type | Render Type |
 | ======== | ============== | ================== | =================== | ========= | =========== |
+| No       | time           | :updated_at        | updated_at          | meta_data | meta_data   |
 | Yes      | series tag     | branch             | BRANCH              | text      | text        |
 | Yes      | numeric metric | no_of_transactions | No. of Transactions | number    | number      |
 | Yes      | numeric metric | no_of_customers    | No. of Customers    | number    | number      |
@@ -31,18 +32,18 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:aspx-imar d:2014-01-01T00:00:00.000Z t:branch="Middletown PLC" m:no_of_transactions=9065 m:no_of_customers=8574
+series e:aspx-imar d:2014-10-01T05:44:50.000Z t:branch="Middletown PLC" m:no_of_transactions=9065 m:no_of_customers=8574
 
-series e:aspx-imar d:2014-01-01T00:00:00.000Z t:branch="Milford PLC" m:no_of_transactions=13506 m:no_of_customers=12757
+series e:aspx-imar d:2014-10-01T05:44:50.000Z t:branch="Milford PLC" m:no_of_transactions=13506 m:no_of_customers=12757
 
-series e:aspx-imar d:2014-01-01T00:00:00.000Z t:branch="Derby PLC" m:no_of_transactions=16588 m:no_of_customers=15325
+series e:aspx-imar d:2014-10-01T05:44:50.000Z t:branch="Derby PLC" m:no_of_transactions=16588 m:no_of_customers=15325
 ```
 
 ## Meta Commands

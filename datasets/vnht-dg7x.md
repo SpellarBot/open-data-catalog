@@ -31,7 +31,7 @@ This data comes from a survey conducted by the New Orleans Crime Coalition's Cit
 | Yes      | series tag     | indicatorname  | IndicatorName  | text          | text          |
 | Yes      | series tag     | indicatorlabel | IndicatorLabel | text          | text          |
 | Yes      | time           | date           | Date           | calendar_date | calendar_date |
-| No       |                | datelabel      | DateLabel      | text          | text          |
+| Yes      | series tag     | datelabel      | DateLabel      | text          | text          |
 | No       |                | month          | Month          | text          | text          |
 | No       |                | year           | Year           | number        | number        |
 | Yes      | numeric metric | indicatorvalue | IndicatorValue | number        | number        |
@@ -47,17 +47,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = datelabel,year,month
+Excluded Fields = month,year
 ```
 
 ## Data Commands
 
 ```ls
-series e:vnht-dg7x d:2009-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=33
+series e:vnht-dg7x d:2009-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:datelabel="Aug, 2009" t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=33
 
-series e:vnht-dg7x d:2010-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2010" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=50
+series e:vnht-dg7x d:2010-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:datelabel="Aug, 2010" t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2010" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=50
 
-series e:vnht-dg7x d:2011-02-01T00:00:00.000Z t:indicatorlabel=Satisfied t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2011" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=60
+series e:vnht-dg7x d:2011-02-01T00:00:00.000Z t:indicatorlabel=Satisfied t:datelabel="Feb, 2011" t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2011" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=60
 ```
 
 ## Meta Commands

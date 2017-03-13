@@ -234,7 +234,7 @@ series e:3m6x-h3qa d:2015-10-29T14:23:21.000Z t:number_of_people_age_6_17=1 t:nu
 ## Meta Commands
 
 ```ls
-metric m:survey_weight p:float l:"Survey Weight" d:"Computed survey weight, based on climate zone, new/existing construction, and single family or tenant dwelling type" t:dataTypeName=number
+metric m:survey_weight l:"Survey Weight" d:"Computed survey weight, based on climate zone, new/existing construction, and single family or tenant dwelling type" t:dataTypeName=number
 
 entity e:3m6x-h3qa l:"RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey" t:attribution="The New York State Energy Research and Development Authority Performance and Market Standards Group" t:url=https://data.ny.gov/api/views/3m6x-h3qa
 

@@ -15,7 +15,7 @@
 | Tags | police, stop, search, field interview |
 | Created | 2015-07-10T16:01:09Z |
 | Publication Date | 2016-04-17T06:24:07Z |
-| Rows Updated | 2017-03-13T05:31:05Z |
+| Rows Updated | 2017-03-12T06:31:35Z |
 
 ## Description
 
@@ -30,7 +30,7 @@ A subset of data collected when individuals are interviewed by NOPD Officers (in
 | Yes      | series tag     | nopd_item             | NOPD_Item             | text          | text          |
 | Yes      | time           | eventdate             | EventDate             | calendar_date | calendar_date |
 | Yes      | series tag     | district              | District              | text          | number        |
-| Yes      | series tag     | zone                  | Zone                  | text          | text          |
+| Yes      | numeric metric | zone                  | Zone                  | number        | text          |
 | Yes      | series tag     | officerassignment     | OfficerAssignment     | text          | text          |
 | Yes      | series tag     | stopdescription       | StopDescription       | text          | text          |
 | Yes      | series tag     | actionstaken          | ActionsTaken          | text          | text          |
@@ -67,7 +67,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = createddatetime,lastmodifieddatetime,longitude,latitude,vehicleyear
+Excluded Fields = lastmodifieddatetime,createddatetime,longitude,latitude,vehicleyear
 ```
 
 ## Data Commands
@@ -87,7 +87,7 @@ metric m:subjectage p:integer l:SubjectAge t:dataTypeName=number
 
 metric m:subjectheight p:integer l:SubjectHeight t:dataTypeName=number
 
-metric m:subjectweight p:integer l:SubjectWeight t:dataTypeName=number
+metric m:subjectweight l:SubjectWeight t:dataTypeName=number
 
 entity e:kitu-f4uy l:"Stop and Search (Field Interviews)" t:url=https://data.nola.gov/api/views/kitu-f4uy
 

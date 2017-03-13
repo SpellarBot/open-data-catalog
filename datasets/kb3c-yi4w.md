@@ -29,6 +29,7 @@ Local property tax mill rates have been set for individual Connecticut municipal
 ```ls
 | Included | Schema Type    | Field Name                                                    | Name                                                                | Data Type | Render Type |
 | ======== | ============== | ============================================================= | =================================================================== | ========= | =========== |
+| No       | time           | :updated_at                                                   | updated_at                                                          | meta_data | meta_data   |
 | Yes      | numeric metric | code                                                          | Code                                                                | number    | number      |
 | Yes      | series tag     | service_district_code                                         | Service District Code                                               | text      | number      |
 | Yes      | series tag     | municipality                                                  | Municipality                                                        | text      | text        |
@@ -40,18 +41,18 @@ Local property tax mill rates have been set for individual Connecticut municipal
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Andover t:service_district_code=0 m:fy_2017_mill_rate=30.72 m:code=1
+series e:kb3c-yi4w d:2017-01-30T20:30:48.000Z t:municipality=Andover t:service_district_code=0 m:fy_2017_mill_rate=30.72 m:code=1
 
-series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Ansonia t:service_district_code=0 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=37 m:code=2 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=37.32
+series e:kb3c-yi4w d:2017-01-30T20:30:48.000Z t:municipality=Ansonia t:service_district_code=0 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=37 m:code=2 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=37.32
 
-series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Ashford t:service_district_code=0 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=32 m:code=3 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=32.368
+series e:kb3c-yi4w d:2017-01-30T20:30:48.000Z t:municipality=Ashford t:service_district_code=0 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=32 m:code=3 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=32.368
 ```
 
 ## Meta Commands
@@ -59,11 +60,11 @@ series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Ashford t:service_d
 ```ls
 metric m:code p:integer l:Code t:dataTypeName=number
 
-metric m:fy_2017_mill_rate p:float l:"FY 2017 Mill Rate" t:dataTypeName=number
+metric m:fy_2017_mill_rate l:"FY 2017 Mill Rate" t:dataTypeName=number
 
-metric m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss p:float l:"FY 2017 Mill Rate - Real & Personal Property (PA 16-3 S.189 May SS)" t:dataTypeName=number
+metric m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss l:"FY 2017 Mill Rate - Real & Personal Property (PA 16-3 S.189 May SS)" t:dataTypeName=number
 
-metric m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss p:float l:"FY 2017 Mill Rate - Motor Vehicle (PA 16-3 S.189 May SS)" t:dataTypeName=number
+metric m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss l:"FY 2017 Mill Rate - Motor Vehicle (PA 16-3 S.189 May SS)" t:dataTypeName=number
 
 entity e:kb3c-yi4w l:"Mill Rates for 2017 Fiscal Year" t:attribution="Office of Policy and Managment" t:url=https://data.ct.gov/api/views/kb3c-yi4w
 

@@ -43,9 +43,9 @@ This layer contains the archived records for survey markers that are considered 
 | Yes      | series tag     | owner             | OWNER             | text      | text        |
 | Yes      | series tag     | date_added        | DATE_ADDED        | text      | text        |
 | Yes      | series tag     | uploader_name     | UPLOADER_NAME     | text      | text        |
-| Yes      | series tag     | precision_quality | PRECISION_QUALITY | text      | text        |
-| Yes      | series tag     | ls_certified      | LS_CERTIFIED      | text      | text        |
-| Yes      | series tag     | status            | STATUS            | text      | text        |
+| Yes      | numeric metric | precision_quality | PRECISION_QUALITY | number    | text        |
+| Yes      | numeric metric | ls_certified      | LS_CERTIFIED      | number    | text        |
+| Yes      | numeric metric | status            | STATUS            | number    | text        |
 | Yes      | time           | capturedateyear   | CAPTUREDATEYEAR   | number    | number      |
 | Yes      | numeric metric | capturedatemonth  | CAPTUREDATEMONTH  | number    | number      |
 | Yes      | numeric metric | capturedateday    | CAPTUREDATEDAY    | number    | number      |
@@ -61,7 +61,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = id,xcoord,ycoord
+Excluded Fields = id,ycoord,xcoord
 ```
 
 ## Data Commands
@@ -77,7 +77,7 @@ series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:feature_type=CP t:status=R t:pro
 ## Meta Commands
 
 ```ls
-metric m:zcoord p:decimal l:ZCOORD d:"Z Coordinate" t:dataTypeName=number
+metric m:zcoord l:ZCOORD d:"Z Coordinate" t:dataTypeName=number
 
 metric m:capturedatemonth p:integer l:CAPTUREDATEMONTH d:"Capture Date - Month" t:dataTypeName=number
 

@@ -28,7 +28,7 @@ The Security Department ensures the safety and security of patrons, employees an
 | Included | Schema Type    | Field Name  | Name        | Data Type | Render Type |
 | ======== | ============== | =========== | =========== | ========= | =========== |
 | No       | time           | :updated_at | updated_at  | meta_data | meta_data   |
-| No       |                | week        | Week        | text      | text        |
+| Yes      | series tag     | week        | Week        | text      | text        |
 | Yes      | numeric metric | park_checks | Park Checks | number    | number      |
 ```
 
@@ -39,20 +39,14 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = week
-```
-
 ## Data Commands
 
 ```ls
-series e:wrvx-zpw5 d:2011-12-23T15:38:00.000Z m:park_checks=2505
+series e:wrvx-zpw5 d:2011-12-23T15:38:00.000Z t:week=07/16/2011 m:park_checks=2505
 
-series e:wrvx-zpw5 d:2011-12-23T15:38:03.000Z m:park_checks=2237
+series e:wrvx-zpw5 d:2011-12-23T15:38:03.000Z t:week=07/23/2011 m:park_checks=2237
 
-series e:wrvx-zpw5 d:2011-12-23T15:38:04.000Z m:park_checks=2237
+series e:wrvx-zpw5 d:2011-12-23T15:38:04.000Z t:week=07/30/2011 m:park_checks=2237
 ```
 
 ## Meta Commands

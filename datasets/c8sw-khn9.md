@@ -63,12 +63,6 @@ series e:c8sw-khn9 d:2016-06-30T00:00:00.000Z t:county=Clackamas t:purpose_and_u
 ## Meta Commands
 
 ```ls
-metric m:amount_of_money_received p:double l:"Amount of Money Received ($)" t:dataTypeName=money
-
-metric m:amount_of_money_expended p:double l:"Amount of Money Expended ($)" t:dataTypeName=money
-
-metric m:amount_of_money_expended_on_administration p:double l:"Amount of Money Expended on Administration ($)" t:dataTypeName=money
-
 entity e:c8sw-khn9 l:"County Lottery Fund Expenditures: 2015-2016 Composite" t:url=https://data.oregon.gov/api/views/c8sw-khn9
 
 property e:c8sw-khn9 t:meta.view v:id=c8sw-khn9 v:category="Revenue & Expense" v:averageRating=0 v:name="County Lottery Fund Expenditures: 2015-2016 Composite"

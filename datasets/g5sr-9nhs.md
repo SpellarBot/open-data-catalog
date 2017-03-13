@@ -113,11 +113,11 @@ metric m:bp_form p:integer l:BP_FORM t:dataTypeName=number
 
 metric m:units p:integer l:UNITS t:dataTypeName=number
 
-metric m:unitsnet p:integer l:UNITSNET t:dataTypeName=number
+metric m:unitsnet l:UNITSNET t:dataTypeName=number
 
 metric m:aff p:integer l:AFF t:dataTypeName=number
 
-metric m:affnet p:integer l:AFFNET t:dataTypeName=number
+metric m:affnet l:AFFNET t:dataTypeName=number
 
 metric m:senior_hsg p:integer l:SENIOR_HSG t:dataTypeName=number
 
@@ -131,39 +131,37 @@ metric m:demolition p:integer l:DEMOLITION t:dataTypeName=number
 
 metric m:changeofus p:integer l:CHANGEOFUSE t:dataTypeName=number
 
-metric m:cost p:double l:COST t:dataTypeName=money
-
 metric m:total_gsf p:integer l:TOTAL_GSF t:dataTypeName=number
 
-metric m:net_gsf p:integer l:NET_GSF t:dataTypeName=number
+metric m:net_gsf l:NET_GSF t:dataTypeName=number
 
 metric m:cie p:integer l:CIE t:dataTypeName=number
 
-metric m:cienet p:integer l:CIENET t:dataTypeName=number
+metric m:cienet l:CIENET t:dataTypeName=number
 
 metric m:med p:integer l:MED t:dataTypeName=number
 
-metric m:mednet p:integer l:MEDNET t:dataTypeName=number
+metric m:mednet l:MEDNET t:dataTypeName=number
 
 metric m:mips p:integer l:MIPS t:dataTypeName=number
 
-metric m:mipsnet p:integer l:MIPSNET t:dataTypeName=number
+metric m:mipsnet l:MIPSNET t:dataTypeName=number
 
 metric m:pdr p:integer l:PDR t:dataTypeName=number
 
-metric m:pdrnet p:integer l:PDRNET t:dataTypeName=number
+metric m:pdrnet l:PDRNET t:dataTypeName=number
 
 metric m:ret p:integer l:RET t:dataTypeName=number
 
-metric m:retnet p:integer l:RETNET t:dataTypeName=number
+metric m:retnet l:RETNET t:dataTypeName=number
 
 metric m:visit p:integer l:VISIT t:dataTypeName=number
 
-metric m:visitnet p:integer l:VISITNET t:dataTypeName=number
+metric m:visitnet l:VISITNET t:dataTypeName=number
 
 metric m:hotelrm p:integer l:HOTELRM t:dataTypeName=number
 
-metric m:hotelrmnet p:integer l:HOTELRMNET t:dataTypeName=number
+metric m:hotelrmnet l:HOTELRMNET t:dataTypeName=number
 
 metric m:multi p:integer l:MULTI d:"project with multiple building permits; part of a phased project" t:dataTypeName=number
 

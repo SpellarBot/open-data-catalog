@@ -22,6 +22,7 @@
 ```ls
 | Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
 | ======== | ============== | =================== | =================== | ========= | =========== |
+| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
 | Yes      | series tag     | dept                | Dept                | text      | text        |
 | Yes      | numeric metric | number_of_employees | Number of Employees | number    | number      |
 | Yes      | numeric metric | total_cost          | Total Cost          | money     | money       |
@@ -30,26 +31,24 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Data Commands
 
 ```ls
-series e:itxz-7spz d:2012-01-01T00:00:00.000Z t:dept=002 m:number_of_employees=10 m:total_cost=10114.05
+series e:itxz-7spz d:2012-08-03T08:17:35.000Z t:dept=002 m:number_of_employees=10 m:total_cost=10114.05
 
-series e:itxz-7spz d:2012-01-01T00:00:00.000Z t:dept=007 m:number_of_employees=38 m:total_cost=33177.28
+series e:itxz-7spz d:2012-08-03T08:17:35.000Z t:dept=007 m:number_of_employees=38 m:total_cost=33177.28
 
-series e:itxz-7spz d:2012-01-01T00:00:00.000Z t:dept=008 m:number_of_employees=22 m:total_cost=24649.37
+series e:itxz-7spz d:2012-08-03T08:17:35.000Z t:dept=008 m:number_of_employees=22 m:total_cost=24649.37
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:number_of_employees p:integer l:"Number of Employees" t:dataTypeName=number
-
-metric m:total_cost p:double l:"Total Cost" t:dataTypeName=money
 
 entity e:itxz-7spz l:"Risk Management - Employee Healthcare Costs by Department - June 2012" t:attribution="Cook County Department of Risk Management" t:url=https://datacatalog.cookcountyil.gov/api/views/itxz-7spz
 

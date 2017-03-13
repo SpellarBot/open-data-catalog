@@ -59,15 +59,15 @@ metric m:estuary_acres_treated p:integer l:"Estuary Acres Treated" t:dataTypeNam
 
 metric m:estuary_projects p:integer l:"Estuary Projects" t:dataTypeName=number
 
-metric m:riparian_acres_treated p:float l:"Riparian Acres Treated" t:dataTypeName=number
+metric m:riparian_acres_treated l:"Riparian Acres Treated" t:dataTypeName=number
 
 metric m:riparian_acre_projects p:integer l:"Riparian Acre Projects" t:dataTypeName=number
 
-metric m:riparian_miles_treated p:float l:"Riparian Miles Treated" t:dataTypeName=number
+metric m:riparian_miles_treated l:"Riparian Miles Treated" t:dataTypeName=number
 
 metric m:riparian_mile_projects p:integer l:"Riparian Mile Projects" t:dataTypeName=number
 
-metric m:stream_miles_opened p:float l:"Stream Miles Opened" t:dataTypeName=number
+metric m:stream_miles_opened l:"Stream Miles Opened" t:dataTypeName=number
 
 metric m:stream_mile_projects p:integer l:"Stream Mile Projects" t:dataTypeName=number
 

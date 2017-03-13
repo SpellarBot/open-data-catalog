@@ -40,7 +40,7 @@ Format & Zone = yyyy-MMMM
 ## Series Fields
 
 ```ls
-Excluded Fields = year,month
+Excluded Fields = month,year
 ```
 
 ## Data Commands

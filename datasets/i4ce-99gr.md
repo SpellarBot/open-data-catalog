@@ -25,7 +25,7 @@
 | Yes      | series tag     | prog_id_org        | Prog ID/Org         | text          | text          |
 | Yes      | series tag     | position_number    | Position Number     | text          | text          |
 | Yes      | series tag     | perm_temp_j1a      | Perm/Temp/J1A       | text          | text          |
-| Yes      | series tag     | mof                | MOF                 | text          | text          |
+| Yes      | numeric metric | mof                | MOF                 | number        | text          |
 | Yes      | series tag     | position_title     | Position Title      | text          | text          |
 | Yes      | numeric metric | fy_12_fte          | FY 12 FTE           | number        | number        |
 | Yes      | numeric metric | fy_12_salary       | FY 12 Salary        | money         | money         |
@@ -54,31 +54,23 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:i4ce-99gr d:2017-03-13T14:57:34.220Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=60 m:fy_14_salary=0 m:fy_12_salary=12926 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2017-03-12T11:15:23.673Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=60 m:fy_14_salary=0 m:fy_12_salary=12926 m:fy_15_salary=0 m:fy_13_salary=0
 
-series e:i4ce-99gr d:2017-03-13T14:57:34.220Z t:mof=B t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=61 m:fy_14_salary=0 m:fy_12_salary=21265 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2017-03-12T11:15:23.673Z t:mof=B t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=61 m:fy_14_salary=0 m:fy_12_salary=21265 m:fy_15_salary=0 m:fy_13_salary=0
 
-series e:i4ce-99gr d:2017-03-13T14:57:34.220Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=HMS t:position_title="RIF SAVINGS" t:source_file_header="Act 134, SLH 2013 -  HMS Personal Services" t:prog_id_org=HMS301SA t:position_number=975 m:fy_14_salary=0 m:fy_12_salary=2759573 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2017-03-12T11:15:23.673Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=HMS t:position_title="RIF SAVINGS" t:source_file_header="Act 134, SLH 2013 -  HMS Personal Services" t:prog_id_org=HMS301SA t:position_number=975 m:fy_14_salary=0 m:fy_12_salary=2759573 m:fy_15_salary=0 m:fy_13_salary=0
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:fy_12_fte p:float l:"FY 12 FTE" t:dataTypeName=number
+metric m:fy_12_fte l:"FY 12 FTE" t:dataTypeName=number
 
-metric m:fy_12_salary p:double l:"FY 12 Salary" t:dataTypeName=money
+metric m:fy_13_fte l:"FY 13 FTE" t:dataTypeName=number
 
-metric m:fy_13_fte p:float l:"FY 13 FTE" t:dataTypeName=number
+metric m:fy_14_fte l:"FY 14 FTE" t:dataTypeName=number
 
-metric m:fy_13_salary p:double l:"FY 13 Salary" t:dataTypeName=money
-
-metric m:fy_14_fte p:float l:"FY 14 FTE" t:dataTypeName=number
-
-metric m:fy_14_salary p:double l:"FY 14 Salary" t:dataTypeName=money
-
-metric m:fy_15_fte p:float l:"FY 15 FTE" t:dataTypeName=number
-
-metric m:fy_15_salary p:double l:"FY 15 Salary" t:dataTypeName=money
+metric m:fy_15_fte l:"FY 15 FTE" t:dataTypeName=number
 
 entity e:i4ce-99gr l:"Budget Table - J1 (Salary and FTE)" t:url=https://data.hawaii.gov/api/views/i4ce-99gr
 

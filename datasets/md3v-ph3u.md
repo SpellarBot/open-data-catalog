@@ -55,7 +55,7 @@ series e:md3v-ph3u d:2016-03-22T07:00:32.000Z t:dvr_name=15091 t:media_local_sta
 ## Meta Commands
 
 ```ls
-metric m:duration p:integer l:duration t:dataTypeName=number
+metric m:duration l:duration t:dataTypeName=number
 
 metric m:media_size_mb p:integer l:media_size_mb t:dataTypeName=number
 

@@ -32,18 +32,18 @@
 | Yes      | series tag     | locationdesc               | LocationDesc               | text      | text        |
 | Yes      | series tag     | datasource                 | DataSource                 | text      | text        |
 | Yes      | series tag     | priorityarea1              | PriorityArea1              | text      | text        |
-| Yes      | series tag     | priorityarea2              | PriorityArea2              | text      | text        |
+| Yes      | numeric metric | priorityarea2              | PriorityArea2              | number    | text        |
 | Yes      | series tag     | priorityarea3              | PriorityArea3              | text      | text        |
-| Yes      | series tag     | priorityarea4              | PriorityArea4              | text      | text        |
+| Yes      | numeric metric | priorityarea4              | PriorityArea4              | number    | text        |
 | Yes      | series tag     | category                   | Category                   | text      | text        |
 | Yes      | series tag     | topic                      | Topic                      | text      | text        |
 | Yes      | series tag     | indicator                  | Indicator                  | text      | text        |
 | Yes      | series tag     | break_out_category         | Break_Out_Category         | text      | text        |
 | Yes      | series tag     | break_out                  | Break_Out                  | text      | text        |
 | No       |                | data_value_type            | Data_Value_Type            | text      | text        |
-| No       |                | data_value_unit            | Data_Value_Unit            | text      | text        |
+| No       |                | data_value_unit            | Data_Value_Unit            | number    | text        |
 | Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
-| No       |                | data_value_footnote_symbol | Data_Value_Footnote_Symbol | text      | text        |
+| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
 | No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
 | Yes      | numeric metric | confidence_limit_low       | Confidence_limit_Low       | number    | number      |
 | Yes      | numeric metric | confidence_limit_high      | Confidence_limit_High      | number    | number      |
@@ -65,7 +65,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_type,data_value_unit,data_value_footnote_symbol,data_value_footnote
+Excluded Fields = data_value_footnote,data_value_unit,data_value_type
 ```
 
 ## Data Commands
@@ -81,11 +81,13 @@ series e:ntny-77fx d:2004-01-01T00:00:00.000Z t:topic="Major Cardiovascular Dise
 ## Meta Commands
 
 ```ls
-metric m:data_value p:float l:Data_Value d:"Data value (point estimate)" t:dataTypeName=number
+metric m:data_value l:Data_Value d:"Data value (point estimate)" t:dataTypeName=number
 
-metric m:confidence_limit_low p:float l:Confidence_limit_Low d:"95% confidence interval lower bound" t:dataTypeName=number
+metric m:data_value_footnote_symbol l:Data_Value_Footnote_Symbol d:"Symbol that would be used to flag footnotes" t:dataTypeName=number
 
-metric m:confidence_limit_high p:float l:Confidence_limit_High d:"95% confidence interval upper bound" t:dataTypeName=number
+metric m:confidence_limit_low l:Confidence_limit_Low d:"95% confidence interval lower bound" t:dataTypeName=number
+
+metric m:confidence_limit_high l:Confidence_limit_High d:"95% confidence interval upper bound" t:dataTypeName=number
 
 entity e:ntny-77fx l:"Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System" t:url=https://chronicdata.cdc.gov/api/views/ntny-77fx
 
