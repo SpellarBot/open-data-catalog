@@ -57,7 +57,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = longitude,latitude
+Excluded Fields = latitude,longitude
 ```
 
 ## Data Commands

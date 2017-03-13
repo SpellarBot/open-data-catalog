@@ -27,7 +27,6 @@ Rate of deaths by age/gender (per 100,000 population) for people killed in crash
 ```ls
 | Included | Schema Type    | Field Name      | Name             | Data Type | Render Type |
 | ======== | ============== | =============== | ================ | ========= | =========== |
-| No       | time           | :updated_at     | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | state           | State            | text      | text        |
 | Yes      | numeric metric | all_ages        | All Ages, 2012   | number    | number      |
 | Yes      | numeric metric | ages_0_20       | Ages 0-20, 2012  | number    | number      |
@@ -46,18 +45,18 @@ Rate of deaths by age/gender (per 100,000 population) for people killed in crash
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:28km-nz6e d:2016-09-14T15:16:34.000Z t:state="United States" m:ages_21_34_2014=6.2 m:ages_0_20_2014=1.2 m:male_2014=4.9 m:female_2014=1.4 m:female=1.5 m:ages_21_34=6.7 m:male=5.2 m:ages_0_20=1.3 m:ages_35=3.1 m:all_ages_2014=3.1 m:all_ages=3.3 m:ages_35_2014=3
+series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state="United States" m:ages_21_34_2014=6.2 m:ages_0_20_2014=1.2 m:male_2014=4.9 m:female_2014=1.4 m:female=1.5 m:ages_21_34=6.7 m:male=5.2 m:ages_0_20=1.3 m:ages_35=3.1 m:all_ages_2014=3.1 m:all_ages=3.3 m:ages_35_2014=3
 
-series e:28km-nz6e d:2016-09-14T15:16:37.000Z t:state=Alabama m:ages_21_34_2014=10 m:ages_0_20_2014=2.1 m:male_2014=8.6 m:female_2014=2.6 m:female=2.9 m:ages_21_34=10.3 m:male=8.4 m:ages_0_20=2.7 m:ages_35=5 m:all_ages_2014=5.5 m:all_ages=5.5 m:ages_35_2014=5.5
+series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state=Alabama m:ages_21_34_2014=10 m:ages_0_20_2014=2.1 m:male_2014=8.6 m:female_2014=2.6 m:female=2.9 m:ages_21_34=10.3 m:male=8.4 m:ages_0_20=2.7 m:ages_35=5 m:all_ages_2014=5.5 m:all_ages=5.5 m:ages_35_2014=5.5
 
-series e:28km-nz6e d:2016-09-14T15:16:38.000Z t:state=Florida m:ages_21_34_2014=7.4 m:ages_0_20_2014=1.2 m:male_2014=5.4 m:female_2014=1.7 m:female=1.7 m:ages_21_34=8 m:male=5.7 m:ages_0_20=1.2 m:ages_35=3.3 m:all_ages_2014=3.5 m:all_ages=3.7 m:ages_35_2014=3.1
+series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state=Florida m:ages_21_34_2014=7.4 m:ages_0_20_2014=1.2 m:male_2014=5.4 m:female_2014=1.7 m:female=1.7 m:ages_21_34=8 m:male=5.7 m:ages_0_20=1.2 m:ages_35=3.3 m:all_ages_2014=3.5 m:all_ages=3.7 m:ages_35_2014=3.1
 ```
 
 ## Meta Commands

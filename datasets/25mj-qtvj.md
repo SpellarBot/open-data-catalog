@@ -27,7 +27,7 @@ Salaries of state work force sorted by agency - 2016. For more information go to
 | Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
 | ======== | ============== | ============== | ============== | ========= | =========== |
 | Yes      | time           | fiscal_year    | FISCAL YEAR    | number    | number      |
-| Yes      | numeric metric | agency         | AGENCY #       | number    | text        |
+| Yes      | series tag     | agency         | AGENCY #       | text      | text        |
 | Yes      | series tag     | agency_title   | AGENCY TITLE   | text      | text        |
 | Yes      | series tag     | classification | CLASSIFICATION | text      | text        |
 | Yes      | series tag     | service_type   | SERVICE TYPE   | text      | text        |
@@ -45,19 +45,17 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type="AGENCY HEAD" t:classification="PRINCIPAL EXECUTIVE/MANAGER D" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:full_part_time=FULL-TIME m:annual_salary=96036 m:agency=12000
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type="AGENCY HEAD" t:classification="PRINCIPAL EXECUTIVE/MANAGER D" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=96036
 
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="OFFICE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:full_part_time=FULL-TIME m:annual_salary=38712 m:agency=12000
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="OFFICE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=38712
 
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="ADMINISTRATIVE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:full_part_time=FULL-TIME m:annual_salary=35268 m:agency=12000
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="ADMINISTRATIVE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=35268
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:agency p:integer l:"AGENCY #" t:dataTypeName=number
-
-metric m:annual_salary p:float l:"ANNUAL SALARY" t:dataTypeName=money
+metric m:annual_salary p:double l:"ANNUAL SALARY" t:dataTypeName=money
 
 entity e:25mj-qtvj l:"Salaries of State Agencies FY 2016" t:url=https://data.oregon.gov/api/views/25mj-qtvj
 

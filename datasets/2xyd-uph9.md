@@ -25,7 +25,6 @@ Data that shows every dollar received by the State of Missouri to date under the
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
 | ======== | ============== | =============== | =============== | ========= | =========== |
-| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | agency_name     | Agency Name     | text      | text        |
 | Yes      | series tag     | program_name    | Program Name    | text      | text        |
 | Yes      | numeric metric | amount_received | Amount Received | money     | money       |
@@ -34,18 +33,18 @@ Data that shows every dollar received by the State of Missouri to date under the
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:2xyd-uph9 d:2014-12-02T10:50:18.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE m:amount_received=111849.21
+series e:2xyd-uph9 d:2014-01-01T00:00:00.000Z t:program_name="AQUACULTURE ASSISTANCE PROGRAM" t:agency_name=AGRICULTURE m:amount_received=111849.21
 
-series e:2xyd-uph9 d:2014-12-02T10:50:18.000Z t:program_name="ENERGY EFFIC/RENEW ENERGY - CONS BLO" t:agency_name=AGRICULTURE m:amount_received=5000000
+series e:2xyd-uph9 d:2014-01-01T00:00:00.000Z t:program_name="ENERGY EFFIC/RENEW ENERGY - CONS BLO" t:agency_name=AGRICULTURE m:amount_received=5000000
 
-series e:2xyd-uph9 d:2014-12-02T10:50:18.000Z t:program_name="FISH AND WILDLIFE SERVICE" t:agency_name=CONSERVATION m:amount_received=144900
+series e:2xyd-uph9 d:2014-01-01T00:00:00.000Z t:program_name="FISH AND WILDLIFE SERVICE" t:agency_name=CONSERVATION m:amount_received=144900
 ```
 
 ## Meta Commands
