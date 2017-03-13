@@ -25,7 +25,7 @@
 | ======== | ============== | ========================= | ========================= | ============= | ============= |
 | Yes      | series tag     | prefix                    | Prefix                    | text          | text          |
 | Yes      | numeric metric | yrmo                      | YRMO                      | number        | number        |
-| Yes      | numeric metric | seq_number                | Seq Number                | number        | number        |
+| Yes      | series tag     | seq_number                | Seq Number                | text          | number        |
 | Yes      | series tag     | permit_number             | Permit Number             | text          | text          |
 | Yes      | series tag     | application_number        | Application Number        | text          | text          |
 | Yes      | series tag     | plancheck_number          | Plancheck Number          | text          | text          |
@@ -119,19 +119,17 @@ Excluded Fields = approved,issued,finaled
 ## Data Commands
 
 ```ls
-series e:m3fm-fpwu d:2006-08-18T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=HVAC t:site_zip=61820 t:owner_name="SALVATION ARMY" t:site_state=IL t:status=FINALED t:applied_by=VPA t:site_number=2212 t:applicant_name="Getz Fire Equipment" t:record_id=CRW_00612712 t:issued_by=VPA t:permit_number=BS06-3766 t:site_street_name="N MARKET" t:approved_by=VPA t:location_record_id=KR:512021404000034 t:contractor_name="Getz Fire Equipment" t:site_apn=462106101008 t:finaled_by=CRL t:description=SUPPRESSION t:site_tract=CI t:prefix=BS t:permit_subtype=Alteration t:parent_permit_number=BS06-1438 t:site_street_id=0 m:building_square_footage=22465 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=300 m:seq_number=3766 m:height=0 m:pin=0 m:fees_charged=45 m:fees_paid=45 m:number_of_units=2 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
+series e:m3fm-fpwu d:2006-08-18T00:00:00.000Z t:site_zip=61820 t:owner_name="SALVATION ARMY" t:applied_by=VPA t:applicant_name="Getz Fire Equipment" t:issued_by=VPA t:record_id=CRW_00612712 t:seq_number=3766 t:location_record_id=KR:512021404000034 t:finaled_by=CRL t:contractor_name="Getz Fire Equipment" t:site_tract=CI t:description=SUPPRESSION t:permit_subtype=Alteration t:site_street_id=0 t:site_city=CHAMPAIGN t:permit_type=HVAC t:status=FINALED t:site_state=IL t:site_number=2212 t:permit_number=BS06-3766 t:site_street_name="N MARKET" t:approved_by=VPA t:site_apn=462106101008 t:prefix=BS t:parent_permit_number=BS06-1438 m:building_square_footage=22465 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=300 m:height=0 m:pin=0 m:fees_charged=45 m:fees_paid=45 m:number_of_units=2 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
 
-series e:m3fm-fpwu d:2006-06-23T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=PLUMBING t:owner_name="MACFARLANE, ROBERT F" t:site_state=IL t:status=FINALED t:applied_by=VPA t:site_number=1017 t:applicant_name="Clark Plbg. & Htg." t:record_id=CRW_00623666 t:issued_by=VPA t:permit_number=BS06-2853 t:site_street_name="LINCOLNSHIRE DR" t:location_record_id=CRW_00810880 t:approved_by=VPA t:contractor_name="Clark Plbg. & Htg." t:site_apn=452023226001 t:finaled_by=MPE t:description="BACKFLOW PREVENTOR" t:prefix=BS t:permit_subtype=New t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:seq_number=2853 m:height=0 m:pin=0 m:fees_charged=35 m:fees_paid=35 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
+series e:m3fm-fpwu d:2006-06-23T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=PLUMBING t:owner_name="MACFARLANE, ROBERT F" t:site_state=IL t:status=FINALED t:applied_by=VPA t:site_number=1017 t:applicant_name="Clark Plbg. & Htg." t:record_id=CRW_00623666 t:issued_by=VPA t:seq_number=2853 t:permit_number=BS06-2853 t:site_street_name="LINCOLNSHIRE DR" t:approved_by=VPA t:location_record_id=CRW_00810880 t:contractor_name="Clark Plbg. & Htg." t:site_apn=452023226001 t:finaled_by=MPE t:description="BACKFLOW PREVENTOR" t:prefix=BS t:permit_subtype=New t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:height=0 m:pin=0 m:fees_charged=35 m:fees_paid=35 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
 
-series e:m3fm-fpwu d:2006-03-31T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=GRADING t:site_zip=61822 t:expired=00:00.0 t:expired_by=LCL t:owner_name="RAYCORP, INC" t:site_state=IL t:status=ISSUED t:applied_by=VP t:site_number=2714-2716 t:applicant_name="Architectural Spectrum" t:record_id=CRW_00622410 t:issued_by=LCL t:permit_number=EN06-0891 t:site_street_name=MADELYN t:approved_by=VP t:description=G&D t:prefix=EN t:permit_subtype=New t:parent_permit_number=BS06-1264 t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:seq_number=891 m:height=0 m:pin=0 m:fees_charged=0 m:fees_paid=0 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
+series e:m3fm-fpwu d:2006-03-31T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=GRADING t:site_zip=61822 t:expired=00:00.0 t:expired_by=LCL t:owner_name="RAYCORP, INC" t:site_state=IL t:status=ISSUED t:applied_by=VP t:site_number=2714-2716 t:applicant_name="Architectural Spectrum" t:record_id=CRW_00622410 t:issued_by=LCL t:seq_number=891 t:permit_number=EN06-0891 t:site_street_name=MADELYN t:approved_by=VP t:description=G&D t:prefix=EN t:permit_subtype=New t:parent_permit_number=BS06-1264 t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:height=0 m:pin=0 m:fees_charged=0 m:fees_paid=0 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:yrmo p:integer l:YRMO t:dataTypeName=number
-
-metric m:seq_number p:integer l:"Seq Number" t:dataTypeName=number
 
 metric m:site_block p:integer l:"Site Block" t:dataTypeName=number
 
@@ -151,11 +149,21 @@ metric m:porch_2_square_footage p:integer l:"Porch 2 Square Footage" t:dataTypeN
 
 metric m:height p:integer l:Height t:dataTypeName=number
 
-metric m:number_of_stories l:"Number of Stories" t:dataTypeName=number
+metric m:number_of_stories p:double l:"Number of Stories" t:dataTypeName=number
 
 metric m:number_of_units p:integer l:"Number of Units" t:dataTypeName=number
 
 metric m:number_of_buildings p:integer l:"Number of Buildings" t:dataTypeName=number
+
+metric m:job_value p:double l:"Job Value" t:dataTypeName=money
+
+metric m:fees_charged p:double l:"Fees Charged" t:dataTypeName=money
+
+metric m:fee_adjustments p:integer l:"Fee Adjustments" t:dataTypeName=money
+
+metric m:fees_paid p:double l:"Fees Paid" t:dataTypeName=money
+
+metric m:balance_due p:double l:"Balance Due" t:dataTypeName=money
 
 metric m:pin p:integer l:PIN t:dataTypeName=number
 

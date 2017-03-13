@@ -57,7 +57,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = longitude,latitude
+Excluded Fields = latitude,longitude
 ```
 
 ## Data Commands
@@ -73,19 +73,19 @@ series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location=Arnold t:hdatum=NAD83/W
 ## Meta Commands
 
 ```ls
-metric m:forecast l:Forecast t:dataTypeName=number
+metric m:forecast p:float l:Forecast t:dataTypeName=number
 
-metric m:action l:Action t:dataTypeName=number
+metric m:action p:float l:Action t:dataTypeName=number
 
-metric m:flood l:Flood t:dataTypeName=number
+metric m:flood p:float l:Flood t:dataTypeName=number
 
-metric m:moderate l:Moderate t:dataTypeName=number
+metric m:moderate p:float l:Moderate t:dataTypeName=number
 
-metric m:major l:Major t:dataTypeName=number
+metric m:major p:float l:Major t:dataTypeName=number
 
-metric m:lowthresh l:LowThresh t:dataTypeName=number
+metric m:lowthresh p:float l:LowThresh t:dataTypeName=number
 
-metric m:secvalue l:SecValue t:dataTypeName=number
+metric m:secvalue p:float l:SecValue t:dataTypeName=number
 
 entity e:fx9n-wkff l:forecasted-9day-river-level-update-AutoCreated t:url=https://data.mo.gov/api/views/fx9n-wkff
 

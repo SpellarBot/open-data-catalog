@@ -27,7 +27,6 @@ Rate of deaths by age/gender (per 100,000 population) for people killed in crash
 ```ls
 | Included | Schema Type    | Field Name      | Name             | Data Type | Render Type |
 | ======== | ============== | =============== | ================ | ========= | =========== |
-| No       | time           | :updated_at     | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | state           | State            | text      | text        |
 | Yes      | numeric metric | all_ages        | All Ages, 2012   | number    | number      |
 | Yes      | numeric metric | all_ages_2014   | All Ages, 2014   | number    | number      |
@@ -46,46 +45,46 @@ Rate of deaths by age/gender (per 100,000 population) for people killed in crash
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:ea3z-m7eh d:2016-09-14T14:52:41.000Z t:state=Iowa m:ages_21_34_2014=4.6 m:male_2014=4.8 m:ages_21_34=5.9 m:male=5.1 m:ages_35=2.9 m:all_ages_2014=3 m:all_ages=3.2 m:ages_35_2014=3.4
+series e:ea3z-m7eh d:2012-01-01T00:00:00.000Z t:state=Iowa m:ages_21_34_2014=4.6 m:male_2014=4.8 m:ages_21_34=5.9 m:male=5.1 m:ages_35=2.9 m:all_ages_2014=3 m:all_ages=3.2 m:ages_35_2014=3.4
 
-series e:ea3z-m7eh d:2016-09-14T14:52:45.000Z t:state=Nebraska m:ages_21_34_2014=7 m:male_2014=5 m:ages_21_34=6.5 m:male=6.4 m:ages_35=3.5 m:all_ages_2014=3.3 m:all_ages=4 m:ages_35_2014=3
+series e:ea3z-m7eh d:2012-01-01T00:00:00.000Z t:state=Nebraska m:ages_21_34_2014=7 m:male_2014=5 m:ages_21_34=6.5 m:male=6.4 m:ages_35=3.5 m:all_ages_2014=3.3 m:all_ages=4 m:ages_35_2014=3
 
-series e:ea3z-m7eh d:2016-09-14T14:52:54.000Z t:state="United States" m:ages_21_34_2014=6.2 m:ages_0_20_2014=1.2 m:male_2014=4.9 m:female_2014=1.4 m:ages_21_34=6.7 m:female=1.5 m:male=5.2 m:ages_0_20=1.3 m:ages_35=3.1 m:all_ages_2014=3.1 m:all_ages=3.3 m:ages_35_2014=3
+series e:ea3z-m7eh d:2012-01-01T00:00:00.000Z t:state="United States" m:ages_21_34_2014=6.2 m:ages_0_20_2014=1.2 m:male_2014=4.9 m:female_2014=1.4 m:female=1.5 m:ages_21_34=6.7 m:male=5.2 m:ages_0_20=1.3 m:ages_35=3.1 m:all_ages_2014=3.1 m:all_ages=3.3 m:ages_35_2014=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:all_ages l:"All Ages, 2012" t:dataTypeName=number
+metric m:all_ages p:float l:"All Ages, 2012" t:dataTypeName=number
 
-metric m:all_ages_2014 l:"All Ages, 2014" t:dataTypeName=number
+metric m:all_ages_2014 p:float l:"All Ages, 2014" t:dataTypeName=number
 
-metric m:ages_0_20 l:"Ages 0-20, 2012" t:dataTypeName=number
+metric m:ages_0_20 p:float l:"Ages 0-20, 2012" t:dataTypeName=number
 
-metric m:ages_0_20_2014 l:"Ages 0-20, 2014" t:dataTypeName=number
+metric m:ages_0_20_2014 p:float l:"Ages 0-20, 2014" t:dataTypeName=number
 
-metric m:ages_21_34 l:"Ages 21-34, 2012" t:dataTypeName=number
+metric m:ages_21_34 p:float l:"Ages 21-34, 2012" t:dataTypeName=number
 
-metric m:ages_21_34_2014 l:"Ages 21-34, 2014" t:dataTypeName=number
+metric m:ages_21_34_2014 p:float l:"Ages 21-34, 2014" t:dataTypeName=number
 
-metric m:ages_35 l:"Ages 35+, 2012" t:dataTypeName=number
+metric m:ages_35 p:float l:"Ages 35+, 2012" t:dataTypeName=number
 
-metric m:ages_35_2014 l:"Ages 35+, 2014" t:dataTypeName=number
+metric m:ages_35_2014 p:float l:"Ages 35+, 2014" t:dataTypeName=number
 
-metric m:male l:"Male, 2012" t:dataTypeName=number
+metric m:male p:float l:"Male, 2012" t:dataTypeName=number
 
-metric m:male_2014 l:"Male, 2014" t:dataTypeName=number
+metric m:male_2014 p:float l:"Male, 2014" t:dataTypeName=number
 
-metric m:female l:"Female, 2012" t:dataTypeName=number
+metric m:female p:float l:"Female, 2012" t:dataTypeName=number
 
-metric m:female_2014 l:"Female, 2014" t:dataTypeName=number
+metric m:female_2014 p:float l:"Female, 2014" t:dataTypeName=number
 
 entity e:ea3z-m7eh l:"Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 7 - Kansas City" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/ea3z-m7eh
 

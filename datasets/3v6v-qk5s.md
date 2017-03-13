@@ -33,7 +33,7 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | series tag     | product_code                   | Product Code                   | text          | text          |
 | Yes      | numeric metric | package_size                   | Package Size                   | number        | text          |
 | Yes      | numeric metric | period_covered                 | Year                           | number        | text          |
-| Yes      | numeric metric | quarter                        | Quarter                        | number        | text          |
+| No       |                | quarter                        | Quarter                        | number        | text          |
 | Yes      | series tag     | product_fda_list_name          | Product Name                   | text          | text          |
 | Yes      | series tag     | suppression_used               | Suppression Used               | checkbox      | checkbox      |
 | Yes      | numeric metric | units_reimbursed               | Units Reimbursed               | number        | number        |
@@ -58,37 +58,35 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = longitude,latitude
+Excluded Fields = latitude,longitude,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=1 m:ndc=2445301 m:period_covered=2016 m:quarter=1
+series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=1 m:ndc=2445301 m:period_covered=2016
 
-series e:3v6v-qk5s d:2016-04-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=4/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=1 m:ndc=2445301 m:period_covered=2016 m:quarter=2
+series e:3v6v-qk5s d:2016-04-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=4/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=1 m:ndc=2445301 m:period_covered=2016
 
-series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=85 m:ndc=2445385 m:period_covered=2016 m:quarter=1
+series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=85 m:ndc=2445385 m:period_covered=2016
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:package_size p:integer l:"Package Size" t:dataTypeName=number
+metric m:package_size p:long l:"Package Size" t:dataTypeName=number
 
 metric m:period_covered p:integer l:Year t:dataTypeName=number
 
-metric m:quarter p:integer l:Quarter t:dataTypeName=number
-
-metric m:units_reimbursed l:"Units Reimbursed" t:dataTypeName=number
+metric m:units_reimbursed p:double l:"Units Reimbursed" t:dataTypeName=number
 
 metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" t:dataTypeName=number
 
-metric m:total_amount_reimbursed l:"Total Amount Reimbursed" t:dataTypeName=number
+metric m:total_amount_reimbursed p:double l:"Total Amount Reimbursed" t:dataTypeName=number
 
-metric m:medicaid_amount_reimbursed l:"Medicaid Amount Reimbursed" t:dataTypeName=number
+metric m:medicaid_amount_reimbursed p:double l:"Medicaid Amount Reimbursed" t:dataTypeName=number
 
-metric m:non_medicaid_amount_reimbursed l:"Non Medicaid Amount Reimbursed" t:dataTypeName=number
+metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimbursed" t:dataTypeName=number
 
 metric m:ndc p:long l:NDC t:dataTypeName=number
 

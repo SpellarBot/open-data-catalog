@@ -61,11 +61,11 @@ series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Hispanic t:uniqu
 ## Meta Commands
 
 ```ls
-metric m:age_adjusted_rate_per_100_000_population l:"Age-Adjusted Rate per 100,000 Population" d:"Age-Adjusted Rate Per 100,000 Population based on the U.S. 2000 Standard Population. (Point Estimate)" t:dataTypeName=number
+metric m:age_adjusted_rate_per_100_000_population p:float l:"Age-Adjusted Rate per 100,000 Population" d:"Age-Adjusted Rate Per 100,000 Population based on the U.S. 2000 Standard Population. (Point Estimate)" t:dataTypeName=number
 
-metric m:lower_95_confidence_interval l:"Lower 95% Confidence Interval" d:"Lower boundary of 95th Percentile Confidence Interval Range of the Age-Adjusted Rate (true rate estimate falls within the upper and lower boundaries)" t:dataTypeName=number
+metric m:lower_95_confidence_interval p:float l:"Lower 95% Confidence Interval" d:"Lower boundary of 95th Percentile Confidence Interval Range of the Age-Adjusted Rate (true rate estimate falls within the upper and lower boundaries)" t:dataTypeName=number
 
-metric m:upper_95_confidence_interval l:"Upper 95% Confidence Interval" d:"Upper boundary of 95th Percentile Confidence Interval Range of the Age-Adjusted Rate (true rate estimate falls within the upper and lower boundaries)" t:dataTypeName=number
+metric m:upper_95_confidence_interval p:float l:"Upper 95% Confidence Interval" d:"Upper boundary of 95th Percentile Confidence Interval Range of the Age-Adjusted Rate (true rate estimate falls within the upper and lower boundaries)" t:dataTypeName=number
 
 entity e:j55i-sqj8 l:"Population Health Measures: Age-Adjusted Mortality Rates" t:url=https://data.montgomerycountymd.gov/api/views/j55i-sqj8
 

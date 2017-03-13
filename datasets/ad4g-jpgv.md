@@ -48,11 +48,11 @@ series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=080204 t:groupb
 ## Meta Commands
 
 ```ls
-metric m:availabilitypercentage l:AvailabilityPercentage t:dataTypeName=number
+metric m:availabilitypercentage p:double l:AvailabilityPercentage t:dataTypeName=number
 
-metric m:downtimepercentage l:DownTimePercentage t:dataTypeName=number
+metric m:downtimepercentage p:float l:DownTimePercentage t:dataTypeName=number
 
-metric m:totalpercentage l:TotalPercentage t:dataTypeName=number
+metric m:totalpercentage p:double l:TotalPercentage t:dataTypeName=number
 
 entity e:ad4g-jpgv l:TPW_AssetAvailability t:url=https://data.srcity.org/api/views/ad4g-jpgv
 

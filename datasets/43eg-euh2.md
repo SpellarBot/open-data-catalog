@@ -52,7 +52,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = fiscal_quarter,fiscal_quarter_end_date
+Excluded Fields = fiscal_quarter_end_date,fiscal_quarter
 ```
 
 ## Data Commands
@@ -74,11 +74,19 @@ metric m:count_trauma_alert p:integer l:"Count - Trauma Alerts" d:"Count of Trau
 
 metric m:count_scene_time_compliance p:integer l:"Count - Trauma Alert Scene Interval Compliance" d:"Count of Trauma Alert patients with a scene interval less than 15 minutes. Scene interval starts when the first ATCEMS personnel arrive on scene, and ends when ATCEMS personnel depart the scene." t:dataTypeName=number
 
+metric m:percent_scene_time_compliance p:float l:"Percent ? Trauma Alert Scene Interval Compliance" d:"Percent of Trauma Alert patients with a scene interval less than 15 minutes." t:dataTypeName=percent
+
+metric m:percent_scene_time_compliance_target p:float l:"Trauma Alert Scene Interval Compliance Target" d:"Target performance level for compliance with scene time goal for Trauma Alert patients." t:dataTypeName=percent
+
 metric m:count_specialty_center p:integer l:"Count - Trauma Center Transports" d:"Count of Trauma Alert patients who are transported to a system approved Trauma Center." t:dataTypeName=number
 
-metric m:average_interval_call_to_door l:"Average Call to Door Interval (Minutes)" d:"Average interval between first 911 call and arrival at the receiving facility for Trauma Alert patients, measured in decimal minutes (e.g. 37.7 minutes)." t:dataTypeName=number
+metric m:percent_specialty_center p:float l:"Percent - Trauma Center Transports" d:"Percent of Trauma Alert patients who are transported to a system approved Trauma Center." t:dataTypeName=percent
 
-metric m:average_interval_call_to_door_target l:"Call to Door Interval Target" d:"Target for Average Call to Door Interval." t:dataTypeName=number
+metric m:percent_specialty_center_target p:float l:"Trauma Center Transport Compliance Target" d:"Target specialty center transport rate for Trauma Alert patients." t:dataTypeName=percent
+
+metric m:average_interval_call_to_door p:float l:"Average Call to Door Interval (Minutes)" d:"Average interval between first 911 call and arrival at the receiving facility for Trauma Alert patients, measured in decimal minutes (e.g. 37.7 minutes)." t:dataTypeName=number
+
+metric m:average_interval_call_to_door_target p:float l:"Call to Door Interval Target" d:"Target for Average Call to Door Interval." t:dataTypeName=number
 
 entity e:43eg-euh2 l:"EMS - Quarterly Clinical Measures - Trauma Alert" t:attribution="Austin-Travis County EMS" t:url=https://data.austintexas.gov/api/views/43eg-euh2
 

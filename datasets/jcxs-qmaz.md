@@ -25,11 +25,11 @@ This dataset tracks the number of Neighborhood Associations engaged in the Super
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                          | Name                                | Data Type     | Render Type   |
-| ======== | ============== | =================================== | =================================== | ============= | ============= |
-| Yes      | series tag     | cotacts_registered_1st_quarter_2016 | Cotacts Registered 1st Quarter 2016 | text          | text          |
-| Yes      | numeric metric | projected_total_by_end_of_quarter   | Projected total by end of quarter   | number        | number        |
-| Yes      | time           | date_received                       | Date Received:                      | calendar_date | calendar_date |
+| Included | Schema Type | Field Name                          | Name                                | Data Type     | Render Type   |
+| ======== | =========== | =================================== | =================================== | ============= | ============= |
+| Yes      | series tag  | cotacts_registered_1st_quarter_2016 | Cotacts Registered 1st Quarter 2016 | text          | text          |
+| No       |             | projected_total_by_end_of_quarter   | Projected total by end of quarter   | number        | number        |
+| Yes      | time        | date_received                       | Date Received:                      | calendar_date | calendar_date |
 ```
 
 ## Time Field
@@ -39,21 +39,20 @@ Value = date_received
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = projected_total_by_end_of_quarter
+```
+
 ## Data Commands
 
 ```ls
-series e:jcxs-qmaz d:2016-03-07T00:00:00.000Z t:cotacts_registered_1st_quarter_2016="Westside Civic Club" m:projected_total_by_end_of_quarter=10
-
-series e:jcxs-qmaz d:2017-03-12T10:49:33.739Z t:cotacts_registered_1st_quarter_2016="Contact projection for 2nd quarter 2016" m:projected_total_by_end_of_quarter=7
-
-series e:jcxs-qmaz d:2017-03-12T10:49:33.739Z t:cotacts_registered_1st_quarter_2016="Contacts for 3rd and 4th Quarters" m:projected_total_by_end_of_quarter=13
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:projected_total_by_end_of_quarter p:integer l:"Projected total by end of quarter" t:dataTypeName=number
-
 entity e:jcxs-qmaz l:"Super Neighborhood Tracker" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/jcxs-qmaz
 
 property e:jcxs-qmaz t:meta.view v:id=jcxs-qmaz v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Super Neighborhood Tracker" v:attribution="City of Jackson"

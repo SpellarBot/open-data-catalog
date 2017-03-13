@@ -34,10 +34,10 @@
 | Yes      | series tag     | indicator                  | Indicator                  | text      | text        |
 | Yes      | series tag     | response                   | Response                   | text      | text        |
 | Yes      | series tag     | datasource                 | Datasource                 | text      | text        |
-| No       |                | data_value_unit            | Data_Value_Unit            | number    | text        |
+| No       |                | data_value_unit            | Data_Value_Unit            | text      | text        |
 | No       |                | data_value_type            | Data_Value_Type            | text      | text        |
 | Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
-| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
+| No       |                | data_value_footnote_symbol | Data_Value_Footnote_Symbol | text      | text        |
 | No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
 | Yes      | numeric metric | high_confidence_interval   | High_Confidence_Interval   | number    | number      |
 | Yes      | numeric metric | low_confidence_interval    | Low_Confidence_Interval    | number    | number      |
@@ -61,7 +61,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_footnote,data_value_unit,data_value_type
+Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,data_value_footnote
 ```
 
 ## Data Commands
@@ -77,11 +77,11 @@ series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:response=Yes t:break_out_id=2GEN
 ## Meta Commands
 
 ```ls
-metric m:data_value l:Data_Value t:dataTypeName=number
+metric m:data_value p:float l:Data_Value t:dataTypeName=number
 
-metric m:high_confidence_interval l:High_Confidence_Interval t:dataTypeName=number
+metric m:high_confidence_interval p:float l:High_Confidence_Interval t:dataTypeName=number
 
-metric m:low_confidence_interval l:Low_Confidence_Interval t:dataTypeName=number
+metric m:low_confidence_interval p:float l:Low_Confidence_Interval t:dataTypeName=number
 
 metric m:samplesize p:integer l:SampleSize t:dataTypeName=number
 

@@ -76,55 +76,55 @@ series e:p4s2-mc7r d:2008-01-01T00:00:00.000Z t:date_created=7/1/2013 m:baltimor
 ## Meta Commands
 
 ```ls
-metric m:maryland l:MARYLAND t:dataTypeName=number
+metric m:maryland p:long l:MARYLAND t:dataTypeName=number
 
-metric m:allegany_county l:"Allegany County" t:dataTypeName=number
+metric m:allegany_county p:float l:"Allegany County" t:dataTypeName=number
 
-metric m:anne_arundel_county l:"Anne Arundel County" t:dataTypeName=number
+metric m:anne_arundel_county p:float l:"Anne Arundel County" t:dataTypeName=number
 
-metric m:baltimore_city l:"Baltimore City" t:dataTypeName=number
+metric m:baltimore_city p:float l:"Baltimore City" t:dataTypeName=number
 
-metric m:baltimore_county l:"Baltimore County" t:dataTypeName=number
+metric m:baltimore_county p:long l:"Baltimore County" t:dataTypeName=number
 
-metric m:calvert_county l:"Calvert County" t:dataTypeName=number
+metric m:calvert_county p:float l:"Calvert County" t:dataTypeName=number
 
-metric m:caroline_county l:"Caroline County" t:dataTypeName=number
+metric m:caroline_county p:float l:"Caroline County" t:dataTypeName=number
 
-metric m:carroll_county l:"Carroll County" t:dataTypeName=number
+metric m:carroll_county p:float l:"Carroll County" t:dataTypeName=number
 
-metric m:cecil_county l:"Cecil County" t:dataTypeName=number
+metric m:cecil_county p:float l:"Cecil County" t:dataTypeName=number
 
-metric m:charles_county l:"Charles County" t:dataTypeName=number
+metric m:charles_county p:long l:"Charles County" t:dataTypeName=number
 
-metric m:dorchester_county l:"Dorchester County" t:dataTypeName=number
+metric m:dorchester_county p:float l:"Dorchester County" t:dataTypeName=number
 
-metric m:frederick_county l:"Frederick County" t:dataTypeName=number
+metric m:frederick_county p:float l:"Frederick County" t:dataTypeName=number
 
-metric m:garrett_county l:"Garrett County" t:dataTypeName=number
+metric m:garrett_county p:float l:"Garrett County" t:dataTypeName=number
 
-metric m:harford_county l:"Harford County" t:dataTypeName=number
+metric m:harford_county p:long l:"Harford County" t:dataTypeName=number
 
-metric m:howard_county l:"Howard County" t:dataTypeName=number
+metric m:howard_county p:float l:"Howard County" t:dataTypeName=number
 
-metric m:kent_county l:"Kent County" t:dataTypeName=number
+metric m:kent_county p:float l:"Kent County" t:dataTypeName=number
 
-metric m:montgomery_county l:"Montgomery County" t:dataTypeName=number
+metric m:montgomery_county p:float l:"Montgomery County" t:dataTypeName=number
 
-metric m:prince_george_s_county l:"Prince George's County" t:dataTypeName=number
+metric m:prince_george_s_county p:long l:"Prince George's County" t:dataTypeName=number
 
-metric m:queen_anne_s_county l:"Queen Anne's County" t:dataTypeName=number
+metric m:queen_anne_s_county p:float l:"Queen Anne's County" t:dataTypeName=number
 
-metric m:somerset_county l:"Somerset County" t:dataTypeName=number
+metric m:somerset_county p:float l:"Somerset County" t:dataTypeName=number
 
-metric m:st_mary_s_county l:"St. Mary's County" t:dataTypeName=number
+metric m:st_mary_s_county p:long l:"St. Mary's County" t:dataTypeName=number
 
-metric m:talbot_county l:"Talbot County" t:dataTypeName=number
+metric m:talbot_county p:float l:"Talbot County" t:dataTypeName=number
 
-metric m:washington_county l:"Washington County" t:dataTypeName=number
+metric m:washington_county p:float l:"Washington County" t:dataTypeName=number
 
-metric m:wicomico_county l:"Wicomico County" t:dataTypeName=number
+metric m:wicomico_county p:float l:"Wicomico County" t:dataTypeName=number
 
-metric m:worcester_county l:"Worcester County" t:dataTypeName=number
+metric m:worcester_county p:float l:"Worcester County" t:dataTypeName=number
 
 entity e:p4s2-mc7r l:"Maryland Total Acres For Residential Development: 2006-2010" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/p4s2-mc7r
 

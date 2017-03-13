@@ -29,18 +29,18 @@ Included in the data set are data elements that will help the public learn about
 | ======== | ============== | =================== | =================== | ============= | ============= |
 | Yes      | time           | contract_start_date | Contract Start Date | calendar_date | calendar_date |
 | No       |                | contract_end_date   | Contract End Date   | calendar_date | calendar_date |
-| Yes      | numeric metric | round_number        | Round Number        | number        | text          |
+| Yes      | series tag     | round_number        | Round Number        | text          | text          |
 | Yes      | series tag     | contract            | Contract Number     | text          | text          |
 | Yes      | numeric metric | contract_amount     | Contract Amount     | money         | money         |
-| Yes      | numeric metric | elementary          | Elementary          | number        | text          |
-| Yes      | numeric metric | middle_school       | Middle School       | number        | text          |
-| Yes      | numeric metric | high_school         | High School         | number        | text          |
+| Yes      | series tag     | elementary          | Elementary          | text          | text          |
+| Yes      | series tag     | middle_school       | Middle School       | text          | text          |
+| Yes      | series tag     | high_school         | High School         | text          | text          |
 | Yes      | numeric metric | mada_for_site       | MADA for Site       | number        | number        |
 | Yes      | series tag     | agency              | Agency              | text          | text          |
 | Yes      | series tag     | site_name           | Site Name           | text          | text          |
 | No       |                | street_address      | Street Address      | text          | text          |
 | Yes      | series tag     | primary_city        | Primary City        | text          | text          |
-| Yes      | numeric metric | zip_code            | ZIP Code            | number        | number        |
+| Yes      | series tag     | zip_code            | ZIP Code            | text          | number        |
 ```
 
 ## Time Field
@@ -59,21 +59,19 @@ Excluded Fields = contract_end_date,street_address
 ## Data Commands
 
 ```ls
-series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:contract=C027297 t:agency="Wayne County Action Program" t:site_name="North Rose/Wolcott Elementary" t:primary_city="North Rose" t:elementary=x m:mada_for_site=100 m:zip_code=14516 m:contract_amount=126041 m:round_number=9
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=14516 t:contract=C027297 t:agency="Wayne County Action Program" t:site_name="North Rose/Wolcott Elementary" t:primary_city="North Rose" t:elementary=x t:round_number=9 m:mada_for_site=100 m:contract_amount=126041
 
-series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:contract=C027331 t:high_school=x t:agency="People and Possibilities" t:site_name="Niagara Falls High School" t:primary_city="Niagara Falls" m:mada_for_site=80 m:zip_code=14305 m:round_number=9
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=14305 t:contract=C027331 t:high_school=x t:agency="People and Possibilities" t:site_name="Niagara Falls High School" t:primary_city="Niagara Falls" t:round_number=9 m:mada_for_site=80
 
-series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:contract=C027330 t:agency="Catholic Charities of the Diocese of Albany" t:site_name="Sunnyside Center" t:primary_city=Troy t:elementary=x m:mada_for_site=80 m:zip_code=12180 m:contract_amount=110000 m:round_number=9
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=12180 t:contract=C027330 t:agency="Catholic Charities of the Diocese of Albany" t:site_name="Sunnyside Center" t:primary_city=Troy t:elementary=x t:round_number=9 m:mada_for_site=80 m:contract_amount=110000
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:round_number p:integer l:"Round Number" d:"Identifies which procurement the contracts resulted from" t:dataTypeName=number
+metric m:contract_amount p:integer l:"Contract Amount" d:"Dollar amount of Contract" t:dataTypeName=money
 
 metric m:mada_for_site p:integer l:"MADA for Site" d:"Identifies the Maximum average daily attendance program is contracted to serve" t:dataTypeName=number
-
-metric m:zip_code l:"ZIP Code" d:"Zip Code (5 digits) or Zip Plus 4 (9 digits)" t:dataTypeName=number
 
 entity e:ae9a-zs4q l:"Advantage After School Program" t:attribution="NYS Office of Children and Family Services" t:url=https://data.ny.gov/api/views/ae9a-zs4q
 

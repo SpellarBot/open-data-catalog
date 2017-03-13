@@ -52,21 +52,25 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:01:34 m:entrances=380306 m:pageviews=547656 m:unique_pageviews=439779 m:exit=51.1 m:bounce_rate=56.4
+series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:01:34 t:page=http://www.austintexas.gov/ m:entrances=380306 m:pageviews=547656 m:unique_pageviews=439779 m:exit=51.1 m:bounce_rate=56.4
 
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:00:28 m:entrances=3310 m:pageviews=164537 m:unique_pageviews=31025 m:exit=5.29 m:bounce_rate=15.65
+series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:00:28 t:page="http://www.austintexas.gov/web/permit/public-search-other?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_chpyJJVwH9kC&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1" m:entrances=3310 m:pageviews=164537 m:unique_pageviews=31025 m:exit=5.29 m:bounce_rate=15.65
 
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:03:38 m:entrances=50425 m:pageviews=149008 m:unique_pageviews=105224 m:exit=59.05 m:bounce_rate=60.7
+series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:03:38 t:page=http://www.austintexas.gov/adoptablepets m:entrances=50425 m:pageviews=149008 m:unique_pageviews=105224 m:exit=59.05 m:bounce_rate=60.7
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:pageviews l:Pageviews t:dataTypeName=number
+metric m:pageviews p:long l:Pageviews t:dataTypeName=number
 
-metric m:unique_pageviews l:"Unique Pageviews" t:dataTypeName=number
+metric m:unique_pageviews p:long l:"Unique Pageviews" t:dataTypeName=number
 
-metric m:entrances l:Entrances t:dataTypeName=number
+metric m:entrances p:long l:Entrances t:dataTypeName=number
+
+metric m:bounce_rate p:float l:"Bounce Rate" t:dataTypeName=percent
+
+metric m:exit p:float l:"% Exit" t:dataTypeName=percent
 
 entity e:8yfa-b3bq l:"Austintexas.gov  - Top 50 Pages By Pageviews" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/8yfa-b3bq
 

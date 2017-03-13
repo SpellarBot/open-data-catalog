@@ -65,9 +65,9 @@ series e:8yac-vygm d:2015-09-01T00:00:00.000Z t:route_number=J500 t:vendor_code=
 ## Meta Commands
 
 ```ls
-metric m:xcoordinates l:XCoordinates d:"Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet." t:dataTypeName=number
+metric m:xcoordinates p:float l:XCoordinates d:"Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet." t:dataTypeName=number
 
-metric m:ycoordinates l:YCoordinates d:"Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet." t:dataTypeName=number
+metric m:ycoordinates p:double l:YCoordinates d:"Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet." t:dataTypeName=number
 
 entity e:8yac-vygm l:Routes t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/8yac-vygm
 

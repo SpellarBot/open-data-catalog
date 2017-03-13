@@ -27,7 +27,6 @@ Employee overtime and supplemental earnings by month and year-to-date. Data Owne
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
 | ======== | ============== | =============== | =============== | ========= | =========== |
-| No       | time           | :updated_at     | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | department_name | DEPARTMENT NAME | text      | text        |
 | Yes      | series tag     | employee_name   | EMPLOYEE NAME   | text      | text        |
 | Yes      | series tag     | title           | TITLE           | text      | text        |
@@ -49,23 +48,49 @@ Employee overtime and supplemental earnings by month and year-to-date. Data Owne
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:s9zb-nuc6 d:2014-02-03T16:08:25.000Z t:title="ANIMAL CARE AIDE I" t:department_name="Animal Care and Control" t:employee_name="AGUILAR, ELMA M" m:jul_2013=864.58 m:jan_2013=887.34 m:nov_2013=500.55 m:may_2013=182.02 m:dec_2013=333.62 m:apr_2013=500.55 m:aug_2013=1274.13 m:feb_2013=-22.75 m:oct_2013=0 m:mar_2013=318.53 m:grand_total=5763.83 m:jun_2013=182.02 m:sep_2013=743.24
+series e:s9zb-nuc6 d:2013-01-01T00:00:00.000Z t:title="ANIMAL CARE AIDE I" t:department_name="Animal Care and Control" t:employee_name="AGUILAR, ELMA M" m:jul_2013=864.58 m:jan_2013=887.34 m:nov_2013=500.55 m:may_2013=182.02 m:dec_2013=333.62 m:apr_2013=500.55 m:aug_2013=1274.13 m:feb_2013=-22.75 m:oct_2013=0 m:mar_2013=318.53 m:grand_total=5763.83 m:sep_2013=743.24 m:jun_2013=182.02
 
-series e:s9zb-nuc6 d:2014-02-03T16:08:25.000Z t:title="ANIMAL CONTROL OFFICER" t:department_name="Animal Care and Control" t:employee_name="AGUILAR, RICARDO L" m:jul_2013=1612.71 m:jan_2013=1531.96 m:nov_2013=2724.77 m:may_2013=0 m:dec_2013=1887.64 m:apr_2013=960.23 m:aug_2013=2220.03 m:feb_2013=1780.95 m:oct_2013=2043.57 m:mar_2013=590.91 m:grand_total=17535.87 m:jun_2013=689.4 m:sep_2013=1493.7
+series e:s9zb-nuc6 d:2013-01-01T00:00:00.000Z t:title="ANIMAL CONTROL OFFICER" t:department_name="Animal Care and Control" t:employee_name="AGUILAR, RICARDO L" m:jul_2013=1612.71 m:jan_2013=1531.96 m:nov_2013=2724.77 m:may_2013=0 m:dec_2013=1887.64 m:apr_2013=960.23 m:aug_2013=2220.03 m:feb_2013=1780.95 m:oct_2013=2043.57 m:mar_2013=590.91 m:grand_total=17535.87 m:sep_2013=1493.7 m:jun_2013=689.4
 
-series e:s9zb-nuc6 d:2014-02-03T16:08:25.000Z t:title="ANIMAL CONTROL OFFICER" t:department_name="Animal Care and Control" t:employee_name="ALLEN, TIMOTHY M" m:jul_2013=189.14 m:jan_2013=0 m:nov_2013=189.14 m:may_2013=0 m:dec_2013=189.14 m:apr_2013=0 m:aug_2013=0 m:feb_2013=189.14 m:oct_2013=0 m:mar_2013=378.27 m:grand_total=1323.97 m:jun_2013=0 m:sep_2013=189.14
+series e:s9zb-nuc6 d:2013-01-01T00:00:00.000Z t:title="ANIMAL CONTROL OFFICER" t:department_name="Animal Care and Control" t:employee_name="ALLEN, TIMOTHY M" m:jul_2013=189.14 m:jan_2013=0 m:nov_2013=189.14 m:may_2013=0 m:dec_2013=189.14 m:apr_2013=0 m:aug_2013=0 m:feb_2013=189.14 m:oct_2013=0 m:mar_2013=378.27 m:grand_total=1323.97 m:sep_2013=189.14 m:jun_2013=0
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:jan_2013 p:double l:"JAN 2013" t:dataTypeName=money
+
+metric m:feb_2013 p:double l:"FEB 2013" t:dataTypeName=money
+
+metric m:mar_2013 p:double l:"MAR 2013" t:dataTypeName=money
+
+metric m:apr_2013 p:double l:"APR 2013" t:dataTypeName=money
+
+metric m:may_2013 p:double l:"MAY 2013" t:dataTypeName=money
+
+metric m:jun_2013 p:double l:"JUN 2013" t:dataTypeName=money
+
+metric m:jul_2013 p:double l:"JUL 2013" t:dataTypeName=money
+
+metric m:aug_2013 p:double l:"AUG 2013" t:dataTypeName=money
+
+metric m:sep_2013 p:double l:"SEP 2013" t:dataTypeName=money
+
+metric m:oct_2013 p:double l:"OCT 2013" t:dataTypeName=money
+
+metric m:nov_2013 p:double l:"NOV 2013" t:dataTypeName=money
+
+metric m:dec_2013 p:double l:"DEC 2013" t:dataTypeName=money
+
+metric m:grand_total p:double l:"2013 TOTAL" t:dataTypeName=money
+
 entity e:s9zb-nuc6 l:"Employee Overtime and Supplemental Earnings 2013" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/s9zb-nuc6
 
 property e:s9zb-nuc6 t:meta.view v:id=s9zb-nuc6 v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Employee Overtime and Supplemental Earnings 2013" v:attribution="City of Chicago"

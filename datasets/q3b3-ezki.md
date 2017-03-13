@@ -57,6 +57,18 @@ series e:q3b3-ezki d:2009-01-01T00:00:00.000Z m:electric_service_delivery=128031
 ## Meta Commands
 
 ```ls
+metric m:fuel p:integer l:Fuel t:dataTypeName=money
+
+metric m:power_supply_market_operations p:double l:"Power Supply & Market Operations" t:dataTypeName=money
+
+metric m:electric_service_delivery p:integer l:"Electric Service Delivery" t:dataTypeName=money
+
+metric m:distributed_energy_services p:integer l:"Distributed Energy Services" t:dataTypeName=money
+
+metric m:customer_care p:integer l:"Customer Care" t:dataTypeName=money
+
+metric m:administrative_and_general p:integer l:"Administrative and General" t:dataTypeName=money
+
 entity e:q3b3-ezki l:"Operations And Maintenance Expenditures" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/q3b3-ezki
 
 property e:q3b3-ezki t:meta.view v:id=q3b3-ezki v:category=Utility v:averageRating=0 v:name="Operations And Maintenance Expenditures" v:attribution="Austin Energy"

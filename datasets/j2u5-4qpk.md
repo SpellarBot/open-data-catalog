@@ -24,15 +24,15 @@ WA State Office of the Chief Information Officer Accessibility Policy #188 requi
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                       | Name                             | Data Type     | Render Type   |
-| ======== | ============== | ================================ | ================================ | ============= | ============= |
-| Yes      | numeric metric | agency_number                    | AGENCY NUMBER                    | number        | number        |
-| Yes      | series tag     | agency_title                     | AGENCY TITLE                     | text          | text          |
-| Yes      | series tag     | abbreviation                     | Abbreviation                     | text          | text          |
-| Yes      | series tag     | agency_accessibility_coordinator | Agency Accessibility Coordinator | text          | text          |
-| Yes      | series tag     | agency_coordinator_email         | Agency Coordinator Email         | email         | email         |
-| Yes      | time           | last_change_date                 | Last change date                 | calendar_date | calendar_date |
-| Yes      | series tag     | url_of_accessibility_info        | URL of Accessibility Info        | url           | url           |
+| Included | Schema Type | Field Name                       | Name                             | Data Type     | Render Type   |
+| ======== | =========== | ================================ | ================================ | ============= | ============= |
+| Yes      | series tag  | agency_number                    | AGENCY NUMBER                    | text          | number        |
+| Yes      | series tag  | agency_title                     | AGENCY TITLE                     | text          | text          |
+| Yes      | series tag  | abbreviation                     | Abbreviation                     | text          | text          |
+| Yes      | series tag  | agency_accessibility_coordinator | Agency Accessibility Coordinator | text          | text          |
+| Yes      | series tag  | agency_coordinator_email         | Agency Coordinator Email         | email         | email         |
+| Yes      | time        | last_change_date                 | Last change date                 | calendar_date | calendar_date |
+| Yes      | series tag  | url_of_accessibility_info        | URL of Accessibility Info        | url           | url           |
 ```
 
 ## Time Field
@@ -45,18 +45,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:j2u5-4qpk d:2017-03-12T12:00:37.367Z t:agency_title="State Revenue for Distribution (SRD)" t:abbreviation=SRD m:agency_number=10
-
-series e:j2u5-4qpk d:2017-03-12T12:00:37.367Z t:agency_title="Federal Revenue for Distribution (FRD)" t:abbreviation=FRD m:agency_number=50
-
-series e:j2u5-4qpk d:2017-03-12T12:00:37.367Z t:agency_title="Bond Retirement and Interest (BRI)" t:abbreviation=BRI m:agency_number=100
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:agency_number p:integer l:"AGENCY NUMBER" t:dataTypeName=number
-
 entity e:j2u5-4qpk l:"WA State Accessibility Coordinators" t:attribution="WA State Accessibility Champion" t:url=https://data.wa.gov/api/views/j2u5-4qpk
 
 property e:j2u5-4qpk t:meta.view v:id=j2u5-4qpk v:averageRating=0 v:name="WA State Accessibility Coordinators" v:attribution="WA State Accessibility Champion"

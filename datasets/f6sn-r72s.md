@@ -27,7 +27,7 @@ Listing of state tax credit and subsidies awarded by NYS Homes & Community Renew
 ```ls
 | Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
 | ======== | ============== | ================== | ================== | ========= | =========== |
-| Yes      | numeric metric | project_number     | Project Number     | number    | number      |
+| Yes      | series tag     | project_number     | Project Number     | text      | number      |
 | Yes      | series tag     | hcr_project_type   | HCR Project Type   | text      | text        |
 | Yes      | series tag     | project_name       | Project Name       | text      | text        |
 | Yes      | series tag     | developer_name     | Developer Name     | text      | text        |
@@ -49,17 +49,17 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="AVENT HOUSE" t:county=ORANGE t:developer_name="REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC." t:municipality=MIDDLETOWN m:affordable_units=24 m:total_project_cost=447176 m:project_number=20106003 m:total_units=24
+series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="AVENT HOUSE" t:county=ORANGE t:developer_name="REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC." t:municipality=MIDDLETOWN t:project_number=20106003.00 m:affordable_units=24 m:total_project_cost=447176 m:total_units=24
 
-series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="AVSH RARP" t:county=CLINTON t:developer_name="APPLE VALLEY SENIOR HOUSING CORP." t:municipality=PERU m:affordable_units=30 m:total_project_cost=243990 m:project_number=20106004 m:total_units=30
+series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="AVSH RARP" t:county=CLINTON t:developer_name="APPLE VALLEY SENIOR HOUSING CORP." t:municipality=PERU t:project_number=20106004.00 m:affordable_units=30 m:total_project_cost=243990 m:total_units=30
 
-series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="ART LEFEVRE SENIOR HOUSING REHABILITATION" t:county=CLINTON t:developer_name="FRIENDS OF THE NORTH COUNTRY, INC." t:municipality=PLATTSBURGH m:affordable_units=24 m:total_project_cost=124200 m:project_number=20106139 m:total_units=24
+series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="ART LEFEVRE SENIOR HOUSING REHABILITATION" t:county=CLINTON t:developer_name="FRIENDS OF THE NORTH COUNTRY, INC." t:municipality=PLATTSBURGH t:project_number=20106139.00 m:affordable_units=24 m:total_project_cost=124200 m:total_units=24
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:project_number l:"Project Number" d:"Project number used in NYS Homes and Community Renewal?s Statewide Housing Activity Reporting System (SHARS)." t:dataTypeName=number
+metric m:total_project_cost p:integer l:"Total Project Cost" d:"The total soft (design and fees) and hard costs (actual construction) for the project." t:dataTypeName=money
 
 metric m:total_units p:integer l:"Total Units" d:"Total number of units." t:dataTypeName=number
 

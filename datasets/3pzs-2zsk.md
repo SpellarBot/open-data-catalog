@@ -61,13 +61,13 @@ series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Columbia t:contractor=Oth
 ```ls
 metric m:project_count_by_city p:integer l:"Project Count by City" d:"Sum of projects installed in a year by a contractor in a given New York State city" t:dataTypeName=number
 
-metric m:project_cost l:"Project Cost" d:"The sum of the project cost in US dollars (USD)" t:dataTypeName=number
+metric m:project_cost p:double l:"Project Cost" d:"The sum of the project cost in US dollars (USD)" t:dataTypeName=number
 
-metric m:incentive_dollars l:"Incentive, Dollars" d:"The sum of the NYSERDA project incentives in US dollars (USD)" t:dataTypeName=number
+metric m:incentive_dollars p:float l:"Incentive, Dollars" d:"The sum of the NYSERDA project incentives in US dollars (USD)" t:dataTypeName=number
 
-metric m:total_nameplate_kw l:"Total Nameplate KW" d:"The sum of kilowatt (KW) capacity ratings of the installed photovoltaic equipment" t:dataTypeName=number
+metric m:total_nameplate_kw p:float l:"Total Nameplate KW" d:"The sum of kilowatt (KW) capacity ratings of the installed photovoltaic equipment" t:dataTypeName=number
 
-metric m:expected_kwh_annual_production l:"Expected KWh Annual Production" d:"The sum of the expected annual electricity production as a result of the projects" t:dataTypeName=number
+metric m:expected_kwh_annual_production p:double l:"Expected KWh Annual Production" d:"The sum of the expected annual electricity production as a result of the projects" t:dataTypeName=number
 
 entity e:3pzs-2zsk l:"Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/3pzs-2zsk
 

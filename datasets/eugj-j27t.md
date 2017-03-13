@@ -26,7 +26,6 @@ Approximately $4.3 million of federal funds was distributed to 159 police depart
 ```ls
 | Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
 | ======== | ============== | ================ | ================ | ========= | =========== |
-| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | town_name        | Town_Name        | text      | text        |
 | Yes      | series tag     | grant_number     | Grant_Number     | text      | text        |
 | Yes      | numeric metric | fed_grant_award  | Fed_Grant_Award  | money     | money       |
@@ -37,23 +36,27 @@ Approximately $4.3 million of federal funds was distributed to 159 police depart
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:eugj-j27t d:2014-06-26T07:59:48.000Z t:town_name=Andover t:grant_number=09RECJAGLO7511 t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor vehicle laws through special overtime." m:fed_grant_award=9100 m:tot_fed_expended=8842.42
+series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:town_name=Andover t:grant_number=09RECJAGLO7511 t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor vehicle laws through special overtime." m:fed_grant_award=9100 m:tot_fed_expended=8842.42
 
-series e:eugj-j27t d:2014-06-26T07:59:48.000Z t:town_name=Ansonia t:grant_number=09RECJAGLO7512 t:project_summary="To increase traffic safety by enforcing speeding laws and identify and address quality of life issues by means of plain cothes officers issigned to the Anti-Crime Unit." m:fed_grant_award=30000 m:tot_fed_expended=30000
+series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:town_name=Ansonia t:grant_number=09RECJAGLO7512 t:project_summary="To increase traffic safety by enforcing speeding laws and identify and address quality of life issues by means of plain cothes officers issigned to the Anti-Crime Unit." m:fed_grant_award=30000 m:tot_fed_expended=30000
 
-series e:eugj-j27t d:2014-06-26T07:59:48.000Z t:town_name=Avon t:grant_number=09RECJAGLO7514 t:project_summary="To purchase Automatic External Defibillators (AED) and radar and laser units to be used in speed enforcement." m:fed_grant_award=30000 m:tot_fed_expended=30000
+series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:town_name=Avon t:grant_number=09RECJAGLO7514 t:project_summary="To purchase Automatic External Defibillators (AED) and radar and laser units to be used in speed enforcement." m:fed_grant_award=30000 m:tot_fed_expended=30000
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:fed_grant_award p:double l:Fed_Grant_Award t:dataTypeName=money
+
+metric m:tot_fed_expended p:double l:Tot_Fed_Expended t:dataTypeName=money
+
 entity e:eugj-j27t l:"American Recovery And Reinvestment Act Of 2009 ( ARRA)" t:url=https://data.ct.gov/api/views/eugj-j27t
 
 property e:eugj-j27t t:meta.view v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"

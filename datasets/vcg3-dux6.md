@@ -59,7 +59,7 @@ metric m:sort p:integer l:Sort t:dataTypeName=number
 
 metric m:2008_count p:integer l:Count t:dataTypeName=number
 
-metric m:2009_count l:Rate t:dataTypeName=number
+metric m:2009_count p:float l:Rate t:dataTypeName=number
 
 entity e:vcg3-dux6 l:"IDPH 1990-2015 STD Illinois By County Chlamydia" t:attribution="Illinois Department of Public Health STD Program" t:url=https://data.illinois.gov/api/views/vcg3-dux6
 

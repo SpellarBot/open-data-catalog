@@ -27,8 +27,8 @@
 ```ls
 | Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
 | ======== | ============== | ==================== | ==================== | ========= | =========== |
-| Yes      | time           | year                 | YEAR                 | number    | number      |
-| Yes      | numeric metric | quarter              | Quarter              | number    | number      |
+| No       |                | year                 | YEAR                 | number    | number      |
+| No       |                | quarter              | Quarter              | number    | number      |
 | Yes      | series tag     | locationabbr         | LocationAbbr         | text      | text        |
 | Yes      | series tag     | locationdesc         | LocationDesc         | text      | text        |
 | Yes      | series tag     | topictypedesc        | TopicTypeDesc        | text      | text        |
@@ -48,25 +48,29 @@
 ## Time Field
 
 ```ls
-Value = year
-Format & Zone = yyyy
+Value = year+quarter
+Format & Zone = yyyy+q
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = year,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:hj2x-85ya d:1996-01-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3 m:quarter=4
+series e:hj2x-85ya d:1996-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
 
-series e:hj2x-85ya d:1997-01-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3 m:quarter=4
+series e:hj2x-85ya d:1997-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
 
-series e:hj2x-85ya d:1998-01-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3 m:quarter=4
+series e:hj2x-85ya d:1998-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:quarter p:integer l:Quarter d:Quarter t:dataTypeName=number
-
 metric m:preemptionaltvalue p:integer l:PreemptionAltValue d:"Alternate numeric value for non-numeric preemption value; used for mapping and graphing" t:dataTypeName=number
 
 entity e:hj2x-85ya l:"CDC STATE System Tobacco Legislation - Preemption Summary" t:attribution="Office of Smoking and Health (OSH)" t:url=https://chronicdata.cdc.gov/api/views/hj2x-85ya

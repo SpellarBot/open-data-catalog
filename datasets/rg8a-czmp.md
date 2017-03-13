@@ -52,7 +52,7 @@ series e:rg8a-czmp d:1962-01-01T00:00:00.000Z t:age_group="15-17 years" m:birth_
 ## Meta Commands
 
 ```ls
-metric m:birth_rate l:"Birth Rate" t:dataTypeName=number
+metric m:birth_rate p:float l:"Birth Rate" t:dataTypeName=number
 
 entity e:rg8a-czmp l:"NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013" t:attribution="National Center for Health Statistics" t:url=https://data.cdc.gov/api/views/rg8a-czmp
 

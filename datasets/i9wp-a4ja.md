@@ -36,9 +36,9 @@ This data file provides a variety of information on subway station entrances and
 | Yes      | series tag     | route1             | Route1             | text      | text        |
 | Yes      | series tag     | route2             | Route2             | text      | text        |
 | Yes      | series tag     | route3             | Route3             | text      | text        |
-| Yes      | numeric metric | route4             | Route4             | number    | text        |
-| Yes      | numeric metric | route5             | Route5             | number    | text        |
-| Yes      | numeric metric | route6             | Route6             | number    | text        |
+| Yes      | series tag     | route4             | Route4             | text      | text        |
+| Yes      | series tag     | route5             | Route5             | text      | text        |
+| Yes      | series tag     | route6             | Route6             | text      | text        |
 | Yes      | series tag     | route7             | Route7             | text      | text        |
 | Yes      | numeric metric | route8             | Route8             | number    | text        |
 | Yes      | numeric metric | route9             | Route9             | number    | text        |
@@ -80,9 +80,9 @@ series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:ada=FALSE t:station_name="36th S
 ## Meta Commands
 
 ```ls
-metric m:station_latitude l:"Station Latitude" t:dataTypeName=number
+metric m:station_latitude p:double l:"Station Latitude" t:dataTypeName=number
 
-metric m:station_longitude l:"Station Longitude" t:dataTypeName=number
+metric m:station_longitude p:double l:"Station Longitude" t:dataTypeName=number
 
 metric m:route8 p:integer l:Route8 t:dataTypeName=number
 
@@ -92,9 +92,9 @@ metric m:route10 p:integer l:Route10 t:dataTypeName=number
 
 metric m:route11 p:integer l:Route11 t:dataTypeName=number
 
-metric m:entrance_latitude l:"Entrance Latitude" t:dataTypeName=number
+metric m:entrance_latitude p:double l:"Entrance Latitude" t:dataTypeName=number
 
-metric m:entrance_longitude l:"Entrance Longitude" t:dataTypeName=number
+metric m:entrance_longitude p:double l:"Entrance Longitude" t:dataTypeName=number
 
 entity e:i9wp-a4ja l:"NYC Transit Subway Entrance And Exit Data" t:attribution="MTA Headquarters, New York City Transit" t:url=https://data.ny.gov/api/views/i9wp-a4ja
 

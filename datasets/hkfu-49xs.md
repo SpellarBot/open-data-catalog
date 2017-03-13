@@ -60,7 +60,7 @@ series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc=STATIONERY t:depart
 ```ls
 metric m:item p:integer l:"Item #" t:dataTypeName=number
 
-metric m:amount l:Amount t:dataTypeName=number
+metric m:amount p:float l:Amount t:dataTypeName=number
 
 metric m:check p:integer l:"Check #" t:dataTypeName=number
 

@@ -27,8 +27,7 @@ As underground drainage systems age, occasionally failures in the pipes and join
 ```ls
 | Included | Schema Type    | Field Name                                         | Name                                               | Data Type | Render Type |
 | ======== | ============== | ================================================== | ================================================== | ========= | =========== |
-| No       | time           | :updated_at                                        | updated_at                                         | meta_data | meta_data   |
-| Yes      | series tag     | week                                               | Week                                               | text      | text        |
+| Yes      | time           | week                                               | Week                                               | text      | text        |
 | Yes      | numeric metric | average_days_to_complete_pavement_cave_in_requests | Average Days to Complete Pavement Cave-in Requests | number    | number      |
 | Yes      | numeric metric | total_completed_requests                           | Total Completed Requests                           | number    | number      |
 | Yes      | numeric metric | target_response_time_days_                         | Target Response Time (Days)                        | number    | number      |
@@ -37,24 +36,24 @@ As underground drainage systems age, occasionally failures in the pipes and join
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = week
+Format & Zone = ww,yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:euee-qccq d:2013-12-08T22:59:26.000Z t:week="March 28-April 3, 2011" m:total_completed_requests=45 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.05
+series e:euee-qccq d:2011-03-28T00:00:00.000Z m:total_completed_requests=45 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.05
 
-series e:euee-qccq d:2013-12-08T22:59:26.000Z t:week="April 4 - 10, 2011" m:total_completed_requests=138 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.36
+series e:euee-qccq d:2011-04-04T00:00:00.000Z m:total_completed_requests=138 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.36
 
-series e:euee-qccq d:2013-12-08T22:59:26.000Z t:week="April 11-17, 2011" m:total_completed_requests=139 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.61
+series e:euee-qccq d:2011-04-11T00:00:00.000Z m:total_completed_requests=139 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.61
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:average_days_to_complete_pavement_cave_in_requests l:"Average Days to Complete Pavement Cave-in Requests" t:dataTypeName=number
+metric m:average_days_to_complete_pavement_cave_in_requests p:float l:"Average Days to Complete Pavement Cave-in Requests" t:dataTypeName=number
 
 metric m:total_completed_requests p:integer l:"Total Completed Requests" t:dataTypeName=number
 

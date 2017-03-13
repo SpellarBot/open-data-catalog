@@ -82,51 +82,67 @@ series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:department="Arts and Cultural Af
 ```ls
 metric m:admin_support_ee p:integer l:"Admin Support # EE" t:dataTypeName=number
 
-metric m:admin_support_avg_hrly l:"Admin Support Avg Hrly" t:dataTypeName=number
+metric m:admin_support_gender p:integer l:"Admin Support % Gender" t:dataTypeName=percent
 
-metric m:admin_support_avg_yrs_in_current_job l:"Admin Support Avg Yrs in Current Job" t:dataTypeName=number
+metric m:admin_support_avg_hrly p:float l:"Admin Support Avg Hrly" t:dataTypeName=number
+
+metric m:admin_support_avg_yrs_in_current_job p:double l:"Admin Support Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:officials_admin_ee p:integer l:"Officials/Admin # EE" t:dataTypeName=number
 
-metric m:officials_admin_avg_hrly l:"Officials/Admin Avg Hrly" t:dataTypeName=number
+metric m:officials_admin_gender p:integer l:"Officials/Admin % Gender" t:dataTypeName=percent
 
-metric m:officials_admin_avg_yrs_in_current_job l:"Officials/Admin Avg Yrs in Current Job" t:dataTypeName=number
+metric m:officials_admin_avg_hrly p:float l:"Officials/Admin Avg Hrly" t:dataTypeName=number
+
+metric m:officials_admin_avg_yrs_in_current_job p:float l:"Officials/Admin Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:para_professionals_ee p:integer l:"Para-Professionals # EE" t:dataTypeName=number
 
-metric m:para_professionals_avg_hrly l:"Para-Professionals Avg Hrly" t:dataTypeName=number
+metric m:para_professionals_gender p:integer l:"Para-Professionals % Gender" t:dataTypeName=percent
 
-metric m:para_professionals_avg_yrs_in_current_job l:"Para-Professionals Avg Yrs in Current Job" t:dataTypeName=number
+metric m:para_professionals_avg_hrly p:float l:"Para-Professionals Avg Hrly" t:dataTypeName=number
+
+metric m:para_professionals_avg_yrs_in_current_job p:float l:"Para-Professionals Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:professionals_ee p:integer l:"Professionals # EE" t:dataTypeName=number
 
-metric m:professionals_avg_hrly l:"Professionals Avg Hrly" t:dataTypeName=number
+metric m:professionals_gender p:integer l:"Professionals % Gender" t:dataTypeName=percent
 
-metric m:professionals_avg_yrs_in_current_job l:"Professionals Avg Yrs in Current Job" t:dataTypeName=number
+metric m:professionals_avg_hrly p:float l:"Professionals Avg Hrly" t:dataTypeName=number
+
+metric m:professionals_avg_yrs_in_current_job p:float l:"Professionals Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:protected_services_ee p:integer l:"Protected Services # EE" t:dataTypeName=number
 
-metric m:protected_services_avg_hrly l:"Protected Services Avg Hrly" t:dataTypeName=number
+metric m:protected_services_gender p:integer l:"Protected Services % Gender" t:dataTypeName=percent
 
-metric m:protected_services_avg_yrs_in_current_job l:"Protected Services Avg Yrs in Current Job" t:dataTypeName=number
+metric m:protected_services_avg_hrly p:float l:"Protected Services Avg Hrly" t:dataTypeName=number
+
+metric m:protected_services_avg_yrs_in_current_job p:float l:"Protected Services Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:service_maintenance_ee p:integer l:"Service/Maintenance # EE" t:dataTypeName=number
 
-metric m:service_maintenance_avg_hrly l:"Service/Maintenance Avg Hrly" t:dataTypeName=number
+metric m:service_maintenance_gender p:integer l:"Service/Maintenance % Gender" t:dataTypeName=percent
 
-metric m:service_maintenance_avg_yrs_in_current_job l:"Service/Maintenance Avg Yrs in Current Job" t:dataTypeName=number
+metric m:service_maintenance_avg_hrly p:float l:"Service/Maintenance Avg Hrly" t:dataTypeName=number
+
+metric m:service_maintenance_avg_yrs_in_current_job p:float l:"Service/Maintenance Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:skilled_craft_ee p:integer l:"Skilled Craft # EE" t:dataTypeName=number
 
-metric m:skilled_craft_avg_hrly l:"Skilled Craft Avg Hrly" t:dataTypeName=number
+metric m:skilled_craft_gender p:integer l:"Skilled Craft % Gender" t:dataTypeName=percent
 
-metric m:skilled_craft_avg_yrs_in_current_job l:"Skilled Craft Avg Yrs in Current Job" t:dataTypeName=number
+metric m:skilled_craft_avg_hrly p:float l:"Skilled Craft Avg Hrly" t:dataTypeName=number
+
+metric m:skilled_craft_avg_yrs_in_current_job p:float l:"Skilled Craft Avg Yrs in Current Job" t:dataTypeName=number
 
 metric m:technicians_ee p:integer l:"Technicians # EE" t:dataTypeName=number
 
-metric m:technicians_avg_hrly l:"Technicians Avg Hrly" t:dataTypeName=number
+metric m:technicians_gender p:integer l:"Technicians % Gender" t:dataTypeName=percent
 
-metric m:technicians_avg_yrs_in_current_job l:"Technicians Avg Yrs in Current Job" t:dataTypeName=number
+metric m:technicians_avg_hrly p:float l:"Technicians Avg Hrly" t:dataTypeName=number
+
+metric m:technicians_avg_yrs_in_current_job p:float l:"Technicians Avg Yrs in Current Job" t:dataTypeName=number
 
 entity e:k3hs-aykd l:"City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department" t:url=https://data.seattle.gov/api/views/k3hs-aykd
 

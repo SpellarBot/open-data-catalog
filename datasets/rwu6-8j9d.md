@@ -41,10 +41,10 @@
 | No       |                | latitude   | latitude   | number    | number      |
 | No       |                | longitude  | longitude  | number    | number      |
 | Yes      | series tag     | mutl_aid   | mutl_aid   | text      | text        |
-| Yes      | numeric metric | shift      | shift      | number    | text        |
+| Yes      | series tag     | shift      | shift      | text      | text        |
 | Yes      | numeric metric | alarms     | alarms     | number    | number      |
-| Yes      | numeric metric | alm_type   | alm_type   | number    | number      |
-| Yes      | numeric metric | inci_type  | inci_type  | number    | number      |
+| Yes      | series tag     | alm_type   | alm_type   | text      | number      |
+| Yes      | series tag     | inci_type  | inci_type  | text      | number      |
 | Yes      | series tag     | descript   | descript   | text      | text        |
 ```
 
@@ -58,17 +58,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = alm_date,longitude,latitude
+Excluded Fields = alm_date,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:rwu6-8j9d d:2017-03-12T11:53:44.747Z t:zip=6112 t:mutl_aid=N t:street=VINE t:occup_id=5701 t:descript="EMS call, excluding vehicle accident with injury" t:state=CT t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 t:city=Hartford m:alm_type=1 m:station=16 m:inci_type=321 m:number=500 m:alarms=1
+series e:rwu6-8j9d d:2017-03-13T14:59:49.098Z t:zip=6112 t:mutl_aid=N t:occup_id=5701 t:street=VINE t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:inci_type=321 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 m:station=16 m:number=500 m:alarms=1
 
-series e:rwu6-8j9d d:2017-03-12T11:53:44.747Z t:zip=6105 t:mutl_aid=N t:street=SISSON t:occup_id=19549 t:descript="Medical assist, assist EMS crew" t:state=CT t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 t:city=Hartford m:alm_type=1 m:station=11 m:inci_type=311 m:number=170 m:alarms=1
+series e:rwu6-8j9d d:2017-03-13T14:59:49.098Z t:zip=6105 t:mutl_aid=N t:occup_id=19549 t:street=SISSON t:state=CT t:descript="Medical assist, assist EMS crew" t:inci_type=311 t:city=Hartford t:alm_type=1 t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 m:station=11 m:number=170 m:alarms=1
 
-series e:rwu6-8j9d d:2017-03-12T11:53:44.747Z t:zip=6114 t:mutl_aid=N t:street=KENNETH t:occup_id=33109 t:descript="False alarm or false call, Other" t:state=CT t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 t:city=Hartford m:alm_type=1 m:station=15 m:inci_type=700 m:number=8 m:alarms=1
+series e:rwu6-8j9d d:2017-03-13T14:59:49.098Z t:zip=6114 t:mutl_aid=N t:occup_id=33109 t:street=KENNETH t:state=CT t:descript="False alarm or false call, Other" t:inci_type=700 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 m:station=15 m:number=8 m:alarms=1
 ```
 
 ## Meta Commands
@@ -79,10 +79,6 @@ metric m:station p:integer l:station t:dataTypeName=number
 metric m:number p:integer l:number t:dataTypeName=number
 
 metric m:alarms p:integer l:alarms t:dataTypeName=number
-
-metric m:alm_type p:integer l:alm_type t:dataTypeName=number
-
-metric m:inci_type p:integer l:inci_type t:dataTypeName=number
 
 entity e:rwu6-8j9d l:GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013 t:url=https://data.hartford.gov/api/views/rwu6-8j9d
 

@@ -15,8 +15,8 @@
 | Category | Government & Finance |
 | Tags | numbers, win-4, new york lottery, winning, results |
 | Created | 2013-02-26T20:21:34Z |
-| Publication Date | 2017-03-12T10:03:59Z |
-| Rows Updated | 2017-03-12T10:03:07Z |
+| Publication Date | 2017-03-13T10:02:42Z |
+| Rows Updated | 2017-03-13T10:01:48Z |
 
 ## Description
 
@@ -30,7 +30,7 @@ Go to http://on.ny.gov/1Cx6zvs or http://on.ny.gov/1KYjE6X on the New York Lotte
 | Yes      | time           | draw_date         | Draw Date         | calendar_date | calendar_date |
 | Yes      | series tag     | midday_daily      | Midday Daily #    | text          | text          |
 | Yes      | numeric metric | midday_daily_sum  | Midday Daily Sum  | number        | number        |
-| Yes      | numeric metric | evening_daily     | Evening Daily #   | number        | text          |
+| Yes      | series tag     | evening_daily     | Evening Daily #   | text          | text          |
 | Yes      | numeric metric | evening_daily_sum | Evening Daily Sum | number        | number        |
 | Yes      | series tag     | midday_win_4      | Midday Win 4 #    | text          | text          |
 | Yes      | numeric metric | midday_win_4_sum  | Midday Win 4 Sum  | number        | number        |
@@ -48,25 +48,18 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:hsys-3def d:1980-09-02T00:00:00.000Z m:evening_daily=255
-
-series e:hsys-3def d:1980-09-03T00:00:00.000Z m:evening_daily=905
-
-series e:hsys-3def d:1980-09-04T00:00:00.000Z m:evening_daily=533
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:midday_daily_sum p:integer l:"Midday Daily Sum" t:dataTypeName=number
+metric m:midday_daily_sum p:long l:"Midday Daily Sum" t:dataTypeName=number
 
-metric m:evening_daily p:integer l:"Evening Daily #" t:dataTypeName=number
+metric m:evening_daily_sum p:long l:"Evening Daily Sum" t:dataTypeName=number
 
-metric m:evening_daily_sum p:integer l:"Evening Daily Sum" t:dataTypeName=number
+metric m:midday_win_4_sum p:long l:"Midday Win 4 Sum" t:dataTypeName=number
 
-metric m:midday_win_4_sum p:integer l:"Midday Win 4 Sum" t:dataTypeName=number
-
-metric m:evening_win_4_sum p:integer l:"Evening Win 4 Sum" t:dataTypeName=number
+metric m:evening_win_4_sum p:long l:"Evening Win 4 Sum" t:dataTypeName=number
 
 entity e:hsys-3def l:"Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980" t:attribution="New York State Gaming Commission" t:url=https://data.ny.gov/api/views/hsys-3def
 

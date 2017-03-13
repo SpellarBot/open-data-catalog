@@ -23,13 +23,13 @@ Budget data that describes the Projects and Phases of the Infrastructure Master 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
-| ======== | ============== | ====================== | ====================== | ========= | =========== |
-| No       | time           | :updated_at            | updated_at             | meta_data | meta_data   |
-| Yes      | series tag     | phase_step_name        | Phase Step Name        | text      | text        |
-| Yes      | numeric metric | phase_step_number      | Phase Step Number      | number    | number      |
-| Yes      | series tag     | phase_step_description | Phase Step Description | text      | text        |
-| Yes      | series tag     | phase_type             | Phase Type             | text      | text        |
+| Included | Schema Type | Field Name             | Name                   | Data Type | Render Type |
+| ======== | =========== | ====================== | ====================== | ========= | =========== |
+| No       | time        | :updated_at            | updated_at             | meta_data | meta_data   |
+| Yes      | series tag  | phase_step_name        | Phase Step Name        | text      | text        |
+| Yes      | series tag  | phase_step_number      | Phase Step Number      | text      | number      |
+| Yes      | series tag  | phase_step_description | Phase Step Description | text      | text        |
+| Yes      | series tag  | phase_type             | Phase Type             | text      | text        |
 ```
 
 ## Time Field
@@ -42,18 +42,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:7f3h-pm6e d:2016-12-22T17:21:35.000Z t:phase_step_description="Identify the needs, scope and goals of the project." t:phase_type=IMP t:phase_step_name=Planning m:phase_step_number=1
-
-series e:7f3h-pm6e d:2016-12-22T17:21:37.000Z t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc." t:phase_type=IMP t:phase_step_name=Design m:phase_step_number=2
-
-series e:7f3h-pm6e d:2016-12-22T17:21:39.000Z t:phase_step_description="If Right of Way acquisition is required, the proper documentation is put forth during this time." t:phase_type=IMP t:phase_step_name="RoW Acquisition" m:phase_step_number=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:phase_step_number p:integer l:"Phase Step Number" t:dataTypeName=number
-
 entity e:7f3h-pm6e l:"Jackson Capital Budget Project Phases List" t:url=https://data.jacksonms.gov/api/views/7f3h-pm6e
 
 property e:7f3h-pm6e t:meta.view v:id=7f3h-pm6e v:category="Public Works" v:averageRating=0 v:name="Jackson Capital Budget Project Phases List"

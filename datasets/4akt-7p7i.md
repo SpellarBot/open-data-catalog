@@ -40,7 +40,7 @@ The source of this data set is the working file Personal Property Database that 
 | Yes      | series tag     | source     | Source     | text          | text          |
 | Yes      | time           | date_a     | Date_a     | calendar_date | calendar_date |
 | Yes      | numeric metric | assessment | Assessment | money         | money         |
-| Yes      | numeric metric | st_number  | St_Number  | number        | number        |
+| Yes      | series tag     | st_number  | St_Number  | text          | number        |
 | Yes      | series tag     | st_name    | St_Name    | text          | text          |
 | Yes      | series tag     | locunit    | Locunit    | text          | text          |
 ```
@@ -61,11 +61,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:4akt-7p7i d:2014-12-17T00:00:00.000Z t:zip=06105-3177 t:source="2014 DECLARATION" t:location="242 SISSON AV" t:dba="DEVARS-PHILLIPS FLORIST" t:owner="PAPERWHITES LLC" t:state=CT t:st_name="SISSON AV" t:city=HARTFORD m:st_number=242 m:account=562460 m:assessment=4370
+series e:4akt-7p7i d:2014-12-17T00:00:00.000Z t:zip=06105-3177 t:source="2014 DECLARATION" t:location="242 SISSON AV" t:dba="DEVARS-PHILLIPS FLORIST" t:owner="PAPERWHITES LLC" t:st_number=242 t:state=CT t:st_name="SISSON AV" t:city=HARTFORD m:account=562460 m:assessment=4370
 
-series e:4akt-7p7i d:2014-12-16T00:00:00.000Z t:zip=06032 t:source="2014 DECLARATION" t:location="85 SEYMOUR ST SUITE 607" t:dba="ORTHOPEDIC ASSOCIATES OF HARTFORD P" t:owner="ORTHOPEDIC ASSOCIATES OF HARTFORD P" t:state=CT t:st_name="SEYMOUR ST" t:locunit="SUITE 607" t:city=FARMINGTON m:st_number=85 m:account=556275 m:assessment=913320
+series e:4akt-7p7i d:2014-12-16T00:00:00.000Z t:zip=06032 t:source="2014 DECLARATION" t:location="85 SEYMOUR ST SUITE 607" t:dba="ORTHOPEDIC ASSOCIATES OF HARTFORD P" t:owner="ORTHOPEDIC ASSOCIATES OF HARTFORD P" t:st_number=85 t:state=CT t:st_name="SEYMOUR ST" t:locunit="SUITE 607" t:city=FARMINGTON m:account=556275 m:assessment=913320
 
-series e:4akt-7p7i d:2014-12-05T00:00:00.000Z t:zip=06106-8003 t:source="2014  DECLARATION" t:location="21 OAK ST 6TH FL" t:dba="KAINEN ESCALERA & MCHALE PC" t:owner="KAINEN ESCALERA & MCHALE PC" t:state=CT t:st_name="OAK ST" t:address2="SUITE  601" t:locunit="6TH FL" t:city=HARTFORD m:st_number=21 m:account=383200 m:assessment=33570
+series e:4akt-7p7i d:2014-12-05T00:00:00.000Z t:zip=06106-8003 t:source="2014  DECLARATION" t:location="21 OAK ST 6TH FL" t:dba="KAINEN ESCALERA & MCHALE PC" t:owner="KAINEN ESCALERA & MCHALE PC" t:st_number=21 t:state=CT t:st_name="OAK ST" t:address2="SUITE  601" t:locunit="6TH FL" t:city=HARTFORD m:account=383200 m:assessment=33570
 ```
 
 ## Meta Commands
@@ -73,7 +73,7 @@ series e:4akt-7p7i d:2014-12-05T00:00:00.000Z t:zip=06106-8003 t:source="2014  D
 ```ls
 metric m:account p:integer l:Account t:dataTypeName=number
 
-metric m:st_number p:integer l:St_Number t:dataTypeName=number
+metric m:assessment p:integer l:Assessment t:dataTypeName=money
 
 entity e:4akt-7p7i l:"City of Hartford Business Listing" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/4akt-7p7i
 

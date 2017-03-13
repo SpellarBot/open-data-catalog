@@ -29,7 +29,6 @@ Note: Target attainment status will say ?n/a? if there is no 2012-13 DPI target 
 ```ls
 | Included | Schema Type    | Field Name                    | Name                          | Data Type | Render Type |
 | ======== | ============== | ============================= | ============================= | ========= | =========== |
-| No       | time           | :updated_at                   | updated_at                    | meta_data | meta_data   |
 | Yes      | series tag     | district                      | District                      | text      | number      |
 | Yes      | series tag     | district_name                 | District Name                 | text      | text        |
 | Yes      | numeric metric | dpi_overall_2013              | DPI OVERALL 2013              | number    | number      |
@@ -59,44 +58,44 @@ Note: Target attainment status will say ?n/a? if there is no 2012-13 DPI target 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:bj6v-3hfz d:2014-03-21T10:00:13.000Z t:dpi_read_status=No t:dpi_science_status=Yes t:black_dpi_overall_status=Yes t:high_needs_dpi_overall_status=Yes t:district_name="Ansonia School District" t:swd_dpi_overall_status=n/a t:dpi_overall_status=No t:dpi_write_status=Yes t:hispanic_dpi_overall_status=Yes t:dpi_math_target_status=No t:district=2 t:frl_dpi_overall_status=Yes m:dpi_write_2013=69.2 m:hispanic_dpi_overall_2013=61 m:dpi_read_2013=55.9 m:dpi_science_2013=63.1 m:frl_dpi_overall_2013=55.5 m:black_dpi_overall_2013=52.3 m:high_needs_dpi_overall_2013=52.6 m:dpi_overall_2013=57.8 m:dpi_math_2013=52.4
+series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:dpi_read_status=No t:dpi_science_status=Yes t:black_dpi_overall_status=Yes t:high_needs_dpi_overall_status=Yes t:district_name="Ansonia School District" t:swd_dpi_overall_status=n/a t:dpi_overall_status=No t:dpi_write_status=Yes t:hispanic_dpi_overall_status=Yes t:dpi_math_target_status=No t:district=2 t:frl_dpi_overall_status=Yes m:dpi_write_2013=69.2 m:hispanic_dpi_overall_2013=61 m:dpi_read_2013=55.9 m:frl_dpi_overall_2013=55.5 m:dpi_science_2013=63.1 m:black_dpi_overall_2013=52.3 m:dpi_overall_2013=57.8 m:high_needs_dpi_overall_2013=52.6 m:dpi_math_2013=52.4
 
-series e:bj6v-3hfz d:2014-03-21T10:00:13.000Z t:dpi_read_status=Yes t:dpi_science_status=Yes t:high_needs_dpi_overall_status=Yes t:district_name="Avon School District" t:swd_dpi_overall_status=No t:dpi_overall_status=Yes t:dpi_write_status=Yes t:dpi_math_target_status=Yes t:district=4 m:dpi_write_2013=94.8 m:swd_dpi_overall_2013=61.4 m:dpi_read_2013=88.6 m:dpi_science_2013=92.3 m:high_needs_dpi_overall_2013=70.9 m:dpi_overall_2013=91.7 m:dpi_math_2013=92.5
+series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:dpi_read_status=Yes t:dpi_science_status=Yes t:high_needs_dpi_overall_status=Yes t:district_name="Avon School District" t:swd_dpi_overall_status=No t:dpi_overall_status=Yes t:dpi_write_status=Yes t:dpi_math_target_status=Yes t:district=4 m:dpi_write_2013=94.8 m:swd_dpi_overall_2013=61.4 m:dpi_read_2013=88.6 m:dpi_science_2013=92.3 m:dpi_overall_2013=91.7 m:high_needs_dpi_overall_2013=70.9 m:dpi_math_2013=92.5
 
-series e:bj6v-3hfz d:2014-03-21T10:00:13.000Z t:dpi_read_status=No t:dpi_science_status=Yes t:high_needs_dpi_overall_status=No t:district_name="Berlin School District" t:swd_dpi_overall_status=No t:dpi_overall_status=No t:dpi_write_status=Yes t:hispanic_dpi_overall_status=n/a t:dpi_math_target_status=No t:district=7 t:frl_dpi_overall_status=No m:dpi_write_2013=92.7 m:hispanic_dpi_overall_2013=61.7 m:swd_dpi_overall_2013=55.4 m:dpi_read_2013=83.9 m:dpi_science_2013=86.3 m:frl_dpi_overall_2013=60.9 m:high_needs_dpi_overall_2013=62.2 m:dpi_overall_2013=85.4 m:dpi_math_2013=83
+series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:dpi_read_status=No t:dpi_science_status=Yes t:high_needs_dpi_overall_status=No t:district_name="Berlin School District" t:swd_dpi_overall_status=No t:dpi_overall_status=No t:dpi_write_status=Yes t:hispanic_dpi_overall_status=n/a t:dpi_math_target_status=No t:district=7 t:frl_dpi_overall_status=No m:dpi_write_2013=92.7 m:hispanic_dpi_overall_2013=61.7 m:swd_dpi_overall_2013=55.4 m:dpi_read_2013=83.9 m:frl_dpi_overall_2013=60.9 m:dpi_science_2013=86.3 m:dpi_overall_2013=85.4 m:high_needs_dpi_overall_2013=62.2 m:dpi_math_2013=83
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:dpi_overall_2013 l:"DPI OVERALL 2013" t:dataTypeName=number
+metric m:dpi_overall_2013 p:float l:"DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:black_dpi_overall_2013 l:"Black DPI OVERALL 2013" t:dataTypeName=number
+metric m:black_dpi_overall_2013 p:double l:"Black DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:hispanic_dpi_overall_2013 l:"Hispanic DPI OVERALL 2013" t:dataTypeName=number
+metric m:hispanic_dpi_overall_2013 p:float l:"Hispanic DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:ell_dpi_overall_2013 l:"ELL DPI OVERALL 2013" t:dataTypeName=number
+metric m:ell_dpi_overall_2013 p:float l:"ELL DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:frl_dpi_overall_2013 l:"FRL DPI OVERALL 2013" t:dataTypeName=number
+metric m:frl_dpi_overall_2013 p:double l:"FRL DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:swd_dpi_overall_2013 l:"SWD DPI OVERALL 2013" t:dataTypeName=number
+metric m:swd_dpi_overall_2013 p:float l:"SWD DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:high_needs_dpi_overall_2013 l:"High Needs DPI OVERALL 2013" t:dataTypeName=number
+metric m:high_needs_dpi_overall_2013 p:float l:"High Needs DPI OVERALL 2013" t:dataTypeName=number
 
-metric m:dpi_math_2013 l:"DPI MATH 2013" t:dataTypeName=number
+metric m:dpi_math_2013 p:float l:"DPI MATH 2013" t:dataTypeName=number
 
-metric m:dpi_read_2013 l:"DPI READ 2013" t:dataTypeName=number
+metric m:dpi_read_2013 p:float l:"DPI READ 2013" t:dataTypeName=number
 
-metric m:dpi_write_2013 l:"DPI WRITE 2013" t:dataTypeName=number
+metric m:dpi_write_2013 p:float l:"DPI WRITE 2013" t:dataTypeName=number
 
-metric m:dpi_science_2013 l:"DPI SCIENCE 2013" t:dataTypeName=number
+metric m:dpi_science_2013 p:float l:"DPI SCIENCE 2013" t:dataTypeName=number
 
 entity e:bj6v-3hfz l:"CAPT District Performance: 2013" t:attribution="State Department of Education" t:url=https://data.ct.gov/api/views/bj6v-3hfz
 

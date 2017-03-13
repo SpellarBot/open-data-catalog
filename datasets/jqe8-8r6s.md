@@ -51,7 +51,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = season_year,longitude,latitude,week
+Excluded Fields = latitude,longitude,season_year,week
 ```
 
 ## Data Commands

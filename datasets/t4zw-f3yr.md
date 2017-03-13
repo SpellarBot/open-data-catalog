@@ -31,7 +31,7 @@ This table groups Austin Energy customers into five classes: residential, commer
 | Yes      | numeric metric | residential           | Residential             | number    | number      |
 | Yes      | numeric metric | commerical            | Commerical              | number    | number      |
 | Yes      | numeric metric | industrial            | Industrial              | number    | number      |
-| Yes      | series tag     | public_street_highway | Public Street & Highway | text      | number      |
+| Yes      | numeric metric | public_street_highway | Public Street & Highway | number    | number      |
 | Yes      | numeric metric | government_entities   | Government Entities*    | number    | number      |
 | Yes      | numeric metric | total_billed_kwh      | Total Billed kWh        | number    | number      |
 | Yes      | numeric metric | inc_dec               | % Inc/Dec               | number    | number      |
@@ -47,11 +47,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z t:public_street_highway=46948693 m:inc_dec=-0.0006 m:commerical=4633556863 m:industrial=2648486622 m:residential=4381193546 m:government_entities=1005960507 m:total_billed_kwh=12716146231
+series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z m:inc_dec=-0.0006 m:commerical=4633556863 m:industrial=2648486622 m:residential=4381193546 m:government_entities=1005960507 m:public_street_highway=46948693 m:total_billed_kwh=12716146231
 
-series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z t:public_street_highway=48327221 m:inc_dec=0.0624 m:commerical=4675615088 m:industrial=2342538382 m:residential=4561857688 m:government_entities=1094964902 m:total_billed_kwh=12723303281
+series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z m:inc_dec=0.0624 m:commerical=4675615088 m:industrial=2342538382 m:residential=4561857688 m:government_entities=1094964902 m:public_street_highway=48327221 m:total_billed_kwh=12723303281
 
-series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z t:public_street_highway=48077910 m:inc_dec=-0.01048 m:commerical=4553866402 m:industrial=2038706310 m:residential=4238690401 m:government_entities=1096985412 m:total_billed_kwh=11976326435
+series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:inc_dec=-0.01048 m:commerical=4553866402 m:industrial=2038706310 m:residential=4238690401 m:government_entities=1096985412 m:public_street_highway=48077910 m:total_billed_kwh=11976326435
 ```
 
 ## Meta Commands
@@ -63,11 +63,13 @@ metric m:commerical p:long l:Commerical t:dataTypeName=number
 
 metric m:industrial p:long l:Industrial t:dataTypeName=number
 
+metric m:public_street_highway p:integer l:"Public Street & Highway" t:dataTypeName=number
+
 metric m:government_entities p:integer l:"Government Entities*" d:"*Government entities include the city, state, county and schools in the Austin Energy service territory." t:dataTypeName=number
 
 metric m:total_billed_kwh p:long l:"Total Billed kWh" t:dataTypeName=number
 
-metric m:inc_dec l:"% Inc/Dec" t:dataTypeName=number
+metric m:inc_dec p:double l:"% Inc/Dec" t:dataTypeName=number
 
 entity e:t4zw-f3yr l:"Energy Sales - kilowatt hours by Customer Class" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/t4zw-f3yr
 

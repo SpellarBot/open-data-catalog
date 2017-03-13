@@ -20,7 +20,7 @@
 ```ls
 | Included | Schema Type    | Field Name              | Name                    | Data Type | Render Type |
 | ======== | ============== | ======================= | ======================= | ========= | =========== |
-| Yes      | numeric metric | population_stock_number | Population/Stock Number | number    | number      |
+| Yes      | series tag     | population_stock_number | Population/Stock Number | text      | number      |
 | Yes      | time           | year                    | Year                    | number    | number      |
 | Yes      | numeric metric | wild                    | Wild                    | number    | number      |
 | Yes      | numeric metric | hatchery                | Hatchery                | number    | number      |
@@ -46,21 +46,19 @@ Excluded Fields = listing_year
 ## Data Commands
 
 ```ls
-series e:5anj-6bnk d:1997-01-01T00:00:00.000Z t:population_stock_name="Joseph Creek Summer Steelhead" m:population_stock_number=6884 m:wild=1251 m:wild_hatchery=1251 m:goal_wild=1000
+series e:5anj-6bnk d:1997-01-01T00:00:00.000Z t:population_stock_number=6884 t:population_stock_name="Joseph Creek Summer Steelhead" m:wild=1251 m:wild_hatchery=1251 m:goal_wild=1000
 
-series e:5anj-6bnk d:1998-01-01T00:00:00.000Z t:population_stock_name="Joseph Creek Summer Steelhead" m:population_stock_number=6884 m:wild=3171 m:wild_hatchery=3171 m:goal_wild=1000
+series e:5anj-6bnk d:1998-01-01T00:00:00.000Z t:population_stock_number=6884 t:population_stock_name="Joseph Creek Summer Steelhead" m:wild=3171 m:wild_hatchery=3171 m:goal_wild=1000
 
-series e:5anj-6bnk d:1999-01-01T00:00:00.000Z t:population_stock_name="Joseph Creek Summer Steelhead" m:population_stock_number=6884 m:wild=2133 m:wild_hatchery=2133 m:goal_wild=1000
+series e:5anj-6bnk d:1999-01-01T00:00:00.000Z t:population_stock_number=6884 t:population_stock_name="Joseph Creek Summer Steelhead" m:wild=2133 m:wild_hatchery=2133 m:goal_wild=1000
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:population_stock_number p:integer l:"Population/Stock Number" t:dataTypeName=number
-
 metric m:wild p:integer l:Wild t:dataTypeName=number
 
-metric m:hatchery l:Hatchery t:dataTypeName=number
+metric m:hatchery p:long l:Hatchery t:dataTypeName=number
 
 metric m:wild_hatchery p:integer l:"Wild + Hatchery" t:dataTypeName=number
 

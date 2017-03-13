@@ -21,7 +21,6 @@
 ```ls
 | Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
 | ======== | ============== | ==================== | ==================== | ========= | =========== |
-| No       | time           | :updated_at          | updated_at           | meta_data | meta_data   |
 | Yes      | series tag     | type_of_disbursement | Type of Disbursement | text      | text        |
 | Yes      | numeric metric | total_amount         | Total Amount         | money     | money       |
 ```
@@ -29,23 +28,25 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:wwxb-ba4w d:2015-01-12T12:23:58.000Z t:type_of_disbursement=Expenditures m:total_amount=19133482
+series e:wwxb-ba4w d:2014-01-01T00:00:00.000Z t:type_of_disbursement=Expenditures m:total_amount=19133482
 
-series e:wwxb-ba4w d:2015-01-12T12:31:32.000Z t:type_of_disbursement="Loans Repaid/Forgiven" m:total_amount=309582.43
+series e:wwxb-ba4w d:2014-01-01T00:00:00.000Z t:type_of_disbursement="Loans Repaid/Forgiven" m:total_amount=309582.43
 
-series e:wwxb-ba4w d:2015-01-12T12:31:35.000Z t:type_of_disbursement="Unpaid Expenditures Paid/Forgiven" m:total_amount=390452.4
+series e:wwxb-ba4w d:2014-01-01T00:00:00.000Z t:type_of_disbursement="Unpaid Expenditures Paid/Forgiven" m:total_amount=390452.4
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:total_amount p:double l:"Total Amount" t:dataTypeName=money
+
 entity e:wwxb-ba4w l:"2014 Elections - Total Disbursements" t:url=https://data.hawaii.gov/api/views/wwxb-ba4w
 
 property e:wwxb-ba4w t:meta.view v:id=wwxb-ba4w v:category=Community v:averageRating=0 v:name="2014 Elections - Total Disbursements"

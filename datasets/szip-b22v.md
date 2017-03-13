@@ -42,7 +42,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = _7,_8,_3,_4,_5,_6,_1,_2
+Excluded Fields = _1,_2,_3,_4,_5,_6,_7,_8
 ```
 
 ## Data Commands

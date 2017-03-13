@@ -24,57 +24,54 @@ This coverage contains a highway Annual Average Daily Traffic (AADT) subset of t
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
-| ======== | ============== | =========== | ========== | ========= | =========== |
-| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag     | aadt        | AADT       | text      | text        |
-| Yes      | numeric metric | aadt_yr     | AADT_YR    | number    | text        |
-| Yes      | series tag     | marked_nam  | MARKED_NAM | text      | text        |
-| Yes      | series tag     | road_name   | ROAD_NAME  | text      | text        |
-| Yes      | series tag     | county_nam  | COUNTY_NAM | text      | text        |
-| Yes      | series tag     | hcv         | HCV        | text      | text        |
-| Yes      | numeric metric | hcv_mu_yr   | HCV_MU_YR  | number    | text        |
-| Yes      | series tag     | mu_vol      | MU_VOL     | text      | text        |
-| Yes      | series tag     | su_vol      | SU_VOL     | text      | text        |
-| Yes      | numeric metric | mr_number   | MR_NUMBER  | number    | number      |
-| Yes      | numeric metric | mr_type     | MR_TYPE    | number    | text        |
-| Yes      | series tag     | inventory   | INVENTORY  | text      | text        |
-| Yes      | numeric metric | key_rt_nbr  | KEY_RT_NBR | number    | number      |
-| Yes      | numeric metric | point_x     | POINT_X    | number    | number      |
-| Yes      | numeric metric | point_y     | POINT_Y    | number    | number      |
+| Included | Schema Type    | Field Name | Name       | Data Type | Render Type |
+| ======== | ============== | ========== | ========== | ========= | =========== |
+| Yes      | series tag     | aadt       | AADT       | text      | text        |
+| Yes      | numeric metric | aadt_yr    | AADT_YR    | number    | text        |
+| Yes      | series tag     | marked_nam | MARKED_NAM | text      | text        |
+| Yes      | series tag     | road_name  | ROAD_NAME  | text      | text        |
+| Yes      | series tag     | county_nam | COUNTY_NAM | text      | text        |
+| Yes      | series tag     | hcv        | HCV        | text      | text        |
+| Yes      | numeric metric | hcv_mu_yr  | HCV_MU_YR  | number    | text        |
+| Yes      | series tag     | mu_vol     | MU_VOL     | text      | text        |
+| Yes      | series tag     | su_vol     | SU_VOL     | text      | text        |
+| Yes      | series tag     | mr_number  | MR_NUMBER  | text      | number      |
+| Yes      | series tag     | mr_type    | MR_TYPE    | text      | text        |
+| Yes      | series tag     | inventory  | INVENTORY  | text      | text        |
+| Yes      | numeric metric | key_rt_nbr | KEY_RT_NBR | number    | number      |
+| Yes      | numeric metric | point_x    | POINT_X    | number    | number      |
+| Yes      | numeric metric | point_y    | POINT_Y    | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:xqn9-cme5 d:2011-06-16T13:19:52.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:inventory="016  93726 000000" t:road_name=SHERIDAN t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7652 m:point_y=42.15233 m:mr_number=0 m:mr_type=0 m:key_rt_nbr=3726 m:aadt_yr=2006
+series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name=SHERIDAN t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7652 m:point_y=42.15233 m:key_rt_nbr=3726 m:aadt_yr=2006
 
-series e:xqn9-cme5 d:2011-06-16T13:19:52.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:inventory="016  93726 000000" t:road_name="LAKE COOK RD" t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7706 m:point_y=42.15238 m:mr_number=0 m:mr_type=0 m:key_rt_nbr=3726 m:aadt_yr=2006
+series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name="LAKE COOK RD" t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7706 m:point_y=42.15238 m:key_rt_nbr=3726 m:aadt_yr=2006
 
-series e:xqn9-cme5 d:2011-06-16T13:19:52.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:inventory="016  93726 000000" t:road_name="LAKE COOK RD" t:aadt=6600 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7756 m:point_y=42.15238 m:mr_number=0 m:mr_type=0 m:key_rt_nbr=3726 m:aadt_yr=2006
+series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name="LAKE COOK RD" t:aadt=6600 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7756 m:point_y=42.15238 m:key_rt_nbr=3726 m:aadt_yr=2006
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:aadt_yr l:AADT_YR d:"AVERAGE DAILY TRAFFIC COUNT YEAR" t:dataTypeName=number
+metric m:aadt_yr p:long l:AADT_YR d:"AVERAGE DAILY TRAFFIC COUNT YEAR" t:dataTypeName=number
 
-metric m:hcv_mu_yr l:HCV_MU_YR d:"HEAVY COMMERCIAL/MULTI-UNIT COUNT YEAR" t:dataTypeName=number
-
-metric m:mr_number p:integer l:MR_NUMBER t:dataTypeName=number
+metric m:hcv_mu_yr p:long l:HCV_MU_YR d:"HEAVY COMMERCIAL/MULTI-UNIT COUNT YEAR" t:dataTypeName=number
 
 metric m:key_rt_nbr p:integer l:KEY_RT_NBR t:dataTypeName=number
 
-metric m:point_x l:POINT_X t:dataTypeName=number
+metric m:point_x p:float l:POINT_X t:dataTypeName=number
 
-metric m:point_y l:POINT_Y t:dataTypeName=number
+metric m:point_y p:float l:POINT_Y t:dataTypeName=number
 
 entity e:xqn9-cme5 l:"IDOT Average Annual Daily Traffic 2006" t:attribution="Illinois Department of Transportation" t:url=https://data.illinois.gov/api/views/xqn9-cme5
 

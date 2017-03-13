@@ -52,9 +52,9 @@ Vehicle traffic volumes collected from 7-day counts. Used to provide traffic cou
 | Yes      | numeric metric | distance                  | DISTANCE                  | number    | number      |
 | No       |                | stdy_year                 | STDY_YEAR                 | number    | number      |
 | Yes      | series tag     | study_type                | STUDY_TYPE                | text      | text        |
-| Yes      | numeric metric | flowmap                   | FLOWMAP                   | number    | text        |
-| Yes      | numeric metric | hpms                      | HPMS                      | number    | text        |
-| Yes      | numeric metric | screenline                | SCREENLINE                | number    | text        |
+| Yes      | series tag     | flowmap                   | FLOWMAP                   | text      | text        |
+| Yes      | series tag     | hpms                      | HPMS                      | text      | text        |
+| Yes      | series tag     | screenline                | SCREENLINE                | text      | text        |
 | Yes      | series tag     | stdy_title_part_with_flow | STDY_TITLE_PART_WITH_FLOW | text      | text        |
 ```
 
@@ -68,7 +68,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = stdy_year,end_date
+Excluded Fields = end_date,stdy_year
 ```
 
 ## Data Commands
@@ -104,7 +104,7 @@ metric m:seg_compkey p:integer l:SEG_COMPKEY d:SEG_COMPKEY t:dataTypeName=number
 
 metric m:unitid2 p:integer l:UNITID2 d:UNITID2 t:dataTypeName=number
 
-metric m:distance l:DISTANCE d:DISTANCE t:dataTypeName=number
+metric m:distance p:float l:DISTANCE d:DISTANCE t:dataTypeName=number
 
 entity e:qfw2-ekmx l:"SDOT Traffic Count Details" t:url=https://data.seattle.gov/api/views/qfw2-ekmx
 

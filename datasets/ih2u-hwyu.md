@@ -21,8 +21,7 @@
 ```ls
 | Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
 | ======== | ============== | ============== | ============== | ========= | =========== |
-| No       | time           | :updated_at    | updated_at     | meta_data | meta_data   |
-| Yes      | numeric metric | agency         | AGENCY #       | number    | text        |
+| Yes      | series tag     | agency         | AGENCY #       | text      | text        |
 | Yes      | series tag     | agency_title   | AGENCY TITLE   | text      | text        |
 | Yes      | series tag     | classification | CLASSIFICATION | text      | text        |
 | Yes      | series tag     | service_type   | SERVICE TYPE   | text      | text        |
@@ -33,24 +32,24 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:ih2u-hwyu d:2012-12-14T17:15:36.000Z t:service_type="Classified Staff" t:classification="Accountant 1" t:agency_title="OUS - Southern Oregon University" t:full_part_time=Full-Time m:annual_salary=36048 m:agency=58040
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Accountant 1" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=36048
 
-series e:ih2u-hwyu d:2012-12-14T17:15:36.000Z t:service_type="Classified Staff" t:classification="Administrative Program Assist" t:agency_title="OUS - Southern Oregon University" t:full_part_time=Full-Time m:annual_salary=37800 m:agency=58040
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Administrative Program Assist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=37800
 
-series e:ih2u-hwyu d:2012-12-14T17:15:36.000Z t:service_type="Classified Staff" t:classification="Medical Transcriptionist" t:agency_title="OUS - Southern Oregon University" t:full_part_time=Full-Time m:annual_salary=36048 m:agency=58040
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Medical Transcriptionist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=36048
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:agency p:integer l:"AGENCY #" t:dataTypeName=number
+metric m:annual_salary p:integer l:"ANNUAL SALARY" t:dataTypeName=money
 
 entity e:ih2u-hwyu l:"Salary: OUS: Southern Oregon University: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/ih2u-hwyu
 

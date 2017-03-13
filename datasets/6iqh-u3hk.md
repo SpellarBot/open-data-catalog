@@ -38,7 +38,7 @@ This dataset includes all itemized payments made by an agent or independent cont
 | Yes      | series tag     | tblcover_office_cd  | tblCover_Office_Cd  | text          | text          |
 | Yes      | series tag     | tblcover_offic_dscr | tblCover_Offic_Dscr | text          | text          |
 | Yes      | series tag     | rec_type            | Rec_Type            | text          | text          |
-| Yes      | numeric metric | form_type           | Form_Type           | number        | text          |
+| Yes      | series tag     | form_type           | Form_Type           | text          | text          |
 | Yes      | series tag     | tran_id             | Tran_ID             | text          | text          |
 | Yes      | series tag     | entity_cd           | Entity_Cd           | text          | text          |
 | Yes      | series tag     | payee_naml          | Payee_NamL          | text          | text          |
@@ -83,11 +83,11 @@ This dataset includes all itemized payments made by an agent or independent cont
 | Yes      | series tag     | bal_name            | Bal_Name            | text          | text          |
 | Yes      | series tag     | bal_num             | Bal_Num             | text          | text          |
 | Yes      | series tag     | bal_juris           | Bal_Juris           | text          | text          |
-| Yes      | numeric metric | sup_opp_cd          | Sup_Opp_Cd          | number        | text          |
+| Yes      | series tag     | sup_opp_cd          | Sup_Opp_Cd          | text          | text          |
 | Yes      | series tag     | memo_code           | Memo_Code           | text          | text          |
 | Yes      | series tag     | memo_refno          | Memo_RefNo          | text          | text          |
 | Yes      | series tag     | bakref_tid          | BakRef_TID          | text          | text          |
-| Yes      | numeric metric | g_from_e_f          | G_From_E_F          | number        | text          |
+| Yes      | series tag     | g_from_e_f          | G_From_E_F          | text          | text          |
 | Yes      | series tag     | xref_schnm          | XRef_SchNm          | text          | text          |
 | Yes      | series tag     | xref_match          | XRef_Match          | text          | text          |
 ```
@@ -102,7 +102,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = elect_date,thru_date,expn_date,from_date
+Excluded Fields = from_date,thru_date,elect_date,expn_date
 ```
 
 ## Data Commands
@@ -119,6 +119,10 @@ series e:6iqh-u3hk d:2016-09-06T00:00:00.000Z t:cand_naml="Lee Fewer" t:payee_st
 
 ```ls
 metric m:report_num p:integer l:Report_Num t:dataTypeName=number
+
+metric m:amount p:double l:Amount t:dataTypeName=money
+
+metric m:cum_ytd p:double l:Cum_YTD t:dataTypeName=money
 
 entity e:6iqh-u3hk l:"Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/6iqh-u3hk
 

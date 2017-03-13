@@ -31,7 +31,7 @@ City-Parish employees' annual salaries and other payroll related information. In
 | Yes      | series tag     | employee_num         | EMPLOYEE NUM         | html          | html          |
 | Yes      | series tag     | last_name            | LAST NAME            | text          | text          |
 | Yes      | series tag     | first_name           | FIRST NAME           | text          | text          |
-| Yes      | numeric metric | middle_init          | MIDDLE INIT          | number        | text          |
+| Yes      | series tag     | middle_init          | MIDDLE INIT          | text          | text          |
 | Yes      | series tag     | department_num       | DEPARTMENT NUM       | html          | html          |
 | Yes      | series tag     | department_name      | DEPARTMENT NAME      | text          | text          |
 | Yes      | series tag     | division_num         | DIVISION NUM         | html          | html          |
@@ -80,17 +80,23 @@ series e:g5c2-myyj d:2006-01-09T00:00:00.000Z t:first_name=WILLIAM t:department_
 ```ls
 metric m:scheduled_hours p:integer l:"SCHEDULED HOURS" d:"Scheduled hours per pay period" t:dataTypeName=number
 
-metric m:longevity_percentage l:"LONGEVITY PERCENTAGE" d:"Percentage of pay earned by employee for longevity with City-Parish" t:dataTypeName=number
+metric m:longevity_percentage p:float l:"LONGEVITY PERCENTAGE" d:"Percentage of pay earned by employee for longevity with City-Parish" t:dataTypeName=number
 
-metric m:base_hourly_rate l:"BASE HOURLY RATE" d:"Hourly rate based on pay grade and step" t:dataTypeName=number
+metric m:base_hourly_rate p:float l:"BASE HOURLY RATE" d:"Hourly rate based on pay grade and step" t:dataTypeName=number
 
-metric m:total_hourly_rate l:"TOTAL HOURLY RATE" d:"Hourly rate plus longevity and other earning allowances (Educational, Hazardous Pay, etc)" t:dataTypeName=number
+metric m:total_hourly_rate p:float l:"TOTAL HOURLY RATE" d:"Hourly rate plus longevity and other earning allowances (Educational, Hazardous Pay, etc)" t:dataTypeName=number
 
-metric m:overtime_hourly_rate l:"OVERTIME HOURLY RATE" d:"Hourly rate plus allowable overtime earning types multiplied by 1.5" t:dataTypeName=number
+metric m:overtime_hourly_rate p:float l:"OVERTIME HOURLY RATE" d:"Hourly rate plus allowable overtime earning types multiplied by 1.5" t:dataTypeName=number
 
 metric m:payroll_status p:integer l:"EMPLOYMENT STATUS" d:"Status in payroll system: 0 - Active, 1 - Temporary Leave (no arrears), 2 - Temporary Leave with Arrears, 3 - Inactive, 4 - Terminated Last Pay Period, 5 - No longer with City-Parish." t:dataTypeName=number
 
-metric m:total_overtime_hours l:"TOTAL OVERTIME HOURS" d:"Total number of overtime hours worked for the year" t:dataTypeName=number
+metric m:base_pay p:double l:"TOTAL BASE PAY" d:"Annual salary plus longevity and other earning allowances (Educational, Hazardous Pay, etc)" t:dataTypeName=money
+
+metric m:gross_pay p:double l:"GROSS PAY" d:"Base pay plus overtime plus/minus any adjustments" t:dataTypeName=money
+
+metric m:total_overtime_hours p:float l:"TOTAL OVERTIME HOURS" d:"Total number of overtime hours worked for the year" t:dataTypeName=number
+
+metric m:total_overtime_pay p:double l:"TOTAL OVERTIME PAY" d:"Total overtime amount earned for the year" t:dataTypeName=money
 
 entity e:g5c2-myyj l:"City-Parish Employee Annual Salaries" t:attribution="City of Baton Rouge - Human Resources" t:url=https://data.brla.gov/api/views/g5c2-myyj
 

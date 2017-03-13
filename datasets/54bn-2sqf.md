@@ -33,7 +33,7 @@ It should be noted header information will be duplicated on all detail items. No
 ```ls
 | Included | Schema Type    | Field Name         | Name                             | Data Type     | Render Type   |
 | ======== | ============== | ================== | ================================ | ============= | ============= |
-| Yes      | numeric metric | rec_type           | RECORD TYPE                      | number        | text          |
+| Yes      | series tag     | rec_type           | RECORD TYPE                      | text          | text          |
 | Yes      | series tag     | po_num             | PURCHASE ORDER NUMBER            | text          | text          |
 | Yes      | series tag     | req_num            | REQUISITION NUMBER               | text          | text          |
 | Yes      | time           | po_in_date         | INPUT DATE                       | calendar_date | calendar_date |
@@ -44,7 +44,7 @@ It should be noted header information will be duplicated on all detail items. No
 | Yes      | series tag     | cstctr_desc        | COST CENTER NAME                 | text          | text          |
 | Yes      | series tag     | empl_inp           | INPUT BY                         | text          | text          |
 | Yes      | series tag     | purc_agent         | PURCHASING AGENT                 | text          | text          |
-| Yes      | numeric metric | po_type_cd         | PO TYPE CODE                     | number        | text          |
+| Yes      | series tag     | po_type_cd         | PO TYPE CODE                     | text          | text          |
 | Yes      | series tag     | po_type_desc       | PO TYPE DESCRIPTION              | text          | text          |
 | Yes      | series tag     | po_category        | PO CATEGORY CODE                 | text          | text          |
 | Yes      | series tag     | po_category_desc   | PO CATEGORY DESCRIPTION          | text          | text          |
@@ -61,7 +61,7 @@ It should be noted header information will be duplicated on all detail items. No
 | Yes      | series tag     | vend_zip           | VENDOR ZIP                       | text          | text          |
 | Yes      | series tag     | vend_cont_name     | VENDOR CONTACT NAME              | text          | text          |
 | Yes      | series tag     | vend_cont_title    | VENDOR CONTACT TITLE             | text          | text          |
-| Yes      | numeric metric | vend_cont_phone    | VENDOR CONTACT PHONE             | number        | number        |
+| Yes      | series tag     | vend_cont_phone    | VENDOR CONTACT PHONE             | text          | number        |
 | Yes      | numeric metric | vend_cont_ph_ext   | VENDOR CONTACT EXTENSION         | number        | number        |
 | Yes      | series tag     | vend_minority_abbr | VENDOR MINORITY CODE             | text          | text          |
 | Yes      | series tag     | vend_minority_desc | VENDOR MINORITY DESCRIPTION      | text          | text          |
@@ -97,33 +97,31 @@ series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:vend_cont_name="**NAME CHANGED F
 ## Meta Commands
 
 ```ls
-metric m:total_amt l:"TOTAL AMOUNT" d:"Total amount of PO" t:dataTypeName=number
+metric m:total_amt p:double l:"TOTAL AMOUNT" d:"Total amount of PO" t:dataTypeName=number
 
-metric m:deptno p:integer l:"DEPARTMENT NUMBER" d:"Number of the department which the PO is for" t:dataTypeName=number
+metric m:deptno p:long l:"DEPARTMENT NUMBER" d:"Number of the department which the PO is for" t:dataTypeName=number
 
 metric m:cstctr p:integer l:"COST CENTER" d:"Cost Center of the Department which the PO is for. This will often show which of the Department's Divisions issued the PO" t:dataTypeName=number
 
 metric m:po_stat p:integer l:"PO STATUS CODE" d:"Code indicating the status of the PO" t:dataTypeName=number
 
-metric m:vchd_amt l:"VOUCHED AMOUNT" d:"Actual amount invoiced against PO. This amount may be less than the original PO amount" t:dataTypeName=number
+metric m:vchd_amt p:double l:"VOUCHED AMOUNT" d:"Actual amount invoiced against PO. This amount may be less than the original PO amount" t:dataTypeName=number
 
 metric m:vend p:integer l:"VENDOR NUMBER" d:"Internal id associated with the vendor" t:dataTypeName=number
-
-metric m:vend_cont_phone p:long l:"VENDOR CONTACT PHONE" t:dataTypeName=number
 
 metric m:vend_cont_ph_ext p:integer l:"VENDOR CONTACT EXTENSION" t:dataTypeName=number
 
 metric m:total_items p:integer l:"TOTAL ITEMS" d:"Total number of detail items on PO. Each PO will have at least 1 detail item" t:dataTypeName=number
 
-metric m:po_balance l:"PO BALANCE" d:"Balance left on PO" t:dataTypeName=number
+metric m:po_balance p:double l:"PO BALANCE" d:"Balance left on PO" t:dataTypeName=number
 
 metric m:dt_seq p:integer l:"ITEM NUMBER" d:"Sequential number of the detail PO line item" t:dataTypeName=number
 
 metric m:dt_qty_ord p:integer l:"ITEM QUANTITY ORDERED" d:"Quantity being ordered for this PO line item" t:dataTypeName=number
 
-metric m:dt_unit_cost l:"ITEM UNIT COST" d:"Unit Cost for this PO line item" t:dataTypeName=number
+metric m:dt_unit_cost p:double l:"ITEM UNIT COST" d:"Unit Cost for this PO line item" t:dataTypeName=number
 
-metric m:dt_tot_cost l:"ITEM TOTAL COST" d:"Total (extended) cost of the PO line item being ordered" t:dataTypeName=number
+metric m:dt_tot_cost p:double l:"ITEM TOTAL COST" d:"Total (extended) cost of the PO line item being ordered" t:dataTypeName=number
 
 entity e:54bn-2sqf l:"Purchase Orders" t:attribution=Purchasing t:url=https://data.brla.gov/api/views/54bn-2sqf
 

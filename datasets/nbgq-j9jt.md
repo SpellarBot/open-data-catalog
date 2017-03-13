@@ -68,27 +68,57 @@ Excluded Fields = fiscal_year
 ## Data Commands
 
 ```ls
-series e:nbgq-j9jt d:2017-03-12T10:54:10.713Z t:location=K001 m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-99126.82 m:label_d_initial_fair_student_funding_allocations_total=5858476.18 m:total_column_q_register_change=-29.26 m:total_column_n_fy14_actual_registers=1692.42 m:calculation_j_fsf_formula_at_100=7081416.99 m:label_j_fy15_fair_student_formula_at_100=7081416.99 m:system_wide_teacher_salary_growth=0 m:label_s_fair_student_funding_register_formula=-120645.73 m:label_h_foundation_for_new_schools=0 m:label_g_teacher_salary_growth=0 m:total_column_p_projected_formula=6856416.99 m:total_column_o_projected_register=1663.15 m:foundation=225000 m:label_a_fy14_revised_based_allocations=5957603 m:calculation_j_initial_fair_student_funding_allocations_total=5858476.18 m:calculation_j_foundation=225000 m:total_column_r_register_dollar_change=-120645.73 m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.8216 m:label_g_teacher_salary_growth_2=0 m:weighted_register=1663.15 m:label_w_final_school_fsf_percent=0.8216
+series e:nbgq-j9jt d:2017-03-13T14:56:15.536Z t:location=K001 m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-99126.82 m:label_d_initial_fair_student_funding_allocations_total=5858476.18 m:total_column_q_register_change=-29.26 m:total_column_n_fy14_actual_registers=1692.42 m:calculation_j_fsf_formula_at_100=7081416.99 m:label_j_fy15_fair_student_formula_at_100=7081416.99 m:system_wide_teacher_salary_growth=0 m:label_s_fair_student_funding_register_formula=-120645.73 m:label_h_foundation_for_new_schools=0 m:label_g_teacher_salary_growth=0 m:total_column_p_projected_formula=6856416.99 m:total_column_o_projected_register=1663.15 m:foundation=225000 m:label_a_fy14_revised_based_allocations=5957603 m:calculation_j_initial_fair_student_funding_allocations_total=5858476.18 m:calculation_j_foundation=225000 m:total_column_r_register_dollar_change=-120645.73 m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.8216 m:label_g_teacher_salary_growth_2=0 m:weighted_register=1663.15 m:label_w_final_school_fsf_percent=0.8216
 
-series e:nbgq-j9jt d:2017-03-12T10:54:10.713Z t:location=K002 m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-51499.38 m:label_d_initial_fair_student_funding_allocations_total=2514000.62 m:total_column_q_register_change=-15.35 m:total_column_n_fy14_actual_registers=697.52 m:calculation_j_fsf_formula_at_100=3037276.59 m:label_j_fy15_fair_student_formula_at_100=3037276.59 m:system_wide_teacher_salary_growth=0 m:label_s_fair_student_funding_register_formula=-63272.37 m:label_h_foundation_for_new_schools=0 m:label_g_teacher_salary_growth=0 m:total_column_p_projected_formula=2812276.59 m:total_column_o_projected_register=682.17 m:foundation=225000 m:label_a_fy14_revised_based_allocations=2565500 m:calculation_j_initial_fair_student_funding_allocations_total=2514000.62 m:calculation_j_foundation=225000 m:total_column_r_register_dollar_change=-63272.37 m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.8139 m:label_g_teacher_salary_growth_2=0 m:weighted_register=682.17 m:label_w_final_school_fsf_percent=0.8139
+series e:nbgq-j9jt d:2017-03-13T14:56:15.536Z t:location=K002 m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-51499.38 m:label_d_initial_fair_student_funding_allocations_total=2514000.62 m:total_column_q_register_change=-15.35 m:total_column_n_fy14_actual_registers=697.52 m:calculation_j_fsf_formula_at_100=3037276.59 m:label_j_fy15_fair_student_formula_at_100=3037276.59 m:system_wide_teacher_salary_growth=0 m:label_s_fair_student_funding_register_formula=-63272.37 m:label_h_foundation_for_new_schools=0 m:label_g_teacher_salary_growth=0 m:total_column_p_projected_formula=2812276.59 m:total_column_o_projected_register=682.17 m:foundation=225000 m:label_a_fy14_revised_based_allocations=2565500 m:calculation_j_initial_fair_student_funding_allocations_total=2514000.62 m:calculation_j_foundation=225000 m:total_column_r_register_dollar_change=-63272.37 m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.8139 m:label_g_teacher_salary_growth_2=0 m:weighted_register=682.17 m:label_w_final_school_fsf_percent=0.8139
 
-series e:nbgq-j9jt d:2017-03-12T10:54:10.713Z t:location=K003 m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-188271.84 m:label_d_initial_fair_student_funding_allocations_total=2176535.16 m:total_column_q_register_change=-52.07 m:total_column_n_fy14_actual_registers=591.84 m:calculation_j_fsf_formula_at_100=2450195.3 m:label_j_fy15_fair_student_formula_at_100=2450195.3 m:system_wide_teacher_salary_growth=0 m:label_s_fair_student_funding_register_formula=-214672.83 m:label_h_foundation_for_new_schools=0 m:label_g_teacher_salary_growth=0 m:total_column_p_projected_formula=2225195.3 m:total_column_o_projected_register=539.76 m:foundation=225000 m:label_a_fy14_revised_based_allocations=2364807 m:calculation_j_initial_fair_student_funding_allocations_total=2176535.16 m:calculation_j_foundation=225000 m:total_column_r_register_dollar_change=-214672.83 m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.877 m:label_g_teacher_salary_growth_2=0 m:weighted_register=539.76 m:label_w_final_school_fsf_percent=0.877
+series e:nbgq-j9jt d:2017-03-13T14:56:15.536Z t:location=K003 m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-188271.84 m:label_d_initial_fair_student_funding_allocations_total=2176535.16 m:total_column_q_register_change=-52.07 m:total_column_n_fy14_actual_registers=591.84 m:calculation_j_fsf_formula_at_100=2450195.3 m:label_j_fy15_fair_student_formula_at_100=2450195.3 m:system_wide_teacher_salary_growth=0 m:label_s_fair_student_funding_register_formula=-214672.83 m:label_h_foundation_for_new_schools=0 m:label_g_teacher_salary_growth=0 m:total_column_p_projected_formula=2225195.3 m:total_column_o_projected_register=539.76 m:foundation=225000 m:label_a_fy14_revised_based_allocations=2364807 m:calculation_j_initial_fair_student_funding_allocations_total=2176535.16 m:calculation_j_foundation=225000 m:total_column_r_register_dollar_change=-214672.83 m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.877 m:label_g_teacher_salary_growth_2=0 m:weighted_register=539.76 m:label_w_final_school_fsf_percent=0.877
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:total_column_n_fy14_actual_registers l:"Total Column N: FY14 Actual Registers" t:dataTypeName=number
+metric m:total_column_n_fy14_actual_registers p:float l:"Total Column N: FY14 Actual Registers" t:dataTypeName=number
 
-metric m:total_column_o_projected_register l:"Total Column O: Projected Register" t:dataTypeName=number
+metric m:total_column_o_projected_register p:float l:"Total Column O: Projected Register" t:dataTypeName=number
 
-metric m:total_column_q_register_change l:"Total Column Q: Register Change" t:dataTypeName=number
+metric m:total_column_p_projected_formula p:double l:"Total Column P: Projected Formula" t:dataTypeName=money
 
-metric m:weighted_register l:"Weighted Register" t:dataTypeName=number
+metric m:total_column_q_register_change p:float l:"Total Column Q: Register Change" t:dataTypeName=number
 
-metric m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100 l:"Label t: Change to Preliminary Fair Student Funding Percentage Capped at 100%" t:dataTypeName=number
+metric m:total_column_r_register_dollar_change p:double l:"Total Column R: Register Dollar Change" t:dataTypeName=money
 
-metric m:label_w_final_school_fsf_percent l:"Label w: Final School FSF Percent" t:dataTypeName=number
+metric m:weighted_register p:float l:"Weighted Register" t:dataTypeName=number
+
+metric m:system_wide_teacher_salary_growth p:double l:"System-wide Teacher Salary Growth" t:dataTypeName=money
+
+metric m:label_g_teacher_salary_growth p:double l:"Label g: Teacher Salary Growth" t:dataTypeName=money
+
+metric m:foundation p:double l:Foundation t:dataTypeName=money
+
+metric m:label_j_fy15_fair_student_formula_at_100 p:double l:"Label j: FY15 Fair Student Formula at 100%" t:dataTypeName=money
+
+metric m:label_a_fy14_revised_based_allocations p:double l:"Label a: FY14 Revised Based Allocations" t:dataTypeName=money
+
+metric m:label_s_fair_student_funding_register_formula p:double l:"Label s: Fair Student Funding Register Formula" t:dataTypeName=money
+
+metric m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100 p:double l:"Label t: Change to Preliminary Fair Student Funding Percentage Capped at 100%" t:dataTypeName=number
+
+metric m:label_f_register_change_allocation_based_on_school_s_percent_of_formula p:double l:"Label f: Register Change Allocation Based on School's Percent of Formula" t:dataTypeName=money
+
+metric m:label_g_teacher_salary_growth_2 p:double l:"Label g: Teacher Salary Growth 2" t:dataTypeName=money
+
+metric m:label_h_foundation_for_new_schools p:double l:"Label h: Foundation for New Schools" t:dataTypeName=money
+
+metric m:label_d_initial_fair_student_funding_allocations_total p:double l:"Label d: Initial Fair Student Funding Allocations Total" t:dataTypeName=money
+
+metric m:calculation_j_initial_fair_student_funding_allocations_total p:double l:"Calculation j: Initial Fair Student Funding Allocations Total" t:dataTypeName=money
+
+metric m:calculation_j_foundation p:double l:"Calculation j: Foundation" t:dataTypeName=money
+
+metric m:label_w_final_school_fsf_percent p:float l:"Label w: Final School FSF Percent" t:dataTypeName=number
+
+metric m:calculation_j_fsf_formula_at_100 p:double l:"Calculation j: FSF Formula at 100%" t:dataTypeName=money
 
 entity e:nbgq-j9jt l:"Fair Student Funding Budget Detail 2" t:url=https://data.cityofnewyork.us/api/views/nbgq-j9jt
 

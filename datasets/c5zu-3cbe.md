@@ -19,22 +19,21 @@
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name  | Name       | Data Type | Render Type |
-| ======== | =========== | =========== | ========== | ========= | =========== |
-| No       | time        | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag  | site        | Site       | text      | text        |
-| Yes      | series tag  | hours       | Hours      | text      | text        |
-| No       |             | address     | Address    | text      | text        |
-| Yes      | series tag  | city        | City       | text      | text        |
-| Yes      | series tag  | state       | State      | text      | text        |
-| Yes      | series tag  | zip         | Zip        | text      | text        |
+| Included | Schema Type | Field Name | Name    | Data Type | Render Type |
+| ======== | =========== | ========== | ======= | ========= | =========== |
+| Yes      | series tag  | site       | Site    | text      | text        |
+| Yes      | series tag  | hours      | Hours   | text      | text        |
+| No       |             | address    | Address | text      | text        |
+| Yes      | series tag  | city       | City    | text      | text        |
+| Yes      | series tag  | state      | State   | text      | text        |
+| Yes      | series tag  | zip        | Zip     | text      | text        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Series Fields

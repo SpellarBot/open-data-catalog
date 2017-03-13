@@ -79,7 +79,7 @@ metric m:member_8 p:integer l:"Member 8" t:dataTypeName=number
 
 metric m:member_9 p:integer l:"Member 9" t:dataTypeName=number
 
-metric m:rank_and_score l:"Rank and Score" t:dataTypeName=number
+metric m:rank_and_score p:decimal l:"Rank and Score" t:dataTypeName=number
 
 entity e:yjnx-i3j5 l:"Data Priority List" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/yjnx-i3j5
 

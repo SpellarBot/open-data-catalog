@@ -44,7 +44,7 @@ series e:dyvq-j7gn d:2016-06-30T00:00:00.000Z m:billablehours=1349.96353
 ## Meta Commands
 
 ```ls
-metric m:billablehours l:BillableHours t:dataTypeName=number
+metric m:billablehours p:double l:BillableHours t:dataTypeName=number
 
 entity e:dyvq-j7gn l:TPW_FleetTechnicianBillableHours t:url=https://data.srcity.org/api/views/dyvq-j7gn
 

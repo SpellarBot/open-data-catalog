@@ -49,6 +49,8 @@ series e:85cd-6rtn d:2012-08-28T00:00:00.000Z t:candidate="Butler, Joe" t:distri
 ## Meta Commands
 
 ```ls
+metric m:amount_of_iec p:double l:"Amount of IEC" t:dataTypeName=money
+
 entity e:85cd-6rtn l:"Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/85cd-6rtn
 
 property e:85cd-6rtn t:meta.view v:id=85cd-6rtn v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org/ethics/2012/05/voluntary-expenditure-ceiling-and-individual-expenditure-ceilings.html v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election" v:attribution="San Francisco Ethics Commission"

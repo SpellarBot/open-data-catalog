@@ -67,6 +67,8 @@ metric m:disposed_statewide p:integer l:"Disposed Statewide" t:dataTypeName=numb
 
 metric m:diverted_statewide p:integer l:"Diverted Statewide" t:dataTypeName=number
 
+metric m:percent_diverted p:float l:"Percent Diverted" t:dataTypeName=percent
+
 entity e:v48g-wbhi l:"Table 17: Solid Waste Recycled (in tons)" t:attribution=DOH t:url=https://data.hawaii.gov/api/views/v48g-wbhi
 
 property e:v48g-wbhi t:meta.view v:id=v48g-wbhi v:category=Health v:attributionLink=http://hawaii.gov/doh v:averageRating=0 v:name="Table 17: Solid Waste Recycled (in tons)" v:attribution=DOH

@@ -57,7 +57,7 @@ series e:ebe6-dvsr d:2015-07-01T00:00:00.000Z t:recsubtype="Site Grading" t:meas
 ## Meta Commands
 
 ```ls
-metric m:avgnumdays p:integer l:AvgNumDays t:dataTypeName=number
+metric m:avgnumdays p:double l:AvgNumDays t:dataTypeName=number
 
 metric m:noofpermits p:integer l:NoOfPermits t:dataTypeName=number
 

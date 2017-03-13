@@ -22,7 +22,6 @@
 ```ls
 | Included | Schema Type    | Field Name                          | Name                                  | Data Type | Render Type |
 | ======== | ============== | =================================== | ===================================== | ========= | =========== |
-| No       | time           | :updated_at                         | updated_at                            | meta_data | meta_data   |
 | Yes      | series tag     | description                         | Description                           | text      | text        |
 | Yes      | numeric metric | fy_2012_budgeted_revenue            | FY 2012 Budgeted Revenue              | number    | number      |
 | Yes      | numeric metric | fy_2012_actual_dec_may              | FY 2012 Actual, Dec-May*              | number    | number      |
@@ -34,18 +33,18 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:55dk-ypji d:2012-09-04T10:37:03.000Z t:description="Property Tax Revenue" m:fy_2012_budgeted_revenue=335209275 m:fy_2012_actual_dec_may=167604600 m:estimated_2012_year_end=335209200 m:fy_2013_preliminary_estimate=352918250 m:fy_2012_budgeted_june_nov_estimated=167604600
+series e:55dk-ypji d:2013-01-01T00:00:00.000Z t:description="Property Tax Revenue" m:fy_2012_budgeted_revenue=335209275 m:fy_2012_actual_dec_may=167604600 m:estimated_2012_year_end=335209200 m:fy_2013_preliminary_estimate=352918250 m:fy_2012_budgeted_june_nov_estimated=167604600
 
-series e:55dk-ypji d:2012-09-04T10:37:03.000Z t:description="Interest on Penalties and Delinquent Taxes, Interest Earnings, and Special Fees" m:fy_2012_budgeted_revenue=56157000 m:fy_2012_actual_dec_may=26868000 m:estimated_2012_year_end=76000000 m:fy_2013_preliminary_estimate=76000000 m:fy_2012_budgeted_june_nov_estimated=49132000
+series e:55dk-ypji d:2013-01-01T00:00:00.000Z t:description="Interest on Penalties and Delinquent Taxes, Interest Earnings, and Special Fees" m:fy_2012_budgeted_revenue=56157000 m:fy_2012_actual_dec_may=26868000 m:estimated_2012_year_end=76000000 m:fy_2013_preliminary_estimate=76000000 m:fy_2012_budgeted_june_nov_estimated=49132000
 
-series e:55dk-ypji d:2012-09-04T10:37:03.000Z t:description="Inheritance Taxes" m:fy_2012_budgeted_revenue=3850000 m:fy_2012_actual_dec_may=2000000 m:estimated_2012_year_end=2000000 m:fy_2013_preliminary_estimate=0 m:fy_2012_budgeted_june_nov_estimated=0
+series e:55dk-ypji d:2013-01-01T00:00:00.000Z t:description="Inheritance Taxes" m:fy_2012_budgeted_revenue=3850000 m:fy_2012_actual_dec_may=2000000 m:estimated_2012_year_end=2000000 m:fy_2013_preliminary_estimate=0 m:fy_2012_budgeted_june_nov_estimated=0
 ```
 
 ## Meta Commands

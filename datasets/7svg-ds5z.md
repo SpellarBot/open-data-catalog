@@ -55,7 +55,7 @@ series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="DENNY WAY" t:downtown=tr
 ## Meta Commands
 
 ```ls
-metric m:aawdt l:AAWDT t:dataTypeName=number
+metric m:aawdt p:float l:AAWDT t:dataTypeName=number
 
 entity e:7svg-ds5z l:"Traffic Flow Counts" t:attribution="Seattle Department of Transportation" t:url=https://data.seattle.gov/api/views/7svg-ds5z
 

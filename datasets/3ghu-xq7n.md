@@ -26,7 +26,6 @@ Data for 2011 through June 2011. Enclosed data represents outpatient registratio
 ```ls
 | Included | Schema Type    | Field Name            | Name                       | Data Type | Render Type |
 | ======== | ============== | ===================== | ========================== | ========= | =========== |
-| No       | time           | :updated_at           | updated_at                 | meta_data | meta_data   |
 | Yes      | series tag     | zipcode               | ZIPCODE                    | text      | text        |
 | Yes      | numeric metric | ytd_through_june_2011 | 2011 YTD through June 2011 | number    | number      |
 ```
@@ -34,18 +33,18 @@ Data for 2011 through June 2011. Enclosed data represents outpatient registratio
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:3ghu-xq7n d:2011-09-19T14:13:32.000Z t:zipcode=60600 m:ytd_through_june_2011=70
+series e:3ghu-xq7n d:2011-01-01T00:00:00.000Z t:zipcode=60600 m:ytd_through_june_2011=70
 
-series e:3ghu-xq7n d:2011-09-19T14:13:32.000Z t:zipcode=60627 m:ytd_through_june_2011=125
+series e:3ghu-xq7n d:2011-01-01T00:00:00.000Z t:zipcode=60627 m:ytd_through_june_2011=125
 
-series e:3ghu-xq7n d:2011-09-19T14:13:32.000Z t:zipcode=60635 m:ytd_through_june_2011=46
+series e:3ghu-xq7n d:2011-01-01T00:00:00.000Z t:zipcode=60635 m:ytd_through_june_2011=46
 ```
 
 ## Meta Commands

@@ -56,7 +56,7 @@ series e:c3bk-jwwq d:2012-07-01T00:00:00.000Z t:grantor_agency="IL Dept of Agric
 ## Meta Commands
 
 ```ls
-metric m:grant_amount l:"Grant Amount" t:dataTypeName=number
+metric m:grant_amount p:float l:"Grant Amount" t:dataTypeName=number
 
 metric m:duration_in_days p:integer l:"Duration (in days)" t:dataTypeName=number
 

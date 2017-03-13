@@ -53,7 +53,7 @@ Format & Zone = yyyy-MMMM
 ## Series Fields
 
 ```ls
-Excluded Fields = month,year
+Excluded Fields = year,month
 ```
 
 ## Data Commands
@@ -71,9 +71,21 @@ series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=2 t:month_code=4 t
 ```ls
 metric m:tanf_cases_with_earned_income p:integer l:"TANF Cases with Earned Income" d:"Table 30 number of Temporary Assistance for Needy Families (TANF) cases with earned monthly income. TANF is the federally-funded cash assistance program for households consisting of children living with related adults, and certain foster care cases (the latter cases are not examined for earned income)." t:dataTypeName=number
 
+metric m:tanf_average_gross_earned_income p:integer l:"TANF Average Gross Earned Income" d:"Table 30 TANF per-case average (arithmetic mean) of gross earned monthly income." t:dataTypeName=money
+
+metric m:tanf_average_net_earned_income p:integer l:"TANF Average Net Earned Income" d:"Table 30 TANF per-case average (arithmetic mean) of net earned monthly income (gross earned income after application of disregards)." t:dataTypeName=money
+
 metric m:sna_moe_cases_with_earned_income p:integer l:"SNA MOE Cases with Earned Income" d:"Table 30 number of Safety Net Assistance-Maintenance of Effort (SNA-MOE) cases with earned monthly income. SNA MOE is a state-funded cash assistance program consisting of cases that would qualify for TANF except that they are barred from TANF assistance because they have exceeded the 60-month lifetime limit on that assistance or because they are a qualified alien but in the country for less than five years." t:dataTypeName=number
 
+metric m:sna_moe_average_gross_earned_income p:integer l:"SNA MOE Average Gross Earned Income" d:"Table 30 SNA-MOE per-case average (arithmetic mean) of gross earned monthly income." t:dataTypeName=money
+
+metric m:sna_moe_average_net_earned_income p:integer l:"SNA MOE Average Net Earned Income" d:"Table 30 SNA-MOE per-case average (arithmetic mean) of net earned monthly income (gross earned Income after application of disregards)." t:dataTypeName=money
+
 metric m:sna_non_moe_cases_with_earned_income p:integer l:"SNA Non-MOE Cases with Earned Income" d:"Table 30 number of Safety Net Assistance Non-Maintenance of Effort (SNA Non-MOE) cases with earned monthly income. SNA Non-MOE is a state-funded cash assistance program primarily for childless adults and two-parent families with children where both parents are non-disabled" t:dataTypeName=number
+
+metric m:sna_non_moe_average_gross_earned_income p:integer l:"SNA Non-MOE Average Gross Earned Income" d:"Table 30 SNA Non-MOE per-case average (arithmetic mean) of gross earned monthly income." t:dataTypeName=money
+
+metric m:sna_non_moe_average_net_earned_income p:integer l:"SNA Non-MOE Average Net Earned Income" d:"Table 30 SNA Non-MOE per-case average (arithmetic mean) of net earned monthly income (gross earned income after application of disregards)." t:dataTypeName=money
 
 entity e:5mdi-3rq9 l:"Public Assistance Cases with Earned Income:  Beginning April 2006" t:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" t:url=https://data.ny.gov/api/views/5mdi-3rq9
 

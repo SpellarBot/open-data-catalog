@@ -34,7 +34,7 @@ The New York State Scenic Byways program was created in 1992 by the State Legisl
 | Yes      | series tag     | connects                 | Connects                   | text      | text        |
 | Yes      | series tag     | primary_designation      | Primary Designation        | text      | text        |
 | Yes      | series tag     | secondary_designation    | Secondary Designation      | text      | text        |
-| Yes      | numeric metric | tertiary_designation     | Tertiary Designation       | number    | text        |
+| Yes      | series tag     | tertiary_designation     | Tertiary Designation       | text      | text        |
 | Yes      | series tag     | for_more_information_url | For more information (URL) | url       | url         |
 ```
 
@@ -48,19 +48,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:q8sd-9bib d:2013-02-14T13:48:29.000Z t:region="Great Lakes/ Canadian Border" t:primary_designation="National Scenic Byway (National Designation)" t:secondary_designation="State Scenic Byway" t:scenic_byway="Great Lakes Seaway Trail" t:connects="Ripley and Massena" m:approximate_length_miles=454
+series e:q8sd-9bib d:2013-02-14T13:48:29.000Z t:region="Great Lakes/ Canadian Border" t:for_more_information_url=http://www.seawaytrail.com/ t:primary_designation="National Scenic Byway (National Designation)" t:secondary_designation="State Scenic Byway" t:scenic_byway="Great Lakes Seaway Trail" t:connects="Ripley and Massena" m:approximate_length_miles=454
 
-series e:q8sd-9bib d:2013-02-14T13:48:29.000Z t:region="Champlain and Hudson Valleys" t:primary_designation="All-American Road (National Designation)" t:secondary_designation="State Scenic Byway" t:scenic_byway="Lakes to Locks Passage" t:connects="Canadian Border and Waterford" m:approximate_length_miles=225
+series e:q8sd-9bib d:2013-02-14T13:48:29.000Z t:region="Champlain and Hudson Valleys" t:for_more_information_url=http://www.lakestolocks.org/ t:primary_designation="All-American Road (National Designation)" t:secondary_designation="State Scenic Byway" t:scenic_byway="Lakes to Locks Passage" t:connects="Canadian Border and Waterford" m:approximate_length_miles=225
 
-series e:q8sd-9bib d:2013-02-14T13:48:29.000Z t:region=Adirondacks t:primary_designation="State Scenic Byway" t:scenic_byway="Adirondack Trail" t:connects="Fonda and Malone" m:approximate_length_miles=179
+series e:q8sd-9bib d:2013-02-14T13:48:29.000Z t:region=Adirondacks t:for_more_information_url=http://www.adirondackscenicbyways.org/byway/adirondack-trail.html t:primary_designation="State Scenic Byway" t:scenic_byway="Adirondack Trail" t:connects="Fonda and Malone" m:approximate_length_miles=179
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:approximate_length_miles p:integer l:"Approximate Length (Miles)" d:"Approximate total length of the byway measured in miles." t:dataTypeName=number
-
-metric m:tertiary_designation l:"Tertiary Designation" d:"The tertiary designation of the byway (where applicable)." t:dataTypeName=number
 
 entity e:q8sd-9bib l:"Designated Scenic Byways" t:attribution="New York State Department of Transportation" t:url=https://data.ny.gov/api/views/q8sd-9bib
 

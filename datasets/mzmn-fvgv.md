@@ -30,7 +30,6 @@ and eligible to vote in their precinct. For more information on Early Voting see
 ```ls
 | Included | Schema Type | Field Name                       | Name                               | Data Type | Render Type |
 | ======== | =========== | ================================ | ================================== | ========= | =========== |
-| No       | time        | :updated_at                      | updated_at                         | meta_data | meta_data   |
 | Yes      | series tag  | site                             | Site                               | text      | text        |
 | Yes      | series tag  | early_voting_weekdays            | Early Voting - Weekdays            | text      | text        |
 | Yes      | series tag  | early_voting_saturday            | Early Voting - Saturday            | text      | text        |
@@ -45,8 +44,8 @@ and eligible to vote in their precinct. For more information on Early Voting see
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands

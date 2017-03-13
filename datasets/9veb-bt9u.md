@@ -53,6 +53,12 @@ series e:9veb-bt9u d:1992-01-01T00:00:00.000Z m:percent_of_adults_currently_smok
 ## Meta Commands
 
 ```ls
+metric m:percent_of_high_school_students_currently_smoking_cigarettes p:float l:"Percent of High School Students Currently Smoking Cigarettes" t:dataTypeName=percent
+
+metric m:percent_of_adults_currently_smoking_cigarettes p:float l:"Percent of Adults Currently Smoking Cigarettes" t:dataTypeName=percent
+
+metric m:percent_of_middle_school_students_currently_smoking_cigarettes p:float l:"Percent of Middle School Students Currently Smoking Cigarettes" t:dataTypeName=percent
+
 entity e:9veb-bt9u l:"Percent of Connecticut Adults, High School Students, and Middle School Students Currently Smoking Cigarettes by Year" t:attribution="CT DPH: Community Health and Prevention Section" t:url=https://data.ct.gov/api/views/9veb-bt9u
 
 property e:9veb-bt9u t:meta.view v:id=9veb-bt9u v:category="Health and Human Services" v:attributionLink=http://www.ct.gov/dph/tobacco v:averageRating=0 v:name="Percent of Connecticut Adults, High School Students, and Middle School Students Currently Smoking Cigarettes by Year" v:attribution="CT DPH: Community Health and Prevention Section"

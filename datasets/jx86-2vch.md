@@ -25,12 +25,12 @@ Listing of the Public Libraries in the State of Hawaii
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name   | Name         | Data Type | Render Type |
-| ======== | ============== | ============ | ============ | ========= | =========== |
-| No       | time           | :updated_at  | updated_at   | meta_data | meta_data   |
-| Yes      | series tag     | library_name | Library Name | text      | text        |
-| Yes      | series tag     | county       | County       | text      | text        |
-| Yes      | numeric metric | phone        | Phone        | number    | number      |
+| Included | Schema Type | Field Name   | Name         | Data Type | Render Type |
+| ======== | =========== | ============ | ============ | ========= | =========== |
+| No       | time        | :updated_at  | updated_at   | meta_data | meta_data   |
+| Yes      | series tag  | library_name | Library Name | text      | text        |
+| Yes      | series tag  | county       | County       | text      | text        |
+| Yes      | series tag  | phone        | Phone        | text      | number      |
 ```
 
 ## Time Field
@@ -43,18 +43,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="WAHIAWA PUBLIC LIBRARY" t:county=HONOLULU m:phone=8086226345
-
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="MOUNTAIN VIEW PUBLIC AND SCHOOL LIBRARY" t:county=HAWAII m:phone=8089686300
-
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="HILO PUBLIC LIBRARY" t:county=HAWAII m:phone=8089338888
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:phone p:long l:Phone t:dataTypeName=number
-
 entity e:jx86-2vch l:"Libraries State Of Hawaii" t:attribution="Hawaii State Public Library System" t:url=https://data.hawaii.gov/api/views/jx86-2vch
 
 property e:jx86-2vch t:meta.view v:id=jx86-2vch v:category="Social Services" v:attributionLink=http://hawaii.sdp.sirsi.net/custom/web/ v:averageRating=0 v:name="Libraries State Of Hawaii" v:attribution="Hawaii State Public Library System"

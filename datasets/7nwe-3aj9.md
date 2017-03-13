@@ -35,14 +35,14 @@
 | Yes      | series tag     | measuredesc              | MeasureDesc              | text      | text        |
 | Yes      | series tag     | submeasuredesc           | SubMeasureDesc           | text      | text        |
 | Yes      | numeric metric | data_value               | Data_Value               | number    | number      |
-| No       |                | data_value_unit          | Data_Value_Unit          | number    | text        |
+| No       |                | data_value_unit          | Data_Value_Unit          | text      | text        |
 | No       |                | data_value_type          | Data_Value_Type          | text      | text        |
 | Yes      | series tag     | source                   | Source                   | text      | text        |
 | Yes      | series tag     | topictypeid              | TopicTypeId              | text      | text        |
 | Yes      | series tag     | topicid                  | TopicId                  | text      | text        |
 | Yes      | series tag     | measureid                | MeasureId                | text      | text        |
 | Yes      | series tag     | submeasureid             | SubMeasureID             | text      | text        |
-| Yes      | numeric metric | submeasureiddisplayorder | SubMeasureIdDisplayOrder | number    | text        |
+| No       |                | submeasureiddisplayorder | SubMeasureIdDisplayOrder | number    | text        |
 ```
 
 ## Time Field
@@ -55,25 +55,23 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_unit,data_value_type
+Excluded Fields = data_value_unit,data_value_type,submeasureiddisplayorder
 ```
 
 ## Data Commands
 
 ```ls
-series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z t:locationabbr=AL t:locationdesc=Alabama t:topicid=450POL t:source="Table 13- Orzechowski and Walker, Tax Burden on Tobacco" t:measureid=450CGS t:measuredesc="Cigarette Sales" t:submeasuredesc="Average Cost per pack" t:topicdesc="The Tax Burden on Tobacco" t:submeasureid=455CGS t:datasource=OW t:topictypeid=POL m:submeasureiddisplayorder=1 m:data_value=5.102
+series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z t:locationabbr=AL t:locationdesc=Alabama t:topicid=450POL t:source="Table 13- Orzechowski and Walker, Tax Burden on Tobacco" t:measureid=450CGS t:measuredesc="Cigarette Sales" t:submeasuredesc="Average Cost per pack" t:topicdesc="The Tax Burden on Tobacco" t:submeasureid=455CGS t:datasource=OW t:topictypeid=POL m:data_value=5.102
 
-series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z t:locationabbr=AL t:locationdesc=Alabama t:topicid=450POL t:source="Table 11- Orzechowski and Walker, Tax Burden on Tobacco" t:measureid=450CGS t:measuredesc="Cigarette Sales" t:submeasuredesc="Cigarette Consumption (Pack Sales Per Capita)" t:topicdesc="The Tax Burden on Tobacco" t:submeasureid=453CGS t:datasource=OW t:topictypeid=POL m:submeasureiddisplayorder=2 m:data_value=61.7
+series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z t:locationabbr=AL t:locationdesc=Alabama t:topicid=450POL t:source="Table 11- Orzechowski and Walker, Tax Burden on Tobacco" t:measureid=450CGS t:measuredesc="Cigarette Sales" t:submeasuredesc="Cigarette Consumption (Pack Sales Per Capita)" t:topicdesc="The Tax Burden on Tobacco" t:submeasureid=453CGS t:datasource=OW t:topictypeid=POL m:data_value=61.7
 
-series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z t:locationabbr=AL t:locationdesc=Alabama t:topicid=450POL t:source="Table 13- Orzechowski and Walker, Tax Burden on Tobacco" t:measureid=450CGS t:measuredesc="Cigarette Sales" t:submeasuredesc="Federal and State tax as a Percentage of Retail Price" t:topicdesc="The Tax Burden on Tobacco" t:submeasureid=454CGS t:datasource=OW t:topictypeid=POL m:submeasureiddisplayorder=3 m:data_value=28.1
+series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z t:locationabbr=AL t:locationdesc=Alabama t:topicid=450POL t:source="Table 13- Orzechowski and Walker, Tax Burden on Tobacco" t:measureid=450CGS t:measuredesc="Cigarette Sales" t:submeasuredesc="Federal and State tax as a Percentage of Retail Price" t:topicdesc="The Tax Burden on Tobacco" t:submeasureid=454CGS t:datasource=OW t:topictypeid=POL m:data_value=28.1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:data_value l:Data_Value d:"Value of the data" t:dataTypeName=number
-
-metric m:submeasureiddisplayorder p:integer l:SubMeasureIdDisplayOrder d:"For programming purposes" t:dataTypeName=number
+metric m:data_value p:double l:Data_Value d:"Value of the data" t:dataTypeName=number
 
 entity e:7nwe-3aj9 l:"The Tax Burden on Tobacco Volume 49, 1970-2014" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://chronicdata.cdc.gov/api/views/7nwe-3aj9
 

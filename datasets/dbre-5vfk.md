@@ -49,6 +49,16 @@ series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=2003-05 m:state_all=140
 ## Meta Commands
 
 ```ls
+metric m:state_all p:integer l:"State -- All" t:dataTypeName=money
+
+metric m:local_all p:integer l:"Local -- All" t:dataTypeName=money
+
+metric m:federal_all p:integer l:"Federal -- All" t:dataTypeName=money
+
+metric m:total p:integer l:Total t:dataTypeName=money
+
+metric m:cumulative_total p:integer l:"Cumulative Total" t:dataTypeName=money
+
 entity e:dbre-5vfk l:"2 -- Government $$ By Biennium" t:url=https://data.wa.gov/api/views/dbre-5vfk
 
 property e:dbre-5vfk t:meta.view v:id=dbre-5vfk v:averageRating=0 v:name="2 -- Government $$ By Biennium"

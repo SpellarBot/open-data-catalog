@@ -22,7 +22,6 @@
 ```ls
 | Included | Schema Type    | Field Name               | Name                     | Data Type | Render Type |
 | ======== | ============== | ======================== | ======================== | ========= | =========== |
-| No       | time           | :updated_at              | updated_at               | meta_data | meta_data   |
 | Yes      | series tag     | county_department_number | County Department Number | text      | text        |
 | Yes      | numeric metric | enrollment_count         | Enrollment Count         | number    | number      |
 | Yes      | numeric metric | cost                     | Cost                     | money     | money       |
@@ -31,24 +30,26 @@
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:h4i4-uff6 d:2012-05-21T09:58:37.000Z t:county_department_number=2 m:enrollment_count=11 m:cost=10674.56
+series e:h4i4-uff6 d:2012-01-01T00:00:00.000Z t:county_department_number=2 m:enrollment_count=11 m:cost=10674.56
 
-series e:h4i4-uff6 d:2012-05-21T09:58:37.000Z t:county_department_number=7 m:enrollment_count=33 m:cost=29092.87
+series e:h4i4-uff6 d:2012-01-01T00:00:00.000Z t:county_department_number=7 m:enrollment_count=33 m:cost=29092.87
 
-series e:h4i4-uff6 d:2012-05-21T09:58:37.000Z t:county_department_number=8 m:enrollment_count=19 m:cost=21563.41
+series e:h4i4-uff6 d:2012-01-01T00:00:00.000Z t:county_department_number=8 m:enrollment_count=19 m:cost=21563.41
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:enrollment_count p:integer l:"Enrollment Count" t:dataTypeName=number
+
+metric m:cost p:double l:Cost t:dataTypeName=money
 
 entity e:h4i4-uff6 l:"Risk Management - Employment Enrollment Summary, by Department - April 2012" t:attribution="Cook County Department of Risk Management" t:url=https://datacatalog.cookcountyil.gov/api/views/h4i4-uff6
 
