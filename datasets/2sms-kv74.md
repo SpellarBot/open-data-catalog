@@ -87,7 +87,7 @@ Find key information on state library agencies.<br><br>These data include impute
 | Yes      | series tag     | fipsst     | FIPS state code                                            | text      | text        |
 | Yes      | numeric metric | obereg     | BEA code                                                   | number    | text        |
 | Yes      | numeric metric | rstatus    | Reporting Status                                           | number    | text        |
-| No       | time           | fystart    | Fiscal year start date, mm/dd/yyyy                         | date      | date        |
+| Yes      | time           | fystart    | Fiscal year start date, mm/dd/yyyy                         | date      | date        |
 | No       |                | fyend      | Fiscal year end date, mm/dd/yyyy                           | date      | date        |
 | Yes      | numeric metric | tothrs     | Hours open typical week                                    | number    | number      |
 | Yes      | numeric metric | tothrsce   | Hours open main outlet                                     | number    | number      |

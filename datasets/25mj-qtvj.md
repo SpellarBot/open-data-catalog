@@ -26,7 +26,7 @@ Salaries of state work force sorted by agency - 2016. For more information go to
 ```ls
 | Included | Schema Type    | Field Name     | Name           | Data Type | Render Type |
 | ======== | ============== | ============== | ============== | ========= | =========== |
-| No       | time           | fiscal_year    | FISCAL YEAR    | number    | number      |
+| Yes      | time           | fiscal_year    | FISCAL YEAR    | number    | number      |
 | Yes      | numeric metric | agency         | AGENCY #       | number    | text        |
 | Yes      | series tag     | agency_title   | AGENCY TITLE   | text      | text        |
 | Yes      | series tag     | classification | CLASSIFICATION | text      | text        |

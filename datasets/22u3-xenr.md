@@ -28,7 +28,7 @@ Violations issued by the Department of Buildings from 2006 to the present.  Lend
 | Included | Schema Type    | Field Name                   | Name                         | Data Type     | Render Type   |
 | ======== | ============== | ============================ | ============================ | ============= | ============= |
 | No       |                | id                           | ID                           | text          | text          |
-| No       | time           | violation_last_modified_date | VIOLATION LAST MODIFIED DATE | calendar_date | calendar_date |
+| Yes      | time           | violation_last_modified_date | VIOLATION LAST MODIFIED DATE | calendar_date | calendar_date |
 | No       |                | violation_date               | VIOLATION DATE               | calendar_date | calendar_date |
 | Yes      | series tag     | violation_code               | VIOLATION CODE               | text          | text          |
 | Yes      | series tag     | violation_status             | VIOLATION STATUS             | text          | text          |
