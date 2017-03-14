@@ -43,11 +43,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:84fd-3fzf d:2013-04-30T13:41:03.000Z t:location="Schofield Barracks, Ulrich S., w. of bldg. S2107" t:species_and_number_of_trees="Acrocarpus fraxinifolius (1)" t:common_name="Pink Cedar Tree" t:tmk=N/A m:row_number=1
+
+series e:84fd-3fzf d:2013-04-30T13:41:03.000Z t:location="Queen's Medical Center, 1301 Punchbowl St." t:species_and_number_of_trees="Adansonia digitata (1)" t:common_name="Baobab Tree" t:tmk=2-1-035:003 m:row_number=2
+
+series e:84fd-3fzf d:2013-04-30T13:41:03.000Z t:location="Foster Botanical Garden, 180 N. Vineyard Blvd." t:species_and_number_of_trees="Adansonia digitata (1)" t:common_name="Baobab Tree" t:tmk=1-7-007:002 m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:84fd-3fzf l:"Exceptional Trees On Oahu" t:attribution="C&C Honolulu" t:url=https://data.honolulu.gov/api/views/84fd-3fzf
 
 property e:84fd-3fzf t:meta.view v:id=84fd-3fzf v:category=Recreation v:attributionLink=http://www1.honolulu.gov/parks/exceptionaltrees.htm v:averageRating=0 v:name="Exceptional Trees On Oahu" v:attribution="C&C Honolulu"

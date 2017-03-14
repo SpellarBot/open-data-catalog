@@ -42,11 +42,18 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
+series e:qwnt-35i6 d:2004-03-10T00:00:00.000Z t:name_of_requestor="Terrence Hallinan" t:relevant_law="one-year post-employment ban" m:row_number=1
+
+series e:qwnt-35i6 d:2004-07-30T00:00:00.000Z t:name_of_requestor="Anthony P. Hall" t:relevant_law="one-year post-employment ban" m:row_number=2
+
+series e:qwnt-35i6 d:2004-08-30T00:00:00.000Z t:name_of_requestor="Ruth Edelstein" t:relevant_law="one-year post-employment ban" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:qwnt-35i6 l:"Post- Employment Restriction Waivers" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/qwnt-35i6
 
 property e:qwnt-35i6 t:meta.view v:id=qwnt-35i6 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Post- Employment Restriction Waivers" v:attribution="San Francisco Ethics Commission"

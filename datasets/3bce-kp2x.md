@@ -40,11 +40,18 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
+series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=527,490 t:ty2012_ytd=875,000 t:reporting_office=Assessor t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of parcels reassessed" t:tax_year_2009=869,663 m:row_number=1
+
+series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=1,093,220 t:ty2012_ytd=1,101,000 t:reporting_office=Assessor t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of property tax exemptions received" t:tax_year_2009=1,101,937 m:row_number=2
+
+series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=109,860 t:ty2012_ytd=135,000 t:reporting_office=Assessor t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of appeals filed" t:tax_year_2009=134,975 m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:3bce-kp2x l:"Property and Taxation: Q3 2012 Performance Management Goal Assessment" t:url=https://datacatalog.cookcountyil.gov/api/views/3bce-kp2x
 
 property e:3bce-kp2x t:meta.view v:id=3bce-kp2x v:category="Property & Taxation" v:averageRating=0 v:name="Property and Taxation: Q3 2012 Performance Management Goal Assessment"

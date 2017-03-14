@@ -44,11 +44,18 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
+series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:position=Support t:measure="Measure J - Minimum Wage" t:reportered_filerid=1367310 t:filerid=1367310 t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations" m:row_number=1
+
+series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:position=Support t:measure="Measure J - Minimum Wage" t:reportered_filerid=1367310 t:filerid=1367310 t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations, Yes on Proposition J" m:row_number=2
+
+series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:position=Support t:measure="Measure C - Children and Youth Fund" t:reportered_filerid=1367736 t:filerid=1367736 t:filer_naml="Children and Family First Committee" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:dt7v-mz6s l:"Campaign Finance - Ballot Measure Committee Name Mapping - November 4 2014 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/dt7v-mz6s
 
 property e:dt7v-mz6s t:meta.view v:id=dt7v-mz6s v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Ballot Measure Committee Name Mapping - November 4 2014 Election" v:attribution="San Francisco Ethics Commission"

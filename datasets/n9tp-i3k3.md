@@ -44,11 +44,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:phone_number="(860) 249-9625" t:location="500 ALBANY AV" t:description="Community Health Services, Inc." t:name="Community Health Services, Inc." m:row_number=1
+
+series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:phone_number="(860) 808-8607" t:location="500 ALBANY AV" t:description="Clinical Services - Adult Medicine" t:name="Community Health Services, Inc." m:row_number=2
+
+series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:phone_number="(860) 808-8720" t:location="500 ALBANY AV" t:description="Clinical Services - Adolescent Medicine" t:name="Community Health Services, Inc." m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:n9tp-i3k3 l:"Community HealthCare Centers" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/n9tp-i3k3
 
 property e:n9tp-i3k3 t:meta.view v:id=n9tp-i3k3 v:category="Public Health" v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="Community HealthCare Centers" v:attribution="City of Hartford"

@@ -30,13 +30,13 @@
 | Yes      | series tag     | application_number        | Application Number        | text          | text          |
 | Yes      | series tag     | plancheck_number          | Plancheck Number          | text          | text          |
 | Yes      | series tag     | reference_number          | Reference Number          | text          | text          |
-| Yes      | time           | applied                   | Applied                   | calendar_date | calendar_date |
+| No       |                | applied                   | Applied                   | calendar_date | calendar_date |
 | Yes      | series tag     | applied_by                | Applied By                | text          | text          |
-| No       |                | approved                  | Approved                  | calendar_date | calendar_date |
+| Yes      | series tag     | approved                  | Approved                  | calendar_date | calendar_date |
 | Yes      | series tag     | approved_by               | Approved By               | text          | text          |
-| No       |                | issued                    | Issued                    | calendar_date | calendar_date |
+| Yes      | series tag     | issued                    | Issued                    | calendar_date | calendar_date |
 | Yes      | series tag     | issued_by                 | Issued By                 | text          | text          |
-| No       |                | finaled                   | Finaled                   | calendar_date | calendar_date |
+| Yes      | time           | finaled                   | Finaled                   | calendar_date | calendar_date |
 | Yes      | series tag     | finaled_by                | Finaled By                | text          | text          |
 | Yes      | series tag     | expired                   | Expired                   | text          | text          |
 | Yes      | series tag     | expired_by                | Expired By                | text          | text          |
@@ -106,24 +106,24 @@
 ## Time Field
 
 ```ls
-Value = applied
+Value = finaled
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = approved,issued,finaled
+Excluded Fields = applied
 ```
 
 ## Data Commands
 
 ```ls
-series e:m3fm-fpwu d:2006-08-18T00:00:00.000Z t:site_zip=61820 t:owner_name="SALVATION ARMY" t:applied_by=VPA t:applicant_name="Getz Fire Equipment" t:issued_by=VPA t:record_id=CRW_00612712 t:seq_number=3766 t:location_record_id=KR:512021404000034 t:finaled_by=CRL t:contractor_name="Getz Fire Equipment" t:site_tract=CI t:description=SUPPRESSION t:permit_subtype=Alteration t:site_street_id=0 t:site_city=CHAMPAIGN t:permit_type=HVAC t:status=FINALED t:site_state=IL t:site_number=2212 t:permit_number=BS06-3766 t:site_street_name="N MARKET" t:approved_by=VPA t:site_apn=462106101008 t:prefix=BS t:parent_permit_number=BS06-1438 m:building_square_footage=22465 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=300 m:height=0 m:pin=0 m:fees_charged=45 m:fees_paid=45 m:number_of_units=2 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
+series e:m3fm-fpwu d:2006-08-29T00:00:00.000Z t:site_zip=61820 t:owner_name="SALVATION ARMY" t:applied_by=VPA t:applicant_name="Getz Fire Equipment" t:issued_by=VPA t:record_id=CRW_00612712 t:seq_number=3766 t:location_record_id=KR:512021404000034 t:approved=2006-08-18T00:00:00 t:finaled_by=CRL t:contractor_name="Getz Fire Equipment" t:site_tract=CI t:description=SUPPRESSION t:permit_subtype=Alteration t:site_street_id=0 t:site_city=CHAMPAIGN t:permit_type=HVAC t:site_state=IL t:status=FINALED t:issued=2006-08-18T00:00:00 t:site_number=2212 t:permit_number=BS06-3766 t:site_street_name="N MARKET" t:approved_by=VPA t:site_apn=462106101008 t:prefix=BS t:parent_permit_number=BS06-1438 m:building_square_footage=22465 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=300 m:height=0 m:pin=0 m:fees_charged=45 m:fees_paid=45 m:number_of_units=2 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
 
-series e:m3fm-fpwu d:2006-06-23T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=PLUMBING t:owner_name="MACFARLANE, ROBERT F" t:site_state=IL t:status=FINALED t:applied_by=VPA t:site_number=1017 t:applicant_name="Clark Plbg. & Htg." t:record_id=CRW_00623666 t:issued_by=VPA t:seq_number=2853 t:permit_number=BS06-2853 t:site_street_name="LINCOLNSHIRE DR" t:approved_by=VPA t:location_record_id=CRW_00810880 t:contractor_name="Clark Plbg. & Htg." t:site_apn=452023226001 t:finaled_by=MPE t:description="BACKFLOW PREVENTOR" t:prefix=BS t:permit_subtype=New t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:height=0 m:pin=0 m:fees_charged=35 m:fees_paid=35 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
+series e:m3fm-fpwu d:2006-07-03T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=PLUMBING t:owner_name="MACFARLANE, ROBERT F" t:site_state=IL t:status=FINALED t:applied_by=VPA t:issued=2006-06-23T00:00:00 t:site_number=1017 t:applicant_name="Clark Plbg. & Htg." t:record_id=CRW_00623666 t:issued_by=VPA t:seq_number=2853 t:permit_number=BS06-2853 t:site_street_name="LINCOLNSHIRE DR" t:approved_by=VPA t:approved=2006-06-23T00:00:00 t:location_record_id=CRW_00810880 t:contractor_name="Clark Plbg. & Htg." t:site_apn=452023226001 t:finaled_by=MPE t:description="BACKFLOW PREVENTOR" t:prefix=BS t:permit_subtype=New t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:height=0 m:pin=0 m:fees_charged=35 m:fees_paid=35 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
 
-series e:m3fm-fpwu d:2006-03-31T00:00:00.000Z t:site_city=CHAMPAIGN t:permit_type=GRADING t:site_zip=61822 t:expired=00:00.0 t:expired_by=LCL t:owner_name="RAYCORP, INC" t:site_state=IL t:status=ISSUED t:applied_by=VP t:site_number=2714-2716 t:applicant_name="Architectural Spectrum" t:record_id=CRW_00622410 t:issued_by=LCL t:seq_number=891 t:permit_number=EN06-0891 t:site_street_name=MADELYN t:approved_by=VP t:description=G&D t:prefix=EN t:permit_subtype=New t:parent_permit_number=BS06-1264 t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:height=0 m:pin=0 m:fees_charged=0 m:fees_paid=0 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
+series e:m3fm-fpwu d:2017-03-14T12:28:20.506Z t:site_city=CHAMPAIGN t:permit_type=GRADING t:site_zip=61822 t:expired=00:00.0 t:expired_by=LCL t:owner_name="RAYCORP, INC" t:site_state=IL t:status=ISSUED t:applied_by=VP t:issued=2009-01-05T00:00:00 t:site_number=2714-2716 t:applicant_name="Architectural Spectrum" t:record_id=CRW_00622410 t:issued_by=LCL t:seq_number=891 t:permit_number=EN06-0891 t:site_street_name=MADELYN t:approved_by=VP t:approved=2006-03-31T00:00:00 t:description=G&D t:prefix=EN t:permit_subtype=New t:parent_permit_number=BS06-1264 t:site_street_id=0 m:building_square_footage=0 m:lot_square_footage=0 m:fee_adjustments=0 m:balance_due=0 m:porch_2_square_footage=0 m:building_2_square_footage=0 m:job_value=0 m:height=0 m:pin=0 m:fees_charged=0 m:fees_paid=0 m:number_of_units=0 m:garage_2_square_footage=0 m:garage_square_footage=0 m:porch_square_footage=0 m:number_of_buildings=0 m:number_of_stories=0 m:yrmo=6
 ```
 
 ## Meta Commands

@@ -39,11 +39,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:eb3y-vtsa d:2015-11-06T11:14:16.000Z t:phone_number=417-993-4403 t:county=Dallas t:hours_of_operation="3RD T 2-7" t:agency_name="Prairie Chapel United Methodist" m:row_number=1
+
+series e:eb3y-vtsa d:2015-11-06T11:25:06.000Z t:phone_number=417-466-7536 t:county=Lawrence t:hours_of_operation="3RD W 10-11 & PREVIOUS M 6-7" t:agency_name="St. Susanne Catholic Church" m:row_number=2
+
+series e:eb3y-vtsa d:2015-11-06T11:28:09.000Z t:phone_number=417-967-4484 t:county=Texas t:hours_of_operation="T-F 10-2" t:agency_name="Texas County Food Pantry" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:eb3y-vtsa l:"Food Pantry List" t:url=https://data.mo.gov/api/views/eb3y-vtsa
 
 property e:eb3y-vtsa t:meta.view v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"

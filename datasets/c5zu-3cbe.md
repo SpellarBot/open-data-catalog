@@ -45,11 +45,18 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Alsip Village Hall" t:zip=60803 t:hours="Monday-Saturday: 9 a.m.?5 p.m." t:state=IL t:city=Alsip m:row_number=1
+
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Arlington Heights Village Hall" t:zip=60005 t:hours="Monday-Saturday: 9 a.m.?5 p.m.; Sunday: 9 a.m. ? 3 p.m." t:state=IL t:city="Arlington Heights" m:row_number=2
+
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Barrington Township Hall" t:zip=60010 t:hours="Monday-Saturday: 9 a.m.?5 p.m." t:state=IL t:city=Barrington m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:c5zu-3cbe l:"Early Voting Locations - 2012" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/c5zu-3cbe
 
 property e:c5zu-3cbe t:meta.view v:id=c5zu-3cbe v:attributionLink=http://cookcountyclerk.com v:averageRating=0 v:name="Early Voting Locations - 2012" v:attribution="Cook County Clerk"

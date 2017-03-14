@@ -42,11 +42,18 @@ Excluded Fields = _1,_2
 ## Data Commands
 
 ```ls
+series e:uz8j-59zc d:2012-12-07T04:37:59.000Z t:region=Snake m:row_number=1
+
+series e:uz8j-59zc d:2012-12-07T04:37:59.000Z t:region=Snake m:row_number=2
+
+series e:uz8j-59zc d:2012-12-07T04:37:59.000Z t:region=Snake m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:uz8j-59zc l:"Snake Stream Miles Opened" t:url=https://data.wa.gov/api/views/uz8j-59zc
 
 property e:uz8j-59zc t:meta.view v:id=uz8j-59zc v:averageRating=0 v:name="Snake Stream Miles Opened"

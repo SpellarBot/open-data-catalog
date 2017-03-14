@@ -53,11 +53,18 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
+series e:4vym-q77x d:2015-08-28T15:17:39.000Z t:zip=12305 t:website=http://www.nysirestakes.com t:state=NY t:public_authority_type=State t:public_authority_name="Agriculture and New York State Horse Breeding Development Fund" t:city=SCHENECTADY m:row_number=1
+
+series e:4vym-q77x d:2015-08-28T15:17:39.000Z t:zip=12207 t:website=http://www.albanyida.com t:state=NY t:public_authority_type="Local - IDA" t:public_authority_name="Albany City Industrial Development Agency" t:city=ALBANY m:row_number=2
+
+series e:4vym-q77x d:2015-08-28T15:17:39.000Z t:zip=12210 t:website=http://www.albanyny.org/Government/Departments/DevelopmentandPlanning/ACDA.aspx t:state=NY t:public_authority_type=Local t:public_authority_name="Albany Community Development Agency" t:city=ALBANY m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:4vym-q77x l:"Directory of Public Authorities" t:attribution="Authorities Budget Office" t:url=https://data.ny.gov/api/views/4vym-q77x
 
 property e:4vym-q77x t:meta.view v:id=4vym-q77x v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Directory of Public Authorities" v:attribution="Authorities Budget Office"

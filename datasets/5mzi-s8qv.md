@@ -46,11 +46,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60563- t:state=IL t:agency="HEALTH AT HOME" t:address_1="2255 ERICKSON DRIVE" t:city=NAPERVILLE m:row_number=1
+
+series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60187- t:state=IL t:agency="HEALTH AT HOME" t:address_1="500 WYNDEMERE CIRCLE, GARDEN LEVEL" t:city=WHEATON m:row_number=2
+
+series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60035- t:state=IL t:agency="3 CROSS HOME CARE CORP." t:address_1="3 CROSS HOME CARE CORP." t:city=CHICAGO m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:5mzi-s8qv l:"IDOL Licensed Nurse Agencies" t:attribution="Illinois Department of Labor" t:url=https://data.illinois.gov/api/views/5mzi-s8qv
 
 property e:5mzi-s8qv t:meta.view v:id=5mzi-s8qv v:category=Labor v:attributionLink=http://labor.illinois.gov/ v:averageRating=0 v:name="IDOL Licensed Nurse Agencies" v:attribution="Illinois Department of Labor"

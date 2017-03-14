@@ -57,11 +57,18 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
+series e:tvpp-9vvx d:2017-04-12T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_id=310112 t:event_agency="Parks Department" t:event_location="Central Park: Great Hill Oval" t:street_closure_type=N/A t:community_board=64, t:event_name="GREAT HILL OVAL WINTER CLOSURE 10-31-16" t:police_precinct=22, m:row_number=1
+
+series e:tvpp-9vvx d:2017-04-13T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_id=310112 t:event_agency="Parks Department" t:event_location="Central Park: Great Hill Oval" t:street_closure_type=N/A t:community_board=64, t:event_name="GREAT HILL OVAL WINTER CLOSURE 10-31-16" t:police_precinct=22, m:row_number=2
+
+series e:tvpp-9vvx d:2017-03-13T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_id=311709 t:event_agency="Parks Department" t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:tvpp-9vvx l:"NYC Permitted Event Information" t:attribution="Office of Citywide Event Coordination and Management (CECM)" t:url=https://data.cityofnewyork.us/api/views/tvpp-9vvx
 
 property e:tvpp-9vvx t:meta.view v:id=tvpp-9vvx v:category="City Government" v:averageRating=0 v:name="NYC Permitted Event Information" v:attribution="Office of Citywide Event Coordination and Management (CECM)"

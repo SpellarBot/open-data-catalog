@@ -57,8 +57,8 @@ U: Unavailable. ?: No reported cases.
 ## Time Field
 
 ```ls
-Value = mmwr_year+mmwr_week
-Format & Zone = yyyy+w
+Value = mmwr_year-mmwr_week
+Format & Zone = yyyy-w
 ```
 
 ## Series Fields
@@ -70,11 +70,11 @@ Excluded Fields = all_causes_by_age_years_all_ages_flag,all_causes_by_age_years_
 ## Data Commands
 
 ```ls
-series e:rpjd-ejph d:2016-01-08T00:00:00.000Z t:reporting_area="New England" m:all_causes_by_age_years_all_ages=600 m:p_i_total=47 m:all_causes_by_age_years_65=426 m:all_causes_by_age_years_1_24=12 m:all_causes_by_age_years_45_64=125 m:all_causes_by_age_years_lt_1=9 m:all_causes_by_age_years_25_44=28
+series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="New England" m:all_causes_by_age_years_all_ages=600 m:p_i_total=47 m:all_causes_by_age_years_65=426 m:all_causes_by_age_years_1_24=12 m:all_causes_by_age_years_45_64=125 m:all_causes_by_age_years_lt_1=9 m:all_causes_by_age_years_25_44=28
 
-series e:rpjd-ejph d:2016-01-08T00:00:00.000Z t:reporting_area="Mid. Atlantic" m:all_causes_by_age_years_all_ages=807 m:p_i_total=32 m:all_causes_by_age_years_65=563 m:all_causes_by_age_years_1_24=13 m:all_causes_by_age_years_45_64=181 m:all_causes_by_age_years_lt_1=18 m:all_causes_by_age_years_25_44=32
+series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="Mid. Atlantic" m:all_causes_by_age_years_all_ages=807 m:p_i_total=32 m:all_causes_by_age_years_65=563 m:all_causes_by_age_years_1_24=13 m:all_causes_by_age_years_45_64=181 m:all_causes_by_age_years_lt_1=18 m:all_causes_by_age_years_25_44=32
 
-series e:rpjd-ejph d:2016-01-08T00:00:00.000Z t:reporting_area="E.N. Central" m:all_causes_by_age_years_all_ages=2468 m:p_i_total=159 m:all_causes_by_age_years_65=1611 m:all_causes_by_age_years_1_24=62 m:all_causes_by_age_years_45_64=594 m:all_causes_by_age_years_lt_1=34 m:all_causes_by_age_years_25_44=167
+series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="E.N. Central" m:all_causes_by_age_years_all_ages=2468 m:p_i_total=159 m:all_causes_by_age_years_65=1611 m:all_causes_by_age_years_1_24=62 m:all_causes_by_age_years_45_64=594 m:all_causes_by_age_years_lt_1=34 m:all_causes_by_age_years_25_44=167
 ```
 
 ## Meta Commands

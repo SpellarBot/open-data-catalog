@@ -48,11 +48,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:36hn-wea6 d:2011-09-01T13:39:35.000Z t:contact_number="212.478.5400 ext. 210" t:program_type="Jobs & Internships" t:borough_community="New York" t:program="Out-of-School Youth Employment (OSY)" t:agency="Henry Street Settlement" t:grade_level_age_group="16 to 21" t:site_name="Henry Street Settlement Workforce Development Center" m:row_number=1
+
+series e:36hn-wea6 d:2011-09-01T13:39:35.000Z t:contact_number=212.571.1690 t:program_type="Jobs & Internships" t:borough_community="New York" t:program="Out-of-School Youth Employment (OSY)" t:agency="Chinatown Manpower Project, Inc." t:grade_level_age_group="16 to 21" t:site_name="Chinatown Manpower Project, Inc." m:row_number=2
+
+series e:36hn-wea6 d:2011-09-01T13:39:35.000Z t:contact_number="212.691.7554 ext. 704" t:program_type="Jobs & Internships" t:borough_community=Queens t:program="Out-of-School Youth Employment (OSY)" t:agency="The Fortune Society, Inc." t:grade_level_age_group="16 to 21" t:site_name="The Fortune Society, Inc." m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:36hn-wea6 l:"DYCD after-school programs: OSY Out Of School Youth Employment Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/36hn-wea6
 
 property e:36hn-wea6 t:meta.view v:id=36hn-wea6 v:category=Education v:averageRating=0 v:name="DYCD after-school programs: OSY Out Of School Youth Employment Programs" v:attribution="Department of Youth and Community Development (DYCD)"

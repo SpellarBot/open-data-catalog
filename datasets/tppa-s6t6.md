@@ -40,8 +40,8 @@ This dataset is generated from the Customer Relationship Management System.  Thi
 ## Time Field
 
 ```ls
-Value = year+quarter
-Format & Zone = yyyy+q
+Value = year-quarter
+Format & Zone = yyyy-q
 ```
 
 ## Series Fields

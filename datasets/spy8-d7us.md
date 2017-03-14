@@ -24,8 +24,8 @@
 | ======== | ============== | ======================== | ======================== | ============= | ============= |
 | Yes      | series tag     | station                  | Station                  | text          | text          |
 | Yes      | series tag     | station_name             | Station Name             | text          | text          |
-| Yes      | time           | wq_violation_date        | WQ Violation Date        | calendar_date | calendar_date |
-| No       |                | time                     | Time                     | calendar_date | calendar_date |
+| No       |                | wq_violation_date        | WQ Violation Date        | calendar_date | calendar_date |
+| Yes      | time           | time                     | Time                     | calendar_date | calendar_date |
 | Yes      | series tag     | variable_units           | Variable/Units           | text          | text          |
 | Yes      | numeric metric | sample_result_or_geo_mn  | Sample Result or geo.mn  | number        | number        |
 | Yes      | numeric metric | criterion                | Criterion                | number        | number        |
@@ -35,24 +35,24 @@
 ## Time Field
 
 ```ls
-Value = wq_violation_date
+Value = time
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = time
+Excluded Fields = wq_violation_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:spy8-d7us d:2014-09-09T00:00:00.000Z t:station_name="Pend Oreille R @ Newport" t:station=62A150 t:variable_units="pH (pH)" m:criterion=8.5 m:percent_exceeds_standard=0.6 m:sample_result_or_geo_mn=8.6
+series e:spy8-d7us d:2017-03-14T12:26:07.071Z t:station_name="Pend Oreille R @ Newport" t:station=62A150 t:variable_units="pH (pH)" m:criterion=8.5 m:percent_exceeds_standard=0.6 m:sample_result_or_geo_mn=8.6
 
-series e:spy8-d7us d:2014-09-09T00:00:00.000Z t:station_name="Pend Oreille R @ Metaline Falls" t:station=62A090 t:variable_units="pH (pH)" m:criterion=8.5 m:percent_exceeds_standard=1.3 m:sample_result_or_geo_mn=8.6
+series e:spy8-d7us d:2017-03-14T12:26:07.071Z t:station_name="Pend Oreille R @ Metaline Falls" t:station=62A090 t:variable_units="pH (pH)" m:criterion=8.5 m:percent_exceeds_standard=1.3 m:sample_result_or_geo_mn=8.6
 
-series e:spy8-d7us d:2014-09-08T00:00:00.000Z t:station_name="Columbia R @ Northport" t:station=61A070 t:variable_units="Oxygen (mg/L)" m:criterion=9.5 m:percent_exceeds_standard=7.8 m:sample_result_or_geo_mn=8.8
+series e:spy8-d7us d:2017-03-14T12:26:07.071Z t:station_name="Columbia R @ Northport" t:station=61A070 t:variable_units="Oxygen (mg/L)" m:criterion=9.5 m:percent_exceeds_standard=7.8 m:sample_result_or_geo_mn=8.8
 ```
 
 ## Meta Commands

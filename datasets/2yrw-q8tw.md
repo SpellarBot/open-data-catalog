@@ -27,26 +27,25 @@ Installed Capacity from Solar Incentive Program (Kilowatts).  The program offers
 ```ls
 | Included | Schema Type    | Field Name                                                    | Name                                                      | Data Type | Render Type |
 | ======== | ============== | ============================================================= | ========================================================= | ========= | =========== |
-| No       | time           | :updated_at                                                   | updated_at                                                | meta_data | meta_data   |
-| Yes      | series tag     | quarter_fiscalyear                                            | Quarter-Fiscal Year                                       | text      | text        |
+| Yes      | time           | quarter_fiscalyear                                            | Quarter-Fiscal Year                                       | text      | text        |
 | Yes      | numeric metric | installed_capacity_from_solar_incentive_program_in_quarter_kw | Solar Incentive Program Cumulative Installed Capacity(kW) | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = quarter_fiscalyear
+Format & Zone = QQQ 'FY'yy
 ```
 
 ## Data Commands
 
 ```ls
-series e:2yrw-q8tw d:2017-02-21T22:03:21.000Z t:quarter_fiscalyear="Q1 FY08" m:installed_capacity_from_solar_incentive_program_in_quarter_kw=10901.66
+series e:2yrw-q8tw d:2008-01-01T00:00:00.000Z m:installed_capacity_from_solar_incentive_program_in_quarter_kw=10901.66
 
-series e:2yrw-q8tw d:2017-02-21T22:03:21.000Z t:quarter_fiscalyear="Q2 FY08" m:installed_capacity_from_solar_incentive_program_in_quarter_kw=11316.87
+series e:2yrw-q8tw d:2008-04-01T00:00:00.000Z m:installed_capacity_from_solar_incentive_program_in_quarter_kw=11316.87
 
-series e:2yrw-q8tw d:2017-02-21T22:03:21.000Z t:quarter_fiscalyear="Q3 FY08" m:installed_capacity_from_solar_incentive_program_in_quarter_kw=11938.39
+series e:2yrw-q8tw d:2008-07-01T00:00:00.000Z m:installed_capacity_from_solar_incentive_program_in_quarter_kw=11938.39
 ```
 
 ## Meta Commands

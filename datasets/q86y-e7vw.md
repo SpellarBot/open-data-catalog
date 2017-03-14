@@ -55,11 +55,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:q86y-e7vw d:2016-02-11T10:08:43.000Z t:what_council_district_do_you_reside_in=10 t:what_is_your_current_residential_zip_code=78731 m:row_number=1
+
+series e:q86y-e7vw d:2016-02-11T10:08:45.000Z t:what_council_district_do_you_reside_in=6 t:what_is_your_ethnic_background=white-caucasian t:what_is_your_current_residential_zip_code=78729 m:row_number=2
+
+series e:q86y-e7vw d:2016-02-11T10:08:45.000Z t:what_council_district_do_you_reside_in=6 t:what_is_your_ethnic_background=white-caucasian t:what_is_your_current_residential_zip_code=78732 m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:q86y-e7vw l:"Proposed One- Day- Per- Week Watering Schedule" t:url=https://data.austintexas.gov/api/views/q86y-e7vw
 
 property e:q86y-e7vw t:meta.view v:id=q86y-e7vw v:category=Utility v:averageRating=0 v:name="Proposed One- Day- Per- Week Watering Schedule"

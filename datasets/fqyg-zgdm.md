@@ -36,11 +36,18 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
+series e:fqyg-zgdm d:2015-10-28T00:00:00.000Z t:clinic_hours="7-8  a.m." t:site_name=Brightwater t:clinic_room="""Q"" room" m:row_number=1
+
+series e:fqyg-zgdm d:2015-10-15T00:00:00.000Z t:clinic_hours="11 am - noon" t:site_name=Elections t:clinic_room="Large Conf Room" m:row_number=2
+
+series e:fqyg-zgdm d:2015-09-28T00:00:00.000Z t:clinic_hours="2 - 4:30 p.m." t:site_name="North Transit Base" t:clinic_room=Classrooms m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:fqyg-zgdm l:flu-clinic-test t:url=https://data.kingcounty.gov/api/views/fqyg-zgdm
 
 property e:fqyg-zgdm t:meta.view v:id=fqyg-zgdm v:averageRating=0 v:name=flu-clinic-test

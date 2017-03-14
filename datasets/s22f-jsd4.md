@@ -47,11 +47,18 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
+series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_expiration_date=08/06/2014 t:license_type="MEDALLION TAXI DRIVER" t:license_number=427586 t:name_of_licensee=FILS-AIME,CHARITE m:row_number=1
+
+series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_expiration_date=05/10/2013 t:license_type="MEDALLION TAXI DRIVER" t:license_number=5195097 t:name_of_licensee=TOKI,ABDELHAK m:row_number=2
+
+series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_expiration_date=10/30/2012 t:license_type="MEDALLION TAXI DRIVER" t:license_number=5054307 t:name_of_licensee=SINGH,RAJDEEP m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:s22f-jsd4 l:"Current Medallion Drivers" t:attribution="Taxi and Limousine Commission (TLC)" t:url=https://data.cityofnewyork.us/api/views/s22f-jsd4
 
 property e:s22f-jsd4 t:meta.view v:id=s22f-jsd4 v:category=Transportation v:averageRating=0 v:name="Current Medallion Drivers" v:attribution="Taxi and Limousine Commission (TLC)"

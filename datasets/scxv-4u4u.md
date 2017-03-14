@@ -79,8 +79,8 @@ Footnotes:
 ## Time Field
 
 ```ls
-Value = mmwr_year+mmwr_week
-Format & Zone = yyyy+w
+Value = mmwr_year-mmwr_week
+Format & Zone = yyyy-w
 ```
 
 ## Series Fields
@@ -92,11 +92,11 @@ Excluded Fields = rabies_animal_current_week,rabies_animal_current_week_flag,rab
 ## Data Commands
 
 ```ls
-series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rabies_animal_previous_52_weeks_max=112 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=34 m:rubella_previous_52_weeks_max=2 m:rabies_animal_previous_52_weeks_med=52
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rabies_animal_previous_52_weeks_max=112 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=34 m:rubella_previous_52_weeks_max=2 m:rabies_animal_previous_52_weeks_med=52
 
-series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
 
-series e:scxv-4u4u d:2017-01-08T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rabies_animal_previous_52_weeks_max=33 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=5 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=8
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rabies_animal_previous_52_weeks_max=33 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=5 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=8
 ```
 
 ## Meta Commands

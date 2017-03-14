@@ -33,12 +33,12 @@ A table of restrictions and information about existing conditions in the public 
 | Yes      | series tag     | permittype         | PermitType         | text          | text          |
 | Yes      | series tag     | jobordernum        | JobOrderNum        | text          | text          |
 | Yes      | series tag     | projectname        | ProjectName        | text          | text          |
-| Yes      | time           | effectivedate      | EffectiveDate      | calendar_date | calendar_date |
-| No       |                | expirationdate     | ExpirationDate     | calendar_date | calendar_date |
+| No       |                | effectivedate      | EffectiveDate      | calendar_date | calendar_date |
+| Yes      | series tag     | expirationdate     | ExpirationDate     | calendar_date | calendar_date |
 | Yes      | series tag     | contactname        | ContactName        | text          | text          |
 | Yes      | series tag     | contactphonenumber | ContactPhoneNumber | text          | text          |
 | Yes      | series tag     | restriction_tow    | Restriction_Tow    | text          | text          |
-| No       |                | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
+| Yes      | time           | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
 | Yes      | numeric metric | block              | block              | number        | text          |
 | Yes      | series tag     | lot                | lot                | text          | text          |
 ```
@@ -46,24 +46,24 @@ A table of restrictions and information about existing conditions in the public 
 ## Time Field
 
 ```ls
-Value = effectivedate
+Value = modifieddate
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = expirationdate,modifieddate
+Excluded Fields = effectivedate
 ```
 
 ## Data Commands
 
 ```ls
-series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
 
-series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
 
-series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
 ```
 
 ## Meta Commands

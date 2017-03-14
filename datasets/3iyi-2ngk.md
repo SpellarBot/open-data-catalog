@@ -70,11 +70,18 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
+series e:3iyi-2ngk d:2013-12-11T17:00:00.000Z t:short_description="Regular Board meeting" t:contact_email=marla.royal@imesd.k12.or.us t:contact_name="Marla J. Royal" t:agency_board_commission_branch="InterMountain ESD" t:meeting_title="IMESD Board Meeting" t:meeting_location="InterMountain ESD" m:row_number=1
+
+series e:3iyi-2ngk d:2013-10-16T10:00:00.000Z t:short_description="Regular Scheduled Commission Meeting" t:contact_email=jenny@ostlund.com t:owner=jenny@ostlund.com t:contact_name=Commissions t:agency_board_commission_branch="Mint Commission, Oregon" t:meeting_title="Mint Commission Meeting" t:meeting_location="Hood River Hotel" m:row_number=2
+
+series e:3iyi-2ngk d:2013-09-09T15:00:00.000Z t:short_description="To review financial information" t:contact_email=lnelson@mesd.k12.or.us t:owner=mskolnic@mesd.k12.or.us t:contact_name="Leslie Nelson" t:agency_board_commission_branch="Multnomah ESD" t:meeting_title="Board Finance Committee" t:meeting_location="11611 NE Ainsworth Circle" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:3iyi-2ngk l:"Archived 2013 Oregon Public Meetings" t:url=https://data.oregon.gov/api/views/3iyi-2ngk
 
 property e:3iyi-2ngk t:meta.view v:id=3iyi-2ngk v:category=Administrative v:averageRating=0 v:name="Archived 2013 Oregon Public Meetings"

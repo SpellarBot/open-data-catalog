@@ -67,8 +67,8 @@ U: Unavailable.    -: No reported cases.    N: Not reportable.    NN: Not Nation
 ## Time Field
 
 ```ls
-Value = mmwr_year+mmwr_week
-Format & Zone = yyyy+w
+Value = mmwr_year-mmwr_week
+Format & Zone = yyyy-w
 ```
 
 ## Series Fields
@@ -80,11 +80,11 @@ Excluded Fields = shiga_toxin_producing_e_coli_stec_current_week,shiga_toxin_pro
 ## Data Commands
 
 ```ls
-series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:reporting_area="UNITED STATES" m:shiga_toxin_producing_e_coli_stec_cum_2015=56 m:shiga_toxin_producing_e_coli_stec_cum_2016=16 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=194 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111 m:shigellosis_previous_52_weeks_med=408 m:shigellosis_previous_52_weeks_max=610 m:shigellosis_cum_2015=332 m:shigellosis_cum_2016=166
+series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="UNITED STATES" m:shiga_toxin_producing_e_coli_stec_cum_2015=56 m:shiga_toxin_producing_e_coli_stec_cum_2016=16 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=194 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111 m:shigellosis_previous_52_weeks_med=408 m:shigellosis_previous_52_weeks_max=610 m:shigellosis_cum_2015=332 m:shigellosis_cum_2016=166
 
-series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:shiga_toxin_producing_e_coli_stec_cum_2015=3 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=17 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=3 m:shigellosis_previous_52_weeks_med=5 m:shigellosis_previous_52_weeks_max=17 m:shigellosis_cum_2015=2 m:shigellosis_cum_2016=1
+series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:shiga_toxin_producing_e_coli_stec_cum_2015=3 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=17 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=3 m:shigellosis_previous_52_weeks_med=5 m:shigellosis_previous_52_weeks_max=17 m:shigellosis_cum_2015=2 m:shigellosis_cum_2016=1
 
-series e:xv7k-8e7s d:2016-01-08T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:shiga_toxin_producing_e_coli_stec_cum_2015=4 m:shiga_toxin_producing_e_coli_stec_cum_2016=2 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=23 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=12 m:shigellosis_previous_52_weeks_med=28 m:shigellosis_previous_52_weeks_max=82 m:shigellosis_cum_2015=49 m:shigellosis_cum_2016=12
+series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:shiga_toxin_producing_e_coli_stec_cum_2015=4 m:shiga_toxin_producing_e_coli_stec_cum_2016=2 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=23 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=12 m:shigellosis_previous_52_weeks_med=28 m:shigellosis_previous_52_weeks_max=82 m:shigellosis_cum_2015=49 m:shigellosis_cum_2016=12
 ```
 
 ## Meta Commands

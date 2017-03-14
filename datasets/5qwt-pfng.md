@@ -61,11 +61,18 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
+series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="AUTHORIZED REPRESENTATIVE" t:entity_of_record_name="C T CORPORATION SYSTEM" t:zip_code=97301 t:state=OR t:entity_type="ASSUMED BUSINESS NAME" t:entity_of_record_reg_number=329227 t:city=SALEM t:registry_number=120367297 m:row_number=1
+
+series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="PRINCIPAL PLACE OF BUSINESS" t:zip_code=90670 t:state=CA t:entity_type="ASSUMED BUSINESS NAME" t:city="SANTA FE SPRINGS" t:registry_number=120367297 m:row_number=2
+
+series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="AMBROSIA FARMS QUARTZ CREEK, LLC" t:associated_name_type="MAILING ADDRESS" t:zip_code=97532 t:state=OR t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=MERLIN t:registry_number=120350798 m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:5qwt-pfng l:"New Business List - April" t:url=https://data.oregon.gov/api/views/5qwt-pfng
 
 property e:5qwt-pfng t:meta.view v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"

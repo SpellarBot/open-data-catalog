@@ -35,12 +35,12 @@ Active Street use permits issued by DPW
 | Yes      | series tag     | agent             | Agent             | text          | text          |
 | Yes      | series tag     | agentphone        | AgentPhone        | text          | text          |
 | Yes      | series tag     | permit_purpose    | Permit Purpose    | text          | text          |
-| Yes      | time           | approved_date     | Approved Date     | calendar_date | calendar_date |
+| No       |                | approved_date     | Approved Date     | calendar_date | calendar_date |
 | Yes      | series tag     | status            | Status            | text          | text          |
 | Yes      | numeric metric | cnn               | cnn               | number        | number        |
 | Yes      | series tag     | permit_zipcode    | permit_zipcode    | text          | number        |
-| No       |                | permit_start_date | permit_start_date | calendar_date | calendar_date |
-| No       |                | permit_end_date   | permit_end_date   | calendar_date | calendar_date |
+| Yes      | series tag     | permit_start_date | permit_start_date | calendar_date | calendar_date |
+| Yes      | time           | permit_end_date   | permit_end_date   | calendar_date | calendar_date |
 | No       |                | permit_address    | permit_address    | text          | text          |
 | Yes      | series tag     | contact           | 24/7 Contact      | text          | text          |
 | Yes      | series tag     | inspector         | Inspector         | text          | text          |
@@ -54,24 +54,24 @@ Active Street use permits issued by DPW
 ## Time Field
 
 ```ls
-Value = approved_date
+Value = permit_end_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = permit_start_date,permit_end_date,permit_address,x,y,latitude,longitude
+Excluded Fields = approved_date,permit_address,x,y,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:b6tj-gt35 d:2016-12-21T14:00:23.000Z t:permit_zipcode=94112 t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:cross_street_2="PRAGUE ST \ WINDING WAY" t:streetname="POPE ST" t:cross_street_1="HANOVER ST" m:cnn=10597000
+series e:b6tj-gt35 d:2017-06-05T00:00:00.000Z t:permit_zipcode=94112 t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_start_date=2017-02-06T00:00:00 t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:cross_street_2="PRAGUE ST \ WINDING WAY" t:streetname="POPE ST" t:cross_street_1="HANOVER ST" m:cnn=10597000
 
-series e:b6tj-gt35 d:2016-12-21T16:40:58.000Z t:permit_zipcode=94110 t:permit_type=TableChair t:agentphone="(415) 487-2600" t:inspector="Mari Anderson" t:status=APPROVED t:permit_purpose="TWO (2) TABLES AND FOUR (4) CHAIRS ON GUERRERO STREETSIX (6) TABLES AND EIGHTEEN (18) CHAIRS ON 18TH STREET" t:contact="Refer to Agent" t:agent="TARTINE BAKERY" t:cross_street_2="19TH ST" t:streetname="GUERRERO ST" t:cross_street_1="18TH ST" m:cnn=6580201
+series e:b6tj-gt35 d:2017-11-15T00:00:00.000Z t:permit_zipcode=94110 t:permit_type=TableChair t:agentphone="(415) 487-2600" t:inspector="Mari Anderson" t:status=APPROVED t:permit_start_date=2016-11-16T00:00:00 t:permit_purpose="TWO (2) TABLES AND FOUR (4) CHAIRS ON GUERRERO STREETSIX (6) TABLES AND EIGHTEEN (18) CHAIRS ON 18TH STREET" t:contact="Refer to Agent" t:agent="TARTINE BAKERY" t:cross_street_2="19TH ST" t:streetname="GUERRERO ST" t:cross_street_1="18TH ST" m:cnn=6580201
 
-series e:b6tj-gt35 d:2016-12-21T14:00:23.000Z t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:streetname="POPE ST" t:cross_street_1="CROSS ST" m:cnn=21472000
+series e:b6tj-gt35 d:2017-06-05T00:00:00.000Z t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_start_date=2017-02-06T00:00:00 t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:streetname="POPE ST" t:cross_street_1="CROSS ST" m:cnn=21472000
 ```
 
 ## Meta Commands

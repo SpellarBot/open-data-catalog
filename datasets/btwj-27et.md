@@ -48,11 +48,18 @@ Excluded Fields = end_date,file_date
 ## Data Commands
 
 ```ls
+series e:btwj-27et d:2015-10-01T00:00:00.000Z t:code=K0856 m:row_number=1
+
+series e:btwj-27et d:2015-10-01T00:00:00.000Z t:code=N4601 m:row_number=2
+
+series e:btwj-27et d:2015-10-01T00:00:00.000Z t:code=N46021 m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:btwj-27et l:"Conditions Not Covered ( Diagnosis Code Group 6031)" t:attribution="Oregon Health Authority" t:url=https://data.oregon.gov/api/views/btwj-27et
 
 property e:btwj-27et t:meta.view v:id=btwj-27et v:category="Health & Human Services" v:attributionLink=http://www.oregon.gov/OHA/healthplan v:averageRating=0 v:name="Conditions Not Covered ( Diagnosis Code Group 6031)" v:attribution="Oregon Health Authority"

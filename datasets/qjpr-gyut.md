@@ -35,11 +35,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Hawaii Island" t:map_name=" Hawaii Map: Island view" m:row_number=1
+
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Waipio - Kohala Mountain" t:map_name=" Hawaii #1: Waipio - Kohala Mountain" m:row_number=2
+
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description=Hilo t:map_name=" Hawaii #2: Hilo" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:qjpr-gyut l:"Election Maps - Statewide" t:url=https://data.hawaii.gov/api/views/qjpr-gyut
 
 property e:qjpr-gyut t:meta.view v:id=qjpr-gyut v:averageRating=0 v:name="Election Maps - Statewide"

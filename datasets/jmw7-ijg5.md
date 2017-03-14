@@ -68,11 +68,18 @@ Excluded Fields = address,x_coordinate,y_coordinate,latitude,longitude
 ## Data Commands
 
 ```ls
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60620 t:program_model="Head Start Support Services" t:phone_number=7733965556 t:street_name=91ST t:state=IL t:agency="A.M. Bus Company" t:site_name="A.M. Bus Company" t:city=Chicago t:division="Children Services" t:ward=21 t:street_direction=W t:community_area=ROSELAND t:street_number=100 t:community_area_number=49 t:street_type=ST m:row_number=1
+
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60649 t:program_model="Child Care Only" t:phone_number=7732219711 t:street_name=EXCHANGE t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Ersula Howard" t:city=Chicago t:division="Children Services" t:ward=7 t:street_direction=S t:community_area="SOUTH SHORE" t:street_number=7222 t:community_area_number=43 t:street_type=AVE m:row_number=2
+
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60653 t:program_model="Child Care Only" t:phone_number=7733738200 t:street_name=WABASH t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Maggie Drummond" t:city=Chicago t:division="Children Services" t:ward=3 t:street_direction=S t:community_area="GRAND BOULEVARD" t:street_number=4301 t:community_area_number=38 t:street_type=AVE m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:jmw7-ijg5 l:"Family and Support Services Delegate Agencies" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/jmw7-ijg5
 
 property e:jmw7-ijg5 t:meta.view v:id=jmw7-ijg5 v:category="Health & Human Services" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Family and Support Services Delegate Agencies" v:attribution="City of Chicago"

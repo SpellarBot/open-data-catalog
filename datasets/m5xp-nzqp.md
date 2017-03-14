@@ -54,11 +54,14 @@ Excluded Fields = mailing_address
 ## Data Commands
 
 ```ls
+series e:m5xp-nzqp d:2014-01-01T00:00:00.000Z t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry 
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:m5xp-nzqp l:"Strategic Investment Program - Fiscal Year 2014" t:url=https://data.oregon.gov/api/views/m5xp-nzqp
 
 property e:m5xp-nzqp t:meta.view v:id=m5xp-nzqp v:category="Revenue & Expense" v:averageRating=0 v:name="Strategic Investment Program - Fiscal Year 2014"

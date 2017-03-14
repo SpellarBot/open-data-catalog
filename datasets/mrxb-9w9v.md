@@ -48,11 +48,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:mrxb-9w9v d:2011-09-01T14:00:46.000Z t:contact_number=718-599-2386 t:program_type="Jobs & Internships, Youth Employment" t:borough_community=Brooklyn t:program="Summer Youth Employment" t:agency="Asociaciones Dominicanas, Inc." t:grade_level_age_group="14 to 21" t:site_name="Asociaciones Dominicanas, Inc - Vulnerable Youth" m:row_number=1
+
+series e:mrxb-9w9v d:2011-09-01T14:00:47.000Z t:contact_number=212.678.0037 t:program_type="Youth Employment, NDA Youth Employment" t:borough_community="New York" t:program="Youth Employment" t:agency="Ecumenical Community Development Organization" t:grade_level_age_group=HS t:site_name="ECDO Community Partnership Center" m:row_number=2
+
+series e:mrxb-9w9v d:2011-09-01T14:00:47.000Z t:contact_number=212.427.2244 t:program_type="Youth Employment, NDA Youth Employment" t:borough_community="New York" t:program="Youth Employment" t:agency="Boys & Girls Harbor, Inc" t:site_name="Boys & Girls Harbor, Inc" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:mrxb-9w9v l:"DYCD after-school programs: NDA Youth Employment Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/mrxb-9w9v
 
 property e:mrxb-9w9v t:meta.view v:id=mrxb-9w9v v:category=Education v:averageRating=0 v:name="DYCD after-school programs: NDA Youth Employment Programs" v:attribution="Department of Youth and Community Development (DYCD)"

@@ -47,11 +47,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:pyif-r8qe d:2011-09-01T11:33:05.000Z t:contact_number="(718) 652-0246" t:program_type="After-School Programs,Beacon,NYCHA Centers" t:borough_community=Bronx t:program="Beacon Satellite" t:agency="Mosholu Montefiore  @Edenwald Community Center" t:grade_level_age_group="6 and up" t:site_name="NYCHA EDENWALD HOUSES" m:row_number=1
+
+series e:pyif-r8qe d:2011-09-01T11:33:05.000Z t:contact_number="(718) 471-0360" t:program_type="After-School Programs,Beacon,NYCHA Centers" t:borough_community=Queens t:program="Beacon Satellite" t:agency="Police Athletic League @Redfern Community Center" t:grade_level_age_group="6 and up" t:site_name="NYCHA REDFERN HOUSES" m:row_number=2
+
+series e:pyif-r8qe d:2011-09-01T11:33:05.000Z t:contact_number="(718) 353-0385" t:program_type="After-School Programs,Beacon,NYCHA Centers" t:borough_community=Queens t:program="Beacon Satellite" t:agency="Child Center of New York @Lewis H. Latimer Gardens Community Center" t:grade_level_age_group="6 and up" t:site_name="NYCHA LATIMER GARDENS" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:pyif-r8qe l:"DYCD after-school programs: Beacon Satellite At NYCHA Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/pyif-r8qe
 
 property e:pyif-r8qe t:meta.view v:id=pyif-r8qe v:category=Education v:averageRating=0 v:name="DYCD after-school programs: Beacon Satellite At NYCHA Programs" v:attribution="Department of Youth and Community Development (DYCD)"

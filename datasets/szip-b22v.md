@@ -48,11 +48,18 @@ Excluded Fields = _1,_2,_3,_4,_5,_6,_7,_8
 ## Data Commands
 
 ```ls
+series e:szip-b22v d:2012-12-04T18:57:33.000Z t:wdfw_programs="Meeting or will meet" m:row_number=1
+
+series e:szip-b22v d:2012-12-04T18:57:33.000Z t:wdfw_programs="Not meeting" m:row_number=2
+
+series e:szip-b22v d:2012-12-04T18:57:33.000Z t:wdfw_programs="Needing agreements" m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:szip-b22v l:"Statewide Hatchery Rollup" t:url=https://data.wa.gov/api/views/szip-b22v
 
 property e:szip-b22v t:meta.view v:id=szip-b22v v:averageRating=0 v:name="Statewide Hatchery Rollup"

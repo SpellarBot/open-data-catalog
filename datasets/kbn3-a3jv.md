@@ -50,11 +50,18 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
+series e:kbn3-a3jv d:2015-09-11T00:00:00.000Z t:project=011006-00 t:phone_number="(212) 643-9898" t:zip_code=10018-0000 t:address_line_1="17th Flr" t:project_title="Upgrade Central Plant - SUCF" t:address_line_2="520 Eighth Avenue" t:state=NY t:campus_name="State University of New York at Albany" t:firm_name="Kallen & Lemelson, Consulting Engineers, LLP" t:city="New York" m:row_number=1
+
+series e:kbn3-a3jv d:2015-09-11T00:00:00.000Z t:project=011006-00 t:phone_number="(646) 827-6400" t:zip_code=10121 t:address_line_1="Two Penn Plaza," t:project_title="Upgrade Central Plant - SUCF" t:address_line_2="380 Seventh Avenue #552" t:state=NY t:campus_name="State University of New York at Albany" t:firm_name="WM Group Engineers, P.C." t:city="New York" m:row_number=2
+
+series e:kbn3-a3jv d:2016-03-07T00:00:00.000Z t:project=011009-00 t:phone_number="(716) 565-9190" t:zip_code=14225 t:address_line_1="Suite 204" t:project_title="Upgrade Controls Study/Pilot Campus Wide" t:address_line_2="4245 Union Road" t:state=NY t:campus_name="State University of New York at Albany" t:firm_name="C. J. Brown Energy Engineering & Architectur" t:city=Buffalo m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:kbn3-a3jv l:"State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000" t:attribution="State University Construction Fund" t:url=https://data.ny.gov/api/views/kbn3-a3jv
 
 property e:kbn3-a3jv t:meta.view v:id=kbn3-a3jv v:category=Education v:attributionLink=http://sucf.suny.edu v:averageRating=0 v:name="State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000" v:attribution="State University Construction Fund"

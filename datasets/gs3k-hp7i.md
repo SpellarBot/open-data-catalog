@@ -48,11 +48,18 @@ Excluded Fields = id
 ## Data Commands
 
 ```ls
+series e:gs3k-hp7i d:2015-11-30T00:00:00.000Z t:notes="-- On 10/20/2015:--
+
+series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing" m:row_number=2
+
+series e:gs3k-hp7i d:2015-10-27T00:00:00.000Z t:notes="-- On 7/10/2015:--
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:gs3k-hp7i l:"L&I Public Notes For Affidavit" t:attribution="L & I" t:url=https://data.wa.gov/api/views/gs3k-hp7i
 
 property e:gs3k-hp7i t:meta.view v:id=gs3k-hp7i v:category=Labor v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I"

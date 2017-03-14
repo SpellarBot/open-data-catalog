@@ -42,11 +42,18 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
+series e:yph5-vg2u d:2016-06-24T12:44:20.000Z t:account_link=https://www.facebook.com/atx311 t:department=3-1-1 t:account_platform=Facebook t:account_name="Austin 3-1-1" m:row_number=1
+
+series e:yph5-vg2u d:2016-06-24T12:44:20.000Z t:account_link=https://www.instagram.com/atx311/ t:department=3-1-1 t:account_platform=Instagram t:account_name=atx311 m:row_number=2
+
+series e:yph5-vg2u d:2016-06-24T12:44:20.000Z t:account_link=https://twitter.com/ATX_311 t:department=3-1-1 t:account_platform=Twitter t:account_name=atx_311 m:row_number=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number p:long l:"Row Number"
+
 entity e:yph5-vg2u l:"City Social Media Inventory" t:url=https://data.austintexas.gov/api/views/yph5-vg2u
 
 property e:yph5-vg2u t:meta.view v:id=yph5-vg2u v:averageRating=0 v:name="City Social Media Inventory"
