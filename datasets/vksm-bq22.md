@@ -53,11 +53,11 @@ Excluded Fields = geom
 ## Data Commands
 
 ```ls
-series e:vksm-bq22 d:2017-03-14T06:53:30.561Z t:cnn_segment_id=3837000 t:street_name=CAYUGA t:object_id=1 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-03-14T07:24:03.843Z t:cnn_segment_id=3837000 t:street_name=CAYUGA t:object_id=1 t:street_type=AVE m:speed_limit=15
 
-series e:vksm-bq22 d:2017-03-14T06:53:30.561Z t:cnn_segment_id=3835000 t:street_name=CAYUGA t:object_id=2 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-03-14T07:24:03.843Z t:cnn_segment_id=3835000 t:street_name=CAYUGA t:object_id=2 t:street_type=AVE m:speed_limit=15
 
-series e:vksm-bq22 d:2017-03-14T06:53:30.561Z t:cnn_segment_id=3834000 t:street_name=CAYUGA t:object_id=3 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-03-14T07:24:03.843Z t:cnn_segment_id=3834000 t:street_name=CAYUGA t:object_id=3 t:street_type=AVE m:speed_limit=15
 ```
 
 ## Meta Commands

@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/healthcare-cost-and-utilization-project-hcup-national-inpatient-sample) |
-| Metadata | [Link](https://chronicdata.cdc.gov/api/views/ntny-77fx) |
-| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/ntny-77fx/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/ntny-77fx/rows.csv?max_rows=100) |
-| Host | chronicdata.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/healthcare-cost-and-utilization-project-hcup-national-inpatient-sample-4a7c2) |
+| Metadata | [Link](https://data.cdc.gov/api/views/ntny-77fx) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/ntny-77fx/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/ntny-77fx/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
 | Id | ntny-77fx |
 | Name | Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample |
 | Attribution | Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disea... |
@@ -87,7 +87,7 @@ metric m:confidence_limit_low p:float l:Confidence_limit_Low d:"95% confidence i
 
 metric m:confidence_limit_high p:float l:Confidence_limit_High d:"95% confidence interval upper bound" t:dataTypeName=number
 
-entity e:ntny-77fx l:"Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System" t:url=https://chronicdata.cdc.gov/api/views/ntny-77fx
+entity e:ntny-77fx l:"Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System" t:url=https://data.cdc.gov/api/views/ntny-77fx
 
 property e:ntny-77fx t:meta.view v:id=ntny-77fx v:category="Heart Disease & Stroke Prevention" v:attributionLink=http://www.cdc.gov/dhdsp/ncvdss/index.htm v:averageRating=0 v:name="Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" v:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System"
 

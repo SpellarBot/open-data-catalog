@@ -30,7 +30,7 @@ PMAID is the Property Management Area ID. It is used by the City of Seattle to r
 | Included | Schema Type    | Field Name   | Name         | Data Type | Render Type |
 | ======== | ============== | ============ | ============ | ========= | =========== |
 | No       | time           | :updated_at  | updated_at   | meta_data | meta_data   |
-| Yes      | series tag     | pmaid        | pmaid        | text      | number      |
+| Yes      | numeric metric | pmaid        | pmaid        | number    | number      |
 | Yes      | series tag     | name         | name         | text      | text        |
 | Yes      | series tag     | feature_desc | feature_desc | text      | text        |
 | Yes      | series tag     | hours        | hours        | text      | text        |
@@ -48,19 +48,21 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:pmaid=307 t:feature_desc=Golf t:hours="24 Hours" t:name="Green Lake Park" m:xpos=-122.33039 m:ypos=47.67894
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc=Golf t:hours="24 Hours" t:name="Green Lake Park" m:pmaid=307 m:xpos=-122.33039 m:ypos=47.67894
 
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:pmaid=456 t:feature_desc="Restrooms (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Hiawatha Playfield" m:xpos=-122.38496 m:ypos=47.57827
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Play Area (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Kirke Park" m:pmaid=4468
 
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:pmaid=310 t:feature_desc="Basketball (Full)" t:hours="Park Hours: Daily 4 a.m. - 11:30 p.m.
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Restrooms (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Hiawatha Playfield" m:pmaid=456 m:xpos=-122.38496 m:ypos=47.57827
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:xpos l:xpos t:dataTypeName=number
+metric m:pmaid p:integer l:pmaid t:dataTypeName=number
 
-metric m:ypos l:ypos t:dataTypeName=number
+metric m:xpos p:double l:xpos t:dataTypeName=number
+
+metric m:ypos p:double l:ypos t:dataTypeName=number
 
 entity e:j9km-ydkc l:"Seattle Parks and Recreation Parks With Features" t:attribution="Seattle Parks and Recreation" t:url=https://data.seattle.gov/api/views/j9km-ydkc
 

@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/nohss-adult-indicators-02260) |
-| Metadata | [Link](https://chronicdata.cdc.gov/api/views/jz6n-v26y) |
-| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/jz6n-v26y/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/jz6n-v26y/rows.csv?max_rows=100) |
-| Host | chronicdata.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/nohss-adult-indicators) |
+| Metadata | [Link](https://data.cdc.gov/api/views/jz6n-v26y) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/jz6n-v26y/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/jz6n-v26y/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
 | Id | jz6n-v26y |
 | Name | NOHSS Adult Indicators |
 | Attribution | Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health |
@@ -87,7 +87,7 @@ metric m:samplesize p:integer l:SampleSize t:dataTypeName=number
 
 metric m:sortusfirst p:integer l:SortUSFirst t:dataTypeName=number
 
-entity e:jz6n-v26y l:"NOHSS Adult Indicators" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health" t:url=https://chronicdata.cdc.gov/api/views/jz6n-v26y
+entity e:jz6n-v26y l:"NOHSS Adult Indicators" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health" t:url=https://data.cdc.gov/api/views/jz6n-v26y
 
 property e:jz6n-v26y t:meta.view v:id=jz6n-v26y v:category="Oral Health" v:attributionLink=http://www.cdc.gov/oralhealth/ v:averageRating=0 v:name="NOHSS Adult Indicators" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health"
 

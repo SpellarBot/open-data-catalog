@@ -16,7 +16,7 @@
 | Tags | procurement, bids, purchasing |
 | Created | 2015-03-08T04:46:07Z |
 | Publication Date | 2015-07-07T14:27:39Z |
-| Rows Updated | 2017-03-11T08:06:02Z |
+| Rows Updated | 2017-03-14T07:10:07Z |
 
 ## Description
 

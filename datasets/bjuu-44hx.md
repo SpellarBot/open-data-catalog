@@ -93,11 +93,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:bjuu-44hx d:2017-03-14T06:54:26.755Z t:dvv_print_flag=F t:dvv_type=4D t:dvv_464_color=BLACK t:dvv_final_disp_cd=NOL t:dvv_tag_remarks="EMERGENCY TOW" t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_yard_resp=DVO999 t:dvv_464_type=4D m:dvv_tag_time=900 m:dvv_timestmp=19891117162634 m:isn=1 m:dvv_tag_date=19891117 m:dvv_final_disp_date=19891117 m:dvv_timestmp_upd=19970606070052 m:dvv_tag_no=1
+series e:bjuu-44hx d:2017-03-14T07:25:47.532Z t:dvv_print_flag=F t:dvv_type=4D t:dvv_464_color=BLACK t:dvv_final_disp_cd=NOL t:dvv_tag_remarks="EMERGENCY TOW" t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_yard_resp=DVO999 t:dvv_464_type=4D m:dvv_tag_time=900 m:dvv_timestmp=19891117162634 m:isn=1 m:dvv_tag_date=19891117 m:dvv_final_disp_date=19891117 m:dvv_timestmp_upd=19970606070052 m:dvv_tag_no=1
 
-series e:bjuu-44hx d:2017-03-14T06:54:26.755Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_464_type=2D m:dvv_tag_time=900 m:dvv_timestmp=19891120113336 m:isn=2 m:dvv_tag_date=19891119 m:dvv_final_disp_date=99999999 m:dvv_timestmp_upd=19900711055802 m:dvv_tag_no=2
+series e:bjuu-44hx d:2017-03-14T07:25:47.532Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_464_type=2D m:dvv_tag_time=900 m:dvv_timestmp=19891120113336 m:isn=2 m:dvv_tag_date=19891119 m:dvv_final_disp_date=99999999 m:dvv_timestmp_upd=19900711055802 m:dvv_tag_no=2
 
-series e:bjuu-44hx d:2017-03-14T06:54:26.755Z t:dvv_print_flag=F t:dvv_type=SW t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:dvv_final_disp_cd=RTC t:dvv_tag_loc1=LOCATION t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_yard_resp=DVO999 t:dvv_464_type=SW m:dvv_tag_time=900 m:dvv_timestmp=19891120103827 m:isn=3 m:dvv_tag_date=19891120 m:dvv_final_disp_date=19891120 m:dvv_checked_date=19891120 m:dvv_tag_no=5
+series e:bjuu-44hx d:2017-03-14T07:25:47.532Z t:dvv_print_flag=F t:dvv_type=SW t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:dvv_final_disp_cd=RTC t:dvv_tag_loc1=LOCATION t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_yard_resp=DVO999 t:dvv_464_type=SW m:dvv_tag_time=900 m:dvv_timestmp=19891120103827 m:isn=3 m:dvv_tag_date=19891120 m:dvv_final_disp_date=19891120 m:dvv_checked_date=19891120 m:dvv_tag_no=5
 ```
 
 ## Meta Commands

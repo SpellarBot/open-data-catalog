@@ -54,11 +54,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:i4ce-99gr d:2017-03-14T06:55:27.577Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=60 m:fy_14_salary=0 m:fy_12_salary=12926 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2017-03-14T07:22:50.985Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=60 m:fy_14_salary=0 m:fy_12_salary=12926 m:fy_15_salary=0 m:fy_13_salary=0
 
-series e:i4ce-99gr d:2017-03-14T06:55:27.577Z t:mof=B t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=61 m:fy_14_salary=0 m:fy_12_salary=21265 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2017-03-14T07:22:50.985Z t:mof=B t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=61 m:fy_14_salary=0 m:fy_12_salary=21265 m:fy_15_salary=0 m:fy_13_salary=0
 
-series e:i4ce-99gr d:2017-03-14T06:55:27.577Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=HMS t:position_title="RIF SAVINGS" t:source_file_header="Act 134, SLH 2013 -  HMS Personal Services" t:prog_id_org=HMS301SA t:position_number=975 m:fy_14_salary=0 m:fy_12_salary=2759573 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2017-03-14T07:22:50.985Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=HMS t:position_title="RIF SAVINGS" t:source_file_header="Act 134, SLH 2013 -  HMS Personal Services" t:prog_id_org=HMS301SA t:position_number=975 m:fy_14_salary=0 m:fy_12_salary=2759573 m:fy_15_salary=0 m:fy_13_salary=0
 ```
 
 ## Meta Commands
