@@ -64,11 +64,11 @@ Excluded Fields = alm_date,latitude,longitude
 ## Data Commands
 
 ```ls
-series e:rwu6-8j9d d:2017-03-13T14:59:49.098Z t:zip=6112 t:mutl_aid=N t:occup_id=5701 t:street=VINE t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:inci_type=321 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 m:station=16 m:number=500 m:alarms=1
+series e:rwu6-8j9d d:2017-03-14T06:57:42.231Z t:zip=6112 t:mutl_aid=N t:occup_id=5701 t:street=VINE t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:inci_type=321 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 m:station=16 m:number=500 m:alarms=1
 
-series e:rwu6-8j9d d:2017-03-13T14:59:49.098Z t:zip=6105 t:mutl_aid=N t:occup_id=19549 t:street=SISSON t:state=CT t:descript="Medical assist, assist EMS crew" t:inci_type=311 t:city=Hartford t:alm_type=1 t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 m:station=11 m:number=170 m:alarms=1
+series e:rwu6-8j9d d:2017-03-14T06:57:42.231Z t:zip=6105 t:mutl_aid=N t:occup_id=19549 t:street=SISSON t:state=CT t:descript="Medical assist, assist EMS crew" t:inci_type=311 t:city=Hartford t:alm_type=1 t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 m:station=11 m:number=170 m:alarms=1
 
-series e:rwu6-8j9d d:2017-03-13T14:59:49.098Z t:zip=6114 t:mutl_aid=N t:occup_id=33109 t:street=KENNETH t:state=CT t:descript="False alarm or false call, Other" t:inci_type=700 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 m:station=15 m:number=8 m:alarms=1
+series e:rwu6-8j9d d:2017-03-14T06:57:42.231Z t:zip=6114 t:mutl_aid=N t:occup_id=33109 t:street=KENNETH t:state=CT t:descript="False alarm or false call, Other" t:inci_type=700 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 m:station=15 m:number=8 m:alarms=1
 ```
 
 ## Meta Commands

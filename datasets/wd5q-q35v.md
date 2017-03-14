@@ -70,41 +70,41 @@ series e:wd5q-q35v d:1970-01-01T00:00:00.000Z t:rwis_datetime="2017-03-12 04:30:
 ## Meta Commands
 
 ```ls
-metric m:rstemp_current l:RSTEMP_CURRENT d:RSTEMP_CURRENT t:dataTypeName=number
+metric m:rstemp_current p:float l:RSTEMP_CURRENT d:RSTEMP_CURRENT t:dataTypeName=number
 
-metric m:airtemp_current l:AIRTEMP_CURRENT d:AIRTEMP_CURRENT t:dataTypeName=number
+metric m:airtemp_current p:float l:AIRTEMP_CURRENT d:AIRTEMP_CURRENT t:dataTypeName=number
 
-metric m:rstemp_15min l:RSTEMP_15MIN d:RSTEMP_15MIN t:dataTypeName=number
+metric m:rstemp_15min p:float l:RSTEMP_15MIN d:RSTEMP_15MIN t:dataTypeName=number
 
-metric m:airtemp_15min l:AIRTEMP_15MIN d:AIRTEMP_15MIN t:dataTypeName=number
+metric m:airtemp_15min p:float l:AIRTEMP_15MIN d:AIRTEMP_15MIN t:dataTypeName=number
 
-metric m:rstemp_30min l:RSTEMP_30MIN d:RSTEMP_30MIN t:dataTypeName=number
+metric m:rstemp_30min p:float l:RSTEMP_30MIN d:RSTEMP_30MIN t:dataTypeName=number
 
-metric m:airtemp_30min l:AIRTEMP_30MIN d:AIRTEMP_30MIN t:dataTypeName=number
+metric m:airtemp_30min p:decimal l:AIRTEMP_30MIN d:AIRTEMP_30MIN t:dataTypeName=number
 
-metric m:rstemp_45min l:RSTEMP_45MIN d:RSTEMP_45MIN t:dataTypeName=number
+metric m:rstemp_45min p:float l:RSTEMP_45MIN d:RSTEMP_45MIN t:dataTypeName=number
 
-metric m:airtemp_45min l:AIRTEMP_45MIN d:AIRTEMP_45MIN t:dataTypeName=number
+metric m:airtemp_45min p:decimal l:AIRTEMP_45MIN d:AIRTEMP_45MIN t:dataTypeName=number
 
-metric m:rstemp_60min l:RSTEMP_60MIN d:RSTEMP_60MIN t:dataTypeName=number
+metric m:rstemp_60min p:float l:RSTEMP_60MIN d:RSTEMP_60MIN t:dataTypeName=number
 
-metric m:airtemp_60min l:AIRTEMP_60MIN d:AIRTEMP_60MIN t:dataTypeName=number
+metric m:airtemp_60min p:decimal l:AIRTEMP_60MIN d:AIRTEMP_60MIN t:dataTypeName=number
 
-metric m:rstemp_75min l:RSTEMP_75MIN d:RSTEMP_75MIN t:dataTypeName=number
+metric m:rstemp_75min p:float l:RSTEMP_75MIN d:RSTEMP_75MIN t:dataTypeName=number
 
-metric m:airtemp_75min l:AIRTEMP_75MIN d:AIRTEMP_75MIN t:dataTypeName=number
+metric m:airtemp_75min p:float l:AIRTEMP_75MIN d:AIRTEMP_75MIN t:dataTypeName=number
 
-metric m:rstemp_90min l:RSTEMP_90MIN d:RSTEMP_90MIN t:dataTypeName=number
+metric m:rstemp_90min p:float l:RSTEMP_90MIN d:RSTEMP_90MIN t:dataTypeName=number
 
-metric m:airtemp_90min l:AIRTEMP_90MIN d:AIRTEMP_90MIN t:dataTypeName=number
+metric m:airtemp_90min p:float l:AIRTEMP_90MIN d:AIRTEMP_90MIN t:dataTypeName=number
 
-metric m:rstemp_105min l:RSTEMP_105MIN d:RSTEMP_105MIN t:dataTypeName=number
+metric m:rstemp_105min p:decimal l:RSTEMP_105MIN d:RSTEMP_105MIN t:dataTypeName=number
 
-metric m:airtemp_105min l:AIRTEMP_105MIN d:AIRTEMP_105MIN t:dataTypeName=number
+metric m:airtemp_105min p:decimal l:AIRTEMP_105MIN d:AIRTEMP_105MIN t:dataTypeName=number
 
-metric m:rstemp_120min l:RSTEMP_120MIN d:RSTEMP_120MIN t:dataTypeName=number
+metric m:rstemp_120min p:float l:RSTEMP_120MIN d:RSTEMP_120MIN t:dataTypeName=number
 
-metric m:airtemp_120min l:AIRTEMP_120MIN d:AIRTEMP_120MIN t:dataTypeName=number
+metric m:airtemp_120min p:float l:AIRTEMP_120MIN d:AIRTEMP_120MIN t:dataTypeName=number
 
 entity e:wd5q-q35v l:"SDOT Road Temperature Stations" t:url=https://data.seattle.gov/api/views/wd5q-q35v
 

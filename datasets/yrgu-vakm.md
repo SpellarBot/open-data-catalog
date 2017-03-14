@@ -16,7 +16,7 @@
 | Tags | exceptions, street, restrictions, permits |
 | Created | 2012-09-25T00:09:14Z |
 | Publication Date | 2015-07-17T15:20:34Z |
-| Rows Updated | 2017-03-12T15:04:55Z |
+| Rows Updated | 2017-03-13T15:04:45Z |
 
 ## Description
 
@@ -79,7 +79,7 @@ property e:yrgu-vakm t:meta.view v:id=yrgu-vakm v:category="City Infrastructure"
 
 property e:yrgu-vakm t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
 
 property e:yrgu-vakm t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 ```

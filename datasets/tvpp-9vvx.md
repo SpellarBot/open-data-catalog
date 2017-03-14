@@ -15,8 +15,8 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-12T19:43:19Z |
-| Rows Updated | 2017-03-12T19:43:17Z |
+| Publication Date | 2017-03-13T19:49:43Z |
+| Rows Updated | 2017-03-13T19:49:40Z |
 
 ## Description
 

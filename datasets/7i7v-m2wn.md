@@ -16,7 +16,7 @@
 | Tags | campaign finance dashboards 2016 |
 | Created | 2016-08-18T20:50:38Z |
 | Publication Date | 2016-08-18T21:00:00Z |
-| Rows Updated | 2017-03-13T00:30:26Z |
+| Rows Updated | 2017-03-14T00:30:28Z |
 
 ## Columns
 
