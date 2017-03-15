@@ -16,7 +16,7 @@
 | Tags | licenses, transportation |
 | Created | 2013-02-06T18:42:30Z |
 | Publication Date | 2016-02-16T17:38:59Z |
-| Rows Updated | 2017-03-13T22:31:21Z |
+| Rows Updated | 2017-03-14T22:31:21Z |
 
 ## Description
 
@@ -30,10 +30,10 @@ List of City of Chicago licensed Public Chauffeurs, who may operate a licensed T
 | Yes      | numeric metric | license       | License Number      | number        | number        |
 | Yes      | series tag     | renewed       | Renewed             | text          | text          |
 | Yes      | series tag     | status        | Status              | text          | text          |
-| No       |                | status_date   | Status Date         | calendar_date | calendar_date |
+| Yes      | time           | status_date   | Status Date         | calendar_date | calendar_date |
 | Yes      | series tag     | driver_type   | Driver Type         | text          | text          |
 | Yes      | series tag     | license_type  | License Type        | text          | text          |
-| Yes      | time           | issue_date    | Original Issue Date | calendar_date | calendar_date |
+| No       |                | issue_date    | Original Issue Date | calendar_date | calendar_date |
 | Yes      | series tag     | name          | Name                | text          | text          |
 | Yes      | series tag     | sex           | Sex                 | text          | text          |
 | Yes      | series tag     | city          | Chauffeur City      | text          | text          |
@@ -44,24 +44,24 @@ List of City of Chicago licensed Public Chauffeurs, who may operate a licensed T
 ## Time Field
 
 ```ls
-Value = issue_date
+Value = status_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = status_date
+Excluded Fields = issue_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:97wa-y6ff d:2008-05-14T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="RICE, WENDELL C" t:state=IL t:driver_type="Livery Only" t:record_number=08-00563280 t:city=CHICAGO m:license=91227
+series e:97wa-y6ff d:2015-05-18T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="RICE, WENDELL C" t:state=IL t:driver_type="Livery Only" t:record_number=08-00563280 t:city=CHICAGO m:license=91227
 
-series e:97wa-y6ff d:2013-04-18T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="HABTU, KIDANE M" t:state=IL t:driver_type=Taxi t:record_number=13-00393656 t:city=CHICAGO m:license=98363
+series e:97wa-y6ff d:2016-05-09T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="HABTU, KIDANE M" t:state=IL t:driver_type=Taxi t:record_number=13-00393656 t:city=CHICAGO m:license=98363
 
-series e:97wa-y6ff d:2012-05-17T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="ABDALLAH OU ALI, OMAR AIT" t:state=IL t:driver_type=Taxi t:record_number=10-00180783 t:city=ROSEMONT m:license=94026
+series e:97wa-y6ff d:2014-05-02T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="ABDALLAH OU ALI, OMAR AIT" t:state=IL t:driver_type=Taxi t:record_number=10-00180783 t:city=ROSEMONT m:license=94026
 ```
 
 ## Meta Commands

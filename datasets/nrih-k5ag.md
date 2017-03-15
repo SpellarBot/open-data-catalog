@@ -74,17 +74,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Office 365" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Office suite of products (mail, spreadsheets, etc)" t:vendor_name=Microsoft m:row_number=1
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Office 365" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Office suite of products (mail, spreadsheets, etc)" t:vendor_name=Microsoft m:row_number.nrih-k5ag=1
 
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product=IFAS t:custodian=Finance t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Financial and HR system" t:vendor_name="Sungard Public Sector" m:row_number=2
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product=IFAS t:custodian=Finance t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Financial and HR system" t:vendor_name="Sungard Public Sector" m:row_number.nrih-k5ag=2
 
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Accela Automation (Permits Plus prior to 13/14)" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Permit management" t:vendor_name="Accela Automation" m:row_number=3
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Accela Automation (Permits Plus prior to 13/14)" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Permit management" t:vendor_name="Accela Automation" m:row_number.nrih-k5ag=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.nrih-k5ag p:long l:"Row Number"
 
 entity e:nrih-k5ag l:"SB 272 Enterprise Software" t:url=https://data.srcity.org/api/views/nrih-k5ag
 

@@ -37,13 +37,13 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:bu7x-2xx6 d:2011-12-16T11:48:25.000Z t:phone=206-205-7330 t:hours="Mon-Fri: 9:30am-5pm" t:name="Maleng Regional Justice Center (Kent)" m:row_number=1
+series e:bu7x-2xx6 d:2011-12-16T11:48:25.000Z t:phone=206-205-7330 t:hours="Mon-Fri: 9:30am-5pm" t:name="Maleng Regional Justice Center (Kent)" m:row_number.bu7x-2xx6=1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.bu7x-2xx6 p:long l:"Row Number"
 
 entity e:bu7x-2xx6 l:"CSC Kent" t:url=https://data.kingcounty.gov/api/views/bu7x-2xx6
 

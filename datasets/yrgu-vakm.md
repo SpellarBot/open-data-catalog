@@ -16,7 +16,7 @@
 | Tags | exceptions, street, restrictions, permits |
 | Created | 2012-09-25T00:09:14Z |
 | Publication Date | 2015-07-17T15:20:34Z |
-| Rows Updated | 2017-03-13T15:04:45Z |
+| Rows Updated | 2017-03-14T15:04:50Z |
 
 ## Description
 
@@ -33,12 +33,12 @@ A table of restrictions and information about existing conditions in the public 
 | Yes      | series tag     | permittype         | PermitType         | text          | text          |
 | Yes      | series tag     | jobordernum        | JobOrderNum        | text          | text          |
 | Yes      | series tag     | projectname        | ProjectName        | text          | text          |
-| No       |                | effectivedate      | EffectiveDate      | calendar_date | calendar_date |
-| Yes      | series tag     | expirationdate     | ExpirationDate     | calendar_date | calendar_date |
+| Yes      | time           | effectivedate      | EffectiveDate      | calendar_date | calendar_date |
+| No       |                | expirationdate     | ExpirationDate     | calendar_date | calendar_date |
 | Yes      | series tag     | contactname        | ContactName        | text          | text          |
 | Yes      | series tag     | contactphonenumber | ContactPhoneNumber | text          | text          |
 | Yes      | series tag     | restriction_tow    | Restriction_Tow    | text          | text          |
-| Yes      | time           | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
+| No       |                | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
 | Yes      | numeric metric | block              | block              | number        | text          |
 | Yes      | series tag     | lot                | lot                | text          | text          |
 ```
@@ -46,24 +46,24 @@ A table of restrictions and information about existing conditions in the public 
 ## Time Field
 
 ```ls
-Value = modifieddate
+Value = effectivedate
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = effectivedate
+Excluded Fields = expirationdate,modifieddate
 ```
 
 ## Data Commands
 
 ```ls
-series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
+series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
 
-series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
+series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
 
-series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
+series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
 ```
 
 ## Meta Commands
@@ -79,7 +79,7 @@ property e:yrgu-vakm t:meta.view v:id=yrgu-vakm v:category="City Infrastructure"
 
 property e:yrgu-vakm t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 
 property e:yrgu-vakm t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 ```

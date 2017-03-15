@@ -37,17 +37,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usually in-house. POR (Program of Requirements) produced at this stage" t:phase_step_number=1 t:phase_type=default t:phase_step_name=Planning m:row_number=1
+series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usually in-house. POR (Program of Requirements) produced at this stage" t:phase_step_number=1 t:phase_type=default t:phase_step_name=Planning m:row_number.dmhd-88xr=1
 
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and  produce construction drawings, etc." t:phase_step_number=2 t:phase_type=default t:phase_step_name="Preliminary Design" m:row_number=2
+series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and  produce construction drawings, etc." t:phase_step_number=2 t:phase_type=default t:phase_step_name="Preliminary Design" m:row_number.dmhd-88xr=2
 
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Design complete. Construction documents complete. Ready to award contract." t:phase_step_number=3 t:phase_type=default t:phase_step_name="Final Design" m:row_number=3
+series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Design complete. Construction documents complete. Ready to award contract." t:phase_step_number=3 t:phase_type=default t:phase_step_name="Final Design" m:row_number.dmhd-88xr=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.dmhd-88xr p:long l:"Row Number"
 
 entity e:dmhd-88xr l:"Template011: Project Phase List" t:url=https://data.srcity.org/api/views/dmhd-88xr
 

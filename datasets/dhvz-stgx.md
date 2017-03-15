@@ -46,17 +46,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:dhvz-stgx d:2016-10-06T21:01:29.000Z t:first_name=Matt t:email=matt@absoluteenvironmental.net t:company="Absolute Commercial & Environmental Services" t:last_name=Proctor t:inspector_number="AWII 87" t:telephone=512-560-1099 m:row_number=1
+series e:dhvz-stgx d:2016-10-06T21:01:29.000Z t:first_name=Matt t:email=matt@absoluteenvironmental.net t:company="Absolute Commercial & Environmental Services" t:last_name=Proctor t:inspector_number="AWII 87" t:telephone=512-560-1099 m:row_number.dhvz-stgx=1
 
-series e:dhvz-stgx d:2016-10-06T21:01:29.000Z t:first_name=Eric t:email=Eric@All-StarTexas.com t:company="All-Star Inspections" t:last_name=Warnke t:inspector_number="AWII 103" t:telephone=512-803-8711 m:row_number=2
+series e:dhvz-stgx d:2016-10-06T21:01:29.000Z t:first_name=Eric t:email=Eric@All-StarTexas.com t:company="All-Star Inspections" t:last_name=Warnke t:inspector_number="AWII 103" t:telephone=512-803-8711 m:row_number.dhvz-stgx=2
 
-series e:dhvz-stgx d:2016-10-06T21:01:29.000Z t:first_name=David t:email=irrinspection@outlook.com t:company="Living Water Irrigation Inspections" t:last_name=Scoby t:inspector_number="AWII 104" t:telephone=512-845-6403 m:row_number=3
+series e:dhvz-stgx d:2016-10-06T21:01:29.000Z t:first_name=David t:email=irrinspection@outlook.com t:company="Living Water Irrigation Inspections" t:last_name=Scoby t:inspector_number="AWII 104" t:telephone=512-845-6403 m:row_number.dhvz-stgx=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.dhvz-stgx p:long l:"Row Number"
 
 entity e:dhvz-stgx l:"Austin Water Authorized Irrigation Inspector List" t:attribution="Austin Water" t:url=https://data.austintexas.gov/api/views/dhvz-stgx
 

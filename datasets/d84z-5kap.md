@@ -43,17 +43,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12?(in?PDF)" t:column_date=11/26/12 m:row_number=1
+series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12?(in?PDF)" t:column_date=11/26/12 m:row_number.d84z-5kap=1
 
-series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf t:columns_title="Municipal Law - Innovations in City Land-Use Transactions" t:column_date=9/18/12 m:row_number=2
+series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf t:columns_title="Municipal Law - Innovations in City Land-Use Transactions" t:column_date=9/18/12 m:row_number.d84z-5kap=2
 
-series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf t:columns_title="Municipal Law - Cleaning Up City Waterways" t:column_date=6/18/12 m:row_number=3
+series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf t:columns_title="Municipal Law - Cleaning Up City Waterways" t:column_date=6/18/12 m:row_number.d84z-5kap=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.d84z-5kap p:long l:"Row Number"
 
 entity e:d84z-5kap l:"LAW Published Columns" t:attribution="Law Department (LAW)" t:url=https://data.cityofnewyork.us/api/views/d84z-5kap
 

@@ -38,17 +38,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=36104 t:provider_number=017000 t:state=AL m:row_number=1
+series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=36104 t:provider_number=017000 t:state=AL m:row_number.m5eg-upu5=1
 
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35005 t:provider_number=017008 t:state=AL m:row_number=2
+series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35005 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=2
 
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35020 t:provider_number=017008 t:state=AL m:row_number=3
+series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35020 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.m5eg-upu5 p:long l:"Row Number"
 
 entity e:m5eg-upu5 l:"Home Health Care - Zip Codes" t:url=https://data.medicare.gov/api/views/m5eg-upu5
 

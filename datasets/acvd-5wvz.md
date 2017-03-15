@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-12T13:30:36Z |
+| Rows Updated | 2017-03-14T13:20:28Z |
 
 ## Description
 
@@ -58,11 +58,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB048H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172439_9952294 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274962 m:cop_rating=3.7 m:eer_rating=20
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152247_1620760 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226833 m:cop_rating=4.1 m:eer_rating=22.3
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB060H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172440_7907956 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274973 m:cop_rating=4.9 m:eer_rating=24.1
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152247_7584783 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226835 m:cop_rating=4.5 m:eer_rating=23.8
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB060H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172440_8549659 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274974 m:cop_rating=4.2 m:eer_rating=18.5
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152246_8380148 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226855 m:cop_rating=3.6 m:eer_rating=18.9
 ```
 
 ## Meta Commands

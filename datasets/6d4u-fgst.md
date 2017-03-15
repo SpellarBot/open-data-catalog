@@ -69,33 +69,33 @@ series e:6d4u-fgst d:2016-01-21T00:00:00.000Z m:money_saved_supervisor_completio
 ## Meta Commands
 
 ```ls
-metric m:number_of_inspections p:long l:"Number of Inspections" t:dataTypeName=number
+metric m:number_of_inspections p:integer l:"Number of Inspections" t:dataTypeName=number
 
-metric m:number_of_hearing_notices_mailed p:long l:"Number of Hearing Notices Mailed" t:dataTypeName=number
+metric m:number_of_hearing_notices_mailed p:integer l:"Number of Hearing Notices Mailed" t:dataTypeName=number
 
-metric m:number_of_cases_presented_to_hearing_officers p:long l:"Number of Cases Presented to Hearing Officers" t:dataTypeName=number
+metric m:number_of_cases_presented_to_hearing_officers p:integer l:"Number of Cases Presented to Hearing Officers" t:dataTypeName=number
 
-metric m:number_of_311_complaints_received p:long l:"Number of 311 Complaints Received" t:dataTypeName=number
+metric m:number_of_311_complaints_received p:integer l:"Number of 311 Complaints Received" t:dataTypeName=number
 
-metric m:number_of_311_complaints_resolved p:long l:"Number of 311 Complaints Resolved" t:dataTypeName=number
+metric m:number_of_311_complaints_resolved p:integer l:"Number of 311 Complaints Resolved" t:dataTypeName=number
 
-metric m:number_of_initiated_demolition_cases p:long l:"Number of Initiated Demolition Cases" t:dataTypeName=number
+metric m:number_of_initiated_demolition_cases p:integer l:"Number of Initiated Demolition Cases" t:dataTypeName=number
 
-metric m:number_of_demolition_cases_completed p:long l:"Number of Demolition Cases Completed" t:dataTypeName=number
+metric m:number_of_demolition_cases_completed p:integer l:"Number of Demolition Cases Completed" t:dataTypeName=number
 
-metric m:number_of_initiated_board_up_cases p:long l:"Number of Initiated Board Up Cases" t:dataTypeName=number
+metric m:number_of_initiated_board_up_cases p:integer l:"Number of Initiated Board Up Cases" t:dataTypeName=number
 
-metric m:number_of_board_up_cases_completed p:long l:"Number of Board Up Cases completed" t:dataTypeName=number
+metric m:number_of_board_up_cases_completed p:integer l:"Number of Board Up Cases completed" t:dataTypeName=number
 
-metric m:number_of_initiated_grass_and_weed_cases p:long l:"Number of Initiated Grass and Weed Cases" t:dataTypeName=number
+metric m:number_of_initiated_grass_and_weed_cases p:integer l:"Number of Initiated Grass and Weed Cases" t:dataTypeName=number
 
-metric m:number_of_grass_and_weed_casses_completed p:long l:"Number of Grass and Weed Casses Completed" t:dataTypeName=number
+metric m:number_of_grass_and_weed_casses_completed p:integer l:"Number of Grass and Weed Casses Completed" t:dataTypeName=number
 
-metric m:number_of_housing_inspections p:long l:"Number of Housing Inspections" t:dataTypeName=number
+metric m:number_of_housing_inspections p:integer l:"Number of Housing Inspections" t:dataTypeName=number
 
-metric m:number_of_lots_completed_by_inmate_labor p:long l:"Number of Lots Completed by Inmate Labor" t:dataTypeName=number
+metric m:number_of_lots_completed_by_inmate_labor p:integer l:"Number of Lots Completed by Inmate Labor" t:dataTypeName=number
 
-metric m:number_of_lots_completed_by_supervisors p:long l:"Number of Lots Completed by Supervisors" t:dataTypeName=number
+metric m:number_of_lots_completed_by_supervisors p:integer l:"Number of Lots Completed by Supervisors" t:dataTypeName=number
 
 metric m:money_saved_board_up_cases p:double l:"Money Saved: Board-up Cases" t:dataTypeName=money
 

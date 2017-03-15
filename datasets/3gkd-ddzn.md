@@ -45,17 +45,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z t:chair="Georgette Morgan-Thomas" t:community_board_number=9 t:district_manager="Eutha R. Prince" t:board_meeting_cabinet_meeting="Third Thursday, 6:30 PM" m:row_number=1
+series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z t:chair="Georgette Morgan-Thomas" t:community_board_number=9 t:district_manager="Eutha R. Prince" t:board_meeting_cabinet_meeting="Third Thursday, 6:30 PM" m:row_number.3gkd-ddzn=1
 
-series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z t:chair="Mark N. Diller" t:community_board_number=7 t:district_manager="Penny Ryan" t:board_meeting_cabinet_meeting="First Tuesday, 6:30PM" m:row_number=2
+series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z t:chair="Mark N. Diller" t:community_board_number=7 t:district_manager="Penny Ryan" t:board_meeting_cabinet_meeting="First Tuesday, 6:30PM" m:row_number.3gkd-ddzn=2
 
-series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z t:chair="Henrietta Lyle" t:community_board_number=10 t:location_2="4th floor" t:district_manager="Christopher T. Wooley" t:board_meeting_cabinet_meeting="First Wednesday, 6PM" m:row_number=3
+series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z t:chair="Henrietta Lyle" t:community_board_number=10 t:location_2="4th floor" t:district_manager="Christopher T. Wooley" t:board_meeting_cabinet_meeting="First Wednesday, 6PM" m:row_number.3gkd-ddzn=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.3gkd-ddzn p:long l:"Row Number"
 
 entity e:3gkd-ddzn l:"Community Board Appointments" t:attribution="Manhattan Borough President (MBP)" t:url=https://data.cityofnewyork.us/api/views/3gkd-ddzn
 

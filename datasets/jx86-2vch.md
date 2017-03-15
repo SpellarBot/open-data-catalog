@@ -43,17 +43,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="WAHIAWA PUBLIC LIBRARY" t:phone=8086226345 t:county=HONOLULU m:row_number=1
+series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="WAHIAWA PUBLIC LIBRARY" t:phone=8086226345 t:county=HONOLULU m:row_number.jx86-2vch=1
 
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="MOUNTAIN VIEW PUBLIC AND SCHOOL LIBRARY" t:phone=8089686300 t:county=HAWAII m:row_number=2
+series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="MOUNTAIN VIEW PUBLIC AND SCHOOL LIBRARY" t:phone=8089686300 t:county=HAWAII m:row_number.jx86-2vch=2
 
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="HILO PUBLIC LIBRARY" t:phone=8089338888 t:county=HAWAII m:row_number=3
+series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="HILO PUBLIC LIBRARY" t:phone=8089338888 t:county=HAWAII m:row_number.jx86-2vch=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.jx86-2vch p:long l:"Row Number"
 
 entity e:jx86-2vch l:"Libraries State Of Hawaii" t:attribution="Hawaii State Public Library System" t:url=https://data.hawaii.gov/api/views/jx86-2vch
 

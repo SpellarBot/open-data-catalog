@@ -56,17 +56,17 @@ Excluded Fields = mn,tu,we,th,fr,sa,su
 ## Data Commands
 
 ```ls
-series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z t:phone="(718) 352-2027" t:name=Auburndale m:row_number=1
+series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z t:phone="(718) 352-2027" t:name=Auburndale m:row_number.kh3d-xhq7=1
 
-series e:kh3d-xhq7 d:2011-10-08T13:59:56.000Z t:phone="(718) 639-5228" t:name=Maspeth t:notification="Return all Queens Library books, videos, music at Queens Library at Maspeth. Use the self-service book return, available every day and every night. Receipts given for your security." m:row_number=2
+series e:kh3d-xhq7 d:2011-10-08T13:59:56.000Z t:phone="(718) 639-5228" t:name=Maspeth t:notification="Return all Queens Library books, videos, music at Queens Library at Maspeth. Use the self-service book return, available every day and every night. Receipts given for your security." m:row_number.kh3d-xhq7=2
 
-series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z t:phone="(718) 423-7004" t:name="Bay Terrace" m:row_number=3
+series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z t:phone="(718) 423-7004" t:name="Bay Terrace" m:row_number.kh3d-xhq7=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.kh3d-xhq7 p:long l:"Row Number"
 
 entity e:kh3d-xhq7 l:"Queens Library Branches" t:attribution="Queens Library (QBPL)" t:url=https://data.cityofnewyork.us/api/views/kh3d-xhq7
 

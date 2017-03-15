@@ -51,17 +51,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=false t:website=http://www.seattle.gov/arts/publicart/default.asp t:program="1% for Art" t:description="identifies and coordinates opportunities to include public art in capital projects funded at the local, state, and federal levels." t:administrator="Arts & Cultural Affairs" t:funding_type="legislative encumbrance" t:community_development=true t:infrastructure=false t:funding_amount=$ m:row_number=1
+series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=false t:website=http://www.seattle.gov/arts/publicart/default.asp t:description="identifies and coordinates opportunities to include public art in capital projects funded at the local, state, and federal levels." t:program="1% for Art" t:administrator="Arts & Cultural Affairs" t:funding_type="legislative encumbrance" t:community_development=true t:funding_amount=$ t:infrastructure=false m:row_number.bnq7-2pc8=1
 
-series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=true t:website=http://www.seattle.gov/parks/levy/opportunity.htm t:program="Opportunity Fund" t:description="funds community-initiated park development or acquisition projects." t:administrator=Parks t:funding_type="competitive grants" t:community_development=false t:infrastructure=false t:funding_amount=$-$$ m:row_number=2
+series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=true t:website=http://www.seattle.gov/parks/levy/opportunity.htm t:description="funds community-initiated park development or acquisition projects." t:program="Opportunity Fund" t:administrator=Parks t:funding_type="competitive grants" t:community_development=false t:funding_amount=$-$$ t:infrastructure=false m:row_number.bnq7-2pc8=2
 
-series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=true t:website=http://www.seattle.gov/neighborhoods/nmf/ t:program="Neighborhood Matching Fund" t:description="include four funds (Small Sparks, Small and Simple Projects, Large Projects, and Tree) for community-initiated neighborhood projects." t:administrator=DON t:funding_type="matching grants" t:community_development=true t:infrastructure=true t:funding_amount=$-$$ m:row_number=3
+series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=true t:website=http://www.seattle.gov/neighborhoods/nmf/ t:description="include four funds (Small Sparks, Small and Simple Projects, Large Projects, and Tree) for community-initiated neighborhood projects." t:program="Neighborhood Matching Fund" t:administrator=DON t:funding_type="matching grants" t:community_development=true t:funding_amount=$-$$ t:infrastructure=true m:row_number.bnq7-2pc8=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.bnq7-2pc8 p:long l:"Row Number"
 
 entity e:bnq7-2pc8 l:"Transit Communities Funding Toolkit" t:attribution="City of Seattle, Seattle Planning Commission" t:url=https://data.seattle.gov/api/views/bnq7-2pc8
 

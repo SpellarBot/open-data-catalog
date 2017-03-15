@@ -53,17 +53,17 @@ Excluded Fields = latitude,longitude
 ## Data Commands
 
 ```ls
-series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z t:location="215 Varick Ave Brooklyn, NY" t:primary_disposal_facility="WM - Varick" t:district=BK01 t:material=Refuse m:row_number=1
+series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z t:location="215 Varick Ave Brooklyn, NY" t:primary_disposal_facility="WM - Varick" t:district=BK01 t:material=Refuse m:row_number.kzmz-ivhb=1
 
-series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z t:location="30-27 Greenpoint Avenue LIC, NY" t:primary_disposal_facility="Sims - LIC" t:district=BK01 t:material="Met, Glass, Plastic" m:row_number=2
+series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z t:location="30-27 Greenpoint Avenue LIC, NY" t:primary_disposal_facility="Sims - LIC" t:district=BK01 t:material="Met, Glass, Plastic" m:row_number.kzmz-ivhb=2
 
-series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z t:location="30-27 Greenpoint Avenue LIC, NY" t:primary_disposal_facility="Sims LIC" t:district=BK01 t:material=Paper m:row_number=3
+series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z t:location="30-27 Greenpoint Avenue LIC, NY" t:primary_disposal_facility="Sims LIC" t:district=BK01 t:material=Paper m:row_number.kzmz-ivhb=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.kzmz-ivhb p:long l:"Row Number"
 
 entity e:kzmz-ivhb l:"DSNY's Refuse and Recycling Disposal Networks" t:attribution="Department of Sanitation (DSNY)" t:url=https://data.cityofnewyork.us/api/views/kzmz-ivhb
 

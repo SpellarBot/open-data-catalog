@@ -47,17 +47,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:h5nh-eqde d:2011-09-09T13:29:31.000Z t:website=new.lincolncenter.org/ t:telephone=212.875.5456 t:store_type_category_1="Museums & Cultural Institutions" t:shop_name="Lincoln Center for the Preforming Arts" m:row_number=1
+series e:h5nh-eqde d:2011-09-09T13:29:31.000Z t:website=new.lincolncenter.org/ t:telephone=212.875.5456 t:store_type_category_1="Museums & Cultural Institutions" t:shop_name="Lincoln Center for the Preforming Arts" m:row_number.h5nh-eqde=1
 
-series e:h5nh-eqde d:2011-09-09T13:29:33.000Z t:website=www.aerosoles.com t:telephone="212 579-8659" t:store_type_category_1="Clothing Shops, Shoes & Accessories" t:shop_name=Aerosoles m:row_number=2
+series e:h5nh-eqde d:2011-09-09T13:29:33.000Z t:website=www.aerosoles.com t:telephone="212 579-8659" t:store_type_category_1="Clothing Shops, Shoes & Accessories" t:shop_name=Aerosoles m:row_number.h5nh-eqde=2
 
-series e:h5nh-eqde d:2011-09-09T13:29:33.000Z t:telephone="212 769-0368" t:store_type_category_1="Clothing Shops, Shoes & Accessories" t:shop_name="A Tempo" m:row_number=3
+series e:h5nh-eqde d:2011-09-09T13:29:33.000Z t:telephone="212 769-0368" t:store_type_category_1="Clothing Shops, Shoes & Accessories" t:shop_name="A Tempo" m:row_number.h5nh-eqde=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.h5nh-eqde p:long l:"Row Number"
 
 entity e:h5nh-eqde l:"Columbus Avenue BID Businesses" t:attribution="Columbus Avenue BID" t:url=https://data.cityofnewyork.us/api/views/h5nh-eqde
 

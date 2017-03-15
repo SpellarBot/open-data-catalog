@@ -45,17 +45,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:j2u5-4qpk d:2017-03-14T12:26:18.441Z t:agency_title="State Revenue for Distribution (SRD)" t:agency_number=10 t:abbreviation=SRD m:row_number=1
+series e:j2u5-4qpk d:2017-03-15T07:16:31.286Z t:agency_title="State Revenue for Distribution (SRD)" t:agency_number=10 t:abbreviation=SRD m:row_number.j2u5-4qpk=1
 
-series e:j2u5-4qpk d:2017-03-14T12:26:18.441Z t:agency_title="Federal Revenue for Distribution (FRD)" t:agency_number=50 t:abbreviation=FRD m:row_number=2
+series e:j2u5-4qpk d:2017-03-15T07:16:31.286Z t:agency_title="Federal Revenue for Distribution (FRD)" t:agency_number=50 t:abbreviation=FRD m:row_number.j2u5-4qpk=2
 
-series e:j2u5-4qpk d:2017-03-14T12:26:18.441Z t:agency_title="Bond Retirement and Interest (BRI)" t:agency_number=100 t:abbreviation=BRI m:row_number=3
+series e:j2u5-4qpk d:2017-03-15T07:16:31.286Z t:agency_title="Bond Retirement and Interest (BRI)" t:agency_number=100 t:abbreviation=BRI m:row_number.j2u5-4qpk=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.j2u5-4qpk p:long l:"Row Number"
 
 entity e:j2u5-4qpk l:"WA State Accessibility Coordinators" t:attribution="WA State Accessibility Champion" t:url=https://data.wa.gov/api/views/j2u5-4qpk
 

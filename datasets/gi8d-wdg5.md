@@ -65,11 +65,11 @@ Excluded Fields = lpep_dropoff_datetime
 ## Data Commands
 
 ```ls
-series e:gi8d-wdg5 d:2015-02-17T17:51:35.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=2 t:payment_type=2 m:mta_tax=0 m:total_amount=7 m:ratecodeid=5 m:extra=0 m:pickup_longitude=-73.92123 m:trip_distance=1.8 m:tolls_amount=0 m:fare_amount=7 m:passenger_count=0 m:dropoff_longitude=-73.9064 m:pickup_latitude=40.83398 m:improvement_surcharge=0 m:dropoff_latitude=40.85239 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-10-26T13:02:48.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=4 m:ratecodeid=1 m:extra=0 m:pickup_longitude=-73.95299 m:trip_distance=0.3 m:tolls_amount=0 m:fare_amount=3.5 m:passenger_count=1 m:dropoff_longitude=-73.95383 m:pickup_latitude=40.81026 m:improvement_surcharge=0 m:dropoff_latitude=40.80646 m:tip_amount=0
 
-series e:gi8d-wdg5 d:2015-02-06T16:39:02.000Z t:store_and_fwd_flag=N t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=10.3 m:ratecodeid=1 m:extra=1 m:pickup_longitude=-73.88423 m:trip_distance=1.33 m:tolls_amount=0 m:fare_amount=8.5 m:passenger_count=2 m:dropoff_longitude=-73.9009 m:pickup_latitude=40.74755 m:improvement_surcharge=0.3 m:dropoff_latitude=40.74328 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-10-18T04:09:03.000Z t:store_and_fwd_flag=N t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=16.3 m:ratecodeid=1 m:extra=0.5 m:pickup_longitude=-73.95269 m:trip_distance=3.38 m:tolls_amount=0 m:fare_amount=12.5 m:passenger_count=1 m:dropoff_longitude=-73.93079 m:pickup_latitude=40.72704 m:improvement_surcharge=0.3 m:dropoff_latitude=40.76133 m:tip_amount=2.5
 
-series e:gi8d-wdg5 d:2015-02-14T19:06:47.000Z t:store_and_fwd_flag=N t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=20.16 m:ratecodeid=1 m:extra=0 m:pickup_longitude=-73.94138 m:trip_distance=4.7 m:tolls_amount=0 m:fare_amount=16 m:passenger_count=1 m:dropoff_longitude=-73.97112 m:pickup_latitude=40.84192 m:improvement_surcharge=0.3 m:dropoff_latitude=40.79348 m:tip_amount=3.36
+series e:gi8d-wdg5 d:2015-05-31T21:09:35.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:ratecodeid=1 m:extra=0.5 m:pickup_longitude=-73.9495 m:trip_distance=0.7 m:tolls_amount=0 m:fare_amount=5.5 m:passenger_count=1 m:dropoff_longitude=-73.94195 m:pickup_latitude=40.82747 m:improvement_surcharge=0.3 m:dropoff_latitude=40.82457 m:tip_amount=1
 ```
 
 ## Meta Commands

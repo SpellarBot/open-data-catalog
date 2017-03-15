@@ -58,17 +58,17 @@ Excluded Fields = expiration_date
 ## Data Commands
 
 ```ls
-series e:4n3a-en4b d:2009-05-15T00:00:00.000Z t:facility_city=FREEPORT t:permit_id=1-2820-00358/00002 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf t:facility_name="FREEPORT POWER PLANT #2" t:facility_zip=11520 t:facility_location="289 BUFFALO AVE" t:facility_state=NY m:row_number=1
+series e:4n3a-en4b d:2009-05-15T00:00:00.000Z t:facility_city=FREEPORT t:permit_id=1-2820-00358/00002 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf t:facility_name="FREEPORT POWER PLANT #2" t:facility_zip=11520 t:facility_location="289 BUFFALO AVE" t:facility_state=NY m:row_number.4n3a-en4b=1
 
-series e:4n3a-en4b d:2013-04-24T00:00:00.000Z t:facility_city=HEMPSTEAD t:permit_id=1-2820-00457/00003 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf t:facility_name="HOFSTRA UNIVERSITY" t:facility_zip=11550 t:facility_location="1000 FULTON AVE" t:facility_state=NY m:row_number=2
+series e:4n3a-en4b d:2013-04-24T00:00:00.000Z t:facility_city=HEMPSTEAD t:permit_id=1-2820-00457/00003 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf t:facility_name="HOFSTRA UNIVERSITY" t:facility_zip=11550 t:facility_location="1000 FULTON AVE" t:facility_state=NY m:row_number.4n3a-en4b=2
 
-series e:4n3a-en4b d:2011-02-24T00:00:00.000Z t:facility_city="ISLAND PARK" t:permit_id=1-2820-00553/00025 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf t:facility_name="EF BARRETT POWER STATION" t:facility_zip=11558 t:facility_location="1 MCCARTHY RD" t:facility_state=NY m:row_number=3
+series e:4n3a-en4b d:2011-02-24T00:00:00.000Z t:facility_city="ISLAND PARK" t:permit_id=1-2820-00553/00025 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf t:facility_name="EF BARRETT POWER STATION" t:facility_zip=11558 t:facility_location="1 MCCARTHY RD" t:facility_state=NY m:row_number.4n3a-en4b=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.4n3a-en4b p:long l:"Row Number"
 
 entity e:4n3a-en4b l:"Issued Title V Facility Permits" t:attribution="New York State Department of Environmental Conservation" t:url=https://data.ny.gov/api/views/4n3a-en4b
 

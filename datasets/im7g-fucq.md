@@ -41,17 +41,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:im7g-fucq d:2012-02-15T10:41:59.000Z t:zip_code=63960 t:county=Stoddard t:city=Acornridge m:row_number=1
+series e:im7g-fucq d:2012-02-15T10:41:59.000Z t:zip_code=63960 t:county=Stoddard t:city=Acornridge m:row_number.im7g-fucq=1
 
-series e:im7g-fucq d:2012-02-15T10:41:59.000Z t:zip_code=63533 t:county=Adair t:city=Adair m:row_number=2
+series e:im7g-fucq d:2012-02-15T10:41:59.000Z t:zip_code=63533 t:county=Adair t:city=Adair m:row_number.im7g-fucq=2
 
-series e:im7g-fucq d:2012-02-15T10:41:59.000Z t:zip_code=64720 t:county=Bates t:city=Adrian m:row_number=3
+series e:im7g-fucq d:2012-02-15T10:41:59.000Z t:zip_code=64720 t:county=Bates t:city=Adrian m:row_number.im7g-fucq=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.im7g-fucq p:long l:"Row Number"
 
 entity e:im7g-fucq l:"Missouri Zip Codes by County/City" t:url=https://data.mo.gov/api/views/im7g-fucq
 

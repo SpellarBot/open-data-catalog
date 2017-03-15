@@ -60,17 +60,17 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=10/24/2017 t:zip_code=63130 t:contractor_name="06 ENVIRONMENTAL SERVICES, INC." t:state=MO t:contact_person="DAN GIESLER" t:city="ST. LOUIS" m:row_number=1
+series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=10/24/2017 t:zip_code=63130 t:contractor_name="06 ENVIRONMENTAL SERVICES, INC." t:state=MO t:contact_person="DAN GIESLER" t:city="ST. LOUIS" m:row_number.5vh3-wnad=1
 
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=6/17/2017 t:zip_code=60514 t:contractor_name="1ST ALL AROUND COMPANY" t:email=1STALLAROUND@GMAIL.COM t:state=IL t:contact_person="MARCIN SWIERZOWSKI" t:residential_removal=YES t:city="CLARENDON HILLS" m:row_number=2
+series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=6/17/2017 t:zip_code=60514 t:contractor_name="1ST ALL AROUND COMPANY" t:email=1STALLAROUND@GMAIL.COM t:state=IL t:contact_person="MARCIN SWIERZOWSKI" t:residential_removal=YES t:city="CLARENDON HILLS" m:row_number.5vh3-wnad=2
 
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=5/16/2017 t:zip_code=62832 t:contractor_name="A & A ABATEMENT LLC" t:county=Perry t:email=roger.harsy@yahoo.com t:state=IL t:residential_removal=YES t:city="DU QUOIN" m:row_number=3
+series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=5/16/2017 t:zip_code=62832 t:contractor_name="A & A ABATEMENT LLC" t:county=Perry t:email=roger.harsy@yahoo.com t:state=IL t:residential_removal=YES t:city="DU QUOIN" m:row_number.5vh3-wnad=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.5vh3-wnad p:long l:"Row Number"
 
 entity e:5vh3-wnad l:"IDPH ASBESTOS LICENSED CONTRACTORS" t:attribution="Illinois Department of Public Health, Division of Environmental Health" t:url=https://data.illinois.gov/api/views/5vh3-wnad
 

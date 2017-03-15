@@ -70,17 +70,17 @@ Excluded Fields = end_date,longitude,latitude
 ## Data Commands
 
 ```ls
-series e:ptev-4hud d:2017-01-09T00:00:00.000Z t:business_name="PEYKO TZENOV" t:zip=10467 t:license_type=Business t:status=Issued t:application_category=Special t:license_number=1294131-DCA t:street="RESERVOIR OVAL E" t:contact_phone=9178047161 t:state=NY t:license_category="Home Improvement Contractor" t:building_number=3280 t:application_id=1066-2017-RHIC t:application_or_renewal=Renewal t:city=BRONX m:row_number=1
+series e:ptev-4hud d:2017-01-09T00:00:00.000Z t:business_name="PEYKO TZENOV" t:zip=10467 t:license_type=Business t:status=Issued t:application_category=Special t:license_number=1294131-DCA t:street="RESERVOIR OVAL E" t:contact_phone=9178047161 t:license_category="Home Improvement Contractor" t:state=NY t:building_number=3280 t:application_id=1066-2017-RHIC t:application_or_renewal=Renewal t:city=BRONX m:row_number.ptev-4hud=1
 
-series e:ptev-4hud d:2016-12-28T00:00:00.000Z t:business_name="T-MOBILE NORTHEAST LLC" t:zip=11201 t:license_type=Business t:status=Issued t:application_category=Basic t:license_number=2010590-DCA t:street="FULTON ST" t:contact_phone=8009279801 t:state=NY t:license_category="Electronics Store" t:building_number=435 t:application_id=33312-2016-RELE t:application_or_renewal=Renewal t:city=BROOKLYN m:row_number=2
+series e:ptev-4hud d:2016-12-28T00:00:00.000Z t:business_name="T-MOBILE NORTHEAST LLC" t:zip=11201 t:license_type=Business t:status=Issued t:application_category=Basic t:license_number=2010590-DCA t:street="FULTON ST" t:contact_phone=8009279801 t:license_category="Electronics Store" t:state=NY t:building_number=435 t:application_id=33312-2016-RELE t:application_or_renewal=Renewal t:city=BROOKLYN m:row_number.ptev-4hud=2
 
-series e:ptev-4hud d:2016-12-31T00:00:00.000Z t:business_name="LUCAS ELECTRONICS INC" t:zip=11222 t:license_type=Business t:status=Issued t:application_category=Basic t:license_number=2025971-DCA t:street="MANHATTAN AVE" t:contact_phone=347-987-3235 t:state=NY t:license_category="Electronics Store" t:building_number=886 t:application_id=33701-2016-RELE t:application_or_renewal=Renewal t:city=BROOKLYN m:row_number=3
+series e:ptev-4hud d:2016-12-31T00:00:00.000Z t:business_name="LUCAS ELECTRONICS INC" t:zip=11222 t:license_type=Business t:status=Issued t:application_category=Basic t:license_number=2025971-DCA t:street="MANHATTAN AVE" t:contact_phone=347-987-3235 t:license_category="Electronics Store" t:state=NY t:building_number=886 t:application_id=33701-2016-RELE t:application_or_renewal=Renewal t:city=BROOKLYN m:row_number.ptev-4hud=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.ptev-4hud p:long l:"Row Number"
 
 entity e:ptev-4hud l:"License Applications" t:attribution="Department of Consumer Affairs (DCA)" t:url=https://data.cityofnewyork.us/api/views/ptev-4hud
 

@@ -48,17 +48,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:w9cy-nnma d:2011-09-02T11:40:24.000Z t:contact_number=718.282.5575 t:program_type="Reading & Writing" t:borough_community=Brooklyn t:program="Adolescent Literacy" t:agency="Church Ave. Merchants Block Assoc." t:grade_level_age_group="grades 6 to 8" t:site_name="School for Democracy and Leadership 600 Kingston Avenue" m:row_number=1
+series e:w9cy-nnma d:2011-09-02T11:40:24.000Z t:contact_number=718.282.5575 t:program_type="Reading & Writing" t:borough_community=Brooklyn t:program="Adolescent Literacy" t:agency="Church Ave. Merchants Block Assoc." t:grade_level_age_group="grades 6 to 8" t:site_name="School for Democracy and Leadership 600 Kingston Avenue" m:row_number.w9cy-nnma=1
 
-series e:w9cy-nnma d:2011-09-02T11:40:25.000Z t:contact_number=212.652.2800 t:program_type="Reading & Writing" t:borough_community="New York" t:program="Adolescent Literacy" t:agency="Research Foundation of CUNY" t:grade_level_age_group="grades 6 to 8" t:site_name="Frederick Douglass Academy II (M860)" m:row_number=2
+series e:w9cy-nnma d:2011-09-02T11:40:25.000Z t:contact_number=212.652.2800 t:program_type="Reading & Writing" t:borough_community="New York" t:program="Adolescent Literacy" t:agency="Research Foundation of CUNY" t:grade_level_age_group="grades 6 to 8" t:site_name="Frederick Douglass Academy II (M860)" m:row_number.w9cy-nnma=2
 
-series e:w9cy-nnma d:2011-09-02T11:40:25.000Z t:contact_number=212.652.2800 t:program_type="Reading & Writing" t:borough_community="New York" t:program="Adolescent Literacy" t:agency="Research Foundation of CUNY" t:grade_level_age_group="grades 6 to 8" t:site_name="CUNY/Creative Arts Team" m:row_number=3
+series e:w9cy-nnma d:2011-09-02T11:40:25.000Z t:contact_number=212.652.2800 t:program_type="Reading & Writing" t:borough_community="New York" t:program="Adolescent Literacy" t:agency="Research Foundation of CUNY" t:grade_level_age_group="grades 6 to 8" t:site_name="CUNY/Creative Arts Team" m:row_number.w9cy-nnma=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.w9cy-nnma p:long l:"Row Number"
 
 entity e:w9cy-nnma l:"DYCD after-school programs: Reading And Writing Literacy Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/w9cy-nnma
 

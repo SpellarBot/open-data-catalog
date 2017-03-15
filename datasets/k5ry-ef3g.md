@@ -45,17 +45,17 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z t:councildistrict=2 t:zipcode=21206 t:name=410 t:neighborhood=Frankford t:policedistrict=NORTHEASTERN m:row_number=1
+series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z t:councildistrict=2 t:zipcode=21206 t:name=410 t:neighborhood=Frankford t:policedistrict=NORTHEASTERN m:row_number.k5ry-ef3g=1
 
-series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z t:councildistrict=1 t:zipcode=21231 t:name=1919 t:neighborhood="Fells Point" t:policedistrict=SOUTHEASTERN m:row_number=2
+series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z t:councildistrict=1 t:zipcode=21231 t:name=1919 t:neighborhood="Fells Point" t:policedistrict=SOUTHEASTERN m:row_number.k5ry-ef3g=2
 
-series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z t:councildistrict=1 t:zipcode=21224 t:name=SAUTE t:neighborhood=Canton t:policedistrict=SOUTHEASTERN m:row_number=3
+series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z t:councildistrict=1 t:zipcode=21224 t:name=SAUTE t:neighborhood=Canton t:policedistrict=SOUTHEASTERN m:row_number.k5ry-ef3g=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.k5ry-ef3g p:long l:"Row Number"
 
 entity e:k5ry-ef3g l:Restaurants t:attribution="City of Baltimore" t:url=https://data.baltimorecity.gov/api/views/k5ry-ef3g
 

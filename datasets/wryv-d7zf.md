@@ -52,17 +52,17 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:wryv-d7zf d:2013-08-26T12:36:45.000Z t:zip_code=60068 t:company="Trader Joe's" t:state=IL t:store_type=Specialty t:city="Park Ridge" m:row_number=1
+series e:wryv-d7zf d:2013-08-26T12:36:45.000Z t:zip_code=60068 t:company="Trader Joe's" t:state=IL t:store_type=Specialty t:city="Park Ridge" m:row_number.wryv-d7zf=1
 
-series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:zip_code=60202 t:company="Food 4 Less" t:state=IL t:store_type=FullService t:city=Evanston m:row_number=2
+series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:zip_code=60202 t:company="Food 4 Less" t:state=IL t:store_type=FullService t:city=Evanston m:row_number.wryv-d7zf=2
 
-series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:zip_code=60804 t:company=Aldi t:state=IL t:store_type=Discount t:city=Cicero m:row_number=3
+series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:zip_code=60804 t:company=Aldi t:state=IL t:store_type=Discount t:city=Cicero m:row_number.wryv-d7zf=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number p:long l:"Row Number"
+metric m:row_number.wryv-d7zf p:long l:"Row Number"
 
 entity e:wryv-d7zf l:"Nearby Cook County Grocery Store Chains" t:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center" t:url=https://data.cityofchicago.org/api/views/wryv-d7zf
 
