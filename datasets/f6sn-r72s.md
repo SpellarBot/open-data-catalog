@@ -20,7 +20,7 @@
 
 ## Description
 
-Listing of state tax credit and subsidies awarded by NYS Homes & Community Renewal?s Office of Finance and Development. Details include award amount, developer name, project location, and accomplishments for completed projects based on project types.
+Listing of state tax credit and subsidies awarded by NYS Homes & Community Renewal’s Office of Finance and Development. Details include award amount, developer name, project location, and accomplishments for completed projects based on project types.
 
 ## Columns
 

@@ -22,7 +22,7 @@
 
 This dataset contains the Connecticut Academic Performance Test (CAPT) district performance indices (DPIs) and DPI target attainment status for 2012-13. These data were published in the District Performance Reports released by the CT State Department of Education (CSDE) in December 2013 (see http://www.csde.state.ct.us/public/performancereports/20122013reports.asp)
 
-Note: Target attainment status will say ?n/a? if there is no 2012-13 DPI target or if there is no 2012-13 DPI, which happens when there are small N sizes for a particular subgroup or subject.
+Note: Target attainment status will say “n/a” if there is no 2012-13 DPI target or if there is no 2012-13 DPI, which happens when there are small N sizes for a particular subgroup or subject.
 
 ## Columns
 

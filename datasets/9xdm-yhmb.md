@@ -24,7 +24,7 @@ Austin Energy has four main customer classes: residential, commercial, industria
 
 Residential customers live in single-family dwellings, mobile homes, townhouses, or individually metered apartment units. 
 
-The majority of commercial customers are small to large businesses that fall under Austin Energy?s secondary level of service. This means Austin Energy owns, operates, and maintains the equipment (wires, transformers, etc.) supplying power to those facilities. 
+The majority of commercial customers are small to large businesses that fall under Austin Energy’s secondary level of service. This means Austin Energy owns, operates, and maintains the equipment (wires, transformers, etc.) supplying power to those facilities. 
 
 Industrial (Primary) customers take service at high voltage (12,500 volts or higher) and own, operate and maintain their own equipment. Consequently, Austin Energy experiences lower overall system losses and it costs less to serve these customers. Large commercial and industrial customers such as semiconductors, high-tech facilities, and data centers typically fall under the primary level of service. These customers have very high usage and load factors because they tend to operate 24/7. 
 

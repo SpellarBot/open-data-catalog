@@ -24,7 +24,7 @@ The Chicago Department of Transportation (CDOT) oversees the patching of pothole
 
 If a previous request is already open for a buffer of 4 addresses the request is given the status of "Duplicate (Open)".  For example, if there is an existing CSR for 6535 N Western and a new request is received for 6531 N Western (which is within four addresses of the original CSR) then the new request is given a status of "Duplicate (Open)".
 
-Once the street is repaired, the status in CSR will read ?Completed? for the original request and "Duplicate (Closed)" for any duplicate requests.  A service request also receives the status of ?Completed? when the reported address is inspected but no potholes are found or have already been filled.  If another issue is found with the street, such as a ?cave-in? or ?failed utility cut?, then it is directed to the appropriate department or contractor. 
+Once the street is repaired, the status in CSR will read “Completed” for the original request and "Duplicate (Closed)" for any duplicate requests.  A service request also receives the status of “Completed” when the reported address is inspected but no potholes are found or have already been filled.  If another issue is found with the street, such as a “cave-in” or “failed utility cut”, then it is directed to the appropriate department or contractor. 
 
 Data Owner: Transportation. Time Period: All open requests and all completed requests since January 1, 2011. Frequency: Data is updated daily.
 

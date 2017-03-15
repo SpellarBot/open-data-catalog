@@ -13,7 +13,7 @@
 | Name | Columbus Avenue BID Businesses |
 | Attribution | Columbus Avenue BID |
 | Category | Business |
-| Tags | columbus avenue, business improvement district, bid, merchant, merchandise, shop, shopping, business, sales, food, coffee, tea, shoes, services, hotels, entertainment, children?s store, clothing, ... |
+| Tags | columbus avenue, business improvement district, bid, merchant, merchandise, shop, shopping, business, sales, food, coffee, tea, shoes, services, hotels, entertainment, children’s store, clothing, ... |
 | Created | 2011-09-09T20:29:29Z |
 | Publication Date | 2013-06-21T19:29:27Z |
 | Rows Updated | 2013-06-21T19:29:23Z |

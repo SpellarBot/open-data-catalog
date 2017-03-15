@@ -26,7 +26,7 @@ As of 2006, the New York State Education Department expanded the ELA and mathema
 In 2006, NYSED treated District 75 students as a distinct geographic district. For 2007-2011, District 75 students are represented in their home districts and boroughs. Spreadsheets for District and Borough do not include District 75 students in 2006.
 Starting in 2010, NYSED changed the scale score required to meet each of the proficiency levels, increasing the number of questions students needed to answer correctly to meet proficiency.
 
-Rows are suppressed (noted with ?s?) if the number of tested students was 5 or fewer.
+Rows are suppressed (noted with ‘s’) if the number of tested students was 5 or fewer.
 
 ## Columns
 

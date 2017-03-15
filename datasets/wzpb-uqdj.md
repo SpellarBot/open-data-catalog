@@ -20,7 +20,7 @@
 
 ## Description
 
-This dataset contains aggregate data concerning the number of children that entered DCF placement during a given SFY (July 1 ? June 30).  These figures are broken out by the DCF Region and Office responsible for the child's care, the child's Race/Ethnicity group and by the categorical Placement Type into which the child was initially placed.
+This dataset contains aggregate data concerning the number of children that entered DCF placement during a given SFY (July 1 – June 30).  These figures are broken out by the DCF Region and Office responsible for the child's care, the child's Race/Ethnicity group and by the categorical Placement Type into which the child was initially placed.
 
 ## Columns
 

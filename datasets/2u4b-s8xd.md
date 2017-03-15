@@ -90,7 +90,7 @@ This is an upload of Austin Budget Simulator data used in the FY 2016-17 Public 
 | Yes      | numeric metric | total_income                                                                                | Total Income                                                                                      | number    | text        |
 | Yes      | numeric metric | total_expenditure                                                                           | Total Expenditure                                                                                 | number    | text        |
 | Yes      | series tag     | city_council_district                                                                       | City Council District                                                                             | text      | text        |
-| Yes      | series tag     | any_final_comments_on_this_exercise_or_the_city_of_austin_s_budget                          | Any final comments on this exercise or the City of Austin?s budget?                               | text      | text        |
+| Yes      | series tag     | any_final_comments_on_this_exercise_or_the_city_of_austin_s_budget                          | Any final comments on this exercise or the City of Austin’s budget?                               | text      | text        |
 ```
 
 ## Time Field

@@ -21,7 +21,7 @@
 ## Description
 
 This is the weighted prevalence of 1,276 schoolchildren.  1,276 out of 1,280 cases examined had prevalence available. One out of 1,276 cases had grade information missed, 564 were in Kindergarten and 711 in 3rd grade.  Prevalence is defined as occurrence of any caries among all selected population.  Mean is the average number of teeth with caries among students with caries in the selected population.  Region Identifiers and Constituent Counties:	
-Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George?s); Southern (Calvert, Charles, St. Mary?s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne?s, Somerset, Talbot, Wicomico, Worcester).
+Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George’s); Southern (Calvert, Charles, St. Mary’s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne’s, Somerset, Talbot, Wicomico, Worcester).
 
 ## Columns
 

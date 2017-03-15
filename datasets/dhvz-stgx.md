@@ -20,7 +20,7 @@
 
 ## Description
 
-Austin Water?s authorized irrigation inspectors are approved to perform the irrigation evaluation required by City Code 6-4-10(A) Facilities Regulated. Each property owner/manager is responsible for selecting an inspector. Individuals on this list are provided as a resource without endorsement by the City of Austin.
+Austin Water’s authorized irrigation inspectors are approved to perform the irrigation evaluation required by City Code 6-4-10(A) Facilities Regulated. Each property owner/manager is responsible for selecting an inspector. Individuals on this list are provided as a resource without endorsement by the City of Austin.
 
 ## Columns
 

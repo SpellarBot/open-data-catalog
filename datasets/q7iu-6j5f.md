@@ -20,7 +20,7 @@
 
 ## Description
 
-CDTA is a public transportation authority in the Capital Region.  This dataset presents information that reflects the organizations performance levels.  This dataset includes customer boarding?s, miles operated, accidents, preventative maintenance inspections, and complaints.
+CDTA is a public transportation authority in the Capital Region.  This dataset presents information that reflects the organizations performance levels.  This dataset includes customer boarding’s, miles operated, accidents, preventative maintenance inspections, and complaints.
 
 ## Columns
 
@@ -81,7 +81,7 @@ metric m:service_interruptions p:integer l:"Service Interruptions" d:"Delays in 
 
 metric m:miles p:integer l:Miles d:"Total miles operated." t:dataTypeName=number
 
-metric m:mdbsi p:integer l:MDBSI d:"Mean Distance Between Service Interruption ? Formula, miles/service interruptions." t:dataTypeName=number
+metric m:mdbsi p:integer l:MDBSI d:"Mean Distance Between Service Interruption – Formula, miles/service interruptions." t:dataTypeName=number
 
 metric m:prevent_accidents p:integer l:"Prevent Accidents" d:"The number of accidents with determination that operator failed to initiate a defensive driving action that may have prevented or reduced the severity of the accident." t:dataTypeName=number
 

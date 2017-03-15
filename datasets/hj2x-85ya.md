@@ -20,7 +20,7 @@
 
 ## Description
 
-1995-2016. Centers for Disease Control and Prevention (CDC). State Tobacco Activities Tracking and Evaluation (STATE) System. Legislation?Preemption. The STATE System houses current and historical state-level legislative data on tobacco use prevention and control policies. Data are reported on a quarterly basis. Data include information related to summary state preemption of more stringent local laws on advertising, smokefree indoor air, youth access and licensure.
+1995-2016. Centers for Disease Control and Prevention (CDC). State Tobacco Activities Tracking and Evaluation (STATE) System. Legislation—Preemption. The STATE System houses current and historical state-level legislative data on tobacco use prevention and control policies. Data are reported on a quarterly basis. Data include information related to summary state preemption of more stringent local laws on advertising, smokefree indoor air, youth access and licensure.
 
 ## Columns
 
@@ -61,11 +61,11 @@ Excluded Fields = year,quarter
 ## Data Commands
 
 ```ls
-series e:hj2x-85ya d:1996-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
+series e:hj2x-85ya d:1996-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
 
-series e:hj2x-85ya d:1997-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
+series e:hj2x-85ya d:1997-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
 
-series e:hj2x-85ya d:1998-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure ? OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
+series e:hj2x-85ya d:1998-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
 ```
 
 ## Meta Commands

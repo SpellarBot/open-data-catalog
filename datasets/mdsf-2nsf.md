@@ -20,19 +20,19 @@
 
 ## Description
 
-Connecticut?s Next Generation Accountability System is a broad set of 12 indicators that help tell the story of how well a school is preparing its students for success in college, careers and life. The new system moves beyond test scores and graduation rates and instead provides a more holistic, multifactor perspective of district and school performance and incorporates student growth over time.
+Connecticut’s Next Generation Accountability System is a broad set of 12 indicators that help tell the story of how well a school is preparing its students for success in college, careers and life. The new system moves beyond test scores and graduation rates and instead provides a more holistic, multifactor perspective of district and school performance and incorporates student growth over time.
 
 The 12 Indicators include:
 1. Academic achievement status measured by state assessments
 2. Academic growth
 3. Assessment participation rate
 4. Chronic absenteeism
-5. Preparation for postsecondary and career readiness ? coursework
-6. Preparation for postsecondary and career readiness ? exams
-7. Graduation ? on track in ninth grade
-8. Graduation ? four-year adjusted cohort graduation rate ? all students
-9. Graduation ? six-year adjusted cohort graduation rate ? high needs
-10. Postsecondary entrance rate ? all students (college enrollment)
+5. Preparation for postsecondary and career readiness – coursework
+6. Preparation for postsecondary and career readiness – exams
+7. Graduation – on track in ninth grade
+8. Graduation – four-year adjusted cohort graduation rate – all students
+9. Graduation – six-year adjusted cohort graduation rate – high needs
+10. Postsecondary entrance rate – all students (college enrollment)
 11. Physical fitness
 12. Arts access
 

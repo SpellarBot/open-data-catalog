@@ -20,7 +20,7 @@
 
 ## Description
 
-Facilities in New York City, by agency and site, that offer ?Beacon Satellite at NYCHA Programs? after-school programs. Update Schedule: Annually
+Facilities in New York City, by agency and site, that offer “Beacon Satellite at NYCHA Programs” after-school programs. Update Schedule: Annually
 
 ## Columns
 

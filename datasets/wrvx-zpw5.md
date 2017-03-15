@@ -20,7 +20,7 @@
 
 ## Description
 
-The Security Department ensures the safety and security of patrons, employees and facilities in Chicago?s Parks. The data that is displayed below represents the total number of security checks that staff made during the previous week.
+The Security Department ensures the safety and security of patrons, employees and facilities in Chicago’s Parks. The data that is displayed below represents the total number of security checks that staff made during the previous week.
 
 ## Columns
 

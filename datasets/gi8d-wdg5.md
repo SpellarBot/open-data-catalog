@@ -95,7 +95,7 @@ metric m:extra p:double l:Extra t:dataTypeName=number
 
 metric m:mta_tax p:float l:MTA_tax d:"$0.50 MTA tax that is automatically triggered based on the metered rate in use." t:dataTypeName=number
 
-metric m:tip_amount p:float l:Tip_amount d:"Tip amount ? This field is automatically populated for credit card tips. Cash tips are not included." t:dataTypeName=number
+metric m:tip_amount p:float l:Tip_amount d:"Tip amount – This field is automatically populated for credit card tips. Cash tips are not included." t:dataTypeName=number
 
 metric m:tolls_amount p:float l:Tolls_amount d:"Total amount of all tolls paid in trip." t:dataTypeName=number
 

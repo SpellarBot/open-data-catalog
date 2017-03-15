@@ -20,7 +20,7 @@
 
 ## Description
 
-Campaign consultants must report economic consideration promised to or received by the filer during the reporting period from vendors and sub-vendors who provide campaign-related goods or services to the filer??s current clients.
+Campaign consultants must report economic consideration promised to or received by the filer during the reporting period from vendors and sub-vendors who provide campaign-related goods or services to the filer�۪s current clients.
 
 ## Columns
 

@@ -32,7 +32,7 @@ Name | Category | Updated
 [EMS - Quarterly Clinical Measures - Trauma Alert](datasets/43eg-euh2.md) | Public Safety | 2017-01-20
 [Emissions By Plant](datasets/ukf5-i76d.md) | Utility | 2016-10-25
 [Energy Sales - kilowatt hours by Customer Class](datasets/t4zw-f3yr.md) | Utility | 2016-06-24
-[FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail](datasets/c9gq-k8de.md) | Government | 2015-08-14
+[FY 2016 Proposed Operating Budget Expenditures – Line Item Detail](datasets/c9gq-k8de.md) | Government | 2015-08-14
 [FY11 Day Labor Placements](datasets/m9jn-qzir.md) |     | 2012-07-11
 [FY17 Budget Simulator data](datasets/2u4b-s8xd.md) | Financial | 2016-08-31
 [Operations And Maintenance Expenditures](datasets/q3b3-ezki.md) | Utility | 2016-10-31
@@ -83,7 +83,7 @@ Name | Category | Updated
 [Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, HHS Region 1 - Boston](datasets/an65-3p9b.md) | Motor Vehicle | 2016-10-18
 [Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta](datasets/rb93-4tgj.md) | Motor Vehicle | 2016-10-18
 [NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013](datasets/rg8a-czmp.md) | NCHS | 2015-12-02
-[NCHS - Injury Mortality: United States, 1999?2014](datasets/nt65-c7a7.md) | NCHS | 2016-10-20
+[NCHS - Injury Mortality: United States, 1999–2014](datasets/nt65-c7a7.md) | NCHS | 2016-10-20
 [NNDSS - Table II. Ehrlichiosis/Anaplasmosis](datasets/keia-pvvn.md) | NNDSS | 2017-01-05
 [NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](datasets/mbsb-z5f8.md) | NNDSS | 2017-03-09
 [NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](datasets/scxv-4u4u.md) | NNDSS | 2017-03-09
@@ -122,7 +122,7 @@ Name | Category | Updated
 [Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014](datasets/35yf-6dy3.md) | Health & Human Services | 2016-01-25
 [Public Health Statistics- Chlamydia cases among females aged 15-44 in Chicago, by year, 2000-2014.](datasets/bz6k-73ti.md) | Health & Human Services | 2016-01-08
 [Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011](datasets/ndk3-zftj.md) | Health & Human Services | 2014-04-11
-[Public Passenger Vehicle Licenses](datasets/tfm3-3j95.md) | Community & Economic Development | 2017-03-14
+[Public Passenger Vehicle Licenses](datasets/tfm3-3j95.md) | Community & Economic Development | 2017-03-15
 [Speed Camera Locations](datasets/4i42-qv3h.md) | Transportation | 2016-11-29
 [West Nile Virus (WNV) Mosquito Test Results](datasets/jqe8-8r6s.md) | Health & Human Services | 2016-09-30
 
@@ -143,8 +143,8 @@ Name | Category | Updated
 [DEP - Cryptosporidium And Giardia Data Set](datasets/x2s6-6d2j.md) | Environment | 2014-03-04
 [DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-03-14
 [DOE High School Programs 2013-2014](datasets/i9pf-sj7c.md) | Education | 2014-09-03
-[DOF: Cooperative Comparable Rental Income ? Manhattan? FY 2011/2012](datasets/m56g-jpua.md) | Housing & Development | 2013-06-26
-[DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2008/2009](datasets/97iw-vtbx.md) | Housing & Development | 2013-06-26
+[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](datasets/m56g-jpua.md) | Housing & Development | 2013-06-26
+[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](datasets/97iw-vtbx.md) | Housing & Development | 2013-06-26
 [DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009](datasets/w4v6-3sdt.md) | Housing & Development | 2013-06-21
 [DOP Adult Early Discharges by Fiscal Year](datasets/4e8h-wu86.md) | City Government | 2016-09-16
 [DOP Juvenile Investigations Assigned](datasets/vk9f-gvzq.md) | Public Safety | 2017-03-08
@@ -294,8 +294,16 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
+[AADT Turning Traffic 1999](datasets/9bnf-mwkb.md) | Transportation & Utilities | 2016-09-29
+[AADT Turning Traffic 2001](datasets/8z8t-apms.md) | Transportation & Utilities | 2016-09-29
+[AADT Turning Traffic 2004](datasets/x89d-qusv.md) | Transportation & Utilities | 2016-09-29
+[AADT Turning Traffic 2008](datasets/bpe7-rq9j.md) | Transportation & Utilities | 2016-09-29
+[AADT Turning Traffic 2009](datasets/43c3-stp6.md) | Transportation & Utilities | 2016-09-29
 [Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor](datasets/y3id-d73d.md) | Education | 2016-08-30
+[Deer Kill Locations 2009](datasets/i6xa-cxa2.md) | Transportation & Utilities | 2016-06-09
+[Interstate Closure Gates](datasets/25x6-mtdd.md) | Transportation & Utilities | 2016-06-08
 [Levy Authority Rates By Fiscal Year](datasets/xmkr-kpjb.md) | Government | 2016-12-22
+[Survey Markers - Retired](datasets/hvmg-f4t6.md) | Transportation & Utilities | 2016-07-06
 
 ## data.jacksonms.gov
 
@@ -511,8 +519,8 @@ Name | Category | Updated
 [Employee Compensation](datasets/88g8-5mnd.md) | City Management and Ethics | 2017-03-13
 [FY07-11 Street Evaluation Results](datasets/i8y7-m763.md) | City Infrastructure | 2014-07-23
 [Fire Department Calls for Service](datasets/nuek-vuh3.md) | Public Safety | 2017-03-14
-[Fire Incidents](datasets/wr8u-xric.md) | Public Safety | 2017-03-14
-[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-14
+[Fire Incidents](datasets/wr8u-xric.md) | Public Safety | 2017-03-15
+[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-15
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25
 [Post- Employment Restriction Waivers](datasets/qwnt-35i6.md) | City Management and Ethics | 2016-05-25
 [Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-14
@@ -578,7 +586,7 @@ Name | Category | Updated
 [Adoption & Child Custody Advocacy - Home Investigation Data - 2008](datasets/tjzn-e5cs.md) | Finance & Administration | 2014-10-09
 [Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete](datasets/xy4g-m2tm.md) | Finance & Administration | 2014-10-09
 [Building and Zoning - Violations Issued - 2005 through part of 2011](datasets/z2s8-vdru.md) | Economic Development | 2014-10-09
-[Commission on Women?s Issues Public Hearing Reports](datasets/u88z-wkud.md) |     | 2016-06-23
+[Commission on Women’s Issues Public Hearing Reports](datasets/u88z-wkud.md) |     | 2016-06-23
 [Cook County Budget - 2013 - Preliminary Budget Revenues](datasets/55dk-ypji.md) | Finance & Administration | 2014-10-09
 [Cook County Clerk - Lobbyist Activity](datasets/c774-azg6.md) | Finance & Administration | 2017-03-15
 [Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election](datasets/3qf7-xrf4.md) | Finance & Administration | 2014-10-27

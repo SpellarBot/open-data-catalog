@@ -20,7 +20,7 @@
 
 ## Description
 
-Providing grant support to LA?s rich and diverse arts and cultural organizations and individual artists is the core service provided by the Department of Cultural Affairs. The budget of the Grant Program has fluctuated between $2.1 and $3.3 million dollars per year, approx. 10% of the department's annual budget. The categories of grants include: Artists-In Residence (AIR), Cultural Engagement International (CEI), City of Los Angeles Fellowships (COLA) Individual Artist Fellowships, Community Advancement, and Organizational/Festival grants.
+Providing grant support to LA’s rich and diverse arts and cultural organizations and individual artists is the core service provided by the Department of Cultural Affairs. The budget of the Grant Program has fluctuated between $2.1 and $3.3 million dollars per year, approx. 10% of the department's annual budget. The categories of grants include: Artists-In Residence (AIR), Cultural Engagement International (CEI), City of Los Angeles Fellowships (COLA) Individual Artist Fellowships, Community Advancement, and Organizational/Festival grants.
 
 ## Columns
 
@@ -48,7 +48,7 @@ series e:75mm-gccg d:2014-10-01T20:22:19.000Z t:number_of_grantees_by_type=273 m
 ## Meta Commands
 
 ```ls
-metric m:total_number_of_grantees_by_type_fy2014 p:integer l:"Total Number of Grantees (FY2014)" d:"Providing grant support to LA?s rich and diverse arts and cultural organizations and individual artists is the core service provided by the Department of Cultural Affairs. The budget of the Grant Program has fluctuated between $2.1 and $3.3 million dollars per year, approx. 10% of the department's annual budget. The categories of grants include: Artists-In Residence (AIR), Cultural Engagement International (CEI), City of Los Angeles Fellowships (COLA) Individual Artist Fellowships, Community Advancement, and Organizational/Festival grants." t:dataTypeName=number
+metric m:total_number_of_grantees_by_type_fy2014 p:integer l:"Total Number of Grantees (FY2014)" d:"Providing grant support to LA’s rich and diverse arts and cultural organizations and individual artists is the core service provided by the Department of Cultural Affairs. The budget of the Grant Program has fluctuated between $2.1 and $3.3 million dollars per year, approx. 10% of the department's annual budget. The categories of grants include: Artists-In Residence (AIR), Cultural Engagement International (CEI), City of Los Angeles Fellowships (COLA) Individual Artist Fellowships, Community Advancement, and Organizational/Festival grants." t:dataTypeName=number
 
 entity e:75mm-gccg l:"DCA Grant Awards by Grant Type" t:attribution="City of Los Angeles, Department of Cultural Affairs" t:url=https://data.lacity.org/api/views/75mm-gccg
 

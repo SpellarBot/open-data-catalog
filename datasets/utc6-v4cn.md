@@ -20,7 +20,7 @@
 
 ## Description
 
-Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include a schedule of the authorities? debt.  The dataset consists of schedule of debt data reported by Local Development Corporations beginning with fiscal years ending in 2011.
+Public authorities are required by Section 2800 of Public Authorities Law to submit annual reports to the Authorities Budget Office that include a schedule of the authorities’ debt.  The dataset consists of schedule of debt data reported by Local Development Corporations beginning with fiscal years ending in 2011.
 
 ## Columns
 

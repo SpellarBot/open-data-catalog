@@ -25,26 +25,26 @@ This is a representation of all gates and barricades that prevent access to the 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
-| ======== | ============== | =================== | =================== | ========= | =========== |
-| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
-| Yes      | series tag     | gate_id             | GATE_ID             | text      | text        |
-| Yes      | series tag     | district            | DISTRICT            | text      | number      |
-| Yes      | numeric metric | cost_center         | COST_CENTER         | number    | text        |
-| Yes      | numeric metric | route               | ROUTE               | number    | number      |
-| Yes      | series tag     | dirtravel           | DIRTRAVEL           | text      | text        |
-| Yes      | series tag     | sideofroad          | SIDEOFROAD          | text      | text        |
-| Yes      | numeric metric | milepost            | MILEPOST            | number    | text        |
-| Yes      | numeric metric | milepost_offset     | MILEPOST_OFFSET     | number    | number      |
-| No       |                | latitude            | LATITUDE            | number    | number      |
-| No       |                | longitude           | LONGITUDE           | number    | number      |
-| Yes      | series tag     | sign_face_direction | SIGN_FACE_DIRECTION | text      | text        |
-| Yes      | series tag     | signtype            | SIGNTYPE            | text      | text        |
-| Yes      | series tag     | subcategory         | SUBCATEGORY         | text      | text        |
-| Yes      | series tag     | description         | DESCRIPTION         | text      | text        |
-| Yes      | series tag     | remarks             | REMARKS             | text      | text        |
-| Yes      | series tag     | activation_type     | ACTIVATION_TYPE     | text      | text        |
-| Yes      | series tag     | objectid            | OBJECTID            | text      | number      |
+| Included | Schema Type | Field Name          | Name                | Data Type | Render Type |
+| ======== | =========== | =================== | =================== | ========= | =========== |
+| No       | time        | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag  | gate_id             | GATE_ID             | text      | text        |
+| Yes      | series tag  | district            | DISTRICT            | text      | number      |
+| Yes      | series tag  | cost_center         | COST_CENTER         | text      | text        |
+| Yes      | series tag  | route               | ROUTE               | text      | number      |
+| Yes      | series tag  | dirtravel           | DIRTRAVEL           | text      | text        |
+| Yes      | series tag  | sideofroad          | SIDEOFROAD          | text      | text        |
+| Yes      | series tag  | milepost            | MILEPOST            | text      | text        |
+| No       |             | milepost_offset     | MILEPOST_OFFSET     | number    | number      |
+| No       |             | latitude            | LATITUDE            | number    | number      |
+| No       |             | longitude           | LONGITUDE           | number    | number      |
+| Yes      | series tag  | sign_face_direction | SIGN_FACE_DIRECTION | text      | text        |
+| Yes      | series tag  | signtype            | SIGNTYPE            | text      | text        |
+| Yes      | series tag  | subcategory         | SUBCATEGORY         | text      | text        |
+| Yes      | series tag  | description         | DESCRIPTION         | text      | text        |
+| Yes      | series tag  | remarks             | REMARKS             | text      | text        |
+| Yes      | series tag  | activation_type     | ACTIVATION_TYPE     | text      | text        |
+| Yes      | series tag  | objectid            | OBJECTID            | text      | number      |
 ```
 
 ## Time Field
@@ -57,29 +57,23 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude
+Excluded Fields = milepost_offset,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=A91341ADAF9244C890920563507EC3F4 t:activation_type=Manual t:description="Ramp Barricade" t:dirtravel=Ramp t:sideofroad=Left t:objectid=1 t:district=1 t:sign_face_direction=N t:signtype=Regulatory m:cost_center=551609 m:milepost=159 m:route=35 m:milepost_offset=0
+series e:25x6-mtdd d:2017-03-15T09:38:39.326Z t:cost_center=551609 t:gate_id=A91341ADAF9244C890920563507EC3F4 t:activation_type=Manual t:milepost=159 t:description="Ramp Barricade" t:route=35 t:dirtravel=Ramp t:sideofroad=Left t:objectid=1 t:district=1 t:sign_face_direction=N t:signtype=Regulatory m:row_number.25x6-mtdd=1
 
-series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=0FA20C59470E43D88F65A88F67A49F2E t:activation_type=Remote t:description="Right Mainline Barricade" t:subcategory="No Subcategory" t:dirtravel="With Milepost (increasing in number)" t:sideofroad=Right t:objectid=2 t:district=4 t:sign_face_direction=S t:signtype=Guide m:cost_center=554810 m:milepost=75 m:route=29 m:milepost_offset=0.557
+series e:25x6-mtdd d:2017-03-15T09:38:39.326Z t:cost_center=554810 t:gate_id=0FA20C59470E43D88F65A88F67A49F2E t:activation_type=Remote t:milepost=75 t:description="Right Mainline Barricade" t:subcategory="No Subcategory" t:route=29 t:dirtravel="With Milepost (increasing in number)" t:sideofroad=Right t:objectid=2 t:district=4 t:sign_face_direction=S t:signtype=Guide m:row_number.25x6-mtdd=2
 
-series e:25x6-mtdd d:1970-01-01T00:00:00.000Z t:gate_id=7EF1FEF2035948EEB2C197E3593193A1 t:activation_type=Manual t:description="Ramp Barricade" t:dirtravel=Ramp t:remarks="Sign face SE when gate is CLOSED" t:sideofroad=Right t:objectid=3 t:district=4 t:sign_face_direction=SE t:signtype=Regulatory m:cost_center=554810 m:milepost=75 m:route=29 m:milepost_offset=0
+series e:25x6-mtdd d:2017-03-15T09:38:39.326Z t:cost_center=554810 t:gate_id=7EF1FEF2035948EEB2C197E3593193A1 t:activation_type=Manual t:milepost=75 t:description="Ramp Barricade" t:route=29 t:dirtravel=Ramp t:remarks="Sign face SE when gate is CLOSED" t:sideofroad=Right t:objectid=3 t:district=4 t:sign_face_direction=SE t:signtype=Regulatory m:row_number.25x6-mtdd=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:cost_center p:integer l:COST_CENTER d:"Cost Center" t:dataTypeName=number
-
-metric m:route p:integer l:ROUTE d:Route t:dataTypeName=number
-
-metric m:milepost p:integer l:MILEPOST d:"Mile Post" t:dataTypeName=number
-
-metric m:milepost_offset p:decimal l:MILEPOST_OFFSET d:Offset t:dataTypeName=number
+metric m:row_number.25x6-mtdd p:long l:"Row Number"
 
 entity e:25x6-mtdd l:"Interstate Closure Gates" t:attribution="Iowa Department of Transportation - Office of Maintenance" t:url=https://data.iowa.gov/api/views/25x6-mtdd
 

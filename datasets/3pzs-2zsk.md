@@ -20,7 +20,7 @@
 
 ## Description
 
-The Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor Dataset provides market insight into the volume of work and photovoltaic (PV) capacity installed in New York State annually, by city and contractor, beginning August 2010 under the New York State Energy Research and Development Authority (NYSERDA)?s NY-Sun Solar Electric Incentive Program Opportunity Notice (PON) 2112.The dataset includes the following data points: Project Install Year, Contractor, County, City, Project Count by City, Project Cost, NYSERDA Incentives, Kilowatt Capacity, Expected Annual Kilowatt Hour Production, and NYSERDA Solicitation.
+The Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor Dataset provides market insight into the volume of work and photovoltaic (PV) capacity installed in New York State annually, by city and contractor, beginning August 2010 under the New York State Energy Research and Development Authority (NYSERDA)’s NY-Sun Solar Electric Incentive Program Opportunity Notice (PON) 2112.The dataset includes the following data points: Project Install Year, Contractor, County, City, Project Count by City, Project Cost, NYSERDA Incentives, Kilowatt Capacity, Expected Annual Kilowatt Hour Production, and NYSERDA Solicitation.
 
 ## Columns
 

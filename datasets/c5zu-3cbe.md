@@ -45,11 +45,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Alsip Village Hall" t:zip=60803 t:hours="Monday-Saturday: 9 a.m.?5 p.m." t:state=IL t:city=Alsip m:row_number.c5zu-3cbe=1
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Alsip Village Hall" t:zip=60803 t:hours="Monday-Saturday: 9 a.m.–5 p.m." t:state=IL t:city=Alsip m:row_number.c5zu-3cbe=1
 
-series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Arlington Heights Village Hall" t:zip=60005 t:hours="Monday-Saturday: 9 a.m.?5 p.m.; Sunday: 9 a.m. ? 3 p.m." t:state=IL t:city="Arlington Heights" m:row_number.c5zu-3cbe=2
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Arlington Heights Village Hall" t:zip=60005 t:hours="Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m." t:state=IL t:city="Arlington Heights" m:row_number.c5zu-3cbe=2
 
-series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Barrington Township Hall" t:zip=60010 t:hours="Monday-Saturday: 9 a.m.?5 p.m." t:state=IL t:city=Barrington m:row_number.c5zu-3cbe=3
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Barrington Township Hall" t:zip=60010 t:hours="Monday-Saturday: 9 a.m.–5 p.m." t:state=IL t:city=Barrington m:row_number.c5zu-3cbe=3
 ```
 
 ## Meta Commands

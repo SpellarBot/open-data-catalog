@@ -19,7 +19,7 @@
 
 ## Description
 
-The DOE has previously identified 594 schools located in 330 buildings as ?under-utilized? based upon the 2010-2011 Enrollment-Capacity-Utilization Report (The Blue Book). The DOE is also identifying 25 school buildings (listed below) which contain schools proposed for full phase-out, grade truncation or immediate closure due to poor performance. These proposals are scheduled to be voted on by the Panel for Education Policy on February 9, 2012. Should these proposals be approved, there will be excess space available in the buildings. In many cases, the DOE has already made companion proposals on how to use this additional space
+The DOE has previously identified 594 schools located in 330 buildings as “under-utilized” based upon the 2010-2011 Enrollment-Capacity-Utilization Report (The Blue Book). The DOE is also identifying 25 school buildings (listed below) which contain schools proposed for full phase-out, grade truncation or immediate closure due to poor performance. These proposals are scheduled to be voted on by the Panel for Education Policy on February 9, 2012. Should these proposals be approved, there will be excess space available in the buildings. In many cases, the DOE has already made companion proposals on how to use this additional space
 
 ## Columns
 
