@@ -15,8 +15,8 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, invasive pneumococcal diseases, all ages |
 | Created | 2017-01-12T19:51:08Z |
-| Publication Date | 2017-03-09T16:17:31Z |
-| Rows Updated | 2017-03-09T14:57:31Z |
+| Publication Date | 2017-03-16T16:09:00Z |
+| Rows Updated | 2017-03-16T14:57:30Z |
 
 ## Description
 
@@ -114,7 +114,7 @@ entity e:mbsb-z5f8 l:"NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages
 
 property e:mbsb-z5f8 t:meta.view v:id=mbsb-z5f8 v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:mbsb-z5f8 t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:mbsb-z5f8 t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
 
 property e:mbsb-z5f8 t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 

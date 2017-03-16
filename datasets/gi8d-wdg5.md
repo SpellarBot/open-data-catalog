@@ -31,10 +31,10 @@ This dataset includes trip records from all trips completed in green taxis in NY
 | No       |                | lpep_dropoff_datetime | dropoff_datetime      | calendar_date | calendar_date |
 | Yes      | series tag     | store_and_fwd_flag    | Store_and_fwd_flag    | text          | text          |
 | Yes      | numeric metric | ratecodeid            | rate_code             | number        | number        |
-| Yes      | numeric metric | pickup_longitude      | Pickup_longitude      | number        | number        |
-| Yes      | numeric metric | pickup_latitude       | Pickup_latitude       | number        | number        |
-| Yes      | numeric metric | dropoff_longitude     | Dropoff_longitude     | number        | number        |
-| Yes      | numeric metric | dropoff_latitude      | Dropoff_latitude      | number        | number        |
+| No       |                | pickup_longitude      | Pickup_longitude      | number        | number        |
+| No       |                | pickup_latitude       | Pickup_latitude       | number        | number        |
+| No       |                | dropoff_longitude     | Dropoff_longitude     | number        | number        |
+| No       |                | dropoff_latitude      | Dropoff_latitude      | number        | number        |
 | Yes      | numeric metric | passenger_count       | Passenger_count       | number        | number        |
 | Yes      | numeric metric | trip_distance         | Trip_distance         | number        | number        |
 | Yes      | numeric metric | fare_amount           | Fare_amount           | number        | number        |
@@ -59,31 +59,23 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = lpep_dropoff_datetime
+Excluded Fields = lpep_dropoff_datetime,pickup_longitude,pickup_latitude,dropoff_longitude,dropoff_latitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:gi8d-wdg5 d:2015-10-26T13:02:48.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=4 m:ratecodeid=1 m:extra=0 m:pickup_longitude=-73.95299 m:trip_distance=0.3 m:tolls_amount=0 m:fare_amount=3.5 m:passenger_count=1 m:dropoff_longitude=-73.95383 m:pickup_latitude=40.81026 m:improvement_surcharge=0 m:dropoff_latitude=40.80646 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-10-26T13:02:48.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=4 m:fare_amount=3.5 m:ratecodeid=1 m:passenger_count=1 m:extra=0 m:trip_distance=0.3 m:tolls_amount=0 m:improvement_surcharge=0 m:tip_amount=0
 
-series e:gi8d-wdg5 d:2015-10-18T04:09:03.000Z t:store_and_fwd_flag=N t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=16.3 m:ratecodeid=1 m:extra=0.5 m:pickup_longitude=-73.95269 m:trip_distance=3.38 m:tolls_amount=0 m:fare_amount=12.5 m:passenger_count=1 m:dropoff_longitude=-73.93079 m:pickup_latitude=40.72704 m:improvement_surcharge=0.3 m:dropoff_latitude=40.76133 m:tip_amount=2.5
+series e:gi8d-wdg5 d:2015-10-18T04:09:03.000Z t:store_and_fwd_flag=N t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=16.3 m:fare_amount=12.5 m:ratecodeid=1 m:passenger_count=1 m:extra=0.5 m:trip_distance=3.38 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=2.5
 
-series e:gi8d-wdg5 d:2015-05-31T21:09:35.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:ratecodeid=1 m:extra=0.5 m:pickup_longitude=-73.9495 m:trip_distance=0.7 m:tolls_amount=0 m:fare_amount=5.5 m:passenger_count=1 m:dropoff_longitude=-73.94195 m:pickup_latitude=40.82747 m:improvement_surcharge=0.3 m:dropoff_latitude=40.82457 m:tip_amount=1
+series e:gi8d-wdg5 d:2015-05-31T21:09:35.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:fare_amount=5.5 m:ratecodeid=1 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.7 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=1
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:ratecodeid p:integer l:rate_code d:"The final rate code in effect at the end of the trip. 1= Standard rate 2=JFK 3=Newark 4=Nassau or Westchester 5=Negotiated fare 6=Group ride" t:dataTypeName=number
-
-metric m:pickup_longitude p:double l:Pickup_longitude d:"Longitude where the meter was engaged." t:dataTypeName=number
-
-metric m:pickup_latitude p:decimal l:Pickup_latitude d:"Latitude where the meter was engaged." t:dataTypeName=number
-
-metric m:dropoff_longitude p:double l:Dropoff_longitude d:"Longitude where the meter was disengaged." t:dataTypeName=number
-
-metric m:dropoff_latitude p:decimal l:Dropoff_latitude d:"Latitude where the meter was disengaged." t:dataTypeName=number
 
 metric m:passenger_count p:integer l:Passenger_count d:"The number of passengers in the vehicle. This is a driver-entered value." t:dataTypeName=number
 

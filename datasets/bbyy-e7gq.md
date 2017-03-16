@@ -16,7 +16,7 @@
 | Tags | bicycling, sustainability, transportation |
 | Created | 2013-07-18T21:57:41Z |
 | Publication Date | 2015-12-21T21:33:36Z |
-| Rows Updated | 2017-03-14T11:00:37Z |
+| Rows Updated | 2017-03-16T11:00:40Z |
 
 ## Description
 
@@ -58,7 +58,7 @@ series e:bbyy-e7gq d:2017-02-20T12:00:36.000Z t:station_name="Wentworth Ave & 35
 
 series e:bbyy-e7gq d:2017-02-20T12:00:36.000Z t:station_name="Oakley Ave & Irving Park Rd" t:status="In Service" m:total_docks=15 m:docks_in_service=15
 
-series e:bbyy-e7gq d:2017-02-24T12:00:40.000Z t:station_name="Ritchie Ct & Banks St" t:status="In Service" m:total_docks=15 m:docks_in_service=15
+series e:bbyy-e7gq d:2017-03-01T12:00:34.000Z t:station_name="Jeffery Blvd & 71st St" t:status="In Service" m:total_docks=11 m:docks_in_service=11
 ```
 
 ## Meta Commands

@@ -33,7 +33,7 @@ The Bus Safety Information Network (BUSNET) Profile Operator Report dataset prov
 | Yes      | numeric metric | failed_inspections         | Failed Inspections         | number        | number        |
 | Yes      | series tag     | operator_id                | Operator ID                | text          | number        |
 | Yes      | series tag     | city                       | City                       | text          | text          |
-| Yes      | numeric metric | region                     | Region                     | number        | number        |
+| Yes      | series tag     | region                     | Region                     | text          | number        |
 ```
 
 ## Time Field
@@ -46,11 +46,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="1ST CLASS TRANSPORTATION SERVICE" t:operator_id=48486 t:city="QUEENS VILLAGE" m:failed_inspections=1 m:region=11 m:inspections=4
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=11 t:operator_name="1ST CLASS TRANSPORTATION SERVICE" t:operator_id=48486 t:city="QUEENS VILLAGE" m:failed_inspections=1 m:inspections=4
 
-series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="21ST AVE. TRANSPORTATION" t:operator_id=3531 t:city=BROOKLYN m:failed_inspections=19 m:region=11 m:inspections=250
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=11 t:operator_name="21ST AVE. TRANSPORTATION" t:operator_id=3531 t:city=BROOKLYN m:failed_inspections=19 m:inspections=250
 
-series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="3J'S LIMOUSINE INC." t:operator_id=50284 t:city=MELVILLE m:failed_inspections=0 m:region=10 m:inspections=2
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=10 t:operator_name="3J'S LIMOUSINE INC." t:operator_id=50284 t:city=MELVILLE m:failed_inspections=0 m:inspections=2
 ```
 
 ## Meta Commands
@@ -59,8 +59,6 @@ series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="3J'S LIMOUSINE IN
 metric m:inspections p:integer l:"Total Inspections" d:"The number of inspections, including re-inspections and failed inspections, performed for an Operator during the state fiscal year" t:dataTypeName=number
 
 metric m:failed_inspections p:integer l:"Failed Inspections" d:"The number of inspections that failed, requiring re-inspection" t:dataTypeName=number
-
-metric m:region p:integer l:Region d:"The New York State Department of Transportation Region responsible for the inspection. Inspections for Regions that do not have an inspection office are performed in other nearby Regions. Region 1 = Capital District, Region 2 = Mohawk Valley, Region 3 = Central New York, Region 4 = Genesee Valley, Region 5 = Western New York, Region 6 = Central Southern Tier, Region 7 = North Country, Region 8 = Hudson Valley, Region 9 = Southern Tier, Region 10 = Long Island, Region 11 = New York City." t:dataTypeName=number
 
 entity e:h9zr-j4pg l:"Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" t:attribution="New York State Department of Transportation (NYSDOT)" t:url=https://data.ny.gov/api/views/h9zr-j4pg
 

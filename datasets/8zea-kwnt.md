@@ -41,8 +41,8 @@
 | Yes      | numeric metric | provisionaltvalue  | ProvisionAltValue  | number    | number      |
 | Yes      | series tag     | datatype           | DataType           | text      | text        |
 | Yes      | series tag     | comments           | Comments           | text      | text        |
-| Yes      | series tag     | enacted_date       | Enacted_Date       | text      | text        |
-| Yes      | series tag     | effective_date     | Effective_Date     | text      | text        |
+| No       |                | enacted_date       | Enacted_Date       | text      | text        |
+| No       |                | effective_date     | Effective_Date     | text      | text        |
 | No       |                | displayorder       | DisplayOrder       | number    | text        |
 | Yes      | series tag     | topictypeid        | TopicTypeId        | text      | text        |
 | Yes      | series tag     | topicid            | TopicId            | text      | text        |
@@ -61,7 +61,7 @@ Format & Zone = yyyy-q
 ## Series Fields
 
 ```ls
-Excluded Fields = displayorder,year,quarter
+Excluded Fields = enacted_date,effective_date,displayorder,year,quarter
 ```
 
 ## Data Commands

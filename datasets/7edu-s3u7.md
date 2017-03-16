@@ -16,7 +16,7 @@
 | Tags | beaches, parks, chicago park district, open spaces, parks & recreation, recreation, water |
 | Created | 2016-06-07T16:41:13Z |
 | Publication Date | 2015-06-01T22:22:24Z |
-| Rows Updated | 2017-03-15T08:45:09Z |
+| Rows Updated | 2017-03-16T20:45:09Z |
 
 ## Description
 

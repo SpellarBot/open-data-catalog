@@ -39,7 +39,7 @@ This dataset represents the metadata related to body worn camera videos recorded
 | Yes      | numeric metric | size_mb                   | size_mb                   | number    | number      |
 | Yes      | numeric metric | duration_seconds          | duration_seconds          | number    | number      |
 | Yes      | series tag     | deletion_type             | deletion_type             | text      | text        |
-| Yes      | series tag     | location                  | location                  | text      | text        |
+| No       |                | location                  | location                  | text      | text        |
 | No       |                | latitude                  | latitude                  | number    | number      |
 | No       |                | longitude                 | longitude                 | number    | number      |
 | Yes      | series tag     | police_district           | police_district           | text      | number      |
@@ -55,17 +55,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude
+Excluded Fields = location,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:08:53.549-05:00 t:title="2424 CUMBERLAND CT" t:id_external=J-34739-16 t:police_district=4 t:location="(29.9295015, -89.99376245)" t:status=Active t:created_date_record_start=2016-10-31T23:59:53.000-05:00 t:evidence_id=6115BE71-B124-42DD-878B-929294147540 t:date_record_end=2016-11-01T00:10:26.000-05:00 m:duration_seconds=633 m:size_mb=290.20767
+series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:08:53.549-05:00 t:title="2424 CUMBERLAND CT" t:id_external=J-34739-16 t:police_district=4 t:status=Active t:created_date_record_start=2016-10-31T23:59:53.000-05:00 t:evidence_id=6115BE71-B124-42DD-878B-929294147540 t:date_record_end=2016-11-01T00:10:26.000-05:00 m:duration_seconds=633 m:size_mb=290.20767
 
-series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:05:45.091-05:00 t:title="12330 I 10 Service Rd" t:id_external=J-34718-16 t:police_district=7 t:location="(30.04856073, -89.95355841)" t:status=Active t:created_date_record_start=2016-10-31T23:58:49.000-05:00 t:evidence_id=95A722B6-8071-4971-99AF-1785CAF838B6 t:date_record_end=2016-11-01T00:07:40.000-05:00 m:duration_seconds=531 m:size_mb=212.80065
+series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:05:45.091-05:00 t:title="12330 I 10 Service Rd" t:id_external=J-34718-16 t:police_district=7 t:status=Active t:created_date_record_start=2016-10-31T23:58:49.000-05:00 t:evidence_id=95A722B6-8071-4971-99AF-1785CAF838B6 t:date_record_end=2016-11-01T00:07:40.000-05:00 m:duration_seconds=531 m:size_mb=212.80065
 
-series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:47:01.896-05:00 t:title="3250 GEN DE GAULLE" t:id_external=J-35484-16 t:police_district=4 t:location="(29.92608918, -90.02256707)" t:status=Active t:created_date_record_start=2016-10-31T23:58:28.000-05:00 t:evidence_id=92EDCF2A-1BCF-469C-A8E0-B7C098993781 t:date_record_end=2016-11-01T00:12:25.000-05:00 m:duration_seconds=837 m:size_mb=376.76687
+series e:qarb-kkbj d:2016-11-04T15:10:49.000Z t:date_uploaded=2016-11-01T07:47:01.896-05:00 t:title="3250 GEN DE GAULLE" t:id_external=J-35484-16 t:police_district=4 t:status=Active t:created_date_record_start=2016-10-31T23:58:28.000-05:00 t:evidence_id=92EDCF2A-1BCF-469C-A8E0-B7C098993781 t:date_record_end=2016-11-01T00:12:25.000-05:00 m:duration_seconds=837 m:size_mb=376.76687
 ```
 
 ## Meta Commands

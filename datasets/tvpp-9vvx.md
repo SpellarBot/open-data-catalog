@@ -15,8 +15,8 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-14T20:32:25Z |
-| Rows Updated | 2017-03-14T20:32:22Z |
+| Publication Date | 2017-03-15T20:26:54Z |
+| Rows Updated | 2017-03-15T20:26:51Z |
 
 ## Description
 
@@ -27,9 +27,10 @@ This list contains information on approved event applications that will occur wi
 ```ls
 | Included | Schema Type | Field Name          | Name                | Data Type     | Render Type   |
 | ======== | =========== | =================== | =================== | ============= | ============= |
+| No       | time        | :updated_at         | updated_at          | meta_data     | meta_data     |
 | Yes      | series tag  | event_id            | Event ID            | text          | number        |
 | Yes      | series tag  | event_name          | Event Name          | text          | text          |
-| Yes      | time        | start_date_time     | Start Date/Time     | calendar_date | calendar_date |
+| No       |             | start_date_time     | Start Date/Time     | calendar_date | calendar_date |
 | No       |             | end_date_time       | End Date/Time       | calendar_date | calendar_date |
 | Yes      | series tag  | event_agency        | Event Agency        | text          | text          |
 | Yes      | series tag  | event_type          | Event Type          | text          | text          |
@@ -44,24 +45,24 @@ This list contains information on approved event applications that will occur wi
 ## Time Field
 
 ```ls
-Value = start_date_time
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = end_date_time
+Excluded Fields = start_date_time,end_date_time
 ```
 
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-04-14T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=310112 t:event_location="Central Park: Great Hill Oval" t:street_closure_type=N/A t:community_board=64, t:event_name="GREAT HILL OVAL WINTER CLOSURE 10-31-16" t:police_precinct=22, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2017-03-15T20:26:42.000Z t:event_borough=Manhattan t:event_type="Public Program / Exhibitions" t:event_agency="Trust for Governor's Island" t:event_id=248006 t:street_closure_type=N/A t:community_board=N/A t:event_name=play:ground t:police_precinct=N/A m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-03-14T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-03-15T20:26:42.000Z t:event_borough=Manhattan t:event_type=Parade t:event_agency="Police Department" t:event_id=282369 t:event_street_side=Full t:event_location="LAFAYETTE STREET between READE STREET and DUANE STREET,  READE STREET between CENTRE STREET and BROADWAY,  BROADWAY between READE STREET and BEAVER STREET,  STONE STREET between BROADWAY and BROAD STREET, Thomas Paine Park (Foley Square): Thomas Paine Park (Foley Square)" t:street_closure_type="Full Street Closure" t:community_board=1, t:event_name="Gift of Life Walk" t:police_precinct="1, 5," m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-03-15T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-03-15T20:26:42.000Z t:event_borough=Bronx t:event_type=Parade t:event_agency="Police Department" t:event_id=305458 t:event_street_side=West t:event_location="GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET,  GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET,  GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET" t:street_closure_type="Full Street Closure" t:community_board=7, t:event_name="Good Friday Procession" t:police_precinct=52, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands

@@ -16,7 +16,7 @@
 | Tags | exceptions, street, restrictions, permits |
 | Created | 2012-09-25T00:09:14Z |
 | Publication Date | 2015-07-17T15:20:34Z |
-| Rows Updated | 2017-03-14T15:04:50Z |
+| Rows Updated | 2017-03-16T15:04:56Z |
 
 ## Description
 
@@ -40,7 +40,7 @@ A table of restrictions and information about existing conditions in the public 
 | Yes      | series tag     | restriction_tow    | Restriction_Tow    | text          | text          |
 | No       |                | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
 | Yes      | numeric metric | block              | block              | number        | text          |
-| Yes      | series tag     | lot                | lot                | text          | text          |
+| Yes      | numeric metric | lot                | lot                | number        | text          |
 ```
 
 ## Time Field
@@ -73,13 +73,15 @@ metric m:cnn p:integer l:CNN t:dataTypeName=number
 
 metric m:block p:integer l:block t:dataTypeName=number
 
+metric m:lot p:long l:lot t:dataTypeName=number
+
 entity e:yrgu-vakm l:"Right of Way Exception Data" t:attribution="San Francisco Department of Public Works" t:url=https://data.sfgov.org/api/views/yrgu-vakm
 
 property e:yrgu-vakm t:meta.view v:id=yrgu-vakm v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Right of Way Exception Data" v:attribution="San Francisco Department of Public Works"
 
 property e:yrgu-vakm t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
 
 property e:yrgu-vakm t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 ```

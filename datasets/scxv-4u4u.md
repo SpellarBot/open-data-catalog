@@ -15,8 +15,8 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-03-09T16:20:47Z |
-| Rows Updated | 2017-03-09T15:05:53Z |
+| Publication Date | 2017-03-16T16:13:12Z |
+| Rows Updated | 2017-03-16T14:57:39Z |
 
 ## Description
 
@@ -130,7 +130,7 @@ entity e:scxv-4u4u l:"NNDSS - Table II. Rabies, animal to Rubella, congenital sy
 
 property e:scxv-4u4u t:meta.view v:id=scxv-4u4u v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:scxv-4u4u t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:scxv-4u4u t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
 
 property e:scxv-4u4u t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 

@@ -38,7 +38,7 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:8_15_p_m="8:15 p.m." t:tuesday_aug_6=" Tuesday, Aug. 6" t:election_day_results_posted_to_the_web="Election day results posted to the web." m:row_number.mx3v-b8nn=1
+series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:8_15_p_m="8:15 p.m." t:tuesday_aug_6="Tuesday, Aug. 6" t:election_day_results_posted_to_the_web="Election day results posted to the web." m:row_number.mx3v-b8nn=1
 
 series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:8_15_p_m="4:30 p.m." t:tuesday_aug_6="Wednesday, Aug. 7" t:election_day_results_posted_to_the_web="Results posted, including votes cast at the accessible voting centers." m:row_number.mx3v-b8nn=2
 

@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | attorney, registrations, integrity |
 | Created | 2013-04-12T18:29:05Z |
-| Publication Date | 2017-03-14T10:23:39Z |
-| Rows Updated | 2017-03-14T10:23:09Z |
+| Publication Date | 2017-03-16T10:30:51Z |
+| Rows Updated | 2017-03-16T10:30:23Z |
 
 ## Description
 
@@ -66,11 +66,11 @@ Excluded Fields = email_address
 ## Data Commands
 
 ```ls
-series e:eqw2-r5nb d:2006-01-01T00:00:00.000Z t:street_2="CG Las Margaritas, Torre II, oficina 302 A" t:first_name=ALEJANDRO t:next_registration="Oct 2018" t:street_1="Diagonal 6 10-01 zona 10" t:phone_number="(502) 22059000" t:county="Out of USA" t:company_name="QIL  4 Abogados" t:status="Currently registered" t:middle_name=JOSE t:law_school="University of Texas School of Law" t:last_name=COFINO t:registration_number=4435335 t:country=GUATEMALA t:city=Guatemala m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:first_name="EUN JOO" t:next_registration="Jun 2018" t:street_1="133 TEHERAN-RO, GANGNAM-GU" t:phone_number="+82 2 3404 0450" t:county="Out of USA" t:company_name="BAE, KIM & LEE LLC" t:status="Currently registered" t:law_school="HAVARD LAW SCHOOL" t:last_name=KANG t:registration_number=5463856 t:country="SOUTH KOREA" t:city="SEOUL 16133" m:judicial_department_of_admission=3
 
-series e:eqw2-r5nb d:2006-01-01T00:00:00.000Z t:zip=10022 t:phone_number="(212) 888-3833" t:status=Suspended t:law_school="FORDHAM UNIVERSITY" t:state=NY t:city="New York" t:country="United States" t:zip_plus_four=5701 t:first_name=JENNIFER t:street_1="488 Madison Ave Ste 800" t:next_registration="Jun 2018" t:county="New York" t:company_name="GERBER FINANCE, INC" t:last_name=PALMER t:registration_number=4435343 m:judicial_department_of_admission=1
+series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:first_name=MAXIMILIAN t:next_registration="Jan 2018" t:status="Currently registered" t:law_school="UNIVERSITY OF MIAMI SCHOOL OF LAW" t:last_name=VISKI-HANKA t:registration_number=5463864 m:judicial_department_of_admission=3
 
-series e:eqw2-r5nb d:2006-01-01T00:00:00.000Z t:zip=02110 t:phone_number="(617) 482-1776" t:status="Currently registered" t:middle_name=MARK t:law_school="BOSTON UNIVERSITY SCHOOL OF LAW" t:state=MA t:city=BOSTON t:country="United States" t:zip_plus_four=3331 t:first_name=DOUGLAS t:street_1="400 ATLANTIC AVE" t:next_registration="Oct 2018" t:county="Out of State" t:company_name="GOULSTON & STORRS, PC" t:last_name=HUSID t:registration_number=4435350 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:zip=14048 t:phone_number="(716) 366-3677" t:status="Currently registered" t:middle_name=R. t:law_school="SUFFOLK UNIVERSITY LAW SCHOOL" t:state=NY t:city=Dunkirk t:country="United States" t:street_2="P.O. Box 50" t:first_name=JEFFREY t:street_1="93 E. Fourth Street" t:next_registration="Dec 2018" t:county=Chautauqua t:last_name=PASSAFARO t:registration_number=5463872 m:judicial_department_of_admission=3
 ```
 
 ## Meta Commands

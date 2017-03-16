@@ -16,7 +16,7 @@
 | Tags | campaign finance dashboards 2016 |
 | Created | 2016-08-18T20:50:38Z |
 | Publication Date | 2016-08-18T21:00:00Z |
-| Rows Updated | 2017-03-15T00:30:26Z |
+| Rows Updated | 2017-03-16T20:10:43Z |
 
 ## Columns
 
@@ -71,7 +71,7 @@ property e:7i7v-m2wn t:meta.view v:id=7i7v-m2wn v:category="City Management and 
 
 property e:7i7v-m2wn t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:7i7v-m2wn t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:7i7v-m2wn t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
 
 property e:7i7v-m2wn t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

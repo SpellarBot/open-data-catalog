@@ -26,25 +26,24 @@ Locations of buildings owned and leased by the State of Oregon.
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
-| ======== | ============== | =========== | ========== | ========= | =========== |
-| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag     | name        | Name       | text      | text        |
-| No       |                | address     | Address    | text      | text        |
-| Yes      | series tag     | city        | City       | text      | text        |
-| Yes      | series tag     | zipcode     | ZipCode    | text      | text        |
-| Yes      | series tag     | type        | Type       | text      | text        |
-| Yes      | series tag     | webpage     | webpage    | url       | url         |
-| Yes      | numeric metric | sqft        | SqFt       | number    | number      |
-| Yes      | series tag     | expdate     | EXPdate    | text      | text        |
-| Yes      | series tag     | directions  | Directions | url       | url         |
+| Included | Schema Type    | Field Name | Name       | Data Type | Render Type |
+| ======== | ============== | ========== | ========== | ========= | =========== |
+| Yes      | series tag     | name       | Name       | text      | text        |
+| No       |                | address    | Address    | text      | text        |
+| Yes      | series tag     | city       | City       | text      | text        |
+| Yes      | series tag     | zipcode    | ZipCode    | text      | text        |
+| Yes      | series tag     | type       | Type       | text      | text        |
+| Yes      | series tag     | webpage    | webpage    | url       | url         |
+| Yes      | numeric metric | sqft       | SqFt       | number    | number      |
+| Yes      | time           | expdate    | EXPdate    | text      | text        |
+| Yes      | series tag     | directions | Directions | url       | url         |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = expdate
+Format & Zone = MM/dd/yyyy
 ```
 
 ## Series Fields
@@ -56,11 +55,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=635+CAPITOL+ST+NE+Salem+97301" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info/agriculture.shtml t:name="Agriculture Building" t:type=Owned t:city=Salem m:sqft=76817
+series e:2q2s-w8ry d:2011-09-03T00:00:00.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=635+CAPITOL+ST+NE+Salem+97301" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info/agriculture.shtml t:name="Agriculture Building" t:type=Owned t:city=Salem m:sqft=76817
 
-series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=811+SW+Sixth+Avenue+Portland+97204" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info t:name="Consumer & Bus Services" t:expdate=10/31/2009 t:type=Leased t:city=Portland m:sqft=90
+series e:2q2s-w8ry d:2009-10-31T00:00:00.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=811+SW+Sixth+Avenue+Portland+97204" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info t:name="Consumer & Bus Services" t:type=Leased t:city=Portland m:sqft=90
 
-series e:2q2s-w8ry d:2011-09-03T13:55:59.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2757+22nd+Street+SE+Salem+97302" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info t:name="Corrections, Dept" t:expdate=1/31/2012 t:type=Leased t:city=Salem m:sqft=12000
+series e:2q2s-w8ry d:2012-01-31T00:00:00.000Z t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2757+22nd+Street+SE+Salem+97302" t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info t:name="Corrections, Dept" t:type=Leased t:city=Salem m:sqft=12000
 ```
 
 ## Meta Commands

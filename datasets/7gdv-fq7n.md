@@ -25,17 +25,17 @@ The New York State Office of Parks, Recreation and Historic Preservation (OPRHP)
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
-| ======== | ============== | =================== | =================== | ========= | =========== |
-| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
-| Yes      | series tag     | state_park_facility | State Park Facility | text      | text        |
-| Yes      | series tag     | nature_center       | Nature Center       | text      | text        |
-| Yes      | numeric metric | region              | Region              | number    | number      |
-| Yes      | series tag     | county              | County              | text      | text        |
-| Yes      | series tag     | facility_url        | Facility URL        | url       | url         |
-| Yes      | series tag     | nature_center_url   | Nature Center URL   | url       | url         |
-| No       |                | x                   | Longitude           | number    | number      |
-| No       |                | y                   | Latitude            | number    | number      |
+| Included | Schema Type | Field Name          | Name                | Data Type | Render Type |
+| ======== | =========== | =================== | =================== | ========= | =========== |
+| No       | time        | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag  | state_park_facility | State Park Facility | text      | text        |
+| Yes      | series tag  | nature_center       | Nature Center       | text      | text        |
+| Yes      | series tag  | region              | Region              | text      | number      |
+| Yes      | series tag  | county              | County              | text      | text        |
+| Yes      | series tag  | facility_url        | Facility URL        | url       | url         |
+| Yes      | series tag  | nature_center_url   | Nature Center URL   | url       | url         |
+| No       |             | x                   | Longitude           | number    | number      |
+| No       |             | y                   | Latitude            | number    | number      |
 ```
 
 ## Time Field
@@ -54,17 +54,17 @@ Excluded Fields = x,y
 ## Data Commands
 
 ```ls
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:facility_url=http://nysparks.com/parks/136/details.aspx t:county=Cattaraugus t:nature_center="Red House Natural History Museum" t:state_park_facility="Allegany State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/12/details.aspx m:region=2
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:region=2 t:facility_url=http://nysparks.com/parks/136/details.aspx t:county=Cattaraugus t:nature_center="Red House Natural History Museum" t:state_park_facility="Allegany State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/12/details.aspx m:row_number.7gdv-fq7n=1
 
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:facility_url=http://nysparks.com/parks/56/details.aspx t:county=Erie t:nature_center="Beaver Island Nature Center" t:state_park_facility="Beaver Island State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/11/details.aspx m:region=1
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:region=1 t:facility_url=http://nysparks.com/parks/56/details.aspx t:county=Erie t:nature_center="Beaver Island Nature Center" t:state_park_facility="Beaver Island State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/11/details.aspx m:row_number.7gdv-fq7n=2
 
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:facility_url=http://nysparks.com/parks/124/details.aspx t:county=Suffolk t:nature_center="Caleb Smith Park Preserve Nature Museum" t:state_park_facility="Caleb Smith Park Preserve" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/9/details.aspx m:region=9
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:region=9 t:facility_url=http://nysparks.com/parks/124/details.aspx t:county=Suffolk t:nature_center="Caleb Smith Park Preserve Nature Museum" t:state_park_facility="Caleb Smith Park Preserve" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/9/details.aspx m:row_number.7gdv-fq7n=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:region p:integer l:Region d:"State Park Region" t:dataTypeName=number
+metric m:row_number.7gdv-fq7n p:long l:"Row Number"
 
 entity e:7gdv-fq7n l:"State Nature Centers" t:attribution="New York State Office of Parks, Recreation and Historic Preservation" t:url=https://data.ny.gov/api/views/7gdv-fq7n
 
