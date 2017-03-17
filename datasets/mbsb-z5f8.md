@@ -46,7 +46,7 @@ Footnotes:
 | Yes      | series tag     | reporting_area                                                              | Reporting Area                                                                   | text      | text        |
 | No       |                | mmwr_year                                                                   | MMWR Year                                                                        | number    | number      |
 | No       |                | mmwr_week                                                                   | MMWR Week                                                                        | number    | number      |
-| No       |                | invasive_pneumococcal_disease_all_ages_confirmed_current_week               | Invasive Pneumococcal Disease§, All ages, Confirmed, Current week                | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_current_week               | Invasive Pneumococcal Disease§, All ages, Confirmed, Current week                | number    | number      |
 | No       |                | invasive_pneumococcal_disease_all_ages_confirmed_current_week_flag          | Invasive Pneumococcal Disease§, All ages, Confirmed, Current week, flag          | text      | text        |
 | Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med      | Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Med       | number    | number      |
 | No       |                | invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med_flag | Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Med, flag | text      | text        |
@@ -56,7 +56,7 @@ Footnotes:
 | No       |                | invasive_pneumococcal_disease_all_ages_confirmed_cum_2017_flag              | Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2017, flag              | text      | text        |
 | Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_confirmed_cum_2016                   | Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2016                    | number    | number      |
 | No       |                | invasive_pneumococcal_disease_all_ages_confirmed_cum_2016_flag              | Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2016, flag              | text      | text        |
-| No       |                | invasive_pneumococcal_disease_all_ages_probable_current_week                | Invasive Pneumococcal Disease§, All ages, Probable, Current week                 | number    | number      |
+| Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_current_week                | Invasive Pneumococcal Disease§, All ages, Probable, Current week                 | number    | number      |
 | No       |                | invasive_pneumococcal_disease_all_ages_probable_current_week_flag           | Invasive Pneumococcal Disease§, All ages, Probable, Current week, flag           | text      | text        |
 | Yes      | numeric metric | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med       | Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Med        | number    | number      |
 | No       |                | invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med_flag  | Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Med, flag  | text      | text        |
@@ -78,22 +78,24 @@ Format & Zone = yyyy-w
 ## Series Fields
 
 ```ls
-Excluded Fields = invasive_pneumococcal_disease_all_ages_confirmed_current_week,invasive_pneumococcal_disease_all_ages_confirmed_current_week_flag,invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med_flag,invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max_flag,invasive_pneumococcal_disease_all_ages_confirmed_cum_2017_flag,invasive_pneumococcal_disease_all_ages_confirmed_cum_2016_flag,invasive_pneumococcal_disease_all_ages_probable_current_week,invasive_pneumococcal_disease_all_ages_probable_current_week_flag,invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med_flag,invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max_flag,invasive_pneumococcal_disease_all_ages_probable_cum_2017_flag,invasive_pneumococcal_disease_all_ages_probable_cum_2016_flag,mmwr_year,mmwr_week
+Excluded Fields = invasive_pneumococcal_disease_all_ages_confirmed_current_week_flag,invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med_flag,invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max_flag,invasive_pneumococcal_disease_all_ages_confirmed_cum_2017_flag,invasive_pneumococcal_disease_all_ages_confirmed_cum_2016_flag,invasive_pneumococcal_disease_all_ages_probable_current_week_flag,invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med_flag,invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max_flag,invasive_pneumococcal_disease_all_ages_probable_cum_2017_flag,invasive_pneumococcal_disease_all_ages_probable_cum_2016_flag,mmwr_year,mmwr_week
 ```
 
 ## Data Commands
 
 ```ls
-series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=270 m:invasive_pneumococcal_disease_all_ages_probable_cum_2016=2 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=487 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=264 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=2 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=488
+series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=270 m:invasive_pneumococcal_disease_all_ages_probable_cum_2016=2 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=487 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=264 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=264 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=2 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=488
 
-series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=20 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=31 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=5 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=39
+series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=20 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=31 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=5 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=5 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=39
 
-series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=41 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=45 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=50 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=79
+series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=41 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=45 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=50 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=50 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=79
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:invasive_pneumococcal_disease_all_ages_confirmed_current_week p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Current week" t:dataTypeName=number
+
 metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Med" t:dataTypeName=number
 
 metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Max" t:dataTypeName=number
@@ -101,6 +103,8 @@ metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max 
 metric m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017 p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2017" t:dataTypeName=number
 
 metric m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016 p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2016" t:dataTypeName=number
+
+metric m:invasive_pneumococcal_disease_all_ages_probable_current_week p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Current week" t:dataTypeName=number
 
 metric m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Med" t:dataTypeName=number
 

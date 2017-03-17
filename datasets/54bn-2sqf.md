@@ -38,9 +38,9 @@ It should be noted header information will be duplicated on all detail items. No
 | Yes      | series tag     | req_num            | REQUISITION NUMBER               | text          | text          |
 | Yes      | time           | po_in_date         | INPUT DATE                       | calendar_date | calendar_date |
 | Yes      | numeric metric | total_amt          | TOTAL AMOUNT                     | number        | number        |
-| Yes      | numeric metric | deptno             | DEPARTMENT NUMBER                | number        | text          |
+| Yes      | series tag     | deptno             | DEPARTMENT NUMBER                | text          | text          |
 | Yes      | series tag     | dept_desc          | DEPARTMENT NAME                  | text          | text          |
-| Yes      | numeric metric | cstctr             | COST CENTER                      | number        | text          |
+| Yes      | series tag     | cstctr             | COST CENTER                      | text          | text          |
 | Yes      | series tag     | cstctr_desc        | COST CENTER NAME                 | text          | text          |
 | Yes      | series tag     | empl_inp           | INPUT BY                         | text          | text          |
 | Yes      | series tag     | purc_agent         | PURCHASING AGENT                 | text          | text          |
@@ -48,10 +48,10 @@ It should be noted header information will be duplicated on all detail items. No
 | Yes      | series tag     | po_type_desc       | PO TYPE DESCRIPTION              | text          | text          |
 | Yes      | series tag     | po_category        | PO CATEGORY CODE                 | text          | text          |
 | Yes      | series tag     | po_category_desc   | PO CATEGORY DESCRIPTION          | text          | text          |
-| Yes      | numeric metric | po_stat            | PO STATUS CODE                   | number        | number        |
+| Yes      | series tag     | po_stat            | PO STATUS CODE                   | text          | number        |
 | Yes      | series tag     | po_stat_desc       | PO STATUS DESCRIPTION            | text          | text          |
 | Yes      | numeric metric | vchd_amt           | VOUCHED AMOUNT                   | number        | number        |
-| Yes      | numeric metric | vend               | VENDOR NUMBER                    | number        | number        |
+| Yes      | series tag     | vend               | VENDOR NUMBER                    | text          | number        |
 | Yes      | series tag     | vend_name_1        | VENDOR NAME 1                    | text          | text          |
 | Yes      | series tag     | vend_name_2        | VENDOR NAME 2                    | text          | text          |
 | Yes      | series tag     | vend_addr_1        | VENDOR ADDRESS 1                 | text          | text          |
@@ -67,7 +67,7 @@ It should be noted header information will be duplicated on all detail items. No
 | Yes      | series tag     | vend_minority_desc | VENDOR MINORITY DESCRIPTION      | text          | text          |
 | Yes      | numeric metric | total_items        | TOTAL ITEMS                      | number        | number        |
 | Yes      | numeric metric | po_balance         | PO BALANCE                       | number        | number        |
-| Yes      | numeric metric | dt_seq             | ITEM NUMBER                      | number        | number        |
+| Yes      | series tag     | dt_seq             | ITEM NUMBER                      | text          | number        |
 | Yes      | series tag     | dt_stock_desc      | ITEM DESCRIPTION                 | text          | text          |
 | Yes      | numeric metric | dt_qty_ord         | ITEM QUANTITY ORDERED            | number        | number        |
 | Yes      | series tag     | dt_qty_um          | ITEM UNIT OF MEASURE             | text          | text          |
@@ -87,11 +87,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:po_category=PS t:purc_agent=PW t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO110701 t:empl_inp=BDCA t:rec_type=H t:po_stat_desc=CLOSED t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:vend_state=TX t:dept_desc="CONSTRUCTION PROJECTS" m:po_stat=11 m:po_balance=9.75 m:total_items=5 m:cstctr=7510 m:vend=64320 m:total_amt=13682 m:deptno=75 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO110701 t:empl_inp=BDCA t:rec_type=H t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_addr_1="6100 HILLCROFT" t:vend_state=TX t:dept_desc="CONSTRUCTION PROJECTS" m:po_balance=9.75 m:total_items=5 m:total_amt=13682 m:vchd_amt=13672.25
 
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010001 t:empl_inp=BDCA t:rec_type=D t:po_stat_desc=CLOSED t:dt_stock_desc="CONSTRUCTION MATERIALS TESTING & INSPECTION        SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:po_stat=11 m:dt_unit_cost=10992 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:cstctr=7510 m:vend=64320 m:dt_seq=1 m:total_amt=13682 m:deptno=75 m:dt_tot_cost=10992 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:po_type_cd=B t:po_num=PO110701 t:vend_city=HOUSTON t:unique_id=PO1107010001 t:po_type_desc=GOODS-SERV t:cstctr=7510 t:po_stat_desc=CLOSED t:po_category_desc="PROFESSIONAL SERVICES" t:dept_desc="CONSTRUCTION PROJECTS" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:dt_qty_um=JB t:po_category=PS t:purc_agent=PW t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:vend=64320 t:rec_type=D t:empl_inp=BDCA t:dt_seq=1 t:dt_stock_desc="CONSTRUCTION MATERIALS TESTING & INSPECTION        SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB m:dt_unit_cost=10992 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=10992 m:vchd_amt=13672.25
 
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010002 t:empl_inp=BDCA t:rec_type=D t:po_stat_desc=CLOSED t:dt_stock_desc="INTERNAL CHANGE ORDER TO CORRECT PO TYPE FOR       SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:po_stat=11 m:dt_unit_cost=0 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:cstctr=7510 m:vend=64320 m:dt_seq=2 m:total_amt=13682 m:deptno=75 m:dt_tot_cost=0 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:po_type_cd=B t:po_num=PO110701 t:vend_city=HOUSTON t:unique_id=PO1107010002 t:po_type_desc=GOODS-SERV t:cstctr=7510 t:po_stat_desc=CLOSED t:po_category_desc="PROFESSIONAL SERVICES" t:dept_desc="CONSTRUCTION PROJECTS" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:dt_qty_um=JB t:po_category=PS t:purc_agent=PW t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:vend=64320 t:rec_type=D t:empl_inp=BDCA t:dt_seq=2 t:dt_stock_desc="INTERNAL CHANGE ORDER TO CORRECT PO TYPE FOR       SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB m:dt_unit_cost=0 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=0 m:vchd_amt=13672.25
 ```
 
 ## Meta Commands
@@ -99,23 +99,13 @@ series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:vend_cont_name="**NAME CHANGED F
 ```ls
 metric m:total_amt p:double l:"TOTAL AMOUNT" d:"Total amount of PO" t:dataTypeName=number
 
-metric m:deptno p:long l:"DEPARTMENT NUMBER" d:"Number of the department which the PO is for" t:dataTypeName=number
-
-metric m:cstctr p:integer l:"COST CENTER" d:"Cost Center of the Department which the PO is for. This will often show which of the Department's Divisions issued the PO" t:dataTypeName=number
-
-metric m:po_stat p:integer l:"PO STATUS CODE" d:"Code indicating the status of the PO" t:dataTypeName=number
-
 metric m:vchd_amt p:double l:"VOUCHED AMOUNT" d:"Actual amount invoiced against PO. This amount may be less than the original PO amount" t:dataTypeName=number
-
-metric m:vend p:integer l:"VENDOR NUMBER" d:"Internal id associated with the vendor" t:dataTypeName=number
 
 metric m:vend_cont_ph_ext p:integer l:"VENDOR CONTACT EXTENSION" t:dataTypeName=number
 
 metric m:total_items p:integer l:"TOTAL ITEMS" d:"Total number of detail items on PO. Each PO will have at least 1 detail item" t:dataTypeName=number
 
 metric m:po_balance p:double l:"PO BALANCE" d:"Balance left on PO" t:dataTypeName=number
-
-metric m:dt_seq p:integer l:"ITEM NUMBER" d:"Sequential number of the detail PO line item" t:dataTypeName=number
 
 metric m:dt_qty_ord p:integer l:"ITEM QUANTITY ORDERED" d:"Quantity being ordered for this PO line item" t:dataTypeName=number
 

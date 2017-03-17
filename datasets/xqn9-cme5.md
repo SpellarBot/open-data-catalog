@@ -39,8 +39,8 @@ This coverage contains a highway Annual Average Daily Traffic (AADT) subset of t
 | Yes      | series tag     | mr_type    | MR_TYPE    | text      | text        |
 | Yes      | series tag     | inventory  | INVENTORY  | text      | text        |
 | Yes      | numeric metric | key_rt_nbr | KEY_RT_NBR | number    | number      |
-| Yes      | numeric metric | point_x    | POINT_X    | number    | number      |
-| Yes      | numeric metric | point_y    | POINT_Y    | number    | number      |
+| No       |                | point_x    | POINT_X    | number    | number      |
+| No       |                | point_y    | POINT_Y    | number    | number      |
 ```
 
 ## Time Field
@@ -50,14 +50,20 @@ Value =
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = point_x,point_y
+```
+
 ## Data Commands
 
 ```ls
-series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name=SHERIDAN t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7652 m:point_y=42.15233 m:key_rt_nbr=3726 m:aadt_yr=2006
+series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name=SHERIDAN t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:key_rt_nbr=3726 m:aadt_yr=2006
 
-series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name="LAKE COOK RD" t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7706 m:point_y=42.15238 m:key_rt_nbr=3726 m:aadt_yr=2006
+series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name="LAKE COOK RD" t:aadt=3650 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:key_rt_nbr=3726 m:aadt_yr=2006
 
-series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name="LAKE COOK RD" t:aadt=6600 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:point_x=-87.7756 m:point_y=42.15238 m:key_rt_nbr=3726 m:aadt_yr=2006
+series e:xqn9-cme5 d:2006-01-01T00:00:00.000Z t:mu_vol="Not Counted" t:su_vol="Not Counted" t:mr_type=0 t:inventory="016  93726 000000" t:mr_number=0 t:road_name="LAKE COOK RD" t:aadt=6600 t:marked_nam=0 t:hcv="Not Counted" t:county_nam=Cook m:key_rt_nbr=3726 m:aadt_yr=2006
 ```
 
 ## Meta Commands
@@ -68,10 +74,6 @@ metric m:aadt_yr p:long l:AADT_YR d:"AVERAGE DAILY TRAFFIC COUNT YEAR" t:dataTyp
 metric m:hcv_mu_yr p:long l:HCV_MU_YR d:"HEAVY COMMERCIAL/MULTI-UNIT COUNT YEAR" t:dataTypeName=number
 
 metric m:key_rt_nbr p:integer l:KEY_RT_NBR t:dataTypeName=number
-
-metric m:point_x p:float l:POINT_X t:dataTypeName=number
-
-metric m:point_y p:float l:POINT_Y t:dataTypeName=number
 
 entity e:xqn9-cme5 l:"IDOT Average Annual Daily Traffic 2006" t:attribution="Illinois Department of Transportation" t:url=https://data.illinois.gov/api/views/xqn9-cme5
 

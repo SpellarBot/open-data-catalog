@@ -24,24 +24,24 @@ A list of drop-off locations to recycle waste oil, oil filters, tires, automotiv
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name    | Name          | Data Type | Render Type |
-| ======== | ============== | ============= | ============= | ========= | =========== |
-| No       | time           | :updated_at   | updated_at    | meta_data | meta_data   |
-| Yes      | series tag     | zone          | Zone          | text      | text        |
-| Yes      | series tag     | business_name | Business Name | text      | text        |
-| Yes      | series tag     | phone         | Phone         | text      | text        |
-| Yes      | numeric metric | status        | status        | number    | number      |
-| Yes      | series tag     | oil           | Oil           | text      | text        |
-| Yes      | series tag     | oil_filter    | Oil Filter    | text      | text        |
-| Yes      | series tag     | fluids        | Fluids        | text      | text        |
-| Yes      | series tag     | tires         | Tires         | text      | text        |
-| Yes      | series tag     | batteries     | Batteries     | text      | text        |
-| Yes      | series tag     | newspapers    | Newspapers    | text      | text        |
-| Yes      | series tag     | scrap_metal   | Scrap Metal   | text      | text        |
-| Yes      | series tag     | aluminum      | Aluminum      | text      | text        |
-| Yes      | series tag     | zip_code      | Zip Code      | text      | text        |
-| No       |                | latitude      | latitude      | number    | text        |
-| No       |                | longitude     | longitude     | number    | text        |
+| Included | Schema Type | Field Name    | Name          | Data Type | Render Type |
+| ======== | =========== | ============= | ============= | ========= | =========== |
+| No       | time        | :updated_at   | updated_at    | meta_data | meta_data   |
+| Yes      | series tag  | zone          | Zone          | text      | text        |
+| Yes      | series tag  | business_name | Business Name | text      | text        |
+| Yes      | series tag  | phone         | Phone         | text      | text        |
+| Yes      | series tag  | status        | status        | text      | number      |
+| Yes      | series tag  | oil           | Oil           | text      | text        |
+| Yes      | series tag  | oil_filter    | Oil Filter    | text      | text        |
+| Yes      | series tag  | fluids        | Fluids        | text      | text        |
+| Yes      | series tag  | tires         | Tires         | text      | text        |
+| Yes      | series tag  | batteries     | Batteries     | text      | text        |
+| Yes      | series tag  | newspapers    | Newspapers    | text      | text        |
+| Yes      | series tag  | scrap_metal   | Scrap Metal   | text      | text        |
+| Yes      | series tag  | aluminum      | Aluminum      | text      | text        |
+| Yes      | series tag  | zip_code      | Zip Code      | text      | text        |
+| No       |             | latitude      | latitude      | number    | text        |
+| No       |             | longitude     | longitude     | number    | text        |
 ```
 
 ## Time Field
@@ -60,17 +60,17 @@ Excluded Fields = latitude,longitude
 ## Data Commands
 
 ```ls
-series e:qzi7-nx8g d:2013-07-17T08:39:44.000Z t:business_name="Tex-Con Oil Company" t:phone=512-444-1941 t:zip_code=78744 t:batteries=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:status=1
+series e:qzi7-nx8g d:2013-07-17T08:39:44.000Z t:business_name="Tex-Con Oil Company" t:phone=512-444-1941 t:zip_code=78744 t:status=1 t:batteries=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:row_number.qzi7-nx8g=1
 
-series e:qzi7-nx8g d:2013-07-17T08:40:05.000Z t:business_name="Home Chemical Collection" t:phone=512-974-4343 t:zip_code=78744 t:batteries=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:status=1
+series e:qzi7-nx8g d:2013-07-17T08:40:05.000Z t:business_name="Home Chemical Collection" t:phone=512-974-4343 t:zip_code=78744 t:status=1 t:batteries=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:row_number.qzi7-nx8g=2
 
-series e:qzi7-nx8g d:2013-07-17T08:40:06.000Z t:business_name="City of Austin Landfill" t:phone=512-243-1894 t:zip_code=78719 t:aluminum=Yes t:fluids=Yes t:tires=Yes t:batteries=Yes t:newspapers=Yes t:scrap_metal=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:status=1
+series e:qzi7-nx8g d:2013-07-17T08:40:06.000Z t:phone=512-243-1894 t:zip_code=78719 t:status=1 t:batteries=Yes t:oil=Yes t:business_name="City of Austin Landfill" t:fluids=Yes t:aluminum=Yes t:tires=Yes t:scrap_metal=Yes t:newspapers=Yes t:zone=Southeast t:oil_filter=Yes m:row_number.qzi7-nx8g=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:status p:integer l:status t:dataTypeName=number
+metric m:row_number.qzi7-nx8g p:long l:"Row Number"
 
 entity e:qzi7-nx8g l:"Recycle Drop Off Locations" t:attribution="City of Austin Watershed Protection" t:url=https://data.austintexas.gov/api/views/qzi7-nx8g
 

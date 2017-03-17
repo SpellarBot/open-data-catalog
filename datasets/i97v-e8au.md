@@ -15,7 +15,7 @@
 | Tags | furnaces |
 | Created | 2014-08-08T12:06:09Z |
 | Publication Date | 2016-12-29T15:39:44Z |
-| Rows Updated | 2017-03-16T13:32:58Z |
+| Rows Updated | 2017-03-17T13:33:26Z |
 
 ## Description
 
@@ -60,11 +60,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:capable_of_two_way_communication="Not Applicable" t:model_number=OVM070-RF* t:fuel_type=Oil t:markets="United States, Canada" t:energy_star_model_identifier=ES_1019658_06112013094056_3318459 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name=Bryant t:model_name=OVM070-RF t:pd_id=2182941 m:efficiency_afue=86.4
+series e:i97v-e8au d:2012-04-11T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A97DSMV090B20S-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151616_5756348 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Armstrong/Air Ease" t:model_name="A97DSMV Series" t:pd_id=2171653 m:efficiency_afue=97
 
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:capable_of_two_way_communication="Not Applicable" t:model_number=OVM084-BF* t:fuel_type=Oil t:markets="United States, Canada" t:energy_star_model_identifier=ES_1019658_06112013094056_5846454 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name=Bryant t:model_name=OVM084-BF t:pd_id=2182942 m:efficiency_afue=85.1
+series e:i97v-e8au d:2012-04-11T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A97DSMV110B20S-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151616_9469194 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Armstrong/Air Ease" t:model_name="A97DSMV Series" t:pd_id=2171654 m:efficiency_afue=97
 
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:capable_of_two_way_communication="Not Applicable" t:model_number=OVM084-BNX* t:fuel_type=Oil t:markets="United States, Canada" t:energy_star_model_identifier=ES_1019658_06112013094056_6529996 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name=Bryant t:model_name=OVM084-BNX t:pd_id=2182943 m:efficiency_afue=85.4
+series e:i97v-e8au d:2012-04-27T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A97USMV070B12S-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151616_5407828 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Armstrong/Air Ease" t:model_name="A97USMV Series" t:pd_id=2171655 m:efficiency_afue=97
 ```
 
 ## Meta Commands

@@ -34,12 +34,12 @@ Maryland 8-Hour Ozone Concentrations Exceeding 2008 Health-Based Standard in ppb
 | Yes      | numeric metric | edgewood                     | Edgewood                      | number        | number        |
 | Yes      | numeric metric | fairhill                     | Fairhill                      | number        | number        |
 | Yes      | numeric metric | frederick_airport            | Frederick Airport             | number        | number        |
-| Yes      | numeric metric | furley_e_s_recreation_center | Furley E.S. Recreation Center | number        | text          |
+| Yes      | series tag     | furley_e_s_recreation_center | Furley E.S. Recreation Center | text          | text          |
 | Yes      | numeric metric | hagerstown                   | Hagerstown                    | number        | number        |
 | Yes      | numeric metric | hu_beltsville                | HU-Beltsville                 | number        | number        |
 | Yes      | numeric metric | millington                   | Millington                    | number        | text          |
 | Yes      | numeric metric | padonia                      | Padonia                       | number        | number        |
-| Yes      | numeric metric | pg_equestrian_center         | PG Equestrian Center          | number        | number        |
+| Yes      | series tag     | pg_equestrian_center         | PG Equestrian Center          | text          | number        |
 | Yes      | numeric metric | piney_run                    | Piney Run                     | number        | number        |
 | Yes      | numeric metric | rockville                    | Rockville                     | number        | number        |
 | Yes      | numeric metric | south_carroll                | South Carroll                 | number        | number        |
@@ -81,8 +81,6 @@ metric m:fairhill p:integer l:Fairhill t:dataTypeName=number
 
 metric m:frederick_airport p:integer l:"Frederick Airport" t:dataTypeName=number
 
-metric m:furley_e_s_recreation_center p:integer l:"Furley E.S. Recreation Center" t:dataTypeName=number
-
 metric m:hagerstown p:integer l:Hagerstown t:dataTypeName=number
 
 metric m:hu_beltsville p:integer l:HU-Beltsville t:dataTypeName=number
@@ -90,8 +88,6 @@ metric m:hu_beltsville p:integer l:HU-Beltsville t:dataTypeName=number
 metric m:millington p:integer l:Millington t:dataTypeName=number
 
 metric m:padonia p:integer l:Padonia t:dataTypeName=number
-
-metric m:pg_equestrian_center p:integer l:"PG Equestrian Center" t:dataTypeName=number
 
 metric m:piney_run p:integer l:"Piney Run" t:dataTypeName=number
 

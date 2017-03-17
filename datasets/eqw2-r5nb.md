@@ -25,29 +25,29 @@ The data included here is the information in the NYS Attorney Registration Datab
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                       | Name                             | Data Type | Render Type |
-| ======== | ============== | ================================ | ================================ | ========= | =========== |
-| Yes      | series tag     | registration_number              | Registration Number              | text      | number      |
-| Yes      | series tag     | first_name                       | First Name                       | text      | text        |
-| Yes      | series tag     | middle_name                      | Middle Name                      | text      | text        |
-| Yes      | series tag     | last_name                        | Last Name                        | text      | text        |
-| Yes      | series tag     | suffix                           | Suffix                           | text      | text        |
-| Yes      | series tag     | company_name                     | Company Name                     | text      | text        |
-| Yes      | series tag     | street_1                         | Street 1                         | text      | text        |
-| Yes      | series tag     | street_2                         | Street 2                         | text      | text        |
-| Yes      | series tag     | city                             | City                             | text      | text        |
-| Yes      | series tag     | state                            | State                            | text      | text        |
-| Yes      | series tag     | zip                              | Zip                              | text      | text        |
-| Yes      | series tag     | zip_plus_four                    | Zip Plus Four                    | text      | text        |
-| Yes      | series tag     | country                          | Country                          | text      | text        |
-| Yes      | series tag     | county                           | County                           | text      | text        |
-| Yes      | series tag     | phone_number                     | Phone Number                     | text      | text        |
-| No       |                | email_address                    | Email Address                    | text      | text        |
-| Yes      | time           | year_admitted                    | Year Admitted                    | number    | number      |
-| Yes      | numeric metric | judicial_department_of_admission | Judicial Department of Admission | number    | number      |
-| Yes      | series tag     | law_school                       | Law School                       | text      | text        |
-| Yes      | series tag     | status                           | Status                           | text      | text        |
-| Yes      | series tag     | next_registration                | Next Registration                | text      | text        |
+| Included | Schema Type | Field Name                       | Name                             | Data Type | Render Type |
+| ======== | =========== | ================================ | ================================ | ========= | =========== |
+| Yes      | series tag  | registration_number              | Registration Number              | text      | number      |
+| Yes      | series tag  | first_name                       | First Name                       | text      | text        |
+| Yes      | series tag  | middle_name                      | Middle Name                      | text      | text        |
+| Yes      | series tag  | last_name                        | Last Name                        | text      | text        |
+| Yes      | series tag  | suffix                           | Suffix                           | text      | text        |
+| Yes      | series tag  | company_name                     | Company Name                     | text      | text        |
+| Yes      | series tag  | street_1                         | Street 1                         | text      | text        |
+| Yes      | series tag  | street_2                         | Street 2                         | text      | text        |
+| Yes      | series tag  | city                             | City                             | text      | text        |
+| Yes      | series tag  | state                            | State                            | text      | text        |
+| Yes      | series tag  | zip                              | Zip                              | text      | text        |
+| Yes      | series tag  | zip_plus_four                    | Zip Plus Four                    | text      | text        |
+| Yes      | series tag  | country                          | Country                          | text      | text        |
+| Yes      | series tag  | county                           | County                           | text      | text        |
+| Yes      | series tag  | phone_number                     | Phone Number                     | text      | text        |
+| Yes      | series tag  | email_address                    | Email Address                    | text      | text        |
+| Yes      | time        | year_admitted                    | Year Admitted                    | number    | number      |
+| Yes      | series tag  | judicial_department_of_admission | Judicial Department of Admission | text      | number      |
+| Yes      | series tag  | law_school                       | Law School                       | text      | text        |
+| Yes      | series tag  | status                           | Status                           | text      | text        |
+| Yes      | series tag  | next_registration                | Next Registration                | text      | text        |
 ```
 
 ## Time Field
@@ -57,27 +57,14 @@ Value = year_admitted
 Format & Zone = yyyy
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = email_address
-```
-
 ## Data Commands
 
 ```ls
-series e:eqw2-r5nb d:2010-01-01T00:00:00.000Z t:zip=02184 t:phone_number="(617) 770-2214" t:status="Currently registered" t:middle_name=LEIGHTON t:law_school="NEW ENGLAND SCHOOL OF LAW" t:state=MA t:city=BRAINTREE t:country="United States" t:zip_plus_four=4963 t:first_name=SHAUNA t:street_1="350 GRANITE ST STE 2303" t:next_registration="Sep 2018" t:county="Out of State" t:company_name="SMITH & BRINK, P.C." t:last_name=SULLIVAN t:registration_number=4805107 m:judicial_department_of_admission=3
-
-series e:eqw2-r5nb d:2010-01-01T00:00:00.000Z t:zip=11120 t:phone_number="(718) 248-3409" t:status="Currently registered" t:middle_name=DALTON t:law_school="BROOKLYN LAW SCHOOL" t:state=NY t:city="Long Island City" t:country="United States" t:zip_plus_four=0001 t:first_name=MARA t:street_1="One Court Sq. 9th Fl. Zone 2" t:next_registration="Apr 2018" t:county=Queens t:company_name="CITIGROUP INC." t:last_name=BYRNE t:registration_number=4805115 m:judicial_department_of_admission=2
-
-series e:eqw2-r5nb d:2010-01-01T00:00:00.000Z t:first_name=JESSICA t:next_registration="Jun 2016" t:status="Due to reregister within 30 days of birthday" t:middle_name=MEGHAN t:law_school="University of Wisconsin Law School" t:last_name=MCNAMARA t:registration_number=4805123 m:judicial_department_of_admission=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:judicial_department_of_admission p:integer l:"Judicial Department of Admission" t:dataTypeName=number
-
 entity e:eqw2-r5nb l:"NYS Attorney Registrations" t:attribution="NYS Unified Court System" t:url=https://data.ny.gov/api/views/eqw2-r5nb
 
 property e:eqw2-r5nb t:meta.view v:id=eqw2-r5nb v:category=Transparency v:averageRating=0 v:name="NYS Attorney Registrations" v:attribution="NYS Unified Court System"

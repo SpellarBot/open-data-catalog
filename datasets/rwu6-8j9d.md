@@ -21,10 +21,10 @@
 | Included | Schema Type    | Field Name | Name       | Data Type | Render Type |
 | ======== | ============== | ========== | ========== | ========= | =========== |
 | Yes      | series tag     | objectid   | OBJECTID   | text      | number      |
-| Yes      | time           | alm_time   | alm_time   | date      | date        |
-| No       |                | alm_date   | alm_date   | date      | date        |
+| No       |                | alm_time   | alm_time   | date      | date        |
+| Yes      | time           | alm_date   | alm_date   | date      | date        |
 | Yes      | series tag     | inci_no    | inci_no    | text      | text        |
-| Yes      | numeric metric | station    | station    | number    | number      |
+| Yes      | series tag     | station    | station    | text      | number      |
 | Yes      | series tag     | occup_id   | occup_id   | text      | number      |
 | Yes      | numeric metric | number     | number     | number    | number      |
 | Yes      | series tag     | st_prefix  | st_prefix  | text      | text        |
@@ -51,31 +51,29 @@
 ## Time Field
 
 ```ls
-Value = alm_time
+Value = alm_date
 Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = alm_date,latitude,longitude
+Excluded Fields = alm_time,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:rwu6-8j9d d:2015-07-09T04:13:31.000Z t:zip=6112 t:mutl_aid=N t:occup_id=5701 t:street=VINE t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:inci_type=321 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 m:station=16 m:number=500 m:alarms=1
+series e:rwu6-8j9d d:2013-06-14T00:00:00.000Z t:zip=6112 t:mutl_aid=N t:station=16 t:occup_id=5701 t:street=VINE t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:inci_type=321 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 m:number=500 m:alarms=1
 
-series e:rwu6-8j9d d:2015-07-09T04:13:31.000Z t:zip=6105 t:mutl_aid=N t:occup_id=19549 t:street=SISSON t:state=CT t:descript="Medical assist, assist EMS crew" t:inci_type=311 t:city=Hartford t:alm_type=1 t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 m:station=11 m:number=170 m:alarms=1
+series e:rwu6-8j9d d:2012-10-26T00:00:00.000Z t:zip=6105 t:mutl_aid=N t:station=11 t:occup_id=19549 t:street=SISSON t:state=CT t:descript="Medical assist, assist EMS crew" t:inci_type=311 t:city=Hartford t:alm_type=1 t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 m:number=170 m:alarms=1
 
-series e:rwu6-8j9d d:2015-07-09T04:13:48.000Z t:zip=6114 t:mutl_aid=N t:occup_id=33109 t:street=KENNETH t:state=CT t:descript="False alarm or false call, Other" t:inci_type=700 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 m:station=15 m:number=8 m:alarms=1
+series e:rwu6-8j9d d:2012-07-28T00:00:00.000Z t:zip=6114 t:mutl_aid=N t:station=15 t:occup_id=33109 t:street=KENNETH t:state=CT t:descript="False alarm or false call, Other" t:inci_type=700 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 m:number=8 m:alarms=1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:station p:integer l:station t:dataTypeName=number
-
 metric m:number p:integer l:number t:dataTypeName=number
 
 metric m:alarms p:integer l:alarms t:dataTypeName=number

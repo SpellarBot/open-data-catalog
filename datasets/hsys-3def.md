@@ -30,7 +30,7 @@ Go to http://on.ny.gov/1Cx6zvs or http://on.ny.gov/1KYjE6X on the New York Lotte
 | Yes      | time           | draw_date         | Draw Date         | calendar_date | calendar_date |
 | Yes      | series tag     | midday_daily      | Midday Daily #    | text          | text          |
 | Yes      | numeric metric | midday_daily_sum  | Midday Daily Sum  | number        | number        |
-| Yes      | numeric metric | evening_daily     | Evening Daily #   | number        | text          |
+| Yes      | series tag     | evening_daily     | Evening Daily #   | text          | text          |
 | Yes      | numeric metric | evening_daily_sum | Evening Daily Sum | number        | number        |
 | Yes      | series tag     | midday_win_4      | Midday Win 4 #    | text          | text          |
 | Yes      | numeric metric | midday_win_4_sum  | Midday Win 4 Sum  | number        | number        |
@@ -48,19 +48,12 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:hsys-3def d:1980-09-02T00:00:00.000Z m:evening_daily=255
-
-series e:hsys-3def d:1980-09-03T00:00:00.000Z m:evening_daily=905
-
-series e:hsys-3def d:1980-09-04T00:00:00.000Z m:evening_daily=533
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:midday_daily_sum p:integer l:"Midday Daily Sum" t:dataTypeName=number
-
-metric m:evening_daily p:integer l:"Evening Daily #" t:dataTypeName=number
 
 metric m:evening_daily_sum p:integer l:"Evening Daily Sum" t:dataTypeName=number
 

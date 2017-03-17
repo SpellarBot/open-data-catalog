@@ -25,6 +25,7 @@ Displays all permits that have led or will lead to a closure of the travel lane 
 ```ls
 | Included | Schema Type    | Field Name                   | Name                         | Data Type  | Render Type |
 | ======== | ============== | ============================ | ============================ | ========== | =========== |
+| No       | time           | :updated_at                  | updated_at                   | meta_data  | meta_data   |
 | Yes      | series tag     | objectid                     | OBJECTID                     | text       | number      |
 | Yes      | series tag     | permit_aptype                | PERMIT_APTYPE                | text       | text        |
 | Yes      | series tag     | permit_category              | PERMIT_CATEGORY              | text       | text        |
@@ -51,7 +52,7 @@ Displays all permits that have led or will lead to a closure of the travel lane 
 | Yes      | series tag     | permit_inspector_name        | PERMIT_INSPECTOR_NAME        | text       | text        |
 | Yes      | series tag     | permit_inspector_phone_num   | PERMIT_INSPECTOR_PHONE_NUM   | text       | text        |
 | Yes      | series tag     | permit_location_text         | PERMIT_LOCATION_TEXT         | text       | text        |
-| Yes      | time           | permit_application_date      | PERMIT_APPLICATION_DATE      | date       | date        |
+| No       |                | permit_application_date      | PERMIT_APPLICATION_DATE      | date       | date        |
 | Yes      | series tag     | impact_data_format           | IMPACT_DATA_FORMAT           | text       | text        |
 | Yes      | series tag     | hub                          | HUB                          | text       | text        |
 | Yes      | series tag     | primarydistrictcd            | PRIMARYDISTRICTCD            | text       | text        |
@@ -207,14 +208,14 @@ Displays all permits that have led or will lead to a closure of the travel lane 
 ## Time Field
 
 ```ls
-Value = permit_application_date
+Value = updated_at
 Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = strt_close_start_dt,strt_close_end_dt,strt_part_close_start_dt,strt_part_close_end_dt,strt_intrmt_close_start_dt,strt_intrmt_close_end_dt,strt_reroute_start_dt,strt_reroute_end_dt,sdwlk_close_start_dt,sdwlk_close_end_dt,sdwlk_part_close_start_dt,sdwlk_part_cls_end_dt,sdwlk_intrmt_close_strt_dt,sdwlk_intrmt_close_end_dt,sdwlk_reroute_start_dt,sdwlk_reroute_end_dt,prkln_close_start_dt,prkln_close_end_dt,prkln_part_cls_start_dt,prkln_part_cls_end_dt,prkln_intrmt_cls_strt_dt,prkln_intrmt_cls_end_dt,prkln_reroute_start_dt,prkln_reroute_end_dt,alley_close_start_dt,alley_close_end_dt,alley_part_close_start_dt,alley_part_close_end_dt,alley_intrmt_close_start_dt,alley_intrmt_close_end_dt,alley_reroute_start_dt,alley_reroute_end_dt,trvl_lane_start_dt,trvl_lane_end_dt,trvl_lane_part_cls_strt_dt,trvl_lane_part_cls_end_dt,trvl_lane_intrmt_cls_strt_dt,trvl_lane_intrmt_cls_end_dt,trvl_lane_reroute_start_dt,trvl_lane_reroute_end_dt,bike_lane_start_dt,bike_lane_end_dt,bike_lane_part_cls_strt_dt,bike_lane_part_cls_end_dt,bike_lane_intrmt_cls_strt_dt,bike_lane_intrmt_cls_end_dt,bike_lane_reroute_start_dt,bike_lane_reroute_end_dt,filler_start_dt,filler_end_dt,filler_part_close_start_dt,filler_part_close_end_dt,filler_intrmt_cls_strt_dt,filler_intrmt_cls_end_dt,filler_reroute_start_dt,filler_reroute_end_dt,unimp_row_start_dt,unimp_row_end_dt,unimp_row_part_cls_strt_dt,unimp_row_part_cls_end_dt,unimp_row_intrmt_cls_strt_dt,unimp_row_intrmt_cls_end_dt,unimp_row_reroute_start_dt,unimp_row_reroute_end_dt,intersect_start_dt,intersect_end_dt,intersect_part_close_strt_dt,intersect_part_close_end_dt,intersect_intrmt_cls_strt_dt,intersect_intrmt_cls_end_dt,intersect_reroute_start_dt,intersect_reroute_end_dt,plntstrp_start_dt,plntstrp_end_dt,plntstrp_part_cls_start_dt,plntstrp_part_cls_end_dt,plntstrp_intrmt_cls_strt_dt,plntstrp_intrmt_cls_end_dt,plntstrp_reroute_start_dt,plntstrp_reroute_end_dt,review_action_date,use_start_date,use_exp_date
+Excluded Fields = permit_application_date,strt_close_start_dt,strt_close_end_dt,strt_part_close_start_dt,strt_part_close_end_dt,strt_intrmt_close_start_dt,strt_intrmt_close_end_dt,strt_reroute_start_dt,strt_reroute_end_dt,sdwlk_close_start_dt,sdwlk_close_end_dt,sdwlk_part_close_start_dt,sdwlk_part_cls_end_dt,sdwlk_intrmt_close_strt_dt,sdwlk_intrmt_close_end_dt,sdwlk_reroute_start_dt,sdwlk_reroute_end_dt,prkln_close_start_dt,prkln_close_end_dt,prkln_part_cls_start_dt,prkln_part_cls_end_dt,prkln_intrmt_cls_strt_dt,prkln_intrmt_cls_end_dt,prkln_reroute_start_dt,prkln_reroute_end_dt,alley_close_start_dt,alley_close_end_dt,alley_part_close_start_dt,alley_part_close_end_dt,alley_intrmt_close_start_dt,alley_intrmt_close_end_dt,alley_reroute_start_dt,alley_reroute_end_dt,trvl_lane_start_dt,trvl_lane_end_dt,trvl_lane_part_cls_strt_dt,trvl_lane_part_cls_end_dt,trvl_lane_intrmt_cls_strt_dt,trvl_lane_intrmt_cls_end_dt,trvl_lane_reroute_start_dt,trvl_lane_reroute_end_dt,bike_lane_start_dt,bike_lane_end_dt,bike_lane_part_cls_strt_dt,bike_lane_part_cls_end_dt,bike_lane_intrmt_cls_strt_dt,bike_lane_intrmt_cls_end_dt,bike_lane_reroute_start_dt,bike_lane_reroute_end_dt,filler_start_dt,filler_end_dt,filler_part_close_start_dt,filler_part_close_end_dt,filler_intrmt_cls_strt_dt,filler_intrmt_cls_end_dt,filler_reroute_start_dt,filler_reroute_end_dt,unimp_row_start_dt,unimp_row_end_dt,unimp_row_part_cls_strt_dt,unimp_row_part_cls_end_dt,unimp_row_intrmt_cls_strt_dt,unimp_row_intrmt_cls_end_dt,unimp_row_reroute_start_dt,unimp_row_reroute_end_dt,intersect_start_dt,intersect_end_dt,intersect_part_close_strt_dt,intersect_part_close_end_dt,intersect_intrmt_cls_strt_dt,intersect_intrmt_cls_end_dt,intersect_reroute_start_dt,intersect_reroute_end_dt,plntstrp_start_dt,plntstrp_end_dt,plntstrp_part_cls_start_dt,plntstrp_part_cls_end_dt,plntstrp_intrmt_cls_strt_dt,plntstrp_intrmt_cls_end_dt,plntstrp_reroute_start_dt,plntstrp_reroute_end_dt,review_action_date,use_start_date,use_exp_date
 ```
 
 ## Data Commands

@@ -30,7 +30,7 @@ This dataset includes trip records from all trips completed in green taxis in NY
 | Yes      | time           | lpep_pickup_datetime  | pickup_datetime       | calendar_date | calendar_date |
 | No       |                | lpep_dropoff_datetime | dropoff_datetime      | calendar_date | calendar_date |
 | Yes      | series tag     | store_and_fwd_flag    | Store_and_fwd_flag    | text          | text          |
-| Yes      | numeric metric | ratecodeid            | rate_code             | number        | number        |
+| Yes      | series tag     | ratecodeid            | rate_code             | text          | number        |
 | No       |                | pickup_longitude      | Pickup_longitude      | number        | number        |
 | No       |                | pickup_latitude       | Pickup_latitude       | number        | number        |
 | No       |                | dropoff_longitude     | Dropoff_longitude     | number        | number        |
@@ -65,18 +65,16 @@ Excluded Fields = lpep_dropoff_datetime,pickup_longitude,pickup_latitude,dropoff
 ## Data Commands
 
 ```ls
-series e:gi8d-wdg5 d:2015-10-26T13:02:48.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=4 m:fare_amount=3.5 m:ratecodeid=1 m:passenger_count=1 m:extra=0 m:trip_distance=0.3 m:tolls_amount=0 m:improvement_surcharge=0 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-10-26T13:02:48.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=1 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=4 m:fare_amount=3.5 m:passenger_count=1 m:extra=0 m:trip_distance=0.3 m:tolls_amount=0 m:improvement_surcharge=0 m:tip_amount=0
 
-series e:gi8d-wdg5 d:2015-10-18T04:09:03.000Z t:store_and_fwd_flag=N t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=16.3 m:fare_amount=12.5 m:ratecodeid=1 m:passenger_count=1 m:extra=0.5 m:trip_distance=3.38 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=2.5
+series e:gi8d-wdg5 d:2015-10-18T04:09:03.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=16.3 m:fare_amount=12.5 m:passenger_count=1 m:extra=0.5 m:trip_distance=3.38 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=2.5
 
-series e:gi8d-wdg5 d:2015-05-31T21:09:35.000Z t:store_and_fwd_flag=N t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:fare_amount=5.5 m:ratecodeid=1 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.7 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=1
+series e:gi8d-wdg5 d:2015-05-31T21:09:35.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:fare_amount=5.5 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.7 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:ratecodeid p:integer l:rate_code d:"The final rate code in effect at the end of the trip. 1= Standard rate 2=JFK 3=Newark 4=Nassau or Westchester 5=Negotiated fare 6=Group ride" t:dataTypeName=number
-
 metric m:passenger_count p:integer l:Passenger_count d:"The number of passengers in the vehicle. This is a driver-entered value." t:dataTypeName=number
 
 metric m:trip_distance p:float l:Trip_distance d:"The elapsed trip distance in miles reported by the taximeter." t:dataTypeName=number

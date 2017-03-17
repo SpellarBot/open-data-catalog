@@ -87,7 +87,7 @@ SORT_NAME Sort Name (Secondary Name Line)
 | Yes      | numeric metric | foundation       | FOUNDATION       | number    | number      |
 | Yes      | numeric metric | activity         | ACTIVITY         | number    | number      |
 | Yes      | numeric metric | organization     | ORGANIZATION     | number    | number      |
-| Yes      | numeric metric | status           | STATUS           | number    | number      |
+| Yes      | series tag     | status           | STATUS           | text      | number      |
 | Yes      | numeric metric | tax_period       | TAX_PERIOD       | number    | number      |
 | Yes      | numeric metric | asset_cd         | ASSET_CD         | number    | number      |
 | Yes      | numeric metric | income_cd        | INCOME_CD        | number    | number      |
@@ -111,11 +111,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X20 t:zip_code=06514-0416 t:name="WEST HAVEN CHURCH OF CHRIST INC" t:street="PO BOX 4416" t:state=CT t:ico="% WILLIAM BOWLING SR" t:city=HAMDEN m:status=1 m:subsection=3 m:ein=10563865 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=7000 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
+series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X20 t:zip_code=06514-0416 t:status=1 t:name="WEST HAVEN CHURCH OF CHRIST INC" t:street="PO BOX 4416" t:state=CT t:ico="% WILLIAM BOWLING SR" t:city=HAMDEN m:subsection=3 m:ein=10563865 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=7000 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
 
-series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X21 t:zip_code=06134-1249 t:name="PRIMERA IGLESIA BAUTISTA INC" t:street="PO BOX 341249" t:state=CT t:ico="% JUSTO J CARRERA" t:city=HARTFORD m:status=1 m:subsection=3 m:ein=10607204 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=7000 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
+series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X21 t:zip_code=06134-1249 t:status=1 t:name="PRIMERA IGLESIA BAUTISTA INC" t:street="PO BOX 341249" t:state=CT t:ico="% JUSTO J CARRERA" t:city=HARTFORD m:subsection=3 m:ein=10607204 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=7000 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
 
-series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X21 t:zip_code=06615-0024 t:name="BETHEL MINISTRY" t:street="PO BOX 24" t:state=CT t:ico="% REV JUDSON G OLIVEIRA" t:city=STRATFORD m:status=1 m:subsection=3 m:ein=10657417 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=1700 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
+series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X21 t:zip_code=06615-0024 t:status=1 t:name="BETHEL MINISTRY" t:street="PO BOX 24" t:state=CT t:ico="% REV JUDSON G OLIVEIRA" t:city=STRATFORD m:subsection=3 m:ein=10657417 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=1700 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
 ```
 
 ## Meta Commands
@@ -141,8 +141,6 @@ metric m:activity p:integer l:ACTIVITY t:dataTypeName=number
 
 metric m:organization p:integer l:ORGANIZATION t:dataTypeName=number
 
-metric m:status p:integer l:STATUS t:dataTypeName=number
-
 metric m:tax_period p:integer l:TAX_PERIOD t:dataTypeName=number
 
 metric m:asset_cd p:integer l:ASSET_CD t:dataTypeName=number
@@ -167,7 +165,7 @@ property e:krqq-6qhc t:meta.view v:id=krqq-6qhc v:category=Business v:attributio
 
 property e:krqq-6qhc t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:krqq-6qhc t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:displayName="Tyler Kleykamp"
+property e:krqq-6qhc t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 
 property e:krqq-6qhc t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```

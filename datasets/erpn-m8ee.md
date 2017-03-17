@@ -144,8 +144,8 @@ The Annual Publication is a proposed program of road and structure projects that
 | Yes      | series tag     | tracdesc9  | TRACDESC9  | text      | text        |
 | Yes      | series tag     | tracdesc10 | TRACDESC10 | text      | text        |
 | Yes      | numeric metric | angle      | ANGLE      | number    | number      |
-| Yes      | numeric metric | point_x    | POINT_X    | number    | number      |
-| Yes      | numeric metric | point_y    | POINT_Y    | number    | number      |
+| No       |                | point_x    | POINT_X    | number    | number      |
+| No       |                | point_y    | POINT_Y    | number    | number      |
 ```
 
 ## Time Field
@@ -158,17 +158,17 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = footnotes1,footnotes2,footnotes3,footnotes4,footnotes5,footnotes6,footnotes7,footnotes8,footnotes9
+Excluded Fields = footnotes1,footnotes2,footnotes3,footnotes4,footnotes5,footnotes6,footnotes7,footnotes8,footnotes9,point_x,point_y
 ```
 
 ## Data Commands
 
 ```ls
-series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010019 t:rtype3=C t:rtype2=S t:location3="MISSISSIPPI RIVER" t:route3=QUINCY t:rtype1=M t:location2="BRIDGE AT" t:route2="MAINE ST" t:location1="QUINCY MEMORIAL" t:imprvmnt1="BRIDGE JOINT REPAIR" t:route1="US 24" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20063 000000" t:fndacr2=OTH t:cty_nmt1=ADAMS t:fndacr1=S m:record=1208 m:point_x=-91.4203 m:est_cost_f=250000 m:point_y=39.93118 m:begin_sta=0.01 m:end_sta=0 m:pps_projec=6617500300 m:loc_dist_n=6 m:frequency=1 m:angle=89
+series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010019 t:rtype3=C t:rtype2=S t:location3="MISSISSIPPI RIVER" t:route3=QUINCY t:rtype1=M t:location2="BRIDGE AT" t:route2="MAINE ST" t:location1="QUINCY MEMORIAL" t:imprvmnt1="BRIDGE JOINT REPAIR" t:route1="US 24" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20063 000000" t:fndacr2=OTH t:cty_nmt1=ADAMS t:fndacr1=S m:record=1208 m:est_cost_f=250000 m:begin_sta=0.01 m:end_sta=0 m:pps_projec=6617500300 m:loc_dist_n=6 m:frequency=1 m:angle=89
 
-series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010025 t:location3="BEVERLY RD" t:rtype1=M t:location2="2 MI W OF" t:imprvmnt2="BRIDGE OFFICE P.E." t:location1="GRINDSTONE CREEK" t:imprvmnt1="BRIDGE REPLACEMENT" t:route1="ILL 104" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20745 000000" t:fndacr2=S t:cty_nmt1=ADAMS t:fndacr1=BR m:record=1226 m:point_x=-91.0078 m:est_cost_f=1400000 m:point_y=39.82334 m:begin_sta=26.03 m:end_sta=0 m:pps_projec=6734600000 m:loc_dist_n=6 m:frequency=1 m:angle=359
+series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010025 t:location3="BEVERLY RD" t:rtype1=M t:location2="2 MI W OF" t:imprvmnt2="BRIDGE OFFICE P.E." t:location1="GRINDSTONE CREEK" t:imprvmnt1="BRIDGE REPLACEMENT" t:route1="ILL 104" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20745 000000" t:fndacr2=S t:cty_nmt1=ADAMS t:fndacr1=BR m:record=1226 m:est_cost_f=1400000 m:begin_sta=26.03 m:end_sta=0 m:pps_projec=6734600000 m:loc_dist_n=6 m:frequency=1 m:angle=359
 
-series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0020022 t:rtype2=C t:location3=CAIRO t:rtype1=M t:location2="BRIDGE AT WCL OF" t:route2=CAIRO t:location1="MISSISSIPPI RIVER" t:imprvmnt1="BRIDGE DECK REPAIRS" t:route1="I 57" t:pub_desc="20112011ANNUAL BOOK" t:inventory="002  10057 000000" t:fndacr2=OTH t:cty_nmt1=ALEXANDER t:fndacr1=S m:record=1560 m:point_x=-89.211 m:est_cost_f=200000 m:point_y=37.02392 m:begin_sta=0 m:end_sta=0 m:pps_projec=9004090000 m:loc_dist_n=9 m:frequency=1 m:angle=240
+series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0020022 t:rtype2=C t:location3=CAIRO t:rtype1=M t:location2="BRIDGE AT WCL OF" t:route2=CAIRO t:location1="MISSISSIPPI RIVER" t:imprvmnt1="BRIDGE DECK REPAIRS" t:route1="I 57" t:pub_desc="20112011ANNUAL BOOK" t:inventory="002  10057 000000" t:fndacr2=OTH t:cty_nmt1=ALEXANDER t:fndacr1=S m:record=1560 m:est_cost_f=200000 m:begin_sta=0 m:end_sta=0 m:pps_projec=9004090000 m:loc_dist_n=9 m:frequency=1 m:angle=240
 ```
 
 ## Meta Commands
@@ -189,10 +189,6 @@ metric m:frequency p:float l:FREQUENCY t:dataTypeName=number
 metric m:loc_dist_n p:integer l:LOC_DIST_N t:dataTypeName=number
 
 metric m:angle p:integer l:ANGLE t:dataTypeName=number
-
-metric m:point_x p:float l:POINT_X t:dataTypeName=number
-
-metric m:point_y p:float l:POINT_Y t:dataTypeName=number
 
 entity e:erpn-m8ee l:"IDOT - Published Annual Program 2011 - Structure Improvements" t:attribution="Illinois Department of Transportation" t:url=https://data.illinois.gov/api/views/erpn-m8ee
 

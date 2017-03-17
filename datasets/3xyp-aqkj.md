@@ -16,7 +16,7 @@
 | Tags | fcc consumer inquiry, fcc consumer complaints, fcc |
 | Created | 2016-03-07T23:15:08Z |
 | Publication Date | 2017-03-02T21:24:52Z |
-| Rows Updated | 2017-03-14T07:00:39Z |
+| Rows Updated | 2017-03-15T07:00:19Z |
 
 ## Description
 
@@ -58,11 +58,18 @@ Excluded Fields = id,issue_date
 ## Data Commands
 
 ```ls
+series e:3xyp-aqkj d:2016-05-25T11:15:29.000Z t:zip=33324 t:issue_type=Phone t:issue_time="1:00 pm" t:issue=Robocalls t:state=FL t:type_of_call_or_messge="Autodialed Live Voice Call" t:method="Internet (VOIP)" t:caller_id_number=866-410-0458 t:city=Plantation m:row_number.3xyp-aqkj=1
+
+series e:3xyp-aqkj d:2016-05-25T12:51:35.000Z t:zip=92078 t:issue_type=Phone t:issue_time="12:00 pm" t:issue="Telemarketing (including do not call and spoofing)" t:state=CA t:advertiser_business_phone_number=619-840-7262 t:type_of_call_or_messge="Live Voice" t:method=Wired t:caller_id_number=619-840-7262 t:city="San Marcos" m:row_number.3xyp-aqkj=2
+
+series e:3xyp-aqkj d:2016-05-25T12:56:54.000Z t:zip=07481 t:issue_type=Phone t:issue_time="8:08 PM" t:issue="Telemarketing (including do not call and spoofing)" t:state=NJ t:advertiser_business_phone_number=626-691-9090 t:type_of_call_or_messge="Live Voice" t:method="Wireless (cell phone/other mobile device)" t:caller_id_number=626-691-9090 t:city=Wyckoff m:row_number.3xyp-aqkj=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number.3xyp-aqkj p:long l:"Row Number"
+
 entity e:3xyp-aqkj l:"CGB - Consumer Complaints Data" t:attribution="Federal Communications Commission: Consumer Inquiries and Complaints Division" t:url=https://opendata.fcc.gov/api/views/3xyp-aqkj
 
 property e:3xyp-aqkj t:meta.view v:id=3xyp-aqkj v:category="Consumer and Government Affairs" v:attributionLink=https://consumercomplaints.fcc.gov/hc/en-us v:averageRating=0 v:name="CGB - Consumer Complaints Data" v:attribution="Federal Communications Commission: Consumer Inquiries and Complaints Division"

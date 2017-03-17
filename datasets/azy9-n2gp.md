@@ -23,7 +23,7 @@
 | Included | Schema Type    | Field Name   | Name         | Data Type     | Render Type   |
 | ======== | ============== | ============ | ============ | ============= | ============= |
 | Yes      | time           | date_rptd    | Date Rptd    | calendar_date | calendar_date |
-| Yes      | numeric metric | dr_no        | DR NO        | number        | text          |
+| Yes      | series tag     | dr_no        | DR NO        | text          | text          |
 | No       |                | date_occ     | DATE OCC     | calendar_date | calendar_date |
 | Yes      | numeric metric | time_occ     | TIME OCC     | number        | text          |
 | Yes      | numeric metric | area         | AREA         | number        | text          |
@@ -53,18 +53,16 @@ Excluded Fields = date_occ,rd
 ## Data Commands
 
 ```ls
-series e:azy9-n2gp d:2014-12-31T00:00:00.000Z t:crm_cd_desc=ROBBERY t:location="7TH                          ST" t:status=IC t:cross_street="MAPLE                        AV" t:status_desc="Invest Cont" t:area_name=Central m:area=1 m:time_occ=1855 m:crm_cd=210 m:dr_no=140101527
+series e:azy9-n2gp d:2014-12-31T00:00:00.000Z t:crm_cd_desc=ROBBERY t:location="7TH                          ST" t:status=IC t:cross_street="MAPLE                        AV" t:status_desc="Invest Cont" t:area_name=Central t:dr_no=140101527 m:area=1 m:time_occ=1855 m:crm_cd=210
 
-series e:azy9-n2gp d:2014-12-31T00:00:00.000Z t:crm_cd_desc="ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT" t:location="6TH                          ST" t:status=AO t:cross_street="SAN JULIAN                   ST" t:status_desc="Adult Other" t:area_name=Central m:area=1 m:time_occ=605 m:crm_cd=230 m:dr_no=140101528
+series e:azy9-n2gp d:2014-12-31T00:00:00.000Z t:crm_cd_desc="ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT" t:location="6TH                          ST" t:status=AO t:cross_street="SAN JULIAN                   ST" t:status_desc="Adult Other" t:area_name=Central t:dr_no=140101528 m:area=1 m:time_occ=605 m:crm_cd=230
 
-series e:azy9-n2gp d:2014-12-31T00:00:00.000Z t:crm_cd_desc=ROBBERY t:location="7TH                          ST" t:status=IC t:cross_street="MAPLE                        AV" t:status_desc="Invest Cont" t:area_name=Central m:area=1 m:time_occ=1855 m:crm_cd=210 m:dr_no=140104069
+series e:azy9-n2gp d:2014-12-31T00:00:00.000Z t:crm_cd_desc=ROBBERY t:location="7TH                          ST" t:status=IC t:cross_street="MAPLE                        AV" t:status_desc="Invest Cont" t:area_name=Central t:dr_no=140104069 m:area=1 m:time_occ=1855 m:crm_cd=210
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:dr_no p:integer l:"DR NO" t:dataTypeName=number
-
 metric m:time_occ p:integer l:"TIME OCC" t:dataTypeName=number
 
 metric m:area p:long l:AREA t:dataTypeName=number

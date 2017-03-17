@@ -36,7 +36,7 @@ Note that ownership information shows record owner as of January 1, 2015.  Howev
 | Yes      | series tag     | location                    | Location                    | text      | text        |
 | Yes      | series tag     | building_type               | Building Type               | text      | text        |
 | Yes      | series tag     | gis_id                      | GIS ID                      | text      | text        |
-| Yes      | numeric metric | bldg_no                     | Bldg No                     | number    | number      |
+| Yes      | series tag     | bldg_no                     | Bldg No                     | text      | number      |
 | Yes      | series tag     | cls                         | Cls                         | text      | text        |
 | Yes      | series tag     | use_code                    | Use Code                    | text      | text        |
 | Yes      | numeric metric | land_area_in_acres          | Land Area in Acres          | number    | number      |
@@ -72,19 +72,17 @@ Excluded Fields = mailing_address
 ## Data Commands
 
 ```ls
-series e:7rxe-3ase d:2015-11-10T17:20:08.000Z t:mbl="39/ C/ 23/ 4C/" t:use_code=1020 t:cls=R t:account_number=870151 t:eyb_code=A+5 t:location="255 BEACON ST" t:style_desc="Low rise" t:gis_id=39-C-23 t:building_type=Condominium t:grantee="ZHU ZHIYING" m:bldg_no=1 m:living_area=794 m:land_area_in_acres=0 m:num_bedrms=2 m:ayb=1986 m:res_nbhd=2001 m:total_assessed_parcel_value=342300 m:half_baths=0 m:total_assessed_land_value=0 m:full_baths=2
+series e:7rxe-3ase d:2015-11-10T17:20:08.000Z t:mbl="39/ C/ 23/ 4C/" t:bldg_no=1 t:use_code=1020 t:cls=R t:account_number=870151 t:eyb_code=A+5 t:location="255 BEACON ST" t:style_desc="Low rise" t:gis_id=39-C-23 t:building_type=Condominium t:grantee="ZHU ZHIYING" m:living_area=794 m:land_area_in_acres=0 m:num_bedrms=2 m:ayb=1986 m:res_nbhd=2001 m:total_assessed_parcel_value=342300 m:half_baths=0 m:total_assessed_land_value=0 m:full_baths=2
 
-series e:7rxe-3ase d:2015-11-10T17:18:21.000Z t:mbl="73/ A/ 48/ 1/" t:use_code=1020 t:cls=R t:account_number=20052620 t:eyb_code=VG t:location="7 VINAL AVE" t:style_desc="Three decker" t:gis_id=73-A-48 t:building_type=Condominium t:grantee="ASHER RUTH SARAH" m:bldg_no=1 m:living_area=1044 m:land_area_in_acres=0 m:num_bedrms=2 m:ayb=1900 m:res_nbhd=8001 m:total_assessed_parcel_value=429100 m:half_baths=0 m:total_assessed_land_value=0 m:full_baths=1
+series e:7rxe-3ase d:2015-11-10T17:18:21.000Z t:mbl="73/ A/ 48/ 1/" t:bldg_no=1 t:use_code=1020 t:cls=R t:account_number=20052620 t:eyb_code=VG t:location="7 VINAL AVE" t:style_desc="Three decker" t:gis_id=73-A-48 t:building_type=Condominium t:grantee="ASHER RUTH SARAH" m:living_area=1044 m:land_area_in_acres=0 m:num_bedrms=2 m:ayb=1900 m:res_nbhd=8001 m:total_assessed_parcel_value=429100 m:half_baths=0 m:total_assessed_land_value=0 m:full_baths=1
 
-series e:7rxe-3ase d:2015-11-10T17:19:10.000Z t:mbl="70/ C/ 23/ 1/" t:use_code=1020 t:cls=R t:account_number=20092730 t:eyb_code=VG t:location="25 WHEATLAND ST #1" t:style_desc="Two Family" t:gis_id=70-C-23 t:building_type=Condominium t:grantee="DIAMOND LESLIE" m:bldg_no=1 m:living_area=1058 m:land_area_in_acres=0 m:num_bedrms=2 m:ayb=1885 m:res_nbhd=5001 m:total_assessed_parcel_value=340000 m:total_assessed_land_value=0 m:full_baths=1
+series e:7rxe-3ase d:2015-11-10T17:19:10.000Z t:mbl="70/ C/ 23/ 1/" t:bldg_no=1 t:use_code=1020 t:cls=R t:account_number=20092730 t:eyb_code=VG t:location="25 WHEATLAND ST #1" t:style_desc="Two Family" t:gis_id=70-C-23 t:building_type=Condominium t:grantee="DIAMOND LESLIE" m:living_area=1058 m:land_area_in_acres=0 m:num_bedrms=2 m:ayb=1885 m:res_nbhd=5001 m:total_assessed_parcel_value=340000 m:total_assessed_land_value=0 m:full_baths=1
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:res_nbhd p:integer l:"Res NBHD" t:dataTypeName=number
-
-metric m:bldg_no p:integer l:"Bldg No" t:dataTypeName=number
 
 metric m:land_area_in_acres p:decimal l:"Land Area in Acres" t:dataTypeName=number
 

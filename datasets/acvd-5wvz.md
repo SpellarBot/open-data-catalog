@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-16T13:19:56Z |
+| Rows Updated | 2017-03-17T13:20:12Z |
 
 ## Description
 
@@ -58,11 +58,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152247_1620760 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226833 m:cop_rating=4.1 m:eer_rating=22.3
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GB018H/V******1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_11262014121036_5721501 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GB t:brand_name=Bryant t:pd_id=2226024 m:cop_rating=3.8 m:eer_rating=19
 
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152247_7584783 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226835 m:cop_rating=4.5 m:eer_rating=23.8
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GB018H/V******1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_11262014121038_9867128 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GB t:brand_name=Bryant t:pd_id=2226067 m:cop_rating=4.5 m:eer_rating=25.6
 
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152246_8380148 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226855 m:cop_rating=3.6 m:eer_rating=18.9
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GB024H/V******1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_11262014121037_7936211 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GB t:brand_name=Bryant t:pd_id=2226285 m:cop_rating=4 m:eer_rating=21.1
 ```
 
 ## Meta Commands
@@ -76,7 +76,7 @@ entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https:/
 
 property e:acvd-5wvz t:meta.view v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
 
-property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
 property e:acvd-5wvz t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 

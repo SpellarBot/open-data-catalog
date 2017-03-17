@@ -15,7 +15,7 @@
 | Tags | imaging equipment |
 | Created | 2013-08-28T20:47:59Z |
 | Publication Date | 2016-08-19T17:31:12Z |
-| Rows Updated | 2017-03-16T13:34:42Z |
+| Rows Updated | 2017-03-17T13:35:08Z |
 
 ## Description
 
@@ -75,11 +75,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z t:energy_star_partner="Avision Inc." t:model_number=AH5100 t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None" t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:marking_technology="Electro-photographic (EP)" t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH5100_01022014075639_9399184" t:product_type=Scanners t:automatic_duplex_output_capable=No t:size_format=Standard t:model_name=AH5100 t:brand_name=Avision t:pd_id=2199994 m:power_in_sleep_w=2.17 m:power_in_standby_w=0.28 m:monochrome_product_speed_ipm_or_mppm=120 m:default_delay_time_to_sleep_minutes=15
+series e:t2v6-g4nf d:2014-11-17T00:00:00.000Z t:energy_star_partner="Ambir Technology, Inc." t:model_number=DS490IX t:functional_adders="None, None" t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:marking_technology="N/A (Scanner)" t:energy_star_model_identifier=ES_1102853_DS490IX_08052014100831_2388364 t:product_type=Scanners t:automatic_duplex_output_capable=No t:color_capability=Color t:size_format=Standard t:model_name="ImageScan Pro 490ix" t:brand_name=Ambir t:pd_id=2217481 m:power_in_sleep_w=0.46 m:power_in_standby_w=0.46 m:monochrome_product_speed_ipm_or_mppm=7 m:default_delay_time_to_sleep_minutes=0
 
-series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z t:energy_star_partner="Avision Inc." t:model_number=AH5200 t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None" t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:marking_technology="Electro-photographic (EP)" t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH5200_01022014075712_9432572" t:product_type=Scanners t:automatic_duplex_output_capable=No t:size_format=Standard t:model_name=AH5200 t:brand_name=Avision t:pd_id=2199995 m:power_in_sleep_w=2.17 m:power_in_standby_w=0.28 m:monochrome_product_speed_ipm_or_mppm=120 m:default_delay_time_to_sleep_minutes=15
+series e:t2v6-g4nf d:2014-11-17T00:00:00.000Z t:energy_star_partner="Ambir Technology, Inc." t:model_number=DS687IX t:functional_adders="None, None" t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:marking_technology="N/A (Scanner)" t:energy_star_model_identifier=ES_1102853_DS687IX_08052014100422_9264706 t:product_type=Scanners t:automatic_duplex_output_capable=No t:color_capability=Color t:size_format=Small t:model_name="ImageScan Pro 687ix" t:brand_name=Ambir t:pd_id=2217479 m:power_in_sleep_w=0.49 m:power_in_standby_w=0.49 m:monochrome_product_speed_ipm_or_mppm=8 m:default_delay_time_to_sleep_minutes=0
 
-series e:t2v6-g4nf d:2012-08-15T00:00:00.000Z t:energy_star_partner="Avision Inc." t:model_number=AH56 t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None" t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:marking_technology="Electro-photographic (EP)" t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH56_10182013072854_1334667" t:product_type=Scanners t:automatic_duplex_output_capable=No t:size_format=Standard t:model_name=AH56 t:brand_name=Avision t:pd_id=2194614 m:power_in_sleep_w=2.32 m:power_in_standby_w=0.26 m:monochrome_product_speed_ipm_or_mppm=10 m:default_delay_time_to_sleep_minutes=0
+series e:t2v6-g4nf d:2011-05-01T00:00:00.000Z t:functional_adders="Other, None" t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:marking_technology="N/A (Scanner)" t:automatic_duplex_output_capable=No t:product_type=Scanners t:brand_name=Ambir t:model_name="ImageScan Pro 820i" t:pd_id=2186579 t:energy_star_partner="Ambir Technology, Inc." t:additional_model_information="DocketPORT 1020,DP1020,DP1020" t:model_number=DS820 t:energy_star_model_identifier=ES_1102853_DS820_06102013180239_2556268 t:color_capability=Color t:size_format=Standard m:power_in_sleep_w=0.54 m:power_in_standby_w=0.27 m:monochrome_product_speed_ipm_or_mppm=50 m:default_delay_time_to_sleep_minutes=1
 ```
 
 ## Meta Commands
@@ -115,7 +115,7 @@ entity e:t2v6-g4nf l:"ENERGY STAR Certified Imaging Equipment" t:url=https://dat
 
 property e:t2v6-g4nf t:meta.view v:id=t2v6-g4nf v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Imaging Equipment"
 
-property e:t2v6-g4nf t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:displayName=ESddas
+property e:t2v6-g4nf t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
 property e:t2v6-g4nf t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 

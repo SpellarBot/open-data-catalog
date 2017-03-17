@@ -24,16 +24,16 @@ The catch basin data is collected by SFDPW Hydraulics Engineering and SFPUC Wast
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
-| ======== | ============== | =================== | =================== | ========= | =========== |
-| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
-| Yes      | series tag     | dpw_node_id         | DPW_Node_ID         | text      | number      |
-| Yes      | series tag     | puc_maximo_asset_id | PUC_Maximo_Asset_ID | text      | text        |
-| Yes      | series tag     | system_use_code     | System_Use_Code     | text      | text        |
-| Yes      | series tag     | system_use          | System_Use          | text      | text        |
-| Yes      | series tag     | drain_type          | Drain_Type          | text      | text        |
-| Yes      | numeric metric | point_x             | POINT_X             | number    | number      |
-| Yes      | numeric metric | point_y             | POINT_Y             | number    | number      |
+| Included | Schema Type | Field Name          | Name                | Data Type | Render Type |
+| ======== | =========== | =================== | =================== | ========= | =========== |
+| No       | time        | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag  | dpw_node_id         | DPW_Node_ID         | text      | number      |
+| Yes      | series tag  | puc_maximo_asset_id | PUC_Maximo_Asset_ID | text      | text        |
+| Yes      | series tag  | system_use_code     | System_Use_Code     | text      | text        |
+| Yes      | series tag  | system_use          | System_Use          | text      | text        |
+| Yes      | series tag  | drain_type          | Drain_Type          | text      | text        |
+| No       |             | point_x             | POINT_X             | number    | number      |
+| No       |             | point_y             | POINT_Y             | number    | number      |
 ```
 
 ## Time Field
@@ -43,22 +43,26 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = point_x,point_y
+```
+
 ## Data Commands
 
 ```ls
-series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=155487 t:puc_maximo_asset_id=N-42109 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:point_x=6008875.9 m:point_y=2098204.47897
+series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=155487 t:puc_maximo_asset_id=N-42109 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:row_number.jtgq-b7c5=1
 
-series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=155540 t:puc_maximo_asset_id=N-42990 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:point_x=6012451.39499 m:point_y=2113875.27044
+series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=155540 t:puc_maximo_asset_id=N-42990 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:row_number.jtgq-b7c5=2
 
-series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=157534 t:puc_maximo_asset_id=N-43293 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:point_x=6014153.27 m:point_y=2116375.31
+series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=157534 t:puc_maximo_asset_id=N-43293 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:row_number.jtgq-b7c5=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:point_x p:double l:POINT_X t:dataTypeName=number
-
-metric m:point_y p:double l:POINT_Y t:dataTypeName=number
+metric m:row_number.jtgq-b7c5 p:long l:"Row Number"
 
 entity e:jtgq-b7c5 l:"Stormwater inlets, drains and catch basins" t:url=https://data.sfgov.org/api/views/jtgq-b7c5
 
