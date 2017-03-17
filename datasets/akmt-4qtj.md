@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/cdc-pramstat-data-for-2006-0db12) |
-| Metadata | [Link](https://data.cdc.gov/api/views/akmt-4qtj) |
-| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/akmt-4qtj/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/akmt-4qtj/rows.csv?max_rows=100) |
-| Host | data.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/cdc-pramstat-data-for-2006) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/akmt-4qtj) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/akmt-4qtj/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/akmt-4qtj/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
 | Id | akmt-4qtj |
 | Name | CDC PRAMStat Data for 2006 |
 | Attribution | Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS) |
@@ -91,7 +91,7 @@ metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=nu
 
 metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
-entity e:akmt-4qtj l:"CDC PRAMStat Data for 2006" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://data.cdc.gov/api/views/akmt-4qtj
+entity e:akmt-4qtj l:"CDC PRAMStat Data for 2006" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://chronicdata.cdc.gov/api/views/akmt-4qtj
 
 property e:akmt-4qtj t:meta.view v:id=akmt-4qtj v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/Index v:averageRating=0 v:name="CDC PRAMStat Data for 2006" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
 

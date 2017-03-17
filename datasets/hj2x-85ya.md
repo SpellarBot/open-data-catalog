@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/cdc-state-system-tobacco-legislation-preemption-summary) |
-| Metadata | [Link](https://chronicdata.cdc.gov/api/views/hj2x-85ya) |
-| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/hj2x-85ya/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/hj2x-85ya/rows.csv?max_rows=100) |
-| Host | chronicdata.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/cdc-state-system-tobacco-legislation-preemption-summary-2d044) |
+| Metadata | [Link](https://data.cdc.gov/api/views/hj2x-85ya) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/hj2x-85ya/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/hj2x-85ya/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
 | Id | hj2x-85ya |
 | Name | CDC STATE System Tobacco Legislation - Preemption Summary |
 | Attribution | Office of Smoking and Health (OSH) |
@@ -73,7 +73,7 @@ series e:hj2x-85ya d:1998-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=N
 ```ls
 metric m:preemptionaltvalue p:integer l:PreemptionAltValue d:"Alternate numeric value for non-numeric preemption value; used for mapping and graphing" t:dataTypeName=number
 
-entity e:hj2x-85ya l:"CDC STATE System Tobacco Legislation - Preemption Summary" t:attribution="Office of Smoking and Health (OSH)" t:url=https://chronicdata.cdc.gov/api/views/hj2x-85ya
+entity e:hj2x-85ya l:"CDC STATE System Tobacco Legislation - Preemption Summary" t:attribution="Office of Smoking and Health (OSH)" t:url=https://data.cdc.gov/api/views/hj2x-85ya
 
 property e:hj2x-85ya t:meta.view v:id=hj2x-85ya v:category=Legislation v:attributionLink=http://www.cdc.gov/tobacco/statesystem v:averageRating=0 v:name="CDC STATE System Tobacco Legislation - Preemption Summary" v:attribution="Office of Smoking and Health (OSH)"
 

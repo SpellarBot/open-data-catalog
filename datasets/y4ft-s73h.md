@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/behavioral-risk-factor-surveillance-system-brfss-prevalence-data-2010-and-prior-eaae3) |
-| Metadata | [Link](https://chronicdata.cdc.gov/api/views/y4ft-s73h) |
-| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/y4ft-s73h/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/y4ft-s73h/rows.csv?max_rows=100) |
-| Host | chronicdata.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/behavioral-risk-factor-surveillance-system-brfss-prevalence-data-2010-and-prior) |
+| Metadata | [Link](https://data.cdc.gov/api/views/y4ft-s73h) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/y4ft-s73h/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/y4ft-s73h/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
 | Id | y4ft-s73h |
 | Name | Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior) |
 | Category | Behavioral Risk Factors |
@@ -88,7 +88,7 @@ metric m:confidence_limit_low p:float l:Confidence_limit_Low t:dataTypeName=numb
 
 metric m:confidence_limit_high p:float l:Confidence_limit_High t:dataTypeName=number
 
-entity e:y4ft-s73h l:"Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)" t:url=https://chronicdata.cdc.gov/api/views/y4ft-s73h
+entity e:y4ft-s73h l:"Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)" t:url=https://data.cdc.gov/api/views/y4ft-s73h
 
 property e:y4ft-s73h t:meta.view v:id=y4ft-s73h v:category="Behavioral Risk Factors" v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)"
 

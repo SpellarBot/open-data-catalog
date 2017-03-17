@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | attorney, registrations, integrity |
 | Created | 2013-04-12T18:29:05Z |
-| Publication Date | 2017-03-16T10:30:51Z |
-| Rows Updated | 2017-03-16T10:30:23Z |
+| Publication Date | 2017-03-17T10:29:23Z |
+| Rows Updated | 2017-03-17T10:29:01Z |
 
 ## Description
 
@@ -66,11 +66,11 @@ Excluded Fields = email_address
 ## Data Commands
 
 ```ls
-series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:first_name="EUN JOO" t:next_registration="Jun 2018" t:street_1="133 TEHERAN-RO, GANGNAM-GU" t:phone_number="+82 2 3404 0450" t:county="Out of USA" t:company_name="BAE, KIM & LEE LLC" t:status="Currently registered" t:law_school="HAVARD LAW SCHOOL" t:last_name=KANG t:registration_number=5463856 t:country="SOUTH KOREA" t:city="SEOUL 16133" m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2010-01-01T00:00:00.000Z t:zip=02184 t:phone_number="(617) 770-2214" t:status="Currently registered" t:middle_name=LEIGHTON t:law_school="NEW ENGLAND SCHOOL OF LAW" t:state=MA t:city=BRAINTREE t:country="United States" t:zip_plus_four=4963 t:first_name=SHAUNA t:street_1="350 GRANITE ST STE 2303" t:next_registration="Sep 2018" t:county="Out of State" t:company_name="SMITH & BRINK, P.C." t:last_name=SULLIVAN t:registration_number=4805107 m:judicial_department_of_admission=3
 
-series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:first_name=MAXIMILIAN t:next_registration="Jan 2018" t:status="Currently registered" t:law_school="UNIVERSITY OF MIAMI SCHOOL OF LAW" t:last_name=VISKI-HANKA t:registration_number=5463864 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2010-01-01T00:00:00.000Z t:zip=11120 t:phone_number="(718) 248-3409" t:status="Currently registered" t:middle_name=DALTON t:law_school="BROOKLYN LAW SCHOOL" t:state=NY t:city="Long Island City" t:country="United States" t:zip_plus_four=0001 t:first_name=MARA t:street_1="One Court Sq. 9th Fl. Zone 2" t:next_registration="Apr 2018" t:county=Queens t:company_name="CITIGROUP INC." t:last_name=BYRNE t:registration_number=4805115 m:judicial_department_of_admission=2
 
-series e:eqw2-r5nb d:2016-01-01T00:00:00.000Z t:zip=14048 t:phone_number="(716) 366-3677" t:status="Currently registered" t:middle_name=R. t:law_school="SUFFOLK UNIVERSITY LAW SCHOOL" t:state=NY t:city=Dunkirk t:country="United States" t:street_2="P.O. Box 50" t:first_name=JEFFREY t:street_1="93 E. Fourth Street" t:next_registration="Dec 2018" t:county=Chautauqua t:last_name=PASSAFARO t:registration_number=5463872 m:judicial_department_of_admission=3
+series e:eqw2-r5nb d:2010-01-01T00:00:00.000Z t:first_name=JESSICA t:next_registration="Jun 2016" t:status="Due to reregister within 30 days of birthday" t:middle_name=MEGHAN t:law_school="University of Wisconsin Law School" t:last_name=MCNAMARA t:registration_number=4805123 m:judicial_department_of_admission=3
 ```
 
 ## Meta Commands

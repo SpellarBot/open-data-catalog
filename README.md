@@ -2,14 +2,11 @@
 
 Name | Category | Updated
 ---- | -------- | -------
-[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](datasets/d2rk-yvas.md) | Behavioral Risk Factors | 2016-12-22
-[Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)](datasets/y4ft-s73h.md) | Behavioral Risk Factors | 2016-03-11
-[CDC STATE System E-Cigarette Legislation - Smokefree Campus](datasets/itia-u6fu.md) | Legislation | 2017-03-01
-[CDC STATE System Tobacco Legislation - Preemption Summary](datasets/hj2x-85ya.md) | Legislation | 2017-02-07
-[National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2016-12-08
-[Nutrition, Physical Activity, and Obesity - American Community Survey](datasets/8mrp-rmkw.md) | Nutrition, Physical Activity, and Obesity | 2016-12-19
-[Question Inventory on Tobacco (QIT)](datasets/vdgb-f9s3.md) | Survey Questions (Tobacco Use) | 2016-11-09
-[Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)](datasets/ezab-8sq5.md) | Health Consequences and Costs | 2017-02-06
+[CDC PRAMStat Data for 2004](datasets/xyxp-dxa9.md) | Maternal & Child Health | 2015-03-17
+[CDC PRAMStat Data for 2006](datasets/akmt-4qtj.md) | Maternal & Child Health | 2015-03-16
+[CDC PRAMStat Data for 2011](datasets/ese6-rqpq.md) | Maternal & Child Health | 2015-03-16
+[Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample](datasets/ntny-77fx.md) | Heart Disease & Stroke Prevention | 2017-01-03
+[NOHSS Adult Indicators](datasets/jz6n-v26y.md) | Oral Health | 2016-11-07
 [The Tax Burden on Tobacco Volume 49, 1970-2014](datasets/7nwe-3aj9.md) | Policy | 2017-02-06
 
 ## data.austintexas.gov
@@ -64,11 +61,11 @@ Name | Category | Updated
 Name | Category | Updated
 ---- | -------- | -------
 [BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011](datasets/5ekf-pmct.md) | Health Statistics | 2013-08-02
-[CDC PRAMStat Data for 2004](datasets/xyxp-dxa9.md) | Maternal & Child Health | 2015-03-17
-[CDC PRAMStat Data for 2006](datasets/akmt-4qtj.md) | Maternal & Child Health | 2015-03-16
-[CDC PRAMStat Data for 2011](datasets/ese6-rqpq.md) | Maternal & Child Health | 2015-03-16
+[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](datasets/d2rk-yvas.md) | Behavioral Risk Factors | 2016-12-22
+[Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)](datasets/y4ft-s73h.md) | Behavioral Risk Factors | 2016-03-11
+[CDC STATE System E-Cigarette Legislation - Smokefree Campus](datasets/itia-u6fu.md) | Legislation | 2017-03-01
 [CDC STATE System E-Cigarette Legislation - Youth Access](datasets/8zea-kwnt.md) | Legislation | 2017-03-01
-[Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample](datasets/ntny-77fx.md) | Heart Disease & Stroke Prevention | 2017-01-03
+[CDC STATE System Tobacco Legislation - Preemption Summary](datasets/hj2x-85ya.md) | Legislation | 2017-02-07
 [Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta](datasets/28km-nz6e.md) | Motor Vehicle | 2016-09-14
 [Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 7 - Kansas City](datasets/ea3z-m7eh.md) | Motor Vehicle | 2016-09-14
 [Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, HHS Region 1 - Boston](datasets/an65-3p9b.md) | Motor Vehicle | 2016-10-18
@@ -79,20 +76,23 @@ Name | Category | Updated
 [NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](datasets/mbsb-z5f8.md) | NNDSS | 2017-03-16
 [NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](datasets/scxv-4u4u.md) | NNDSS | 2017-03-16
 [NNDSS - Table II. Shiga toxin to Shigellosis](datasets/xv7k-8e7s.md) | NNDSS | 2017-01-05
-[NOHSS Adult Indicators](datasets/jz6n-v26y.md) | Oral Health | 2016-11-07
+[National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2016-12-08
+[Nutrition, Physical Activity, and Obesity - American Community Survey](datasets/8mrp-rmkw.md) | Nutrition, Physical Activity, and Obesity | 2016-12-19
 [Percentage of Adults Who Report Driving After Drinking Too Much (in the past 30 days), All States, 2012 & 2014](datasets/s9bp-7k3m.md) | Motor Vehicle | 2016-09-26
+[Question Inventory on Tobacco (QIT)](datasets/vdgb-f9s3.md) | Survey Questions (Tobacco Use) | 2016-11-09
+[Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)](datasets/ezab-8sq5.md) | Health Consequences and Costs | 2017-02-06
 [TABLE III. Deaths in 122 U.S. cities](datasets/rpjd-ejph.md) | NNDSS | 2016-10-06
 
 ## data.cityofchicago.org
 
 Name | Category | Updated
 ---- | -------- | -------
-[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-16
+[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-17
 [Beach Weather Stations - Automated Sensors - 2016 - Humidity](datasets/7edu-s3u7.md) | Parks & Recreation | 2017-03-17
 [Budget - 2015 Budget Recommendations - Appropriations](datasets/kzbi-spm5.md) | Administration & Finance | 2014-10-15
 [Building Violations](datasets/22u3-xenr.md) | Buildings | 2017-03-17
 [CTA - Ridership - 'L' Station Entries - Daily Totals](datasets/5neh-572f.md) | Transportation | 2017-02-16
-[Divvy Bicycle Stations](datasets/bbyy-e7gq.md) | Transportation | 2017-03-16
+[Divvy Bicycle Stations](datasets/bbyy-e7gq.md) | Transportation | 2017-03-17
 [Employee Overtime and Supplemental Earnings 2013](datasets/s9zb-nuc6.md) | Administration & Finance | 2014-02-04
 [Family and Support Services Delegate Agencies](datasets/jmw7-ijg5.md) | Health & Human Services | 2015-10-07
 [Libraries - 2012 Holds Placed by Location](datasets/cpva-49fs.md) | Education | 2013-04-08
@@ -433,10 +433,10 @@ Name | Category | Updated
 [Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990](datasets/djfn-trk4.md) | Energy & Environment | 2016-11-04
 [Issued Title V Facility Permits](datasets/4n3a-en4b.md) | Energy & Environment | 2016-01-08
 [Law Enforcement Personnel by Agency: Beginning 2007](datasets/khn9-hhpq.md) | Public Safety | 2016-03-22
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-16
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-17
 [MTA Customer Feedback Data: Beginning 2014](datasets/tppa-s6t6.md) | Transportation | 2016-11-02
 [NYC Transit Subway Entrance And Exit Data](datasets/i9wp-a4ja.md) | Transportation | 2015-09-18
-[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-16
+[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-17
 [Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects](datasets/f6sn-r72s.md) | Economic Development | 2016-01-21
 [Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996](datasets/p7e4-ipty.md) | Transportation | 2016-10-28
 [Prison Admissions: Beginning 2008](datasets/m2rg-xjan.md) | Public Safety | 2015-11-25
@@ -511,7 +511,7 @@ Name | Category | Updated
 [Department Open Data Inventory and Plan Status](datasets/tzir-jbhj.md) | City Management and Ethics | 2017-02-14
 [Employee Compensation](datasets/88g8-5mnd.md) | City Management and Ethics | 2017-03-13
 [FY07-11 Street Evaluation Results](datasets/i8y7-m763.md) | City Infrastructure | 2014-07-23
-[Fire Department Calls for Service](datasets/nuek-vuh3.md) | Public Safety | 2017-03-16
+[Fire Department Calls for Service](datasets/nuek-vuh3.md) | Public Safety | 2017-03-17
 [Fire Incidents](datasets/wr8u-xric.md) | Public Safety | 2017-03-17
 [Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-17
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25

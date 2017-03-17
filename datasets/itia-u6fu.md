@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/cdc-state-system-e-cigarette-legislation-smokefree-campus) |
-| Metadata | [Link](https://chronicdata.cdc.gov/api/views/itia-u6fu) |
-| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/itia-u6fu/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/itia-u6fu/rows.csv?max_rows=100) |
-| Host | chronicdata.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/cdc-state-system-e-cigarette-legislation-smokefree-campus-4be2c) |
+| Metadata | [Link](https://data.cdc.gov/api/views/itia-u6fu) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/itia-u6fu/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/itia-u6fu/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
 | Id | itia-u6fu |
 | Name | CDC STATE System E-Cigarette Legislation - Smokefree Campus |
 | Attribution | Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health |
@@ -79,7 +79,7 @@ series e:itia-u6fu d:2004-10-01T00:00:00.000Z t:locationabbr=RI t:locationdesc="
 ```ls
 metric m:provisionaltvalue p:integer l:ProvisionAltValue d:"Alternate numeric value for non-numeric provision value; used for mapping and graphing" t:dataTypeName=number
 
-entity e:itia-u6fu l:"CDC STATE System E-Cigarette Legislation - Smokefree Campus" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://chronicdata.cdc.gov/api/views/itia-u6fu
+entity e:itia-u6fu l:"CDC STATE System E-Cigarette Legislation - Smokefree Campus" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://data.cdc.gov/api/views/itia-u6fu
 
 property e:itia-u6fu t:meta.view v:id=itia-u6fu v:category=Legislation v:attributionLink=http://www.cdc.gov/STATESystem v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Smokefree Campus" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
 

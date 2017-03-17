@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/cdc-pramstat-data-for-2004-ed14d) |
-| Metadata | [Link](https://data.cdc.gov/api/views/xyxp-dxa9) |
-| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/xyxp-dxa9/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/xyxp-dxa9/rows.csv?max_rows=100) |
-| Host | data.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/cdc-pramstat-data-for-2004) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/xyxp-dxa9) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/xyxp-dxa9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/xyxp-dxa9/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
 | Id | xyxp-dxa9 |
 | Name | CDC PRAMStat Data for 2004 |
 | Attribution | Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS) |
@@ -91,7 +91,7 @@ metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=nu
 
 metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
-entity e:xyxp-dxa9 l:"CDC PRAMStat Data for 2004" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://data.cdc.gov/api/views/xyxp-dxa9
+entity e:xyxp-dxa9 l:"CDC PRAMStat Data for 2004" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://chronicdata.cdc.gov/api/views/xyxp-dxa9
 
 property e:xyxp-dxa9 t:meta.view v:id=xyxp-dxa9 v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/index v:averageRating=0 v:name="CDC PRAMStat Data for 2004" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
 
