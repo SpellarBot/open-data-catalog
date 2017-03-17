@@ -20,7 +20,7 @@
 ```ls
 | Included | Schema Type | Field Name          | Name                | Data Type | Render Type |
 | ======== | =========== | =================== | =================== | ========= | =========== |
-| No       | time        | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | time        | :updated_at         | updated_at          | meta_data | meta_data   |
 | Yes      | series tag  | first_name          | First Name          | text      | text        |
 | Yes      | series tag  | last_name           | Last Name           | text      | text        |
 | Yes      | series tag  | email               | Email               | email     | email       |

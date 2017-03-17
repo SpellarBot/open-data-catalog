@@ -15,8 +15,8 @@
 | Category | Public Health |
 | Tags | asbestos, contractors, idph, license |
 | Created | 2013-09-10T16:31:18Z |
-| Publication Date | 2017-03-10T21:24:33Z |
-| Rows Updated | 2017-03-10T21:24:26Z |
+| Publication Date | 2017-03-15T14:11:16Z |
+| Rows Updated | 2017-03-15T14:11:09Z |
 
 ## Description
 
@@ -37,7 +37,7 @@ Last Updated: February 2017
 | Yes      | series tag  | county                    | COUNTY                    | text          | text          |
 | Yes      | series tag  | contact_person            | CONTACT PERSON            | text          | text          |
 | Yes      | series tag  | residential_removal       | RESIDENTIAL REMOVAL       | text          | text          |
-| Yes      | series tag  | insurance_expiration_date | INSURANCE EXPIRATION DATE | text          | text          |
+| No       |             | insurance_expiration_date | INSURANCE EXPIRATION DATE | text          | text          |
 | Yes      | series tag  | phone                     | PHONE                     | text          | number        |
 | Yes      | series tag  | fax                       | FAX                       | text          | number        |
 | Yes      | series tag  | email                     | EMAIL                     | email         | email         |
@@ -54,17 +54,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = address
+Excluded Fields = address,insurance_expiration_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=10/24/2017 t:zip_code=63130 t:contractor_name="06 ENVIRONMENTAL SERVICES, INC." t:state=MO t:contact_person="DAN GIESLER" t:city="ST. LOUIS" m:row_number.5vh3-wnad=1
+series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:zip_code=63130 t:contractor_name="06 ENVIRONMENTAL SERVICES, INC." t:state=MO t:contact_person="DAN GIESLER" t:city="ST. LOUIS" m:row_number.5vh3-wnad=1
 
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=6/17/2017 t:zip_code=60514 t:contractor_name="1ST ALL AROUND COMPANY" t:email=1STALLAROUND@GMAIL.COM t:state=IL t:contact_person="MARCIN SWIERZOWSKI" t:residential_removal=YES t:city="CLARENDON HILLS" m:row_number.5vh3-wnad=2
+series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:zip_code=60514 t:contractor_name="1ST ALL AROUND COMPANY" t:email=1STALLAROUND@GMAIL.COM t:state=IL t:contact_person="MARCIN SWIERZOWSKI" t:residential_removal=YES t:city="CLARENDON HILLS" m:row_number.5vh3-wnad=2
 
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:insurance_expiration_date=5/16/2017 t:zip_code=62832 t:contractor_name="A & A ABATEMENT LLC" t:county=Perry t:email=roger.harsy@yahoo.com t:state=IL t:residential_removal=YES t:city="DU QUOIN" m:row_number.5vh3-wnad=3
+series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:zip_code=62832 t:contractor_name="A & A ABATEMENT LLC" t:county=Perry t:email=roger.harsy@yahoo.com t:state=IL t:residential_removal=YES t:city="DU QUOIN" m:row_number.5vh3-wnad=3
 ```
 
 ## Meta Commands

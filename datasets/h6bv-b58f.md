@@ -25,7 +25,7 @@ Montgomery County Urban Districts
 ```ls
 | Included | Schema Type    | Field Name  | Name       | Data Type  | Render Type |
 | ======== | ============== | =========== | ========== | ========== | =========== |
-| No       | time           | :updated_at | updated_at | meta_data  | meta_data   |
+| Yes      | time           | :updated_at | updated_at | meta_data  | meta_data   |
 | Yes      | numeric metric | objectid_1  | OBJECTID_1 | number     | number      |
 | Yes      | series tag     | objectid    | OBJECTID   | text       | number      |
 | Yes      | series tag     | name        | NAME       | text       | text        |

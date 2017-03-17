@@ -41,7 +41,7 @@ City-Parish employees' annual salaries and other payroll related information. In
 | Yes      | time           | hire_date            | CURRENT HIRE DATE    | calendar_date | calendar_date |
 | No       |                | end_date             | EMPLOYMENT END DATE  | calendar_date | calendar_date |
 | Yes      | numeric metric | scheduled_hours      | SCHEDULED HOURS      | number        | number        |
-| Yes      | numeric metric | longevity_percentage | LONGEVITY PERCENTAGE | number        | number        |
+| No       |                | longevity_percentage | LONGEVITY PERCENTAGE | number        | number        |
 | Yes      | numeric metric | base_hourly_rate     | BASE HOURLY RATE     | number        | number        |
 | Yes      | numeric metric | total_hourly_rate    | TOTAL HOURLY RATE    | number        | number        |
 | Yes      | numeric metric | overtime_hourly_rate | OVERTIME HOURLY RATE | number        | number        |
@@ -62,25 +62,23 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = end_date,year
+Excluded Fields = end_date,longevity_percentage,year
 ```
 
 ## Data Commands
 
 ```ls
-series e:g5c2-myyj d:1988-04-19T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.3957 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=46.2713 m:total_overtime_pay=3177.3 m:payroll_status=0 m:total_overtime_hours=66 m:longevity_percentage=0.15 m:scheduled_hours=80 m:base_pay=58904.9 m:gross_pay=62082.2
+series e:g5c2-myyj d:1988-04-19T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.3957 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=46.2713 m:total_overtime_pay=3177.3 m:payroll_status=0 m:total_overtime_hours=66 m:scheduled_hours=80 m:base_pay=58904.9 m:gross_pay=62082.2
 
-series e:g5c2-myyj d:1988-04-19T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.2243 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=42.3365 m:total_overtime_pay=374.25 m:payroll_status=5 m:total_overtime_hours=8 m:longevity_percentage=0.16 m:scheduled_hours=80 m:base_pay=54906.9 m:gross_pay=55281.15
+series e:g5c2-myyj d:1988-04-19T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.2243 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=42.3365 m:total_overtime_pay=374.25 m:payroll_status=5 m:total_overtime_hours=8 m:scheduled_hours=80 m:base_pay=54906.9 m:gross_pay=55281.15
 
-series e:g5c2-myyj d:2006-01-09T00:00:00.000Z t:first_name=WILLIAM t:department_num=05 t:job_code=370201 t:job_code_description="SR SPEC ASST PARISH ATTY-JOB SHARE" t:employee_num=000302 t:last_name=AARON t:division_num=0512000 t:department_name="PARISH ATTORNEY" t:division_name="PARISH ATTORNEY-LITIGATION" t:middle_init=R m:total_hourly_rate=47.5599 m:base_hourly_rate=39.6332 m:overtime_hourly_rate=71.3399 m:total_overtime_pay=0 m:payroll_status=0 m:total_overtime_hours=0 m:longevity_percentage=0.2 m:scheduled_hours=40 m:base_pay=49462.4 m:gross_pay=49462.4
+series e:g5c2-myyj d:2006-01-09T00:00:00.000Z t:first_name=WILLIAM t:department_num=05 t:job_code=370201 t:job_code_description="SR SPEC ASST PARISH ATTY-JOB SHARE" t:employee_num=000302 t:last_name=AARON t:division_num=0512000 t:department_name="PARISH ATTORNEY" t:division_name="PARISH ATTORNEY-LITIGATION" t:middle_init=R m:total_hourly_rate=47.5599 m:base_hourly_rate=39.6332 m:overtime_hourly_rate=71.3399 m:total_overtime_pay=0 m:payroll_status=0 m:total_overtime_hours=0 m:scheduled_hours=40 m:base_pay=49462.4 m:gross_pay=49462.4
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:scheduled_hours p:integer l:"SCHEDULED HOURS" d:"Scheduled hours per pay period" t:dataTypeName=number
-
-metric m:longevity_percentage p:float l:"LONGEVITY PERCENTAGE" d:"Percentage of pay earned by employee for longevity with City-Parish" t:dataTypeName=number
 
 metric m:base_hourly_rate p:float l:"BASE HOURLY RATE" d:"Hourly rate based on pay grade and step" t:dataTypeName=number
 

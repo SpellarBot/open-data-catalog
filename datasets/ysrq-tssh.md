@@ -26,7 +26,7 @@ The Aquatic Plant and Algae Management General Permit (permit) is a combined Nat
 ```ls
 | Included | Schema Type | Field Name                    | Name                            | Data Type | Render Type |
 | ======== | =========== | ============================= | =============================== | ========= | =========== |
-| No       | time        | :updated_at                   | updated_at                      | meta_data | meta_data   |
+| Yes      | time        | :updated_at                   | updated_at                      | meta_data | meta_data   |
 | Yes      | series tag  | name                          | Name                            | text      | text        |
 | Yes      | series tag  | attachment                    | Attachment                      | document  | document    |
 | Yes      | series tag  | attachment_2                  | Attachment 2                    | document  | document    |

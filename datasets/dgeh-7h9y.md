@@ -27,11 +27,11 @@ Patrons may place holds on desired materials either online or by contacting any 
 ```ls
 | Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
 | ======== | ============== | =========== | ========== | ========= | =========== |
-| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
+| Yes      | time           | :updated_at | updated_at | meta_data | meta_data   |
 | Yes      | series tag     | location    | LOCATION   | text      | text        |
 | No       |                | address     | ADDRESS    | text      | text        |
 | Yes      | series tag     | city        | CITY       | text      | text        |
-| Yes      | series tag     | zip         | ZIP        | text      | text        |
+| Yes      | numeric metric | zip         | ZIP        | number    | text        |
 | Yes      | numeric metric | january     | JANUARY    | number    | number      |
 | Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
 | Yes      | numeric metric | march       | MARCH      | number    | number      |
@@ -63,16 +63,18 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=4 m:may=0 m:november=18 m:march=0 m:april=0 m:february=0 m:june=0 m:january=0 m:ytd=63 m:august=7 m:july=0 m:october=26 m:september=8
+series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:location="Albany Park" t:city=CHICAGO m:zip=60625 m:may=0 m:november=18 m:april=0 m:june=0 m:december=4 m:march=0 m:february=0 m:january=0 m:ytd=63 m:august=7 m:july=0 m:october=26 m:september=8
 
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=23 m:may=7 m:november=11 m:march=14 m:april=8 m:february=12 m:june=16 m:january=17 m:ytd=152 m:august=12 m:july=9 m:october=12 m:september=11
+series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:location=Altgeld t:city=CHICAGO m:zip=60827 m:may=7 m:november=11 m:april=8 m:june=16 m:december=23 m:march=14 m:february=12 m:january=17 m:ytd=152 m:august=12 m:july=9 m:october=12 m:september=11
 
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=110 m:may=90 m:november=73 m:march=85 m:april=110 m:february=92 m:june=85 m:january=110 m:ytd=1128 m:august=116 m:july=114 m:october=83 m:september=60
+series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:location="Archer Heights" t:city=CHICAGO m:zip=60632 m:may=90 m:november=73 m:april=110 m:june=85 m:december=110 m:march=85 m:february=92 m:january=110 m:ytd=1128 m:august=116 m:july=114 m:october=83 m:september=60
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:zip p:integer l:ZIP t:dataTypeName=number
+
 metric m:january p:integer l:JANUARY t:dataTypeName=number
 
 metric m:february p:integer l:FEBRUARY t:dataTypeName=number

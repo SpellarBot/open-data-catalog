@@ -26,13 +26,13 @@ This data set pertains to all types of structural permits. Data includes details
 | Included | Schema Type    | Field Name                             | Name                                   | Data Type     | Render Type   |
 | ======== | ============== | ====================================== | ====================================== | ============= | ============= |
 | Yes      | series tag     | permit_number                          | Permit Number                          | text          | text          |
-| Yes      | series tag     | permit_type                            | Permit Type                            | text          | number        |
+| Yes      | numeric metric | permit_type                            | Permit Type                            | number        | number        |
 | Yes      | series tag     | permit_type_definition                 | Permit Type Definition                 | text          | text          |
 | Yes      | time           | permit_creation_date                   | Permit Creation Date                   | date          | date          |
 | Yes      | series tag     | block                                  | Block                                  | text          | text          |
 | Yes      | series tag     | lot                                    | Lot                                    | text          | text          |
-| Yes      | series tag     | street_number                          | Street Number                          | text          | text          |
-| Yes      | series tag     | street_number_suffix                   | Street Number Suffix                   | text          | text          |
+| Yes      | numeric metric | street_number                          | Street Number                          | number        | text          |
+| Yes      | numeric metric | street_number_suffix                   | Street Number Suffix                   | number        | text          |
 | Yes      | series tag     | street_name                            | Street Name                            | text          | text          |
 | Yes      | series tag     | street_suffix                          | Street Suffix                          | text          | text          |
 | Yes      | numeric metric | unit                                   | Unit                                   | number        | text          |
@@ -54,15 +54,15 @@ This data set pertains to all types of structural permits. Data includes details
 | Yes      | numeric metric | proposed_units                         | Proposed Units                         | number        | number        |
 | Yes      | numeric metric | plansets                               | Plansets                               | number        | number        |
 | Yes      | series tag     | tidf_compliance                        | TIDF Compliance                        | checkbox      | checkbox      |
-| Yes      | series tag     | use_codes                              | Use Codes                              | text          | text          |
+| Yes      | numeric metric | use_codes                              | Use Codes                              | number        | text          |
 | Yes      | series tag     | use_code_description                   | Use Code Description                   | text          | text          |
 | Yes      | series tag     | existing_construction_type             | Existing Construction Type             | text          | text          |
 | Yes      | series tag     | existing_construction_type_description | Existing Construction Type Description | text          | text          |
 | Yes      | series tag     | proposed_construction_type             | Proposed Construction Type             | text          | text          |
 | Yes      | series tag     | proposed_construction_type_description | Proposed Construction Type Description | text          | text          |
-| Yes      | series tag     | supervisor_district                    | Supervisor District                    | text          | text          |
+| Yes      | numeric metric | supervisor_district                    | Supervisor District                    | number        | text          |
 | Yes      | series tag     | neighborhoods_analysis_boundaries      | Neighborhoods - Analysis Boundaries    | text          | text          |
-| Yes      | series tag     | zipcode                                | Zipcode                                | text          | text          |
+| Yes      | numeric metric | zipcode                                | Zipcode                                | number        | text          |
 ```
 
 ## Time Field
@@ -75,22 +75,26 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = status_date,permit_expiration_date
+Excluded Fields = permit_expiration_date,status_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:i98e-djp9 d:1964-08-27T00:00:00.000Z t:permit_type=3 t:fire_only_permit=false t:neighborhoods_analysis_boundaries="Inner Richmond" t:use_code_description=office t:status=cancelled t:tidf_compliance=false t:zipcode=94118 t:street_suffix=Ave t:street_name=05th t:block=1548 t:voluntary_soft_story_retrofit=false t:proposed_use=office t:supervisor_district=1 t:structural_notification=false t:existing_use=office t:use_codes=10 t:permit_number=0304329 t:description=horizontal t:lot=014 t:street_number=553 t:permit_type_definition="additions alterations or repairs" m:plansets=2 m:revised_cost=15000 m:estimated_cost=100 m:number_of_existing_stories=999 m:proposed_units=9999 m:number_of_proposed_stories=999
+series e:i98e-djp9 d:1964-08-27T00:00:00.000Z t:fire_only_permit=false t:neighborhoods_analysis_boundaries="Inner Richmond" t:use_code_description=office t:status=cancelled t:tidf_compliance=false t:street_name=05th t:street_suffix=Ave t:block=1548 t:proposed_use=office t:voluntary_soft_story_retrofit=false t:structural_notification=false t:existing_use=office t:permit_number=0304329 t:description=horizontal t:lot=014 t:permit_type_definition="additions alterations or repairs" m:permit_type=3 m:use_codes=10 m:plansets=2 m:revised_cost=15000 m:zipcode=94118 m:estimated_cost=100 m:number_of_existing_stories=999 m:street_number=553 m:proposed_units=9999 m:number_of_proposed_stories=999 m:supervisor_district=1
 
-series e:i98e-djp9 d:1966-07-08T00:00:00.000Z t:permit_type=4 t:fire_only_permit=false t:neighborhoods_analysis_boundaries="Pacific Heights" t:use_code_description="not applicable" t:status=cancelled t:tidf_compliance=false t:street_name="Van Ness" t:street_suffix=Ave t:zipcode=94109 t:block=0623 t:voluntary_soft_story_retrofit=false t:supervisor_district=2 t:structural_notification=false t:existing_use="not applicable" t:use_codes=00 t:permit_number=0332010 t:lot=002 t:street_number=1701 t:permit_type_definition=sign-errect m:unit=0 m:plansets=0 m:estimated_cost=1 m:number_of_existing_stories=6
+series e:i98e-djp9 d:1966-07-08T00:00:00.000Z t:fire_only_permit=false t:neighborhoods_analysis_boundaries="Pacific Heights" t:use_code_description="not applicable" t:status=cancelled t:tidf_compliance=false t:street_name="Van Ness" t:street_suffix=Ave t:block=0623 t:voluntary_soft_story_retrofit=false t:structural_notification=false t:existing_use="not applicable" t:permit_number=0332010 t:lot=002 t:permit_type_definition=sign-errect m:permit_type=4 m:unit=0 m:use_codes=0 m:plansets=0 m:zipcode=94109 m:estimated_cost=1 m:number_of_existing_stories=6 m:street_number=1701 m:supervisor_district=2
 
-series e:i98e-djp9 d:1966-12-02T00:00:00.000Z t:permit_type=4 t:fire_only_permit=false t:neighborhoods_analysis_boundaries="Pacific Heights" t:use_code_description="not applicable" t:status=cancelled t:tidf_compliance=false t:street_name="Van Ness" t:street_suffix=Ave t:zipcode=94109 t:block=0623 t:voluntary_soft_story_retrofit=false t:supervisor_district=2 t:structural_notification=false t:existing_use="not applicable" t:use_codes=00 t:permit_number=0337505 t:lot=002 t:street_number=1701 t:permit_type_definition=sign-errect m:plansets=0 m:estimated_cost=1 m:number_of_existing_stories=4
+series e:i98e-djp9 d:1966-12-02T00:00:00.000Z t:fire_only_permit=false t:neighborhoods_analysis_boundaries="Pacific Heights" t:use_code_description="not applicable" t:status=cancelled t:tidf_compliance=false t:street_name="Van Ness" t:street_suffix=Ave t:block=0623 t:voluntary_soft_story_retrofit=false t:structural_notification=false t:existing_use="not applicable" t:permit_number=0337505 t:lot=002 t:permit_type_definition=sign-errect m:permit_type=4 m:use_codes=0 m:plansets=0 m:zipcode=94109 m:estimated_cost=1 m:number_of_existing_stories=4 m:street_number=1701 m:supervisor_district=2
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:permit_type p:integer l:"Permit Type" t:dataTypeName=number
+
+metric m:street_number p:integer l:"Street Number" t:dataTypeName=number
+
 metric m:unit p:integer l:Unit t:dataTypeName=number
 
 metric m:number_of_existing_stories p:integer l:"Number of Existing Stories" t:dataTypeName=number
@@ -106,6 +110,12 @@ metric m:existing_units p:integer l:"Existing Units" t:dataTypeName=number
 metric m:proposed_units p:long l:"Proposed Units" t:dataTypeName=number
 
 metric m:plansets p:integer l:Plansets t:dataTypeName=number
+
+metric m:use_codes l:"Use Codes" t:dataTypeName=number
+
+metric m:supervisor_district p:integer l:"Supervisor District" t:dataTypeName=number
+
+metric m:zipcode p:integer l:Zipcode t:dataTypeName=number
 
 entity e:i98e-djp9 l:"Building Permits" t:url=https://data.sfgov.org/api/views/i98e-djp9
 
