@@ -15,8 +15,8 @@
 | Category | Education |
 | Tags | attendance, schools, doe, education |
 | Created | 2015-12-31T18:03:16Z |
-| Publication Date | 2017-03-16T21:53:45Z |
-| Rows Updated | 2017-03-16T21:53:40Z |
+| Publication Date | 2017-03-17T22:15:54Z |
+| Rows Updated | 2017-03-17T22:15:48Z |
 
 ## Description
 
@@ -55,9 +55,9 @@ series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X033 t:date=09-09-1
 ## Meta Commands
 
 ```ls
-metric m:register p:long l:REGISTER t:dataTypeName=number
+metric m:register p:integer l:REGISTER t:dataTypeName=number
 
-metric m:of_attd_taken p:long l:%_OF_ATTD_TAKEN t:dataTypeName=number
+metric m:of_attd_taken p:float l:%_OF_ATTD_TAKEN t:dataTypeName=number
 
 entity e:madj-gkhr l:"Attendance 4PM Report" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/madj-gkhr
 

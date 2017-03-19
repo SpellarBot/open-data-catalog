@@ -53,7 +53,7 @@ property e:u65f-usui t:meta.view v:id=u65f-usui v:category=Health v:averageRatin
 
 property e:u65f-usui t:meta.view.license v:name="Public Domain"
 
-property e:u65f-usui t:meta.view.owner v:id=pf5f-nyht v:screenName="Kathryn M" v:roleName=publisher v:displayName="Kathryn M"
+property e:u65f-usui t:meta.view.owner v:id=pf5f-nyht v:screenName="Kathryn M" v:displayName="Kathryn M"
 
-property e:u65f-usui t:meta.view.tableauthor v:id=pf5f-nyht v:screenName="Kathryn M" v:roleName=publisher v:displayName="Kathryn M"
+property e:u65f-usui t:meta.view.tableauthor v:id=pf5f-nyht v:screenName="Kathryn M" v:displayName="Kathryn M"
 ```

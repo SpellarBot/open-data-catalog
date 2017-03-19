@@ -65,11 +65,11 @@ Excluded Fields = lpep_dropoff_datetime,pickup_longitude,pickup_latitude,dropoff
 ## Data Commands
 
 ```ls
-series e:gi8d-wdg5 d:2015-10-26T13:02:48.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=1 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=4 m:fare_amount=3.5 m:passenger_count=1 m:extra=0 m:trip_distance=0.3 m:tolls_amount=0 m:improvement_surcharge=0 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-01-01T00:34:42.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=6.3 m:fare_amount=5 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.88 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=0
 
-series e:gi8d-wdg5 d:2015-10-18T04:09:03.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=16.3 m:fare_amount=12.5 m:passenger_count=1 m:extra=0.5 m:trip_distance=3.38 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=2.5
+series e:gi8d-wdg5 d:2015-01-01T00:34:46.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=13.3 m:fare_amount=12 m:passenger_count=1 m:extra=0.5 m:trip_distance=3.08 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=0
 
-series e:gi8d-wdg5 d:2015-05-31T21:09:35.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:fare_amount=5.5 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.7 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=1
+series e:gi8d-wdg5 d:2015-01-01T00:34:44.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:fare_amount=5 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.9 m:tolls_amount=0 m:improvement_surcharge=0 m:tip_amount=1.8
 ```
 
 ## Meta Commands

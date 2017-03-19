@@ -15,8 +15,8 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-16T21:30:03Z |
-| Rows Updated | 2017-03-16T21:29:58Z |
+| Publication Date | 2017-03-18T21:20:06Z |
+| Rows Updated | 2017-03-18T21:20:02Z |
 
 ## Description
 
@@ -57,11 +57,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-03-22T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2016-05-14T10:00:00.000Z t:event_borough=Manhattan t:event_type="Public Program / Exhibitions" t:event_agency="Trust for Governor's Island" t:event_id=248006 t:street_closure_type=N/A t:community_board=N/A t:event_name=play:ground t:police_precinct=N/A m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-03-23T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-03-25T09:00:00.000Z t:event_borough=Manhattan t:event_type=Parade t:event_agency="Police Department" t:event_id=282369 t:event_street_side=Full t:event_location="LAFAYETTE STREET between READE STREET and DUANE STREET,  READE STREET between CENTRE STREET and BROADWAY,  BROADWAY between READE STREET and BEAVER STREET,  STONE STREET between BROADWAY and BROAD STREET, Thomas Paine Park (Foley Square): Thomas Paine Park (Foley Square)" t:street_closure_type="Full Street Closure" t:community_board=1, t:event_name="Gift of Life Walk" t:police_precinct="1, 5," m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-03-24T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-04-14T13:00:00.000Z t:event_borough=Bronx t:event_type=Parade t:event_agency="Police Department" t:event_id=305458 t:event_street_side=West t:event_location="GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET,  GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET,  GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET" t:street_closure_type="Full Street Closure" t:community_board=7, t:event_name="Good Friday Procession" t:police_precinct=52, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands

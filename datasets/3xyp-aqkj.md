@@ -16,7 +16,7 @@
 | Tags | fcc consumer inquiry, fcc consumer complaints, fcc |
 | Created | 2016-03-07T23:15:08Z |
 | Publication Date | 2017-03-02T21:24:52Z |
-| Rows Updated | 2017-03-15T07:00:19Z |
+| Rows Updated | 2017-03-19T07:01:20Z |
 
 ## Description
 
