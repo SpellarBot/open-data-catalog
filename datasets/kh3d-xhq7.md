@@ -58,7 +58,7 @@ Excluded Fields = mn,tu,we,th,fr,sa,su
 ```ls
 series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z t:phone="(718) 352-2027" t:name=Auburndale m:row_number.kh3d-xhq7=1
 
-series e:kh3d-xhq7 d:2011-10-08T13:59:56.000Z t:phone="(718) 639-5228" t:name=Maspeth t:notification="Return all Queens Library books, videos, music at Queens Library at Maspeth. Use the self-service book return, available every day and every night. Receipts given for your security." m:row_number.kh3d-xhq7=2
+series e:kh3d-xhq7 d:2011-10-08T13:59:56.000Z t:phone="(718) 639-5228" t:name=Maspeth t:notification="<b>Return all Queens Library books, videos, music at Queens Library at Maspeth. Use the self-service book return, available every day and every night. Receipts given for your security.</b>" m:row_number.kh3d-xhq7=2
 
 series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z t:phone="(718) 423-7004" t:name="Bay Terrace" m:row_number.kh3d-xhq7=3
 ```

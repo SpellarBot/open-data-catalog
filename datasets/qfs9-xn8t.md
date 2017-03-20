@@ -28,7 +28,7 @@ The Transportation Division of the New York City Department of City Planning (NY
 | ======== | ============== | ===================== | ===================== | ========= | =========== |
 | Yes      | series tag     | locationid            | LocationID            | text      | number      |
 | Yes      | series tag     | locationtype          | LocationType          | text      | text        |
-| No       |                | typeoftime            | TypeOfTime            | text      | text        |
+| Yes      | series tag     | typeoftime            | TypeOfTime            | text      | text        |
 | Yes      | series tag     | location              | Location              | text      | text        |
 | No       |                | location_lat          | Location_Lat          | number    | number      |
 | No       |                | location_long         | Location_Long         | number    | number      |
@@ -64,17 +64,17 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = location_lat,location_long,typeoftime
+Excluded Fields = location_lat,location_long
 ```
 
 ## Data Commands
 
 ```ls
-series e:qfs9-xn8t d:2005-01-01T00:00:00.000Z t:locationid=1 t:location="Second Avenue at E7 St." t:locationtype=On-Street m:citibike_all=0 m:non_citibikecyc=1027 m:cycadjacentlane=15 m:noncyc_otheruser=34 m:cycsidewalk=51 m:cyclistvolume=1027 m:malecyc_total=834 m:citibike_male=0 m:male_cyc_helmet=154 m:cyc_under16=36 m:cyccnterflowoutoflane=29 m:cyccounterflowinlane=99 m:cyclotherlane=247 m:cycbikelane=586 m:female_cyc_helmet=42 m:totalusers=1061 m:femalecyc_total=193 m:cycl_helmet_all=196 m:citibike_female=0
+series e:qfs9-xn8t d:2005-01-01T00:00:00.000Z t:locationid=1 t:typeoftime=Weekday t:location="Second Avenue at E7 St." t:locationtype=On-Street m:citibike_all=0 m:non_citibikecyc=1027 m:cycadjacentlane=15 m:noncyc_otheruser=34 m:cycsidewalk=51 m:cyclistvolume=1027 m:malecyc_total=834 m:citibike_male=0 m:male_cyc_helmet=154 m:cyc_under16=36 m:cyccnterflowoutoflane=29 m:cyccounterflowinlane=99 m:cyclotherlane=247 m:cycbikelane=586 m:female_cyc_helmet=42 m:totalusers=1061 m:femalecyc_total=193 m:cycl_helmet_all=196 m:citibike_female=0
 
-series e:qfs9-xn8t d:2006-01-01T00:00:00.000Z t:locationid=1 t:location="Second Avenue at E7 St." t:locationtype=On-Street m:citibike_all=0 m:non_citibikecyc=1101 m:cycadjacentlane=26 m:noncyc_otheruser=25 m:cycsidewalk=45 m:cyclistvolume=1101 m:malecyc_total=868 m:citibike_male=0 m:male_cyc_helmet=207 m:cyc_under16=27 m:cyccnterflowoutoflane=37 m:cyccounterflowinlane=94 m:cyclotherlane=207 m:cycbikelane=692 m:female_cyc_helmet=94 m:totalusers=1126 m:femalecyc_total=233 m:cycl_helmet_all=301 m:citibike_female=0
+series e:qfs9-xn8t d:2006-01-01T00:00:00.000Z t:locationid=1 t:typeoftime=Weekday t:location="Second Avenue at E7 St." t:locationtype=On-Street m:citibike_all=0 m:non_citibikecyc=1101 m:cycadjacentlane=26 m:noncyc_otheruser=25 m:cycsidewalk=45 m:cyclistvolume=1101 m:malecyc_total=868 m:citibike_male=0 m:male_cyc_helmet=207 m:cyc_under16=27 m:cyccnterflowoutoflane=37 m:cyccounterflowinlane=94 m:cyclotherlane=207 m:cycbikelane=692 m:female_cyc_helmet=94 m:totalusers=1126 m:femalecyc_total=233 m:cycl_helmet_all=301 m:citibike_female=0
 
-series e:qfs9-xn8t d:2007-01-01T00:00:00.000Z t:locationid=1 t:location="Second Avenue at E7 St." t:locationtype=On-Street m:citibike_all=0 m:non_citibikecyc=1109 m:cycadjacentlane=34 m:noncyc_otheruser=42 m:cycsidewalk=37 m:cyclistvolume=1109 m:malecyc_total=844 m:citibike_male=0 m:male_cyc_helmet=263 m:cyc_under16=37 m:cyccnterflowoutoflane=23 m:cyccounterflowinlane=84 m:cyclotherlane=205 m:cycbikelane=726 m:female_cyc_helmet=102 m:totalusers=1150 m:femalecyc_total=265 m:cycl_helmet_all=365 m:citibike_female=0
+series e:qfs9-xn8t d:2007-01-01T00:00:00.000Z t:locationid=1 t:typeoftime=Weekday t:location="Second Avenue at E7 St." t:locationtype=On-Street m:citibike_all=0 m:non_citibikecyc=1109 m:cycadjacentlane=34 m:noncyc_otheruser=42 m:cycsidewalk=37 m:cyclistvolume=1109 m:malecyc_total=844 m:citibike_male=0 m:male_cyc_helmet=263 m:cyc_under16=37 m:cyccnterflowoutoflane=23 m:cyccounterflowinlane=84 m:cyclotherlane=205 m:cycbikelane=726 m:female_cyc_helmet=102 m:totalusers=1150 m:femalecyc_total=265 m:cycl_helmet_all=365 m:citibike_female=0
 ```
 
 ## Meta Commands

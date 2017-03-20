@@ -30,7 +30,7 @@ Individual informal consumer complaint data detailing complaints filed with the 
 | No       |             | id                               | Ticket ID                  | text          | number        |
 | Yes      | time        | ticket_created                   | Ticket Created             | date          | date          |
 | No       |             | issue_date                       | Date of Issue              | calendar_date | calendar_date |
-| No       |             | issue_time                       | Time of Issue              | text          | text          |
+| Yes      | series tag  | issue_time                       | Time of Issue              | text          | text          |
 | Yes      | series tag  | issue_type                       | Form                       | text          | text          |
 | Yes      | series tag  | method                           | Method                     | text          | text          |
 | Yes      | series tag  | issue                            | Issue                      | text          | text          |
@@ -52,17 +52,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = id,issue_date,issue_time
+Excluded Fields = id,issue_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:3xyp-aqkj d:2016-05-25T11:15:29.000Z t:zip=33324 t:issue_type=Phone t:issue=Robocalls t:state=FL t:type_of_call_or_messge="Autodialed Live Voice Call" t:method="Internet (VOIP)" t:caller_id_number=866-410-0458 t:city=Plantation m:row_number.3xyp-aqkj=1
+series e:3xyp-aqkj d:2016-05-25T11:15:29.000Z t:zip=33324 t:issue_type=Phone t:issue_time="1:00 pm" t:issue=Robocalls t:state=FL t:type_of_call_or_messge="Autodialed Live Voice Call" t:method="Internet (VOIP)" t:caller_id_number=866-410-0458 t:city=Plantation m:row_number.3xyp-aqkj=1
 
-series e:3xyp-aqkj d:2016-05-25T12:51:35.000Z t:zip=92078 t:issue_type=Phone t:issue="Telemarketing (including do not call and spoofing)" t:state=CA t:advertiser_business_phone_number=619-840-7262 t:type_of_call_or_messge="Live Voice" t:method=Wired t:caller_id_number=619-840-7262 t:city="San Marcos" m:row_number.3xyp-aqkj=2
+series e:3xyp-aqkj d:2016-05-25T12:51:35.000Z t:zip=92078 t:issue_type=Phone t:issue_time="12:00 pm" t:issue="Telemarketing (including do not call and spoofing)" t:state=CA t:advertiser_business_phone_number=619-840-7262 t:type_of_call_or_messge="Live Voice" t:method=Wired t:caller_id_number=619-840-7262 t:city="San Marcos" m:row_number.3xyp-aqkj=2
 
-series e:3xyp-aqkj d:2016-05-25T12:56:54.000Z t:zip=07481 t:issue_type=Phone t:issue="Telemarketing (including do not call and spoofing)" t:state=NJ t:advertiser_business_phone_number=626-691-9090 t:type_of_call_or_messge="Live Voice" t:method="Wireless (cell phone/other mobile device)" t:caller_id_number=626-691-9090 t:city=Wyckoff m:row_number.3xyp-aqkj=3
+series e:3xyp-aqkj d:2016-05-25T12:56:54.000Z t:zip=07481 t:issue_type=Phone t:issue_time="8:08 PM" t:issue="Telemarketing (including do not call and spoofing)" t:state=NJ t:advertiser_business_phone_number=626-691-9090 t:type_of_call_or_messge="Live Voice" t:method="Wireless (cell phone/other mobile device)" t:caller_id_number=626-691-9090 t:city=Wyckoff m:row_number.3xyp-aqkj=3
 ```
 
 ## Meta Commands

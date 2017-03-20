@@ -16,7 +16,7 @@
 | Tags | contractor, affidavit, notes |
 | Created | 2015-10-30T20:39:23Z |
 | Publication Date | 2015-12-07T20:08:05Z |
-| Rows Updated | 2017-03-19T14:00:23Z |
+| Rows Updated | 2017-03-20T14:00:25Z |
 
 ## Description
 
@@ -48,11 +48,11 @@ Excluded Fields = id
 ## Data Commands
 
 ```ls
-series e:gs3k-hp7i d:2015-11-30T00:00:00.000Z t:notes="-- On 10/20/2015:--
+series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing" m:row_number.gs3k-hp7i=1
 
-series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing" m:row_number.gs3k-hp7i=2
+series e:gs3k-hp7i d:2016-08-17T00:00:00.000Z t:notes="Filed by Sarah Wright" m:row_number.gs3k-hp7i=2
 
-series e:gs3k-hp7i d:2015-10-27T00:00:00.000Z t:notes="-- On 7/10/2015:--
+series e:gs3k-hp7i d:2013-04-19T00:00:00.000Z t:notes="Filed by Rob Whitmore" m:row_number.gs3k-hp7i=3
 ```
 
 ## Meta Commands

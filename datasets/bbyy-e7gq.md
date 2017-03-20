@@ -16,7 +16,7 @@
 | Tags | bicycling, sustainability, transportation |
 | Created | 2013-07-18T21:57:41Z |
 | Publication Date | 2015-12-21T21:33:36Z |
-| Rows Updated | 2017-03-19T11:00:38Z |
+| Rows Updated | 2017-03-20T11:00:37Z |
 
 ## Description
 
@@ -72,7 +72,7 @@ entity e:bbyy-e7gq l:"Divvy Bicycle Stations" t:attribution="Alta Bicycle Share,
 
 property e:bbyy-e7gq t:meta.view v:id=bbyy-e7gq v:category=Transportation v:attributionLink=http://divvybikes.com/stations/json v:averageRating=0 v:name="Divvy Bicycle Stations" v:attribution="Alta Bicycle Share, Inc."
 
-property e:bbyy-e7gq t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:bbyy-e7gq t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:displayName="Jonathan Levy"
 
 property e:bbyy-e7gq t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```

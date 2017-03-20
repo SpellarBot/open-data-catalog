@@ -27,22 +27,22 @@ Users may occasionally see a route without a garage assignment. Because this dat
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name              | Name                    | Data Type     | Render Type   |
-| ======== | ============== | ======================= | ======================= | ============= | ============= |
-| No       |                | school_year             | School_Year             | text          | text          |
-| Yes      | series tag     | route_number            | Route_Number            | text          | text          |
-| Yes      | series tag     | service_type            | Service_Type            | text          | text          |
-| Yes      | series tag     | vehicle_typedescription | Vehicle_TypeDescription | text          | text          |
-| Yes      | time           | route_start_date        | Route_Start_Date        | calendar_date | calendar_date |
-| Yes      | series tag     | vendor_code             | Vendor_Code             | text          | text          |
-| Yes      | series tag     | vendor_name             | Vendor_Name             | text          | text          |
-| Yes      | series tag     | vendor_affiliation      | Vendor_Affiliation      | text          | text          |
-| Yes      | series tag     | garage_street_name      | Garage _Street_Address  | text          | text          |
-| Yes      | series tag     | garage_city             | Garage_City             | text          | text          |
-| Yes      | series tag     | garage_state            | Garage_State            | text          | text          |
-| Yes      | series tag     | garage_zip              | Garage_Zip              | text          | text          |
-| Yes      | numeric metric | xcoordinates            | XCoordinates            | number        | text          |
-| Yes      | numeric metric | ycoordinates            | YCoordinates            | number        | text          |
+| Included | Schema Type | Field Name              | Name                    | Data Type     | Render Type   |
+| ======== | =========== | ======================= | ======================= | ============= | ============= |
+| Yes      | series tag  | school_year             | School_Year             | text          | text          |
+| Yes      | series tag  | route_number            | Route_Number            | text          | text          |
+| Yes      | series tag  | service_type            | Service_Type            | text          | text          |
+| Yes      | series tag  | vehicle_typedescription | Vehicle_TypeDescription | text          | text          |
+| Yes      | time        | route_start_date        | Route_Start_Date        | calendar_date | calendar_date |
+| Yes      | series tag  | vendor_code             | Vendor_Code             | text          | text          |
+| Yes      | series tag  | vendor_name             | Vendor_Name             | text          | text          |
+| Yes      | series tag  | vendor_affiliation      | Vendor_Affiliation      | text          | text          |
+| Yes      | series tag  | garage_street_name      | Garage _Street_Address  | text          | text          |
+| Yes      | series tag  | garage_city             | Garage_City             | text          | text          |
+| Yes      | series tag  | garage_state            | Garage_State            | text          | text          |
+| Yes      | series tag  | garage_zip              | Garage_Zip              | text          | text          |
+| No       |             | xcoordinates            | XCoordinates            | number        | text          |
+| No       |             | ycoordinates            | YCoordinates            | number        | text          |
 ```
 
 ## Time Field
@@ -55,25 +55,23 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = school_year
+Excluded Fields = xcoordinates,ycoordinates
 ```
 
 ## Data Commands
 
 ```ls
-series e:8yac-vygm d:2016-03-21T00:00:00.000Z t:route_number=C911 t:vendor_code=VN t:garage_street_name="670 Hillside Road" t:garage_city="Pelham Manor" t:garage_state=NY t:garage_zip=10803 t:vendor_affiliation="VAN TRANS LLC (B2192)" t:service_type=D2D t:vehicle_typedescription="Non-Wheelchair Accessible Alternative (NWC)" t:vendor_name="VAN TRANS LLC (B2192)" m:xcoordinates=1034573.798947 m:ycoordinates=265547.592642
+series e:8yac-vygm d:2016-03-21T00:00:00.000Z t:route_number=C911 t:vendor_code=VN t:garage_street_name="670 Hillside Road" t:garage_city="Pelham Manor" t:garage_state=NY t:garage_zip=10803 t:vendor_affiliation="VAN TRANS LLC (B2192)" t:service_type=D2D t:vehicle_typedescription="Non-Wheelchair Accessible Alternative (NWC)" t:school_year=2015-2016 t:vendor_name="VAN TRANS LLC (B2192)" m:row_number.8yac-vygm=1
 
-series e:8yac-vygm d:2015-09-09T00:00:00.000Z t:route_number=J499 t:vendor_code=RV t:garage_street_name="297 NORMAN AVENUE" t:garage_city=Brooklyn t:garage_state=NY t:garage_zip=11222 t:vendor_affiliation="RELIANT TRANS, INC. (B2321)" t:service_type=D2D t:vehicle_typedescription=Mini-Wagon t:vendor_name="RELIANT TRANS, INC. (B2321)" m:xcoordinates=1000787 m:ycoordinates=204481
+series e:8yac-vygm d:2015-09-09T00:00:00.000Z t:route_number=J499 t:vendor_code=RV t:garage_street_name="297 NORMAN AVENUE" t:garage_city=Brooklyn t:garage_state=NY t:garage_zip=11222 t:vendor_affiliation="RELIANT TRANS, INC. (B2321)" t:service_type=D2D t:vehicle_typedescription=Mini-Wagon t:school_year=2015-2016 t:vendor_name="RELIANT TRANS, INC. (B2321)" m:row_number.8yac-vygm=2
 
-series e:8yac-vygm d:2015-09-01T00:00:00.000Z t:route_number=J500 t:vendor_code=HT t:garage_street_name="2859 WEST 37 STREET" t:garage_city=BROOKLYN t:garage_state=NY t:garage_zip=11224 t:vendor_affiliation="THOMAS BUSES, INC. (B2321)" t:service_type=D2D t:vehicle_typedescription="Non-Wheelchair Accessible Alternative (NWC)" t:vendor_name="THOMAS BUSES, INC. (B2321)" m:xcoordinates=983439 m:ycoordinates=148884
+series e:8yac-vygm d:2015-09-01T00:00:00.000Z t:route_number=J500 t:vendor_code=HT t:garage_street_name="2859 WEST 37 STREET" t:garage_city=BROOKLYN t:garage_state=NY t:garage_zip=11224 t:vendor_affiliation="THOMAS BUSES, INC. (B2321)" t:service_type=D2D t:vehicle_typedescription="Non-Wheelchair Accessible Alternative (NWC)" t:school_year=2015-2016 t:vendor_name="THOMAS BUSES, INC. (B2321)" m:row_number.8yac-vygm=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:xcoordinates p:float l:XCoordinates d:"Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet." t:dataTypeName=number
-
-metric m:ycoordinates p:double l:YCoordinates d:"Spatial coordinate to be used for mapping. Coordinate system used is State Plane Coordinate (SPC) system: NAD 1983 StatePlane New York Long Island FIPS 3104 Feet." t:dataTypeName=number
+metric m:row_number.8yac-vygm p:long l:"Row Number"
 
 entity e:8yac-vygm l:Routes t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/8yac-vygm
 

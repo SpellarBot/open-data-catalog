@@ -21,7 +21,7 @@
 | Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
 | ======== | ============== | =========== | ========== | ========= | =========== |
 | No       | time           | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag     | the_geom    | the_geom   | text      | text        |
+| No       |                | the_geom    | the_geom   | text      | text        |
 | Yes      | series tag     | gaugelid    | GaugeLID   | text      | text        |
 | Yes      | series tag     | stage       | Stage      | text      | text        |
 | Yes      | series tag     | location    | Location   | text      | text        |
@@ -30,7 +30,7 @@
 | Yes      | series tag     | waterbody   | Waterbody  | text      | text        |
 | Yes      | series tag     | state       | State      | text      | text        |
 | Yes      | numeric metric | forecast    | Forecast   | number    | text        |
-| No       |                | fcsttime    | FcstTime   | text      | text        |
+| Yes      | series tag     | fcsttime    | FcstTime   | text      | text        |
 | Yes      | series tag     | fcstissunc  | FcstIssunc | text      | text        |
 | Yes      | series tag     | units       | Units      | text      | text        |
 | Yes      | numeric metric | action      | Action     | number    | text        |
@@ -57,17 +57,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude,fcsttime
+Excluded Fields = the_geom,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location="Alley Spring" t:hdatum=NAD83/WGS84 t:waterbody="Jacks Fork" t:the_geom="POINT (-91.443056 37.148056)" t:state=MO t:stage=no_forecast t:units=ft t:url="http://water.weather.gov/ahps2/hydrograph.php?wfo=sgf&gage=alym7" t:wfo=sgf t:gaugelid=ALYM7 t:pedts=HGIFF t:secunit=kcfs t:fcstissunc=N/A t:lowthreshu=ft m:secvalue=-999 m:forecast=-999 m:lowthresh=1.7 m:flood=9 m:action=5.3 m:moderate=12 m:major=16
+series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location="Alley Spring" t:hdatum=NAD83/WGS84 t:waterbody="Jacks Fork" t:state=MO t:fcsttime=N/A t:stage=no_forecast t:units=ft t:url="http://water.weather.gov/ahps2/hydrograph.php?wfo=sgf&gage=alym7" t:wfo=sgf t:gaugelid=ALYM7 t:pedts=HGIFF t:secunit=kcfs t:fcstissunc=N/A t:lowthreshu=ft m:secvalue=-999 m:forecast=-999 m:lowthresh=1.7 m:flood=9 m:action=5.3 m:moderate=12 m:major=16
 
-series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location=Annapolis t:hdatum=NAD83/WGS84 t:waterbody="Black River" t:the_geom="POINT (-90.788611 37.336111)" t:state=MO t:stage=no_forecast t:units=ft t:url="http://water.weather.gov/ahps2/hydrograph.php?wfo=lsx&gage=annm7" t:wfo=lsx t:gaugelid=ANNM7 t:pedts=HGIFF t:secunit=kcfs t:fcstissunc=N/A t:lowthreshu=ft m:secvalue=-999 m:forecast=-999 m:lowthresh=0 m:flood=8 m:action=6 m:moderate=15 m:major=25
+series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location=Annapolis t:hdatum=NAD83/WGS84 t:waterbody="Black River" t:state=MO t:fcsttime=N/A t:stage=no_forecast t:units=ft t:url="http://water.weather.gov/ahps2/hydrograph.php?wfo=lsx&gage=annm7" t:wfo=lsx t:gaugelid=ANNM7 t:pedts=HGIFF t:secunit=kcfs t:fcstissunc=N/A t:lowthreshu=ft m:secvalue=-999 m:forecast=-999 m:lowthresh=0 m:flood=8 m:action=6 m:moderate=15 m:major=25
 
-series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location=Arnold t:hdatum=NAD83/WGS84 t:waterbody="Meramec River" t:the_geom="POINT (-90.360556 38.456667)" t:state=MO t:stage=no_forecast t:units=ft t:url="http://water.weather.gov/ahps2/hydrograph.php?wfo=lsx&gage=arnm7" t:wfo=lsx t:gaugelid=ARNM7 t:pedts=HGIFF t:secunit=kcfs t:fcstissunc=N/A t:lowthreshu=ft m:secvalue=-999 m:forecast=-999 m:lowthresh=0 m:flood=24 m:action=22 m:moderate=35 m:major=38
+series e:fx9n-wkff d:2015-10-15T08:10:51.000Z t:location=Arnold t:hdatum=NAD83/WGS84 t:waterbody="Meramec River" t:state=MO t:fcsttime=N/A t:stage=no_forecast t:units=ft t:url="http://water.weather.gov/ahps2/hydrograph.php?wfo=lsx&gage=arnm7" t:wfo=lsx t:gaugelid=ARNM7 t:pedts=HGIFF t:secunit=kcfs t:fcstissunc=N/A t:lowthreshu=ft m:secvalue=-999 m:forecast=-999 m:lowthresh=0 m:flood=24 m:action=22 m:moderate=35 m:major=38
 ```
 
 ## Meta Commands

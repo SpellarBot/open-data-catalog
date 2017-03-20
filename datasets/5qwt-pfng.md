@@ -39,7 +39,7 @@ Businesses registered with the Secretary of State Corporation Division during th
 | Yes      | series tag  | not_of_record_entity        | Not of Record Entity        | text          | text          |
 | Yes      | series tag  | entity_of_record_name       | Entity of Record Name       | text          | text          |
 | No       |             | address                     | Address                     | text          | text          |
-| Yes      | series tag  | address_continued           | Address Continued           | text          | text          |
+| No       |             | address_continued           | Address Continued           | text          | text          |
 | Yes      | series tag  | city                        | City                        | text          | text          |
 | Yes      | series tag  | state                       | State                       | text          | text          |
 | Yes      | series tag  | zip_code                    | Zip Code                    | text          | text          |
@@ -55,7 +55,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = address
+Excluded Fields = address,address_continued
 ```
 
 ## Data Commands

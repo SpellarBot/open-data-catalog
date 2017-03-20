@@ -35,11 +35,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Hawaii Island" t:map_name=" Hawaii Map: Island view" m:row_number.qjpr-gyut=1
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Hawaii Island" t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_HAWAII.pdf""> Hawaii Map: Island view</a>" m:row_number.qjpr-gyut=1
 
-series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Waipio - Kohala Mountain" t:map_name=" Hawaii #1: Waipio - Kohala Mountain" m:row_number.qjpr-gyut=2
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Waipio - Kohala Mountain" t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII1.pdf""> Hawaii #1: Waipio - Kohala Mountain</a>" m:row_number.qjpr-gyut=2
 
-series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description=Hilo t:map_name=" Hawaii #2: Hilo" m:row_number.qjpr-gyut=3
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description=Hilo t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII2.pdf""> Hawaii #2: Hilo</a>" m:row_number.qjpr-gyut=3
 ```
 
 ## Meta Commands

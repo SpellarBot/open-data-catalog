@@ -68,7 +68,7 @@ series e:43eg-euh2 d:2014-04-01T00:00:00.000Z m:percent_specialty_center=100 m:a
 ## Meta Commands
 
 ```ls
-metric m:fiscal_quarter_key p:integer l:"Fiscal Quarter Key" d:"Row identifier – numeric representation of fiscal quarter in  format." t:dataTypeName=number
+metric m:fiscal_quarter_key p:integer l:"Fiscal Quarter Key" d:"Row identifier – numeric representation of fiscal quarter in <yyyyqq> format." t:dataTypeName=number
 
 metric m:count_trauma_alert p:integer l:"Count - Trauma Alerts" d:"Count of Trauma Alert patients." t:dataTypeName=number
 

@@ -16,7 +16,7 @@
 | Tags | licenses, transportation |
 | Created | 2013-02-06T18:42:30Z |
 | Publication Date | 2016-02-16T17:38:59Z |
-| Rows Updated | 2017-03-17T21:31:30Z |
+| Rows Updated | 2017-03-20T14:31:25Z |
 
 ## Description
 
@@ -73,7 +73,7 @@ entity e:97wa-y6ff l:"Public Chauffeurs" t:attribution="City of Chicago" t:url=h
 
 property e:97wa-y6ff t:meta.view v:id=97wa-y6ff v:category="Community & Economic Development" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Public Chauffeurs" v:attribution="City of Chicago"
 
-property e:97wa-y6ff t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:97wa-y6ff t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:displayName=cocadmin
 
 property e:97wa-y6ff t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```

@@ -28,7 +28,7 @@ Listing of all formal upcoming bid openings and past bid tabulation results proc
 | Included | Schema Type    | Field Name      | Name                    | Data Type     | Render Type   |
 | ======== | ============== | =============== | ======================= | ============= | ============= |
 | Yes      | time           | bid_date        | BID DATE                | calendar_date | calendar_date |
-| No       |                | bid_time        | BID TIME                | text          | text          |
+| Yes      | series tag     | bid_time        | BID TIME                | text          | text          |
 | Yes      | series tag     | department_name | DEPARTMENT              | text          | text          |
 | Yes      | series tag     | division_name   | DIVISION                | text          | text          |
 | Yes      | series tag     | description     | DESCRIPTION             | text          | text          |
@@ -49,20 +49,14 @@ Value = bid_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = bid_time
-```
-
 ## Data Commands
 
 ```ls
-series e:u9zk-8nix d:2015-06-25T00:00:00.000Z t:unique_id=14363 t:room_number=806 t:phone=225-389-3259 t:description="RQ038473 MEN'S SNAG RESISTANT MOISTURE WICKING POLO SHIRTS" t:contact_name="Dexter Stewart" t:buyer_name="Dexter Stewart" t:department_name="FIRE DEPARTMENT" t:division_name="FIRE DEPARTMENT-ADMINISTRATION" t:note="ALL ITEMS TO BID AS ALL OR NONE" m:phone_ext=323
+series e:u9zk-8nix d:2015-06-25T00:00:00.000Z t:unique_id=14363 t:bid_time="11:00 AM" t:room_number=806 t:phone=225-389-3259 t:description="RQ038473 MEN'S SNAG RESISTANT MOISTURE WICKING POLO SHIRTS" t:contact_name="Dexter Stewart" t:buyer_name="Dexter Stewart" t:department_name="FIRE DEPARTMENT" t:division_name="FIRE DEPARTMENT-ADMINISTRATION" t:note="ALL ITEMS TO BID AS ALL OR NONE" m:phone_ext=323
 
-series e:u9zk-8nix d:2014-10-09T00:00:00.000Z t:unique_id=13606 t:room_number=806 t:phone=225-389-3259 t:description="Central Garage Wrecker Service for Vehicles/Equipment
+series e:u9zk-8nix d:2014-10-09T00:00:00.000Z t:unique_id=13606 t:bid_time="11:00 AM" t:room_number=806 t:phone=225-389-3259 t:description="Central Garage Wrecker Service for Vehicles/Equipment
 
-series e:u9zk-8nix d:2014-01-31T00:00:00.000Z t:unique_id=12816 t:room_number=308 t:phone=225-389-3259 t:bid_results="http://brgov.com/dept/purchase/loadbidresults.asp?GetBid=12816" t:description="AERIAL BUCKET TRUCK FOR LANDSCAPE AND FORESTRY" t:contact_name="STEPHANIE COLBY" t:buyer_name="Dexter Stewart" t:department_name="DEPARTMENT OF PUBLIC WORKS" t:division_name="LANDSCAPE and FORESTRY" t:note="*Addendum No. 1 has been added to move the bid opening date due to inclement weather." m:phone_ext=323
+series e:u9zk-8nix d:2014-01-31T00:00:00.000Z t:unique_id=12816 t:bid_time="11:00 AM" t:room_number=308 t:phone=225-389-3259 t:bid_results="http://brgov.com/dept/purchase/loadbidresults.asp?GetBid=12816" t:description="AERIAL BUCKET TRUCK FOR LANDSCAPE AND FORESTRY" t:contact_name="STEPHANIE COLBY" t:buyer_name="Dexter Stewart" t:department_name="DEPARTMENT OF PUBLIC WORKS" t:division_name="LANDSCAPE and FORESTRY" t:note="*Addendum No. 1 has been added to move the bid opening date due to inclement weather." m:phone_ext=323
 ```
 
 ## Meta Commands

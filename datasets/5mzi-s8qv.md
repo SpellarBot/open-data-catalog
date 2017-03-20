@@ -29,8 +29,8 @@ Protects the public's right to high quality health care by licensing and mandati
 | ======== | =========== | =========== | ========== | ========= | =========== |
 | No       | time        | :updated_at | updated_at | meta_data | meta_data   |
 | Yes      | series tag  | agency      | Agency     | text      | text        |
-| Yes      | series tag  | address_1   | Address 1  | text      | text        |
-| Yes      | series tag  | address_2   | Address 2  | text      | text        |
+| No       |             | address_1   | Address 1  | text      | text        |
+| No       |             | address_2   | Address 2  | text      | text        |
 | Yes      | series tag  | city        | City       | text      | text        |
 | Yes      | series tag  | state       | State      | text      | text        |
 | Yes      | series tag  | zip_code    | ZIP Code   | text      | text        |
@@ -43,14 +43,20 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = address_1,address_2
+```
+
 ## Data Commands
 
 ```ls
-series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60563- t:state=IL t:agency="HEALTH AT HOME" t:address_1="2255 ERICKSON DRIVE" t:city=NAPERVILLE m:row_number.5mzi-s8qv=1
+series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60563- t:state=IL t:agency="HEALTH AT HOME" t:city=NAPERVILLE m:row_number.5mzi-s8qv=1
 
-series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60187- t:state=IL t:agency="HEALTH AT HOME" t:address_1="500 WYNDEMERE CIRCLE, GARDEN LEVEL" t:city=WHEATON m:row_number.5mzi-s8qv=2
+series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60187- t:state=IL t:agency="HEALTH AT HOME" t:city=WHEATON m:row_number.5mzi-s8qv=2
 
-series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60035- t:state=IL t:agency="3 CROSS HOME CARE CORP." t:address_1="3 CROSS HOME CARE CORP." t:city=CHICAGO m:row_number.5mzi-s8qv=3
+series e:5mzi-s8qv d:2015-11-30T08:04:50.000Z t:zip_code=60035- t:state=IL t:agency="3 CROSS HOME CARE CORP." t:city=CHICAGO m:row_number.5mzi-s8qv=3
 ```
 
 ## Meta Commands

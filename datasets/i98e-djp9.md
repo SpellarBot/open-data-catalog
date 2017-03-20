@@ -14,7 +14,7 @@
 | Category | Housing and Buildings |
 | Created | 2016-04-21T02:30:56Z |
 | Publication Date | 2016-10-12T17:08:54Z |
-| Rows Updated | 2017-03-13T12:42:09Z |
+| Rows Updated | 2017-03-20T12:47:26Z |
 
 ## Description
 
@@ -113,7 +113,7 @@ property e:i98e-djp9 t:meta.view v:id=i98e-djp9 v:category="Housing and Building
 
 property e:i98e-djp9 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:i98e-djp9 t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:i98e-djp9 t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
 
 property e:i98e-djp9 t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

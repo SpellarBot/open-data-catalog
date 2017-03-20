@@ -61,7 +61,7 @@ Exception
 | Yes      | series tag  | system_purpose               | System Purpose               | text      | text        |
 | Yes      | series tag  | custodian                    | Custodian                    | text      | text        |
 | Yes      | series tag  | frequency_of_data_collection | Frequency of data collection | text      | text        |
-| No       |             | frequency_of_data_update     | Frequency of data update     | text      | text        |
+| Yes      | series tag  | frequency_of_data_update     | Frequency of data update     | text      | text        |
 ```
 
 ## Time Field
@@ -71,20 +71,14 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = frequency_of_data_update
-```
-
 ## Data Commands
 
 ```ls
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Office 365" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:system_purpose="Office suite of products (mail, spreadsheets, etc)" t:vendor_name=Microsoft m:row_number.nrih-k5ag=1
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Office 365" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Office suite of products (mail, spreadsheets, etc)" t:vendor_name=Microsoft m:row_number.nrih-k5ag=1
 
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product=IFAS t:custodian=Finance t:frequency_of_data_collection=Daily t:system_purpose="Financial and HR system" t:vendor_name="Sungard Public Sector" m:row_number.nrih-k5ag=2
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product=IFAS t:custodian=Finance t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Financial and HR system" t:vendor_name="Sungard Public Sector" m:row_number.nrih-k5ag=2
 
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Accela Automation (Permits Plus prior to 13/14)" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:system_purpose="Permit management" t:vendor_name="Accela Automation" m:row_number.nrih-k5ag=3
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Accela Automation (Permits Plus prior to 13/14)" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Permit management" t:vendor_name="Accela Automation" m:row_number.nrih-k5ag=3
 ```
 
 ## Meta Commands

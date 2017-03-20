@@ -15,7 +15,7 @@
 | Tags | geothermal heat pumps |
 | Created | 2013-02-14T15:58:11Z |
 | Publication Date | 2016-12-29T15:47:36Z |
-| Rows Updated | 2017-03-19T13:21:56Z |
+| Rows Updated | 2017-03-20T13:21:29Z |
 
 ## Description
 
@@ -76,7 +76,7 @@ entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https:/
 
 property e:acvd-5wvz t:meta.view v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
 
-property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
 property e:acvd-5wvz t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 

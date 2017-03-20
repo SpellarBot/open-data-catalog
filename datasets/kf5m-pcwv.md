@@ -35,8 +35,8 @@ Review the administrative records for discretionary grant recipients who were aw
 | Yes      | series tag     | project_type                       | Project Type                       | text          | text          |
 | Yes      | time           | award_date                         | Award Date                         | calendar_date | calendar_date |
 | No       |                | address                            | Address                            | text          | text          |
-| Yes      | series tag     | address_2                          | Address 2                          | text          | text          |
-| Yes      | series tag     | address_3                          | Address 3                          | text          | text          |
+| No       |                | address_2                          | Address 2                          | text          | text          |
+| No       |                | address_3                          | Address 3                          | text          | text          |
 | Yes      | series tag     | city                               | City                               | text          | text          |
 | Yes      | series tag     | state                              | State                              | text          | text          |
 | Yes      | series tag     | zip_code                           | Zip Code                           | text          | text          |
@@ -73,7 +73,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = address,fiscal_year
+Excluded Fields = address,address_2,address_3,fiscal_year
 ```
 
 ## Data Commands

@@ -32,7 +32,7 @@ The source of this data set is the working file Personal Property Database that 
 | Yes      | series tag     | owner2     | Owner2     | text          | text          |
 | Yes      | series tag     | dba        | DBA        | text          | text          |
 | No       |                | address    | Address    | text          | text          |
-| Yes      | series tag     | address2   | Address2   | text          | text          |
+| No       |                | address2   | Address2   | text          | text          |
 | Yes      | series tag     | location   | Location   | text          | text          |
 | Yes      | series tag     | city       | City       | text          | text          |
 | Yes      | series tag     | state      | State      | text          | text          |
@@ -55,7 +55,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = address
+Excluded Fields = address,address2
 ```
 
 ## Data Commands
@@ -65,7 +65,7 @@ series e:4akt-7p7i d:2014-12-17T00:00:00.000Z t:zip=06105-3177 t:source="2014 DE
 
 series e:4akt-7p7i d:2014-12-16T00:00:00.000Z t:zip=06032 t:source="2014 DECLARATION" t:location="85 SEYMOUR ST SUITE 607" t:dba="ORTHOPEDIC ASSOCIATES OF HARTFORD P" t:owner="ORTHOPEDIC ASSOCIATES OF HARTFORD P" t:st_number=85 t:state=CT t:account=556275 t:st_name="SEYMOUR ST" t:locunit="SUITE 607" t:city=FARMINGTON m:assessment=913320
 
-series e:4akt-7p7i d:2014-12-05T00:00:00.000Z t:zip=06106-8003 t:source="2014  DECLARATION" t:location="21 OAK ST 6TH FL" t:dba="KAINEN ESCALERA & MCHALE PC" t:owner="KAINEN ESCALERA & MCHALE PC" t:st_number=21 t:state=CT t:account=383200 t:st_name="OAK ST" t:address2="SUITE  601" t:locunit="6TH FL" t:city=HARTFORD m:assessment=33570
+series e:4akt-7p7i d:2014-12-05T00:00:00.000Z t:zip=06106-8003 t:source="2014  DECLARATION" t:location="21 OAK ST 6TH FL" t:dba="KAINEN ESCALERA & MCHALE PC" t:owner="KAINEN ESCALERA & MCHALE PC" t:st_number=21 t:state=CT t:account=383200 t:st_name="OAK ST" t:locunit="6TH FL" t:city=HARTFORD m:assessment=33570
 ```
 
 ## Meta Commands

@@ -28,7 +28,7 @@ In the November 4, 2014 election, only candidates for the Board of Supervisors w
 | Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
 | ======== | ============== | =============== | =============== | ============= | ============= |
 | Yes      | series tag     | district        | District        | text          | text          |
-| No       |                | candidate       | Candidate       | text          | text          |
+| Yes      | series tag     | candidate       | Candidate       | text          | text          |
 | Yes      | time           | date_iec_raised | Date IEC Raised | calendar_date | calendar_date |
 | Yes      | numeric metric | amount_of_iec   | Amount of IEC   | money         | money         |
 ```
@@ -40,20 +40,14 @@ Value = date_iec_raised
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = candidate
-```
-
 ## Data Commands
 
 ```ls
-series e:wv7d-caby d:2014-07-10T00:00:00.000Z t:district=10 m:amount_of_iec=250000
+series e:wv7d-caby d:2014-07-10T00:00:00.000Z t:candidate="Kelly, Tony" t:district=10 m:amount_of_iec=250000
 
-series e:wv7d-caby d:2014-08-20T00:00:00.000Z t:district=10 m:amount_of_iec=250000
+series e:wv7d-caby d:2014-08-20T00:00:00.000Z t:candidate="Tran, Marlene" t:district=10 m:amount_of_iec=250000
 
-series e:wv7d-caby d:2014-09-08T00:00:00.000Z t:district=10 m:amount_of_iec=260000
+series e:wv7d-caby d:2014-09-08T00:00:00.000Z t:candidate="Kelly, Tony" t:district=10 m:amount_of_iec=260000
 ```
 
 ## Meta Commands

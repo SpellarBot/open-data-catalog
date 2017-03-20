@@ -24,7 +24,7 @@
 | Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
 | ======== | ============== | =============== | =============== | ============= | ============= |
 | Yes      | series tag     | district        | District        | text          | text          |
-| No       |                | candidate       | Candidate       | text          | text          |
+| Yes      | series tag     | candidate       | Candidate       | text          | text          |
 | Yes      | time           | date_iec_raised | Date IEC Raised | calendar_date | calendar_date |
 | Yes      | numeric metric | amount_of_iec   | Amount of IEC   | money         | money         |
 ```
@@ -36,20 +36,14 @@ Value = date_iec_raised
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = candidate
-```
-
 ## Data Commands
 
 ```ls
-series e:85cd-6rtn d:2012-07-24T00:00:00.000Z t:district=1 m:amount_of_iec=250000
+series e:85cd-6rtn d:2012-07-24T00:00:00.000Z t:candidate="Lee, David" t:district=1 m:amount_of_iec=250000
 
-series e:85cd-6rtn d:2012-06-22T00:00:00.000Z t:district=1 m:amount_of_iec=250000
+series e:85cd-6rtn d:2012-06-22T00:00:00.000Z t:candidate="Mar, Eric" t:district=1 m:amount_of_iec=250000
 
-series e:85cd-6rtn d:2012-08-28T00:00:00.000Z t:district=3 m:amount_of_iec=250000
+series e:85cd-6rtn d:2012-08-28T00:00:00.000Z t:candidate="Butler, Joe" t:district=3 m:amount_of_iec=250000
 ```
 
 ## Meta Commands

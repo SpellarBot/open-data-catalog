@@ -28,8 +28,8 @@ Statistical report that provides daily school wide attendance each day for all s
 | Included | Schema Type    | Field Name    | Name            | Data Type | Render Type |
 | ======== | ============== | ============= | =============== | ========= | =========== |
 | No       | time           | :updated_at   | updated_at      | meta_data | meta_data   |
-| No       |                | school_year   | SCHOOL_YEAR     | text      | text        |
-| No       |                | date          | DATE            | text      | text        |
+| Yes      | series tag     | school_year   | SCHOOL_YEAR     | text      | text        |
+| Yes      | series tag     | date          | DATE            | text      | text        |
 | Yes      | series tag     | school_dbn    | SCHOOL_DBN      | text      | text        |
 | Yes      | numeric metric | register      | REGISTER        | number    | number      |
 | Yes      | numeric metric | of_attd_taken | %_OF_ATTD_TAKEN | number    | number      |
@@ -42,20 +42,14 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = school_year,date
-```
-
 ## Data Commands
 
 ```ls
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X024 m:register=999 m:of_attd_taken=96.6
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X024 t:date=09-09-15 t:school_year=2015-2016 m:register=999 m:of_attd_taken=96.6
 
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X032 m:register=810 m:of_attd_taken=88.4
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X032 t:date=09-09-15 t:school_year=2015-2016 m:register=810 m:of_attd_taken=88.4
 
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X033 m:register=991 m:of_attd_taken=86.7
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X033 t:date=09-09-15 t:school_year=2015-2016 m:register=991 m:of_attd_taken=86.7
 ```
 
 ## Meta Commands

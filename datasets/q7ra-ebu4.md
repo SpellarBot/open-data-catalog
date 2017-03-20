@@ -27,7 +27,7 @@ The DOE has previously identified 594 schools located in 330 buildings as “und
 | Included | Schema Type    | Field Name                                       | Name                                               | Data Type | Render Type |
 | ======== | ============== | ================================================ | ================================================== | ========= | =========== |
 | No       | time           | :updated_at                                      | updated_at                                         | meta_data | meta_data   |
-| No       |                | school_year                                      | School Year                                        | text      | text        |
+| Yes      | series tag     | school_year                                      | School Year                                        | text      | text        |
 | Yes      | series tag     | borough_of_building                              | Borough of Building                                | text      | text        |
 | Yes      | series tag     | district_of_building                             | District of Building                               | text      | number      |
 | Yes      | series tag     | building_code                                    | Building Code                                      | text      | text        |
@@ -48,20 +48,14 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = school_year
-```
-
 ## Data Commands
 
 ```ls
-series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 5 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="P.S. 005 Dr. Ronald Mcnair" t:building_level=PS t:district_of_building=16 t:school_code=K005 t:building_code=K005 m:building_capacity_based_on_2013_2014_blue_book=712 m:building_enrollment_based_on_2013_2014_blue_book=412
+series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 5 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="P.S. 005 Dr. Ronald Mcnair" t:building_level=PS t:district_of_building=16 t:school_code=K005 t:school_year=2014-15 t:building_code=K005 m:building_capacity_based_on_2013_2014_blue_book=712 m:building_enrollment_based_on_2013_2014_blue_book=412
 
-series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 5 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="P.S. K369 - Coy L. Cox School" t:building_level=PS t:district_of_building=16 t:school_code=K369 t:building_code=K005 m:building_capacity_based_on_2013_2014_blue_book=712 m:building_enrollment_based_on_2013_2014_blue_book=412
+series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 5 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="P.S. K369 - Coy L. Cox School" t:building_level=PS t:district_of_building=16 t:school_code=K369 t:school_year=2014-15 t:building_code=K005 m:building_capacity_based_on_2013_2014_blue_book=712 m:building_enrollment_based_on_2013_2014_blue_book=412
 
-series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 12 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="Dr. Jacqueline Peek-Davis School" t:building_level=PS t:district_of_building=23 t:school_code=K012 t:building_code=K012 m:building_capacity_based_on_2013_2014_blue_book=861 m:building_enrollment_based_on_2013_2014_blue_book=357
+series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 12 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="Dr. Jacqueline Peek-Davis School" t:building_level=PS t:district_of_building=23 t:school_code=K012 t:school_year=2014-15 t:building_code=K012 m:building_capacity_based_on_2013_2014_blue_book=861 m:building_enrollment_based_on_2013_2014_blue_book=357
 ```
 
 ## Meta Commands

@@ -21,7 +21,7 @@
 ```ls
 | Included | Schema Type    | Field Name     | Name           | Data Type     | Render Type   |
 | ======== | ============== | ============== | ============== | ============= | ============= |
-| Yes      | numeric metric | objectid_1     | OBJECTID_1     | number        | number        |
+| Yes      | series tag     | objectid_1     | OBJECTID_1     | text          | number        |
 | Yes      | series tag     | facility_n     | Facility_N     | text          | text          |
 | Yes      | series tag     | facility_d     | Facility_D     | text          | text          |
 | Yes      | series tag     | facility_t     | Facility_T     | text          | text          |
@@ -58,18 +58,16 @@ Excluded Fields = fac_con_date,editdate
 ## Data Commands
 
 ```ls
-series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="North Cane Street" t:editor=holisgis t:jurisdicti=County t:source="State Bike Plan" t:dp_area="Central Oahu" t:facility_t=Lane t:facility_d="Kilani Avenue to California Avenue" t:corridor_t=Mauka-Makai t:townl=Wahiawa t:neighborl=WAHIAWA t:creator=holisgis m:length_mi=0.127023639188527 m:objectid_1=1
+series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="North Cane Street" t:editor=holisgis t:jurisdicti=County t:source="State Bike Plan" t:dp_area="Central Oahu" t:objectid_1=1 t:facility_t=Lane t:facility_d="Kilani Avenue to California Avenue" t:corridor_t=Mauka-Makai t:townl=Wahiawa t:neighborl=WAHIAWA t:creator=holisgis m:length_mi=0.127023639188527
 
-series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="California Avenue (Eastern Section)" t:editor=holisgis t:jurisdicti=County t:source="State Bike Plan" t:dp_area="Central Oahu" t:facility_t=Lane t:facility_d="Kamehameha Highway to Plum Street" t:corridor_t=Mauka-Makai t:townl=Wahiawa t:neighborl=WAHIAWA t:creator=holisgis m:length_mi=0.422317757891972 m:objectid_1=2
+series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="California Avenue (Eastern Section)" t:editor=holisgis t:jurisdicti=County t:source="State Bike Plan" t:dp_area="Central Oahu" t:objectid_1=2 t:facility_t=Lane t:facility_d="Kamehameha Highway to Plum Street" t:corridor_t=Mauka-Makai t:townl=Wahiawa t:neighborl=WAHIAWA t:creator=holisgis m:length_mi=0.422317757891972
 
-series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="Mililani Ravine Path" t:editor=holisgis t:jurisdicti=Private t:source=N/A t:dp_area="Central Oahu" t:facility_t=Path t:facility_d="Ainamakua Drive to Lehiwa Drive" t:creator=holisgis m:length_mi=0.844808017924352 m:objectid_1=3
+series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="Mililani Ravine Path" t:editor=holisgis t:jurisdicti=Private t:source=N/A t:dp_area="Central Oahu" t:objectid_1=3 t:facility_t=Path t:facility_d="Ainamakua Drive to Lehiwa Drive" t:creator=holisgis m:length_mi=0.844808017924352
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:objectid_1 p:integer l:OBJECTID_1 t:dataTypeName=number
-
 metric m:length_mi p:double l:Length_Mi t:dataTypeName=number
 
 entity e:5hpa-8dfv l:"Existing Bike Facilities" t:url=https://data.honolulu.gov/api/views/5hpa-8dfv

@@ -29,8 +29,8 @@ Lists ICH CAHPS survey data used by ESRD QIP to assess dialysis facility perform
 | Yes      | series tag     | facility_name                               | Facility Name                                     | text      | text        |
 | Yes      | series tag     | cms_certification_number_ccn                | CMS Certification Number (CCN)                    | text      | text        |
 | Yes      | numeric metric | alternate_ccn_1                             | Alternate CCN 1                                   | number    | text        |
-| Yes      | series tag     | address_1                                   | Address 1                                         | text      | text        |
-| Yes      | series tag     | address_2                                   | Address 2                                         | text      | text        |
+| No       |                | address_1                                   | Address 1                                         | text      | text        |
+| No       |                | address_2                                   | Address 2                                         | text      | text        |
 | Yes      | series tag     | city                                        | City                                              | text      | text        |
 | Yes      | series tag     | state                                       | State                                             | text      | text        |
 | Yes      | series tag     | zip_code                                    | Zip Code                                          | text      | text        |
@@ -48,14 +48,20 @@ Value =
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = address_1,address_2
+```
+
 ## Data Commands
 
 ```ls
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012306 t:facility_name="CHILDRENS HOSPITAL DIALYSIS" t:zip_code=35233 t:ich_cahps_administration_score="No Score" t:state=AL t:address_1="1600 7TH AVENUE SOUTH" t:address_2=- t:measure_name="ICH CAHPS" t:city=BIRMINGHAM m:alternate_ccn_1=13300 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012306 t:facility_name="CHILDRENS HOSPITAL DIALYSIS" t:zip_code=35233 t:ich_cahps_administration_score="No Score" t:state=AL t:measure_name="ICH CAHPS" t:city=BIRMINGHAM m:alternate_ccn_1=13300 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
 
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012500 t:facility_name="FMC CAPITOL CITY" t:zip_code=36104 t:ich_cahps_administration_score=10 t:alternate_ccn_1=- t:state=AL t:address_1="255 S JACKSON STREET" t:address_2=- t:measure_name="ICH CAHPS" t:city=MONTGOMERY m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012500 t:facility_name="FMC CAPITOL CITY" t:zip_code=36104 t:ich_cahps_administration_score=10 t:alternate_ccn_1=- t:state=AL t:measure_name="ICH CAHPS" t:city=MONTGOMERY m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
 
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012501 t:facility_name="GADSDEN DIALYSIS" t:zip_code=35901 t:ich_cahps_administration_score="No Score" t:alternate_ccn_1=- t:state=AL t:address_1="409 SOUTH FIRST STREET" t:address_2=- t:measure_name="ICH CAHPS" t:city=GADSDEN m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012501 t:facility_name="GADSDEN DIALYSIS" t:zip_code=35901 t:ich_cahps_administration_score="No Score" t:alternate_ccn_1=- t:state=AL t:measure_name="ICH CAHPS" t:city=GADSDEN m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
 ```
 
 ## Meta Commands
