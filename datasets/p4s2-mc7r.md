@@ -27,7 +27,7 @@ Total Acres used for Residential Development in Maryland and its Counties from 2
 ```ls
 | Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
 | ======== | ============== | ====================== | ====================== | ========= | =========== |
-| Yes      | series tag     | date_created           | Date created           | text      | text        |
+| No       |                | date_created           | Date created           | text      | text        |
 | Yes      | time           | year                   | Year                   | number    | text        |
 | Yes      | numeric metric | maryland               | MARYLAND               | number    | text        |
 | Yes      | numeric metric | allegany_county        | Allegany County        | number    | text        |
@@ -63,14 +63,20 @@ Value = year
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = date_created
+```
+
 ## Data Commands
 
 ```ls
-series e:p4s2-mc7r d:2006-01-01T00:00:00.000Z t:date_created=7/1/2013 m:baltimore_city=20 m:calvert_county=410 m:st_mary_s_county=1051 m:wicomico_county=511 m:prince_george_s_county=1423 m:washington_county=858 m:carroll_county=696 m:montgomery_county=652 m:garrett_county=619 m:talbot_county=317 m:kent_county=124 m:queen_anne_s_county=276 m:baltimore_county=1031 m:cecil_county=403 m:harford_county=1097 m:caroline_county=264 m:frederick_county=909 m:charles_county=1051 m:somerset_county=337 m:maryland=14358 m:anne_arundel_county=737 m:howard_county=523 m:worcester_county=488 m:allegany_county=275 m:dorchester_county=288
+series e:p4s2-mc7r d:2006-01-01T00:00:00.000Z m:baltimore_city=20 m:calvert_county=410 m:st_mary_s_county=1051 m:wicomico_county=511 m:prince_george_s_county=1423 m:washington_county=858 m:carroll_county=696 m:montgomery_county=652 m:garrett_county=619 m:talbot_county=317 m:kent_county=124 m:queen_anne_s_county=276 m:baltimore_county=1031 m:cecil_county=403 m:harford_county=1097 m:caroline_county=264 m:frederick_county=909 m:charles_county=1051 m:somerset_county=337 m:maryland=14358 m:anne_arundel_county=737 m:howard_county=523 m:worcester_county=488 m:allegany_county=275 m:dorchester_county=288
 
-series e:p4s2-mc7r d:2007-01-01T00:00:00.000Z t:date_created=7/1/2013 m:baltimore_city=16 m:calvert_county=350 m:st_mary_s_county=775 m:wicomico_county=305 m:prince_george_s_county=1180 m:washington_county=415 m:carroll_county=470 m:montgomery_county=528 m:garrett_county=449 m:talbot_county=217 m:kent_county=148 m:queen_anne_s_county=265 m:baltimore_county=836 m:cecil_county=317 m:harford_county=713 m:caroline_county=227 m:frederick_county=612 m:charles_county=553 m:somerset_county=251 m:maryland=10558 m:anne_arundel_county=620 m:howard_county=355 m:worcester_county=329 m:allegany_county=336 m:dorchester_county=292
+series e:p4s2-mc7r d:2007-01-01T00:00:00.000Z m:baltimore_city=16 m:calvert_county=350 m:st_mary_s_county=775 m:wicomico_county=305 m:prince_george_s_county=1180 m:washington_county=415 m:carroll_county=470 m:montgomery_county=528 m:garrett_county=449 m:talbot_county=217 m:kent_county=148 m:queen_anne_s_county=265 m:baltimore_county=836 m:cecil_county=317 m:harford_county=713 m:caroline_county=227 m:frederick_county=612 m:charles_county=553 m:somerset_county=251 m:maryland=10558 m:anne_arundel_county=620 m:howard_county=355 m:worcester_county=329 m:allegany_county=336 m:dorchester_county=292
 
-series e:p4s2-mc7r d:2008-01-01T00:00:00.000Z t:date_created=7/1/2013 m:baltimore_city=16 m:calvert_county=203 m:st_mary_s_county=668 m:wicomico_county=226 m:prince_george_s_county=651 m:washington_county=305 m:carroll_county=266 m:montgomery_county=427 m:garrett_county=383 m:talbot_county=187 m:kent_county=61 m:queen_anne_s_county=210 m:baltimore_county=501 m:cecil_county=219 m:harford_county=424 m:caroline_county=152 m:frederick_county=423 m:charles_county=449 m:somerset_county=185 m:maryland=7522 m:anne_arundel_county=635 m:howard_county=374 m:worcester_county=178 m:allegany_county=192 m:dorchester_county=185
+series e:p4s2-mc7r d:2008-01-01T00:00:00.000Z m:baltimore_city=16 m:calvert_county=203 m:st_mary_s_county=668 m:wicomico_county=226 m:prince_george_s_county=651 m:washington_county=305 m:carroll_county=266 m:montgomery_county=427 m:garrett_county=383 m:talbot_county=187 m:kent_county=61 m:queen_anne_s_county=210 m:baltimore_county=501 m:cecil_county=219 m:harford_county=424 m:caroline_county=152 m:frederick_county=423 m:charles_county=449 m:somerset_county=185 m:maryland=7522 m:anne_arundel_county=635 m:howard_county=374 m:worcester_county=178 m:allegany_county=192 m:dorchester_county=185
 ```
 
 ## Meta Commands

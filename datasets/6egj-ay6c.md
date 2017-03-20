@@ -32,7 +32,7 @@ Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing
 | No       | time           | :updated_at                     | updated_at                        | meta_data | meta_data   |
 | Yes      | series tag     | school_name                     | School Name                       | text      | text        |
 | Yes      | series tag     | school_district                 | School District                   | text      | text        |
-| Yes      | numeric metric | date_completed                  | Date Completed                    | number    | number      |
+| No       |                | date_completed                  | Date Completed                    | number    | number      |
 | Yes      | series tag     | source_of_grant                 | Source of Grant                   | text      | text        |
 | Yes      | numeric metric | estimated_ae_cost               | Estimated AE Cost ($)             | money     | money       |
 | Yes      | numeric metric | estimated_grant_funds           | Estimated Grant Funds ($)         | money     | money       |
@@ -48,21 +48,25 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = date_completed
+```
+
 ## Data Commands
 
 ```ls
-series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Cunningham Elementary" t:source_of_grant=SECO t:school_district=Austin m:date_completed=2006 m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
+series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Cunningham Elementary" t:source_of_grant=SECO t:school_district=Austin m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
 
-series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Bedichek Middle School" t:source_of_grant=SECO t:school_district=Austin m:date_completed=2006 m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
+series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Bedichek Middle School" t:source_of_grant=SECO t:school_district=Austin m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
 
-series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Blanton Elementary School" t:source_of_grant=SECO t:school_district=Austin m:date_completed=2006 m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
+series e:6egj-ay6c d:2016-09-20T20:07:30.000Z t:school_name="Blanton Elementary School" t:source_of_grant=SECO t:school_district=Austin m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:date_completed p:integer l:"Date Completed" t:dataTypeName=number
-
 metric m:estimated_ae_cost p:double l:"Estimated AE Cost ($)" d:"includes $35,304.25 change order note: Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing" t:dataTypeName=money
 
 metric m:estimated_grant_funds p:double l:"Estimated Grant Funds ($)" d:"includes $35,304.25 change order. Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing" t:dataTypeName=money

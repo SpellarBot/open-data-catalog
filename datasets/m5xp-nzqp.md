@@ -23,7 +23,7 @@
 | Included | Schema Type | Field Name                                                 | Name                                                         | Data Type | Render Type |
 | ======== | =========== | ========================================================== | ============================================================ | ========= | =========== |
 | Yes      | series tag  | agency_issuing_tax_expenditure                             | Agency Issuing Tax Expenditure                               | text      | text        |
-| Yes      | series tag  | report_period_end_date                                     | Report Period End Date                                       | text      | text        |
+| Yes      | time        | report_period_end_date                                     | Report Period End Date                                       | text      | text        |
 | Yes      | series tag  | business_firm_name                                         | Business Firm Name                                           | text      | text        |
 | No       |             | mailing_address                                            | Mailing Address                                              | text      | text        |
 | Yes      | series tag  | zip_code                                                   | ZIP Code                                                     | text      | text        |
@@ -41,8 +41,8 @@
 ## Time Field
 
 ```ls
-Value = 
-Format & Zone = yyyy
+Value = report_period_end_date
+Format & Zone = MM/dd/yy
 ```
 
 ## Series Fields
@@ -54,7 +54,7 @@ Excluded Fields = mailing_address
 ## Data Commands
 
 ```ls
-series e:m5xp-nzqp d:2014-01-01T00:00:00.000Z t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry 
+series e:m5xp-nzqp d:2014-06-30T00:00:00.000Z t:project_location_congressional_district=n/a t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry 
 ```
 
 ## Meta Commands

@@ -48,11 +48,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc=Golf t:hours="24 Hours" t:name="Green Lake Park" m:pmaid=307 m:xpos=-122.33039 m:ypos=47.67894
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc=Golf t:hours="24 Hours" t:name="Green Lake Park" m:pmaid=307 m:xpos=-122.330394 m:ypos=47.678938
 
 series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Play Area (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Kirke Park" m:pmaid=4468
 
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Restrooms (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Hiawatha Playfield" m:pmaid=456 m:xpos=-122.38496 m:ypos=47.57827
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Restrooms (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Hiawatha Playfield" m:pmaid=456 m:xpos=-122.3849647 m:ypos=47.57827243
 ```
 
 ## Meta Commands

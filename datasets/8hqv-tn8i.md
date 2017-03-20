@@ -42,18 +42,18 @@
 | Yes      | series tag     | inventory  | INVENTORY  | text          | text          |
 | No       |                | xcoord     | XCOORD     | number        | number        |
 | No       |                | ycoord     | YCOORD     | number        | number        |
-| Yes      | series tag     | daterepl1  | DATEREPL1  | text          | text          |
-| Yes      | series tag     | daterepl2  | DATEREPL2  | text          | text          |
-| Yes      | series tag     | daterepl3  | DATEREPL3  | text          | text          |
-| Yes      | series tag     | daterepl4  | DATEREPL4  | text          | text          |
-| Yes      | series tag     | daterepl5  | DATEREPL5  | text          | text          |
-| Yes      | series tag     | daterepl6  | DATEREPL6  | text          | text          |
-| Yes      | numeric metric | dateinstl1 | DATEINSTL1 | number        | number        |
-| Yes      | numeric metric | dateinstl2 | DATEINSTL2 | number        | number        |
-| Yes      | numeric metric | dateinstl3 | DATEINSTL3 | number        | number        |
-| Yes      | numeric metric | dateinstl4 | DATEINSTL4 | number        | number        |
-| Yes      | numeric metric | dateinstl5 | DATEINSTL5 | number        | number        |
-| Yes      | numeric metric | dateinstl6 | DATEINSTL6 | number        | number        |
+| No       |                | daterepl1  | DATEREPL1  | text          | text          |
+| No       |                | daterepl2  | DATEREPL2  | text          | text          |
+| No       |                | daterepl3  | DATEREPL3  | text          | text          |
+| No       |                | daterepl4  | DATEREPL4  | text          | text          |
+| No       |                | daterepl5  | DATEREPL5  | text          | text          |
+| No       |                | daterepl6  | DATEREPL6  | text          | text          |
+| No       |                | dateinstl1 | DATEINSTL1 | number        | number        |
+| No       |                | dateinstl2 | DATEINSTL2 | number        | number        |
+| No       |                | dateinstl3 | DATEINSTL3 | number        | number        |
+| No       |                | dateinstl4 | DATEINSTL4 | number        | number        |
+| No       |                | dateinstl5 | DATEINSTL5 | number        | number        |
+| No       |                | dateinstl6 | DATEINSTL6 | number        | number        |
 | Yes      | numeric metric | height_ft  | Height_ft  | number        | number        |
 | Yes      | numeric metric | height_in  | Height_In  | number        | number        |
 | Yes      | series tag     | pic2       | PIC2       | text          | text          |
@@ -77,7 +77,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = xcoord,ycoord
+Excluded Fields = xcoord,ycoord,daterepl1,daterepl2,daterepl3,daterepl4,daterepl5,daterepl6,dateinstl1,dateinstl2,dateinstl3,dateinstl4,dateinstl5,dateinstl6
 ```
 
 ## Data Commands
@@ -87,7 +87,7 @@ series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=RTD_GPS t:pic=.\CCH_Si
 
 series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=Adjusted t:pic=.\CCH_Signs\Images\3.jpg t:pole_type="Street Light Standard" t:signmsg1="1 HR PARKING [7 AM TO 3:30 PM MON THRU FRI, 7 AM TO 6PM SATURDAYS EXCEPT SUNDAYS STATE HOLIDAYS] (R7-108)" t:signclr2="Red on White" t:comments="GPS point visually adjusted to aerial image" t:point_id=3 t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr1="Green on White" m:numplates=2 m:horiz_gap=0 m:height_in=2 m:offset=0 m:height_ft=7
 
-series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=Adjusted t:material2="Diamond Grade" t:pic=.\CCH_Signs\Images\4.jpg t:pole_type=Round t:signmsg1="FREIGHT LOADING ZONE - [7:00 AM TO 3:30 PM MON THRU FRI, 7:00 AM TO 4:00 PM SATURDAYS EXCEPT SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr2="Red on White" t:comments="GPS point visually adjusted to aerial image" t:point_id=4 t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr1="Red on White" m:numplates=2 m:horiz_gap=0 m:dateinstl2=7012008 m:height_in=2.5 m:offset=0 m:height_ft=7
+series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=Adjusted t:material2="Diamond Grade" t:pic=.\CCH_Signs\Images\4.jpg t:pole_type=Round t:signmsg1="FREIGHT LOADING ZONE - [7:00 AM TO 3:30 PM MON THRU FRI, 7:00 AM TO 4:00 PM SATURDAYS EXCEPT SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr2="Red on White" t:comments="GPS point visually adjusted to aerial image" t:point_id=4 t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr1="Red on White" m:numplates=2 m:horiz_gap=0 m:height_in=2.5 m:offset=0 m:height_ft=7
 ```
 
 ## Meta Commands
@@ -96,18 +96,6 @@ series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=Adjusted t:material2="
 metric m:numplates p:integer l:NUMPLATES t:dataTypeName=number
 
 metric m:offset p:integer l:OFFSET t:dataTypeName=number
-
-metric m:dateinstl1 p:integer l:DATEINSTL1 t:dataTypeName=number
-
-metric m:dateinstl2 p:integer l:DATEINSTL2 t:dataTypeName=number
-
-metric m:dateinstl3 p:integer l:DATEINSTL3 t:dataTypeName=number
-
-metric m:dateinstl4 p:integer l:DATEINSTL4 t:dataTypeName=number
-
-metric m:dateinstl5 p:integer l:DATEINSTL5 t:dataTypeName=number
-
-metric m:dateinstl6 p:integer l:DATEINSTL6 t:dataTypeName=number
 
 metric m:height_ft p:integer l:Height_ft t:dataTypeName=number
 

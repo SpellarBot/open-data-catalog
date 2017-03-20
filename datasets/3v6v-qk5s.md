@@ -31,8 +31,8 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | series tag     | state_code                     | State                          | text          | text          |
 | Yes      | series tag     | labeler_code                   | Labeler Code                   | text          | text          |
 | Yes      | series tag     | product_code                   | Product Code                   | text          | text          |
-| Yes      | numeric metric | package_size                   | Package Size                   | number        | text          |
-| Yes      | numeric metric | period_covered                 | Year                           | number        | text          |
+| Yes      | series tag     | package_size                   | Package Size                   | text          | text          |
+| No       |                | period_covered                 | Year                           | number        | text          |
 | No       |                | quarter                        | Quarter                        | number        | text          |
 | Yes      | series tag     | product_fda_list_name          | Product Name                   | text          | text          |
 | Yes      | series tag     | suppression_used               | Suppression Used               | checkbox      | checkbox      |
@@ -41,11 +41,11 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | numeric metric | total_amount_reimbursed        | Total Amount Reimbursed        | number        | number        |
 | Yes      | numeric metric | medicaid_amount_reimbursed     | Medicaid Amount Reimbursed     | number        | number        |
 | Yes      | numeric metric | non_medicaid_amount_reimbursed | Non Medicaid Amount Reimbursed | number        | number        |
-| Yes      | series tag     | quarter_begin                  | Quarter begin                  | text          | text          |
+| No       |                | quarter_begin                  | Quarter begin                  | text          | text          |
 | Yes      | time           | quarter_begin_date             | Quarter Begin Date             | calendar_date | calendar_date |
 | No       |                | latitude                       | _latitude                      | number        | number        |
 | No       |                | longitude                      | _longitude                     | number        | number        |
-| Yes      | numeric metric | ndc                            | NDC                            | number        | text          |
+| Yes      | series tag     | ndc                            | NDC                            | text          | text          |
 ```
 
 ## Time Field
@@ -58,26 +58,22 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude,quarter
+Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=1 m:ndc=2445301 m:period_covered=2016
+series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="GLUCAGON E" t:ndc=00002803101 t:package_size=01 t:state_code=AK t:labeler_code=00002 t:product_code=8031 t:utilization_type=FFSU t:suppression_used=false m:medicaid_amount_reimbursed=14265.5 m:total_amount_reimbursed=15987.86 m:number_of_prescriptions=49 m:units_reimbursed=69.4 m:non_medicaid_amount_reimbursed=1722.36
 
-series e:3v6v-qk5s d:2016-04-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=4/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=1 m:ndc=2445301 m:period_covered=2016
+series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="HUMULIN 70" t:ndc=00002871501 t:package_size=01 t:state_code=AK t:labeler_code=00002 t:product_code=8715 t:utilization_type=FFSU t:suppression_used=false m:medicaid_amount_reimbursed=8248.51 m:total_amount_reimbursed=8248.51 m:number_of_prescriptions=14 m:units_reimbursed=650 m:non_medicaid_amount_reimbursed=0
 
-series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="ZYPREXA ZY" t:quarter_begin=1/1 t:state_code=AK t:labeler_code=00002 t:product_code=4453 t:utilization_type=FFSU t:suppression_used=true m:package_size=85 m:ndc=2445385 m:period_covered=2016
+series e:3v6v-qk5s d:2016-01-01T00:00:00.000Z t:product_fda_list_name="HUMALOG KW" t:ndc=00002879959 t:package_size=59 t:state_code=AK t:labeler_code=00002 t:product_code=8799 t:utilization_type=FFSU t:suppression_used=false m:medicaid_amount_reimbursed=183302.84 m:total_amount_reimbursed=187541.53 m:number_of_prescriptions=392 m:units_reimbursed=6267 m:non_medicaid_amount_reimbursed=4238.69
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:package_size p:long l:"Package Size" t:dataTypeName=number
-
-metric m:period_covered p:integer l:Year t:dataTypeName=number
-
 metric m:units_reimbursed p:double l:"Units Reimbursed" t:dataTypeName=number
 
 metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" t:dataTypeName=number
@@ -87,8 +83,6 @@ metric m:total_amount_reimbursed p:double l:"Total Amount Reimbursed" t:dataType
 metric m:medicaid_amount_reimbursed p:double l:"Medicaid Amount Reimbursed" t:dataTypeName=number
 
 metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimbursed" t:dataTypeName=number
-
-metric m:ndc p:long l:NDC t:dataTypeName=number
 
 entity e:3v6v-qk5s l:"State Drug Utilization Data 2016" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/3v6v-qk5s
 

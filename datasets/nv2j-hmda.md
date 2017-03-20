@@ -58,7 +58,7 @@ Since January 2012, the Division of Buildings & Regulatory Compliance has create
 | Yes      | series tag     | additional_notes                                                                                      | Additional Notes                                                                                                      | text          | text          |
 | Yes      | series tag     | registration_number                                                                                   | Registration Number                                                                                                   | text          | number        |
 | Yes      | series tag     | registration_type                                                                                     | Registration Type                                                                                                     | text          | text          |
-| Yes      | series tag     | date_of_vacancy                                                                                       | Date of Vacancy                                                                                                       | text          | text          |
+| No       |                | date_of_vacancy                                                                                       | Date of Vacancy                                                                                                       | text          | text          |
 | Yes      | series tag     | estimated_length_of_vacancy                                                                           | Estimated Length of Vacancy                                                                                           | text          | text          |
 | Yes      | series tag     | property_description_tax_code                                                                         | Property Description / Tax Code                                                                                       | text          | text          |
 | Yes      | series tag     | sq_footage                                                                                            | Sq. Footage                                                                                                           | text          | text          |
@@ -111,7 +111,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = completion_date,registration_expiration_date,initial_registration_date,latest_record_update,most_recent_maintenance_notice_of_violation_date,most_recent_maintenance_inspection_date,maintenance_re_inspection_date,original_maintenance_ct_date,most_recent_registry_notice_of_violation_date,original_registry_ct_date,registration_anniversary_date,last_payment_date,initial_registration_date2
+Excluded Fields = completion_date,registration_expiration_date,initial_registration_date,latest_record_update,most_recent_maintenance_notice_of_violation_date,most_recent_maintenance_inspection_date,maintenance_re_inspection_date,original_maintenance_ct_date,most_recent_registry_notice_of_violation_date,original_registry_ct_date,registration_anniversary_date,last_payment_date,initial_registration_date2,date_of_vacancy
 ```
 
 ## Data Commands

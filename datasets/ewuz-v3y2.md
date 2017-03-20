@@ -47,7 +47,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = quarter_end_date,year,quarter
+Excluded Fields = quarter_end_date,quarter,year
 ```
 
 ## Data Commands

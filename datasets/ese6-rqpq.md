@@ -39,7 +39,7 @@ Data will be updated annually as it becomes available.
 | No       |                | data_value_unit            | Data_Value_Unit            | text      | text        |
 | No       |                | data_value_type            | Data_Value_Type            | text      | text        |
 | Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
-| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
+| No       |                | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | text        |
 | No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
 | Yes      | series tag     | data_value_std_err         | Data_Value_Std_Err         | text      | text        |
 | Yes      | numeric metric | low_confidence_limit       | Low_Confidence_Limit       | number    | number      |
@@ -66,7 +66,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_unit,data_value_type,data_value_footnote
+Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,data_value_footnote
 ```
 
 ## Data Commands
@@ -74,7 +74,7 @@ Excluded Fields = data_value_unit,data_value_type,data_value_footnote
 ```ls
 series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic="Prenatal Care - Visits" t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP44 t:class="Control Variable" t:break_out="Age 18 - 44" t:questionid=QUO171 t:response=NO t:locationid=5 t:breakoutid=AGE1844ALL t:responseid=RES23 t:break_out_category="Maternal Age - 18 to 44 years only" t:question="Indicator of no prenatal care" t:breakoutcategoryid=BOC16 t:datasource=PRAMS t:classid=CLA1 m:data_value=99.1
 
-series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:questionid=QUO25 t:locationid=5 t:breakoutid=BOC1 t:break_out_category="Birth Weight" t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:data_value_footnote_symbol=1 m:data_value=25
+series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:questionid=QUO25 t:locationid=5 t:breakoutid=BOC1 t:break_out_category="Birth Weight" t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:data_value=25
 
 series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:break_out="LBW (<=2500g)" t:questionid=QUO25 t:response="NO (UNCHECKED)" t:locationid=5 t:breakoutid=BWT1 t:responseid=RES24 t:break_out_category="Birth Weight" t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:high_confidence_limit=37.5 m:sample_size=143 m:data_value=33 m:low_confidence_limit=28.8
 ```

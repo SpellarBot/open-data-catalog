@@ -38,11 +38,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=070302 t:groupbycomponentdesc=Patrol m:availabilitypercentage=100 m:downtimepercentage=0 m:totalpercentage=98.53726
+series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=070302 t:groupbycomponentdesc=Patrol m:availabilitypercentage=100 m:downtimepercentage=0 m:totalpercentage=98.537265
 
-series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=080202 t:groupbycomponentdesc="Community Development Department" m:availabilitypercentage=100 m:downtimepercentage=0 m:totalpercentage=98.53726
+series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=080202 t:groupbycomponentdesc="Community Development Department" m:availabilitypercentage=100 m:downtimepercentage=0 m:totalpercentage=98.537265
 
-series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=080204 t:groupbycomponentdesc="Community Development" m:availabilitypercentage=99.51 m:downtimepercentage=0.49 m:totalpercentage=98.53726
+series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z t:groupbycomponent=080204 t:groupbycomponentdesc="Community Development" m:availabilitypercentage=99.51 m:downtimepercentage=0.49 m:totalpercentage=98.537265
 ```
 
 ## Meta Commands

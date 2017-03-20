@@ -29,8 +29,8 @@ Excel workbook of all housing construction from the 2013 Housing Inventory.
 | ======== | ============== | =============== | ========== | ============= | ============= |
 | Yes      | series tag     | standardaddress | STDADDRESS | text          | text          |
 | Yes      | series tag     | name            | PRJ_NAME   | text          | text          |
-| Yes      | numeric metric | block           | BLOCK      | number        | text          |
-| Yes      | numeric metric | lot             | LOT        | number        | number        |
+| Yes      | series tag     | block           | BLOCK      | text          | text          |
+| Yes      | series tag     | lot             | LOT        | text          | number        |
 | Yes      | numeric metric | units           | UNITS      | number        | number        |
 | Yes      | numeric metric | netunits        | NETUNITS   | number        | number        |
 | Yes      | numeric metric | aff_hsg         | AFF_HSG    | number        | number        |
@@ -41,7 +41,7 @@ Excel workbook of all housing construction from the 2013 Housing Inventory.
 | Yes      | time           | actdate         | ACTDATE    | calendar_date | calendar_date |
 | Yes      | series tag     | zoning          | Zoning     | text          | text          |
 | Yes      | series tag     | pd_no           | PD_NO      | text          | number        |
-| Yes      | numeric metric | supervisor      | SD_NO      | number        | number        |
+| Yes      | series tag     | supervisor      | SD_NO      | text          | number        |
 | Yes      | series tag     | planarea        | PLANAREA   | text          | text          |
 ```
 
@@ -55,27 +55,21 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z t:aff_cat=LI t:change_type=Demolition t:standardaddress="1190 MISSION ST" t:zoning="RH-1 (D)" t:pd_no=12 m:supervisor=9 m:block=3702 m:lot=52 m:netunits=-418 m:units=-418
+series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z t:aff_cat=LI t:supervisor=9 t:lot=52 t:block=3702 t:change_type=Demolition t:standardaddress="1190 MISSION ST" t:zoning="RH-1 (D)" t:pd_no=12 m:netunits=-418 m:units=-418
 
-series e:e7d3-dxh5 d:2013-07-18T00:00:00.000Z t:aff_cat=VLI t:propuse=APARTMENTS t:change_type="New Construction" t:standardaddress="60 WEST POINT RD" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=54 m:supervisor=5 m:block=4624 m:lot=9 m:netunits=54 m:units=54
+series e:e7d3-dxh5 d:2013-07-18T00:00:00.000Z t:aff_cat=VLI t:supervisor=5 t:lot=9 t:block=4624 t:propuse=APARTMENTS t:change_type="New Construction" t:standardaddress="60 WEST POINT RD" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=54 m:netunits=54 m:units=54
 
-series e:e7d3-dxh5 d:2013-10-02T00:00:00.000Z t:existuse="TOURIST HOTEL/MOTEL" t:aff_cat=LI t:propuse=APARTMENTS t:change_type=Conversion t:standardaddress="374 05TH ST" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=44 m:supervisor=5 m:block=3753 m:lot=8 m:netunits=44 m:units=44
+series e:e7d3-dxh5 d:2013-10-02T00:00:00.000Z t:existuse="TOURIST HOTEL/MOTEL" t:aff_cat=LI t:supervisor=5 t:lot=8 t:block=3753 t:propuse=APARTMENTS t:change_type=Conversion t:standardaddress="374 05TH ST" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=44 m:netunits=44 m:units=44
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:block p:integer l:BLOCK t:dataTypeName=number
-
-metric m:lot p:integer l:LOT t:dataTypeName=number
-
 metric m:units p:integer l:UNITS t:dataTypeName=number
 
 metric m:netunits p:integer l:NETUNITS t:dataTypeName=number
 
 metric m:aff_hsg p:integer l:AFF_HSG t:dataTypeName=number
-
-metric m:supervisor p:integer l:SD_NO t:dataTypeName=number
 
 entity e:e7d3-dxh5 l:"2013 Housing Inventory" t:attribution="San Francisco Planning Department" t:url=https://data.sfgov.org/api/views/e7d3-dxh5
 

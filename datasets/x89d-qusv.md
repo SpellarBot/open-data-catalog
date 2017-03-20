@@ -27,16 +27,16 @@ The Turning Movements application includes all AADT Turning Traffic data for yea
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
-| ======== | ============== | ==================== | ==================== | ========= | =========== |
-| Yes      | numeric metric | station              | STATION              | number    | text        |
-| Yes      | series tag     | intersection_leg     | INTERSECTION_LEG     | text      | text        |
-| Yes      | series tag     | total_aadt           | TOTAL_AADT           | text      | text        |
-| Yes      | series tag     | passenger_aadt       | PASSENGER_AADT       | text      | text        |
-| Yes      | series tag     | single_unit_aadt     | SINGLE_UNIT_AADT     | text      | text        |
-| Yes      | series tag     | combo_unit_aadt      | COMBO_UNIT_AADT      | text      | text        |
-| Yes      | series tag     | turning_movement_url | TURNING_MOVEMENT_URL | text      | text        |
-| Yes      | series tag     | objectid             | OBJECTID             | text      | number      |
+| Included | Schema Type | Field Name           | Name                 | Data Type | Render Type |
+| ======== | =========== | ==================== | ==================== | ========= | =========== |
+| Yes      | series tag  | station              | STATION              | text      | text        |
+| Yes      | series tag  | intersection_leg     | INTERSECTION_LEG     | text      | text        |
+| Yes      | series tag  | total_aadt           | TOTAL_AADT           | text      | text        |
+| Yes      | series tag  | passenger_aadt       | PASSENGER_AADT       | text      | text        |
+| Yes      | series tag  | single_unit_aadt     | SINGLE_UNIT_AADT     | text      | text        |
+| Yes      | series tag  | combo_unit_aadt      | COMBO_UNIT_AADT      | text      | text        |
+| Yes      | series tag  | turning_movement_url | TURNING_MOVEMENT_URL | text      | text        |
+| Yes      | series tag  | objectid             | OBJECTID             | text      | number      |
 ```
 
 ## Time Field
@@ -49,17 +49,17 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:x89d-qusv d:2004-01-01T00:00:00.000Z t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01114933099.pdf t:objectid=1 m:station=1114933099
+series e:x89d-qusv d:2004-01-01T00:00:00.000Z t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01114933099.pdf t:station=01114933099 t:objectid=1 m:row_number.x89d-qusv=1
 
-series e:x89d-qusv d:2004-01-01T00:00:00.000Z t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01134949099.pdf t:objectid=2 m:station=1134949099
+series e:x89d-qusv d:2004-01-01T00:00:00.000Z t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01134949099.pdf t:station=01134949099 t:objectid=2 m:row_number.x89d-qusv=2
 
-series e:x89d-qusv d:2004-01-01T00:00:00.000Z t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01225117099.pdf t:objectid=3 m:station=1225117099
+series e:x89d-qusv d:2004-01-01T00:00:00.000Z t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01225117099.pdf t:station=01225117099 t:objectid=3 m:row_number.x89d-qusv=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:station p:long l:STATION d:Station t:dataTypeName=number
+metric m:row_number.x89d-qusv p:long l:"Row Number"
 
 entity e:x89d-qusv l:"AADT Turning Traffic 2004" t:attribution="Iowa Department of Transportation - Office of Systems Planning" t:url=https://data.iowa.gov/api/views/x89d-qusv
 

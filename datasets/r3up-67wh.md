@@ -27,22 +27,21 @@ Quarter-Year	Installed Capacity from the Feed-in Tariff (FiT) Program in Kilowat
 ```ls
 | Included | Schema Type    | Field Name                     | Name                             | Data Type | Render Type |
 | ======== | ============== | ============================== | ================================ | ========= | =========== |
-| No       | time           | :updated_at                    | updated_at                       | meta_data | meta_data   |
-| Yes      | series tag     | quarter_year                   | Quarter-Year                     | text      | text        |
+| Yes      | time           | quarter_year                   | Quarter-Year                     | text      | text        |
 | Yes      | numeric metric | installed_capacity_from_fit_kw | Installed Capacity from FiT (kW) | number    | text        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = quarter_year
+Format & Zone = QQQ-yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:r3up-67wh d:2014-05-13T17:07:59.000Z t:quarter_year=Q1-2014 m:installed_capacity_from_fit_kw=700
+series e:r3up-67wh d:2014-01-01T00:00:00.000Z m:installed_capacity_from_fit_kw=700
 ```
 
 ## Meta Commands

@@ -13,7 +13,7 @@
 | Name | HPD Crime Incidents |
 | Created | 2014-12-13T00:26:29Z |
 | Publication Date | 2015-03-12T00:11:07Z |
-| Rows Updated | 2017-03-18T18:15:53Z |
+| Rows Updated | 2017-03-19T18:15:41Z |
 
 ## Columns
 

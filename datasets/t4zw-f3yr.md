@@ -51,7 +51,7 @@ series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z m:inc_dec=-0.0006 m:commerical=463
 
 series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z m:inc_dec=0.0624 m:commerical=4675615088 m:industrial=2342538382 m:residential=4561857688 m:government_entities=1094964902 m:public_street_highway=48327221 m:total_billed_kwh=12723303281
 
-series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:inc_dec=-0.01048 m:commerical=4553866402 m:industrial=2038706310 m:residential=4238690401 m:government_entities=1096985412 m:public_street_highway=48077910 m:total_billed_kwh=11976326435
+series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:inc_dec=-0.010477764 m:commerical=4553866402 m:industrial=2038706310 m:residential=4238690401 m:government_entities=1096985412 m:public_street_highway=48077910 m:total_billed_kwh=11976326435
 ```
 
 ## Meta Commands

@@ -15,7 +15,7 @@
 | Tags | furnaces |
 | Created | 2014-08-08T12:06:09Z |
 | Publication Date | 2016-12-29T15:39:44Z |
-| Rows Updated | 2017-03-18T13:36:41Z |
+| Rows Updated | 2017-03-19T13:36:01Z |
 
 ## Description
 
@@ -76,7 +76,7 @@ entity e:i97v-e8au l:"ENERGY STAR Certified Furnaces" t:url=https://data.energys
 
 property e:i97v-e8au t:meta.view v:id=i97v-e8au v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Furnaces"
 
-property e:i97v-e8au t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
+property e:i97v-e8au t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:displayName=ESddas
 
 property e:i97v-e8au t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 

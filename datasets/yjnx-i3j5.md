@@ -51,11 +51,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name=Budget m:member_7=10 m:member_8=10 m:member_5=10 m:rank_and_score=9.66667 m:member_6=10 m:member_9=10 m:member_4=8 m:member_3=10 m:member_2=10 m:member_1=9
+series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name=Budget m:member_7=10 m:member_8=10 m:member_5=10 m:rank_and_score=9.666666666666666 m:member_6=10 m:member_9=10 m:member_4=8 m:member_3=10 m:member_2=10 m:member_1=9
 
-series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="Crime Stats" m:member_7=10 m:member_8=10 m:member_5=10 m:rank_and_score=8.88889 m:member_6=10 m:member_9=10 m:member_4=0 m:member_3=10 m:member_2=10 m:member_1=10
+series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="Crime Stats" m:member_7=10 m:member_8=10 m:member_5=10 m:rank_and_score=8.88888888888889 m:member_6=10 m:member_9=10 m:member_4=0 m:member_3=10 m:member_2=10 m:member_1=10
 
-series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="311 Data" m:member_7=1 m:member_8=10 m:member_5=10 m:rank_and_score=8.77778 m:member_6=9 m:member_9=10 m:member_4=10 m:member_3=10 m:member_2=10 m:member_1=9
+series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="311 Data" m:member_7=1 m:member_8=10 m:member_5=10 m:rank_and_score=8.777777777777779 m:member_6=9 m:member_9=10 m:member_4=10 m:member_3=10 m:member_2=10 m:member_1=9
 ```
 
 ## Meta Commands

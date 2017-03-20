@@ -31,8 +31,8 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | series tag     | state_code                     | State                          | text          | text          |
 | Yes      | series tag     | labeler_code                   | Labeler Code                   | text          | text          |
 | Yes      | series tag     | product_code                   | Product Code                   | text          | text          |
-| Yes      | numeric metric | package_size                   | Package Size                   | number        | text          |
-| Yes      | numeric metric | period_covered                 | Year                           | number        | text          |
+| Yes      | series tag     | package_size                   | Package Size                   | text          | text          |
+| No       |                | period_covered                 | Year                           | number        | text          |
 | No       |                | quarter                        | Quarter                        | number        | text          |
 | Yes      | series tag     | product_fda_list_name          | Product Name                   | text          | text          |
 | Yes      | series tag     | suppression_used               | Suppression Used               | checkbox      | checkbox      |
@@ -41,11 +41,11 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 | Yes      | numeric metric | total_amount_reimbursed        | Total Amount Reimbursed        | number        | number        |
 | Yes      | numeric metric | medicaid_amount_reimbursed     | Medicaid Amount Reimbursed     | number        | number        |
 | Yes      | numeric metric | non_medicaid_amount_reimbursed | Non Medicaid Amount Reimbursed | number        | number        |
-| Yes      | series tag     | quarter_begin                  | Quarter Begin                  | text          | text          |
+| No       |                | quarter_begin                  | Quarter Begin                  | text          | text          |
 | Yes      | time           | quarter_begin_date             | Quarter Begin Date             | calendar_date | calendar_date |
 | No       |                | latitude                       | Latitude                       | number        | number        |
 | No       |                | longitude                      | Longitude                      | number        | number        |
-| Yes      | numeric metric | ndc                            | NDC                            | number        | text          |
+| Yes      | series tag     | ndc                            | NDC                            | text          | text          |
 ```
 
 ## Time Field
@@ -58,26 +58,22 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude,quarter
+Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:e7is-4a3j d:2006-10-01T00:00:00.000Z t:product_fda_list_name="AMOX TR-K" t:quarter_begin=10/1 t:state_code=MS t:labeler_code=66685 t:product_code=1012 t:suppression_used=false t:record_id=FFSU m:package_size=1 m:ndc=66685101201 m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=21548.28 m:number_of_prescriptions=419 m:units_reimbursed=41950 m:period_covered=2006 m:non_medicaid_amount_reimbursed=0
+series e:e7is-4a3j d:2006-10-01T00:00:00.000Z t:product_fda_list_name="AMOX TR-K" t:ndc=66685101201 t:package_size=01 t:state_code=MS t:labeler_code=66685 t:product_code=1012 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=21548.28 m:number_of_prescriptions=419 m:units_reimbursed=41950 m:non_medicaid_amount_reimbursed=0
 
-series e:e7is-4a3j d:2006-04-01T00:00:00.000Z t:product_fda_list_name=PROCHLORPE t:quarter_begin=4/1 t:state_code=CA t:labeler_code=51285 t:product_code=0522 t:suppression_used=true t:record_id=FFSU m:package_size=2 m:ndc=51285052202 m:period_covered=2006
+series e:e7is-4a3j d:2006-04-01T00:00:00.000Z t:product_fda_list_name=NITROFURAN t:ndc=63304051801 t:package_size=01 t:state_code=TN t:labeler_code=63304 t:product_code=0518 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=2653.9 m:number_of_prescriptions=118 m:units_reimbursed=2100 m:non_medicaid_amount_reimbursed=0
 
-series e:e7is-4a3j d:2006-04-01T00:00:00.000Z t:product_fda_list_name=NITROFURAN t:quarter_begin=4/1 t:state_code=TN t:labeler_code=63304 t:product_code=0518 t:suppression_used=false t:record_id=FFSU m:package_size=1 m:ndc=63304051801 m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=2653.9 m:number_of_prescriptions=118 m:units_reimbursed=2100 m:period_covered=2006 m:non_medicaid_amount_reimbursed=0
+series e:e7is-4a3j d:2006-01-01T00:00:00.000Z t:product_fda_list_name="KERATOL 40" t:ndc=51991026819 t:package_size=19 t:state_code=MO t:labeler_code=51991 t:product_code=0268 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=879.94 m:number_of_prescriptions=18 m:units_reimbursed=1615 m:non_medicaid_amount_reimbursed=0
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:package_size p:integer l:"Package Size" d:"Third segment of National Drug Code (NDC3) identifies package forms and sizes." t:dataTypeName=number
-
-metric m:period_covered p:integer l:Year d:"Calendar year" t:dataTypeName=number
-
 metric m:units_reimbursed p:double l:"Units Reimbursed" d:"The total number of units (based on Unit Type) of the drug (11-digit NDC level) reimbursed by the state during the period covered." t:dataTypeName=number
 
 metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" d:"The number of prescriptions reimbursed (by the Medicaid Program ONLY) to pharmacists for the (11-digit NDC) drug for the period covered." t:dataTypeName=number
@@ -87,8 +83,6 @@ metric m:total_amount_reimbursed p:double l:"Total Amount Reimbursed" d:"The tot
 metric m:medicaid_amount_reimbursed p:double l:"Medicaid Amount Reimbursed" d:"The amount reimbursed (by the Medicaid Program ONLY) to pharmacies for the (11-digit NDC) drug in the period covered." t:dataTypeName=number
 
 metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimbursed" d:"The amount reimbursed (by non-Medicaid entities) to pharmacies for the (11-digit NDC) drug in the period covered. The Non-Medicaid Amount Reimbursed includes any reimbursement amount for which the state is not eligible for Federal Matching Funds." t:dataTypeName=number
-
-metric m:ndc p:long l:NDC t:dataTypeName=number
 
 entity e:e7is-4a3j l:"State Drug Utilization Data 2006" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/e7is-4a3j
 

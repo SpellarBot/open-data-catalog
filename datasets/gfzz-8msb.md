@@ -27,7 +27,7 @@ Lists ICH CAHPS survey data used by ESRD QIP to assess dialysis facility perform
 | Included | Schema Type    | Field Name                                  | Name                                              | Data Type | Render Type |
 | ======== | ============== | =========================================== | ================================================= | ========= | =========== |
 | Yes      | series tag     | facility_name                               | Facility Name                                     | text      | text        |
-| Yes      | numeric metric | cms_certification_number_ccn                | CMS Certification Number (CCN)                    | number    | text        |
+| Yes      | series tag     | cms_certification_number_ccn                | CMS Certification Number (CCN)                    | text      | text        |
 | Yes      | numeric metric | alternate_ccn_1                             | Alternate CCN 1                                   | number    | text        |
 | Yes      | series tag     | address_1                                   | Address 1                                         | text      | text        |
 | Yes      | series tag     | address_2                                   | Address 2                                         | text      | text        |
@@ -51,18 +51,16 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:facility_name="CHILDRENS HOSPITAL DIALYSIS" t:zip_code=35233 t:ich_cahps_administration_score="No Score" t:state=AL t:address_1="1600 7TH AVENUE SOUTH" t:address_2=- t:measure_name="ICH CAHPS" t:city=BIRMINGHAM m:cms_certification_number_ccn=12306 m:alternate_ccn_1=13300 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012306 t:facility_name="CHILDRENS HOSPITAL DIALYSIS" t:zip_code=35233 t:ich_cahps_administration_score="No Score" t:state=AL t:address_1="1600 7TH AVENUE SOUTH" t:address_2=- t:measure_name="ICH CAHPS" t:city=BIRMINGHAM m:alternate_ccn_1=13300 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
 
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:facility_name="FMC CAPITOL CITY" t:zip_code=36104 t:ich_cahps_administration_score=10 t:alternate_ccn_1=- t:state=AL t:address_1="255 S JACKSON STREET" t:address_2=- t:measure_name="ICH CAHPS" t:city=MONTGOMERY m:cms_certification_number_ccn=12500 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012500 t:facility_name="FMC CAPITOL CITY" t:zip_code=36104 t:ich_cahps_administration_score=10 t:alternate_ccn_1=- t:state=AL t:address_1="255 S JACKSON STREET" t:address_2=- t:measure_name="ICH CAHPS" t:city=MONTGOMERY m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
 
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:facility_name="GADSDEN DIALYSIS" t:zip_code=35901 t:ich_cahps_administration_score="No Score" t:alternate_ccn_1=- t:state=AL t:address_1="409 SOUTH FIRST STREET" t:address_2=- t:measure_name="ICH CAHPS" t:city=GADSDEN m:cms_certification_number_ccn=12501 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012501 t:facility_name="GADSDEN DIALYSIS" t:zip_code=35901 t:ich_cahps_administration_score="No Score" t:alternate_ccn_1=- t:state=AL t:address_1="409 SOUTH FIRST STREET" t:address_2=- t:measure_name="ICH CAHPS" t:city=GADSDEN m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:cms_certification_number_ccn p:integer l:"CMS Certification Number (CCN)" t:dataTypeName=number
-
 metric m:network p:integer l:Network t:dataTypeName=number
 
 metric m:state_avg_ich_cahps_administration_score p:integer l:"State Avg ICH CAHPS Administration Score" t:dataTypeName=number

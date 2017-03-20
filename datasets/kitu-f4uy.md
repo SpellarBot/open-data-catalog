@@ -15,7 +15,7 @@
 | Tags | police, stop, search, field interview |
 | Created | 2015-07-10T16:01:09Z |
 | Publication Date | 2016-04-17T06:24:07Z |
-| Rows Updated | 2017-03-19T05:30:59Z |
+| Rows Updated | 2017-03-20T05:30:43Z |
 
 ## Description
 
@@ -34,7 +34,7 @@ A subset of data collected when individuals are interviewed by NOPD Officers (in
 | Yes      | series tag     | officerassignment     | OfficerAssignment     | text          | text          |
 | Yes      | series tag     | stopdescription       | StopDescription       | text          | text          |
 | Yes      | series tag     | actionstaken          | ActionsTaken          | text          | text          |
-| Yes      | series tag     | vehicleyear           | VehicleYear           | text          | number        |
+| No       |                | vehicleyear           | VehicleYear           | text          | number        |
 | Yes      | series tag     | vehiclemake           | VehicleMake           | text          | text          |
 | Yes      | series tag     | vehiclemodel          | VehicleModel          | text          | text          |
 | Yes      | series tag     | vehiclestyle          | VehicleStyle          | text          | text          |
@@ -67,13 +67,13 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = createddatetime,lastmodifieddatetime,longitude,latitude
+Excluded Fields = createddatetime,lastmodifieddatetime,longitude,latitude,vehicleyear
 ```
 
 ## Data Commands
 
 ```ls
-series e:kitu-f4uy d:2010-01-01T01:11:00.000Z t:vehiclemodel=CARAVAN t:vehiclecolor=BLACK t:subjectgender=FEMALE t:vehicleyear=2005 t:subjecthasphotoid=Yes t:subjectdriverlicstate=LA t:subjecthaircolor=Black t:vehiclemake=DODGE t:vehiclestyle=MINIVAN t:fieldinterviewid=17415 t:subjecteyecolor=Brown t:district=6 t:subjectid=20465 t:stopdescription="TRAFFIC VIOLATION" t:officerassignment="6th  District" t:zone=E t:subjectrace=BLACK m:subjectage=26 m:subjectweight=160 m:subjectheight=69
+series e:kitu-f4uy d:2010-01-01T01:11:00.000Z t:vehiclemodel=CARAVAN t:vehiclecolor=BLACK t:subjectgender=FEMALE t:subjecthasphotoid=Yes t:subjectdriverlicstate=LA t:subjecthaircolor=Black t:vehiclemake=DODGE t:vehiclestyle=MINIVAN t:fieldinterviewid=17415 t:subjecteyecolor=Brown t:district=6 t:subjectid=20465 t:stopdescription="TRAFFIC VIOLATION" t:officerassignment="6th  District" t:zone=E t:subjectrace=BLACK m:subjectage=26 m:subjectweight=160 m:subjectheight=69
 
 series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjectid=20466 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=17 m:subjectweight=140 m:subjectheight=65
 

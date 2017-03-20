@@ -34,7 +34,7 @@ https://data.cityofnewyork.us/Transportation/Medallion-Drivers-Active/n776-dsqy
 | Yes      | series tag  | license_number          | License Number          | text          | text          |
 | Yes      | series tag  | name_of_licensee        | Name of Licensee        | text          | text          |
 | Yes      | series tag  | license_type            | License Type            | text          | text          |
-| Yes      | series tag  | license_expiration_date | License Expiration Date | text          | text          |
+| No       |             | license_expiration_date | License Expiration Date | text          | text          |
 ```
 
 ## Time Field
@@ -44,14 +44,20 @@ Value = date_updated
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = license_expiration_date
+```
+
 ## Data Commands
 
 ```ls
-series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_expiration_date=08/06/2014 t:license_type="MEDALLION TAXI DRIVER" t:license_number=427586 t:name_of_licensee=FILS-AIME,CHARITE m:row_number.s22f-jsd4=1
+series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_type="MEDALLION TAXI DRIVER" t:license_number=427586 t:name_of_licensee=FILS-AIME,CHARITE m:row_number.s22f-jsd4=1
 
-series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_expiration_date=05/10/2013 t:license_type="MEDALLION TAXI DRIVER" t:license_number=5195097 t:name_of_licensee=TOKI,ABDELHAK m:row_number.s22f-jsd4=2
+series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_type="MEDALLION TAXI DRIVER" t:license_number=5195097 t:name_of_licensee=TOKI,ABDELHAK m:row_number.s22f-jsd4=2
 
-series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_expiration_date=10/30/2012 t:license_type="MEDALLION TAXI DRIVER" t:license_number=5054307 t:name_of_licensee=SINGH,RAJDEEP m:row_number.s22f-jsd4=3
+series e:s22f-jsd4 d:2012-09-06T00:00:00.000Z t:license_type="MEDALLION TAXI DRIVER" t:license_number=5054307 t:name_of_licensee=SINGH,RAJDEEP m:row_number.s22f-jsd4=3
 ```
 
 ## Meta Commands

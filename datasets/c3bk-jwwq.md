@@ -64,7 +64,7 @@ entity e:c3bk-jwwq l:"VO-AG Expenditures" t:url=https://data.illinois.gov/api/vi
 
 property e:c3bk-jwwq t:meta.view v:id=c3bk-jwwq v:averageRating=0 v:name="VO-AG Expenditures"
 
-property e:c3bk-jwwq t:meta.view.owner v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:roleName=publisher v:displayName="Rhonda Jachino"
+property e:c3bk-jwwq t:meta.view.owner v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:displayName="Rhonda Jachino"
 
-property e:c3bk-jwwq t:meta.view.tableauthor v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:roleName=publisher v:displayName="Rhonda Jachino"
+property e:c3bk-jwwq t:meta.view.tableauthor v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:displayName="Rhonda Jachino"
 ```

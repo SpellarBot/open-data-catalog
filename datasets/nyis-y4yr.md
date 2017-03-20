@@ -15,8 +15,8 @@
 | Category | Housing & Development |
 | Tags | signs, dob, buildings |
 | Created | 2013-04-18T15:18:57Z |
-| Publication Date | 2017-03-18T23:15:53Z |
-| Rows Updated | 2017-03-18T23:15:37Z |
+| Publication Date | 2017-03-19T20:28:51Z |
+| Rows Updated | 2017-03-19T20:28:33Z |
 
 ## Description
 
@@ -33,12 +33,12 @@ A list of sign applications filed for a particular day and associated data. Prio
 | Yes      | series tag     | house__                      | House #                      | text          | text          |
 | Yes      | series tag     | street_name                  | Street Name                  | text          | text          |
 | Yes      | series tag     | block                        | Block                        | text          | text          |
-| Yes      | numeric metric | lot                          | Lot                          | number        | text          |
+| Yes      | series tag     | lot                          | Lot                          | text          | text          |
 | Yes      | series tag     | bin__                        | Bin #                        | text          | text          |
 | Yes      | series tag     | job_type                     | Job Type                     | text          | text          |
 | Yes      | series tag     | job_status                   | Job Status                   | text          | text          |
 | Yes      | series tag     | job_status_descrp            | Job Status Descrp            | text          | text          |
-| Yes      | series tag     | latest_action_date           | Latest Action Date           | text          | text          |
+| No       |                | latest_action_date           | Latest Action Date           | text          | text          |
 | Yes      | series tag     | building_type                | Building Type                | text          | text          |
 | Yes      | series tag     | community___board            | Community - Board            | text          | text          |
 | Yes      | series tag     | landmarked                   | Landmarked                   | text          | text          |
@@ -111,24 +111,22 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = paid,fully_paid,plan_assigned_date,approved,fully_permitted,dobrundate
+Excluded Fields = paid,fully_paid,plan_assigned_date,approved,fully_permitted,dobrundate,latest_action_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="THE UPS STORE(LOGO)" t:other=X t:zip_code=10012 t:owner_s_house_=430 t:street_name="MURRAY STREET" t:sign_type=WALL t:sign_changeable_copy=N t:owner_s_house_street="WEST BROADWAY" t:state=NY t:block=00124 t:job_status_descrp="PERMIT ISSUED - ENTIRE JOB/WORK" t:fee_status=STANDARD t:building_type=OTHER t:job_status=R t:bin_=1001400 t:applicant_s_first_name=SOL t:other_description=SIGN t:latest_action_date="04/25/2013 00:00:00" t:city="NEW YORK" t:professional_cert=Y t:sign_illumination_type=D t:job_type=SG t:house_=14 t:applicant_professional_title=RA t:sign_advertising=BUSINESS t:doc_=01 t:owner_type=03 t:owner_s_first_name=JASON t:inside_building_line=Y t:owner_s_last_name=LABOZ t:special_dist_name=LM t:zoning_distr_1=C6-4 t:borough=MANHATTAN t:sign_near_park=N t:efiling_filed=Y t:applicant_license_=009114 t:community__board=101 t:job_=121601640 t:applicant_s_last_name=NIEGO t:sign_illumination=Y t:owner_s_phone_=2124317500 t:job_description="ERECT AN ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS, OR  OCCUPANCY." m:sign_dist_from_highway=0 m:initial_cost=3861 m:sign_height_curb=144 m:total_est_fee=120 m:sign_weight=0 m:sign_sq_footage=33 m:sign_height_roof=0 m:lot=7 m:sign_dist_from_park=0 m:sign_projection=0
+series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="THE UPS STORE(LOGO)" t:other=X t:zip_code=10012 t:owner_s_house_=430 t:street_name="MURRAY STREET" t:sign_type=WALL t:sign_changeable_copy=N t:owner_s_house_street="WEST BROADWAY" t:state=NY t:block=00124 t:job_status_descrp="PERMIT ISSUED - ENTIRE JOB/WORK" t:fee_status=STANDARD t:building_type=OTHER t:job_status=R t:bin_=1001400 t:applicant_s_first_name=SOL t:other_description=SIGN t:city="NEW YORK" t:professional_cert=Y t:sign_illumination_type=D t:job_type=SG t:house_=14 t:applicant_professional_title=RA t:sign_advertising=BUSINESS t:doc_=01 t:owner_type=03 t:owner_s_first_name=JASON t:inside_building_line=Y t:owner_s_last_name=LABOZ t:special_dist_name=LM t:zoning_distr_1=C6-4 t:borough=MANHATTAN t:sign_near_park=N t:efiling_filed=Y t:applicant_license_=009114 t:community__board=101 t:job_=121601640 t:applicant_s_last_name=NIEGO t:lot=00007 t:sign_illumination=Y t:owner_s_phone_=2124317500 t:job_description="ERECT AN ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS, OR  OCCUPANCY." m:sign_dist_from_highway=0 m:initial_cost=3861 m:sign_height_curb=144 m:total_est_fee=120 m:sign_weight=0 m:sign_sq_footage=33 m:sign_height_roof=0 m:sign_dist_from_park=0 m:sign_projection=0
 
-series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="YOUR 1ST STOP FOR SAVING?" t:other=X t:zip_code=11216 t:owner_s_house_=774 t:street_name="CLARKSON AVENUE" t:sign_type=WALL t:sign_changeable_copy=N t:owner_s_house_street=BROADWAY t:state=NY t:block=05066 t:job_status_descrp="PERMIT ISSUED - ENTIRE JOB/WORK" t:building_type=OTHER t:job_status=R t:fee_status=STANDARD t:bin_=3116264 t:other_description=SIGN t:applicant_s_first_name=ERIK t:latest_action_date="04/25/2013 00:00:00" t:city=BROOKLYN t:professional_cert=Y t:job_type=SG t:house_=210 t:applicant_professional_title=RA t:sign_advertising=BUSINESS t:doc_=01 t:owner_type=01 t:owner_s_first_name=ALBERT t:inside_building_line=Y t:owner_s_last_name=SROUR t:zoning_distr_1=R7-1 t:borough=BROOKLYN t:sign_near_park=N t:efiling_filed=Y t:applicant_license_=032438 t:community__board=317 t:job_=320588734 t:applicant_s_last_name=BJORNEBY t:owner_s_phone_=7183889526 t:job_description="ERECT NON-ILLUMINATED NON-ADVERTISING SIGN ON WALL.  NOT WITHIN VIEW OF AN       ARTERIAL HIGHWAY OR PUBLIC PARK.  NO CHANGE IN USE, EGRESS OR OCCUPANCY." m:sign_dist_from_highway=0 m:initial_cost=2300 m:sign_height_curb=162 m:total_est_fee=100 m:sign_weight=0 m:sign_sq_footage=35 m:sign_height_roof=0 m:lot=11 m:sign_dist_from_park=0 m:sign_projection=0
+series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="YOUR 1ST STOP FOR SAVING?" t:other=X t:zip_code=11216 t:owner_s_house_=774 t:street_name="CLARKSON AVENUE" t:sign_type=WALL t:sign_changeable_copy=N t:owner_s_house_street=BROADWAY t:state=NY t:block=05066 t:job_status_descrp="PERMIT ISSUED - ENTIRE JOB/WORK" t:building_type=OTHER t:job_status=R t:fee_status=STANDARD t:bin_=3116264 t:applicant_s_first_name=ERIK t:other_description=SIGN t:city=BROOKLYN t:professional_cert=Y t:job_type=SG t:house_=210 t:applicant_professional_title=RA t:sign_advertising=BUSINESS t:doc_=01 t:owner_type=01 t:owner_s_first_name=ALBERT t:inside_building_line=Y t:owner_s_last_name=SROUR t:zoning_distr_1=R7-1 t:borough=BROOKLYN t:sign_near_park=N t:efiling_filed=Y t:applicant_license_=032438 t:community__board=317 t:job_=320588734 t:applicant_s_last_name=BJORNEBY t:lot=00011 t:owner_s_phone_=7183889526 t:job_description="ERECT NON-ILLUMINATED NON-ADVERTISING SIGN ON WALL.  NOT WITHIN VIEW OF AN       ARTERIAL HIGHWAY OR PUBLIC PARK.  NO CHANGE IN USE, EGRESS OR OCCUPANCY." m:sign_dist_from_highway=0 m:initial_cost=2300 m:sign_height_curb=162 m:total_est_fee=100 m:sign_weight=0 m:sign_sq_footage=35 m:sign_height_roof=0 m:sign_dist_from_park=0 m:sign_projection=0
 
-series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="U.S. POLO ASSN. SINCE 1890" t:other=X t:zip_code=07652 t:owner_s_house_=210 t:street_name=BROADWAY t:sign_type=WALL t:sign_changeable_copy=N t:owner_s_house_street="RTE 4 EAST" t:state=NJ t:block=00998 t:job_status_descrp="PERMIT ISSUED - ENTIRE JOB/WORK" t:building_type=OTHER t:job_status=R t:fee_status=STANDARD t:bin_=1076844 t:applicant_s_first_name=SOL t:other_description=SIGN t:latest_action_date="04/25/2013 00:00:00" t:city=PARAMUS t:professional_cert=Y t:sign_illumination_type=D t:job_type=SG t:house_=1540 t:applicant_professional_title=RA t:sign_advertising=BUSINESS t:doc_=01 t:owner_type=02 t:owner_s_first_name=JAMES t:owner_s_last_name=BRY t:special_dist_name=MID t:zoning_distr_1=C6-7T t:borough=MANHATTAN t:zoning_distr_2=C6-5.5 t:sign_near_park=N t:efiling_filed=Y t:applicant_license_=009114 t:community__board=105 t:job_=121601631 t:applicant_s_last_name=NIEGO t:sign_illumination=Y t:owner_s_phone_=2015871000 t:job_description="ERECT AN ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS, OR  OCCUPANCY." m:sign_dist_from_highway=0 m:initial_cost=4095 m:sign_height_curb=182 m:total_est_fee=140 m:sign_weight=0 m:sign_sq_footage=35 m:sign_height_roof=0 m:lot=7501 m:sign_dist_from_park=0 m:sign_projection=5
+series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="U.S. POLO ASSN. SINCE 1890" t:other=X t:zip_code=07652 t:owner_s_house_=210 t:street_name=BROADWAY t:sign_type=WALL t:sign_changeable_copy=N t:owner_s_house_street="RTE 4 EAST" t:state=NJ t:block=00998 t:job_status_descrp="PERMIT ISSUED - ENTIRE JOB/WORK" t:fee_status=STANDARD t:building_type=OTHER t:job_status=R t:bin_=1076844 t:applicant_s_first_name=SOL t:other_description=SIGN t:city=PARAMUS t:professional_cert=Y t:sign_illumination_type=D t:job_type=SG t:house_=1540 t:applicant_professional_title=RA t:sign_advertising=BUSINESS t:doc_=01 t:owner_type=02 t:owner_s_first_name=JAMES t:owner_s_last_name=BRY t:special_dist_name=MID t:zoning_distr_1=C6-7T t:borough=MANHATTAN t:zoning_distr_2=C6-5.5 t:sign_near_park=N t:efiling_filed=Y t:applicant_license_=009114 t:community__board=105 t:job_=121601631 t:applicant_s_last_name=NIEGO t:lot=07501 t:sign_illumination=Y t:owner_s_phone_=2015871000 t:job_description="ERECT AN ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS, OR  OCCUPANCY." m:sign_dist_from_highway=0 m:initial_cost=4095 m:sign_height_curb=182 m:total_est_fee=140 m:sign_weight=0 m:sign_sq_footage=35 m:sign_height_roof=0 m:sign_dist_from_park=0 m:sign_projection=5
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:lot p:long l:Lot d:"Tax lot assigned by Department of Finance" t:dataTypeName=number
-
 metric m:initial_cost p:float l:"Initial Cost" d:"Estimated cost of job" t:dataTypeName=number
 
 metric m:total_est_fee p:float l:"Total Est. Fee" d:"Estimated fee of job" t:dataTypeName=number

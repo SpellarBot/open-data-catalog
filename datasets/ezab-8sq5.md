@@ -43,7 +43,7 @@
 | Yes      | series tag     | topic_id                   | Topic ID                   | text      | text        |
 | Yes      | series tag     | measure_id                 | Measure ID                 | text      | text        |
 | Yes      | series tag     | submeasureid               | SubMeasureID               | text      | text        |
-| No       |                | displayorder               | DisplayOrder               | number    | text        |
+| No       |                | displayorder               | DisplayOrder               | text      | text        |
 ```
 
 ## Time Field

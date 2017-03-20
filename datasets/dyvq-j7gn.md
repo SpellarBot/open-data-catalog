@@ -34,11 +34,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z m:billablehours=848.10412
+series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z m:billablehours=848.104117647059
 
-series e:dyvq-j7gn d:2015-06-30T00:00:00.000Z m:billablehours=1292.74067
+series e:dyvq-j7gn d:2015-06-30T00:00:00.000Z m:billablehours=1292.74066666667
 
-series e:dyvq-j7gn d:2016-06-30T00:00:00.000Z m:billablehours=1349.96353
+series e:dyvq-j7gn d:2016-06-30T00:00:00.000Z m:billablehours=1349.96352941176
 ```
 
 ## Meta Commands

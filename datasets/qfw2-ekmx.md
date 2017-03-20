@@ -43,7 +43,7 @@ Vehicle traffic volumes collected from 7-day counts. Used to provide traffic cou
 | Yes      | numeric metric | study_pmpk                | STUDY_PMPK                | number    | number      |
 | Yes      | numeric metric | seg_compkey               | SEG_COMPKEY               | number    | number      |
 | Yes      | series tag     | unitid                    | UNITID                    | text      | text        |
-| Yes      | numeric metric | unitid2                   | UNITID2                   | number    | text        |
+| Yes      | series tag     | unitid2                   | UNITID2                   | text      | text        |
 | Yes      | series tag     | o_street                  | O_STREET                  | text      | text        |
 | Yes      | series tag     | x_street                  | X_STREET                  | text      | text        |
 | Yes      | series tag     | dir_from_cross_street     | DIR_FROM_CROSS_STREET     | text      | text        |
@@ -74,11 +74,11 @@ Excluded Fields = end_date,stdy_year
 ## Data Commands
 
 ```ls
-series e:qfw2-ekmx d:2005-06-13T14:00:00.000Z t:dir_from_cross_street=N t:stdy_title_part="4TH AVE S, N/O 4TH AVE NB ON RP" t:stdy_title_part_with_flow="4TH AVE S, N/O 4TH AVE NB ON RP; S FLOW" t:title="4TH AVE S, N/O 4TH AVE NB ON RP; S FLOW; CH1; 13JUN2005 14:00" t:unitid=03150 t:study_lane_code=STANDARD t:x_street="4TH AVE NB OFF RP" t:study_id=207138 t:study_type="VOLUME COUNT" t:objectid=1 t:o_street="4TH AVE S" t:stdy_label="207138, 2005-06-13, S" t:study_dirflow=S m:study_awdt=9743 m:distance=388 m:study_pmpk=884 m:intended_days=7 m:actual_days=7 m:unitid2=130 m:seg_compkey=163343 m:study_adt=8592 m:study_ampk=687 m:study_length=672 m:study_max8=5793
+series e:qfw2-ekmx d:2005-06-13T14:00:00.000Z t:dir_from_cross_street=N t:study_lane_code=STANDARD t:unitid2=0130 t:study_type="VOLUME COUNT" t:stdy_title_part="4TH AVE S, N/O 4TH AVE NB ON RP" t:title="4TH AVE S, N/O 4TH AVE NB ON RP; S FLOW; CH1; 13JUN2005 14:00" t:stdy_title_part_with_flow="4TH AVE S, N/O 4TH AVE NB ON RP; S FLOW" t:unitid=03150 t:x_street="4TH AVE NB OFF RP" t:study_id=207138 t:objectid=1 t:o_street="4TH AVE S" t:stdy_label="207138, 2005-06-13, S" t:study_dirflow=S m:study_awdt=9743 m:distance=388 m:study_pmpk=884 m:intended_days=7 m:actual_days=7 m:seg_compkey=163343 m:study_adt=8592 m:study_ampk=687 m:study_length=672 m:study_max8=5793
 
-series e:qfw2-ekmx d:2005-03-15T09:00:00.000Z t:dir_from_cross_street=NE t:stdy_title_part="LAKE CITY WAY NE, NE/O NE 95TH ST" t:stdy_title_part_with_flow="LAKE CITY WAY NE, NE/O NE 95TH ST; SW FLOW" t:title="LAKE CITY WAY NE, NE/O NE 95TH ST; SW FLOW; CH1; 15MAR2005 09:00" t:unitid=08015 t:study_lane_code=STANDARD t:x_street="NE 95TH ST" t:study_id=206368 t:study_type="VOLUME COUNT" t:objectid=2 t:o_street="LAKE CITY WAY NE" t:stdy_label="206368, 2005-03-15, SW" t:study_dirflow=SW m:study_awdt=17323 m:distance=560.5 m:study_pmpk=1028 m:intended_days=7 m:actual_days=7 m:unitid2=950 m:seg_compkey=11159 m:study_adt=16114 m:study_ampk=1828 m:study_length=672 m:study_max8=9163
+series e:qfw2-ekmx d:2005-03-15T09:00:00.000Z t:dir_from_cross_street=NE t:study_lane_code=STANDARD t:unitid2=0950 t:study_type="VOLUME COUNT" t:stdy_title_part="LAKE CITY WAY NE, NE/O NE 95TH ST" t:title="LAKE CITY WAY NE, NE/O NE 95TH ST; SW FLOW; CH1; 15MAR2005 09:00" t:stdy_title_part_with_flow="LAKE CITY WAY NE, NE/O NE 95TH ST; SW FLOW" t:unitid=08015 t:x_street="NE 95TH ST" t:study_id=206368 t:objectid=2 t:o_street="LAKE CITY WAY NE" t:stdy_label="206368, 2005-03-15, SW" t:study_dirflow=SW m:study_awdt=17323 m:distance=560.5 m:study_pmpk=1028 m:intended_days=7 m:actual_days=7 m:seg_compkey=11159 m:study_adt=16114 m:study_ampk=1828 m:study_length=672 m:study_max8=9163
 
-series e:qfw2-ekmx d:2003-04-07T11:15:00.000Z t:dir_from_cross_street=W t:stdy_title_part="S DEARBORN ST, W/O 13TH AVE S" t:stdy_title_part_with_flow="S DEARBORN ST, W/O 13TH AVE S; W FLOW" t:title="S DEARBORN ST, W/O 13TH AVE S; W FLOW; CH1; 07APR2003 11:15" t:unitid=15755 t:study_lane_code=STANDARD t:x_street="DEARBORN ST OFF RP" t:study_id=200454 t:study_type="VOLUME COUNT" t:objectid=3 t:o_street="S DEARBORN ST" t:stdy_label="200454, 2003-04-07, W" t:study_dirflow=W m:study_awdt=11192 m:distance=406 m:study_pmpk=827 m:intended_days=7 m:actual_days=7 m:unitid2=129 m:seg_compkey=19832 m:study_adt=10452 m:study_ampk=742 m:study_length=672 m:study_max8=6070
+series e:qfw2-ekmx d:2003-04-07T11:15:00.000Z t:dir_from_cross_street=W t:study_lane_code=STANDARD t:unitid2=0129 t:study_type="VOLUME COUNT" t:stdy_title_part="S DEARBORN ST, W/O 13TH AVE S" t:title="S DEARBORN ST, W/O 13TH AVE S; W FLOW; CH1; 07APR2003 11:15" t:stdy_title_part_with_flow="S DEARBORN ST, W/O 13TH AVE S; W FLOW" t:unitid=15755 t:x_street="DEARBORN ST OFF RP" t:study_id=200454 t:objectid=3 t:o_street="S DEARBORN ST" t:stdy_label="200454, 2003-04-07, W" t:study_dirflow=W m:study_awdt=11192 m:distance=406 m:study_pmpk=827 m:intended_days=7 m:actual_days=7 m:seg_compkey=19832 m:study_adt=10452 m:study_ampk=742 m:study_length=672 m:study_max8=6070
 ```
 
 ## Meta Commands
@@ -101,8 +101,6 @@ metric m:study_ampk p:integer l:STUDY_AMPK d:STUDY_AMPK t:dataTypeName=number
 metric m:study_pmpk p:integer l:STUDY_PMPK d:STUDY_PMPK t:dataTypeName=number
 
 metric m:seg_compkey p:integer l:SEG_COMPKEY d:SEG_COMPKEY t:dataTypeName=number
-
-metric m:unitid2 p:integer l:UNITID2 d:UNITID2 t:dataTypeName=number
 
 metric m:distance p:float l:DISTANCE d:DISTANCE t:dataTypeName=number
 

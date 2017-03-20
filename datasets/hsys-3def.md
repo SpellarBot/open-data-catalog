@@ -15,8 +15,8 @@
 | Category | Government & Finance |
 | Tags | numbers, win-4, new york lottery, winning, results |
 | Created | 2013-02-26T20:21:34Z |
-| Publication Date | 2017-03-18T10:03:32Z |
-| Rows Updated | 2017-03-18T10:02:27Z |
+| Publication Date | 2017-03-19T10:04:05Z |
+| Rows Updated | 2017-03-19T10:03:07Z |
 
 ## Description
 

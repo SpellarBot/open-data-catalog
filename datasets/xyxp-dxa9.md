@@ -38,7 +38,7 @@
 | No       |                | data_value_unit            | Data_Value_Unit            | text      | text        |
 | No       |                | data_value_type            | Data_Value_Type            | text      | text        |
 | Yes      | numeric metric | data_value                 | Data_Value                 | number    | number      |
-| Yes      | numeric metric | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | number      |
+| No       |                | data_value_footnote_symbol | Data_Value_Footnote_Symbol | number    | number      |
 | No       |                | data_value_footnote        | Data_Value_Footnote        | text      | text        |
 | Yes      | series tag     | data_value_std_err         | Data_Value_Std_Err         | text      | text        |
 | Yes      | numeric metric | low_confidence_limit       | Low_Confidence_Limit       | number    | number      |
@@ -65,7 +65,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = data_value_unit,data_value_type,data_value_footnote
+Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,data_value_footnote
 ```
 
 ## Data Commands
@@ -73,7 +73,7 @@ Excluded Fields = data_value_unit,data_value_type,data_value_footnote
 ```ls
 series e:xyxp-dxa9 d:2004-01-01T00:00:00.000Z t:topic="Prenatal Care - Visits" t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP44 t:class="Control Variable" t:break_out="Age 18 - 44" t:questionid=QUO171 t:response=NO t:locationid=2 t:breakoutid=AGE1844ALL t:responseid=RES23 t:break_out_category="Maternal Age - 18 to 44 years only" t:question="Indicator of no prenatal care" t:breakoutcategoryid=BOC16 t:datasource=PRAMS t:classid=CLA1 m:data_value=99.1
 
-series e:xyxp-dxa9 d:2004-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:questionid=QUO17 t:locationid=2 t:breakoutid=BOC1 t:break_out_category="Birth Weight" t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:data_value_footnote_symbol=1 m:data_value=18
+series e:xyxp-dxa9 d:2004-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:questionid=QUO17 t:locationid=2 t:breakoutid=BOC1 t:break_out_category="Birth Weight" t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:data_value=18
 
 series e:xyxp-dxa9 d:2004-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:break_out="LBW (<=2500g)" t:questionid=QUO17 t:response=NO t:locationid=2 t:breakoutid=BWT1 t:responseid=RES23 t:break_out_category="Birth Weight" t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:high_confidence_limit=86 m:sample_size=335 m:data_value=84.2 m:low_confidence_limit=82.1
 ```
@@ -82,8 +82,6 @@ series e:xyxp-dxa9 d:2004-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK
 
 ```ls
 metric m:data_value p:float l:Data_Value t:dataTypeName=number
-
-metric m:data_value_footnote_symbol p:integer l:Data_Value_Footnote_Symbol t:dataTypeName=number
 
 metric m:low_confidence_limit p:float l:Low_Confidence_Limit t:dataTypeName=number
 

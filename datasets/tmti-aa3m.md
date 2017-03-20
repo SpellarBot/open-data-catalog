@@ -29,7 +29,7 @@ Determination of Eligible Project by Oregon Business Development Commission unde
 | ======== | =========== | ========================================================== | ========================================================== | ========= | =========== |
 | Yes      | time        | fiscal_year                                                | Fiscal Year                                                | number    | text        |
 | Yes      | series tag  | agency_issuing_tax_expenditure                             | Agency Issuing Tax Expenditure                             | text      | text        |
-| Yes      | series tag  | report_period_end_date                                     | Report Period End Date                                     | text      | text        |
+| No       |             | report_period_end_date                                     | Report Period End Date                                     | text      | text        |
 | Yes      | series tag  | business_firm_name                                         | Business Firm Name                                         | text      | text        |
 | Yes      | series tag  | proposed_project_location                                  | Proposed Project Location                                  | text      | text        |
 | Yes      | series tag  | name_of_proposed_project                                   | Name of Proposed Project                                   | text      | text        |
@@ -39,7 +39,7 @@ Determination of Eligible Project by Oregon Business Development Commission unde
 | Yes      | series tag  | specific_outcomes_of_the_program_and_taxpayer_requirements | Specific Outcomes of the Program and Taxpayer Requirements | text      | text        |
 | Yes      | series tag  | statistics_and_methodology_employed                        | Statistics and Methodology Employed                        | text      | text        |
 | Yes      | series tag  | agency_s_certification_decision                            | Agency's Certification Decision                            | text      | text        |
-| Yes      | series tag  | date_approved                                              | Date Approved                                              | text      | text        |
+| No       |             | date_approved                                              | Date Approved                                              | text      | text        |
 | Yes      | series tag  | facility_location_county_code                              | Facility Location County Code                              | text      | text        |
 | Yes      | series tag  | facility_location_congressional_district                   | Facility Location Congressional District                   | text      | text        |
 | Yes      | series tag  | company_mailing_address_w_zip                              | Company Mailing Address (w/ZIP)                            | text      | text        |
@@ -50,6 +50,12 @@ Determination of Eligible Project by Oregon Business Development Commission unde
 ```ls
 Value = fiscal_year
 Format & Zone = yyyy
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = report_period_end_date,date_approved
 ```
 
 ## Data Commands

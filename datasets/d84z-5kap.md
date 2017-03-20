@@ -27,8 +27,7 @@ First Assistant Corporation Counsel Jeffrey D. Friedlander writes a bi-monthly c
 ```ls
 | Included | Schema Type | Field Name       | Name             | Data Type | Render Type |
 | ======== | =========== | ================ | ================ | ========= | =========== |
-| No       | time        | :updated_at      | updated_at       | meta_data | meta_data   |
-| Yes      | series tag  | column_date      | Column Date      | text      | text        |
+| Yes      | time        | column_date      | Column Date      | text      | text        |
 | Yes      | series tag  | columns_title    | Columns Title    | text      | text        |
 | Yes      | series tag  | link_to_pdf_file | Link to PDF File | url       | url         |
 ```
@@ -36,18 +35,18 @@ First Assistant Corporation Counsel Jeffrey D. Friedlander writes a bi-monthly c
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = column_date
+Format & Zone = MM/dd/yy
 ```
 
 ## Data Commands
 
 ```ls
-series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)" t:column_date=11/26/12 m:row_number.d84z-5kap=1
+series e:d84z-5kap d:2012-11-26T00:00:00.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)" m:row_number.d84z-5kap=1
 
-series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf t:columns_title="Municipal Law - Innovations in City Land-Use Transactions" t:column_date=9/18/12 m:row_number.d84z-5kap=2
+series e:d84z-5kap d:2012-09-18T00:00:00.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf t:columns_title="Municipal Law - Innovations in City Land-Use Transactions" m:row_number.d84z-5kap=2
 
-series e:d84z-5kap d:2013-02-14T07:59:56.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf t:columns_title="Municipal Law - Cleaning Up City Waterways" t:column_date=6/18/12 m:row_number.d84z-5kap=3
+series e:d84z-5kap d:2012-06-18T00:00:00.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf t:columns_title="Municipal Law - Cleaning Up City Waterways" m:row_number.d84z-5kap=3
 ```
 
 ## Meta Commands

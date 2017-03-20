@@ -59,13 +59,13 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = datelabel,quarter_label,year,quarter
+Excluded Fields = quarter,datelabel,quarter_label,year
 ```
 
 ## Data Commands
 
 ```ls
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization=Budget t:indicatorid=101 t:action_aggregation="Maintain Below" t:direction=Under t:name="Avg. days to approve requisitions for the purchase of goods or services" t:target=1 t:seasonality="Not Seasonal" t:type=Average t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31" t:note="6,973 requisitions approved in 2016." m:total=0.63 m:ytd=0.63498 m:value=0.63
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization=Budget t:indicatorid=101 t:action_aggregation="Maintain Below" t:direction=Under t:name="Avg. days to approve requisitions for the purchase of goods or services" t:target=1 t:seasonality="Not Seasonal" t:type=Average t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31" t:note="6,973 requisitions approved in 2016." m:total=0.63 m:ytd=0.634975982 m:value=0.63
 
 series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=40103 t:organization="Capital Projects" t:indicatorid=201 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of projects delivered on schedule" t:target=80% t:seasonality="Not Seasonal" t:type="Average Percent" t:rowid="Percent of projects delivered on schedule_2016-03-31" t:note="111 of 140 project milestones delivered on schedule in 2016." m:percent=82.4 m:value=82.4
 

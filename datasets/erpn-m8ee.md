@@ -104,7 +104,7 @@ The Annual Publication is a proposed program of road and structure projects that
 | Yes      | series tag     | prj_rec_ty | PRJ_REC_TY | text      | text        |
 | Yes      | numeric metric | pps_projec | PPS_PROJEC | number    | text        |
 | Yes      | series tag     | pub_desc   | PUB_DESC   | text      | text        |
-| Yes      | numeric metric | record     | RECORD     | number    | text        |
+| Yes      | series tag     | record     | RECORD     | text      | text        |
 | Yes      | numeric metric | frequency  | FREQUENCY  | number    | number      |
 | Yes      | numeric metric | loc_dist_n | LOC_DIST_N | number    | text        |
 | Yes      | series tag     | cty_nmt1   | CTY_NMT1   | text      | text        |
@@ -164,11 +164,11 @@ Excluded Fields = footnotes1,footnotes2,footnotes3,footnotes4,footnotes5,footnot
 ## Data Commands
 
 ```ls
-series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010019 t:rtype3=C t:rtype2=S t:location3="MISSISSIPPI RIVER" t:route3=QUINCY t:rtype1=M t:location2="BRIDGE AT" t:route2="MAINE ST" t:location1="QUINCY MEMORIAL" t:imprvmnt1="BRIDGE JOINT REPAIR" t:route1="US 24" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20063 000000" t:fndacr2=OTH t:cty_nmt1=ADAMS t:fndacr1=S m:record=1208 m:est_cost_f=250000 m:begin_sta=0.01 m:end_sta=0 m:pps_projec=6617500300 m:loc_dist_n=6 m:frequency=1 m:angle=89
+series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010019 t:rtype3=C t:rtype2=S t:location3="MISSISSIPPI RIVER" t:record=01208 t:route3=QUINCY t:rtype1=M t:location2="BRIDGE AT" t:route2="MAINE ST" t:location1="QUINCY MEMORIAL" t:imprvmnt1="BRIDGE JOINT REPAIR" t:route1="US 24" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20063 000000" t:fndacr2=OTH t:cty_nmt1=ADAMS t:fndacr1=S m:est_cost_f=250000 m:begin_sta=0.01 m:end_sta=0 m:pps_projec=6617500300 m:loc_dist_n=6 m:frequency=1 m:angle=89
 
-series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010025 t:location3="BEVERLY RD" t:rtype1=M t:location2="2 MI W OF" t:imprvmnt2="BRIDGE OFFICE P.E." t:location1="GRINDSTONE CREEK" t:imprvmnt1="BRIDGE REPLACEMENT" t:route1="ILL 104" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20745 000000" t:fndacr2=S t:cty_nmt1=ADAMS t:fndacr1=BR m:record=1226 m:est_cost_f=1400000 m:begin_sta=26.03 m:end_sta=0 m:pps_projec=6734600000 m:loc_dist_n=6 m:frequency=1 m:angle=359
+series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0010025 t:location3="BEVERLY RD" t:record=01226 t:rtype1=M t:location2="2 MI W OF" t:imprvmnt2="BRIDGE OFFICE P.E." t:location1="GRINDSTONE CREEK" t:imprvmnt1="BRIDGE REPLACEMENT" t:route1="ILL 104" t:pub_desc="20112011ANNUAL BOOK" t:inventory="001  20745 000000" t:fndacr2=S t:cty_nmt1=ADAMS t:fndacr1=BR m:est_cost_f=1400000 m:begin_sta=26.03 m:end_sta=0 m:pps_projec=6734600000 m:loc_dist_n=6 m:frequency=1 m:angle=359
 
-series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0020022 t:rtype2=C t:location3=CAIRO t:rtype1=M t:location2="BRIDGE AT WCL OF" t:route2=CAIRO t:location1="MISSISSIPPI RIVER" t:imprvmnt1="BRIDGE DECK REPAIRS" t:route1="I 57" t:pub_desc="20112011ANNUAL BOOK" t:inventory="002  10057 000000" t:fndacr2=OTH t:cty_nmt1=ALEXANDER t:fndacr1=S m:record=1560 m:est_cost_f=200000 m:begin_sta=0 m:end_sta=0 m:pps_projec=9004090000 m:loc_dist_n=9 m:frequency=1 m:angle=240
+series e:erpn-m8ee d:2011-01-01T00:00:00.000Z t:tracdesc1=NONE t:type=STR t:prj_rec_ty=P t:sn_key=0020022 t:rtype2=C t:location3=CAIRO t:record=01560 t:rtype1=M t:location2="BRIDGE AT WCL OF" t:route2=CAIRO t:location1="MISSISSIPPI RIVER" t:imprvmnt1="BRIDGE DECK REPAIRS" t:route1="I 57" t:pub_desc="20112011ANNUAL BOOK" t:inventory="002  10057 000000" t:fndacr2=OTH t:cty_nmt1=ALEXANDER t:fndacr1=S m:est_cost_f=200000 m:begin_sta=0 m:end_sta=0 m:pps_projec=9004090000 m:loc_dist_n=9 m:frequency=1 m:angle=240
 ```
 
 ## Meta Commands
@@ -181,8 +181,6 @@ metric m:end_sta p:float l:END_STA t:dataTypeName=number
 metric m:est_cost_f p:integer l:EST_COST_F t:dataTypeName=number
 
 metric m:pps_projec p:long l:PPS_PROJEC t:dataTypeName=number
-
-metric m:record p:integer l:RECORD t:dataTypeName=number
 
 metric m:frequency p:float l:FREQUENCY t:dataTypeName=number
 

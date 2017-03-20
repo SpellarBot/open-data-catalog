@@ -46,7 +46,7 @@ The Board of Supervisors passed Ordinance No. 53-15 requiring the San Francisco 
 | Yes      | series tag     | yr_qtr              | YR_QTR              | text          | text          |
 | Yes      | series tag     | pln_district_name   | PLN_DISTRICT_NAME   | text          | text          |
 | Yes      | series tag     | supdist             | SUPDIST             | text          | text          |
-| Yes      | numeric metric | supervisor          | SUPERVISOR          | number        | number        |
+| Yes      | series tag     | supervisor          | SUPERVISOR          | text          | number        |
 | Yes      | series tag     | height              | HEIGHT              | text          | text          |
 | Yes      | series tag     | zoning_sim          | ZONING_SIM          | text          | text          |
 | Yes      | series tag     | zoning_districtname | ZONING_DISTRICTNAME | text          | text          |
@@ -68,11 +68,11 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:8iri-b2sz d:2005-11-15T00:00:00.000Z t:height=40-X t:app_no=20000112908 t:action="CFC ISSUED" t:pln_district_name="Inner Sunset" t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 7" t:st_name=KIRKHAM t:zoning_sim=RH-2 t:zoning_districtname="RESIDENTIAL- HOUSE, TWO FAMILY" t:apn="APN 1855052" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORY 2 FAMILY DWELLING UNIT" m:netunits_c=2 m:aff_hsg=0 m:form=2 m:st_num=507 m:supervisor=7 m:units=0
+series e:8iri-b2sz d:2005-11-15T00:00:00.000Z t:height=40-X t:app_no=20000112908 t:supervisor=7 t:action="CFC ISSUED" t:pln_district_name="Inner Sunset" t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 7" t:st_name=KIRKHAM t:zoning_sim=RH-2 t:zoning_districtname="RESIDENTIAL- HOUSE, TWO FAMILY" t:apn="APN 1855052" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORY 2 FAMILY DWELLING UNIT" m:netunits_c=2 m:aff_hsg=0 m:form=2 m:st_num=507 m:units=0
 
-series e:8iri-b2sz d:2005-03-08T00:00:00.000Z t:height=40-X t:app_no=200002293001 t:action="CFC ISSUED" t:pln_district_name=Richmond t:st_type=AV t:supdist="SUPERVISORIAL DISTRICT 1" t:st_name=02ND t:zoning_sim=RM-1 t:zoning_districtname="RESIDENTIAL- MIXED, LOW DENSITY" t:apn="APN 1433062" t:yr_qtr=2005_Q1 t:bp_descript="ERECT A THREE STORY THREE UNIT RESIDENTIAL BLDG" m:netunits_c=3 m:aff_hsg=0 m:form=2 m:st_num=330 m:supervisor=1 m:units=0
+series e:8iri-b2sz d:2005-03-08T00:00:00.000Z t:height=40-X t:app_no=200002293001 t:supervisor=1 t:action="CFC ISSUED" t:pln_district_name=Richmond t:st_type=AV t:supdist="SUPERVISORIAL DISTRICT 1" t:st_name=02ND t:zoning_sim=RM-1 t:zoning_districtname="RESIDENTIAL- MIXED, LOW DENSITY" t:apn="APN 1433062" t:yr_qtr=2005_Q1 t:bp_descript="ERECT A THREE STORY THREE UNIT RESIDENTIAL BLDG" m:netunits_c=3 m:aff_hsg=0 m:form=2 m:st_num=330 m:units=0
 
-series e:8iri-b2sz d:2005-12-06T00:00:00.000Z t:height=65-X t:app_no=200003073664 t:action="CFC ISSUED" t:pln_district_name=Mission t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 10" t:st_name=24TH t:zoning_sim=NCT t:zoning_districtname="24TH-MISSION NEIGHBORHOOD COMMERCIAL TRANSIT" t:apn="APN 4264025" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORIES, 6 UNITS DWELLING APARTMENTS" m:netunits_c=6 m:aff_hsg=0 m:form=2 m:st_num=2637 m:supervisor=10 m:units=0
+series e:8iri-b2sz d:2005-12-06T00:00:00.000Z t:height=65-X t:app_no=200003073664 t:supervisor=10 t:action="CFC ISSUED" t:pln_district_name=Mission t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 10" t:st_name=24TH t:zoning_sim=NCT t:zoning_districtname="24TH-MISSION NEIGHBORHOOD COMMERCIAL TRANSIT" t:apn="APN 4264025" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORIES, 6 UNITS DWELLING APARTMENTS" m:netunits_c=6 m:aff_hsg=0 m:form=2 m:st_num=2637 m:units=0
 ```
 
 ## Meta Commands
@@ -87,8 +87,6 @@ metric m:netunits_c p:integer l:NETUNITS_C t:dataTypeName=number
 metric m:aff_hsg p:integer l:AFF_HSG t:dataTypeName=number
 
 metric m:form p:integer l:FORM t:dataTypeName=number
-
-metric m:supervisor p:integer l:SUPERVISOR t:dataTypeName=number
 
 entity e:8iri-b2sz l:"Housing Balance March 2016" t:url=https://data.sfgov.org/api/views/8iri-b2sz
 

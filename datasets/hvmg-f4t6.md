@@ -41,7 +41,7 @@ This layer contains the archived records for survey markers that are considered 
 | Yes      | series tag     | coord_system      | COORD_SYSTEM      | text      | text        |
 | Yes      | series tag     | vert_datum        | VERT_DATUM        | text      | text        |
 | Yes      | series tag     | owner             | OWNER             | text      | text        |
-| Yes      | series tag     | date_added        | DATE_ADDED        | text      | text        |
+| No       |                | date_added        | DATE_ADDED        | text      | text        |
 | Yes      | series tag     | uploader_name     | UPLOADER_NAME     | text      | text        |
 | Yes      | series tag     | precision_quality | PRECISION_QUALITY | text      | text        |
 | Yes      | series tag     | ls_certified      | LS_CERTIFIED      | text      | text        |
@@ -61,17 +61,17 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = id,xcoord,ycoord
+Excluded Fields = id,xcoord,ycoord,date_added
 ```
 
 ## Data Commands
 
 ```ls
-series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:feature_type=CP t:status=R t:project_number="STPN-069-7(41)--2J-99 PIN 08-99-069-010 Sap-0656.2" t:vert_datum="NAVD88 (Computed using Geoid12A)" t:network="IaRTN 2013 Adjustment" t:horiz_datum="NAD83(2011) (EPOCH2010.00)" t:precision_quality=A t:proj_dir_url=pw:\\projectwise.dot.int.lan:PWMain\Documents\Projects\9906901013\PrelimSurvey\ t:coord_system="IA North US Feet" t:date_added="08/18/2015 15:27" t:description="FND WRIGHT CO. SURVEY MONUMENT 0011" t:ls_certified=N t:owner="Office of Design" t:survey_id=11 m:zcoord=1180.421 m:capturedatemonth=12 m:capturedateday=16
+series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:horiz_datum="NAD83(2011) (EPOCH2010.00)" t:precision_quality=A t:feature_type=CP t:proj_dir_url=pw:\\projectwise.dot.int.lan:PWMain\Documents\Projects\9906901013\PrelimSurvey\ t:coord_system="IA North US Feet" t:status=R t:description="FND WRIGHT CO. SURVEY MONUMENT 0011" t:ls_certified=N t:owner="Office of Design" t:project_number="STPN-069-7(41)--2J-99 PIN 08-99-069-010 Sap-0656.2" t:vert_datum="NAVD88 (Computed using Geoid12A)" t:survey_id=11 t:network="IaRTN 2013 Adjustment" m:zcoord=1180.421 m:capturedatemonth=12 m:capturedateday=16
 
-series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:feature_type=FENO t:status=R t:project_number="STPN-069-7(41)--2J-99 PIN 08-99-069-010 Sap-0656.2" t:vert_datum="NAVD88 (Computed using Geoid12A)" t:network="IaRTN 2013 Adjustment" t:horiz_datum="NAD83(2011) (EPOCH2010.00)" t:precision_quality=A t:proj_dir_url=pw:\\projectwise.dot.int.lan:PWMain\Documents\Projects\9906901013\PrelimSurvey\ t:coord_system="IA North US Feet" t:date_added="08/18/2015 15:27" t:description="O SET FENO TYPE MONUMENT" t:ls_certified=N t:owner="Office of Design" t:survey_id=2 m:zcoord=1172.748 m:capturedatemonth=12 m:capturedateday=16
+series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:horiz_datum="NAD83(2011) (EPOCH2010.00)" t:precision_quality=A t:feature_type=FENO t:proj_dir_url=pw:\\projectwise.dot.int.lan:PWMain\Documents\Projects\9906901013\PrelimSurvey\ t:coord_system="IA North US Feet" t:status=R t:description="O SET FENO TYPE MONUMENT" t:ls_certified=N t:owner="Office of Design" t:project_number="STPN-069-7(41)--2J-99 PIN 08-99-069-010 Sap-0656.2" t:vert_datum="NAVD88 (Computed using Geoid12A)" t:survey_id=2 t:network="IaRTN 2013 Adjustment" m:zcoord=1172.748 m:capturedatemonth=12 m:capturedateday=16
 
-series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:feature_type=CP t:status=R t:project_number="STPN-069-7(41)--2J-99 PIN 08-99-069-010 Sap-0656.2" t:vert_datum="NAVD88 (Computed using Geoid12A)" t:network="IaRTN 2013 Adjustment" t:horiz_datum="NAD83(2011) (EPOCH2010.00)" t:precision_quality=A t:proj_dir_url=pw:\\projectwise.dot.int.lan:PWMain\Documents\Projects\9906901013\PrelimSurvey\ t:coord_system="IA North US Feet" t:date_added="08/18/2015 15:31" t:description="FND WRIGHT CO. SURVEY MONUMENT 0011" t:ls_certified=N t:owner="Office of Design" t:survey_id=11 m:zcoord=1180.421 m:capturedatemonth=12 m:capturedateday=16
+series e:hvmg-f4t6 d:2014-01-01T00:00:00.000Z t:horiz_datum="NAD83(2011) (EPOCH2010.00)" t:precision_quality=A t:feature_type=CP t:proj_dir_url=pw:\\projectwise.dot.int.lan:PWMain\Documents\Projects\9906901013\PrelimSurvey\ t:coord_system="IA North US Feet" t:status=R t:description="FND WRIGHT CO. SURVEY MONUMENT 0011" t:ls_certified=N t:owner="Office of Design" t:project_number="STPN-069-7(41)--2J-99 PIN 08-99-069-010 Sap-0656.2" t:vert_datum="NAVD88 (Computed using Geoid12A)" t:survey_id=11 t:network="IaRTN 2013 Adjustment" m:zcoord=1180.421 m:capturedatemonth=12 m:capturedateday=16
 ```
 
 ## Meta Commands

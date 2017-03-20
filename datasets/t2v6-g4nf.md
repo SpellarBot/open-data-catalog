@@ -15,7 +15,7 @@
 | Tags | imaging equipment |
 | Created | 2013-08-28T20:47:59Z |
 | Publication Date | 2016-08-19T17:31:12Z |
-| Rows Updated | 2017-03-18T13:38:35Z |
+| Rows Updated | 2017-03-19T13:38:00Z |
 
 ## Description
 
@@ -115,7 +115,7 @@ entity e:t2v6-g4nf l:"ENERGY STAR Certified Imaging Equipment" t:url=https://dat
 
 property e:t2v6-g4nf t:meta.view v:id=t2v6-g4nf v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Imaging Equipment"
 
-property e:t2v6-g4nf t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:displayName=ESddas
+property e:t2v6-g4nf t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
 property e:t2v6-g4nf t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
