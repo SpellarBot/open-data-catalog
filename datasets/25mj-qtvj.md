@@ -31,7 +31,7 @@ Salaries of state work force sorted by agency - 2016. For more information go to
 | Yes      | series tag     | agency_title   | AGENCY TITLE   | text      | text        |
 | Yes      | series tag     | classification | CLASSIFICATION | text      | text        |
 | Yes      | series tag     | service_type   | SERVICE TYPE   | text      | text        |
-| Yes      | series tag     | full_part_time | FULL/PART TIME | text      | text        |
+| No       |                | full_part_time | FULL/PART TIME | text      | text        |
 | Yes      | numeric metric | annual_salary  | ANNUAL SALARY  | money     | money       |
 ```
 
@@ -42,14 +42,20 @@ Value = fiscal_year
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = full_part_time
+```
+
 ## Data Commands
 
 ```ls
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type="AGENCY HEAD" t:classification="PRINCIPAL EXECUTIVE/MANAGER D" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=96036
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type="AGENCY HEAD" t:classification="PRINCIPAL EXECUTIVE/MANAGER D" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 m:annual_salary=96036
 
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="OFFICE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=38712
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="OFFICE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 m:annual_salary=38712
 
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="ADMINISTRATIVE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=35268
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="ADMINISTRATIVE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 m:annual_salary=35268
 ```
 
 ## Meta Commands
@@ -61,7 +67,7 @@ entity e:25mj-qtvj l:"Salaries of State Agencies FY 2016" t:url=https://data.ore
 
 property e:25mj-qtvj t:meta.view v:id=25mj-qtvj v:category="Revenue & Expense" v:averageRating=0 v:name="Salaries of State Agencies FY 2016"
 
-property e:25mj-qtvj t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:25mj-qtvj t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:25mj-qtvj t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

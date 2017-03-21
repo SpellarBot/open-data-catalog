@@ -68,7 +68,7 @@ entity e:8qii-np8b l:PED_NewHousingPermitsIssuedDetail t:url=https://data.srcity
 
 property e:8qii-np8b t:meta.view v:id=8qii-np8b v:averageRating=0 v:name=PED_NewHousingPermitsIssuedDetail
 
-property e:8qii-np8b t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:8qii-np8b t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
 
 property e:8qii-np8b t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

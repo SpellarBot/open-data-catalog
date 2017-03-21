@@ -345,7 +345,7 @@ property e:mjb9-rsyd t:meta.view v:id=mjb9-rsyd v:category="State Library Admini
 
 property e:mjb9-rsyd t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:mjb9-rsyd t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:mjb9-rsyd t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:displayName="Jason Enos"
 
 property e:mjb9-rsyd t:meta.view.tableauthor v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
 

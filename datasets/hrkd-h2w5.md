@@ -71,7 +71,7 @@ entity e:hrkd-h2w5 l:"Part III - Compiled EZ Assessor Reports Reporting Years 20
 
 property e:hrkd-h2w5 t:meta.view v:id=hrkd-h2w5 v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016"
 
-property e:hrkd-h2w5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:hrkd-h2w5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

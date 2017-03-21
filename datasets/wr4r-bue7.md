@@ -84,7 +84,7 @@ entity e:wr4r-bue7 l:"Fair Student Funding Budget Detail 1" t:attribution="Depar
 
 property e:wr4r-bue7 t:meta.view v:id=wr4r-bue7 v:category="City Government" v:averageRating=0 v:name="Fair Student Funding Budget Detail 1" v:attribution="Department of Education (DOE)"
 
-property e:wr4r-bue7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:wr4r-bue7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:wr4r-bue7 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

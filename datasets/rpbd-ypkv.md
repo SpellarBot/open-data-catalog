@@ -62,7 +62,7 @@ entity e:rpbd-ypkv l:"Hawaii Renewable Energy Generation by Utility/County (Sour
 
 property e:rpbd-ypkv t:meta.view v:id=rpbd-ypkv v:averageRating=0 v:name="Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)"
 
-property e:rpbd-ypkv t:meta.view.owner v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
+property e:rpbd-ypkv t:meta.view.owner v:id=vf6n-ptiq v:screenName=Kathy v:displayName=Kathy
 
 property e:rpbd-ypkv t:meta.view.tableauthor v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
 ```

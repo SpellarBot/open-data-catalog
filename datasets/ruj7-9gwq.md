@@ -65,7 +65,7 @@ entity e:ruj7-9gwq l:"Address Changes" t:url=https://data.austintexas.gov/api/vi
 
 property e:ruj7-9gwq t:meta.view v:id=ruj7-9gwq v:averageRating=0 v:name="Address Changes"
 
-property e:ruj7-9gwq t:meta.view.owner v:id=52wx-7e7j v:screenName="EGS Data Services" v:roleName=publisher v:displayName="EGS Data Services"
+property e:ruj7-9gwq t:meta.view.owner v:id=52wx-7e7j v:screenName="EGS Data Services" v:displayName="EGS Data Services"
 
 property e:ruj7-9gwq t:meta.view.tableauthor v:id=52wx-7e7j v:screenName="EGS Data Services" v:roleName=publisher v:displayName="EGS Data Services"
 ```

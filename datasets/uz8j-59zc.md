@@ -58,7 +58,7 @@ entity e:uz8j-59zc l:"Snake Stream Miles Opened" t:url=https://data.wa.gov/api/v
 
 property e:uz8j-59zc t:meta.view v:id=uz8j-59zc v:averageRating=0 v:name="Snake Stream Miles Opened"
 
-property e:uz8j-59zc t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:uz8j-59zc t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
 property e:uz8j-59zc t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

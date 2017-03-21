@@ -27,7 +27,7 @@
 | Yes      | series tag     | contractor          | Contractor          | text      | text        |
 | Yes      | series tag     | mwesb               | MWESB               | text      | text        |
 | Yes      | series tag     | retainer_period     | Retainer Period     | text      | text        |
-| Yes      | series tag     | issue_date          | Issue Date          | text      | text        |
+| No       |                | issue_date          | Issue Date          | text      | text        |
 | Yes      | numeric metric | price               | Price               | money     | money       |
 | Yes      | series tag     | compensation_method | Compensation Method | text      | text        |
 ```
@@ -39,14 +39,20 @@ Value =
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = issue_date
+```
+
 ## Data Commands
 
 ```ls
-series e:uyku-r7g5 d:2012-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="June 2011 - June 2012" t:project="CARSON HALL PLASTER REPAIR PROJECT" t:organization="University of Oregon" t:contractor="Oregon Ceiling & Acoustics, LLC" t:supplement_number=UO-390-C-11-5 t:issue_date=7/1/11 t:mwesb="MBE, ESB" m:price=46200
+series e:uyku-r7g5 d:2012-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="June 2011 - June 2012" t:project="CARSON HALL PLASTER REPAIR PROJECT" t:organization="University of Oregon" t:contractor="Oregon Ceiling & Acoustics, LLC" t:supplement_number=UO-390-C-11-5 t:mwesb="MBE, ESB" m:price=46200
 
-series e:uyku-r7g5 d:2012-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="June 2011 - June 2012" t:project="Heritage Hall Door Replacement" t:organization="Western Oregon University" t:contractor="Robert Gray Partners, Inc." t:supplement_number=WOU-409-C-11-2 t:issue_date=7/5/11 t:mwesb=No m:price=54828
+series e:uyku-r7g5 d:2012-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="June 2011 - June 2012" t:project="Heritage Hall Door Replacement" t:organization="Western Oregon University" t:contractor="Robert Gray Partners, Inc." t:supplement_number=WOU-409-C-11-2 t:mwesb=No m:price=54828
 
-series e:uyku-r7g5 d:2012-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period=2010-2012 t:project="Residence Hall Infrastructure Upgrade" t:organization="Oregon State University" t:contractor="Jimco Electrical Contracting, Inc." t:supplement_number=OSU-16-C-10-151 t:issue_date=7/5/11 t:mwesb=No m:price=207750
+series e:uyku-r7g5 d:2012-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period=2010-2012 t:project="Residence Hall Infrastructure Upgrade" t:organization="Oregon State University" t:contractor="Jimco Electrical Contracting, Inc." t:supplement_number=OSU-16-C-10-151 t:mwesb=No m:price=207750
 ```
 
 ## Meta Commands
@@ -58,7 +64,7 @@ entity e:uyku-r7g5 l:"Contracts: OUS: Capital Construction Retainer Program: CSR
 
 property e:uyku-r7g5 t:meta.view v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
 
-property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:uyku-r7g5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

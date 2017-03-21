@@ -31,7 +31,7 @@ CDTA is a public transportation authority in the Capital Region.  This dataset p
 | Yes      | numeric metric | total_riders             | Total Riders             | number        | number        |
 | Yes      | numeric metric | star_riders              | STAR Riders              | number        | number        |
 | Yes      | numeric metric | fixed_riders             | Fixed Riders             | number        | number        |
-| Yes      | numeric metric | pmi_not_on_time          | PMI-Not on Time          | number        | number        |
+| No       |                | pmi_not_on_time          | PMI-Not on Time          | number        | number        |
 | Yes      | numeric metric | pmi_completed            | PMI Completed            | number        | number        |
 | Yes      | numeric metric | star_denials             | Star Denials             | number        | number        |
 | Yes      | numeric metric | service_interruptions    | Service Interruptions    | number        | number        |
@@ -52,14 +52,20 @@ Value = month_year
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = pmi_not_on_time
+```
+
 ## Data Commands
 
 ```ls
-series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z m:pmi_completed=148 m:non_prevent_accidents=27 m:fixed_riders=1398444 m:total_riders=1425100 m:comp_not_address_10_days=37 m:other_complaints=118 m:star_denials=37 m:miles=861430 m:star_riders=26656 m:service_interruptions=0 m:total_complaints=354 m:prevent_accidents=16 m:fixed_shut_complaints=236 m:pmi_not_on_time=3 m:mdbsi=23440.27211
+series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z m:pmi_completed=148 m:non_prevent_accidents=27 m:fixed_riders=1398444 m:total_riders=1425100 m:comp_not_address_10_days=37 m:other_complaints=118 m:star_denials=37 m:miles=861430 m:star_riders=26656 m:service_interruptions=0 m:total_complaints=354 m:prevent_accidents=16 m:fixed_shut_complaints=236 m:mdbsi=23440.27211
 
-series e:q7iu-6j5f d:2015-11-30T00:00:00.000Z m:pmi_completed=140 m:non_prevent_accidents=23 m:fixed_riders=1412037 m:total_riders=1437740 m:comp_not_address_10_days=37 m:other_complaints=124 m:star_denials=35 m:miles=808316 m:star_riders=25703 m:service_interruptions=0 m:total_complaints=381 m:prevent_accidents=12 m:fixed_shut_complaints=257 m:pmi_not_on_time=5 m:mdbsi=23261
+series e:q7iu-6j5f d:2015-11-30T00:00:00.000Z m:pmi_completed=140 m:non_prevent_accidents=23 m:fixed_riders=1412037 m:total_riders=1437740 m:comp_not_address_10_days=37 m:other_complaints=124 m:star_denials=35 m:miles=808316 m:star_riders=25703 m:service_interruptions=0 m:total_complaints=381 m:prevent_accidents=12 m:fixed_shut_complaints=257 m:mdbsi=23261
 
-series e:q7iu-6j5f d:2015-10-31T00:00:00.000Z m:pmi_completed=141 m:non_prevent_accidents=33 m:fixed_riders=1590696 m:total_riders=1619277 m:comp_not_address_10_days=40 m:other_complaints=133 m:star_denials=28 m:miles=860916 m:star_riders=28581 m:service_interruptions=0 m:total_complaints=442 m:prevent_accidents=17 m:fixed_shut_complaints=309 m:pmi_not_on_time=3 m:mdbsi=30747
+series e:q7iu-6j5f d:2015-10-31T00:00:00.000Z m:pmi_completed=141 m:non_prevent_accidents=33 m:fixed_riders=1590696 m:total_riders=1619277 m:comp_not_address_10_days=40 m:other_complaints=133 m:star_denials=28 m:miles=860916 m:star_riders=28581 m:service_interruptions=0 m:total_complaints=442 m:prevent_accidents=17 m:fixed_shut_complaints=309 m:mdbsi=30747
 ```
 
 ## Meta Commands
@@ -70,8 +76,6 @@ metric m:total_riders p:integer l:"Total Riders" d:"All vehicle boarding informa
 metric m:star_riders p:integer l:"STAR Riders" d:"Flexible services boarding information." t:dataTypeName=number
 
 metric m:fixed_riders p:integer l:"Fixed Riders" d:"Fixed route boarding information." t:dataTypeName=number
-
-metric m:pmi_not_on_time p:integer l:"PMI-Not on Time" d:"Quantity of inspections not completed within threshold." t:dataTypeName=number
 
 metric m:pmi_completed p:integer l:"PMI Completed" d:"Total number of specific inspection type completed in reporting period." t:dataTypeName=number
 
@@ -99,7 +103,7 @@ entity e:q7iu-6j5f l:"Capital District Transportation Authority (CDTA) Performan
 
 property e:q7iu-6j5f t:meta.view v:id=q7iu-6j5f v:category=Transportation v:attributionLink="https://www.google.com/fusiontables/DataSource?docid=15Ha6CHeJv3MC0zlTjUSchdS6Otm6B_WCTja0r7k#rows:id=1" v:averageRating=0 v:name="Capital District Transportation Authority (CDTA) Performance Metrics" v:attribution="Capital District Transportation Authority"
 
-property e:q7iu-6j5f t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:q7iu-6j5f t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
 property e:q7iu-6j5f t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 

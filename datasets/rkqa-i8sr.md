@@ -81,7 +81,7 @@ entity e:rkqa-i8sr l:"Proposed FY16 Budget" t:url=https://data.honolulu.gov/api/
 
 property e:rkqa-i8sr t:meta.view v:id=rkqa-i8sr v:category=Finance v:averageRating=0 v:name="Proposed FY16 Budget"
 
-property e:rkqa-i8sr t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:rkqa-i8sr t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
 
 property e:rkqa-i8sr t:meta.view.tableauthor v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 ```

@@ -266,7 +266,7 @@ property e:99t6-wshd t:meta.view v:id=99t6-wshd v:category=Community v:attributi
 
 property e:99t6-wshd t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:99t6-wshd t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:99t6-wshd t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
 
 property e:99t6-wshd t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```

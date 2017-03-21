@@ -124,7 +124,7 @@ entity e:nbgq-j9jt l:"Fair Student Funding Budget Detail 2" t:url=https://data.c
 
 property e:nbgq-j9jt t:meta.view v:id=nbgq-j9jt v:category=Education v:averageRating=0 v:name="Fair Student Funding Budget Detail 2"
 
-property e:nbgq-j9jt t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:nbgq-j9jt t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:nbgq-j9jt t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

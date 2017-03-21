@@ -66,7 +66,7 @@ entity e:pf2v-pv7v l:"Floating Restroom Locations" t:attribution="Oregon State M
 
 property e:pf2v-pv7v t:meta.view v:id=pf2v-pv7v v:category=Recreation v:attributionLink=http://www.oregon.gov/osmb/Pages/about_us.aspx v:averageRating=0 v:name="Floating Restroom Locations" v:attribution="Oregon State Marine Board"
 
-property e:pf2v-pv7v t:meta.view.owner v:id=a2bu-8256 v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:screenName="Ashley Massey" v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:roleName=editor v:displayName="Ashley Massey"
+property e:pf2v-pv7v t:meta.view.owner v:id=a2bu-8256 v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:screenName="Ashley Massey" v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:displayName="Ashley Massey"
 
 property e:pf2v-pv7v t:meta.view.tableauthor v:id=a2bu-8256 v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:screenName="Ashley Massey" v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:roleName=editor v:displayName="Ashley Massey"
 ```

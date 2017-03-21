@@ -102,7 +102,7 @@ entity e:qrxi-q28n l:"Libraries - 2013 Computer Sessions by Location" t:attribut
 
 property e:qrxi-q28n t:meta.view v:id=qrxi-q28n v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Computer Sessions by Location" v:attribution="Chicago Public Library"
 
-property e:qrxi-q28n t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:qrxi-q28n t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
 
 property e:qrxi-q28n t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```

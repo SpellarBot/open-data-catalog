@@ -98,7 +98,7 @@ entity e:uwtt-n6qv l:"IDOR SIC Report Q3 2010" t:attribution="Illinois Departmen
 
 property e:uwtt-n6qv t:meta.view v:id=uwtt-n6qv v:category=Economics v:averageRating=0 v:name="IDOR SIC Report Q3 2010" v:attribution="Illinois Department of Revenue"
 
-property e:uwtt-n6qv t:meta.view.owner v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:roleName=publisher v:displayName=wilcoxd
+property e:uwtt-n6qv t:meta.view.owner v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:displayName=wilcoxd
 
 property e:uwtt-n6qv t:meta.view.tableauthor v:id=jkb2-496s v:profileImageUrlMedium=/api/users/jkb2-496s/profile_images/THUMB v:profileImageUrlLarge=/api/users/jkb2-496s/profile_images/LARGE v:screenName=wilcoxd v:profileImageUrlSmall=/api/users/jkb2-496s/profile_images/TINY v:roleName=publisher v:displayName=wilcoxd
 ```

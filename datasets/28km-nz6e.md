@@ -92,7 +92,7 @@ property e:28km-nz6e t:meta.view v:id=28km-nz6e v:category="Motor Vehicle" v:att
 
 property e:28km-nz6e t:meta.view.license v:name="Public Domain"
 
-property e:28km-nz6e t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:28km-nz6e t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
 
 property e:28km-nz6e t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 

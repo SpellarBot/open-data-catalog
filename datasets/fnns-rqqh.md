@@ -69,7 +69,7 @@ property e:fnns-rqqh t:meta.view v:id=fnns-rqqh v:category=Utility v:averageRati
 
 property e:fnns-rqqh t:meta.view.license v:name="Public Domain"
 
-property e:fnns-rqqh t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:fnns-rqqh t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
 
 property e:fnns-rqqh t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

@@ -75,7 +75,7 @@ property e:v48g-wbhi t:meta.view v:id=v48g-wbhi v:category=Health v:attributionL
 
 property e:v48g-wbhi t:meta.view.license v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:v48g-wbhi t:meta.view.owner v:id=8c9u-vteh v:screenName=lorrink v:roleName=editor v:displayName=lorrink
+property e:v48g-wbhi t:meta.view.owner v:id=8c9u-vteh v:screenName=lorrink v:displayName=lorrink
 
 property e:v48g-wbhi t:meta.view.tableauthor v:id=8c9u-vteh v:screenName=lorrink v:roleName=editor v:displayName=lorrink
 ```

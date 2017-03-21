@@ -75,7 +75,7 @@ property e:c9gq-k8de t:meta.view v:id=c9gq-k8de v:category=Government v:averageR
 
 property e:c9gq-k8de t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:c9gq-k8de t:meta.view.owner v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.owner v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:displayName="FSD - Controller's Office"
 
 property e:c9gq-k8de t:meta.view.tableauthor v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
 ```

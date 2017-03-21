@@ -54,7 +54,7 @@ entity e:as52-whec l:"OEIG Monthly Report - November 2012 (Pending investigation
 
 property e:as52-whec t:meta.view v:id=as52-whec v:averageRating=0 v:name="OEIG Monthly Report - November 2012 (Pending investigations as of October 31, 2012)"
 
-property e:as52-whec t:meta.view.owner v:id=4met-hnmi v:screenName=S.Reinke v:roleName=publisher v:displayName=S.Reinke
+property e:as52-whec t:meta.view.owner v:id=4met-hnmi v:screenName=S.Reinke v:displayName=S.Reinke
 
 property e:as52-whec t:meta.view.tableauthor v:id=4met-hnmi v:screenName=S.Reinke v:roleName=publisher v:displayName=S.Reinke
 ```

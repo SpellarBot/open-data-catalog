@@ -65,7 +65,7 @@ property e:9veb-bt9u t:meta.view v:id=9veb-bt9u v:category="Health and Human Ser
 
 property e:9veb-bt9u t:meta.view.license v:name="Public Domain"
 
-property e:9veb-bt9u t:meta.view.owner v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
+property e:9veb-bt9u t:meta.view.owner v:id=dby8-627v v:screenName="Gary Archambault" v:displayName="Gary Archambault"
 
 property e:9veb-bt9u t:meta.view.tableauthor v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
 ```

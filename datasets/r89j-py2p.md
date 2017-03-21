@@ -71,7 +71,7 @@ entity e:r89j-py2p l:"Fiscal Year 2013 Budget" t:url=https://data.montgomerycoun
 
 property e:r89j-py2p t:meta.view v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"
 
-property e:r89j-py2p t:meta.view.owner v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.owner v:id=fnci-gphj v:screenName="MC Open Data" v:displayName="MC Open Data"
 
 property e:r89j-py2p t:meta.view.tableauthor v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
 ```

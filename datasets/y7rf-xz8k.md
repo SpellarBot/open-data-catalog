@@ -66,7 +66,7 @@ entity e:y7rf-xz8k l:"Fiscal Year 2015 County Executive Recommended Operating Bu
 
 property e:y7rf-xz8k t:meta.view v:id=y7rf-xz8k v:category=Government v:averageRating=0 v:name="Fiscal Year 2015 County Executive Recommended Operating Budget"
 
-property e:y7rf-xz8k t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:y7rf-xz8k t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
 
 property e:y7rf-xz8k t:meta.view.tableauthor v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 ```

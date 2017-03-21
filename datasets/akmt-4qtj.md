@@ -95,7 +95,7 @@ property e:akmt-4qtj t:meta.view v:id=akmt-4qtj v:category="Maternal & Child Hea
 
 property e:akmt-4qtj t:meta.view.license v:name="Public Domain"
 
-property e:akmt-4qtj t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
+property e:akmt-4qtj t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
 
 property e:akmt-4qtj t:meta.view.tableauthor v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
 

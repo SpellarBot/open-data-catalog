@@ -77,7 +77,7 @@ entity e:5qwt-pfng l:"New Business List - April" t:url=https://data.oregon.gov/a
 
 property e:5qwt-pfng t:meta.view v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"
 
-property e:5qwt-pfng t:meta.view.owner v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.owner v:id=ngr9-eh9y v:screenName="Judy Weems" v:displayName="Judy Weems"
 
 property e:5qwt-pfng t:meta.view.tableauthor v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
 ```

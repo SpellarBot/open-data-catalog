@@ -60,7 +60,7 @@ property e:pmbr-njwn t:meta.view v:id=pmbr-njwn v:category="Economic Development
 
 property e:pmbr-njwn t:meta.view.license v:name="Public Domain"
 
-property e:pmbr-njwn t:meta.view.owner v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:roleName=administrator v:displayName="Open Data Portal Administrator"
+property e:pmbr-njwn t:meta.view.owner v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:displayName="Open Data Portal Administrator"
 
 property e:pmbr-njwn t:meta.view.tableauthor v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:roleName=administrator v:displayName="Open Data Portal Administrator"
 ```

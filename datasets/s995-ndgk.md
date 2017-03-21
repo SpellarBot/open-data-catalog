@@ -67,7 +67,7 @@ entity e:s995-ndgk l:"Calculated Library Indicators For Results NOLA" t:attribut
 
 property e:s995-ndgk t:meta.view v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
 
-property e:s995-ndgk t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
 property e:s995-ndgk t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 

@@ -21,8 +21,8 @@
 | Included | Schema Type    | Field Name | Name       | Data Type | Render Type |
 | ======== | ============== | ========== | ========== | ========= | =========== |
 | Yes      | series tag     | objectid   | OBJECTID   | text      | number      |
-| No       |                | alm_time   | alm_time   | date      | date        |
-| Yes      | time           | alm_date   | alm_date   | date      | date        |
+| Yes      | series tag     | alm_time   | alm_time   | date      | date        |
+| No       | time           | alm_date   | alm_date   | date      | date        |
 | Yes      | series tag     | inci_no    | inci_no    | text      | text        |
 | Yes      | series tag     | station    | station    | text      | number      |
 | Yes      | series tag     | occup_id   | occup_id   | text      | number      |
@@ -58,7 +58,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = alm_time,latitude,longitude
+Excluded Fields = alm_date,latitude,longitude
 ```
 
 ## Data Commands
@@ -82,7 +82,7 @@ entity e:rwu6-8j9d l:GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013 t:url=htt
 
 property e:rwu6-8j9d t:meta.view v:id=rwu6-8j9d v:averageRating=0 v:name=GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013
 
-property e:rwu6-8j9d t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:rwu6-8j9d t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
 
 property e:rwu6-8j9d t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```

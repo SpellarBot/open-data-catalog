@@ -58,7 +58,7 @@ entity e:d84z-5kap l:"LAW Published Columns" t:attribution="Law Department (LAW)
 
 property e:d84z-5kap t:meta.view v:id=d84z-5kap v:category="City Government" v:attributionLink=http://www.nyc.gov/html/law/html/news/articles.shtml#2012 v:averageRating=0 v:name="LAW Published Columns" v:attribution="Law Department (LAW)"
 
-property e:d84z-5kap t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:d84z-5kap t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:d84z-5kap t:meta.view.tableauthor v:id=8b43-zkvh v:screenName="Ram S." v:displayName="Ram S."
 ```

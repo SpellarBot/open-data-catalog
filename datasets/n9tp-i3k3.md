@@ -62,7 +62,7 @@ property e:n9tp-i3k3 t:meta.view v:id=n9tp-i3k3 v:category="Public Health" v:att
 
 property e:n9tp-i3k3 t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:n9tp-i3k3 t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:n9tp-i3k3 t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
 
 property e:n9tp-i3k3 t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```

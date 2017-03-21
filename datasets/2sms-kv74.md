@@ -327,7 +327,7 @@ property e:2sms-kv74 t:meta.view v:id=2sms-kv74 v:category="State Library Admini
 
 property e:2sms-kv74 t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:2sms-kv74 t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:2sms-kv74 t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:displayName="Jason Enos"
 
 property e:2sms-kv74 t:meta.view.tableauthor v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
 

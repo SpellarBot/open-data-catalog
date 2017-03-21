@@ -87,7 +87,7 @@ entity e:jqyq-axtx l:"ResultsNOLA (historic)" t:attribution="City of New Orleans
 
 property e:jqyq-axtx t:meta.view v:id=jqyq-axtx v:category="City Administration" v:averageRating=0 v:name="ResultsNOLA (historic)" v:attribution="City of New Orleans"
 
-property e:jqyq-axtx t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:jqyq-axtx t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
 property e:jqyq-axtx t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 

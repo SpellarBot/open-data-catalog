@@ -44,7 +44,7 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | series tag     | dvv_tag_remarks     | DVV_TAG_REMARKS     | text      | text        |
 | Yes      | series tag     | dvv_tag_no          | DVV_TAG_NO          | text      | number      |
 | Yes      | numeric metric | dvv_tag_date        | DVV_TAG_DATE        | number    | number      |
-| Yes      | numeric metric | dvv_tag_time        | DVV_TAG_TIME        | number    | number      |
+| No       |                | dvv_tag_time        | DVV_TAG_TIME        | number    | number      |
 | Yes      | numeric metric | dvv_prev_463        | DVV_PREV_463        | number    | number      |
 | Yes      | time           | dvv_timestmp        | DVV_TIMESTMP        | number    | number      |
 | Yes      | series tag     | dvv_filler3         | DVV_FILLER3         | text      | text        |
@@ -93,17 +93,17 @@ Format & Zone = yyyyMMddHHmmss
 ## Series Fields
 
 ```ls
-Excluded Fields = dvv_vin_timestmp,dvv_nicb_timestmp
+Excluded Fields = dvv_tag_time,dvv_vin_timestmp,dvv_nicb_timestmp
 ```
 
 ## Data Commands
 
 ```ls
-series e:bjuu-44hx d:1989-11-17T16:26:34.000Z t:dvv_print_flag=F t:dvv_464_color=BLACK t:dvv_tag_remarks="EMERGENCY TOW" t:isn=1 t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_type=4D t:dvv_final_disp_cd=NOL t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=1 t:dvv_464_type=4D m:dvv_tag_time=900 m:dvv_tag_date=19891117 m:dvv_final_disp_date=19891117 m:dvv_timestmp_upd=19970606070052
+series e:bjuu-44hx d:1989-11-17T16:26:34.000Z t:dvv_print_flag=F t:dvv_464_color=BLACK t:dvv_tag_remarks="EMERGENCY TOW" t:isn=1 t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_type=4D t:dvv_final_disp_cd=NOL t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=1 t:dvv_464_type=4D m:dvv_tag_date=19891117 m:dvv_final_disp_date=19891117 m:dvv_timestmp_upd=19970606070052
 
-series e:bjuu-44hx d:1989-11-20T11:33:36.000Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:isn=2 t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=2 t:dvv_464_type=2D m:dvv_tag_time=900 m:dvv_tag_date=19891119 m:dvv_final_disp_date=99999999 m:dvv_timestmp_upd=19900711055802
+series e:bjuu-44hx d:1989-11-20T11:33:36.000Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:isn=2 t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=2 t:dvv_464_type=2D m:dvv_tag_date=19891119 m:dvv_final_disp_date=99999999 m:dvv_timestmp_upd=19900711055802
 
-series e:bjuu-44hx d:1989-11-20T10:38:27.000Z t:dvv_print_flag=F t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:isn=3 t:dvv_tag_loc1=LOCATION t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_type=SW t:dvv_final_disp_cd=RTC t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=5 t:dvv_464_type=SW m:dvv_tag_time=900 m:dvv_tag_date=19891120 m:dvv_final_disp_date=19891120 m:dvv_checked_date=19891120
+series e:bjuu-44hx d:1989-11-20T10:38:27.000Z t:dvv_print_flag=F t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:isn=3 t:dvv_tag_loc1=LOCATION t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_type=SW t:dvv_final_disp_cd=RTC t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=5 t:dvv_464_type=SW m:dvv_tag_date=19891120 m:dvv_final_disp_date=19891120 m:dvv_checked_date=19891120
 ```
 
 ## Meta Commands
@@ -112,8 +112,6 @@ series e:bjuu-44hx d:1989-11-20T10:38:27.000Z t:dvv_print_flag=F t:dvv_464_color
 metric m:dvv_464_upd_cnt p:integer l:DVV_464_UPD_CNT t:dataTypeName=number
 
 metric m:dvv_tag_date p:integer l:DVV_TAG_DATE t:dataTypeName=number
-
-metric m:dvv_tag_time p:integer l:DVV_TAG_TIME t:dataTypeName=number
 
 metric m:dvv_prev_463 p:integer l:DVV_PREV_463 t:dataTypeName=number
 
@@ -141,7 +139,7 @@ entity e:bjuu-44hx l:"Derelict Vehicle Dispositions - Vehicles" t:attribution="D
 
 property e:bjuu-44hx t:meta.view v:id=bjuu-44hx v:category="City Government" v:averageRating=0 v:name="Derelict Vehicle Dispositions - Vehicles" v:attribution="Department of Sanitation (DSNY)"
 
-property e:bjuu-44hx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:bjuu-44hx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:bjuu-44hx t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

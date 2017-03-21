@@ -28,7 +28,7 @@ In the November 4, 2014 election, only candidates for the Board of Supervisors w
 | Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
 | ======== | ============== | =============== | =============== | ============= | ============= |
 | Yes      | series tag     | district        | District        | text          | text          |
-| Yes      | series tag     | candidate       | Candidate       | text          | text          |
+| No       |                | candidate       | Candidate       | text          | text          |
 | Yes      | time           | date_iec_raised | Date IEC Raised | calendar_date | calendar_date |
 | Yes      | numeric metric | amount_of_iec   | Amount of IEC   | money         | money         |
 ```
@@ -40,14 +40,20 @@ Value = date_iec_raised
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = candidate
+```
+
 ## Data Commands
 
 ```ls
-series e:wv7d-caby d:2014-07-10T00:00:00.000Z t:candidate="Kelly, Tony" t:district=10 m:amount_of_iec=250000
+series e:wv7d-caby d:2014-07-10T00:00:00.000Z t:district=10 m:amount_of_iec=250000
 
-series e:wv7d-caby d:2014-08-20T00:00:00.000Z t:candidate="Tran, Marlene" t:district=10 m:amount_of_iec=250000
+series e:wv7d-caby d:2014-08-20T00:00:00.000Z t:district=10 m:amount_of_iec=250000
 
-series e:wv7d-caby d:2014-09-08T00:00:00.000Z t:candidate="Kelly, Tony" t:district=10 m:amount_of_iec=260000
+series e:wv7d-caby d:2014-09-08T00:00:00.000Z t:district=10 m:amount_of_iec=260000
 ```
 
 ## Meta Commands
@@ -61,7 +67,7 @@ property e:wv7d-caby t:meta.view v:id=wv7d-caby v:category="City Management and 
 
 property e:wv7d-caby t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:wv7d-caby t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:wv7d-caby t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
 
 property e:wv7d-caby t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

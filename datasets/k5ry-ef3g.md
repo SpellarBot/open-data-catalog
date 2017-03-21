@@ -63,7 +63,7 @@ property e:k5ry-ef3g t:meta.view v:id=k5ry-ef3g v:category="Culture & Arts" v:at
 
 property e:k5ry-ef3g t:meta.view.license v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:k5ry-ef3g t:meta.view.owner v:id=6r9a-dfdj v:screenName="Open Baltimore" v:roleName=administrator v:displayName="Open Baltimore"
+property e:k5ry-ef3g t:meta.view.owner v:id=6r9a-dfdj v:screenName="Open Baltimore" v:displayName="Open Baltimore"
 
 property e:k5ry-ef3g t:meta.view.tableauthor v:id=6r9a-dfdj v:screenName="Open Baltimore" v:roleName=administrator v:displayName="Open Baltimore"
 ```

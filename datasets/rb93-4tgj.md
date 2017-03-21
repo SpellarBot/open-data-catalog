@@ -98,7 +98,7 @@ property e:rb93-4tgj t:meta.view v:id=rb93-4tgj v:category="Motor Vehicle" v:att
 
 property e:rb93-4tgj t:meta.view.license v:name="Public Domain"
 
-property e:rb93-4tgj t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:rb93-4tgj t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
 
 property e:rb93-4tgj t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 

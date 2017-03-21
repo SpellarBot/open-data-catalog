@@ -79,7 +79,7 @@ property e:bpnb-jwfb t:meta.view v:id=bpnb-jwfb v:category="City Management and 
 
 property e:bpnb-jwfb t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:bpnb-jwfb t:meta.view.owner v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
+property e:bpnb-jwfb t:meta.view.owner v:id=9ufn-6bwh v:screenName="Jeff Pera" v:displayName="Jeff Pera"
 
 property e:bpnb-jwfb t:meta.view.tableauthor v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
 ```

@@ -91,7 +91,7 @@ entity e:fx9n-wkff l:forecasted-9day-river-level-update-AutoCreated t:url=https:
 
 property e:fx9n-wkff t:meta.view v:id=fx9n-wkff v:averageRating=0 v:name=forecasted-9day-river-level-update-AutoCreated
 
-property e:fx9n-wkff t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:fx9n-wkff t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:displayName=Breanna
 
 property e:fx9n-wkff t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 ```

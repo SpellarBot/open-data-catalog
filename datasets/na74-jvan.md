@@ -62,7 +62,7 @@ property e:na74-jvan t:meta.view v:id=na74-jvan v:category=Budget v:attributionL
 
 property e:na74-jvan t:meta.view.license v:name="Public Domain"
 
-property e:na74-jvan t:meta.view.owner v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
+property e:na74-jvan t:meta.view.owner v:id=kkuv-jqse v:screenName="Teri Greene" v:displayName="Teri Greene"
 
 property e:na74-jvan t:meta.view.tableauthor v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
 ```

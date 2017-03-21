@@ -74,7 +74,7 @@ entity e:92th-scpp l:"SCLR LASARStations Grab Sites" t:attribution="Oregon DEQ V
 
 property e:92th-scpp t:meta.view v:id=92th-scpp v:category="Natural Resources" v:averageRating=0 v:name="SCLR LASARStations Grab Sites" v:attribution="Oregon DEQ Volunteer Program and South Coast Lower Rogue Watershed Councils"
 
-property e:92th-scpp t:meta.view.owner v:id=mgnq-77dc v:screenName="Steve Hanson" v:roleName=editor v:displayName="Steve Hanson"
+property e:92th-scpp t:meta.view.owner v:id=mgnq-77dc v:screenName="Steve Hanson" v:displayName="Steve Hanson"
 
 property e:92th-scpp t:meta.view.tableauthor v:id=mgnq-77dc v:screenName="Steve Hanson" v:roleName=editor v:displayName="Steve Hanson"
 ```

@@ -62,7 +62,7 @@ entity e:dhvz-stgx l:"Austin Water Authorized Irrigation Inspector List" t:attri
 
 property e:dhvz-stgx t:meta.view v:id=dhvz-stgx v:category=Environmental v:attributionLink=http://waterwiseaustin.org v:averageRating=0 v:name="Austin Water Authorized Irrigation Inspector List" v:attribution="Austin Water"
 
-property e:dhvz-stgx t:meta.view.owner v:id=dg6c-4vht v:profileImageUrlMedium=/api/users/dg6c-4vht/profile_images/THUMB v:profileImageUrlLarge=/api/users/dg6c-4vht/profile_images/LARGE v:screenName="Austin Water" v:profileImageUrlSmall=/api/users/dg6c-4vht/profile_images/TINY v:roleName=editor v:displayName="Austin Water"
+property e:dhvz-stgx t:meta.view.owner v:id=dg6c-4vht v:profileImageUrlMedium=/api/users/dg6c-4vht/profile_images/THUMB v:profileImageUrlLarge=/api/users/dg6c-4vht/profile_images/LARGE v:screenName="Austin Water" v:profileImageUrlSmall=/api/users/dg6c-4vht/profile_images/TINY v:displayName="Austin Water"
 
 property e:dhvz-stgx t:meta.view.tableauthor v:id=dg6c-4vht v:profileImageUrlMedium=/api/users/dg6c-4vht/profile_images/THUMB v:profileImageUrlLarge=/api/users/dg6c-4vht/profile_images/LARGE v:screenName="Austin Water" v:profileImageUrlSmall=/api/users/dg6c-4vht/profile_images/TINY v:roleName=editor v:displayName="Austin Water"
 ```

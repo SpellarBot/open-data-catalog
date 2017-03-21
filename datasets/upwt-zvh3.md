@@ -82,7 +82,7 @@ entity e:upwt-zvh3 l:"School Progress Report 2010-2011" t:attribution="Departmen
 
 property e:upwt-zvh3 t:meta.view v:id=upwt-zvh3 v:category=Education v:attributionLink=http://schools.nyc.gov/Accountability/tools/report/default.htm v:averageRating=0 v:name="School Progress Report 2010-2011" v:attribution="Department of Education (DOE)"
 
-property e:upwt-zvh3 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:upwt-zvh3 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:upwt-zvh3 t:meta.view.tableauthor v:id=ya7g-926w v:screenName="Aakash Dalwani" v:displayName="Aakash Dalwani"
 ```

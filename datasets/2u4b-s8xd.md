@@ -221,7 +221,7 @@ entity e:2u4b-s8xd l:"FY17 Budget Simulator data" t:url=https://data.austintexas
 
 property e:2u4b-s8xd t:meta.view v:id=2u4b-s8xd v:category=Financial v:averageRating=0 v:name="FY17 Budget Simulator data"
 
-property e:2u4b-s8xd t:meta.view.owner v:id=kat7-hf3v v:profileImageUrlMedium=/api/users/kat7-hf3v/profile_images/THUMB v:profileImageUrlLarge=/api/users/kat7-hf3v/profile_images/LARGE v:screenName="Katy Zamesnik" v:profileImageUrlSmall=/api/users/kat7-hf3v/profile_images/TINY v:roleName=editor v:displayName="Katy Zamesnik"
+property e:2u4b-s8xd t:meta.view.owner v:id=kat7-hf3v v:profileImageUrlMedium=/api/users/kat7-hf3v/profile_images/THUMB v:profileImageUrlLarge=/api/users/kat7-hf3v/profile_images/LARGE v:screenName="Katy Zamesnik" v:profileImageUrlSmall=/api/users/kat7-hf3v/profile_images/TINY v:displayName="Katy Zamesnik"
 
 property e:2u4b-s8xd t:meta.view.tableauthor v:id=kat7-hf3v v:profileImageUrlMedium=/api/users/kat7-hf3v/profile_images/THUMB v:profileImageUrlLarge=/api/users/kat7-hf3v/profile_images/LARGE v:screenName="Katy Zamesnik" v:profileImageUrlSmall=/api/users/kat7-hf3v/profile_images/TINY v:roleName=editor v:displayName="Katy Zamesnik"
 ```

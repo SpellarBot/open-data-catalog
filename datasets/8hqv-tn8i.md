@@ -119,7 +119,7 @@ entity e:8hqv-tn8i l:"DTS/DFM Sign Inventory - Fort St. to River St.  as of: 201
 
 property e:8hqv-tn8i t:meta.view v:id=8hqv-tn8i v:category=Transportation v:averageRating=0 v:name="DTS/DFM Sign Inventory - Fort St. to River St.  as of: 2014-08-07"
 
-property e:8hqv-tn8i t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:8hqv-tn8i t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
 
 property e:8hqv-tn8i t:meta.view.tableauthor v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 ```

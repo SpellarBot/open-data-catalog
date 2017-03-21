@@ -53,7 +53,7 @@ entity e:spnc-z2pw l:"Statewide -- Hatchery Standards 2016 SOS 10172016" t:url=h
 
 property e:spnc-z2pw t:meta.view v:id=spnc-z2pw v:averageRating=0 v:name="Statewide -- Hatchery Standards 2016 SOS 10172016"
 
-property e:spnc-z2pw t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:spnc-z2pw t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
 property e:spnc-z2pw t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

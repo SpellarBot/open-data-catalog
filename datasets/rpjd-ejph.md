@@ -98,7 +98,7 @@ entity e:rpjd-ejph l:"TABLE III. Deaths in 122 U.S. cities" t:attribution="Natio
 
 property e:rpjd-ejph t:meta.view v:id=rpjd-ejph v:category=NNDSS v:averageRating=0 v:name="TABLE III. Deaths in 122 U.S. cities" v:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)"
 
-property e:rpjd-ejph t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:rpjd-ejph t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
 
 property e:rpjd-ejph t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 

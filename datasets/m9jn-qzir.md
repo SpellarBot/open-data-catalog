@@ -97,7 +97,7 @@ entity e:m9jn-qzir l:"FY11 Day Labor Placements" t:attribution="City of Austin" 
 
 property e:m9jn-qzir t:meta.view v:id=m9jn-qzir v:attributionLink=https://www.ctkodm.com/austin/ v:averageRating=0 v:name="FY11 Day Labor Placements" v:attribution="City of Austin"
 
-property e:m9jn-qzir t:meta.view.owner v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
+property e:m9jn-qzir t:meta.view.owner v:id=99uc-9byy v:screenName=opendataatx v:displayName=opendataatx
 
 property e:m9jn-qzir t:meta.view.tableauthor v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
 ```

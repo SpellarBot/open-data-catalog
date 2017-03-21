@@ -60,7 +60,7 @@ entity e:49v8-zgwp l:"2015 State Budget Restrictions As of March 31, 2015" t:url
 
 property e:49v8-zgwp t:meta.view v:id=49v8-zgwp v:category="Government Administration" v:averageRating=0 v:name="2015 State Budget Restrictions As of March 31, 2015"
 
-property e:49v8-zgwp t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:49v8-zgwp t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:displayName=Dwight
 
 property e:49v8-zgwp t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

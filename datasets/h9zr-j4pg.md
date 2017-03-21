@@ -64,7 +64,7 @@ entity e:h9zr-j4pg l:"Bus Safety Information Network (BUSNET) Operator Report:  
 
 property e:h9zr-j4pg t:meta.view v:id=h9zr-j4pg v:category=Transportation v:attributionLink=https://www.dot.ny.gov/divisions/operating/osss/bus/inspection v:averageRating=0 v:name="Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" v:attribution="New York State Department of Transportation (NYSDOT)"
 
-property e:h9zr-j4pg t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:h9zr-j4pg t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
 property e:h9zr-j4pg t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 

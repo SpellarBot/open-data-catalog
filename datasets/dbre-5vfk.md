@@ -63,7 +63,7 @@ entity e:dbre-5vfk l:"2 -- Government $$ By Biennium" t:url=https://data.wa.gov/
 
 property e:dbre-5vfk t:meta.view v:id=dbre-5vfk v:averageRating=0 v:name="2 -- Government $$ By Biennium"
 
-property e:dbre-5vfk t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:dbre-5vfk t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
 property e:dbre-5vfk t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

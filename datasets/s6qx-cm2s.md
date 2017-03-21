@@ -60,7 +60,7 @@ entity e:s6qx-cm2s l:"2016 State Expenditures As Of COB June 30, 2016" t:attribu
 
 property e:s6qx-cm2s t:meta.view v:id=s6qx-cm2s v:category="Government Administration" v:averageRating=0 v:name="2016 State Expenditures As Of COB June 30, 2016" v:attribution="Office of Administration"
 
-property e:s6qx-cm2s t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:s6qx-cm2s t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:displayName=Dwight
 
 property e:s6qx-cm2s t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

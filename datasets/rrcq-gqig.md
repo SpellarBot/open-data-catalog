@@ -64,7 +64,7 @@ entity e:rrcq-gqig l:"Handicap Permits issued at DMV between Jan to Aug 2014" t:
 
 property e:rrcq-gqig t:meta.view v:id=rrcq-gqig v:category=Transportation v:attributionLink=http://www.ct.gov/dmv v:averageRating=0 v:name="Handicap Permits issued at DMV between Jan to Aug 2014" v:attribution="Department of Motor Vehicles"
 
-property e:rrcq-gqig t:meta.view.owner v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
+property e:rrcq-gqig t:meta.view.owner v:id=fd5k-6njr v:screenName=APatel v:displayName=APatel
 
 property e:rrcq-gqig t:meta.view.tableauthor v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
 ```

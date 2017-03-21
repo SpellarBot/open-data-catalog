@@ -69,7 +69,7 @@ entity e:vnht-dg7x l:"Citizen Satisfaction With NOPD (2009 - Present)" t:attribu
 
 property e:vnht-dg7x t:meta.view v:id=vnht-dg7x v:category="Public Safety and Preparedness" v:attributionLink=http://crimecoalitionnola.com/ v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey"
 
-property e:vnht-dg7x t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
 property e:vnht-dg7x t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 

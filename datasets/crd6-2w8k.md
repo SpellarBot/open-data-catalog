@@ -67,7 +67,7 @@ entity e:crd6-2w8k l:"Certified Green Buildings (2005 - Present)" t:attribution=
 
 property e:crd6-2w8k t:meta.view v:id=crd6-2w8k v:category="Housing, Land Use, and Blight" v:attributionLink=http://www.usgbc.org/projects v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council"
 
-property e:crd6-2w8k t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
 property e:crd6-2w8k t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 

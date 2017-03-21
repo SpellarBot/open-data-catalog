@@ -114,7 +114,7 @@ entity e:xv7k-8e7s l:"NNDSS - Table II. Shiga toxin to Shigellosis" t:attributio
 
 property e:xv7k-8e7s t:meta.view v:id=xv7k-8e7s v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Shiga toxin to Shigellosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:xv7k-8e7s t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:xv7k-8e7s t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
 
 property e:xv7k-8e7s t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 

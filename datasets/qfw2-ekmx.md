@@ -110,7 +110,7 @@ property e:qfw2-ekmx t:meta.view v:id=qfw2-ekmx v:category=Transportation v:attr
 
 property e:qfw2-ekmx t:meta.view.license v:name="Public Domain"
 
-property e:qfw2-ekmx t:meta.view.owner v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
+property e:qfw2-ekmx t:meta.view.owner v:id=geh9-fb2x v:screenName="SDOT GIS" v:displayName="SDOT GIS"
 
 property e:qfw2-ekmx t:meta.view.tableauthor v:id=geh9-fb2x v:screenName="SDOT GIS" v:roleName=publisher v:displayName="SDOT GIS"
 ```

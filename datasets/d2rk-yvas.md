@@ -98,7 +98,7 @@ entity e:d2rk-yvas l:"Behavioral Risk Factor Surveillance System (BRFSS) Age-Adj
 
 property e:d2rk-yvas t:meta.view v:id=d2rk-yvas v:category="Behavioral Risk Factors" v:attributionLink=http://www.cdc.gov/BRFSS/ v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)" v:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch"
 
-property e:d2rk-yvas t:meta.view.owner v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:roleName=publisher v:displayName=Bill_Bartoli
+property e:d2rk-yvas t:meta.view.owner v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:displayName=Bill_Bartoli
 
 property e:d2rk-yvas t:meta.view.tableauthor v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:roleName=publisher v:displayName=Bill_Bartoli
 

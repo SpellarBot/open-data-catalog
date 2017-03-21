@@ -63,7 +63,7 @@ entity e:4xtp-hh3v l:"2014 Employee Wage Detail By Type" t:attribution="Californ
 
 property e:4xtp-hh3v t:meta.view v:id=4xtp-hh3v v:category=Finances v:attributionLink="http://publicpay.ca.gov/Reports/Cities/City.aspx?entityid=497&fiscalyear=2014" v:averageRating=0 v:name="2014 Employee Wage Detail By Type" v:attribution="California State Controllers Office"
 
-property e:4xtp-hh3v t:meta.view.owner v:id=xdif-r3mr v:screenName=Admin v:roleName=administrator v:displayName=Admin
+property e:4xtp-hh3v t:meta.view.owner v:id=xdif-r3mr v:screenName=Admin v:displayName=Admin
 
 property e:4xtp-hh3v t:meta.view.tableauthor v:id=xdif-r3mr v:screenName=Admin v:roleName=administrator v:displayName=Admin
 ```

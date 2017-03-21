@@ -64,7 +64,7 @@ entity e:vpb3-uf7s l:"Child health plus income levels" t:attribution="Human Reso
 
 property e:vpb3-uf7s t:meta.view v:id=vpb3-uf7s v:category="City Government" v:attributionLink=http://www.nyc.gov/html/hia/html/public_insurance/children.shtml v:averageRating=0 v:name="Child health plus income levels" v:attribution="Human Resources Administration (HRA)"
 
-property e:vpb3-uf7s t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:vpb3-uf7s t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:vpb3-uf7s t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

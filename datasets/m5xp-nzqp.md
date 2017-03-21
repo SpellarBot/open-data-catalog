@@ -72,7 +72,7 @@ entity e:m5xp-nzqp l:"Strategic Investment Program - Fiscal Year 2014" t:url=htt
 
 property e:m5xp-nzqp t:meta.view v:id=m5xp-nzqp v:category="Revenue & Expense" v:averageRating=0 v:name="Strategic Investment Program - Fiscal Year 2014"
 
-property e:m5xp-nzqp t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:m5xp-nzqp t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:m5xp-nzqp t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

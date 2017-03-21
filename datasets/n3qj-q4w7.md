@@ -66,7 +66,7 @@ entity e:n3qj-q4w7 l:"Food Insecurity Rates (2009 - Present)" t:attribution="Fee
 
 property e:n3qj-q4w7 t:meta.view v:id=n3qj-q4w7 v:category="Health, Education, and Social Services" v:attributionLink=http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx v:averageRating=0 v:name="Food Insecurity Rates (2009 - Present)" v:attribution="Feeding America, Map the Meal Gap"
 
-property e:n3qj-q4w7 t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:n3qj-q4w7 t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
 property e:n3qj-q4w7 t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 

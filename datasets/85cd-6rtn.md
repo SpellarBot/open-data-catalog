@@ -24,7 +24,7 @@
 | Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
 | ======== | ============== | =============== | =============== | ============= | ============= |
 | Yes      | series tag     | district        | District        | text          | text          |
-| Yes      | series tag     | candidate       | Candidate       | text          | text          |
+| No       |                | candidate       | Candidate       | text          | text          |
 | Yes      | time           | date_iec_raised | Date IEC Raised | calendar_date | calendar_date |
 | Yes      | numeric metric | amount_of_iec   | Amount of IEC   | money         | money         |
 ```
@@ -36,14 +36,20 @@ Value = date_iec_raised
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = candidate
+```
+
 ## Data Commands
 
 ```ls
-series e:85cd-6rtn d:2012-07-24T00:00:00.000Z t:candidate="Lee, David" t:district=1 m:amount_of_iec=250000
+series e:85cd-6rtn d:2012-07-24T00:00:00.000Z t:district=1 m:amount_of_iec=250000
 
-series e:85cd-6rtn d:2012-06-22T00:00:00.000Z t:candidate="Mar, Eric" t:district=1 m:amount_of_iec=250000
+series e:85cd-6rtn d:2012-06-22T00:00:00.000Z t:district=1 m:amount_of_iec=250000
 
-series e:85cd-6rtn d:2012-08-28T00:00:00.000Z t:candidate="Butler, Joe" t:district=3 m:amount_of_iec=250000
+series e:85cd-6rtn d:2012-08-28T00:00:00.000Z t:district=3 m:amount_of_iec=250000
 ```
 
 ## Meta Commands
@@ -57,7 +63,7 @@ property e:85cd-6rtn t:meta.view v:id=85cd-6rtn v:category="City Management and 
 
 property e:85cd-6rtn t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:85cd-6rtn t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:85cd-6rtn t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
 
 property e:85cd-6rtn t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```

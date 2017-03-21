@@ -27,37 +27,34 @@ The AAWDT count is a seasonally adjusted average weekday daily total of vehicle 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
-| ======== | ============== | =========== | ========== | ========= | =========== |
-| No       | time           | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag     | downtown    | DOWNTOWN   | checkbox  | checkbox    |
-| Yes      | series tag     | stname      | STNAME     | text      | text        |
-| Yes      | numeric metric | year        | YEAR       | number    | number      |
-| Yes      | numeric metric | aawdt       | AAWDT      | number    | number      |
+| Included | Schema Type    | Field Name | Name     | Data Type | Render Type |
+| ======== | ============== | ========== | ======== | ========= | =========== |
+| Yes      | series tag     | downtown   | DOWNTOWN | checkbox  | checkbox    |
+| Yes      | series tag     | stname     | STNAME   | text      | text        |
+| Yes      | time           | year       | YEAR     | number    | number      |
+| Yes      | numeric metric | aawdt      | AAWDT    | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = year
+Format & Zone = yyyy
 ```
 
 ## Data Commands
 
 ```ls
-series e:7svg-ds5z d:2010-11-04T11:28:28.000Z t:stname="N 45TH ST" t:downtown=false m:aawdt=22200 m:year=2009
+series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="N 45TH ST" t:downtown=false m:aawdt=22200
 
-series e:7svg-ds5z d:2010-11-04T11:28:28.000Z t:stname="NE 80TH ST" t:downtown=false m:aawdt=9500 m:year=2009
+series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="NE 80TH ST" t:downtown=false m:aawdt=9500
 
-series e:7svg-ds5z d:2010-11-04T11:28:28.000Z t:stname="DENNY WAY" t:downtown=true m:aawdt=30200 m:year=2009
+series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="DENNY WAY" t:downtown=true m:aawdt=30200
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:year p:float l:YEAR t:dataTypeName=number
-
 metric m:aawdt p:float l:AAWDT t:dataTypeName=number
 
 entity e:7svg-ds5z l:"Traffic Flow Counts" t:attribution="Seattle Department of Transportation" t:url=https://data.seattle.gov/api/views/7svg-ds5z
@@ -66,7 +63,7 @@ property e:7svg-ds5z t:meta.view v:id=7svg-ds5z v:category=Transportation v:attr
 
 property e:7svg-ds5z t:meta.view.license v:name="Public Domain"
 
-property e:7svg-ds5z t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
 
 property e:7svg-ds5z t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```

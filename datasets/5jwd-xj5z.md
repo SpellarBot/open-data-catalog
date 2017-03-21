@@ -53,7 +53,7 @@ entity e:5jwd-xj5z l:"Preferred Source Procurements FY15" t:attribution="Mayor's
 
 property e:5jwd-xj5z t:meta.view v:id=5jwd-xj5z v:category="City Government" v:averageRating=0 v:name="Preferred Source Procurements FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"
 
-property e:5jwd-xj5z t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:5jwd-xj5z t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:5jwd-xj5z t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

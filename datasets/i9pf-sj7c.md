@@ -159,7 +159,7 @@ entity e:i9pf-sj7c l:"DOE High School Programs 2013-2014" t:attribution="Departm
 
 property e:i9pf-sj7c t:meta.view v:id=i9pf-sj7c v:category=Education v:averageRating=0 v:name="DOE High School Programs 2013-2014" v:attribution="Department of Education (DOE)"
 
-property e:i9pf-sj7c t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:i9pf-sj7c t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:i9pf-sj7c t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

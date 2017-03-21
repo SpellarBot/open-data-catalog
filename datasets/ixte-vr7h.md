@@ -59,7 +59,7 @@ entity e:ixte-vr7h l:"Spending Disclosure - Fiscal Year 2013" t:attribution="Mon
 
 property e:ixte-vr7h t:meta.view v:id=ixte-vr7h v:category=Finance/Tax/Property v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance"
 
-property e:ixte-vr7h t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
 
 property e:ixte-vr7h t:meta.view.tableauthor v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 ```

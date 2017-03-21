@@ -95,7 +95,7 @@ property e:xyxp-dxa9 t:meta.view v:id=xyxp-dxa9 v:category="Maternal & Child Hea
 
 property e:xyxp-dxa9 t:meta.view.license v:name="Public Domain"
 
-property e:xyxp-dxa9 t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
+property e:xyxp-dxa9 t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
 
 property e:xyxp-dxa9 t:meta.view.tableauthor v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
 

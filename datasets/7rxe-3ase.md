@@ -106,7 +106,7 @@ entity e:7rxe-3ase l:"City Of Somerville Assessors Valuations FY16" t:attributio
 
 property e:7rxe-3ase t:meta.view v:id=7rxe-3ase v:category=Finance v:attributionLink=http://www.somervillema.gov/departments/finance/assessing v:averageRating=0 v:name="City Of Somerville Assessors Valuations FY16" v:attribution="City of Somerville Assessing Department"
 
-property e:7rxe-3ase t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:7rxe-3ase t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:displayName="Michael Mastrobuoni"
 
 property e:7rxe-3ase t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```

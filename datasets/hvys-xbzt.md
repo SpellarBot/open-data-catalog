@@ -60,7 +60,7 @@ entity e:hvys-xbzt l:"Contracts: OUS: Captial Construction Retainer Program: CRS
 
 property e:hvys-xbzt t:meta.view v:id=hvys-xbzt v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013"
 
-property e:hvys-xbzt t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:hvys-xbzt t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:hvys-xbzt t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

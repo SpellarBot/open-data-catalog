@@ -56,7 +56,7 @@ entity e:aspx-imar l:"No. of Transactions VS No. of Customers For FY 2014" t:att
 
 property e:aspx-imar t:meta.view v:id=aspx-imar v:category=Transportation v:attributionLink=http://www.ct.gov/dmv v:averageRating=0 v:name="No. of Transactions VS No. of Customers For FY 2014" v:attribution="Department of Motor Vehicles"
 
-property e:aspx-imar t:meta.view.owner v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
+property e:aspx-imar t:meta.view.owner v:id=fd5k-6njr v:screenName=APatel v:displayName=APatel
 
 property e:aspx-imar t:meta.view.tableauthor v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
 ```

@@ -96,7 +96,7 @@ property e:i6qv-ar46 t:meta.view v:id=i6qv-ar46 v:category="Land Base" v:average
 
 property e:i6qv-ar46 t:meta.view.license v:name="Public Domain"
 
-property e:i6qv-ar46 t:meta.view.owner v:id=5wys-t5s3 v:screenName="Seattle DPD" v:roleName=publisher v:displayName="Seattle DPD"
+property e:i6qv-ar46 t:meta.view.owner v:id=5wys-t5s3 v:screenName="Seattle DPD" v:displayName="Seattle DPD"
 
 property e:i6qv-ar46 t:meta.view.tableauthor v:id=5wys-t5s3 v:screenName="Seattle DPD" v:roleName=publisher v:displayName="Seattle DPD"
 ```

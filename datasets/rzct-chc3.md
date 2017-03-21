@@ -94,7 +94,7 @@ entity e:rzct-chc3 l:"Business Energy Tax Credit Program: Fiscal Year 2014 (Ende
 
 property e:rzct-chc3 t:meta.view v:id=rzct-chc3 v:category="Revenue & Expense" v:averageRating=0 v:name="Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)"
 
-property e:rzct-chc3 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:rzct-chc3 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:rzct-chc3 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

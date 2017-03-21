@@ -54,7 +54,7 @@ entity e:7cps-5y5m l:"Solar- Related Construction Expenditures (value of solar p
 
 property e:7cps-5y5m t:meta.view v:id=7cps-5y5m v:averageRating=0 v:name="Solar- Related Construction Expenditures (value of solar projects as percentage of total building permit value)    (Source: DBEDT)" v:attribution=DBEDT
 
-property e:7cps-5y5m t:meta.view.owner v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:roleName=publisher v:displayName="Jerome Koehler"
+property e:7cps-5y5m t:meta.view.owner v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:displayName="Jerome Koehler"
 
 property e:7cps-5y5m t:meta.view.tableauthor v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:roleName=publisher v:displayName="Jerome Koehler"
 ```

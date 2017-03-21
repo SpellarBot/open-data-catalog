@@ -69,7 +69,7 @@ entity e:wcrd-n5pw l:"05to12 Iquery Lyme Data" t:url=https://data.illinois.gov/a
 
 property e:wcrd-n5pw t:meta.view v:id=wcrd-n5pw v:averageRating=0 v:name="05to12 Iquery Lyme Data"
 
-property e:wcrd-n5pw t:meta.view.owner v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
+property e:wcrd-n5pw t:meta.view.owner v:id=r2ci-32dw v:screenName=rlucht v:displayName=rlucht
 
 property e:wcrd-n5pw t:meta.view.tableauthor v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
 ```

@@ -101,7 +101,7 @@ entity e:pqg4-dm6b l:"NYC Women's Resource Network Database" t:attribution="Comm
 
 property e:pqg4-dm6b t:meta.view v:id=pqg4-dm6b v:category="Social Services" v:averageRating=0 v:name="NYC Women's Resource Network Database" v:attribution="Commission on Women's Issues (CWI)"
 
-property e:pqg4-dm6b t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:pqg4-dm6b t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:pqg4-dm6b t:meta.view.tableauthor v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
 ```

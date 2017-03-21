@@ -58,7 +58,7 @@ entity e:f5dd-pqys l:"HPD Crime Incidents" t:url=https://data.honolulu.gov/api/v
 
 property e:f5dd-pqys t:meta.view v:id=f5dd-pqys v:averageRating=0 v:name="HPD Crime Incidents"
 
-property e:f5dd-pqys t:meta.view.owner v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
+property e:f5dd-pqys t:meta.view.owner v:id=sr3i-nqxd v:screenName="Open Data" v:displayName="Open Data"
 
 property e:f5dd-pqys t:meta.view.tableauthor v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
 ```

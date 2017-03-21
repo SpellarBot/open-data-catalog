@@ -74,7 +74,7 @@ entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2016" t:attribution="Departme
 
 property e:cadm-spqd t:meta.view v:id=cadm-spqd v:attributionLink=http://dhcd.maryland.gov/HousingDevelopment/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing & Community Development"
 
-property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
+property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName=Jessica v:displayName=Jessica
 
 property e:cadm-spqd t:meta.view.tableauthor v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
 ```

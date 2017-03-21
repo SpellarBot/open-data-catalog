@@ -72,7 +72,7 @@ property e:nbhj-n6p6 t:meta.view v:id=nbhj-n6p6 v:category=Finance v:attribution
 
 property e:nbhj-n6p6 t:meta.view.license v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:nbhj-n6p6 t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:nbhj-n6p6 t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:displayName="Michael Mastrobuoni"
 
 property e:nbhj-n6p6 t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```

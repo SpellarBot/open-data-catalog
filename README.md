@@ -196,7 +196,7 @@ Name | Category | Updated
 [ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-20
 [ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-20
 [ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-20
-[ENERGY STAR Certified Residential Clothes Dryers](datasets/t9u7-4d2j.md) | Active Specifications | 2017-03-20
+[ENERGY STAR Certified Residential Clothes Dryers](datasets/t9u7-4d2j.md) | Active Specifications | 2017-03-21
 [ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-20
 [HISTORIC ENERGY STAR Certified Room Air Cleaners](datasets/uc6q-9632.md) | Active Specifications | 2017-03-20
 
@@ -522,7 +522,7 @@ Name | Category | Updated
 [San Francisco Development Pipeline 2014 Quarter 2](datasets/fv2q-qaux.md) | Housing and Buildings | 2014-09-12
 [Speed Limits](datasets/vksm-bq22.md) | Transportation | 2017-02-04
 [Spending And Revenue](datasets/bpnb-jwfb.md) | City Management and Ethics | 2017-03-20
-[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-15
+[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-21
 [Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-20
 [Traffic Analysis Zones](datasets/j4sj-j2nf.md) | Geographic Locations and Boundaries | 2016-07-26
 

@@ -93,7 +93,7 @@ property e:fwns-azgu t:meta.view v:id=fwns-azgu v:category="Heart Disease & Stro
 
 property e:fwns-azgu t:meta.view.license v:name="Public Domain"
 
-property e:fwns-azgu t:meta.view.owner v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
+property e:fwns-azgu t:meta.view.owner v:id=6thr-55du v:screenName=Angelique v:displayName=Angelique
 
 property e:fwns-azgu t:meta.view.tableauthor v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
 

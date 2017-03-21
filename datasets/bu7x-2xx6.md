@@ -51,7 +51,7 @@ property e:bu7x-2xx6 t:meta.view v:id=bu7x-2xx6 v:category=Operations v:averageR
 
 property e:bu7x-2xx6 t:meta.view.license v:name="Public Domain"
 
-property e:bu7x-2xx6 t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
+property e:bu7x-2xx6 t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:displayName=Cameron
 
 property e:bu7x-2xx6 t:meta.view.tableauthor v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
 ```

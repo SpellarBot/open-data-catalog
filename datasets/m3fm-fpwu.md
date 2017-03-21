@@ -88,7 +88,7 @@
 | Yes      | numeric metric | fee_adjustments           | Fee Adjustments           | money         | money         |
 | Yes      | numeric metric | fees_paid                 | Fees Paid                 | money         | money         |
 | Yes      | numeric metric | balance_due               | Balance Due               | money         | money         |
-| Yes      | series tag     | other_date_1              | Other Date 1              | text          | text          |
+| No       |                | other_date_1              | Other Date 1              | text          | text          |
 | Yes      | series tag     | other_by1                 | Other_By1                 | text          | text          |
 | Yes      | series tag     | owner_name                | Owner Name                | text          | text          |
 | Yes      | series tag     | applicant_name            | Applicant Name            | text          | text          |
@@ -113,7 +113,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = approved,issued,finaled
+Excluded Fields = approved,issued,finaled,other_date_1
 ```
 
 ## Data Commands

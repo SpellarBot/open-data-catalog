@@ -56,7 +56,7 @@ entity e:2xyd-uph9 l:"ARRA Grant Revenues As Of COB November 30, 2014" t:url=htt
 
 property e:2xyd-uph9 t:meta.view v:id=2xyd-uph9 v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenues As Of COB November 30, 2014"
 
-property e:2xyd-uph9 t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:2xyd-uph9 t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:displayName=Dwight
 
 property e:2xyd-uph9 t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

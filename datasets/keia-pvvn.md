@@ -135,7 +135,7 @@ entity e:keia-pvvn l:"NNDSS - Table II. Ehrlichiosis/Anaplasmosis" t:attribution
 
 property e:keia-pvvn t:meta.view v:id=keia-pvvn v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Ehrlichiosis/Anaplasmosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:keia-pvvn t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:keia-pvvn t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
 
 property e:keia-pvvn t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 

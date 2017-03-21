@@ -114,7 +114,7 @@ entity e:wibz-uqui l:"NYPL Branch Services - Staten Island" t:attribution="New Y
 
 property e:wibz-uqui t:meta.view v:id=wibz-uqui v:category=Recreation v:averageRating=0 v:name="NYPL Branch Services - Staten Island" v:attribution="New York Public Library (NYPL)"
 
-property e:wibz-uqui t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:wibz-uqui t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:wibz-uqui t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

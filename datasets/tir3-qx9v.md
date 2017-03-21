@@ -90,7 +90,7 @@ entity e:tir3-qx9v l:"Oregon New Markets Tax Credit (NMTC) Program: 2014 (update
 
 property e:tir3-qx9v t:meta.view v:id=tir3-qx9v v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)"
 
-property e:tir3-qx9v t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:tir3-qx9v t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:tir3-qx9v t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

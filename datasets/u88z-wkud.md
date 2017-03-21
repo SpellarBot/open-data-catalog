@@ -63,7 +63,7 @@ property e:u88z-wkud t:meta.view v:id=u88z-wkud v:averageRating=0 v:name="Commis
 
 property e:u88z-wkud t:meta.view.license v:name="Public Domain"
 
-property e:u88z-wkud t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
+property e:u88z-wkud t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County Open Data" v:displayName="Cook County Open Data"
 
 property e:u88z-wkud t:meta.view.tableauthor v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 ```

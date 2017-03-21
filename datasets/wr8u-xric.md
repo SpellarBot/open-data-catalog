@@ -159,7 +159,7 @@ property e:wr8u-xric t:meta.view v:id=wr8u-xric v:category="Public Safety" v:ave
 
 property e:wr8u-xric t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:wr8u-xric t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:wr8u-xric t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
 
 property e:wr8u-xric t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```

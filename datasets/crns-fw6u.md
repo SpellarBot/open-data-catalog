@@ -71,7 +71,7 @@ entity e:crns-fw6u l:"Directory of NYCHA Community Facilities" t:attribution="Ne
 
 property e:crns-fw6u t:meta.view v:id=crns-fw6u v:category="Social Services" v:attributionLink=http://www.nyc.gov/html/nycha/html/ccschtml/communitycenters.shtml v:averageRating=0 v:name="Directory of NYCHA Community Facilities" v:attribution="New York City Housing Authority (NYCHA)"
 
-property e:crns-fw6u t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:crns-fw6u t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:crns-fw6u t:meta.view.tableauthor v:id=8b43-zkvh v:screenName="Ram S." v:displayName="Ram S."
 ```

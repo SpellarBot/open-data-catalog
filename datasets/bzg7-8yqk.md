@@ -57,7 +57,7 @@ entity e:bzg7-8yqk l:"ARRA Grant Expenditures As Of COB January 31, 2013" t:url=
 
 property e:bzg7-8yqk t:meta.view v:id=bzg7-8yqk v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Expenditures As Of COB January 31, 2013"
 
-property e:bzg7-8yqk t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:bzg7-8yqk t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:displayName=Dwight
 
 property e:bzg7-8yqk t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

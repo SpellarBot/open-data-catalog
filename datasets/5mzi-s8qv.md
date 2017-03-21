@@ -70,7 +70,7 @@ property e:5mzi-s8qv t:meta.view v:id=5mzi-s8qv v:category=Labor v:attributionLi
 
 property e:5mzi-s8qv t:meta.view.license v:name="Public Domain"
 
-property e:5mzi-s8qv t:meta.view.owner v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
+property e:5mzi-s8qv t:meta.view.owner v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:displayName="IL Department of Labor"
 
 property e:5mzi-s8qv t:meta.view.tableauthor v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
 ```

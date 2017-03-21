@@ -81,7 +81,7 @@ entity e:r74f-dpgp l:"Oregon Recovery and Reinvestment Act Data - June, 2012" t:
 
 property e:r74f-dpgp t:meta.view v:id=r74f-dpgp v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012"
 
-property e:r74f-dpgp t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:r74f-dpgp t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

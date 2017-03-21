@@ -39,7 +39,7 @@ Determination of Eligible Project by Oregon Business Development Commission unde
 | Yes      | series tag  | specific_outcomes_of_the_program_and_taxpayer_requirements | Specific Outcomes of the Program and Taxpayer Requirements | text      | text        |
 | Yes      | series tag  | statistics_and_methodology_employed                        | Statistics and Methodology Employed                        | text      | text        |
 | Yes      | series tag  | agency_s_certification_decision                            | Agency's Certification Decision                            | text      | text        |
-| Yes      | series tag  | date_approved                                              | Date Approved                                              | text      | text        |
+| No       |             | date_approved                                              | Date Approved                                              | text      | text        |
 | Yes      | series tag  | facility_location_county_code                              | Facility Location County Code                              | text      | text        |
 | Yes      | series tag  | facility_location_congressional_district                   | Facility Location Congressional District                   | text      | text        |
 | Yes      | series tag  | company_mailing_address_w_zip                              | Company Mailing Address (w/ZIP)                            | text      | text        |
@@ -55,7 +55,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = report_period_end_date
+Excluded Fields = report_period_end_date,date_approved
 ```
 
 ## Data Commands
@@ -70,7 +70,7 @@ entity e:tmti-aa3m l:"Strategic Investment Program (SIP): FY2016" t:attribution=
 
 property e:tmti-aa3m t:meta.view v:id=tmti-aa3m v:category="Revenue & Expense" v:attributionLink=http://www.oregon4biz.com/ v:averageRating=0 v:name="Strategic Investment Program (SIP): FY2016" v:attribution="Business Oregon"
 
-property e:tmti-aa3m t:meta.view.owner v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:roleName=editor v:displayName=carmens
+property e:tmti-aa3m t:meta.view.owner v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:displayName=carmens
 
 property e:tmti-aa3m t:meta.view.tableauthor v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:roleName=editor v:displayName=carmens
 ```

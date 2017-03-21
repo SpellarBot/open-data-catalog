@@ -103,7 +103,7 @@ property e:bj6v-3hfz t:meta.view v:id=bj6v-3hfz v:category=Education v:averageRa
 
 property e:bj6v-3hfz t:meta.view.license v:name="Public Domain"
 
-property e:bj6v-3hfz t:meta.view.owner v:id=nyku-jy9c v:screenName="Stephanie O'Day" v:roleName=editor v:displayName="Stephanie O'Day"
+property e:bj6v-3hfz t:meta.view.owner v:id=nyku-jy9c v:screenName="Stephanie O'Day" v:displayName="Stephanie O'Day"
 
 property e:bj6v-3hfz t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```

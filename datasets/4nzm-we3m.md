@@ -57,7 +57,7 @@ entity e:4nzm-we3m l:"ARRA Grant Expenditures As Of COB May 31, 2016" t:url=http
 
 property e:4nzm-we3m t:meta.view v:id=4nzm-we3m v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Expenditures As Of COB May 31, 2016"
 
-property e:4nzm-we3m t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:4nzm-we3m t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:displayName=Dwight
 
 property e:4nzm-we3m t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```

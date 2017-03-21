@@ -81,7 +81,7 @@ entity e:848a-grzs l:"Jackson Operating Expenses Budget" t:attribution="City of 
 
 property e:848a-grzs t:meta.view v:id=848a-grzs v:category="Budget and Finance" v:attributionLink="http://www.jacksonms.gov/index.aspx?nid=114" v:averageRating=0 v:name="Jackson Operating Expenses Budget" v:attribution="City of Jackson, Department of Administration"
 
-property e:848a-grzs t:meta.view.owner v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:roleName=publisher v:displayName="Tiffanee Jones"
+property e:848a-grzs t:meta.view.owner v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:displayName="Tiffanee Jones"
 
 property e:848a-grzs t:meta.view.tableauthor v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:roleName=publisher v:displayName="Tiffanee Jones"
 ```

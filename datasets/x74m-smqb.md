@@ -102,7 +102,7 @@ entity e:x74m-smqb l:"Libraries - 2013 Visitors by Location" t:attribution="Chic
 
 property e:x74m-smqb t:meta.view v:id=x74m-smqb v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Visitors by Location" v:attribution="Chicago Public Library"
 
-property e:x74m-smqb t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:x74m-smqb t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
 
 property e:x74m-smqb t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```

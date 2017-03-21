@@ -16,7 +16,7 @@
 | Tags | beaches, parks, chicago park district, open spaces, parks & recreation, recreation, water |
 | Created | 2016-06-07T16:41:13Z |
 | Publication Date | 2015-06-01T22:22:24Z |
-| Rows Updated | 2017-03-21T10:45:08Z |
+| Rows Updated | 2017-03-21T12:45:08Z |
 
 ## Description
 
@@ -103,7 +103,7 @@ entity e:7edu-s3u7 l:"Beach Weather Stations - Automated Sensors - 2016 - Humidi
 
 property e:7edu-s3u7 t:meta.view v:id=7edu-s3u7 v:category="Parks & Recreation" v:attributionLink=http://www.chicagoparkdistrict.com v:averageRating=0 v:name="Beach Weather Stations - Automated Sensors - 2016 - Humidity" v:attribution="Chicago Park District"
 
-property e:7edu-s3u7 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:7edu-s3u7 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:displayName="Jonathan Levy"
 
 property e:7edu-s3u7 t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```

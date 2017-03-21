@@ -70,7 +70,7 @@ property e:3qf7-xrf4 t:meta.view v:id=3qf7-xrf4 v:category="Finance & Administra
 
 property e:3qf7-xrf4 t:meta.view.license v:name="Public Domain"
 
-property e:3qf7-xrf4 t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
+property e:3qf7-xrf4 t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County Open Data" v:displayName="Cook County Open Data"
 
 property e:3qf7-xrf4 t:meta.view.tableauthor v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 ```

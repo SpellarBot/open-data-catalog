@@ -149,7 +149,7 @@ entity e:nyis-y4yr l:"DOB Sign Application Filings" t:attribution="Department of
 
 property e:nyis-y4yr t:meta.view v:id=nyis-y4yr v:category="Housing & Development" v:attributionLink=http://www.nyc.gov/html/dob/html/codes_and_reference_materials/foilmonthly.shtml#sign v:averageRating=0 v:name="DOB Sign Application Filings" v:attribution="Department of Buildings (DOB)"
 
-property e:nyis-y4yr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:nyis-y4yr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:nyis-y4yr t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

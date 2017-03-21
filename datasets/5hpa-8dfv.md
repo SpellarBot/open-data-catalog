@@ -74,7 +74,7 @@ entity e:5hpa-8dfv l:"Existing Bike Facilities" t:url=https://data.honolulu.gov/
 
 property e:5hpa-8dfv t:meta.view v:id=5hpa-8dfv v:category=Transportation v:averageRating=0 v:name="Existing Bike Facilities"
 
-property e:5hpa-8dfv t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:5hpa-8dfv t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
 
 property e:5hpa-8dfv t:meta.view.tableauthor v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 ```

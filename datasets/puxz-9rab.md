@@ -59,7 +59,7 @@ entity e:puxz-9rab l:"Report Card 1:  Overall Hawaii Visitor Numbers" t:url=http
 
 property e:puxz-9rab t:meta.view v:id=puxz-9rab v:averageRating=0 v:name="Report Card 1:  Overall Hawaii Visitor Numbers"
 
-property e:puxz-9rab t:meta.view.owner v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
+property e:puxz-9rab t:meta.view.owner v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:displayName="Daniel Nahoopii"
 
 property e:puxz-9rab t:meta.view.tableauthor v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
 ```

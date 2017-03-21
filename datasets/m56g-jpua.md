@@ -201,7 +201,7 @@ entity e:m56g-jpua l:"DOF: Cooperative Comparable Rental Income – Manhattan–
 
 property e:m56g-jpua t:meta.view v:id=m56g-jpua v:category="Housing & Development" v:averageRating=0 v:name="DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012" v:attribution="Department of Finance (DOF)"
 
-property e:m56g-jpua t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:m56g-jpua t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:m56g-jpua t:meta.view.tableauthor v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
 ```

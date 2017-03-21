@@ -25,7 +25,7 @@
 | Yes      | series tag     | agency_title   | AGENCY TITLE   | text      | text        |
 | Yes      | series tag     | classification | CLASSIFICATION | text      | text        |
 | Yes      | series tag     | service_type   | SERVICE TYPE   | text      | text        |
-| Yes      | series tag     | full_part_time | FULL/PART-TIME | text      | text        |
+| No       |                | full_part_time | FULL/PART-TIME | text      | text        |
 | Yes      | numeric metric | annual_salary  | ANNUAL SALARY  | money     | money       |
 ```
 
@@ -36,14 +36,20 @@ Value =
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = full_part_time
+```
+
 ## Data Commands
 
 ```ls
-series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Accountant 1" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=36048
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Accountant 1" t:agency_title="OUS - Southern Oregon University" t:agency=58040 m:annual_salary=36048
 
-series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Administrative Program Assist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=37800
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Administrative Program Assist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 m:annual_salary=37800
 
-series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Medical Transcriptionist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=36048
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Medical Transcriptionist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 m:annual_salary=36048
 ```
 
 ## Meta Commands
@@ -55,7 +61,7 @@ entity e:ih2u-hwyu l:"Salary: OUS: Southern Oregon University: Fiscal Year 2012"
 
 property e:ih2u-hwyu t:meta.view v:id=ih2u-hwyu v:category="Revenue & Expense" v:averageRating=0 v:name="Salary: OUS: Southern Oregon University: Fiscal Year 2012"
 
-property e:ih2u-hwyu t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:ih2u-hwyu t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:ih2u-hwyu t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

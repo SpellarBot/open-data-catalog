@@ -104,7 +104,7 @@ property e:wzpb-uqdj t:meta.view v:id=wzpb-uqdj v:category="Health and Human Ser
 
 property e:wzpb-uqdj t:meta.view.license v:name="Public Domain"
 
-property e:wzpb-uqdj t:meta.view.owner v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.owner v:id=hd87-ziyn v:screenName="Fred North" v:displayName="Fred North"
 
 property e:wzpb-uqdj t:meta.view.tableauthor v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
 ```

@@ -65,7 +65,7 @@ entity e:ebe6-dvsr l:PED_PlanReviewMeasures_Building t:url=https://data.srcity.o
 
 property e:ebe6-dvsr t:meta.view v:id=ebe6-dvsr v:averageRating=0 v:name=PED_PlanReviewMeasures_Building
 
-property e:ebe6-dvsr t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
 
 property e:ebe6-dvsr t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

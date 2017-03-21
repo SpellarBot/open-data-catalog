@@ -122,7 +122,7 @@ entity e:qfs9-xn8t l:"NYCDCP Manhattan Bike Counts - On Street Weekday" t:attrib
 
 property e:qfs9-xn8t t:meta.view v:id=qfs9-xn8t v:category=Transportation v:averageRating=0 v:name="NYCDCP Manhattan Bike Counts - On Street Weekday" v:attribution="Department of City Planning (DCP)"
 
-property e:qfs9-xn8t t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:qfs9-xn8t t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:qfs9-xn8t t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

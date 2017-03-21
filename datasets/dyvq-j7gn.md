@@ -50,7 +50,7 @@ entity e:dyvq-j7gn l:TPW_FleetTechnicianBillableHours t:url=https://data.srcity.
 
 property e:dyvq-j7gn t:meta.view v:id=dyvq-j7gn v:averageRating=0 v:name=TPW_FleetTechnicianBillableHours
 
-property e:dyvq-j7gn t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:dyvq-j7gn t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
 
 property e:dyvq-j7gn t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```

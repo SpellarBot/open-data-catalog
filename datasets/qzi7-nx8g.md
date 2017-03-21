@@ -78,7 +78,7 @@ property e:qzi7-nx8g t:meta.view v:id=qzi7-nx8g v:category=Environmental v:attri
 
 property e:qzi7-nx8g t:meta.view.license v:name="Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:qzi7-nx8g t:meta.view.owner v:id=2z47-i38b v:screenName="Watershed Education" v:roleName=publisher v:displayName="Watershed Education"
+property e:qzi7-nx8g t:meta.view.owner v:id=2z47-i38b v:screenName="Watershed Education" v:displayName="Watershed Education"
 
 property e:qzi7-nx8g t:meta.view.tableauthor v:id=2z47-i38b v:screenName="Watershed Education" v:roleName=publisher v:displayName="Watershed Education"
 ```

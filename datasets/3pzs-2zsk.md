@@ -73,7 +73,7 @@ entity e:3pzs-2zsk l:"Solar Photovoltaic (PV) Incentive Program Completed Projec
 
 property e:3pzs-2zsk t:meta.view v:id=3pzs-2zsk v:category="Energy & Environment" v:averageRating=0 v:name="Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" v:attribution="New York State Energy Research and Development Authority"
 
-property e:3pzs-2zsk t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:3pzs-2zsk t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
 property e:3pzs-2zsk t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 

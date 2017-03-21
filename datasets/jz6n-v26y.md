@@ -93,7 +93,7 @@ property e:jz6n-v26y t:meta.view v:id=jz6n-v26y v:category="Oral Health" v:attri
 
 property e:jz6n-v26y t:meta.view.license v:name="Public Domain"
 
-property e:jz6n-v26y t:meta.view.owner v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
+property e:jz6n-v26y t:meta.view.owner v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:displayName="Oral Health Data Administrator"
 
 property e:jz6n-v26y t:meta.view.tableauthor v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
 

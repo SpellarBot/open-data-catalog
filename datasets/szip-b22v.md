@@ -64,7 +64,7 @@ entity e:szip-b22v l:"Statewide Hatchery Rollup" t:url=https://data.wa.gov/api/v
 
 property e:szip-b22v t:meta.view v:id=szip-b22v v:averageRating=0 v:name="Statewide Hatchery Rollup"
 
-property e:szip-b22v t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:szip-b22v t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
 property e:szip-b22v t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

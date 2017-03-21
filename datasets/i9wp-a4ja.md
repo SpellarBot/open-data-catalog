@@ -98,7 +98,7 @@ entity e:i9wp-a4ja l:"NYC Transit Subway Entrance And Exit Data" t:attribution="
 
 property e:i9wp-a4ja t:meta.view v:id=i9wp-a4ja v:category=Transportation v:attributionLink=http://www.mta.info/developers/download.html v:averageRating=0 v:name="NYC Transit Subway Entrance And Exit Data" v:attribution="MTA Headquarters, New York City Transit"
 
-property e:i9wp-a4ja t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:i9wp-a4ja t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
 property e:i9wp-a4ja t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 

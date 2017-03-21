@@ -79,7 +79,7 @@ property e:4akt-7p7i t:meta.view v:id=4akt-7p7i v:category=Financial v:attributi
 
 property e:4akt-7p7i t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:4akt-7p7i t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:4akt-7p7i t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
 
 property e:4akt-7p7i t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```

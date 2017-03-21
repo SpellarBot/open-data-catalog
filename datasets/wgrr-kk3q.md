@@ -155,7 +155,7 @@ property e:wgrr-kk3q t:meta.view v:id=wgrr-kk3q v:category="City Business" v:att
 
 property e:wgrr-kk3q t:meta.view.license v:name="Public Domain"
 
-property e:wgrr-kk3q t:meta.view.owner v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
+property e:wgrr-kk3q t:meta.view.owner v:id=wy9h-7767 v:screenName="Wells, Denise" v:displayName="Wells, Denise"
 
 property e:wgrr-kk3q t:meta.view.tableauthor v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
 ```

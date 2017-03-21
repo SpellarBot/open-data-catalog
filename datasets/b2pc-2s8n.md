@@ -117,7 +117,7 @@ entity e:b2pc-2s8n l:"Campaign Finance Data - Report Detail Dataset" t:url=https
 
 property e:b2pc-2s8n t:meta.view v:id=b2pc-2s8n v:category=Government v:averageRating=0 v:name="Campaign Finance Data - Report Detail Dataset"
 
-property e:b2pc-2s8n t:meta.view.owner v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:roleName=editor v:displayName="Kathryn Darnall"
+property e:b2pc-2s8n t:meta.view.owner v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:displayName="Kathryn Darnall"
 
 property e:b2pc-2s8n t:meta.view.tableauthor v:id=fjfv-27ab v:screenName="Kathryn Darnall" v:roleName=editor v:displayName="Kathryn Darnall"
 ```

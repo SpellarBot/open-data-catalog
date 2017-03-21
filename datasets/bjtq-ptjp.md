@@ -80,7 +80,7 @@ entity e:bjtq-ptjp l:"Trash Control and Pickup Rating (2006 - Present)" t:attrib
 
 property e:bjtq-ptjp t:meta.view v:id=bjtq-ptjp v:category="Customer Service" v:attributionLink=http://www.uno.edu/cola/political-science/survey-research-center-studies.aspx v:averageRating=0 v:name="Trash Control and Pickup Rating (2006 - Present)" v:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey"
 
-property e:bjtq-ptjp t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:bjtq-ptjp t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
 property e:bjtq-ptjp t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 

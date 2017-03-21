@@ -102,7 +102,7 @@ entity e:cpva-49fs l:"Libraries - 2012 Holds Placed by Location" t:attribution="
 
 property e:cpva-49fs t:meta.view v:id=cpva-49fs v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2012 Holds Placed by Location" v:attribution="Chicago Public Library"
 
-property e:cpva-49fs t:meta.view.owner v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
+property e:cpva-49fs t:meta.view.owner v:id=jitu-w2pw v:screenName=GPeck v:displayName=GPeck
 
 property e:cpva-49fs t:meta.view.tableauthor v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
 ```

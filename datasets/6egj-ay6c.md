@@ -76,7 +76,7 @@ property e:6egj-ay6c t:meta.view v:id=6egj-ay6c v:category=Utility v:averageRati
 
 property e:6egj-ay6c t:meta.view.license v:name="Public Domain"
 
-property e:6egj-ay6c t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:6egj-ay6c t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
 
 property e:6egj-ay6c t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

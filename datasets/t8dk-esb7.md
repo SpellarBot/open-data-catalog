@@ -79,7 +79,7 @@ entity e:t8dk-esb7 l:"Northeast Complete" t:url=https://data.wa.gov/api/views/t8
 
 property e:t8dk-esb7 t:meta.view v:id=t8dk-esb7 v:averageRating=0 v:name="Northeast Complete"
 
-property e:t8dk-esb7 t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:t8dk-esb7 t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
 property e:t8dk-esb7 t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```

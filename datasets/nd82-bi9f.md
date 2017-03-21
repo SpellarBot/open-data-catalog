@@ -79,7 +79,7 @@ entity e:nd82-bi9f l:"Procurement By Industry" t:attribution="Office of the Mayo
 
 property e:nd82-bi9f t:meta.view v:id=nd82-bi9f v:category="City Government" v:averageRating=0 v:name="Procurement By Industry" v:attribution="Office of the Mayor (OTM)"
 
-property e:nd82-bi9f t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:nd82-bi9f t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:nd82-bi9f t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

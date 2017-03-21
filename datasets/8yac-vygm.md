@@ -77,7 +77,7 @@ entity e:8yac-vygm l:Routes t:attribution="Department of Education (DOE)" t:url=
 
 property e:8yac-vygm t:meta.view v:id=8yac-vygm v:category=Transportation v:averageRating=0 v:name=Routes v:attribution="Department of Education (DOE)"
 
-property e:8yac-vygm t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:8yac-vygm t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:8yac-vygm t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```

@@ -51,7 +51,7 @@ entity e:izuy-zuze l:"Pet Data - 2015 Foster" t:url=https://data.kingcounty.gov/
 
 property e:izuy-zuze t:meta.view v:id=izuy-zuze v:category=Government v:averageRating=0 v:name="Pet Data - 2015 Foster"
 
-property e:izuy-zuze t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
+property e:izuy-zuze t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:displayName=Cameron
 
 property e:izuy-zuze t:meta.view.tableauthor v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
 ```

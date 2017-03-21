@@ -89,7 +89,7 @@ entity e:9gmp-f9x2 l:"Demographic Projection Report - Enrollment Projections - N
 
 property e:9gmp-f9x2 t:meta.view v:id=9gmp-f9x2 v:category="Housing & Development" v:averageRating=0 v:name="Demographic Projection Report - Enrollment Projections - New York City Public Schools prepared by the Grier Partnership Part C" v:attribution="School Construction Authority (SCA)"
 
-property e:9gmp-f9x2 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:9gmp-f9x2 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:9gmp-f9x2 t:meta.view.tableauthor v:id=ci6y-i73t v:screenName="Harish Pathria" v:displayName="Harish Pathria"
 ```

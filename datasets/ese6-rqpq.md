@@ -96,7 +96,7 @@ property e:ese6-rqpq t:meta.view v:id=ese6-rqpq v:category="Maternal & Child Hea
 
 property e:ese6-rqpq t:meta.view.license v:name="Public Domain"
 
-property e:ese6-rqpq t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
+property e:ese6-rqpq t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
 
 property e:ese6-rqpq t:meta.view.tableauthor v:id=uj8q-r4hw v:profileImageUrlMedium=/api/users/uj8q-r4hw/profile_images/THUMB v:profileImageUrlLarge=/api/users/uj8q-r4hw/profile_images/LARGE v:screenName=jbraith v:profileImageUrlSmall=/api/users/uj8q-r4hw/profile_images/TINY v:roleName=administrator v:displayName=jbraith
 

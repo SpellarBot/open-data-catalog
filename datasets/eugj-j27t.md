@@ -61,7 +61,7 @@ entity e:eugj-j27t l:"American Recovery And Reinvestment Act Of 2009 ( ARRA)" t:
 
 property e:eugj-j27t t:meta.view v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"
 
-property e:eugj-j27t t:meta.view.owner v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.owner v:id=6ypf-grnx v:screenName="Jamie Gamble" v:displayName="Jamie Gamble"
 
 property e:eugj-j27t t:meta.view.tableauthor v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
 ```

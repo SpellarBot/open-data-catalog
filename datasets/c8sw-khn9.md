@@ -73,7 +73,7 @@ entity e:c8sw-khn9 l:"County Lottery Fund Expenditures: 2015-2016 Composite" t:u
 
 property e:c8sw-khn9 t:meta.view v:id=c8sw-khn9 v:category="Revenue & Expense" v:averageRating=0 v:name="County Lottery Fund Expenditures: 2015-2016 Composite"
 
-property e:c8sw-khn9 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:c8sw-khn9 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:c8sw-khn9 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

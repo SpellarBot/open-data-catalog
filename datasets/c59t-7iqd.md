@@ -67,7 +67,7 @@ entity e:c59t-7iqd l:"Prevalence and Mean of Dental Caries (Cavities) among Mary
 
 property e:c59t-7iqd t:meta.view v:id=c59t-7iqd v:category="Health and Human Services" v:attributionLink=http://fha.dhmh.maryland.gov/oralhealth/docs1/Oral_Health_Survey_Report.pdf v:averageRating=0 v:name="Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" v:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health"
 
-property e:c59t-7iqd t:meta.view.owner v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
+property e:c59t-7iqd t:meta.view.owner v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:displayName="Andrea Bankoski"
 
 property e:c59t-7iqd t:meta.view.tableauthor v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
 ```

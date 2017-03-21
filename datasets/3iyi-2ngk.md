@@ -86,7 +86,7 @@ entity e:3iyi-2ngk l:"Archived 2013 Oregon Public Meetings" t:url=https://data.o
 
 property e:3iyi-2ngk t:meta.view v:id=3iyi-2ngk v:category=Administrative v:averageRating=0 v:name="Archived 2013 Oregon Public Meetings"
 
-property e:3iyi-2ngk t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:3iyi-2ngk t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
 
 property e:3iyi-2ngk t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```

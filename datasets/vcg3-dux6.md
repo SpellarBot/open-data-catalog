@@ -65,7 +65,7 @@ entity e:vcg3-dux6 l:"IDPH 1990-2015 STD Illinois By County Chlamydia" t:attribu
 
 property e:vcg3-dux6 t:meta.view v:id=vcg3-dux6 v:category="Public Health" v:averageRating=0 v:name="IDPH 1990-2015 STD Illinois By County Chlamydia" v:attribution="Illinois Department of Public Health STD Program"
 
-property e:vcg3-dux6 t:meta.view.owner v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:roleName=publisher v:displayName="Danny Brikshavana"
+property e:vcg3-dux6 t:meta.view.owner v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:displayName="Danny Brikshavana"
 
 property e:vcg3-dux6 t:meta.view.tableauthor v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:roleName=publisher v:displayName="Danny Brikshavana"
 ```

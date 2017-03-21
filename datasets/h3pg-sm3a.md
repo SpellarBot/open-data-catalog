@@ -56,7 +56,7 @@ entity e:h3pg-sm3a l:"ARRA Grant Revenue as of COB March 31, 2016" t:url=https:/
 
 property e:h3pg-sm3a t:meta.view v:id=h3pg-sm3a v:category="Government Administration" v:averageRating=0 v:name="ARRA Grant Revenue as of COB March 31, 2016"
 
-property e:h3pg-sm3a t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
+property e:h3pg-sm3a t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:displayName=Dwight
 
 property e:h3pg-sm3a t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
