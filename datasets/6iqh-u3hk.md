@@ -31,8 +31,8 @@ This dataset includes all itemized payments made by an agent or independent cont
 | Yes      | series tag     | filer_naml          | Filer_NamL          | text          | text          |
 | Yes      | numeric metric | report_num          | Report_Num          | number        | number        |
 | Yes      | series tag     | committee_type      | Committee_Type      | text          | text          |
-| Yes      | series tag     | rpt_date            | Rpt_Date            | calendar_date | calendar_date |
-| No       | time           | from_date           | From_Date           | calendar_date | calendar_date |
+| No       |                | rpt_date            | Rpt_Date            | calendar_date | calendar_date |
+| Yes      | time           | from_date           | From_Date           | calendar_date | calendar_date |
 | No       |                | thru_date           | Thru_Date           | calendar_date | calendar_date |
 | No       |                | elect_date          | Elect_Date          | calendar_date | calendar_date |
 | Yes      | series tag     | tblcover_office_cd  | tblCover_Office_Cd  | text          | text          |
@@ -102,17 +102,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = from_date,thru_date,elect_date,expn_date
+Excluded Fields = rpt_date,thru_date,elect_date,expn_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:cand_naml=Philhour t:payee_state=CA t:payee_zip4=94612 t:cand_namf=Marjan t:entity_cd=OTH t:dist_no=1 t:office_cd=CSU t:filer_naml="Vote Marjan Philhour for Supervisor 2016" t:juris_dscr="San Francisco, CA" t:expn_code=CMP t:juris_cd=OTH t:agent_naml="Spotlight Printing" t:form_type=G t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1374373 t:committee_type=CTL t:rpt_date=2016-09-30T00:00:00 t:payee_naml="State Board of Equalization" t:payee_city=Oakland t:expn_dscr="Sales Tax" t:tran_id=EDT48 m:amount=48.13 m:report_num=1 m:cum_ytd=1391.38
+series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:cand_naml=Philhour t:payee_state=CA t:payee_zip4=94612 t:cand_namf=Marjan t:entity_cd=OTH t:dist_no=1 t:office_cd=CSU t:filer_naml="Vote Marjan Philhour for Supervisor 2016" t:juris_dscr="San Francisco, CA" t:expn_code=CMP t:juris_cd=OTH t:agent_naml="Spotlight Printing" t:form_type=G t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1374373 t:committee_type=CTL t:payee_naml="State Board of Equalization" t:payee_city=Oakland t:expn_dscr="Sales Tax" t:tran_id=EDT48 m:amount=48.13 m:report_num=1 m:cum_ytd=1391.38
 
-series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:payee_state=CA t:payee_zip4=94080 t:entity_cd=OTH t:filer_naml="NO ON V, ENOUGH IS ENOUGH: DON'T TAX OUR GROCERIES, WITH MAJOR FUNDING BY AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC" t:bal_juris="CITY AND COUNTY OF SAN FRANCISCO" t:expn_code=PRT t:agent_naml="STOREFRONT POLITICAL MEDIA" t:form_type=G t:bal_name="TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V" t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1382995 t:committee_type=BMC t:rpt_date=2016-12-19T00:00:00 t:payee_naml="SING TAO DAILY" t:sup_opp_cd=O t:payee_city="San Francisco" t:tran_id=EDT28 m:amount=36691.2 m:report_num=2 m:cum_ytd=36691.2
+series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:payee_state=CA t:payee_zip4=94080 t:entity_cd=OTH t:filer_naml="NO ON V, ENOUGH IS ENOUGH: DON'T TAX OUR GROCERIES, WITH MAJOR FUNDING BY AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC" t:bal_juris="CITY AND COUNTY OF SAN FRANCISCO" t:expn_code=PRT t:agent_naml="STOREFRONT POLITICAL MEDIA" t:form_type=G t:bal_name="TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V" t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1382995 t:committee_type=BMC t:payee_naml="SING TAO DAILY" t:sup_opp_cd=O t:payee_city="San Francisco" t:tran_id=EDT28 m:amount=36691.2 m:report_num=2 m:cum_ytd=36691.2
 
-series e:6iqh-u3hk d:2016-05-22T00:00:00.000Z t:cand_naml="Lee Fewer" t:payee_state=UT t:payee_zip4=84401 t:cand_namf=Sandra t:entity_cd=OTH t:dist_no=1 t:office_cd=CSU t:filer_naml="Sandra Lee Fewer for Supervisor 2016" t:juris_dscr="San Francisco District 1" t:expn_code=SAL t:juris_cd=CTY t:agent_naml="River City Business Services" t:form_type=G t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1382203 t:committee_type=CAO t:rpt_date=2016-09-06T00:00:00 t:payee_naml="Internal Revenue Service" t:payee_city=Ogden t:tran_id=VSFW49QASM0 m:amount=736.97 m:report_num=1 m:cum_ytd=0
+series e:6iqh-u3hk d:2016-05-22T00:00:00.000Z t:cand_naml="Lee Fewer" t:payee_state=UT t:payee_zip4=84401 t:cand_namf=Sandra t:entity_cd=OTH t:dist_no=1 t:office_cd=CSU t:filer_naml="Sandra Lee Fewer for Supervisor 2016" t:juris_dscr="San Francisco District 1" t:expn_code=SAL t:juris_cd=CTY t:agent_naml="River City Business Services" t:form_type=G t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1382203 t:committee_type=CAO t:payee_naml="Internal Revenue Service" t:payee_city=Ogden t:tran_id=VSFW49QASM0 m:amount=736.97 m:report_num=1 m:cum_ytd=0
 ```
 
 ## Meta Commands

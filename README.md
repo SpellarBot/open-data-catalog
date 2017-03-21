@@ -106,7 +106,7 @@ Name | Category | Updated
 [Performance Metrics - Chicago Park District - Park Security Checks](datasets/wrvx-zpw5.md) | Administration & Finance | 2012-08-03
 [Performance Metrics - Streets & Sanitation - Garbage Cart Requests](datasets/6htv-6453.md) | Administration & Finance | 2012-07-12
 [Performance Metrics - Transportation - Pavement Cave-ins](datasets/euee-qccq.md) | Administration & Finance | 2014-04-29
-[Public Chauffeurs](datasets/97wa-y6ff.md) | Community & Economic Development | 2017-03-20
+[Public Chauffeurs](datasets/97wa-y6ff.md) | Community & Economic Development | 2017-03-21
 [Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014](datasets/35yf-6dy3.md) | Health & Human Services | 2016-01-25
 [Public Health Statistics- Chlamydia cases among females aged 15-44 in Chicago, by year, 2000-2014.](datasets/bz6k-73ti.md) | Health & Human Services | 2016-01-08
 [Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011](datasets/ndk3-zftj.md) | Health & Human Services | 2014-04-11
@@ -192,13 +192,13 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[ENERGY STAR Certified Commercial Refrigerators and Freezers](datasets/59dq-uw25.md) | Active Specifications | 2017-03-20
-[ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-20
-[ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-20
-[ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-20
+[ENERGY STAR Certified Commercial Refrigerators and Freezers](datasets/59dq-uw25.md) | Active Specifications | 2017-03-21
+[ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-21
+[ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-21
+[ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-21
 [ENERGY STAR Certified Residential Clothes Dryers](datasets/t9u7-4d2j.md) | Active Specifications | 2017-03-21
-[ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-20
-[HISTORIC ENERGY STAR Certified Room Air Cleaners](datasets/uc6q-9632.md) | Active Specifications | 2017-03-20
+[ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-21
+[HISTORIC ENERGY STAR Certified Room Air Cleaners](datasets/uc6q-9632.md) | Active Specifications | 2017-03-21
 
 ## data.hartford.gov
 
@@ -516,14 +516,14 @@ Name | Category | Updated
 [Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-21
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25
 [Post- Employment Restriction Waivers](datasets/qwnt-35i6.md) | City Management and Ethics | 2016-05-25
-[Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-20
+[Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-21
 [SF Development Pipeline 2016 Q2](datasets/g5sr-9nhs.md) | Housing and Buildings | 2016-08-15
 [San Francisco Development Pipeline 2012 Quarter 1](datasets/v5p2-emnu.md) | Housing and Buildings | 2012-04-12
 [San Francisco Development Pipeline 2014 Quarter 2](datasets/fv2q-qaux.md) | Housing and Buildings | 2014-09-12
 [Speed Limits](datasets/vksm-bq22.md) | Transportation | 2017-02-04
 [Spending And Revenue](datasets/bpnb-jwfb.md) | City Management and Ethics | 2017-03-20
 [Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-21
-[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-20
+[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-21
 [Traffic Analysis Zones](datasets/j4sj-j2nf.md) | Geographic Locations and Boundaries | 2016-07-26
 
 ## data.somervillema.gov
@@ -558,7 +558,7 @@ Name | Category | Updated
 [Combined Fund Drive Donations 2014](datasets/m5pi-uads.md) |     | 2015-05-19
 [EM Statewide Web](datasets/985a-f68u.md) |     | 2015-03-30
 [Joseph Creek Summer Steelhead -- 1112015](datasets/5anj-6bnk.md) |     | 2015-01-12
-[L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-20
+[L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-21
 [Lobbyist Compensation and Expenses by Source](datasets/9nnw-c693.md) |     | 2017-03-20
 [Local Area Unemployment Statistics](datasets/ak95-mjh9.md) | Economics | 2014-02-06
 [Northeast Complete](datasets/t8dk-esb7.md) |     | 2015-02-13

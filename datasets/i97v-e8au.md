@@ -15,7 +15,7 @@
 | Tags | furnaces |
 | Created | 2014-08-08T12:06:09Z |
 | Publication Date | 2016-12-29T15:39:44Z |
-| Rows Updated | 2017-03-20T13:34:44Z |
+| Rows Updated | 2017-03-21T13:33:14Z |
 
 ## Description
 
@@ -60,11 +60,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V045B12*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_7643006 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171639 m:efficiency_afue=95
+series e:i97v-e8au d:2012-04-11T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A97DSMV090B20S-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151616_5756348 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Armstrong/Air Ease" t:model_name="A97DSMV Series" t:pd_id=2171653 m:efficiency_afue=97
 
-series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V070B16*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_9228942 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171640 m:efficiency_afue=95
+series e:i97v-e8au d:2012-04-11T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A97DSMV110B20S-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151616_9469194 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="Armstrong/Air Ease" t:model_name="A97DSMV Series" t:pd_id=2171654 m:efficiency_afue=97
 
-series e:i97v-e8au d:2011-09-01T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication="Not Applicable" t:model_number=A95DF2V090C20*-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151615_6679033 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=No t:can_integrate_hot_water_heating=No t:brand_name="AirEase Armstrong" t:model_name="A952V Series" t:pd_id=2171641 m:efficiency_afue=95
+series e:i97v-e8au d:2012-04-27T00:00:00.000Z t:energy_star_partner="Allied Air Enterprises" t:capable_of_two_way_communication=Other/Proprietary t:model_number=A97USMV070B12S-* t:fuel_type="Natural Gas" t:markets="United States, Canada" t:energy_star_model_identifier=ES_1102531_02012013151616_5407828 t:furnace_is_energy_star_certified_in=All t:meets_most_efficient_criteria=Yes t:can_integrate_hot_water_heating=No t:brand_name="Armstrong/Air Ease" t:model_name="A97USMV Series" t:pd_id=2171655 m:efficiency_afue=97
 ```
 
 ## Meta Commands

@@ -21,8 +21,8 @@
 | Included | Schema Type    | Field Name | Name       | Data Type | Render Type |
 | ======== | ============== | ========== | ========== | ========= | =========== |
 | Yes      | series tag     | objectid   | OBJECTID   | text      | number      |
-| Yes      | series tag     | alm_time   | alm_time   | date      | date        |
-| No       | time           | alm_date   | alm_date   | date      | date        |
+| No       |                | alm_time   | alm_time   | date      | date        |
+| Yes      | time           | alm_date   | alm_date   | date      | date        |
 | Yes      | series tag     | inci_no    | inci_no    | text      | text        |
 | Yes      | series tag     | station    | station    | text      | number      |
 | Yes      | series tag     | occup_id   | occup_id   | text      | number      |
@@ -58,7 +58,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = alm_date,latitude,longitude
+Excluded Fields = alm_time,latitude,longitude
 ```
 
 ## Data Commands
