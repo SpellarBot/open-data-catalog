@@ -63,11 +63,11 @@ Excluded Fields = milepost_offset,latitude,longitude
 ## Data Commands
 
 ```ls
-series e:25x6-mtdd d:2017-03-20T14:43:24.483Z t:cost_center=551609 t:gate_id=A91341ADAF9244C890920563507EC3F4 t:activation_type=Manual t:milepost=159 t:description="Ramp Barricade" t:route=35 t:dirtravel=Ramp t:sideofroad=Left t:objectid=1 t:district=1 t:sign_face_direction=N t:signtype=Regulatory m:row_number.25x6-mtdd=1
+series e:25x6-mtdd d:2017-03-21T11:35:44.570Z t:cost_center=551609 t:gate_id=A91341ADAF9244C890920563507EC3F4 t:activation_type=Manual t:milepost=159 t:description="Ramp Barricade" t:route=35 t:dirtravel=Ramp t:sideofroad=Left t:objectid=1 t:district=1 t:sign_face_direction=N t:signtype=Regulatory m:row_number.25x6-mtdd=1
 
-series e:25x6-mtdd d:2017-03-20T14:43:24.483Z t:cost_center=554810 t:gate_id=0FA20C59470E43D88F65A88F67A49F2E t:activation_type=Remote t:milepost=75 t:description="Right Mainline Barricade" t:subcategory="No Subcategory" t:route=29 t:dirtravel="With Milepost (increasing in number)" t:sideofroad=Right t:objectid=2 t:district=4 t:sign_face_direction=S t:signtype=Guide m:row_number.25x6-mtdd=2
+series e:25x6-mtdd d:2017-03-21T11:35:44.570Z t:cost_center=554810 t:gate_id=0FA20C59470E43D88F65A88F67A49F2E t:activation_type=Remote t:milepost=75 t:description="Right Mainline Barricade" t:subcategory="No Subcategory" t:route=29 t:dirtravel="With Milepost (increasing in number)" t:sideofroad=Right t:objectid=2 t:district=4 t:sign_face_direction=S t:signtype=Guide m:row_number.25x6-mtdd=2
 
-series e:25x6-mtdd d:2017-03-20T14:43:24.483Z t:cost_center=554810 t:gate_id=7EF1FEF2035948EEB2C197E3593193A1 t:activation_type=Manual t:milepost=75 t:description="Ramp Barricade" t:route=29 t:dirtravel=Ramp t:remarks="Sign face SE when gate is CLOSED" t:sideofroad=Right t:objectid=3 t:district=4 t:sign_face_direction=SE t:signtype=Regulatory m:row_number.25x6-mtdd=3
+series e:25x6-mtdd d:2017-03-21T11:35:44.570Z t:cost_center=554810 t:gate_id=7EF1FEF2035948EEB2C197E3593193A1 t:activation_type=Manual t:milepost=75 t:description="Ramp Barricade" t:route=29 t:dirtravel=Ramp t:remarks="Sign face SE when gate is CLOSED" t:sideofroad=Right t:objectid=3 t:district=4 t:sign_face_direction=SE t:signtype=Regulatory m:row_number.25x6-mtdd=3
 ```
 
 ## Meta Commands

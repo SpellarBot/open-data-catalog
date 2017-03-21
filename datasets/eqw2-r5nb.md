@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | attorney, registrations, integrity |
 | Created | 2013-04-12T18:29:05Z |
-| Publication Date | 2017-03-20T10:39:23Z |
-| Rows Updated | 2017-03-20T10:39:00Z |
+| Publication Date | 2017-03-21T10:31:17Z |
+| Rows Updated | 2017-03-21T10:30:53Z |
 
 ## Description
 

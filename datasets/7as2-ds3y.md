@@ -15,8 +15,8 @@
 | Category | Service Requests |
 | Tags | streets, pot holes |
 | Created | 2011-09-30T09:11:02Z |
-| Publication Date | 2017-03-20T10:32:27Z |
-| Rows Updated | 2017-03-20T10:30:49Z |
+| Publication Date | 2017-03-21T10:30:03Z |
+| Rows Updated | 2017-03-21T10:28:45Z |
 
 ## Description
 
@@ -49,8 +49,8 @@ Data Owner: Transportation. Time Period: All open requests and all completed req
 | Yes      | series tag     | police_district                    | Police District                    | text          | number        |
 | Yes      | series tag     | community_area                     | Community Area                     | text          | number        |
 | Yes      | series tag     | ssa                                | SSA                                | text          | text          |
-| No       |                | latitude                           | LATITUDE                           | number        | number        |
-| No       |                | longitude                          | LONGITUDE                          | number        | number        |
+| Yes      | numeric metric | latitude                           | LATITUDE                           | number        | number        |
+| Yes      | numeric metric | longitude                          | LONGITUDE                          | number        | number        |
 ```
 
 ## Time Field
@@ -63,23 +63,27 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = completion_date,street_address,x_coordinate,y_coordinate,latitude,longitude
+Excluded Fields = completion_date,street_address,x_coordinate,y_coordinate
 ```
 
 ## Data Commands
 
 ```ls
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60643 t:ward=19 t:police_district=22 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002021 t:current_activity="Dispatch Crew" t:community_area=72 t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=5
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:community_area=69 t:type_of_service_request="Pot Hole in Street" m:longitude=-87.63853957634103 m:latitude=41.75607825280598
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60623 t:ward=22 t:police_district=10 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002273 t:current_activity="Dispatch Crew" t:community_area=30 t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=7
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:ssa=3 t:service_request_number=11-00002209 t:community_area=65 t:type_of_service_request="Pot Hole in Street" m:longitude=-87.72249910770661 m:latitude=41.764007749308014
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60619 t:ward=6 t:police_district=6 t:most_recent_action="Pothole Patched" t:status=Completed t:ssa=51 t:service_request_number=11-00002650 t:current_activity="Dispatch Crew" t:community_area=69 t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=5
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:community_area=22 t:type_of_service_request="Pot Hole in Street" m:longitude=-87.68770475222249 m:latitude=41.92500993476519
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:number_of_potholes_filled_on_block p:integer l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
+metric m:number_of_potholes_filled_on_block p:long l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
+
+metric m:latitude p:long l:LATITUDE t:dataTypeName=number
+
+metric m:longitude p:long l:LONGITUDE t:dataTypeName=number
 
 entity e:7as2-ds3y l:"311 Service Requests - Pot Holes Reported" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/7as2-ds3y
 

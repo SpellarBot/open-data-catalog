@@ -55,6 +55,12 @@ Excluded Fields = mailing_address
 
 ```ls
 series e:m5xp-nzqp d:2014-06-30T00:00:00.000Z t:project_location_congressional_district=n/a t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry 
+Full disclosure of concurrent, statewide employment changes 
+Investment costs exceed taxable portion 
+Local approval pursuant to—
+ - County public hearing 
+ - Written agreement with business firm
+ - Vote by county governing body" t:zip_code=n/a t:agency_issuing_tax_expenditure="County Assessor (Oregon Department of Revenue)" t:business_firm_name="NO APPROVALS WERE MADE DURING PRECEDING FISCAL YEAR" t:anticipated_first_tax_year_of_exemption=n/a t:statistics_and_methodology_employed="Not applicable" t:agency_s_certification_decision="Commission determination of eligibility based on review of local process, proposed investment & operations, and other evidence." t:project_location_county_code=n/a t:property_tax_benefit_not_a_credit="UNREALIZED - Project property with market value in excess of taxable portion exempt for 15 years, less community service fee and locally negotiated requirements" t:estimated_total_investment=n/a t:name_of_proposed_project=n/a m:row_number.m5xp-nzqp=1
 ```
 
 ## Meta Commands

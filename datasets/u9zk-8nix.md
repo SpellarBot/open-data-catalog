@@ -16,7 +16,7 @@
 | Tags | procurement, bids, purchasing |
 | Created | 2015-03-08T04:46:07Z |
 | Publication Date | 2015-07-07T14:27:39Z |
-| Rows Updated | 2017-03-18T07:06:24Z |
+| Rows Updated | 2017-03-21T07:06:22Z |
 
 ## Description
 
@@ -55,6 +55,7 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 series e:u9zk-8nix d:2015-06-25T00:00:00.000Z t:unique_id=14363 t:bid_time="11:00 AM" t:room_number=806 t:phone=225-389-3259 t:description="RQ038473 MEN'S SNAG RESISTANT MOISTURE WICKING POLO SHIRTS" t:contact_name="Dexter Stewart" t:buyer_name="Dexter Stewart" t:department_name="FIRE DEPARTMENT" t:division_name="FIRE DEPARTMENT-ADMINISTRATION" t:note="ALL ITEMS TO BID AS ALL OR NONE" m:phone_ext=323
 
 series e:u9zk-8nix d:2014-10-09T00:00:00.000Z t:unique_id=13606 t:bid_time="11:00 AM" t:room_number=806 t:phone=225-389-3259 t:description="Central Garage Wrecker Service for Vehicles/Equipment
+up to and including 10,000 GVW" t:contact_name="Lori Foreman" t:buyer_name="Dexter Stewart" t:department_name="DEPARTMENT OF PUBLIC WORKS" t:division_name="CENTRAL GARAGE-OPERATIONS and MAINTENANCE" t:note="Addendum No. 1 Added" m:phone_ext=323
 
 series e:u9zk-8nix d:2014-01-31T00:00:00.000Z t:unique_id=12816 t:bid_time="11:00 AM" t:room_number=308 t:phone=225-389-3259 t:bid_results="http://brgov.com/dept/purchase/loadbidresults.asp?GetBid=12816" t:description="AERIAL BUCKET TRUCK FOR LANDSCAPE AND FORESTRY" t:contact_name="STEPHANIE COLBY" t:buyer_name="Dexter Stewart" t:department_name="DEPARTMENT OF PUBLIC WORKS" t:division_name="LANDSCAPE and FORESTRY" t:note="*Addendum No. 1 has been added to move the bid opening date due to inclement weather." m:phone_ext=323
 ```
@@ -70,7 +71,7 @@ property e:u9zk-8nix t:meta.view v:id=u9zk-8nix v:category=Government v:attribut
 
 property e:u9zk-8nix t:meta.view.license v:name="Public Domain"
 
-property e:u9zk-8nix t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:u9zk-8nix t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:displayName="Open Data BR"
 
 property e:u9zk-8nix t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

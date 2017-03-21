@@ -15,8 +15,8 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-19T19:31:58Z |
-| Rows Updated | 2017-03-19T19:31:55Z |
+| Publication Date | 2017-03-20T19:35:32Z |
+| Rows Updated | 2017-03-20T19:35:29Z |
 
 ## Description
 
@@ -57,11 +57,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-04-07T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2017-04-09T00:00:00.000Z t:event_borough=Queens t:event_type=Construction t:event_agency="Parks Department" t:event_id=313702 t:event_location="Captain Tilly Park: Captain Tilly Park ,Captain Tilly Park: Lawn Area" t:street_closure_type=N/A t:community_board=8, t:event_name="close for construction" t:police_precinct=107, m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-04-08T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-04-10T00:00:00.000Z t:event_borough=Queens t:event_type=Construction t:event_agency="Parks Department" t:event_id=313702 t:event_location="Captain Tilly Park: Captain Tilly Park ,Captain Tilly Park: Lawn Area" t:street_closure_type=N/A t:community_board=8, t:event_name="close for construction" t:police_precinct=107, m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-04-09T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-04-11T00:00:00.000Z t:event_borough=Queens t:event_type=Construction t:event_agency="Parks Department" t:event_id=313702 t:event_location="Captain Tilly Park: Captain Tilly Park ,Captain Tilly Park: Lawn Area" t:street_closure_type=N/A t:community_board=8, t:event_name="close for construction" t:police_precinct=107, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands

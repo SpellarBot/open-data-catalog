@@ -50,6 +50,7 @@ Format & Zone = seconds
 series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="Free Insurance" t:family_size_1_ind__monthly_income=1489 t:family_size_2_nos__monthly_income=2017 t:family_size_5_nos__monthly_income=3601 t:family_size_4_nos__monthly_income=3073 t:family_size_3_nos__monthly_income=2545 m:each_additional_person_add=528
 
 series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="$9 Per Child Per Month
+(Maximum of $27 per family)" t:family_size_1_ind__monthly_income=2067 t:family_size_2_nos__monthly_income=2800 t:family_size_5_nos__monthly_income=4997 t:family_size_4_nos__monthly_income=4265 t:family_size_3_nos__monthly_income=3532 m:each_additional_person_add=733
 
 series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="$15 Per Child Per MonthMaximum of $45 per family)" t:family_size_1_ind__monthly_income=2328 t:family_size_2_nos__monthly_income=3153 t:family_size_5_nos__monthly_income=5628 t:family_size_4_nos__monthly_income=4803 t:family_size_3_nos__monthly_income=3978 m:each_additional_person_add=825
 ```

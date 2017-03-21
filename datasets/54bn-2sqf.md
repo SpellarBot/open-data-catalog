@@ -16,7 +16,7 @@
 | Tags | purchase orders, procurement, purchasing |
 | Created | 2015-03-08T04:50:19Z |
 | Publication Date | 2015-07-27T13:13:15Z |
-| Rows Updated | 2017-03-18T07:06:16Z |
+| Rows Updated | 2017-03-21T07:06:09Z |
 
 ## Description
 
@@ -119,7 +119,7 @@ property e:54bn-2sqf t:meta.view v:id=54bn-2sqf v:category=Government v:attribut
 
 property e:54bn-2sqf t:meta.view.license v:name="Public Domain"
 
-property e:54bn-2sqf t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
+property e:54bn-2sqf t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:displayName="Open Data BR"
 
 property e:54bn-2sqf t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```

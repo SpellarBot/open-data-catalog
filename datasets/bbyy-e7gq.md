@@ -16,7 +16,7 @@
 | Tags | bicycling, sustainability, transportation |
 | Created | 2013-07-18T21:57:41Z |
 | Publication Date | 2015-12-21T21:33:36Z |
-| Rows Updated | 2017-03-20T11:00:37Z |
+| Rows Updated | 2017-03-21T11:00:39Z |
 
 ## Description
 

@@ -15,7 +15,7 @@
 | Tags | police, stop, search, field interview |
 | Created | 2015-07-10T16:01:09Z |
 | Publication Date | 2016-04-17T06:24:07Z |
-| Rows Updated | 2017-03-20T05:30:43Z |
+| Rows Updated | 2017-03-21T05:31:29Z |
 
 ## Description
 
@@ -95,7 +95,7 @@ property e:kitu-f4uy t:meta.view v:id=kitu-f4uy v:category="Public Safety and Pr
 
 property e:kitu-f4uy t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:kitu-f4uy t:meta.view.owner v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:displayName="Enterprise Information Data Team"
+property e:kitu-f4uy t:meta.view.owner v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
 property e:kitu-f4uy t:meta.view.tableauthor v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
