@@ -27,7 +27,7 @@ DOH Environmental Indicators
 ```ls
 | Included | Schema Type    | Field Name         | Name               | Data Type | Render Type |
 | ======== | ============== | ================== | ================== | ========= | =========== |
-| No       |                | _                  | #                  | number    | number      |
+| No       |                | _                  | #                  | text      | number      |
 | Yes      | time           | calendar_year      | Calendar Year      | number    | text        |
 | Yes      | numeric metric | produced_statewide | Produced Statewide | number    | number      |
 | Yes      | numeric metric | disposed_statewide | Disposed Statewide | number    | number      |

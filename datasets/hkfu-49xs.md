@@ -27,13 +27,13 @@ The City of Somerville uses this dataset to provide residents with information r
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
 | ======== | ============== | =============== | =============== | ============= | ============= |
-| Yes      | numeric metric | item            | Item #          | number        | number        |
+| Yes      | series tag     | item            | Item #          | text          | number        |
 | Yes      | series tag     | category_of_gov | Category of Gov | text          | text          |
 | Yes      | series tag     | vendor_name     | VENDOR NAME     | text          | text          |
 | Yes      | numeric metric | amount          | Amount          | number        | number        |
 | Yes      | time           | check_date      | Check Date      | calendar_date | calendar_date |
 | Yes      | series tag     | department      | Department      | text          | text          |
-| Yes      | numeric metric | check           | Check #         | number        | number        |
+| Yes      | series tag     | check           | Check #         | text          | number        |
 | Yes      | series tag     | org_description | Org Description | text          | text          |
 | Yes      | series tag     | account_desc    | Account Desc    | text          | text          |
 ```
@@ -48,21 +48,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:hkfu-49xs d:2016-11-22T00:00:00.000Z t:account_desc="OFFICE SUPPLIES" t:department="OSPCD ADMINISTRATION" t:vendor_name=4IMPRINT t:org_description="OSPCD-ADMIN ORDINARY MAINT" t:category_of_gov="General Government" m:amount=870.66 m:check=4229 m:item=1
+series e:hkfu-49xs d:2016-11-22T00:00:00.000Z t:account_desc="OFFICE SUPPLIES" t:check=4229 t:department="OSPCD ADMINISTRATION" t:item=1 t:vendor_name=4IMPRINT t:org_description="OSPCD-ADMIN ORDINARY MAINT" t:category_of_gov="General Government" m:amount=870.66
 
-series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc="PRINTING & STATIONERY" t:department="POLICE DEPARTMENT" t:vendor_name=4IMPRINT t:org_description="POLICE ORDINARY MAINTENANCE" t:category_of_gov="General Government" m:amount=357.44 m:check=3991 m:item=2
+series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc="PRINTING & STATIONERY" t:check=3991 t:department="POLICE DEPARTMENT" t:item=2 t:vendor_name=4IMPRINT t:org_description="POLICE ORDINARY MAINTENANCE" t:category_of_gov="General Government" m:amount=357.44
 
-series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc=STATIONERY t:department="POLICE DEPARTMENT" t:vendor_name=4IMPRINT t:org_description="POLICE-ANIMAL CTL ORD MAINT" t:category_of_gov="General Government" m:amount=722.6 m:check=3992 m:item=3
+series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc=STATIONERY t:check=3992 t:department="POLICE DEPARTMENT" t:item=3 t:vendor_name=4IMPRINT t:org_description="POLICE-ANIMAL CTL ORD MAINT" t:category_of_gov="General Government" m:amount=722.6
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:item p:integer l:"Item #" t:dataTypeName=number
-
 metric m:amount p:float l:Amount t:dataTypeName=number
-
-metric m:check p:integer l:"Check #" t:dataTypeName=number
 
 entity e:hkfu-49xs l:"Open Checkbook Data FY17" t:attribution="City of Somerville Finance Department" t:url=https://data.somervillema.gov/api/views/hkfu-49xs
 

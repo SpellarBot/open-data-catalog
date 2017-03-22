@@ -25,23 +25,23 @@ This dataset reflects incidents that have been reported to the New Orleans Polic
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
-| ======== | ============== | =============== | =============== | ============= | ============= |
-| Yes      | series tag     | nopd_item       | NOPD_Item       | text          | text          |
-| Yes      | series tag     | type_           | Type_           | text          | text          |
-| Yes      | series tag     | typetext        | TypeText        | text          | text          |
-| Yes      | series tag     | priority        | Priority        | text          | text          |
-| Yes      | numeric metric | mapx            | MapX            | number        | text          |
-| Yes      | numeric metric | mapy            | MapY            | number        | text          |
-| Yes      | time           | timecreate      | TimeCreate      | calendar_date | calendar_date |
-| No       |                | timedispatch    | TimeDispatch    | calendar_date | calendar_date |
-| No       |                | timearrive      | TimeArrive      | calendar_date | calendar_date |
-| No       |                | timeclosed      | TimeClosed      | calendar_date | calendar_date |
-| Yes      | series tag     | disposition     | Disposition     | text          | text          |
-| Yes      | series tag     | dispositiontext | DispositionText | text          | text          |
-| No       |                | block_address   | BLOCK_ADDRESS   | text          | text          |
-| Yes      | series tag     | zip             | Zip             | text          | text          |
-| Yes      | series tag     | policedistrict  | PoliceDistrict  | text          | number        |
+| Included | Schema Type | Field Name      | Name            | Data Type     | Render Type   |
+| ======== | =========== | =============== | =============== | ============= | ============= |
+| Yes      | series tag  | nopd_item       | NOPD_Item       | text          | text          |
+| Yes      | series tag  | type_           | Type_           | text          | text          |
+| Yes      | series tag  | typetext        | TypeText        | text          | text          |
+| Yes      | series tag  | priority        | Priority        | text          | text          |
+| No       |             | mapx            | MapX            | number        | text          |
+| No       |             | mapy            | MapY            | number        | text          |
+| Yes      | time        | timecreate      | TimeCreate      | calendar_date | calendar_date |
+| No       |             | timedispatch    | TimeDispatch    | calendar_date | calendar_date |
+| No       |             | timearrive      | TimeArrive      | calendar_date | calendar_date |
+| No       |             | timeclosed      | TimeClosed      | calendar_date | calendar_date |
+| Yes      | series tag  | disposition     | Disposition     | text          | text          |
+| Yes      | series tag  | dispositiontext | DispositionText | text          | text          |
+| No       |             | block_address   | BLOCK_ADDRESS   | text          | text          |
+| Yes      | series tag  | zip             | Zip             | text          | text          |
+| Yes      | series tag  | policedistrict  | PoliceDistrict  | text          | number        |
 ```
 
 ## Time Field
@@ -54,25 +54,23 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = timedispatch,timearrive,timeclosed,block_address
+Excluded Fields = mapx,mapy,timedispatch,timearrive,timeclosed,block_address
 ```
 
 ## Data Commands
 
 ```ls
-series e:5fn8-vtui d:2012-12-31T23:59:34.000Z t:zip=70117 t:type_=94 t:nopd_item=A0000113 t:priority=2B t:dispositiontext=UNFOUNDED t:policedistrict=5 t:typetext="DISCHARGING FIREARM" t:disposition=UNF m:mapx=3696313 m:mapy=533332
+series e:5fn8-vtui d:2012-12-31T23:59:34.000Z t:zip=70117 t:type_=94 t:nopd_item=A0000113 t:priority=2B t:dispositiontext=UNFOUNDED t:policedistrict=5 t:typetext="DISCHARGING FIREARM" t:disposition=UNF m:row_number.5fn8-vtui=1
 
-series e:5fn8-vtui d:2012-12-31T23:59:49.000Z t:zip=70131 t:type_=94 t:nopd_item=A0000213 t:priority=2B t:dispositiontext=UNFOUNDED t:policedistrict=4 t:typetext="DISCHARGING FIREARM" t:disposition=UNF m:mapx=3710263 m:mapy=518976
+series e:5fn8-vtui d:2012-12-31T23:59:49.000Z t:zip=70131 t:type_=94 t:nopd_item=A0000213 t:priority=2B t:dispositiontext=UNFOUNDED t:policedistrict=4 t:typetext="DISCHARGING FIREARM" t:disposition=UNF m:row_number.5fn8-vtui=2
 
-series e:5fn8-vtui d:2013-01-01T00:00:22.000Z t:zip=70130 t:type_=67S t:nopd_item=A0000313 t:priority=1C t:dispositiontext=DUPLICATE t:policedistrict=8 t:typetext=SHOPLIFTING t:disposition=DUP m:mapx=3683068 m:mapy=531830
+series e:5fn8-vtui d:2013-01-01T00:00:22.000Z t:zip=70130 t:type_=67S t:nopd_item=A0000313 t:priority=1C t:dispositiontext=DUPLICATE t:policedistrict=8 t:typetext=SHOPLIFTING t:disposition=DUP m:row_number.5fn8-vtui=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:mapx p:integer l:MapX t:dataTypeName=number
-
-metric m:mapy p:integer l:MapY t:dataTypeName=number
+metric m:row_number.5fn8-vtui p:long l:"Row Number"
 
 entity e:5fn8-vtui l:"Calls for Service 2013" t:attribution="Orleans Parish Communications District" t:url=https://data.nola.gov/api/views/5fn8-vtui
 

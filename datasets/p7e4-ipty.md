@@ -27,8 +27,8 @@ PATH System average weekday and weekend linked passenger trips, by month beginni
 ```ls
 | Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type |
 | ======== | ============== | ====================== | ====================== | ========= | =========== |
-| Yes      | time           | year                   | Year                   | number    | number      |
-| Yes      | numeric metric | month                  | Month                  | number    | text        |
+| No       |                | year                   | Year                   | number    | number      |
+| No       |                | month                  | Month                  | number    | text        |
 | Yes      | numeric metric | average_weekday_trips  | Average Weekday Trips  | number    | number      |
 | Yes      | numeric metric | average_saturday_trips | Average Saturday Trips | number    | number      |
 | Yes      | numeric metric | average_sunday_trips   | Average Sunday Trips   | number    | number      |
@@ -37,25 +37,29 @@ PATH System average weekday and weekend linked passenger trips, by month beginni
 ## Time Field
 
 ```ls
-Value = year
-Format & Zone = yyyy
+Value = year-month
+Format & Zone = yyyy-MM
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = year,month
 ```
 
 ## Data Commands
 
 ```ls
-series e:p7e4-ipty d:2015-01-01T00:00:00.000Z m:average_weekday_trips=227560 m:average_saturday_trips=88875 m:month=1 m:average_sunday_trips=65718
+series e:p7e4-ipty d:2015-01-01T00:00:00.000Z m:average_weekday_trips=227560 m:average_saturday_trips=88875 m:average_sunday_trips=65718
 
-series e:p7e4-ipty d:2015-01-01T00:00:00.000Z m:average_weekday_trips=245222 m:average_saturday_trips=94726 m:month=2 m:average_sunday_trips=69433
+series e:p7e4-ipty d:2015-02-01T00:00:00.000Z m:average_weekday_trips=245222 m:average_saturday_trips=94726 m:average_sunday_trips=69433
 
-series e:p7e4-ipty d:2015-01-01T00:00:00.000Z m:average_weekday_trips=250436 m:average_saturday_trips=107723 m:month=3 m:average_sunday_trips=80341
+series e:p7e4-ipty d:2015-03-01T00:00:00.000Z m:average_weekday_trips=250436 m:average_saturday_trips=107723 m:average_sunday_trips=80341
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:month p:integer l:Month d:"Calendar month (1 = January, 12 = December)" t:dataTypeName=number
-
 metric m:average_weekday_trips p:integer l:"Average Weekday Trips" d:"Identifies passenger trip volumes on weekdays" t:dataTypeName=number
 
 metric m:average_saturday_trips p:integer l:"Average Saturday Trips" d:"Identifies passenger trip volumes on Saturdays" t:dataTypeName=number

@@ -29,19 +29,19 @@ This lookup is not confirmation of an active warrant.  All City Court warrants s
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name | Name        | Data Type     | Render Type   |
-| ======== | ============== | ========== | =========== | ============= | ============= |
-| Yes      | series tag     | name       | NAME        | text          | text          |
-| Yes      | series tag     | add3       | CITY        | text          | text          |
-| Yes      | series tag     | state      | STATE       | text          | text          |
-| Yes      | series tag     | zip        | ZIPCODE     | text          | text          |
-| Yes      | series tag     | race       | RACE        | text          | text          |
-| Yes      | series tag     | sex        | SEX         | text          | text          |
-| Yes      | numeric metric | dob        | YOB         | number        | text          |
-| Yes      | time           | doa        | DOA         | calendar_date | calendar_date |
-| Yes      | series tag     | fileno     | FILE NUMBER | text          | text          |
-| Yes      | series tag     | div        | DIV         | text          | text          |
-| Yes      | series tag     | type       | CASE TYPE   | text          | text          |
+| Included | Schema Type | Field Name | Name        | Data Type     | Render Type   |
+| ======== | =========== | ========== | =========== | ============= | ============= |
+| Yes      | series tag  | name       | NAME        | text          | text          |
+| Yes      | series tag  | add3       | CITY        | text          | text          |
+| Yes      | series tag  | state      | STATE       | text          | text          |
+| Yes      | series tag  | zip        | ZIPCODE     | text          | text          |
+| Yes      | series tag  | race       | RACE        | text          | text          |
+| Yes      | series tag  | sex        | SEX         | text          | text          |
+| Yes      | series tag  | dob        | YOB         | text          | text          |
+| Yes      | time        | doa        | DOA         | calendar_date | calendar_date |
+| Yes      | series tag  | fileno     | FILE NUMBER | text          | text          |
+| Yes      | series tag  | div        | DIV         | text          | text          |
+| Yes      | series tag  | type       | CASE TYPE   | text          | text          |
 ```
 
 ## Time Field
@@ -54,17 +54,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:3j5u-jyar d:2015-08-10T00:00:00.000Z t:zip=70714 t:sex=M t:fileno=PP00010364 t:name="GRADNEY, TORY" t:div=D t:state=LA t:type=PP t:race=B t:add3=BAKER m:dob=1976
+series e:3j5u-jyar d:2007-04-23T00:00:00.000Z t:zip=00000 t:sex=M t:fileno=PP00001834 t:name="SCOTT, JONATHAN" t:div=D t:type=PP t:race=B m:row_number.3j5u-jyar=1
 
-series e:3j5u-jyar d:2016-11-14T00:00:00.000Z t:zip=70807 t:sex=M t:fileno=BR02196968 t:name="CHAPMAN, ARTHUR  D" t:div=D t:state=LA t:type=CCTRAF t:race=B t:add3="BATON ROUGE" m:dob=1994
+series e:3j5u-jyar d:2006-01-04T00:00:00.000Z t:zip=00000 t:fileno=BR01661118 t:name="CORDIER, LAKEISHA" t:div=B t:state=AL t:type=CCTRAF t:add3=BIRMINGHAM m:row_number.3j5u-jyar=2
 
-series e:3j5u-jyar d:2016-07-11T00:00:00.000Z t:zip=70810 t:sex=F t:fileno=BR02165956 t:name="BARROW, STEPHANIE  C" t:div=A t:state=LA t:type=CCTRAF t:race=B t:add3="BATON ROUGE" m:dob=1996
+series e:3j5u-jyar d:2008-04-30T00:00:00.000Z t:zip=.0000 t:fileno=08-CR-020155S t:name="COSTLEY, BRANDON" t:div=C t:type=CMISD m:row_number.3j5u-jyar=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:dob p:integer l:YOB d:"Defendant's year of birth" t:dataTypeName=number
+metric m:row_number.3j5u-jyar p:long l:"Row Number"
 
 entity e:3j5u-jyar l:"City Court Warrants" t:attribution="Baton Rouge City Court" t:url=https://data.brla.gov/api/views/3j5u-jyar
 

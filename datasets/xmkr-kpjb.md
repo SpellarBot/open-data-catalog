@@ -31,7 +31,7 @@ This dataset contains property tax rates for all levy authorities within the Sta
 | Yes      | series tag     | type               | Type               | text      | text        |
 | Yes      | series tag     | levy_authority_1   | Levy Authority #   | text      | text        |
 | Yes      | series tag     | levy_authority_2   | Levy Authority     | text      | text        |
-| Yes      | numeric metric | county_fip         | County FIP         | number    | text        |
+| Yes      | series tag     | county_fip         | County FIP         | text      | text        |
 | Yes      | series tag     | county_name        | County Name        | text      | text        |
 | Yes      | series tag     | city_fips          | City FIPS          | text      | text        |
 | Yes      | series tag     | city_name          | City Name          | text      | text        |
@@ -53,18 +53,16 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ADAIR t:levy_authority_1=01 t:type=COUNTY t:county_name=ADAIR m:tif_rate_rural=7.99067 m:debt_rate=0 m:tif_rate_urban=4.36725 m:county_fip=19001 m:rural_rate=7.99067 m:urban_rate=4.36725
+series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ADAIR t:levy_authority_1=01 t:county_fip=19001 t:type=COUNTY t:county_name=ADAIR m:tif_rate_rural=7.99067 m:debt_rate=0 m:tif_rate_urban=4.36725 m:rural_rate=7.99067 m:urban_rate=4.36725
 
-series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ADAMS t:levy_authority_1=02 t:type=COUNTY t:county_name=ADAMS m:tif_rate_rural=9.20615 m:debt_rate=0.14119 m:tif_rate_urban=5.96817 m:county_fip=19003 m:rural_rate=9.34734 m:urban_rate=6.10936
+series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ADAMS t:levy_authority_1=02 t:county_fip=19003 t:type=COUNTY t:county_name=ADAMS m:tif_rate_rural=9.20615 m:debt_rate=0.14119 m:tif_rate_urban=5.96817 m:rural_rate=9.34734 m:urban_rate=6.10936
 
-series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ALLAMAKEE t:levy_authority_1=03 t:type=COUNTY t:county_name=ALLAMAKEE m:tif_rate_rural=8.2671 m:debt_rate=0 m:tif_rate_urban=6.04643 m:county_fip=19005 m:rural_rate=8.2671 m:urban_rate=6.04643
+series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ALLAMAKEE t:levy_authority_1=03 t:county_fip=19005 t:type=COUNTY t:county_name=ALLAMAKEE m:tif_rate_rural=8.2671 m:debt_rate=0 m:tif_rate_urban=6.04643 m:rural_rate=8.2671 m:urban_rate=6.04643
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:county_fip p:integer l:"County FIP" d:"A five-digit Federal Information Processing Series code to ensure uniform identification of counties" t:dataTypeName=number
-
 metric m:co_subdivision_fip p:integer l:"Co Subdivision FIP" d:"A ten-digit Federal Information Processing Series code to ensure uniform identification of county subdivisions" t:dataTypeName=number
 
 metric m:urban_rate p:double l:"Urban Rate" d:"Rate applied to property considered urban" t:dataTypeName=number

@@ -37,15 +37,15 @@ Starting in 2010, NYSED changed the scale score required to meet each of the pro
 | Yes      | series tag     | category         | Category         | text      | text        |
 | Yes      | numeric metric | number_tested    | Number Tested    | number    | number      |
 | Yes      | numeric metric | mean_scale_score | Mean Scale Score | number    | number      |
-| Yes      | numeric metric | level_1_1        | Level 1 #        | number    | number      |
+| Yes      | series tag     | level_1_1        | Level 1 #        | text      | number      |
 | Yes      | numeric metric | level_1_2        | Level 1 %        | percent   | percent     |
-| Yes      | numeric metric | level_2_1        | Level 2 #        | number    | number      |
+| Yes      | series tag     | level_2_1        | Level 2 #        | text      | number      |
 | Yes      | numeric metric | level_2_2        | Level 2 %        | percent   | percent     |
-| Yes      | numeric metric | level_3_1        | Level 3 #        | number    | number      |
+| Yes      | series tag     | level_3_1        | Level 3 #        | text      | number      |
 | Yes      | numeric metric | level_3_2        | Level 3 %        | percent   | percent     |
-| Yes      | numeric metric | level_4_1        | Level 4 #        | number    | number      |
+| Yes      | series tag     | level_4_1        | Level 4 #        | text      | number      |
 | Yes      | numeric metric | level_4_2        | Level 4 %        | percent   | percent     |
-| Yes      | numeric metric | level_3_4_1      | Level 3+4 #      | number    | number      |
+| Yes      | series tag     | level_3_4_1      | Level 3+4 #      | text      | number      |
 | Yes      | numeric metric | level_3_4_2      | Level 3+4 %      | percent   | percent     |
 ```
 
@@ -59,11 +59,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:category=ELL t:grade=3 t:borough=BRONX m:level_4_1=202 m:level_3_4_2=49 m:mean_scale_score=645 m:level_2_2=27.6 m:level_4_2=5.4 m:level_2_1=1037 m:level_1_2=23.3 m:level_1_1=876 m:number_tested=3754 m:level_3_2=43.7 m:level_3_4_1=1841 m:level_3_1=1639
+series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:category=ELL t:level_4_1=202 t:level_2_1=1037 t:grade=3 t:borough=BRONX t:level_1_1=876 t:level_3_4_1=1841 t:level_3_1=1639 m:level_3_4_2=49 m:mean_scale_score=645 m:level_2_2=27.6 m:level_4_2=5.4 m:level_1_2=23.3 m:number_tested=3754 m:level_3_2=43.7
 
-series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:category=EP t:grade=3 t:borough=BRONX m:level_4_1=2306 m:level_3_4_2=73.2 m:mean_scale_score=669 m:level_2_2=17.5 m:level_4_2=18.2 m:level_2_1=2220 m:level_1_2=9.3 m:level_1_1=1186 m:number_tested=12691 m:level_3_2=55 m:level_3_4_1=9285 m:level_3_1=6979
+series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:category=EP t:level_4_1=2306 t:level_2_1=2220 t:grade=3 t:borough=BRONX t:level_1_1=1186 t:level_3_4_1=9285 t:level_3_1=6979 m:level_3_4_2=73.2 m:mean_scale_score=669 m:level_2_2=17.5 m:level_4_2=18.2 m:level_1_2=9.3 m:number_tested=12691 m:level_3_2=55
 
-series e:zpd4-gad8 d:2007-01-01T00:00:00.000Z t:category=ELL t:grade=3 t:borough=BRONX m:level_4_1=376 m:level_3_4_2=62.5 m:mean_scale_score=659 m:level_2_2=24.4 m:level_4_2=10.1 m:level_2_1=908 m:level_1_2=13.1 m:level_1_1=489 m:number_tested=3726 m:level_3_2=52.4 m:level_3_4_1=2329 m:level_3_1=1953
+series e:zpd4-gad8 d:2007-01-01T00:00:00.000Z t:category=ELL t:level_4_1=376 t:level_2_1=908 t:grade=3 t:borough=BRONX t:level_1_1=489 t:level_3_4_1=2329 t:level_3_1=1953 m:level_3_4_2=62.5 m:mean_scale_score=659 m:level_2_2=24.4 m:level_4_2=10.1 m:level_1_2=13.1 m:number_tested=3726 m:level_3_2=52.4
 ```
 
 ## Meta Commands
@@ -73,23 +73,13 @@ metric m:number_tested p:integer l:"Number Tested" t:dataTypeName=number
 
 metric m:mean_scale_score p:integer l:"Mean Scale Score" t:dataTypeName=number
 
-metric m:level_1_1 p:integer l:"Level 1 #" t:dataTypeName=number
-
 metric m:level_1_2 p:float l:"Level 1 %" t:dataTypeName=percent
-
-metric m:level_2_1 p:integer l:"Level 2 #" t:dataTypeName=number
 
 metric m:level_2_2 p:float l:"Level 2 %" t:dataTypeName=percent
 
-metric m:level_3_1 p:integer l:"Level 3 #" t:dataTypeName=number
-
 metric m:level_3_2 p:float l:"Level 3 %" t:dataTypeName=percent
 
-metric m:level_4_1 p:integer l:"Level 4 #" t:dataTypeName=number
-
 metric m:level_4_2 p:float l:"Level 4 %" t:dataTypeName=percent
-
-metric m:level_3_4_1 p:integer l:"Level 3+4 #" t:dataTypeName=number
 
 metric m:level_3_4_2 p:float l:"Level 3+4 %" t:dataTypeName=percent
 

@@ -25,17 +25,17 @@ Current as of January 2017
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name        | Name                    | Data Type | Render Type |
-| ======== | ============== | ================= | ======================= | ========= | =========== |
-| No       | time           | :updated_at       | updated_at              | meta_data | meta_data   |
-| Yes      | series tag     | hospice_residence | Hospice Residence       | text      | text        |
-| No       |                | address           | Address                 | text      | text        |
-| Yes      | series tag     | city              | City                    | text      | text        |
-| Yes      | series tag     | zip               | County                  | text      | text        |
-| Yes      | numeric metric | county            | Zip                     | number    | text        |
-| Yes      | series tag     | phone             | Contact Number          | text      | phone       |
-| Yes      | numeric metric | license           | License #               | number    | text        |
-| Yes      | series tag     | dba               | License Expiration Date | html      | html        |
+| Included | Schema Type | Field Name        | Name                    | Data Type | Render Type |
+| ======== | =========== | ================= | ======================= | ========= | =========== |
+| No       | time        | :updated_at       | updated_at              | meta_data | meta_data   |
+| Yes      | series tag  | hospice_residence | Hospice Residence       | text      | text        |
+| No       |             | address           | Address                 | text      | text        |
+| Yes      | series tag  | city              | City                    | text      | text        |
+| Yes      | series tag  | zip               | County                  | text      | text        |
+| Yes      | series tag  | county            | Zip                     | text      | text        |
+| Yes      | series tag  | phone             | Contact Number          | phone     | phone       |
+| Yes      | series tag  | license           | License #               | text      | text        |
+| Yes      | series tag  | dba               | License Expiration Date | html      | html        |
 ```
 
 ## Time Field
@@ -54,19 +54,17 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Cook t:dba=03/31/17 t:hospice_residence="Alexian Brothers Hospice" t:phone.phone_number="(630) 233-5010" t:city="Elk Grove Village" m:county=60007 m:license=2002732
+series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Cook t:phone_number="(630) 233-5010" t:county=60007 t:dba=03/31/17 t:hospice_residence="Alexian Brothers Hospice" t:license=2002732 t:city="Elk Grove Village" m:row_number.hbcs-x3a5=1
 
-series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Will t:dba=04/30/17 t:hospice_residence="Joliet Area Community Hospice, Inc." t:phone.phone_number="(815) 740-4104" t:city=Joliet m:county=60431 m:license=2000340
+series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Will t:phone_number="(815) 740-4104" t:county=60431 t:dba=04/30/17 t:hospice_residence="Joliet Area Community Hospice, Inc." t:license=2000340 t:city=Joliet m:row_number.hbcs-x3a5=2
 
-series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip="Mc Henry" t:dba=07/31/17 t:hospice_residence="JourneyCare, Inc." t:phone.phone_number="(847) 381-5599" t:city=Woodstock m:county=60098 m:license=2000920
+series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip="Mc Henry" t:phone_number="(847) 381-5599" t:county=60098 t:dba=07/31/17 t:hospice_residence="JourneyCare, Inc." t:license=2000920 t:city=Woodstock m:row_number.hbcs-x3a5=3
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:county p:integer l:Zip t:dataTypeName=number
-
-metric m:license p:integer l:"License #" t:dataTypeName=number
+metric m:row_number.hbcs-x3a5 p:long l:"Row Number"
 
 entity e:hbcs-x3a5 l:"IDPH Hospice Residence Facilities" t:attribution="Division of Health Care Facilities and Programs" t:url=https://data.illinois.gov/api/views/hbcs-x3a5
 

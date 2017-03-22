@@ -34,7 +34,7 @@ The Greenhouse Gas Emissions Inventory details the estimated New York State emis
 | Yes      | numeric metric | transportation_total       | Transportation Total       | number    | number      |
 | Yes      | numeric metric | electric_generation_total  | Electric Generation Total  | number    | number      |
 | Yes      | numeric metric | net_imports_of_electricity | Net Imports of Electricity | number    | number      |
-| Yes      | numeric metric | yeartotal                  | Year Total                 | number    | number      |
+| No       |                | yeartotal                  | Year Total                 | number    | number      |
 ```
 
 ## Time Field
@@ -44,14 +44,20 @@ Value = year
 Format & Zone = yyyy
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = yeartotal
+```
+
 ## Data Commands
 
 ```ls
-series e:djfn-trk4 d:2014-01-01T00:00:00.000Z m:yeartotal=181 m:commercial_total=22 m:residential_total=35.5 m:transportation_total=74 m:industrial_total=11 m:net_imports_of_electricity=8 m:electric_generation_total=30.4
+series e:djfn-trk4 d:2014-01-01T00:00:00.000Z m:commercial_total=22 m:residential_total=35.5 m:transportation_total=74 m:industrial_total=11 m:net_imports_of_electricity=8 m:electric_generation_total=30.4
 
-series e:djfn-trk4 d:2013-01-01T00:00:00.000Z m:yeartotal=177 m:commercial_total=22.4 m:residential_total=32.3 m:transportation_total=72.6 m:industrial_total=10.4 m:net_imports_of_electricity=9.3 m:electric_generation_total=29.9
+series e:djfn-trk4 d:2013-01-01T00:00:00.000Z m:commercial_total=22.4 m:residential_total=32.3 m:transportation_total=72.6 m:industrial_total=10.4 m:net_imports_of_electricity=9.3 m:electric_generation_total=29.9
 
-series e:djfn-trk4 d:2012-01-01T00:00:00.000Z m:yeartotal=175.9 m:commercial_total=20.9 m:residential_total=30.4 m:transportation_total=72.2 m:industrial_total=10.7 m:net_imports_of_electricity=9.5 m:electric_generation_total=32.2
+series e:djfn-trk4 d:2012-01-01T00:00:00.000Z m:commercial_total=20.9 m:residential_total=30.4 m:transportation_total=72.2 m:industrial_total=10.7 m:net_imports_of_electricity=9.5 m:electric_generation_total=32.2
 ```
 
 ## Meta Commands
@@ -68,8 +74,6 @@ metric m:transportation_total p:float l:"Transportation Total" d:"Million Metric
 metric m:electric_generation_total p:float l:"Electric Generation Total" d:"Million Metric Tons" t:dataTypeName=number
 
 metric m:net_imports_of_electricity p:float l:"Net Imports of Electricity" d:"Million Metric Tons" t:dataTypeName=number
-
-metric m:yeartotal p:float l:"Year Total" d:"Million Metric tons" t:dataTypeName=number
 
 entity e:djfn-trk4 l:"Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/djfn-trk4
 

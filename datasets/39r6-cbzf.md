@@ -28,33 +28,37 @@ The Port Authority of New York & New Jersey quarterly produces a data file and p
 | Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
 | ======== | ============== | ================ | ================ | ========= | =========== |
 | Yes      | series tag     | airport          | Airport          | text      | text        |
-| Yes      | time           | year             | Year             | number    | number      |
-| Yes      | numeric metric | month            | Month            | number    | number      |
+| No       |                | year             | Year             | number    | number      |
+| No       |                | month            | Month            | number    | number      |
 | Yes      | numeric metric | coach_passengers | Coach Passengers | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = year
-Format & Zone = yyyy
+Value = year-month
+Format & Zone = yyyy-MM
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = year,month
 ```
 
 ## Data Commands
 
 ```ls
-series e:39r6-cbzf d:2002-01-01T00:00:00.000Z t:airport="Kennedy International Airport" m:coach_passengers=30338 m:month=1
+series e:39r6-cbzf d:2002-01-01T00:00:00.000Z t:airport="Kennedy International Airport" m:coach_passengers=30338
 
-series e:39r6-cbzf d:2002-01-01T00:00:00.000Z t:airport="Kennedy International Airport" m:coach_passengers=26409 m:month=2
+series e:39r6-cbzf d:2002-02-01T00:00:00.000Z t:airport="Kennedy International Airport" m:coach_passengers=26409
 
-series e:39r6-cbzf d:2002-01-01T00:00:00.000Z t:airport="Kennedy International Airport" m:coach_passengers=36206 m:month=3
+series e:39r6-cbzf d:2002-03-01T00:00:00.000Z t:airport="Kennedy International Airport" m:coach_passengers=36206
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:month p:integer l:Month t:dataTypeName=number
-
 metric m:coach_passengers p:integer l:"Coach Passengers" t:dataTypeName=number
 
 entity e:39r6-cbzf l:"Coach Bus Passengers per Month at Port Authority of NY NJ Airports: Beginning 2002" t:attribution="The Port Authority of New York & New Jersey" t:url=https://data.ny.gov/api/views/39r6-cbzf

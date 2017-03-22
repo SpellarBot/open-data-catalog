@@ -42,7 +42,7 @@ CDTA is a public transportation authority in the Capital Region.  This dataset p
 | Yes      | numeric metric | fixed_shut_complaints    | Fixed/Shut Complaints    | number        | number        |
 | Yes      | numeric metric | other_complaints         | Other Complaints         | number        | number        |
 | Yes      | numeric metric | total_complaints         | Total Complaints         | number        | number        |
-| Yes      | numeric metric | comp_not_address_10_days | Comp Not Address 10 Days | number        | number        |
+| No       |                | comp_not_address_10_days | Comp Not Address 10 Days | number        | number        |
 ```
 
 ## Time Field
@@ -52,14 +52,20 @@ Value = month_year
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = comp_not_address_10_days
+```
+
 ## Data Commands
 
 ```ls
-series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z m:pmi_completed=148 m:non_prevent_accidents=27 m:fixed_riders=1398444 m:total_riders=1425100 m:comp_not_address_10_days=37 m:other_complaints=118 m:star_denials=37 m:miles=861430 m:star_riders=26656 m:service_interruptions=0 m:total_complaints=354 m:prevent_accidents=16 m:fixed_shut_complaints=236 m:pmi_not_on_time=3 m:mdbsi=23440.27211
+series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z m:pmi_completed=148 m:non_prevent_accidents=27 m:fixed_riders=1398444 m:total_riders=1425100 m:other_complaints=118 m:service_interruptions=0 m:total_complaints=354 m:prevent_accidents=16 m:star_denials=37 m:miles=861430 m:fixed_shut_complaints=236 m:star_riders=26656 m:pmi_not_on_time=3 m:mdbsi=23440.27211
 
-series e:q7iu-6j5f d:2015-11-30T00:00:00.000Z m:pmi_completed=140 m:non_prevent_accidents=23 m:fixed_riders=1412037 m:total_riders=1437740 m:comp_not_address_10_days=37 m:other_complaints=124 m:star_denials=35 m:miles=808316 m:star_riders=25703 m:service_interruptions=0 m:total_complaints=381 m:prevent_accidents=12 m:fixed_shut_complaints=257 m:pmi_not_on_time=5 m:mdbsi=23261
+series e:q7iu-6j5f d:2015-11-30T00:00:00.000Z m:pmi_completed=140 m:non_prevent_accidents=23 m:fixed_riders=1412037 m:total_riders=1437740 m:other_complaints=124 m:service_interruptions=0 m:total_complaints=381 m:prevent_accidents=12 m:star_denials=35 m:miles=808316 m:fixed_shut_complaints=257 m:star_riders=25703 m:pmi_not_on_time=5 m:mdbsi=23261
 
-series e:q7iu-6j5f d:2015-10-31T00:00:00.000Z m:pmi_completed=141 m:non_prevent_accidents=33 m:fixed_riders=1590696 m:total_riders=1619277 m:comp_not_address_10_days=40 m:other_complaints=133 m:star_denials=28 m:miles=860916 m:star_riders=28581 m:service_interruptions=0 m:total_complaints=442 m:prevent_accidents=17 m:fixed_shut_complaints=309 m:pmi_not_on_time=3 m:mdbsi=30747
+series e:q7iu-6j5f d:2015-10-31T00:00:00.000Z m:pmi_completed=141 m:non_prevent_accidents=33 m:fixed_riders=1590696 m:total_riders=1619277 m:other_complaints=133 m:service_interruptions=0 m:total_complaints=442 m:prevent_accidents=17 m:star_denials=28 m:miles=860916 m:fixed_shut_complaints=309 m:star_riders=28581 m:pmi_not_on_time=3 m:mdbsi=30747
 ```
 
 ## Meta Commands
@@ -92,8 +98,6 @@ metric m:fixed_shut_complaints p:integer l:"Fixed/Shut Complaints" d:"Customer c
 metric m:other_complaints p:integer l:"Other Complaints" d:"Customer complaints relating to organizational issues outside of fixed and/or shuttle services." t:dataTypeName=number
 
 metric m:total_complaints p:integer l:"Total Complaints" d:"All customer complaints during reporting period." t:dataTypeName=number
-
-metric m:comp_not_address_10_days p:integer l:"Comp Not Address 10 Days" d:"Quantity of complaints that did not receive appropriate attention during expected parameter." t:dataTypeName=number
 
 entity e:q7iu-6j5f l:"Capital District Transportation Authority (CDTA) Performance Metrics" t:attribution="Capital District Transportation Authority" t:url=https://data.ny.gov/api/views/q7iu-6j5f
 

@@ -54,8 +54,8 @@ Review the administrative records for discretionary grant recipients who were aw
 | Yes      | series tag     | award_period_to                    | Award Period To                    | text          | text          |
 | Yes      | series tag     | organizational_unit                | Organizational Unit                | text          | text          |
 | Yes      | series tag     | county_code                        | County Code                        | text          | text          |
-| Yes      | numeric metric | census_tract                       | Census Tract                       | number        | text          |
-| Yes      | numeric metric | census_block                       | Census Block                       | number        | text          |
+| Yes      | series tag     | census_tract                       | Census Tract                       | text          | text          |
+| Yes      | series tag     | census_block                       | Census Block                       | text          | text          |
 | Yes      | series tag     | mcd_code                           | MCD Code                           | text          | text          |
 | Yes      | series tag     | place_code                         | Place Code                         | text          | text          |
 | Yes      | series tag     | cbsa_code                          | CBSA Code                          | text          | text          |
@@ -79,9 +79,9 @@ Excluded Fields = address,address_2,address_3,fiscal_year
 ## Data Commands
 
 ```ls
-series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:mcd_code=1615 t:place_code=80770 t:program_type=IA t:log_number=IA-00-00-0001-00 t:zip_code=99685-0648 t:state=AK t:organization_type="General museum" t:city=Unalaska t:first_name=Richard t:program="Conservation Assessment Prog." t:last_name=Knecht t:title_of_principal_investigator=Dr. t:county_code=16 t:institution="Museum of the Aleutians" m:requested_matching_amount=0 m:requested_award_amount=3390 m:total_amount_originally_awarded=3390 m:census_block=2014 m:total_amount_awarded_and_disbursed=3390 m:census_tract=200
+series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:mcd_code=1615 t:place_code=80770 t:program_type=IA t:log_number=IA-00-00-0001-00 t:zip_code=99685-0648 t:state=AK t:organization_type="General museum" t:city=Unalaska t:first_name=Richard t:census_block=2014 t:program="Conservation Assessment Prog." t:last_name=Knecht t:title_of_principal_investigator=Dr. t:census_tract=200 t:county_code=16 t:institution="Museum of the Aleutians" m:requested_matching_amount=0 m:requested_award_amount=3390 m:total_amount_originally_awarded=3390 m:total_amount_awarded_and_disbursed=3390
 
-series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:mcd_code=91206 t:place_code=27616 t:program_type=IA t:log_number=IA-00-00-0002-00 t:zip_code=35967 t:state=AL t:organization_type=Museum t:city="Fort Payne" t:first_name=Emma t:program="Conservation Assessment Prog." t:last_name=Jordan t:title_of_principal_investigator=Ms. t:county_code=49 t:institution="Depot Museum, Inc." m:requested_matching_amount=0 m:requested_award_amount=6030 m:total_amount_originally_awarded=6030 m:census_block=2013 m:total_amount_awarded_and_disbursed=6030 m:census_tract=961000
+series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:mcd_code=91206 t:place_code=27616 t:program_type=IA t:log_number=IA-00-00-0002-00 t:zip_code=35967 t:state=AL t:organization_type=Museum t:city="Fort Payne" t:first_name=Emma t:census_block=2013 t:program="Conservation Assessment Prog." t:last_name=Jordan t:title_of_principal_investigator=Ms. t:census_tract=961000 t:county_code=49 t:institution="Depot Museum, Inc." m:requested_matching_amount=0 m:requested_award_amount=6030 m:total_amount_originally_awarded=6030 m:total_amount_awarded_and_disbursed=6030
 
 series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:first_name=Rita t:program_type=IA t:log_number=IA-00-00-0004-00 t:zip_code=85273-0613 t:program="Conservation Assessment Prog." t:last_name=Wentzel t:state=AZ t:title_of_principal_investigator=Miss t:organization_type=Museum t:institution="Bob Jones Museum" t:city=Superior m:requested_matching_amount=0 m:requested_award_amount=6350 m:total_amount_originally_awarded=6350 m:total_amount_awarded_and_disbursed=6350
 ```
@@ -98,10 +98,6 @@ metric m:applicant_matching_amount p:double l:"Applicant Matching Amount" t:data
 metric m:requested_award_amount p:double l:"Requested Award Amount" t:dataTypeName=money
 
 metric m:requested_matching_amount p:double l:"Requested Matching Amount" t:dataTypeName=money
-
-metric m:census_tract p:integer l:"Census Tract" t:dataTypeName=number
-
-metric m:census_block p:integer l:"Census Block" t:dataTypeName=number
 
 entity e:kf5m-pcwv l:"Administrative Discretionary Grants (FY 1996-2014)" t:attribution=IMLS t:url=https://data.imls.gov/api/views/kf5m-pcwv
 

@@ -31,7 +31,7 @@ The Division of Criminal Justice Services (DCJS) collects personnel statistics f
 | No       |                | pd                 | PD                 | text      | text        |
 | Yes      | time           | year               | Year               | number    | number      |
 | No       |                | sworn_full_time    | Sworn Full Time    | number    | number      |
-| No       |                | sworn_part_time    | Sworn Part Time    | number    | number      |
+| Yes      | numeric metric | sworn_part_time    | Sworn Part Time    | number    | number      |
 | Yes      | numeric metric | sworn_total        | Sworn Total        | number    | number      |
 | No       |                | civilian_full_time | Civilian Full Time | number    | number      |
 | No       |                | civilian_park_time | Civilian Part Time | number    | number      |
@@ -51,22 +51,24 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = pd,sworn_full_time,sworn_part_time,civilian_full_time,civilian_park_time
+Excluded Fields = pd,sworn_full_time,civilian_full_time,civilian_park_time
 ```
 
 ## Data Commands
 
 ```ls
-series e:khn9-hhpq d:2015-01-01T00:00:00.000Z t:county=Albany m:part_time_total=54 m:sworn_total=335 m:civilian_total=152 m:full_time_total=433 m:grand_total=487
+series e:khn9-hhpq d:2015-01-01T00:00:00.000Z t:county=Albany m:part_time_total=54 m:sworn_part_time=0 m:sworn_total=335 m:civilian_total=152 m:full_time_total=433 m:grand_total=487
 
-series e:khn9-hhpq d:2014-01-01T00:00:00.000Z t:county=Albany m:part_time_total=51 m:sworn_total=337 m:civilian_total=172 m:full_time_total=458 m:grand_total=509
+series e:khn9-hhpq d:2014-01-01T00:00:00.000Z t:county=Albany m:part_time_total=51 m:sworn_part_time=0 m:sworn_total=337 m:civilian_total=172 m:full_time_total=458 m:grand_total=509
 
-series e:khn9-hhpq d:2013-01-01T00:00:00.000Z t:county=Albany m:part_time_total=52 m:sworn_total=332 m:civilian_total=156 m:full_time_total=436 m:grand_total=488
+series e:khn9-hhpq d:2013-01-01T00:00:00.000Z t:county=Albany m:part_time_total=52 m:sworn_part_time=0 m:sworn_total=332 m:civilian_total=156 m:full_time_total=436 m:grand_total=488
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:sworn_part_time p:integer l:"Sworn Part Time" d:"Counts of allsworn law enforcement officers with full arrest powers who were on the payroll as of October 31st Personnelthat work lessthan a normalfull‐time work week" t:dataTypeName=number
+
 metric m:sworn_total p:integer l:"Sworn Total" t:dataTypeName=number
 
 metric m:civilian_total p:integer l:"Civilian Total" d:"Counts of all non‐sworn support personnel who were on the payroll as ofOctober 31st" t:dataTypeName=number

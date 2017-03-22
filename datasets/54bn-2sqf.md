@@ -54,15 +54,15 @@ It should be noted header information will be duplicated on all detail items. No
 | Yes      | series tag     | vend               | VENDOR NUMBER                    | text          | number        |
 | Yes      | series tag     | vend_name_1        | VENDOR NAME 1                    | text          | text          |
 | Yes      | series tag     | vend_name_2        | VENDOR NAME 2                    | text          | text          |
-| Yes      | series tag     | vend_addr_1        | VENDOR ADDRESS 1                 | text          | text          |
-| Yes      | series tag     | vend_addr_2        | VENDOR ADDRESS 2                 | text          | text          |
+| No       |                | vend_addr_1        | VENDOR ADDRESS 1                 | text          | text          |
+| No       |                | vend_addr_2        | VENDOR ADDRESS 2                 | text          | text          |
 | Yes      | series tag     | vend_city          | VENDOR CITY                      | text          | text          |
 | Yes      | series tag     | vend_state         | VENDOR STATE                     | text          | text          |
 | Yes      | series tag     | vend_zip           | VENDOR ZIP                       | text          | text          |
 | Yes      | series tag     | vend_cont_name     | VENDOR CONTACT NAME              | text          | text          |
 | Yes      | series tag     | vend_cont_title    | VENDOR CONTACT TITLE             | text          | text          |
 | Yes      | series tag     | vend_cont_phone    | VENDOR CONTACT PHONE             | text          | number        |
-| Yes      | numeric metric | vend_cont_ph_ext   | VENDOR CONTACT EXTENSION         | number        | number        |
+| Yes      | series tag     | vend_cont_ph_ext   | VENDOR CONTACT EXTENSION         | text          | number        |
 | Yes      | series tag     | vend_minority_abbr | VENDOR MINORITY CODE             | text          | text          |
 | Yes      | series tag     | vend_minority_desc | VENDOR MINORITY DESCRIPTION      | text          | text          |
 | Yes      | numeric metric | total_items        | TOTAL ITEMS                      | number        | number        |
@@ -84,14 +84,20 @@ Value = po_in_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = vend_addr_1,vend_addr_2
+```
+
 ## Data Commands
 
 ```ls
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO110701 t:empl_inp=BDCA t:rec_type=H t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_addr_1="6100 HILLCROFT" t:vend_state=TX t:dept_desc="CONSTRUCTION PROJECTS" m:po_balance=9.75 m:total_items=5 m:total_amt=13682 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO110701 t:empl_inp=BDCA t:rec_type=H t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dept_desc="CONSTRUCTION PROJECTS" m:po_balance=9.75 m:total_items=5 m:total_amt=13682 m:vchd_amt=13672.25
 
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:po_type_cd=B t:po_num=PO110701 t:vend_city=HOUSTON t:unique_id=PO1107010001 t:po_type_desc=GOODS-SERV t:cstctr=7510 t:po_stat_desc=CLOSED t:po_category_desc="PROFESSIONAL SERVICES" t:dept_desc="CONSTRUCTION PROJECTS" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:dt_qty_um=JB t:po_category=PS t:purc_agent=PW t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:vend=64320 t:rec_type=D t:empl_inp=BDCA t:dt_seq=1 t:dt_stock_desc="CONSTRUCTION MATERIALS TESTING & INSPECTION        SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB m:dt_unit_cost=10992 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=10992 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010001 t:dt_seq=1 t:empl_inp=BDCA t:rec_type=D t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:dt_stock_desc="CONSTRUCTION MATERIALS TESTING & INSPECTION        SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:dt_unit_cost=10992 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=10992 m:vchd_amt=13672.25
 
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:po_type_cd=B t:po_num=PO110701 t:vend_city=HOUSTON t:unique_id=PO1107010002 t:po_type_desc=GOODS-SERV t:cstctr=7510 t:po_stat_desc=CLOSED t:po_category_desc="PROFESSIONAL SERVICES" t:dept_desc="CONSTRUCTION PROJECTS" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:dt_qty_um=JB t:po_category=PS t:purc_agent=PW t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:vend=64320 t:rec_type=D t:empl_inp=BDCA t:dt_seq=2 t:dt_stock_desc="INTERNAL CHANGE ORDER TO CORRECT PO TYPE FOR       SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:vend_zip=77469 t:vend_addr_1="6100 HILLCROFT" t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB m:dt_unit_cost=0 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=0 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010002 t:dt_seq=2 t:empl_inp=BDCA t:rec_type=D t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:dt_stock_desc="INTERNAL CHANGE ORDER TO CORRECT PO TYPE FOR       SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:dt_unit_cost=0 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=0 m:vchd_amt=13672.25
 ```
 
 ## Meta Commands
@@ -100,8 +106,6 @@ series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**N
 metric m:total_amt p:double l:"TOTAL AMOUNT" d:"Total amount of PO" t:dataTypeName=number
 
 metric m:vchd_amt p:double l:"VOUCHED AMOUNT" d:"Actual amount invoiced against PO. This amount may be less than the original PO amount" t:dataTypeName=number
-
-metric m:vend_cont_ph_ext p:integer l:"VENDOR CONTACT EXTENSION" t:dataTypeName=number
 
 metric m:total_items p:integer l:"TOTAL ITEMS" d:"Total number of detail items on PO. Each PO will have at least 1 detail item" t:dataTypeName=number
 

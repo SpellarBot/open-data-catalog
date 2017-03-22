@@ -26,7 +26,7 @@
 | Yes      | series tag  | county                  | County                   | text      | text        |
 | Yes      | series tag  | phone_number            | Phone Number             | text      | text        |
 | Yes      | series tag  | hours_of_operation      | Hours of Operation       | text      | text        |
-| Yes      | series tag  | additional_address_info | Additional Address Info. | text      | text        |
+| No       |             | additional_address_info | Additional Address Info. | text      | text        |
 ```
 
 ## Time Field
@@ -34,6 +34,12 @@
 ```ls
 Value = updated_at
 Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = additional_address_info
 ```
 
 ## Data Commands

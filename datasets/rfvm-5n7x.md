@@ -47,25 +47,25 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:landuse_id=3481 t:objectid=1 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Lizard Lake WMA" m:shape_area=1410472.0011
+series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:shape.longitude=-94.48906240799994 t:shape.needs_recoding=false t:landuse_id=3481 t:shape.latitude=42.674573131000045 t:objectid=1 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Lizard Lake WMA" m:shape_area=1410472.0011003
 
-series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:landuse_id=3501 t:objectid=2 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Bradgate WMA" m:shape_area=513228.02042
+series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:shape.longitude=-94.40007323099996 t:shape.needs_recoding=false t:landuse_id=3501 t:shape.latitude=42.79007121500007 t:objectid=2 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Bradgate WMA" m:shape_area=513228.020415319
 
-series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:landuse_id=2371 t:objectid=3 t:landuse_type="STATE FOREST" t:landuse_name="Loess Hills State Forest" m:shape_area=16745052.25864
+series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:shape.longitude=-95.94411355899996 t:shape.needs_recoding=false t:landuse_id=2371 t:shape.latitude=41.83821600700003 t:objectid=3 t:landuse_type="STATE FOREST" t:landuse_name="Loess Hills State Forest" m:shape_area=16745052.2586382
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:shape_area l:SHAPE.AREA d:"Area (SqM)" t:dataTypeName=number
+metric m:shape_area p:decimal l:SHAPE.AREA d:"Area (SqM)" t:dataTypeName=number
 
-metric m:shape_len l:SHAPE.LEN d:"Perimeter (Meter)" t:dataTypeName=number
+metric m:shape_len p:long l:SHAPE.LEN d:"Perimeter (Meter)" t:dataTypeName=number
 
 entity e:rfvm-5n7x l:"Federal, Institutional, and Park Lands" t:attribution="Iowa Department of Transportation - Office of Systems Planning" t:url=https://data.iowa.gov/api/views/rfvm-5n7x
 
 property e:rfvm-5n7x t:meta.view v:id=rfvm-5n7x v:category="Transportation & Utilities" v:averageRating=0 v:name="Federal, Institutional, and Park Lands" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
 
-property e:rfvm-5n7x t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:rfvm-5n7x t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:displayName="Iowa Department of Transportation"
 
 property e:rfvm-5n7x t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```

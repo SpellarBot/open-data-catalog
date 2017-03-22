@@ -27,7 +27,7 @@ Excel workbook of all housing construction from the 2013 Housing Inventory.
 ```ls
 | Included | Schema Type    | Field Name      | Name       | Data Type     | Render Type   |
 | ======== | ============== | =============== | ========== | ============= | ============= |
-| Yes      | series tag     | standardaddress | STDADDRESS | text          | text          |
+| No       |                | standardaddress | STDADDRESS | text          | text          |
 | Yes      | series tag     | name            | PRJ_NAME   | text          | text          |
 | Yes      | series tag     | block           | BLOCK      | text          | text          |
 | Yes      | series tag     | lot             | LOT        | text          | number        |
@@ -52,14 +52,20 @@ Value = actdate
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = standardaddress
+```
+
 ## Data Commands
 
 ```ls
-series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z t:aff_cat=LI t:supervisor=9 t:lot=52 t:block=3702 t:change_type=Demolition t:standardaddress="1190 MISSION ST" t:zoning="RH-1 (D)" t:pd_no=12 m:netunits=-418 m:units=-418
+series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z t:aff_cat=LI t:supervisor=9 t:lot=52 t:block=3702 t:change_type=Demolition t:zoning="RH-1 (D)" t:pd_no=12 m:netunits=-418 m:units=-418
 
-series e:e7d3-dxh5 d:2013-07-18T00:00:00.000Z t:aff_cat=VLI t:supervisor=5 t:lot=9 t:block=4624 t:propuse=APARTMENTS t:change_type="New Construction" t:standardaddress="60 WEST POINT RD" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=54 m:netunits=54 m:units=54
+series e:e7d3-dxh5 d:2013-07-18T00:00:00.000Z t:aff_cat=VLI t:supervisor=5 t:lot=9 t:block=4624 t:propuse=APARTMENTS t:change_type="New Construction" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=54 m:netunits=54 m:units=54
 
-series e:e7d3-dxh5 d:2013-10-02T00:00:00.000Z t:existuse="TOURIST HOTEL/MOTEL" t:aff_cat=LI t:supervisor=5 t:lot=8 t:block=3753 t:propuse=APARTMENTS t:change_type=Conversion t:standardaddress="374 05TH ST" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=44 m:netunits=44 m:units=44
+series e:e7d3-dxh5 d:2013-10-02T00:00:00.000Z t:existuse="TOURIST HOTEL/MOTEL" t:aff_cat=LI t:supervisor=5 t:lot=8 t:block=3753 t:propuse=APARTMENTS t:change_type=Conversion t:zoning=RH-2 t:pd_no=14 m:aff_hsg=44 m:netunits=44 m:units=44
 ```
 
 ## Meta Commands

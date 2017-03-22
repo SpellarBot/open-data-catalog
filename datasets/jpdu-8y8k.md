@@ -25,26 +25,25 @@ L.A. Zoo budget appropriation for the last 5 years.
 ```ls
 | Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type |
 | ======== | ============== | ==================== | ==================== | ========= | =========== |
-| No       | time           | :updated_at          | updated_at           | meta_data | meta_data   |
-| Yes      | series tag     | fiscal_year          | Fiscal Year          | text      | text        |
+| Yes      | time           | fiscal_year          | Fiscal Year          | text      | text        |
 | Yes      | numeric metric | budget_appropriation | Budget Appropriation | money     | money       |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = fiscal_year
+Format & Zone = yyyy-MM
 ```
 
 ## Data Commands
 
 ```ls
-series e:jpdu-8y8k d:2014-05-30T14:43:32.000Z t:fiscal_year=2012-13 m:budget_appropriation=17561531
+series e:jpdu-8y8k d:2013-01-01T00:00:00.000Z m:budget_appropriation=17561531
 
-series e:jpdu-8y8k d:2014-05-30T14:44:11.000Z t:fiscal_year=2011-12 m:budget_appropriation=17986055
+series e:jpdu-8y8k d:2011-12-01T00:00:00.000Z m:budget_appropriation=17986055
 
-series e:jpdu-8y8k d:2014-05-30T14:44:38.000Z t:fiscal_year=2010-11 m:budget_appropriation=17483062
+series e:jpdu-8y8k d:2010-11-01T00:00:00.000Z m:budget_appropriation=17483062
 ```
 
 ## Meta Commands

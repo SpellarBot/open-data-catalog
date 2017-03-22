@@ -31,7 +31,7 @@ Using SAS analytic software, MCDHHS standardizes, aggregates, and calculates age
 | ======== | ============== | ======================================== | ======================================== | ========= | =========== |
 | No       | time           | :updated_at                              | updated_at                               | meta_data | meta_data   |
 | Yes      | series tag     | unique_id                                | Unique ID                                | text      | text        |
-| Yes      | series tag     | year_range                               | 3-Year Period                            | text      | text        |
+| No       |                | year_range                               | 3-Year Period                            | text      | text        |
 | Yes      | series tag     | cause_of_death                           | Cause of Death                           | text      | text        |
 | Yes      | series tag     | race                                     | Race                                     | text      | text        |
 | Yes      | series tag     | hispanic_origin                          | Hispanic or Latino Origin                | text      | text        |
@@ -48,14 +48,20 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = year_range
+```
+
 ## Data Commands
 
 ```ls
-series e:j55i-sqj8 d:2015-01-07T22:20:29.000Z t:hispanic_origin=Hispanic t:unique_id=A2006200804120 t:cause_of_death="Whooping cough" t:year_range=2006-2008 t:gender=Total t:race=White m:age_adjusted_rate_per_100_000_population=0 m:upper_95_confidence_interval=0.8 m:lower_95_confidence_interval=0
+series e:j55i-sqj8 d:2015-01-07T22:20:29.000Z t:hispanic_origin=Hispanic t:unique_id=A2006200804120 t:cause_of_death="Whooping cough" t:gender=Total t:race=White m:age_adjusted_rate_per_100_000_population=0 m:upper_95_confidence_interval=0.8 m:lower_95_confidence_interval=0
 
-series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Total t:unique_id=A2007200914000 t:cause_of_death=Malaria t:year_range=2007-2009 t:gender=Total t:race=Total m:age_adjusted_rate_per_100_000_population=0 m:upper_95_confidence_interval=0.1 m:lower_95_confidence_interval=0
+series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Total t:unique_id=A2007200914000 t:cause_of_death=Malaria t:gender=Total t:race=Total m:age_adjusted_rate_per_100_000_population=0 m:upper_95_confidence_interval=0.1 m:lower_95_confidence_interval=0
 
-series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Hispanic t:unique_id=A2007200914220 t:cause_of_death=Malaria t:year_range=2007-2009 t:gender=Total t:race=Black m:age_adjusted_rate_per_100_000_population=0 m:upper_95_confidence_interval=15.5 m:lower_95_confidence_interval=0
+series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Hispanic t:unique_id=A2007200914220 t:cause_of_death=Malaria t:gender=Total t:race=Black m:age_adjusted_rate_per_100_000_population=0 m:upper_95_confidence_interval=15.5 m:lower_95_confidence_interval=0
 ```
 
 ## Meta Commands

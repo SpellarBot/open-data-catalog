@@ -42,7 +42,7 @@ Determination of Eligible Project by Oregon Business Development Commission unde
 | No       |             | date_approved                                              | Date Approved                                              | text      | text        |
 | Yes      | series tag  | facility_location_county_code                              | Facility Location County Code                              | text      | text        |
 | Yes      | series tag  | facility_location_congressional_district                   | Facility Location Congressional District                   | text      | text        |
-| Yes      | series tag  | company_mailing_address_w_zip                              | Company Mailing Address (w/ZIP)                            | text      | text        |
+| No       |             | company_mailing_address_w_zip                              | Company Mailing Address (w/ZIP)                            | text      | text        |
 ```
 
 ## Time Field
@@ -55,7 +55,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = report_period_end_date,date_approved
+Excluded Fields = report_period_end_date,date_approved,company_mailing_address_w_zip
 ```
 
 ## Data Commands
