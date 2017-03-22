@@ -37,7 +37,7 @@ Mapping of reported ballot measure names and ID numbers to the corresponding mea
 ## Time Field
 
 ```ls
-Value = 
+Value = 2014
 Format & Zone = yyyy
 ```
 

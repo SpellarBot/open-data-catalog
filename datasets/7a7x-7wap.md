@@ -39,7 +39,7 @@ This data summarizes the 2013 adopted budget for the City of Albany.  Over the y
 ## Time Field
 
 ```ls
-Value = 
+Value = 2013
 Format & Zone = yyyy
 ```
 

@@ -38,7 +38,7 @@ Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgo
 ## Time Field
 
 ```ls
-Value = 
+Value = 2005
 Format & Zone = yyyy
 ```
 

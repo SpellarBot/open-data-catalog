@@ -30,7 +30,7 @@
 ## Time Field
 
 ```ls
-Value = 
+Value = 2010
 Format & Zone = yyyy
 ```
 

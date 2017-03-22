@@ -43,7 +43,7 @@ The annual number of new cases of tuberculosis and average annual tuberculosis i
 ## Time Field
 
 ```ls
-Value = 
+Value = 2007
 Format & Zone = yyyy
 ```
 

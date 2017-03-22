@@ -35,7 +35,7 @@ Source: Behavioral Risk Factor Surveillance System (BRFSS), 2012 & 2014.
 ## Time Field
 
 ```ls
-Value = 
+Value = 2012
 Format & Zone = yyyy
 ```
 

@@ -52,7 +52,7 @@ This spreadsheet contains Oregon Recovery and Reinvestment Act (ARRA) Data repor
 ## Time Field
 
 ```ls
-Value = 
+Value = 2012
 Format & Zone = yyyy
 ```
 

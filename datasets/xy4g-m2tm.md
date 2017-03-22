@@ -40,7 +40,7 @@ Data covers December 2010 through June 2011.
 ## Time Field
 
 ```ls
-Value = 
+Value = 2011
 Format & Zone = yyyy
 ```
 

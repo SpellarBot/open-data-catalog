@@ -88,7 +88,7 @@ The Department of Finance (DOF) is required by NY State law to value condominium
 ## Time Field
 
 ```ls
-Value = 
+Value = 2011
 Format & Zone = yyyy
 ```
 

@@ -58,7 +58,7 @@ For nutrient and sediment measures where standards are not specific, results are
 ## Time Field
 
 ```ls
-Value = 
+Value = 1994
 Format & Zone = yyyy
 ```
 

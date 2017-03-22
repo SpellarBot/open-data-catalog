@@ -49,7 +49,7 @@ Progress Reports grade each school with an A, B, C, D, or F.  These reports foc
 ## Time Field
 
 ```ls
-Value = 
+Value = 2010
 Format & Zone = yyyy
 ```
 

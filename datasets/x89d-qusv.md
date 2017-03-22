@@ -42,7 +42,7 @@ The Turning Movements application includes all AADT Turning Traffic data for yea
 ## Time Field
 
 ```ls
-Value = 
+Value = 2004
 Format & Zone = yyyy
 ```
 

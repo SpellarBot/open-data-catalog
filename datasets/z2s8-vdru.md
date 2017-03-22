@@ -35,7 +35,7 @@ Violations issued by Townships. Data from 2005 through part of 2011. Data last u
 ## Time Field
 
 ```ls
-Value = 
+Value = 2005
 Format & Zone = yyyy
 ```
 

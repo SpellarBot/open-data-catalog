@@ -44,7 +44,7 @@ Lists ICH CAHPS survey data used by ESRD QIP to assess dialysis facility perform
 ## Time Field
 
 ```ls
-Value = 
+Value = 2017
 Format & Zone = yyyy
 ```
 

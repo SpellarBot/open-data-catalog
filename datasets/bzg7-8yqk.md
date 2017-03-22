@@ -34,7 +34,7 @@ Data that shows how every dollar received by the State of Missouri under the Ame
 ## Time Field
 
 ```ls
-Value = 
+Value = 2013
 Format & Zone = yyyy
 ```
 

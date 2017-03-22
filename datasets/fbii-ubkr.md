@@ -45,7 +45,7 @@ Projections prepared by the Maryland Department of Planning, July 2014
 ## Time Field
 
 ```ls
-Value = 
+Value = 1970
 Format & Zone = yyyy
 ```
 

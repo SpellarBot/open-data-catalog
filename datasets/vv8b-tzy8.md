@@ -41,7 +41,7 @@ King County 2010 Budget Expenditures outside the General Fund
 ## Time Field
 
 ```ls
-Value = 
+Value = 2010
 Format & Zone = yyyy
 ```
 

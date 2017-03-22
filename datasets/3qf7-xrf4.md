@@ -39,7 +39,7 @@ Data Updated 10/27/2014. This dataset contains the Polling Place locations in su
 ## Time Field
 
 ```ls
-Value = 
+Value = 2014
 Format & Zone = yyyy
 ```
 

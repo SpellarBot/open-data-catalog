@@ -46,7 +46,7 @@ This coverage contains a highway Annual Average Daily Traffic (AADT) subset of t
 ## Time Field
 
 ```ls
-Value = 
+Value = 2006
 Format & Zone = yyyy
 ```
 

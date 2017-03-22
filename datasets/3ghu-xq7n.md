@@ -33,7 +33,7 @@ Data for 2011 through June 2011. Enclosed data represents outpatient registratio
 ## Time Field
 
 ```ls
-Value = 
+Value = 2011
 Format & Zone = yyyy
 ```
 

@@ -38,7 +38,7 @@ http://publicpay.ca.gov/Reports/Cities/City.aspx?entityid=497&fiscalyear=2014
 ## Time Field
 
 ```ls
-Value = 
+Value = 2014
 Format & Zone = yyyy
 ```
 

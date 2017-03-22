@@ -44,7 +44,7 @@ and eligible to vote in their precinct. For more information on Early Voting see
 ## Time Field
 
 ```ls
-Value = 
+Value = 2014
 Format & Zone = yyyy
 ```
 

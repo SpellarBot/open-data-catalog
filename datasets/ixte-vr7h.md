@@ -36,7 +36,7 @@ The purpose of this Spending Disclosure FY13 dataset is to allow the public to s
 ## Time Field
 
 ```ls
-Value = 
+Value = 2013
 Format & Zone = yyyy
 ```
 

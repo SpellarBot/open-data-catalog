@@ -49,7 +49,7 @@ The Chicago Public Library has more than 70 locations. The Chicago Public Librar
 ## Time Field
 
 ```ls
-Value = 
+Value = 2013
 Format & Zone = yyyy
 ```
 

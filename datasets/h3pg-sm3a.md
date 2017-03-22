@@ -33,7 +33,7 @@ Data that shows every dollar received by the State of Missouri to date under the
 ## Time Field
 
 ```ls
-Value = 
+Value = 2016
 Format & Zone = yyyy
 ```
 

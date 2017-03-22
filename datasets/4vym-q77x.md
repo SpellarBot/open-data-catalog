@@ -15,8 +15,8 @@
 | Category | Transparency |
 | Tags | public authority, address, website, integrity |
 | Created | 2013-04-16T19:45:46Z |
-| Publication Date | 2015-08-28T22:17:56Z |
-| Rows Updated | 2015-08-28T22:17:43Z |
+| Publication Date | 2017-03-21T22:01:11Z |
+| Rows Updated | 2017-03-21T22:01:06Z |
 
 ## Description
 
@@ -53,11 +53,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:4vym-q77x d:2015-08-28T15:17:39.000Z t:zip=12305 t:website=http://www.nysirestakes.com t:state=NY t:public_authority_type=State t:public_authority_name="Agriculture and New York State Horse Breeding Development Fund" t:city=SCHENECTADY m:row_number.4vym-q77x=1
+series e:4vym-q77x d:2017-03-21T22:01:04.000Z t:zip=12305 t:website=http://www.nysirestakes.com t:state=NY t:public_authority_type=State t:public_authority_name="Agriculture and New York State Horse Breeding Development Fund" t:city=SCHENECTADY m:row_number.4vym-q77x=1
 
-series e:4vym-q77x d:2015-08-28T15:17:39.000Z t:zip=12207 t:website=http://www.albanyida.com t:state=NY t:public_authority_type="Local - IDA" t:public_authority_name="Albany City Industrial Development Agency" t:city=ALBANY m:row_number.4vym-q77x=2
+series e:4vym-q77x d:2017-03-21T22:01:04.000Z t:zip=12205 t:website=http://cdrpc.org/programs/water-quality/combined-sewer-overflow-cso/ t:state=NY t:public_authority_type="Local - LDC" t:public_authority_name="Albany CSO Pool Communities Corporation" t:city=ALBANY m:row_number.4vym-q77x=2
 
-series e:4vym-q77x d:2015-08-28T15:17:39.000Z t:zip=12210 t:website=http://www.albanyny.org/Government/Departments/DevelopmentandPlanning/ACDA.aspx t:state=NY t:public_authority_type=Local t:public_authority_name="Albany Community Development Agency" t:city=ALBANY m:row_number.4vym-q77x=3
+series e:4vym-q77x d:2017-03-21T22:01:04.000Z t:zip=12207 t:website=http://www.albanyida.com t:state=NY t:public_authority_type="Local - IDA" t:public_authority_name="Albany City Industrial Development Agency" t:city=ALBANY m:row_number.4vym-q77x=3
 ```
 
 ## Meta Commands

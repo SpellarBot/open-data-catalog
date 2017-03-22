@@ -49,7 +49,7 @@ The SIC report is compiled to provide detail information regarding the types of 
 ## Time Field
 
 ```ls
-Value = 
+Value = 2010
 Format & Zone = yyyy
 ```
 

@@ -38,7 +38,7 @@ Data set contains one year retention rates and 150 time graduation rates (3yr ra
 ## Time Field
 
 ```ls
-Value = 
+Value = 1990
 Format & Zone = yyyy
 ```
 

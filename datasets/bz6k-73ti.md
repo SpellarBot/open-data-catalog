@@ -94,7 +94,7 @@ The annual number of newly reported, laboratory-confirmed cases of chlamydia (Ch
 ## Time Field
 
 ```ls
-Value = 
+Value = 2000
 Format & Zone = yyyy
 ```
 

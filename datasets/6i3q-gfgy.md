@@ -53,7 +53,7 @@ Information provided by Ecology on this Web site is accurate to the best of Ecol
 ## Time Field
 
 ```ls
-Value = 
+Value = 1975
 Format & Zone = yyyy
 ```
 

@@ -15,7 +15,7 @@
 | Tags | police, stop, search, field interview |
 | Created | 2015-07-10T16:01:09Z |
 | Publication Date | 2016-04-17T06:24:07Z |
-| Rows Updated | 2017-03-21T05:31:29Z |
+| Rows Updated | 2017-03-22T05:31:18Z |
 
 ## Description
 

@@ -40,7 +40,7 @@ Local property tax mill rates have been set for individual Connecticut municipal
 ## Time Field
 
 ```ls
-Value = 
+Value = 2017
 Format & Zone = yyyy
 ```
 
