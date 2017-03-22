@@ -41,7 +41,7 @@ Data Owner: Transportation. Time Period: All open requests and all completed req
 | Yes      | series tag     | current_activity                   | CURRENT ACTIVITY                   | text          | text          |
 | Yes      | series tag     | most_recent_action                 | MOST RECENT ACTION                 | text          | text          |
 | Yes      | numeric metric | number_of_potholes_filled_on_block | NUMBER OF POTHOLES FILLED ON BLOCK | number        | number        |
-| No       |                | street_address                     | STREET ADDRESS                     | text          | text          |
+| Yes      | series tag     | street_address                     | STREET ADDRESS                     | text          | text          |
 | Yes      | series tag     | zip                                | ZIP                                | text          | number        |
 | No       |                | x_coordinate                       | X COORDINATE                       | number        | number        |
 | No       |                | y_coordinate                       | Y COORDINATE                       | number        | number        |
@@ -63,17 +63,17 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = completion_date,street_address,x_coordinate,y_coordinate,latitude,longitude
+Excluded Fields = completion_date,x_coordinate,y_coordinate,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60643 t:ward=19 t:police_district=22 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002021 t:current_activity="Dispatch Crew" t:community_area=72 t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=5
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60643 t:ward=19 t:police_district=22 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002021 t:current_activity="Dispatch Crew" t:community_area=72 t:type_of_service_request="Pot Hole in Street" t:street_address="1642 W 99TH ST" m:number_of_potholes_filled_on_block=5
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60623 t:ward=22 t:police_district=10 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002273 t:current_activity="Dispatch Crew" t:community_area=30 t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=7
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60623 t:ward=22 t:police_district=10 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002273 t:current_activity="Dispatch Crew" t:community_area=30 t:type_of_service_request="Pot Hole in Street" t:street_address="3500 S PULASKI RD" m:number_of_potholes_filled_on_block=7
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60619 t:ward=6 t:police_district=6 t:most_recent_action="Pothole Patched" t:status=Completed t:ssa=51 t:service_request_number=11-00002650 t:current_activity="Dispatch Crew" t:community_area=69 t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=5
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60619 t:ward=6 t:police_district=6 t:most_recent_action="Pothole Patched" t:status=Completed t:ssa=51 t:service_request_number=11-00002650 t:current_activity="Dispatch Crew" t:community_area=69 t:type_of_service_request="Pot Hole in Street" t:street_address="7851 S DR MARTIN LUTHER KING JR DR" m:number_of_potholes_filled_on_block=5
 ```
 
 ## Meta Commands

@@ -37,7 +37,7 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | numeric metric | dvv_464_upd_cnt     | DVV_464_UPD_CNT     | number    | number      |
 | Yes      | series tag     | dvv_tag_loc1        | DVV_TAG_LOC1        | text      | text        |
 | Yes      | series tag     | dvv_tag_loc2        | DVV_TAG_LOC2        | text      | text        |
-| No       |                | dvv_year            | DVV_YEAR            | text      | number      |
+| Yes      | series tag     | dvv_year            | DVV_YEAR            | text      | number      |
 | Yes      | series tag     | dvv_make            | DVV_MAKE            | text      | text        |
 | Yes      | series tag     | dvv_type            | DVV_TYPE            | text      | text        |
 | Yes      | series tag     | dvv_color           | DVV_COLOR           | text      | text        |
@@ -93,7 +93,7 @@ Format & Zone = yyyyMMddHHmmss
 ## Series Fields
 
 ```ls
-Excluded Fields = dvv_year,dvv_tag_time,dvv_vin_timestmp,dvv_nicb_timestmp
+Excluded Fields = dvv_tag_time,dvv_vin_timestmp,dvv_nicb_timestmp
 ```
 
 ## Data Commands

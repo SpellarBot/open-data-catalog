@@ -106,7 +106,7 @@ Name | Category | Updated
 [Performance Metrics - Chicago Park District - Park Security Checks](datasets/wrvx-zpw5.md) | Administration & Finance | 2012-08-03
 [Performance Metrics - Streets & Sanitation - Garbage Cart Requests](datasets/6htv-6453.md) | Administration & Finance | 2012-07-12
 [Performance Metrics - Transportation - Pavement Cave-ins](datasets/euee-qccq.md) | Administration & Finance | 2014-04-29
-[Public Chauffeurs](datasets/97wa-y6ff.md) | Community & Economic Development | 2017-03-21
+[Public Chauffeurs](datasets/97wa-y6ff.md) | Community & Economic Development | 2017-03-22
 [Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014](datasets/35yf-6dy3.md) | Health & Human Services | 2016-01-25
 [Public Health Statistics- Chlamydia cases among females aged 15-44 in Chicago, by year, 2000-2014.](datasets/bz6k-73ti.md) | Health & Human Services | 2016-01-08
 [Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011](datasets/ndk3-zftj.md) | Health & Human Services | 2014-04-11
@@ -186,7 +186,7 @@ Name | Category | Updated
 [Percent of Connecticut adults (18+ y) reporting ever being told that they had diabetes, by race/ethnicity and year](datasets/s48i-ac23.md) | Health and Human Services | 2014-04-08
 [SFY05-14 Entries Aggregates Race Ethnicity Group](datasets/wzpb-uqdj.md) | Health and Human Services | 2015-08-11
 [State Department of Education Next Generation School Accountability data 2014-2015](datasets/mdsf-2nsf.md) | Education | 2016-03-03
-[Tax Exempt Organizations (Extracted from the Internal Revenue Service)](datasets/krqq-6qhc.md) | Business | 2017-02-15
+[Tax Exempt Organizations (Extracted from the Internal Revenue Service)](datasets/krqq-6qhc.md) | Business | 2017-03-22
 
 ## data.energystar.gov
 
@@ -520,14 +520,14 @@ Name | Category | Updated
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25
 [Lobbyists on Behalf of the City Disclosure Reports](datasets/sz7b-c3pn.md) | City Management and Ethics | 2016-11-16
 [Post- Employment Restriction Waivers](datasets/qwnt-35i6.md) | City Management and Ethics | 2016-05-25
-[Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-21
+[Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-22
 [SF Development Pipeline 2016 Q2](datasets/g5sr-9nhs.md) | Housing and Buildings | 2016-08-15
 [San Francisco Development Pipeline 2012 Quarter 1](datasets/v5p2-emnu.md) | Housing and Buildings | 2012-04-12
 [San Francisco Development Pipeline 2014 Quarter 2](datasets/fv2q-qaux.md) | Housing and Buildings | 2014-09-12
 [Speed Limits](datasets/vksm-bq22.md) | Transportation | 2017-02-04
 [Spending And Revenue](datasets/bpnb-jwfb.md) | City Management and Ethics | 2017-03-20
 [Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-22
-[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-21
+[Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-22
 [Traffic Analysis Zones](datasets/j4sj-j2nf.md) | Geographic Locations and Boundaries | 2016-07-26
 
 ## data.somervillema.gov
@@ -563,7 +563,7 @@ Name | Category | Updated
 [EM Statewide Web](datasets/985a-f68u.md) |     | 2015-03-30
 [Joseph Creek Summer Steelhead -- 1112015](datasets/5anj-6bnk.md) |     | 2015-01-12
 [L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-22
-[Lobbyist Compensation and Expenses by Source](datasets/9nnw-c693.md) |     | 2017-03-21
+[Lobbyist Compensation and Expenses by Source](datasets/9nnw-c693.md) |     | 2017-03-22
 [Local Area Unemployment Statistics](datasets/ak95-mjh9.md) | Economics | 2014-02-06
 [Northeast Complete](datasets/t8dk-esb7.md) |     | 2015-02-13
 [Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH](datasets/spy8-d7us.md) | Natural Resources & Environment | 2014-11-10

@@ -30,30 +30,30 @@ Total Acres used for Residential Development in Maryland and its Counties from 2
 | Yes      | time           | date_created           | Date created           | text      | text        |
 | No       |                | year                   | Year                   | number    | text        |
 | Yes      | numeric metric | maryland               | MARYLAND               | number    | text        |
-| Yes      | series tag     | allegany_county        | Allegany County        | text      | text        |
-| Yes      | series tag     | anne_arundel_county    | Anne Arundel County    | text      | text        |
+| Yes      | numeric metric | allegany_county        | Allegany County        | number    | text        |
+| Yes      | numeric metric | anne_arundel_county    | Anne Arundel County    | number    | text        |
 | Yes      | numeric metric | baltimore_city         | Baltimore City         | number    | text        |
-| Yes      | series tag     | baltimore_county       | Baltimore County       | text      | text        |
-| Yes      | series tag     | calvert_county         | Calvert County         | text      | text        |
-| Yes      | series tag     | caroline_county        | Caroline County        | text      | text        |
-| Yes      | series tag     | carroll_county         | Carroll County         | text      | text        |
-| Yes      | series tag     | cecil_county           | Cecil County           | text      | text        |
-| Yes      | series tag     | charles_county         | Charles County         | text      | text        |
-| Yes      | series tag     | dorchester_county      | Dorchester County      | text      | text        |
-| Yes      | series tag     | frederick_county       | Frederick County       | text      | text        |
-| Yes      | series tag     | garrett_county         | Garrett County         | text      | text        |
-| Yes      | series tag     | harford_county         | Harford County         | text      | text        |
-| Yes      | series tag     | howard_county          | Howard County          | text      | text        |
-| Yes      | series tag     | kent_county            | Kent County            | text      | text        |
-| Yes      | series tag     | montgomery_county      | Montgomery County      | text      | text        |
-| Yes      | series tag     | prince_george_s_county | Prince George's County | text      | text        |
-| Yes      | series tag     | queen_anne_s_county    | Queen Anne's County    | text      | text        |
-| Yes      | series tag     | somerset_county        | Somerset County        | text      | text        |
-| Yes      | series tag     | st_mary_s_county       | St. Mary's County      | text      | text        |
-| Yes      | series tag     | talbot_county          | Talbot County          | text      | text        |
-| Yes      | series tag     | washington_county      | Washington County      | text      | text        |
-| Yes      | series tag     | wicomico_county        | Wicomico County        | text      | text        |
-| Yes      | series tag     | worcester_county       | Worcester County       | text      | text        |
+| Yes      | numeric metric | baltimore_county       | Baltimore County       | number    | text        |
+| Yes      | numeric metric | calvert_county         | Calvert County         | number    | text        |
+| Yes      | numeric metric | caroline_county        | Caroline County        | number    | text        |
+| Yes      | numeric metric | carroll_county         | Carroll County         | number    | text        |
+| Yes      | numeric metric | cecil_county           | Cecil County           | number    | text        |
+| Yes      | numeric metric | charles_county         | Charles County         | number    | text        |
+| Yes      | numeric metric | dorchester_county      | Dorchester County      | number    | text        |
+| Yes      | numeric metric | frederick_county       | Frederick County       | number    | text        |
+| Yes      | numeric metric | garrett_county         | Garrett County         | number    | text        |
+| Yes      | numeric metric | harford_county         | Harford County         | number    | text        |
+| Yes      | numeric metric | howard_county          | Howard County          | number    | text        |
+| Yes      | numeric metric | kent_county            | Kent County            | number    | text        |
+| Yes      | numeric metric | montgomery_county      | Montgomery County      | number    | text        |
+| Yes      | numeric metric | prince_george_s_county | Prince George's County | number    | text        |
+| Yes      | numeric metric | queen_anne_s_county    | Queen Anne's County    | number    | text        |
+| Yes      | numeric metric | somerset_county        | Somerset County        | number    | text        |
+| Yes      | numeric metric | st_mary_s_county       | St. Mary's County      | number    | text        |
+| Yes      | numeric metric | talbot_county          | Talbot County          | number    | text        |
+| Yes      | numeric metric | washington_county      | Washington County      | number    | text        |
+| Yes      | numeric metric | wicomico_county        | Wicomico County        | number    | text        |
+| Yes      | numeric metric | worcester_county       | Worcester County       | number    | text        |
 ```
 
 ## Time Field
@@ -72,11 +72,11 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z t:calvert_county=410.0 t:st_mary_s_county=1,051.0 t:wicomico_county=511.0 t:prince_george_s_county=1,423.0 t:washington_county=858.0 t:carroll_county=696.0 t:montgomery_county=652.0 t:garrett_county=619.0 t:talbot_county=317.0 t:kent_county=124.0 t:queen_anne_s_county=276.0 t:baltimore_county=1,031.0 t:cecil_county=403.0 t:caroline_county=264.0 t:harford_county=1,097.0 t:frederick_county=909.0 t:charles_county=1,051.0 t:somerset_county=337.0 t:howard_county=523.0 t:anne_arundel_county=737.0 t:worcester_county=488.0 t:allegany_county=275.0 t:dorchester_county=288.0 m:baltimore_city=20 m:maryland=14358
+series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z m:baltimore_city=20 m:calvert_county=410 m:st_mary_s_county=1051 m:wicomico_county=511 m:prince_george_s_county=1423 m:washington_county=858 m:carroll_county=696 m:montgomery_county=652 m:garrett_county=619 m:talbot_county=317 m:kent_county=124 m:queen_anne_s_county=276 m:baltimore_county=1031 m:cecil_county=403 m:harford_county=1097 m:caroline_county=264 m:frederick_county=909 m:charles_county=1051 m:somerset_county=337 m:maryland=14358 m:anne_arundel_county=737 m:howard_county=523 m:worcester_county=488 m:allegany_county=275 m:dorchester_county=288
 
-series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z t:calvert_county=350.0 t:st_mary_s_county=775.0 t:wicomico_county=305.0 t:prince_george_s_county=1,180.0 t:washington_county=415.0 t:carroll_county=470.0 t:montgomery_county=528.0 t:garrett_county=449.0 t:talbot_county=217.0 t:kent_county=148.0 t:queen_anne_s_county=265.0 t:baltimore_county=836.0 t:cecil_county=317.0 t:caroline_county=227.0 t:harford_county=713.0 t:frederick_county=612.0 t:charles_county=553.0 t:somerset_county=251.0 t:howard_county=355.0 t:anne_arundel_county=620.0 t:worcester_county=329.0 t:allegany_county=336.0 t:dorchester_county=292.0 m:baltimore_city=16 m:maryland=10558
+series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z m:baltimore_city=16 m:calvert_county=350 m:st_mary_s_county=775 m:wicomico_county=305 m:prince_george_s_county=1180 m:washington_county=415 m:carroll_county=470 m:montgomery_county=528 m:garrett_county=449 m:talbot_county=217 m:kent_county=148 m:queen_anne_s_county=265 m:baltimore_county=836 m:cecil_county=317 m:harford_county=713 m:caroline_county=227 m:frederick_county=612 m:charles_county=553 m:somerset_county=251 m:maryland=10558 m:anne_arundel_county=620 m:howard_county=355 m:worcester_county=329 m:allegany_county=336 m:dorchester_county=292
 
-series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z t:calvert_county=203.0 t:st_mary_s_county=668.0 t:wicomico_county=226.0 t:prince_george_s_county=651.0 t:washington_county=305.0 t:carroll_county=266.0 t:montgomery_county=427.0 t:garrett_county=383.0 t:talbot_county=187.0 t:kent_county=61.0 t:queen_anne_s_county=210.0 t:baltimore_county=501.0 t:cecil_county=219.0 t:caroline_county=152.0 t:harford_county=424.0 t:frederick_county=423.0 t:charles_county=449.0 t:somerset_county=185.0 t:howard_county=374.0 t:anne_arundel_county=635.0 t:worcester_county=178.0 t:allegany_county=192.0 t:dorchester_county=185.0 m:baltimore_city=16 m:maryland=7522
+series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z m:baltimore_city=16 m:calvert_county=203 m:st_mary_s_county=668 m:wicomico_county=226 m:prince_george_s_county=651 m:washington_county=305 m:carroll_county=266 m:montgomery_county=427 m:garrett_county=383 m:talbot_county=187 m:kent_county=61 m:queen_anne_s_county=210 m:baltimore_county=501 m:cecil_county=219 m:harford_county=424 m:caroline_county=152 m:frederick_county=423 m:charles_county=449 m:somerset_county=185 m:maryland=7522 m:anne_arundel_county=635 m:howard_county=374 m:worcester_county=178 m:allegany_county=192 m:dorchester_county=185
 ```
 
 ## Meta Commands
@@ -84,7 +84,53 @@ series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z t:calvert_county=203.0 t:st_mary_s
 ```ls
 metric m:maryland p:long l:MARYLAND t:dataTypeName=number
 
+metric m:allegany_county p:float l:"Allegany County" t:dataTypeName=number
+
+metric m:anne_arundel_county p:float l:"Anne Arundel County" t:dataTypeName=number
+
 metric m:baltimore_city p:float l:"Baltimore City" t:dataTypeName=number
+
+metric m:baltimore_county p:long l:"Baltimore County" t:dataTypeName=number
+
+metric m:calvert_county p:float l:"Calvert County" t:dataTypeName=number
+
+metric m:caroline_county p:float l:"Caroline County" t:dataTypeName=number
+
+metric m:carroll_county p:float l:"Carroll County" t:dataTypeName=number
+
+metric m:cecil_county p:float l:"Cecil County" t:dataTypeName=number
+
+metric m:charles_county p:long l:"Charles County" t:dataTypeName=number
+
+metric m:dorchester_county p:float l:"Dorchester County" t:dataTypeName=number
+
+metric m:frederick_county p:float l:"Frederick County" t:dataTypeName=number
+
+metric m:garrett_county p:float l:"Garrett County" t:dataTypeName=number
+
+metric m:harford_county p:long l:"Harford County" t:dataTypeName=number
+
+metric m:howard_county p:float l:"Howard County" t:dataTypeName=number
+
+metric m:kent_county p:float l:"Kent County" t:dataTypeName=number
+
+metric m:montgomery_county p:float l:"Montgomery County" t:dataTypeName=number
+
+metric m:prince_george_s_county p:long l:"Prince George's County" t:dataTypeName=number
+
+metric m:queen_anne_s_county p:float l:"Queen Anne's County" t:dataTypeName=number
+
+metric m:somerset_county p:float l:"Somerset County" t:dataTypeName=number
+
+metric m:st_mary_s_county p:long l:"St. Mary's County" t:dataTypeName=number
+
+metric m:talbot_county p:float l:"Talbot County" t:dataTypeName=number
+
+metric m:washington_county p:float l:"Washington County" t:dataTypeName=number
+
+metric m:wicomico_county p:float l:"Wicomico County" t:dataTypeName=number
+
+metric m:worcester_county p:float l:"Worcester County" t:dataTypeName=number
 
 entity e:p4s2-mc7r l:"Maryland Total Acres For Residential Development: 2006-2010" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/p4s2-mc7r
 

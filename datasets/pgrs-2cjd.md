@@ -39,15 +39,15 @@ Rows are suppressed (noted with ‘s’) if the number of tested students was 5 
 | Yes      | series tag     | category         | Category         | text      | text        |
 | Yes      | numeric metric | number_tested    | Number Tested    | number    | number      |
 | Yes      | numeric metric | mean_scale_score | Mean Scale Score | number    | number      |
-| Yes      | series tag     | level_1_1        | Level 1 #        | text      | number      |
+| Yes      | numeric metric | level_1_1        | Level 1 #        | number    | number      |
 | Yes      | numeric metric | level_1_2        | Level 1 %        | percent   | percent     |
-| Yes      | series tag     | level_2_1        | Level 2 #        | text      | number      |
+| Yes      | numeric metric | level_2_1        | Level 2 #        | number    | number      |
 | Yes      | numeric metric | level_2_2        | Level 2 %        | percent   | percent     |
-| Yes      | series tag     | level_3_1        | Level 3 #        | text      | number      |
+| Yes      | numeric metric | level_3_1        | Level 3 #        | number    | number      |
 | Yes      | numeric metric | level_3_2        | Level 3 %        | percent   | percent     |
-| Yes      | series tag     | level_4_1        | Level 4 #        | text      | number      |
+| Yes      | numeric metric | level_4_1        | Level 4 #        | number    | number      |
 | Yes      | numeric metric | level_4_2        | Level 4 %        | percent   | percent     |
-| Yes      | series tag     | level_3_4_1      | Level 3+4 #      | text      | number      |
+| Yes      | numeric metric | level_3_4_1      | Level 3+4 #      | number    | number      |
 | Yes      | numeric metric | level_3_4_2      | Level 3+4 %      | percent   | percent     |
 ```
 
@@ -61,11 +61,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Asian t:level_4_1=79 t:level_2_1=4 t:grade=3 t:level_1_1=4 t:district=1 t:level_3_4_1=147 t:level_3_1=68 m:level_3_4_2=94.8 m:mean_scale_score=704 m:level_2_2=2.6 m:level_4_2=51 m:level_1_2=2.6 m:number_tested=155 m:level_3_2=43.9
+series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Asian t:grade=3 t:district=1 m:level_4_1=79 m:level_3_4_2=94.8 m:mean_scale_score=704 m:level_2_2=2.6 m:level_4_2=51 m:level_2_1=4 m:level_1_2=2.6 m:level_1_1=4 m:number_tested=155 m:level_3_2=43.9 m:level_3_4_1=147 m:level_3_1=68
 
-series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Black t:level_4_1=13 t:level_2_1=47 t:grade=3 t:level_1_1=21 t:district=1 t:level_3_4_1=117 t:level_3_1=104 m:level_3_4_2=63.2 m:mean_scale_score=659 m:level_2_2=25.4 m:level_4_2=7 m:level_1_2=11.4 m:number_tested=185 m:level_3_2=56.2
+series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Black t:grade=3 t:district=1 m:level_4_1=13 m:level_3_4_2=63.2 m:mean_scale_score=659 m:level_2_2=25.4 m:level_4_2=7 m:level_2_1=47 m:level_1_2=11.4 m:level_1_1=21 m:number_tested=185 m:level_3_2=56.2 m:level_3_4_1=117 m:level_3_1=104
 
-series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Hispanic t:level_4_1=73 t:level_2_1=111 t:grade=3 t:level_1_1=46 t:district=1 t:level_3_4_1=337 t:level_3_1=264 m:level_3_4_2=68.2 m:mean_scale_score=664 m:level_2_2=22.5 m:level_4_2=14.8 m:level_1_2=9.3 m:number_tested=494 m:level_3_2=53.4
+series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Hispanic t:grade=3 t:district=1 m:level_4_1=73 m:level_3_4_2=68.2 m:mean_scale_score=664 m:level_2_2=22.5 m:level_4_2=14.8 m:level_2_1=111 m:level_1_2=9.3 m:level_1_1=46 m:number_tested=494 m:level_3_2=53.4 m:level_3_4_1=337 m:level_3_1=264
 ```
 
 ## Meta Commands
@@ -75,13 +75,23 @@ metric m:number_tested p:integer l:"Number Tested" t:dataTypeName=number
 
 metric m:mean_scale_score p:integer l:"Mean Scale Score" t:dataTypeName=number
 
+metric m:level_1_1 p:integer l:"Level 1 #" t:dataTypeName=number
+
 metric m:level_1_2 p:float l:"Level 1 %" t:dataTypeName=percent
+
+metric m:level_2_1 p:integer l:"Level 2 #" t:dataTypeName=number
 
 metric m:level_2_2 p:float l:"Level 2 %" t:dataTypeName=percent
 
+metric m:level_3_1 p:integer l:"Level 3 #" t:dataTypeName=number
+
 metric m:level_3_2 p:float l:"Level 3 %" t:dataTypeName=percent
 
+metric m:level_4_1 p:integer l:"Level 4 #" t:dataTypeName=number
+
 metric m:level_4_2 p:float l:"Level 4 %" t:dataTypeName=percent
+
+metric m:level_3_4_1 p:integer l:"Level 3+4 #" t:dataTypeName=number
 
 metric m:level_3_4_2 p:float l:"Level 3+4 %" t:dataTypeName=percent
 

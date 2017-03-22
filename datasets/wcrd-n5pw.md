@@ -25,7 +25,7 @@ Lyme disease is caused by the bacterium Borrelia burgdorferi and is transmitted 
 | Included | Schema Type    | Field Name    | Name          | Data Type | Render Type |
 | ======== | ============== | ============= | ============= | ========= | =========== |
 | Yes      | series tag     | disease       | Disease       | text      | text        |
-| No       |                | yeartext      | YearText      | text      | text        |
+| Yes      | series tag     | yeartext      | YearText      | text      | text        |
 | Yes      | time           | year          | Year          | number    | number      |
 | Yes      | series tag     | stateorcounty | StateOrCounty | text      | text        |
 | No       |                | il            | IL            | text      | text        |
@@ -47,17 +47,17 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = yeartext,il
+Excluded Fields = il
 ```
 
 ## Data Commands
 
 ```ls
-series e:wcrd-n5pw d:2011-01-01T00:00:00.000Z t:agegroup="50-54 Years" t:gender=Male t:stateorcounty=S t:disease="Lyme Disease" t:ethnicity=UnkwnNotClassified t:race=Unknown t:agegrouptext=CD5yr m:count=1
+series e:wcrd-n5pw d:2011-01-01T00:00:00.000Z t:yeartext=Year t:agegroup="50-54 Years" t:gender=Male t:stateorcounty=S t:disease="Lyme Disease" t:ethnicity=UnkwnNotClassified t:race=Unknown t:agegrouptext=CD5yr m:count=1
 
-series e:wcrd-n5pw d:2011-01-01T00:00:00.000Z t:agegroup="55-59 Years" t:gender=Male t:stateorcounty=S t:disease="Lyme Disease" t:ethnicity=UnkwnNotClassified t:race=Unknown t:agegrouptext=CD5yr m:count=5
+series e:wcrd-n5pw d:2011-01-01T00:00:00.000Z t:yeartext=Year t:agegroup="55-59 Years" t:gender=Male t:stateorcounty=S t:disease="Lyme Disease" t:ethnicity=UnkwnNotClassified t:race=Unknown t:agegrouptext=CD5yr m:count=5
 
-series e:wcrd-n5pw d:2011-01-01T00:00:00.000Z t:agegroup="5-9 Years" t:gender=Male t:stateorcounty=S t:disease="Lyme Disease" t:ethnicity=UnkwnNotClassified t:race=Unknown t:agegrouptext=CD5yr m:count=1
+series e:wcrd-n5pw d:2011-01-01T00:00:00.000Z t:yeartext=Year t:agegroup="5-9 Years" t:gender=Male t:stateorcounty=S t:disease="Lyme Disease" t:ethnicity=UnkwnNotClassified t:race=Unknown t:agegrouptext=CD5yr m:count=1
 ```
 
 ## Meta Commands

@@ -34,8 +34,8 @@ These reports provide summary information about mental health service utilizatio
 | Yes      | series tag     | county_label                                      | County Label                                      | text          | text          |
 | Yes      | series tag     | age_group                                         | Age Group                                         | text          | text          |
 | Yes      | series tag     | rate_code_group                                   | Rate Code Group                                   | text          | text          |
-| Yes      | series tag     | recipient_count_by_county                         | Recipient Count By County                         | text          | number        |
-| Yes      | series tag     | count_of_recipients_by_rate_code_group_and_county | Count Of Recipients By Rate Code Group And County | text          | number        |
+| Yes      | numeric metric | recipient_count_by_county                         | Recipient Count By County                         | number        | number        |
+| Yes      | numeric metric | count_of_recipients_by_rate_code_group_and_county | Count Of Recipients By Rate Code Group And County | number        | number        |
 | Yes      | numeric metric | units_total                                       | Units Total                                       | number        | number        |
 | Yes      | numeric metric | paid_claim_total                                  | Paid Claim Total                                  | number        | number        |
 ```
@@ -56,16 +56,20 @@ Excluded Fields = service_year
 ## Data Commands
 
 ```ls
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:recipient_count_by_county=443 t:rate_code_group="Clinic Treatment" t:county_label=Allegany t:count_of_recipients_by_rate_code_group_and_county=345 t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:paid_claim_total=273141 m:units_total=2674
+series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:rate_code_group="Clinic Treatment" t:county_label=Allegany t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:recipient_count_by_county=443 m:paid_claim_total=273141 m:units_total=2674 m:count_of_recipients_by_rate_code_group_and_county=345
 
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:recipient_count_by_county=443 t:rate_code_group="Community Residence" t:county_label=Allegany t:count_of_recipients_by_rate_code_group_and_county=20 t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:paid_claim_total=289091 m:units_total=128
+series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:rate_code_group="Community Residence" t:county_label=Allegany t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:recipient_count_by_county=443 m:paid_claim_total=289091 m:units_total=128 m:count_of_recipients_by_rate_code_group_and_county=20
 
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:recipient_count_by_county=443 t:rate_code_group="Health Home" t:county_label=Allegany t:count_of_recipients_by_rate_code_group_and_county=33 t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:paid_claim_total=109393 m:units_total=237
+series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:rate_code_group="Health Home" t:county_label=Allegany t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:recipient_count_by_county=443 m:paid_claim_total=109393 m:units_total=237 m:count_of_recipients_by_rate_code_group_and_county=33
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:recipient_count_by_county p:integer l:"Recipient Count By County" d:"Count of distinct Client Identification Numbers by county." t:dataTypeName=number
+
+metric m:count_of_recipients_by_rate_code_group_and_county p:integer l:"Count Of Recipients By Rate Code Group And County" d:"Count of distinct Client Identification Numbers by rate code group and county." t:dataTypeName=number
+
 metric m:units_total p:integer l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: “Notes” link at “http://bi.omh.ny.gov/cmhp/mh-services”)" t:dataTypeName=number
 
 metric m:paid_claim_total p:integer l:"Paid Claim Total" d:"Sum of total payment or reimbursement amount for a claim or claim line." t:dataTypeName=number

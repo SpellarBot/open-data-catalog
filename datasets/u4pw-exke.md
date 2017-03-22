@@ -98,7 +98,7 @@ b. The network of commercial and industrial highways shall not exceed two thousa
 | Yes      | series tag     | county_name             | COUNTY_NAME             | text       | text        |
 | Yes      | numeric metric | shape_len               | SHAPE.LEN               | number     | number      |
 | Yes      | series tag     | objectid                | OBJECTID                | text       | number      |
-| Yes      | series tag     | shape                   | SHAPE                   | geospatial | geospatial  |
+| No       |                | shape                   | SHAPE                   | geospatial | geospatial  |
 ```
 
 ## Time Field
@@ -111,17 +111,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = id
+Excluded Fields = id,shape
 ```
 
 ## Data Commands
 
 ```ls
-series e:u4pw-exke d:1970-01-01T00:00:00.000Z t:shape.longitude=-93.49763558599994 t:lane_type=1 t:highway_responsibility=B t:county_number=77 t:lane_position_1=2 t:facility_type=1 t:city_number=6102 t:route_name_2="CITY OF PLEASANT HILL, EAST UNIVERSITY AVENUE, E" t:lane_type_1=1 t:road_status=0 t:urban_area_code=71 t:median_type=2 t:routeid=S001930163E t:shape.needs_recoding=false t:route_name="STATE OF IOWA, IA 163 E" t:shape.latitude=41.59868413500004 t:objectid=1690 t:county_name=Polk t:lane_position=1 m:frommeasure=5.351393 m:planning_class=2 m:h_and_t=0 m:tomeasure=5.378953999999999 m:median_width=50 m:national_highway_system=1 m:truck_route=1 m:fed_functional_class=3 m:access_control=3 m:number_lanes=2 m:commercial_network=1
+series e:u4pw-exke d:2016-11-08T18:04:10.000Z t:shape.longitude=-93.49763558599994 t:lane_type=1 t:highway_responsibility=B t:county_number=77 t:lane_position_1=2 t:facility_type=1 t:city_number=6102 t:route_name_2="CITY OF PLEASANT HILL, EAST UNIVERSITY AVENUE, E" t:lane_type_1=1 t:road_status=0 t:urban_area_code=71 t:median_type=2 t:routeid=S001930163E t:shape.needs_recoding=false t:route_name="STATE OF IOWA, IA 163 E" t:shape.latitude=41.59868413500004 t:objectid=1690 t:county_name=Polk t:lane_position=1 m:frommeasure=5.351393 m:planning_class=2 m:h_and_t=0 m:tomeasure=5.378953999999999 m:median_width=50 m:national_highway_system=1 m:truck_route=1 m:fed_functional_class=3 m:access_control=3 m:number_lanes=2 m:commercial_network=1
 
-series e:u4pw-exke d:1970-01-01T00:00:00.000Z t:shape.longitude=-93.49800354299998 t:lane_type=1 t:highway_responsibility=B t:county_number=77 t:lane_position_1=2 t:facility_type=1 t:city_number=6102 t:route_name_2="CITY OF PLEASANT HILL, EAST UNIVERSITY AVENUE, E" t:lane_type_1=1 t:road_status=0 t:urban_area_code=71 t:median_type=2 t:routeid=S001930163E t:shape.needs_recoding=false t:route_name="STATE OF IOWA, IA 163 E" t:shape.latitude=41.59869468200003 t:objectid=1692 t:county_name=Polk t:lane_position=1 m:frommeasure=5.332325 m:planning_class=2 m:h_and_t=0 m:tomeasure=5.351393 m:median_width=44 m:national_highway_system=1 m:truck_route=1 m:fed_functional_class=3 m:access_control=3 m:number_lanes=2 m:commercial_network=1
+series e:u4pw-exke d:2016-11-08T18:04:10.000Z t:shape.longitude=-93.49800354299998 t:lane_type=1 t:highway_responsibility=B t:county_number=77 t:lane_position_1=2 t:facility_type=1 t:city_number=6102 t:route_name_2="CITY OF PLEASANT HILL, EAST UNIVERSITY AVENUE, E" t:lane_type_1=1 t:road_status=0 t:urban_area_code=71 t:median_type=2 t:routeid=S001930163E t:shape.needs_recoding=false t:route_name="STATE OF IOWA, IA 163 E" t:shape.latitude=41.59869468200003 t:objectid=1692 t:county_name=Polk t:lane_position=1 m:frommeasure=5.332325 m:planning_class=2 m:h_and_t=0 m:tomeasure=5.351393 m:median_width=44 m:national_highway_system=1 m:truck_route=1 m:fed_functional_class=3 m:access_control=3 m:number_lanes=2 m:commercial_network=1
 
-series e:u4pw-exke d:1970-01-01T00:00:00.000Z t:shape.longitude=-93.42544422799995 t:lane_type=1 t:highway_responsibility=B t:county_number=77 t:facility_type=1 t:lane_position_1=2 t:city_number=6102 t:route_name_2="CITY OF PLEASANT HILL, EAST UNIVERSITY AVENUE, E" t:lane_type_1=1 t:road_status=0 t:median_type=2 t:routeid=S001930163E t:shape.needs_recoding=false t:route_name="STATE OF IOWA, IA 163 E" t:shape.latitude=41.60032025100003 t:objectid=1693 t:county_name=Polk t:lane_position=1 m:frommeasure=9.101476 m:planning_class=2 m:h_and_t=0 m:tomeasure=9.140044 m:median_width=50 m:national_highway_system=1 m:truck_route=1 m:fed_functional_class=3 m:access_control=3 m:number_lanes=2 m:commercial_network=1
+series e:u4pw-exke d:2016-11-08T18:04:10.000Z t:shape.longitude=-93.42544422799995 t:lane_type=1 t:highway_responsibility=B t:county_number=77 t:facility_type=1 t:lane_position_1=2 t:city_number=6102 t:route_name_2="CITY OF PLEASANT HILL, EAST UNIVERSITY AVENUE, E" t:lane_type_1=1 t:road_status=0 t:median_type=2 t:routeid=S001930163E t:shape.needs_recoding=false t:route_name="STATE OF IOWA, IA 163 E" t:shape.latitude=41.60032025100003 t:objectid=1693 t:county_name=Polk t:lane_position=1 m:frommeasure=9.101476 m:planning_class=2 m:h_and_t=0 m:tomeasure=9.140044 m:median_width=50 m:national_highway_system=1 m:truck_route=1 m:fed_functional_class=3 m:access_control=3 m:number_lanes=2 m:commercial_network=1
 ```
 
 ## Meta Commands

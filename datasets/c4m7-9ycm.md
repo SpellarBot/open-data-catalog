@@ -42,7 +42,7 @@ Adjacent County Number data maintained inside the Roadway Asset Management Syste
 | Yes      | series tag     | locerror               | LOCERROR               | text       | text        |
 | Yes      | numeric metric | shape_len              | SHAPE.LEN              | number     | number      |
 | Yes      | series tag     | objectid               | OBJECTID               | text       | number      |
-| Yes      | series tag     | shape                  | SHAPE                  | geospatial | geospatial  |
+| No       |                | shape                  | SHAPE                  | geospatial | geospatial  |
 ```
 
 ## Time Field
@@ -55,7 +55,7 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = effective_start_date,effective_end_date,system_create_date,system_mod_date
+Excluded Fields = effective_start_date,effective_end_date,system_create_date,system_mod_date,shape
 ```
 
 ## Data Commands

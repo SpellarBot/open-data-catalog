@@ -16,7 +16,7 @@
 | Tags | tax, exempt, non-profit, tax exempt, charity, charities |
 | Created | 2016-12-15T17:57:44Z |
 | Publication Date | 2016-12-15T19:44:31Z |
-| Rows Updated | 2017-02-15T15:48:19Z |
+| Rows Updated | 2017-03-22T15:20:41Z |
 
 ## Description
 
@@ -111,11 +111,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X20 t:zip_code=06514-0416 t:status=1 t:name="WEST HAVEN CHURCH OF CHRIST INC" t:street="PO BOX 4416" t:state=CT t:ico="% WILLIAM BOWLING SR" t:city=HAMDEN m:subsection=3 m:ein=10563865 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=7000 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
+series e:krqq-6qhc d:2017-03-22T15:20:38.000Z t:ntee_cd=U50 t:zip_code=06378-2403 t:status=1 t:name="LIFE EDU ORG INC" t:street="PO BOX 368" t:state=CT t:ico="% ALBERT KAUSCH" t:sort_name="KAUSCH ALBERT P PHD PRESIDENT" t:city=MYSTIC m:subsection=3 m:ein=10596826 m:ruling=0 m:acct_pd=12 m:filing_req_cd=2 m:tax_period=201612 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=1238 m:foundation=15 m:affiliation=3 m:income_cd=0 m:group=0 m:asset_amt=0 m:activity=0 m:income_amt=0 m:deductibility=1 m:revenue_amt=0
 
-series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X21 t:zip_code=06134-1249 t:status=1 t:name="PRIMERA IGLESIA BAUTISTA INC" t:street="PO BOX 341249" t:state=CT t:ico="% JUSTO J CARRERA" t:city=HARTFORD m:subsection=3 m:ein=10607204 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=7000 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
+series e:krqq-6qhc d:2017-03-22T15:20:38.000Z t:ntee_cd=P20 t:zip_code=06790-2188 t:status=1 t:name="CHRISTIAN EVANGELISTIC ASSOCIATION" t:street="455 MARSHALL LAKE RD" t:state=CT t:ico="% JOB AYANTOLA" t:city=TORRINGTON m:subsection=3 m:ein=10623416 m:ruling=0 m:acct_pd=12 m:filing_req_cd=2 m:tax_period=201612 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=1000 m:foundation=16 m:affiliation=3 m:income_cd=0 m:group=0 m:asset_amt=0 m:activity=0 m:income_amt=0 m:deductibility=1 m:revenue_amt=0
 
-series e:krqq-6qhc d:2017-02-15T15:48:06.000Z t:ntee_cd=X21 t:zip_code=06615-0024 t:status=1 t:name="BETHEL MINISTRY" t:street="PO BOX 24" t:state=CT t:ico="% REV JUDSON G OLIVEIRA" t:city=STRATFORD m:subsection=3 m:ein=10657417 m:ruling=0 m:acct_pd=12 m:filing_req_cd=6 m:organization=1 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=1700 m:foundation=10 m:affiliation=3 m:income_cd=0 m:group=0 m:activity=0 m:deductibility=1
+series e:krqq-6qhc d:2017-03-22T15:20:38.000Z t:ntee_cd=J40 t:zip_code=06708-1814 t:status=1 t:name="WATERBURY RETIRED EDUCATORS ASSOCIATION" t:street="37 STODDARD RD" t:state=CT t:ico="% LOUIS PONZILLO" t:city=WATERBURY m:subsection=5 m:ein=10723886 m:ruling=0 m:acct_pd=12 m:filing_req_cd=2 m:tax_period=201612 m:organization=5 m:pf_filing_req_cd=0 m:asset_cd=0 m:classification=3000 m:foundation=0 m:affiliation=3 m:income_cd=0 m:group=0 m:asset_amt=0 m:activity=0 m:income_amt=0 m:deductibility=2 m:revenue_amt=0
 ```
 
 ## Meta Commands

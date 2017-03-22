@@ -24,10 +24,10 @@
 | Included | Schema Type    | Field Name                  | Name                        | Data Type | Render Type |
 | ======== | ============== | =========================== | =========================== | ========= | =========== |
 | Yes      | numeric metric | x_values                    | X Values                    | number    | number      |
-| Yes      | series tag     | city_and_county_of_honolulu | City and County of Honolulu | text      | number      |
-| Yes      | series tag     | hawaii_county               | Hawaii County               | text      | number      |
-| Yes      | series tag     | kauai_county                | Kauai County                | text      | number      |
-| Yes      | series tag     | maui_county                 | Maui County                 | text      | number      |
+| Yes      | numeric metric | city_and_county_of_honolulu | City and County of Honolulu | number    | number      |
+| Yes      | numeric metric | hawaii_county               | Hawaii County               | number    | number      |
+| Yes      | numeric metric | kauai_county                | Kauai County                | number    | number      |
+| Yes      | numeric metric | maui_county                 | Maui County                 | number    | number      |
 ```
 
 ## Time Field
@@ -40,17 +40,25 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z t:hawaii_county=137103 t:city_and_county_of_honolulu=913268 t:maui_county=138390 t:kauai_county=68558 m:x_values=1990
+series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:hawaii_county=137103 m:city_and_county_of_honolulu=913268 m:maui_county=138390 m:x_values=1990 m:kauai_county=68558
 
-series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z t:hawaii_county=141240 t:city_and_county_of_honolulu=901717 t:maui_county=139703 t:kauai_county=69605 m:x_values=1991
+series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:hawaii_county=141240 m:city_and_county_of_honolulu=901717 m:maui_county=139703 m:x_values=1991 m:kauai_county=69605
 
-series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z t:hawaii_county=146421 t:city_and_county_of_honolulu=912514 t:maui_county=146651 t:kauai_county=66076 m:x_values=1992
+series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:hawaii_county=146421 m:city_and_county_of_honolulu=912514 m:maui_county=146651 m:x_values=1992 m:kauai_county=66076
 ```
 
 ## Meta Commands
 
 ```ls
 metric m:x_values p:integer l:"X Values" t:dataTypeName=number
+
+metric m:city_and_county_of_honolulu p:integer l:"City and County of Honolulu" t:dataTypeName=number
+
+metric m:hawaii_county p:integer l:"Hawaii County" t:dataTypeName=number
+
+metric m:kauai_county p:integer l:"Kauai County" t:dataTypeName=number
+
+metric m:maui_county p:integer l:"Maui County" t:dataTypeName=number
 
 entity e:i7pr-uy4x l:"DBEDT Hawaii De Facto Population By County 2000-2010" t:attribution="Department of Economic Development and Tourism" t:url=https://data.hawaii.gov/api/views/i7pr-uy4x
 

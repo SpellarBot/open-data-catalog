@@ -26,13 +26,13 @@ This composite report "Part III. Recent Investments Expected to Begin Exemption 
 | Included | Schema Type    | Field Name                                                              | Name                                                                     | Data Type | Render Type |
 | ======== | ============== | ======================================================================= | ======================================================================== | ========= | =========== |
 | Yes      | time           | reporting_year                                                          | Reporting Year                                                           | number    | number      |
-| No       |                | property_tax_year                                                       | Property Tax Year                                                        | text      | text        |
+| Yes      | series tag     | property_tax_year                                                       | Property Tax Year                                                        | text      | text        |
 | Yes      | series tag     | county                                                                  | County                                                                   | text      | text        |
 | Yes      | series tag     | enterprise_zone                                                         | Enterprise Zone                                                          | text      | text        |
 | Yes      | series tag     | name_of_qualified_firm                                                  | Name of Qualified Firm                                                   | text      | text        |
 | Yes      | numeric metric | expected_total_years_of_exemption_3_4_or_5                              | Expected Total Years of Exemption(3, 4 or 5)                             | number    | number      |
 | Yes      | numeric metric | preexisting_zone_employment_annual_average_in_authorization_application | Preexisting Zone Employment(annual average in authorization application) | number    | number      |
-| No       |                | reported_total_zone_employment_on_or_before_april_1_of_reporting_year   | Reported Total Zone Employment on or before April 1 of Reporting Year    | number    | number      |
+| Yes      | numeric metric | reported_total_zone_employment_on_or_before_april_1_of_reporting_year   | Reported Total Zone Employment on or before April 1 of Reporting Year    | number    | number      |
 | Yes      | series tag     | tax_code_area                                                           | Tax Code Area                                                            | text      | text        |
 | Yes      | series tag     | notes                                                                   | Notes                                                                    | text      | text        |
 ```
@@ -44,20 +44,14 @@ Value = reporting_year
 Format & Zone = yyyy
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = property_tax_year,reported_total_zone_employment_on_or_before_april_1_of_reporting_year
-```
-
 ## Data Commands
 
 ```ls
-series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Natural Structures" t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=5 m:expected_total_years_of_exemption_3_4_or_5=3
+series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Natural Structures" t:property_tax_year=2015-2016 t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=5 m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=49 m:expected_total_years_of_exemption_3_4_or_5=3
 
-series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Glacier 45 LLC" t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=1 m:expected_total_years_of_exemption_3_4_or_5=3
+series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Glacier 45 LLC" t:property_tax_year=2015-2016 t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=1 m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=0 m:expected_total_years_of_exemption_3_4_or_5=3
 
-series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Hop Heaven Inc" t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=2 m:expected_total_years_of_exemption_3_4_or_5=3
+series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Hop Heaven Inc" t:property_tax_year=2015-2016 t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=2 m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=0 m:expected_total_years_of_exemption_3_4_or_5=3
 ```
 
 ## Meta Commands
@@ -66,6 +60,8 @@ series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker
 metric m:expected_total_years_of_exemption_3_4_or_5 p:integer l:"Expected Total Years of Exemption(3, 4 or 5)" t:dataTypeName=number
 
 metric m:preexisting_zone_employment_annual_average_in_authorization_application p:integer l:"Preexisting Zone Employment(annual average in authorization application)" t:dataTypeName=number
+
+metric m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year p:integer l:"Reported Total Zone Employment on or before April 1 of Reporting Year" t:dataTypeName=number
 
 entity e:hrkd-h2w5 l:"Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016" t:url=https://data.oregon.gov/api/views/hrkd-h2w5
 

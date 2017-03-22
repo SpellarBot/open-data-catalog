@@ -35,7 +35,7 @@ This dataset contains property tax rates for all levy authorities within the Sta
 | Yes      | series tag     | county_name        | County Name        | text      | text        |
 | Yes      | series tag     | city_fips          | City FIPS          | text      | text        |
 | Yes      | series tag     | city_name          | City Name          | text      | text        |
-| Yes      | numeric metric | co_subdivision_fip | Co Subdivision FIP | number    | text        |
+| Yes      | series tag     | co_subdivision_fip | Co Subdivision FIP | text      | text        |
 | Yes      | numeric metric | urban_rate         | Urban Rate         | number    | number      |
 | Yes      | numeric metric | rural_rate         | Rural Rate         | number    | number      |
 | Yes      | numeric metric | debt_rate          | Debt Rate          | number    | number      |
@@ -63,8 +63,6 @@ series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ALLAMAKEE t:lev
 ## Meta Commands
 
 ```ls
-metric m:co_subdivision_fip p:integer l:"Co Subdivision FIP" d:"A ten-digit Federal Information Processing Series code to ensure uniform identification of county subdivisions" t:dataTypeName=number
-
 metric m:urban_rate p:double l:"Urban Rate" d:"Rate applied to property considered urban" t:dataTypeName=number
 
 metric m:rural_rate p:float l:"Rural Rate" d:"Rate applied to property considered rural" t:dataTypeName=number

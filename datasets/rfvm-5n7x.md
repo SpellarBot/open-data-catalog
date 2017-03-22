@@ -34,7 +34,7 @@ This data is comprised of various federal, institutional, and park land boundari
 | Yes      | numeric metric | shape_area   | SHAPE.AREA   | number     | number      |
 | Yes      | numeric metric | shape_len    | SHAPE.LEN    | number     | number      |
 | Yes      | series tag     | objectid     | OBJECTID     | text       | number      |
-| Yes      | series tag     | shape        | SHAPE        | geospatial | geospatial  |
+| No       |                | shape        | SHAPE        | geospatial | geospatial  |
 ```
 
 ## Time Field
@@ -44,14 +44,20 @@ Value = updated_at
 Format & Zone = seconds
 ```
 
+## Series Fields
+
+```ls
+Excluded Fields = shape
+```
+
 ## Data Commands
 
 ```ls
-series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:shape.longitude=-94.48906240799994 t:shape.needs_recoding=false t:landuse_id=3481 t:shape.latitude=42.674573131000045 t:objectid=1 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Lizard Lake WMA" m:shape_area=1410472.0011003
+series e:rfvm-5n7x d:2016-06-07T22:39:40.000Z t:shape.longitude=-94.48906240799994 t:shape.needs_recoding=false t:landuse_id=3481 t:shape.latitude=42.674573131000045 t:objectid=1 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Lizard Lake WMA" m:shape_area=1410472.0011003
 
-series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:shape.longitude=-94.40007323099996 t:shape.needs_recoding=false t:landuse_id=3501 t:shape.latitude=42.79007121500007 t:objectid=2 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Bradgate WMA" m:shape_area=513228.020415319
+series e:rfvm-5n7x d:2016-06-07T22:39:40.000Z t:shape.longitude=-94.40007323099996 t:shape.needs_recoding=false t:landuse_id=3501 t:shape.latitude=42.79007121500007 t:objectid=2 t:landuse_type="WILDLIFE MANAGEMENT AREA" t:landuse_name="Bradgate WMA" m:shape_area=513228.020415319
 
-series e:rfvm-5n7x d:1970-01-01T00:00:00.000Z t:shape.longitude=-95.94411355899996 t:shape.needs_recoding=false t:landuse_id=2371 t:shape.latitude=41.83821600700003 t:objectid=3 t:landuse_type="STATE FOREST" t:landuse_name="Loess Hills State Forest" m:shape_area=16745052.2586382
+series e:rfvm-5n7x d:2016-06-07T22:39:40.000Z t:shape.longitude=-95.94411355899996 t:shape.needs_recoding=false t:landuse_id=2371 t:shape.latitude=41.83821600700003 t:objectid=3 t:landuse_type="STATE FOREST" t:landuse_name="Loess Hills State Forest" m:shape_area=16745052.2586382
 ```
 
 ## Meta Commands

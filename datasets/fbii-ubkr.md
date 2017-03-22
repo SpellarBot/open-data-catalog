@@ -28,7 +28,7 @@ Projections prepared by the Maryland Department of Planning, July 2014
 ```ls
 | Included | Schema Type    | Field Name      | Name             | Data Type | Render Type |
 | ======== | ============== | =============== | ================ | ========= | =========== |
-| No       |                | year            | Year             | text      | text        |
+| Yes      | series tag     | year            | Year             | text      | text        |
 | Yes      | numeric metric | census_1970     | Census, 1970     | number    | number      |
 | Yes      | numeric metric | census_1980     | Census, 1980     | number    | number      |
 | Yes      | numeric metric | census_1990     | Census, 1990     | number    | number      |
@@ -49,20 +49,14 @@ Value = 1970
 Format & Zone = yyyy
 ```
 
-## Series Fields
-
-```ls
-Excluded Fields = year
-```
-
 ## Data Commands
 
 ```ls
-series e:fbii-ubkr d:1970-01-01T00:00:00.000Z m:census_1980=4122547 m:projection_2020=6071714 m:projection_2035=6584079 m:census_1990=4666897 m:census_2000=5162430 m:census_2010=5635177 m:projection_2040=6700425 m:projection_2030=6444321 m:projection_2025=6269826 m:projection_2015=5864129 m:census_1970=3817618
+series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year=MARYLAND m:census_1980=4122547 m:projection_2020=6071714 m:projection_2035=6584079 m:census_1990=4666897 m:census_2000=5162430 m:census_2010=5635177 m:projection_2040=6700425 m:projection_2030=6444321 m:projection_2025=6269826 m:projection_2015=5864129 m:census_1970=3817618
 
-series e:fbii-ubkr d:1970-01-01T00:00:00.000Z m:census_1980=77926 m:projection_2020=66626 m:projection_2035=67877 m:census_1990=71895 m:census_2000=68772 m:census_2010=67163 m:projection_2040=67877 m:projection_2030=67811 m:projection_2025=67171 m:projection_2015=66425 m:census_1970=82222
+series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year="Allegany County" m:census_1980=77926 m:projection_2020=66626 m:projection_2035=67877 m:census_1990=71895 m:census_2000=68772 m:census_2010=67163 m:projection_2040=67877 m:projection_2030=67811 m:projection_2025=67171 m:projection_2015=66425 m:census_1970=82222
 
-series e:fbii-ubkr d:1970-01-01T00:00:00.000Z m:census_1980=357451 m:projection_2020=564900 m:projection_2035=601190 m:census_1990=411893 m:census_2000=473666 m:census_2010=523523 m:projection_2040=610152 m:projection_2030=590414 m:projection_2025=577971 m:projection_2015=544952 m:census_1970=280151
+series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year="Anne Arundel County" m:census_1980=357451 m:projection_2020=564900 m:projection_2035=601190 m:census_1990=411893 m:census_2000=473666 m:census_2010=523523 m:projection_2040=610152 m:projection_2030=590414 m:projection_2025=577971 m:projection_2015=544952 m:census_1970=280151
 ```
 
 ## Meta Commands
