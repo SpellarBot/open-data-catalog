@@ -37,11 +37,11 @@ A list of the delegate agencies with which the Department of Family and Support 
 | Yes      | series tag  | street_direction      | Street Direction      | text      | text        |
 | Yes      | series tag  | street_name           | Street Name           | text      | text        |
 | Yes      | series tag  | street_type           | Street Type           | text      | text        |
-| Yes      | series tag  | address_line_2        | Address Line 2        | text      | text        |
+| No       |             | address_line_2        | Address Line 2        | text      | text        |
 | Yes      | series tag  | city                  | City                  | text      | text        |
 | Yes      | series tag  | state                 | State                 | text      | text        |
 | Yes      | series tag  | zip                   | ZIP                   | text      | text        |
-| Yes      | series tag  | phone_number          | Phone Number          | phone     | phone       |
+| Yes      | series tag  | phone_number          | Phone Number          | text      | phone       |
 | Yes      | series tag  | phone_extension       | Phone Extension       | text      | text        |
 | Yes      | series tag  | ward                  | Ward                  | text      | number      |
 | Yes      | series tag  | community_area        | Community Area        | text      | text        |
@@ -62,17 +62,17 @@ Format & Zone = seconds
 ## Series Fields
 
 ```ls
-Excluded Fields = address,x_coordinate,y_coordinate,latitude,longitude
+Excluded Fields = address,address_line_2,x_coordinate,y_coordinate,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60620 t:program_model="Head Start Support Services" t:phone_number=7733965556 t:street_name=91ST t:state=IL t:agency="A.M. Bus Company" t:site_name="A.M. Bus Company" t:city=Chicago t:division="Children Services" t:ward=21 t:street_direction=W t:community_area=ROSELAND t:street_number=100 t:community_area_number=49 t:street_type=ST m:row_number.jmw7-ijg5=1
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60620 t:program_model="Head Start Support Services" t:street_name=91ST t:state=IL t:agency="A.M. Bus Company" t:site_name="A.M. Bus Company" t:phone_number.phone_number=7733965556 t:city=Chicago t:division="Children Services" t:ward=21 t:street_direction=W t:community_area=ROSELAND t:street_number=100 t:community_area_number=49 t:street_type=ST m:row_number.jmw7-ijg5=1
 
-series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60649 t:program_model="Child Care Only" t:phone_number=7732219711 t:street_name=EXCHANGE t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Ersula Howard" t:city=Chicago t:division="Children Services" t:ward=7 t:street_direction=S t:community_area="SOUTH SHORE" t:street_number=7222 t:community_area_number=43 t:street_type=AVE m:row_number.jmw7-ijg5=2
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60649 t:program_model="Child Care Only" t:street_name=EXCHANGE t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Ersula Howard" t:phone_number.phone_number=7732219711 t:city=Chicago t:division="Children Services" t:ward=7 t:street_direction=S t:community_area="SOUTH SHORE" t:street_number=7222 t:community_area_number=43 t:street_type=AVE m:row_number.jmw7-ijg5=2
 
-series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60653 t:program_model="Child Care Only" t:phone_number=7733738200 t:street_name=WABASH t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Maggie Drummond" t:city=Chicago t:division="Children Services" t:ward=3 t:street_direction=S t:community_area="GRAND BOULEVARD" t:street_number=4301 t:community_area_number=38 t:street_type=AVE m:row_number.jmw7-ijg5=3
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60653 t:program_model="Child Care Only" t:street_name=WABASH t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Maggie Drummond" t:phone_number.phone_number=7733738200 t:city=Chicago t:division="Children Services" t:ward=3 t:street_direction=S t:community_area="GRAND BOULEVARD" t:street_number=4301 t:community_area_number=38 t:street_type=AVE m:row_number.jmw7-ijg5=3
 ```
 
 ## Meta Commands
@@ -84,7 +84,7 @@ entity e:jmw7-ijg5 l:"Family and Support Services Delegate Agencies" t:attributi
 
 property e:jmw7-ijg5 t:meta.view v:id=jmw7-ijg5 v:category="Health & Human Services" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Family and Support Services Delegate Agencies" v:attribution="City of Chicago"
 
-property e:jmw7-ijg5 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:jmw7-ijg5 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:displayName="Jonathan Levy"
 
 property e:jmw7-ijg5 t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```

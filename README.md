@@ -465,6 +465,7 @@ Name | Category | Updated
 [DEQ Portland Metro Vehicle Inspection Stations](datasets/9x7t-w4u8.md) |     | 2015-02-04
 [Expenditures: OUS: Southern Oregon University: FY 2014](datasets/whnr-x36y.md) | Revenue & Expense | 2014-12-27
 [Floating Restroom Locations](datasets/pf2v-pv7v.md) | Recreation | 2014-10-20
+[IntelCorporation](datasets/kczx-tmjn.md) |     | 2014-04-23
 [New Business List - April](datasets/5qwt-pfng.md) | Business | 2016-05-02
 [Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)](datasets/tir3-qx9v.md) | Revenue & Expense | 2015-01-26
 [Oregon Recovery and Reinvestment Act Data - June, 2012](datasets/r74f-dpgp.md) | Revenue & Expense | 2012-08-08
@@ -515,6 +516,7 @@ Name | Category | Updated
 [Fire Incidents](datasets/wr8u-xric.md) | Public Safety | 2017-03-22
 [Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-22
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25
+[Lobbyists on Behalf of the City Disclosure Reports](datasets/sz7b-c3pn.md) | City Management and Ethics | 2016-11-16
 [Post- Employment Restriction Waivers](datasets/qwnt-35i6.md) | City Management and Ethics | 2016-05-25
 [Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-21
 [SF Development Pipeline 2016 Q2](datasets/g5sr-9nhs.md) | Housing and Buildings | 2016-08-15

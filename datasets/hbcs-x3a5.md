@@ -33,7 +33,7 @@ Current as of January 2017
 | Yes      | series tag     | city              | City                    | text      | text        |
 | Yes      | series tag     | zip               | County                  | text      | text        |
 | Yes      | numeric metric | county            | Zip                     | number    | text        |
-| Yes      | series tag     | phone             | Contact Number          | phone     | phone       |
+| Yes      | series tag     | phone             | Contact Number          | text      | phone       |
 | Yes      | numeric metric | license           | License #               | number    | text        |
 | Yes      | series tag     | dba               | License Expiration Date | html      | html        |
 ```
@@ -54,11 +54,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Cook t:phone_number="(630) 233-5010" t:dba=03/31/17 t:hospice_residence="Alexian Brothers Hospice" t:city="Elk Grove Village" m:county=60007 m:license=2002732
+series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Cook t:dba=03/31/17 t:hospice_residence="Alexian Brothers Hospice" t:phone.phone_number="(630) 233-5010" t:city="Elk Grove Village" m:county=60007 m:license=2002732
 
-series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Will t:phone_number="(815) 740-4104" t:dba=04/30/17 t:hospice_residence="Joliet Area Community Hospice, Inc." t:city=Joliet m:county=60431 m:license=2000340
+series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip=Will t:dba=04/30/17 t:hospice_residence="Joliet Area Community Hospice, Inc." t:phone.phone_number="(815) 740-4104" t:city=Joliet m:county=60431 m:license=2000340
 
-series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip="Mc Henry" t:phone_number="(847) 381-5599" t:dba=07/31/17 t:hospice_residence="JourneyCare, Inc." t:city=Woodstock m:county=60098 m:license=2000920
+series e:hbcs-x3a5 d:2017-01-06T18:36:56.000Z t:zip="Mc Henry" t:dba=07/31/17 t:hospice_residence="JourneyCare, Inc." t:phone.phone_number="(847) 381-5599" t:city=Woodstock m:county=60098 m:license=2000920
 ```
 
 ## Meta Commands
@@ -72,7 +72,7 @@ entity e:hbcs-x3a5 l:"IDPH Hospice Residence Facilities" t:attribution="Division
 
 property e:hbcs-x3a5 t:meta.view v:id=hbcs-x3a5 v:category="Public Health" v:attributionLink=http://www.idph.state.il.us/about/ohcr.htm v:averageRating=0 v:name="IDPH Hospice Residence Facilities" v:attribution="Division of Health Care Facilities and Programs"
 
-property e:hbcs-x3a5 t:meta.view.owner v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
+property e:hbcs-x3a5 t:meta.view.owner v:id=e75b-y6hv v:screenName=Jenny v:displayName=Jenny
 
 property e:hbcs-x3a5 t:meta.view.tableauthor v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
 ```
