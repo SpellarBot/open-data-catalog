@@ -25,46 +25,45 @@ Included in the data set are data elements that will help the public learn about
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type   |
-| ======== | ============== | =================== | =================== | ========= | ============= |
-| No       | time           | :updated_at         | updated_at          | meta_data | meta_data     |
-| No       |                | contract_start_date | Contract Start Date | text      | calendar_date |
-| No       |                | contract_end_date   | Contract End Date   | text      | calendar_date |
-| Yes      | series tag     | round_number        | Round Number        | text      | text          |
-| Yes      | series tag     | contract            | Contract Number     | text      | text          |
-| Yes      | numeric metric | contract_amount     | Contract Amount     | money     | money         |
-| Yes      | series tag     | elementary          | Elementary          | text      | text          |
-| Yes      | series tag     | middle_school       | Middle School       | text      | text          |
-| Yes      | series tag     | high_school         | High School         | text      | text          |
-| Yes      | numeric metric | mada_for_site       | MADA for Site       | number    | number        |
-| Yes      | series tag     | agency              | Agency              | text      | text          |
-| Yes      | series tag     | site_name           | Site Name           | text      | text          |
-| Yes      | series tag     | street_address      | Street Address      | text      | text          |
-| Yes      | series tag     | primary_city        | Primary City        | text      | text          |
-| Yes      | series tag     | zip_code            | ZIP Code            | text      | number        |
+| Included | Schema Type    | Field Name          | Name                | Data Type     | Render Type   |
+| ======== | ============== | =================== | =================== | ============= | ============= |
+| Yes      | time           | contract_start_date | Contract Start Date | calendar_date | calendar_date |
+| No       |                | contract_end_date   | Contract End Date   | calendar_date | calendar_date |
+| Yes      | series tag     | round_number        | Round Number        | text          | text          |
+| Yes      | series tag     | contract            | Contract Number     | text          | text          |
+| Yes      | numeric metric | contract_amount     | Contract Amount     | money         | money         |
+| Yes      | series tag     | elementary          | Elementary          | text          | text          |
+| Yes      | series tag     | middle_school       | Middle School       | text          | text          |
+| Yes      | series tag     | high_school         | High School         | text          | text          |
+| Yes      | numeric metric | mada_for_site       | MADA for Site       | number        | number        |
+| Yes      | series tag     | agency              | Agency              | text          | text          |
+| Yes      | series tag     | site_name           | Site Name           | text          | text          |
+| Yes      | series tag     | street_address      | Street Address      | text          | text          |
+| Yes      | series tag     | primary_city        | Primary City        | text          | text          |
+| Yes      | series tag     | zip_code            | ZIP Code            | text          | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = contract_start_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = contract_start_date,contract_end_date
+Excluded Fields = contract_end_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:ae9a-zs4q d:2016-02-18T06:43:39.000Z t:zip_code=14516 t:contract=C027297 t:agency="Wayne County Action Program" t:street_address="10456 Salter-Colvin Rd" t:site_name="North Rose/Wolcott Elementary" t:primary_city="North Rose" t:elementary=x t:round_number=9 m:mada_for_site=100 m:contract_amount=126041
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=14516 t:contract=C027297 t:agency="Wayne County Action Program" t:street_address="10456 Salter-Colvin Rd" t:site_name="North Rose/Wolcott Elementary" t:primary_city="North Rose" t:elementary=x t:round_number=9 m:mada_for_site=100 m:contract_amount=126041
 
-series e:ae9a-zs4q d:2016-02-18T06:43:39.000Z t:zip_code=14305 t:contract=C027331 t:high_school=x t:agency="People and Possibilities" t:street_address="4455 Porter Rd" t:site_name="Niagara Falls High School" t:primary_city="Niagara Falls" t:round_number=9 m:mada_for_site=80
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=14305 t:contract=C027331 t:high_school=x t:agency="People and Possibilities" t:street_address="4455 Porter Rd" t:site_name="Niagara Falls High School" t:primary_city="Niagara Falls" t:round_number=9 m:mada_for_site=80
 
-series e:ae9a-zs4q d:2016-02-18T06:43:39.000Z t:zip_code=12180 t:contract=C027330 t:agency="Catholic Charities of the Diocese of Albany" t:street_address="110 East Sunnyside Way" t:site_name="Sunnyside Center" t:primary_city=Troy t:elementary=x t:round_number=9 m:mada_for_site=80 m:contract_amount=110000
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=12180 t:contract=C027330 t:agency="Catholic Charities of the Diocese of Albany" t:street_address="110 East Sunnyside Way" t:site_name="Sunnyside Center" t:primary_city=Troy t:elementary=x t:round_number=9 m:mada_for_site=80 m:contract_amount=110000
 ```
 
 ## Meta Commands

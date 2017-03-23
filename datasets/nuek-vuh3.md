@@ -30,9 +30,9 @@ Fire Calls-For-Service includes all fire units responses to calls. Each record i
 | Yes      | series tag     | unit_id                        | Unit ID                        | text          | text          |
 | Yes      | series tag     | incident_number                | Incident Number                | text          | text          |
 | Yes      | series tag     | call_type                      | Call Type                      | text          | text          |
-| No       |                | call_date                      | Call Date                      | text          | calendar_date |
-| No       |                | watch_date                     | Watch Date                     | text          | calendar_date |
-| Yes      | time           | received_dttm                  | Received DtTm                  | calendar_date | calendar_date |
+| Yes      | time           | call_date                      | Call Date                      | calendar_date | calendar_date |
+| No       |                | watch_date                     | Watch Date                     | calendar_date | calendar_date |
+| No       |                | received_dttm                  | Received DtTm                  | calendar_date | calendar_date |
 | No       |                | entry_dttm                     | Entry DtTm                     | calendar_date | calendar_date |
 | No       |                | dispatch_dttm                  | Dispatch DtTm                  | calendar_date | calendar_date |
 | No       |                | response_dttm                  | Response DtTm                  | calendar_date | calendar_date |
@@ -64,24 +64,24 @@ Fire Calls-For-Service includes all fire units responses to calls. Each record i
 ## Time Field
 
 ```ls
-Value = received_dttm
+Value = call_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = call_date,watch_date,entry_dttm,dispatch_dttm,response_dttm,on_scene_dttm,transport_dttm,hospital_dttm,available_dttm,address
+Excluded Fields = watch_date,received_dttm,entry_dttm,dispatch_dttm,response_dttm,on_scene_dttm,transport_dttm,hospital_dttm,available_dttm,address
 ```
 
 ## Data Commands
 
 ```ls
-series e:nuek-vuh3 d:2014-09-05T03:15:13.000Z t:call_type_group=Alarm t:station_area=12 t:final_priority=3 t:neighborhood_district="Haight Ashbury" t:unit_id=B02 t:call_final_disposition=Fire t:incident_number=14086309 t:supervisor_district=5 t:city="San Francisco" t:als_unit=true t:zipcode_of_incident=94117 t:call_type=Alarms t:call_number=142480332 t:priority=3 t:original_priority=3 t:fire_prevention_district=5 t:battalion=B05 t:unit_type=CHIEF t:box=4525 t:rowid=142480332-B02 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=3
+series e:nuek-vuh3 d:2014-09-05T00:00:00.000Z t:call_type_group=Alarm t:station_area=12 t:final_priority=3 t:neighborhood_district="Haight Ashbury" t:unit_id=B02 t:call_final_disposition=Fire t:incident_number=14086309 t:supervisor_district=5 t:city="San Francisco" t:als_unit=true t:zipcode_of_incident=94117 t:call_type=Alarms t:call_number=142480332 t:priority=3 t:original_priority=3 t:fire_prevention_district=5 t:battalion=B05 t:unit_type=CHIEF t:box=4525 t:rowid=142480332-B02 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=3
 
-series e:nuek-vuh3 d:2015-10-29T15:39:06.000Z t:call_type_group=Alarm t:station_area=13 t:final_priority=3 t:neighborhood_district="Financial District/South Beach" t:unit_id=T02 t:call_final_disposition=Fire t:incident_number=15115908 t:supervisor_district=3 t:city="San Francisco" t:als_unit=false t:zipcode_of_incident=94111 t:call_type="Structure Fire" t:call_number=153022542 t:priority=3 t:original_priority=3 t:fire_prevention_district=1 t:battalion=B01 t:unit_type=TRUCK t:box=1155 t:rowid=153022542-T02 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=4
+series e:nuek-vuh3 d:2015-10-29T00:00:00.000Z t:call_type_group=Alarm t:station_area=13 t:final_priority=3 t:neighborhood_district="Financial District/South Beach" t:unit_id=T02 t:call_final_disposition=Fire t:incident_number=15115908 t:supervisor_district=3 t:city="San Francisco" t:als_unit=false t:zipcode_of_incident=94111 t:call_type="Structure Fire" t:call_number=153022542 t:priority=3 t:original_priority=3 t:fire_prevention_district=1 t:battalion=B01 t:unit_type=TRUCK t:box=1155 t:rowid=153022542-T02 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=4
 
-series e:nuek-vuh3 d:2014-12-11T09:02:07.000Z t:call_type_group="Potentially Life-Threatening" t:station_area=21 t:final_priority=3 t:neighborhood_district="Castro/Upper Market" t:unit_id=AM04 t:call_final_disposition="Code 2 Transport" t:incident_number=14122741 t:supervisor_district=8 t:city="San Francisco" t:als_unit=false t:zipcode_of_incident=94117 t:call_type="Medical Incident" t:call_number=143451112 t:priority=3 t:original_priority=3 t:fire_prevention_district=5 t:battalion=B05 t:unit_type=PRIVATE t:box=5136 t:rowid=143451112-AM04 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=1
+series e:nuek-vuh3 d:2014-12-11T00:00:00.000Z t:call_type_group="Potentially Life-Threatening" t:station_area=21 t:final_priority=3 t:neighborhood_district="Castro/Upper Market" t:unit_id=AM04 t:call_final_disposition="Code 2 Transport" t:incident_number=14122741 t:supervisor_district=8 t:city="San Francisco" t:als_unit=false t:zipcode_of_incident=94117 t:call_type="Medical Incident" t:call_number=143451112 t:priority=3 t:original_priority=3 t:fire_prevention_district=5 t:battalion=B05 t:unit_type=PRIVATE t:box=5136 t:rowid=143451112-AM04 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=1
 ```
 
 ## Meta Commands

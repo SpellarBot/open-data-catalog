@@ -25,21 +25,21 @@ Individual informal consumer complaint data detailing complaints filed with the 
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name                       | Name                       | Data Type | Render Type   |
-| ======== | =========== | ================================ | ========================== | ========= | ============= |
-| No       |             | id                               | Ticket ID                  | text      | number        |
-| Yes      | time        | ticket_created                   | Ticket Created             | date      | date          |
-| No       |             | issue_date                       | Date of Issue              | text      | calendar_date |
-| No       |             | issue_time                       | Time of Issue              | text      | text          |
-| Yes      | series tag  | issue_type                       | Form                       | text      | text          |
-| Yes      | series tag  | method                           | Method                     | text      | text          |
-| Yes      | series tag  | issue                            | Issue                      | text      | text          |
-| Yes      | series tag  | caller_id_number                 | Caller ID Number           | text      | text          |
-| Yes      | series tag  | type_of_call_or_messge           | Type of Call or Messge     | text      | text          |
-| Yes      | series tag  | advertiser_business_phone_number | Advertiser Business Number | text      | text          |
-| Yes      | series tag  | city                             | City                       | text      | text          |
-| Yes      | series tag  | state                            | State                      | text      | text          |
-| Yes      | series tag  | zip                              | Zip                        | text      | text          |
+| Included | Schema Type | Field Name                       | Name                       | Data Type     | Render Type   |
+| ======== | =========== | ================================ | ========================== | ============= | ============= |
+| No       |             | id                               | Ticket ID                  | text          | number        |
+| Yes      | time        | ticket_created                   | Ticket Created             | date          | date          |
+| No       |             | issue_date                       | Date of Issue              | calendar_date | calendar_date |
+| No       |             | issue_time                       | Time of Issue              | text          | text          |
+| Yes      | series tag  | issue_type                       | Form                       | text          | text          |
+| Yes      | series tag  | method                           | Method                     | text          | text          |
+| Yes      | series tag  | issue                            | Issue                      | text          | text          |
+| Yes      | series tag  | caller_id_number                 | Caller ID Number           | text          | text          |
+| Yes      | series tag  | type_of_call_or_messge           | Type of Call or Messge     | text          | text          |
+| Yes      | series tag  | advertiser_business_phone_number | Advertiser Business Number | text          | text          |
+| Yes      | series tag  | city                             | City                       | text          | text          |
+| Yes      | series tag  | state                            | State                      | text          | text          |
+| Yes      | series tag  | zip                              | Zip                        | text          | text          |
 ```
 
 ## Time Field

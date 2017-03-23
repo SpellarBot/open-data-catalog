@@ -31,7 +31,7 @@ This database is a yearly snapshot of deer kill sites as entered by Maintenance 
 | No       |                | calyear               | CALYEAR               | number    | number      |
 | No       |                | fiscal_year           | FISCAL_YEAR           | number    | number      |
 | No       |                | fy_quarter            | FY_QUARTER            | number    | number      |
-| No       |                | dk_date               | DK_DATE               | text      | date        |
+| Yes      | time           | dk_date               | DK_DATE               | date      | date        |
 | Yes      | series tag     | rms_county            | RMS_COUNTY            | text      | number      |
 | Yes      | series tag     | route_name            | ROUTE_NAME            | text      | text        |
 | Yes      | numeric metric | rms_milepost          | RMS_MILEPOST          | number    | number      |
@@ -49,24 +49,24 @@ This database is a yearly snapshot of deer kill sites as entered by Maintenance 
 ## Time Field
 
 ```ls
-Value = calyear-fy_quarter
-Format & Zone = yyyy-q
+Value = dk_date
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = fiscal_year,dk_date,latitude,longitude,calyear,fy_quarter
+Excluded Fields = fiscal_year,latitude,longitude,calyear,fy_quarter
 ```
 
 ## Data Commands
 
 ```ls
-series e:i6xa-cxa2 d:2008-01-01T00:00:00.000Z t:rms_county=40 t:sex=Female t:route_name="US 20 E" t:costcenter=551609 t:objectid=29498 t:district=1 m:rms_milepost=150 m:burial=1
+series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:rms_county=40 t:sex=Female t:route_name="US 20 E" t:costcenter=551609 t:objectid=29498 t:district=1 m:rms_milepost=150 m:burial=1
 
-series e:i6xa-cxa2 d:2008-01-01T00:00:00.000Z t:rms_county=38 t:sex=Female t:route_name="US 20 E" t:costcenter=551607 t:objectid=29499 t:district=1 m:rms_milepost=184.3 m:burial=1
+series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:rms_county=38 t:sex=Female t:route_name="US 20 E" t:costcenter=551607 t:objectid=29499 t:district=1 m:rms_milepost=184.3 m:burial=1
 
-series e:i6xa-cxa2 d:2008-01-01T00:00:00.000Z t:rms_county=22 t:sex=Female t:route_name="US 52 N" t:costcenter=552822 t:objectid=29500 t:district=2 m:rms_milepost=91.3 m:burial=1
+series e:i6xa-cxa2 d:2008-07-11T00:00:00.000Z t:rms_county=22 t:sex=Female t:route_name="US 52 N" t:costcenter=552822 t:objectid=29500 t:district=2 m:rms_milepost=91.3 m:burial=1
 ```
 
 ## Meta Commands

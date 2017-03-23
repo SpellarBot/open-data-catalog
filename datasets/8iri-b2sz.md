@@ -24,55 +24,55 @@ The Board of Supervisors passed Ordinance No. 53-15 requiring the San Francisco 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type   |
-| ======== | ============== | =================== | =================== | ========= | ============= |
-| Yes      | numeric metric | st_num              | ST_NUM              | number    | text          |
-| Yes      | series tag     | st_name             | ST_NAME             | text      | text          |
-| Yes      | series tag     | st_type             | ST_TYPE             | text      | text          |
-| Yes      | series tag     | apn                 | APN                 | text      | text          |
-| Yes      | numeric metric | units               | UNITS               | number    | number        |
-| Yes      | numeric metric | netunits_c          | NETUNITS_C          | number    | number        |
-| Yes      | numeric metric | aff_hsg             | AFF_HSG             | number    | number        |
-| Yes      | series tag     | aff_target          | AFF_TARGET          | text      | text          |
-| Yes      | series tag     | app_no              | APP_NO              | text      | text          |
-| Yes      | numeric metric | form                | FORM                | number    | number        |
-| Yes      | series tag     | ext_use             | EXT_USE             | text      | text          |
-| Yes      | series tag     | prop_use            | PROP_USE            | text      | text          |
-| Yes      | series tag     | action              | ACTION              | text      | text          |
-| No       |                | action_date         | ACTION_DATE         | text      | calendar_date |
-| Yes      | series tag     | bp_descript         | BP_DESCRIPT         | text      | text          |
-| Yes      | series tag     | staff               | STAFF               | text      | text          |
-| Yes      | time           | year                | YEAR                | number    | number        |
-| Yes      | series tag     | yr_qtr              | YR_QTR              | text      | text          |
-| Yes      | series tag     | pln_district_name   | PLN_DISTRICT_NAME   | text      | text          |
-| Yes      | series tag     | supdist             | SUPDIST             | text      | text          |
-| Yes      | series tag     | supervisor          | SUPERVISOR          | text      | number        |
-| Yes      | series tag     | height              | HEIGHT              | text      | text          |
-| Yes      | series tag     | zoning_sim          | ZONING_SIM          | text      | text          |
-| Yes      | series tag     | zoning_districtname | ZONING_DISTRICTNAME | text      | text          |
+| Included | Schema Type    | Field Name          | Name                | Data Type     | Render Type   |
+| ======== | ============== | =================== | =================== | ============= | ============= |
+| Yes      | numeric metric | st_num              | ST_NUM              | number        | text          |
+| Yes      | series tag     | st_name             | ST_NAME             | text          | text          |
+| Yes      | series tag     | st_type             | ST_TYPE             | text          | text          |
+| Yes      | series tag     | apn                 | APN                 | text          | text          |
+| Yes      | numeric metric | units               | UNITS               | number        | number        |
+| Yes      | numeric metric | netunits_c          | NETUNITS_C          | number        | number        |
+| Yes      | numeric metric | aff_hsg             | AFF_HSG             | number        | number        |
+| Yes      | series tag     | aff_target          | AFF_TARGET          | text          | text          |
+| Yes      | series tag     | app_no              | APP_NO              | text          | text          |
+| Yes      | numeric metric | form                | FORM                | number        | number        |
+| Yes      | series tag     | ext_use             | EXT_USE             | text          | text          |
+| Yes      | series tag     | prop_use            | PROP_USE            | text          | text          |
+| Yes      | series tag     | action              | ACTION              | text          | text          |
+| Yes      | time           | action_date         | ACTION_DATE         | calendar_date | calendar_date |
+| Yes      | series tag     | bp_descript         | BP_DESCRIPT         | text          | text          |
+| Yes      | series tag     | staff               | STAFF               | text          | text          |
+| No       |                | year                | YEAR                | number        | number        |
+| Yes      | series tag     | yr_qtr              | YR_QTR              | text          | text          |
+| Yes      | series tag     | pln_district_name   | PLN_DISTRICT_NAME   | text          | text          |
+| Yes      | series tag     | supdist             | SUPDIST             | text          | text          |
+| Yes      | series tag     | supervisor          | SUPERVISOR          | text          | number        |
+| Yes      | series tag     | height              | HEIGHT              | text          | text          |
+| Yes      | series tag     | zoning_sim          | ZONING_SIM          | text          | text          |
+| Yes      | series tag     | zoning_districtname | ZONING_DISTRICTNAME | text          | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = year
-Format & Zone = yyyy
+Value = action_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = action_date
+Excluded Fields = year
 ```
 
 ## Data Commands
 
 ```ls
-series e:8iri-b2sz d:2005-01-01T00:00:00.000Z t:height=40-X t:app_no=20000112908 t:supervisor=7 t:action="CFC ISSUED" t:pln_district_name="Inner Sunset" t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 7" t:st_name=KIRKHAM t:zoning_sim=RH-2 t:zoning_districtname="RESIDENTIAL- HOUSE, TWO FAMILY" t:apn="APN 1855052" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORY 2 FAMILY DWELLING UNIT" m:netunits_c=2 m:aff_hsg=0 m:form=2 m:st_num=507 m:units=0
+series e:8iri-b2sz d:2005-11-15T00:00:00.000Z t:height=40-X t:app_no=20000112908 t:supervisor=7 t:action="CFC ISSUED" t:pln_district_name="Inner Sunset" t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 7" t:st_name=KIRKHAM t:zoning_sim=RH-2 t:zoning_districtname="RESIDENTIAL- HOUSE, TWO FAMILY" t:apn="APN 1855052" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORY 2 FAMILY DWELLING UNIT" m:netunits_c=2 m:aff_hsg=0 m:form=2 m:st_num=507 m:units=0
 
-series e:8iri-b2sz d:2005-01-01T00:00:00.000Z t:height=40-X t:app_no=200002293001 t:supervisor=1 t:action="CFC ISSUED" t:pln_district_name=Richmond t:st_type=AV t:supdist="SUPERVISORIAL DISTRICT 1" t:st_name=02ND t:zoning_sim=RM-1 t:zoning_districtname="RESIDENTIAL- MIXED, LOW DENSITY" t:apn="APN 1433062" t:yr_qtr=2005_Q1 t:bp_descript="ERECT A THREE STORY THREE UNIT RESIDENTIAL BLDG" m:netunits_c=3 m:aff_hsg=0 m:form=2 m:st_num=330 m:units=0
+series e:8iri-b2sz d:2005-03-08T00:00:00.000Z t:height=40-X t:app_no=200002293001 t:supervisor=1 t:action="CFC ISSUED" t:pln_district_name=Richmond t:st_type=AV t:supdist="SUPERVISORIAL DISTRICT 1" t:st_name=02ND t:zoning_sim=RM-1 t:zoning_districtname="RESIDENTIAL- MIXED, LOW DENSITY" t:apn="APN 1433062" t:yr_qtr=2005_Q1 t:bp_descript="ERECT A THREE STORY THREE UNIT RESIDENTIAL BLDG" m:netunits_c=3 m:aff_hsg=0 m:form=2 m:st_num=330 m:units=0
 
-series e:8iri-b2sz d:2005-01-01T00:00:00.000Z t:height=65-X t:app_no=200003073664 t:supervisor=10 t:action="CFC ISSUED" t:pln_district_name=Mission t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 10" t:st_name=24TH t:zoning_sim=NCT t:zoning_districtname="24TH-MISSION NEIGHBORHOOD COMMERCIAL TRANSIT" t:apn="APN 4264025" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORIES, 6 UNITS DWELLING APARTMENTS" m:netunits_c=6 m:aff_hsg=0 m:form=2 m:st_num=2637 m:units=0
+series e:8iri-b2sz d:2005-12-06T00:00:00.000Z t:height=65-X t:app_no=200003073664 t:supervisor=10 t:action="CFC ISSUED" t:pln_district_name=Mission t:st_type=ST t:supdist="SUPERVISORIAL DISTRICT 10" t:st_name=24TH t:zoning_sim=NCT t:zoning_districtname="24TH-MISSION NEIGHBORHOOD COMMERCIAL TRANSIT" t:apn="APN 4264025" t:yr_qtr=2005_Q4 t:bp_descript="ERECT 4 STORIES, 6 UNITS DWELLING APARTMENTS" m:netunits_c=6 m:aff_hsg=0 m:form=2 m:st_num=2637 m:units=0
 ```
 
 ## Meta Commands

@@ -28,9 +28,9 @@ Fire Incidents includes a summary of each (non-medical) incident to which the SF
 | Yes      | series tag     | incident_number                              | Incident Number                              | text          | text          |
 | Yes      | series tag     | exposure_number                              | Exposure Number                              | text          | number        |
 | No       |                | address                                      | Address                                      | text          | text          |
-| No       |                | incident_date                                | Incident Date                                | text          | calendar_date |
+| Yes      | time           | incident_date                                | Incident Date                                | calendar_date | calendar_date |
 | Yes      | series tag     | call_number                                  | Call Number                                  | text          | text          |
-| Yes      | time           | alarm_dttm                                   | Alarm DtTm                                   | calendar_date | calendar_date |
+| No       |                | alarm_dttm                                   | Alarm DtTm                                   | calendar_date | calendar_date |
 | No       |                | arrival_dttm                                 | Arrival DtTm                                 | calendar_date | calendar_date |
 | No       |                | close_dttm                                   | Close DtTm                                   | calendar_date | calendar_date |
 | Yes      | series tag     | city                                         | City                                         | text          | text          |
@@ -92,24 +92,24 @@ Fire Incidents includes a summary of each (non-medical) incident to which the SF
 ## Time Field
 
 ```ls
-Value = alarm_dttm
+Value = incident_date
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = address,incident_date,arrival_dttm,close_dttm
+Excluded Fields = address,alarm_dttm,arrival_dttm,close_dttm
 ```
 
 ## Data Commands
 
 ```ls
-series e:wr8u-xric d:2009-04-12T18:09:13.000Z t:first_unit_on_scene=T15 t:primary_situation="551 - assist pd or other govern. agency" t:property_use="000 - property use, other" t:action_taken_other=- t:station_area=15 t:call_number=091020273 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="52 - forcible entry" t:action_taken_secondary=- t:incident_number=09030109 t:city=SF m:suppression_units=1 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=5 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2009-04-12T00:00:00.000Z t:first_unit_on_scene=T15 t:primary_situation="551 - assist pd or other govern. agency" t:property_use="000 - property use, other" t:action_taken_other=- t:station_area=15 t:call_number=091020273 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="52 - forcible entry" t:action_taken_secondary=- t:incident_number=09030109 t:city=SF m:suppression_units=1 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=5 m:fire_injuries=0 m:civilian_injuries=0
 
-series e:wr8u-xric d:2013-07-18T10:32:03.000Z t:first_unit_on_scene=E39 t:primary_situation="745 - alarm system sounded/no fire-accidental" t:property_use="429 - multifamily dwellings" t:action_taken_other=- t:station_area=39 t:call_number=131990117 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="86 - investigate" t:action_taken_secondary=- t:box=8571 t:incident_number=13067402 t:city=SF m:suppression_units=3 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=11 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2013-07-18T00:00:00.000Z t:first_unit_on_scene=E39 t:primary_situation="745 - alarm system sounded/no fire-accidental" t:property_use="429 - multifamily dwellings" t:action_taken_other=- t:station_area=39 t:call_number=131990117 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="86 - investigate" t:action_taken_secondary=- t:box=8571 t:incident_number=13067402 t:city=SF m:suppression_units=3 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=11 m:fire_injuries=0 m:civilian_injuries=0
 
-series e:wr8u-xric d:2012-05-13T03:55:37.000Z t:primary_situation="711 - municipal alarm system, street box false" t:property_use="963 - street or road in commercial area" t:station_area=01 t:mutual_aid=none t:zipcode=94103 t:detector_alerted_occupants=- t:neighborhood_district="South of Market" t:exposure_number=0 t:incident_number=12044490 t:supervisor_district=6 t:city=SF t:first_unit_on_scene=B03 t:action_taken_other=- t:call_number=121340051 t:battalion=B03 t:action_taken_secondary=- t:action_taken_primary="86 - investigate" m:suppression_units=3 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=10 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2012-05-13T00:00:00.000Z t:primary_situation="711 - municipal alarm system, street box false" t:property_use="963 - street or road in commercial area" t:station_area=01 t:mutual_aid=none t:zipcode=94103 t:detector_alerted_occupants=- t:neighborhood_district="South of Market" t:exposure_number=0 t:incident_number=12044490 t:supervisor_district=6 t:city=SF t:first_unit_on_scene=B03 t:action_taken_other=- t:call_number=121340051 t:battalion=B03 t:action_taken_secondary=- t:action_taken_primary="86 - investigate" m:suppression_units=3 m:other_personnel=0 m:ems_personnel=0 m:ems_units=0 m:civilian_fatalities=0 m:other_units=0 m:fire_fatalities=0 m:suppression_personnel=10 m:fire_injuries=0 m:civilian_injuries=0
 ```
 
 ## Meta Commands

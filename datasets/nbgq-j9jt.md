@@ -24,32 +24,32 @@ Click Here for further information- http://schools.nyc.gov/offices/d_chanc_oper/
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                                                                  | Name                                                                          | Data Type | Render Type   |
-| ======== | ============== | =========================================================================== | ============================================================================= | ========= | ============= |
-| Yes      | time           | fiscal_year                                                                 | Fiscal_Year                                                                   | number    | text          |
-| Yes      | series tag     | location                                                                    | Location                                                                      | text      | text          |
-| Yes      | numeric metric | total_column_n_fy14_actual_registers                                        | Total Column N: FY14 Actual Registers                                         | number    | number        |
-| Yes      | numeric metric | total_column_o_projected_register                                           | Total Column O: Projected Register                                            | number    | number        |
-| Yes      | numeric metric | total_column_p_projected_formula                                            | Total Column P: Projected Formula                                             | money     | money         |
-| Yes      | numeric metric | total_column_q_register_change                                              | Total Column Q: Register Change                                               | number    | number        |
-| Yes      | numeric metric | total_column_r_register_dollar_change                                       | Total Column R: Register Dollar Change                                        | money     | money         |
-| Yes      | numeric metric | weighted_register                                                           | Weighted Register                                                             | number    | number        |
-| Yes      | numeric metric | system_wide_teacher_salary_growth                                           | System-wide Teacher Salary Growth                                             | money     | money         |
-| Yes      | numeric metric | label_g_teacher_salary_growth                                               | Label g: Teacher Salary Growth                                                | money     | money         |
-| Yes      | numeric metric | foundation                                                                  | Foundation                                                                    | money     | money         |
-| Yes      | numeric metric | label_j_fy15_fair_student_formula_at_100                                    | Label j: FY15 Fair Student Formula at 100%                                    | money     | money         |
-| Yes      | numeric metric | label_a_fy14_revised_based_allocations                                      | Label a: FY14 Revised Based Allocations                                       | money     | money         |
-| Yes      | numeric metric | label_s_fair_student_funding_register_formula                               | Label s: Fair Student Funding Register Formula                                | money     | money         |
-| Yes      | numeric metric | label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100 | Label t: Change to Preliminary Fair Student Funding Percentage Capped at 100% | number    | number        |
-| Yes      | numeric metric | label_f_register_change_allocation_based_on_school_s_percent_of_formula     | Label f: Register Change Allocation Based on School's Percent of Formula      | money     | money         |
-| Yes      | numeric metric | label_g_teacher_salary_growth_2                                             | Label g: Teacher Salary Growth 2                                              | money     | money         |
-| Yes      | numeric metric | label_h_foundation_for_new_schools                                          | Label h: Foundation for New Schools                                           | money     | money         |
-| Yes      | numeric metric | label_d_initial_fair_student_funding_allocations_total                      | Label d: Initial Fair Student Funding Allocations Total                       | money     | money         |
-| Yes      | numeric metric | calculation_j_initial_fair_student_funding_allocations_total                | Calculation j: Initial Fair Student Funding Allocations Total                 | money     | money         |
-| Yes      | numeric metric | calculation_j_foundation                                                    | Calculation j: Foundation                                                     | money     | money         |
-| Yes      | numeric metric | label_w_final_school_fsf_percent                                            | Label w: Final School FSF Percent                                             | number    | number        |
-| Yes      | numeric metric | calculation_j_fsf_formula_at_100                                            | Calculation j: FSF Formula at 100%                                            | money     | money         |
-| No       |                | as_of_date                                                                  | As_Of_Date                                                                    | text      | calendar_date |
+| Included | Schema Type    | Field Name                                                                  | Name                                                                          | Data Type     | Render Type   |
+| ======== | ============== | =========================================================================== | ============================================================================= | ============= | ============= |
+| Yes      | time           | fiscal_year                                                                 | Fiscal_Year                                                                   | number        | text          |
+| Yes      | series tag     | location                                                                    | Location                                                                      | text          | text          |
+| Yes      | numeric metric | total_column_n_fy14_actual_registers                                        | Total Column N: FY14 Actual Registers                                         | number        | number        |
+| Yes      | numeric metric | total_column_o_projected_register                                           | Total Column O: Projected Register                                            | number        | number        |
+| Yes      | numeric metric | total_column_p_projected_formula                                            | Total Column P: Projected Formula                                             | money         | money         |
+| Yes      | numeric metric | total_column_q_register_change                                              | Total Column Q: Register Change                                               | number        | number        |
+| Yes      | numeric metric | total_column_r_register_dollar_change                                       | Total Column R: Register Dollar Change                                        | money         | money         |
+| Yes      | numeric metric | weighted_register                                                           | Weighted Register                                                             | number        | number        |
+| Yes      | numeric metric | system_wide_teacher_salary_growth                                           | System-wide Teacher Salary Growth                                             | money         | money         |
+| Yes      | numeric metric | label_g_teacher_salary_growth                                               | Label g: Teacher Salary Growth                                                | money         | money         |
+| Yes      | numeric metric | foundation                                                                  | Foundation                                                                    | money         | money         |
+| Yes      | numeric metric | label_j_fy15_fair_student_formula_at_100                                    | Label j: FY15 Fair Student Formula at 100%                                    | money         | money         |
+| Yes      | numeric metric | label_a_fy14_revised_based_allocations                                      | Label a: FY14 Revised Based Allocations                                       | money         | money         |
+| Yes      | numeric metric | label_s_fair_student_funding_register_formula                               | Label s: Fair Student Funding Register Formula                                | money         | money         |
+| Yes      | numeric metric | label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100 | Label t: Change to Preliminary Fair Student Funding Percentage Capped at 100% | number        | number        |
+| Yes      | numeric metric | label_f_register_change_allocation_based_on_school_s_percent_of_formula     | Label f: Register Change Allocation Based on School's Percent of Formula      | money         | money         |
+| Yes      | numeric metric | label_g_teacher_salary_growth_2                                             | Label g: Teacher Salary Growth 2                                              | money         | money         |
+| Yes      | numeric metric | label_h_foundation_for_new_schools                                          | Label h: Foundation for New Schools                                           | money         | money         |
+| Yes      | numeric metric | label_d_initial_fair_student_funding_allocations_total                      | Label d: Initial Fair Student Funding Allocations Total                       | money         | money         |
+| Yes      | numeric metric | calculation_j_initial_fair_student_funding_allocations_total                | Calculation j: Initial Fair Student Funding Allocations Total                 | money         | money         |
+| Yes      | numeric metric | calculation_j_foundation                                                    | Calculation j: Foundation                                                     | money         | money         |
+| Yes      | numeric metric | label_w_final_school_fsf_percent                                            | Label w: Final School FSF Percent                                             | number        | number        |
+| Yes      | numeric metric | calculation_j_fsf_formula_at_100                                            | Calculation j: FSF Formula at 100%                                            | money         | money         |
+| No       |                | as_of_date                                                                  | As_Of_Date                                                                    | calendar_date | calendar_date |
 ```
 
 ## Time Field

@@ -29,41 +29,40 @@ These permits are prepared by the Division of Air Resources regional staff.
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name         | Name               | Data Type | Render Type   |
-| ======== | =========== | ================== | ================== | ========= | ============= |
-| No       | time        | :updated_at        | updated_at         | meta_data | meta_data     |
-| Yes      | series tag  | facility_name      | FACILITY NAME      | text      | text          |
-| Yes      | series tag  | permit_id          | PERMIT ID          | text      | text          |
-| Yes      | series tag  | url_to_permit_text | URL TO PERMIT TEXT | url       | url           |
-| Yes      | series tag  | facility_location  | FACILITY LOCATION  | text      | text          |
-| Yes      | series tag  | facility_city      | FACILITY CITY      | text      | text          |
-| Yes      | series tag  | facility_state     | FACILITY STATE     | text      | text          |
-| Yes      | series tag  | facility_zip       | FACILITY ZIP       | text      | number        |
-| No       |             | issue_date         | ISSUE DATE         | text      | calendar_date |
-| No       |             | expiration_date    | EXPIRATION DATE    | text      | calendar_date |
+| Included | Schema Type | Field Name         | Name               | Data Type     | Render Type   |
+| ======== | =========== | ================== | ================== | ============= | ============= |
+| Yes      | series tag  | facility_name      | FACILITY NAME      | text          | text          |
+| Yes      | series tag  | permit_id          | PERMIT ID          | text          | text          |
+| Yes      | series tag  | url_to_permit_text | URL TO PERMIT TEXT | url           | url           |
+| Yes      | series tag  | facility_location  | FACILITY LOCATION  | text          | text          |
+| Yes      | series tag  | facility_city      | FACILITY CITY      | text          | text          |
+| Yes      | series tag  | facility_state     | FACILITY STATE     | text          | text          |
+| Yes      | series tag  | facility_zip       | FACILITY ZIP       | text          | number        |
+| Yes      | time        | issue_date         | ISSUE DATE         | calendar_date | calendar_date |
+| No       |             | expiration_date    | EXPIRATION DATE    | calendar_date | calendar_date |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = issue_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = issue_date,expiration_date
+Excluded Fields = expiration_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:4n3a-en4b d:2015-11-27T15:00:29.000Z t:facility_city=FREEPORT t:permit_id=1-2820-00358/00002 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf t:facility_name="FREEPORT POWER PLANT #2" t:facility_zip=11520 t:facility_location="289 BUFFALO AVE" t:facility_state=NY m:row_number.4n3a-en4b=1
+series e:4n3a-en4b d:2009-05-15T00:00:00.000Z t:facility_city=FREEPORT t:permit_id=1-2820-00358/00002 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf t:facility_name="FREEPORT POWER PLANT #2" t:facility_zip=11520 t:facility_location="289 BUFFALO AVE" t:facility_state=NY m:row_number.4n3a-en4b=1
 
-series e:4n3a-en4b d:2015-11-27T15:00:29.000Z t:facility_city=HEMPSTEAD t:permit_id=1-2820-00457/00003 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf t:facility_name="HOFSTRA UNIVERSITY" t:facility_zip=11550 t:facility_location="1000 FULTON AVE" t:facility_state=NY m:row_number.4n3a-en4b=2
+series e:4n3a-en4b d:2013-04-24T00:00:00.000Z t:facility_city=HEMPSTEAD t:permit_id=1-2820-00457/00003 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf t:facility_name="HOFSTRA UNIVERSITY" t:facility_zip=11550 t:facility_location="1000 FULTON AVE" t:facility_state=NY m:row_number.4n3a-en4b=2
 
-series e:4n3a-en4b d:2015-11-27T15:00:29.000Z t:facility_city="ISLAND PARK" t:permit_id=1-2820-00553/00025 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf t:facility_name="EF BARRETT POWER STATION" t:facility_zip=11558 t:facility_location="1 MCCARTHY RD" t:facility_state=NY m:row_number.4n3a-en4b=3
+series e:4n3a-en4b d:2011-02-24T00:00:00.000Z t:facility_city="ISLAND PARK" t:permit_id=1-2820-00553/00025 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf t:facility_name="EF BARRETT POWER STATION" t:facility_zip=11558 t:facility_location="1 MCCARTHY RD" t:facility_state=NY m:row_number.4n3a-en4b=3
 ```
 
 ## Meta Commands

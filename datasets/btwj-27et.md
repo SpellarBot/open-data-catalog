@@ -24,36 +24,35 @@ Codes in this group are not on the Prioritized List.  They are conditions that a
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name     | Name           | Data Type | Render Type   |
-| ======== | =========== | ============== | ============== | ========= | ============= |
-| No       | time        | :updated_at    | updated_at     | meta_data | meta_data     |
-| Yes      | series tag  | code           | Code           | text      | text          |
-| No       |             | effective_date | Effective Date | text      | calendar_date |
-| No       |             | end_date       | End Date       | text      | calendar_date |
-| No       |             | file_date      | File Date      | text      | calendar_date |
+| Included | Schema Type | Field Name     | Name           | Data Type     | Render Type   |
+| ======== | =========== | ============== | ============== | ============= | ============= |
+| Yes      | series tag  | code           | Code           | text          | text          |
+| Yes      | time        | effective_date | Effective Date | calendar_date | calendar_date |
+| No       |             | end_date       | End Date       | calendar_date | calendar_date |
+| No       |             | file_date      | File Date      | calendar_date | calendar_date |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = effective_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = effective_date,end_date,file_date
+Excluded Fields = end_date,file_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:btwj-27et d:2016-12-05T22:17:34.000Z t:code=K0856 m:row_number.btwj-27et=1
+series e:btwj-27et d:2015-10-01T00:00:00.000Z t:code=K0856 m:row_number.btwj-27et=1
 
-series e:btwj-27et d:2016-12-05T22:17:34.000Z t:code=N4601 m:row_number.btwj-27et=2
+series e:btwj-27et d:2015-10-01T00:00:00.000Z t:code=N4601 m:row_number.btwj-27et=2
 
-series e:btwj-27et d:2016-12-05T22:17:34.000Z t:code=N46021 m:row_number.btwj-27et=3
+series e:btwj-27et d:2015-10-01T00:00:00.000Z t:code=N46021 m:row_number.btwj-27et=3
 ```
 
 ## Meta Commands

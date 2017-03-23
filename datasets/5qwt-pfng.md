@@ -24,49 +24,48 @@ Businesses registered with the Secretary of State Corporation Division during th
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name                  | Name                        | Data Type | Render Type   |
-| ======== | =========== | =========================== | =========================== | ========= | ============= |
-| No       | time        | :updated_at                 | updated_at                  | meta_data | meta_data     |
-| Yes      | series tag  | registry_number             | Registry Number             | text      | text          |
-| Yes      | series tag  | business_name               | Business Name               | text      | text          |
-| Yes      | series tag  | entity_type                 | Entity Type                 | text      | text          |
-| No       |             | registry_date               | Registry Date               | text      | calendar_date |
-| Yes      | series tag  | associated_name_type        | Associated Name Type        | text      | text          |
-| Yes      | series tag  | first_name                  | First Name                  | text      | text          |
-| Yes      | series tag  | middle_name                 | Middle Name                 | text      | text          |
-| Yes      | series tag  | last_name                   | Last Name                   | text      | text          |
-| Yes      | series tag  | suffix                      | Suffix                      | text      | text          |
-| Yes      | series tag  | entity_of_record_reg_number | Entity of Record Reg Number | text      | text          |
-| Yes      | series tag  | not_of_record_entity        | Not of Record Entity        | text      | text          |
-| Yes      | series tag  | entity_of_record_name       | Entity of Record Name       | text      | text          |
-| No       |             | address                     | Address                     | text      | text          |
-| No       |             | address_continued           | Address Continued           | text      | text          |
-| Yes      | series tag  | city                        | City                        | text      | text          |
-| Yes      | series tag  | state                       | State                       | text      | text          |
-| Yes      | series tag  | zip_code                    | Zip Code                    | text      | text          |
+| Included | Schema Type | Field Name                  | Name                        | Data Type     | Render Type   |
+| ======== | =========== | =========================== | =========================== | ============= | ============= |
+| Yes      | series tag  | registry_number             | Registry Number             | text          | text          |
+| Yes      | series tag  | business_name               | Business Name               | text          | text          |
+| Yes      | series tag  | entity_type                 | Entity Type                 | text          | text          |
+| Yes      | time        | registry_date               | Registry Date               | calendar_date | calendar_date |
+| Yes      | series tag  | associated_name_type        | Associated Name Type        | text          | text          |
+| Yes      | series tag  | first_name                  | First Name                  | text          | text          |
+| Yes      | series tag  | middle_name                 | Middle Name                 | text          | text          |
+| Yes      | series tag  | last_name                   | Last Name                   | text          | text          |
+| Yes      | series tag  | suffix                      | Suffix                      | text          | text          |
+| Yes      | series tag  | entity_of_record_reg_number | Entity of Record Reg Number | text          | text          |
+| Yes      | series tag  | not_of_record_entity        | Not of Record Entity        | text          | text          |
+| Yes      | series tag  | entity_of_record_name       | Entity of Record Name       | text          | text          |
+| No       |             | address                     | Address                     | text          | text          |
+| No       |             | address_continued           | Address Continued           | text          | text          |
+| Yes      | series tag  | city                        | City                        | text          | text          |
+| Yes      | series tag  | state                       | State                       | text          | text          |
+| Yes      | series tag  | zip_code                    | Zip Code                    | text          | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = registry_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = registry_date,address,address_continued
+Excluded Fields = address,address_continued
 ```
 
 ## Data Commands
 
 ```ls
-series e:5qwt-pfng d:2016-05-02T13:13:24.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="AUTHORIZED REPRESENTATIVE" t:entity_of_record_name="C T CORPORATION SYSTEM" t:zip_code=97301 t:state=OR t:entity_type="ASSUMED BUSINESS NAME" t:entity_of_record_reg_number=329227 t:city=SALEM t:registry_number=120367297 m:row_number.5qwt-pfng=1
+series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="AUTHORIZED REPRESENTATIVE" t:entity_of_record_name="C T CORPORATION SYSTEM" t:zip_code=97301 t:state=OR t:entity_type="ASSUMED BUSINESS NAME" t:entity_of_record_reg_number=329227 t:city=SALEM t:registry_number=120367297 m:row_number.5qwt-pfng=1
 
-series e:5qwt-pfng d:2016-05-02T13:13:24.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="PRINCIPAL PLACE OF BUSINESS" t:zip_code=90670 t:state=CA t:entity_type="ASSUMED BUSINESS NAME" t:city="SANTA FE SPRINGS" t:registry_number=120367297 m:row_number.5qwt-pfng=2
+series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="PRINCIPAL PLACE OF BUSINESS" t:zip_code=90670 t:state=CA t:entity_type="ASSUMED BUSINESS NAME" t:city="SANTA FE SPRINGS" t:registry_number=120367297 m:row_number.5qwt-pfng=2
 
-series e:5qwt-pfng d:2016-05-02T13:13:24.000Z t:business_name="AMBROSIA FARMS QUARTZ CREEK, LLC" t:associated_name_type="MAILING ADDRESS" t:zip_code=97532 t:state=OR t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=MERLIN t:registry_number=120350798 m:row_number.5qwt-pfng=3
+series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="AMBROSIA FARMS QUARTZ CREEK, LLC" t:associated_name_type="MAILING ADDRESS" t:zip_code=97532 t:state=OR t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=MERLIN t:registry_number=120350798 m:row_number.5qwt-pfng=3
 ```
 
 ## Meta Commands

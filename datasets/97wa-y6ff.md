@@ -25,44 +25,43 @@ List of City of Chicago licensed Public Chauffeurs, who may operate a licensed T
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name    | Name                | Data Type | Render Type   |
-| ======== | =========== | ============= | =================== | ========= | ============= |
-| No       | time        | :updated_at   | updated_at          | meta_data | meta_data     |
-| Yes      | series tag  | license       | License Number      | text      | number        |
-| Yes      | series tag  | renewed       | Renewed             | text      | text          |
-| Yes      | series tag  | status        | Status              | text      | text          |
-| No       |             | status_date   | Status Date         | text      | calendar_date |
-| Yes      | series tag  | driver_type   | Driver Type         | text      | text          |
-| Yes      | series tag  | license_type  | License Type        | text      | text          |
-| No       |             | issue_date    | Original Issue Date | text      | calendar_date |
-| Yes      | series tag  | name          | Name                | text      | text          |
-| Yes      | series tag  | sex           | Sex                 | text      | text          |
-| Yes      | series tag  | city          | Chauffeur City      | text      | text          |
-| Yes      | series tag  | state         | Chauffeur State     | text      | text          |
-| Yes      | series tag  | record_number | Record Number       | text      | text          |
+| Included | Schema Type | Field Name    | Name                | Data Type     | Render Type   |
+| ======== | =========== | ============= | =================== | ============= | ============= |
+| Yes      | series tag  | license       | License Number      | text          | number        |
+| Yes      | series tag  | renewed       | Renewed             | text          | text          |
+| Yes      | series tag  | status        | Status              | text          | text          |
+| Yes      | time        | status_date   | Status Date         | calendar_date | calendar_date |
+| Yes      | series tag  | driver_type   | Driver Type         | text          | text          |
+| Yes      | series tag  | license_type  | License Type        | text          | text          |
+| No       |             | issue_date    | Original Issue Date | calendar_date | calendar_date |
+| Yes      | series tag  | name          | Name                | text          | text          |
+| Yes      | series tag  | sex           | Sex                 | text          | text          |
+| Yes      | series tag  | city          | Chauffeur City      | text          | text          |
+| Yes      | series tag  | state         | Chauffeur State     | text          | text          |
+| Yes      | series tag  | record_number | Record Number       | text          | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = status_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = status_date,issue_date
+Excluded Fields = issue_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:97wa-y6ff d:2016-05-09T07:31:48.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="RICE, WENDELL C" t:state=IL t:license=91227 t:driver_type="Livery Only" t:record_number=08-00563280 t:city=CHICAGO m:row_number.97wa-y6ff=1
+series e:97wa-y6ff d:2015-05-18T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="RICE, WENDELL C" t:state=IL t:license=91227 t:driver_type="Livery Only" t:record_number=08-00563280 t:city=CHICAGO m:row_number.97wa-y6ff=1
 
-series e:97wa-y6ff d:2016-05-09T09:31:37.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="HABTU, KIDANE M" t:state=IL t:license=98363 t:driver_type=Taxi t:record_number=13-00393656 t:city=CHICAGO m:row_number.97wa-y6ff=2
+series e:97wa-y6ff d:2016-05-09T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="HABTU, KIDANE M" t:state=IL t:license=98363 t:driver_type=Taxi t:record_number=13-00393656 t:city=CHICAGO m:row_number.97wa-y6ff=2
 
-series e:97wa-y6ff d:2016-05-09T09:31:37.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="ABDALLAH OU ALI, OMAR AIT" t:state=IL t:license=94026 t:driver_type=Taxi t:record_number=10-00180783 t:city=ROSEMONT m:row_number.97wa-y6ff=3
+series e:97wa-y6ff d:2014-05-02T00:00:00.000Z t:renewed=05/2016 t:sex=MALE t:license_type=PERMANENT t:status=ACTIVE t:name="ABDALLAH OU ALI, OMAR AIT" t:state=IL t:license=94026 t:driver_type=Taxi t:record_number=10-00180783 t:city=ROSEMONT m:row_number.97wa-y6ff=3
 ```
 
 ## Meta Commands

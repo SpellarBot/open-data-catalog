@@ -25,39 +25,39 @@ Campaign consultants must report economic consideration promised to or received 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name             | Name                   | Data Type | Render Type   |
-| ======== | ============== | ====================== | ====================== | ========= | ============= |
-| Yes      | series tag     | consultant             | Consultant             | text      | text          |
-| Yes      | series tag     | vendor_sub_vendor_name | Vendor/Sub-vendor Name | text      | text          |
-| Yes      | numeric metric | payments_promised      | Payments promised      | money     | money         |
-| Yes      | numeric metric | payments_received      | Payments received      | money     | money         |
-| No       |                | quarter_start_date     | Quarter Start Date     | text      | calendar_date |
-| No       |                | quarter_end_date       | Quarter End Date       | text      | calendar_date |
-| No       |                | quarter                | Quarter                | number    | text          |
-| No       |                | year                   | Year                   | number    | text          |
+| Included | Schema Type    | Field Name             | Name                   | Data Type     | Render Type   |
+| ======== | ============== | ====================== | ====================== | ============= | ============= |
+| Yes      | series tag     | consultant             | Consultant             | text          | text          |
+| Yes      | series tag     | vendor_sub_vendor_name | Vendor/Sub-vendor Name | text          | text          |
+| Yes      | numeric metric | payments_promised      | Payments promised      | money         | money         |
+| Yes      | numeric metric | payments_received      | Payments received      | money         | money         |
+| Yes      | time           | quarter_start_date     | Quarter Start Date     | calendar_date | calendar_date |
+| No       |                | quarter_end_date       | Quarter End Date       | calendar_date | calendar_date |
+| No       |                | quarter                | Quarter                | number        | text          |
+| No       |                | year                   | Year                   | number        | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = year-quarter
-Format & Zone = yyyy-q
+Value = quarter_start_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = quarter_start_date,quarter_end_date,year,quarter
+Excluded Fields = quarter_end_date,quarter,year
 ```
 
 ## Data Commands
 
 ```ls
-series e:ewuz-v3y2 d:2016-04-01T00:00:00.000Z t:consultant="Muir Consulting" t:vendor_sub_vendor_name="Spot On" m:payments_received=3250 m:payments_promised=3250
+series e:ewuz-v3y2 d:2016-03-01T00:00:00.000Z t:consultant="Muir Consulting" t:vendor_sub_vendor_name="Spot On" m:payments_received=3250 m:payments_promised=3250
 
-series e:ewuz-v3y2 d:2014-10-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Pacific Print Resource" m:payments_received=630.5 m:payments_promised=630.5
+series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Pacific Print Resource" m:payments_received=630.5 m:payments_promised=630.5
 
-series e:ewuz-v3y2 d:2014-10-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Lizard Press" m:payments_received=875 m:payments_promised=875
+series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Lizard Press" m:payments_received=875 m:payments_promised=875
 ```
 
 ## Meta Commands

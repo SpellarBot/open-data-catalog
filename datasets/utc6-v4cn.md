@@ -25,41 +25,34 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type   |
-| ======== | ============== | ==================== | ==================== | ========= | ============= |
-| No       | time           | :updated_at          | updated_at           | meta_data | meta_data     |
-| Yes      | series tag     | authority_name       | Authority Name       | text      | text          |
-| No       |                | fiscal_year_end_date | Fiscal Year End Date | text      | calendar_date |
-| Yes      | series tag     | has_outstanding_debt | Has Outstanding Debt | text      | text          |
-| Yes      | series tag     | type_of_debt         | Type Of Debt         | text      | text          |
-| Yes      | series tag     | debt_program         | Debt Program         | text      | text          |
-| Yes      | numeric metric | begin_amount_total   | Begin Amount Total   | money     | money         |
-| Yes      | numeric metric | new_debt_issuance    | New Debt Issuance    | money     | money         |
-| Yes      | numeric metric | amount_retired       | Amount Retired       | money     | money         |
-| Yes      | numeric metric | end_amount_total     | End Amount Total     | money     | money         |
+| Included | Schema Type    | Field Name           | Name                 | Data Type     | Render Type   |
+| ======== | ============== | ==================== | ==================== | ============= | ============= |
+| Yes      | series tag     | authority_name       | Authority Name       | text          | text          |
+| Yes      | time           | fiscal_year_end_date | Fiscal Year End Date | calendar_date | calendar_date |
+| Yes      | series tag     | has_outstanding_debt | Has Outstanding Debt | text          | text          |
+| Yes      | series tag     | type_of_debt         | Type Of Debt         | text          | text          |
+| Yes      | series tag     | debt_program         | Debt Program         | text          | text          |
+| Yes      | numeric metric | begin_amount_total   | Begin Amount Total   | money         | money         |
+| Yes      | numeric metric | new_debt_issuance    | New Debt Issuance    | money         | money         |
+| Yes      | numeric metric | amount_retired       | Amount Retired       | money         | money         |
+| Yes      | numeric metric | end_amount_total     | End Amount Total     | money         | money         |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Excluded Fields = fiscal_year_end_date
+Value = fiscal_year_end_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Data Commands
 
 ```ls
-series e:utc6-v4cn d:2016-11-03T22:04:47.000Z t:authority_name="ATC of Buffalo and Erie County, Inc." t:type_of_debt="Authority Debt - Other" t:debt_program="Other Non-State Funded" m:end_amount_total=0 m:begin_amount_total=4588557 m:new_debt_issuance=0 m:amount_retired=4588557
+series e:utc6-v4cn d:2011-12-31T00:00:00.000Z t:authority_name="ATC of Buffalo and Erie County, Inc." t:type_of_debt="Authority Debt - Other" t:debt_program="Other Non-State Funded" m:end_amount_total=0 m:begin_amount_total=4588557 m:new_debt_issuance=0 m:amount_retired=4588557
 
-series e:utc6-v4cn d:2016-11-03T22:04:47.000Z t:authority_name="Albany County Capital Resource Corporation" t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" m:end_amount_total=87953506 m:begin_amount_total=0 m:new_debt_issuance=88000000 m:amount_retired=46494
+series e:utc6-v4cn d:2014-12-31T00:00:00.000Z t:authority_name="Albany County Capital Resource Corporation" t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" m:end_amount_total=87953506 m:begin_amount_total=0 m:new_debt_issuance=88000000 m:amount_retired=46494
 
-series e:utc6-v4cn d:2016-11-03T22:04:47.000Z t:authority_name="Albany County Capital Resource Corporation" t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" m:end_amount_total=178592467 m:begin_amount_total=87953506 m:new_debt_issuance=90638961 m:amount_retired=0
+series e:utc6-v4cn d:2015-12-31T00:00:00.000Z t:authority_name="Albany County Capital Resource Corporation" t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" m:end_amount_total=178592467 m:begin_amount_total=87953506 m:new_debt_issuance=90638961 m:amount_retired=0
 ```
 
 ## Meta Commands

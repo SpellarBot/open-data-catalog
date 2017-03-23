@@ -31,50 +31,49 @@ Data Owner: Transportation. Time Period: All open requests and all completed req
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                         | Name                               | Data Type | Render Type   |
-| ======== | ============== | ================================== | ================================== | ========= | ============= |
-| No       | time           | :updated_at                        | updated_at                         | meta_data | meta_data     |
-| No       |                | creation_date                      | CREATION DATE                      | text      | calendar_date |
-| Yes      | series tag     | status                             | STATUS                             | text      | text          |
-| No       |                | completion_date                    | COMPLETION DATE                    | text      | calendar_date |
-| Yes      | series tag     | service_request_number             | SERVICE REQUEST NUMBER             | text      | text          |
-| Yes      | series tag     | type_of_service_request            | TYPE OF SERVICE REQUEST            | text      | text          |
-| Yes      | series tag     | current_activity                   | CURRENT ACTIVITY                   | text      | text          |
-| Yes      | series tag     | most_recent_action                 | MOST RECENT ACTION                 | text      | text          |
-| Yes      | numeric metric | number_of_potholes_filled_on_block | NUMBER OF POTHOLES FILLED ON BLOCK | number    | number        |
-| Yes      | series tag     | street_address                     | STREET ADDRESS                     | text      | text          |
-| Yes      | series tag     | zip                                | ZIP                                | text      | number        |
-| No       |                | x_coordinate                       | X COORDINATE                       | number    | number        |
-| No       |                | y_coordinate                       | Y COORDINATE                       | number    | number        |
-| Yes      | series tag     | ward                               | Ward                               | text      | number        |
-| Yes      | series tag     | police_district                    | Police District                    | text      | number        |
-| Yes      | series tag     | community_area                     | Community Area                     | text      | number        |
-| Yes      | series tag     | ssa                                | SSA                                | text      | text          |
-| Yes      | numeric metric | latitude                           | LATITUDE                           | number    | number        |
-| Yes      | numeric metric | longitude                          | LONGITUDE                          | number    | number        |
+| Included | Schema Type    | Field Name                         | Name                               | Data Type     | Render Type   |
+| ======== | ============== | ================================== | ================================== | ============= | ============= |
+| Yes      | time           | creation_date                      | CREATION DATE                      | calendar_date | calendar_date |
+| Yes      | series tag     | status                             | STATUS                             | text          | text          |
+| No       |                | completion_date                    | COMPLETION DATE                    | calendar_date | calendar_date |
+| Yes      | series tag     | service_request_number             | SERVICE REQUEST NUMBER             | text          | text          |
+| Yes      | series tag     | type_of_service_request            | TYPE OF SERVICE REQUEST            | text          | text          |
+| Yes      | series tag     | current_activity                   | CURRENT ACTIVITY                   | text          | text          |
+| Yes      | series tag     | most_recent_action                 | MOST RECENT ACTION                 | text          | text          |
+| Yes      | numeric metric | number_of_potholes_filled_on_block | NUMBER OF POTHOLES FILLED ON BLOCK | number        | number        |
+| Yes      | series tag     | street_address                     | STREET ADDRESS                     | text          | text          |
+| Yes      | series tag     | zip                                | ZIP                                | text          | number        |
+| No       |                | x_coordinate                       | X COORDINATE                       | number        | number        |
+| No       |                | y_coordinate                       | Y COORDINATE                       | number        | number        |
+| Yes      | series tag     | ward                               | Ward                               | text          | number        |
+| Yes      | series tag     | police_district                    | Police District                    | text          | number        |
+| Yes      | series tag     | community_area                     | Community Area                     | text          | number        |
+| Yes      | series tag     | ssa                                | SSA                                | text          | text          |
+| Yes      | numeric metric | latitude                           | LATITUDE                           | number        | number        |
+| Yes      | numeric metric | longitude                          | LONGITUDE                          | number        | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = creation_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = creation_date,completion_date,x_coordinate,y_coordinate
+Excluded Fields = completion_date,x_coordinate,y_coordinate
 ```
 
 ## Data Commands
 
 ```ls
-series e:7as2-ds3y d:2017-03-23T10:18:21.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:community_area=69 t:type_of_service_request="Pot Hole in Street" t:street_address="7600 S PARNELL AVE" m:longitude=-87.63853957634103 m:latitude=41.75607825280598
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:community_area=69 t:type_of_service_request="Pot Hole in Street" t:street_address="7600 S PARNELL AVE" m:longitude=-87.63853957634103 m:latitude=41.75607825280598
 
-series e:7as2-ds3y d:2017-03-23T10:18:21.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:ssa=3 t:service_request_number=11-00002209 t:community_area=65 t:type_of_service_request="Pot Hole in Street" t:street_address="7100 S PULASKI RD" m:longitude=-87.72249910770661 m:latitude=41.764007749308014
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:ssa=3 t:service_request_number=11-00002209 t:community_area=65 t:type_of_service_request="Pot Hole in Street" t:street_address="7100 S PULASKI RD" m:longitude=-87.72249910770661 m:latitude=41.764007749308014
 
-series e:7as2-ds3y d:2017-03-23T10:18:21.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:community_area=22 t:type_of_service_request="Pot Hole in Street" t:street_address="2400 W FULLERTON AVE" m:longitude=-87.68770475222249 m:latitude=41.92500993476519
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:community_area=22 t:type_of_service_request="Pot Hole in Street" t:street_address="2400 W FULLERTON AVE" m:longitude=-87.68770475222249 m:latitude=41.92500993476519
 ```
 
 ## Meta Commands

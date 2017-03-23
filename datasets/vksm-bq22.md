@@ -26,7 +26,6 @@ Speed limits are indicated primarily for streets that have speeds higher than 25
 ```ls
 | Included | Schema Type    | Field Name       | Name             | Data Type | Render Type |
 | ======== | ============== | ================ | ================ | ========= | =========== |
-| No       | time           | :updated_at      | updated_at       | meta_data | meta_data   |
 | Yes      | series tag     | object_id        | Object ID        | text      | number      |
 | Yes      | series tag     | cnn_segment_id   | CNN Segment ID   | text      | number      |
 | Yes      | series tag     | street_name      | Street Name      | text      | text        |
@@ -34,21 +33,21 @@ Speed limits are indicated primarily for streets that have speeds higher than 25
 | Yes      | series tag     | from_street      | From Street      | text      | text        |
 | Yes      | series tag     | to_street        | To Street        | text      | text        |
 | Yes      | numeric metric | speed_limit      | Speed Limit      | number    | number      |
-| No       |                | last_edited_date | Last Edited Date | text      | date        |
+| Yes      | time           | last_edited_date | Last Edited Date | date      | date        |
 | No       |                | geom             | Geom             | line      | line        |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
+Value = last_edited_date
 Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = last_edited_date,geom
+Excluded Fields = geom
 ```
 
 ## Data Commands

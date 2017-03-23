@@ -25,38 +25,32 @@ The Bus Safety Information Network (BUSNET) Profile Operator Report dataset prov
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                 | Name                       | Data Type | Render Type   |
-| ======== | ============== | ========================== | ========================== | ========= | ============= |
-| No       |                | state_fiscal_year_end_date | State Fiscal Year End Date | text      | calendar_date |
-| Yes      | series tag     | operator_name              | Operator Name              | text      | text          |
-| Yes      | numeric metric | inspections                | Total Inspections          | number    | number        |
-| Yes      | numeric metric | failed_inspections         | Failed Inspections         | number    | number        |
-| Yes      | series tag     | operator_id                | Operator ID                | text      | number        |
-| Yes      | series tag     | city                       | City                       | text      | text          |
-| Yes      | series tag     | region                     | Region                     | text      | number        |
+| Included | Schema Type    | Field Name                 | Name                       | Data Type     | Render Type   |
+| ======== | ============== | ========================== | ========================== | ============= | ============= |
+| Yes      | time           | state_fiscal_year_end_date | State Fiscal Year End Date | calendar_date | calendar_date |
+| Yes      | series tag     | operator_name              | Operator Name              | text          | text          |
+| Yes      | numeric metric | inspections                | Total Inspections          | number        | number        |
+| Yes      | numeric metric | failed_inspections         | Failed Inspections         | number        | number        |
+| Yes      | series tag     | operator_id                | Operator ID                | text          | number        |
+| Yes      | series tag     | city                       | City                       | text          | text          |
+| Yes      | series tag     | region                     | Region                     | text          | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = 2009
-Format & Zone = yyyy
-```
-
-## Series Fields
-
-```ls
-Excluded Fields = state_fiscal_year_end_date
+Value = state_fiscal_year_end_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Data Commands
 
 ```ls
-series e:h9zr-j4pg d:2009-01-01T00:00:00.000Z t:region=11 t:operator_name="1ST CLASS TRANSPORTATION SERVICE" t:operator_id=48486 t:city="QUEENS VILLAGE" m:failed_inspections=1 m:inspections=4
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=11 t:operator_name="1ST CLASS TRANSPORTATION SERVICE" t:operator_id=48486 t:city="QUEENS VILLAGE" m:failed_inspections=1 m:inspections=4
 
-series e:h9zr-j4pg d:2009-01-01T00:00:00.000Z t:region=11 t:operator_name="21ST AVE. TRANSPORTATION" t:operator_id=3531 t:city=BROOKLYN m:failed_inspections=19 m:inspections=250
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=11 t:operator_name="21ST AVE. TRANSPORTATION" t:operator_id=3531 t:city=BROOKLYN m:failed_inspections=19 m:inspections=250
 
-series e:h9zr-j4pg d:2009-01-01T00:00:00.000Z t:region=10 t:operator_name="3J'S LIMOUSINE INC." t:operator_id=50284 t:city=MELVILLE m:failed_inspections=0 m:inspections=2
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=10 t:operator_name="3J'S LIMOUSINE INC." t:operator_id=50284 t:city=MELVILLE m:failed_inspections=0 m:inspections=2
 ```
 
 ## Meta Commands

@@ -520,7 +520,7 @@ Name | Category | Updated
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25
 [Lobbyists on Behalf of the City Disclosure Reports](datasets/sz7b-c3pn.md) | City Management and Ethics | 2016-11-16
 [Post- Employment Restriction Waivers](datasets/qwnt-35i6.md) | City Management and Ethics | 2016-05-25
-[Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-22
+[Right of Way Exception Data](datasets/yrgu-vakm.md) | City Infrastructure | 2017-03-23
 [SF Development Pipeline 2016 Q2](datasets/g5sr-9nhs.md) | Housing and Buildings | 2016-08-15
 [San Francisco Development Pipeline 2012 Quarter 1](datasets/v5p2-emnu.md) | Housing and Buildings | 2012-04-12
 [San Francisco Development Pipeline 2014 Quarter 2](datasets/fv2q-qaux.md) | Housing and Buildings | 2014-09-12
