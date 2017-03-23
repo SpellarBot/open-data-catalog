@@ -18,39 +18,40 @@
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                      | Name                            | Data Type     | Render Type   |
-| ======== | ============== | =============================== | =============================== | ============= | ============= |
-| Yes      | series tag     | grantor_agency                  | Grantor Agency                  | text          | text          |
-| Yes      | series tag     | grantee                         | Grantee                         | text          | text          |
-| Yes      | series tag     | description_of_purpose_of_award | Description of Purpose of Award | text          | text          |
-| Yes      | numeric metric | grant_amount                    | Grant Amount                    | number        | number        |
-| Yes      | time           | start_date                      | Start Date                      | calendar_date | calendar_date |
-| No       |                | completion_date                 | Completion Date                 | calendar_date | calendar_date |
-| Yes      | numeric metric | duration_in_days                | Duration (in days)              | number        | number        |
-| Yes      | series tag     | grantee_zip_code                | Grantee Zip Code                | text          | number        |
+| Included | Schema Type    | Field Name                      | Name                            | Data Type | Render Type   |
+| ======== | ============== | =============================== | =============================== | ========= | ============= |
+| No       | time           | :updated_at                     | updated_at                      | meta_data | meta_data     |
+| Yes      | series tag     | grantor_agency                  | Grantor Agency                  | text      | text          |
+| Yes      | series tag     | grantee                         | Grantee                         | text      | text          |
+| Yes      | series tag     | description_of_purpose_of_award | Description of Purpose of Award | text      | text          |
+| Yes      | numeric metric | grant_amount                    | Grant Amount                    | number    | number        |
+| No       |                | start_date                      | Start Date                      | text      | calendar_date |
+| No       |                | completion_date                 | Completion Date                 | text      | calendar_date |
+| Yes      | numeric metric | duration_in_days                | Duration (in days)              | number    | number        |
+| Yes      | series tag     | grantee_zip_code                | Grantee Zip Code                | text      | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = start_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = completion_date
+Excluded Fields = start_date,completion_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:c3bk-jwwq d:2012-07-01T00:00:00.000Z t:grantor_agency="IL Dept of Agriculture" t:grantee_zip_code=612312513 t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  120/16" t:grantee="MERCER COUNTY SCHOOL DISTRICT" m:grant_amount=2153.65 m:duration_in_days=365
+series e:c3bk-jwwq d:2014-06-27T13:26:10.000Z t:grantor_agency="IL Dept of Agriculture" t:grantee_zip_code=612312513 t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  120/16" t:grantee="MERCER COUNTY SCHOOL DISTRICT" m:grant_amount=2153.65 m:duration_in_days=365
 
-series e:c3bk-jwwq d:2012-07-01T00:00:00.000Z t:grantor_agency="IL Dept of Agriculture" t:grantee_zip_code=613269697 t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  120/16" t:grantee="PUTNAM COUNTY COMMUNITY UNIT" m:grant_amount=1154.35 m:duration_in_days=365
+series e:c3bk-jwwq d:2014-06-27T13:26:10.000Z t:grantor_agency="IL Dept of Agriculture" t:grantee_zip_code=613269697 t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  120/16" t:grantee="PUTNAM COUNTY COMMUNITY UNIT" m:grant_amount=1154.35 m:duration_in_days=365
 
-series e:c3bk-jwwq d:2012-07-01T00:00:00.000Z t:grantor_agency="IL Dept of Agriculture" t:grantee_zip_code=605523136 t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  120/16" t:grantee="SOMONAUK COMMUNITY UNIT SCHOOL" m:grant_amount=1296.1 m:duration_in_days=365
+series e:c3bk-jwwq d:2014-06-27T13:26:10.000Z t:grantor_agency="IL Dept of Agriculture" t:grantee_zip_code=605523136 t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  120/16" t:grantee="SOMONAUK COMMUNITY UNIT SCHOOL" m:grant_amount=1296.1 m:duration_in_days=365
 ```
 
 ## Meta Commands

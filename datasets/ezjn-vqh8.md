@@ -25,40 +25,40 @@ Drug utilization data are reported by states for covered outpatient drugs that a
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                     | Name                           | Data Type     | Render Type   |
-| ======== | ============== | ============================== | ============================== | ============= | ============= |
-| Yes      | series tag     | record_id                      | Utilization Type               | text          | text          |
-| Yes      | series tag     | state_code                     | State                          | text          | text          |
-| Yes      | series tag     | labeler_code                   | Labeler Code                   | text          | text          |
-| Yes      | series tag     | product_code                   | Product Code                   | text          | text          |
-| Yes      | series tag     | package_size                   | Package Size                   | text          | text          |
-| No       |                | period_covered                 | Year                           | number        | text          |
-| No       |                | quarter                        | Quarter                        | number        | text          |
-| Yes      | series tag     | product_fda_list_name          | Product Name                   | text          | text          |
-| Yes      | series tag     | suppression_used               | Suppression Used               | checkbox      | checkbox      |
-| Yes      | numeric metric | units_reimbursed               | Units Reimbursed               | number        | number        |
-| Yes      | numeric metric | number_of_prescriptions        | Number of Prescriptions        | number        | number        |
-| Yes      | numeric metric | total_amount_reimbursed        | Total Amount Reimbursed        | number        | number        |
-| Yes      | numeric metric | medicaid_amount_reimbursed     | Medicaid Amount Reimbursed     | number        | number        |
-| Yes      | numeric metric | non_medicaid_amount_reimbursed | Non Medicaid Amount Reimbursed | number        | number        |
-| No       |                | quarter_begin                  | Quarter Begin                  | text          | text          |
-| Yes      | time           | quarter_begin_date             | Quarter Begin Date             | calendar_date | calendar_date |
-| No       |                | latitude                       | Latitude                       | number        | number        |
-| No       |                | longitude                      | Longitude                      | number        | number        |
-| Yes      | series tag     | ndc                            | NDC                            | text          | text          |
+| Included | Schema Type    | Field Name                     | Name                           | Data Type | Render Type   |
+| ======== | ============== | ============================== | ============================== | ========= | ============= |
+| Yes      | series tag     | record_id                      | Utilization Type               | text      | text          |
+| Yes      | series tag     | state_code                     | State                          | text      | text          |
+| Yes      | series tag     | labeler_code                   | Labeler Code                   | text      | text          |
+| Yes      | series tag     | product_code                   | Product Code                   | text      | text          |
+| Yes      | series tag     | package_size                   | Package Size                   | text      | text          |
+| No       |                | period_covered                 | Year                           | number    | text          |
+| No       |                | quarter                        | Quarter                        | number    | text          |
+| Yes      | series tag     | product_fda_list_name          | Product Name                   | text      | text          |
+| Yes      | series tag     | suppression_used               | Suppression Used               | checkbox  | checkbox      |
+| Yes      | numeric metric | units_reimbursed               | Units Reimbursed               | number    | number        |
+| Yes      | numeric metric | number_of_prescriptions        | Number of Prescriptions        | number    | number        |
+| Yes      | numeric metric | total_amount_reimbursed        | Total Amount Reimbursed        | number    | number        |
+| Yes      | numeric metric | medicaid_amount_reimbursed     | Medicaid Amount Reimbursed     | number    | number        |
+| Yes      | numeric metric | non_medicaid_amount_reimbursed | Non Medicaid Amount Reimbursed | number    | number        |
+| No       |                | quarter_begin                  | Quarter Begin                  | text      | text          |
+| No       |                | quarter_begin_date             | Quarter Begin Date             | text      | calendar_date |
+| No       |                | latitude                       | Latitude                       | number    | number        |
+| No       |                | longitude                      | Longitude                      | number    | number        |
+| Yes      | series tag     | ndc                            | NDC                            | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = quarter_begin_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = period_covered-quarter
+Format & Zone = yyyy-q
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
+Excluded Fields = quarter_begin,quarter_begin_date,latitude,longitude,period_covered,quarter
 ```
 
 ## Data Commands

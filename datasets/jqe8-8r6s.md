@@ -25,43 +25,43 @@ List of locations and test results for pools of mosquitoes tested through the Ch
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name           | Name                 | Data Type     | Render Type   |
-| ======== | ============== | ==================== | ==================== | ============= | ============= |
-| No       |                | season_year          | SEASON YEAR          | number        | text          |
-| No       |                | week                 | WEEK                 | number        | text          |
-| Yes      | series tag     | test_id              | TEST ID              | text          | text          |
-| Yes      | series tag     | block                | BLOCK                | text          | text          |
-| Yes      | series tag     | trap                 | TRAP                 | text          | text          |
-| Yes      | series tag     | trap_type            | TRAP_TYPE            | text          | text          |
-| Yes      | time           | test_date            | TEST DATE            | calendar_date | calendar_date |
-| Yes      | numeric metric | number_of_mosquitoes | NUMBER OF MOSQUITOES | number        | number        |
-| Yes      | series tag     | result               | RESULT               | text          | text          |
-| Yes      | series tag     | species              | SPECIES              | text          | text          |
-| No       |                | latitude             | LATITUDE             | number        | number        |
-| No       |                | longitude            | LONGITUDE            | number        | number        |
+| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type   |
+| ======== | ============== | ==================== | ==================== | ========= | ============= |
+| No       |                | season_year          | SEASON YEAR          | number    | text          |
+| No       |                | week                 | WEEK                 | number    | text          |
+| Yes      | series tag     | test_id              | TEST ID              | text      | text          |
+| Yes      | series tag     | block                | BLOCK                | text      | text          |
+| Yes      | series tag     | trap                 | TRAP                 | text      | text          |
+| Yes      | series tag     | trap_type            | TRAP_TYPE            | text      | text          |
+| No       |                | test_date            | TEST DATE            | text      | calendar_date |
+| Yes      | numeric metric | number_of_mosquitoes | NUMBER OF MOSQUITOES | number    | number        |
+| Yes      | series tag     | result               | RESULT               | text      | text          |
+| Yes      | series tag     | species              | SPECIES              | text      | text          |
+| No       |                | latitude             | LATITUDE             | number    | number        |
+| No       |                | longitude            | LONGITUDE            | number    | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = test_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = season_year-week
+Format & Zone = yyyy-w
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = latitude,longitude,season_year,week
+Excluded Fields = test_date,latitude,longitude,season_year,week
 ```
 
 ## Data Commands
 
 ```ls
-series e:jqe8-8r6s d:2011-07-25T00:07:00.000Z t:result=negative t:species="CULEX PIPIENS" t:block="100XX W OHARE AIRPORT" t:trap_type=GRAVID t:trap=T916 t:test_id=31550 m:number_of_mosquitoes=3
+series e:jqe8-8r6s d:2011-07-10T00:00:00.000Z t:result=negative t:species="CULEX PIPIENS" t:block="100XX W OHARE AIRPORT" t:trap_type=GRAVID t:trap=T916 t:test_id=31550 m:number_of_mosquitoes=3
 
-series e:jqe8-8r6s d:2016-06-22T00:06:00.000Z t:result=negative t:species="CULEX RESTUANS" t:block="58XX N PULASKI RD" t:trap_type=GRAVID t:trap=T027 t:test_id=42613 m:number_of_mosquitoes=6
+series e:jqe8-8r6s d:2016-06-12T00:00:00.000Z t:result=negative t:species="CULEX RESTUANS" t:block="58XX N PULASKI RD" t:trap_type=GRAVID t:trap=T027 t:test_id=42613 m:number_of_mosquitoes=6
 
-series e:jqe8-8r6s d:2007-07-11T03:07:41.000Z t:result=negative t:species="CULEX PIPIENS/RESTUANS" t:block="15XX W WEBSTER AVE" t:trap_type=GRAVID t:trap=T045 t:test_id=20583 m:number_of_mosquitoes=4
+series e:jqe8-8r6s d:2007-07-01T00:00:00.000Z t:result=negative t:species="CULEX PIPIENS/RESTUANS" t:block="15XX W WEBSTER AVE" t:trap_type=GRAVID t:trap=T045 t:test_id=20583 m:number_of_mosquitoes=4
 ```
 
 ## Meta Commands

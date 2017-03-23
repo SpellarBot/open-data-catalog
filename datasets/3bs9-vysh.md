@@ -25,34 +25,41 @@ The City of Somerville uses this dataset to provide residents with information r
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
-| ======== | ============== | =============== | =============== | ============= | ============= |
-| Yes      | series tag     | item            | Item #          | text          | number        |
-| Yes      | series tag     | category_of_gov | Category of Gov | text          | text          |
-| Yes      | series tag     | vendor_name     | VENDOR NAME     | text          | text          |
-| Yes      | numeric metric | amount          | Amount          | number        | number        |
-| Yes      | time           | check_date      | Check Date      | calendar_date | calendar_date |
-| Yes      | series tag     | department      | Department      | text          | text          |
-| Yes      | series tag     | check           | Check #         | text          | number        |
-| Yes      | series tag     | org_description | Org Description | text          | text          |
-| Yes      | series tag     | account_desc    | Account Desc    | text          | text          |
+| Included | Schema Type    | Field Name      | Name            | Data Type | Render Type   |
+| ======== | ============== | =============== | =============== | ========= | ============= |
+| No       | time           | :updated_at     | updated_at      | meta_data | meta_data     |
+| Yes      | series tag     | item            | Item #          | text      | number        |
+| Yes      | series tag     | category_of_gov | Category of Gov | text      | text          |
+| Yes      | series tag     | vendor_name     | VENDOR NAME     | text      | text          |
+| Yes      | numeric metric | amount          | Amount          | number    | number        |
+| No       |                | check_date      | Check Date      | text      | calendar_date |
+| Yes      | series tag     | department      | Department      | text      | text          |
+| Yes      | series tag     | check           | Check #         | text      | number        |
+| Yes      | series tag     | org_description | Org Description | text      | text          |
+| Yes      | series tag     | account_desc    | Account Desc    | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = check_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = check_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:3bs9-vysh d:2015-06-30T00:00:00.000Z t:account_desc="NEIGHBORHOOD IMP. COUNCIL" t:check=1999 t:department="COMMUNICATIONS DEPARTMENT" t:item=1 t:vendor_name=4IMPRINT t:org_description="COMMUNICATIONS ORDINARY MAINT" t:category_of_gov="General Government" m:amount=995.12
+series e:3bs9-vysh d:2016-02-01T07:13:00.000Z t:account_desc="NEIGHBORHOOD IMP. COUNCIL" t:check=1999 t:department="COMMUNICATIONS DEPARTMENT" t:item=1 t:vendor_name=4IMPRINT t:org_description="COMMUNICATIONS ORDINARY MAINT" t:category_of_gov="General Government" m:amount=995.12
 
-series e:3bs9-vysh d:2014-08-13T00:00:00.000Z t:account_desc="OTHER SUPPLIES" t:check=1094 t:department="BOARD OF HEALTH" t:item=2 t:vendor_name=4IMPRINT t:org_description="MASS IN MOTION '14" t:category_of_gov="General Government" m:amount=958.27
+series e:3bs9-vysh d:2016-02-01T07:13:00.000Z t:account_desc="OTHER SUPPLIES" t:check=1094 t:department="BOARD OF HEALTH" t:item=2 t:vendor_name=4IMPRINT t:org_description="MASS IN MOTION '14" t:category_of_gov="General Government" m:amount=958.27
 
-series e:3bs9-vysh d:2014-10-29T00:00:00.000Z t:account_desc="PROMOTIONAL MATERIALS" t:check=1286 t:department="BOARD OF HEALTH" t:item=4 t:vendor_name=4IMPRINT t:org_description="MASS.IN MOTION '15" t:category_of_gov="General Government" m:amount=953.15
+series e:3bs9-vysh d:2016-02-01T07:13:00.000Z t:account_desc="PROMOTIONAL MATERIALS" t:check=1286 t:department="BOARD OF HEALTH" t:item=4 t:vendor_name=4IMPRINT t:org_description="MASS.IN MOTION '15" t:category_of_gov="General Government" m:amount=953.15
 ```
 
 ## Meta Commands

@@ -15,8 +15,8 @@
 | Category | Government & Finance |
 | Tags | numbers, win-4, new york lottery, winning, results |
 | Created | 2013-02-26T20:21:34Z |
-| Publication Date | 2017-03-22T10:03:11Z |
-| Rows Updated | 2017-03-22T10:02:24Z |
+| Publication Date | 2017-03-23T10:04:09Z |
+| Rows Updated | 2017-03-23T10:03:05Z |
 
 ## Description
 
@@ -25,24 +25,30 @@ Go to http://on.ny.gov/1Cx6zvs or http://on.ny.gov/1KYjE6X on the New York Lotte
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name        | Name              | Data Type     | Render Type   |
-| ======== | ============== | ================= | ================= | ============= | ============= |
-| Yes      | time           | draw_date         | Draw Date         | calendar_date | calendar_date |
-| Yes      | series tag     | midday_daily      | Midday Daily #    | text          | text          |
-| Yes      | numeric metric | midday_daily_sum  | Midday Daily Sum  | number        | number        |
-| Yes      | series tag     | evening_daily     | Evening Daily #   | text          | text          |
-| Yes      | numeric metric | evening_daily_sum | Evening Daily Sum | number        | number        |
-| Yes      | series tag     | midday_win_4      | Midday Win 4 #    | text          | text          |
-| Yes      | numeric metric | midday_win_4_sum  | Midday Win 4 Sum  | number        | number        |
-| Yes      | series tag     | evening_win_4     | Evening Win 4 #   | text          | text          |
-| Yes      | numeric metric | evening_win_4_sum | Evening Win 4 Sum | number        | number        |
+| Included | Schema Type    | Field Name        | Name              | Data Type | Render Type   |
+| ======== | ============== | ================= | ================= | ========= | ============= |
+| No       |                | draw_date         | Draw Date         | text      | calendar_date |
+| Yes      | series tag     | midday_daily      | Midday Daily #    | text      | text          |
+| Yes      | numeric metric | midday_daily_sum  | Midday Daily Sum  | number    | number        |
+| Yes      | series tag     | evening_daily     | Evening Daily #   | text      | text          |
+| Yes      | numeric metric | evening_daily_sum | Evening Daily Sum | number    | number        |
+| Yes      | series tag     | midday_win_4      | Midday Win 4 #    | text      | text          |
+| Yes      | numeric metric | midday_win_4_sum  | Midday Win 4 Sum  | number    | number        |
+| Yes      | series tag     | evening_win_4     | Evening Win 4 #   | text      | text          |
+| Yes      | numeric metric | evening_win_4_sum | Evening Win 4 Sum | number    | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = draw_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = 1980
+Format & Zone = yyyy
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = draw_date
 ```
 
 ## Data Commands

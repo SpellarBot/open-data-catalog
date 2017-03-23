@@ -15,8 +15,8 @@
 | Category | Business and Economy |
 | Tags | maryland, state, compare, spending, obligations, research, development, awards, contracts, patents |
 | Created | 2013-08-20T17:52:53Z |
-| Publication Date | 2017-01-17T17:48:18Z |
-| Rows Updated | 2017-01-17T17:47:56Z |
+| Publication Date | 2017-03-22T19:52:56Z |
+| Rows Updated | 2017-03-22T19:52:42Z |
 
 ## Description
 
@@ -45,23 +45,23 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:enjg-rjqz d:2017-01-17T17:47:50.000Z t:state=Alabama m:federal_rd_spending_obligations=4483700 m:nih_rd_awards=25399511 m:sbir_awards_per_capita=7.03 m:patents_per_100k=9.7
+series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alabama m:federal_rd_spending_obligations=4537952 m:nih_rd_awards=25399511 m:sbir_awards_per_capita=7.03 m:patents_per_100k=9.7
 
-series e:enjg-rjqz d:2017-01-17T17:47:50.000Z t:state=Alaska m:federal_rd_spending_obligations=136900 m:nih_rd_awards=0 m:sbir_awards_per_capita=0.2 m:patents_per_100k=5.4
+series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alaska m:federal_rd_spending_obligations=208043.9 m:nih_rd_awards=0 m:sbir_awards_per_capita=0.2 m:patents_per_100k=5.4
 
-series e:enjg-rjqz d:2017-01-17T17:47:50.000Z t:state=Arizona m:federal_rd_spending_obligations=1606000 m:nih_rd_awards=3186536 m:sbir_awards_per_capita=2.83 m:patents_per_100k=37.2
+series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Arizona m:federal_rd_spending_obligations=1643746.2 m:nih_rd_awards=3186536 m:sbir_awards_per_capita=2.83 m:patents_per_100k=37.2
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:federal_rd_spending_obligations p:integer l:"Federal R&D Spending/Obligations ($ Thousands)" t:dataTypeName=money
+metric m:federal_rd_spending_obligations p:double l:"Federal R&D Spending/Obligations ($ Thousands)" t:dataTypeName=money
 
-metric m:nih_rd_awards p:integer l:"National Institutes of Health R&D Contract Awards ($ Dollars)" t:dataTypeName=money
+metric m:nih_rd_awards p:double l:"National Institutes of Health R&D Contract Awards ($ Dollars)" t:dataTypeName=money
 
 metric m:sbir_awards_per_capita p:double l:"SBIR Awards, Value Per Capita ($ Dollars)" t:dataTypeName=money
 
-metric m:patents_per_100k p:float l:"Number of Patents Issued per 100,000 Population" t:dataTypeName=number
+metric m:patents_per_100k p:long l:"Number of Patents Issued per 100,000 Population" t:dataTypeName=number
 
 entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Business and Economic Development" t:url=https://data.maryland.gov/api/views/enjg-rjqz
 

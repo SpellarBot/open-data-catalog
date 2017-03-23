@@ -52,7 +52,7 @@ Displays all permits that have led or will lead to a closure of the travel lane 
 | Yes      | series tag     | permit_inspector_name        | PERMIT_INSPECTOR_NAME        | text       | text        |
 | Yes      | series tag     | permit_inspector_phone_num   | PERMIT_INSPECTOR_PHONE_NUM   | text       | text        |
 | Yes      | series tag     | permit_location_text         | PERMIT_LOCATION_TEXT         | text       | text        |
-| No       |                | permit_application_date      | PERMIT_APPLICATION_DATE      | date       | date        |
+| No       |                | permit_application_date      | PERMIT_APPLICATION_DATE      | text       | date        |
 | Yes      | series tag     | impact_data_format           | IMPACT_DATA_FORMAT           | text       | text        |
 | Yes      | series tag     | hub                          | HUB                          | text       | text        |
 | Yes      | series tag     | primarydistrictcd            | PRIMARYDISTRICTCD            | text       | text        |
@@ -187,7 +187,7 @@ Displays all permits that have led or will lead to a closure of the travel lane 
 | Yes      | series tag     | planned_project_text         | PLANNED_PROJECT_TEXT         | text       | text        |
 | Yes      | series tag     | construction_waiver_text     | CONSTRUCTION_WAIVER_TEXT     | text       | text        |
 | Yes      | series tag     | review_desc                  | REVIEW_DESC                  | text       | text        |
-| No       |                | review_action_date           | REVIEW_ACTION_DATE           | date       | date        |
+| No       |                | review_action_date           | REVIEW_ACTION_DATE           | text       | date        |
 | Yes      | series tag     | review_status                | REVIEW_STATUS                | text       | text        |
 | Yes      | series tag     | reviewer_name                | REVIEWER_NAME                | text       | text        |
 | Yes      | series tag     | tcp_roll30_flag              | TCP_ROLL30_FLAG              | text       | text        |
@@ -197,8 +197,8 @@ Displays all permits that have led or will lead to a closure of the travel lane 
 | Yes      | series tag     | use_code                     | USE_CODE                     | text       | text        |
 | Yes      | series tag     | use_space_code               | USE_SPACE_CODE               | text       | text        |
 | Yes      | series tag     | use_desc                     | USE_DESC                     | text       | text        |
-| No       |                | use_start_date               | USE_START_DATE               | date       | date        |
-| No       |                | use_exp_date                 | USE_EXP_DATE                 | date       | date        |
+| No       |                | use_start_date               | USE_START_DATE               | text       | date        |
+| No       |                | use_exp_date                 | USE_EXP_DATE                 | text       | date        |
 | Yes      | numeric metric | use_sqft_nbr                 | USE_SQFT_NBR                 | number     | number      |
 | Yes      | series tag     | use_mobility_impact_desc     | USE_MOBILITY_IMPACT_DESC     | text       | text        |
 | Yes      | numeric metric | permit_key                   | PERMIT_KEY                   | number     | number      |

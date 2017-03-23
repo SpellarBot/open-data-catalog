@@ -24,38 +24,38 @@ LAPD Calls for Service
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name      | Name            | Data Type     | Render Type   |
-| ======== | =========== | =============== | =============== | ============= | ============= |
-| Yes      | series tag  | incident_number | Incident_Number | text          | text          |
-| Yes      | series tag  | area_occ        | Area_Occ        | text          | text          |
-| Yes      | series tag  | rpt_dist        | Rpt_Dist        | text          | text          |
-| No       |             | dispatch_date   | Dispatch_Date   | calendar_date | calendar_date |
-| No       |             | dispatch_time   | Dispatch_Time   | text          | text          |
-| Yes      | series tag  | call_type_code  | Call_Type_Code  | text          | text          |
-| Yes      | series tag  | call_type_text  | Call_Type_Text  | text          | text          |
+| Included | Schema Type | Field Name      | Name            | Data Type | Render Type   |
+| ======== | =========== | =============== | =============== | ========= | ============= |
+| Yes      | series tag  | incident_number | Incident_Number | text      | text          |
+| Yes      | series tag  | area_occ        | Area_Occ        | text      | text          |
+| Yes      | series tag  | rpt_dist        | Rpt_Dist        | text      | text          |
+| No       |             | dispatch_date   | Dispatch_Date   | text      | calendar_date |
+| Yes      | series tag  | dispatch_time   | Dispatch_Time   | text      | text          |
+| Yes      | series tag  | call_type_code  | Call_Type_Code  | text      | text          |
+| Yes      | series tag  | call_type_text  | Call_Type_Text  | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = dispatch_date-dispatch_time
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss-HH:mm:ss
+Value = 2015
+Format & Zone = yyyy
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = dispatch_time,dispatch_date
+Excluded Fields = dispatch_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:xwgr-xw5q d:2016-10-31T04:57:44.000Z t:call_type_code=9212 t:call_type_text="TRESPASS SUSP" t:area_occ=Newton t:rpt_dist=1321 t:incident_number=161031000621 m:row_number.xwgr-xw5q=1
+series e:xwgr-xw5q d:2015-01-01T00:00:00.000Z t:call_type_code=9212 t:call_type_text="TRESPASS SUSP" t:area_occ=Newton t:rpt_dist=1321 t:dispatch_time=04:57:44 t:incident_number=161031000621 m:row_number.xwgr-xw5q=1
 
-series e:xwgr-xw5q d:2016-10-31T04:55:22.000Z t:call_type_code=459X t:call_type_text=I/P t:area_occ=Southwest t:rpt_dist=0396 t:incident_number=161031000620 m:row_number.xwgr-xw5q=2
+series e:xwgr-xw5q d:2015-01-01T00:00:00.000Z t:call_type_code=459X t:call_type_text=I/P t:area_occ=Southwest t:rpt_dist=0396 t:dispatch_time=04:55:22 t:incident_number=161031000620 m:row_number.xwgr-xw5q=2
 
-series e:xwgr-xw5q d:2016-10-31T04:54:49.000Z t:call_type_code=906B1 t:call_type_text="CODE 30 RINGER" t:area_occ=Olympic t:rpt_dist=2029 t:incident_number=161031000600 m:row_number.xwgr-xw5q=3
+series e:xwgr-xw5q d:2015-01-01T00:00:00.000Z t:call_type_code=906B1 t:call_type_text="CODE 30 RINGER" t:area_occ=Olympic t:rpt_dist=2029 t:dispatch_time=04:54:49 t:incident_number=161031000600 m:row_number.xwgr-xw5q=3
 ```
 
 ## Meta Commands

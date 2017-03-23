@@ -25,45 +25,46 @@ Listing of all formal upcoming bid openings and past bid tabulation results proc
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name      | Name                    | Data Type     | Render Type   |
-| ======== | =========== | =============== | ======================= | ============= | ============= |
-| No       |             | bid_date        | BID DATE                | calendar_date | calendar_date |
-| No       |             | bid_time        | BID TIME                | text          | text          |
-| Yes      | series tag  | department_name | DEPARTMENT              | text          | text          |
-| Yes      | series tag  | division_name   | DIVISION                | text          | text          |
-| Yes      | series tag  | description     | DESCRIPTION             | text          | text          |
-| Yes      | series tag  | contact_name    | PROJECT CONTACT         | text          | text          |
-| Yes      | series tag  | phone           | PROJECT PHONE           | text          | text          |
-| Yes      | series tag  | phone_ext       | PROJECT PHONE EXTENSION | text          | text          |
-| Yes      | series tag  | buyer_name      | BUYER NAME              | text          | text          |
-| Yes      | series tag  | room_number     | ROOM NUMBER             | text          | text          |
-| Yes      | series tag  | note            | NOTE                    | text          | text          |
-| Yes      | series tag  | bid_results     | BID RESULTS             | url           | url           |
-| Yes      | series tag  | unique_id       | UNIQUE ID               | text          | number        |
+| Included | Schema Type | Field Name      | Name                    | Data Type | Render Type   |
+| ======== | =========== | =============== | ======================= | ========= | ============= |
+| No       | time        | :updated_at     | updated_at              | meta_data | meta_data     |
+| No       |             | bid_date        | BID DATE                | text      | calendar_date |
+| Yes      | series tag  | bid_time        | BID TIME                | text      | text          |
+| Yes      | series tag  | department_name | DEPARTMENT              | text      | text          |
+| Yes      | series tag  | division_name   | DIVISION                | text      | text          |
+| Yes      | series tag  | description     | DESCRIPTION             | text      | text          |
+| Yes      | series tag  | contact_name    | PROJECT CONTACT         | text      | text          |
+| Yes      | series tag  | phone           | PROJECT PHONE           | text      | text          |
+| Yes      | series tag  | phone_ext       | PROJECT PHONE EXTENSION | text      | text          |
+| Yes      | series tag  | buyer_name      | BUYER NAME              | text      | text          |
+| Yes      | series tag  | room_number     | ROOM NUMBER             | text      | text          |
+| Yes      | series tag  | note            | NOTE                    | text      | text          |
+| Yes      | series tag  | bid_results     | BID RESULTS             | url       | url           |
+| Yes      | series tag  | unique_id       | UNIQUE ID               | text      | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = bid_date-bid_time
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss-hh:mm a
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = bid_time,bid_date
+Excluded Fields = bid_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:u9zk-8nix d:2015-06-25T11:00:00.000Z t:unique_id=14363 t:phone_ext=323 t:room_number=806 t:phone=225-389-3259 t:description="RQ038473 MEN'S SNAG RESISTANT MOISTURE WICKING POLO SHIRTS" t:contact_name="Dexter Stewart" t:buyer_name="Dexter Stewart" t:department_name="FIRE DEPARTMENT" t:division_name="FIRE DEPARTMENT-ADMINISTRATION" t:note="ALL ITEMS TO BID AS ALL OR NONE" m:row_number.u9zk-8nix=1
+series e:u9zk-8nix d:2015-06-27T19:24:38.000Z t:unique_id=14363 t:bid_time="11:00 AM" t:phone_ext=323 t:room_number=806 t:phone=225-389-3259 t:description="RQ038473 MEN'S SNAG RESISTANT MOISTURE WICKING POLO SHIRTS" t:contact_name="Dexter Stewart" t:buyer_name="Dexter Stewart" t:department_name="FIRE DEPARTMENT" t:division_name="FIRE DEPARTMENT-ADMINISTRATION" t:note="ALL ITEMS TO BID AS ALL OR NONE" m:row_number.u9zk-8nix=1
 
-series e:u9zk-8nix d:2014-10-09T11:00:00.000Z t:unique_id=13606 t:phone_ext=323 t:room_number=806 t:phone=225-389-3259 t:description="Central Garage Wrecker Service for Vehicles/Equipment
+series e:u9zk-8nix d:2015-06-27T19:24:38.000Z t:unique_id=13606 t:bid_time="11:00 AM" t:phone_ext=323 t:room_number=806 t:phone=225-389-3259 t:description="Central Garage Wrecker Service for Vehicles/Equipment
 up to and including 10,000 GVW" t:contact_name="Lori Foreman" t:buyer_name="Dexter Stewart" t:department_name="DEPARTMENT OF PUBLIC WORKS" t:division_name="CENTRAL GARAGE-OPERATIONS and MAINTENANCE" t:note="Addendum No. 1 Added" m:row_number.u9zk-8nix=2
 
-series e:u9zk-8nix d:2013-03-18T11:00:00.000Z t:unique_id=11882 t:room_number=308 t:phone=225-389-3259 t:bid_results="http://brgov.com/dept/purchase/loadbidresults.asp?GetBid=11882" t:description="Sealed Bid for a Server and Workstation for In-Car Cameras for the Police Department
+series e:u9zk-8nix d:2015-09-21T03:37:07.000Z t:unique_id=11882 t:bid_time="11:00 AM" t:room_number=308 t:phone=225-389-3259 t:bid_results="http://brgov.com/dept/purchase/loadbidresults.asp?GetBid=11882" t:description="Sealed Bid for a Server and Workstation for In-Car Cameras for the Police Department
 
 File # 01021-13" t:contact_name="Brandon Malbrough" t:buyer_name="Arielle Williams" t:department_name="POLICE DEPARTMENT" t:division_name="POLICE DEPARTMENT-UNIFORM PATROL BUREAU" m:row_number.u9zk-8nix=3
 ```

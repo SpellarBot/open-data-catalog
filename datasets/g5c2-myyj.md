@@ -25,54 +25,54 @@ City-Parish employees' annual salaries and other payroll related information. In
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name           | Name                 | Data Type     | Render Type   |
-| ======== | ============== | ==================== | ==================== | ============= | ============= |
-| No       |                | year                 | YEAR                 | number        | number        |
-| Yes      | series tag     | employee_num         | EMPLOYEE NUM         | html          | html          |
-| Yes      | series tag     | last_name            | LAST NAME            | text          | text          |
-| Yes      | series tag     | first_name           | FIRST NAME           | text          | text          |
-| Yes      | series tag     | middle_init          | MIDDLE INIT          | text          | text          |
-| Yes      | series tag     | department_num       | DEPARTMENT NUM       | text          | html          |
-| Yes      | series tag     | department_name      | DEPARTMENT NAME      | text          | text          |
-| Yes      | series tag     | division_num         | DIVISION NUM         | html          | html          |
-| Yes      | series tag     | division_name        | DIVISION NAME        | text          | text          |
-| Yes      | series tag     | job_code             | JOB CODE             | text          | html          |
-| Yes      | series tag     | job_code_description | JOB TITLE            | text          | text          |
-| Yes      | time           | hire_date            | CURRENT HIRE DATE    | calendar_date | calendar_date |
-| No       |                | end_date             | EMPLOYMENT END DATE  | calendar_date | calendar_date |
-| Yes      | numeric metric | scheduled_hours      | SCHEDULED HOURS      | number        | number        |
-| No       |                | longevity_percentage | LONGEVITY PERCENTAGE | number        | number        |
-| Yes      | numeric metric | base_hourly_rate     | BASE HOURLY RATE     | number        | number        |
-| Yes      | numeric metric | total_hourly_rate    | TOTAL HOURLY RATE    | number        | number        |
-| Yes      | numeric metric | overtime_hourly_rate | OVERTIME HOURLY RATE | number        | number        |
-| Yes      | series tag     | payroll_status       | EMPLOYMENT STATUS    | text          | number        |
-| Yes      | numeric metric | base_pay             | TOTAL BASE PAY       | money         | money         |
-| Yes      | numeric metric | gross_pay            | GROSS PAY            | money         | money         |
-| Yes      | numeric metric | total_overtime_hours | TOTAL OVERTIME HOURS | number        | number        |
-| Yes      | numeric metric | total_overtime_pay   | TOTAL OVERTIME PAY   | money         | money         |
+| Included | Schema Type    | Field Name           | Name                 | Data Type | Render Type   |
+| ======== | ============== | ==================== | ==================== | ========= | ============= |
+| Yes      | time           | year                 | YEAR                 | number    | number        |
+| Yes      | series tag     | employee_num         | EMPLOYEE NUM         | html      | html          |
+| Yes      | series tag     | last_name            | LAST NAME            | text      | text          |
+| Yes      | series tag     | first_name           | FIRST NAME           | text      | text          |
+| Yes      | series tag     | middle_init          | MIDDLE INIT          | text      | text          |
+| Yes      | series tag     | department_num       | DEPARTMENT NUM       | text      | html          |
+| Yes      | series tag     | department_name      | DEPARTMENT NAME      | text      | text          |
+| Yes      | series tag     | division_num         | DIVISION NUM         | html      | html          |
+| Yes      | series tag     | division_name        | DIVISION NAME        | text      | text          |
+| Yes      | series tag     | job_code             | JOB CODE             | text      | html          |
+| Yes      | series tag     | job_code_description | JOB TITLE            | text      | text          |
+| No       |                | hire_date            | CURRENT HIRE DATE    | text      | calendar_date |
+| No       |                | end_date             | EMPLOYMENT END DATE  | text      | calendar_date |
+| Yes      | numeric metric | scheduled_hours      | SCHEDULED HOURS      | number    | number        |
+| No       |                | longevity_percentage | LONGEVITY PERCENTAGE | number    | number        |
+| Yes      | numeric metric | base_hourly_rate     | BASE HOURLY RATE     | number    | number        |
+| Yes      | numeric metric | total_hourly_rate    | TOTAL HOURLY RATE    | number    | number        |
+| Yes      | numeric metric | overtime_hourly_rate | OVERTIME HOURLY RATE | number    | number        |
+| Yes      | series tag     | payroll_status       | EMPLOYMENT STATUS    | text      | number        |
+| Yes      | numeric metric | base_pay             | TOTAL BASE PAY       | money     | money         |
+| Yes      | numeric metric | gross_pay            | GROSS PAY            | money     | money         |
+| Yes      | numeric metric | total_overtime_hours | TOTAL OVERTIME HOURS | number    | number        |
+| Yes      | numeric metric | total_overtime_pay   | TOTAL OVERTIME PAY   | money     | money         |
 ```
 
 ## Time Field
 
 ```ls
-Value = hire_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = year
+Format & Zone = yyyy
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = end_date,longevity_percentage,year
+Excluded Fields = hire_date,end_date,longevity_percentage
 ```
 
 ## Data Commands
 
 ```ls
-series e:g5c2-myyj d:1988-04-19T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:payroll_status=0 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.3957 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=46.2713 m:total_overtime_pay=3177.3 m:total_overtime_hours=66 m:scheduled_hours=80 m:base_pay=58904.9 m:gross_pay=62082.2
+series e:g5c2-myyj d:2008-01-01T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:payroll_status=0 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.3957 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=46.2713 m:total_overtime_pay=3177.3 m:total_overtime_hours=66 m:scheduled_hours=80 m:base_pay=58904.9 m:gross_pay=62082.2
 
-series e:g5c2-myyj d:1988-04-19T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:payroll_status=5 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.2243 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=42.3365 m:total_overtime_pay=374.25 m:total_overtime_hours=8 m:scheduled_hours=80 m:base_pay=54906.9 m:gross_pay=55281.15
+series e:g5c2-myyj d:2009-01-01T00:00:00.000Z t:first_name=ROBERT t:department_num=21 t:job_code=182119 t:job_code_description="DEPUTY CONSTABLE - CAPTAIN" t:employee_num=000094 t:last_name=ACHORD t:division_num=2110000 t:payroll_status=5 t:department_name="CITY CONSTABLE" t:division_name="CITY CONSTABLE-GENERAL FUND" t:middle_init=J m:total_hourly_rate=28.2243 m:base_hourly_rate=24.3313 m:overtime_hourly_rate=42.3365 m:total_overtime_pay=374.25 m:total_overtime_hours=8 m:scheduled_hours=80 m:base_pay=54906.9 m:gross_pay=55281.15
 
-series e:g5c2-myyj d:2006-01-09T00:00:00.000Z t:first_name=WILLIAM t:department_num=05 t:job_code=370201 t:job_code_description="SR SPEC ASST PARISH ATTY-JOB SHARE" t:employee_num=000302 t:last_name=AARON t:division_num=0512000 t:payroll_status=0 t:department_name="PARISH ATTORNEY" t:division_name="PARISH ATTORNEY-LITIGATION" t:middle_init=R m:total_hourly_rate=47.5599 m:base_hourly_rate=39.6332 m:overtime_hourly_rate=71.3399 m:total_overtime_pay=0 m:total_overtime_hours=0 m:scheduled_hours=40 m:base_pay=49462.4 m:gross_pay=49462.4
+series e:g5c2-myyj d:2008-01-01T00:00:00.000Z t:first_name=WILLIAM t:department_num=05 t:job_code=370201 t:job_code_description="SR SPEC ASST PARISH ATTY-JOB SHARE" t:employee_num=000302 t:last_name=AARON t:division_num=0512000 t:payroll_status=0 t:department_name="PARISH ATTORNEY" t:division_name="PARISH ATTORNEY-LITIGATION" t:middle_init=R m:total_hourly_rate=47.5599 m:base_hourly_rate=39.6332 m:overtime_hourly_rate=71.3399 m:total_overtime_pay=0 m:total_overtime_hours=0 m:scheduled_hours=40 m:base_pay=49462.4 m:gross_pay=49462.4
 ```
 
 ## Meta Commands

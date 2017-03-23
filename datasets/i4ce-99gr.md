@@ -18,37 +18,44 @@
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name         | Name                | Data Type     | Render Type   |
-| ======== | ============== | ================== | =================== | ============= | ============= |
-| Yes      | series tag     | source_file_header | Source File Header  | text          | text          |
-| Yes      | series tag     | dept_code          | Dept Code           | text          | text          |
-| Yes      | series tag     | prog_id_org        | Prog ID/Org         | text          | text          |
-| Yes      | series tag     | position_number    | Position Number     | text          | text          |
-| Yes      | series tag     | perm_temp_j1a      | Perm/Temp/J1A       | text          | text          |
-| Yes      | series tag     | mof                | MOF                 | text          | text          |
-| Yes      | series tag     | position_title     | Position Title      | text          | text          |
-| Yes      | numeric metric | fy_12_fte          | FY 12 FTE           | number        | number        |
-| Yes      | numeric metric | fy_12_salary       | FY 12 Salary        | money         | money         |
-| Yes      | numeric metric | fy_13_fte          | FY 13 FTE           | number        | number        |
-| Yes      | numeric metric | fy_13_salary       | FY 13 Salary        | money         | money         |
-| Yes      | numeric metric | fy_14_fte          | FY 14 FTE           | number        | number        |
-| Yes      | numeric metric | fy_14_salary       | FY 14 Salary        | money         | money         |
-| Yes      | numeric metric | fy_15_fte          | FY 15 FTE           | number        | number        |
-| Yes      | numeric metric | fy_15_salary       | FY 15 Salary        | money         | money         |
-| Yes      | series tag     | incumbent_name     | Incumbent Name      | text          | text          |
-| Yes      | series tag     | bu_code            | BU Code             | text          | number        |
-| Yes      | series tag     | sr_level           | SR Level            | text          | text          |
-| Yes      | series tag     | soh_org_code       | SOH Org Code        | text          | number        |
-| Yes      | time           | next_step_mvt_date | Next Step Mvt Date  | calendar_date | calendar_date |
-| Yes      | series tag     | job_code           | Job Code            | text          | number        |
-| Yes      | series tag     | apprn_account_uac  | Apprn Account (UAC) | text          | text          |
+| Included | Schema Type    | Field Name         | Name                | Data Type | Render Type   |
+| ======== | ============== | ================== | =================== | ========= | ============= |
+| No       | time           | :updated_at        | updated_at          | meta_data | meta_data     |
+| Yes      | series tag     | source_file_header | Source File Header  | text      | text          |
+| Yes      | series tag     | dept_code          | Dept Code           | text      | text          |
+| Yes      | series tag     | prog_id_org        | Prog ID/Org         | text      | text          |
+| Yes      | series tag     | position_number    | Position Number     | text      | text          |
+| Yes      | series tag     | perm_temp_j1a      | Perm/Temp/J1A       | text      | text          |
+| Yes      | series tag     | mof                | MOF                 | text      | text          |
+| Yes      | series tag     | position_title     | Position Title      | text      | text          |
+| Yes      | numeric metric | fy_12_fte          | FY 12 FTE           | number    | number        |
+| Yes      | numeric metric | fy_12_salary       | FY 12 Salary        | money     | money         |
+| Yes      | numeric metric | fy_13_fte          | FY 13 FTE           | number    | number        |
+| Yes      | numeric metric | fy_13_salary       | FY 13 Salary        | money     | money         |
+| Yes      | numeric metric | fy_14_fte          | FY 14 FTE           | number    | number        |
+| Yes      | numeric metric | fy_14_salary       | FY 14 Salary        | money     | money         |
+| Yes      | numeric metric | fy_15_fte          | FY 15 FTE           | number    | number        |
+| Yes      | numeric metric | fy_15_salary       | FY 15 Salary        | money     | money         |
+| Yes      | series tag     | incumbent_name     | Incumbent Name      | text      | text          |
+| Yes      | series tag     | bu_code            | BU Code             | text      | number        |
+| Yes      | series tag     | sr_level           | SR Level            | text      | text          |
+| Yes      | series tag     | soh_org_code       | SOH Org Code        | text      | number        |
+| No       |                | next_step_mvt_date | Next Step Mvt Date  | text      | calendar_date |
+| Yes      | series tag     | job_code           | Job Code            | text      | number        |
+| Yes      | series tag     | apprn_account_uac  | Apprn Account (UAC) | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = next_step_mvt_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = next_step_mvt_date
 ```
 
 ## Data Commands

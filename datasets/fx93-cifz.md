@@ -25,45 +25,52 @@ Public authorities are required by Section 2800 of Public Authorities Law to sub
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                        | Name                              | Data Type     | Render Type   |
-| ======== | ============== | ================================= | ================================= | ============= | ============= |
-| Yes      | series tag     | authority_name                    | Authority Name                    | text          | text          |
-| Yes      | time           | fiscal_year_end_date              | Fiscal Year End Date              | calendar_date | calendar_date |
-| Yes      | series tag     | has_employees                     | Has Employees                     | text          | text          |
-| Yes      | series tag     | last_name                         | Last Name                         | text          | text          |
-| Yes      | series tag     | middle_initial                    | Middle Initial                    | text          | text          |
-| Yes      | series tag     | first_name                        | First Name                        | text          | text          |
-| Yes      | series tag     | title                             | Title                             | text          | text          |
-| Yes      | series tag     | group                             | Group                             | text          | text          |
-| Yes      | series tag     | department                        | Department                        | text          | text          |
-| Yes      | series tag     | pay_type                          | Pay Type                          | text          | text          |
-| Yes      | series tag     | exempt_indicator                  | Exempt Indicator                  | text          | text          |
-| Yes      | numeric metric | base_annualized_salary            | Base Annualized Salary            | money         | money         |
-| Yes      | numeric metric | actual_salary_paid                | Actual Salary Paid                | money         | money         |
-| Yes      | numeric metric | overtime_paid                     | Overtime Paid                     | money         | money         |
-| Yes      | numeric metric | performance_bonus                 | Performance Bonus                 | money         | money         |
-| Yes      | numeric metric | extra_pay                         | Extra Pay                         | money         | money         |
-| Yes      | numeric metric | other_compensation                | Other Compensation                | money         | money         |
-| Yes      | numeric metric | total_compensation                | Total Compensation                | money         | money         |
-| Yes      | series tag     | paid_by_another_entity            | Paid By Another Entity            | text          | text          |
-| Yes      | series tag     | paid_by_state_or_local_government | Paid by State or Local Government | text          | text          |
+| Included | Schema Type    | Field Name                        | Name                              | Data Type | Render Type   |
+| ======== | ============== | ================================= | ================================= | ========= | ============= |
+| No       | time           | :updated_at                       | updated_at                        | meta_data | meta_data     |
+| Yes      | series tag     | authority_name                    | Authority Name                    | text      | text          |
+| No       |                | fiscal_year_end_date              | Fiscal Year End Date              | text      | calendar_date |
+| Yes      | series tag     | has_employees                     | Has Employees                     | text      | text          |
+| Yes      | series tag     | last_name                         | Last Name                         | text      | text          |
+| Yes      | series tag     | middle_initial                    | Middle Initial                    | text      | text          |
+| Yes      | series tag     | first_name                        | First Name                        | text      | text          |
+| Yes      | series tag     | title                             | Title                             | text      | text          |
+| Yes      | series tag     | group                             | Group                             | text      | text          |
+| Yes      | series tag     | department                        | Department                        | text      | text          |
+| Yes      | series tag     | pay_type                          | Pay Type                          | text      | text          |
+| Yes      | series tag     | exempt_indicator                  | Exempt Indicator                  | text      | text          |
+| Yes      | numeric metric | base_annualized_salary            | Base Annualized Salary            | money     | money         |
+| Yes      | numeric metric | actual_salary_paid                | Actual Salary Paid                | money     | money         |
+| Yes      | numeric metric | overtime_paid                     | Overtime Paid                     | money     | money         |
+| Yes      | numeric metric | performance_bonus                 | Performance Bonus                 | money     | money         |
+| Yes      | numeric metric | extra_pay                         | Extra Pay                         | money     | money         |
+| Yes      | numeric metric | other_compensation                | Other Compensation                | money     | money         |
+| Yes      | numeric metric | total_compensation                | Total Compensation                | money     | money         |
+| Yes      | series tag     | paid_by_another_entity            | Paid By Another Entity            | text      | text          |
+| Yes      | series tag     | paid_by_state_or_local_government | Paid by State or Local Government | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = fiscal_year_end_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = fiscal_year_end_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Kailin t:title="Community Development Specialist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Curtin t:exempt_indicator=N t:group=Professional m:total_compensation=26208 m:base_annualized_salary=26208 m:actual_salary_paid=26208 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
+series e:fx93-cifz d:2016-10-11T23:05:42.000Z t:authority_name="Albany Community Development Agency" t:first_name=Kailin t:title="Community Development Specialist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Curtin t:exempt_indicator=N t:group=Professional m:total_compensation=26208 m:base_annualized_salary=26208 m:actual_salary_paid=26208 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
 
-series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Nicole t:title="Senior Typist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=DeMouth t:exempt_indicator=N t:group=Administrative/Clerical m:total_compensation=30073 m:base_annualized_salary=30073 m:actual_salary_paid=30073 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
+series e:fx93-cifz d:2016-10-11T23:05:42.000Z t:authority_name="Albany Community Development Agency" t:first_name=Nicole t:title="Senior Typist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=DeMouth t:exempt_indicator=N t:group=Administrative/Clerical m:total_compensation=30073 m:base_annualized_salary=30073 m:actual_salary_paid=30073 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
 
-series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Cameron t:title="Document Scanner" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Holloway t:exempt_indicator=N t:group=Operational m:total_compensation=33277 m:base_annualized_salary=33277 m:actual_salary_paid=33277 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
+series e:fx93-cifz d:2016-10-11T23:05:42.000Z t:authority_name="Albany Community Development Agency" t:first_name=Cameron t:title="Document Scanner" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Holloway t:exempt_indicator=N t:group=Operational m:total_compensation=33277 m:base_annualized_salary=33277 m:actual_salary_paid=33277 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
 ```
 
 ## Meta Commands

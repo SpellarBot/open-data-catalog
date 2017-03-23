@@ -13,7 +13,7 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[Address Changes](datasets/ruj7-9gwq.md) |     | 2017-03-22
+[Address Changes](datasets/ruj7-9gwq.md) |     | 2017-03-23
 [Austin Energy Customer Data by Customer Class 2006 - 2014](datasets/9xdm-yhmb.md) | Utility | 2016-09-22
 [Austin Water Authorized Irrigation Inspector List](datasets/dhvz-stgx.md) | Environmental | 2016-10-06
 [Austintexas.gov - Top 50 Pages By Pageviews](datasets/8yfa-b3bq.md) |     | 2017-01-09
@@ -52,9 +52,9 @@ Name | Category | Updated
 Name | Category | Updated
 ---- | -------- | -------
 [Bid Openings and Results](datasets/u9zk-8nix.md) | Government | 2017-03-22
-[City Court Warrants](datasets/3j5u-jyar.md) | Public Safety | 2017-03-19
+[City Court Warrants](datasets/3j5u-jyar.md) | Public Safety | 2017-03-23
 [City-Parish Employee Annual Salaries](datasets/g5c2-myyj.md) | Government | 2017-01-05
-[Purchase Orders](datasets/54bn-2sqf.md) | Government | 2017-03-22
+[Purchase Orders](datasets/54bn-2sqf.md) | Government | 2017-03-23
 
 ## data.cdc.gov
 
@@ -87,12 +87,12 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-22
-[Beach Weather Stations - Automated Sensors - 2016 - Humidity](datasets/7edu-s3u7.md) | Parks & Recreation | 2017-03-22
+[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-23
+[Beach Weather Stations - Automated Sensors - 2016 - Humidity](datasets/7edu-s3u7.md) | Parks & Recreation | 2017-03-23
 [Budget - 2015 Budget Recommendations - Appropriations](datasets/kzbi-spm5.md) | Administration & Finance | 2014-10-15
-[Building Violations](datasets/22u3-xenr.md) | Buildings | 2017-03-22
+[Building Violations](datasets/22u3-xenr.md) | Buildings | 2017-03-23
 [CTA - Ridership - 'L' Station Entries - Daily Totals](datasets/5neh-572f.md) | Transportation | 2017-02-16
-[Divvy Bicycle Stations](datasets/bbyy-e7gq.md) | Transportation | 2017-03-22
+[Divvy Bicycle Stations](datasets/bbyy-e7gq.md) | Transportation | 2017-03-23
 [Employee Overtime and Supplemental Earnings 2013](datasets/s9zb-nuc6.md) | Administration & Finance | 2014-02-04
 [Family and Support Services Delegate Agencies](datasets/jmw7-ijg5.md) | Health & Human Services | 2015-10-07
 [Libraries - 2012 Holds Placed by Location](datasets/cpva-49fs.md) | Education | 2013-04-08
@@ -106,11 +106,11 @@ Name | Category | Updated
 [Performance Metrics - Chicago Park District - Park Security Checks](datasets/wrvx-zpw5.md) | Administration & Finance | 2012-08-03
 [Performance Metrics - Streets & Sanitation - Garbage Cart Requests](datasets/6htv-6453.md) | Administration & Finance | 2012-07-12
 [Performance Metrics - Transportation - Pavement Cave-ins](datasets/euee-qccq.md) | Administration & Finance | 2014-04-29
-[Public Chauffeurs](datasets/97wa-y6ff.md) | Community & Economic Development | 2017-03-22
+[Public Chauffeurs](datasets/97wa-y6ff.md) | Community & Economic Development | 2017-03-23
 [Public Health Statistics - Chlamydia cases among males aged 15-44 in Chicago, by year, 2000-2014](datasets/35yf-6dy3.md) | Health & Human Services | 2016-01-25
 [Public Health Statistics- Chlamydia cases among females aged 15-44 in Chicago, by year, 2000-2014.](datasets/bz6k-73ti.md) | Health & Human Services | 2016-01-08
 [Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011](datasets/ndk3-zftj.md) | Health & Human Services | 2014-04-11
-[Public Passenger Vehicle Licenses](datasets/tfm3-3j95.md) | Community & Economic Development | 2017-03-22
+[Public Passenger Vehicle Licenses](datasets/tfm3-3j95.md) | Community & Economic Development | 2017-03-23
 [Speed Camera Locations](datasets/4i42-qv3h.md) | Transportation | 2016-11-29
 [West Nile Virus (WNV) Mosquito Test Results](datasets/jqe8-8r6s.md) | Health & Human Services | 2016-09-30
 
@@ -120,7 +120,7 @@ Name | Category | Updated
 ---- | -------- | -------
 [2001 Campaign Contributions](datasets/735p-zed8.md) | City Government | 2013-06-21
 [2015 Green Taxi Trip Data](datasets/gi8d-wdg5.md) | Transportation | 2016-12-14
-[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-21
+[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-22
 [Average days for the CCRB to close case](datasets/sd9s-b3hd.md) | City Government | 2013-06-21
 [Borough Enrollment Offices](datasets/vz8c-29aj.md) | Education | 2011-10-11
 [CCRB: Determinations to Recommend Other Misconduct 2005 - 2009](datasets/v3f6-2e7z.md) | Public Safety | 2011-09-15
@@ -129,7 +129,7 @@ Name | Category | Updated
 [Community Board Appointments](datasets/3gkd-ddzn.md) | City Government | 2014-03-06
 [Current Medallion Drivers](datasets/s22f-jsd4.md) | Transportation | 2013-04-24
 [DEP - Cryptosporidium And Giardia Data Set](datasets/x2s6-6d2j.md) | Environment | 2014-03-04
-[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-03-21
+[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-03-22
 [DOE High School Programs 2013-2014](datasets/i9pf-sj7c.md) | Education | 2014-09-03
 [DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](datasets/m56g-jpua.md) | Housing & Development | 2013-06-26
 [DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](datasets/97iw-vtbx.md) | Housing & Development | 2013-06-26
@@ -192,13 +192,13 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[ENERGY STAR Certified Commercial Refrigerators and Freezers](datasets/59dq-uw25.md) | Active Specifications | 2017-03-22
-[ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-22
-[ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-22
-[ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-22
-[ENERGY STAR Certified Residential Clothes Dryers](datasets/t9u7-4d2j.md) | Active Specifications | 2017-03-22
-[ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-22
-[HISTORIC ENERGY STAR Certified Room Air Cleaners](datasets/uc6q-9632.md) | Active Specifications | 2017-03-22
+[ENERGY STAR Certified Commercial Refrigerators and Freezers](datasets/59dq-uw25.md) | Active Specifications | 2017-03-23
+[ENERGY STAR Certified Furnaces](datasets/i97v-e8au.md) | Active Specifications | 2017-03-23
+[ENERGY STAR Certified Geothermal Heat Pumps](datasets/acvd-5wvz.md) | Active Specifications | 2017-03-23
+[ENERGY STAR Certified Imaging Equipment](datasets/t2v6-g4nf.md) | Active Specifications | 2017-03-23
+[ENERGY STAR Certified Residential Clothes Dryers](datasets/t9u7-4d2j.md) | Active Specifications | 2017-03-23
+[ENERGY STAR Certified Vending Machines](datasets/j624-u8ux.md) | Active Specifications | 2017-03-23
+[HISTORIC ENERGY STAR Certified Room Air Cleaners](datasets/uc6q-9632.md) | Active Specifications | 2017-03-23
 
 ## data.hartford.gov
 
@@ -238,7 +238,7 @@ Name | Category | Updated
 [DTS/DFM Sign Inventory - Fort St. to River St. as of: 2014-08-07](datasets/8hqv-tn8i.md) | Transportation | 2015-05-15
 [Exceptional Trees On Oahu](datasets/84fd-3fzf.md) | Recreation | 2013-04-30
 [Existing Bike Facilities](datasets/5hpa-8dfv.md) | Transportation | 2015-04-16
-[HPD Crime Incidents](datasets/f5dd-pqys.md) |     | 2017-03-21
+[HPD Crime Incidents](datasets/f5dd-pqys.md) |     | 2017-03-22
 [Parking 2015](datasets/m2gw-xt7z.md) | Transportation | 2015-05-13
 [Proposed FY16 Budget](datasets/rkqa-i8sr.md) | Finance | 2015-03-06
 
@@ -255,7 +255,7 @@ Name | Category | Updated
 [IDOT - Published Annual Program 2011 - Structure Improvements](datasets/erpn-m8ee.md) | Transportation | 2011-08-21
 [IDOT Average Annual Daily Traffic 2006](datasets/xqn9-cme5.md) | Transportation | 2012-01-26
 [IDPH 1990-2015 STD Illinois By County Chlamydia](datasets/vcg3-dux6.md) | Public Health | 2016-08-15
-[IDPH ASBESTOS LICENSED CONTRACTORS](datasets/5vh3-wnad.md) | Public Health | 2017-03-21
+[IDPH ASBESTOS LICENSED CONTRACTORS](datasets/5vh3-wnad.md) | Public Health | 2017-03-22
 [IDPH Hospice Residence Facilities](datasets/hbcs-x3a5.md) | Public Health | 2017-01-06
 [IDPH Marriages, by County, 2000-2009](datasets/hs5g-tdzr.md) | Public Health | 2012-01-18
 [IHDA - Illinois Housing Dev Auth - FY2011 Home Ownership Activity](datasets/7d69-4cty.md) | Housing | 2011-11-21
@@ -339,7 +339,7 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[Choose Maryland: Compare States - Technology](datasets/enjg-rjqz.md) | Business and Economy | 2017-01-17
+[Choose Maryland: Compare States - Technology](datasets/enjg-rjqz.md) | Business and Economy | 2017-03-22
 [Maryland Funding FY11 Payments Data](datasets/na74-jvan.md) | Budget | 2014-08-22
 [Maryland Historical and Projected Household Population,1970-2040](datasets/fbii-ubkr.md) | Planning | 2014-09-02
 [Maryland Ozone Exceedance Days in 2007](datasets/iyzm-8pqb.md) | Energy and Environment | 2012-10-26
@@ -413,7 +413,7 @@ Name | Category | Updated
 [NOPD Body Worn Camera Metadata](datasets/qarb-kkbj.md) | Public Safety and Preparedness | 2017-03-03
 [NOPD In-Car Camera Metadata](datasets/md3v-ph3u.md) | Public Safety and Preparedness | 2017-03-03
 [ResultsNOLA (historic)](datasets/jqyq-axtx.md) | City Administration | 2016-09-13
-[Stop and Search (Field Interviews)](datasets/kitu-f4uy.md) | Public Safety and Preparedness | 2017-03-22
+[Stop and Search (Field Interviews)](datasets/kitu-f4uy.md) | Public Safety and Preparedness | 2017-03-23
 [Trash Control and Pickup Rating (2006 - Present)](datasets/bjtq-ptjp.md) | Customer Service | 2015-11-05
 
 ## data.ny.gov
@@ -435,10 +435,10 @@ Name | Category | Updated
 [Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990](datasets/djfn-trk4.md) | Energy & Environment | 2016-11-04
 [Issued Title V Facility Permits](datasets/4n3a-en4b.md) | Energy & Environment | 2016-01-08
 [Law Enforcement Personnel by Agency: Beginning 2007](datasets/khn9-hhpq.md) | Public Safety | 2016-03-22
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-22
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-23
 [MTA Customer Feedback Data: Beginning 2014](datasets/tppa-s6t6.md) | Transportation | 2016-11-02
 [NYC Transit Subway Entrance And Exit Data](datasets/i9wp-a4ja.md) | Transportation | 2015-09-18
-[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-22
+[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-23
 [Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects](datasets/f6sn-r72s.md) | Economic Development | 2016-01-21
 [Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996](datasets/p7e4-ipty.md) | Transportation | 2016-10-28
 [Prison Admissions: Beginning 2008](datasets/m2rg-xjan.md) | Public Safety | 2015-11-25
@@ -504,19 +504,19 @@ Name | Category | Updated
 [Blue Zone (Accessible) Parking](datasets/t8ay-k3qw.md) | Transportation | 2017-03-18
 [Budget - FTE](datasets/4zfx-f2ts.md) | City Management and Ethics | 2016-08-08
 [Building Permits](datasets/i98e-djp9.md) | Housing and Buildings | 2017-03-20
-[Campaign Consultants - Vendor Payments](datasets/ewuz-v3y2.md) | City Management and Ethics | 2017-03-22
+[Campaign Consultants - Vendor Payments](datasets/ewuz-v3y2.md) | City Management and Ethics | 2017-03-23
 [Campaign Finance - Ballot Measure Committee Name Mapping - November 4 2014 Election](datasets/dt7v-mz6s.md) | City Management and Ethics | 2014-10-14
 [Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor](datasets/6iqh-u3hk.md) | City Management and Ethics | 2017-03-09
 [Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election](datasets/85cd-6rtn.md) | City Management and Ethics | 2012-11-09
 [Campaign Finance - Individual Expenditure Ceilings IECs - November 4, 2014 Election](datasets/wv7d-caby.md) | City Management and Ethics | 2014-10-29
 [Campaign Finance - Public Funds Disbursed - November 3, 2015 Election](datasets/pnpu-7zb5.md) | City Management and Ethics | 2016-02-29
-[Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016](datasets/7i7v-m2wn.md) | City Management and Ethics | 2017-03-22
+[Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016](datasets/7i7v-m2wn.md) | City Management and Ethics | 2017-03-23
 [Department Open Data Inventory and Plan Status](datasets/tzir-jbhj.md) | City Management and Ethics | 2017-02-14
 [Employee Compensation](datasets/88g8-5mnd.md) | City Management and Ethics | 2017-03-20
 [FY07-11 Street Evaluation Results](datasets/i8y7-m763.md) | City Infrastructure | 2014-07-23
-[Fire Department Calls for Service](datasets/nuek-vuh3.md) | Public Safety | 2017-03-22
-[Fire Incidents](datasets/wr8u-xric.md) | Public Safety | 2017-03-22
-[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-22
+[Fire Department Calls for Service](datasets/nuek-vuh3.md) | Public Safety | 2017-03-23
+[Fire Incidents](datasets/wr8u-xric.md) | Public Safety | 2017-03-23
+[Fire Permits](datasets/893e-xam6.md) | Public Safety | 2017-03-23
 [Housing Balance March 2016](datasets/8iri-b2sz.md) | Housing and Buildings | 2016-05-25
 [Lobbyists on Behalf of the City Disclosure Reports](datasets/sz7b-c3pn.md) | City Management and Ethics | 2016-11-16
 [Post- Employment Restriction Waivers](datasets/qwnt-35i6.md) | City Management and Ethics | 2016-05-25
@@ -526,7 +526,7 @@ Name | Category | Updated
 [San Francisco Development Pipeline 2014 Quarter 2](datasets/fv2q-qaux.md) | Housing and Buildings | 2014-09-12
 [Speed Limits](datasets/vksm-bq22.md) | Transportation | 2017-02-04
 [Spending And Revenue](datasets/bpnb-jwfb.md) | City Management and Ethics | 2017-03-20
-[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-22
+[Stormwater inlets, drains and catch basins](datasets/jtgq-b7c5.md) | City Infrastructure | 2017-03-23
 [Street-Use Permits](datasets/b6tj-gt35.md) | City Infrastructure | 2017-03-22
 [Traffic Analysis Zones](datasets/j4sj-j2nf.md) | Geographic Locations and Boundaries | 2016-07-26
 
@@ -562,8 +562,8 @@ Name | Category | Updated
 [Combined Fund Drive Donations 2014](datasets/m5pi-uads.md) |     | 2015-05-19
 [EM Statewide Web](datasets/985a-f68u.md) |     | 2015-03-30
 [Joseph Creek Summer Steelhead -- 1112015](datasets/5anj-6bnk.md) |     | 2015-01-12
-[L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-22
-[Lobbyist Compensation and Expenses by Source](datasets/9nnw-c693.md) |     | 2017-03-22
+[L&I Public Notes For Affidavit](datasets/gs3k-hp7i.md) | Labor | 2017-03-23
+[Lobbyist Compensation and Expenses by Source](datasets/9nnw-c693.md) |     | 2017-03-23
 [Local Area Unemployment Statistics](datasets/ak95-mjh9.md) | Economics | 2014-02-06
 [Northeast Complete](datasets/t8dk-esb7.md) |     | 2015-02-13
 [Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH](datasets/spy8-d7us.md) | Natural Resources & Environment | 2014-11-10
@@ -586,7 +586,7 @@ Name | Category | Updated
 [Building and Zoning - Violations Issued - 2005 through part of 2011](datasets/z2s8-vdru.md) | Economic Development | 2014-10-09
 [Commission on Women’s Issues Public Hearing Reports](datasets/u88z-wkud.md) |     | 2016-06-23
 [Cook County Budget - 2013 - Preliminary Budget Revenues](datasets/55dk-ypji.md) | Finance & Administration | 2014-10-09
-[Cook County Clerk - Lobbyist Activity](datasets/c774-azg6.md) | Finance & Administration | 2017-03-22
+[Cook County Clerk - Lobbyist Activity](datasets/c774-azg6.md) | Finance & Administration | 2017-03-23
 [Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election](datasets/3qf7-xrf4.md) | Finance & Administration | 2014-10-27
 [Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election](datasets/mzmn-fvgv.md) | Finance & Administration | 2014-10-17
 [Early Voting Locations - 2012](datasets/c5zu-3cbe.md) |     | 2014-10-09
@@ -602,5 +602,5 @@ Name | Category | Updated
 
 Name | Category | Updated
 ---- | -------- | -------
-[CGB - Consumer Complaints Data](datasets/3xyp-aqkj.md) | Consumer and Government Affairs | 2017-03-22
+[CGB - Consumer Complaints Data](datasets/3xyp-aqkj.md) | Consumer and Government Affairs | 2017-03-23
 

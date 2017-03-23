@@ -48,7 +48,7 @@ A data dictionary for this dataset is available at http://www.austintexas.gov/ed
 | Yes      | series tag     | treasurer_phone            | Treasurer_Phone            | text          | text          |
 | No       |                | period_from                | Period_From                | calendar_date | calendar_date |
 | No       |                | period_to                  | Period_To                  | calendar_date | calendar_date |
-| No       |                | election_date              | Election_Date              | calendar_date | calendar_date |
+| No       |                | election_date              | Election_Date              | text          | calendar_date |
 | Yes      | series tag     | election_type              | Election_Type              | text          | text          |
 | Yes      | series tag     | office_held                | Office_Held                | text          | text          |
 | Yes      | series tag     | office_sought              | Office_Sought              | text          | text          |

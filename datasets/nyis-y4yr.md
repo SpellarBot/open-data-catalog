@@ -15,8 +15,8 @@
 | Category | Housing & Development |
 | Tags | signs, dob, buildings |
 | Created | 2013-04-18T15:18:57Z |
-| Publication Date | 2017-03-21T20:07:22Z |
-| Rows Updated | 2017-03-21T20:07:06Z |
+| Publication Date | 2017-03-22T20:27:41Z |
+| Rows Updated | 2017-03-22T20:27:24Z |
 
 ## Description
 
@@ -54,10 +54,10 @@ A list of sign applications filed for a particular day and associated data. Prio
 | Yes      | series tag     | applicant_professional_title | Applicant Professional Title | text          | text          |
 | Yes      | series tag     | applicant_license__          | Applicant License #          | text          | text          |
 | Yes      | series tag     | professional_cert            | Professional Cert            | text          | text          |
-| Yes      | time           | pre_filing_date              | Pre- Filing Date             | calendar_date | calendar_date |
-| No       |                | paid                         | Paid                         | calendar_date | calendar_date |
+| No       |                | pre_filing_date              | Pre- Filing Date             | text          | calendar_date |
+| Yes      | time           | paid                         | Paid                         | calendar_date | calendar_date |
 | No       |                | fully_paid                   | Fully Paid                   | calendar_date | calendar_date |
-| No       |                | plan_assigned_date           | Plan Assigned Date           | calendar_date | calendar_date |
+| No       |                | plan_assigned_date           | Plan Assigned Date           | text          | calendar_date |
 | No       |                | approved                     | Approved                     | calendar_date | calendar_date |
 | No       |                | fully_permitted              | Fully Permitted              | calendar_date | calendar_date |
 | Yes      | numeric metric | initial_cost                 | Initial Cost                 | number        | number        |
@@ -104,14 +104,14 @@ A list of sign applications filed for a particular day and associated data. Prio
 ## Time Field
 
 ```ls
-Value = pre_filing_date
+Value = paid
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = latest_action_date,paid,fully_paid,plan_assigned_date,approved,fully_permitted,dobrundate
+Excluded Fields = latest_action_date,pre_filing_date,fully_paid,plan_assigned_date,approved,fully_permitted,dobrundate
 ```
 
 ## Data Commands

@@ -24,22 +24,29 @@ WA State Office of the Chief Information Officer Accessibility Policy #188 requi
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name                       | Name                             | Data Type     | Render Type   |
-| ======== | =========== | ================================ | ================================ | ============= | ============= |
-| Yes      | series tag  | agency_number                    | AGENCY NUMBER                    | text          | number        |
-| Yes      | series tag  | agency_title                     | AGENCY TITLE                     | text          | text          |
-| Yes      | series tag  | abbreviation                     | Abbreviation                     | text          | text          |
-| Yes      | series tag  | agency_accessibility_coordinator | Agency Accessibility Coordinator | text          | text          |
-| Yes      | series tag  | agency_coordinator_email         | Agency Coordinator Email         | email         | email         |
-| Yes      | time        | last_change_date                 | Last change date                 | calendar_date | calendar_date |
-| Yes      | series tag  | url_of_accessibility_info        | URL of Accessibility Info        | url           | url           |
+| Included | Schema Type | Field Name                       | Name                             | Data Type | Render Type   |
+| ======== | =========== | ================================ | ================================ | ========= | ============= |
+| No       | time        | :updated_at                      | updated_at                       | meta_data | meta_data     |
+| Yes      | series tag  | agency_number                    | AGENCY NUMBER                    | text      | number        |
+| Yes      | series tag  | agency_title                     | AGENCY TITLE                     | text      | text          |
+| Yes      | series tag  | abbreviation                     | Abbreviation                     | text      | text          |
+| Yes      | series tag  | agency_accessibility_coordinator | Agency Accessibility Coordinator | text      | text          |
+| Yes      | series tag  | agency_coordinator_email         | Agency Coordinator Email         | email     | email         |
+| No       |             | last_change_date                 | Last change date                 | text      | calendar_date |
+| Yes      | series tag  | url_of_accessibility_info        | URL of Accessibility Info        | url       | url           |
 ```
 
 ## Time Field
 
 ```ls
-Value = last_change_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = last_change_date
 ```
 
 ## Data Commands

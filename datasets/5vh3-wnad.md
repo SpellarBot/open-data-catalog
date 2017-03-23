@@ -15,8 +15,8 @@
 | Category | Public Health |
 | Tags | asbestos, contractors, idph, license |
 | Created | 2013-09-10T16:31:18Z |
-| Publication Date | 2017-03-21T19:20:09Z |
-| Rows Updated | 2017-03-21T19:20:00Z |
+| Publication Date | 2017-03-22T19:22:01Z |
+| Rows Updated | 2017-03-22T19:21:54Z |
 
 ## Description
 
@@ -27,28 +27,29 @@ Last Updated: February 2017
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name                | Name                      | Data Type     | Render Type   |
-| ======== | =========== | ========================= | ========================= | ============= | ============= |
-| Yes      | series tag  | contractor_name           | CONTRACTOR NAME           | text          | text          |
-| No       |             | address                   | ADDRESS                   | text          | text          |
-| Yes      | series tag  | city                      | CITY                      | text          | text          |
-| Yes      | series tag  | state                     | STATE                     | text          | text          |
-| Yes      | series tag  | zip_code                  | ZIP CODE                  | text          | text          |
-| Yes      | series tag  | county                    | COUNTY                    | text          | text          |
-| Yes      | series tag  | contact_person            | CONTACT PERSON            | text          | text          |
-| Yes      | series tag  | residential_removal       | RESIDENTIAL REMOVAL       | text          | text          |
-| No       |             | insurance_expiration_date | INSURANCE EXPIRATION DATE | text          | text          |
-| Yes      | series tag  | phone                     | PHONE                     | text          | number        |
-| Yes      | series tag  | fax                       | FAX                       | text          | number        |
-| Yes      | series tag  | email                     | EMAIL                     | email         | email         |
-| Yes      | time        | license_expiration_date   | License Expiration Date   | calendar_date | calendar_date |
+| Included | Schema Type | Field Name                | Name                      | Data Type | Render Type   |
+| ======== | =========== | ========================= | ========================= | ========= | ============= |
+| No       | time        | :updated_at               | updated_at                | meta_data | meta_data     |
+| Yes      | series tag  | contractor_name           | CONTRACTOR NAME           | text      | text          |
+| No       |             | address                   | ADDRESS                   | text      | text          |
+| Yes      | series tag  | city                      | CITY                      | text      | text          |
+| Yes      | series tag  | state                     | STATE                     | text      | text          |
+| Yes      | series tag  | zip_code                  | ZIP CODE                  | text      | text          |
+| Yes      | series tag  | county                    | COUNTY                    | text      | text          |
+| Yes      | series tag  | contact_person            | CONTACT PERSON            | text      | text          |
+| Yes      | series tag  | residential_removal       | RESIDENTIAL REMOVAL       | text      | text          |
+| No       |             | insurance_expiration_date | INSURANCE EXPIRATION DATE | text      | text          |
+| Yes      | series tag  | phone                     | PHONE                     | text      | number        |
+| Yes      | series tag  | fax                       | FAX                       | text      | number        |
+| Yes      | series tag  | email                     | EMAIL                     | email     | email         |
+| Yes      | series tag  | license_expiration_date   | License Expiration Date   | text      | calendar_date |
 ```
 
 ## Time Field
 
 ```ls
-Value = license_expiration_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
@@ -60,11 +61,11 @@ Excluded Fields = address,insurance_expiration_date
 ## Data Commands
 
 ```ls
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:zip_code=63130 t:contractor_name="06 ENVIRONMENTAL SERVICES, INC." t:state=MO t:contact_person="DAN GIESLER" t:city="ST. LOUIS" m:row_number.5vh3-wnad=1
+series e:5vh3-wnad d:2017-02-23T22:19:37.000Z t:license_expiration_date=2017-05-15T00:00:00 t:zip_code=63130 t:contractor_name="06 ENVIRONMENTAL SERVICES, INC." t:state=MO t:contact_person="DAN GIESLER" t:city="ST. LOUIS" m:row_number.5vh3-wnad=1
 
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:zip_code=60514 t:contractor_name="1ST ALL AROUND COMPANY" t:email=1STALLAROUND@GMAIL.COM t:state=IL t:contact_person="MARCIN SWIERZOWSKI" t:residential_removal=YES t:city="CLARENDON HILLS" m:row_number.5vh3-wnad=2
+series e:5vh3-wnad d:2017-02-23T22:19:37.000Z t:license_expiration_date=2017-05-15T00:00:00 t:zip_code=60514 t:email=1STALLAROUND@GMAIL.COM t:contractor_name="1ST ALL AROUND COMPANY" t:state=IL t:contact_person="MARCIN SWIERZOWSKI" t:residential_removal=YES t:city="CLARENDON HILLS" m:row_number.5vh3-wnad=2
 
-series e:5vh3-wnad d:2017-05-15T00:00:00.000Z t:zip_code=62832 t:contractor_name="A & A ABATEMENT LLC" t:county=Perry t:email=roger.harsy@yahoo.com t:state=IL t:residential_removal=YES t:city="DU QUOIN" m:row_number.5vh3-wnad=3
+series e:5vh3-wnad d:2017-02-23T22:19:37.000Z t:license_expiration_date=2017-05-15T00:00:00 t:zip_code=62832 t:email=roger.harsy@yahoo.com t:contractor_name="A & A ABATEMENT LLC" t:county=Perry t:state=IL t:residential_removal=YES t:city="DU QUOIN" m:row_number.5vh3-wnad=3
 ```
 
 ## Meta Commands

@@ -31,8 +31,8 @@ Please note: Lobbyists on Behalf of the City should not be confused with lobbyis
 | Yes      | series tag  | lobbyist_name             | Lobbyist Name             | text          | text          |
 | Yes      | series tag  | report                    | Report                    | document      | document      |
 | Yes      | time        | date_filed                | Date Filed                | calendar_date | calendar_date |
-| No       |             | period_start_date         | Period Start Date         | calendar_date | calendar_date |
-| No       |             | period_end_date           | Period End Date           | calendar_date | calendar_date |
+| No       |             | period_start_date         | Period Start Date         | text          | calendar_date |
+| No       |             | period_end_date           | Period End Date           | text          | calendar_date |
 | Yes      | series tag  | amendment_filing          | Amendment Filing          | checkbox      | checkbox      |
 | No       |             | amendment_to_report_filed | Amendment to Report Filed | calendar_date | calendar_date |
 ```

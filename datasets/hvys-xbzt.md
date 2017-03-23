@@ -20,35 +20,41 @@
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name          | Name                | Data Type     | Render Type   |
-| ======== | ============== | =================== | =================== | ============= | ============= |
-| Yes      | series tag     | supplement_number   | Supplement Number   | text          | text          |
-| Yes      | series tag     | project             | Project             | text          | text          |
-| Yes      | series tag     | organization        | Organization        | text          | text          |
-| Yes      | series tag     | contractor          | Contractor          | text          | text          |
-| Yes      | series tag     | mwesb               | MWESB               | text          | text          |
-| Yes      | series tag     | retainer_period     | Retainer Period     | text          | text          |
-| Yes      | time           | issue_date          | Issue Date          | calendar_date | calendar_date |
-| Yes      | numeric metric | price               | Price               | number        | number        |
-| Yes      | series tag     | compensation_method | Compensation Method | text          | text          |
-| Yes      | series tag     | amendments          | Amendments          | text          | text          |
+| Included | Schema Type    | Field Name          | Name                | Data Type | Render Type   |
+| ======== | ============== | =================== | =================== | ========= | ============= |
+| Yes      | series tag     | supplement_number   | Supplement Number   | text      | text          |
+| Yes      | series tag     | project             | Project             | text      | text          |
+| Yes      | series tag     | organization        | Organization        | text      | text          |
+| Yes      | series tag     | contractor          | Contractor          | text      | text          |
+| Yes      | series tag     | mwesb               | MWESB               | text      | text          |
+| Yes      | series tag     | retainer_period     | Retainer Period     | text      | text          |
+| No       |                | issue_date          | Issue Date          | text      | calendar_date |
+| Yes      | numeric metric | price               | Price               | number    | number        |
+| Yes      | series tag     | compensation_method | Compensation Method | text      | text          |
+| Yes      | series tag     | amendments          | Amendments          | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = issue_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = 2013
+Format & Zone = yyyy
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = issue_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:hvys-xbzt d:2012-07-02T00:00:00.000Z t:compensation_method="Time and Materials" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:organization="University of Oregon" t:contractor="Stedman Sheet Metal, Inc." t:supplement_number=UO-636-C-12-1 t:mwesb=No m:price=50000
+series e:hvys-xbzt d:2013-01-01T00:00:00.000Z t:compensation_method="Time and Materials" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:organization="University of Oregon" t:contractor="Stedman Sheet Metal, Inc." t:supplement_number=UO-636-C-12-1 t:mwesb=No m:price=50000
 
-series e:hvys-xbzt d:2012-07-05T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="July 2012 - June 2014" t:project="Magruder Hall Chiller Replacement" t:organization="Oregon State University" t:contractor="Hammerquist, Inc." t:supplement_number=OSU-131-C-12-1 t:mwesb=No m:price=56801
+series e:hvys-xbzt d:2013-01-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="July 2012 - June 2014" t:project="Magruder Hall Chiller Replacement" t:organization="Oregon State University" t:contractor="Hammerquist, Inc." t:supplement_number=OSU-131-C-12-1 t:mwesb=No m:price=56801
 
-series e:hvys-xbzt d:2012-07-06T00:00:00.000Z t:compensation_method="Time and Materials" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:organization="University of Oregon" t:contractor="Office World, Inc." t:supplement_number=UO-574-C-12-2 t:mwesb=No m:price=50000
+series e:hvys-xbzt d:2013-01-01T00:00:00.000Z t:compensation_method="Time and Materials" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:organization="University of Oregon" t:contractor="Office World, Inc." t:supplement_number=UO-574-C-12-2 t:mwesb=No m:price=50000
 ```
 
 ## Meta Commands

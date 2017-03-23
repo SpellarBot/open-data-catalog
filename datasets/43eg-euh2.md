@@ -25,44 +25,45 @@ This table contains data describing ATCEMS management of Trauma Alert patients. 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name                           | Name                                             | Data Type     | Render Type   |
-| ======== | ============== | ==================================== | ================================================ | ============= | ============= |
-| Yes      | numeric metric | fiscal_quarter_key                   | Fiscal Quarter Key                               | number        | number        |
-| No       |                | fiscal_quarter                       | Fiscal Quarter                                   | text          | text          |
-| Yes      | time           | fiscal_quarter_start_date            | Fiscal Quarter Start Date                        | calendar_date | calendar_date |
-| No       |                | fiscal_quarter_end_date              | Fiscal Quarter End Date                          | calendar_date | calendar_date |
-| Yes      | numeric metric | count_trauma_alert                   | Count - Trauma Alerts                            | number        | number        |
-| Yes      | numeric metric | count_scene_time_compliance          | Count - Trauma Alert Scene Interval Compliance   | number        | number        |
-| Yes      | numeric metric | percent_scene_time_compliance        | Percent – Trauma Alert Scene Interval Compliance | percent       | percent       |
-| Yes      | numeric metric | percent_scene_time_compliance_target | Trauma Alert Scene Interval Compliance Target    | percent       | percent       |
-| Yes      | numeric metric | count_specialty_center               | Count - Trauma Center Transports                 | number        | number        |
-| Yes      | numeric metric | percent_specialty_center             | Percent - Trauma Center Transports               | percent       | percent       |
-| Yes      | numeric metric | percent_specialty_center_target      | Trauma Center Transport Compliance Target        | percent       | percent       |
-| Yes      | numeric metric | average_interval_call_to_door        | Average Call to Door Interval (Minutes)          | number        | number        |
-| Yes      | numeric metric | average_interval_call_to_door_target | Call to Door Interval Target                     | number        | number        |
+| Included | Schema Type    | Field Name                           | Name                                             | Data Type | Render Type   |
+| ======== | ============== | ==================================== | ================================================ | ========= | ============= |
+| No       | time           | :updated_at                          | updated_at                                       | meta_data | meta_data     |
+| Yes      | numeric metric | fiscal_quarter_key                   | Fiscal Quarter Key                               | number    | number        |
+| Yes      | series tag     | fiscal_quarter                       | Fiscal Quarter                                   | text      | text          |
+| No       |                | fiscal_quarter_start_date            | Fiscal Quarter Start Date                        | text      | calendar_date |
+| No       |                | fiscal_quarter_end_date              | Fiscal Quarter End Date                          | text      | calendar_date |
+| Yes      | numeric metric | count_trauma_alert                   | Count - Trauma Alerts                            | number    | number        |
+| Yes      | numeric metric | count_scene_time_compliance          | Count - Trauma Alert Scene Interval Compliance   | number    | number        |
+| Yes      | numeric metric | percent_scene_time_compliance        | Percent – Trauma Alert Scene Interval Compliance | percent   | percent       |
+| Yes      | numeric metric | percent_scene_time_compliance_target | Trauma Alert Scene Interval Compliance Target    | percent   | percent       |
+| Yes      | numeric metric | count_specialty_center               | Count - Trauma Center Transports                 | number    | number        |
+| Yes      | numeric metric | percent_specialty_center             | Percent - Trauma Center Transports               | percent   | percent       |
+| Yes      | numeric metric | percent_specialty_center_target      | Trauma Center Transport Compliance Target        | percent   | percent       |
+| Yes      | numeric metric | average_interval_call_to_door        | Average Call to Door Interval (Minutes)          | number    | number        |
+| Yes      | numeric metric | average_interval_call_to_door_target | Call to Door Interval Target                     | number    | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = fiscal_quarter_start_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = fiscal_quarter_end_date,fiscal_quarter
+Excluded Fields = fiscal_quarter_start_date,fiscal_quarter_end_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:43eg-euh2 d:2013-10-01T00:00:00.000Z m:percent_specialty_center=100 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=86.23 m:fiscal_quarter_key=201401 m:count_scene_time_compliance=144 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=167 m:percent_specialty_center_target=95 m:count_specialty_center=167 m:average_interval_call_to_door=34.39
+series e:43eg-euh2 d:2017-01-20T15:52:14.000Z t:fiscal_quarter=2014-Q1 m:percent_specialty_center=100 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=86.23 m:fiscal_quarter_key=201401 m:count_scene_time_compliance=144 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=167 m:percent_specialty_center_target=95 m:count_specialty_center=167 m:average_interval_call_to_door=34.39
 
-series e:43eg-euh2 d:2014-01-01T00:00:00.000Z m:percent_specialty_center=99.3 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=88.81 m:fiscal_quarter_key=201402 m:count_scene_time_compliance=127 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=143 m:percent_specialty_center_target=95 m:count_specialty_center=142 m:average_interval_call_to_door=32.99
+series e:43eg-euh2 d:2017-01-20T15:52:14.000Z t:fiscal_quarter=2014-Q2 m:percent_specialty_center=99.3 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=88.81 m:fiscal_quarter_key=201402 m:count_scene_time_compliance=127 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=143 m:percent_specialty_center_target=95 m:count_specialty_center=142 m:average_interval_call_to_door=32.99
 
-series e:43eg-euh2 d:2014-04-01T00:00:00.000Z m:percent_specialty_center=100 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=90.96 m:fiscal_quarter_key=201403 m:count_scene_time_compliance=151 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=166 m:percent_specialty_center_target=95 m:count_specialty_center=166 m:average_interval_call_to_door=35.92
+series e:43eg-euh2 d:2017-01-20T15:52:14.000Z t:fiscal_quarter=2014-Q3 m:percent_specialty_center=100 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=90.96 m:fiscal_quarter_key=201403 m:count_scene_time_compliance=151 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=166 m:percent_specialty_center_target=95 m:count_specialty_center=166 m:average_interval_call_to_door=35.92
 ```
 
 ## Meta Commands

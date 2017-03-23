@@ -18,29 +18,36 @@
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name   | Name         | Data Type     | Render Type   |
-| ======== | =========== | ============ | ============ | ============= | ============= |
-| Yes      | series tag  | site_name    | Site Name    | text          | text          |
-| Yes      | time        | clinic_date  | Clinic Date  | calendar_date | calendar_date |
-| Yes      | series tag  | clinic_hours | Clinic Hours | text          | text          |
-| Yes      | series tag  | clinic_room  | Clinic Room  | text          | text          |
+| Included | Schema Type | Field Name   | Name         | Data Type | Render Type   |
+| ======== | =========== | ============ | ============ | ========= | ============= |
+| No       | time        | :updated_at  | updated_at   | meta_data | meta_data     |
+| Yes      | series tag  | site_name    | Site Name    | text      | text          |
+| No       |             | clinic_date  | Clinic Date  | text      | calendar_date |
+| Yes      | series tag  | clinic_hours | Clinic Hours | text      | text          |
+| Yes      | series tag  | clinic_room  | Clinic Room  | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = clinic_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = clinic_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:fqyg-zgdm d:2015-10-28T00:00:00.000Z t:clinic_hours="7-8  a.m." t:site_name=Brightwater t:clinic_room="""Q"" room" m:row_number.fqyg-zgdm=1
+series e:fqyg-zgdm d:2016-08-16T12:32:30.000Z t:clinic_hours="7-8  a.m." t:site_name=Brightwater t:clinic_room="""Q"" room" m:row_number.fqyg-zgdm=1
 
-series e:fqyg-zgdm d:2015-10-15T00:00:00.000Z t:clinic_hours="11 am - noon" t:site_name=Elections t:clinic_room="Large Conf Room" m:row_number.fqyg-zgdm=2
+series e:fqyg-zgdm d:2016-08-16T12:32:30.000Z t:clinic_hours="11 am - noon" t:site_name=Elections t:clinic_room="Large Conf Room" m:row_number.fqyg-zgdm=2
 
-series e:fqyg-zgdm d:2015-09-28T00:00:00.000Z t:clinic_hours="2 - 4:30 p.m." t:site_name="North Transit Base" t:clinic_room=Classrooms m:row_number.fqyg-zgdm=3
+series e:fqyg-zgdm d:2016-08-16T12:32:43.000Z t:clinic_hours="2 - 4:30 p.m." t:site_name="North Transit Base" t:clinic_room=Classrooms m:row_number.fqyg-zgdm=3
 ```
 
 ## Meta Commands

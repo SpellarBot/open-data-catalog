@@ -25,53 +25,54 @@ Active Street use permits issued by DPW
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name        | Name              | Data Type     | Render Type   |
-| ======== | ============== | ================= | ================= | ============= | ============= |
-| Yes      | series tag     | permit_number     | permit_number     | text          | text          |
-| Yes      | series tag     | streetname        | streetname        | text          | text          |
-| Yes      | series tag     | cross_street_1    | Cross Street 1    | text          | text          |
-| Yes      | series tag     | cross_street_2    | Cross Street 2    | text          | text          |
-| Yes      | series tag     | permit_type       | Permit Type       | text          | text          |
-| Yes      | series tag     | agent             | Agent             | text          | text          |
-| Yes      | series tag     | agentphone        | AgentPhone        | text          | text          |
-| Yes      | series tag     | permit_purpose    | Permit Purpose    | text          | text          |
-| Yes      | time           | approved_date     | Approved Date     | calendar_date | calendar_date |
-| Yes      | series tag     | status            | Status            | text          | text          |
-| Yes      | numeric metric | cnn               | cnn               | number        | number        |
-| Yes      | series tag     | permit_zipcode    | permit_zipcode    | text          | number        |
-| No       |                | permit_start_date | permit_start_date | calendar_date | calendar_date |
-| No       |                | permit_end_date   | permit_end_date   | calendar_date | calendar_date |
-| No       |                | permit_address    | permit_address    | text          | text          |
-| Yes      | series tag     | contact           | 24/7 Contact      | text          | text          |
-| Yes      | series tag     | inspector         | Inspector         | text          | text          |
-| Yes      | series tag     | curbrampwork      | CurbRampWork      | checkbox      | checkbox      |
-| No       |                | x                 | X                 | number        | number        |
-| No       |                | y                 | Y                 | number        | number        |
-| No       |                | latitude          | Latitude          | number        | number        |
-| No       |                | longitude         | Longitude         | number        | number        |
+| Included | Schema Type    | Field Name        | Name              | Data Type | Render Type   |
+| ======== | ============== | ================= | ================= | ========= | ============= |
+| No       | time           | :updated_at       | updated_at        | meta_data | meta_data     |
+| Yes      | series tag     | permit_number     | permit_number     | text      | text          |
+| Yes      | series tag     | streetname        | streetname        | text      | text          |
+| Yes      | series tag     | cross_street_1    | Cross Street 1    | text      | text          |
+| Yes      | series tag     | cross_street_2    | Cross Street 2    | text      | text          |
+| Yes      | series tag     | permit_type       | Permit Type       | text      | text          |
+| Yes      | series tag     | agent             | Agent             | text      | text          |
+| Yes      | series tag     | agentphone        | AgentPhone        | text      | text          |
+| Yes      | series tag     | permit_purpose    | Permit Purpose    | text      | text          |
+| No       |                | approved_date     | Approved Date     | text      | calendar_date |
+| Yes      | series tag     | status            | Status            | text      | text          |
+| Yes      | numeric metric | cnn               | cnn               | number    | number        |
+| Yes      | series tag     | permit_zipcode    | permit_zipcode    | text      | number        |
+| No       |                | permit_start_date | permit_start_date | text      | calendar_date |
+| No       |                | permit_end_date   | permit_end_date   | text      | calendar_date |
+| No       |                | permit_address    | permit_address    | text      | text          |
+| Yes      | series tag     | contact           | 24/7 Contact      | text      | text          |
+| Yes      | series tag     | inspector         | Inspector         | text      | text          |
+| Yes      | series tag     | curbrampwork      | CurbRampWork      | checkbox  | checkbox      |
+| No       |                | x                 | X                 | number    | number        |
+| No       |                | y                 | Y                 | number    | number        |
+| No       |                | latitude          | Latitude          | number    | number        |
+| No       |                | longitude         | Longitude         | number    | number        |
 ```
 
 ## Time Field
 
 ```ls
-Value = approved_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = permit_start_date,permit_end_date,permit_address,x,y,latitude,longitude
+Excluded Fields = approved_date,permit_start_date,permit_end_date,permit_address,x,y,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:b6tj-gt35 d:2016-12-21T14:00:23.000Z t:permit_zipcode=94112 t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:cross_street_2="PRAGUE ST \ WINDING WAY" t:streetname="POPE ST" t:cross_street_1="HANOVER ST" m:cnn=10597000
+series e:b6tj-gt35 d:2016-12-22T16:08:37.000Z t:permit_zipcode=94112 t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:cross_street_2="PRAGUE ST \ WINDING WAY" t:streetname="POPE ST" t:cross_street_1="HANOVER ST" m:cnn=10597000
 
-series e:b6tj-gt35 d:2016-12-21T16:40:58.000Z t:permit_zipcode=94110 t:permit_type=TableChair t:agentphone="(415) 487-2600" t:inspector="Mari Anderson" t:status=APPROVED t:permit_purpose="TWO (2) TABLES AND FOUR (4) CHAIRS ON GUERRERO STREETSIX (6) TABLES AND EIGHTEEN (18) CHAIRS ON 18TH STREET" t:contact="Refer to Agent" t:agent="TARTINE BAKERY" t:cross_street_2="19TH ST" t:streetname="GUERRERO ST" t:cross_street_1="18TH ST" m:cnn=6580201
+series e:b6tj-gt35 d:2016-12-22T16:08:37.000Z t:permit_zipcode=94110 t:permit_type=TableChair t:agentphone="(415) 487-2600" t:inspector="Mari Anderson" t:status=APPROVED t:permit_purpose="TWO (2) TABLES AND FOUR (4) CHAIRS ON GUERRERO STREETSIX (6) TABLES AND EIGHTEEN (18) CHAIRS ON 18TH STREET" t:contact="Refer to Agent" t:agent="TARTINE BAKERY" t:cross_street_2="19TH ST" t:streetname="GUERRERO ST" t:cross_street_1="18TH ST" m:cnn=6580201
 
-series e:b6tj-gt35 d:2016-12-21T14:00:23.000Z t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:streetname="POPE ST" t:cross_street_1="CROSS ST" m:cnn=21472000
+series e:b6tj-gt35 d:2016-12-22T16:08:37.000Z t:permit_type=Excavation t:agentphone=707-577-7232 t:status=APPROVED t:permit_purpose="RECONDUCTOR POPE STREET PROJECT" t:contact=415-695-3500 t:agent="Pacific Gas & Electric" t:streetname="POPE ST" t:cross_street_1="CROSS ST" m:cnn=21472000
 ```
 
 ## Meta Commands

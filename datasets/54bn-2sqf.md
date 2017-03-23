@@ -16,7 +16,7 @@
 | Tags | purchase orders, procurement, purchasing |
 | Created | 2015-03-08T04:50:19Z |
 | Publication Date | 2015-07-27T13:13:15Z |
-| Rows Updated | 2017-03-22T07:07:48Z |
+| Rows Updated | 2017-03-23T07:07:35Z |
 
 ## Description
 
@@ -31,73 +31,74 @@ It should be noted header information will be duplicated on all detail items. No
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name         | Name                             | Data Type     | Render Type   |
-| ======== | ============== | ================== | ================================ | ============= | ============= |
-| Yes      | series tag     | rec_type           | RECORD TYPE                      | text          | text          |
-| Yes      | series tag     | po_num             | PURCHASE ORDER NUMBER            | text          | text          |
-| Yes      | series tag     | req_num            | REQUISITION NUMBER               | text          | text          |
-| Yes      | time           | po_in_date         | INPUT DATE                       | calendar_date | calendar_date |
-| Yes      | numeric metric | total_amt          | TOTAL AMOUNT                     | number        | number        |
-| Yes      | series tag     | deptno             | DEPARTMENT NUMBER                | text          | text          |
-| Yes      | series tag     | dept_desc          | DEPARTMENT NAME                  | text          | text          |
-| Yes      | series tag     | cstctr             | COST CENTER                      | text          | text          |
-| Yes      | series tag     | cstctr_desc        | COST CENTER NAME                 | text          | text          |
-| Yes      | series tag     | empl_inp           | INPUT BY                         | text          | text          |
-| Yes      | series tag     | purc_agent         | PURCHASING AGENT                 | text          | text          |
-| Yes      | series tag     | po_type_cd         | PO TYPE CODE                     | text          | text          |
-| Yes      | series tag     | po_type_desc       | PO TYPE DESCRIPTION              | text          | text          |
-| Yes      | series tag     | po_category        | PO CATEGORY CODE                 | text          | text          |
-| Yes      | series tag     | po_category_desc   | PO CATEGORY DESCRIPTION          | text          | text          |
-| Yes      | series tag     | po_stat            | PO STATUS CODE                   | text          | number        |
-| Yes      | series tag     | po_stat_desc       | PO STATUS DESCRIPTION            | text          | text          |
-| Yes      | numeric metric | vchd_amt           | VOUCHED AMOUNT                   | number        | number        |
-| Yes      | series tag     | vend               | VENDOR NUMBER                    | text          | number        |
-| Yes      | series tag     | vend_name_1        | VENDOR NAME 1                    | text          | text          |
-| Yes      | series tag     | vend_name_2        | VENDOR NAME 2                    | text          | text          |
-| No       |                | vend_addr_1        | VENDOR ADDRESS 1                 | text          | text          |
-| No       |                | vend_addr_2        | VENDOR ADDRESS 2                 | text          | text          |
-| Yes      | series tag     | vend_city          | VENDOR CITY                      | text          | text          |
-| Yes      | series tag     | vend_state         | VENDOR STATE                     | text          | text          |
-| Yes      | series tag     | vend_zip           | VENDOR ZIP                       | text          | text          |
-| Yes      | series tag     | vend_cont_name     | VENDOR CONTACT NAME              | text          | text          |
-| Yes      | series tag     | vend_cont_title    | VENDOR CONTACT TITLE             | text          | text          |
-| Yes      | series tag     | vend_cont_phone    | VENDOR CONTACT PHONE             | text          | number        |
-| Yes      | series tag     | vend_cont_ph_ext   | VENDOR CONTACT EXTENSION         | text          | number        |
-| Yes      | series tag     | vend_minority_abbr | VENDOR MINORITY CODE             | text          | text          |
-| Yes      | series tag     | vend_minority_desc | VENDOR MINORITY DESCRIPTION      | text          | text          |
-| Yes      | numeric metric | total_items        | TOTAL ITEMS                      | number        | number        |
-| Yes      | numeric metric | po_balance         | PO BALANCE                       | number        | number        |
-| Yes      | series tag     | dt_seq             | ITEM NUMBER                      | text          | number        |
-| Yes      | series tag     | dt_stock_desc      | ITEM DESCRIPTION                 | text          | text          |
-| Yes      | numeric metric | dt_qty_ord         | ITEM QUANTITY ORDERED            | number        | number        |
-| Yes      | series tag     | dt_qty_um          | ITEM UNIT OF MEASURE             | text          | text          |
-| Yes      | series tag     | dt_um_desc         | ITEM UNIT OF MEASURE DESCRIPTION | text          | text          |
-| Yes      | numeric metric | dt_unit_cost       | ITEM UNIT COST                   | number        | number        |
-| Yes      | numeric metric | dt_tot_cost        | ITEM TOTAL COST                  | number        | number        |
-| Yes      | series tag     | unique_id          | UNIQUE ID                        | text          | text          |
+| Included | Schema Type    | Field Name         | Name                             | Data Type | Render Type   |
+| ======== | ============== | ================== | ================================ | ========= | ============= |
+| No       | time           | :updated_at        | updated_at                       | meta_data | meta_data     |
+| Yes      | series tag     | rec_type           | RECORD TYPE                      | text      | text          |
+| Yes      | series tag     | po_num             | PURCHASE ORDER NUMBER            | text      | text          |
+| Yes      | series tag     | req_num            | REQUISITION NUMBER               | text      | text          |
+| No       |                | po_in_date         | INPUT DATE                       | text      | calendar_date |
+| Yes      | numeric metric | total_amt          | TOTAL AMOUNT                     | number    | number        |
+| Yes      | series tag     | deptno             | DEPARTMENT NUMBER                | text      | text          |
+| Yes      | series tag     | dept_desc          | DEPARTMENT NAME                  | text      | text          |
+| Yes      | series tag     | cstctr             | COST CENTER                      | text      | text          |
+| Yes      | series tag     | cstctr_desc        | COST CENTER NAME                 | text      | text          |
+| Yes      | series tag     | empl_inp           | INPUT BY                         | text      | text          |
+| Yes      | series tag     | purc_agent         | PURCHASING AGENT                 | text      | text          |
+| Yes      | series tag     | po_type_cd         | PO TYPE CODE                     | text      | text          |
+| Yes      | series tag     | po_type_desc       | PO TYPE DESCRIPTION              | text      | text          |
+| Yes      | series tag     | po_category        | PO CATEGORY CODE                 | text      | text          |
+| Yes      | series tag     | po_category_desc   | PO CATEGORY DESCRIPTION          | text      | text          |
+| Yes      | series tag     | po_stat            | PO STATUS CODE                   | text      | number        |
+| Yes      | series tag     | po_stat_desc       | PO STATUS DESCRIPTION            | text      | text          |
+| Yes      | numeric metric | vchd_amt           | VOUCHED AMOUNT                   | number    | number        |
+| Yes      | series tag     | vend               | VENDOR NUMBER                    | text      | number        |
+| Yes      | series tag     | vend_name_1        | VENDOR NAME 1                    | text      | text          |
+| Yes      | series tag     | vend_name_2        | VENDOR NAME 2                    | text      | text          |
+| No       |                | vend_addr_1        | VENDOR ADDRESS 1                 | text      | text          |
+| No       |                | vend_addr_2        | VENDOR ADDRESS 2                 | text      | text          |
+| Yes      | series tag     | vend_city          | VENDOR CITY                      | text      | text          |
+| Yes      | series tag     | vend_state         | VENDOR STATE                     | text      | text          |
+| Yes      | series tag     | vend_zip           | VENDOR ZIP                       | text      | text          |
+| Yes      | series tag     | vend_cont_name     | VENDOR CONTACT NAME              | text      | text          |
+| Yes      | series tag     | vend_cont_title    | VENDOR CONTACT TITLE             | text      | text          |
+| Yes      | series tag     | vend_cont_phone    | VENDOR CONTACT PHONE             | text      | number        |
+| Yes      | series tag     | vend_cont_ph_ext   | VENDOR CONTACT EXTENSION         | text      | number        |
+| Yes      | series tag     | vend_minority_abbr | VENDOR MINORITY CODE             | text      | text          |
+| Yes      | series tag     | vend_minority_desc | VENDOR MINORITY DESCRIPTION      | text      | text          |
+| Yes      | numeric metric | total_items        | TOTAL ITEMS                      | number    | number        |
+| Yes      | numeric metric | po_balance         | PO BALANCE                       | number    | number        |
+| Yes      | series tag     | dt_seq             | ITEM NUMBER                      | text      | number        |
+| Yes      | series tag     | dt_stock_desc      | ITEM DESCRIPTION                 | text      | text          |
+| Yes      | numeric metric | dt_qty_ord         | ITEM QUANTITY ORDERED            | number    | number        |
+| Yes      | series tag     | dt_qty_um          | ITEM UNIT OF MEASURE             | text      | text          |
+| Yes      | series tag     | dt_um_desc         | ITEM UNIT OF MEASURE DESCRIPTION | text      | text          |
+| Yes      | numeric metric | dt_unit_cost       | ITEM UNIT COST                   | number    | number        |
+| Yes      | numeric metric | dt_tot_cost        | ITEM TOTAL COST                  | number    | number        |
+| Yes      | series tag     | unique_id          | UNIQUE ID                        | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = po_in_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = vend_addr_1,vend_addr_2
+Excluded Fields = po_in_date,vend_addr_1,vend_addr_2
 ```
 
 ## Data Commands
 
 ```ls
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO110701 t:empl_inp=BDCA t:rec_type=H t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dept_desc="CONSTRUCTION PROJECTS" m:po_balance=9.75 m:total_items=5 m:total_amt=13682 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2017-01-28T08:05:33.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO110701 t:empl_inp=BDCA t:rec_type=H t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dept_desc="CONSTRUCTION PROJECTS" m:po_balance=9.75 m:total_items=5 m:total_amt=13682 m:vchd_amt=13672.25
 
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010001 t:dt_seq=1 t:empl_inp=BDCA t:rec_type=D t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:dt_stock_desc="CONSTRUCTION MATERIALS TESTING & INSPECTION        SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:dt_unit_cost=10992 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=10992 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2017-01-28T08:05:33.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010001 t:dt_seq=1 t:empl_inp=BDCA t:rec_type=D t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:dt_stock_desc="CONSTRUCTION MATERIALS TESTING & INSPECTION        SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:dt_unit_cost=10992 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=10992 m:vchd_amt=13672.25
 
-series e:54bn-2sqf d:2012-10-17T00:00:00.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010002 t:dt_seq=2 t:empl_inp=BDCA t:rec_type=D t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:dt_stock_desc="INTERNAL CHANGE ORDER TO CORRECT PO TYPE FOR       SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:dt_unit_cost=0 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=0 m:vchd_amt=13672.25
+series e:54bn-2sqf d:2017-01-28T08:05:33.000Z t:po_stat=11 t:vend_cont_name="**NAME CHANGED FROM FUGRO" t:cstctr_desc="CONSTRUCTION PROJECTS - PUBLIC BUILDINGS" t:po_type_cd=B t:dt_qty_um=JB t:purc_agent=PW t:po_category=PS t:req_num=RQ030549 t:vend_name_1="FUGRO USA LAND INC" t:po_num=PO110701 t:vend_city=HOUSTON t:po_type_desc=GOODS-SERV t:unique_id=PO1107010002 t:dt_seq=2 t:empl_inp=BDCA t:rec_type=D t:vend=64320 t:po_stat_desc=CLOSED t:cstctr=7510 t:dt_stock_desc="INTERNAL CHANGE ORDER TO CORRECT PO TYPE FOR       SERVICES FOR THE NEW SHARP ROAD FIRE STATION #13   PROJECT # 11-ASD-CP-0011.                          PER WRITTEN CONTRACT." t:po_category_desc="PROFESSIONAL SERVICES" t:vend_zip=77469 t:deptno=75 t:vend_state=TX t:dt_um_desc=JOB t:dept_desc="CONSTRUCTION PROJECTS" m:dt_unit_cost=0 m:po_balance=9.75 m:total_items=5 m:dt_qty_ord=1 m:total_amt=13682 m:dt_tot_cost=0 m:vchd_amt=13672.25
 ```
 
 ## Meta Commands

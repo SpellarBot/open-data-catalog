@@ -25,34 +25,41 @@ The City of Somerville uses this dataset to provide residents with information r
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name      | Name            | Data Type     | Render Type   |
-| ======== | ============== | =============== | =============== | ============= | ============= |
-| Yes      | series tag     | item            | Item #          | text          | number        |
-| Yes      | series tag     | category_of_gov | Category of Gov | text          | text          |
-| Yes      | series tag     | vendor_name     | VENDOR NAME     | text          | text          |
-| Yes      | numeric metric | amount          | Amount          | number        | number        |
-| Yes      | time           | check_date      | Check Date      | calendar_date | calendar_date |
-| Yes      | series tag     | department      | Department      | text          | text          |
-| Yes      | series tag     | check           | Check #         | text          | number        |
-| Yes      | series tag     | org_description | Org Description | text          | text          |
-| Yes      | series tag     | account_desc    | Account Desc    | text          | text          |
+| Included | Schema Type    | Field Name      | Name            | Data Type | Render Type   |
+| ======== | ============== | =============== | =============== | ========= | ============= |
+| No       | time           | :updated_at     | updated_at      | meta_data | meta_data     |
+| Yes      | series tag     | item            | Item #          | text      | number        |
+| Yes      | series tag     | category_of_gov | Category of Gov | text      | text          |
+| Yes      | series tag     | vendor_name     | VENDOR NAME     | text      | text          |
+| Yes      | numeric metric | amount          | Amount          | number    | number        |
+| No       |                | check_date      | Check Date      | text      | calendar_date |
+| Yes      | series tag     | department      | Department      | text      | text          |
+| Yes      | series tag     | check           | Check #         | text      | number        |
+| Yes      | series tag     | org_description | Org Description | text      | text          |
+| Yes      | series tag     | account_desc    | Account Desc    | text      | text          |
 ```
 
 ## Time Field
 
 ```ls
-Value = check_date
-Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = check_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:hkfu-49xs d:2016-11-22T00:00:00.000Z t:account_desc="OFFICE SUPPLIES" t:check=4229 t:department="OSPCD ADMINISTRATION" t:item=1 t:vendor_name=4IMPRINT t:org_description="OSPCD-ADMIN ORDINARY MAINT" t:category_of_gov="General Government" m:amount=870.66
+series e:hkfu-49xs d:2017-01-23T15:27:11.000Z t:account_desc="OFFICE SUPPLIES" t:check=4229 t:department="OSPCD ADMINISTRATION" t:item=1 t:vendor_name=4IMPRINT t:org_description="OSPCD-ADMIN ORDINARY MAINT" t:category_of_gov="General Government" m:amount=870.66
 
-series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc="PRINTING & STATIONERY" t:check=3991 t:department="POLICE DEPARTMENT" t:item=2 t:vendor_name=4IMPRINT t:org_description="POLICE ORDINARY MAINTENANCE" t:category_of_gov="General Government" m:amount=357.44
+series e:hkfu-49xs d:2017-01-23T15:27:11.000Z t:account_desc="PRINTING & STATIONERY" t:check=3991 t:department="POLICE DEPARTMENT" t:item=2 t:vendor_name=4IMPRINT t:org_description="POLICE ORDINARY MAINTENANCE" t:category_of_gov="General Government" m:amount=357.44
 
-series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc=STATIONERY t:check=3992 t:department="POLICE DEPARTMENT" t:item=3 t:vendor_name=4IMPRINT t:org_description="POLICE-ANIMAL CTL ORD MAINT" t:category_of_gov="General Government" m:amount=722.6
+series e:hkfu-49xs d:2017-01-23T15:27:11.000Z t:account_desc=STATIONERY t:check=3992 t:department="POLICE DEPARTMENT" t:item=3 t:vendor_name=4IMPRINT t:org_description="POLICE-ANIMAL CTL ORD MAINT" t:category_of_gov="General Government" m:amount=722.6
 ```
 
 ## Meta Commands
