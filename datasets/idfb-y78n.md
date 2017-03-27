@@ -15,7 +15,6 @@
 | Tags | recreational boating permits, dep, boating |
 | Created | 2014-01-08T18:18:03Z |
 | Publication Date | 2016-11-14T22:20:48Z |
-| Rows Updated | 2016-11-14T22:20:44Z |
 
 ## Columns
 

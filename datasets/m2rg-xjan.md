@@ -16,7 +16,6 @@
 | Tags | admission type, county, prison admissions, gender, age, crime |
 | Created | 2014-01-09T15:51:48Z |
 | Publication Date | 2015-11-30T16:20:04Z |
-| Rows Updated | 2015-11-25T23:02:59Z |
 
 ## Description
 

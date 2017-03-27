@@ -16,7 +16,6 @@
 | Tags | health, hartford, hospital |
 | Created | 2014-07-01T20:21:10Z |
 | Publication Date | 2015-06-13T20:14:23Z |
-| Rows Updated | 2015-06-13T20:13:27Z |
 
 ## Description
 

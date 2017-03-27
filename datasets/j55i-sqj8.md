@@ -15,7 +15,6 @@
 | Tags | population health, measures, age, adjusted, mortality, rates |
 | Created | 2014-12-23T19:33:23Z |
 | Publication Date | 2015-01-05T14:59:24Z |
-| Rows Updated | 2015-01-08T06:21:19Z |
 
 ## Description
 

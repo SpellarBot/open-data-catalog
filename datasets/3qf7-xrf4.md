@@ -16,7 +16,6 @@
 | Tags | elections, voting, vote, polling locations |
 | Created | 2014-10-17T16:18:17Z |
 | Publication Date | 2014-10-27T19:46:26Z |
-| Rows Updated | 2014-10-27T19:45:57Z |
 
 ## Description
 

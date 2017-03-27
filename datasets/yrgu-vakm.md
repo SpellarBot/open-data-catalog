@@ -16,7 +16,6 @@
 | Tags | exceptions, street, restrictions, permits |
 | Created | 2012-09-25T00:09:14Z |
 | Publication Date | 2015-07-17T15:20:34Z |
-| Rows Updated | 2017-03-23T15:04:47Z |
 
 ## Description
 

@@ -13,7 +13,6 @@
 | Name | September 2014 FMU Monthly Report WQ EX data |
 | Created | 2014-11-07T19:19:21Z |
 | Publication Date | 2015-03-17T18:55:39Z |
-| Rows Updated | 2015-03-17T18:55:31Z |
 
 ## Columns
 

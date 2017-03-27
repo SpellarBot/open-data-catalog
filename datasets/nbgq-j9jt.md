@@ -14,7 +14,6 @@
 | Category | Education |
 | Created | 2015-10-19T19:23:23Z |
 | Publication Date | 2015-10-19T19:30:25Z |
-| Rows Updated | 2015-10-19T19:25:07Z |
 
 ## Description
 

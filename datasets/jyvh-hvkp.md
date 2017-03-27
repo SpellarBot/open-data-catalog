@@ -16,7 +16,6 @@
 | Tags | electricity |
 | Created | 2012-08-28T20:29:40Z |
 | Publication Date | 2012-08-29T01:33:54Z |
-| Rows Updated | 2012-08-28T20:29:42Z |
 
 ## Columns
 

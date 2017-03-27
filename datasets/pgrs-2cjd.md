@@ -16,7 +16,6 @@
 | Tags | lifelong learning |
 | Created | 2011-10-05T22:55:29Z |
 | Publication Date | 2011-10-11T18:11:37Z |
-| Rows Updated | 2011-10-05T22:55:51Z |
 
 ## Description
 

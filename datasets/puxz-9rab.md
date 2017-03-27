@@ -13,7 +13,6 @@
 | Name | Report Card 1: Overall Hawaii Visitor Numbers |
 | Created | 2012-11-18T22:39:28Z |
 | Publication Date | 2012-11-18T22:41:31Z |
-| Rows Updated | 2012-11-18T22:39:31Z |
 
 ## Columns
 

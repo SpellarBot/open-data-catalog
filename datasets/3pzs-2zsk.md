@@ -16,7 +16,6 @@
 | Tags | kwh, kw, solar photovoltaic, pv |
 | Created | 2014-11-17T16:17:08Z |
 | Publication Date | 2015-07-29T22:02:22Z |
-| Rows Updated | 2015-07-29T22:01:47Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Category | Natural Resources & Environment |
 | Created | 2014-11-10T17:17:47Z |
 | Publication Date | 2014-11-10T17:20:29Z |
-| Rows Updated | 2014-11-10T17:18:03Z |
 
 ## Columns
 

@@ -16,7 +16,6 @@
 | Tags | birth rate, women, united states, nchs |
 | Created | 2015-12-02T19:26:25Z |
 | Publication Date | 2015-12-02T19:31:05Z |
-| Rows Updated | 2015-12-02T19:30:20Z |
 
 ## Description
 

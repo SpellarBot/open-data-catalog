@@ -16,7 +16,6 @@
 | Tags | abuse, alcohol use, contraception, breastfeeding, mental health, morbidity, obesity, pregnancy history, prenatal care, sleep behavior, smoke exposure, stress, tobacco use, wic, medicaid, reproduct... |
 | Created | 2015-03-16T13:46:10Z |
 | Publication Date | 2015-03-16T14:03:18Z |
-| Rows Updated | 2015-03-16T13:58:43Z |
 
 ## Description
 

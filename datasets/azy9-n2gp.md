@@ -15,7 +15,6 @@
 | Tags | police, crime, collisions, lapd, traffic, safety |
 | Created | 2015-01-19T21:26:28Z |
 | Publication Date | 2015-12-04T21:29:36Z |
-| Rows Updated | 2015-01-19T21:35:52Z |
 
 ## Columns
 

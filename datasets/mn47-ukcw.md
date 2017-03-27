@@ -14,7 +14,6 @@
 | Attribution | Cook County Department of Facilities Management |
 | Created | 2011-09-08T21:08:09Z |
 | Publication Date | 2014-10-09T21:41:07Z |
-| Rows Updated | 2014-10-09T21:39:33Z |
 
 ## Columns
 

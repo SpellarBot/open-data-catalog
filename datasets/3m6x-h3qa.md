@@ -16,7 +16,6 @@
 | Tags | rsbl study, energy efficiency, single-family homes, market characterization, baseline study |
 | Created | 2015-06-23T17:20:50Z |
 | Publication Date | 2015-10-30T20:45:09Z |
-| Rows Updated | 2015-10-29T21:27:47Z |
 
 ## Description
 

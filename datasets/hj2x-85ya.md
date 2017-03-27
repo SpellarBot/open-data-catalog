@@ -16,7 +16,6 @@
 | Tags | tobacco, osh, state system, legislation, policy, preemption |
 | Created | 2014-12-16T18:54:59Z |
 | Publication Date | 2017-02-07T18:35:59Z |
-| Rows Updated | 2017-02-07T18:35:35Z |
 
 ## Description
 

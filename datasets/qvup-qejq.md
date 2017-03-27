@@ -16,7 +16,6 @@
 | Tags | hhs, yrbs, schools |
 | Created | 2016-02-03T19:11:48Z |
 | Publication Date | 2016-02-04T14:07:38Z |
-| Rows Updated | 2016-02-04T13:53:31Z |
 
 ## Description
 

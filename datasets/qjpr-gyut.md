@@ -13,7 +13,6 @@
 | Name | Election Maps - Statewide |
 | Created | 2015-02-27T20:54:58Z |
 | Publication Date | 2016-01-25T20:27:26Z |
-| Rows Updated | 2016-01-25T20:25:43Z |
 
 ## Columns
 

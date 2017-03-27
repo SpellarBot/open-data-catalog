@@ -16,7 +16,6 @@
 | Tags | higher education, enrollment |
 | Created | 2014-01-17T17:03:53Z |
 | Publication Date | 2015-12-23T17:44:26Z |
-| Rows Updated | 2015-12-21T18:40:31Z |
 
 ## Description
 

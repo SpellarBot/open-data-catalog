@@ -16,7 +16,6 @@
 | Tags | city government, business, dca, department of consumer affairs, license, application |
 | Created | 2016-01-26T14:50:15Z |
 | Publication Date | 2016-02-08T16:50:47Z |
-| Rows Updated | 2017-03-17T18:43:48Z |
 
 ## Description
 

@@ -13,7 +13,6 @@
 | Name | 05to12 Iquery Lyme Data |
 | Created | 2013-11-05T21:26:32Z |
 | Publication Date | 2013-11-06T15:00:56Z |
-| Rows Updated | 2013-11-05T21:26:40Z |
 
 ## Description
 

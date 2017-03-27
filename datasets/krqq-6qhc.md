@@ -16,7 +16,6 @@
 | Tags | tax, exempt, non-profit, tax exempt, charity, charities |
 | Created | 2016-12-15T17:57:44Z |
 | Publication Date | 2016-12-15T19:44:31Z |
-| Rows Updated | 2017-03-22T15:20:41Z |
 
 ## Description
 

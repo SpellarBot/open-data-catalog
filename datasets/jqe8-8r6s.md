@@ -16,7 +16,6 @@
 | Tags | mosquitoes, west nile virus, wnv, environmental health, public health, vector |
 | Created | 2015-04-17T16:28:15Z |
 | Publication Date | 2016-08-11T19:44:04Z |
-| Rows Updated | 2016-09-30T07:01:40Z |
 
 ## Description
 

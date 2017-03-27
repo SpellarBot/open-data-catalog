@@ -16,7 +16,6 @@
 | Tags | total, acres, residential, development, planning, mdp |
 | Created | 2012-12-21T17:40:29Z |
 | Publication Date | 2013-11-20T15:57:10Z |
-| Rows Updated | 2013-11-20T15:55:56Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | facilities, children, domestic violence, housing, homelessness, youth, seniors, workforce, human services, family and support services |
 | Created | 2015-10-06T16:14:40Z |
 | Publication Date | 2015-10-07T21:49:36Z |
-| Rows Updated | 2015-10-07T21:47:48Z |
 
 ## Description
 

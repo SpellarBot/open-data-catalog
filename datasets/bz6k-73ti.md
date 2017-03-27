@@ -15,7 +15,6 @@
 | Tags | sti, std, sexually transmitted |
 | Created | 2012-05-15T16:54:13Z |
 | Publication Date | 2016-01-08T19:54:56Z |
-| Rows Updated | 2016-01-08T15:52:54Z |
 
 ## Description
 

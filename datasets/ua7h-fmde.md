@@ -14,7 +14,6 @@
 | Tags | storm response |
 | Created | 2016-12-09T18:25:59Z |
 | Publication Date | 2016-12-14T17:24:06Z |
-| Rows Updated | 2016-12-09T18:25:59Z |
 
 ## Description
 

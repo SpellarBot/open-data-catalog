@@ -16,7 +16,6 @@
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, invasive pneumococcal diseases, all ages |
 | Created | 2017-01-12T19:51:08Z |
 | Publication Date | 2017-03-16T16:09:00Z |
-| Rows Updated | 2017-03-16T14:57:30Z |
 
 ## Description
 

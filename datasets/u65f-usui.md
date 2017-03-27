@@ -16,7 +16,6 @@
 | Tags | health, abortion, pregnancy |
 | Created | 2014-08-19T14:18:25Z |
 | Publication Date | 2014-08-19T14:22:19Z |
-| Rows Updated | 2014-08-19T14:18:34Z |
 
 ## Description
 

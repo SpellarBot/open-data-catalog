@@ -16,7 +16,6 @@
 | Tags | nhs, network, road, route, transportation, lrs, fcc, commercial, industrial, asset, classification, iowa dot, iowa department of transportation |
 | Created | 2016-11-08T18:04:10Z |
 | Publication Date | 2016-11-08T18:08:27Z |
-| Rows Updated | 2016-11-08T18:04:10Z |
 
 ## Description
 

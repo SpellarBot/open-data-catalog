@@ -15,7 +15,6 @@
 | Tags | survey, brfss, behavioral, risk, factor, ... |
 | Created | 2015-06-04T17:33:13Z |
 | Publication Date | 2016-03-11T15:04:09Z |
-| Rows Updated | 2016-03-11T15:01:49Z |
 
 ## Description
 

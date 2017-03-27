@@ -16,7 +16,6 @@
 | Tags | 2013 bills, legislature |
 | Created | 2013-05-08T19:49:17Z |
 | Publication Date | 2013-05-08T19:53:36Z |
-| Rows Updated | 2013-05-08T19:49:26Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | libraries, culture, community, recreation, education |
 | Created | 2011-10-31T16:25:49Z |
 | Publication Date | 2013-06-21T20:27:11Z |
-| Rows Updated | 2013-06-21T20:27:07Z |
 
 ## Description
 

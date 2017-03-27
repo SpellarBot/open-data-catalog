@@ -16,7 +16,6 @@
 | Tags | transportaion, bus inspections |
 | Created | 2015-02-24T18:41:16Z |
 | Publication Date | 2016-05-13T16:57:13Z |
-| Rows Updated | 2016-05-11T22:01:31Z |
 
 ## Description
 

@@ -13,7 +13,6 @@
 | Name | Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission) |
 | Created | 2014-01-16T00:42:45Z |
 | Publication Date | 2016-04-11T21:13:10Z |
-| Rows Updated | 2016-04-11T21:10:49Z |
 
 ## Columns
 

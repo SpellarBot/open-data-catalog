@@ -16,7 +16,6 @@
 | Tags | elections |
 | Created | 2013-07-24T20:58:03Z |
 | Publication Date | 2013-07-24T21:01:55Z |
-| Rows Updated | 2013-07-24T21:01:33Z |
 
 ## Columns
 

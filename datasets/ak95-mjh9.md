@@ -16,7 +16,6 @@
 | Tags | unemployment |
 | Created | 2014-02-06T04:36:01Z |
 | Publication Date | 2014-02-06T05:16:54Z |
-| Rows Updated | 2014-02-06T05:16:45Z |
 
 ## Description
 

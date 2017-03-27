@@ -15,7 +15,6 @@
 | Category | Environmental |
 | Created | 2013-07-17T12:58:22Z |
 | Publication Date | 2013-09-18T14:22:42Z |
-| Rows Updated | 2013-09-18T14:14:06Z |
 
 ## Description
 

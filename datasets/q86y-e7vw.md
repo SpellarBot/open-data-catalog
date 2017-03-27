@@ -14,7 +14,6 @@
 | Category | Utility |
 | Created | 2016-02-11T18:08:35Z |
 | Publication Date | 2016-02-11T19:03:27Z |
-| Rows Updated | 2016-02-11T18:12:27Z |
 
 ## Description
 

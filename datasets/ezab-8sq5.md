@@ -15,7 +15,6 @@
 | Tags | osh, tobacco, sammec, sae |
 | Created | 2015-01-20T20:23:17Z |
 | Publication Date | 2017-02-06T16:35:05Z |
-| Rows Updated | 2017-02-06T14:30:48Z |
 
 ## Description
 

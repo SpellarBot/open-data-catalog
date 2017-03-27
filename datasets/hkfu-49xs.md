@@ -16,7 +16,6 @@
 | Tags | open checkbook, finance, fy17 |
 | Created | 2016-11-09T16:04:11Z |
 | Publication Date | 2017-01-23T15:27:28Z |
-| Rows Updated | 2017-01-23T15:27:19Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | community, neighborhood associations, connected, city of jackson, super neighborhood, citizen engagement, city hall, constituent services, community improvement |
 | Created | 2016-03-23T15:03:39Z |
 | Publication Date | 2017-03-10T21:09:59Z |
-| Rows Updated | 2017-03-10T21:09:49Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Tags | austintexas.gov, popular pages, percent exit, bounce rate, entrances, average time on page, unique pageviews, pageviews |
 | Created | 2015-04-21T15:45:40Z |
 | Publication Date | 2017-01-09T18:16:53Z |
-| Rows Updated | 2017-01-09T18:16:40Z |
 
 ## Description
 

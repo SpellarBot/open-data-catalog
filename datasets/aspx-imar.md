@@ -16,7 +16,6 @@
 | Tags | dmv |
 | Created | 2014-10-01T12:44:47Z |
 | Publication Date | 2014-10-02T20:02:32Z |
-| Rows Updated | 2014-10-01T12:46:14Z |
 
 ## Columns
 

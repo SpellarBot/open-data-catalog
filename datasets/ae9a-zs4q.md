@@ -16,7 +16,6 @@
 | Tags | after school, advantage after school, afterschool |
 | Created | 2013-04-16T15:29:15Z |
 | Publication Date | 2016-02-18T14:55:28Z |
-| Rows Updated | 2016-02-18T14:43:56Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Tags | catch basin, stormwater, catchment basin, storm drain |
 | Created | 2015-10-28T16:14:35Z |
 | Publication Date | 2015-10-28T16:31:55Z |
-| Rows Updated | 2017-03-23T13:02:55Z |
 
 ## Description
 

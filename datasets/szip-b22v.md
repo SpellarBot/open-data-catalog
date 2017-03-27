@@ -13,7 +13,6 @@
 | Name | Statewide Hatchery Rollup |
 | Created | 2012-12-05T01:33:47Z |
 | Publication Date | 2012-12-05T02:57:46Z |
-| Rows Updated | 2012-12-05T02:57:37Z |
 
 ## Columns
 

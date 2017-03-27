@@ -16,7 +16,6 @@
 | Tags | mill rates, mill, tax, towns, municipal |
 | Created | 2017-01-30T20:30:47Z |
 | Publication Date | 2017-01-30T20:33:09Z |
-| Rows Updated | 2017-01-30T20:30:51Z |
 
 ## Description
 

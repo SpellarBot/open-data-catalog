@@ -14,7 +14,6 @@
 | Attribution | Cook County Clerk |
 | Created | 2012-10-10T19:48:01Z |
 | Publication Date | 2014-10-09T21:26:53Z |
-| Rows Updated | 2014-10-09T21:26:48Z |
 
 ## Columns
 

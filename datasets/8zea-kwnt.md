@@ -16,7 +16,6 @@
 | Tags | osh, state system, legislation, policy, youth access, e-cigarette |
 | Created | 2015-05-04T14:09:53Z |
 | Publication Date | 2017-02-16T17:15:19Z |
-| Rows Updated | 2017-03-01T17:36:11Z |
 
 ## Description
 

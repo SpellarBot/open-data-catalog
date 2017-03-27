@@ -16,7 +16,6 @@
 | Tags | department of finance, finance, dof, rental property, cooperatives, residential, apartment, buildings, rental properties, borough, manhattan |
 | Created | 2011-10-03T18:47:21Z |
 | Publication Date | 2013-06-26T16:55:07Z |
-| Rows Updated | 2013-06-26T16:54:52Z |
 
 ## Description
 

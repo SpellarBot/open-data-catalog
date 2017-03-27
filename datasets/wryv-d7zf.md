@@ -16,7 +16,6 @@
 | Tags | food, food desert |
 | Created | 2013-08-26T19:36:23Z |
 | Publication Date | 2013-08-26T20:27:32Z |
-| Rows Updated | 2013-08-26T20:09:21Z |
 
 ## Description
 

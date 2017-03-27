@@ -16,7 +16,6 @@
 | Tags | oral health, dental caries, dentist, dentalcare, toothache, children, office of oral health |
 | Created | 2013-01-04T00:06:06Z |
 | Publication Date | 2013-01-04T17:46:46Z |
-| Rows Updated | 2013-01-04T17:43:47Z |
 
 ## Description
 

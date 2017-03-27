@@ -16,7 +16,6 @@
 | Tags | open checkbook, finance, fy15 |
 | Created | 2016-02-01T15:12:57Z |
 | Publication Date | 2016-02-01T15:30:16Z |
-| Rows Updated | 2016-02-01T15:14:07Z |
 
 ## Description
 

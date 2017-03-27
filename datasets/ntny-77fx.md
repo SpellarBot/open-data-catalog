@@ -16,7 +16,6 @@
 | Tags | cardiovascular, stroke, coronary heart disease, myocardial infarction, hospitalizations |
 | Created | 2016-06-23T23:26:57Z |
 | Publication Date | 2017-01-04T21:44:43Z |
-| Rows Updated | 2017-01-03T20:29:35Z |
 
 ## Description
 

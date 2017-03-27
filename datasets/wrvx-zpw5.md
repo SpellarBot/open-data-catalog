@@ -16,7 +16,6 @@
 | Tags | performance metrics, parks |
 | Created | 2011-11-25T19:33:56Z |
 | Publication Date | 2012-08-03T19:17:00Z |
-| Rows Updated | 2012-08-03T19:16:57Z |
 
 ## Description
 

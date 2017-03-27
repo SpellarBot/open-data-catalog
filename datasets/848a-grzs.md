@@ -16,7 +16,6 @@
 | Tags | budget, operating budget, expenditures, spending |
 | Created | 2016-03-31T20:54:21Z |
 | Publication Date | 2017-03-10T20:59:57Z |
-| Rows Updated | 2017-03-10T20:59:31Z |
 
 ## Description
 

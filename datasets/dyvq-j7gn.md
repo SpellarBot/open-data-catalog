@@ -13,7 +13,6 @@
 | Name | TPW_FleetTechnicianBillableHours |
 | Created | 2017-02-04T01:14:16Z |
 | Publication Date | 2017-02-06T04:56:49Z |
-| Rows Updated | 2017-02-06T04:56:08Z |
 
 ## Columns
 

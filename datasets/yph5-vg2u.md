@@ -14,7 +14,6 @@
 | Tags | social media |
 | Created | 2016-06-24T18:45:18Z |
 | Publication Date | 2017-02-13T15:13:23Z |
-| Rows Updated | 2017-02-13T15:13:15Z |
 
 ## Description
 

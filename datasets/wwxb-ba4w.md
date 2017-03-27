@@ -14,7 +14,6 @@
 | Category | Community |
 | Created | 2015-01-12T20:09:48Z |
 | Publication Date | 2015-01-12T20:31:55Z |
-| Rows Updated | 2015-01-12T20:31:36Z |
 
 ## Columns
 

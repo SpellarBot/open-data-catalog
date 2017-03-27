@@ -16,7 +16,6 @@
 | Tags | weatherization, assistance, weatherization assistance program, energy, savings |
 | Created | 2016-09-06T16:43:36Z |
 | Publication Date | 2016-09-30T18:29:51Z |
-| Rows Updated | 2016-09-30T18:29:49Z |
 
 ## Description
 
@@ -69,7 +68,7 @@ property e:fnns-rqqh t:meta.view v:id=fnns-rqqh v:category=Utility v:averageRati
 
 property e:fnns-rqqh t:meta.view.license v:name="Public Domain"
 
-property e:fnns-rqqh t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
+property e:fnns-rqqh t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
-property e:fnns-rqqh t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:fnns-rqqh t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```

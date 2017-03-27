@@ -16,7 +16,6 @@
 | Tags | smoking, cigarette, behavioral risk factor surveillance system, connecticut school health survey, youth tobacco survey |
 | Created | 2014-04-08T15:13:14Z |
 | Publication Date | 2014-04-08T15:16:38Z |
-| Rows Updated | 2014-04-08T15:13:20Z |
 
 ## Description
 

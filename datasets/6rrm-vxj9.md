@@ -16,7 +16,6 @@
 | Tags | parks, monuments, dpr |
 | Created | 2016-09-15T18:35:50Z |
 | Publication Date | 2016-09-19T20:14:30Z |
-| Rows Updated | 2016-09-19T20:11:53Z |
 
 ## Description
 

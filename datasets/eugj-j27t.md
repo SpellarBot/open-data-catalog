@@ -15,7 +15,6 @@
 | Tags | arra, opm |
 | Created | 2014-06-26T14:59:44Z |
 | Publication Date | 2014-06-26T15:57:24Z |
-| Rows Updated | 2014-06-26T14:59:52Z |
 
 ## Description
 

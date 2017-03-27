@@ -16,7 +16,6 @@
 | Tags | permit, construction, champaign |
 | Created | 2012-12-04T19:53:57Z |
 | Publication Date | 2012-12-04T21:48:50Z |
-| Rows Updated | 2012-12-04T21:06:22Z |
 
 ## Columns
 

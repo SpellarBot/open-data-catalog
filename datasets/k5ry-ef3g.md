@@ -16,7 +16,6 @@
 | Tags | food, restaurant |
 | Created | 2011-12-14T19:20:41Z |
 | Publication Date | 2014-04-03T23:39:45Z |
-| Rows Updated | 2014-04-03T23:39:41Z |
 
 ## Description
 

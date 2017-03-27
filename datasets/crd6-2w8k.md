@@ -15,7 +15,6 @@
 | Category | Housing, Land Use, and Blight |
 | Created | 2015-04-28T21:51:33Z |
 | Publication Date | 2016-01-25T20:53:46Z |
-| Rows Updated | 2016-01-25T20:51:43Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Tags | budget, revenue |
 | Created | 2016-07-11T14:10:40Z |
 | Publication Date | 2016-07-11T14:12:29Z |
-| Rows Updated | 2016-07-11T14:10:54Z |
 
 ## Description
 

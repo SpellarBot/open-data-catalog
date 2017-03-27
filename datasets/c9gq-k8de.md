@@ -16,7 +16,6 @@
 | Tags | proposed budget |
 | Created | 2015-08-14T21:37:06Z |
 | Publication Date | 2015-08-14T21:52:16Z |
-| Rows Updated | 2015-08-14T21:44:36Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | hospice, residence, residential, facilities, facility |
 | Created | 2012-10-11T18:10:20Z |
 | Publication Date | 2017-01-06T18:37:44Z |
-| Rows Updated | 2017-01-06T18:37:05Z |
 
 ## Description
 

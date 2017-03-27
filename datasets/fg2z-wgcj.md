@@ -16,7 +16,6 @@
 | Tags | lsta, library services and technology act, allotments, budget, administrative, trends |
 | Created | 2014-10-29T21:01:56Z |
 | Publication Date | 2016-08-29T18:45:41Z |
-| Rows Updated | 2016-08-29T18:43:50Z |
 
 ## Description
 

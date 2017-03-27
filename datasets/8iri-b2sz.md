@@ -15,7 +15,6 @@
 | Tags | development, housing, residential |
 | Created | 2016-05-25T21:39:23Z |
 | Publication Date | 2016-05-25T21:44:21Z |
-| Rows Updated | 2016-05-25T21:39:54Z |
 
 ## Description
 

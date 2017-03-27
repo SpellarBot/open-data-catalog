@@ -16,7 +16,6 @@
 | Tags | emissions by plant, gas, greenhouse gas, carbon dioxide, energy |
 | Created | 2016-09-12T15:33:02Z |
 | Publication Date | 2016-10-25T19:31:04Z |
-| Rows Updated | 2016-10-25T19:30:33Z |
 
 ## Description
 
@@ -67,7 +66,7 @@ property e:ukf5-i76d t:meta.view v:id=ukf5-i76d v:category=Utility v:averageRati
 
 property e:ukf5-i76d t:meta.view.license v:name="Public Domain"
 
-property e:ukf5-i76d t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
+property e:ukf5-i76d t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
 property e:ukf5-i76d t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

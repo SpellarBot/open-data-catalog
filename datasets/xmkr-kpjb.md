@@ -16,7 +16,6 @@
 | Tags | taxes, property taxes, rates, levy authorities, tif |
 | Created | 2014-11-14T19:11:41Z |
 | Publication Date | 2016-12-22T21:12:35Z |
-| Rows Updated | 2016-12-22T21:12:08Z |
 
 ## Description
 

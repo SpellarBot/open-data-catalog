@@ -16,7 +16,6 @@
 | Tags | transparency, strategic investment program, fiscal year 2016 report |
 | Created | 2016-10-05T23:12:09Z |
 | Publication Date | 2016-10-06T18:16:47Z |
-| Rows Updated | 2016-10-06T15:12:37Z |
 
 ## Description
 

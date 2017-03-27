@@ -15,7 +15,6 @@
 | Category | Health, Education, and Social Services |
 | Created | 2015-04-28T17:36:53Z |
 | Publication Date | 2015-11-03T21:59:01Z |
-| Rows Updated | 2015-11-03T21:57:39Z |
 
 ## Description
 

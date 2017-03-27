@@ -14,7 +14,6 @@
 | Attribution | DBEDT |
 | Created | 2012-11-20T21:26:00Z |
 | Publication Date | 2016-09-27T21:48:06Z |
-| Rows Updated | 2016-09-27T21:47:08Z |
 
 ## Columns
 

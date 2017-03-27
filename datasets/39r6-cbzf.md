@@ -16,7 +16,6 @@
 | Tags | the port authority of new york & new jersey, airport, coach bus, bus passengers, ground transportation |
 | Created | 2014-02-10T20:00:53Z |
 | Publication Date | 2016-11-10T20:05:22Z |
-| Rows Updated | 2016-11-10T20:05:10Z |
 
 ## Description
 

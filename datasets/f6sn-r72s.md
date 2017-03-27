@@ -16,7 +16,6 @@
 | Tags | awards, housing, construction, tax credit, lihtc |
 | Created | 2015-12-01T23:37:55Z |
 | Publication Date | 2016-01-21T23:23:37Z |
-| Rows Updated | 2016-01-21T23:20:41Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | feed-in tariff, local solar, fit |
 | Created | 2014-05-14T00:07:57Z |
 | Publication Date | 2014-05-19T20:39:21Z |
-| Rows Updated | 2014-05-19T20:39:18Z |
 
 ## Description
 

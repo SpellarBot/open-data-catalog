@@ -16,7 +16,6 @@
 | Tags | school, construction, authority, sca, demographic projection, part c, lifelong learning |
 | Created | 2013-03-06T15:19:39Z |
 | Publication Date | 2013-06-21T20:48:39Z |
-| Rows Updated | 2013-06-21T20:48:35Z |
 
 ## Description
 

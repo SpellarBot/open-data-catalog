@@ -16,7 +16,6 @@
 | Tags | budget, overtime, supplemental earnings |
 | Created | 2013-07-15T04:44:33Z |
 | Publication Date | 2014-02-04T00:10:56Z |
-| Rows Updated | 2014-02-04T00:10:00Z |
 
 ## Description
 

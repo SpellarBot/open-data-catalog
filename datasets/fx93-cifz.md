@@ -16,7 +16,6 @@
 | Tags | public authority, local authority, personnel, employee, salaries/payroll |
 | Created | 2014-09-10T15:07:57Z |
 | Publication Date | 2016-10-12T15:59:53Z |
-| Rows Updated | 2016-10-11T23:07:06Z |
 
 ## Description
 

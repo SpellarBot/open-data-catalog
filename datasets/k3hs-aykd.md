@@ -15,7 +15,6 @@
 | Tags | wages, salary, salaries, job, classifications, government, gender, comparison by gender, gender wage study |
 | Created | 2013-07-16T20:42:14Z |
 | Publication Date | 2013-07-16T20:48:20Z |
-| Rows Updated | 2013-07-16T20:42:29Z |
 
 ## Columns
 

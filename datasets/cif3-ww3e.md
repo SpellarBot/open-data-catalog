@@ -16,7 +16,6 @@
 | Tags | rsbl study, rsbs, energy efficiency, multifamily homes, market characterization, baseline study |
 | Created | 2015-11-03T19:26:35Z |
 | Publication Date | 2015-11-17T22:47:29Z |
-| Rows Updated | 2015-11-17T22:45:20Z |
 
 ## Description
 

@@ -14,7 +14,6 @@
 | Category | Government Administration |
 | Created | 2016-06-02T20:05:41Z |
 | Publication Date | 2016-06-02T20:08:27Z |
-| Rows Updated | 2016-06-02T20:07:53Z |
 
 ## Description
 

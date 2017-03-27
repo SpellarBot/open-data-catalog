@@ -14,7 +14,6 @@
 | Tags | zoo, attendance, recreation, attraction, park, animals, visitor, school, camp, membership, ticket, budget, money, appropriation |
 | Created | 2014-05-30T17:01:37Z |
 | Publication Date | 2014-05-30T21:46:43Z |
-| Rows Updated | 2014-05-30T21:45:18Z |
 
 ## Description
 

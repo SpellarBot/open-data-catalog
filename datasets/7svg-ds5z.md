@@ -16,7 +16,6 @@
 | Tags | seattle, traffic, counts, volumes, transportation |
 | Created | 2010-11-04T17:59:40Z |
 | Publication Date | 2011-04-17T00:03:09Z |
-| Rows Updated | 2011-08-21T02:48:34Z |
 
 ## Description
 

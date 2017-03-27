@@ -16,7 +16,6 @@
 | Tags | tlc, taxi, medallion, cab, license, driver |
 | Created | 2012-09-06T14:30:32Z |
 | Publication Date | 2013-04-24T19:39:45Z |
-| Rows Updated | 2013-04-24T19:36:34Z |
 
 ## Description
 

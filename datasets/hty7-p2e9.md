@@ -15,7 +15,6 @@
 | Tags | cmapaign spending commission |
 | Created | 2015-01-12T21:24:48Z |
 | Publication Date | 2015-01-12T21:45:56Z |
-| Rows Updated | 2015-01-12T21:45:00Z |
 
 ## Columns
 

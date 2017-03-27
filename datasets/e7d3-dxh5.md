@@ -16,7 +16,6 @@
 | Tags | 2013, housing, new housing construction, housing units, net new units, demolition, merger, conversion, alteration, housing stock, housing inventory, illegal units removed |
 | Created | 2014-05-06T22:32:11Z |
 | Publication Date | 2015-09-23T22:35:01Z |
-| Rows Updated | 2015-09-23T22:28:43Z |
 
 ## Description
 

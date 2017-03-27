@@ -13,7 +13,6 @@
 | Name | Joseph Creek Summer Steelhead -- 1112015 |
 | Created | 2015-01-12T04:48:16Z |
 | Publication Date | 2015-01-12T04:49:15Z |
-| Rows Updated | 2015-01-12T04:48:25Z |
 
 ## Columns
 

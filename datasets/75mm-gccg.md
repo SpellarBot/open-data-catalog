@@ -16,7 +16,6 @@
 | Tags | dca, grants, grant-type, non-profit, organizations, individual artists |
 | Created | 2014-10-02T03:11:57Z |
 | Publication Date | 2014-10-02T03:25:49Z |
-| Rows Updated | 2014-10-02T03:22:19Z |
 
 ## Description
 

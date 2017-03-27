@@ -15,7 +15,6 @@
 | Tags | lapd, police, stops |
 | Created | 2017-01-10T23:44:14Z |
 | Publication Date | 2017-01-24T05:01:42Z |
-| Rows Updated | 2017-01-24T04:58:26Z |
 
 ## Columns
 

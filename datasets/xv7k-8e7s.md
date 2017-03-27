@@ -16,7 +16,6 @@
 | Tags | 2016, mmwr, nndss, wonder, nedss, netss, shiga toxin-producing e. coli, stec, shigellosis |
 | Created | 2016-01-12T13:20:18Z |
 | Publication Date | 2017-01-05T17:34:30Z |
-| Rows Updated | 2017-01-05T14:58:06Z |
 
 ## Description
 

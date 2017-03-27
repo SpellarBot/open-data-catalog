@@ -14,7 +14,6 @@
 | Category | Housing and Buildings |
 | Created | 2016-08-04T23:03:39Z |
 | Publication Date | 2016-08-15T05:41:53Z |
-| Rows Updated | 2016-08-15T05:39:33Z |
 
 ## Description
 

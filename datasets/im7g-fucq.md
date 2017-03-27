@@ -14,7 +14,6 @@
 | Category | Geography |
 | Created | 2012-02-15T18:41:53Z |
 | Publication Date | 2013-06-27T15:17:49Z |
-| Rows Updated | 2013-06-27T15:17:40Z |
 
 ## Description
 

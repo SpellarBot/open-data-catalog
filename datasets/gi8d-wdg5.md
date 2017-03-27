@@ -15,7 +15,6 @@
 | Category | Transportation |
 | Created | 2015-08-07T14:50:12Z |
 | Publication Date | 2016-12-12T17:07:27Z |
-| Rows Updated | 2016-12-14T03:36:41Z |
 
 ## Description
 
@@ -65,11 +64,11 @@ Excluded Fields = lpep_dropoff_datetime,pickup_longitude,pickup_latitude,dropoff
 ## Data Commands
 
 ```ls
-series e:gi8d-wdg5 d:2015-01-01T00:34:42.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=6.3 m:fare_amount=5 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.88 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-02-04T18:32:35.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=7.3 m:fare_amount=5.5 m:passenger_count=1 m:extra=1 m:trip_distance=0.76 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=0
 
-series e:gi8d-wdg5 d:2015-01-01T00:34:46.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=13.3 m:fare_amount=12 m:passenger_count=1 m:extra=0.5 m:trip_distance=3.08 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=0
+series e:gi8d-wdg5 d:2015-02-15T17:00:48.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=8.76 m:fare_amount=6.5 m:passenger_count=1 m:extra=0 m:trip_distance=1.36 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=1.46
 
-series e:gi8d-wdg5 d:2015-01-01T00:34:44.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=1 t:trip_type=1 t:payment_type=1 m:mta_tax=0.5 m:total_amount=7.8 m:fare_amount=5 m:passenger_count=1 m:extra=0.5 m:trip_distance=0.9 m:tolls_amount=0 m:improvement_surcharge=0 m:tip_amount=1.8
+series e:gi8d-wdg5 d:2015-02-24T19:05:11.000Z t:store_and_fwd_flag=N t:ratecodeid=1 t:vendorid=2 t:trip_type=1 t:payment_type=2 m:mta_tax=0.5 m:total_amount=8.8 m:fare_amount=7 m:passenger_count=1 m:extra=1 m:trip_distance=1.33 m:tolls_amount=0 m:improvement_surcharge=0.3 m:tip_amount=0
 ```
 
 ## Meta Commands

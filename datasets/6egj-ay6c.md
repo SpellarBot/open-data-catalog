@@ -16,7 +16,6 @@
 | Tags | solar for schools, solar, solar energy, solar power, energy conservation |
 | Created | 2016-09-20T20:07:28Z |
 | Publication Date | 2016-10-14T18:30:13Z |
-| Rows Updated | 2016-10-14T18:30:10Z |
 
 ## Description
 
@@ -76,7 +75,7 @@ property e:6egj-ay6c t:meta.view v:id=6egj-ay6c v:category=Utility v:averageRati
 
 property e:6egj-ay6c t:meta.view.license v:name="Public Domain"
 
-property e:6egj-ay6c t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
+property e:6egj-ay6c t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
-property e:6egj-ay6c t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:6egj-ay6c t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```

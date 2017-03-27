@@ -16,7 +16,6 @@
 | Tags | purchase power agreements, renewable energy, energy |
 | Created | 2016-08-02T15:42:09Z |
 | Publication Date | 2016-08-02T15:46:48Z |
-| Rows Updated | 2016-08-02T15:42:19Z |
 
 ## Description
 
@@ -70,7 +69,7 @@ property e:jttf-iwhx t:meta.view v:id=jttf-iwhx v:category=Utility v:averageRati
 
 property e:jttf-iwhx t:meta.view.license v:name="Public Domain"
 
-property e:jttf-iwhx t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
+property e:jttf-iwhx t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
 property e:jttf-iwhx t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

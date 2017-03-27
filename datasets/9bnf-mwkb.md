@@ -16,7 +16,6 @@
 | Tags | asset, classification, total aadt, passenger, single unit, combo unit, leg label, aadt, turning movement, traffic, iowa dot, iowa department of transportation |
 | Created | 2016-09-29T19:08:21Z |
 | Publication Date | 2016-09-29T19:09:55Z |
-| Rows Updated | 2016-09-29T19:08:21Z |
 
 ## Description
 

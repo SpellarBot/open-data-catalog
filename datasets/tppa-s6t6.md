@@ -16,7 +16,6 @@
 | Tags | transit, customer service, commendation, complaint |
 | Created | 2015-09-14T19:43:10Z |
 | Publication Date | 2016-11-02T23:04:49Z |
-| Rows Updated | 2016-11-02T23:04:44Z |
 
 ## Description
 

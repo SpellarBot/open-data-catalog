@@ -16,7 +16,6 @@
 | Tags | housing authority for the city of los angeles, hacla, locations, public housing, housing, sites |
 | Created | 2014-12-08T20:23:26Z |
 | Publication Date | 2014-12-08T20:31:32Z |
-| Rows Updated | 2014-12-08T20:23:37Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | law, justice, legislation, law journal, law articles, law columns, lawyer |
 | Created | 2013-02-14T15:59:53Z |
 | Publication Date | 2013-06-21T20:08:49Z |
-| Rows Updated | 2013-06-21T20:08:47Z |
 
 ## Description
 

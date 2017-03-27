@@ -14,8 +14,7 @@
 | Category | City Management and Ethics |
 | Tags | inventory, publishing plans, open data program |
 | Created | 2015-07-13T18:57:52Z |
-| Publication Date | 2017-02-14T19:27:31Z |
-| Rows Updated | 2017-02-14T19:27:15Z |
+| Publication Date | 2017-03-24T17:45:24Z |
 
 ## Description
 
@@ -37,6 +36,8 @@ This dataset tracks the status of departments as they move through the inventory
 | Yes      | numeric metric | published_through_june_2016     | Published Through June 2016     | number    | number      |
 | Yes      | numeric metric | target_december_2016            | Target December 2016            | number    | number      |
 | Yes      | numeric metric | published_through_december_2016 | Published through December 2016 | number    | number      |
+| Yes      | numeric metric | target_december_2017            | Target December 2017            | number    | number      |
+| Yes      | numeric metric | published_through_december_2017 | Published Through December 2017 | number    | number      |
 ```
 
 ## Time Field
@@ -49,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:tzir-jbhj d:2017-02-14T19:27:08.000Z t:inventory_status=Complete t:publishing_plan_status=Complete t:department_or_division=311 t:department_code=311 m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_june_2016=0 m:target_december_2015=0 m:target_december_2016=0
+series e:tzir-jbhj d:2017-03-24T17:44:56.000Z t:inventory_status=Complete t:publishing_plan_status=Complete t:department_code=311 t:department_or_division=311 m:target_december_2017=0 m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_december_2017=0 m:published_through_june_2016=0 m:target_december_2015=0 m:target_december_2016=0
 
-series e:tzir-jbhj d:2017-02-14T19:27:08.000Z t:inventory_status=Incomplete t:publishing_plan_status=Incomplete t:department_or_division="Academy of Sciences" t:department_code=SCI m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_june_2016=0 m:target_december_2015=0 m:target_december_2016=0
+series e:tzir-jbhj d:2017-03-24T17:44:56.000Z t:inventory_status=Incomplete t:publishing_plan_status=Incomplete t:department_code=SCI t:department_or_division="Academy of Sciences" m:target_december_2017=0 m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_december_2017=0 m:published_through_june_2016=0 m:target_december_2015=0 m:target_december_2016=0
 
-series e:tzir-jbhj d:2017-02-14T19:27:08.000Z t:inventory_status=Complete t:publishing_plan_status=Incomplete t:department_or_division="Adult Probation" t:department_code=ADP m:target_june_2016=2 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_june_2016=0 m:target_december_2015=2 m:target_december_2016=0
+series e:tzir-jbhj d:2017-03-24T17:44:56.000Z t:inventory_status=Complete t:publishing_plan_status=Complete t:department_code=ADP t:department_or_division="Adult Probation" m:target_december_2017=0 m:target_june_2016=2 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_december_2017=0 m:published_through_june_2016=0 m:target_december_2015=2 m:target_december_2016=0
 ```
 
 ## Meta Commands
@@ -70,6 +71,10 @@ metric m:published_through_june_2016 p:integer l:"Published Through June 2016" d
 metric m:target_december_2016 p:integer l:"Target December 2016" d:"The department target set for publishing through end of 2016." t:dataTypeName=number
 
 metric m:published_through_december_2016 p:integer l:"Published through December 2016" d:"Number of datasets published through the end of 2016. This is variable until the end of the publishing period." t:dataTypeName=number
+
+metric m:target_december_2017 p:integer l:"Target December 2017" d:"The department target set for end of 2017" t:dataTypeName=number
+
+metric m:published_through_december_2017 p:integer l:"Published Through December 2017" d:"The number of datasets published by the department through 2017" t:dataTypeName=number
 
 entity e:tzir-jbhj l:"Department Open Data Inventory and Plan Status" t:url=https://data.sfgov.org/api/views/tzir-jbhj
 

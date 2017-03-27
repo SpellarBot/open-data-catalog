@@ -16,7 +16,6 @@
 | Tags | survey, brfss, behavioral, risk, factor, surveillance, age-adjusted |
 | Created | 2016-06-24T16:32:20Z |
 | Publication Date | 2016-12-23T17:28:02Z |
-| Rows Updated | 2016-12-22T21:46:43Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | assessing, valuation, financial, assessor, property values |
 | Created | 2015-11-10T19:36:33Z |
 | Publication Date | 2015-11-12T21:10:38Z |
-| Rows Updated | 2015-11-11T01:20:16Z |
 
 ## Description
 

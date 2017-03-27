@@ -15,7 +15,6 @@
 | Tags | election, financial, campaign finance, contributions, expenditures, city clerk |
 | Created | 2016-01-14T17:17:15Z |
 | Publication Date | 2016-10-28T21:03:32Z |
-| Rows Updated | 2017-01-23T15:48:17Z |
 
 ## Description
 

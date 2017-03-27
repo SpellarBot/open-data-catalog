@@ -16,7 +16,6 @@
 | Tags | iowa dot, iowa department of transportation, rams, adjacent county number, asset, inventory |
 | Created | 2016-12-06T16:36:24Z |
 | Publication Date | 2016-12-06T16:38:35Z |
-| Rows Updated | 2016-12-06T16:36:24Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | campaign ballot measure committee |
 | Created | 2014-10-10T15:59:23Z |
 | Publication Date | 2014-10-14T17:36:01Z |
-| Rows Updated | 2014-10-14T17:35:56Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | accountability, transparency, data governance, open government, integrity, city of jackson |
 | Created | 2016-03-28T21:33:50Z |
 | Publication Date | 2016-03-28T21:38:32Z |
-| Rows Updated | 2016-03-28T21:34:02Z |
 
 ## Description
 

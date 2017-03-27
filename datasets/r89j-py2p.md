@@ -15,7 +15,6 @@
 | Tags | budget, operating budget, county budget, fiscal year |
 | Created | 2012-09-11T15:58:40Z |
 | Publication Date | 2012-10-05T13:57:17Z |
-| Rows Updated | 2012-09-27T15:19:49Z |
 
 ## Description
 

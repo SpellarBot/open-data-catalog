@@ -16,7 +16,6 @@
 | Tags | austin water, irrigation, inspector, water, code, property owner |
 | Created | 2016-10-06T21:01:26Z |
 | Publication Date | 2016-10-06T21:06:32Z |
-| Rows Updated | 2016-10-06T21:01:32Z |
 
 ## Description
 

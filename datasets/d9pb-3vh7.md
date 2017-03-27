@@ -16,7 +16,6 @@
 | Tags | austin energy, bill, residential bill, kwh, electric bill |
 | Created | 2016-05-12T17:09:17Z |
 | Publication Date | 2016-10-13T21:58:12Z |
-| Rows Updated | 2016-10-13T21:56:37Z |
 
 ## Description
 

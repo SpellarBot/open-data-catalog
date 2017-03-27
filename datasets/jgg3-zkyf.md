@@ -16,7 +16,6 @@
 | Tags | king county, community health, data, indicators |
 | Created | 2013-03-12T23:47:05Z |
 | Publication Date | 2013-03-14T20:22:05Z |
-| Rows Updated | 2013-03-14T20:21:43Z |
 
 ## Description
 

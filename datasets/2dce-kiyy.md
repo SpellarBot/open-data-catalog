@@ -16,7 +16,6 @@
 | Tags | elections, king county, voting |
 | Created | 2012-06-19T20:38:58Z |
 | Publication Date | 2013-10-25T20:37:50Z |
-| Rows Updated | 2013-10-25T20:37:40Z |
 
 ## Description
 

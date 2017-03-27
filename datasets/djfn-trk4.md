@@ -16,7 +16,6 @@
 | Tags | greenhouse gas, fuel combustion, co2, energy |
 | Created | 2013-02-22T16:48:37Z |
 | Publication Date | 2016-11-04T22:00:51Z |
-| Rows Updated | 2016-11-04T22:00:46Z |
 
 ## Description
 

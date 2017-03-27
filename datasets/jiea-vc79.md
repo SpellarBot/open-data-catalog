@@ -14,7 +14,6 @@
 | Category | Public Safety |
 | Created | 2016-12-02T04:15:58Z |
 | Publication Date | 2017-02-13T14:58:42Z |
-| Rows Updated | 2017-02-13T14:58:25Z |
 
 ## Description
 

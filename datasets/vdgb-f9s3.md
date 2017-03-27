@@ -15,7 +15,6 @@
 | Tags | tobacco, osh, office on smoking and health, qit, survey questions |
 | Created | 2015-06-23T20:31:30Z |
 | Publication Date | 2016-11-10T15:51:31Z |
-| Rows Updated | 2016-11-09T17:50:21Z |
 
 ## Description
 

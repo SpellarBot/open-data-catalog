@@ -16,7 +16,6 @@
 | Tags | doe high school programs, education, students, doe |
 | Created | 2014-09-03T19:08:01Z |
 | Publication Date | 2014-09-03T19:13:16Z |
-| Rows Updated | 2014-09-03T19:09:27Z |
 
 ## Description
 

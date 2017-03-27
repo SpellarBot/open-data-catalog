@@ -16,7 +16,6 @@
 | Tags | personnel, law enforcement, public safety, ucr |
 | Created | 2013-03-01T17:47:03Z |
 | Publication Date | 2016-03-22T22:00:59Z |
-| Rows Updated | 2016-03-22T22:00:37Z |
 
 ## Description
 

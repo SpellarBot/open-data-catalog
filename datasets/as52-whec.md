@@ -13,7 +13,6 @@
 | Name | OEIG Monthly Report - November 2012 (Pending investigations as of October 31, 2012) |
 | Created | 2013-01-16T16:54:39Z |
 | Publication Date | 2013-09-16T14:04:27Z |
-| Rows Updated | 2013-09-16T14:04:03Z |
 
 ## Description
 

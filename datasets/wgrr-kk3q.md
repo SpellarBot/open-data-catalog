@@ -16,7 +16,6 @@
 | Tags | seattle center, esu, incidents |
 | Created | 2017-02-01T21:34:22Z |
 | Publication Date | 2017-02-01T21:40:38Z |
-| Rows Updated | 2017-02-01T21:34:39Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | thalia mara, revenue, visitors, numbers |
 | Created | 2016-04-26T12:56:49Z |
 | Publication Date | 2016-10-17T13:31:24Z |
-| Rows Updated | 2016-10-17T13:31:21Z |
 
 ## Description
 

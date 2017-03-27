@@ -14,7 +14,6 @@
 | Category | Operations |
 | Created | 2011-12-16T19:47:30Z |
 | Publication Date | 2011-12-16T20:07:06Z |
-| Rows Updated | 2011-12-16T19:48:25Z |
 
 ## Columns
 

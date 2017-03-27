@@ -15,7 +15,6 @@
 | Tags | public engagement, budget, budget simulator, finance, fy17 |
 | Created | 2016-08-31T15:30:56Z |
 | Publication Date | 2016-08-31T16:15:23Z |
-| Rows Updated | 2016-08-31T16:01:42Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | asset, inventory, deer, deer kill, maintenance, iowa dot, iowa department of transportation |
 | Created | 2016-06-09T05:59:41Z |
 | Publication Date | 2016-06-09T06:01:15Z |
-| Rows Updated | 2016-06-09T05:59:41Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | performance metrics, service delivery |
 | Created | 2011-09-22T22:10:01Z |
 | Publication Date | 2014-04-29T03:01:47Z |
-| Rows Updated | 2014-04-29T02:53:31Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | household, population, projections, historical, planning, mdp |
 | Created | 2014-09-02T20:26:05Z |
 | Publication Date | 2014-09-02T20:29:18Z |
-| Rows Updated | 2014-09-02T20:26:18Z |
 
 ## Description
 

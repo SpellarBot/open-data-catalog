@@ -16,7 +16,6 @@
 | Tags | nycha, nyc housing, community center, community facility, senior center, lunch program, day care, head start, health clinic |
 | Created | 2013-03-28T21:01:03Z |
 | Publication Date | 2013-03-29T13:19:07Z |
-| Rows Updated | 2013-03-29T13:17:49Z |
 
 ## Description
 

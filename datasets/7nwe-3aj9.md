@@ -16,7 +16,6 @@
 | Tags | osh, office on smoking and health, tax, tax burden on tobacco, cigarette sales, average cost per pack |
 | Created | 2014-05-27T11:46:47Z |
 | Publication Date | 2017-02-07T12:20:46Z |
-| Rows Updated | 2017-02-06T18:22:12Z |
 
 ## Description
 

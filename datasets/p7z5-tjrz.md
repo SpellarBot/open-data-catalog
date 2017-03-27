@@ -15,7 +15,6 @@
 | Tags | tuition assistance, course, school, class curriculum, reimburse, employee |
 | Created | 2013-08-14T13:48:25Z |
 | Publication Date | 2015-08-15T07:34:25Z |
-| Rows Updated | 2017-02-15T08:30:29Z |
 
 ## Description
 

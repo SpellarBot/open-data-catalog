@@ -16,7 +16,6 @@
 | Tags | parks, features |
 | Created | 2016-03-19T22:28:07Z |
 | Publication Date | 2016-03-19T22:58:21Z |
-| Rows Updated | 2016-03-19T22:57:29Z |
 
 ## Description
 

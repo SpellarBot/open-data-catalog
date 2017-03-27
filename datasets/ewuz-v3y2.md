@@ -16,7 +16,6 @@
 | Tags | campaign consultant, ethics, vendors, sub-vendors, payments |
 | Created | 2013-07-19T23:10:46Z |
 | Publication Date | 2013-07-22T22:49:57Z |
-| Rows Updated | 2017-03-23T02:55:05Z |
 
 ## Description
 

@@ -14,7 +14,6 @@
 | Tags | storm response |
 | Created | 2016-12-08T22:55:45Z |
 | Publication Date | 2016-12-14T16:05:31Z |
-| Rows Updated | 2016-12-08T22:55:45Z |
 
 ## Description
 
@@ -59,11 +58,11 @@ Format & Zone = yyyy-MM-dd HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:wd5q-q35v d:2017-03-18T23:00:00.000Z t:objectid=1 t:rwis_station_name=AlaskanWayViaduct_KingSt t:rwis_display_name="Alaskan Way Viaduct at King St" m:airtemp_120min=44.800000000000004 m:airtemp_60min=44.37 m:rstemp_30min=44.81 m:rstemp_75min=46.17 m:airtemp_105min=44.730000000000004 m:airtemp_45min=44.21 m:airtemp_15min=44.01 m:airtemp_30min=44.1 m:rstemp_105min=47.37 m:rstemp_15min=44.58 m:rstemp_current=44.46 m:airtemp_75min=44.53 m:airtemp_current=43.980000000000004 m:rstemp_90min=46.85 m:rstemp_120min=47.52 m:rstemp_45min=45.18 m:rstemp_60min=45.61 m:airtemp_90min=44.660000000000004
+series e:wd5q-q35v d:2017-03-27T00:30:00.000Z t:objectid=1 t:rwis_station_name=AlaskanWayViaduct_KingSt t:rwis_display_name="Alaskan Way Viaduct at King St" m:airtemp_120min=48.13 m:airtemp_60min=48.04 m:rstemp_30min=46.83 m:rstemp_75min=47.76 m:airtemp_105min=48.09 m:airtemp_45min=47.96 m:airtemp_15min=47.82 m:airtemp_30min=47.870000000000005 m:rstemp_105min=47.870000000000005 m:rstemp_15min=46.87 m:rstemp_current=46.87 m:airtemp_75min=48.07 m:airtemp_current=47.800000000000004 m:rstemp_90min=47.84 m:rstemp_120min=47.93 m:rstemp_45min=47.08 m:rstemp_60min=47.47 m:airtemp_90min=48.09
 
-series e:wd5q-q35v d:2017-03-18T23:00:00.000Z t:objectid=2 t:rwis_station_name=HarborAveUpperNorthBridge t:rwis_display_name="Harbor Ave Upper North Bridge" m:airtemp_120min=42.1 m:airtemp_60min=41.6 m:rstemp_30min=45.43 m:rstemp_75min=46.74 m:airtemp_105min=42.02 m:airtemp_45min=41.59 m:airtemp_15min=41.480000000000004 m:airtemp_30min=41.52 m:rstemp_105min=47.89 m:rstemp_15min=45.22 m:rstemp_current=45.04 m:airtemp_75min=41.64 m:airtemp_current=41.49 m:rstemp_90min=47.38 m:rstemp_120min=48.11 m:rstemp_45min=45.79 m:rstemp_60min=46.21 m:airtemp_90min=41.83
+series e:wd5q-q35v d:2017-03-27T00:30:00.000Z t:objectid=2 t:rwis_station_name=HarborAveUpperNorthBridge t:rwis_display_name="Harbor Ave Upper North Bridge" m:airtemp_120min=47.06 m:airtemp_60min=46.76 m:rstemp_30min=46.7 m:rstemp_75min=47.68 m:airtemp_105min=47.04 m:airtemp_45min=46.57 m:airtemp_15min=46.57 m:airtemp_30min=46.45 m:rstemp_105min=47.86 m:rstemp_15min=46.72 m:rstemp_current=46.7 m:airtemp_75min=46.99 m:airtemp_current=46.52 m:rstemp_90min=47.800000000000004 m:rstemp_120min=47.93 m:rstemp_45min=46.95 m:rstemp_60min=47.37 m:airtemp_90min=47.13
 
-series e:wd5q-q35v d:2017-03-18T23:00:00.000Z t:objectid=3 t:rwis_station_name=SpokaneSwingBridge t:rwis_display_name="Spokane Swing Bridge" m:airtemp_120min=49.32 m:airtemp_60min=49.26 m:rstemp_30min=44 m:rstemp_75min=44.800000000000004 m:airtemp_105min=49.32 m:airtemp_45min=49.11 m:airtemp_15min=48.83 m:airtemp_30min=48.870000000000005 m:rstemp_105min=45.58 m:rstemp_15min=43.87 m:rstemp_current=43.78 m:airtemp_75min=49.32 m:airtemp_current=48.83 m:rstemp_90min=45.25 m:rstemp_120min=45.7 m:rstemp_45min=44.18 m:rstemp_60min=44.42 m:airtemp_90min=49.36
+series e:wd5q-q35v d:2017-03-27T00:30:00.000Z t:objectid=3 t:rwis_station_name=SpokaneSwingBridge t:rwis_display_name="Spokane Swing Bridge" m:airtemp_120min=50.11 m:airtemp_60min=49.77 m:rstemp_30min=46.980000000000004 m:rstemp_75min=47.96 m:airtemp_105min=50.08 m:airtemp_45min=49.83 m:airtemp_15min=48.910000000000004 m:airtemp_30min=49.47 m:rstemp_105min=48.15 m:rstemp_15min=46.99 m:rstemp_current=46.96 m:airtemp_75min=49.83 m:airtemp_current=49 m:rstemp_90min=48.08 m:rstemp_120min=48.21 m:rstemp_45min=47.27 m:rstemp_60min=47.65 m:airtemp_90min=49.93
 ```
 
 ## Meta Commands

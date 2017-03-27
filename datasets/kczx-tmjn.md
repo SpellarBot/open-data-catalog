@@ -13,7 +13,6 @@
 | Name | IntelCorporation |
 | Created | 2013-09-26T23:23:58Z |
 | Publication Date | 2013-09-26T23:55:47Z |
-| Rows Updated | 2014-04-23T00:37:42Z |
 
 ## Columns
 

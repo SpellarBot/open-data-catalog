@@ -16,7 +16,6 @@
 | Tags | ethics, campaign, finance, payments, agent, independent, contractor, fppc, form, 460 |
 | Created | 2012-04-30T16:17:42Z |
 | Publication Date | 2014-08-21T09:13:40Z |
-| Rows Updated | 2017-03-09T16:13:14Z |
 
 ## Description
 

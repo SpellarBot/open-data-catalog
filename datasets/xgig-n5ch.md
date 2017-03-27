@@ -16,7 +16,6 @@
 | Tags | community services, medicaid utilization |
 | Created | 2014-07-11T21:16:37Z |
 | Publication Date | 2017-02-08T23:03:41Z |
-| Rows Updated | 2017-02-08T23:03:37Z |
 
 ## Description
 

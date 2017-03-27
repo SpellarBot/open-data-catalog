@@ -14,7 +14,6 @@
 | Category | Government |
 | Created | 2015-02-06T20:05:43Z |
 | Publication Date | 2016-02-03T17:42:34Z |
-| Rows Updated | 2016-02-03T17:42:05Z |
 
 ## Columns
 

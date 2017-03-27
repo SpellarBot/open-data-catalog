@@ -16,7 +16,6 @@
 | Tags | community board appointments, mbp, manhattan borough president (mbp) |
 | Created | 2014-03-06T17:40:48Z |
 | Publication Date | 2014-03-06T17:41:51Z |
-| Rows Updated | 2014-03-06T17:40:58Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Tags | dhcd, department of housing & community development, multi-family housing, cda |
 | Created | 2016-07-01T15:26:31Z |
 | Publication Date | 2017-02-27T21:40:08Z |
-| Rows Updated | 2017-02-27T21:39:18Z |
 
 ## Description
 

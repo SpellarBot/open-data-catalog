@@ -13,7 +13,6 @@
 | Name | Update Clean Fuels Program Rules |
 | Created | 2015-09-11T22:24:54Z |
 | Publication Date | 2015-09-14T17:37:40Z |
-| Rows Updated | 2016-12-11T06:54:39Z |
 
 ## Columns
 

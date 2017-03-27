@@ -16,7 +16,6 @@
 | Tags | boundary, reference, federal, iowa, federal land, land use, park, boundaries, institution, iowa department of transportation |
 | Created | 2016-06-07T22:39:40Z |
 | Publication Date | 2016-06-07T22:51:44Z |
-| Rows Updated | 2016-06-07T22:39:40Z |
 
 ## Description
 

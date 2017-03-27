@@ -13,7 +13,6 @@
 | Name | forecasted-9day-river-level-update-AutoCreated |
 | Created | 2014-12-17T15:09:44Z |
 | Publication Date | 2015-10-15T15:12:15Z |
-| Rows Updated | 2015-10-15T15:11:24Z |
 
 ## Columns
 

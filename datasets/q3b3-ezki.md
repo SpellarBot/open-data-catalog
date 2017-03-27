@@ -16,7 +16,6 @@
 | Tags | operations and maintenance, o&m, expenditures, energy, budget |
 | Created | 2016-08-01T14:33:01Z |
 | Publication Date | 2016-10-31T13:55:05Z |
-| Rows Updated | 2016-10-31T13:54:49Z |
 
 ## Description
 
@@ -75,7 +74,7 @@ property e:q3b3-ezki t:meta.view v:id=q3b3-ezki v:category=Utility v:averageRati
 
 property e:q3b3-ezki t:meta.view.license v:name="Public Domain"
 
-property e:q3b3-ezki t:meta.view.owner v:id=3qbr-w2gj v:screenName="Elaine Lee" v:displayName="Elaine Lee"
+property e:q3b3-ezki t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
 property e:q3b3-ezki t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```

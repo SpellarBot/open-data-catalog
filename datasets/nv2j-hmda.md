@@ -16,7 +16,6 @@
 | Tags | albany, vacant, building, inventory |
 | Created | 2013-03-02T00:16:56Z |
 | Publication Date | 2013-03-10T15:29:05Z |
-| Rows Updated | 2013-03-10T15:21:43Z |
 
 ## Description
 

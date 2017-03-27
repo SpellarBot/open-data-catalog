@@ -15,7 +15,6 @@
 | Tags | oregon new markets tax credit program, 2014, oregon nmtc, nmtc 2014 |
 | Created | 2015-01-26T21:38:18Z |
 | Publication Date | 2015-01-26T22:00:14Z |
-| Rows Updated | 2015-01-26T21:49:38Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Tags | oregon investment, oregon strategic investment, oregon strategic investment program, 2014 |
 | Created | 2014-12-30T23:56:04Z |
 | Publication Date | 2014-12-31T00:22:37Z |
-| Rows Updated | 2014-12-30T23:57:16Z |
 
 ## Columns
 

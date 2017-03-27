@@ -15,7 +15,6 @@
 | Tags | 2013 public meetings, archived public meetings, 2013 meetings, public meetings |
 | Created | 2014-02-12T22:02:01Z |
 | Publication Date | 2014-03-05T15:28:20Z |
-| Rows Updated | 2014-02-12T22:18:11Z |
 
 ## Description
 

@@ -14,7 +14,6 @@
 | Tags | state-of-the-salmon |
 | Created | 2015-01-02T20:10:53Z |
 | Publication Date | 2015-02-13T21:08:10Z |
-| Rows Updated | 2015-02-13T21:08:07Z |
 
 ## Columns
 

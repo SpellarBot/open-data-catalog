@@ -16,7 +16,6 @@
 | Tags | financial, business, property, hartford |
 | Created | 2015-09-23T14:49:51Z |
 | Publication Date | 2015-09-23T18:02:05Z |
-| Rows Updated | 2015-09-24T05:00:22Z |
 
 ## Description
 

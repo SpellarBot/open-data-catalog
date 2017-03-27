@@ -16,7 +16,6 @@
 | Tags | vendor, payments, expenditures |
 | Created | 2014-12-23T16:26:41Z |
 | Publication Date | 2016-08-30T20:02:57Z |
-| Rows Updated | 2016-08-30T19:59:22Z |
 
 ## Description
 

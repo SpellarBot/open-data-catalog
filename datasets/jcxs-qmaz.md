@@ -16,7 +16,6 @@
 | Tags | community, neighborhood associations, connected, city of jackson, super neighborhood, citizen engagment |
 | Created | 2016-03-07T21:41:17Z |
 | Publication Date | 2016-03-07T21:42:53Z |
-| Rows Updated | 2016-03-07T21:41:25Z |
 
 ## Description
 

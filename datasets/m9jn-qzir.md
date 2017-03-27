@@ -15,7 +15,6 @@
 | Tags | workforce, workforce development, day labor, labor |
 | Created | 2012-07-11T18:34:21Z |
 | Publication Date | 2012-07-11T18:38:56Z |
-| Rows Updated | 2012-07-11T18:34:25Z |
 
 ## Description
 

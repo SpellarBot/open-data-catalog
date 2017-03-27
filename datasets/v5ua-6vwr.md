@@ -16,7 +16,6 @@
 | Tags | state library, slaa, 2005, revenue, expenditures |
 | Created | 2016-12-20T15:27:01Z |
 | Publication Date | 2016-12-20T17:04:36Z |
-| Rows Updated | 2016-12-20T17:21:33Z |
 
 ## Description
 

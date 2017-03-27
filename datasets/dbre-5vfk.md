@@ -13,7 +13,6 @@
 | Name | 2 -- Government $$ By Biennium |
 | Created | 2012-10-17T12:37:48Z |
 | Publication Date | 2012-10-17T12:38:16Z |
-| Rows Updated | 2012-10-17T12:37:52Z |
 
 ## Columns
 

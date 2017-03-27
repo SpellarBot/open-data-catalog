@@ -16,7 +16,6 @@
 | Tags | std, chlamydia, county, count, rate |
 | Created | 2013-11-01T15:36:00Z |
 | Publication Date | 2016-08-15T16:21:58Z |
-| Rows Updated | 2016-08-15T16:21:15Z |
 
 ## Description
 
@@ -67,5 +66,5 @@ property e:vcg3-dux6 t:meta.view v:id=vcg3-dux6 v:category="Public Health" v:ave
 
 property e:vcg3-dux6 t:meta.view.owner v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:displayName="Danny Brikshavana"
 
-property e:vcg3-dux6 t:meta.view.tableauthor v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:roleName=publisher v:displayName="Danny Brikshavana"
+property e:vcg3-dux6 t:meta.view.tableauthor v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:displayName="Danny Brikshavana"
 ```

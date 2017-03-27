@@ -16,7 +16,6 @@
 | Tags | people, population |
 | Created | 2012-08-28T19:43:49Z |
 | Publication Date | 2012-08-29T01:28:08Z |
-| Rows Updated | 2012-08-28T19:44:29Z |
 
 ## Columns
 

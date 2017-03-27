@@ -15,7 +15,6 @@
 | Tags | hhc, general information |
 | Created | 2012-10-17T19:56:31Z |
 | Publication Date | 2017-01-26T01:48:47Z |
-| Rows Updated | 2017-01-05T16:42:03Z |
 
 ## Columns
 

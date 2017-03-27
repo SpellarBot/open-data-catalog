@@ -16,7 +16,6 @@
 | Tags | brfss, heath care access, adults, health care coverage |
 | Created | 2013-08-02T15:04:36Z |
 | Publication Date | 2013-08-02T15:06:43Z |
-| Rows Updated | 2013-08-02T15:04:49Z |
 
 ## Description
 

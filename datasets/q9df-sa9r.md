@@ -16,7 +16,6 @@
 | Tags | agricultural, producer, certificates |
 | Created | 2016-02-16T23:25:55Z |
 | Publication Date | 2016-02-19T13:33:41Z |
-| Rows Updated | 2016-09-16T10:25:52Z |
 
 ## Description
 

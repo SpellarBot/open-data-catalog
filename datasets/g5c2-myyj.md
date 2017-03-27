@@ -16,7 +16,6 @@
 | Tags | salary, employee, department, longevity |
 | Created | 2014-11-23T15:12:20Z |
 | Publication Date | 2017-01-05T01:07:21Z |
-| Rows Updated | 2017-01-05T00:58:24Z |
 
 ## Description
 

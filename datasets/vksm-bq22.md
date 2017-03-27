@@ -15,7 +15,6 @@
 | Tags | speed limits |
 | Created | 2016-04-28T15:30:37Z |
 | Publication Date | 2016-09-26T22:57:55Z |
-| Rows Updated | 2017-02-04T17:56:59Z |
 
 ## Description
 

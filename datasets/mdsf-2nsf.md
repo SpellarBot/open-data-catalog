@@ -16,7 +16,6 @@
 | Tags | education, accountability |
 | Created | 2016-03-03T14:59:32Z |
 | Publication Date | 2016-03-03T19:55:18Z |
-| Rows Updated | 2016-03-03T19:52:26Z |
 
 ## Description
 

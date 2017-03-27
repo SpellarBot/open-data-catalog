@@ -14,7 +14,6 @@
 | Category | Property & Taxation |
 | Created | 2012-10-18T03:11:01Z |
 | Publication Date | 2014-10-27T16:38:55Z |
-| Rows Updated | 2014-10-27T16:38:49Z |
 
 ## Columns
 

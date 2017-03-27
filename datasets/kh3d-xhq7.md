@@ -16,7 +16,6 @@
 | Tags | library, services, queens, qpl, hours, schedule |
 | Created | 2011-10-08T20:59:51Z |
 | Publication Date | 2013-06-21T20:10:11Z |
-| Rows Updated | 2013-06-21T20:10:06Z |
 
 ## Description
 

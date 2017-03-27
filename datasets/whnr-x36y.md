@@ -15,7 +15,6 @@
 | Tags | sou expenditures, southern oregon university expenditures, ous expenditures 2014, 2014 |
 | Created | 2014-12-27T02:08:59Z |
 | Publication Date | 2014-12-29T03:09:19Z |
-| Rows Updated | 2014-12-27T02:09:13Z |
 
 ## Columns
 

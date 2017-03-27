@@ -15,7 +15,6 @@
 | Category | Recreation |
 | Created | 2013-04-30T20:41:02Z |
 | Publication Date | 2013-04-30T20:43:32Z |
-| Rows Updated | 2013-04-30T20:41:05Z |
 
 ## Description
 

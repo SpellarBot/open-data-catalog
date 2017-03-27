@@ -16,7 +16,6 @@
 | Tags | libraries, technology, computer sessions |
 | Created | 2013-03-13T20:14:53Z |
 | Publication Date | 2014-01-15T22:39:37Z |
-| Rows Updated | 2014-01-15T22:36:19Z |
 
 ## Description
 

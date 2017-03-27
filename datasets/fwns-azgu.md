@@ -16,7 +16,6 @@
 | Tags | cardiovascular disease, stroke, coronary heart disease, hypertension, risk factors |
 | Created | 2016-06-24T14:17:25Z |
 | Publication Date | 2017-01-04T21:47:52Z |
-| Rows Updated | 2016-12-08T18:45:26Z |
 
 ## Description
 

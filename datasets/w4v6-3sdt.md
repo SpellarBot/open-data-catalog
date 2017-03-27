@@ -16,7 +16,6 @@
 | Tags | department of finance, finance, dof, property, properties, neighborhoods, sales, neighborhood sales, homes, family homes, class-1, class-2, class-3, borough, bronx |
 | Created | 2011-10-05T17:23:15Z |
 | Publication Date | 2013-06-21T20:54:26Z |
-| Rows Updated | 2013-06-21T20:54:23Z |
 
 ## Description
 

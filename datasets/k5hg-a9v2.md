@@ -16,7 +16,6 @@
 | Tags | revenue, tax |
 | Created | 2011-06-15T18:47:04Z |
 | Publication Date | 2011-06-15T18:47:04Z |
-| Rows Updated | 2011-08-21T02:56:54Z |
 
 ## Description
 

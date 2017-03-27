@@ -16,7 +16,6 @@
 | Tags | budget, fte, staffing, sfopenbook, open book, openbook |
 | Created | 2014-06-16T21:46:43Z |
 | Publication Date | 2016-05-05T20:06:55Z |
-| Rows Updated | 2016-08-08T21:09:58Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | pipeline, development, housing, construction |
 | Created | 2014-09-12T17:43:20Z |
 | Publication Date | 2014-09-12T17:45:55Z |
-| Rows Updated | 2014-09-12T17:44:03Z |
 
 ## Description
 

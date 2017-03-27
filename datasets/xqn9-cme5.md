@@ -15,7 +15,6 @@
 | Category | Transportation |
 | Created | 2011-06-16T20:19:50Z |
 | Publication Date | 2012-01-26T16:55:17Z |
-| Rows Updated | 2012-01-26T16:41:43Z |
 
 ## Description
 

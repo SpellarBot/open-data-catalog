@@ -16,7 +16,6 @@
 | Tags | physical activity, walk, bike, work, american community survey, acs, dnpao |
 | Created | 2016-07-22T10:17:37Z |
 | Publication Date | 2016-12-19T13:59:21Z |
-| Rows Updated | 2016-12-19T13:58:49Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | ccrb, average, days, investigations |
 | Created | 2013-02-25T21:42:13Z |
 | Publication Date | 2013-06-21T20:07:28Z |
-| Rows Updated | 2013-06-21T20:07:25Z |
 
 ## Description
 

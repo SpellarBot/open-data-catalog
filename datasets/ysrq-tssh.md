@@ -15,7 +15,6 @@
 | Tags | ecology, plants, algae |
 | Created | 2015-11-03T16:20:07Z |
 | Publication Date | 2015-12-23T17:34:06Z |
-| Rows Updated | 2015-12-23T17:32:37Z |
 
 ## Description
 

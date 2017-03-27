@@ -15,7 +15,6 @@
 | Tags | policy 188, accessibility, ada, section 508 |
 | Created | 2016-11-22T21:43:29Z |
 | Publication Date | 2017-01-20T19:55:21Z |
-| Rows Updated | 2017-01-20T19:55:08Z |
 
 ## Description
 

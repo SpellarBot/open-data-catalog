@@ -16,7 +16,6 @@
 | Tags | department of finance, finance, dof, rental property, cooperatives, residential, apartment, buildings, rental properties, borough, staten island |
 | Created | 2011-10-04T21:13:11Z |
 | Publication Date | 2013-06-26T17:09:49Z |
-| Rows Updated | 2013-06-26T17:09:38Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | ta, sna, public assistance, welfare, case denials |
 | Created | 2016-05-10T16:50:36Z |
 | Publication Date | 2017-01-09T23:01:53Z |
-| Rows Updated | 2017-01-09T23:01:47Z |
 
 ## Description
 

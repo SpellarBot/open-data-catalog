@@ -13,7 +13,6 @@
 | Name | Snake Stream Miles Opened |
 | Created | 2012-12-05T07:17:44Z |
 | Publication Date | 2012-12-07T12:38:32Z |
-| Rows Updated | 2012-12-07T12:38:21Z |
 
 ## Columns
 

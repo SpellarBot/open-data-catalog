@@ -16,7 +16,6 @@
 | Tags | resultsnola |
 | Created | 2015-11-05T16:40:05Z |
 | Publication Date | 2015-11-05T16:42:03Z |
-| Rows Updated | 2015-11-05T16:40:17Z |
 
 ## Description
 

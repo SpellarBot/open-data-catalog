@@ -16,7 +16,6 @@
 | Tags | marriage |
 | Created | 2012-01-18T21:35:00Z |
 | Publication Date | 2012-01-23T21:26:10Z |
-| Rows Updated | 2012-01-18T21:36:56Z |
 
 ## Columns
 

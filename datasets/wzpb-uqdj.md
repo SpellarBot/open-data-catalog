@@ -16,7 +16,6 @@
 | Tags | dcf, department of children and families, children, placement, placement type, trend, foster care, congregate care |
 | Created | 2015-08-11T13:07:31Z |
 | Publication Date | 2015-08-12T12:37:36Z |
-| Rows Updated | 2015-08-11T13:07:47Z |
 
 ## Description
 

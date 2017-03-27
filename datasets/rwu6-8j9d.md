@@ -13,7 +13,6 @@
 | Name | GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013 |
 | Created | 2015-06-25T11:48:45Z |
 | Publication Date | 2015-06-25T11:50:10Z |
-| Rows Updated | 2015-07-09T11:15:58Z |
 
 ## Columns
 

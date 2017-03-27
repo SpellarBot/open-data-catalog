@@ -15,7 +15,6 @@
 | Tags | 2016, salaries, state employees, salaries of state employees, wages, salaries 2016 |
 | Created | 2016-11-24T08:23:20Z |
 | Publication Date | 2016-11-24T08:30:31Z |
-| Rows Updated | 2016-11-24T08:24:02Z |
 
 ## Description
 

@@ -15,8 +15,7 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-21T20:30:37Z |
-| Rows Updated | 2017-03-21T20:30:34Z |
+| Publication Date | 2017-03-26T19:39:11Z |
 
 ## Description
 
@@ -57,11 +56,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-04-18T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2017-04-02T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-04-19T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-04-09T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-04-20T00:00:00.000Z t:event_borough=Manhattan t:event_type=Construction t:event_agency="Parks Department" t:event_id=311709 t:event_location="Madison Square Park: Oval Lawn" t:street_closure_type=N/A t:community_board=5, t:event_name="Lawn Maintenance" t:police_precinct=13, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-04-16T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands

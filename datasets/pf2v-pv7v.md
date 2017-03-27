@@ -16,7 +16,6 @@
 | Tags | public floating restroom boating on-water restrooms port-a-potty |
 | Created | 2013-01-25T22:37:42Z |
 | Publication Date | 2014-10-20T17:23:55Z |
-| Rows Updated | 2014-10-20T17:23:49Z |
 
 ## Description
 

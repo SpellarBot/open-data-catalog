@@ -16,7 +16,6 @@
 | Tags | jobs and economic mobility, education, services, youth, community, development, community development, school, child, children, after-school, after-school programs, programs, employment, internshi... |
 | Created | 2011-09-01T21:00:43Z |
 | Publication Date | 2011-09-01T21:00:43Z |
-| Rows Updated | 2011-09-01T21:00:49Z |
 
 ## Description
 

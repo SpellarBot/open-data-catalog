@@ -16,7 +16,6 @@
 | Tags | water quality index, washington state river and stream fresh water quality, ecology |
 | Created | 2014-04-23T22:08:10Z |
 | Publication Date | 2014-04-28T16:52:44Z |
-| Rows Updated | 2014-04-23T22:29:45Z |
 
 ## Description
 

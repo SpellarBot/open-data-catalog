@@ -13,7 +13,6 @@
 | Name | flu-clinic-test |
 | Created | 2016-08-16T19:32:26Z |
 | Publication Date | 2016-08-16T19:51:01Z |
-| Rows Updated | 2016-08-16T19:50:12Z |
 
 ## Columns
 

@@ -16,7 +16,6 @@
 | Tags | jobs and economic mobility, women, woman, family, families, resource, network |
 | Created | 2011-07-27T14:49:32Z |
 | Publication Date | 2011-10-08T21:59:56Z |
-| Rows Updated | 2011-10-08T21:59:32Z |
 
 ## Description
 

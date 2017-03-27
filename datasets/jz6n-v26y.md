@@ -16,7 +16,6 @@
 | Tags | division of oral health, oral health, adult, adults, dentist, dental care, dental visits, dental cleaning, tooth loss, access to care, prevalence, surveillance, brfss, nohss |
 | Created | 2015-04-22T01:28:29Z |
 | Publication Date | 2016-11-17T11:18:40Z |
-| Rows Updated | 2016-11-07T12:22:43Z |
 
 ## Description
 

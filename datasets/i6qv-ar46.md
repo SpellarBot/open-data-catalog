@@ -14,7 +14,6 @@
 | Category | Land Base |
 | Created | 2015-06-09T22:38:52Z |
 | Publication Date | 2015-06-09T22:41:08Z |
-| Rows Updated | 2015-06-09T22:39:24Z |
 
 ## Columns
 

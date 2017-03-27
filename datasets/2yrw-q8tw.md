@@ -16,7 +16,6 @@
 | Tags | local solar, sip |
 | Created | 2014-05-14T00:01:26Z |
 | Publication Date | 2017-02-21T22:04:12Z |
-| Rows Updated | 2017-02-21T22:03:24Z |
 
 ## Description
 

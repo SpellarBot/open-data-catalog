@@ -16,7 +16,6 @@
 | Tags | austin energy, utility data, energy sales |
 | Created | 2016-06-24T19:14:38Z |
 | Publication Date | 2016-06-24T19:25:13Z |
-| Rows Updated | 2016-06-24T19:24:43Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | ems, atcems, clinical data, clinical performance, clinical measures, patient care, trauma, alert |
 | Created | 2017-01-17T22:03:22Z |
 | Publication Date | 2017-01-18T16:13:49Z |
-| Rows Updated | 2017-01-20T15:52:17Z |
 
 ## Description
 

@@ -14,7 +14,6 @@
 | Attribution | Cook County Commission on Women’s Issues |
 | Created | 2016-06-23T20:35:36Z |
 | Publication Date | 2016-06-23T20:49:43Z |
-| Rows Updated | 2016-06-23T20:49:12Z |
 
 ## Description
 

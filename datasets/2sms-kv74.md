@@ -16,7 +16,6 @@
 | Tags | state library, slaa, 2012, operations, workforce |
 | Created | 2016-12-20T15:32:51Z |
 | Publication Date | 2016-12-20T17:04:42Z |
-| Rows Updated | 2016-12-20T17:24:25Z |
 
 ## Description
 

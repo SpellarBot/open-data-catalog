@@ -16,7 +16,6 @@
 | Tags | centers for disease control and prevention, cdc |
 | Created | 2014-12-15T19:21:36Z |
 | Publication Date | 2016-09-26T19:25:08Z |
-| Rows Updated | 2016-09-26T19:24:46Z |
 
 ## Description
 

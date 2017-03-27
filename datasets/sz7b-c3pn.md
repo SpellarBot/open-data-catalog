@@ -15,7 +15,6 @@
 | Category | City Management and Ethics |
 | Created | 2015-07-28T22:43:31Z |
 | Publication Date | 2016-05-23T22:16:50Z |
-| Rows Updated | 2016-11-16T22:30:40Z |
 
 ## Description
 

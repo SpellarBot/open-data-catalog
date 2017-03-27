@@ -16,7 +16,6 @@
 | Tags | flow, indicator, trend, gages, ecology, eap, salmon, puget sound, state-of-the-salmon |
 | Created | 2015-04-21T22:33:41Z |
 | Publication Date | 2015-04-22T00:21:17Z |
-| Rows Updated | 2015-04-22T00:19:06Z |
 
 ## Description
 

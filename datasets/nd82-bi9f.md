@@ -16,7 +16,6 @@
 | Tags | otm, mayor's office, procurement, industry |
 | Created | 2014-10-23T20:13:42Z |
 | Publication Date | 2014-10-23T20:16:17Z |
-| Rows Updated | 2014-10-23T20:13:54Z |
 
 ## Description
 

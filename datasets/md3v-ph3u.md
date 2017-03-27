@@ -16,7 +16,6 @@
 | Tags | police, car camera |
 | Created | 2016-04-08T15:04:25Z |
 | Publication Date | 2017-03-03T19:42:32Z |
-| Rows Updated | 2017-03-03T19:42:19Z |
 
 ## Description
 

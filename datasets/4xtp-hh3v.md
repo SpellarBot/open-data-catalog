@@ -16,7 +16,6 @@
 | Tags | salary, pay, compensation |
 | Created | 2016-02-10T01:04:09Z |
 | Publication Date | 2016-02-10T01:14:42Z |
-| Rows Updated | 2016-02-10T01:13:34Z |
 
 ## Description
 

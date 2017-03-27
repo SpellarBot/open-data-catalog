@@ -16,7 +16,6 @@
 | Tags | police, body worn camera |
 | Created | 2016-03-23T16:00:41Z |
 | Publication Date | 2017-03-03T20:04:43Z |
-| Rows Updated | 2017-03-03T20:03:47Z |
 
 ## Description
 

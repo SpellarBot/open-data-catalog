@@ -16,7 +16,6 @@
 | Tags | parks, recreation, environment, nature centers |
 | Created | 2013-02-15T17:37:06Z |
 | Publication Date | 2015-01-14T16:47:13Z |
-| Rows Updated | 2015-01-14T16:43:55Z |
 
 ## Description
 

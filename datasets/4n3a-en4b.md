@@ -16,7 +16,6 @@
 | Tags | issued permit, emissions, air pollution, title v |
 | Created | 2014-06-30T19:41:32Z |
 | Publication Date | 2016-01-08T21:31:44Z |
-| Rows Updated | 2016-01-08T21:30:08Z |
 
 ## Description
 

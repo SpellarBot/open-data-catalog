@@ -16,7 +16,6 @@
 | Tags | 2016, mmwr, nndss, wonder, nedss, netss, ehrlichiosis/anaplasmosis, ehrlichia chaffeensis, anaplasma phagocytophilum, undetermined |
 | Created | 2016-01-11T23:34:15Z |
 | Publication Date | 2017-01-05T16:55:40Z |
-| Rows Updated | 2017-01-05T14:39:08Z |
 
 ## Description
 

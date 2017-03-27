@@ -13,7 +13,6 @@
 | Name | Statewide -- Hatchery Standards 2016 SOS 10172016 |
 | Created | 2014-12-15T13:30:50Z |
 | Publication Date | 2016-10-17T14:29:09Z |
-| Rows Updated | 2016-10-17T14:28:56Z |
 
 ## Columns
 

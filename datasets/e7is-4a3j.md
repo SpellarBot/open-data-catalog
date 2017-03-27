@@ -16,7 +16,6 @@
 | Tags | drug utilization, medicaid reimbursements, pharmacy |
 | Created | 2015-06-11T13:13:04Z |
 | Publication Date | 2016-08-29T22:11:40Z |
-| Rows Updated | 2017-02-03T02:20:57Z |
 
 ## Description
 

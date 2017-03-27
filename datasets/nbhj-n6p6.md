@@ -16,7 +16,6 @@
 | Tags | budget, finance |
 | Created | 2015-08-18T14:19:57Z |
 | Publication Date | 2015-08-18T15:00:26Z |
-| Rows Updated | 2015-08-18T14:20:11Z |
 
 ## Description
 

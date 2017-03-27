@@ -16,7 +16,6 @@
 | Tags | education, school district, capt, school performance |
 | Created | 2014-03-21T17:00:09Z |
 | Publication Date | 2014-03-21T17:01:58Z |
-| Rows Updated | 2014-03-21T17:00:28Z |
 
 ## Description
 

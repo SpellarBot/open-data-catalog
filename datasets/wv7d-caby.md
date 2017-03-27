@@ -16,7 +16,6 @@
 | Tags | individual, expenditure, ceilings, iec, public, financing, campaign, finance, candidate, 2014, election, november |
 | Created | 2013-11-25T22:33:51Z |
 | Publication Date | 2014-10-29T23:37:42Z |
-| Rows Updated | 2014-10-29T23:37:29Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Tags | dfc, dialysis, dialysis facilities, linking quality to payment - qip |
 | Created | 2013-12-19T04:18:02Z |
 | Publication Date | 2017-01-26T01:50:26Z |
-| Rows Updated | 2017-01-05T20:50:37Z |
 
 ## Description
 

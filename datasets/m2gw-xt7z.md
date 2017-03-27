@@ -14,7 +14,6 @@
 | Category | Transportation |
 | Created | 2015-05-13T01:24:50Z |
 | Publication Date | 2015-05-13T01:34:27Z |
-| Rows Updated | 2015-05-13T01:25:33Z |
 
 ## Columns
 

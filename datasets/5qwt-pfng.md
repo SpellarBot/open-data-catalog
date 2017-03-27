@@ -15,7 +15,6 @@
 | Tags | business name, registration |
 | Created | 2012-06-01T16:37:41Z |
 | Publication Date | 2016-05-02T20:14:59Z |
-| Rows Updated | 2016-05-02T20:13:55Z |
 
 ## Description
 

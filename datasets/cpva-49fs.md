@@ -16,7 +16,6 @@
 | Tags | libraries, holds |
 | Created | 2012-02-17T21:26:21Z |
 | Publication Date | 2013-04-08T21:31:48Z |
-| Rows Updated | 2013-04-08T21:30:29Z |
 
 ## Description
 

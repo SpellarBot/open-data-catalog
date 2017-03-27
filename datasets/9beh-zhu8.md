@@ -14,7 +14,6 @@
 | Category | Revenue & Expense |
 | Created | 2012-12-18T16:56:02Z |
 | Publication Date | 2012-12-18T16:56:50Z |
-| Rows Updated | 2012-12-18T16:56:06Z |
 
 ## Columns
 

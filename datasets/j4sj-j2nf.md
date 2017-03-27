@@ -15,7 +15,6 @@
 | Tags | planning, taz, census, traffic, analysis, gis, shapefile |
 | Created | 2016-07-26T18:30:09Z |
 | Publication Date | 2016-08-19T21:41:29Z |
-| Rows Updated | 2016-07-26T18:30:09Z |
 
 ## Description
 

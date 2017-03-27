@@ -16,7 +16,6 @@
 | Tags | ldc |
 | Created | 2015-02-23T19:35:45Z |
 | Publication Date | 2016-11-04T14:31:39Z |
-| Rows Updated | 2016-11-03T22:04:54Z |
 
 ## Description
 

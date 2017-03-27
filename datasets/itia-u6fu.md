@@ -16,7 +16,6 @@
 | Tags | osh, state system, legislation, policy, smokefree campus, e-cigarette |
 | Created | 2015-05-04T13:44:29Z |
 | Publication Date | 2017-02-16T17:14:58Z |
-| Rows Updated | 2017-03-01T17:21:37Z |
 
 ## Description
 

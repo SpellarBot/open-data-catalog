@@ -16,7 +16,6 @@
 | Tags | residential, industrial, commercial, "percentage of revenue", kwh, "cents per kwh", "percentage of mwh", mwh, "number of customers" |
 | Created | 2015-08-18T18:33:48Z |
 | Publication Date | 2016-09-22T14:25:34Z |
-| Rows Updated | 2016-09-22T14:25:07Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | permits, tables, chairs, mobile, food, truck, display, surface, mounted, excavation, temporary, occupancy, row, banner, bicycle |
 | Created | 2012-09-24T23:30:54Z |
 | Publication Date | 2015-07-17T15:43:31Z |
-| Rows Updated | 2017-03-22T15:12:24Z |
 
 ## Description
 

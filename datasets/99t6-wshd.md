@@ -16,7 +16,6 @@
 | Tags | behind the rocks, southwest, census, neighborhood, nrz, hartford |
 | Created | 2015-01-09T18:17:38Z |
 | Publication Date | 2015-01-13T03:35:22Z |
-| Rows Updated | 2015-01-13T03:34:28Z |
 
 ## Description
 

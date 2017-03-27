@@ -16,7 +16,6 @@
 | Tags | library |
 | Created | 2012-06-26T23:27:22Z |
 | Publication Date | 2012-06-27T01:33:29Z |
-| Rows Updated | 2012-06-27T01:32:41Z |
 
 ## Description
 

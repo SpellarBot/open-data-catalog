@@ -15,7 +15,6 @@
 | Tags | dfc, dialysis, dialysis facilities, dialysis centers, cahps, patient survey, experience of care |
 | Created | 2016-09-20T19:06:24Z |
 | Publication Date | 2017-01-26T01:51:07Z |
-| Rows Updated | 2017-01-10T17:44:43Z |
 
 ## Description
 

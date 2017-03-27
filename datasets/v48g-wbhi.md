@@ -16,7 +16,6 @@
 | Tags | solid, waste, recycled |
 | Created | 2012-08-01T00:21:17Z |
 | Publication Date | 2012-08-01T00:22:15Z |
-| Rows Updated | 2012-08-01T00:21:19Z |
 
 ## Description
 

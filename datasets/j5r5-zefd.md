@@ -14,7 +14,6 @@
 | Attribution | Office of Juvenile Justice |
 | Created | 2015-11-17T04:24:05Z |
 | Publication Date | 2015-11-17T04:26:44Z |
-| Rows Updated | 2015-11-17T04:24:21Z |
 
 ## Columns
 

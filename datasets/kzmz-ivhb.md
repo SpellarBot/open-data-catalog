@@ -16,7 +16,6 @@
 | Tags | sanitation, services, community, district, refuse, paper, metal, glass, plastic, recycle, recycling, clean web |
 | Created | 2011-10-10T22:48:24Z |
 | Publication Date | 2016-02-19T19:24:42Z |
-| Rows Updated | 2016-02-19T19:24:11Z |
 
 ## Description
 

@@ -15,7 +15,6 @@
 | Category | City Government |
 | Created | 2015-07-14T18:14:19Z |
 | Publication Date | 2017-02-02T21:21:46Z |
-| Rows Updated | 2017-02-02T21:21:24Z |
 
 ## Description
 

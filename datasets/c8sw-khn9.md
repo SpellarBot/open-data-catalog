@@ -15,7 +15,6 @@
 | Tags | county lottery expenditure reporting; hb 3188 (2011); lottery expenditures; expenditures; 2015; 2016 |
 | Created | 2016-11-20T02:32:25Z |
 | Publication Date | 2016-11-20T02:38:05Z |
-| Rows Updated | 2016-11-20T02:32:32Z |
 
 ## Description
 

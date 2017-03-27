@@ -16,7 +16,6 @@
 | Tags | spending, budget, vendor, payments |
 | Created | 2013-01-18T17:42:56Z |
 | Publication Date | 2014-08-22T15:52:22Z |
-| Rows Updated | 2014-08-22T15:51:51Z |
 
 ## Description
 

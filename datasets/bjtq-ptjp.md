@@ -15,7 +15,6 @@
 | Category | Customer Service |
 | Created | 2015-03-19T18:54:03Z |
 | Publication Date | 2015-11-05T20:56:50Z |
-| Rows Updated | 2015-11-05T20:56:07Z |
 
 ## Description
 

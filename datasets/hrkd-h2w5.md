@@ -14,7 +14,6 @@
 | Tags | enterprise zones; assessor reports; enterprise zones composite assessor reports; 2015; 2016 |
 | Created | 2016-11-25T01:40:50Z |
 | Publication Date | 2016-11-25T01:45:38Z |
-| Rows Updated | 2016-11-25T01:41:16Z |
 
 ## Description
 

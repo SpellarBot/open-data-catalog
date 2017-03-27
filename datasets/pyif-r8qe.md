@@ -16,7 +16,6 @@
 | Tags | jobs and economic mobility, education, services, youth, community, development, school, child, children, nycha, new york city housing authority, beacon satellite, beacon, lifelong learning |
 | Created | 2011-09-01T16:20:02Z |
 | Publication Date | 2011-09-01T16:20:02Z |
-| Rows Updated | 2011-09-01T18:33:06Z |
 
 ## Description
 

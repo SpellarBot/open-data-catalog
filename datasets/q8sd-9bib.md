@@ -16,7 +16,6 @@
 | Tags | scenic byways, national scenic byways, new york state scenic byways, cmp, corridor management plan, scenic roads, all american road |
 | Created | 2013-02-14T21:48:27Z |
 | Publication Date | 2013-03-01T15:51:34Z |
-| Rows Updated | 2013-03-01T15:42:34Z |
 
 ## Description
 

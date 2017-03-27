@@ -16,7 +16,6 @@
 | Tags | energy, utility |
 | Created | 2012-08-28T20:24:10Z |
 | Publication Date | 2012-08-29T01:32:40Z |
-| Rows Updated | 2012-08-28T20:24:29Z |
 
 ## Columns
 

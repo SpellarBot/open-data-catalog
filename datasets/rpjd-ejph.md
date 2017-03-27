@@ -16,7 +16,6 @@
 | Tags | 2016, 122 cities, mortality, death, pneumonia, influenza |
 | Created | 2016-01-12T14:32:29Z |
 | Publication Date | 2016-10-06T16:10:10Z |
-| Rows Updated | 2016-10-06T02:20:55Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | crime, police, nopd |
 | Created | 2013-02-04T22:04:42Z |
 | Publication Date | 2016-02-11T22:53:26Z |
-| Rows Updated | 2015-11-02T18:13:14Z |
 
 ## Description
 

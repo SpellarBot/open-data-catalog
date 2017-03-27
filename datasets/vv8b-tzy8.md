@@ -16,7 +16,6 @@
 | Tags | budget, 2010, expenditures |
 | Created | 2010-09-21T23:00:56Z |
 | Publication Date | 2011-04-17T00:03:09Z |
-| Rows Updated | 2011-08-21T02:53:53Z |
 
 ## Description
 

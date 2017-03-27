@@ -13,7 +13,6 @@
 | Name | VO-AG Expenditures |
 | Created | 2014-06-27T20:26:05Z |
 | Publication Date | 2014-06-27T20:27:23Z |
-| Rows Updated | 2014-06-27T20:26:18Z |
 
 ## Columns
 

@@ -15,7 +15,6 @@
 | Tags | air quality, ozone, mde |
 | Created | 2012-10-26T18:08:17Z |
 | Publication Date | 2012-10-26T18:10:04Z |
-| Rows Updated | 2012-10-26T18:08:27Z |
 
 ## Description
 

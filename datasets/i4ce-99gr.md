@@ -13,7 +13,6 @@
 | Name | Budget Table - J1 (Salary and FTE) |
 | Created | 2014-01-28T20:54:32Z |
 | Publication Date | 2014-01-28T21:07:40Z |
-| Rows Updated | 2014-01-28T20:59:53Z |
 
 ## Columns
 

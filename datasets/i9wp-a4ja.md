@@ -16,7 +16,6 @@
 | Tags | subway, stations, routes, line |
 | Created | 2013-05-09T18:07:46Z |
 | Publication Date | 2015-09-18T15:18:42Z |
-| Rows Updated | 2015-09-18T15:16:45Z |
 
 ## Description
 

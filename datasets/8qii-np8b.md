@@ -13,7 +13,6 @@
 | Name | PED_NewHousingPermitsIssuedDetail |
 | Created | 2017-01-20T00:18:03Z |
 | Publication Date | 2017-01-20T00:33:04Z |
-| Rows Updated | 2017-03-09T22:40:43Z |
 
 ## Columns
 

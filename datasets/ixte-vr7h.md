@@ -16,7 +16,6 @@
 | Tags | financial, fiscal year 13, 2013, spending, $25, 000 or more |
 | Created | 2013-08-30T19:38:39Z |
 | Publication Date | 2013-09-03T19:39:48Z |
-| Rows Updated | 2013-09-03T19:36:30Z |
 
 ## Description
 

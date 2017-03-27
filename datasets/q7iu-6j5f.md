@@ -16,7 +16,6 @@
 | Tags | transportation, performance, ridership |
 | Created | 2013-03-03T18:22:23Z |
 | Publication Date | 2016-02-08T17:05:38Z |
-| Rows Updated | 2016-02-08T17:04:33Z |
 
 ## Description
 

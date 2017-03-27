@@ -16,7 +16,6 @@
 | Tags | port authority of ny & nj, rail, path, transit |
 | Created | 2013-05-10T17:35:02Z |
 | Publication Date | 2016-10-28T19:01:47Z |
-| Rows Updated | 2016-10-28T19:01:32Z |
 
 ## Description
 

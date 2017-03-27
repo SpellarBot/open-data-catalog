@@ -16,7 +16,6 @@
 | Tags | wa, washington, ofm, school district, population, intercensal, postcensal |
 | Created | 2014-10-08T20:42:42Z |
 | Publication Date | 2016-09-24T00:17:40Z |
-| Rows Updated | 2016-09-24T00:14:21Z |
 
 ## Description
 

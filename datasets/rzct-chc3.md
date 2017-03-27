@@ -15,7 +15,6 @@
 | Tags | tax credit, busiess energy tax credit, tax credit program 2014, 2014 |
 | Created | 2014-12-31T03:21:39Z |
 | Publication Date | 2015-12-27T22:27:10Z |
-| Rows Updated | 2015-12-27T22:25:29Z |
 
 ## Description
 

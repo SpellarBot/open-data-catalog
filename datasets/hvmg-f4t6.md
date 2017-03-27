@@ -16,7 +16,6 @@
 | Tags | reference, survey, retired, control monument, cadastre, iowa dot, iowa department of transportation |
 | Created | 2016-07-06T18:42:17Z |
 | Publication Date | 2016-07-06T18:56:50Z |
-| Rows Updated | 2016-07-06T18:42:17Z |
 
 ## Description
 

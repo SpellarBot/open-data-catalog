@@ -15,7 +15,6 @@
 | Category | Healthcare |
 | Created | 2011-09-19T21:13:30Z |
 | Publication Date | 2014-10-09T20:54:42Z |
-| Rows Updated | 2014-10-09T20:54:30Z |
 
 ## Description
 

@@ -16,7 +16,6 @@
 | Tags | asset, inventory, operations, gates, maintenance, iowa dot, iowa department of transportation |
 | Created | 2016-06-08T19:09:21Z |
 | Publication Date | 2016-06-08T19:11:20Z |
-| Rows Updated | 2016-06-08T19:09:21Z |
 
 ## Description
 

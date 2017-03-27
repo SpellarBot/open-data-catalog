@@ -13,7 +13,6 @@
 | Name | Template011: Project Phase List |
 | Created | 2015-11-05T22:36:00Z |
 | Publication Date | 2016-07-01T23:37:12Z |
-| Rows Updated | 2016-07-01T23:36:51Z |
 
 ## Columns
 

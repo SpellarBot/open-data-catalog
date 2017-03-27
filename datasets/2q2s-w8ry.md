@@ -15,7 +15,6 @@
 | Tags | assets, buildings, leased, owned, oregon |
 | Created | 2010-10-25T18:43:46Z |
 | Publication Date | 2011-04-17T00:03:09Z |
-| Rows Updated | 2011-09-03T20:59:15Z |
 
 ## Description
 

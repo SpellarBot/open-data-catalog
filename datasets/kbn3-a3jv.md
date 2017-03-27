@@ -16,7 +16,6 @@
 | Tags | state university construction fund, sucf, construction, suny, education, capital, projects |
 | Created | 2014-01-24T19:37:22Z |
 | Publication Date | 2017-03-01T11:12:30Z |
-| Rows Updated | 2017-03-01T11:12:20Z |
 
 ## Description
 

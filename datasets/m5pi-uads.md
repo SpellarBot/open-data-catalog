@@ -15,7 +15,6 @@
 | Tags | combine fund drive, donations, charity, 2014 |
 | Created | 2015-05-18T18:36:25Z |
 | Publication Date | 2015-05-19T20:17:24Z |
-| Rows Updated | 2015-05-19T07:20:57Z |
 
 ## Columns
 
