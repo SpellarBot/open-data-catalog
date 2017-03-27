@@ -323,8 +323,8 @@ series e:im7g-fucq d:2012-02-15T10:41:59.000Z
 series e:83a4-b7r2 d:2015-07-17T08:58:25.000Z
  t:omh_region="01-Western NY"
  t:age_group=Adult
- t:description_of_metric="Percentage of MH Discharges Followed by Two or More MH Outpatient Visits w
-ithin 30 Days"
+ t:description_of_metric="Percentage of MH Discharges Followed by Two or More MH Outpatient Visits within 30
+ Days"
  t:metric_id=8
  t:indicator_domain_group="MH Engagement In Care"
  m:year_to_date_numerator=1612
@@ -365,8 +365,8 @@ series e:spy8-d7us d:2014-09-09T00:00:00.000Z
 series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z
  t:open_space=false
  t:website=http://www.seattle.gov/arts/publicart/default.asp
- t:description="identifies and coordinates opportunities to include public art in capital projects f
-unded at the local, state, and federal levels."
+ t:description="identifies and coordinates opportunities to include public art in capital projects funded at
+ the local, state, and federal levels."
  t:program="1% for Art"
  t:administrator="Arts & Cultural Affairs"
  t:funding_type="legislative encumbrance"
@@ -535,8 +535,8 @@ series e:wwxb-ba4w d:2014-01-01T00:00:00.000Z
 ```ls
 series e:qjpr-gyut d:2016-01-25T12:25:37.000Z
  t:description="Hawaii Island"
- t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/I
-SLAND_OF_HAWAII.pdf""> Hawaii Map: Island view</a>"
+ t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF
+_HAWAII.pdf""> Hawaii Map: Island view</a>"
  m:row_number.qjpr-gyut=1
 
 ```
@@ -581,8 +581,8 @@ series e:hj2x-85ya d:1996-10-01T00:00:00.000Z
 ```ls
 series e:m5xp-nzqp d:2014-06-30T00:00:00.000Z
  t:project_location_congressional_district=n/a
- t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector indust
-ry Full disclosure of concurrent, statewide employment changes 
+ t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry Full 
+disclosure of concurrent, statewide employment changes 
 
 ```
 
@@ -681,11 +681,11 @@ series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z
 series e:9x7t-w4u8 d:2013-05-20T10:14:46.000Z
  t:icon=pSz6hbFcqbb4UssyZihNmW7yWAbFXzsbHaIKB1lTJNs
  t:station_name="DEQ VIP Sherwood Station"
- t:details="<p>14962 SW Tualtin-Sherwood Road&nbsp;<strong>|</strong> Sherwood, OR 97140</p><p>Phone
-: 503-229-5066<span style=""color:#000000;"">&nbsp;<strong>|</strong> </span><span style=""color:#74
-1b47;""><strong><a target=""_blank"" href=""http://www.deq.state.or.us/aq/vip/stationcams/vipshcam.h
-tm""><span style=""color:#741b47;"">Station Lane Cam</span></a></strong></span><span style=""color:#
-741b47;""><strong>&nbsp;<strong>|</strong> Directions</strong></span></p>
+ t:details="<p>14962 SW Tualtin-Sherwood Road&nbsp;<strong>|</strong> Sherwood, OR 97140</p><p>Phone: 503-22
+9-5066<span style=""color:#000000;"">&nbsp;<strong>|</strong> </span><span style=""color:#741b47;""><strong>
+<a target=""_blank"" href=""http://www.deq.state.or.us/aq/vip/stationcams/vipshcam.htm""><span style=""color
+:#741b47;"">Station Lane Cam</span></a></strong></span><span style=""color:#741b47;""><strong>&nbsp;<strong>
+|</strong> Directions</strong></span></p>
 
 ```
 
@@ -915,8 +915,8 @@ series e:nyis-y4yr d:2013-04-25T00:00:00.000Z
  t:lot=00007
  t:sign_illumination=Y
  t:owner_s_phone_=2124317500
- t:job_description="ERECT AN ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS, OR 
- OCCUPANCY."
+ t:job_description="ERECT AN ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS, OR  OCCUPAN
+CY."
  m:sign_dist_from_highway=0
  m:initial_cost=3861
  m:sign_height_curb=144
@@ -1002,14 +1002,13 @@ series e:rpbd-ypkv d:2009-01-01T00:00:00.000Z
 
 ```ls
 series e:pkba-543m d:2013-01-01T00:00:00.000Z
- t:abstract="Deletes the &quot;one gallon per person per day&quot; exception to the prohibition agai
-nst the removal of sand and other beach or marine deposits, except for materials inadvertently taken
-, and creates an exemption for public emergencies and traditional cultural practices. Ensures public
- lateral access along the shoreline by making permanent the requirement that landowners remove human
--induced, enhanced, or unmaintained vegetation interfering with such access and maintaining DLNR's e
-nforcement duty to maintain such access. Clarifies that Act 160, SLH 2010 does not alter or modify a
-ny agreement of the DLNR existing or executed on the effective date of Act 160. Effective 06/29/13. 
-(SD2)"
+ t:abstract="Deletes the &quot;one gallon per person per day&quot; exception to the prohibition against the 
+removal of sand and other beach or marine deposits, except for materials inadvertently taken, and creates an
+ exemption for public emergencies and traditional cultural practices. Ensures public lateral access along th
+e shoreline by making permanent the requirement that landowners remove human-induced, enhanced, or unmaintai
+ned vegetation interfering with such access and maintaining DLNR's enforcement duty to maintain such access.
+ Clarifies that Act 160, SLH 2010 does not alter or modify any agreement of the DLNR existing or executed on
+ the effective date of Act 160. Effective 06/29/13. (SD2)"
  t:title="RELATING TO COASTAL AREAS."
  t:current_referral="WTL, JDL"
  t:bill="HB17 HD1 SD2"
@@ -1522,8 +1521,7 @@ series e:v48g-wbhi d:2004-01-01T00:00:00.000Z
 
 ```ls
 series e:43c3-stp6 d:2009-01-01T00:00:00.000Z
- t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2009/03110233099.pd
-f
+ t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2009/03110233099.pdf
  t:station=03110233099
  t:objectid=1
  m:row_number.43c3-stp6=1
@@ -1717,8 +1715,8 @@ series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:d84z-5kap d:2012-11-26T00:00:00.000Z
- t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Artic
-le%2011-26-12.pdf
+ t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-
+26-12.pdf
  t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)"
  m:row_number.d84z-5kap=1
 
@@ -2202,8 +2200,8 @@ series e:cmqi-svw5 d:2003-07-01T00:00:00.000Z
  t:asf_sp=Y
  t:rstatus=1
  t:physzip=99811
- t:fiothsp="FUND FOR THE IMPROVEMENT OF POST SECONDARY EDUCATION (FIPSE) (HIGHER EDUCATION ACT OF 19
-65, TITLE VII)"
+ t:fiothsp="FUND FOR THE IMPROVEMENT OF POST SECONDARY EDUCATION (FIPSE) (HIGHER EDUCATION ACT OF 1965, TITL
+E VII)"
  m:capitalc=0
  m:capitalb=0
  m:capitala=0
@@ -2306,8 +2304,8 @@ series e:cmqi-svw5 d:2003-07-01T00:00:00.000Z
 series e:c3bk-jwwq d:2012-07-01T00:00:00.000Z
  t:grantor_agency="IL Dept of Agriculture"
  t:grantee_zip_code=612312513
- t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 
-30ILCS  120/16"
+ t:description_of_purpose_of_award="Vocational Agricultural grants for educational purposes statute 30ILCS  
+120/16"
  t:grantee="MERCER COUNTY SCHOOL DISTRICT"
  m:grant_amount=2153.65
  m:duration_in_days=365
@@ -2553,8 +2551,7 @@ series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z
 
 ```ls
 series e:9bnf-mwkb d:1999-01-01T00:00:00.000Z
- t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08131052099.pd
-f
+ t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08131052099.pdf
  t:station=08131052099
  t:objectid=1
  m:row_number.9bnf-mwkb=1
@@ -2597,8 +2594,8 @@ series e:uyku-r7g5 d:2011-07-01T00:00:00.000Z
 ```ls
 series e:sz7b-c3pn d:2015-05-14T00:00:00.000Z
  t:report.content_type="application/pdf; charset=binary"
- t:report.filename="SHAW, YODER, ANTWIH, Inc - Quarter 1 - 2015 - Period February 1, 2015 to April 3
-0, 2015.pdf"
+ t:report.filename="SHAW, YODER, ANTWIH, Inc - Quarter 1 - 2015 - Period February 1, 2015 to April 30, 2015.
+pdf"
  t:lobbyist_name="SHAW / YODER / ANTWIH / INC"
  t:report.size=1231828
  t:report.file_id=9HIooxQA8K8VvZE-f8UVRn5VLcmzVZqDgQpIMqz2F34
@@ -2911,8 +2908,7 @@ null
 
 ```ls
 series e:x89d-qusv d:2004-01-01T00:00:00.000Z
- t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01114933099.pd
-f
+ t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01114933099.pdf
  t:station=01114933099
  t:objectid=1
  m:row_number.x89d-qusv=1
@@ -3177,8 +3173,7 @@ series e:rwu6-8j9d d:2013-06-14T00:00:00.000Z
 
 ```ls
 series e:8z8t-apms d:2001-01-01T00:00:00.000Z
- t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03110233099.pd
-f
+ t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03110233099.pdf
  t:station=03110233099
  t:objectid=1
  m:row_number.8z8t-apms=1
@@ -3314,8 +3309,8 @@ series e:5qwt-pfng d:2016-04-01T00:00:00.000Z
 
 ```ls
 series e:22u3-xenr d:2016-02-02T08:17:42.000Z
- t:violation_inspector_comments="REAR PORCH WARPED AND TWISTED BEAM 2ND FLR. 5448 LOOSE TREADS, 1ST 
-TO 2ND FLR. REAR 415 LOOSE STRINGER 1ST TO 2ND FLR. ALSO SPLIT TREADS OBTAIN PERMIT AND PLANS."
+ t:violation_inspector_comments="REAR PORCH WARPED AND TWISTED BEAM 2ND FLR. 5448 LOOSE TREADS, 1ST TO 2ND F
+LR. REAR 415 LOOSE STRINGER 1ST TO 2ND FLR. ALSO SPLIT TREADS OBTAIN PERMIT AND PLANS."
  t:inspection_number=1950920
  t:inspection_category=COMPLAINT
  t:property_group=24447
@@ -3327,8 +3322,8 @@ TO 2ND FLR. REAR 415 LOOSE STRINGER 1ST TO 2ND FLR. ALSO SPLIT TREADS OBTAIN PER
  t:inspection_status=FAILED
  t:violation_description="REPAIR PORCH SYSTEM"
  t:inspector_id=BL00254
- t:violation_ordinance="Failed to repair or replace defective or missing members of porch system.  (
-13-196-570, 13-196-641)"
+ t:violation_ordinance="Failed to repair or replace defective or missing members of porch system.  (13-196-5
+70, 13-196-641)"
  m:row_number.22u3-xenr=1
 
 ```
@@ -3570,9 +3565,9 @@ series e:qzi7-nx8g d:2013-07-17T08:39:44.000Z
 
 ```ls
 series e:tir3-qx9v d:2014-06-30T00:00:00.000Z
- t:other_social_community_and_or_economic_impacts="Providing a local customer for woody biomass crea
-ted by the local forest industry, IBR reduces the environmental impact and cost of transporting biom
-ass outside of the region."
+ t:other_social_community_and_or_economic_impacts="Providing a local customer for woody biomass created by t
+he local forest industry, IBR reduces the environmental impact and cost of transporting biomass outside of t
+he region."
  t:project_location_congressional_district=2
  t:quality_active_low_income_community_business="Integrated Biomass Resources LLC"
  t:eligibility_determination_made_by_community_development_entity="Advantage Capital"
@@ -3616,15 +3611,14 @@ series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z
 ```ls
 series e:u88z-wkud d:2015-11-05T00:00:00.000Z
  t:topic="Graduated Reentry: One Step Closer to Strengthening Communities"
- t:presentation_report=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Publ
-ic-Hearing-2015_Loyola_Presentation.pdf
- t:program=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Hearing-2
-015-Program_FINAL.pdf
- t:description="The Cook County Commission on Women’s Issues held its annual public hearing on the t
-opic of Graduated Reentry. Graduated Reentry is a solution to helping formerly incarcerated women re
-turn to their communities. Graduated Reentry uses a blend of supports and sanctions to help women an
-d girls released from incarceration to make good decisions, avoid recidivism, and build healthy live
-s."
+ t:presentation_report=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Heari
+ng-2015_Loyola_Presentation.pdf
+ t:program=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Hearing-2015-Prog
+ram_FINAL.pdf
+ t:description="The Cook County Commission on Women’s Issues held its annual public hearing on the topic of 
+Graduated Reentry. Graduated Reentry is a solution to helping formerly incarcerated women return to their co
+mmunities. Graduated Reentry uses a blend of supports and sanctions to help women and girls released from in
+carceration to make good decisions, avoid recidivism, and build healthy lives."
  m:row_number.u88z-wkud=1
 
 ```
@@ -4051,8 +4045,8 @@ series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z
 
 ```ls
 series e:dmhd-88xr d:2015-11-05T14:36:04.000Z
- t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usual
-ly in-house. POR (Program of Requirements) produced at this stage"
+ t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usually in-ho
+use. POR (Program of Requirements) produced at this stage"
  t:phase_step_number=1
  t:phase_type=default
  t:phase_step_name=Planning
@@ -4424,8 +4418,8 @@ series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z
 series e:t9u7-4d2j d:2014-08-22T00:00:00.000Z
  t:model_number=6142####
  t:markets="United States, Canada"
- t:additional_dryer_features="Time remaining display,Wrinkle prevention option,Steam cycle,Sanitizat
-ion cycle"
+ t:additional_dryer_features="Time remaining display,Wrinkle prevention option,Steam cycle,Sanitization cycl
+e"
  t:connected=No
  t:energy_star_model_identifier=ES_1118034_6142####_08012014035936_2749997
  t:paired_energy_star_clothes_washer_available=No
@@ -5311,8 +5305,8 @@ series e:g5sr-9nhs d:2015-12-17T00:00:00.000Z
  t:pln_district="South Bayshore"
  t:height=40-X
  t:nameaddr="1 ARDATH COURT (COMMUNITY CENTER)"
- t:pln_desc="New construction of a community center to be located on an empty patch of land on the c
-orner of Harbor Road and Ingalls Street."
+ t:pln_desc="New construction of a community center to be located on an empty patch of land on the corner of
+ Harbor Road and Ingalls Street."
  t:planner=JDISALVO
  t:zoning_district_name="RESIDENTIAL- HOUSE, TWO FAMILY"
  t:apn="APN 4712008"
@@ -5917,8 +5911,8 @@ series e:5fn8-vtui d:2012-12-31T23:59:34.000Z
 ```ls
 series e:ntny-77fx d:2004-01-01T00:00:00.000Z
  t:topic="Major Cardiovascular Disease"
- t:indicator="Prevalence of major cardiovascular disease hospitalizations among all hospitalizations
-, US adults (18+) (Percentage); HCUP-NIS"
+ t:indicator="Prevalence of major cardiovascular disease hospitalizations among all hospitalizations, US adu
+lts (18+) (Percentage); HCUP-NIS"
  t:locationdesc="United States"
  t:locationabbr=US
  t:topicid=T1
@@ -6050,10 +6044,8 @@ series e:ny2h-ckbz d:2015-06-16T14:53:35.000Z
 ```ls
 series e:vnht-dg7x d:2009-08-01T00:00:00.000Z
  t:indicatorlabel=Satisfied
- t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust
-2009"
- t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Departme
-nt"
+ t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009"
+ t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department"
  m:indicatorvalue=33
 
 ```
@@ -6162,11 +6154,11 @@ series e:pqg4-dm6b d:2011-07-27T07:49:35.000Z
  t:veterans_military_families=N
  t:domestic_violence=N
  t:employment_job_training=Y
- t:description="Established in 1858, the YWCA of the City of New York is one of the nationï¿½s oldes
-t non-profit organizations. Our mission is to address the critical needs of New York City women and 
-to empower them for success and leadership in their lives, jobs and communities. We focus on underse
-rved families through job training, educational child care and after school programs; partnerships w
-ith business, government and other not-for-profits; and advocacy on behalf of the clients we serve."
+ t:description="Established in 1858, the YWCA of the City of New York is one of the nationï¿½s oldest non-pr
+ofit organizations. Our mission is to address the critical needs of New York City women and to empower them 
+for success and leadership in their lives, jobs and communities. We focus on underserved families through jo
+b training, educational child care and after school programs; partnerships with business, government and oth
+er not-for-profits; and advocacy on behalf of the clients we serve."
  t:immigration=N
  t:legal_services=N
  t:foundation=N
@@ -6422,9 +6414,9 @@ series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z
  t:course_title="INTRODUCTION TO BUSINESS"
  t:department=Police
  t:school_desc="Montgomery College Rockville Campus"
- t:course_desc="An introductory course designed to survey the field of business and its environment 
-in order to give the student a broad overview of the principles, practices, institutions, and functi
-ons of business."
+ t:course_desc="An introductory course designed to survey the field of business and its environment in order
+ to give the student a broad overview of the principles, practices, institutions, and functions of business.
+"
  m:cost=392
 
 ```
@@ -6468,16 +6460,15 @@ series e:6rrm-vxj9 d:2016-09-19T20:11:24.000Z
  t:council=10
  t:dimen="H: 35' W: 3' D: 1'"
  t:materials="Magnesium, aluminum, steel, concrete"
- t:inscribed="3000 A. D. BY TERRY FUGATE-WILCOX / THE ALUMINUM & MAGNESIUM WILL MIX TOGETHER BY 3000
- A.D"
+ t:inscribed="3000 A. D. BY TERRY FUGATE-WILCOX / THE ALUMINUM & MAGNESIUM WILL MIX TOGETHER BY 3000 A.D"
  t:donor="Public Arts Council and Neighborhood Action Council"
  t:dedicated=1974
  t:extant=Y
  t:name="3000 A.D. Diffusion Piece"
  t:maintainedbyparks=Y
  t:parkprop=Y
- t:descrip="Monolith of eight magnesium and aluminum plates with steel bolts set on steel base set i
-n concrete pad with plaque"
+ t:descrip="Monolith of eight magnesium and aluminum plates with steel bolts set on steel base set in concre
+te pad with plaque"
  t:sculptor="Tery Fugate-Wilcox"
  m:number=2109
 
@@ -6682,8 +6673,7 @@ series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z
  t:measure="Measure J - Minimum Wage"
  t:reportered_filerid=1367310
  t:filerid=1367310
- t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organi
-zations"
+ t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations"
  m:row_number.dt7v-mz6s=1
 
 ```
@@ -6700,8 +6690,7 @@ series e:fnns-rqqh d:2006-09-01T00:00:00.000Z
 
 ```ls
 series e:bpe7-rq9j d:2008-01-01T00:00:00.000Z
- t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2008/01114933099.pd
-f
+ t:turning_movement_url=http://www.iowadotmaps.com/msp/traffic/turning_movements/2008/01114933099.pdf
  t:station=01114933099
  t:objectid=1
  m:row_number.bpe7-rq9j=1
@@ -7438,8 +7427,7 @@ series e:j5r5-zefd d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:2q2s-w8ry d:2011-09-03T00:00:00.000Z
- t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=635+CAPITOL+ST+NE+Salem+9
-7301"
+ t:directions="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=635+CAPITOL+ST+NE+Salem+97301"
  t:webpage=http://sustainability.oregon.gov/DAS/FAC/Building_Info/agriculture.shtml
  t:name="Agriculture Building"
  t:type=Owned
@@ -7641,9 +7629,9 @@ series e:fv2q-qaux d:2009-04-08T00:00:00.000Z
  t:sponsor_firm="Citizens Housing Corporation"
  t:heightlimit=150-S/200-S
  t:planning_neighborhood=Downtown
- t:planning_project_description="THC/Citizens Housing (MOH) proposal for 165-du 100% affordable hous
-ing project, 15-story, w/ 18 parking spaces and 3,640-gsf retail at ground level.  Related to Addend
-um 2003.0262E EIR."
+ t:planning_project_description="THC/Citizens Housing (MOH) proposal for 165-du 100% affordable housing proj
+ect, 15-story, w/ 18 parking spaces and 3,640-gsf retail at ground level.  Related to Addendum 2003.0262E EI
+R."
  t:zoning_generalized=Commercial
  t:planning_id=2008.0553
  t:sponsor_name="Jake Wegmann"
@@ -7821,8 +7809,8 @@ series e:qfw2-ekmx d:2002-04-08T12:00:00.000Z
  t:study_id=100914
  t:objectid=1
  t:o_street="RAINIER AVE S"
- t:comments="ORIGINAL TITLE:  9345 135N N  0 4/ 8/2002 212: 0 711: 0  RAINIER       AVS S MASSACHUSE
-TTS ST  COUNTER 150                                          H"
+ t:comments="ORIGINAL TITLE:  9345 135N N  0 4/ 8/2002 212: 0 711: 0  RAINIER       AVS S MASSACHUSETTS ST  
+COUNTER 150                                          H"
  t:stdy_label="100914, 2002-04-08, N"
  t:study_dirflow=N
  m:study_awdt=22662
@@ -7913,12 +7901,12 @@ series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:ysrq-tssh d:2015-12-04T15:39:35.000Z
- t:draft_permit_comments="Our lake has hired aqua technex for over 10 years to spray-every year to k
-eep the costs down we spend hours posting each property before and remove all signs as required to a
-ssure we abide by the requirements.  this new purposal would impact the price and I fear many neighb
-ors would no longer be able to afford the spray costs which would then effect the overall use of our
- lake,  right now its in beautiful condition and many fisherman and families do not fear swimming an
-d get tangled in the lilies,  please do NOT consider this new rule."
+ t:draft_permit_comments="Our lake has hired aqua technex for over 10 years to spray-every year to keep the 
+costs down we spend hours posting each property before and remove all signs as required to assure we abide b
+y the requirements.  this new purposal would impact the price and I fear many neighbors would no longer be a
+ble to afford the spray costs which would then effect the overall use of our lake,  right now its in beautif
+ul condition and many fisherman and families do not fear swimming and get tangled in the lilies,  please do 
+NOT consider this new rule."
  t:name="becky argyle/Mission Lake-Kitsap County"
  m:row_number.ysrq-tssh=1
 
@@ -7930,8 +7918,8 @@ d get tangled in the lilies,  please do NOT consider this new rule."
 series e:eugj-j27t d:2009-01-01T00:00:00.000Z
  t:town_name=Andover
  t:grant_number=09RECJAGLO7511
- t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor v
-ehicle laws through special overtime."
+ t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor vehicle l
+aws through special overtime."
  m:fed_grant_award=9100
  m:tot_fed_expended=8842.42
 
@@ -7964,8 +7952,8 @@ series e:ad4g-jpgv d:2016-12-31T00:00:00.000Z
 ```ls
 series e:c8sw-khn9 d:2016-06-30T00:00:00.000Z
  t:county=Baker
- t:purpose_and_use_of_moneys_narrative="All of the Lottery funds Baker County received were spent on
- Economic Development expenses."
+ t:purpose_and_use_of_moneys_narrative="All of the Lottery funds Baker County received were spent on Economi
+c Development expenses."
  m:amount_of_money_expended_on_administration=0
  m:amount_of_money_received=108718
  m:amount_of_money_expended=108718
@@ -8244,8 +8232,7 @@ series e:ndi9-2pye d:2011-02-14T11:50:11.000Z
  t:current_conditions="Has a core employment population"
  t:typology="Mixed Use Center future"
  t:name="University District"
- t:major_transit_project=http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.
-xml
+ t:major_transit_project=http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml
  t:district=Northeast
  m:row_number.ndi9-2pye=1
 
@@ -8470,9 +8457,9 @@ series e:k5fe-2e4s d:1994-01-01T00:00:00.000Z
  t:station_name="Humptulips R nr Humptulips"
  t:station=22A070
  t:ssr=Coast
- t:comment="Annual sediment and phosphorus scores were usually below 80.  Temperature scores were be
-low 80 about half the time. Average Bacteria, Oxygen, Nitrogen and pH scores were usually above 80. 
-The Humptulips has an approved temperature management plan and is listed for oxygen and pH."
+ t:comment="Annual sediment and phosphorus scores were usually below 80.  Temperature scores were below 80 a
+bout half the time. Average Bacteria, Oxygen, Nitrogen and pH scores were usually above 80. The Humptulips h
+as an approved temperature management plan and is listed for oxygen and pH."
  m:2008=73
  m:2009=78
  m:2006=70
