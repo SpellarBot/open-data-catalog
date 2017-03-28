@@ -15,7 +15,7 @@
 | Category | Education |
 | Tags | attendance, schools, doe, education |
 | Created | 2015-12-31T18:03:16Z |
-| Publication Date | 2017-03-24T22:06:21Z |
+| Publication Date | 2017-03-27T21:47:51Z |
 
 ## Description
 
@@ -26,8 +26,9 @@ Statistical report that provides daily school wide attendance each day for all s
 ```ls
 | Included | Schema Type    | Field Name    | Name            | Data Type | Render Type |
 | ======== | ============== | ============= | =============== | ========= | =========== |
+| No       | time           | :updated_at   | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | school_year   | SCHOOL_YEAR     | text      | text        |
-| Yes      | time           | date          | DATE            | text      | text        |
+| No       |                | date          | DATE            | text      | text        |
 | Yes      | series tag     | school_dbn    | SCHOOL_DBN      | text      | text        |
 | Yes      | numeric metric | register      | REGISTER        | number    | number      |
 | Yes      | numeric metric | of_attd_taken | %_OF_ATTD_TAKEN | number    | number      |
@@ -36,26 +37,32 @@ Statistical report that provides daily school wide attendance each day for all s
 ## Time Field
 
 ```ls
-Value = date
-Format & Zone = MM-dd-yy
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = date
 ```
 
 ## Data Commands
 
 ```ls
-series e:madj-gkhr d:2015-09-09T00:00:00.000Z t:school_dbn=10X024 t:school_year=2015-2016 m:register=999 m:of_attd_taken=96.6
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X024 t:school_year=2015-2016 m:register=999 m:of_attd_taken=96.6
 
-series e:madj-gkhr d:2015-09-09T00:00:00.000Z t:school_dbn=10X032 t:school_year=2015-2016 m:register=810 m:of_attd_taken=88.4
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X032 t:school_year=2015-2016 m:register=810 m:of_attd_taken=88.4
 
-series e:madj-gkhr d:2015-09-09T00:00:00.000Z t:school_dbn=10X033 t:school_year=2015-2016 m:register=991 m:of_attd_taken=86.7
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X033 t:school_year=2015-2016 m:register=991 m:of_attd_taken=86.7
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:register p:integer l:REGISTER t:dataTypeName=number
+metric m:register p:long l:REGISTER t:dataTypeName=number
 
-metric m:of_attd_taken p:float l:%_OF_ATTD_TAKEN t:dataTypeName=number
+metric m:of_attd_taken p:long l:%_OF_ATTD_TAKEN t:dataTypeName=number
 
 entity e:madj-gkhr l:"Attendance 4PM Report" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/madj-gkhr
 

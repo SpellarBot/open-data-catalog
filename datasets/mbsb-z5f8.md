@@ -15,7 +15,7 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, invasive pneumococcal diseases, all ages |
 | Created | 2017-01-12T19:51:08Z |
-| Publication Date | 2017-03-16T16:09:00Z |
+| Publication Date | 2017-03-27T14:45:03Z |
 
 ## Description
 
@@ -36,6 +36,8 @@ Footnotes:
 † Case counts for reporting years 2016 and 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.
 
 § Includes drug resistant and susceptible cases of Invasive Pneumococcal Disease. This condition was previously named Streptococcus pneumoniae invasive disease and cases were reported to CDC using different event codes to specify whether the cases were drug resistant or in a defined age group, such as <5 years.
+
+NOTE:  These data may not reflect the case counts submitted by Oregon, Michigan, and Upstate New York due to changes in data processing.
 
 ## Columns
 

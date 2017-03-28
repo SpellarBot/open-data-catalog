@@ -98,7 +98,7 @@ metric m:number_of_proposed_stories p:integer l:"Number of Proposed Stories" t:d
 
 metric m:estimated_cost p:integer l:"Estimated Cost" t:dataTypeName=number
 
-metric m:revised_cost p:double l:"Revised Cost" t:dataTypeName=number
+metric m:revised_cost p:integer l:"Revised Cost" t:dataTypeName=number
 
 metric m:existing_units p:integer l:"Existing Units" t:dataTypeName=number
 

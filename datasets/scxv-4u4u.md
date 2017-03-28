@@ -15,7 +15,7 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-03-16T16:13:12Z |
+| Publication Date | 2017-03-27T14:51:33Z |
 
 ## Description
 
@@ -34,6 +34,8 @@ Footnotes:
 *Three low incidence conditions, rubella, rubella congenital, and tetanus, are in Table II to facilitate case count verification with reporting jurisdictions. 
 
 † Case counts for reporting years 2016 and 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.
+
+NOTE:  These data may not reflect the case counts submitted by Oregon, Michigan, and Upstate New York due to changes in data processing.
 
 ## Columns
 

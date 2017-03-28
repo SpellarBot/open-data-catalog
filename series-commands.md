@@ -1280,20 +1280,20 @@ series e:rpjd-ejph d:2015-12-27T00:00:00.000Z
 [i97v-e8au.md](datasets/i97v-e8au.md)
 
 ```ls
-series e:i97v-e8au d:2012-04-11T00:00:00.000Z
- t:energy_star_partner="Allied Air Enterprises"
- t:capable_of_two_way_communication=Other/Proprietary
- t:model_number=A97DSMV090B20S-*
- t:fuel_type="Natural Gas"
+series e:i97v-e8au d:2013-02-01T00:00:00.000Z
+ t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)"
+ t:capable_of_two_way_communication="Not Applicable"
+ t:model_number=OVM070-RF*
+ t:fuel_type=Oil
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1102531_02012013151616_5756348
+ t:energy_star_model_identifier=ES_1019658_06112013094056_3318459
  t:furnace_is_energy_star_certified_in=All
  t:meets_most_efficient_criteria=No
  t:can_integrate_hot_water_heating=No
- t:brand_name="Armstrong/Air Ease"
- t:model_name="A97DSMV Series"
- t:pd_id=2171653
- m:efficiency_afue=97
+ t:brand_name=Bryant
+ t:model_name=OVM070-RF
+ t:pd_id=2182941
+ m:efficiency_afue=86.4
 
 ```
 
@@ -1867,30 +1867,30 @@ series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z
 [59dq-uw25.md](datasets/59dq-uw25.md)
 
 ```ls
-series e:59dq-uw25 d:2016-12-20T00:00:00.000Z
+series e:59dq-uw25 d:2015-10-01T00:00:00.000Z
  t:markets="United States, Canada"
- t:product_type="Vertical Solid Door Freezer"
- t:product_description="Bottle Cooler"
- t:model_name="Commercial freezer"
- t:brand_name=MAXXCOLD
+ t:product_type="Vertical Transparent Door Refrigerator"
+ t:product_description=Reach-in
+ t:model_name="Commercial Refrigerator"
+ t:brand_name="Maxx Cold"
  t:door_opening_orientation_hinged_sliding=Hinged
- t:pd_id=2287045
+ t:pd_id=2245925
  t:energy_star_partner="Asbury Foodservice"
- t:refrigerant_type=R-404A
- t:model_number=MXCF-49FD
+ t:refrigerant_type=R-134A
+ t:model_number=MXCR-23GD
  t:product_orientation_vertical_chest=Vertical
- t:energy_star_model_identifier=ES_1096444_MXCF-49FD_12272016044513_3913227
+ t:energy_star_model_identifier=ES_1096444_MXCR-23GD_08142015092035_4035488
  t:defrost_type=Automatic
- m:depth_in=32.68
- m:mixed_door_cabinet_glass_door_volume_cu_ft=0
- m:mixed_door_cabinet_solid_door_volume_cu_ft=41.7
- m:width_in=53.86
- m:number_of_glass_doors=0
- m:number_of_solid_doors=2
- m:total_volume_cu_ft=41.7
- m:height_in=82.09
- m:energy_use_daily_energy_consumption_kwh_day=8.8
- m:number_of_doors=2
+ m:depth_in=27.6
+ m:mixed_door_cabinet_glass_door_volume_cu_ft=19
+ m:mixed_door_cabinet_solid_door_volume_cu_ft=0
+ m:width_in=22.2
+ m:number_of_glass_doors=1
+ m:number_of_solid_doors=0
+ m:total_volume_cu_ft=19
+ m:height_in=59.4
+ m:energy_use_daily_energy_consumption_kwh_day=3.09
+ m:number_of_doors=1
 
 ```
 
@@ -2063,17 +2063,17 @@ series e:843n-d2np d:2014-02-20T15:48:52.000Z
 [tvpp-9vvx.md](datasets/tvpp-9vvx.md)
 
 ```ls
-series e:tvpp-9vvx d:2017-04-02T08:00:00.000Z
- t:event_borough=Manhattan
+series e:tvpp-9vvx d:2017-04-16T08:00:00.000Z
+ t:event_borough=Brooklyn
  t:event_type="Farmers Market"
  t:event_agency="Street Activity Permit Office"
- t:event_id=314114
- t:event_street_side=East
- t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET"
+ t:event_id=314118
+ t:event_street_side=North
+ t:event_location="CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD"
  t:street_closure_type="Sidewalk and Curb Lane Closure"
- t:community_board=9,
- t:event_name="Columbia Greenmarket Sunday"
- t:police_precinct=26,
+ t:community_board=14,
+ t:event_name="Cortelyou Greenmarket Sunday"
+ t:police_precinct=70,
  m:row_number.tvpp-9vvx=1
 
 ```
@@ -4747,19 +4747,20 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z
 [uc6q-9632.md](datasets/uc6q-9632.md)
 
 ```ls
-series e:uc6q-9632 d:2009-10-01T00:00:00.000Z
- t:energy_star_partner="Lowe's Home Improvement"
- t:model_number=IAP-GG-125
- t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1114486_IAP-GG-125_12222016153023_4201801
- t:brand_name=Idylis
- t:model_name=IAP-GG-125
- t:pd_id=2286895
- m:pollen_cadr=149
- m:tobacco_smoke_cadr=125
- m:energy_consumption_watts=62
- m:dust_cadr_watt=2.2
- m:dust_cadr=139
+series e:uc6q-9632 d:2005-01-01T00:00:00.000Z
+ t:energy_star_partner="Access Business Group"
+ t:model_number=101076**
+ t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
+ t:energy_star_model_identifier=ES_1025068_101076**_04302015111301_7558252
+ t:brand_name=Atmosphere
+ t:model_name=101076**
+ t:pd_id=2238438
+ m:pollen_cadr=250
+ m:standy_power_watts=0.7
+ m:tobacco_smoke_cadr=250
+ m:energy_consumption_watts=52
+ m:dust_cadr_watt=5.3
+ m:dust_cadr=250
 
 ```
 
@@ -4799,7 +4800,7 @@ series e:97wa-y6ff d:2015-05-18T00:00:00.000Z
 [madj-gkhr.md](datasets/madj-gkhr.md)
 
 ```ls
-series e:madj-gkhr d:2015-09-09T00:00:00.000Z
+series e:madj-gkhr d:2015-12-31T10:03:25.000Z
  t:school_dbn=10X024
  t:school_year=2015-2016
  m:register=999
@@ -4810,8 +4811,11 @@ series e:madj-gkhr d:2015-09-09T00:00:00.000Z
 [gs3k-hp7i.md](datasets/gs3k-hp7i.md)
 
 ```ls
-series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z
- t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing"
+series e:gs3k-hp7i d:2015-11-30T00:00:00.000Z
+ t:notes="-- On 10/20/2015:--1. Clean up bio hazard. 2. Apartment 3. 3 stories 4. no retail or commercial us
+e. Permanent residence only. No rehabilitation, no transitional housing, no treatment services, no dormitori
+es, no counseling. Each unit is rented separately. Each unit contains its own bathroom &amp; kitchen. No par
+ts of the structure are used by members of the public."
  m:row_number.gs3k-hp7i=1
 
 ```
@@ -5104,17 +5108,17 @@ series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z
 [dgeh-7h9y.md](datasets/dgeh-7h9y.md)
 
 ```ls
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z
+ t:zip=60625
  t:location="Albany Park"
  t:city=CHICAGO
- m:zip=60625
+ m:december=4
  m:may=0
  m:november=18
- m:april=0
- m:june=0
- m:december=4
  m:march=0
+ m:april=0
  m:february=0
+ m:june=0
  m:january=0
  m:ytd=63
  m:august=7
@@ -7730,45 +7734,48 @@ series e:84fd-3fzf d:2013-04-30T13:41:03.000Z
 [t2v6-g4nf.md](datasets/t2v6-g4nf.md)
 
 ```ls
-series e:t2v6-g4nf d:2014-11-17T00:00:00.000Z
- t:energy_star_partner="Ambir Technology, Inc."
- t:model_number=DS490IX
- t:functional_adders="None, None"
+series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z
+ t:energy_star_partner="Avision Inc."
+ t:model_number=AH5100
+ t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
- t:marking_technology="N/A (Scanner)"
- t:energy_star_model_identifier=ES_1102853_DS490IX_08052014100831_2388364
+ t:marking_technology="Electro-photographic (EP)"
+ t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH5100_01022014075639_9399184"
  t:product_type=Scanners
  t:automatic_duplex_output_capable=No
- t:color_capability=Color
  t:size_format=Standard
- t:model_name="ImageScan Pro 490ix"
- t:brand_name=Ambir
- t:pd_id=2217481
- m:power_in_sleep_w=0.46
- m:power_in_standby_w=0.46
- m:monochrome_product_speed_ipm_or_mppm=7
- m:default_delay_time_to_sleep_minutes=0
+ t:model_name=AH5100
+ t:brand_name=Avision
+ t:pd_id=2199994
+ m:power_in_sleep_w=2.17
+ m:power_in_standby_w=0.28
+ m:monochrome_product_speed_ipm_or_mppm=120
+ m:default_delay_time_to_sleep_minutes=15
 
 ```
 
 [j624-u8ux.md](datasets/j624-u8ux.md)
 
 ```ls
-series e:j624-u8ux d:2015-08-01T00:00:00.000Z
- t:energy_star_partner="Seaga Manufacturing Inc."
- t:additional_model_information=Infinity,INF5B,
- t:markets="United States, Europe, Canada"
- t:model_number_or_rebuilt_model_number=INF5B
- t:energy_star_model_identifier=ES_1061638_INF5B_09222015193852_0732343
- t:energy_saving_component_type=INF5B
+series e:j624-u8ux d:2013-04-06T00:00:00.000Z
+ t:energy_saving_kit_or_component_model_number="NA NA"
+ t:energy_saving_kit_or_component_oem="NA NA"
+ t:model_number_or_rebuilt_model_number="AMS LB9"
+ t:markets="United States"
  t:product_type=New
- t:machine_use_designation="Indoor Only"
+ t:energy_saving_component_type=NA
  t:door_type="Glass Front"
- t:model_name=Infinity
- t:pd_id=2248313
- m:refrigerated_volume_cubic_feet=31.686
- m:vendible_capacity=240
- m:energy_consumption_kwh_day=3.64
+ t:model_name="AMS LB9"
+ t:pd_id=2203621
+ t:additional_model_information=",AMS LB9,Identical to AMS LB9.; ,LB9,Identical to AMS LB9.; ,LC9,Same as AM
+S LB9 except there is no control to lock out customers if the internal temperature rises enough to render fo
+od potentially hazardous."
+ t:energy_star_partner="Automated Merchandising Systems, Inc."
+ t:energy_star_model_identifier="ES_1110953_AMS LB9_01302014194201_6303827"
+ t:machine_use_designation="Indoor Only"
+ m:refrigerated_volume_cubic_feet=31.42
+ m:vendible_capacity=446
+ m:energy_consumption_kwh_day=3.63
 
 ```
 

@@ -16,7 +16,6 @@
 | Tags | libraries, holds |
 | Created | 2013-03-13T15:42:19Z |
 | Publication Date | 2014-01-16T19:07:43Z |
-| Rows Updated | 2014-01-16T19:07:39Z |
 
 ## Description
 
@@ -25,33 +24,32 @@ Patrons may place holds on desired materials either online or by contacting any 
 ## Columns
 
 ```ls
-| Included | Schema Type    | Field Name  | Name       | Data Type | Render Type |
-| ======== | ============== | =========== | ========== | ========= | =========== |
-| Yes      | time           | :updated_at | updated_at | meta_data | meta_data   |
-| Yes      | series tag     | location    | LOCATION   | text      | text        |
-| No       |                | address     | ADDRESS    | text      | text        |
-| Yes      | series tag     | city        | CITY       | text      | text        |
-| Yes      | numeric metric | zip         | ZIP        | number    | text        |
-| Yes      | numeric metric | january     | JANUARY    | number    | number      |
-| Yes      | numeric metric | february    | FEBRUARY   | number    | number      |
-| Yes      | numeric metric | march       | MARCH      | number    | number      |
-| Yes      | numeric metric | april       | APRIL      | number    | number      |
-| Yes      | numeric metric | may         | MAY        | number    | number      |
-| Yes      | numeric metric | june        | JUNE       | number    | number      |
-| Yes      | numeric metric | july        | JULY       | number    | number      |
-| Yes      | numeric metric | august      | AUGUST     | number    | number      |
-| Yes      | numeric metric | september   | SEPTEMBER  | number    | number      |
-| Yes      | numeric metric | october     | OCTOBER    | number    | number      |
-| Yes      | numeric metric | november    | NOVEMBER   | number    | number      |
-| Yes      | numeric metric | december    | DECEMBER   | number    | number      |
-| Yes      | numeric metric | ytd         | YTD        | number    | number      |
+| Included | Schema Type    | Field Name | Name      | Data Type | Render Type |
+| ======== | ============== | ========== | ========= | ========= | =========== |
+| Yes      | series tag     | location   | LOCATION  | text      | text        |
+| No       |                | address    | ADDRESS   | text      | text        |
+| Yes      | series tag     | city       | CITY      | text      | text        |
+| Yes      | series tag     | zip        | ZIP       | text      | text        |
+| Yes      | numeric metric | january    | JANUARY   | number    | number      |
+| Yes      | numeric metric | february   | FEBRUARY  | number    | number      |
+| Yes      | numeric metric | march      | MARCH     | number    | number      |
+| Yes      | numeric metric | april      | APRIL     | number    | number      |
+| Yes      | numeric metric | may        | MAY       | number    | number      |
+| Yes      | numeric metric | june       | JUNE      | number    | number      |
+| Yes      | numeric metric | july       | JULY      | number    | number      |
+| Yes      | numeric metric | august     | AUGUST    | number    | number      |
+| Yes      | numeric metric | september  | SEPTEMBER | number    | number      |
+| Yes      | numeric metric | october    | OCTOBER   | number    | number      |
+| Yes      | numeric metric | november   | NOVEMBER  | number    | number      |
+| Yes      | numeric metric | december   | DECEMBER  | number    | number      |
+| Yes      | numeric metric | ytd        | YTD       | number    | number      |
 ```
 
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = 2013
+Format & Zone = yyyy
 ```
 
 ## Series Fields
@@ -63,18 +61,16 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:location="Albany Park" t:city=CHICAGO m:zip=60625 m:may=0 m:november=18 m:april=0 m:june=0 m:december=4 m:march=0 m:february=0 m:january=0 m:ytd=63 m:august=7 m:july=0 m:october=26 m:september=8
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=4 m:may=0 m:november=18 m:march=0 m:april=0 m:february=0 m:june=0 m:january=0 m:ytd=63 m:august=7 m:july=0 m:october=26 m:september=8
 
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:location=Altgeld t:city=CHICAGO m:zip=60827 m:may=7 m:november=11 m:april=8 m:june=16 m:december=23 m:march=14 m:february=12 m:january=17 m:ytd=152 m:august=12 m:july=9 m:october=12 m:september=11
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=23 m:may=7 m:november=11 m:march=14 m:april=8 m:february=12 m:june=16 m:january=17 m:ytd=152 m:august=12 m:july=9 m:october=12 m:september=11
 
-series e:dgeh-7h9y d:2014-01-16T09:00:36.000Z t:location="Archer Heights" t:city=CHICAGO m:zip=60632 m:may=90 m:november=73 m:april=110 m:june=85 m:december=110 m:march=85 m:february=92 m:january=110 m:ytd=1128 m:august=116 m:july=114 m:october=83 m:september=60
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=110 m:may=90 m:november=73 m:march=85 m:april=110 m:february=92 m:june=85 m:january=110 m:ytd=1128 m:august=116 m:july=114 m:october=83 m:september=60
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:zip p:integer l:ZIP t:dataTypeName=number
-
 metric m:january p:integer l:JANUARY t:dataTypeName=number
 
 metric m:february p:integer l:FEBRUARY t:dataTypeName=number
@@ -89,7 +85,7 @@ metric m:june p:integer l:JUNE t:dataTypeName=number
 
 metric m:july p:integer l:JULY t:dataTypeName=number
 
-metric m:august p:integer l:AUGUST t:dataTypeName=number
+metric m:august p:long l:AUGUST t:dataTypeName=number
 
 metric m:september p:integer l:SEPTEMBER t:dataTypeName=number
 
@@ -99,13 +95,13 @@ metric m:november p:integer l:NOVEMBER t:dataTypeName=number
 
 metric m:december p:integer l:DECEMBER t:dataTypeName=number
 
-metric m:ytd p:integer l:YTD t:dataTypeName=number
+metric m:ytd p:long l:YTD t:dataTypeName=number
 
 entity e:dgeh-7h9y l:"Libraries - 2013 Holds Placed by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/dgeh-7h9y
 
 property e:dgeh-7h9y t:meta.view v:id=dgeh-7h9y v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Holds Placed by Location" v:attribution="Chicago Public Library"
 
-property e:dgeh-7h9y t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:dgeh-7h9y t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
 
 property e:dgeh-7h9y t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```

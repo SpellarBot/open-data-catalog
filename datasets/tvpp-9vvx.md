@@ -15,7 +15,7 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-26T19:39:11Z |
+| Publication Date | 2017-03-27T19:33:32Z |
 
 ## Description
 
@@ -56,11 +56,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-04-02T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2017-04-16T08:00:00.000Z t:event_borough=Brooklyn t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314118 t:event_street_side=North t:event_location="CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=14, t:event_name="Cortelyou Greenmarket Sunday" t:police_precinct=70, m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-04-09T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-04-23T08:00:00.000Z t:event_borough=Brooklyn t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314118 t:event_street_side=North t:event_location="CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=14, t:event_name="Cortelyou Greenmarket Sunday" t:police_precinct=70, m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-04-16T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-04-02T08:00:00.000Z t:event_borough=Queens t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314119 t:event_street_side=South t:event_location="QUEENS BOULEVARD between 70 AVENUE and 69 ROAD" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=6, t:event_name="Forest Hills Greenmarket Sunday" t:police_precinct=112, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands
