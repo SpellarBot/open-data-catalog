@@ -107,3 +107,20 @@ property e:wzpb-uqdj t:meta.view.owner v:id=hd87-ziyn v:screenName="Fred North" 
 
 property e:wzpb-uqdj t:meta.view.tableauthor v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
 ```
+
+## Top Records
+
+```ls
+| data_as_of          | sfy_entry | region   | office            | demographic | total_entries | foster_care | relative_care | special_study | therapeutic_foster_care | pdc_safe_home | shelter | group_home | residential | dcf_highmeadows | dcf_solnit | hospital | dcf_cjts | independent_living | 
+| =================== | ========= | ======== | ================= | =========== | ============= | =========== | ============= | ============= | ======================= | ============= | ======= | ========== | =========== | =============== | ========== | ======== | ======== | ================== | 
+| 2015-08-06T00:00:00 | 2005      | Other    | Other             | BLACK       | 77            | 3           | 2             | 0             | 0                       | 2             | 0       | 1          | 45          | 0               | 1          | 0        | 23       | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Other    | Other             | HISPANIC    | 70            | 6           | 0             | 0             | 0                       | 1             | 0       | 2          | 41          | 0               | 2          | 0        | 18       | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Other    | Other             | OTHER       | 23            | 0           | 0             | 0             | 0                       | 0             | 0       | 0          | 21          | 0               | 0          | 0        | 2        | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Other    | Other             | WHITE       | 61            | 2           | 5             | 0             | 0                       | 1             | 0       | 4          | 40          | 0               | 1          | 0        | 8        | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Region 1 | Bridgeport Office | BLACK       | 126           | 64          | 12            | 1             | 3                       | 19            | 11      | 2          | 10          | 2               | 0          | 1        | 1        | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Region 1 | Bridgeport Office | HISPANIC    | 105           | 54          | 21            | 1             | 1                       | 15            | 2       | 2          | 6           | 0               | 0          | 0        | 2        | 1                  | 
+| 2015-08-06T00:00:00 | 2005      | Region 1 | Bridgeport Office | OTHER       | 12            | 6           | 0             | 1             | 1                       | 3             | 1       | 0          | 0           | 0               | 0          | 0        | 0        | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Region 1 | Bridgeport Office | WHITE       | 53            | 22          | 3             | 0             | 1                       | 12            | 3       | 1          | 9           | 0               | 2          | 0        | 0        | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Region 1 | Norwalk Office    | BLACK       | 27            | 6           | 10            | 1             | 1                       | 4             | 1       | 0          | 4           | 0               | 0          | 0        | 0        | 0                  | 
+| 2015-08-06T00:00:00 | 2005      | Region 1 | Norwalk Office    | HISPANIC    | 20            | 7           | 7             | 0             | 0                       | 1             | 1       | 1          | 3           | 0               | 0          | 0        | 0        | 0                  | 
+```

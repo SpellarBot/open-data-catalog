@@ -67,3 +67,20 @@ property e:w9cy-nnma t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:w9cy-nnma t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | program_type                                              | program             | site_name                                               | borough_community | agency                                       | contact_number | grade_level_age_group          | 
+| =========== | ========================================================= | =================== | ======================================================= | ================= | ============================================ | ============== | ============================== | 
+| 1314963624  | Reading & Writing                                         | Adolescent Literacy | School for Democracy and Leadership 600 Kingston Avenue | Brooklyn          | Church Ave. Merchants Block Assoc.           | 718.282.5575   | grades 6 to 8                  | 
+| 1314963625  | Reading & Writing                                         | Adolescent Literacy | Frederick Douglass Academy II (M860)                    | New York          | Research Foundation of CUNY                  | 212.652.2800   | grades 6 to 8                  | 
+| 1314963625  | Reading & Writing                                         | Adolescent Literacy | CUNY/Creative Arts Team                                 | New York          | Research Foundation of CUNY                  | 212.652.2800   | grades 6 to 8                  | 
+| 1314963625  | Reading & Writing                                         | Adolescent Literacy | Environmental Science Sec School (M635)                 | New York          | Supportive Childrens Advocacy Network (SCAN) | 212.683.2522   | grades 6 to 8                  | 
+| 1314963625  | Reading & Writing                                         | Adult Literacy      | Beacon Family Center at IS 8                            | Queens            | SQPA-NY Southern Queens Park Association NY  | 718.276.4630   | At least 16 Years Old or Older | 
+| 1314963625  | Reading & Writing                                         | Adult Literacy      | Union Settlement Association                            | New York          | Union Settlement Association                 | 212.828.6016   | At least 16 Years Old or Older | 
+| 1314963625  | Reading & Writing                                         | Adult Literacy      | SCO Family of Services                                  | Brooklyn          | SCO Family of Services                       | 718.455.1166   | At least 16 Years Old or Older | 
+| 1314963625  | Reading & Writing                                         | Adult Literacy      | The Arab American Family Support Center                 | Brooklyn          | The Arab American Family Support Center      | 718.643.8000   | At least 16 Years Old or Older | 
+| 1314963625  | Reading & Writing                                         | Adult Literacy      | Make the Road New York                                  | Staten Island     | Make the Road New York                       | 718.418.7690   | At least 16 Years Old or Older | 
+| 1314963625  | Reading & Writing,English Language Program,Adult Literacy | ESOL                | Henry Street Settlement - Workforce Development Center  | New York          | Henry Street Settlement, Inc.                | 212.766.9200   | ESOL/Civics                    | 
+```

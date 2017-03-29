@@ -54,3 +54,11 @@ property e:bu7x-2xx6 t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:dis
 
 property e:bu7x-2xx6 t:meta.view.tableauthor v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
 ```
+
+## Top Records
+
+```ls
+| :updated_at | name                                  | phone        | hours               | 
+| =========== | ===================================== | ============ | =================== | 
+| 1324036105  | Maleng Regional Justice Center (Kent) | 206-205-7330 | Mon-Fri: 9:30am-5pm | 
+```

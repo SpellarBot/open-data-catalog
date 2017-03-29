@@ -66,3 +66,20 @@ property e:4xtp-hh3v t:meta.view.owner v:id=xdif-r3mr v:screenName=Admin v:displ
 
 property e:4xtp-hh3v t:meta.view.tableauthor v:id=xdif-r3mr v:screenName=Admin v:roleName=administrator v:displayName=Admin
 ```
+
+## Top Records
+
+```ls
+| position                       | department                     | total_wages | total_retirement_health_cost | 
+| ============================== | ============================== | =========== | ============================ | 
+| Activity Specialist            | Recreation And Parks           | 12          | 7                            | 
+| Activity Specialist            | Recreation And Parks           | 706         | 133                          | 
+| Police Technician              | Police Department              | 1506        | 169                          | 
+| Bus Operator Trainee           | Transit                        | 1085        | 210                          | 
+| Parking Operations Aide        | Economic Development & Housing | 2998        | 253                          | 
+| Maintenance Aide               | Recreation And Parks           | 1440        | 254                          | 
+| Specific Activity Instructor   | Recreation And Parks           | 1850        | 319                          | 
+| Bus Operator Trainee           | Transit                        | 1964        | 327                          | 
+| Specific Activity Rosie Driver | Recreation And Parks           | 2513        | 462                          | 
+| Info Tech Technician           | Police Department              | 24456       | 478                          | 
+```

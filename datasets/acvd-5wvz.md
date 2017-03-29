@@ -57,11 +57,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152247_1620760 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226833 m:cop_rating=4.1 m:eer_rating=22.3
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GB018H/V******1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_11262014121036_5721501 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GB t:brand_name=Bryant t:pd_id=2226024 m:cop_rating=3.8 m:eer_rating=19
 
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152247_7584783 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226835 m:cop_rating=4.5 m:eer_rating=23.8
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GB018H/V******1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_11262014121038_9867128 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GB t:brand_name=Bryant t:pd_id=2226067 m:cop_rating=4.5 m:eer_rating=25.6
 
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GS060**1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_12082014152246_8380148 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GS t:brand_name=Bryant t:pd_id=2226855 m:cop_rating=3.6 m:eer_rating=18.9
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=GB024H/V******1*X1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_11262014121037_7936211 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GB t:brand_name=Bryant t:pd_id=2226285 m:cop_rating=4 m:eer_rating=21.1
 ```
 
 ## Meta Commands
@@ -80,4 +80,21 @@ property e:acvd-5wvz t:meta.view.owner v:id=guxy-scz5 v:screenName=ESddas v:disp
 property e:acvd-5wvz t:meta.view.tableauthor v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:displayName=ESddas
 
 property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+```
+
+## Top Records
+
+```ls
+| pd_id   | energy_star_partner | brand_name | model_name | model_number       | additional_model_information | product_type             | cop_rating | eer_rating | date_available_on_market | date_qualified      | markets               | energy_star_model_identifier      | meets_most_efficient_criteria | 
+| ======= | =================== | ========== | ========== | ================== | ============================ | ======================== | ========== | ========== | ======================== | =================== | ===================== | ================================= | ============================= | 
+| 2226024 | Carrier Corporation | Bryant     | GB         | GB018H/V******1*X1 |                              | Closed Loop Water-to-Air | 3.8        | 19         | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121036_5721501 | No                            | 
+| 2226067 | Carrier Corporation | Bryant     | GB         | GB018H/V******1*X1 |                              | Open Loop Water-to-Air   | 4.5        | 25.6       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121038_9867128 | No                            | 
+| 2226285 | Carrier Corporation | Bryant     | GB         | GB024H/V******1*X1 |                              | Closed Loop Water-to-Air | 4          | 21.1       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121037_7936211 | No                            | 
+| 2226289 | Carrier Corporation | Bryant     | GB         | GB024H/V******1*X1 |                              | Open Loop Water-to-Air   | 4.6        | 28.1       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121038_1956075 | No                            | 
+| 2226283 | Carrier Corporation | Bryant     | GB         | GB030H/V******1*X1 |                              | Closed Loop Water-to-Air | 4.3        | 19.4       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121036_6598066 | No                            | 
+| 2226287 | Carrier Corporation | Bryant     | GB         | GB030H/V******1*X1 |                              | Open Loop Water-to-Air   | 5.2        | 27         | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121038_4006244 | No                            | 
+| 2226030 | Carrier Corporation | Bryant     | GB         | GB036H/V******1*X1 |                              | Closed Loop Water-to-Air | 4.1        | 19.7       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121037_4996665 | No                            | 
+| 2226071 | Carrier Corporation | Bryant     | GB         | GB036H/V******1*X1 |                              | Open Loop Water-to-Air   | 4.9        | 25.9       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121038_7619996 | No                            | 
+| 2226018 | Carrier Corporation | Bryant     | GB         | GB060H/V******1*X1 |                              | Closed Loop Water-to-Air | 4.2        | 18.5       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121036_2774245 | No                            | 
+| 2226063 | Carrier Corporation | Bryant     | GB         | GB060H/V******1*X1 |                              | Open Loop Water-to-Air   | 4.9        | 24.1       | 2014-05-12T00:00:00      | 2014-11-26T00:00:00 | United States, Canada | ES_1020846_11262014121038_7052133 | No                            | 
 ```

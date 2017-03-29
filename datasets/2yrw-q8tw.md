@@ -62,3 +62,20 @@ property e:2yrw-q8tw t:meta.view.owner v:id=hb8e-gdsp v:profileImageUrlMedium=/a
 
 property e:2yrw-q8tw t:meta.view.tableauthor v:id=hb8e-gdsp v:profileImageUrlMedium=/api/users/hb8e-gdsp/profile_images/THUMB v:profileImageUrlLarge=/api/users/hb8e-gdsp/profile_images/LARGE v:screenName="LA DWP OpenData" v:profileImageUrlSmall=/api/users/hb8e-gdsp/profile_images/TINY v:roleName=publisher v:displayName="LA DWP OpenData"
 ```
+
+## Top Records
+
+```ls
+| quarter_fiscalyear | installed_capacity_from_solar_incentive_program_in_quarter_kw | 
+| ================== | ============================================================= | 
+| Q1 FY08            | 10901.66                                                      | 
+| Q2 FY08            | 11316.87                                                      | 
+| Q3 FY08            | 11938.39                                                      | 
+| Q4 FY08            | 12548.94                                                      | 
+| Q1 FY09            | 13069.42                                                      | 
+| Q2 FY09            | 14383.83                                                      | 
+| Q3 FY09            | 16368.35                                                      | 
+| Q4 FY09            | 17247.50                                                      | 
+| Q1 FY10            | 18089.01                                                      | 
+| Q2 FY10            | 19322.20                                                      | 
+```

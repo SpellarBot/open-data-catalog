@@ -88,3 +88,20 @@ property e:yjnx-i3j5 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/a
 
 property e:yjnx-i3j5 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | dataset_name              | member_1 | member_2 | member_3 | member_4 | member_5 | member_6 | member_7 | member_8 | member_9 | rank_and_score     | 
+| =========== | ========================= | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ================== | 
+| 1459175634  | Budget                    | 9        | 10       | 10       | 8        | 10       | 10       | 10       | 10       | 10       | 9.6666666666666661 | 
+| 1459175634  | Crime Stats               | 10       | 10       | 10       | 0        | 10       | 10       | 10       | 10       | 10       | 8.8888888888888893 | 
+| 1459175634  | 311 Data                  | 9        | 10       | 10       | 10       | 10       | 9        | 1        | 10       | 10       | 8.7777777777777786 | 
+| 1459175634  | Revenue                   | 9        | 10       | 10       | 8        | 8        | 10       | 10       | 5        | 8        | 8.6666666666666661 | 
+| 1459175634  | Elections                 | 8        | 0        | 10       | 10       | 10       | 10       | 8        | 8        | 10       | 8.2222222222222214 | 
+| 1459175634  | Sewer Tap List            | 9        | 7        | 10       | 0        | 10       | 9        | 10       | 9        | 8        | 8                  | 
+| 1459175634  | Expenditures              | 9        | 7        | 10       | 0        | 10       | 9        | 8        | 10       | 8        | 7.8888888888888893 | 
+| 1459175634  | Tip411                    | 10       | 10       | 10       | 9        | 1        | 10       | 1        | 10       | 10       | 7.8888888888888893 | 
+| 1459175634  | Fire Reports              | 9        |          | 7        | 0        | 10       | 9        | 9        | 8        | 10       | 7.75               | 
+| 1459175634  | Municipal Voter Precincts | 8        | 0        | 10       | 0        | 10       | 10       | 8        | 10       | 10       | 7.333333333333333  | 
+```

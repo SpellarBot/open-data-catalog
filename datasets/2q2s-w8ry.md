@@ -74,3 +74,20 @@ property e:2q2s-w8ry t:meta.view.owner v:id=n7yg-3wp3 v:profileImageUrlMedium=/a
 
 property e:2q2s-w8ry t:meta.view.tableauthor v:id=n7yg-3wp3 v:profileImageUrlMedium=/api/users/n7yg-3wp3/profile_images/THUMB v:profileImageUrlLarge=/api/users/n7yg-3wp3/profile_images/LARGE v:screenName="Erik Endrulat" v:profileImageUrlSmall=/api/users/n7yg-3wp3/profile_images/TINY v:displayName="Erik Endrulat"
 ```
+
+## Top Records
+
+```ls
+| name                              | address              | city     | zipcode | type   | webpage                                                                          | sqft  | expdate    | directions                                                                                             | 
+| ================================= | ==================== | ======== | ======= | ====== | ================================================================================ | ===== | ========== | ====================================================================================================== | 
+| Agriculture Building              | 635 CAPITOL ST NE    | Salem    |         | Owned  | [http://sustainability.oregon.gov/DAS/FAC/Building_Info/agriculture.shtml, null] | 76817 |            | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=635+CAPITOL+ST+NE+Salem+97301, null]      | 
+| Consumer & Bus Services           | 811 SW Sixth Avenue  | Portland |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 90    | 10/31/2009 | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=811+SW+Sixth+Avenue+Portland+97204, null] | 
+| Corrections, Dept                 | 2757 22nd Street SE  | Salem    |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 12000 | 1/31/2012  | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=2757+22nd+Street+SE+Salem+97302, null]    | 
+| Children & Family Comm            | 530 Center Street NE | Salem    |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 400   | 1/31/2011  | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=530+Center+Street+NE+Salem+97301, null]   | 
+| Lottery                           | 500 AIRPORT RD SE    | Salem    |         | Owned  | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 0     |            | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=500+AIRPORT+RD+SE+Salem+97301, null]      | 
+| Justice Building                  | 1162 COURT ST NE     | Salem    |         | Owned  | [http://sustainability.oregon.gov/DAS/FAC/Building_Info/justice.shtml, null]     | 94644 |            | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1162+COURT+ST+NE+Salem+97301, null]       | 
+| Human Services, Dept              | 122nd & Powell Blvd  | Portland |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 31214 | 4/30/2010  | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=122nd+&+Powell+Blvd+Portland+97216, null] | 
+| Justice, Dept                     | 494 State St 3rd Fl  | Salem    |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 7000  | 6/30/2012  | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=494+State+St+3rd+Fl+Salem+97305, null]    | 
+| Energy, Office                    | 625 Marion St NE     | Salem    |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 19600 | 7/31/2013  | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=625+Marion+St+NE+Salem+97301, null]       | 
+| Robertson Building (And Addition) | 1215 & 1241 STATE ST | Salem    |         | Leased | [http://sustainability.oregon.gov/DAS/FAC/Building_Info, null]                   | 0     |            | [http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1215+&+1241+STATE+ST+Salem+97301, null]   | 
+```

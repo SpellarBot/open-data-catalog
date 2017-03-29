@@ -72,3 +72,20 @@ property e:kzmz-ivhb t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:kzmz-ivhb t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | district | material            | primary_disposal_facility | location                        | latitude  | longitude  | 
+| =========== | ======== | =================== | ========================= | =============================== | ========= | ========== | 
+| 1455881048  | BK01     | Refuse              | WM - Varick               | 215 Varick Ave Brooklyn, NY     | 40.7145   | -73.929744 | 
+| 1455881048  | BK01     | Met, Glass, Plastic | Sims - LIC                | 30-27 Greenpoint Avenue LIC, NY | 40.737347 | -73.943138 | 
+| 1455881048  | BK01     | Paper               | Sims LIC                  | 30-27 Greenpoint Avenue LIC, NY | 40.737347 | -73.943138 | 
+| 1455881048  | BK02     | Paper               | Visy                      | 4435 Victory Blvd SI, NY        | 40.587147 | -74.199155 | 
+| 1455881048  | BK02     | Met, Glass, Plastic | Sims Bklyn                | 472 2nd Ave Brooklyn, NY        | 40.661202 | -74.005105 | 
+| 1455881048  | BK02     | Refuse              | IESI - Court              | 577 Court St Brooklyn, NY       | 40.672944 | -74.000227 | 
+| 1455881048  | BK03     | Refuse              | WM - Varick               | 215 Varick Ave Brooklyn, NY     | 40.7145   | -73.929744 | 
+| 1455881048  | BK03     | Met, Glass, Plastic | Sims - LIC                | 30-27 Greenpoint Avenue LIC, NY | 40.737347 | -73.943138 | 
+| 1455881048  | BK03     | Paper               | Sims LIC                  | 30-27 Greenpoint Avenue LIC, NY | 40.737347 | -73.943138 | 
+| 1455881048  | BK04     | Refuse              | WM - Varick               | 215 Varick Ave Brooklyn, NY     | 40.7145   | -73.929744 | 
+```

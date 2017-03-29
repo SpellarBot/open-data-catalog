@@ -66,3 +66,20 @@ property e:s22f-jsd4 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:s22f-jsd4 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| date_updated        | license_number | name_of_licensee  | license_type          | license_expiration_date | 
+| =================== | ============== | ================= | ===================== | ======================= | 
+| 2012-09-06T00:00:00 | 427586         | FILS-AIME,CHARITE | MEDALLION TAXI DRIVER | 08/06/2014              | 
+| 2012-09-06T00:00:00 | 5195097        | TOKI,ABDELHAK     | MEDALLION TAXI DRIVER | 05/10/2013              | 
+| 2012-09-06T00:00:00 | 5054307        | SINGH,RAJDEEP     | MEDALLION TAXI DRIVER | 10/30/2012              | 
+| 2012-09-06T00:00:00 | 5206638        | ANDERSON,SVETLANA | MEDALLION TAXI DRIVER | 09/12/2013              | 
+| 2012-09-06T00:00:00 | 5438593        | POPKO,TIMOTHY,A   | MEDALLION TAXI DRIVER | 07/11/2013              | 
+| 2012-09-06T00:00:00 | 5026436        | AHMED,KHANDAKER,S | MEDALLION TAXI DRIVER | 01/24/2014              | 
+| 2012-09-06T00:00:00 | 5348440        | SATOROV,NOSIRDJON | MEDALLION TAXI DRIVER | 01/19/2013              | 
+| 2012-09-06T00:00:00 | 5150179        | NASIM,MOHAMMAD,D  | MEDALLION TAXI DRIVER | 10/31/2013              | 
+| 2012-09-06T00:00:00 | 460974         | RAJA,ALTAF        | MEDALLION TAXI DRIVER | 04/28/2013              | 
+| 2012-09-06T00:00:00 | 5211857        | DIALLO,IBRAHIMA,S | MEDALLION TAXI DRIVER | 02/28/2014              | 
+```

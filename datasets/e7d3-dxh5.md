@@ -86,3 +86,20 @@ property e:e7d3-dxh5 t:meta.view.owner v:id=hwt3-twww v:screenName="Information 
 
 property e:e7d3-dxh5 t:meta.view.tableauthor v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
 ```
+
+## Top Records
+
+```ls
+| standardaddress  | name                     | block | lot | units | netunits | aff_hsg | aff_cat | change_type      | existuse            | propuse    | actdate             | zoning   | pd_no | supervisor | planarea              | 
+| ================ | ======================== | ===== | === | ===== | ======== | ======= | ======= | ================ | =================== | ========== | =================== | ======== | ===== | ========== | ===================== | 
+| 1190 MISSION ST  |                          | 3702  | 52  | -418  | -418     |         | LI      | Demolition       |                     |            | 2013-07-30T00:00:00 | RH-1 (D) | 12    | 9          |                       | 
+| 60 WEST POINT RD |                          | 4624  | 9   | 54    | 54       | 54      | VLI     | New Construction |                     | APARTMENTS | 2013-07-18T00:00:00 | RH-2     | 14    | 5          |                       | 
+| 374 05TH ST      |                          | 3753  | 8   | 44    | 44       | 44      | LI      | Conversion       | TOURIST HOTEL/MOTEL | APARTMENTS | 2013-10-02T00:00:00 | RH-2     | 14    | 5          |                       | 
+| 1461 PINE ST     |                          | 668   | 13  | 35    | 35       | 0       |         | New Construction |                     | APARTMENTS | 2013-03-14T00:00:00 | RH-1     | 12    | 9          |                       | 
+| 48 HARRIET ST    |                          | 3731  | 102 | 23    | 23       | 0       |         | New Construction |                     | APARTMENTS | 2013-02-20T00:00:00 | RH-1     | 11    | 9          |                       | 
+| 1190 MISSION ST  | Trinity Place            | 3702  | 52  | 418   | 418      | 63      | LI      | New Construction |                     |            | 2013-10-03T00:00:00 | RH-1 (D) | 12    | 9          |                       | 
+| 333 HARRISON ST  | Rincon Green             | 3766  | 9   | 326   | 326      | 49      | LI      | New Construction |                     | APARTMENTS | 2013-02-27T00:00:00 | RM-4     | 3     | 3          |                       | 
+| 1407 MARKET ST   | Nema                     | 3507  | 41  | 317   | 317      | 38      | LI      | New Construction |                     |            |                     | RH-2     | 9     | 10         | Eastern Neighborhoods | 
+| 1880 MISSION ST  | Vara                     | 3547  | 29  | 202   | 202      | 40      | LI      | New Construction |                     | APARTMENTS | 2013-09-30T00:00:00 | RH-1     | 12    | 11         |                       | 
+| 25 ESSEX ST      | Rene Cazenave Apartments | 3749  | 64  | 120   | 120      | 120     | VLI     | New Construction |                     | APARTMENTS | 2013-11-22T00:00:00 | RM-1     | 10    | 10         | Bayview               | 
+```

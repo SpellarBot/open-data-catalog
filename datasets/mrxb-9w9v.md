@@ -67,3 +67,20 @@ property e:mrxb-9w9v t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:mrxb-9w9v t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | program_type                           | program                 | site_name                                                     | borough_community | agency                                                        | contact_number | grade_level_age_group | 
+| =========== | ====================================== | ======================= | ============================================================= | ================= | ============================================================= | ============== | ===================== | 
+| 1314885646  | Jobs & Internships, Youth Employment   | Summer Youth Employment | Asociaciones Dominicanas, Inc - Vulnerable Youth              | Brooklyn          | Asociaciones Dominicanas, Inc.                                | 718-599-2386   | 14 to 21              | 
+| 1314885647  | Youth Employment, NDA Youth Employment | Youth Employment        | ECDO Community Partnership Center                             | New York          | Ecumenical Community Development Organization                 | 212.678.0037   | HS                    | 
+| 1314885647  | Youth Employment, NDA Youth Employment | Youth Employment        | Boys & Girls Harbor, Inc                                      | New York          | Boys & Girls Harbor, Inc                                      | 212.427.2244   |                       | 
+| 1314885647  | Youth Employment, NDA Youth Employment | Youth Employment        | The Children's Aid Society                                    | New York          | The Children's Aid Society                                    | 212.865.6337   | HS                    | 
+| 1314885647  | Jobs & Internships, Youth Employment   | Summer Youth Employment | Cypress Hills Local Development Corporation                   | Brooklyn          | Cypress Hills Local Development Corporation                   | 718-235-1521   | 14 to 21              | 
+| 1314885647  | Jobs & Internships, Youth Employment   | Summer Youth Employment | Brownsville Beacon PAL                                        | Brooklyn          | Police Athletic League, Inc. - Brooklyn                       | 718-389-5309   | 14 to 21              | 
+| 1314885647  | Jobs & Internships, Youth Employment   | Summer Youth Employment | El Barrio's Operation Fightback, Inc.                         | Manhattan         | El Barrio's Operation Fightback, Inc.                         | 212-410-7900   | 14 to 21              | 
+| 1314885647  | Youth Employment, NDA Youth Employment | Youth Employment        | Italian American Civil Rights League (Italian American Civil) | Brooklyn          | Italian American Civil Rights League (Italian American Civil) | 718.642.2180   | HS                    | 
+| 1314885647  | Youth Employment, NDA Youth Employment | Youth Employment        | STEPS, Inc                                                    | New York          | Support For Training and Educational Services, Inc.           | 212.831.9080   |                       | 
+| 1314885647  | Youth Employment, NDA Youth Employment | Youth Employment        | Miccio Center                                                 | Brooklyn          | Police Athletic League, Inc.                                  | 212.477.9450   |                       | 
+```

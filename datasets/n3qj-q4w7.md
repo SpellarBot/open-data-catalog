@@ -71,3 +71,20 @@ property e:n3qj-q4w7 t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigo
 
 property e:n3qj-q4w7 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| rowid                                                                       | date                | year | location                    | indicator                                   | indicatorvalue | 
+| =========================================================================== | =================== | ==== | =========================== | =========================================== | ============== | 
+| Orleans Parish, LAPercent of population that is food insecure 2009          | 2009-01-01T00:00:00 | 2009 | Orleans Parish, LA          | Percent of population that is food insecure | 19             | 
+| Davidson County, TNPercent of population that is food insecure 2009         | 2009-01-01T00:00:00 | 2009 | Davidson County, TN         | Percent of population that is food insecure | 16             | 
+| East Baton Rouge Parish, LAPercent of population that is food insecure 2009 | 2009-01-01T00:00:00 | 2009 | East Baton Rouge Parish, LA | Percent of population that is food insecure | 15             | 
+| Fulton County, GAPercent of population that is food insecure 2009           | 2009-01-01T00:00:00 | 2009 | Fulton County, GA           | Percent of population that is food insecure | 19             | 
+| Hillsborough County, FLPercent of population that is food insecure 2009     | 2009-01-01T00:00:00 | 2009 | Hillsborough County, FL     | Percent of population that is food insecure | 17             | 
+| Jefferson County, KYPercent of population that is food insecure 2009        | 2009-01-01T00:00:00 | 2009 | Jefferson County, KY        | Percent of population that is food insecure | 17             | 
+| Miami-Dade County, FLPercent of population that is food insecure 2009       | 2009-01-01T00:00:00 | 2009 | Miami-Dade County, FL       | Percent of population that is food insecure | 18             | 
+| Oklahoma County, OKPercent of population that is food insecure 2009         | 2009-01-01T00:00:00 | 2009 | Oklahoma County, OK         | Percent of population that is food insecure | 17             | 
+| Shelby County, TNPercent of population that is food insecure 2009           | 2009-01-01T00:00:00 | 2009 | Shelby County, TN           | Percent of population that is food insecure | 20             | 
+| Wake County, NCPercent of population that is food insecure 2009             | 2009-01-01T00:00:00 | 2009 | Wake County, NC             | Percent of population that is food insecure | 14             | 
+```

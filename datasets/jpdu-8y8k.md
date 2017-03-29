@@ -60,3 +60,15 @@ property e:jpdu-8y8k t:meta.view.owner v:id=uypn-9feh v:profileImageUrlMedium=/a
 
 property e:jpdu-8y8k t:meta.view.tableauthor v:id=uypn-9feh v:profileImageUrlMedium=/api/users/uypn-9feh/profile_images/THUMB v:profileImageUrlLarge=/api/users/uypn-9feh/profile_images/LARGE v:screenName="LA Zoo OpenData" v:profileImageUrlSmall=/api/users/uypn-9feh/profile_images/TINY v:roleName=editor v:displayName="LA Zoo OpenData"
 ```
+
+## Top Records
+
+```ls
+| fiscal_year | budget_appropriation | 
+| =========== | ==================== | 
+| 2012-13     | 17561531             | 
+| 2011-12     | 17986055             | 
+| 2010-11     | 17483062             | 
+| 2009-10     | 18261512             | 
+| 2008-09     | 19329046             | 
+```

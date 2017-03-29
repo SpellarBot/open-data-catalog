@@ -67,3 +67,20 @@ property e:f5dd-pqys t:meta.view.owner v:id=sr3i-nqxd v:screenName="Open Data" v
 
 property e:f5dd-pqys t:meta.view.tableauthor v:id=sr3i-nqxd v:screenName="Open Data" v:roleName=administrator v:displayName="Open Data"
 ```
+
+## Top Records
+
+```ls
+| objectid | kilonbr         | blockaddress             | cmid                               | cmagency        | date       | type                   | status | score | side | 
+| ======== | =============== | ======================== | ================================== | =============== | ========== | ====================== | ====== | ===== | ==== | 
+| 776009   | LHP161208000146 | 100 BLOCK H1W FWY        | Honolulu_PD_HI_LHP161208000146_210 | Honolulu PD, HI | 1481200680 | DUI                    | U      | 0     |      | 
+| 776028   | LHP161208000335 | KULIHI&WELO ST           | Honolulu_PD_HI_LHP161208000335_141 | Honolulu PD, HI | 1481215680 | VANDALISM              | U      | 0     |      | 
+| 776818   | LHP161209000575 | 911400 BLOCK MIULA ST    | Honolulu_PD_HI_LHP161209000575_060 | Honolulu PD, HI | 1481312640 | THEFT/LARCENY          | U      | 0     |      | 
+| 776841   | LHP161209000871 | 951000 BLOCK MELEKOMO ST | Honolulu_PD_HI_LHP161209000871_060 | Honolulu PD, HI | 1481324220 | THEFT/LARCENY          | U      | 0     |      | 
+| 776858   | LHP161209001158 | 1200 BLOCK LUAKALAI ST   | Honolulu_PD_HI_LHP161209001158_064 | Honolulu PD, HI | 1481333580 | VEHICLE BREAK-IN/THEFT | U      | 0     |      | 
+| 776895   | LHP161209001549 | 3000 BLOCK LYMAN RD      | Honolulu_PD_HI_LHP161209001549_060 | Honolulu PD, HI | 1481346840 | THEFT/LARCENY          | U      | 0     |      | 
+| 776904   | LHP161209001778 | H1E FWY&KUALAKAI PKWY    | Honolulu_PD_HI_LHP161209001778_210 | Honolulu PD, HI | 1481355960 | DUI                    | U      | 0     |      | 
+| 776919   | LHP161209001921 | 0 BLOCK H1E FWY          | Honolulu_PD_HI_LHP161209001921_210 | Honolulu PD, HI | 1481361420 | DUI                    | U      | 0     |      | 
+| 777574   | LHP161210000058 | 0 BLOCK H1W FWY          | Honolulu_PD_HI_LHP161210000058_210 | Honolulu PD, HI | 1481366640 | DUI                    | U      | 0     |      | 
+| 777575   | LHP161210000086 | ALA WAI & MCCULLY        | Honolulu_PD_HI_LHP161210000086_210 | Honolulu PD, HI | 1481368020 | DUI                    | U      | 0     |      | 
+```

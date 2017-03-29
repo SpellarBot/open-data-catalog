@@ -57,3 +57,18 @@ property e:7cps-5y5m t:meta.view.owner v:id=kpux-wcj8 v:screenName="Jerome Koehl
 
 property e:7cps-5y5m t:meta.view.tableauthor v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:roleName=publisher v:displayName="Jerome Koehler"
 ```
+
+## Top Records
+
+```ls
+| year | solar_projects | solar_projects_in_million_dollars | 
+| ==== | ============== | ================================= | 
+| 2009 | 4.7            | 93.2                              | 
+| 2010 | 8.9            | 176.8                             | 
+| 2011 | 22.5           | 418.8                             | 
+| 2012 | 28.5           | 753.7                             | 
+| 2013 | 20.2           | 549.6                             | 
+| 2014 | 7.4            | 244.6                             | 
+| 2015 | 14.4           | 570                               | 
+| 2016 | 10.2           | 408.3                             | 
+```

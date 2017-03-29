@@ -80,3 +80,20 @@ property e:8yac-vygm t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:8yac-vygm t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| school_year | route_number | service_type | vehicle_typedescription                     | route_start_date    | vendor_code | vendor_name                 | vendor_affiliation          | garage_street_name  | garage_city  | garage_state | garage_zip | xcoordinates       | ycoordinates      | 
+| =========== | ============ | ============ | =========================================== | =================== | =========== | =========================== | =========================== | =================== | ============ | ============ | ========== | ================== | ================= | 
+| 2015-2016   | C911         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2016-03-21T00:00:00 | VN          | VAN TRANS LLC (B2192)       | VAN TRANS LLC (B2192)       | 670 Hillside Road   | Pelham Manor | NY           | 10803      | 1034573.7989470000 | 265547.5926420000 | 
+| 2015-2016   | J499         | D2D          | Mini-Wagon                                  | 2015-09-09T00:00:00 | RV          | RELIANT TRANS, INC. (B2321) | RELIANT TRANS, INC. (B2321) | 297 NORMAN AVENUE   | Brooklyn     | NY           | 11222      | 1000787.0000000000 | 204481.0000000000 | 
+| 2015-2016   | J500         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-01T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 2859 WEST 37 STREET | BROOKLYN     | NY           | 11224      | 983439.0000000000  | 148884.0000000000 | 
+| 2015-2016   | J501         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-01T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 2859 WEST 37 STREET | BROOKLYN     | NY           | 11224      | 983439.0000000000  | 148884.0000000000 | 
+| 2015-2016   | J502         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-01T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 2859 WEST 37 STREET | BROOKLYN     | NY           | 11224      | 983439.0000000000  | 148884.0000000000 | 
+| 2015-2016   | J505         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-01T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 2859 WEST 37 STREET | BROOKLYN     | NY           | 11224      | 983439.0000000000  | 148884.0000000000 | 
+| 2015-2016   | J506         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-01T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 2859 WEST 37 STREET | BROOKLYN     | NY           | 11224      | 983439.0000000000  | 148884.0000000000 | 
+| 2015-2016   | J507         | D2D          | Mini-Wagon                                  | 2015-09-11T00:00:00 | RV          | RELIANT TRANS, INC. (B2321) | RELIANT TRANS, INC. (B2321) | 2240 CONNOR STREET  | BRONX        | NY           | 10466      | 1031340.0000000000 | 262307.0000000000 | 
+| 2015-2016   | J508         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-25T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 960 Close Avenue    | bronx        | NY           | 10473      | 1017048.0000000000 | 238857.0000000000 | 
+| 2015-2016   | J510         | D2D          | Non-Wheelchair Accessible Alternative (NWC) | 2015-09-25T00:00:00 | HT          | THOMAS BUSES, INC. (B2321)  | THOMAS BUSES, INC. (B2321)  | 2859 WEST 37 STREET | BROOKLYN     | NY           | 11224      | 983439.0000000000  | 148884.0000000000 | 
+```

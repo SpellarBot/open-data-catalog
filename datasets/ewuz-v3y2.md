@@ -76,3 +76,20 @@ property e:ewuz-v3y2 t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:ewuz-v3y2 t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| consultant           | vendor_sub_vendor_name                        | payments_promised | payments_received | quarter_start_date  | quarter_end_date    | quarter | year | 
+| ==================== | ============================================= | ================= | ================= | =================== | =================== | ======= | ==== | 
+| Muir Consulting      | Spot On                                       | 3250              | 3250              | 2016-03-01T00:00:00 | 2016-05-31T00:00:00 | 2       | 2016 | 
+| Lester Connect       | Pacific Print Resource                        | 630.5             | 630.5             | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Lester Connect       | Lizard Press                                  | 875               | 875               | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Lester Connect       | Campaign Grid                                 | 9500              | 9500              | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Tourk, Alex          | Pacific Printing                              | 7671.76           | 7671.76           | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Rodriguez Strategies | Goddard Gunster                               | 0                 | 48666.12          | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Rodriguez Strategies | Barnes, Mosher, Whitehurst, Lauter & Partners | 0                 | 13096.97          | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Goddard Gunster Inc. | Amplified Strategies                          | 0                 | 148032            | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Goddard Gunster Inc. | Amplified Strategies                          | 61962             | 0                 | 2014-06-01T00:00:00 | 2014-08-31T00:00:00 | 3       | 2014 | 
+| Rodriguez Strategies | Goddard Gunster                               | 0                 | 1693.64           | 2014-06-01T00:00:00 | 2014-08-31T00:00:00 | 3       | 2014 | 
+```

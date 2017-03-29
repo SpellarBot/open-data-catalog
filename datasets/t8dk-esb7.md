@@ -82,3 +82,18 @@ property e:t8dk-esb7 t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Joh
 
 property e:t8dk-esb7 t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
+
+## Top Records
+
+```ls
+| region    | year | estuary_acres_treated | estuary_projects | riparian_acres_treated | riparian_acre_projects | riparian_miles_treated | riparian_mile_projects | stream_miles_opened | stream_mile_projects | barriers_removed_altered | barrier_projects | 
+| ========= | ==== | ===================== | ================ | ====================== | ====================== | ====================== | ====================== | =================== | ==================== | ======================== | ================ | 
+| Northeast | 2005 | 0                     | 0                | 6                      | 1                      | 0                      | 0                      | 9                   | 1                    | 23                       | 1                | 
+| Northeast | 2006 | 0                     | 0                | 0                      | 0                      | 0                      | 0                      | 0                   | 0                    | 29                       | 0                | 
+| Northeast | 2007 | 0                     | 0                | 0                      | 0                      | 0                      | 0                      | 0                   | 0                    | 20                       | 0                | 
+| Northeast | 2008 | 0                     | 0                | 1                      | 1                      | 0                      | 0                      | 14.64               | 2                    | 24                       | 2                | 
+| Northeast | 2009 | 0                     | 0                | 17.5                   | 3                      | 1.1000000000000001     | 2                      | 21.5                | 8                    | 33                       | 8                | 
+| Northeast | 2010 | 0                     | 0                | 0                      | 0                      | 0                      | 0                      | 6.4                 | 1                    | 10                       | 1                | 
+| Northeast | 2011 | 0                     | 0                | 0                      | 0                      | 0                      | 0                      | 0                   | 3                    | 0                        | 3                | 
+| Northeast | 2012 | 0                     | 0                | 4.5                    | 1                      | 2.66                   | 1                      | 6.72                | 1                    | 12                       | 1                | 
+```

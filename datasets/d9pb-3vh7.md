@@ -68,3 +68,20 @@ property e:d9pb-3vh7 t:meta.view.owner v:id=fxfz-wsmq v:profileImageUrlMedium=/a
 
 property e:d9pb-3vh7 t:meta.view.tableauthor v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 ```
+
+## Top Records
+
+```ls
+| year                | average_kwh | fuel_charge_cents_kwh | average_bill | 
+| =================== | =========== | ===================== | ============ | 
+| 2000-01-01T00:00:00 | 820         | 1.372                 | 54.26        | 
+| 2000-02-01T00:00:00 | 766         | 1.372                 | 50.27        | 
+| 2000-03-01T00:00:00 | 707         | 1.372                 | 45.91        | 
+| 2000-04-01T00:00:00 | 715         | 1.372                 | 46.50        | 
+| 2000-05-01T00:00:00 | 838         | 1.372                 | 61.68        | 
+| 2000-06-01T00:00:00 | 1221        | 1.372                 | 96.88        | 
+| 2000-07-01T00:00:00 | 1442        | 1.372                 | 117.20       | 
+| 2000-08-01T00:00:00 | 1493        | 1.635                 | 125.81       | 
+| 2000-09-01T00:00:00 | 1368        | 1.635                 | 113.99       | 
+| 2000-10-01T00:00:00 | 1029        | 1.635                 | 81.94        | 
+```

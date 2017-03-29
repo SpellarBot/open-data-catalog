@@ -52,11 +52,18 @@ Excluded Fields = year,quarter
 ## Data Commands
 
 ```ls
+series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z t:subject_detail="CSR - Ambassador" t:commendation_or_complaint=Commendation t:branch_line_route="No Value" t:subject_matter=Employees t:agency="Long Island Rail Road" t:issue_detail="Very Helpful/Friendly" m:row_number.tppa-s6t6=1
+
+series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z t:subject_detail="CSR - Ambassador" t:commendation_or_complaint=Commendation t:branch_line_route="Port Jefferson" t:subject_matter=Employees t:agency="Long Island Rail Road" t:issue_detail="Very Helpful/Friendly" m:row_number.tppa-s6t6=2
+
+series e:tppa-s6t6 d:2015-01-01T00:00:00.000Z t:subject_detail="CSR - Customer Service Office" t:commendation_or_complaint=Commendation t:branch_line_route="No Value" t:subject_matter=Employees t:agency="Long Island Rail Road" m:row_number.tppa-s6t6=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number.tppa-s6t6 p:long l:"Row Number"
+
 entity e:tppa-s6t6 l:"MTA Customer Feedback Data: Beginning 2014" t:attribution="Metropolitan Transportation Authority (MTA)" t:url=https://data.ny.gov/api/views/tppa-s6t6
 
 property e:tppa-s6t6 t:meta.view v:id=tppa-s6t6 v:category=Transportation v:averageRating=0 v:name="MTA Customer Feedback Data: Beginning 2014" v:attribution="Metropolitan Transportation Authority (MTA)"
@@ -66,4 +73,21 @@ property e:tppa-s6t6 t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/a
 property e:tppa-s6t6 t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
 property e:tppa-s6t6 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+```
+
+## Top Records
+
+```ls
+| agency                | commendation_or_complaint | subject_matter | subject_detail                | issue_detail            | year | quarter | branch_line_route  | 
+| ===================== | ========================= | ============== | ============================= | ======================= | ==== | ======= | ================== | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Ambassador              | Very Helpful/Friendly   | 2015 | 2       | No Value           | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Ambassador              | Very Helpful/Friendly   | 2015 | 2       | Port Jefferson     | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Customer Service Office |                         | 2015 | 1       | No Value           | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Customer Service Office | Other                   | 2015 | 2       | Far Rockaway       | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Customer Service Office | Very Helpful / Friendly | 2015 | 2       | No Value           | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Customer Service Office | Very Helpful / Friendly | 2014 | 3       | No Value           | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Customer Service Office | Very Helpful / Friendly | 2015 | 1       | No Value           | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Information Booth       | Very Helpful / Friendly | 2015 | 1       | City Terminal Zone | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Telephone               | Very Helpful / Friendly | 2014 | 3       | No Value           | 
+| Long Island Rail Road | Commendation              | Employees      | CSR - Telephone               | Very Helpful / Friendly | 2015 | 1       | Ronkonkoma         | 
 ```

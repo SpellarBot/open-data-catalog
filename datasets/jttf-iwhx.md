@@ -73,3 +73,20 @@ property e:jttf-iwhx t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/a
 
 property e:jttf-iwhx t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```
+
+## Top Records
+
+```ls
+| agreement                | type    | capacity_mw | term_years | duration  | expiration          | location      | 
+| ======================== | ======= | =========== | ========== | ========= | =================== | ============= | 
+| LCRA                     | Wind    | 10          | 25         | 1995-2020 | 2020-09-29T00:00:00 | West Texas    | 
+| Sweetwater 2             | Wind    | 91.5        | 12         | 2005-2017 | 2017-02-11T00:00:00 | West Texas    | 
+| Sweetwater 3             | Wind    | 34.5        | 12         | 2005-2017 | 2017-12-30T00:00:00 | West Texas    | 
+| Whirlwind                | Wind    | 59.8        | 20         | 2007-2027 | 2027-12-31T00:00:00 | Panhandle     | 
+| Hackberry                | Wind    | 165.6       | 15         | 2008-2023 | 2023-12-21T00:00:00 | West Texas    | 
+| Webberville              | Solar   | 30          | 25         | 2011-2036 | 2036-12-22T00:00:00 | Central Texas | 
+| Iberdola Penascal I & II | Wind    | 195.6       | 4.25       | 2011-2015 | 2015-12-31T00:00:00 | Coastal       | 
+| Nacogdoches              | Biomass | 100         | 20         | 2012-2032 | 2032-05-31T00:00:00 | East Texas    | 
+| Los Vientos II           | Wind    | 201.6       | 25         | 2013-2037 | 2037-01-01T00:00:00 | Coastal       | 
+| Whitetail                | Wind    | 92.3        | 25         | 2013-2037 | 2037-01-01T00:00:00 | Coastal       | 
+```

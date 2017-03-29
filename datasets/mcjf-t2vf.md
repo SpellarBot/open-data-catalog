@@ -60,3 +60,12 @@ property e:mcjf-t2vf t:meta.view.owner v:id=q8y9-svx9 v:profileImageUrlMedium=/a
 
 property e:mcjf-t2vf t:meta.view.tableauthor v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 ```
+
+## Top Records
+
+```ls
+| parameter              | centeral | eastern | northwest | southwest | 
+| ====================== | ======== | ======= | ========= | ========= | 
+| 5 Yr September Average | 49       | 45      | 27        | 20        | 
+| Monthly Average        | 38       | 91      | 36        | 37        | 
+```

@@ -112,3 +112,20 @@ property e:iyzm-8pqb t:meta.view.owner v:id=6wh5-kegk v:profileImageUrlMedium=/a
 
 property e:iyzm-8pqb t:meta.view.tableauthor v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:displayName="Andrew Gosden"
 ```
+
+## Top Records
+
+```ls
+| date                | aldino | calvert_co_barstow | davidsonville | edgewood | essex | fairhill | frederick_airport | furley_e_s_recreation_center | hagerstown | hu_beltsville | millington | padonia | pg_equestrian_center | piney_run | rockville | south_carroll | southern_maryland | state_wide_max | 
+| =================== | ====== | ================== | ============= | ======== | ===== | ======== | ================= | ============================ | ========== | ============= | ========== | ======= | ==================== | ========= | ========= | ============= | ================= | ============== | 
+| 2007-04-22T00:00:00 |        |                    |               |          |       | 77       |                   |                              |            |               |            |         |                      |           |           |               |                   | 77             | 
+| 2007-05-15T00:00:00 |        |                    |               |          |       | 79       |                   |                              |            |               |            |         |                      | 77        |           |               |                   | 79             | 
+| 2007-05-22T00:00:00 |        |                    |               |          |       |          | 78                |                              | 78         |               |            |         |                      |           |           |               |                   | 78             | 
+| 2007-05-25T00:00:00 | 78     |                    |               |          |       | 92       | 76                |                              | 77         | 77            |            |         |                      |           |           |               |                   | 92             | 
+| 2007-05-26T00:00:00 |        | 79                 | 85            |          | 83    | 76       |                   |                              |            |               |            |         | 91                   |           |           |               | 80                | 91             | 
+| 2007-05-27T00:00:00 | 79     |                    |               | 77       |       | 80       |                   |                              |            |               |            |         |                      |           |           |               |                   | 80             | 
+| 2007-05-29T00:00:00 |        |                    | 76            |          |       |          |                   |                              |            |               |            |         |                      |           |           |               |                   | 76             | 
+| 2007-05-30T00:00:00 | 100    |                    |               | 89       | 80    | 93       | 89                |                              | 82         | 85            | 83         |         | 79                   |           |           | 80            | 77                | 100            | 
+| 2007-05-31T00:00:00 | 86     | 79                 | 77            | 86       | 78    | 91       | 86                |                              | 79         | 84            | 83         | 76      | 80                   |           |           | 88            | 78                | 91             | 
+| 2007-06-01T00:00:00 | 84     |                    |               | 80       |       | 85       | 76                |                              |            | 80            |            |         |                      |           |           | 82            |                   | 85             | 
+```

@@ -74,3 +74,20 @@ property e:r89j-py2p t:meta.view.owner v:id=fnci-gphj v:screenName="MC Open Data
 
 property e:r89j-py2p t:meta.view.tableauthor v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
 ```
+
+## Top Records
+
+```ls
+| function           | department                    | program_name           | cost_center_name   | fund_type           | fund_subtype | subfund_name | fund_name    | personnel_costs_operating_expenses | object_name     | account_name   | amount    | 
+| ================== | ============================= | ====================== | ================== | =================== | ============ | ============ | ============ | ================================== | =============== | ============== | ========= | 
+| Public Safety      | Correction and Rehabilitation | Pre-Trial Services     | ACS                | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | RSP            | 4295.00   | 
+| Public Safety      | Police                        | Field Services         | 5th District S.A.T | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | ERS            | 193146.00 | 
+| Public Safety      | Police                        | Investigative Services | C.I.D-Auto Theft   | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | ERS            | 229661.00 | 
+| General Government | Finance                       | General Accounting     | General Accounting | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | GRIP           | 6686.00   | 
+| General Government | Finance                       | Payroll                | Payroll            | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Group Insurance | Prescription   | 14293.00  | 
+| General Government | Finance                       | Payroll                | Payroll            | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Group Insurance | Vision         | 570.00    | 
+| General Government | Finance                       | Payroll                | Payroll            | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Group Insurance | Life Insurance | 3683.00   | 
+| General Government | Finance                       | Payroll                | Payroll            | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | RSP            | 37019.00  | 
+| General Government | Finance                       | Payroll                | Payroll            | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | ERS            | 18364.00  | 
+| General Government | Finance                       | Payroll                | Payroll            | Tax Supported Funds | General Fund | General Fund | General Fund | Personnel Costs                    | Retirement      | GRIP           | 14901.00  | 
+```

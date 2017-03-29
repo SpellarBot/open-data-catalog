@@ -68,3 +68,20 @@ property e:x89d-qusv t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/a
 
 property e:x89d-qusv t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```
+
+## Top Records
+
+```ls
+| station     | intersection_leg | total_aadt | passenger_aadt | single_unit_aadt | combo_unit_aadt | turning_movement_url                                                          | objectid | 
+| =========== | ================ | ========== | ============== | ================ | =============== | ============================================================================= | ======== | 
+| 01114933099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01114933099.pdf | 1        | 
+| 01134949099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01134949099.pdf | 2        | 
+| 01225117099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01225117099.pdf | 3        | 
+| 01236711099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01236711099.pdf | 4        | 
+| 01236717099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01236717099.pdf | 5        | 
+| 01237417099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01237417099.pdf | 6        | 
+| 01246501099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01246501099.pdf | 7        | 
+| 01247834099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01247834099.pdf | 8        | 
+| 01418433199 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01418433199.pdf | 9        | 
+| 01418433599 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2004/01418433599.pdf | 10       | 
+```

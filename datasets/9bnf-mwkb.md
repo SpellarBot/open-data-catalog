@@ -68,3 +68,20 @@ property e:9bnf-mwkb t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/a
 
 property e:9bnf-mwkb t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```
+
+## Top Records
+
+```ls
+| station     | intersection_leg | total_aadt | passenger_aadt | single_unit_aadt | combo_unit_aadt | turning_movement_url                                                          | objectid | 
+| =========== | ================ | ========== | ============== | ================ | =============== | ============================================================================= | ======== | 
+| 08131052099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08131052099.pdf | 1        | 
+| 08141501099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08141501099.pdf | 2        | 
+| 08141701099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08141701099.pdf | 3        | 
+| 08221781099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08221781099.pdf | 4        | 
+| 08229017199 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08229017199.pdf | 5        | 
+| 08229017599 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08229017599.pdf | 6        | 
+| 08229401099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08229401099.pdf | 7        | 
+| 08241701099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08241701099.pdf | 8        | 
+| 08247981199 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08247981199.pdf | 9        | 
+| 08247981599 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/1999/08247981599.pdf | 10       | 
+```

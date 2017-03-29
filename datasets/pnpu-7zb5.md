@@ -67,3 +67,20 @@ property e:pnpu-7zb5 t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:pnpu-7zb5 t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| district | candidate          | date_of_submission  | date_certified_approved | pending_completed | funds_disbursed | 
+| ======== | ================== | =================== | ======================= | ================= | =============== | 
+| 3        | Christensen, Julie | 2015-06-17T00:00:00 | 2015-06-23T00:00:00     | Completed         | 20000           | 
+| 3        | Peskin, Aaron      | 2015-06-12T00:00:00 | 2015-06-23T00:00:00     | Completed         | 20000           | 
+| 3        | Christensen, Julie | 2015-06-24T00:00:00 | 2015-07-02T00:00:00     | Completed         | 55039           | 
+| 3        | Peskin, Aaron      | 2015-07-02T00:00:00 | 2015-07-06T00:00:00     | Completed         | 36670           | 
+| 3        | Christensen, Julie | 2015-06-24T00:00:00 | 2015-08-20T00:00:00     | Completed         | 30000           | 
+| 3        | Peskin, Aaron      | 2015-07-02T00:00:00 | 2015-08-28T00:00:00     | Completed         | 4780            | 
+| 3        | Peskin, Aaron      | 2015-08-27T00:00:00 | 2015-09-02T00:00:00     | Completed         | 20000           | 
+| 3        | Christensen, Julie | 2015-06-24T00:00:00 | 2015-09-10T00:00:00     | Completed         | 9461            | 
+| 3        | Peskin, Aaron      | 2015-08-27T00:00:00 | 2015-09-17T00:00:00     | Completed         | 12006           | 
+| 3        | Christensen, Julie | 2015-09-21T00:00:00 | 2015-09-23T00:00:00     | Completed         | 38000           | 
+```

@@ -81,3 +81,20 @@ property e:5vh3-wnad t:meta.view.owner v:id=vice-rsdw v:profileImageUrlMedium=/a
 
 property e:5vh3-wnad t:meta.view.tableauthor v:id=vice-rsdw v:profileImageUrlMedium=/api/users/vice-rsdw/profile_images/THUMB v:profileImageUrlLarge=/api/users/vice-rsdw/profile_images/LARGE v:screenName="IDPH Staff" v:profileImageUrlSmall=/api/users/vice-rsdw/profile_images/TINY v:roleName=publisher v:displayName="IDPH Staff"
 ```
+
+## Top Records
+
+```ls
+| contractor_name                        | address                       | city            | state | zip_code | county   | contact_person     | residential_removal | insurance_expiration_date | phone | fax | email                            | license_expiration_date | 
+| ====================================== | ============================= | =============== | ===== | ======== | ======== | ================== | =================== | ========================= | ===== | === | ================================ | ======================= | 
+| 06 ENVIRONMENTAL SERVICES, INC.        | 6311 BARTMER INDUSTRIAL DRIVE | ST. LOUIS       | MO    | 63130    |          | DAN GIESLER        |                     | 10/24/2017                |       |     |                                  | 2017-05-15T00:00:00     | 
+| 1ST ALL AROUND COMPANY                 | 370 55TH STREET               | CLARENDON HILLS | IL    | 60514    |          | MARCIN SWIERZOWSKI | YES                 | 6/17/2017                 |       |     | 1STALLAROUND@GMAIL.COM           | 2017-05-15T00:00:00     | 
+| A & A ABATEMENT LLC                    | 849 WELLS STREET ROAD         | DU QUOIN        | IL    | 62832    | Perry    |                    | YES                 | 5/16/2017                 |       |     | roger.harsy@yahoo.com            | 2017-05-15T00:00:00     | 
+| A & B ENVIRONMENTAL CONSTRUCTION, INC. | 205 E NORTH AVE               | NORTH LAKE      | IL    | 60164    |          |                    | YES                 | 9/6/2017                  |       |     | ab-environmental@hotmail.com     | 2017-05-15T00:00:00     | 
+| A & E SERVICES, INC.                   | 117 S COOK STREET SUITE 186   | BARRINGTON      | IL    | 60010    | Cook     | ROBERT NYKAZA JR.  | YES                 | 12/7/2016                 |       |     |                                  | 2017-05-15T00:00:00     | 
+| ABATECO, INC.                          | 3309 ROBBINS RD, PMB #104     | SPRINGFIELD     | IL    | 62704    | Sangamon | STEVE MOORE        | YES                 | 2/18/2018                 |       |     | ABATECO@AOL.COM                  | 2017-05-15T00:00:00     | 
+| ABATEMENT MANAGEMENT INC               | 6990 STATE ROUTE 111          | SOUTH ROXANA    | IL    | 62087    | Madison  |                    | YES                 | 1/8/2018                  |       |     |                                  | 2017-05-15T00:00:00     | 
+| ABATEMENT MATERIALS INC.               | 12700 S BUTLER DRIVE          | CHICAGO         | IL    | 60633    | Cook     |                    | YES                 | 7/10/2017                 |       |     | trichards@abatementmaterials.com | 2017-05-15T00:00:00     | 
+| ABATEMENT SPECIALITIES LLC             | 1814 E AVE NE                 | CEDAR RAPIDS    | IA    | 52402    |          | DENZEL THORNBURG   | YES                 | 3/1/2017                  |       |     | gena@abatement-specialties.com   | 2017-05-15T00:00:00     | 
+| ABATEPRO, INC                          | PO BOX 674                    | EDWARDSVILLE    | IL    | 62025    | Madison  | NICHOLAS FECO      | YES                 | 9/8/2017                  |       |     |                                  | 2017-05-15T00:00:00     | 
+```

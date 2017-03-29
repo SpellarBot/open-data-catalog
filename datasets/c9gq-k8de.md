@@ -78,3 +78,20 @@ property e:c9gq-k8de t:meta.view.owner v:id=mx9i-sxdu v:screenName="FSD - Contro
 
 property e:c9gq-k8de t:meta.view.tableauthor v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
 ```
+
+## Top Records
+
+```ls
+| proposed_fiscal_year | dept_rollup | dept_rollup_name | department_code | department_name | fund_code | fund_name    | program_code | program_name    | activity_code | activity_name  | unit_code | unit_name         | expense_code | expense_name                 | proposed_budget | 
+| ==================== | =========== | ================ | =============== | =============== | ========= | ============ | ============ | =============== | ============= | ============== | ========= | ================= | ============ | ============================ | =============== | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5001         | Regular wages - full-time    | 806489          | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5002         | Regular wages - part-time    | 17879           | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5005         | Overtime                     | 45664           | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5018         | Holidays worked              | 6506            | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5026         | Stability pay                | 7154            | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5030         | On call hours                | 3470            | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5051         | Personnel savings            | -11386          | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5133         | Phone allowance              | 2280            | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5185         | Insurance-health/life/dental | 295650          | 
+| 2016                 | 92          | Animal Services  | 9200            | Animal Services | 1000      | General Fund | 2ANL         | Animal Services | 2FDS          | Field Services | 2131      | Animal Protection | 5190         | FICA tax                     | 51693           | 
+```

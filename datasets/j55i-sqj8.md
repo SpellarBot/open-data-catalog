@@ -74,3 +74,20 @@ property e:j55i-sqj8 t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Serv
 
 property e:j55i-sqj8 t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | unique_id      | year_range | cause_of_death      | race                   | hispanic_origin | gender | age_adjusted_rate_per_100_000_population | lower_95_confidence_interval | upper_95_confidence_interval | 
+| =========== | ============== | ========== | =================== | ====================== | =============== | ====== | ======================================== | ============================ | ============================ | 
+| 1420669229  | A2006200803000 | 2006-2008  | Tuberculosis        | Total                  | Total           | Total  |                                          |                              |                              | 
+| 1420669229  | A2006200804120 | 2006-2008  | Whooping cough      | White                  | Hispanic        | Total  | 0                                        | 0                            | 0.8                          | 
+| 1420669231  | A2006200820400 | 2006-2008  | Meningitis          | Asian/Pacific Islander | Total           | Total  |                                          |                              |                              | 
+| 1420669237  | A2007200907221 | 2007-2009  | Septicemia          | Black                  | Hispanic        | Male   |                                          |                              |                              | 
+| 1420669240  | A2007200914000 | 2007-2009  | Malaria             | Total                  | Total           | Total  | 0                                        | 0                            | 0.1                          | 
+| 1420669240  | A2007200914220 | 2007-2009  | Malaria             | Black                  | Hispanic        | Total  | 0                                        | 0                            | 15.5                         | 
+| 1420669241  | A2007200918021 | 2007-2009  | Diabetes mellitus   | Total                  | Hispanic        | Male   |                                          |                              |                              | 
+| 1420669241  | A2007200920000 | 2007-2009  | Meningitis          | Total                  | Total           | Total  |                                          |                              |                              | 
+| 1420669243  | A2007200922021 | 2007-2009  | Alzheimer's disease | Total                  | Hispanic        | Male   |                                          |                              |                              | 
+| 1420669246  | A2007200933000 | 2007-2009  | Peptic ulcer        | Total                  | Total           | Total  |                                          |                              |                              | 
+```

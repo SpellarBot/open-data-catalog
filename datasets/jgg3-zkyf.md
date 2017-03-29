@@ -69,3 +69,15 @@ property e:jgg3-zkyf t:meta.view.owner v:id=7ja6-sv4x v:profileImageUrlMedium=/a
 
 property e:jgg3-zkyf t:meta.view.tableauthor v:id=7ja6-sv4x v:profileImageUrlMedium=/api/users/7ja6-sv4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/7ja6-sv4x/profile_images/LARGE v:screenName="King County Open Data admin" v:profileImageUrlSmall=/api/users/7ja6-sv4x/profile_images/TINY v:roleName=administrator v:displayName="King County Open Data admin"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | ethnicity          | percent | lower_ci | upper_ci | 
+| =========== | ================== | ======= | ======== | ======== | 
+| 1363106827  | African American   | 21      | 17       | 26       | 
+| 1363106827  | American Indian/AN | 18      | 11       | 27       | 
+| 1363106827  | Asian/PI           | 8       | 6        | 10       | 
+| 1363106827  | Hispanic/Latino    | 23      | 19       | 26       | 
+| 1363106827  | White              | 9       | 8        | 9        | 
+```

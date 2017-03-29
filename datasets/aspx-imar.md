@@ -59,3 +59,20 @@ property e:aspx-imar t:meta.view.owner v:id=fd5k-6njr v:screenName=APatel v:disp
 
 property e:aspx-imar t:meta.view.tableauthor v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
 ```
+
+## Top Records
+
+```ls
+| branch           | no_of_transactions | no_of_customers | 
+| ================ | ================== | =============== | 
+| Middletown PLC   | 9065               | 8574            | 
+| Milford PLC      | 13506              | 12757           | 
+| Derby PLC        | 16588              | 15325           | 
+| Cheshire         | 17280              | 17280           | 
+| Putnam SAT       | 27653              | 24927           | 
+| Northwestern SAT | 42873              | 37623           | 
+| Old Saybrook     | 68886              | 58066           | 
+| Enfield          | 76737              | 66543           | 
+| Norwich          | 77372              | 68628           | 
+| Willimantic      | 95083              | 87306           | 
+```

@@ -68,3 +68,20 @@ property e:8z8t-apms t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/a
 
 property e:8z8t-apms t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```
+
+## Top Records
+
+```ls
+| station     | intersection_leg | total_aadt | passenger_aadt | single_unit_aadt | combo_unit_aadt | turning_movement_url                                                          | objectid | 
+| =========== | ================ | ========== | ============== | ================ | =============== | ============================================================================= | ======== | 
+| 03110233099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03110233099.pdf | 1        | 
+| 03110433099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03110433099.pdf | 2        | 
+| 03110633099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03110633099.pdf | 3        | 
+| 03135344099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03135344099.pdf | 4        | 
+| 03228113099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03228113099.pdf | 5        | 
+| 03312895099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03312895099.pdf | 6        | 
+| 03321701099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03321701099.pdf | 7        | 
+| 03321709099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03321709099.pdf | 8        | 
+| 03321811099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03321811099.pdf | 9        | 
+| 03322511099 |                  |            |                |                  |                 | http://www.iowadotmaps.com/msp/traffic/turning_movements/2001/03322511099.pdf | 10       | 
+```

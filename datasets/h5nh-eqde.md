@@ -66,3 +66,20 @@ property e:h5nh-eqde t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:h5nh-eqde t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | shop_name                              | telephone    | store_type_category_1               | store_type_category_2 | store_type_category_3 | website                       | 
+| =========== | ====================================== | ============ | =================================== | ===================== | ===================== | ============================= | 
+| 1315574971  | Lincoln Center for the Preforming Arts | 212.875.5456 | Museums & Cultural Institutions     |                       |                       | new.lincolncenter.org/        | 
+| 1315574973  | Aerosoles                              | 212 579-8659 | Clothing Shops, Shoes & Accessories |                       |                       | www.aerosoles.com             | 
+| 1315574973  | A Tempo                                | 212 769-0368 | Clothing Shops, Shoes & Accessories |                       |                       |                               | 
+| 1315574973  | Artiste Jewelers                       | 212 877-3320 | Clothing Shops, Shoes & Accessories |                       |                       |                               | 
+| 1315574973  | AG Adriano Goldschmied                 | 212 496-5692 | Clothing Shops, Shoes & Accessories |                       |                       | www.agjeans.com               | 
+| 1315574973  | Brief Encounters                       | 212 496-5649 | Clothing Shops, Shoes & Accessories |                       |                       |                               | 
+| 1315574973  | Berkley Girl                           | 212 877-4770 | Clothing Shops, Shoes & Accessories | Childrens Stores      |                       | www.berkleygirl.com           | 
+| 1315574973  | Alskling                               | 212 787-7066 | Clothing Shops, Shoes & Accessories |                       |                       |                               | 
+| 1315574973  | Bit'z Kids                             | 212 724-1415 | Clothing Shops, Shoes & Accessories | Childrens Stores      |                       | www.bitzkidsnyc.com           | 
+| 1315574973  | Comptoirs des Cotonniers               | 212 874-0983 | Clothing Shops, Shoes & Accessories |                       |                       | www.mothers-and-daughters.com | 
+```

@@ -63,3 +63,20 @@ property e:s6qx-cm2s t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:disp
 
 property e:s6qx-cm2s t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
+
+## Top Records
+
+```ls
+| fiscal_year | agency_name | category_description    | detail_description                      | vendor_name                    | payments_total | 
+| =========== | =========== | ======================= | ======================================= | ============================== | ============== | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | AA ALL STOR                    | 6174           | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | COUNTY OF AUDRAIN-COMMISSIONER | 750            | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | COURTOIS, HAROLD               | 624.36         | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | FARMERS & TRADERS COMMISSION   | 770            | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | FOXFIRE WEST MINI STORAGE      | 1620           | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | HUNTER DEVELOPMENT CO INC      | 24849          | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | OZARK JAR LLC                  | 144076.07      | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | BUILDING/STORAGE/STRUCTURE LEASES, OPER | WHITAKER, STEVEN H             | 760            | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | LEASEHOLD IMPROVEMENTS, OPERATING       | OZARK JAR LLC                  | 11965.65       | 
+| 2016        | AGRICULTURE | BUILDING LEASE PAYMENTS | MEETING ROOM/EXHIBIT SPACE RENTALS      | AKEY FARMS INC                 | 250            | 
+```

@@ -56,3 +56,20 @@ property e:dmhd-88xr t:meta.view.owner v:id=4jau-mr7g v:profileImageUrlMedium=/a
 
 property e:dmhd-88xr t:meta.view.tableauthor v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:roleName=administrator v:displayName="Tickner, Brian"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | phase_type | phase_step_number | phase_step_name    | phase_step_description                                                                                                                     | 
+| =========== | ========== | ================= | ================== | ========================================================================================================================================== | 
+| 1446734164  | default    | 1                 | Planning           | User departments and DGS identity the needs/scope/goals of project. Usually in-house. POR (Program of Requirements) produced at this stage | 
+| 1446734164  | default    | 2                 | Preliminary Design | Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc.             | 
+| 1446734164  | default    | 3                 | Final Design       | Design complete. Construction documents complete. Ready to award contract.                                                                 | 
+| 1446734164  | default    | 4                 | Bids Let           | Contractor is selected based on several procurement criteria                                                                               | 
+| 1446734164  | default    | 5                 | Under Construction | Contractors work from the instructions contained in design documents to complete facility.                                                 | 
+| 1446734164  | default    | 6                 | Ongoing            | Refers to level of effort projects or projects that occur each year (i.e., roof replacement)                                               | 
+| 1446734164  | default    | 7                 | Completed          | All project activities have been completed and paid for.                                                                                   | 
+| 1467390999  | N/A        | 1                 | N/A                | CIP                                                                                                                                        | 
+| 1467391000  | 2010-11    | 1                 | 2010-11            | CIP                                                                                                                                        | 
+| 1467391001  | 2011-12    | 1                 | 2011-12            | CIP                                                                                                                                        | 
+```

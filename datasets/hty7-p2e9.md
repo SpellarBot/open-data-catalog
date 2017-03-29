@@ -66,3 +66,16 @@ property e:hty7-p2e9 t:meta.view.owner v:id=g6c2-gabj v:profileImageUrlMedium=/a
 
 property e:hty7-p2e9 t:meta.view.tableauthor v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
 ```
+
+## Top Records
+
+```ls
+| contributor_type       | count | percentage_of_total_count | total_contribution_received | percentage_of_total_contributions_received | 
+| ====================== | ===== | ========================= | =========================== | ========================================== | 
+| Candidate Committee    | 128   | 0.64                      | 39575.16                    | 0.34                                       | 
+| Immediate Family       | 310   | 1.54                      | 238752.53                   | 2.06                                       | 
+| Individual             | 14966 | 74.57                     | 7912040.29                  | 68.21                                      | 
+| Noncandidate Committee | 1220  | 6.08                      | 867293.57                   | 7.48                                       | 
+| Other Entity           | 3414  | 17.01                     | 2522529.24                  | 21.75                                      | 
+| Political Party        | 33    | 0.16                      | 19000                       | 0.16                                       | 
+```

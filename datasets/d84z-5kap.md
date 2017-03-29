@@ -61,3 +61,20 @@ property e:d84z-5kap t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:d84z-5kap t:meta.view.tableauthor v:id=8b43-zkvh v:screenName="Ram S." v:displayName="Ram S."
 ```
+
+## Top Records
+
+```ls
+| column_date | columns_title                                                         | link_to_pdf_file                                                                                          | 
+| =========== | ===================================================================== | ========================================================================================================= | 
+| 11/26/12    | Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF) | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf, null] | 
+| 9/18/12     | Municipal Law - Innovations in City Land-Use Transactions             | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf, null]  | 
+| 6/18/12     | Municipal Law - Cleaning Up City Waterways                            | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf, null]  | 
+| 3/21/12     | Municipal Law - Local Legislation: The Year in Review                 | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%203-21-12.pdf, null]  | 
+| 12/23/11    | Municipal Law - Improving the City's Air Quality                      | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2012-23-11.pdf, null] | 
+| 9/26/11     | Municipal Law - Increasing Transparency in City Government            | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-26-11.pdf, null]  | 
+| 6/29/11     | Municipal Law - The City's Appellate Practice: Some Recent Cases      | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-29-11.pdf, null]  | 
+| 3/28/11     | Municipal Law - Defending the City's RFP Process                      | [http://www.nyc.gov/html/law/downloads/pdf/JF_3.28.11.pdf, null]                                          | 
+| 12/23/10    | Municipal Law - Defending Eminent Domain During Economic Development  | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2012-23-10.pdf, null] | 
+| 9/27/10     | Municipal Law - Tax & Bankruptcy Litigation                           | [http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-27-10.pdf, null]  | 
+```

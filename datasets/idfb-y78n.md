@@ -77,3 +77,20 @@ property e:idfb-y78n t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:idfb-y78n t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| year | company_name | permits_issued | seasonal_tags | temporary_tags | canoes | kayaks | rowboats | sailboats | sculls | 
+| ==== | ============ | ============== | ============= | ============== | ====== | ====== | ======== | ========= | ====== | 
+| 2013 | Cannonsville | 103            | 58            | 45             | 34     | 53     | 11       | 4         | 1      | 
+| 2013 | Neversink    | 122            | 63            | 59             | 20     | 91     | 5        | 6         | 0      | 
+| 2013 | Pepacton     | 457            | 219           | 238            | 120    | 311    | 15       | 10        | 1      | 
+| 2013 | Schoharie    | 62             | 42            | 20             | 14     | 40     | 1        | 4         | 3      | 
+| 2013 | Totals       | 744            | 382           | 362            | 188    | 495    | 32       | 24        | 5      | 
+| 2014 | Cannonsville | 92             | 41            | 51             | 32     | 44     | 14       | 2         | 0      | 
+| 2014 | Neversink    | 104            | 57            | 47             | 23     | 70     | 8        | 3         | 0      | 
+| 2014 | Pepacton     | 535            | 219           | 316            | 155    | 356    | 17       | 7         | 0      | 
+| 2014 | Schoharie    | 62             | 40            | 22             | 10     | 48     | 3        | 1         | 0      | 
+| 2014 | Totals       | 793            | 357           | 436            | 220    | 518    | 42       | 13        | 0      | 
+```

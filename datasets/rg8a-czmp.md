@@ -65,3 +65,20 @@ property e:rg8a-czmp t:meta.view.tableauthor v:id=ki96-txhe v:profileImageUrlMed
 
 property e:rg8a-czmp t:meta.view.metadata.custom_fields.common_core v:Publisher="National Center for Health Statistics" v:Contact_Email=hku4@cdc.gov v:Contact_Name="National Center for Health Statistics" v:Bureau_Code=009:020 v:Program_Code=009:000
 ```
+
+## Top Records
+
+```ls
+| year | age_group   | birth_rate | 
+| ==== | =========== | ========== | 
+| 1960 | 15-17 years | 43.9       | 
+| 1961 | 15-17 years | 43.8       | 
+| 1962 | 15-17 years | 38.1       | 
+| 1963 | 15-17 years | 36.9       | 
+| 1964 | 15-17 years | 37.2       | 
+| 1965 | 15-17 years | 36.6       | 
+| 1966 | 15-17 years | 35.7       | 
+| 1967 | 15-17 years | 35.3       | 
+| 1968 | 15-17 years | 35.1       | 
+| 1969 | 15-17 years | 35.7       | 
+```

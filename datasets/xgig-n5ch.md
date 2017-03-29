@@ -83,3 +83,20 @@ property e:xgig-n5ch t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| row_created_date_time | service_year | omh_region_code | omh_region_label | county_label | age_group | rate_code_group                          | recipient_count_by_county | count_of_recipients_by_rate_code_group_and_county | units_total | paid_claim_total | 
+| ===================== | ============ | =============== | ================ | ============ | ========= | ======================================== | ========================= | ================================================= | =========== | ================ | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Clinic Treatment                         | 443                       | 345                                               | 2674        | 273141           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Community Residence                      | 443                       | 20                                                | 128         | 289091           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Health Home                              | 443                       | 33                                                | 237         | 109393           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Personalized Recovery Oriented Services  | 443                       | 124                                               | 1768        | 706777           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | CHILD     | Clinic Treatment                         | 154                       | 109                                               | 725         | 64106            | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | CHILD     | Community Residence                      | 154                       | 1                                                 | 8           | 18465            | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | CHILD     | Targeted Case Management (ICM, BCM, SCM) | 154                       | 56                                                | 360         | 170648           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Cattaraugus  | ADULT     | Continuing Day Treatment                 | 1170                      | 42                                                | 6453        | 327955           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Cattaraugus  | ADULT     | Clinic Treatment                         | 1170                      | 701                                               | 5948        | 765771           | 
+| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Cattaraugus  | ADULT     | Community Residence                      | 1170                      | 79                                                | 761         | 2318750          | 
+```

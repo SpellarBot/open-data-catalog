@@ -78,3 +78,15 @@ property e:v48g-wbhi t:meta.view.owner v:id=8c9u-vteh v:screenName=lorrink v:dis
 
 property e:v48g-wbhi t:meta.view.tableauthor v:id=8c9u-vteh v:screenName=lorrink v:roleName=editor v:displayName=lorrink
 ```
+
+## Top Records
+
+```ls
+| _ | calendar_year | produced_statewide | disposed_statewide | diverted_statewide | percent_diverted | 
+| = | ============= | ================== | ================== | ================== | ================ | 
+| 1 | 2004          | 2116724            | 1427904            | 688820             | 32.5             | 
+| 2 | 2005          | 2227124            | 1425752            | 801373             | 36.0             | 
+| 3 | 2006          | 2526134            | 1733889            | 792245             | 31.4             | 
+| 4 | 2007          | 2617350            | 1778009            | 839341             | 32.1             | 
+| 5 | 2008          | 2532370            | 1629397            | 902973             | 35.7             | 
+```

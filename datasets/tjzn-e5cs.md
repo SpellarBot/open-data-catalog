@@ -76,3 +76,20 @@ property e:tjzn-e5cs t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:tjzn-e5cs t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| month | output_demands | inputs | output_workloads | efficiencies | effectiveness | outcomes | 
+| ===== | ============== | ====== | ================ | ============ | ============= | ======== | 
+| Dec   | 40             | 240    | 20               | 6            | 6             | 20       | 
+| Jan   | 46             | 184    | 23               | 8            | 8             | 23       | 
+| Feb   | 70             | 280    | 35               | 4            | 4             | 35       | 
+| Mar   | 56             | 224    | 32               | 8            | 8             | 28       | 
+| Apr   | 62             | 252    | 31               | 8            | 8             | 38       | 
+| May   | 50             | 200    | 25               | 8            | 8             | 20       | 
+| Jun   | 30             | 120    | 22               | 5            | 5             | 22       | 
+| Jul   | 46             | 184    | 25               | 8            | 8             | 23       | 
+| Aug   | 46             | 184    | 20               | 8            | 8             | 23       | 
+| Sep   | 52             | 208    | 27               | 4            | 4             | 26       | 
+```

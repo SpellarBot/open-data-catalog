@@ -61,3 +61,20 @@ property e:9beh-zhu8 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:
 
 property e:9beh-zhu8 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```
+
+## Top Records
+
+```ls
+| supplement_number | project                                               | organization              | consultant                                   | mwesb         | retainer_period | issue_date | price    | amendments                                              | 
+| ================= | ===================================================== | ========================= | ============================================ | ============= | =============== | ========== | ======== | ======================================================= | 
+| UO-54-P-11-58     | Allen Hall Add.& Renovations-MEPF Coordination Plans  | University of Oregon      | CADD Connection LLC                          | DBE, MBE, ESB | 2011-2013       | 7/7/11     | 49844.00 | UO-54-P-11-58-1                                         | 
+| WOU-113-P-11-14   | Arbuthnot Hall Demolition Inspection Services         | Western Oregon University | FEI Testing & Inspection, Inc.               | No            | 2011-2013       | 7/11/11    | 3347.00  | WOU-113-P-11-14-1                                       | 
+| OSU-230-P-11-63   | Gill Coliseum Hardscape-Landscape Improvements        | Oregon State University   | Schwartz Landscape Architecture              | ESB           | 2011-2013       | 7/14/11    | 51341.00 | OSU-230-P-11-63-1                                       | 
+| OSU-10-P-11-64    | McALEXANDER FIELDHOUSE EXTERIOR FINISH EVALUATION     | Oregon State University   | McBride Architecture, PC                     | No            | 2011-2013       | 7/15/11    | 31370.00 | OSU-10-P-11-64-1                                        | 
+| UO-64-P-11-62     | KNIGHT LAW SCHOOL LIGHTING                            | University of Oregon      | Paradigm Engineering                         | ESB           | 2011-2013       | 7/19/11    | 15000.00 | UO-64-P-11-62-1                                         | 
+| OSU-132-P-11-66   | Withycombe Hall ADA Upgrades                          | Oregon State University   | Dull Olson Weekes-IBI Group Architects, Inc. | No            | 2011-2013       | 7/22/11    | 68110.00 | OSU-132-P-11-66-1, OSU-132-P-11-66-2, OSU-132-P-11-66-3 | 
+| UO-97-P-11-67     | Condon Hall 107-Geography Office Suite Remodel        | University of Oregon      | 2fORM Architecture PC                        | ESB           | 2011-2013       | 7/26/11    | 36500.00 | UO-97-P-11-67-1                                         | 
+| UO-200-P-11-72    | Huestis Hall-Rooms 111A/111B and 115/115A Renovations | University of Oregon      | Rowell Brokaw Architects, PC                 | No            | 2011-2013       | 8/3/11     | 43065.00 | UO-200-P-11-72-1, UO-200-P-11-72-2                      | 
+| UO-83-P-11-71     | J. Schnitzer Museum of Art-Artist Project Space       | University of Oregon      | FFA Architecture and Interiors, Inc.         | No            | 2011-2013       | 8/3/11     | 11250.00 | UO-83-P-11-71-1                                         | 
+| OSU-10-P-11-68    | Cordley Hall Elevator Modernization Design            | Oregon State University   | McBride Architecture, PC                     | No            | 2011-2013       | 8/4/11     | 39850.00 | OSU-10-P-11-68-1                                        | 
+```

@@ -65,3 +65,20 @@ property e:z2s8-vdru t:meta.view.owner v:id=8gct-yg9j v:screenName=HJF v:display
 
 property e:z2s8-vdru t:meta.view.tableauthor v:id=8gct-yg9j v:screenName=HJF v:displayName=HJF
 ```
+
+## Top Records
+
+```ls
+| fiscal_year | township_name | violation | totals | 
+| =========== | ============= | ========= | ====== | 
+| 2005        | Barrington    | 11        | 11     | 
+| 2005        | Berwyn        | 0         | 0      | 
+| 2005        | Bloom         | 46        | 46     | 
+| 2005        | Bremen        | 67        | 67     | 
+| 2005        | Calumet       | 0         | 0      | 
+| 2005        | Cicero        | 0         | 0      | 
+| 2005        | Elk Grove     | 57        | 57     | 
+| 2005        | Evanston      | 0         | 0      | 
+| 2005        | Hanover       | 70        | 70     | 
+| 2005        | Lemont        | 111       | 111    | 
+```

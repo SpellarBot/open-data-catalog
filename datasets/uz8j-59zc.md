@@ -61,3 +61,18 @@ property e:uz8j-59zc t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Joh
 
 property e:uz8j-59zc t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | region | _1   | _2 | 
+| =========== | ====== | ==== | == | 
+| 1354855079  | Snake  | 2005 | 37 | 
+| 1354855079  | Snake  | 2006 | 70 | 
+| 1354855079  | Snake  | 2007 | 23 | 
+| 1354855079  | Snake  | 2008 | 69 | 
+| 1354855079  | Snake  | 2009 | 3  | 
+| 1354855079  | Snake  | 2010 | 4  | 
+| 1354855079  | Snake  | 2011 | 23 | 
+| 1354855079  | Snake  | 2012 | 0  | 
+```

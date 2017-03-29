@@ -79,3 +79,18 @@ property e:dpg7-s6dp t:meta.view.owner v:id=ihg6-62bp v:screenName="Rodd Talebi"
 
 property e:dpg7-s6dp t:meta.view.tableauthor v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | ethnic_profile  | count | profile_percent | age_sex | male | female | total | percent | 
+| =========== | =============== | ===== | =============== | ======= | ==== | ====== | ===== | ======= | 
+| 1418041409  | Hispanic        | 940   | 81.6            | 0-5     | 48   | 46     | 94    | 8.2     | 
+| 1418041409  | Black           | 94    | 8.2             | 6-13    | 107  | 91     | 198   | 17.2    | 
+| 1418041409  | Asian           | 94    | 8.2             | 14-17   | 38   | 52     | 90    | 7.8     | 
+| 1418041409  | Native American | 0     | 0.0             | 18-21   | 52   | 61     | 113   | 9.8     | 
+| 1418041409  | Caucasian       | 24    | 2.1             | 22-40   | 78   | 153    | 231   | 20.1    | 
+| 1418041409  | Other           | 0     | 0.0             | 41-60   | 70   | 170    | 240   | 20.8    | 
+| 1418041409  | Total           | 1152  | 100.0           | 61+     | 56   | 130    | 186   | 16.1    | 
+| 1418041409  |                 |       |                 | Total   | 449  | 703    | 1152  | 100.0   | 
+```

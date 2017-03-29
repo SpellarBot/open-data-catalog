@@ -65,3 +65,20 @@ property e:n9tp-i3k3 t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displ
 
 property e:n9tp-i3k3 t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```
+
+## Top Records
+
+```ls
+| :updated_at | name                            | description                                                | location      | phone_number   | 
+| =========== | =============================== | ========================================================== | ============= | ============== | 
+| 1404220872  | Community Health Services, Inc. | Community Health Services, Inc.                            | 500 ALBANY AV | (860) 249-9625 | 
+| 1404220872  | Community Health Services, Inc. | Clinical Services - Adult Medicine                         | 500 ALBANY AV | (860) 808-8607 | 
+| 1404220872  | Community Health Services, Inc. | Clinical Services - Adolescent Medicine                    | 500 ALBANY AV | (860) 808-8720 | 
+| 1404220872  | Community Health Services, Inc. | Clinical Services - Behavioral Health                      | 500 ALBANY AV | (860) 808-8796 | 
+| 1404220872  | Community Health Services, Inc. | Clinical Services - Pediatrics                             | 500 ALBANY AV | (860) 808-8720 | 
+| 1404220872  | Community Health Services, Inc. | Clinical Services - Dental Program                         | 500 ALBANY AV | (860) 808-8745 | 
+| 1404220872  | Community Health Services, Inc. | Support Service - Revenue Management                       | 500 ALBANY AV | (860) 808-8785 | 
+| 1404220872  | Community Health Services, Inc. | Support Services - Medical Records                         | 500 ALBANY AV | (860) 808-8770 | 
+| 1404220872  | Community Health Services, Inc. | Support Services - Medicaid Outreach Worker/Access to Care | 500 ALBANY AV | (860) 808-8786 | 
+| 1404220872  | Charter Oak Health Center, Inc. | Charter Oak Health Center, Inc.                            | 21 GRAND ST   | (860) 550-7500 | 
+```

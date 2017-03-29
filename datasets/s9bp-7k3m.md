@@ -67,3 +67,20 @@ property e:s9bp-7k3m t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cd
 
 property e:s9bp-7k3m t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
+
+## Top Records
+
+```ls
+| state         | prevalence_2012 | prevalence_2014 | 
+| ============= | =============== | =============== | 
+| United States | 1.9             | 1.7             | 
+| Arizona       | 1.7             | 1.6             | 
+| Georgia       | 1.4             | 0.7             | 
+| California    | 1.8             | 1.9             | 
+| Minnesota     | 2.4             | 1.9             | 
+| Oregon        | 1.4             | 1.6             | 
+| Connecticut   | 2.1             | 1.9             | 
+| Missouri      | 1.8             | 1.3             | 
+| New York      | 1.4             | 1.0             | 
+| Virginia      | 1.4             | 1.5             | 
+```

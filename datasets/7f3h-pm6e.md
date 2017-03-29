@@ -61,3 +61,15 @@ property e:7f3h-pm6e t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/a
 
 property e:7f3h-pm6e t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | phase_step_name | phase_step_number | phase_step_description                                                                                                         | phase_type | 
+| =========== | =============== | ================= | ============================================================================================================================== | ========== | 
+| 1482427295  | Planning        | 1                 | Identify the needs, scope and goals of the project.                                                                            | IMP        | 
+| 1482427297  | Design          | 2                 | Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc. | IMP        | 
+| 1482427299  | RoW Acquisition | 3                 | If Right of Way acquisition is required, the proper documentation is put forth during this time.                               | IMP        | 
+| 1482427301  | Construction    | 4                 | Contractors currently working from the instructions contained in the design documents.                                         | IMP        | 
+| 1482427304  | Completed       | 5                 | All project activities have been completed and paid for.                                                                       | IMP        | 
+```

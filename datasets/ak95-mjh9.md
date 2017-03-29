@@ -76,3 +76,20 @@ property e:ak95-mjh9 t:meta.view.owner v:id=h2ue-vnnt v:profileImageUrlMedium=/a
 
 property e:ak95-mjh9 t:meta.view.tableauthor v:id=h2ue-vnnt v:profileImageUrlMedium=/api/users/h2ue-vnnt/profile_images/THUMB v:profileImageUrlLarge=/api/users/h2ue-vnnt/profile_images/LARGE v:screenName="OCIO-Will Saunders" v:profileImageUrlSmall=/api/users/h2ue-vnnt/profile_images/TINY v:roleName=publisher v:displayName="OCIO-Will Saunders"
 ```
+
+## Top Records
+
+```ls
+| laus_area_code  | state_fips_code | county_fips_code | area_title       | county_name  | state | period | date                | civilian_labor_force | employed_level | unemployed_level | unemployment_rate | 
+| =============== | =============== | ================ | ================ | ============ | ===== | ====== | =================== | ==================== | ============== | ================ | ================= | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 12-Nov | 2012-11-01T00:00:00 | 8082                 | 7389           | 693              | 8.6               | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 12-Dec | 2012-12-01T00:00:00 | 7922                 | 7061           | 861              | 10.9              | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Jan | 2013-01-01T00:00:00 | 7907                 | 6915           | 992              | 12.5              | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Feb | 2013-02-01T00:00:00 | 7917                 | 6919           | 998              | 12.6              | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Mar | 2013-03-01T00:00:00 | 8105                 | 7291           | 814              | 10                | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Apr | 2013-04-01T00:00:00 | 8526                 | 7844           | 682              | 8                 | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-May | 2013-05-01T00:00:00 | 8211                 | 7555           | 656              | 8                 | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Jun | 2013-06-01T00:00:00 | 8812                 | 8135           | 677              | 7.7               | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Jul | 2013-07-01T00:00:00 | 8913                 | 8236           | 677              | 7.6               | 
+| CN5300100000000 | 53              | 1                | Adams County, WA | Adams County | WA    | 13-Aug | 2013-08-01T00:00:00 | 9078                 | 8451           | 627              | 6.9               | 
+```

@@ -72,3 +72,20 @@ property e:kb3c-yi4w t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleyka
 
 property e:kb3c-yi4w t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
 ```
+
+## Top Records
+
+```ls
+| code | service_district_code | municipality              | fy_2017_mill_rate | fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss | fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss | 
+| ==== | ===================== | ========================= | ================= | ============================================================= | ==================================================== | 
+| 1    | 0                     | Andover                   | 30.72             |                                                               |                                                      | 
+| 2    | 0                     | Ansonia                   |                   | 37.32                                                         | 37.00                                                | 
+| 3    | 0                     | Ashford                   |                   | 32.368                                                        | 32.00                                                | 
+| 4    | 0                     | Avon                      | 29.52             |                                                               |                                                      | 
+| 5    | 0                     | Barkhamsted               | 28.36             |                                                               |                                                      | 
+| 5    | 1                     | Barkhamsted Fire District | 1.66              |                                                               |                                                      | 
+| 6    | 0                     | Beacon Falls              |                   | 32.90                                                         | 32.00                                                | 
+| 7    | 0                     | Berlin                    | 30.81             |                                                               |                                                      | 
+| 7    | 1                     | Berlin - Kensington FD    | 1.10              |                                                               |                                                      | 
+| 7    | 2                     | Berlin -Worthington FD    | 1.80              |                                                               |                                                      | 
+```

@@ -68,3 +68,20 @@ property e:ebe6-dvsr t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO
 
 property e:ebe6-dvsr t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```
+
+## Top Records
+
+```ls
+| goaltype                          | measure                                 | year | type    | date                | avgnumdays       | noofpermits | rescomm         | recsubtype   | 
+| ================================= | ======================================= | ==== | ======= | =================== | ================ | =========== | =============== | ============ | 
+| NonResidentialOnlyFirstPlanReview | AvgNumDaysFirstPlanReviewNONRESIDENTIAL | 2015 | monthly | 2015-08-01T00:00:00 | 14               | 1           | Non-Residential | Demolition   | 
+| ResidentialOnlyFirstPlanReview    | AvgNumDaysFirstPlanReviewRESIDENTIAL    | 2015 | monthly | 2015-07-01T00:00:00 | 6                | 1           | Residential     | Demolition   | 
+| NonResidentialOnlyFirstPlanReview | AvgNumDaysFirstPlanReviewNONRESIDENTIAL | 2015 | monthly | 2015-07-01T00:00:00 | 18               | 1           | Non-Residential | Site Grading | 
+| AllResVsNonResFirstPlanReview     | AvgNumDaysFirstPlanReviewNONRESIDENTIAL | 2015 | monthly | 2015-11-01T00:00:00 | 53.45            | 20          | Non-Residential |              | 
+| AllBuildingPermitReview           | AvgNumberOfDaysForFirstPlanReview       | 2015 | daily   | 2015-07-27T00:00:00 | 13               | 1           |                 |              | 
+| AllBuildingPermitReview           | AvgNumberOfDaysForFirstPlanReview       | 2015 | daily   | 2015-09-22T00:00:00 | 16.4285714285714 | 7           |                 |              | 
+| AllBuildingPermitReview           | AvgNumberOfDaysForFirstPlanReview       | 2015 | daily   | 2015-08-18T00:00:00 | 14               | 1           |                 |              | 
+| AllResVsNonResFirstPlanReview     | AvgNumDaysFirstPlanReviewRESIDENTIAL    | 2015 | monthly | 2015-08-01T00:00:00 | 41.3             | 10          | Residential     |              | 
+| AllBuildingPermitReview           | AvgNumberOfDaysForFirstPlanReview       | 2015 | daily   | 2015-10-22T00:00:00 | 51.3333333333333 | 3           |                 |              | 
+| AllBuildingPermitReview           | AvgNumberOfDaysForFirstPlanReview       | 2015 | daily   | 2015-10-13T00:00:00 | 26.5             | 2           |                 |              | 
+```

@@ -73,3 +73,20 @@ property e:5mzi-s8qv t:meta.view.owner v:id=qz2n-kjc9 v:screenName="IL Departmen
 
 property e:5mzi-s8qv t:meta.view.tableauthor v:id=qz2n-kjc9 v:screenName="IL Department of Labor" v:roleName=publisher v:displayName="IL Department of Labor"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | agency                                        | address_1                            | address_2             | city        | state | zip_code | 
+| =========== | ============================================= | ==================================== | ===================== | =========== | ===== | ======== | 
+| 1448870690  | HEALTH AT HOME                                | 2255 ERICKSON DRIVE                  |                       | NAPERVILLE  | IL    | 60563-   | 
+| 1448870690  | HEALTH AT HOME                                | 500 WYNDEMERE CIRCLE, GARDEN LEVEL   |                       | WHEATON     | IL    | 60187-   | 
+| 1448870690  | 3 CROSS HOME CARE CORP.                       | 3 CROSS HOME CARE CORP.              |                       | CHICAGO     | IL    | 60035-   | 
+| 1448870690  | BETTER DAY'S NURSING AGENCY, LLC              | 1935 ALSCHULER DRIVER                |                       | AURORA      | IL    | 60506-   | 
+| 1448870690  | SPECIAL NEEDS SPECIALISTS, INC.               | 1250 N. CONVENT, SUITE B             |                       | BOURBONNAIS | IL    | 60914-   | 
+| 1448870690  | THE A TEAM STAFF, LLC                         | 2S.951 RED OAK DRIVE                 |                       | ELBURN      | IL    | 60119-   | 
+| 1448870690  | HEALTHSOURCE GLOBAL STAFFING, INC.            | 39270 PASEO PADRE PKWAY., #138       |                       | FREMONT     | CA    | 94538-   | 
+| 1448870690  | AMERICARE STAFFING SERVICES OF ILLINOIS, INC. | 14551//2 W. DEVON AVENUE             |                       | CHICAGO     | IL    | 60660-   | 
+| 1448870690  | AMN ALLIED SERVICES, LLC                      | 8840 CYPRESS WATERS BLVD., SUITE 300 |                       | DALLAS      | TX    | 75063-   | 
+| 1448870690  | INGALLS PRIVATE DUTY                          | ONE INGALLS DRIVE                    | WYMAN-GORDON PAVILION | HARVEY      | IL    | 60426-   | 
+```

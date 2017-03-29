@@ -83,3 +83,20 @@ property e:5fn8-vtui t:meta.view.tableauthor v:id=guap-8ddq v:profileImageUrlMed
 
 property e:5fn8-vtui t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| nopd_item | type_ | typetext             | priority | mapx             | mapy            | timecreate          | timedispatch        | timearrive          | timeclosed          | disposition | dispositiontext        | block_address              | zip   | policedistrict | 
+| ========= | ===== | ==================== | ======== | ================ | =============== | =================== | =================== | =================== | =================== | =========== | ====================== | ========================== | ===== | ============== | 
+| A0000113  | 94    | DISCHARGING FIREARM  | 2B       | 3696313.00000000 | 533332.00000000 | 2012-12-31T23:59:34 | 2013-01-01T00:03:10 | 2013-01-01T00:23:57 | 2013-01-01T00:24:10 | UNF         | UNFOUNDED              | 052XX Burgundy St          | 70117 | 5              | 
+| A0000213  | 94    | DISCHARGING FIREARM  | 2B       | 3710263.00000000 | 518976.00000000 | 2012-12-31T23:59:49 | 2013-01-01T00:05:43 | 2013-01-01T00:14:35 | 2013-01-01T00:21:29 | UNF         | UNFOUNDED              | 029XX Bacchus Dr           | 70131 | 4              | 
+| A0000313  | 67S   | SHOPLIFTING          | 1C       | 3683068.00000000 | 531830.00000000 | 2013-01-01T00:00:22 |                     |                     | 2013-01-01T00:33:26 | DUP         | DUPLICATE              | 006XX Decatur St           | 70130 | 8              | 
+| A0000413  | 21    | COMPLAINT OTHER      | 1H       | 3673396.00000000 | 533473.00000000 | 2013-01-01T00:00:29 | 2013-01-01T00:00:30 | 2013-01-01T00:00:33 | 2013-01-01T00:13:58 | NAT         | NECESSARY ACTION TAKEN | 007XX S White St           | 70119 | 1              | 
+| A0000513  | 62A   | BURGLAR ALARM, SILEN | 2C       | 3665197.00000000 | 544507.00000000 | 2013-01-01T00:00:22 | 2013-01-01T00:36:13 |                     | 2013-01-01T00:36:32 | VOI         | VOID                   | 055XX Cherlyn Dr           | 70124 | 3              | 
+| A0000613  | 94F   | FIREWORKS            | 1H       | 3668342.00000000 | 518606.00000000 | 2012-12-31T23:59:56 | 2013-01-01T00:27:00 | 2013-01-01T00:36:38 | 2013-01-01T00:57:01 | UNF         | UNFOUNDED              | Magazine St & Soniat St    | 70115 | 2              | 
+| A0000713  | 21    | COMPLAINT OTHER      | 1H       | 3679448.00000000 | 540791.00000000 | 2013-01-01T00:01:04 | 2013-01-01T00:01:05 | 2013-01-01T00:03:21 | 2013-01-01T00:07:26 | UNF         | UNFOUNDED              | 026XX D'Abadie St          | 70119 | 1              | 
+| A0000813  | 94    | DISCHARGING FIREARM  | 2B       | 3688421.00000000 | 527933.00000000 | 2013-01-01T00:00:51 | 2013-01-01T00:04:29 | 2013-01-01T00:07:09 | 2013-01-01T00:11:27 | UNF         | UNFOUNDED              | Newton St & Pacific Ave    | 70114 | 4              | 
+| A0000913  | 94    | DISCHARGING FIREARM  | 2B       | 3678701.00000000 | 537294.00000000 | 2013-01-01T00:01:55 | 2013-01-01T00:01:55 |                     | 2013-01-01T00:03:37 | UNF         | UNFOUNDED              | N Tonti St & Ursulines Ave | 70119 | 1              | 
+| A0001013  | 94    | DISCHARGING FIREARM  | 2B       | 3677890.00000000 | 525169.00000000 | 2013-01-01T00:01:54 | 2013-01-01T00:02:55 | 2013-01-01T00:05:00 | 2013-01-01T00:07:23 | UNF         | UNFOUNDED              | Baronne St & Felicity St   | 70113 | 6              | 
+```

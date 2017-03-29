@@ -80,3 +80,20 @@ property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/a
 
 property e:yrgu-vakm t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 ```
+
+## Top Records
+
+```ls
+| ctrid  | cnn      | exceptioncode | permittype | jobordernum | projectname | effectivedate       | expirationdate | contactname  | contactphonenumber | restriction_tow | modifieddate        | block | lot | 
+| ====== | ======== | ============= | ========== | =========== | =========== | =================== | ============== | ============ | ================== | =============== | =================== | ===== | === | 
+| 625234 | 9122002  | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625235 | 9122001  | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625236 | 12318002 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625237 | 12318001 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625238 | 10624002 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625239 | 10624001 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625240 | 12553102 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625241 | 12553103 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625242 | 12158002 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+| 625243 | 12158001 | SFPARK        |            |             |             | 1980-01-01T00:00:00 |                | Alex Demisch | (415) 701-4507     |                 | 2012-02-15T16:27:02 |       |     | 
+```

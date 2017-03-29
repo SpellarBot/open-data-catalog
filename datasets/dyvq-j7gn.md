@@ -53,3 +53,13 @@ property e:dyvq-j7gn t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO
 
 property e:dyvq-j7gn t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```
+
+## Top Records
+
+```ls
+| fiscalyear          | billablehours    | 
+| =================== | ================ | 
+| 2017-06-30T00:00:00 | 848.104117647059 | 
+| 2015-06-30T00:00:00 | 1292.74066666667 | 
+| 2016-06-30T00:00:00 | 1349.96352941176 | 
+```

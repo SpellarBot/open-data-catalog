@@ -112,3 +112,20 @@ property e:v7fv-ya55 t:meta.view.owner v:id=6wh5-kegk v:profileImageUrlMedium=/a
 
 property e:v7fv-ya55 t:meta.view.tableauthor v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:displayName="Andrew Gosden"
 ```
+
+## Top Records
+
+```ls
+| date                | aldino | essex | calvert_co_barstow | davidsonville | edgewood | fairhill | frederick_airport | furley_e_s_recreation_center | hagerstown | hu_beltsville | millington | padonia | pg_equestrian_center | piney_run | rockville | south_carroll | southern_maryland | state_wide_max | 
+| =================== | ====== | ===== | ================== | ============= | ======== | ======== | ================= | ============================ | ========== | ============= | ========== | ======= | ==================== | ========= | ========= | ============= | ================= | ============== | 
+| 2010-04-02T00:00:00 |        |       |                    |               |          |          |                   |                              |            |               |            |         |                      | 76        |           |               |                   | 76             | 
+| 2010-04-11T00:00:00 |        |       |                    |               |          |          |                   |                              |            |               |            |         |                      | 78        |           |               |                   | 78             | 
+| 2010-04-15T00:00:00 |        |       |                    |               |          |          |                   |                              |            |               |            |         |                      | 83        |           |               |                   | 83             | 
+| 2010-05-01T00:00:00 |        |       |                    |               |          | 78       |                   |                              |            |               |            |         |                      |           |           |               |                   | 78             | 
+| 2010-05-05T00:00:00 |        |       |                    |               | 77       |          |                   |                              |            |               |            |         |                      |           |           |               |                   | 77             | 
+| 2010-05-21T00:00:00 |        |       |                    |               | 76       |          |                   |                              |            |               |            |         |                      |           |           |               |                   | 76             | 
+| 2010-05-27T00:00:00 |        | 79    |                    | 78            | 89       |          |                   |                              |            | 87            |            |         |                      |           |           |               |                   | 89             | 
+| 2010-06-02T00:00:00 | 76     |       |                    |               | 87       | 79       |                   |                              |            | 80            |            |         |                      |           |           |               |                   | 87             | 
+| 2010-06-04T00:00:00 |        |       |                    |               |          |          |                   |                              |            | 76            |            |         |                      |           |           |               |                   | 76             | 
+| 2010-06-12T00:00:00 |        |       |                    |               |          |          |                   |                              |            |               |            |         |                      |           | 79        |               |                   | 79             | 
+```

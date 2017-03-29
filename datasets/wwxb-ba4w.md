@@ -56,3 +56,13 @@ property e:wwxb-ba4w t:meta.view.owner v:id=g6c2-gabj v:profileImageUrlMedium=/a
 
 property e:wwxb-ba4w t:meta.view.tableauthor v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
 ```
+
+## Top Records
+
+```ls
+| type_of_disbursement              | total_amount | 
+| ================================= | ============ | 
+| Expenditures                      | 19133482     | 
+| Loans Repaid/Forgiven             | 309582.43    | 
+| Unpaid Expenditures Paid/Forgiven | 390452.4     | 
+```

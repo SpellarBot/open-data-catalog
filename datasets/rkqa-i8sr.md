@@ -84,3 +84,20 @@ property e:rkqa-i8sr t:meta.view.owner v:id=b4zr-4dtj v:screenName="Karl Sueyosh
 
 property e:rkqa-i8sr t:meta.view.tableauthor v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | department | division | fund | object_code | fy_2013_actual | fy_2014_actual | fy_2015_budget | fy_2016_current_services | fy_2016_budget_issues | fy_2016_proposed_budget | department_name            | division_name  | fund_name    | object_code_name                        | 
+| =========== | ========== | ======== | ==== | =========== | ============== | ============== | ============== | ======================== | ===================== | ======================= | ========================== | ============== | ============ | ======================================= | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1101        | 648445.00      | 749381.00      | 854868.00      | 896328.00                | 0.0                   | 896328.00               | Budget and Fiscal Services | Administration | General Fund | Regular Pay                             | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1101D       | 0.0            | 0.0            | 0.0            | 0.0                      | 0.0                   | 0.0                     | Budget and Fiscal Services | Administration | General Fund | Adjustment for Deactivated Positions    | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1101T       | 0.0            | 0.0            |                |                          | 0.0                   |                         | Budget and Fiscal Services | Administration | General Fund | Transfer to Prov for Vacant Positions   | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1101X       | 0.0            | 0.0            | 0.0            | 0.0                      | 0.0                   | 0.0                     | Budget and Fiscal Services | Administration | General Fund | Vacancy Cutback                         | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1102        | 0.0            | 0.0            | 0.0            | 0.0                      | 0.0                   | 0.0                     | Budget and Fiscal Services | Administration | General Fund | Non-Holiday Overtime Pay                | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1106        | 19243.00       | 0.0            | 0.0            | 0.0                      | 0.0                   | 0.0                     | Budget and Fiscal Services | Administration | General Fund | Accumulated Vacation Pay (Lump-Sum Pay) | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1107        | 0.0            | 0.0            | 0.0            | 0.0                      | 0.0                   | 0.0                     | Budget and Fiscal Services | Administration | General Fund | Holiday Overtime Pay                    | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1109        | 15010.00       | 4289.00        | 0.0            | 1500.00                  | 0.0                   | 1500.00                 | Budget and Fiscal Services | Administration | General Fund | Temporary Assignment Pay                | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1118        | 0.0            | 0.0            | 3460.00        | 5075.00                  | 0.0                   | 5075.00                 | Budget and Fiscal Services | Administration | General Fund | Misc Salary Adjustment                  | 
+| 1425576957  | OP_BFS     | BFS0300C | 110  | 1125        | 0.0            | 0.0            | 0.0            | 0.0                      | 0.0                   | 0.0                     | Budget and Fiscal Services | Administration | General Fund | Personal Svcs-Contract Positions        | 
+```

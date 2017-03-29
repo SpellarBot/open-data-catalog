@@ -64,3 +64,20 @@ property e:jx86-2vch t:meta.view.owner v:id=4hgi-fxu8 v:screenName="Paola Saiben
 
 property e:jx86-2vch t:meta.view.tableauthor v:id=a5cm-ukuw v:profileImageUrlMedium=/api/users/a5cm-ukuw/profile_images/THUMB v:profileImageUrlLarge=/api/users/a5cm-ukuw/profile_images/LARGE v:screenName="OIMT Open Data Coordinator" v:profileImageUrlSmall=/api/users/a5cm-ukuw/profile_images/TINY v:roleName=publisher v:displayName="OIMT Open Data Coordinator"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | library_name                            | county   | phone      | 
+| =========== | ======================================= | ======== | ========== | 
+| 1340728051  | WAHIAWA PUBLIC LIBRARY                  | HONOLULU | 8086226345 | 
+| 1340728051  | MOUNTAIN VIEW PUBLIC AND SCHOOL LIBRARY | HAWAII   | 8089686300 | 
+| 1340728051  | HILO PUBLIC LIBRARY                     | HAWAII   | 8089338888 | 
+| 1340728051  | AINA HAINA PUBLIC LIBRARY               | HONOLULU | 8083772456 | 
+| 1340728051  | WAIANAE PUBLIC LIBRARY                  | HONOLULU | 8086964257 | 
+| 1340728051  | PRINCEVILLE PUBLIC LIBRARY              | KAUAI    | 8088261545 | 
+| 1340728051  | LANAI PUBLIC AND SCHOOL LIBRARY         | MAUI     | 8085656996 | 
+| 1340728051  | KIHEI PUBLIC LIBRARY                    | MAUI     | 8088756833 | 
+| 1340728051  | AIEA PUBLIC LIBRARY                     | HONOLULU | 8084837333 | 
+| 1340728051  | HONOKAA PUBLIC LIBRARY                  | HAWAII   | 8087757798 | 
+```

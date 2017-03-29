@@ -66,3 +66,20 @@ property e:7svg-ds5z t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/a
 
 property e:7svg-ds5z t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```
+
+## Top Records
+
+```ls
+| downtown | stname           | year   | aawdt   | 
+| ======== | ================ | ====== | ======= | 
+| false    | N 45TH ST        | 2009.0 | 22200.0 | 
+| false    | NE 80TH ST       | 2009.0 | 9500.0  | 
+| true     | DENNY WAY        | 2009.0 | 30200.0 | 
+| false    | E ALOHA ST       | 2009.0 | 7600.0  | 
+| false    | 51ST AVE S       | 2009.0 | 6300.0  | 
+| false    | 24TH AVE NW      | 2009.0 | 10300.0 | 
+| false    | 10TH AVE E       | 2009.0 | 13100.0 | 
+| false    | NE NORTHGATE WAY | 2009.0 | 29500.0 | 
+| true     | JAMES ST         | 2009.0 | 33400.0 | 
+| false    | NW 80TH ST       | 2009.0 | 8500.0  | 
+```

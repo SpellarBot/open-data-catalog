@@ -66,3 +66,20 @@ property e:2rd2-9uwy t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:2rd2-9uwy t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | food_type                       | from_new_york_state_source | other_source_during_new_york_state_availability_period | other_source_outside_new_york_state_availability_period | 
+| =========== | =============================== | ========================== | ====================================================== | ======================================================= | 
+| 1450341480  | Apple Cider                     | 158                        | 0                                                      | 0                                                       | 
+| 1450341480  | Apples                          | 42896                      | 8106                                                   | 2429                                                    | 
+| 1450341480  | Asparagus                       | 292                        | 791                                                    | 143                                                     | 
+| 1450341480  | Barley                          | 750                        | 500                                                    | 0                                                       | 
+| 1450341480  | Beans                           | 1919                       | 0                                                      | 0                                                       | 
+| 1450341480  | Beets                           | 447                        | 0                                                      | 0                                                       | 
+| 1450341480  | Beverage Bases                  | 9748                       | 1636                                                   | 0                                                       | 
+| 1450341480  | Bok Choy                        | 0                          | 286                                                    | 0                                                       | 
+| 1450341480  | Bread, Rolls, Buns, Sweet Goods | 19816                      | 2979                                                   | 0                                                       | 
+| 1450341480  | Breakfast Cereals, Ready-to-Eat | 15396                      | 1457                                                   | 0                                                       | 
+```

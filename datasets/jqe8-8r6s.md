@@ -76,3 +76,20 @@ property e:jqe8-8r6s t:meta.view.owner v:id=pg3c-42qv v:profileImageUrlMedium=/a
 
 property e:jqe8-8r6s t:meta.view.tableauthor v:id=pg3c-42qv v:profileImageUrlMedium=/api/users/pg3c-42qv/profile_images/THUMB v:profileImageUrlLarge=/api/users/pg3c-42qv/profile_images/LARGE v:screenName="Matt Roberts" v:profileImageUrlSmall=/api/users/pg3c-42qv/profile_images/TINY v:roleName=editor v:displayName="Matt Roberts"
 ```
+
+## Top Records
+
+```ls
+| season_year | week | test_id | block                 | trap | trap_type | test_date           | number_of_mosquitoes | result   | species                | latitude     | longitude     | 
+| =========== | ==== | ======= | ===================== | ==== | ========= | =================== | ==================== | ======== | ====================== | ============ | ============= | 
+| 2011        | 29   | 31550   | 100XX W OHARE AIRPORT | T916 | GRAVID    | 2011-07-25T00:07:00 | 3                    | negative | CULEX PIPIENS          |              |               | 
+| 2016        | 25   | 42613   | 58XX N PULASKI RD     | T027 | GRAVID    | 2016-06-22T00:06:00 | 6                    | negative | CULEX RESTUANS         | 41.986319851 | -87.728378456 | 
+| 2007        | 27   | 20583   | 15XX W WEBSTER AVE    | T045 | GRAVID    | 2007-07-11T03:07:41 | 4                    | negative | CULEX PIPIENS/RESTUANS | 41.921704574 | -87.666963235 | 
+| 2009        | 38   | 28275   | 5XX S CENTRAL AVE     | T031 | GRAVID    | 2009-09-25T00:09:00 | 4                    | negative | CULEX PIPIENS          | 41.872872862 | -87.764736532 | 
+| 2011        | 34   | 32254   | 58XX N PULASKI RD     | T027 | GRAVID    | 2011-08-26T00:08:00 | 2                    | negative | CULEX RESTUANS         | 41.986319851 | -87.728378456 | 
+| 2012        | 30   | 34127   | 24XX E 105TH ST       | T128 | GRAVID    | 2012-07-27T00:07:00 | 50                   | positive | CULEX PIPIENS/RESTUANS | 41.704687214 | -87.564235562 | 
+| 2015        | 29   | 41361   | 100XX W OHARE AIRPORT | T905 | GRAVID    | 2015-07-23T00:07:00 | 34                   | negative | CULEX RESTUANS         |              |               | 
+| 2013        | 23   | 35546   | 35XX W 51ST ST        | T062 | GRAVID    | 2013-06-07T00:06:00 | 2                    | negative | CULEX PIPIENS/RESTUANS | 41.800597087 | -87.711730345 | 
+| 2014        | 34   | 39742   | 100XX W OHARE AIRPORT | T916 | GRAVID    | 2014-08-21T00:08:00 | 31                   | positive | CULEX PIPIENS/RESTUANS |              |               | 
+| 2013        | 29   | 36401   | 100XX W OHARE AIRPORT | T912 | GRAVID    | 2013-07-19T00:07:00 | 50                   | negative | CULEX PIPIENS/RESTUANS |              |               | 
+```

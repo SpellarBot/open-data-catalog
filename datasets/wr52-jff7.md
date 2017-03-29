@@ -66,3 +66,20 @@ property e:wr52-jff7 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/a
 
 property e:wr52-jff7 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```
+
+## Top Records
+
+```ls
+| month               | revenue  | of_shows | of_visitors | 
+| =================== | ======== | ======== | =========== | 
+|                     |          |          |             | 
+|                     |          |          |             | 
+|                     |          |          |             | 
+| 2015-01-31T00:00:00 | 19326.00 | 3.00     | 5127.00     | 
+| 2015-02-28T00:00:00 | 18765.00 | 4.00     | 5495.00     | 
+| 2015-03-31T00:00:00 | 12979.00 | 3.00     | 4585.00     | 
+| 2015-04-30T00:00:00 | 13909.00 | 6.00     | 4745.00     | 
+| 2015-05-31T00:00:00 | 6050.00  | 6.00     | 6883.00     | 
+| 2015-06-30T00:00:00 | 15132.00 | 5.00     | 6716.00     | 
+| 2015-07-31T00:00:00 | 20404.00 | 3.00     | 5222.00     | 
+```

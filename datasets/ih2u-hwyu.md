@@ -58,3 +58,20 @@ property e:ih2u-hwyu t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:
 
 property e:ih2u-hwyu t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```
+
+## Top Records
+
+```ls
+| agency | agency_title                     | classification                | service_type     | full_part_time | annual_salary | 
+| ====== | ================================ | ============================= | ================ | ============== | ============= | 
+| 58040  | OUS - Southern Oregon University | Accountant 1                  | Classified Staff | Full-Time      | 36048         | 
+| 58040  | OUS - Southern Oregon University | Administrative Program Assist | Classified Staff | Full-Time      | 37800         | 
+| 58040  | OUS - Southern Oregon University | Medical Transcriptionist      | Classified Staff | Full-Time      | 36048         | 
+| 58040  | OUS - Southern Oregon University | Library Technician 3          | Classified Staff | Full-Time      | 41472         | 
+| 58040  | OUS - Southern Oregon University | Program Representative 2      | Classified Staff | Full-Time      | 50064         | 
+| 58040  | OUS - Southern Oregon University | Painter                       | Classified Staff | Full-Time      | 41472         | 
+| 58040  | OUS - Southern Oregon University | Office Specialist 2           | Classified Staff | Full-Time      | 27924         | 
+| 58040  | OUS - Southern Oregon University | Food Service Coordinator      | Classified Staff | Full-Time      | 31608         | 
+| 58040  | OUS - Southern Oregon University | Office Specialist 2           | Classified Staff | Full-Time      | 39588         | 
+| 58040  | OUS - Southern Oregon University | Property Specialist 2         | Classified Staff | Full-Time      | 25104         | 
+```

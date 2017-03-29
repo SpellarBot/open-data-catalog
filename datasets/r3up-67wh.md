@@ -58,3 +58,11 @@ property e:r3up-67wh t:meta.view.owner v:id=hb8e-gdsp v:profileImageUrlMedium=/a
 
 property e:r3up-67wh t:meta.view.tableauthor v:id=7q7s-tyf3 v:screenName="Steve Baule" v:roleName=publisher v:displayName="Steve Baule"
 ```
+
+## Top Records
+
+```ls
+| quarter_year | installed_capacity_from_fit_kw | 
+| ============ | ============================== | 
+| Q1-2014      | 700                            | 
+```

@@ -69,3 +69,13 @@ property e:sd9s-b3hd t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:sd9s-b3hd t:meta.view.tableauthor v:id=iacr-duv5 v:screenName=Tejas.Patel v:displayName=Tejas.Patel
 ```
+
+## Top Records
+
+```ls
+| year | full_investigations | truncated_investigations | mediations | mediation_attempted | 
+| ==== | =================== | ======================== | ========== | =================== | 
+| 2009 | 349                 | 113                      | 162        | 227                 | 
+| 2010 | 299                 | 96                       | 177        | 264                 | 
+| 2011 | 284                 | 97                       | 178        | 267                 | 
+```

@@ -71,3 +71,20 @@ property e:wryv-d7zf t:meta.view.owner v:id=3qqc-w7ag v:profileImageUrlMedium=/a
 
 property e:wryv-d7zf t:meta.view.tableauthor v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | company      | store_type  | address                  | city         | zip_code | state | 
+| =========== | ============ | =========== | ======================== | ============ | ======== | ===== | 
+| 1377520605  | Trader Joe's | Specialty   | 190 N. Northwest Highway | Park Ridge   | 60068    | IL    | 
+| 1377520606  | Food 4 Less  | FullService | 2400 Main St             | Evanston     | 60202    | IL    | 
+| 1377520606  | Aldi         | Discount    | 4630 Cermak Rd           | Cicero       | 60804    | IL    | 
+| 1377520606  | Food 4 Less  | FullService | 3039 S Cicero            | Cicero       | 60804    | IL    | 
+| 1377520606  | Dominick's   | FullService | 3141 Thatcher Ave        | River Grove  | 60171    | IL    | 
+| 1377520606  | Target       | Supercenter | 4120 W 95th St           | Oak Lawn     | 60453    | IL    | 
+| 1377520606  | Costco       | Wholesale   | 7311 North Melvina Ave   | Niles        | 60714    | IL    | 
+| 1377520606  | Sams Club    | Wholesale   | 2601 S Cicero Ave        | Cicero       | 60804    | IL    | 
+| 1377520606  | Jewel-Osco   | FullService | 5667 W Touhy Ave         | Niles        | 60714    | IL    | 
+| 1377520606  | Dominick's   | FullService | 7501 North Ave           | River Forest | 60305    | IL    | 
+```

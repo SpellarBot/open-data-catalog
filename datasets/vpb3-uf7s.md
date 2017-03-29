@@ -67,3 +67,17 @@ property e:vpb3-uf7s t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:vpb3-uf7s t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | premium_categories                                    | family_size__1_ind___monthly_income | family_size__2_nos___monthly_income | family_size__3_nos___monthly_income | family_size__4_nos___monthly_income | family_size__5_nos___monthly_income | each_additional_person_add | 
+| =========== | ===================================================== | =================================== | =================================== | =================================== | =================================== | =================================== | ========================== | 
+| 1363692045  | Free Insurance                                        | 1489                                | 2017                                | 2545                                | 3073                                | 3601                                | 528                        | 
+| 1363692045  | $9 Per Child Per Month (Maximum of $27 per family)    | 2067                                | 2800                                | 3532                                | 4265                                | 4997                                | 733                        | 
+| 1363692045  | $15 Per Child Per MonthMaximum of $45 per family)     | 2328                                | 3153                                | 3978                                | 4803                                | 5628                                | 825                        | 
+| 1363692045  | $30 Per Child Per Month (Maximum of $90 per family)   | 2793                                | 3783                                | 4773                                | 5763                                | 6753                                | 990                        | 
+| 1363692045  | $45 Per Child Per Month (Maximum of $135 per family)  | 3258                                | 4413                                | 5568                                | 6723                                | 7878                                | 1155                       | 
+| 1363692045  | $60 Per Child Per Month (Maximum of $1820 per family) | 3724                                | 5044                                | 6364                                | 7684                                | 9004                                | 1320                       | 
+| 1363692045  | Full Premium Per Child Per Month                      | Over $ 3724.00                      | Over $ 5044.00                      | Over $ 6364.00                      | Over $ 7684.00                      | Over $ 9004.00                      | 1247                       | 
+```

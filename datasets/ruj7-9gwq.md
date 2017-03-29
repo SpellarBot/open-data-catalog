@@ -68,3 +68,20 @@ property e:ruj7-9gwq t:meta.view.owner v:id=52wx-7e7j v:screenName="EGS Data Ser
 
 property e:ruj7-9gwq t:meta.view.tableauthor v:id=52wx-7e7j v:screenName="EGS Data Services" v:roleName=publisher v:displayName="EGS Data Services"
 ```
+
+## Top Records
+
+```ls
+| old_house | old_fraction | old_dir | old_street_name  | old_type | old_bldg | old_unit | new_house | new_fraction | new_dir | new_street_name  | new_type | new_bldg | new_unit | effective_date      | tax_id     | key_number | 
+| ========= | ============ | ======= | ================ | ======== | ======== | ======== | ========= | ============ | ======= | ================ | ======== | ======== | ======== | =================== | ========== | ========== | 
+| 2400      |              |         | WINSTED          | LN       |          |          | 2400      |              |         | WINSTED          | LN       | 2        |          | 2016-09-26T00:00:00 | 0115040605 | 14121      | 
+| 9200      |              |         | IVALENES HOPE    | DR       |          |          | 9200      |              |         | IVALENES HOPE    | DR       |          |          | 2016-09-12T00:00:00 | R498117    | 13960      | 
+| 9308      |              |         | 969              | RD       |          | 25-B     | 9308      |              |         | 969              | RD       |          | 31       | 2016-09-06T00:00:00 | 0210310512 | 13921      | 
+| 9308      |              |         | 969              | RD       |          | 19       | 9308      |              |         | 969              | RD       |          | 24       | 2016-09-06T00:00:00 | 0210310512 | 13920      | 
+| 9308      |              |         | 969              | RD       | A        | 15       | 9308      |              |         | 969              | RD       |          | 19       | 2016-09-02T00:00:00 | 0210310512 | 13862      | 
+| 9308      |              |         | 969              | RD       |          | 15A      | 9308      |              |         | 969              | RD       |          | 19       | 2016-09-02T00:00:00 | 0210310512 | 13861      | 
+| 15304     |              |         | BACK OF THE MOON |          |          |          | 15307     |              |         | Rainbow Two      |          |          |          | 2016-09-06T00:00:00 | 0158550504 | 13841      | 
+| 15304     |              |         | BACK OF THE MOON |          |          |          | 15304     |              |         | BACK OF THE MOON |          |          |          | 2016-09-02T00:00:00 | 0158550504 | 13840      | 
+| 9306      |              |         | 969              | RD       |          | H5       | 9308      |              |         | 969              | RD       |          | 32       | 2016-08-29T00:00:00 | 0210310513 | 13804      | 
+| 9306      |              |         | 969              | RD       |          | H4       | 9308      |              |         | 969              | RD       |          | 33       | 2016-08-29T00:00:00 | 0210310513 | 13803      | 
+```

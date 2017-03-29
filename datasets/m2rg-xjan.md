@@ -69,3 +69,20 @@ property e:m2rg-xjan t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:m2rg-xjan t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| admission_year | admission_month | month_code | latest_admission_type | county_of_commitment | last_known_residence_county | gender | age_at_admission | most_serious_crime           | 
+| ============== | =============== | ========== | ===================== | ==================== | =========================== | ====== | ================ | ============================ | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | FEMALE | 17               | BURGLARY 3RD                 | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | FEMALE | 24               | CRIM SALE CONTROLLED SUB 3RD | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | FEMALE | 27               | CRIM POSS CONTROLLED SUB 4TH | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | FEMALE | 41               | CRIM SALE CONTROLLED SUB 3RD | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | FEMALE | 50               | POS FORGE INS 2ND            | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | MALE   | 19               | ROBBERY 2ND                  | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | MALE   | 19               | ROBBERY 2ND                  | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | MALE   | 19               | ROBBERY 2ND                  | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | MALE   | 20               | C POS WEAPON 2ND             | 
+| 2012           | JANUARY         | 1          | NEW COURT COMMITMENT  | ALBANY               |                             | MALE   | 21               | CRIM POSS CONTROLLED SUB 3RD | 
+```

@@ -95,3 +95,20 @@ property e:cpc6-pxmp t:meta.view.owner v:id=vedk-n2zt v:profileImageUrlMedium=/a
 
 property e:cpc6-pxmp t:meta.view.tableauthor v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```
+
+## Top Records
+
+```ls
+| location          | january | february | march | april | may   | june  | july  | august | september | october | november | december | ytd    | 
+| ================= | ======= | ======== | ===== | ===== | ===== | ===== | ===== | ====== | ========= | ======= | ======== | ======== | ====== | 
+| Albany Park       | 11735   | 10593    | 12368 | 12556 | 10915 | 15341 | 14151 | 13907  | 14119     | 16460   | 14463    | 12789    | 159397 | 
+| Altgeld           | 5335    | 5034     | 4529  | 4471  | 3880  | 4431  | 5526  | 5867   | 5433      | 5064    | 4584     | 3325     | 57479  | 
+| Archer Heights*   | 8375    | 9079     | 10522 | 9747  | 8714  | 9567  | 9514  | 8831   | 8611      | 9209    | 8400     | 6754     | 107323 | 
+| Austin            | 5849    | 5190     | 5691  | 6313  | 6092  | 7489  | 9012  | 8202   | 7521      | 7257    | 6395     | 6632     | 81643  | 
+| Austin-Irving     | 8726    | 9201     | 10017 | 10010 | 8346  | 9571  | 9567  | 9386   | 9110      | 10505   | 10540    | 9913     | 114892 | 
+| Avalon*           | 8835    | 8984     | 8993  | 9729  | 9201  | 9755  | 10089 | 9860   | 9053      | 9772    | 10110    | 8970     | 113351 | 
+| Back of the Yards | 4871    | 5896     | 5552  | 6453  | 5713  | 5487  | 5694  | 6857   | 5719      | 5223    | 4421     | 3863     | 65749  | 
+| Beverly*          | 6813    | 7666     | 7943  | 7639  | 7568  | 7814  | 9243  | 8953   | 7615      | 7971    | 10466    | 9545     | 99236  | 
+| Bezazian          | 10658   | 10329    | 11799 | 11849 | 9770  | 11750 | 12560 | 13404  | 11076     | 11920   | 10424    | 9317     | 134856 | 
+| Blackstone        | 8355    | 7777     | 8607  | 9328  | 7925  | 9337  | 10983 | 10176  | 8849      | 9178    | 8333     | 7691     | 106539 | 
+```

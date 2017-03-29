@@ -64,3 +64,20 @@ property e:wv7d-caby t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:wv7d-caby t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| district | candidate     | date_iec_raised     | amount_of_iec | 
+| ======== | ============= | =================== | ============= | 
+| 10       | Kelly, Tony   | 2014-07-10T00:00:00 | 250000        | 
+| 10       | Tran, Marlene | 2014-08-20T00:00:00 | 250000        | 
+| 10       | Kelly, Tony   | 2014-09-08T00:00:00 | 260000        | 
+| 10       | Tran, Marlene | 2014-09-08T00:00:00 | 260000        | 
+| 10       | Kelly, Tony   | 2014-09-22T00:00:00 | 290000        | 
+| 10       | Tran, Marlene | 2014-09-22T00:00:00 | 290000        | 
+| 10       | Kelly, Tony   | 2014-10-03T00:00:00 | 300000        | 
+| 10       | Tran, Marlene | 2014-10-03T00:00:00 | 300000        | 
+| 10       | Kelly, Tony   | 2014-10-24T00:00:00 | 310000        | 
+| 10       | Tran, Marlene | 2014-10-24T00:00:00 | 310000        | 
+```

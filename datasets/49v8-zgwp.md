@@ -63,3 +63,20 @@ property e:49v8-zgwp t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:disp
 
 property e:49v8-zgwp t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
+
+## Top Records
+
+```ls
+| budget_fiscal_year | agency_name | fund_name                                     | restricted_amount | released_amount | 
+| ================== | =========== | ============================================= | ================= | =============== | 
+| 2015               | AGRICULTURE | AGRICULTURE BUSINESS DEVELOPMENT              | 39                | 39              | 
+| 2015               | AGRICULTURE | AGRICULTURE DEVELOPMENT                       | 343               | 343             | 
+| 2015               | AGRICULTURE | AGRICULTURE PROTECTION                        | 46330             | 2364            | 
+| 2015               | AGRICULTURE | ANIMAL CARE RESERVE                           | 2352              | 2249            | 
+| 2015               | AGRICULTURE | ANIMAL HEALTH LABORATORY FEE                  | 764               | 104             | 
+| 2015               | AGRICULTURE | AQUACULTURE MARKETING DEVELOPMENT             | 42                | 42              | 
+| 2015               | AGRICULTURE | BOLL WEEVIL SUPPRESSION AND ERADICATION       | 181               | 181             | 
+| 2015               | AGRICULTURE | COMMODITY COUNCIL MERCHANDISING               | 357               | 357             | 
+| 2015               | AGRICULTURE | DEPARTMENT OF AGRICULTURE - FEDERAL AND OTHER | 6541              | 3140            | 
+| 2015               | AGRICULTURE | FEDERAL STIMULUS - AGRICULTURE                | 170               | 170             | 
+```

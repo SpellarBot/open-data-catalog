@@ -72,3 +72,20 @@ property e:s995-ndgk t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigo
 
 property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| rowid                                                                  | date                | month    | year | indicatorname                                                    | indicatorvalue | 
+| ====================================================================== | =================== | ======== | ==== | ================================================================ | ============== | 
+| Percent of the pop. that are library cardholders (year-to-date)201201  | 2012-01-01T00:00:00 | January  | 2012 | Percent of the pop. that are library cardholders (year-to-date)  | 14.71          | 
+| Percent of the pop. that are library cardholders (current month)201201 | 2012-01-01T00:00:00 | January  | 2012 | Percent of the pop. that are library cardholders (current month) | 14.71          | 
+| Percent of the pop. that are library cardholders (year-to-date)201202  | 2012-02-01T00:00:00 | February | 2012 | Percent of the pop. that are library cardholders (year-to-date)  | 14.818         | 
+| Percent of the pop. that are library cardholders (current month)201202 | 2012-02-01T00:00:00 | February | 2012 | Percent of the pop. that are library cardholders (current month) | 14.926         | 
+| Percent of the pop. that are library cardholders (year-to-date)201203  | 2012-03-01T00:00:00 | March    | 2012 | Percent of the pop. that are library cardholders (year-to-date)  | 14.9005        | 
+| Percent of the pop. that are library cardholders (current month)201203 | 2012-03-01T00:00:00 | March    | 2012 | Percent of the pop. that are library cardholders (current month) | 15.0654        | 
+| Percent of the pop. that are library cardholders (year-to-date)201204  | 2012-04-01T00:00:00 | April    | 2012 | Percent of the pop. that are library cardholders (year-to-date)  | 14.9893        | 
+| Percent of the pop. that are library cardholders (current month)201204 | 2012-04-01T00:00:00 | April    | 2012 | Percent of the pop. that are library cardholders (current month) | 15.2559        | 
+| Percent of the pop. that are library cardholders (year-to-date)201205  | 2012-05-01T00:00:00 | May      | 2012 | Percent of the pop. that are library cardholders (year-to-date)  | 15.2071        | 
+| Percent of the pop. that are library cardholders (current month)201205 | 2012-05-01T00:00:00 | May      | 2012 | Percent of the pop. that are library cardholders (current month) | 16.0781        | 
+```

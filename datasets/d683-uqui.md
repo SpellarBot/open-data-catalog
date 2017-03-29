@@ -64,3 +64,20 @@ property e:d683-uqui t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/a
 
 property e:d683-uqui t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```
+
+## Top Records
+
+```ls
+| fiscal_year_2       | system_annual_average_production_cost_cents_per_kwh | 
+| =================== | =================================================== | 
+| 2006-09-01T00:00:00 | 3.93                                                | 
+| 2007-09-01T00:00:00 | 3.831                                               | 
+| 2008-09-01T00:00:00 | 4.403                                               | 
+| 2009-09-01T00:00:00 | 4.165                                               | 
+| 2010-09-01T00:00:00 | 4.331                                               | 
+| 2011-09-01T00:00:00 | 4.304                                               | 
+| 2012-09-01T00:00:00 | 4.197                                               | 
+| 2013-09-01T00:00:00 | 4.591                                               | 
+| 2014-09-01T00:00:00 | 4.992                                               | 
+| 2015-09-01T00:00:00 | 4.293                                               | 
+```

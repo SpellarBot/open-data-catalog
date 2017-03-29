@@ -69,3 +69,20 @@ property e:hkfu-49xs t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mast
 
 property e:hkfu-49xs t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```
+
+## Top Records
+
+```ls
+| item | category_of_gov    | vendor_name             | amount  | check_date          | department            | check  | org_description                | account_desc                   | 
+| ==== | ================== | ======================= | ======= | =================== | ===================== | ====== | ============================== | ============================== | 
+| 1    | General Government | 4IMPRINT                | 870.66  | 2016-11-22T00:00:00 | OSPCD ADMINISTRATION  | 4229   | OSPCD-ADMIN ORDINARY MAINT     | OFFICE SUPPLIES                | 
+| 2    | General Government | 4IMPRINT                | 357.44  | 2016-08-31T00:00:00 | POLICE DEPARTMENT     | 3991   | POLICE ORDINARY MAINTENANCE    | PRINTING & STATIONERY          | 
+| 3    | General Government | 4IMPRINT                | 722.60  | 2016-08-31T00:00:00 | POLICE DEPARTMENT     | 3992   | POLICE-ANIMAL CTL ORD MAINT    | STATIONERY                     | 
+| 4    | General Government | 4IMPRINT                | 1474.28 | 2016-08-24T00:00:00 | BOARD OF HEALTH       | 3966   | MT AUBURN COMM BENEFIT FUNDING | OTHER SUPPLIES                 | 
+| 6    | Education          | A C MOORE INC           | 74.84   | 2016-08-10T00:00:00 | SCHOOL ADMINISTRATION | 603403 | COMMSCH SACC-DW-CIVIC          | SACC-DW-EDUCSUPP               | 
+| 12   | Education          | A C MOORE INC           | 327.82  | 2016-08-31T00:00:00 | SCHOOL ADMINISTRATION | 604041 | COMMSCH SACC-DW-CIVIC          | SACC-DW-EDUCSUPP               | 
+| 16   | Education          | A C MOORE INC           | 189.27  | 2016-09-28T00:00:00 | SCHOOL ADMINISTRATION | 605065 | COMMSCH SACC-DW-CIVIC          | SACC-DW-EDUCSUPP               | 
+| 32   | Education          | A C MOORE INC           | 945.38  | 2016-11-16T00:00:00 | SCHOOL ADMINISTRATION | 606883 | COMMSCH SACC-DW-CIVIC          | SACC-DW-EDUCSUPP               | 
+| 49   | Education          | A C MOORE INC           | 943.27  | 2016-12-21T00:00:00 | SCHOOL ADMINISTRATION | 608377 | COMMSCH SACC-DW-CIVIC          | SACC-DW-EDUCSUPP               | 
+| 50   | Education          | A DAIGGER & COMPANY INC | 18.24   | 2016-10-19T00:00:00 | SCHOOL ADMINISTRATION | 605815 | ESCS-SUPPLIES-ESCS-REG         | ESCS-SUPPLIES-ESCS-REG-SUPPLIE | 
+```

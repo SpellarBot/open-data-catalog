@@ -86,3 +86,20 @@ property e:tzir-jbhj t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:di
 
 property e:tzir-jbhj t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```
+
+## Top Records
+
+```ls
+| :updated_at | department_code | department_or_division | inventory_status | publishing_plan_status | target_december_2015 | published_through_december_2015 | target_june_2016 | published_through_june_2016 | target_december_2016 | published_through_december_2016 | target_december_2017 | published_through_december_2017 | 
+| =========== | =============== | ====================== | ================ | ====================== | ==================== | =============================== | ================ | =========================== | ==================== | =============================== | ==================== | =============================== | 
+| 1490377496  | 311             | 311                    | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | SCI             | Academy of Sciences    | Incomplete       | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | ADP             | Adult Probation        | Complete         | Complete               | 2                    | 0                               | 2                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | AIR             | Airport                | Complete         | Incomplete             | 15                   | 4                               | 19               | 5                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | ART             | Arts Commission        | Complete         | Complete               | 1                    | 1                               | 0                | 0                           | 0                    | 0                               | 2                    | 0                               | 
+| 1490377496  | AAM             | Asian Art Museum       | Complete         | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | ASR             | Assessor-Recorder      | Complete         | Incomplete             | 0                    | 0                               | 1                | 2                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | BOA             | Board of Appeals       | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | BOS             | Board of Supervisors   | Complete         | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1490377496  | DBI             | Building Inspection    | Incomplete       | Incomplete             | 0                    | 0                               | 0                | 6                           | 0                    | 0                               | 0                    | 0                               | 
+```

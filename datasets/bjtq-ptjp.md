@@ -85,3 +85,20 @@ property e:bjtq-ptjp t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigo
 
 property e:bjtq-ptjp t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| row_id        | year | date                | parish    | very_good | good | fair | poor | very_poor | total_verygood_good_fair | 
+| ============= | ==== | =================== | ========= | ========= | ==== | ==== | ==== | ========= | ======================== | 
+| Orleans2006   | 2006 | 2006-01-01T00:00:00 | Orleans   | 3         | 14   | 18   | 37   | 28        | 35                       | 
+| Jefferson2006 | 2006 | 2006-01-01T00:00:00 | Jefferson | 12        | 35   | 28   | 19   | 6         | 75                       | 
+| Orleans2007   | 2007 | 2007-01-01T00:00:00 | Orleans   | 6         | 25   | 34   | 25   | 10        | 65                       | 
+| Jefferson2007 | 2007 | 2007-01-01T00:00:00 | Jefferson | 13        | 41   | 26   | 14   | 4         | 80                       | 
+| Orleans2008   | 2008 | 2008-01-01T00:00:00 | Orleans   | 8         | 27   | 22   | 22   | 18        | 57                       | 
+| Jefferson2008 | 2008 | 2008-01-01T00:00:00 | Jefferson | 18        | 41   | 27   | 12   | 2         | 86                       | 
+| Orleans2012   | 2012 | 2012-01-01T00:00:00 | Orleans   | 14        | 49   | 26   | 9    | 2         | 89                       | 
+| Jefferson2012 | 2012 | 2012-01-01T00:00:00 | Jefferson | 24        | 62   | 11   | 2    | 0         | 97                       | 
+| Orleans2013   | 2013 | 2013-01-01T00:00:00 | Orleans   | 11        | 62   | 18   | 7    | 2         | 91                       | 
+| Jefferson2013 | 2013 | 2013-01-01T00:00:00 | Jefferson | 21        | 61   | 15   | 1    | 0         | 97                       | 
+```

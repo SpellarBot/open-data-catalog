@@ -105,3 +105,20 @@ property e:cpva-49fs t:meta.view.owner v:id=jitu-w2pw v:screenName=GPeck v:displ
 
 property e:cpva-49fs t:meta.view.tableauthor v:id=jitu-w2pw v:screenName=GPeck v:roleName=editor v:displayName=GPeck
 ```
+
+## Top Records
+
+```ls
+| location       | address                     | city    | zip   | january | february | march | april | may | june | july | august | september | october | november | december | ytd  | 
+| ============== | =========================== | ======= | ===== | ======= | ======== | ===== | ===== | === | ==== | ==== | ====== | ========= | ======= | ======== | ======== | ==== | 
+| Albany Park    | 5150 N. Kimball Avenue      | CHICAGO | 60625 | 198     | 224      | 230   | 239   | 195 | 197  | 254  | 137    | 44        | 1       | 0        | 0        | 1719 | 
+| Altgeld        | 13281 S. Corliss Avenue     | CHICAGO | 60827 | 30      | 20       | 16    | 21    | 8   | 5    | 19   | 9      | 34        | 13      | 12       | 29       | 216  | 
+| Archer Heights | 5055 S. Archer Avenue       | CHICAGO | 60632 | 88      | 76       | 109   | 122   | 139 | 106  | 136  | 143    | 102       | 128     | 122      | 73       | 1344 | 
+| Austin         | 5615 W. Race Avenue         | CHICAGO | 60644 | 18      | 12       | 24    | 27    | 40  | 27   | 41   | 52     | 54        | 61      | 45       | 37       | 438  | 
+| Austin-Irving  | 6100 W. Irving Park Road    | CHICAGO | 60634 | 123     | 149      | 138   | 148   | 135 | 183  | 215  | 186    | 158       | 172     | 164      | 115      | 1886 | 
+| Avalon         | 8148 S. Stony Island Avenue | CHICAGO | 60617 | 198     | 259      | 213   | 198   | 238 | 221  | 282  | 246    | 224       | 259     | 204      | 191      | 2733 | 
+| Beverly        | 1962 W. 95th Street         | CHICAGO | 60643 | 185     | 162      | 183   | 184   | 173 | 232  | 160  | 192    | 134       | 215     | 143      | 102      | 2065 | 
+| Bezazian       | 1226 W. Ainslie Street      | CHICAGO | 60640 | 386     | 388      | 414   | 384   | 352 | 397  | 339  | 433    | 405       | 423     | 273      | 257      | 4451 | 
+| Blackstone     | 4904 S. Lake Park Avenue    | CHICAGO | 60615 | 149     | 120      | 152   | 174   | 140 | 202  | 217  | 155    | 164       | 205     | 170      | 146      | 1994 | 
+| Brainerd       | 1350 W. 89th Street         | CHICAGO | 60620 | 33      | 37       | 30    | 50    | 56  | 61   | 65   | 60     | 52        | 64      | 54       | 48       | 610  | 
+```

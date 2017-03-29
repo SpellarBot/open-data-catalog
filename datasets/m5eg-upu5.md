@@ -59,3 +59,20 @@ property e:m5eg-upu5 t:meta.view.tableauthor v:id=drs7-75yr v:profileImageUrlMed
 
 property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=HomeHealthQualityQuestions@cms.hhs.gov v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
 ```
+
+## Top Records
+
+```ls
+| :updated_at | state | provider_number | zip_code | 
+| =========== | ===== | =============== | ======== | 
+| 1483633015  | AL    | 017000          | 36104    | 
+| 1483633015  | AL    | 017008          | 35005    | 
+| 1483633015  | AL    | 017008          | 35020    | 
+| 1483633015  | AL    | 017008          | 35022    | 
+| 1483633015  | AL    | 017008          | 35023    | 
+| 1483633015  | AL    | 017008          | 35060    | 
+| 1483633015  | AL    | 017008          | 35064    | 
+| 1483633015  | AL    | 017008          | 35068    | 
+| 1483633015  | AL    | 017008          | 35071    | 
+| 1483633015  | AL    | 017008          | 35091    | 
+```

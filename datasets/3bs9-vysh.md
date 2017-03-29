@@ -69,3 +69,20 @@ property e:3bs9-vysh t:meta.view.owner v:id=j34k-s96t v:screenName="Michael Mast
 
 property e:3bs9-vysh t:meta.view.tableauthor v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
 ```
+
+## Top Records
+
+```ls
+| item | category_of_gov    | vendor_name                            | amount    | check_date          | department                 | check  | org_description                | account_desc              | 
+| ==== | ================== | ====================================== | ========= | =================== | ========================== | ====== | ============================== | ========================= | 
+| 1    | General Government | 4IMPRINT                               | 995.12    | 2015-06-30T00:00:00 | COMMUNICATIONS DEPARTMENT  | 1999   | COMMUNICATIONS ORDINARY MAINT  | NEIGHBORHOOD IMP. COUNCIL | 
+| 2    | General Government | 4IMPRINT                               | 958.27    | 2014-08-13T00:00:00 | BOARD OF HEALTH            | 1094   | MASS IN MOTION '14             | OTHER SUPPLIES            | 
+| 4    | General Government | 4IMPRINT                               | 953.15    | 2014-10-29T00:00:00 | BOARD OF HEALTH            | 1286   | MASS.IN MOTION '15             | PROMOTIONAL MATERIALS     | 
+| 5    | General Government | 4IMPRINT                               | 2124.00   | 2014-10-08T00:00:00 | BOARD OF HEALTH            | 1232   | SOCIAL NORMS/MKTNG/MEDIA '14   | OTHER SUPPLIES            | 
+| 6    | General Government | 7TH MASS.REGIMENT                      | 1000.00   | 2015-05-20T00:00:00 | VETERANS SERVICES          | 586357 | VETERANS BENEFITS ORDINARY MNT | PROFESSIONL & TECHNCL SVC | 
+| 7    | Public Works       | A AND C DEMOLITION AND SITE LLC        | 5700.00   | 2014-10-08T00:00:00 | DEPARTMENT OF PUBLIC WORKS | 578918 | DPW-SNOW REMVL ORDINARY MAINT  | SNOW REMOVAL              | 
+| 10   | Public Works       | A AND C DEMOLITION AND SITE LLC        | 147645.00 | 2015-07-08T00:00:00 | DEPARTMENT OF PUBLIC WORKS | 589150 | DPW-SNOW REMVL ORDINARY MAINT  | SNOW REMOVAL              | 
+| 11   | General Government | A A E EMBROIDERY & SCREEN PRINTING INC | 2553.00   | 2015-05-20T00:00:00 | OFFICE OF MAYOR            | 586358 | CONVERSE/FILL IN BLANK EXP     | UNIFORMS                  | 
+| 12   | General Government | A A E EMBROIDERY & SCREEN PRINTING INC | 1760.00   | 2015-03-04T00:00:00 | RECREATION AND YOUTH       | 583710 | REC/YOUTH PROG ORDINARY MAINT  | UNIFORMS                  | 
+| 13   | General Government | A A E EMBROIDERY & SCREEN PRINTING INC | 2314.00   | 2015-03-04T00:00:00 | RECREATION AND YOUTH       | 583710 | PARKS AND RECREATION           | UNIFORMS                  | 
+```

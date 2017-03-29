@@ -60,3 +60,20 @@ property e:itxz-7spz t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:itxz-7spz t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| dept | number_of_employees | total_cost | 
+| ==== | =================== | ========== | 
+| 002  | 10                  | 10114.05   | 
+| 007  | 38                  | 33177.28   | 
+| 008  | 22                  | 24649.37   | 
+| 009  | 43                  | 38354.12   | 
+| 010  | 11                  | 9229.37    | 
+| 011  | 37                  | 31039.64   | 
+| 013  | 6                   | 6297.96    | 
+| 014  | 15                  | 15930.58   | 
+| 016  | 55                  | 57866.14   | 
+| 018  | 9                   | 9675.80    | 
+```

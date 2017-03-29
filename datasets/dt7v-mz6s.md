@@ -65,3 +65,20 @@ property e:dt7v-mz6s t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:dt7v-mz6s t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| filerid | reportered_filerid | filer_naml                                                                                                         | measure                                         | position | 
+| ======= | ================== | ================================================================================================================== | =============================================== | ======== | 
+| 1367310 | 1367310            | Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations                       | Measure J - Minimum Wage                        | Support  | 
+| 1367310 | 1367310            | Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations, Yes on Proposition J | Measure J - Minimum Wage                        | Support  | 
+| 1367736 | 1367736            | Children and Family First Committee                                                                                | Measure C - Children and Youth Fund             | Support  | 
+| 1367736 | 1367736            | Children and Family First Committee, Yes on C                                                                      | Measure C - Children and Youth Fund             | Support  | 
+| 1369298 | 1369298            | Coalition for Affordable Housing, a Committee for Proposition K                                                    | Measure K - Affordable Housing                  | Support  | 
+| 1367676 | pending, 1367676   | Coalition to Protect Golden Gate Park                                                                              | Measure H - Athletic Fields in Golden Gate Park | Support  | 
+| 1367676 |                    | Coalition to Protect Golden Gate Park, Yes on H                                                                    | Measure H - Athletic Fields in Golden Gate Park | Support  | 
+| 1367738 | 1367738            | Committee for Better Wages                                                                                         | Measure J - Minimum Wage                        | Support  | 
+| 1367738 | 1367738            | Committee for Better Wages, Yes on J                                                                               | Measure J - Minimum Wage                        | Support  | 
+| 1367740 | 1367740            | Committee for Reliable Transportation & Better, Safer Streets                                                      | Measure A - Transportation and Road Improvement | Support  | 
+```

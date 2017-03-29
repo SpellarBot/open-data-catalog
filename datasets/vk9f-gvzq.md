@@ -65,3 +65,14 @@ property e:vk9f-gvzq t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| borough  | total_investigations_assigned | month     | year | investigations_assigned_count | 
+| ======== | ============================= | ========= | ==== | ============================= | 
+| Citywide | Total                         | September | 2016 | 112                           | 
+| Citywide | Total                         | November  | 2016 | 146                           | 
+| Citywide | Total                         | December  | 2016 | 166                           | 
+| Citywide | Total                         | January   | 2017 | 200                           | 
+```

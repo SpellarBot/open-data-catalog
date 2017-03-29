@@ -72,3 +72,20 @@ property e:xwgr-xw5q t:meta.view.owner v:id=art8-rc4x v:profileImageUrlMedium=/a
 
 property e:xwgr-xw5q t:meta.view.tableauthor v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
 ```
+
+## Top Records
+
+```ls
+| incident_number | area_occ    | rpt_dist | dispatch_date       | dispatch_time | call_type_code | call_type_text | 
+| =============== | =========== | ======== | =================== | ============= | ============== | ============== | 
+| 161031000621    | Newton      | 1321     | 2016-10-31T00:00:00 | 04:57:44      | 9212           | TRESPASS SUSP  | 
+| 161031000620    | Southwest   | 0396     | 2016-10-31T00:00:00 | 04:55:22      | 459X           | I/P            | 
+| 161031000600    | Olympic     | 2029     | 2016-10-31T00:00:00 | 04:54:49      | 906B1          | CODE 30 RINGER | 
+| 161031000556    | West Valley | 1008     | 2016-10-31T00:00:00 | 04:50:22      | 507P           | PARTY          | 
+| 161031000609    | 77th Street | 1256     | 2016-10-31T00:00:00 | 04:45:49      | 620D           | DOM VIOL       | 
+| 161031000596    | Pacific     | 1453     | 2016-10-31T00:00:00 | 04:42:58      | 999F           | FD HELP        | 
+| 161031000574    | Rampart     | 0257     | 2016-10-31T00:00:00 | 04:42:21      | 415G           | GRP            | 
+| 161031000606    | 77th Street | 1219     | 2016-10-31T00:00:00 | 04:37:32      | 620FR          | FAMILY R/O     | 
+| 161031000586    | 77th Street | 1241     | 2016-10-31T00:00:00 | 04:33:59      | 9212           | TRESPASS SUSP  | 
+| 161031000598    | Devonshire  | 1753     | 2016-10-31T00:00:00 | 04:33:53      | 415M           | MAN            | 
+```

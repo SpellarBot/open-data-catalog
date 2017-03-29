@@ -79,3 +79,20 @@ property e:ghrm-j3er t:meta.view.owner v:id=art8-rc4x v:profileImageUrlMedium=/a
 
 property e:ghrm-j3er t:meta.view.tableauthor v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
 ```
+
+## Top Records
+
+```ls
+| stop_nbr | form_ref_nbr | persn_gender_cd | persn_descent_cd | descent_desc | stop_dt             | stop_tm | ofcr1_serl_nbr | ofcr1_div_nbr | div1_desc       | ofcr2_serl_nbr | ofcr2_div_nbr | div2_desc       | rpt_dist_nbr | stop_type | post_stop_actv_ind | 
+| ======== | ============ | =============== | ================ | ============ | =================== | ======= | ============== | ============= | =============== | ============== | ============= | =============== | ============ | ========= | ================== | 
+| 12910565 | 26538544     | M               | W                | WHITE        | 2016-06-25T00:00:00 | 16:40   | 16685          | 25            | SOUTH TRAFFIC   |                |               |                 | 1801         | VEH       | N                  | 
+| 12598583 | 25184341     | M               | H                | HISPANIC     | 2016-01-01T00:00:00 | 23:50   | 25401          | 17            | DEVONSHIRE      | 51343          | 17            | DEVONSHIRE      | 1764         | VEH       | N                  | 
+| 12598587 | 25184346     | M               | B                | BLACK        | 2016-01-01T00:00:00 | 00:10   | 49734          | 10            | WEST VALLEY     | 57765          | 10            | WEST VALLEY     | 1039         | VEH       | N                  | 
+| 12598257 | 25184352     | M               | H                | HISPANIC     | 2016-01-01T00:00:00 | 00:05   | 47420          | 14            | PACIFIC         | 47435          | 14            | PACIFIC         | 1457         | VEH       | N                  | 
+| 12598256 | 25184352     | M               | H                | HISPANIC     | 2016-01-01T00:00:00 | 00:05   | 47420          | 14            | PACIFIC         | 47435          | 14            | PACIFIC         | 1457         | VEH       | N                  | 
+| 12598255 | 25184352     | M               | H                | HISPANIC     | 2016-01-01T00:00:00 | 00:05   | 47420          | 14            | PACIFIC         | 47435          | 14            | PACIFIC         | 1457         | VEH       | N                  | 
+| 12598594 | 25184354     | M               | W                | WHITE        | 2016-01-01T00:00:00 | 00:20   | 51087          | 07            | WILSHIRE        | 57759          | 07            | WILSHIRE        | 766          | VEH       | Y                  | 
+| 12598609 | 25184361     | F               | B                | BLACK        | 2016-01-01T00:00:00 | 20:30   | 49353          | 12            | SEVENTY-SEVENTH | 47438          | 12            | SEVENTY-SEVENTH | 1241         | PED       | Y                  | 
+| 12598608 | 25184361     | M               | B                | BLACK        | 2016-01-01T00:00:00 | 20:30   | 49353          | 12            | SEVENTY-SEVENTH | 47438          | 12            | SEVENTY-SEVENTH | 1241         | PED       | Y                  | 
+| 12598607 | 25184361     | M               | B                | BLACK        | 2016-01-01T00:00:00 | 20:30   | 49353          | 12            | SEVENTY-SEVENTH | 47438          | 12            | SEVENTY-SEVENTH | 1241         | PED       | Y                  | 
+```

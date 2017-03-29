@@ -75,3 +75,20 @@ property e:bbyy-e7gq t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Lev
 
 property e:bbyy-e7gq t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | id  | station_name                | address                     | total_docks | docks_in_service | status     | latitude     | longitude     | 
+| =========== | === | =========================== | =========================== | =========== | ================ | ========== | ============ | ============= | 
+| 1487592036  | 405 | Wentworth Ave & 35th St     | Wentworth Ave & 35th St     | 15          | 15               | In Service | 41.830777    | -87.632504    | 
+| 1487592036  | 486 | Oakley Ave & Irving Park Rd | Oakley Ave & Irving Park Rd | 15          | 15               | In Service | 41.954340852 | -87.686079624 | 
+| 1488369634  | 11  | Jeffery Blvd & 71st St      | Jeffery Blvd & 71st St      | 11          | 11               | In Service | 41.766638237 | -87.576450114 | 
+| 1478170835  | 538 | Cicero Ave & Flournoy St    | Cicero Ave & Flournoy St    | 15          | 15               | In Service | 41.872131    | -87.746619    | 
+| 1483444838  | 12  | South Shore Dr & 71st St    | MLSW                        | 15          | 15               | In Service | 41.766409457 | -87.565687572 | 
+| 1488974435  | 15  | Racine Ave & 18th St        | 1726 S Racine Ave           | 15          | 15               | In Service | 41.858166    | -87.656495    | 
+| 1489662040  | 532 | Austin Blvd & Lake St       | Austin Blvd & Lake St       | 15          | 15               | In Service | 41.887919    | -87.774446    | 
+| 1489921238  | 168 | Michigan Ave & 14th St      | Michigan Ave & 14th St      | 19          | 19               | In Service | 41.864059    | -87.623727    | 
+| 1479988838  | 514 | Ridge Blvd & Howard St      | Ridge Blvd & Howard St      | 15          | 15               | In Service | 42.019276    | -87.68452     | 
+| 1490266831  | 74  | Kingsbury St & Erie St      | 511 W Erie                  | 23          | 23               | In Service | 41.893882    | -87.641711    | 
+```

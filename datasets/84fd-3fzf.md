@@ -64,3 +64,20 @@ property e:84fd-3fzf t:meta.view.owner v:id=5vv3-gysc v:profileImageUrlMedium=/a
 
 property e:84fd-3fzf t:meta.view.tableauthor v:id=5vv3-gysc v:profileImageUrlMedium=/api/users/5vv3-gysc/profile_images/THUMB v:profileImageUrlLarge=/api/users/5vv3-gysc/profile_images/LARGE v:screenName="Burt Lum" v:profileImageUrlSmall=/api/users/5vv3-gysc/profile_images/TINY v:displayName="Burt Lum"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | tmk         | species_and_number_of_trees  | common_name      | location                                         | 
+| =========== | =========== | ============================ | ================ | ================================================ | 
+| 1367329263  | N/A         | Acrocarpus fraxinifolius (1) | Pink Cedar Tree  | Schofield Barracks, Ulrich S., w. of bldg. S2107 | 
+| 1367329263  | 2-1-035:003 | Adansonia digitata (1)       | Baobab Tree      | Queen's Medical Center, 1301 Punchbowl St.       | 
+| 1367329263  | 1-7-007:002 | Adansonia digitata (1)       | Baobab Tree      | Foster Botanical Garden, 180 N. Vineyard Blvd.   | 
+| 1367329263  | 2-3-037:001 | Adansonia digitata (11)      | Baobab Trees     | Ala Moana Beach Park                             | 
+| 1367329263  | 2-1-025:003 | Agathis robusta (1)          | Kauri Tree       | Judiciary Bldg., 417 S. King (Downtown)          | 
+| 1367329263  | 2-9-055:006 | Agathis robusta (1)          | Kauri Tree       | Harold L. Lyon Arboretum, 3860 Manoa Rd.         | 
+| 1367329263  | N/A         | Albizia guachapele (3)       | Guachapele Trees | Schofield Barracks, Wright Ave.                  | 
+| 1367329263  | N/A         | Albizia niopoides (1)        |                  | Schofield Barracks, Sargent Rd.                  | 
+| 1367329263  | N/A         | Albizia procera (4)          | Albizia Trees    | Wheeler Army Airfield, Wright Ave.               | 
+| 1367329263  | 4-2-009:001 | Araucaria bidwillii (1)      | Bunya-bunya tree | Castle Ranch, 1385 Maunawili Rd., Kailua         | 
+```

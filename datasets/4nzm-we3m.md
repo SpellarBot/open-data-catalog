@@ -60,3 +60,20 @@ property e:4nzm-we3m t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:disp
 
 property e:4nzm-we3m t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
+
+## Top Records
+
+```ls
+| agency_name | program_name                             | vendor_name                   | payments_total     | 
+| =========== | ======================================== | ============================= | ================== | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | CRYSTAL LAKE FISHERIES INC    | 52809.14           | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | FLOWERS FISH FARM LLC         | 37285.06           | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | FRENCH FARMS                  | 21755.01           | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | SCHRIEFERS OFFICE EQUIPMENT   | 24.5               | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | AG PROCESSING INC             | 5027409.0199999996 | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | AMERICAN ENERGY PRODUCERS INC | 6                  | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | FASTENAL CO                   | 38.1               | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | GLOBAL FUELS LLC              | 143305.29999999999 | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | LIFE LINE FOODS LLC           | 6867444.7800000003 | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | MID-AMERICA BIOFUELS LLC      | 4564791.5          | 
+```

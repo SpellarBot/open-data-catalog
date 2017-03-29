@@ -68,3 +68,20 @@ property e:9veb-bt9u t:meta.view.owner v:id=dby8-627v v:screenName="Gary Archamb
 
 property e:9veb-bt9u t:meta.view.tableauthor v:id=dby8-627v v:screenName="Gary Archambault" v:roleName=editor v:displayName="Gary Archambault"
 ```
+
+## Top Records
+
+```ls
+| year | percent_of_high_school_students_currently_smoking_cigarettes | percent_of_adults_currently_smoking_cigarettes | percent_of_middle_school_students_currently_smoking_cigarettes | 
+| ==== | ============================================================ | ============================================== | ============================================================== | 
+| 1990 |                                                              | 22.1                                           |                                                                | 
+| 1991 |                                                              | 22.4                                           |                                                                | 
+| 1992 |                                                              | 22.2                                           |                                                                | 
+| 1993 |                                                              | 20.7                                           |                                                                | 
+| 1994 |                                                              | 19.9                                           |                                                                | 
+| 1995 |                                                              | 20.8                                           |                                                                | 
+| 1996 |                                                              | 21.8                                           |                                                                | 
+| 1997 |                                                              | 21.6                                           |                                                                | 
+| 1998 |                                                              | 20.9                                           |                                                                | 
+| 1999 |                                                              | 22.8                                           |                                                                | 
+```

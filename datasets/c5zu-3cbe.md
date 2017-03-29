@@ -66,3 +66,20 @@ property e:c5zu-3cbe t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:c5zu-3cbe t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| site                              | hours                                                   | address                      | city              | state | zip    | 
+| ================================= | ======================================================= | ============================ | ================= | ===== | ====== | 
+| Alsip Village Hall                | Monday-Saturday: 9 a.m.–5 p.m.                          | 4500 W. 123rd St             | Alsip             | IL    | 60803  | 
+| Arlington Heights Village Hall    | Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m. | 33 S. Arlington Heights Road | Arlington Heights | IL    | 60005  | 
+| Barrington Township Hall          | Monday-Saturday: 9 a.m.–5 p.m.                          | 602 S. Hough St              | Barrington        | IL    | 60010  | 
+| Bellwood Village Hall             | Monday-Saturday: 9 a.m.–5 p.m.                          | 3200 Washington Blvd         | Bellwood          | IL    | 60104  | 
+| Berwyn City Hall                  | Monday-Saturday: 9 a.m.–5 p.m.                          | 6700 W. 26th St.             | Berwyn            | IL    | 60402  | 
+| Calumet City Public Library--NEW  | Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m. | 660 Manistee Ave.            | Calumet City      | IL    | 60409  | 
+| Calumet Township Community Center | Monday-Saturday: 9 a.m.–5 p.m.                          | 12633 S. Ashland Ave.        | Calumet Park      | IL    | 60827  | 
+| Chicago Heights City Hall         | Monday-Saturday: 9 a.m.–5 p.m.                          | 1601 Chicago Road            | Chicago Heights   | IL    | 60411  | 
+| Cicero Community Center--NEW      | Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m. | 2250 S. 49th Ave             | Cicero            | IL    | 60804  | 
+| Cicero PSO Building               | Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m. | 5410 W. 34th St              | Cicero            | IL    | 60804  | 
+```

@@ -72,3 +72,20 @@ property e:5ekf-pmct t:meta.view.tableauthor v:id=g3fc-zmqn v:profileImageUrlMed
 
 property e:5ekf-pmct t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
+
+## Top Records
+
+```ls
+| year | state                                    | yes  | no   | category                    | condition                                                   | 
+| ==== | ======================================== | ==== | ==== | =========================== | =========================================================== | 
+| 2011 | Nationwide (States, DC, and Territories) | 82.1 | 17.9 | Health Care Access/Coverage | Do you have any kind of health care coverage?               | 
+| 2011 | Nationwide (States and DC)               | 82.1 | 17.9 | Health Care Access/Coverage | Do you have any kind of health care coverage?               | 
+| 2011 | Guam                                     | 72   | 28   | Health Care Access/Coverage | Do you have any kind of health care coverage?               | 
+| 2011 | Puerto Rico                              | 90.5 | 9.5  | Health Care Access/Coverage | Do you have any kind of health care coverage?               | 
+| 2011 | Nationwide (States, DC, and Territories) | 78.7 | 21.3 | Health Care Access/Coverage | Adults aged 18-64 who have any kind of health care coverage | 
+| 2011 | Nationwide (States and DC)               | 78.7 | 21.3 | Health Care Access/Coverage | Adults aged 18-64 who have any kind of health care coverage | 
+| 2011 | Guam                                     | 69.8 | 30.2 | Health Care Access/Coverage | Adults aged 18-64 who have any kind of health care coverage | 
+| 2011 | Puerto Rico                              | 88.8 | 11.2 | Health Care Access/Coverage | Adults aged 18-64 who have any kind of health care coverage | 
+| 2011 | Kentucky                                 | 77.7 | 22.3 | Health Care Access/Coverage | Adults aged 18-64 who have any kind of health care coverage | 
+| 2011 | Maryland                                 | 84.7 | 15.3 | Health Care Access/Coverage | Adults aged 18-64 who have any kind of health care coverage | 
+```

@@ -85,3 +85,20 @@ property e:rwu6-8j9d t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displ
 
 property e:rwu6-8j9d t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```
+
+## Top Records
+
+```ls
+| objectid | alm_time | alm_date   | inci_no    | station | occup_id | number | st_prefix | street    | st_type | st_suffix | xstreet | xst_prefix | xst_type | xst_suffix | city     | state | zip  | latitude  | longitude  | mutl_aid | shift | alarms | alm_type | inci_type | descript                                         | 
+| ======== | ======== | ========== | ========== | ======= | ======== | ====== | ========= | ========= | ======= | ========= | ======= | ========== | ======== | ========== | ======== | ===== | ==== | ========= | ========== | ======== | ===== | ====== | ======== | ========= | ================================================ | 
+| 32100    |          | 1371168000 | 13-0165020 | 16      | 5701     | 500    |           | VINE      | ST      |           |         |            |          |            | Hartford | CT    | 6112 | 41.794    | -72.687    | N        | A     | 1      | 1        | 321       | EMS call, excluding vehicle accident with injury | 
+| 18015    |          | 1351209600 | 12-0300023 | 11      | 19549    | 170    |           | SISSON    | AV      |           |         |            |          |            | Hartford | CT    | 6105 | 41.763408 | -72.707046 | N        | B     | 1      | 1        | 311       | Medical assist, assist EMS crew                  | 
+| 12578    |          | 1343433600 | 12-0210049 | 15      | 33109    | 8      |           | KENNETH   | ST      |           |         |            |          |            | Hartford | CT    | 6114 | 41.741174 | -72.6846   | N        | D     | 1      | 1        | 700       | False alarm or false call, Other                 | 
+| 18704    |          | 1352073600 | 12-0310054 | 9       | 37052    | 43     |           | SOMERS    | ST      |           |         |            |          |            | Hartford | CT    | 6106 | 41.726955 | -72.7031   | N        | D     | 1      | 1        | 745       | Alarm system activation, no fire - unintentional | 
+| 28321    |          | 1366156800 | 13-0107019 | 9       | 28767    | 61     |           | ARLINGTON | ST      |           |         |            |          |            | Hartford | CT    | 6106 | 41.734991 | -72.706655 | N        | C     | 1      | 3        | 735       | Alarm system sounded due to malfunction          | 
+| 19004    |          | 1352505600 | 12-0315033 | 9       | 28680    | 699    |           | BROADVIEW | TER     |           |         |            |          |            | Hartford | CT    | 6106 | 41.734262 | -72.705492 | N        | A     | 1      | 1        | 321       | EMS call, excluding vehicle accident with injury | 
+| 33779    |          | 1373155200 | 13-0188068 | 10      | 35841    | 7      |           | MEADOW    | ST      |           |         |            |          |            | Hartford | CT    | 6114 | 41.743531 | -72.67311  | N        | D     | 1      | 1        | 440       | Electrical wiring/equipment problem, Other       | 
+| 36373    |          | 1376438400 | 13-0226045 | 2       |          |        |           | FLORENCE  | ST      |           | MAIN    |            | ST       |            | Hartford | CT    | 6120 | 41.7763   | -72.6771   | N        | B     | 1      | 1        | 324       | Motor Vehicle Accident with no injuries          | 
+| 12794    |          | 1343779200 | 12-0214051 | 2       | 18440    | 73     |           | PLINY     | ST      |           |         |            |          |            | Hartford | CT    | 6120 | 41.780604 | -72.683337 | N        | D     | 1      | 1        | 321       | EMS call, excluding vehicle accident with injury | 
+| 13703    |          | 1345075200 | 12-0229035 | 1       |          |        |           | RETREAT   | AV      |           | SEYMOUR |            | ST       |            | Hartford | CT    | 6106 | 41.7518   | -72.6814   | N        | C     | 1      | 1        | 311       | Medical assist, assist EMS crew                  | 
+```

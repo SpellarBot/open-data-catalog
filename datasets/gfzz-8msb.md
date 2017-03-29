@@ -82,3 +82,20 @@ property e:gfzz-8msb t:meta.view.tableauthor v:id=drs7-75yr v:profileImageUrlMed
 
 property e:gfzz-8msb t:meta.view.metadata.custom_fields.common_core v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
 ```
+
+## Top Records
+
+```ls
+| facility_name                  | cms_certification_number_ccn | alternate_ccn_1 | address_1                  | address_2 | city       | state | zip_code | network | measure_name | ich_cahps_administration_score | state_avg_ich_cahps_administration_score | national_avg_score_ich_cahps_administration | 
+| ============================== | ============================ | =============== | ========================== | ========= | ========== | ===== | ======== | ======= | ============ | ============================== | ======================================== | =========================================== | 
+| CHILDRENS HOSPITAL DIALYSIS    | 012306                       | 013300          | 1600 7TH AVENUE SOUTH      | -         | BIRMINGHAM | AL    | 35233    | 8       | ICH CAHPS    | No Score                       | 10                                       | 10                                          | 
+| FMC CAPITOL CITY               | 012500                       | -               | 255 S JACKSON STREET       | -         | MONTGOMERY | AL    | 36104    | 8       | ICH CAHPS    | 10                             | 10                                       | 10                                          | 
+| GADSDEN DIALYSIS               | 012501                       | -               | 409 SOUTH FIRST STREET     | -         | GADSDEN    | AL    | 35901    | 8       | ICH CAHPS    | No Score                       | 10                                       | 10                                          | 
+| TUSCALOOSA UNIVERSITY DIALYSIS | 012502                       | -               | 220 15TH STREET            | -         | TUSCALOOSA | AL    | 35401    | 8       | ICH CAHPS    | 10                             | 10                                       | 10                                          | 
+| PCD MONTGOMERY                 | 012505                       | -               | 1001 FOREST AVENUE         | -         | MONTGOMERY | AL    | 36106    | 8       | ICH CAHPS    | No Score                       | 10                                       | 10                                          | 
+| DOTHAN DIALYSIS                | 012506                       | -               | 216 GRACELAND DR.          | -         | DOTHAN     | AL    | 36305    | 8       | ICH CAHPS    | 10                             | 10                                       | 10                                          | 
+| FMC MOBILE                     | 012507                       | -               | 2620 OLD SHELL RD          | -         | MOBILE     | AL    | 36607    | 8       | ICH CAHPS    | 10                             | 10                                       | 10                                          | 
+| BIRMINGHAM EAST DIALYSIS       | 012508                       | -               | 1105 EAST PARK DRIVE       | -         | BIRMINGHAM | AL    | 35235    | 8       | ICH CAHPS    | 10                             | 10                                       | 10                                          | 
+| FMC NORTH ALABAMA              | 012509                       | -               | 1311 N MEMORIAL PKWY #200  | -         | HUNTSVILLE | AL    | 35801    | 8       | ICH CAHPS    | No Score                       | 10                                       | 10                                          | 
+| FMC SELMA                      | 012512                       | -               | 905 MEDICAL CENTER PARKWAY | -         | SELMA      | AL    | 36701    | 8       | ICH CAHPS    | No Score                       | 10                                       | 10                                          | 
+```

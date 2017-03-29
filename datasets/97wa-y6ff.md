@@ -76,3 +76,20 @@ property e:97wa-y6ff t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/a
 
 property e:97wa-y6ff t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```
+
+## Top Records
+
+```ls
+| license | renewed | status | status_date         | driver_type | license_type | issue_date          | name                      | sex  | city        | state | record_number | 
+| ======= | ======= | ====== | =================== | =========== | ============ | =================== | ========================= | ==== | =========== | ===== | ============= | 
+| 91227   | 05/2016 | ACTIVE | 2015-05-18T00:00:00 | Livery Only | PERMANENT    | 2008-05-14T00:00:00 | RICE, WENDELL C           | MALE | CHICAGO     | IL    | 08-00563280   | 
+| 98363   | 05/2016 | ACTIVE | 2016-05-09T00:00:00 | Taxi        | PERMANENT    | 2013-04-18T00:00:00 | HABTU, KIDANE M           | MALE | CHICAGO     | IL    | 13-00393656   | 
+| 94026   | 05/2016 | ACTIVE | 2014-05-02T00:00:00 | Taxi        | PERMANENT    | 2012-05-17T00:00:00 | ABDALLAH OU ALI, OMAR AIT | MALE | ROSEMONT    | IL    | 10-00180783   | 
+| 102147  | 04/2016 | ACTIVE | 2015-04-28T00:00:00 | Taxi        | PERMANENT    | 2015-02-09T00:00:00 | MOHAMMED, BURHAUDDIN      | MALE | CHICAGO     | IL    | 15-00228440   | 
+| 97941   | 02/2017 | ACTIVE | 2016-03-09T00:00:00 | Livery Only | PERMANENT    | 2013-01-16T00:00:00 | ZAPATA, RICARDO R         | MALE | PALATINE    | IL    | 12-01919041   | 
+| 82901   | 02/2017 | ACTIVE | 2016-02-23T00:00:00 | Taxi        | PERMANENT    | 2002-11-21T00:00:00 | BENYAMINA, MOHAMMED       | MALE | CHICAGO     | IL    | 06-00189240   | 
+| 56870   | 05/2016 | ACTIVE | 2015-04-28T00:00:00 | Taxi        | PERMANENT    | 1989-09-28T00:00:00 | ATIEMOH, ADDO A           | MALE | CHICAGO     | IL    | 06-00238147   | 
+| 103947  |         | ACTIVE | 2017-02-24T00:00:00 | Taxi        | TRAINEE      |                     | AFZAL, RASHID             | MALE | AURORA      | IL    | 17-01035949   | 
+| 103247  | 02/2017 | ACTIVE | 2016-03-10T00:00:00 | Taxi        | PERMANENT    | 2016-03-10T00:00:00 | MASOOD, MUZZAMIL          | MALE | BOLINGBROOK | IL    | 16-01565506   | 
+| 83493   | 02/2017 | ACTIVE | 2016-02-29T00:00:00 | Taxi        | PERMANENT    | 2003-06-05T00:00:00 | JAHANGIR, MALIK           | MALE | CHICAGO     | IL    | 06-00184579   | 
+```

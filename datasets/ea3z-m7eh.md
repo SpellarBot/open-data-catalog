@@ -95,3 +95,15 @@ property e:ea3z-m7eh t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cd
 
 property e:ea3z-m7eh t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
+
+## Top Records
+
+```ls
+| state         | all_ages | all_ages_2014 | ages_0_20 | ages_0_20_2014 | ages_21_34 | ages_21_34_2014 | ages_35 | ages_35_2014 | male | male_2014 | female | female_2014 | 
+| ============= | ======== | ============= | ========= | ============== | ========== | =============== | ======= | ============ | ==== | ========= | ====== | =========== | 
+| Iowa          | 3.2      | 3             |           |                | 5.9        | 4.6             | 2.9     | 3.4          | 5.1  | 4.8       |        |             | 
+| Nebraska      | 4.0      | 3.3           |           |                | 6.5        | 7               | 3.5     | 3            | 6.4  | 5         |        |             | 
+| United States | 3.3      | 3.1           | 1.3       | 1.2            | 6.7        | 6.2             | 3.1     | 3            | 5.2  | 4.9       | 1.5    | 1.4         | 
+| Kansas        | 3.4      | 3.6           | 2.3       |                | 6.0        | 7.4             | 3.0     | 3.3          | 6.0  | 5.8       |        | 1.4         | 
+| Missouri      | 4.8      | 3.4           | 1.9       |                | 9.5        | 6.9             | 4.4     | 3.2          | 7.8  | 5.6       | 1.8    | 1.3         | 
+```

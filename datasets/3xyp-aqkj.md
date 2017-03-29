@@ -81,3 +81,20 @@ property e:3xyp-aqkj t:meta.view.tableauthor v:id=3p4u-pzii v:profileImageUrlMed
 
 property e:3xyp-aqkj t:meta.view.metadata.custom_fields.common_core v:Contact_Name="Andrew Nebus" v:Bureau_Code=356:00 v:Program_Code=000:000
 ```
+
+## Top Records
+
+```ls
+| id      | ticket_created | issue_date          | issue_time | issue_type | method                                    | issue                                              | caller_id_number | type_of_call_or_messge     | advertiser_business_phone_number | city                | state | zip   | 
+| ======= | ============== | =================== | ========== | ========== | ========================================= | ================================================== | ================ | ========================== | ================================ | =================== | ===== | ===== | 
+| 1000296 | 1464174929     | 2016-05-01T00:00:00 | 1:00 pm    | Phone      | Internet (VOIP)                           | Robocalls                                          | 866-410-0458     | Autodialed Live Voice Call |                                  | Plantation          | FL    | 33324 | 
+| 1000319 | 1464180695     | 2016-03-07T00:00:00 | 12:00 pm   | Phone      | Wired                                     | Telemarketing (including do not call and spoofing) | 619-840-7262     | Live Voice                 | 619-840-7262                     | San Marcos          | CA    | 92078 | 
+| 1000322 | 1464181014     | 2016-05-24T00:00:00 | 8:08 PM    | Phone      | Wireless (cell phone/other mobile device) | Telemarketing (including do not call and spoofing) | 626-691-9090     | Live Voice                 | 626-691-9090                     | Wyckoff             | NJ    | 07481 | 
+| 1000323 | 1464181222     | 2016-03-07T00:00:00 |            | Phone      | Wired                                     | Telemarketing (including do not call and spoofing) | 877-218-8361     | Abandoned Calls            |                                  | Hopkington          | MA    | 01748 | 
+| 1000326 | 1464181351     | 2016-05-25T00:00:00 | 7:24 PM    | Phone      | Internet (VOIP)                           | Telemarketing (including do not call and spoofing) | 877-705-6767     | Abandoned Calls            |                                  | Aurora              | IL    | 60504 | 
+| 1000328 | 1464181397     | 2016-05-25T00:00:00 | 7:00 am    | Phone      | Internet (VOIP)                           | Telemarketing (including do not call and spoofing) | 541-826-3147     | Live Voice                 |                                  | Watertown           | NY    | 13601 | 
+| 1000330 | 1464181806     | 2016-03-14T00:00:00 | 11:00 am   | Phone      | Wired                                     | Telemarketing (including do not call and spoofing) | 484-938-8231     | Live Voice                 | 484-938-8231                     | Allentown           | PA    | 18104 | 
+| 1000332 | 1464182174     | 2016-03-14T00:00:00 | 11:00 am   | Phone      | Wired                                     | Telemarketing (including do not call and spoofing) | 601-553-0515     |                            |                                  | Meridian            | MS    | 39301 | 
+| 1000335 | 1464182705     | 2016-05-24T00:00:00 | 2:30 p.m.  | Phone      | Wired                                     | Robocalls                                          | 763-307-5755     | Abandoned Calls            |                                  | Hot Springs Village | AR    | 71909 | 
+| 1000336 | 1464183002     | 2016-03-14T00:00:00 | 2:30 pm    | Phone      | Wired                                     | Telemarketing (including do not call and spoofing) | 818-666-4016     |                            |                                  | Irvine              | CA    | 92620 | 
+```

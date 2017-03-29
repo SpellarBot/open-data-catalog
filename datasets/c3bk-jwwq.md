@@ -67,3 +67,20 @@ property e:c3bk-jwwq t:meta.view.owner v:id=75n4-7w96 v:screenName="Rhonda Jachi
 
 property e:c3bk-jwwq t:meta.view.tableauthor v:id=75n4-7w96 v:screenName="Rhonda Jachino" v:displayName="Rhonda Jachino"
 ```
+
+## Top Records
+
+```ls
+| grantor_agency         | grantee                         | description_of_purpose_of_award                                               | grant_amount | start_date          | completion_date     | duration_in_days | grantee_zip_code | 
+| ====================== | =============================== | ============================================================================= | ============ | =================== | =================== | ================ | ================ | 
+| IL Dept of Agriculture |  MERCER COUNTY SCHOOL DISTRICT  | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 2153.65      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 612312513        | 
+| IL Dept of Agriculture |  PUTNAM COUNTY COMMUNITY UNIT   | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1154.35      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 613269697        | 
+| IL Dept of Agriculture |  SOMONAUK COMMUNITY UNIT SCHOOL | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1296.10      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 605523136        | 
+| IL Dept of Agriculture |  COMMUNITY UNIT SCHOOL DIST 2   | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1011.16      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 605490107        | 
+| IL Dept of Agriculture |  STARK COUNTY COMMUNITY UNIT    | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 359.6        | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 614830659        | 
+| IL Dept of Agriculture |  BUREAU VALLEY COMMUITY UNIT    | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1030.82      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 613380329        | 
+| IL Dept of Agriculture |  COUNTY OF GRUNDY SCHL DIST 111 | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 535.41       | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 604479466        | 
+| IL Dept of Agriculture |  ORION COMMUNITY UNIT SCHOOL    | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1236.89      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 612739611        | 
+| IL Dept of Agriculture |  GALVA COMMUNITY UNIT           | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1557.64      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 614341090        | 
+| IL Dept of Agriculture |  ALWOOD COMMUNITY UNIT SCHOOL   | Vocational Agricultural grants for educational purposes statute 30ILCS 120/16 | 1356.83      | 2012-07-01T00:00:00 | 2013-06-30T00:00:00 | 365              | 614909684        | 
+```

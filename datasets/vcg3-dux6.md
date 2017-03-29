@@ -68,3 +68,20 @@ property e:vcg3-dux6 t:meta.view.owner v:id=rth8-ngz8 v:screenName="Danny Briksh
 
 property e:vcg3-dux6 t:meta.view.tableauthor v:id=rth8-ngz8 v:screenName="Danny Brikshavana" v:displayName="Danny Brikshavana"
 ```
+
+## Top Records
+
+```ls
+| sort | year | county    | countyfips | 2008_count | 2009_count | 
+| ==== | ==== | ========= | ========== | ========== | ========== | 
+| 1    | 1990 | ADAMS     | 17001      | 110        | 166.4      | 
+| 2    | 1990 | ALEXANDER | 17003      | 42         | 395.3      | 
+| 3    | 1990 | BOND      | 17005      | 5          | 33.4       | 
+| 4    | 1990 | BOONE     | 17007      | 27         | 87.6       | 
+| 5    | 1990 | BROWN     | 17009      | 5          | 85.7       | 
+| 6    | 1990 | BUREAU    | 17011      | 4          | 11.2       | 
+| 7    | 1990 | CALHOUN   | 17013      | 4          | 75.2       | 
+| 8    | 1990 | CARROLL   | 17015      | 18         | 107.1      | 
+| 9    | 1990 | CASS      | 17017      | 2          | 14.9       | 
+| 10   | 1990 | CHAMPAIGN | 17019      | 833        | 481.4      | 
+```

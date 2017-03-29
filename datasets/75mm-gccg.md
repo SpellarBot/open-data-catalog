@@ -59,3 +59,11 @@ property e:75mm-gccg t:meta.view.owner v:id=nze8-qr9f v:profileImageUrlMedium=/a
 
 property e:75mm-gccg t:meta.view.tableauthor v:id=nze8-qr9f v:profileImageUrlMedium=/api/users/nze8-qr9f/profile_images/THUMB v:profileImageUrlLarge=/api/users/nze8-qr9f/profile_images/LARGE v:screenName="Cultural Affairs OpenData" v:profileImageUrlSmall=/api/users/nze8-qr9f/profile_images/TINY v:roleName=editor v:displayName="Cultural Affairs OpenData"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | number_of_grantees_by_type | total_number_of_grantees_by_type_fy2014 | 
+| =========== | ========================== | ======================================= | 
+| 1412194939  | 273                        | 257                                     | 
+```

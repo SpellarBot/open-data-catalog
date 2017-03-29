@@ -74,3 +74,20 @@ property e:azy9-n2gp t:meta.view.owner v:id=art8-rc4x v:profileImageUrlMedium=/a
 
 property e:azy9-n2gp t:meta.view.tableauthor v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:displayName="LAPD OpenData"
 ```
+
+## Top Records
+
+```ls
+| date_rptd           | dr_no     | date_occ            | time_occ | area | area_name | rd   | crm_cd | crm_cd_desc                                    | status | status_desc | location           | cross_street  | 
+| =================== | ========= | =================== | ======== | ==== | ========= | ==== | ====== | ============================================== | ====== | =========== | ================== | ============= | 
+| 2014-12-31T00:00:00 | 140101527 | 2014-12-30T00:00:00 | 1855     | 01   | Central   | 0176 | 210    | ROBBERY                                        | IC     | Invest Cont | 7TH ST             | MAPLE AV      | 
+| 2014-12-31T00:00:00 | 140101528 | 2014-12-31T00:00:00 | 0605     | 01   | Central   | 0156 | 230    | ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT | AO     | Adult Other | 6TH ST             | SAN JULIAN ST | 
+| 2014-12-31T00:00:00 | 140104069 | 2014-12-30T00:00:00 | 1855     | 01   | Central   | 0176 | 210    | ROBBERY                                        | IC     | Invest Cont | 7TH ST             | MAPLE AV      | 
+| 2014-12-31T00:00:00 | 140127976 | 2014-08-25T00:00:00 | 1200     | 01   | Central   | 0157 | 649    | DOCUMENT FORGERY / STOLEN FELONY               | IC     | Invest Cont | 500 S SAN PEDRO ST |               | 
+| 2014-12-31T00:00:00 | 140128170 | 2014-12-30T00:00:00 | 1630     | 01   | Central   | 0161 | 442    | SHOPLIFTING - PETTY THEFT ($950 & UNDER)       | IC     | Invest Cont | 700 S FIGUEROA ST  |               | 
+| 2014-12-31T00:00:00 | 140128171 | 2014-12-30T00:00:00 | 2150     | 01   | Central   | 0142 | 997    | TRAFFIC DR #                                   | IC     | Invest Cont | HOPE ST            | GRAND AV      | 
+| 2014-12-31T00:00:00 | 140128172 | 2014-12-30T00:00:00 | 1910     | 01   | Central   | 0192 | 997    | TRAFFIC DR #                                   | IC     | Invest Cont | HOPE ST            | VENICE BL     | 
+| 2014-12-31T00:00:00 | 140128178 | 2014-12-30T00:00:00 | 1400     | 01   | Central   | 0143 | 442    | SHOPLIFTING - PETTY THEFT ($950 & UNDER)       | IC     | Invest Cont | 400 S BROADWAY     |               | 
+| 2014-12-31T00:00:00 | 140128179 | 2014-12-27T00:00:00 | 1955     | 01   | Central   | 0111 | 997    | TRAFFIC DR #                                   | IC     | Invest Cont | MAIN ST            | ARCADIA ST    | 
+| 2014-12-31T00:00:00 | 140128180 | 2014-12-30T00:00:00 | 1200     | 01   | Central   | 0176 | 350    | THEFT, PERSON                                  | IC     | Invest Cont | 7TH ST             | WALL ST       | 
+```

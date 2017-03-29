@@ -69,3 +69,20 @@ property e:55dk-ypji t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:55dk-ypji t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| description                                                                     | fy_2012_budgeted_revenue | fy_2012_actual_dec_may | fy_2012_budgeted_june_nov_estimated | estimated_2012_year_end | fy_2013_preliminary_estimate | 
+| =============================================================================== | ======================== | ====================== | =================================== | ======================= | ============================ | 
+| Property Tax Revenue                                                            | 335209275                | 167604600              | 167604600                           | 335209200               | 352918250                    | 
+| Fees                                                                            |                          |                        |                                     |                         |                              | 
+| Treasurer*                                                                      |                          |                        |                                     |                         |                              | 
+| Interest on Penalties and Delinquent Taxes, Interest Earnings, and Special Fees | 56157000                 | 26868000               | 49132000                            | 76000000                | 76000000                     | 
+| Inheritance Taxes                                                               | 3850000                  | 2000000                | 0                                   | 2000000                 | 0                            | 
+| Total Budgeted                                                                  | 60007000                 | 28868000               | 49132000                            | 78000000                | 76000000                     | 
+|                                                                                 |                          |                        |                                     |                         |                              | 
+| County Clerk                                                                    |                          |                        |                                     |                         |                              | 
+| Tax Estimates and Searches                                                      | 1600000                  | 281500                 | 1335000                             | 1616500                 | 1700000                      | 
+| Redemption Fees                                                                 | 275000                   | 116400                 | 155000                              | 271400                  | 275000                       | 
+```

@@ -93,3 +93,20 @@ property e:nrih-k5ag t:meta.view.owner v:id=s466-99pv v:profileImageUrlMedium=/a
 
 property e:nrih-k5ag t:meta.view.tableauthor v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
 ```
+
+## Top Records
+
+```ls
+| :updated_at | vendor_name                | product                                         | system_purpose                                     | custodian              | frequency_of_data_collection | frequency_of_data_update | 
+| =========== | ========================== | =============================================== | ================================================== | ====================== | ============================ | ======================== | 
+| 1457952989  | Microsoft                  | Office 365                                      | Office suite of products (mail, spreadsheets, etc) | Information Technology | Daily                        | Daily                    | 
+| 1457952989  | Sungard Public Sector      | IFAS                                            | Financial and HR system                            | Finance                | Daily                        | Daily                    | 
+| 1457952989  | Accela Automation          | Accela Automation (Permits Plus prior to 13/14) | Permit management                                  | Information Technology | Daily                        | Daily                    | 
+| 1457952989  | CIS-N Harris Computer Corp | CIS-N Harris Computer Corp                      | Utility Billing                                    | Finance                | Daily                        | Daily                    | 
+| 1457952989  | Granicus                   | Legislative Suite                               | Legislative Records                                | City Clerk             | Daily                        | Daily                    | 
+| 1457952989  | ESRI                       | GIS                                             | Assorted city parcel and facility information      | Information Technology | Daily                        | Daily                    | 
+| 1457952989  | eCivis                     | Grant Mgt                                       | Grant Management                                   | City Manager Office    | As Needed                    | As Needed                | 
+| 1457952989  | CCG Systems                | Fleet Mgt                                       | Fleet Management                                   | Public Works           | Daily                        | Daily                    | 
+| 1457952989  | LaserFiche                 | LaserFiche                                      | Electronic Documents Management System             | Information Technology | Daily                        | Daily                    | 
+| 1457952989  | GovDelivery                | Web email alert services                        | Web email alert services                           | Information Technology | Daily                        | Daily                    | 
+```

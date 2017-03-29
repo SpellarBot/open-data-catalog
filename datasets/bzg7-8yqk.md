@@ -60,3 +60,20 @@ property e:bzg7-8yqk t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:disp
 
 property e:bzg7-8yqk t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
+
+## Top Records
+
+```ls
+| agency_name | program_name                             | vendor_name                   | payments_total | 
+| =========== | ======================================== | ============================= | ============== | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | CRYSTAL LAKE FISHERIES INC    | 52809.14       | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | FLOWERS FISH FARM LLC         | 37285.06       | 
+| AGRICULTURE | AQUACULTURE ASSISTANCE PROGRAM           | FRENCH FARMS                  | 21755.01       | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | AG PROCESSING INC             | 5027409.02     | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | AMERICAN ENERGY PRODUCERS INC | 6.00           | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | FASTENAL CO                   | 38.10          | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | GLOBAL FUELS LLC              | 143305.30      | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | LIFE LINE FOODS LLC           | 6867444.78     | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | MID-AMERICA BIOFUELS LLC      | 4564791.50     | 
+| AGRICULTURE | BUDGET STABILIZATION STATE FISCAL RELIEF | MID-MISSOURI ENERGY INC       | 3211382.62     | 
+```

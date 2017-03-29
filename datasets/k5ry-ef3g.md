@@ -66,3 +66,20 @@ property e:k5ry-ef3g t:meta.view.owner v:id=6r9a-dfdj v:screenName="Open Baltimo
 
 property e:k5ry-ef3g t:meta.view.tableauthor v:id=6r9a-dfdj v:screenName="Open Baltimore" v:roleName=administrator v:displayName="Open Baltimore"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | name                  | zipcode | neighborhood      | councildistrict | policedistrict | 
+| =========== | ===================== | ======= | ================= | =============== | ============== | 
+| 1323861662  | 410                   | 21206   | Frankford         | 2               | NORTHEASTERN   | 
+| 1323861662  | 1919                  | 21231   | Fells Point       | 1               | SOUTHEASTERN   | 
+| 1323861662  | SAUTE                 | 21224   | Canton            | 1               | SOUTHEASTERN   | 
+| 1323861662  | #1 CHINESE KITCHEN    | 21211   | Hampden           | 14              | NORTHERN       | 
+| 1323861662  | #1 chinese restaurant | 21223   | Millhill          | 9               | SOUTHWESTERN   | 
+| 1323861662  | 19TH HOLE             | 21218   | Clifton Park      | 14              | NORTHEASTERN   | 
+| 1323861662  | 3 KINGS               | 21205   | McElderry Park    | 13              | SOUTHEASTERN   | 
+| 1323861662  | 3 MILES HOUSE, INC.   | 21211   | Remington         | 7               | NORTHERN       | 
+| 1323861662  | 3 W'S TAVERN          | 21205   | McElderry Park    | 13              | SOUTHEASTERN   | 
+| 1323861662  | 300 SOUTH ANN STREET  | 21231   | Upper Fells Point | 1               | SOUTHEASTERN   | 
+```

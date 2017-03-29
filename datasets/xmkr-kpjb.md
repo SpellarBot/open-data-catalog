@@ -82,3 +82,20 @@ property e:xmkr-kpjb t:meta.view.owner v:id=58aa-5akg v:profileImageUrlMedium=/a
 
 property e:xmkr-kpjb t:meta.view.tableauthor v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:roleName=editor v:displayName="IDOM, Local Budget & Finance"
 ```
+
+## Top Records
+
+```ls
+| fiscal_year | type   | levy_authority_1 | levy_authority_2 | county_fip | county_name | city_fips | city_name | co_subdivision_fip | urban_rate | rural_rate | debt_rate | tif_rate_urban | tif_rate_rural | 
+| =========== | ====== | ================ | ================ | ========== | =========== | ========= | ========= | ================== | ========== | ========== | ========= | ============== | ============== | 
+| 2002        | COUNTY | 01               | ADAIR            | 19001      | ADAIR       |           |           |                    | 4.36725    | 7.99067    | 0         | 4.36725        | 7.99067        | 
+| 2002        | COUNTY | 02               | ADAMS            | 19003      | ADAMS       |           |           |                    | 6.10936    | 9.34734    | 0.14119   | 5.96817        | 9.20615        | 
+| 2002        | COUNTY | 03               | ALLAMAKEE        | 19005      | ALLAMAKEE   |           |           |                    | 6.04643    | 8.2671     | 0         | 6.04643        | 8.2671         | 
+| 2002        | COUNTY | 04               | APPANOOSE        | 19007      | APPANOOSE   |           |           |                    | 7.6362     | 10.68595   | 0         | 7.6362         | 10.68595       | 
+| 2002        | COUNTY | 05               | AUDUBON          | 19009      | AUDUBON     |           |           |                    | 6.87524    | 11.46341   | 0.95077   | 5.92447        | 10.51264       | 
+| 2002        | COUNTY | 06               | BENTON           | 19011      | BENTON      |           |           |                    | 4.16758    | 7.47983    | 0.09535   | 4.07223        | 7.38448        | 
+| 2002        | COUNTY | 07               | BLACK HAWK       | 19013      | BLACK HAWK  |           |           |                    | 7.68891    | 7.68891    | 0.47949   | 7.20942        | 7.20942        | 
+| 2002        | COUNTY | 08               | BOONE            | 19015      | BOONE       |           |           |                    | 4.54651    | 6.58385    | 0.50169   | 4.04482        | 6.08216        | 
+| 2002        | COUNTY | 09               | BREMER           | 19017      | BREMER      |           |           |                    | 3.78584    | 7.04584    | 0.07584   | 3.71           | 6.97           | 
+| 2002        | COUNTY | 10               | BUCHANAN         | 19019      | BUCHANAN    |           |           |                    | 5.37775    | 8.72179    | 0.34606   | 5.03169        | 8.37573        | 
+```

@@ -63,3 +63,20 @@ property e:hvys-xbzt t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:
 
 property e:hvys-xbzt t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```
+
+## Top Records
+
+```ls
+| supplement_number | project                                              | organization               | contractor                                | mwesb | retainer_period       | issue_date          | price    | compensation_method | amendments      | 
+| ================= | ==================================================== | ========================== | ========================================= | ===== | ===================== | =================== | ======== | =================== | =============== | 
+| UO-636-C-12-1     | Miscellaneous Small Campus Projects                  | University of Oregon       | Stedman Sheet Metal, Inc.                 | No    | July 2012 - June 2014 | 2012-07-02T00:00:00 | 50000.00 | Time and Materials  |                 | 
+| OSU-131-C-12-1    | Magruder Hall Chiller Replacement                    | Oregon State University    | Hammerquist, Inc.                         | No    | July 2012 - June 2014 | 2012-07-05T00:00:00 | 56801.00 | Fixed               |                 | 
+| UO-574-C-12-2     | Miscellaneous Small Campus Projects                  | University of Oregon       | Office World, Inc.                        | No    | July 2012 - June 2014 | 2012-07-06T00:00:00 | 50000.00 | Time and Materials  |                 | 
+| WOU-28-C-12-1     | Barnum Hall Re-Pipe                                  | Western Oregon University  | Oregon Cascade Plumbing and Heating, Inc. | No    | July 2012 - June 2014 | 2012-07-09T00:00:00 | 1700.00  | Fixed               |                 | 
+| WOU-211-C-12-2    | Barnum Hall Exhaust Fan Replacement and Cleaning     | Western Oregon University  | Robert Lloyd Sheet Metal Inc.             | No    | July 2012 - June 2014 | 2012-07-09T00:00:00 | 6600.00  | Fixed               |                 | 
+| WOU-31-C-12-3     | Physical Plant Compactor Slab-Driveway               | Western Oregon University  | Greg Aldrich Construction Co, Inc         | No    | July 2012 - June 2014 | 2012-07-09T00:00:00 | 8000.00  | Fixed               | WOU-31-C-12-3-1 | 
+| PCC-710-C-12-1    | Kitchen Flooring - Sylvania Campus                   | Portland Community College | Floor Factors Inc.                        | No    | July 2012 - June 2014 | 2012-07-11T00:00:00 | 85894.00 | Time and Materials  |                 | 
+| OSU-224-C-12-2    | LANGTON / MORELAND HALL TUNNEL ABATEMENT AND CLEANUP | Oregon State University    | Pacific Environmental Group, Inc.         | ESB   | July 2012 - June 2014 | 2012-07-11T00:00:00 | 5990.00  | Fixed               |                 | 
+| OSU-224-C-12-3    | WENIGER 379 ABATEMENT                                | Oregon State University    | Pacific Environmental Group, Inc.         | ESB   | July 2012 - June 2014 | 2012-07-11T00:00:00 | 2560.00  | Fixed               |                 | 
+| OSU-224-C-12-4    | CORDLEY RM. 3030 ABATEMENT                           | Oregon State University    | Pacific Environmental Group, Inc.         | ESB   | July 2012 - June 2014 | 2012-07-11T00:00:00 | 2560.00  | Fixed               |                 | 
+```

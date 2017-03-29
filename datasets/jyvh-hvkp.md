@@ -58,3 +58,15 @@ property e:jyvh-hvkp t:meta.view.owner v:id=uaqq-pakk v:screenName="Douglas Oshi
 
 property e:jyvh-hvkp t:meta.view.tableauthor v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
 ```
+
+## Top Records
+
+```ls
+| utility                                   | annual_solar_wac_person | 
+| ========================================= | ======================= | 
+| 1. Silicon Valley Power (CA)              | 40.0                    | 
+| 2. Public Service Electric & Gas Co. (NJ) | 35.2                    | 
+| 3. Hawaiian Electric Co., Inc. (HI)       | 33.2                    | 
+| 4. Xcel Energy - CO (CO)                  | 31.0                    | 
+| 5. Pacific Gas & Electric (CA)            | 30.2                    | 
+```

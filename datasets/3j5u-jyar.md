@@ -75,3 +75,20 @@ property e:3j5u-jyar t:meta.view.owner v:id=mjn2-v86v v:profileImageUrlMedium=/a
 
 property e:3j5u-jyar t:meta.view.tableauthor v:id=mjn2-v86v v:profileImageUrlMedium=/api/users/mjn2-v86v/profile_images/THUMB v:profileImageUrlLarge=/api/users/mjn2-v86v/profile_images/LARGE v:screenName="Open Data BR" v:profileImageUrlSmall=/api/users/mjn2-v86v/profile_images/TINY v:roleName=viewer v:displayName="Open Data BR"
 ```
+
+## Top Records
+
+```ls
+| name              | add3       | state | zip   | race | sex | dob  | doa                 | fileno        | div | type   | 
+| ================= | ========== | ===== | ===== | ==== | === | ==== | =================== | ============= | === | ====== | 
+| SCOTT, JONATHAN   |            |       | 00000 | B    | M   |      | 2007-04-23T00:00:00 | PP00001834    | D   | PP     | 
+| CORDIER, LAKEISHA | BIRMINGHAM | AL    | 00000 |      |     |      | 2006-01-04T00:00:00 | BR01661118    | B   | CCTRAF | 
+| COSTLEY, BRANDON  |            |       | .0000 |      |     |      | 2008-04-30T00:00:00 | 08-CR-020155S | C   | CMISD  | 
+| GRIMSHAW, THOMAS  |            |       | 00000 |      |     |      | 2008-03-25T00:00:00 | BR01818057    | C   | CCTRAF | 
+| WILLIAMSON, LIBRA |            |       | 00000 |      |     |      | 2007-10-22T00:00:00 | BR01800461    | A   | CCTRAF | 
+| GRADNEY, TORY     | BAKER      | LA    | 70714 | B    | M   | 1976 | 2015-08-10T00:00:00 | PP00010364    | D   | PP     | 
+| COLE, SHANTELL    |            |       | 00000 |      |     |      | 2002-07-11T00:00:00 | 01-CR-125305W | C   | CCC    | 
+| KNIGHT, BELINDA   |            |       | 00000 | B    | F   |      | 2007-06-12T00:00:00 | BR01766409    | B   | CCTRAF | 
+| MCDUFFY, RODERICK |            | UX    | 00000 |      |     |      | 2012-06-14T00:00:00 | 11-CR-015166A | C   | CMISD  | 
+| MOORE, CARLTON    |            |       | 00000 |      |     |      | 2007-03-05T00:00:00 | BR01753661    | D   | CCTRAF | 
+```

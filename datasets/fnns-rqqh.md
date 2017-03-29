@@ -72,3 +72,20 @@ property e:fnns-rqqh t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/a
 
 property e:fnns-rqqh t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```
+
+## Top Records
+
+```ls
+| fiscal_year_2       | homes_receiving_weatherization | 
+| =================== | ============================== | 
+| 2006-09-01T00:00:00 | 720                            | 
+| 2007-09-01T00:00:00 | 632                            | 
+| 2008-09-01T00:00:00 | 505                            | 
+| 2009-09-01T00:00:00 | 538                            | 
+| 2010-09-01T00:00:00 | 456                            | 
+| 2011-09-01T00:00:00 | 1044                           | 
+| 2012-09-01T00:00:00 | 715                            | 
+| 2013-09-01T00:00:00 | 155                            | 
+| 2014-09-01T00:00:00 | 200                            | 
+| 2015-09-01T00:00:00 | 520                            | 
+```

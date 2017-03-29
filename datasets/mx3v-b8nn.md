@@ -59,3 +59,20 @@ property e:mx3v-b8nn t:meta.view.owner v:id=iw7b-ptyg v:profileImageUrlMedium=/a
 
 property e:mx3v-b8nn t:meta.view.tableauthor v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
 ```
+
+## Top Records
+
+```ls
+| tuesday_aug_6      | 8_15_p_m  | election_day_results_posted_to_the_web                                             | 
+| ================== | ========= | ================================================================================== | 
+|  Tuesday, Aug. 6   | 8:15 p.m. | Election day results posted to the web.                                            | 
+| Wednesday, Aug. 7  | 4:30 p.m. | Results posted, including votes cast at the accessible voting centers.             | 
+| Thursday, Aug. 8   | 4:30 p.m. | Results posted.                                                                    | 
+| Friday, Aug. 9     | 4:30 p.m. | Results posted, and unofficial election day abstract of results posted to the web. | 
+| Monday, Aug. 12    | 4:30 p.m. | Results posted.                                                                    | 
+| Tuesday, Aug. 13   | 4:30 p.m. | Results posted.                                                                    | 
+| Wednesday, Aug. 14 | 4:30 p.m. | Results posted.                                                                    | 
+| Thursday, Aug. 15  | 4:30 p.m. | Results posted.                                                                    | 
+| Friday, Aug. 16    | 4:30 p.m. | Results posted.                                                                    | 
+| Monday, Aug. 19    | 4:30 p.m. | Results posted.                                                                    | 
+```

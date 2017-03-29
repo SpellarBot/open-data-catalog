@@ -63,3 +63,20 @@ property e:pmbr-njwn t:meta.view.owner v:id=q99n-k47h v:screenName="Open Data Po
 
 property e:pmbr-njwn t:meta.view.tableauthor v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:roleName=administrator v:displayName="Open Data Portal Administrator"
 ```
+
+## Top Records
+
+```ls
+| year | agency                          | expenditures | encumbrances | 
+| ==== | =============================== | ============ | ============ | 
+| 2012 | Transportation                  | Expenditure  | 108719118.34 | 
+| 2012 | Transportation                  | Encumbrance  | 104647637.54 | 
+| 2012 | University of Hawaii            | Expenditure  | 50720338.90  | 
+| 2012 | University of Hawaii            | Encumbrance  | 62641954.37  | 
+| 2012 | Budget and Finance              | Expenditure  | 47000000.00  | 
+| 2012 | Budget and Finance              | Encumbrance  | 0.00         | 
+| 2012 | Accounting and General Services | Expenditure  | 16792824.47  | 
+| 2012 | Accounting and General Services | Encumbrance  | 20212759.65  | 
+| 2012 | Health                          | Expenditure  | 16168027.98  | 
+| 2012 | Health                          | Encumbrance  | 960801.00    | 
+```

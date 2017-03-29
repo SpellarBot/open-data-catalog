@@ -61,3 +61,20 @@ property e:yph5-vg2u t:meta.view.owner v:id=czye-wfgc v:profileImageUrlMedium=/a
 
 property e:yph5-vg2u t:meta.view.tableauthor v:id=czye-wfgc v:profileImageUrlMedium=/api/users/czye-wfgc/profile_images/THUMB v:profileImageUrlLarge=/api/users/czye-wfgc/profile_images/LARGE v:screenName=AustinGo v:profileImageUrlSmall=/api/users/czye-wfgc/profile_images/TINY v:roleName=publisher v:displayName=AustinGo
 ```
+
+## Top Records
+
+```ls
+| :updated_at | department      | account_platform | account_name                            | account_link                                                 | 
+| =========== | =============== | ================ | ======================================= | ============================================================ | 
+| 1466772260  | 3-1-1           | Facebook         | Austin 3-1-1                            | [https://www.facebook.com/atx311, null]                      | 
+| 1466772260  | 3-1-1           | Instagram        | atx311                                  | [https://www.instagram.com/atx311/, null]                    | 
+| 1466772260  | 3-1-1           | Twitter          | atx_311                                 | [https://twitter.com/ATX_311, null]                          | 
+| 1466772260  | Animal Services | Facebook         | Austin Animal Center                    | [https://www.facebook.com/austinanimalservices, null]        | 
+| 1466772260  | Animal Services | Instagram        | austinanimalcenter                      | [https://Instagram.com/austinanimalcenter/, null]            | 
+| 1466772260  | Animal Services | Twitter          | @austinanimals                          | [https://Twitter.com/austinanimals, null]                    | 
+| 1466772260  | Animal Services | YouTube          | Austin Animal Center                    | [https://www.YouTube.com/user/austinpets2011, null]          | 
+| 1466772260  | Austin Energy   | Facebook         | Austin Energy                           | [https://www.facebook.com/austinenergy?ref=ts&fref=ts, null] | 
+| 1466772260  | Austin Energy   | Facebook         | Austin Energy Regional Science Festival | [https://www.facebook.com/austinenergysciencefest, null]     | 
+| 1466772260  | Austin Energy   | Facebook         | Austin Energy Green Building            | [https://www.facebook.com/aegreenbuilding?fref=ts, null]     | 
+```

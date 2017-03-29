@@ -55,3 +55,20 @@ property e:fqyg-zgdm t:meta.view.owner v:id=2gzv-6b6z v:profileImageUrlMedium=/a
 
 property e:fqyg-zgdm t:meta.view.tableauthor v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:roleName=administrator v:displayName="King County Webteam"
 ```
+
+## Top Records
+
+```ls
+| site_name                     | clinic_date         | clinic_hours  | clinic_room                                                   | 
+| ============================= | =================== | ============= | ============================================================= | 
+| Brightwater                   | 2015-10-28T00:00:00 | 7-8 a.m.      | "Q" room                                                      | 
+| Elections                     | 2015-10-15T00:00:00 | 11 am - noon  | Large Conf Room                                               | 
+| North Transit Base            | 2015-09-28T00:00:00 | 2 - 4:30 p.m. | Classrooms                                                    | 
+| Chinook                       | 2015-09-30T00:00:00 | 8am - 4pm     | Room 121/123                                                  | 
+| South Treatment Plant         | 2015-10-21T00:00:00 | 6 - 8:30 a.m  | Cedar River Training Room, 1st Floor, Administration Building | 
+| KC Environmental Lab          | 2015-10-27T00:00:00 | 8-10 am       | EAST Large Conf. Room                                         | 
+| Renton Roads                  | 2015-10-08T00:00:00 | 6:30am- 10 am | Building C, Gabion Room                                       | 
+| Atlantic/Central Transit Base | 2015-10-20T00:00:00 | 6-10 a.m.     | 2nd Floor Class Room                                          | 
+| King Street Center            | 2015-10-06T00:00:00 | 8 am - 4 pm   | 8th Floor Conference Center                                   | 
+| Regional Justice Center       | 2015-10-01T00:00:00 | 9:30am - 2 pm | Community Room                                                | 
+```

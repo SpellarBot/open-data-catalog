@@ -15,7 +15,7 @@
 | Category | Government & Finance |
 | Tags | numbers, win-4, new york lottery, winning, results |
 | Created | 2013-02-26T20:21:34Z |
-| Publication Date | 2017-03-28T10:03:24Z |
+| Publication Date | 2017-03-29T10:03:20Z |
 
 ## Description
 
@@ -69,4 +69,21 @@ property e:hsys-3def t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/a
 property e:hsys-3def t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
 property e:hsys-3def t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+```
+
+## Top Records
+
+```ls
+| draw_date           | midday_daily | midday_daily_sum | evening_daily | evening_daily_sum | midday_win_4 | midday_win_4_sum | evening_win_4 | evening_win_4_sum | 
+| =================== | ============ | ================ | ============= | ================= | ============ | ================ | ============= | ================= | 
+| 1980-09-02T00:00:00 |              |                  | 255           |                   |              |                  |               |                   | 
+| 1980-09-03T00:00:00 |              |                  | 905           |                   |              |                  |               |                   | 
+| 1980-09-04T00:00:00 |              |                  | 533           |                   |              |                  |               |                   | 
+| 1980-09-05T00:00:00 |              |                  | 683           |                   |              |                  |               |                   | 
+| 1980-09-06T00:00:00 |              |                  | 002           |                   |              |                  |               |                   | 
+| 1980-09-08T00:00:00 |              |                  | 828           |                   |              |                  |               |                   | 
+| 1980-09-09T00:00:00 |              |                  | 673           |                   |              |                  |               |                   | 
+| 1980-09-10T00:00:00 |              |                  | 244           |                   |              |                  |               |                   | 
+| 1980-09-11T00:00:00 |              |                  | 937           |                   |              |                  |               |                   | 
+| 1980-09-12T00:00:00 |              |                  | 674           |                   |              |                  |               |                   | 
 ```

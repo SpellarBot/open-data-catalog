@@ -47,13 +47,11 @@ Excluded Fields = id
 ## Data Commands
 
 ```ls
-series e:gs3k-hp7i d:2015-11-30T00:00:00.000Z t:notes="-- On 10/20/2015:--
-1. Clean up bio hazard. 2. Apartment 3. 3 stories 4. no retail or commercial use. Permanent residence only. No rehabilitation, no transitional housing, no treatment services, no dormitories, no counseling. Each unit is rented separately. Each unit contains its own bathroom &amp; kitchen. No parts of the structure are used by members of the public." m:row_number.gs3k-hp7i=1
+series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing" m:row_number.gs3k-hp7i=1
 
-series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing" m:row_number.gs3k-hp7i=2
+series e:gs3k-hp7i d:2016-08-17T00:00:00.000Z t:notes="Filed by Sarah Wright" m:row_number.gs3k-hp7i=2
 
-series e:gs3k-hp7i d:2015-10-27T00:00:00.000Z t:notes="-- On 7/10/2015:--
-GARY REEDS EXCAVATING & TRUCKING IS - A DUMP TRUCKING COMPANY" m:row_number.gs3k-hp7i=3
+series e:gs3k-hp7i d:2013-04-19T00:00:00.000Z t:notes="Filed by Rob Whitmore" m:row_number.gs3k-hp7i=3
 ```
 
 ## Meta Commands
@@ -68,4 +66,21 @@ property e:gs3k-hp7i t:meta.view v:id=gs3k-hp7i v:category=Labor v:averageRating
 property e:gs3k-hp7i t:meta.view.owner v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:displayName=Nithya
 
 property e:gs3k-hp7i t:meta.view.tableauthor v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:displayName=Nithya
+```
+
+## Top Records
+
+```ls
+| id     | notes                                                                                            | notesenteredon      | 
+| ====== | ================================================================================================ | =================== | 
+| 617191 | Nordic Project # 15869 WO #01 Harbor Island Safety Fencing                                       | 2015-12-09T00:00:00 | 
+| 659834 | Filed by Sarah Wright                                                                            | 2016-08-17T00:00:00 | 
+| 44130  | Filed by Rob Whitmore                                                                            | 2013-04-19T00:00:00 | 
+| 615075 | Station 6 9520 Evergreen Way Everett, WA 98204 Door was stuck shut. Emergency chain was engaged. | 2015-12-03T00:00:00 | 
+| 62492  | This Affidavit should actually be tied to Intent 53047.                                          | 2012-06-26T00:00:00 | 
+| 84444  | This Affidavit should actually be tied to Intent 57910.                                          | 2012-06-26T00:00:00 | 
+| 90933  | This Affidavit should actually be tied to Intent 44193.                                          | 2012-06-26T00:00:00 | 
+| 98505  | This Affidavit is tied to Intent 48002                                                           | 2012-10-03T00:00:00 | 
+| 105876 | This Affidavit is tied to Intent 84456                                                           | 2012-08-31T00:00:00 | 
+| 117766 | This Affidavit is tied to Intent 62762                                                           | 2012-08-31T00:00:00 | 
 ```

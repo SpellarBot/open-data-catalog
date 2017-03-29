@@ -102,3 +102,20 @@ property e:pgrs-2cjd t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:pgrs-2cjd t:meta.view.tableauthor v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
 ```
+
+## Top Records
+
+```ls
+| district | grade | year | category | number_tested | mean_scale_score | level_1_1 | level_1_2 | level_2_1 | level_2_2 | level_3_1 | level_3_2 | level_4_1 | level_4_2 | level_3_4_1 | level_3_4_2 | 
+| ======== | ===== | ==== | ======== | ============= | ================ | ========= | ========= | ========= | ========= | ========= | ========= | ========= | ========= | =========== | =========== | 
+| 1        | 3     | 2006 | Asian    | 155           | 704              | 4         | 2.6       | 4         | 2.6       | 68        | 43.9      | 79        | 51.0      | 147         | 94.8        | 
+| 1        | 3     | 2006 | Black    | 185           | 659              | 21        | 11.4      | 47        | 25.4      | 104       | 56.2      | 13        | 7.0       | 117         | 63.2        | 
+| 1        | 3     | 2006 | Hispanic | 494           | 664              | 46        | 9.3       | 111       | 22.5      | 264       | 53.4      | 73        | 14.8      | 337         | 68.2        | 
+| 1        | 3     | 2006 | White    | 94            | 702              | 1         | 1.1       | 5         | 5.3       | 45        | 47.9      | 43        | 45.7      | 88          | 93.6        | 
+| 1        | 3     | 2007 | Asian    | 131           | 703              | 2         | 1.5       | 4         | 3.1       | 58        | 44.3      | 67        | 51.1      | 125         | 95.4        | 
+| 1        | 3     | 2007 | Black    | 150           | 668              | 17        | 11.3      | 24        | 16.0      | 85        | 56.7      | 24        | 16.0      | 109         | 72.7        | 
+| 1        | 3     | 2007 | Hispanic | 440           | 672              | 28        | 6.4       | 53        | 12.0      | 301       | 68.4      | 58        | 13.2      | 359         | 81.6        | 
+| 1        | 3     | 2007 | White    | 89            | 702              | 0         | 0.0       | 2         | 2.2       | 49        | 55.1      | 38        | 42.7      | 87          | 97.8        | 
+| 1        | 3     | 2008 | Asian    | 137           | 713              | 0         | 0.0       | 3         | 2.2       | 54        | 39.4      | 80        | 58.4      | 134         | 97.8        | 
+| 1        | 3     | 2008 | Black    | 150           | 675              | 4         | 2.7       | 22        | 14.7      | 99        | 66.0      | 25        | 16.7      | 124         | 82.7        | 
+```

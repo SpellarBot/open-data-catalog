@@ -72,3 +72,20 @@ property e:crd6-2w8k t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigo
 
 property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| rowid             | date                | year | city          | state | indicator                                 | indicatorvalue | 
+| ================= | =================== | ==== | ============= | ===== | ========================================= | ============== | 
+| New Orleans2005   | 2005-01-01T00:00:00 | 2005 | New Orleans   | LA    | Total number of certified green buildings | 0              | 
+| Oklahoma City2005 | 2005-01-01T00:00:00 | 2005 | Oklahoma City | OK    | Total number of certified green buildings | 0              | 
+| Tampa2005         | 2005-01-01T00:00:00 | 2005 | Tampa         | FL    | Total number of certified green buildings | 0              | 
+| Miami2005         | 2005-01-01T00:00:00 | 2005 | Miami         | FL    | Total number of certified green buildings | 0              | 
+| Memphis2005       | 2005-01-01T00:00:00 | 2005 | Memphis       | TN    | Total number of certified green buildings | 0              | 
+| Louisville2005    | 2005-01-01T00:00:00 | 2005 | Louisville    | KY    | Total number of certified green buildings | 0              | 
+| Nashville2005     | 2005-01-01T00:00:00 | 2005 | Nashville     | TN    | Total number of certified green buildings | 1              | 
+| Raleigh2005       | 2005-01-01T00:00:00 | 2005 | Raleigh       | NC    | Total number of certified green buildings | 0              | 
+| Atlanta2005       | 2005-01-01T00:00:00 | 2005 | Atlanta       | GA    | Total number of certified green buildings | 13             | 
+| Baton Rouge2005   | 2005-01-01T00:00:00 | 2005 | Baton Rouge   | LA    | Total number of certified green buildings | 0              | 
+```

@@ -82,3 +82,20 @@ property e:4akt-7p7i t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displ
 
 property e:4akt-7p7i t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```
+
+## Top Records
+
+```ls
+| account | owner                               | owner2 | dba                                 | address                     | address2  | location                | city        | state | zip        | source               | date_a              | assessment | st_number | st_name              | locunit   | 
+| ======= | =================================== | ====== | =================================== | =========================== | ========= | ======================= | =========== | ===== | ========== | ==================== | =================== | ========== | ========= | ==================== | ========= | 
+| 562460  | PAPERWHITES LLC                     |        | DEVARS-PHILLIPS FLORIST             | 242 SISSON AV               |           | 242 SISSON AV           | HARTFORD    | CT    | 06105-3177 | 2014 DECLARATION     | 2014-12-17T00:00:00 | 4370       | 242       | SISSON AV            |           | 
+| 556275  | ORTHOPEDIC ASSOCIATES OF HARTFORD P |        | ORTHOPEDIC ASSOCIATES OF HARTFORD P | 270 FARMINGTON AV SUITE 102 |           | 85 SEYMOUR ST SUITE 607 | FARMINGTON  | CT    | 06032      | 2014 DECLARATION     | 2014-12-16T00:00:00 | 913320     | 85        | SEYMOUR ST           | SUITE 607 | 
+| 383200  | KAINEN ESCALERA & MCHALE PC         |        | KAINEN ESCALERA & MCHALE PC         | 21 OAK ST 6TH FL            | SUITE 601 | 21 OAK ST 6TH FL        | HARTFORD    | CT    | 06106-8003 | 2014 DECLARATION     | 2014-12-05T00:00:00 | 33570      | 21        | OAK ST               | 6TH FL    | 
+| 930912  | HUYNH PHUOC-HUY P                   |        | SOOSKY MARKETING                    | 183 GILMAN ST               |           | 183 GILMAN ST           | HARTFORD    | CT    | 06114      | TRADE / VERIFIED/ TP | 2015-09-10T00:00:00 | 0          | 183       | GILMAN ST            |           | 
+| 046100  | BEACON - BIOMEDICAL ENGINEERING ALL |        | BEACON - BIOMEDICAL ENGINEERING ALL | 1 CONGRESS ST SUITE 201     |           | 1 CONGRESS ST SUITE 201 | HARTFORD    | CT    | 06114-1067 | 2014 DECLARATION     | 2014-10-06T00:00:00 | 3390       | 1         | CONGRESS ST          | SUITE 201 | 
+| 926355  | YANKEE LIQUORS LLC                  |        | YANKEE LIQUORS LLC                  | 35 WILLIAM SHORTY CAMPB     |           | 35 WILLIAM SHORTY CAMPB | HARTFORD    | CT    | 06106      | 2014 DECLARATION     | 2015-01-06T00:00:00 | 14650      | 35        | WILLIAM SHORTY CAMPB |           | 
+| 930144  | DE LEON HERNANDEZ WILSON            |        | LANGUAGE SPECIALIST LINK            | 52 CHATHAM ST               |           | 52 CHATHAM ST           | HARTFORD    | CT    | 06112      | TRADE NAME           | 2013-08-26T00:00:00 | 480        | 52        | CHATHAM ST           |           | 
+| 928893  | CONNECTICUT HEALTH MSO LLC          |        | CONNECTICUT HEALTH MSO LLC          | 2110 SILAS DEANE HIGHWAY    |           | 3580 MAIN ST            | HARTFORD    | CT    | 06067      | 2014 DECLARATION     | 2015-01-08T00:00:00 | 62490      | 3580      | MAIN ST              |           | 
+| 929191  | MEJIA AUTO REPAIR LLC               |        | MEJIA AUTO REPAIR LLC               | 57 HOPE ST                  |           | 375 LEDYARD ST UNT B    | WILLIMANTIC | CT    | 06226      |                      | 2010-08-03T00:00:00 | 7960       | 375       | LEDYARD ST           | UNT B     | 
+| 240775  | FICARA SEBASTIANO                   |        | FICARA'S RESTAURANT                 | 577 FRANKLIN AV             |           | 577 FRANKLIN AV         | HARTFORD    | CT    | 06114-3019 | 2013 DECLARATION     | 2013-12-18T00:00:00 | 9560       | 577       | FRANKLIN AV          |           | 
+```

@@ -61,3 +61,20 @@ property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:
 
 property e:uyku-r7g5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```
+
+## Top Records
+
+```ls
+| supplement_number | project                                           | organization              | contractor                                    | mwesb    | retainer_period       | issue_date | price  | compensation_method | 
+| ================= | ================================================= | ========================= | ============================================= | ======== | ===================== | ========== | ====== | =================== | 
+| UO-390-C-11-5     | CARSON HALL PLASTER REPAIR PROJECT                | University of Oregon      | Oregon Ceiling & Acoustics, LLC               | MBE, ESB | June 2011 - June 2012 | 7/1/11     | 46200  | Fixed               | 
+| WOU-409-C-11-2    | Heritage Hall Door Replacement                    | Western Oregon University | Robert Gray Partners, Inc.                    | No       | June 2011 - June 2012 | 7/5/11     | 54828  | Fixed               | 
+| OSU-16-C-10-151   | Residence Hall Infrastructure Upgrade             | Oregon State University   | Jimco Electrical Contracting, Inc.            | No       | 2010-2012             | 7/5/11     | 207750 | Fixed               | 
+| OSU-157-C-10-152  | LSC Smoke Detector Install                        | Oregon State University   | Simplex Grinnell LP                           | No       | 2010-2012             | 7/5/11     | 40212  | Fixed               | 
+| OSU-63-C-10-153   | Gill Coliseum Outer Stairwells Remodel            | Oregon State University   | Fortis Construction Inc.                      | No       | 2010-2012             | 7/6/11     | 229806 | Fixed               | 
+| UO-76-C-10-240    | Lawrence Hall Computer Office Remodel             | University of Oregon      | Preferred Construction, Inc.                  | ESB      | 2010-2012             | 7/6/11     | 7107   | Fixed               | 
+| UO-139-C-10-241   | Painting of Grad Village Exterior Siding and Trim | University of Oregon      | RW Strand, Inc. dba Carlson & Strand Painting | No       | 2010-2012             | 7/6/11     | 54889  | Fixed               | 
+| WOU-38-C-10-33    | Natural Science 201 ACM Removal                   | Western Oregon University | W.L. Thomas Environmental, LLC                | No       | 2010-2012             | 7/6/11     | 2690   | Fixed               | 
+| WOU-211-C-10-34   | ITC 013S HVAC Ductwork, Controls Addition         | Western Oregon University | Robert Lloyd Sheet Metal Inc.                 | No       | 2010-2012             | 7/6/11     | 4840   | Fixed               | 
+| OSU-232-C-10-154  | Finley Hall Sidewalk Elevator                     | Oregon State University   | Lease Crutcher Lewis, LLC                     | No       | 2010-2012             | 7/7/11     | 137800 | Fixed               | 
+```

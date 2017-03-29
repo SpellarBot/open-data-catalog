@@ -77,3 +77,20 @@ property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName=Jessica v:dis
 
 property e:cadm-spqd t:meta.view.tableauthor v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
 ```
+
+## Top Records
+
+```ls
+| project_name                      | project_address                                   | project_city  | project_zip | project_county  | units | projecttype | fy   | 
+| ================================= | ================================================= | ============= | =========== | =============== | ===== | =========== | ==== | 
+| Park View at Colonial Landing     | 6391 Rowanberry Drive                             | Elkridge      | 21075       | Howard          | 100   | Acq./Rehab. | 2013 | 
+| Park View at Bladensburg          | 4202 58th Avenue                                  | Bladensburg   | 20710       | Prince George's | 101   | Acq./Rehab. | 2013 | 
+| Burwood Gardens Phase I           | 6652 Shelly Avenue                                | Glen Burnie   | 21061       | Anne Arundel    | 100   | New         | 2013 | 
+| Oakwood Family Homes              | 8219 and 8221 Oakwood Road                        | Glen Burnie   | 21061       | Anne Arundel    | 22    | New         | 2013 | 
+| Belle Hill Manor                  | Belle Hill Road                                   | Elkton        | 21921       | Cecil           | 84    | New         | 2013 | 
+| Tanglewood Sligo Hills Apartments | 8900 Manchester Road 8902 8904 9000 Manchester Rd | Silver Spring | 20901       | Montgomery      | 132   | Rehab.      | 2013 | 
+| Barclay Square Phase II           | 341 E. 20th Street                                | Baltimore     | 21218       | Baltimore City  | 69    | New/Rehab.  | 2013 | 
+| O'Donnell Townhomes 1             | 6349 Boston Street                                | Baltimore     | 21224       | Baltimore City  | 75    | New         | 2013 | 
+| Parkview Towers Apartments        | 7667 N Maple Avenue                               | Silver Spring | 20912       | Montgomery      | 125   | Acq./Rehab. | 2013 | 
+| The Greens at Logan Field         | 3455 Dundalk Avenue                               | Dundalk       | 21222       | Baltimore       | 102   | New         | 2013 | 
+```

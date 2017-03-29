@@ -91,3 +91,20 @@ property e:fbii-ubkr t:meta.view.owner v:id=85mq-rt9c v:profileImageUrlMedium=/a
 
 property e:fbii-ubkr t:meta.view.tableauthor v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
 ```
+
+## Top Records
+
+```ls
+| year                | census_1970 | census_1980 | census_1990 | census_2000 | census_2010 | projection_2015 | projection_2020 | projection_2025 | projection_2030 | projection_2035 | projection_2040 | 
+| =================== | =========== | =========== | =========== | =========== | =========== | =============== | =============== | =============== | =============== | =============== | =============== | 
+| MARYLAND            | 3817618     | 4122547     | 4666897     | 5162430     | 5635177     | 5864129         | 6071714         | 6269826         | 6444321         | 6584079         | 6700425         | 
+| Allegany County     | 82222       | 77926       | 71895       | 68772       | 67163       | 66425           | 66626           | 67171           | 67811           | 67877           | 67877           | 
+| Anne Arundel County | 280151      | 357451      | 411893      | 473666      | 523523      | 544952          | 564900          | 577971          | 590414          | 601190          | 610152          | 
+| Baltimore City      | 887479      | 769954      | 715292      | 625401      | 595762      | 598491          | 606679          | 615607          | 622057          | 625731          | 628117          | 
+| Baltimore County    | 607282      | 642354      | 678424      | 736652      | 784248      | 810666          | 825306          | 834825          | 839240          | 845112          | 854694          | 
+| Calvert County      | 20478       | 34441       | 51089       | 73982       | 88087       | 90953           | 94835           | 97502           | 99235           | 99949           | 100201          | 
+| Caroline County     | 19479       | 22870       | 26552       | 29319       | 32624       | 33455           | 35586           | 37750           | 39905           | 42147           | 44286           | 
+| Carroll County      | 63960       | 92514       | 120457      | 147316      | 163815      | 165142          | 172360          | 175727          | 179255          | 181871          | 184882          | 
+| Cecil County        | 49176       | 58382       | 69483       | 84730       | 99557       | 101951          | 106806          | 115305          | 123037          | 130426          | 136939          | 
+| Charles County      | 47188       | 72166       | 99973       | 119177      | 145146      | 155566          | 172663          | 188768          | 200018          | 209873          | 218118          | 
+```

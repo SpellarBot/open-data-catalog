@@ -69,3 +69,20 @@ property e:pf2v-pv7v t:meta.view.owner v:id=a2bu-8256 v:profileImageUrlMedium=/a
 
 property e:pf2v-pv7v t:meta.view.tableauthor v:id=a2bu-8256 v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:screenName="Ashley Massey" v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:roleName=editor v:displayName="Ashley Massey"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | type              | waterbody               | river_mile | facility                               | name                          | phone        | icon                                        | point_size | marine_board_s_environmental_programs                     | photo | 
+| =========== | ================= | ======================= | ========== | ====================================== | ============================= | ============ | =========================================== | ========== | ========================================================= | ===== | 
+| 1413376466  |                   |                         |            |                                        |                               |              |                                             |            | [null, null]                                              |       | 
+| 1413800295  | Floating Restroom | Brownlee Reservoir      | ---        | Brownlee Reservoir                     | Baker County                  | 541-893-6147 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800308  | Floating Restroom | Detroit Lake            |            | Detroit Lake (Blowout Arm)             | USFS, Detroit Ranger District | 503-854-3366 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo | 20         | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800375  | Floating Restroom | Fern Ridge Reservoir    |            | Fern Ridge Reservoir                   | Lane County                   | 541-682-2000 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800456  | Floating Restroom | Columbia River          | 117        | Government Island                      | State Parks                   | 800-551-6949 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800465  | Floating Restroom | Green Peter Reservoir   | ---        | Green Peter Reservoir (Quartzville)    | Linn County                   | 541-967-3917 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800476  | Floating Restroom | Green Peter Reservoir   |            | Green Peter Reservoir (Rumbaugh)       | Linn County                   | 541-967-3918 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800487  | Floating Restroom | Howard Praire Reservoir |            | Howard Prairie Reservoir               | Jackson County                | 541-776-7001 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo | 10         | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800509  | Floating Restroom | Lake Billy Chinook      |            | Lake Billy Chinook (Crook Rvr Arm)     | State Parks                   | 800-551-6949 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+| 1413800520  | Floating Restroom | Lake Billy Chinook      | ---        | Lake Billy Chinook (Deschutes Rvr Arm) | State Parks                   | 800-551-6949 | HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo |            | [http://www.oregon.gov/OSMB/Clean/pages/index.aspx, null] |       | 
+```

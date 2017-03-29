@@ -70,3 +70,20 @@ property e:md3v-ph3u t:meta.view.tableauthor v:id=uqfu-rapx v:screenName="Enterp
 
 property e:md3v-ph3u t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| system_id | media_local_status | dvr_name | duration | time_media_start    | media_size_mb | 
+| ========= | ================== | ======== | ======== | =================== | ============= | 
+| 265887    | Online             | 15091    | 0        | 2016-03-22T07:28:31 | 17            | 
+| 265886    | Online             | 15091    | 0        | 2016-03-22T07:27:37 | 19            | 
+| 265885    | Online             | 15091    | 1        | 2016-03-22T07:00:32 | 26            | 
+| 265884    | Online             | 15037    | 2        | 2016-03-22T07:02:38 | 63            | 
+| 265883    | Online             | 15091    | 7        | 2016-03-22T05:31:58 | 203           | 
+| 265882    | Online             | 15091    | 41       | 2016-03-21T23:41:28 | 1073          | 
+| 265881    | Online             | 15070    | 12       | 2016-03-22T06:27:24 | 312           | 
+| 265880    | Online             | 15091    | 30       | 2016-03-22T01:05:04 | 770           | 
+| 265879    | Online             | 15070    | 9        | 2016-03-22T05:57:58 | 250           | 
+| 265878    | Online             | 15129    | 24       | 2016-03-22T06:29:07 | 629           | 
+```

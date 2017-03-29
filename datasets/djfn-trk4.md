@@ -80,3 +80,20 @@ property e:djfn-trk4 t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:djfn-trk4 t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| year | residential_total | commercial_total | industrial_total | transportation_total | electric_generation_total | net_imports_of_electricity | yeartotal | 
+| ==== | ================= | ================ | ================ | ==================== | ========================= | ========================== | ========= | 
+| 2014 | 35.5              | 22.0             | 11.0             | 74.0                 | 30.4                      | 8.0                        | 181.0     | 
+| 2013 | 32.3              | 22.4             | 10.4             | 72.6                 | 29.9                      | 9.3                        | 177.0     | 
+| 2012 | 30.4              | 20.9             | 10.7             | 72.2                 | 32.2                      | 9.5                        | 175.9     | 
+| 2011 | 31.1              | 24.2             | 11.1             | 70.1                 | 33.4                      | 9.1                        | 178.9     | 
+| 2010 | 31.7              | 24.2             | 10.3             | 74.9                 | 37.3                      | 9.6                        | 187.9     | 
+| 2009 | 32.9              | 25.1             | 11.5             | 77.7                 | 34.0                      | 9.0                        | 190.2     | 
+| 2008 | 35.6              | 25.9             | 13.8             | 80.3                 | 42.5                      | 8.6                        | 206.7     | 
+| 2007 | 36.9              | 26.7             | 14.1             | 82.9                 | 48.8                      | 7.5                        | 216.8     | 
+| 2006 | 33.1              | 25.4             | 14.6             | 84.8                 | 45.9                      | 6.7                        | 210.6     | 
+| 2005 | 39.8              | 28.6             | 15.0             | 83.7                 | 53.6                      | 6.6                        | 227.3     | 
+```

@@ -66,3 +66,20 @@ property e:pyif-r8qe t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:pyif-r8qe t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | program_type                               | program          | site_name                        | borough_community | agency                                                                 | contact_number | grade_level_age_group | 
+| =========== | ========================================== | ================ | ================================ | ================= | ====================================================================== | ============== | ===================== | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA EDENWALD HOUSES            | Bronx             | Mosholu Montefiore @Edenwald Community Center                          | (718) 652-0246 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA REDFERN HOUSES             | Queens            | Police Athletic League @Redfern Community Center                       | (718) 471-0360 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA LATIMER GARDENS            | Queens            | Child Center of New York @Lewis H. Latimer Gardens Community Center    | (718) 353-0385 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA MARLBORO HOUSES            | Brooklyn          | Federation of Italian American Organization @Marlboro Community Center | (718) 449-1444 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA BUSHWICK/HYLAN HOUSES      | Brooklyn          | YMCA-Eastern District @ Bushwick/Hylan Community Center                | (718) 453-8116 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA DYCKMAN HOUSES             | Manhattan         | Alianza Dominicana, Inc. @Dyckman Community Center                     | (212) 567-8782 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA TAYLOR-WYTHE AVENUE HOUSES | Brooklyn          | El Puente De Williamsburg @Taylor-Wythe Community Center               | (718) 333-0575 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA PINK HOUSES                | Brooklyn          | East New York Development Corporation @ Louis H. Pink Community Center | (718) 964-9043 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA SUMNER HOUSES              | Brooklyn          | YMCA-Eastern District @Sumner Community Center                         | (718) 919-4756 | 6 and up              | 
+| 1314876785  | After-School Programs,Beacon,NYCHA Centers | Beacon Satellite | NYCHA JOHNSON HOUSES             | Manhattan         | SCAN @James Weldon Johnson Community Center                            | (212) 289-8819 | 6 and up              | 
+```

@@ -74,3 +74,20 @@ property e:vnht-dg7x t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigo
 
 property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
 ```
+
+## Top Records
+
+```ls
+| rowid                                                                                            | indicatorname                                                                        | indicatorlabel | date                | datelabel | month    | year | indicatorvalue | 
+| ================================================================================================ | ==================================================================================== | ============== | =================== | ========= | ======== | ==== | ============== | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009   | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2009-08-01T00:00:00 | Aug, 2009 | August   | 2009 | 33             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2010   | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2010-08-01T00:00:00 | Aug, 2010 | August   | 2010 | 50             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2011 | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2011-02-01T00:00:00 | Feb, 2011 | February | 2011 | 60             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2011   | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2011-08-01T00:00:00 | Aug, 2011 | August   | 2011 | 47             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2012 | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2012-02-01T00:00:00 | Feb, 2012 | February | 2012 | 61             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2012   | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2012-08-01T00:00:00 | Aug, 2012 | August   | 2012 | 56             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentMarch2013    | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2013-03-01T00:00:00 | Mar, 2013 | March    | 2013 | 58             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2013   | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2013-08-01T00:00:00 | Aug, 2013 | August   | 2013 | 58             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentMarch2014    | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2014-03-01T00:00:00 | Mar, 2014 | March    | 2014 | 60             | 
+| Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2015 | Percent of citizens reporting being satisfied with the New Orleans Police Department | Satisfied      | 2015-02-01T00:00:00 | Feb, 2015 | February | 2015 | 48             | 
+```

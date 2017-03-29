@@ -73,3 +73,18 @@ property e:hbcs-x3a5 t:meta.view.owner v:id=e75b-y6hv v:screenName=Jenny v:displ
 
 property e:hbcs-x3a5 t:meta.view.tableauthor v:id=e75b-y6hv v:screenName=Jenny v:roleName=publisher v:displayName=Jenny
 ```
+
+## Top Records
+
+```ls
+| :updated_at | hospice_residence                                                           | address                  | city              | zip      | county | phone                  | license | dba      | 
+| =========== | =========================================================================== | ======================== | ================= | ======== | ====== | ====================== | ======= | ======== | 
+| 1483727816  | Alexian Brothers Hospice                                                    | 901 Martha Street        | Elk Grove Village | Cook     | 60007  | [(630) 233-5010, null] | 2002732 | 03/31/17 | 
+| 1483727816  | Joliet Area Community Hospice, Inc.                                         | 250 Water Stone Circle   | Joliet            | Will     | 60431  | [(815) 740-4104, null] | 2000340 | 04/30/17 | 
+| 1483727816  | JourneyCare, Inc.                                                           | 527 W South Street       | Woodstock         | Mc Henry | 60098  | [(847) 381-5599, null] | 2000920 | 07/31/17 | 
+| 1483727816  | JourneyCare, Inc.                                                           | 405 Lake Zurich Road     | Barrington        | Lake     | 60010  | [(847) 381-5599, null] | 2000919 | 07/31/17 | 
+| 1483727816  | Midwest Palliative & Hospice Care Center                                    | 2050 Claire Court        | Glenview          | Cook     | 60025  | [(224) 770-2418, null] | 2003132 | 06/30/17 | 
+| 1483727816  | OSF Richard L Owens Hospice Home                                            | 8630 N Route 91          | Peoria            | Peoria   | 61615  | [(309) 683-7748, null] | 2001107 | 01/31/18 | 
+| 1483727816  | Seasons Hospice, Inc. - DBA Seasons Hospice & Palliative Care-Hospice House | 2195 Diehl Road          | Naperville        | Du Page  | 60563  | [(800) 570-8809, null] | 2002014 | 12/31/17 | 
+| 1483727816  | Serenity Hospice and Home                                                   | 1658 S. Illinois Route 2 | Oregon            | Ogle     | 61061  | [(815) 732-2499, null] | 2000298 | 03/31/17 | 
+```

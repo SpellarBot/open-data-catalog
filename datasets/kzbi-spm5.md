@@ -74,3 +74,20 @@ property e:kzbi-spm5 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Lev
 
 property e:kzbi-spm5 t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
 ```
+
+## Top Records
+
+```ls
+| fund_type | fund_code | fund_description | department_number | department_description | appropriation_authority | appropriation_authority_description | appropriation_account | appropriation_account_description | appropration | revised_appropriation | recommendation | 
+| ========= | ========= | ================ | ================= | ====================== | ======================= | =================================== | ===================== | ================================= | ============ | ===================== | ============== | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 5                     | SALARIES AND WAGES - ON PAYROLL   | 5511957      | 5511957               | 5550657        | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 126                   | OFFICE CONVENIENCES               | 1200         | 1200                  | 1000           | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 130                   | POSTAGE                           | 10000        | 10000                 | 5019           | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 150                   | PUBLICATN & REPRODT-OUT           | 1000         | 1000                  | 1000           | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 157                   | RENTAL EQUIPMENT AND SERVICES     | 49500        | 49500                 | 49500          | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 159                   | LEASE PURCHASE AGREEMNT           | 63500        | 63500                 | 63500          | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 162                   | REPAIR/MAINT EQUIPMENT            | 6984         | 6984                  | 6984           | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 166                   | DUES, SUBSC & MEM                 | 18500        | 18500                 | 18500          | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 169                   | TECHNICAL MEETING COSTS           | 5286         | 5286                  | 5286           | 
+| LOCAL     | 0100      | CORPORATE FUND   | 1                 | OFFICE OF THE MAYOR    | 2005                    | OFFICE OF THE MAYOR                 | 181                   | MOBILE COMMUNICATION SERVICES     | 47400        | 47400                 | 37700          | 
+```

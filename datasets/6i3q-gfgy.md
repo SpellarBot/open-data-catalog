@@ -91,3 +91,20 @@ property e:6i3q-gfgy t:meta.view.owner v:id=t29c-4u8y v:profileImageUrlMedium=/a
 
 property e:6i3q-gfgy t:meta.view.tableauthor v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
 ```
+
+## Top Records
+
+```ls
+| stn_id   | station_name                                   | salmon_region | wria | trib_level | m_k_p | reg_p | trend_category | trend_cfs_yr | trend_year | cat_change_from_2011 | trend_change_from_2013 | 
+| ======== | ============================================== | ============= | ==== | ========== | ===== | ===== | ============== | ============ | ========== | ==================== | ====================== | 
+| 12447390 | ANDREWS CREEK NEAR MAZAMA, WA                  | UC            | 48   | 4          | 0.709 | 0.728 | no trend       | 0.02         | 0.2        | same                 | down                   | 
+| 12112600 | BIG SOOS CREEK ABOVE HATCHERY NR AUBURN        | PS            | 9    | 2          | 0.666 | 0.837 | no trend       | 0.02         | 0.1        | same                 | up                     | 
+| 12433200 | CHAMOKANE CREEK BELOW FALLS NEAR LONG LAKE, WA | NE            | 54   | 3          | 0.619 | 0.801 | no trend       | 0.02         | 0.1        | same                 | down                   | 
+| 12031000 | CHEHALIS RIVER PORTER                          | WC            | 23   | 1          | 0.600 | 0.903 | no trend       | 0.1          | 0.03       | same                 | down                   | 
+| 12452800 | ENTIAT RIVER NEAR ARDENVOIR, WA                | UC            | 46   | 2          | 0.718 | 0.896 | no trend       | -0.1         | -0.1       | wd->nt               | up                     | 
+| 12041200 | HOH RIVER AT US HWY 101 NEAR FORKS             | WC            | 20   | 1          | 0.650 | 0.589 | no trend       | -1.5         | -0.2       | same                 | down                   | 
+| 14113000 | KLICKITAT RIVER NEAR PITT                      | MC            | 30   | 2          | 0.537 | 0.510 | no trend       | 1.3          | 0.2        | same                 | up                     | 
+| 12449950 | METHOW RIVER NEAR PATEROS, WA                  | UC            | 48   | 2          | 0.825 | 0.724 | no trend       | -0.6         | -0.1       | wd->nt               | up                     | 
+| 12213100 | NOOKSACK RIVER AT FERNDALE                     | PS            | 1    | 1          | 0.650 | 0.822 | no trend       | -1.0         | -0.1       | wd->nt               | up                     | 
+| 12035000 | SATSOP RIVER NEAR SATSOP                       | WC            | 22   | 2          | 0.537 | 0.677 | no trend       | -0.3         | -0.1       | wi->nt               | up                     | 
+```

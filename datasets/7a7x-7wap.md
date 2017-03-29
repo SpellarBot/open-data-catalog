@@ -77,3 +77,20 @@ property e:7a7x-7wap t:meta.view.tableauthor v:id=mwxm-zess v:profileImageUrlMed
 
 property e:7a7x-7wap t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| department                  | personal_services | equipment | contractual_expenses | benefits | debt_service | total   | 
+| =========================== | ================= | ========= | ==================== | ======== | ============ | ======= | 
+| Mayor                       | 598685            | 0         | 10300                | 126799   | 0            | 735784  | 
+| Central Data Processing     | 394605            | 52000     | 133000               | 89187    | 0            | 668792  | 
+| Common Council              | 435920            | 1500      | 33500                | 121348   | 0            | 592268  | 
+| Treasurer                   | 980014            | 0         | 353600               | 289971   | 0            | 1623585 | 
+| Office of Audit & Control   | 260036            | 1000      | 111000               | 74893    | 0            | 446929  | 
+| Development & Planning      | 95402             | 0         | 0                    | 42103    | 0            | 137505  | 
+| Housing & Comm. Development | 760428            | 0         | 68500                | 374038   | 0            | 1202966 | 
+| Division of Planning        | 436780            | 0         | 124000               | 92414    | 0            | 653194  | 
+| Law Department              | 739948            | 3000      | 434700               | 148606   | 0            | 1326254 | 
+| Admin.Services/Personnel    | 710800            | 0         | 23000                | 119731   | 0            | 853531  | 
+```

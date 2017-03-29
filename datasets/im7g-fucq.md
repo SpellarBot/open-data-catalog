@@ -60,3 +60,20 @@ property e:im7g-fucq t:meta.view.owner v:id=8xqn-4t42 v:profileImageUrlMedium=/a
 
 property e:im7g-fucq t:meta.view.tableauthor v:id=8xqn-4t42 v:profileImageUrlMedium=/api/users/8xqn-4t42/profile_images/THUMB v:profileImageUrlLarge=/api/users/8xqn-4t42/profile_images/LARGE v:screenName="Rodney Distler" v:profileImageUrlSmall=/api/users/8xqn-4t42/profile_images/TINY v:roleName=publisher v:displayName="Rodney Distler"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | county      | zip_code | city       | 
+| =========== | =========== | ======== | ========== | 
+| 1329302519  | Stoddard    | 63960    | Acornridge | 
+| 1329302519  | Adair       | 63533    | Adair      | 
+| 1329302519  | Bates       | 64720    | Adrian     | 
+| 1329302519  | Stoddard    | 63730    | Advance    | 
+| 1329302519  | Saint Louis | 63123    | Affton     | 
+| 1329302519  | Buchanan    | 64401    | Agency     | 
+| 1329302519  | Jasper      | 64830    | Alba       | 
+| 1329302519  | Gentry      | 64402    | Albany     | 
+| 1329302519  | Polk        | 65601    | Aldrich    | 
+| 1329302519  | Clark       | 63430    | Alexandria | 
+```

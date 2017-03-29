@@ -82,3 +82,20 @@ property e:xqn9-cme5 t:meta.view.owner v:id=ibpp-yb7w v:screenName="Jim Conlon" 
 
 property e:xqn9-cme5 t:meta.view.tableauthor v:id=ibpp-yb7w v:screenName="Jim Conlon" v:displayName="Jim Conlon"
 ```
+
+## Top Records
+
+```ls
+| aadt  | aadt_yr | marked_nam | road_name    | county_nam | hcv         | hcv_mu_yr | mu_vol      | su_vol      | mr_number | mr_type | inventory        | key_rt_nbr | point_x  | point_y  | 
+| ===== | ======= | ========== | ============ | ========== | =========== | ========= | =========== | =========== | ========= | ======= | ================ | ========== | ======== | ======== | 
+| 3650  | 2006    | 0          | SHERIDAN     | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 93726 000000 | 3726       | -87.7652 | 42.15233 | 
+| 3650  | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 93726 000000 | 3726       | -87.7706 | 42.15238 | 
+| 6600  | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 93726 000000 | 3726       | -87.7756 | 42.15238 | 
+| 12600 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 93726 000000 | 3726       | -87.7878 | 42.15246 | 
+| 12600 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 93726 000000 | 3726       | -87.7984 | 42.15258 | 
+| 31300 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 20379 000000 | 379        | -87.7993 | 42.15258 | 
+| 31300 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 20379 000000 | 379        | -87.8008 | 42.15258 | 
+| 31300 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 20379 000000 | 379        | -87.8055 | 42.15253 | 
+| 37000 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 20379 000000 | 379        | -87.8254 | 42.15270 | 
+| 31300 | 2006    | 0          | LAKE COOK RD | Cook       | Not Counted |           | Not Counted | Not Counted | 0         | 0       | 016 20379 000000 | 379        | -87.8131 | 42.15254 | 
+```

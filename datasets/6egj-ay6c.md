@@ -79,3 +79,20 @@ property e:6egj-ay6c t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/a
 
 property e:6egj-ay6c t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```
+
+## Top Records
+
+```ls
+| school_name                    | school_district | date_completed | source_of_grant | estimated_ae_cost | estimated_grant_funds | estimated_total_cost | system_size_dc_kw | estimated_annual_production_kwh | 
+| ============================== | =============== | ============== | =============== | ================= | ===================== | ==================== | ================= | =============================== | 
+| Cunningham Elementary          | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Bedichek Middle School         | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Blanton Elementary School      | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Garza Independence High School | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Martin Middle School           | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Murchison Middle School        | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| O. Henry Middle School         | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Davis Elementary               | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Zilker Elementary              | Austin          | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+| Pond Springs Elementary        | Round Rock      | 2006           | SECO            | 35114.65          | 9090.91               | 44205.56             | 3.4               | 5450                            | 
+```

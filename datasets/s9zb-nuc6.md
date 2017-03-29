@@ -98,3 +98,20 @@ property e:s9zb-nuc6 t:meta.view.owner v:id=3qqc-w7ag v:profileImageUrlMedium=/a
 
 property e:s9zb-nuc6 t:meta.view.tableauthor v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:displayName="Tom Schenk Jr"
 ```
+
+## Top Records
+
+```ls
+| department_name         | employee_name           | title                             | jan_2013 | feb_2013 | mar_2013 | apr_2013 | may_2013 | jun_2013 | jul_2013 | aug_2013 | sep_2013 | oct_2013 | nov_2013 | dec_2013 | grand_total | 
+| ======================= | ======================= | ================================= | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | ======== | =========== | 
+| Animal Care and Control | AGUILAR, ELMA M         | ANIMAL CARE AIDE I                | 887.34   | -22.75   | 318.53   | 500.55   | 182.02   | 182.02   | 864.58   | 1274.13  | 743.24   | 0        | 500.55   | 333.62   | 5763.83     | 
+| Animal Care and Control | AGUILAR, RICARDO L      | ANIMAL CONTROL OFFICER            | 1531.96  | 1780.95  | 590.91   | 960.23   | 0        | 689.4    | 1612.71  | 2220.03  | 1493.7   | 2043.57  | 2724.77  | 1887.64  | 17535.87    | 
+| Animal Care and Control | ALLEN, TIMOTHY M        | ANIMAL CONTROL OFFICER            | 0        | 189.14   | 378.27   | 0        | 0        | 0        | 189.14   | 0        | 189.14   | 0        | 189.14   | 189.14   | 1323.97     | 
+| Animal Care and Control | AYALA, ARTHUR           | ANIMAL CONTROL OFFICER            | 375.47   | 0        | 189.13   | 0        | 0        | 0        | 189.14   | 972.71   | 0        | 0        | 0        | 999.73   | 2726.18     | 
+| Animal Care and Control | BATINICH, JACLYN M      | VETERINARY ASST                   | 849.94   | 0        | 0        | 333.62   | 190.63   | 1139.87  | 190.64   | 285.96   | 190.64   | 0        | 381.28   | 873.77   | 4436.35     | 
+| Animal Care and Control | BRADFORD, MONA MICHELLE | ANIMAL CARE AIDE II               | 1166.31  | 178.52   | 374.88   | 0        | 142.81   | 839.02   | 598.02   | 0        | 0        | 1262.07  | 0        | 0        | 4561.63     | 
+| Animal Care and Control | BRADY, DIANNE           | ANIMAL CONTROL INSPECTOR          | 1392.26  | 837.42   | 628.06   | 280.38   | 0        | 0        | 314.03   | 426.18   | 179.45   | 2138.41  | 2534.68  | 1516.89  | 10247.76    | 
+| Animal Care and Control | CALIN, MICHELLE         | ANIMAL CONTROL OFFICER            | 3756.27  | 0        | 1065.46  | 493.48   | 897.24   | 3566.51  | 1555.21  | 2684.22  | 2489.81  | 1749.61  | 1136.5   | 360.47   | 19754.78    | 
+| Animal Care and Control | CHRISTENSEN, ALTHEA     | ANIMAL CARE AIDE II               | 0        | 0        | 0        | 375.01   | 0        | 0        | 124.96   | 365.96   | 214.22   | 321.33   | 565.31   | 529.59   | 2496.38     | 
+| Animal Care and Control | CRAYTON, MARSTINE L     | SUPVSR OF ANIMAL CONTROL OFFICERS | 3983.97  | 1621.4   | 1204.47  | 548.18   | 324.28   | 872.46   | 980.55   | 741.21   | 1335.71  | 2293.11  | 1814.41  | 324.28   | 16044.03    | 
+```

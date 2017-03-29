@@ -59,3 +59,20 @@ property e:h3pg-sm3a t:meta.view.owner v:id=4cdh-4my4 v:screenName=Dwight v:disp
 
 property e:h3pg-sm3a t:meta.view.tableauthor v:id=4cdh-4my4 v:screenName=Dwight v:roleName=editor v:displayName=Dwight
 ```
+
+## Top Records
+
+```ls
+| agency_name          | program_name                             | amount_received | 
+| ==================== | ======================================== | =============== | 
+| AGRICULTURE          | AQUACULTURE ASSISTANCE PROGRAM           | 111849.21       | 
+| AGRICULTURE          | ENERGY EFFIC/RENEW ENERGY - CONS BLO     | 5000000.00      | 
+| CONSERVATION         | FISH AND WILDLIFE SERVICE                | 144900.00       | 
+| CONSERVATION         | WILDLAND FIRE MANAGEMENT                 | 6000000.00      | 
+| ECONOMIC DEVELOPMENT | AMERICORPS                               | 823449.04       | 
+| ECONOMIC DEVELOPMENT | COMMUNITY DEVELOPMENT BLOCK GRANT        | 6433629.00      | 
+| ECONOMIC DEVELOPMENT | EMPLOYMENT SRVS WAGNER-PEYSER            | 7400054.18      | 
+| ECONOMIC DEVELOPMENT | NATIONAL EMERG WIA GRANT                 | 3270587.36      | 
+| ECONOMIC DEVELOPMENT | NATIONAL ENDOWMENT OF THE ARTS           | 320200.00       | 
+| ECONOMIC DEVELOPMENT | STATE ENERGY REGULATORS ASSISTANCE GRANT | 125520.67       | 
+```

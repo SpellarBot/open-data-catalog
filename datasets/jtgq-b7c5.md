@@ -73,3 +73,20 @@ property e:jtgq-b7c5 t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:di
 
 property e:jtgq-b7c5 t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```
+
+## Top Records
+
+```ls
+| :updated_at | dpw_node_id | puc_maximo_asset_id | system_use_code | system_use                         | drain_type        | point_x          | point_y          | 
+| =========== | =========== | =================== | =============== | ================================== | ================= | ================ | ================ | 
+| 1482880261  | 155487      | N-42109             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6008875.90000121 | 2098204.47897194 | 
+| 1482880261  | 155540      | N-42990             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6012451.39499447 | 2113875.27043653 | 
+| 1482880261  | 157534      | N-43293             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6014153.27       | 2116375.31       | 
+| 1482880261  | 155897      | N-42862             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6006121.10253416 | 2120402.24386018 | 
+| 1482880261  | 178604      | N-28248             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6004695.95291749 | 2094300.44745675 | 
+| 1482880261  | 254047      | N-290876            | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6013341.12615436 | 2116975.87629157 | 
+| 1482880261  | 177759      | N-15629             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6009953.1088     | 2119366.3678     | 
+| 1482880261  | 157444      | N-43469             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6010128.31108148 | 2105524.84103321 | 
+| 1482880261  | 155827      | N-42657             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 5993207.46536172 | 2093737.70623419 | 
+| 1482880261  | 155511      | N-42514             | STORM           | Storm; even if DS flow is combined | Track Drain       | 6010592.90748695 | 2086222.58181359 | 
+```

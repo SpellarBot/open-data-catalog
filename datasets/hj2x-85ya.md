@@ -84,3 +84,20 @@ property e:hj2x-85ya t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMed
 
 property e:hj2x-85ya t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:029
 ```
+
+## Top Records
+
+```ls
+| year | quarter | locationabbr | locationdesc | topictypedesc | topicdesc  | measuredesc                                                      | smokefree_indoor_air | youth_access | advertising | licensure | preemption                    | preemptionaltvalue | topictypeid | topicid | measureid | 
+| ==== | ======= | ============ | ============ | ============= | ========== | ================================================================ | ==================== | ============ | =========== | ========= | ============================= | ================== | =========== | ======= | ========= | 
+| 1996 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 1997 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 1998 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 1999 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 2000 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 2001 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 2002 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 2003 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 2004 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+| 2005 | 4       | NV           | Nevada       | Legislation   | Preemption | Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH | Yes                  | Yes          | Yes         | No        | Preemption for three policies | 3                  | LEG         | 630     | 667COMB   | 
+```

@@ -64,3 +64,20 @@ property e:3vxz-wrn6 t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:dis
 
 property e:3vxz-wrn6 t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
 ```
+
+## Top Records
+
+```ls
+| :updated_at | county    | total_population_2010 | est_deaf_1 | est_hoh_9 | est_deaf_hoh_10 | 
+| =========== | ========= | ===================== | ========== | ========= | =============== | 
+| 1438863352  | Missouri  | 5988927               | 59889      | 539003    | 598893          | 
+| 1438863352  | Adair     | 25607                 | 256        | 2305      | 2561            | 
+| 1438863352  | Andrew    | 17291                 | 173        | 1556      | 1729            | 
+| 1438863352  | Atchison  | 5685                  | 57         | 512       | 569             | 
+| 1438863352  | Audrain   | 25529                 | 255        | 2298      | 2553            | 
+| 1438863352  | Barry     | 35597                 | 356        | 3204      | 3560            | 
+| 1438863352  | Barton    | 12402                 | 124        | 1116      | 1240            | 
+| 1438863352  | Bates     | 17049                 | 170        | 1534      | 1705            | 
+| 1438863352  | Benton    | 19056                 | 191        | 1715      | 1906            | 
+| 1438863352  | Bollinger | 12363                 | 124        | 1113      | 1236            | 
+```

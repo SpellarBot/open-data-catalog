@@ -77,3 +77,20 @@ property e:w4v6-3sdt t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:w4v6-3sdt t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
+
+## Top Records
+
+```ls
+| neighborhood         | type_of_home          | total_no_of_properties | number_of_sales | lowest_sale_price | average_sale_price | median_sale_price | highest_sale_price | 
+| ==================== | ===================== | ====================== | =============== | ================= | ================== | ================= | ================== | 
+| BATHGATE             | 01 ONE FAMILY HOMES   | 87                     | 1               | 345752            | 345752             | 345752            | 345752             | 
+| BATHGATE             | 02 TWO FAMILY HOMES   | 308                    | 8               | 183028            | 327310             | 334750            | 415440             | 
+| BATHGATE             | 03 THREE FAMILY HOMES | 131                    | 10              | 162240            | 536674             | 602500            | 640000             | 
+| BAYCHESTER           | 01 ONE FAMILY HOMES   | 2493                   | 48              | 165000            | 340465             | 342500            | 500000             | 
+| BAYCHESTER           | 02 TWO FAMILY HOMES   | 2965                   | 74              | 200000            | 458667             | 495000            | 636000             | 
+| BAYCHESTER           | 03 THREE FAMILY HOMES | 896                    | 9               | 330000            | 478589             | 508800            | 575000             | 
+| BEDFORD PARK/NORWOOD | 01 ONE FAMILY HOMES   | 296                    | 12              | 150500            | 319987             | 309000            | 530000             | 
+| BEDFORD PARK/NORWOOD | 02 TWO FAMILY HOMES   | 616                    | 14              | 228714            | 420917             | 435000            | 620000             | 
+| BEDFORD PARK/NORWOOD | 03 THREE FAMILY HOMES | 259                    | 11              | 224000            | 511940             | 527845            | 685000             | 
+| BELMONT              | 02 TWO FAMILY HOMES   | 313                    | 11              | 200000            | 402303             | 407000            | 731000             | 
+```

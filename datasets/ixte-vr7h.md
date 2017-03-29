@@ -62,3 +62,20 @@ property e:ixte-vr7h t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v
 
 property e:ixte-vr7h t:meta.view.tableauthor v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 ```
+
+## Top Records
+
+```ls
+| supplier_name            | zip_code | department                    | amount    | 
+| ======================== | ======== | ============================= | ========= | 
+| US BANK                  | 55170    | Not Defined                   | 1200000   | 
+| VERIZON                  | 75266    | Police                        | 1869.45   | 
+| WEST GROUP               | 60197    | Police                        | 292       | 
+| Not Applicable           |          | Not Defined                   | 4471778.3 | 
+| 10914 GEORGIA AVENUE LLC | 20814    | Housing and Community Affairs | 5000000   | 
+| 1109 SPRING HOLDINGS LLC | 21279    | Non-Departmental Accounts     | 8048.3    | 
+| 1109 SPRING HOLDINGS LLC | 21279    | Transportation                | 53289.64  | 
+| 1335 PICCARD LLC         | 22192    | Non-Departmental Accounts     | 678950.32 | 
+| 1ST CHOICE STAFFING LLC  | 20910    | Board of Elections            | 28785.42  | 
+| 1ST CHOICE STAFFING LLC  | 20910    | Consumer Protection           | 27819.9   | 
+```

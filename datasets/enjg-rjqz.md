@@ -70,3 +70,20 @@ property e:enjg-rjqz t:meta.view.owner v:id=m2gt-bxeg v:screenName="Mike Grandel
 
 property e:enjg-rjqz t:meta.view.tableauthor v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | state       | federal_rd_spending_obligations | nih_rd_awards | sbir_awards_per_capita | patents_per_100k | 
+| =========== | =========== | =============================== | ============= | ====================== | ================ | 
+| 1490212357  | Alabama     | 4537952.0                       | 25399511      | 7.03                   | 9.7              | 
+| 1490212357  | Alaska      | 208043.9                        | 0             | 0.20                   | 5.4              | 
+| 1490212357  | Arizona     | 1643746.2                       | 3186536       | 2.83                   | 37.2             | 
+| 1490212357  | Arkansas    | 105595.5                        | 1758464       | 2.48                   | 7.8              | 
+| 1490212357  | California  | 15280643.1                      | 91438716      | 8.49                   | 102.7            | 
+| 1490212357  | Colorado    | 3506387.5                       | 6547016       | 15.04                  | 55.8             | 
+| 1490212357  | Connecticut | 2292751.1                       | 3533404       | 6.89                   | 60.1             | 
+| 1490212357  | Delaware    | 108102.9                        | 0             | 9.55                   | 38.2             | 
+| 1490212357  | Florida     | 2932695.7                       | 3501386       | 2.33                   | 20.0             | 
+| 1490212357  | Georgia     | 1182449.5                       | 21414017      | 1.36                   | 24.1             | 
+```

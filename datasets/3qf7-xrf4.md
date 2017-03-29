@@ -73,3 +73,20 @@ property e:3qf7-xrf4 t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County 
 
 property e:3qf7-xrf4 t:meta.view.tableauthor v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:displayName="Cook County Open Data"
 ```
+
+## Top Records
+
+```ls
+| precinct | polling_place_id | polling_place_location_name   | accessible | address            | city             | zip   | 
+| ======== | ================ | ============================= | ========== | ================== | ================ | ===== | 
+| 8400012  | 1283             | THE MONTCLARE BUILDING        | YES        | 7171 W GUNNISON ST | HARWOOD HEIGHTS  | 60706 | 
+| 8100032  | 4091             | MALLINCKRODT COMMUNITY CENTER | YES        | 1041A RIDGE RD     | WILMETTE         | 60091 | 
+| 7200068  | 284              | ESDA BUILDING                 | YES        | 13755 S LAMON AVE  | CRESTWOOD        | 60445 | 
+| 7600028  | 585              | TOWNE PLACE WEST CLUBHOUSE    | YES        | 2841 MEADOW LN     | SCHAUMBURG       | 60195 | 
+| 7800026  | 697              | ELM SCHOOL                    | YES        | 7607 W CORTLAND ST | ELMWOOD PARK     | 60707 | 
+| 8700035  | 3663             | PALATINE TOWNSHIP CENTER      | YES        | 721 S QUENTIN RD   | PALATINE         | 60067 | 
+| 7600007  | 538              | HANOVER COUNTRYSIDE SCHOOL    | YES        | 6 S BARTLETT RD    | STREAMWOOD       | 60107 | 
+| 7100016  | 170              | LYNWOOD SENIOR YOUTH CENTER   | YES        | 21490 LINCOLN HWY  | LYNWOOD          | 60411 | 
+| 9500026  | 4014             | EAST HAZEL CREST FIRE STATION | YES        | 17223 THROOP ST    | EAST HAZEL CREST | 60429 | 
+| 8100024  | 1038             | BETH HILLEL CONGREGATION      | YES        | 3220 BIG TREE LN   | WILMETTE         | 60091 | 
+```

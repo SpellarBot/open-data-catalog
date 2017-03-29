@@ -63,3 +63,20 @@ property e:qwnt-35i6 t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:qwnt-35i6 t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| date_of_request     | name_of_requestor | relevant_law                 | 
+| =================== | ================= | ============================ | 
+| 2004-03-10T00:00:00 | Terrence Hallinan | one-year post-employment ban | 
+| 2004-07-30T00:00:00 | Anthony P. Hall   | one-year post-employment ban | 
+| 2004-08-30T00:00:00 | Ruth Edelstein    | one-year post-employment ban | 
+| 2004-10-21T00:00:00 | David Campos      | one-year post-employment ban | 
+| 2005-03-09T00:00:00 | Matt Gonzalez     | one-year post-employment ban | 
+| 2006-01-24T00:00:00 | Barbara Selby     | one-year post-employment ban | 
+| 2006-09-01T00:00:00 | Miguel Marquez    | one-year post-employment ban | 
+| 2006-09-01T00:00:00 | Rio Foster        | one-year post-employment ban | 
+| 2007-11-02T00:00:00 | Steve Kawa        | one-year post-employment ban | 
+| 2010-02-15T00:00:00 | Zachary Nathan    | one-year post-employment ban | 
+```

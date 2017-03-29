@@ -72,3 +72,20 @@ property e:wcrd-n5pw t:meta.view.owner v:id=r2ci-32dw v:screenName=rlucht v:disp
 
 property e:wcrd-n5pw t:meta.view.tableauthor v:id=r2ci-32dw v:screenName=rlucht v:roleName=publisher v:displayName=rlucht
 ```
+
+## Top Records
+
+```ls
+| disease      | yeartext | year | stateorcounty | il | race    | ethnicity          | gender | agegrouptext | agegroup    | count | 
+| ============ | ======== | ==== | ============= | == | ======= | ================== | ====== | ============ | =========== | ===== | 
+| Lyme Disease | Year     | 2011 | S             | IL | Unknown | UnkwnNotClassified | Male   | CD5yr        | 50-54 Years | 1     | 
+| Lyme Disease | Year     | 2011 | S             | IL | Unknown | UnkwnNotClassified | Male   | CD5yr        | 55-59 Years | 5     | 
+| Lyme Disease | Year     | 2011 | S             | IL | Unknown | UnkwnNotClassified | Male   | CD5yr        | 5-9 Years   | 1     | 
+| Lyme Disease | Year     | 2011 | S             | IL | Unknown | UnkwnNotClassified | Male   | CD5yr        | 65 + Years  | 1     | 
+| Lyme Disease | Year     | 2011 | S             | IL | White   | Hispanic or Latino | Female | CD5yr        | 25-29 Years | 1     | 
+| Lyme Disease | Year     | 2011 | S             | IL | White   | Hispanic or Latino | Male   | CD5yr        | 35-39 Years | 1     | 
+| Lyme Disease | Year     | 2011 | S             | IL | White   | Hispanic or Latino | Male   | CD5yr        | 5-9 Years   | 1     | 
+| Lyme Disease | Year     | 2011 | S             | IL | White   | NotHispNotLatino   | Female | CD5yr        | 0-4 Years   | 2     | 
+| Lyme Disease | Year     | 2011 | S             | IL | White   | NotHispNotLatino   | Female | CD5yr        | 10-14 Years | 5     | 
+| Lyme Disease | Year     | 2011 | S             | IL | White   | NotHispNotLatino   | Female | CD5yr        | 15-19 Years | 1     | 
+```

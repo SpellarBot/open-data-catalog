@@ -67,3 +67,20 @@ property e:y3id-d73d t:meta.view.owner v:id=ym7w-2hjx v:profileImageUrlMedium=/a
 
 property e:y3id-d73d t:meta.view.tableauthor v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | bfy  | institution                        | vendor_name              | amount   | 
+| =========== | ==== | ================================== | ======================== | ======== | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | Aaron & Midori Gingerich | 100.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | Abby Smith               | 450.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | Access Systems           | 165.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | Accessibility Dot Net    | 23976.00 | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | ACVREP                   | 125.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | Advance Education Inc    | 725.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | AEA 267                  | 62.50    | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | AER                      | 172.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | AERBVI                   | 625.00   | 
+| 1419323204  | 2012 | IA Braille and Sight Saving School | AFB Press                | 1563.61  | 
+```

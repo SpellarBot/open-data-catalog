@@ -47,11 +47,18 @@ Excluded Fields = projected_total_by_end_of_quarter
 ## Data Commands
 
 ```ls
+series e:jcxs-qmaz d:2016-03-07T00:00:00.000Z t:cotacts_registered_1st_quarter_2016="Westside Civic Club" m:row_number.jcxs-qmaz=1
+
+series e:jcxs-qmaz d:2016-03-07T13:41:20.000Z t:cotacts_registered_1st_quarter_2016=ASJN m:row_number.jcxs-qmaz=2
+
+series e:jcxs-qmaz d:2016-03-07T13:41:20.000Z t:cotacts_registered_1st_quarter_2016="Swan Lake NA" m:row_number.jcxs-qmaz=3
 ```
 
 ## Meta Commands
 
 ```ls
+metric m:row_number.jcxs-qmaz p:long l:"Row Number"
+
 entity e:jcxs-qmaz l:"Super Neighborhood Tracker" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/jcxs-qmaz
 
 property e:jcxs-qmaz t:meta.view v:id=jcxs-qmaz v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Super Neighborhood Tracker" v:attribution="City of Jackson"
@@ -59,4 +66,21 @@ property e:jcxs-qmaz t:meta.view v:id=jcxs-qmaz v:category="Community Developmen
 property e:jcxs-qmaz t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:displayName="Justin Bruce"
 
 property e:jcxs-qmaz t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+```
+
+## Top Records
+
+```ls
+| cotacts_registered_1st_quarter_2016     | projected_total_by_end_of_quarter | date_received       | 
+| ======================================= | ================================= | =================== | 
+| Westside Civic Club                     | 10                                | 2016-03-07T00:00:00 | 
+| ASJN                                    |                                   |                     | 
+| Swan Lake NA                            |                                   |                     | 
+| Cedar Hills                             |                                   |                     | 
+| Mid City NA                             |                                   |                     | 
+| Raintree Place NA                       |                                   |                     | 
+| Brookhollow NA                          |                                   |                     | 
+| Willowood NA                            |                                   |                     | 
+| Capital                                 |                                   |                     | 
+| Contact projection for 2nd quarter 2016 | 7                                 |                     | 
 ```

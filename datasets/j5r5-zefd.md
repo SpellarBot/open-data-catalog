@@ -68,3 +68,20 @@ property e:j5r5-zefd t:meta.view.owner v:id=6p7r-jviv v:profileImageUrlMedium=/a
 
 property e:j5r5-zefd t:meta.view.tableauthor v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:roleName=viewer v:displayName="Alysa Kipersztok"
 ```
+
+## Top Records
+
+```ls
+| county   | white_non_hispanic | black_non_hispanic | indian_non_hispanic | asian_non_hispanic | hispanic | 
+| ======== | ================== | ================== | =================== | ================== | ======== | 
+| Adams    | 1574               | 46                 | 31                  | 37                 | 4932     | 
+| Asotin   | 4131               | 75                 | 112                 | 52                 | 293      | 
+| Benton   | 30847              | 1110               | 453                 | 1474               | 14429    | 
+| Chelan   | 9699               | 133                | 154                 | 230                | 7923     | 
+| Clallam  | 9752               | 246                | 1121                | 264                | 1427     | 
+| Clark    | 86408              | 4143               | 1053                | 6956               | 14154    | 
+| Columbia | 653                | 11                 | 11                  | 9                  | 89       | 
+| Cowlitz  | 19246              | 409                | 525                 | 511                | 3749     | 
+| Douglas  | 5372               | 101                | 122                 | 104                | 4665     | 
+| Ferry    | 956                | 29                 | 403                 | 25                 | 87       | 
+```

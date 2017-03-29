@@ -67,3 +67,20 @@ property e:btwj-27et t:meta.view.owner v:id=mx6a-id83 v:profileImageUrlMedium=/a
 
 property e:btwj-27et t:meta.view.tableauthor v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:roleName=editor v:displayName="Kim Witbeck"
 ```
+
+## Top Records
+
+```ls
+| code   | effective_date      | end_date            | file_date           | 
+| ====== | =================== | =================== | =================== | 
+| K0856  | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N4601  | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46021 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46022 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46023 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46024 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46025 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46029 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N4611  | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+| N46121 | 2015-10-01T00:00:00 | 2299-12-31T00:00:00 | 2016-03-31T00:00:00 | 
+```

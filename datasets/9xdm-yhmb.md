@@ -83,3 +83,20 @@ property e:9xdm-yhmb t:meta.view.owner v:id=fxfz-wsmq v:profileImageUrlMedium=/a
 
 property e:9xdm-yhmb t:meta.view.tableauthor v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 ```
+
+## Top Records
+
+```ls
+| customer_class | fiscal_year | number_of_customers | revenue      | percentage_of_revenue | cents_per_kwh      | percentage_of_mwh | 
+| ============== | =========== | =================== | ============ | ===================== | ================== | ================= | 
+| Residential    | 2006        | 338184              | 387540000.00 | 41.00                 | 9.4990000000000006 | 36.00             | 
+| Residential    | 2007        | 345197              | 356143000.00 | 39.00                 | 9.1120000000000001 | 35.00             | 
+| Residential    | 2008        | 352574              | 416809000.00 | 39.00                 | 9.8629999999999995 | 35.00             | 
+| Residential    | 2009        | 363217              | 406393000.00 | 39.00                 | 9.6329999999999991 | 35.00             | 
+| Residential    | 2010        | 368700              | 407074000.00 | 39.00                 | 9.6039999999999992 | 35.00             | 
+| Residential    | 2011        | 372329              | 457262000.00 | 40.00                 | 10.023999999999999 | 36.00             | 
+| Residential    | 2012        | 376614              | 422195183.00 | 39.00                 | 9.6370000000000005 | 34.00             | 
+| Residential    | 2013        | 383257              | 458657021.00 | 39.00                 | 11.019             | 34.00             | 
+| Residential    | 2014        | 391410              | 487165010.00 | 38.91                 | 11.334             | 30.76             | 
+| Commercial     | 2006        | 40934               | 367017000.00 | 39.00                 | 8.5609999999999999 | 38.00             | 
+```

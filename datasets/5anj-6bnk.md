@@ -71,3 +71,20 @@ property e:5anj-6bnk t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Joh
 
 property e:5anj-6bnk t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
+
+## Top Records
+
+```ls
+| population_stock_number | year | wild | hatchery | wild_hatchery | goal_wild | population_stock_name         | listing_year | 
+| ======================= | ==== | ==== | ======== | ============= | ========= | ============================= | ============ | 
+| 6884                    | 1997 | 1251 |          | 1251          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 1998 | 3171 |          | 3171          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 1999 | 2133 |          | 2133          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2000 | 2020 |          | 2020          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2001 | 2596 |          | 2596          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2002 | 4752 |          | 4752          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2003 | 2381 |          | 2381          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2004 | 1756 |          | 1756          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2005 | 1832 |          | 1832          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+| 6884                    | 2006 | 1428 |          | 1428          | 1000      | Joseph Creek Summer Steelhead | 1997         | 
+```

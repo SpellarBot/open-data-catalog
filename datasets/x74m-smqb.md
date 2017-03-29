@@ -105,3 +105,20 @@ property e:x74m-smqb t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones"
 
 property e:x74m-smqb t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```
+
+## Top Records
+
+```ls
+| location          | address                     | city    | zip   | january | february | march | april | may   | june  | july  | august | september | october | november | december | ytd    | 
+| ================= | =========================== | ======= | ===== | ======= | ======== | ===== | ===== | ===== | ===== | ===== | ====== | ========= | ======= | ======== | ======== | ====== | 
+| Albany Park       | 5150 N. Kimball Avenue      | CHICAGO | 60625 | 0       | 0        | 0     | 0     | 0     | 0     | 0     | 74     | 105       | 117     | 89       | 36       | 421    | 
+| Altgeld           | 13281 S. Corliss Avenue     | CHICAGO | 60827 | 5741    | 4014     | 5301  | 5668  | 5176  | 5142  | 5276  | 6104   | 5219      | 5228    | 5277     | 4906     | 63052  | 
+| Archer Heights*   | 5055 S. Archer Avenue       | CHICAGO | 60632 | 9744    | 7994     | 9405  | 9712  | 8054  | 8470  | 10180 | 9768   | 9347      | 10915   | 9448     | 7382     | 110419 | 
+| Austin            | 5615 W. Race Avenue         | CHICAGO | 60644 | 6977    | 5146     | 7208  | 8120  | 7495  | 8600  | 9219  | 7883   | 8052      | 7920    | 7429     | 5713     | 89762  | 
+| Austin-Irving     | 6100 W. Irving Park Road    | CHICAGO | 60634 | 10501   | 9760     | 10781 | 10977 | 10542 | 10172 | 12077 | 11090  | 10710     | 11275   | 10448    | 8064     | 126397 | 
+| Avalon*           | 8148 S. Stony Island Avenue | CHICAGO | 60617 | 10903   | 8801     | 9864  | 11433 | 11864 | 11495 | 12639 | 12746  | 11460     | 11817   | 5994     | 5034     | 124050 | 
+| Back of the Yards | 2111 W. 47th Street         | CHICAGO | 60609 | 0       | 0        | 0     | 0     | 0     | 0     | 0     | 0      | 6273      | 6984    | 5860     | 4642     | 23759  | 
+| Beverly*          | 1962 W. 95th Street         | CHICAGO | 60643 | 8380    | 6961     | 8314  | 8949  | 7719  | 8835  | 10792 | 9391   | 9071      | 10016   | 8073     | 6474     | 102975 | 
+| Bezazian          | 1226 W. Ainslie Street      | CHICAGO | 60640 | 14615   | 12971    | 15317 | 15310 | 15801 | 14648 | 16781 | 15559  | 13767     | 15129   | 13110    | 11998    | 175006 | 
+| Blackstone        | 4904 S. Lake Park Avenue    | CHICAGO | 60615 | 12761   | 9941     | 11334 | 11870 | 11166 | 12764 | 13032 | 11882  | 10636     | 12695   | 10725    | 10748    | 139554 | 
+```

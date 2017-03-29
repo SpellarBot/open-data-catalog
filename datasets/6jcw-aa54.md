@@ -58,3 +58,20 @@ property e:6jcw-aa54 t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:6jcw-aa54 t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| manner_of_death | sex_    | count | 
+| =============== | ======= | ===== | 
+| ACCIDENT        | MALE    | 995   | 
+| ACCIDENT        | FEMALE  | 439   | 
+| HOMICIDE        | MALE    | 535   | 
+| HOMICIDE        | FEMALE  | 95    | 
+| NATURAL         | MALE    | 1792  | 
+| NATURAL         | FEMALE  | 828   | 
+| REMAINS         | UNKNOWN | 41    | 
+| STILL BIRTH     | MALE    | 3     | 
+| STILL BIRTH     | FEMALE  | 4     | 
+| SUICIDE         | MALE    | 312   | 
+```

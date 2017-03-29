@@ -82,3 +82,17 @@ property e:xy4g-m2tm t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:xy4g-m2tm t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| month | training_seminars | employees_trained | inquiries_pre_bid_mtgs_included | new_investigations_opened | advisory_opinions_issued | vendor_compliance_audit | lobbyist_expense_audit | political_contributions_audit | 
+| ===== | ================= | ================= | =============================== | ========================= | ======================== | ======================= | ====================== | ============================= | 
+| DEC   | 3                 | 29                | 24                              | 6                         | 1                        | 20                      | 0                      | 0                             | 
+| JAN   | 2                 | 29                | 22                              | 1                         | 1                        | 10                      | 0                      | 0                             | 
+| FEB   | 2                 | 26                | 10                              | 0                         | 2                        | 23                      | 0                      | 0                             | 
+| MAR   | 3                 | 84                | 17                              | 0                         | 0                        | 79                      | 0                      | 0                             | 
+| APR   | 4                 | 35                | 37                              | 0                         | 0                        | 109                     | 0                      | 0                             | 
+| MAY   | 2                 | 38                | 21                              | 0                         | 2                        | 78                      | 0                      | 0                             | 
+| JUN   | 5                 | 565               | 26                              | 2                         | 1                        | 79                      | 0                      | 0                             | 
+```

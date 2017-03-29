@@ -61,3 +61,20 @@ property e:3ghu-xq7n t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:3ghu-xq7n t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| zipcode | ytd_through_june_2011 | 
+| ======= | ===================== | 
+| 60600   | 70                    | 
+| 60627   | 125                   | 
+| 60635   | 46                    | 
+| 60648   | 25                    | 
+| 60650   | 64                    | 
+| 60658   | 28                    | 
+| 60663   | 16                    | 
+| 60781   | 17                    | 
+| 60627   | 24                    | 
+| 60627   | 14                    | 
+```

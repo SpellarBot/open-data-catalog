@@ -71,3 +71,22 @@ property e:j9km-ydkc t:meta.view.owner v:id=fs78-6jsr v:screenName="Blood, Bruce
 
 property e:j9km-ydkc t:meta.view.tableauthor v:id=fs78-6jsr v:screenName="Blood, Bruce" v:displayName="Blood, Bruce"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | pmaid | name                  | feature_desc              | hours                                                                                                         | xpos         | ypos        | 
+| =========== | ===== | ===================== | ========================= | ============================================================================================================= | ============ | =========== | 
+| 1458401291  | 307   | Green Lake Park       | Golf                      | 24 Hours                                                                                                      | -122.330394  | 47.678938   | 
+| 1458401291  | 4468  | Kirke Park            | Play Area (ADA Compliant) | 4 a.m. - 11:30 p.m.                                                                                           |              |             | 
+| 1458401291  | 456   | Hiawatha Playfield    | Restrooms (ADA Compliant) | 4 a.m. - 11:30 p.m.                                                                                           | -122.3849647 | 47.57827243 | 
+| 1458401291  | 310   | Discovery Park        | Basketball (Full)         | Park Hours: Daily 4 a.m. - 11:30 p.m.
+Visitor Center Hours: Tuesday-Sunday 8:30 a.m. - 5 p.m.
+Closed holidays | -122.415282  | 47.66083    | 
+| 1458401291  | 3023  | Interlaken Park       | Bike Trail                | 4 a.m. - 11:30 p.m.                                                                                           | -122.308316  | 47.636257   | 
+| 1458401291  | 435   | University Playground | Soccer                    | 6 a.m. - 10 p.m.                                                                                              | -122.3193123 | 47.66444741 | 
+| 1458401291  | 367   | Leschi Park           | Play Area                 | 4 a.m. - 11:30 p.m.                                                                                           | -122.286548  | 47.600931   | 
+| 1458401291  | 3703  | Bar-S Playground      | Baseball/Softball         | 4 a.m. - 11:30 p.m.                                                                                           | -122.4160544 | 47.57519512 | 
+| 1458401291  | 404   | Cleveland Playfield   | Football                  | 4 a.m. - 11:30 p.m.                                                                                           | -122.315542  | 47.55201155 | 
+| 1458401291  | 371   | Madrona Playground    | Baseball/Softball         | 6 a.m. - 10 p.m.                                                                                              | -122.2898852 | 47.61102165 | 
+```

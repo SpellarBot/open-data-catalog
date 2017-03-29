@@ -65,3 +65,20 @@ property e:na74-jvan t:meta.view.owner v:id=kkuv-jqse v:screenName="Teri Greene"
 
 property e:na74-jvan t:meta.view.tableauthor v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
 ```
+
+## Top Records
+
+```ls
+| year | agency_name                     | vendor_name               | vendor_zip | amount    | 
+| ==== | =============================== | ========================= | ========== | ========= | 
+| 2011 | DHMH-GENERAL ACCOUNTING         | PROCOAT, INC.             | 21802      | 2390      | 
+| 2011 | ENERGY ADMINISTRATION           | BITHENERGY,INC.           | 21201      | 42750.2   | 
+| 2011 | MILITARY DEPARTMENT             | SPRINT PCS                | 60197      | 28470.56  | 
+| 2011 | MILITARY DEPARTMENT             | ST AGNES HEALTHCARE       | 21229      | 134912.05 | 
+| 2011 | STATE HIGHWAY ADMIN             | FRIENDS AWARE INC         | 21502      | 3265.5    | 
+| 2011 | MARYLAND TRANSIT ADMINISTRATION | WMATA                     | 20001      | 757326.37 | 
+| 2011 | MILITARY DEPARTMENT             | HUMANIM INC               | 21046      | 12423.71  | 
+| 2011 | DHMH-GENERAL ACCOUNTING         | CINTAS CORP #042          | 45263      | 7269.21   | 
+| 2011 | DEPARTMENT OF HUMAN RESOURCES   | PENINSULA CARDIOLOGY ASSC | 21804      | 943       | 
+| 2011 | STATE HIGHWAY ADMIN             | THE AUTO BARN INC         | 21230      | 555       | 
+```

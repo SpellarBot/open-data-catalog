@@ -57,3 +57,17 @@ property e:as52-whec t:meta.view.owner v:id=4met-hnmi v:screenName=S.Reinke v:di
 
 property e:as52-whec t:meta.view.tableauthor v:id=4met-hnmi v:screenName=S.Reinke v:roleName=publisher v:displayName=S.Reinke
 ```
+
+## Top Records
+
+```ls
+| november_2012                                                                                   | number | 
+| =============================================================================================== | ====== | 
+| Number of allegations received:                                                                 | 238    | 
+| Number of investigations initiated:                                                             | 20     | 
+| Number of investigations concluded:                                                             | 14     | 
+| Number of investigations pending:                                                               | 116    | 
+| Number of complaints forwarded to the Attorney General for Executive Ethics Commission hearing: | 1      | 
+| Number of pending matters with the Executive Ethics Commission:                                 | 3      | 
+| Number of allegations referred to law enforcement:                                              | 52     | 
+```

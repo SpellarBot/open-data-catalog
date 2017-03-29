@@ -1280,20 +1280,20 @@ series e:rpjd-ejph d:2015-12-27T00:00:00.000Z
 [i97v-e8au.md](datasets/i97v-e8au.md)
 
 ```ls
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z
- t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)"
- t:capable_of_two_way_communication="Not Applicable"
- t:model_number=OVM070-RF*
- t:fuel_type=Oil
+series e:i97v-e8au d:2012-04-11T00:00:00.000Z
+ t:energy_star_partner="Allied Air Enterprises"
+ t:capable_of_two_way_communication=Other/Proprietary
+ t:model_number=A97DSMV090B20S-*
+ t:fuel_type="Natural Gas"
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1019658_06112013094056_3318459
+ t:energy_star_model_identifier=ES_1102531_02012013151616_5756348
  t:furnace_is_energy_star_certified_in=All
  t:meets_most_efficient_criteria=No
  t:can_integrate_hot_water_heating=No
- t:brand_name=Bryant
- t:model_name=OVM070-RF
- t:pd_id=2182941
- m:efficiency_afue=86.4
+ t:brand_name="Armstrong/Air Ease"
+ t:model_name="A97DSMV Series"
+ t:pd_id=2171653
+ m:efficiency_afue=97
 
 ```
 
@@ -1867,30 +1867,30 @@ series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z
 [59dq-uw25.md](datasets/59dq-uw25.md)
 
 ```ls
-series e:59dq-uw25 d:2015-10-01T00:00:00.000Z
+series e:59dq-uw25 d:2014-12-31T00:00:00.000Z
  t:markets="United States, Canada"
  t:product_type="Vertical Transparent Door Refrigerator"
- t:product_description=Reach-in
+ t:product_description="Bottle Cooler"
  t:model_name="Commercial Refrigerator"
- t:brand_name="Maxx Cold"
+ t:brand_name=COLDCO
  t:door_opening_orientation_hinged_sliding=Hinged
- t:pd_id=2245925
- t:energy_star_partner="Asbury Foodservice"
- t:refrigerant_type=R-134A
- t:model_number=MXCR-23GD
+ t:pd_id=2287098
+ t:energy_star_partner="Coldco Foodservice Equipment, Ltd."
+ t:refrigerant_type=R-134a
+ t:model_number=BGD-48R
  t:product_orientation_vertical_chest=Vertical
- t:energy_star_model_identifier=ES_1096444_MXCR-23GD_08142015092035_4035488
+ t:energy_star_model_identifier=ES_1130408_BGD-48R_12232014105541_2141465
  t:defrost_type=Automatic
- m:depth_in=27.6
- m:mixed_door_cabinet_glass_door_volume_cu_ft=19
+ m:depth_in=31.89
+ m:mixed_door_cabinet_glass_door_volume_cu_ft=43.4
  m:mixed_door_cabinet_solid_door_volume_cu_ft=0
- m:width_in=22.2
- m:number_of_glass_doors=1
+ m:width_in=53.94
+ m:number_of_glass_doors=2
  m:number_of_solid_doors=0
- m:total_volume_cu_ft=19
- m:height_in=59.4
- m:energy_use_daily_energy_consumption_kwh_day=3.09
- m:number_of_doors=1
+ m:total_volume_cu_ft=43.4
+ m:height_in=79.49
+ m:energy_use_daily_energy_consumption_kwh_day=3.5
+ m:number_of_doors=2
 
 ```
 
@@ -2063,17 +2063,15 @@ series e:843n-d2np d:2014-02-20T15:48:52.000Z
 [tvpp-9vvx.md](datasets/tvpp-9vvx.md)
 
 ```ls
-series e:tvpp-9vvx d:2017-04-16T08:00:00.000Z
- t:event_borough=Brooklyn
- t:event_type="Farmers Market"
- t:event_agency="Street Activity Permit Office"
- t:event_id=314118
- t:event_street_side=North
- t:event_location="CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD"
- t:street_closure_type="Sidewalk and Curb Lane Closure"
- t:community_board=14,
- t:event_name="Cortelyou Greenmarket Sunday"
- t:police_precinct=70,
+series e:tvpp-9vvx d:2016-05-14T10:00:00.000Z
+ t:event_borough=Manhattan
+ t:event_type="Public Program / Exhibitions"
+ t:event_agency="Trust for Governor's Island"
+ t:event_id=248006
+ t:street_closure_type=N/A
+ t:community_board=N/A
+ t:event_name=play:ground
+ t:police_precinct=N/A
  m:row_number.tvpp-9vvx=1
 
 ```
@@ -2135,16 +2133,16 @@ series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z
 ```ls
 series e:acvd-5wvz d:2014-05-12T00:00:00.000Z
  t:energy_star_partner="Carrier Corporation"
- t:model_number=GS060**1*X1
+ t:model_number=GB018H/V******1*X1
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1020846_12082014152247_1620760
- t:product_type="Open Loop Water-to-Air"
+ t:energy_star_model_identifier=ES_1020846_11262014121036_5721501
+ t:product_type="Closed Loop Water-to-Air"
  t:meets_most_efficient_criteria=No
- t:model_name=GS
+ t:model_name=GB
  t:brand_name=Bryant
- t:pd_id=2226833
- m:cop_rating=4.1
- m:eer_rating=22.3
+ t:pd_id=2226024
+ m:cop_rating=3.8
+ m:eer_rating=19
 
 ```
 
@@ -3678,7 +3676,18 @@ series e:euee-qccq d:2011-03-28T00:00:00.000Z
 [crns-fw6u.md](datasets/crns-fw6u.md)
 
 ```ls
-null
+series e:crns-fw6u d:2013-02-01T00:00:00.000Z
+ t:program_type=Closed
+ t:zip=10456
+ t:count_as=Pending
+ t:development="1162-1176 'Washington Ave."
+ t:state=NY
+ t:borough=Bronx
+ t:type=NYCHA
+ t:sponsor=NYCHA
+ t:city=Bronx
+ m:row_number.crns-fw6u=1
+
 ```
 
 [vv8b-tzy8.md](datasets/vv8b-tzy8.md)
@@ -4415,29 +4424,32 @@ series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z
 [t9u7-4d2j.md](datasets/t9u7-4d2j.md)
 
 ```ls
-series e:t9u7-4d2j d:2014-08-22T00:00:00.000Z
- t:model_number=6142####
- t:markets="United States, Canada"
- t:additional_dryer_features="Time remaining display,Wrinkle prevention option,Steam cycle,Sanitization cycl
-e"
+series e:t9u7-4d2j d:2016-10-11T00:00:00.000Z
+ t:markets="United States"
+ t:additional_dryer_features="Drum light,Time remaining display,Steam cycle,Other"
  t:connected=No
- t:energy_star_model_identifier=ES_1118034_6142####_08012014035936_2749997
- t:paired_energy_star_clothes_washer_available=No
- t:energy_test_cycle_information="Cotton/Normal_Normal Dry"
- t:vented_or_ventless=Vented
- t:type=Electric
- t:upc=719192224162,719192324169
+ t:type=Gas
+ t:upc="08469182046, 08469182043, 08469182044,08469182045, 08469182047, 08469182042"
+ t:paired_energy_star_clothes_washer_energy_star_model_identifier="GFW490R*K***, GFW480S*K***"
  t:meets_most_efficient_criteria=No
- t:model_name=6142####
- t:brand_name=Kenmore
- t:pd_id=2216958
- m:depth_inches=29
- m:drum_capacity_cu_ft=7.3
- m:height_inches=40.19
- m:combined_energy_factor_cef=3.94
- m:width_inches=27
- m:estimated_annual_energy_use_kwh_yr=607
- m:estimated_energy_test_cycle_time_min=67
+ t:brand_name=GE
+ t:model_name=GFD49G**K***
+ t:pd_id=2281076
+ t:additional_model_information=",GFD48G**K***,; ,GFD48GSPKDG,; ,GFD48GSPKRR,; ,GFD48GSSKWW,; ,GFD49GRPKDG,;
+ ,GFD49GRPKRR,; ,GFD49GRSKWW,"
+ t:model_number=GFD49G**K***
+ t:paired_energy_star_clothes_washer_available=Yes
+ t:energy_star_model_identifier=ES_1123206_GFD49G**K***_10112016171924_6364021
+ t:energy_test_cycle_information="COTTONS CYCLE WITH THE DEFAULT EDRY ON, WHICH INCLUDES LOW TEMPERATURE SET
+TING AND DRY DRYNESS SETTING"
+ t:vented_or_ventless=Vented
+ m:depth_inches=34.38
+ m:drum_capacity_cu_ft=8.3
+ m:height_inches=47
+ m:combined_energy_factor_cef=3.48
+ m:width_inches=28
+ m:estimated_annual_energy_use_kwh_yr=687
+ m:estimated_energy_test_cycle_time_min=69
 
 ```
 
@@ -4504,7 +4516,15 @@ series e:j55i-sqj8 d:2015-01-07T22:20:29.000Z
 [tppa-s6t6.md](datasets/tppa-s6t6.md)
 
 ```ls
-null
+series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z
+ t:subject_detail="CSR - Ambassador"
+ t:commendation_or_complaint=Commendation
+ t:branch_line_route="No Value"
+ t:subject_matter=Employees
+ t:agency="Long Island Rail Road"
+ t:issue_detail="Very Helpful/Friendly"
+ m:row_number.tppa-s6t6=1
+
 ```
 
 [nbhj-n6p6.md](datasets/nbhj-n6p6.md)
@@ -4706,7 +4726,10 @@ series e:2sms-kv74 d:2011-10-01T00:00:00.000Z
 [jcxs-qmaz.md](datasets/jcxs-qmaz.md)
 
 ```ls
-null
+series e:jcxs-qmaz d:2016-03-07T00:00:00.000Z
+ t:cotacts_registered_1st_quarter_2016="Westside Civic Club"
+ m:row_number.jcxs-qmaz=1
+
 ```
 
 [9gmp-f9x2.md](datasets/9gmp-f9x2.md)
@@ -4747,20 +4770,20 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z
 [uc6q-9632.md](datasets/uc6q-9632.md)
 
 ```ls
-series e:uc6q-9632 d:2005-01-01T00:00:00.000Z
- t:energy_star_partner="Access Business Group"
- t:model_number=101076**
+series e:uc6q-9632 d:2015-06-15T00:00:00.000Z
+ t:energy_star_partner="Blueair Inc."
+ t:model_number=Sense+
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
- t:energy_star_model_identifier=ES_1025068_101076**_04302015111301_7558252
- t:brand_name=Atmosphere
- t:model_name=101076**
- t:pd_id=2238438
- m:pollen_cadr=250
- m:standy_power_watts=0.7
- m:tobacco_smoke_cadr=250
- m:energy_consumption_watts=52
- m:dust_cadr_watt=5.3
- m:dust_cadr=250
+ t:energy_star_model_identifier=ES_1022565_Sense+_04132015084710_6739007
+ t:brand_name=Blueair
+ t:model_name=Sense+
+ t:pd_id=2238045
+ m:pollen_cadr=150
+ m:standy_power_watts=0.4
+ m:tobacco_smoke_cadr=120
+ m:energy_consumption_watts=46
+ m:dust_cadr_watt=3.2
+ m:dust_cadr=140
 
 ```
 
@@ -4800,7 +4823,7 @@ series e:97wa-y6ff d:2015-05-18T00:00:00.000Z
 [madj-gkhr.md](datasets/madj-gkhr.md)
 
 ```ls
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z
+series e:madj-gkhr d:2015-09-09T00:00:00.000Z
  t:school_dbn=10X024
  t:school_year=2015-2016
  m:register=999
@@ -4811,11 +4834,8 @@ series e:madj-gkhr d:2015-12-31T10:03:25.000Z
 [gs3k-hp7i.md](datasets/gs3k-hp7i.md)
 
 ```ls
-series e:gs3k-hp7i d:2015-11-30T00:00:00.000Z
- t:notes="-- On 10/20/2015:--1. Clean up bio hazard. 2. Apartment 3. 3 stories 4. no retail or commercial us
-e. Permanent residence only. No rehabilitation, no transitional housing, no treatment services, no dormitori
-es, no counseling. Each unit is rented separately. Each unit contains its own bathroom &amp; kitchen. No par
-ts of the structure are used by members of the public."
+series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z
+ t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing"
  m:row_number.gs3k-hp7i=1
 
 ```
@@ -7734,22 +7754,22 @@ series e:84fd-3fzf d:2013-04-30T13:41:03.000Z
 [t2v6-g4nf.md](datasets/t2v6-g4nf.md)
 
 ```ls
-series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z
+series e:t2v6-g4nf d:2014-06-01T00:00:00.000Z
  t:energy_star_partner="Avision Inc."
- t:model_number=AH5100
+ t:model_number=AGW1500
  t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
  t:marking_technology="Electro-photographic (EP)"
- t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH5100_01022014075639_9399184"
+ t:energy_star_model_identifier=ES_25313_AGW1500_06132014082711_8031964
  t:product_type=Scanners
  t:automatic_duplex_output_capable=No
- t:size_format=Standard
- t:model_name=AH5100
+ t:size_format=Small
+ t:model_name=AGW1500
  t:brand_name=Avision
- t:pd_id=2199994
- m:power_in_sleep_w=2.17
- m:power_in_standby_w=0.28
- m:monochrome_product_speed_ipm_or_mppm=120
+ t:pd_id=2212851
+ m:power_in_sleep_w=2.23
+ m:power_in_standby_w=0.18
+ m:monochrome_product_speed_ipm_or_mppm=10
  m:default_delay_time_to_sleep_minutes=15
 
 ```

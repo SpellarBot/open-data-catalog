@@ -67,3 +67,20 @@ property e:whnr-x36y t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:
 
 property e:whnr-x36y t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```
+
+## Top Records
+
+```ls
+| ous_division               | account_category               | vendor_address           | vendor_city | vendor_state | vendor_zip_postal_code | vendor_name                         | amount   | 
+| ========================== | ============================== | ======================== | =========== | ============ | ====================== | =================================== | ======== | 
+| Southern Oregon University | Accounting Service             | ATTN ACCOUNTS PAYABLE    | GRANTS PASS | OR           |                        | Rogue Community College             | 9175.25  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | ACCTS RECEIVABLE         | PASADENA    | CA           |                        | Mail Tribune Co                     | 13616.19 | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | PO BOX 1360              | ASHLAND     | OR           | 97520                  | Ashland Chamber of Commerce         | 13125.00 | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | PO BOX 158               | ASHLAND     | OR           | 97520                  | Oregon Shakespeare Festival         | 8870.00  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | 230 W MONROE ST STE 1200 | CHICAGO     | IL           | 60606                  | Cappex.com LLC                      | 8500.00  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | C/O SOU                  | ASHLAND     | OR           | 97520                  | JPR Foundation Inc                  | 5585.35  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | HERALD AND NEWS          | POCATELLO   | ID           | 83204                  | Klamath Publishing LLC              | 2000.40  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | PO BOX 22109             | PORTLAND    | OR           |                        | OR Pub Corp DBA Community Newspaper | 1125.00  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | 5443 FREMONTIA LANE      | SAN DIEGO   | CA           | 92115                  | Jobelephant.com Inc                 | 1090.00  | 
+| Southern Oregon University | Advertising-Inst Promo/Pub Rel | PO BOX 1108              | MEDFORD     | OR           |                        | Mail Tribune Co                     | 1074.28  | 
+```

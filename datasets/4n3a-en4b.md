@@ -77,3 +77,20 @@ property e:4n3a-en4b t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/a
 
 property e:4n3a-en4b t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 ```
+
+## Top Records
+
+```ls
+| facility_name                               | permit_id          | url_to_permit_text                                                              | facility_location       | facility_city | facility_state | facility_zip | issue_date          | expiration_date     | 
+| =========================================== | ================== | =============================================================================== | ======================= | ============= | ============== | ============ | =================== | =================== | 
+| FREEPORT POWER PLANT #2                     | 1-2820-00358/00002 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf, null]   | 289 BUFFALO AVE         | FREEPORT      | NY             | 11520        | 2009-05-15T00:00:00 | 2014-05-14T00:00:00 | 
+| HOFSTRA UNIVERSITY                          | 1-2820-00457/00003 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf, null]   | 1000 FULTON AVE         | HEMPSTEAD     | NY             | 11550        | 2013-04-24T00:00:00 | 2018-04-23T00:00:00 | 
+| EF BARRETT POWER STATION                    | 1-2820-00553/00025 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf, null] | 1 MCCARTHY RD           | ISLAND PARK   | NY             | 11558        | 2011-02-24T00:00:00 | 2016-02-23T00:00:00 | 
+| ROCKVILLE CENTRE POWER PLANT                | 1-2820-00753/00008 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200075300008_r1.pdf, null]   | 110 MAPLE AVE           | ROCKVILLE CTR | NY             | 11571        | 2014-04-30T00:00:00 | 2019-04-29T00:00:00 | 
+| GLOBAL COMPANIES LLC - INWOOD TERMINAL      | 1-2820-00947/00002 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200094700002_r2_1.pdf, null] | 464 DOUGHTY BLVD        | INWOOD        | NY             | 11096        | 2012-01-17T00:00:00 | 2017-01-16T00:00:00 | 
+| CARBO INDUSTRIES PROPERTY                   | 1-2820-01085/00006 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200108500006_r2_1.pdf, null] | 1 BAY BLVD              | LAWRENCE      | NY             | 11559        | 2012-01-17T00:00:00 | 2017-01-16T00:00:00 | 
+| Motiva Enterprises LLC Long Island Terminal | 1-2820-01549/00004 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200154900004_r2.pdf, null]   | 74 EAST AVE             | LAWRENCE      | NY             | 11559        | 2012-06-20T00:00:00 | 2017-06-19T00:00:00 | 
+| HEMPSTEAD RESOURCE RECOVERY FACILITY        | 1-2820-01727/00028 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200172700028_r2_1.pdf, null] | 600 MERCHANTS CONCOURSE | WESTBURY      | NY             | 11590        | 2010-12-01T00:00:00 | 2015-11-30T00:00:00 | 
+| EQUUS FREEPORT POWER GENERATING STATION     | 1-2820-04508/00005 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128200450800005_r1.pdf, null]   | 289 BUFFALO AVE         | FREEPORT      | NY             | 11520        | 2015-07-07T00:00:00 | 2020-07-06T00:00:00 | 
+| NORTH SHORE UNIVERSITY HOSPITAL             | 1-2822-00248/00001 | [http://www.dec.ny.gov/dardata/boss/afs/permits/128220024800001_r3.pdf, null]   | 300 COMMUNITY DR        | MANHASSET     | NY             | 11030        | 2015-07-20T00:00:00 | 2020-07-19T00:00:00 | 
+```

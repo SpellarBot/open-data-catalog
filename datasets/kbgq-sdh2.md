@@ -59,3 +59,20 @@ property e:kbgq-sdh2 t:meta.view.owner v:id=uaqq-pakk v:screenName="Douglas Oshi
 
 property e:kbgq-sdh2 t:meta.view.tableauthor v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | utility                             | cumulative_through_2010_wac_customer | 
+| =========== | =================================== | ==================================== | 
+| 1346160251  | 1. Southern California Edison (CA)  | 119.1                                | 
+| 1346160251  | 3. City of Palo Alto Utilities (CA) | 97.0                                 | 
+| 1346160251  | 4. Hawaii Electric Light Co. (HI)   | 93.6                                 | 
+| 1346160251  | 5. Maui Electric Co. (HI)           | 93.5                                 | 
+| 1346160251  | 6. Pacific Gas & Electric (CA)      | 91.4                                 | 
+| 1346160251  | 7. NV Energy (NV)                   | 75.4                                 | 
+| 1346160251  | 8. Silicon Valley Power (CA)        | 69.7                                 | 
+| 1346160251  | 9. Hawaii Electric Co., Inc. (HI)   | 65.7                                 | 
+| 1346160251  | 10. San Diego Gas & Electric (CA)   | 65.3                                 | 
+| 1346160269  | 2. Kauai Island Utility Co-op (HI)  | 100.7                                | 
+```

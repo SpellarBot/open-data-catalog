@@ -60,3 +60,20 @@ property e:h4i4-uff6 t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:h4i4-uff6 t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| county_department_number | enrollment_count | cost     | 
+| ======================== | ================ | ======== | 
+| 2                        | 11               | 10674.56 | 
+| 7                        | 33               | 29092.87 | 
+| 8                        | 19               | 21563.41 | 
+| 9                        | 43               | 38354.12 | 
+| 10                       | 11               | 9229.37  | 
+| 11                       | 36               | 30479.13 | 
+| 13                       | 6                | 6297.96  | 
+| 14                       | 11               | 13336.13 | 
+| 16                       | 56               | 58518.37 | 
+| 18                       | 9                | 9675.80  | 
+```

@@ -74,3 +74,20 @@ property e:t8ay-k3qw t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:di
 
 property e:t8ay-k3qw t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```
+
+## Top Records
+
+```ls
+| object_id | address          | cross_street | site_detail                                | space_length | street_side | curb_quality | meter_post_id | last_edited_date | 
+| ========= | ================ | ============ | ========================================== | ============ | =========== | ============ | ============= | ================ | 
+| 1         | 1400 Fillmore St | Ellis        | 5' to 23' north of Ellis                   | 18           | E           | good         |               | 829785600        | 
+| 2         | 1200 Florida St  | 24th St      | 5' to 27' south of 24th St                 | 22           | W           | good         |               | 772675200        | 
+| 3         | 2075 Folsom St   | 17th St      | 2' to 27' south of the north property line | 25           | E           |              |               |                  | 
+| 4         | 200 Folsom St    | Main         | 96' to 116' west of Main                   | 20           | N           |              |               |                  | 
+| 5         | 50 California St | Davis        | 37' to 66' east of Davis                   | 29           | N           | good         |               | 871603200        | 
+| 6         | 1199 Clement St  | Funston      | 0' to 19' east of Funston                  | 19           | S           | good         |               | 839462400        | 
+| 7         | 560 Davis St     | Jackson      | 6' to 28' north of Jackson                 | 22           | E           | good         |               | 863049600        | 
+| 8         | 2800 Folsom St   | 24th St      | 8' to 30' south of 24th St                 | 22           | W           | poor         |               | 772675200        | 
+| 9         | 633 Folsom St    | Hawthorne    | 6' to 28' east of Hawthorne                | 22           | S           | good         |               | 804470400        | 
+| 10        | 700 Font Blvd    | Tapia        | 5' to 71' west of Tapia                    | 66           | N           | good         |               |                  | 
+```

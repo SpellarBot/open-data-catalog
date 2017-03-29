@@ -68,3 +68,20 @@ property e:ba86-tr5c t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:ba86-tr5c t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| college             | fall_term | record_type_code | record_type_description | head_count | percentage | 
+| =================== | ========= | ================ | ======================= | ========== | ========== | 
+| CUNY Baruch College | Fall 1990 | 1                | 1 Year Retention        | 1278       | 81.8       | 
+| CUNY Baruch College | Fall 1990 | 2                | 150 Time Graduation     | 1278       | 39.3       | 
+| CUNY Baruch College | Fall 1991 | 1                | 1 Year Retention        | 1170       | 84.4       | 
+| CUNY Baruch College | Fall 1991 | 2                | 150 Time Graduation     | 1170       | 38.3       | 
+| CUNY Baruch College | Fall 1992 | 1                | 1 Year Retention        | 1359       | 83.4       | 
+| CUNY Baruch College | Fall 1992 | 2                | 150 Time Graduation     | 1359       | 34.8       | 
+| CUNY Baruch College | Fall 1993 | 1                | 1 Year Retention        | 1300       | 82.5       | 
+| CUNY Baruch College | Fall 1993 | 2                | 150 Time Graduation     | 1300       | 34.5       | 
+| CUNY Baruch College | Fall 1994 | 1                | 1 Year Retention        | 1474       | 79.4       | 
+| CUNY Baruch College | Fall 1994 | 2                | 150 Time Graduation     | 1474       | 33.5       | 
+```

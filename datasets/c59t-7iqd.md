@@ -70,3 +70,20 @@ property e:c59t-7iqd t:meta.view.owner v:id=e5tx-wz6d v:screenName="Andrea Banko
 
 property e:c59t-7iqd t:meta.view.tableauthor v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
 ```
+
+## Top Records
+
+```ls
+| characteristic          | prevalence | prevalence_standard_error_se | mean | mean_standard_error_se | 
+| ======================= | ========== | ============================ | ==== | ====================== | 
+| Overall                 | 31.1       | 2.4                          | 2.7  | 0.2                    | 
+| Municipality            |            |                              |      |                        | 
+| Urban (region II, IV)   | 31.0       | 3.5                          | 2.9  | 0.2                    | 
+| Rural (region I,III, V) | 31.1       | 3.0                          | 2.6  | 0.3                    | 
+| Region                  |            |                              |      |                        | 
+| I – Western             | 23.5       | 4.8                          | 2.4  | 0.2                    | 
+| II – Central DC         | 28.4       | 5.5                          | 2.5  | 0.5                    | 
+| III – Southern          | 25.5       | 4.4                          | 2.5  | 0.1                    | 
+| IV – Central Baltimore  | 33.6       | 2.9                          | 2.7  | 0.3                    | 
+| V – Eastern Shore       | 39.2       | 4.8                          | 3.3  | 0.3                    | 
+```

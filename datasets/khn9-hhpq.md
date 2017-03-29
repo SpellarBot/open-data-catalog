@@ -94,3 +94,20 @@ property e:khn9-hhpq t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:khn9-hhpq t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| county | pd                                 | year | sworn_full_time | sworn_part_time | sworn_total | civilian_full_time | civilian_park_time | civilian_total | full_time_total | part_time_total | grand_total | 
+| ====== | ================================== | ==== | =============== | =============== | =========== | ================== | ================== | ============== | =============== | =============== | =========== | 
+| Albany | Albany City PD                     | 2015 | 335             | 0               | 335         | 98                 | 54                 | 152            | 433             | 54              | 487         | 
+| Albany | Albany City PD                     | 2014 | 337             | 0               | 337         | 121                | 51                 | 172            | 458             | 51              | 509         | 
+| Albany | Albany City PD                     | 2013 | 332             | 0               | 332         | 104                | 52                 | 156            | 436             | 52              | 488         | 
+| Albany | Albany City PD                     | 2012 | 322             | 0               | 322         | 123                | 54                 | 177            | 445             | 54              | 499         | 
+| Albany | Albany City PD                     | 2011 | 312             | 0               | 312         | 132                | 59                 | 191            | 444             | 59              | 503         | 
+| Albany | Albany City PD                     | 2010 | 327             | 0               | 327         | 138                | 66                 | 204            | 465             | 66              | 531         | 
+| Albany | Albany City PD                     | 2009 | 327             | 0               | 327         | 136                | 58                 | 194            | 463             | 58              | 521         | 
+| Albany | Albany City PD                     | 2008 | 332             | 0               | 332         | 124                | 9                  | 133            | 456             | 9               | 465         | 
+| Albany | Albany City PD                     | 2007 | 334             | 0               | 334         | 123                | 71                 | 194            | 457             | 71              | 528         | 
+| Albany | Albany County Park PD Headquarters | 2015 | 0               | 0               | 0           | 0                  | 0                  | 0              | 0               | 0               | 0           | 
+```

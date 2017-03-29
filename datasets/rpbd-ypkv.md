@@ -65,3 +65,17 @@ property e:rpbd-ypkv t:meta.view.owner v:id=vf6n-ptiq v:screenName=Kathy v:displ
 
 property e:rpbd-ypkv t:meta.view.tableauthor v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
 ```
+
+## Top Records
+
+```ls
+| year | heco    | helco  | meco   | kiuc   | state_total | 
+| ==== | ======= | ====== | ====== | ====== | =========== | 
+| 2009 | 379298  | 377730 | 165835 | 41737  | 964600      | 
+| 2010 | 344809  | 383622 | 182560 | 39750  | 950741      | 
+| 2011 | 484826  | 453349 | 202270 | 45562  | 1186007     | 
+| 2012 | 530853  | 507062 | 238319 | 47719  | 1323953     | 
+| 2013 | 801009  | 517375 | 330067 | 59385  | 1707836     | 
+| 2014 | 1029070 | 503140 | 381351 | 75203  | 1988764     | 
+| 2015 | 1159630 | 518311 | 402832 | 118026 | 2198801     | 
+```

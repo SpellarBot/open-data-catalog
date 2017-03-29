@@ -60,3 +60,20 @@ property e:m5pi-uads t:meta.view.owner v:id=2iur-ynm8 v:profileImageUrlMedium=/a
 
 property e:m5pi-uads t:meta.view.tableauthor v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
 ```
+
+## Top Records
+
+```ls
+| charity_code | charity_name                                   | donations_total | zip_code | contact_email                        | 
+| ============ | ============================================== | =============== | ======== | ==================================== | 
+| 1481041      | Planned Parenthood Federation of America       | 17026.37        |          |                                      | 
+| 1479167      | Injured Marine Semper Fi Fund                  | 1018.63         | 92055    | theresa@charitystateregistration.org | 
+| 1479537      | Milgard School of Business Fund for Excellence | 1007.67         |          |                                      | 
+| 315560       | Civil Air Patrol - Washington Wing             | 426.98          | 98438    | shannon.swick@wawg.cap.gov           | 
+| 1480778      | The A21 Campaign                               | 339.09          |          |                                      | 
+| 314988       | Land Trust Alliance                            | 311.66          | 20036    | info@lta.org                         | 
+| 489795       | Youth Services Of Kittitas County Inc          | 285.12          |          | crystal.church@kccn.org              | 
+| 1480493      | Inland Northwest Honor Flight                  | 283.85          |          |                                      | 
+| 1480045      | Christ Clinic/Christ Kitchen                   | 282.27          |          |                                      | 
+| 1478392      | Food Providers Of America                      | 241.84          |          |                                      | 
+```

@@ -82,3 +82,20 @@ property e:ae9a-zs4q t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:ae9a-zs4q t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| contract_start_date | contract_end_date   | round_number | contract | contract_amount | elementary | middle_school | high_school | mada_for_site | agency                                        | site_name                       | street_address                  | primary_city   | zip_code | 
+| =================== | =================== | ============ | ======== | =============== | ========== | ============= | =========== | ============= | ============================================= | =============================== | =============================== | ============== | ======== | 
+| 2014-10-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027297  | 126041          | x          |               |             | 100           | Wayne County Action Program                   | North Rose/Wolcott Elementary   | 10456 Salter-Colvin Rd          | North Rose     | 14516    | 
+| 2014-10-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027331  |                 |            |               | x           | 80            | People and Possibilities                      | Niagara Falls High School       | 4455 Porter Rd                  | Niagara Falls  | 14305    | 
+| 2014-10-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027330  | 110000          | x          |               |             | 80            | Catholic Charities of the Diocese of Albany   | Sunnyside Center                | 110 East Sunnyside Way          | Troy           | 12180    | 
+| 2014-09-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027310  | 220000          | x          |               |             | 188           | NIA Community Services Network                | PS 330Q                         | 10-08 Northern Boulevard        | Corona         | 11368    | 
+| 2014-09-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027277  | 216435          |            | x             |             | 180           | Economic Opportunity Council of Suffolk, Inc. | William Paca Middle School      | 338 Beacon Drive                | Mastic Beach   | 11951    | 
+| 2014-09-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027336  | 165000          |            | x             | x           | 120           | The Children's Village                        | Greenburgh Eleven MS/HS         | One Echo Hills                  | Dobbs Ferry    | 10522    | 
+| 2014-09-01T00:00:00 | 2019-08-31T00:00:00 | 9            | C027302  | 137500          | x          | x             |             | 100           | Maspeth Town Hall, Inc.                       | PS/IS 49                        | 63-6080th Street                | Middle Village | 11379    | 
+| 2013-03-01T00:00:00 | 2017-11-14T00:00:00 | 8            | C026716  |                 | X          | X             | X           | 40            | Boys & Girls Clubs of Schenectady, Inc        | Yates Village Boys & Girls Club | 2400 Van Ranken Avenue, Apt E-3 | Schenectady    | 12308    | 
+| 2013-03-01T00:00:00 | 2017-11-14T00:00:00 | 8            | C027079* | 220000          |            | X             |             | 100           | Boys & Girls Club of Newburgh, Inc.           | South Middle School             | 33-63 Monument Street           | Newburgh       | 12550    | 
+| 2012-11-15T00:00:00 | 2017-11-14T00:00:00 | 8            | C026722  | 110000          |            | X             |             | 80            | Harlem Center for Education, Inc              | IS 171 Patrick Henry School     | 19 East 103rd Street            | New York       | 10029    | 
+```

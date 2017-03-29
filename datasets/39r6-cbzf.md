@@ -70,3 +70,20 @@ property e:39r6-cbzf t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:39r6-cbzf t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| airport                       | year | month | coach_passengers | 
+| ============================= | ==== | ===== | ================ | 
+| Kennedy International Airport | 2002 | 1     | 30338            | 
+| Kennedy International Airport | 2002 | 2     | 26409            | 
+| Kennedy International Airport | 2002 | 3     | 36206            | 
+| Kennedy International Airport | 2002 | 4     | 29482            | 
+| Kennedy International Airport | 2002 | 5     | 42262            | 
+| Kennedy International Airport | 2002 | 6     | 44453            | 
+| Kennedy International Airport | 2002 | 7     | 44043            | 
+| Kennedy International Airport | 2002 | 8     | 48439            | 
+| Kennedy International Airport | 2002 | 9     | 47167            | 
+| Kennedy International Airport | 2002 | 10    | 46684            | 
+```

@@ -71,3 +71,20 @@ property e:spy8-d7us t:meta.view.owner v:id=q8y9-svx9 v:profileImageUrlMedium=/a
 
 property e:spy8-d7us t:meta.view.tableauthor v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 ```
+
+## Top Records
+
+```ls
+| station | station_name                    | wq_violation_date   | time | variable_units      | sample_result_or_geo_mn | criterion | percent_exceeds_standard | 
+| ======= | =============================== | =================== | ==== | =================== | ======================= | ========= | ======================== | 
+| 62A150  | Pend Oreille R @ Newport        | 2014-09-09T00:00:00 |      | pH (pH)             | 8.6                     | 8.5       | 0.6                      | 
+| 62A090  | Pend Oreille R @ Metaline Falls | 2014-09-09T00:00:00 |      | pH (pH)             | 8.6                     | 8.5       | 1.3                      | 
+| 61A070  | Columbia R @ Northport          | 2014-09-08T00:00:00 |      | Oxygen (mg/L)       | 8.8                     | 9.5       | 7.8                      | 
+| 61A070  | Columbia R @ Northport          | 2014-09-08T00:00:00 |      | Temperature (deg C) | 17.5                    | 16        | 9.4                      | 
+| 60A070  | Kettle R nr Barstow             | 2014-09-08T00:00:00 |      | Fecal Coliform      |                         | 100       | 60                       | 
+| 60A070  | Kettle R nr Barstow             | 2014-09-08T00:00:00 |      | Oxygen (mg/L)       | 9.2                     | 9.5       | 3.7                      | 
+| 60A070  | Kettle R nr Barstow             | 2014-09-08T00:00:00 |      | Temperature (deg C) | 17                      | 16        | 6.3                      | 
+| 59A080  | Colville R @ Greenwood          | 2014-09-08T00:00:00 |      | pH (pH)             | 8.6                     | 8.5       | 1.3                      | 
+| 56A070  | Hangman Cr @ Mouth              | 2014-09-09T00:00:00 |      | pH (pH)             | 8.7                     | 8.5       | 2                        | 
+| 55B070  | Little Spokane R nr             | 2014-09-09T00:00:00 |      | Oxygen (mg/L)       | 9.4                     | 9.5       | 0.5                      | 
+```

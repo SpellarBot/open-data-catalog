@@ -66,3 +66,20 @@ property e:euee-qccq t:meta.view.owner v:id=zzya-y4bn v:screenName="Elizabeth Sc
 
 property e:euee-qccq t:meta.view.tableauthor v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
 ```
+
+## Top Records
+
+```ls
+| week                   | average_days_to_complete_pavement_cave_in_requests | total_completed_requests | target_response_time_days_ | 
+| ====================== | ================================================== | ======================== | ========================== | 
+| March 28-April 3, 2011 | 1.05                                               | 45                       | 3                          | 
+| April 4 - 10, 2011     | 1.36                                               | 138                      | 3                          | 
+| April 11-17, 2011      | 1.61                                               | 139                      | 3                          | 
+| April 18-24, 2011      | 1.43                                               | 148                      | 3                          | 
+| April 25-May 1, 2011   | 1.68                                               | 179                      | 3                          | 
+| May 2-8, 2011          | 1.31                                               | 163                      | 3                          | 
+| May 9-15, 2011         | 1.39                                               | 175                      | 3                          | 
+| May 16-22, 2011        | 1.31                                               | 174                      | 3                          | 
+| May 23-29, 2011        | 2.81                                               | 126                      | 3                          | 
+| May 30-June 5, 2011    | 1.47                                               | 179                      | 3                          | 
+```

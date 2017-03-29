@@ -78,3 +78,20 @@ property e:3pzs-2zsk t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:3pzs-2zsk t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| project_install_year | contractor | county   | city  | project_count_by_city | project_cost | incentive_dollars | total_nameplate_kw | expected_kwh_annual_production | solicitation | 
+| ==================== | ========== | ======== | ===== | ===================== | ============ | ================= | ================== | ============================== | ============ | 
+| 2010                 | Other      | Allegany | Other | 1                     | 34440        | 8050              | 4.6                | 5399.66                        | PON 2112     | 
+| 2010                 | Other      | Cayuga   | Other | 1                     | 39000        | 8820              | 5.04               | 5916.15                        | PON 2112     | 
+| 2010                 | Other      | Columbia | Other | 1                     | 20198        | 4427.5            | 2.53               | 2969.82                        | PON 2112     | 
+| 2010                 | Other      | Dutchess | Other | 4                     | 163678       | 45080             | 25.76              | 30238.11                       | PON 2112     | 
+| 2010                 | Other      | Erie     | Other | 2                     | 70272        | 21070             | 12.24              | 14367.8                        | PON 2112     | 
+| 2010                 | Other      | Essex    | Other | 2                     | 154240.4     | 42665             | 24.38              | 28618.22                       | PON 2112     | 
+| 2010                 | Other      | Franklin | Other | 1                     | 54325        | 12250             | 8.05               | 9449.41                        | PON 2112     | 
+| 2010                 | Other      | Genesee  | Other | 1                     | 39888        | 10867.5           | 6.21               | 7289.55                        | PON 2112     | 
+| 2010                 | Other      | Herkimer | Other | 1                     | 34199.86     | 11970             | 6.84               | 8029.07                        | PON 2112     | 
+| 2010                 | Other      | Monroe   | Other | 2                     | 58386        | 15487.5           | 8.85               | 10388.49                       | PON 2112     | 
+```

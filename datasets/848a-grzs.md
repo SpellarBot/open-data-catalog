@@ -84,3 +84,20 @@ property e:848a-grzs t:meta.view.owner v:id=csn7-fh8q v:screenName="Tiffanee Jon
 
 property e:848a-grzs t:meta.view.tableauthor v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:roleName=publisher v:displayName="Tiffanee Jones"
 ```
+
+## Top Records
+
+```ls
+| fiscal_year | dept_name      | fund_name    | fund_type    | division_name          | function_name          | expense_type               | expense_description       | budget | current_period_exp | ytd_exp | encumb | bal_available_to_spend | of_budget_spent | 
+| =========== | ============== | ============ | ============ | ====================== | ====================== | ========================== | ========================= | ====== | ================== | ======= | ====== | ====================== | =============== | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | SALARIES                  | 147130 | 10592              | 42092   | 0      | 105038                 | 28.6            | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | OVERTIME                  | 500    | 0                  | 10      | 0      | 490                    | 2               | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | FICA TAXES                | 9122   | 625                | 2507    | 0      | 6615                   | 27.5            | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | GROUP INSURANCE           | 3936   | 379                | 1527    | 0      | 2409                   | 38.8            | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | EMPLOYERS PENSION CONTRIB | 23173  | 1668               | 6694    | 0      | 16479                  | 28.9            | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | MEDICARE TAX PAYMENTS     | 2133   | 146                | 586     | 0      | 1547                   | 27.5            | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | PERSONAL SERVICES          | REDUCTION - AVG. VACANCY  | -9078  | 0                  | 0       | 0      | -9078                  |                 | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | SUPPLIES AND MATERIALS     | OFFICE SUPPLIES           | 500    | 0                  | 0       | 0      | 500                    |                 | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | SUPPLIES AND MATERIALS     | PRINTING SUPPLIES         | 48700  | 1331               | 7542    | 3512   | 37646                  | 22.7            | 
+| 2017        | ADMINISTRATION | GENERAL FUND | GENERAL FUND | OFFICE OF PUBLICATIONS | OFFICE OF PUBLICATIONS | OTHER SERVICES AND CHARGES | OTHER PROFESSIONAL SERVIC | 50     | 0                  | 0       | 0      | 50                     |                 | 
+```

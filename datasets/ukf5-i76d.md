@@ -70,3 +70,20 @@ property e:ukf5-i76d t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/a
 
 property e:ukf5-i76d t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```
+
+## Top Records
+
+```ls
+| calendar_year_2     | emissions | location   | emissions_metric_tonnes | 
+| =================== | ========= | ========== | ======================= | 
+| 2005-01-01T00:00:00 | SO2       | Decker     | 3                       | 
+| 2005-01-01T00:00:00 | SO2       | Sand Hill  | 3                       | 
+| 2005-01-01T00:00:00 | SO2       | Holly      | 2                       | 
+| 2005-01-01T00:00:00 | SO2       | FPP Unit 1 | 6684                    | 
+| 2005-01-01T00:00:00 | SO2       | FPP Unit 2 | 6884                    | 
+| 2005-01-01T00:00:00 | NOx       | Decker     | 751                     | 
+| 2005-01-01T00:00:00 | NOx       | Sand Hill  | 228                     | 
+| 2005-01-01T00:00:00 | NOx       | Holly      | 254                     | 
+| 2005-01-01T00:00:00 | NOx       | FPP Unit 1 | 1056                    | 
+| 2005-01-01T00:00:00 | NOx       | FPP Unit 2 | 1068                    | 
+```

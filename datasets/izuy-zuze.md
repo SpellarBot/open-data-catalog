@@ -54,3 +54,20 @@ property e:izuy-zuze t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:dis
 
 property e:izuy-zuze t:meta.view.tableauthor v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
 ```
+
+## Top Records
+
+```ls
+| month | animals_fostered | 
+| ===== | ================ | 
+| Feb   | 34               | 
+| Apr   | 54               | 
+| May   | 135              | 
+| Jun   | 177              | 
+| Jul   | 170              | 
+| Aug   | 160              | 
+| Nov   | 115              | 
+| Dec   | 78               | 
+| Jan   | 51               | 
+| Mar   | 63               | 
+```

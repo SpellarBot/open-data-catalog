@@ -15,7 +15,7 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-03-27T19:33:32Z |
+| Publication Date | 2017-03-28T19:44:16Z |
 
 ## Description
 
@@ -56,11 +56,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-04-16T08:00:00.000Z t:event_borough=Brooklyn t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314118 t:event_street_side=North t:event_location="CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=14, t:event_name="Cortelyou Greenmarket Sunday" t:police_precinct=70, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2016-05-14T10:00:00.000Z t:event_borough=Manhattan t:event_type="Public Program / Exhibitions" t:event_agency="Trust for Governor's Island" t:event_id=248006 t:street_closure_type=N/A t:community_board=N/A t:event_name=play:ground t:police_precinct=N/A m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-04-23T08:00:00.000Z t:event_borough=Brooklyn t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314118 t:event_street_side=North t:event_location="CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=14, t:event_name="Cortelyou Greenmarket Sunday" t:police_precinct=70, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-04-22T17:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Hudson River Park Trust" t:event_id=290714 t:event_location="HRPT Piers: Pier 46" t:street_closure_type=N/A t:community_board=2, t:event_name="Claypoole - Scuro Wedding" t:police_precinct=6, m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-04-02T08:00:00.000Z t:event_borough=Queens t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314119 t:event_street_side=South t:event_location="QUEENS BOULEVARD between 70 AVENUE and 69 ROAD" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=6, t:event_name="Forest Hills Greenmarket Sunday" t:police_precinct=112, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-04-14T13:00:00.000Z t:event_borough=Bronx t:event_type=Parade t:event_agency="Police Department" t:event_id=305458 t:event_street_side=West t:event_location="GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET,  GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET,  GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST  204 STREET" t:street_closure_type="Full Street Closure" t:community_board=7, t:event_name="Good Friday Procession" t:police_precinct=52, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands
@@ -75,4 +75,21 @@ property e:tvpp-9vvx t:meta.view v:id=tvpp-9vvx v:category="City Government" v:a
 property e:tvpp-9vvx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
 
 property e:tvpp-9vvx t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+```
+
+## Top Records
+
+```ls
+| event_id | event_name                                          | start_date_time     | end_date_time       | event_agency                | event_type                   | event_borough | event_location                                                                                                                                                                                             | event_street_side | street_closure_type | community_board | police_precinct | 
+| ======== | =================================================== | =================== | =================== | =========================== | ============================ | ============= | ========================================================================================================================================================================================================== | ================= | =================== | =============== | =============== | 
+| 248006   | play:ground                                         | 2016-05-14T10:00:00 | 2020-09-27T17:00:00 | Trust for Governor's Island | Public Program / Exhibitions | Manhattan     |                                                                                                                                                                                                            |                   | N/A                 | N/A             | N/A             | 
+| 290714   | Claypoole - Scuro Wedding                           | 2017-04-22T17:00:00 | 2017-04-22T17:30:00 | Hudson River Park Trust     | Special Event                | Manhattan     | HRPT Piers: Pier 46                                                                                                                                                                                        |                   | N/A                 | 2,              | 6,              | 
+| 305458   | Good Friday Procession                              | 2017-04-14T13:00:00 | 2017-04-14T15:00:00 | Police Department           | Parade                       | Bronx         | GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST 204 STREET, GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST 204 STREET, GRAND CONCOURSE between BEDFORD PARK BOULEVARD and EAST 204 STREET | West              | Full Street Closure | 7,              | 52,             | 
+| 307471   | SW Lawn Winter CLosure                              | 2017-03-28T00:00:00 | 2017-03-28T01:00:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Great Lawn South West Lawn                                                                                                                                                                   |                   | N/A                 | 64,             | 22,             | 
+| 307471   | SW Lawn Winter CLosure                              | 2017-03-29T00:00:00 | 2017-03-29T01:00:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Great Lawn South West Lawn                                                                                                                                                                   |                   | N/A                 | 64,             | 22,             | 
+| 307471   | SW Lawn Winter CLosure                              | 2017-03-30T00:00:00 | 2017-03-30T01:00:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Great Lawn South West Lawn                                                                                                                                                                   |                   | N/A                 | 64,             | 22,             | 
+| 307471   | SW Lawn Winter CLosure                              | 2017-03-31T00:00:00 | 2017-03-31T01:00:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Great Lawn South West Lawn                                                                                                                                                                   |                   | N/A                 | 64,             | 22,             | 
+| 307471   | SW Lawn Winter CLosure                              | 2017-04-01T00:00:00 | 2017-04-01T01:00:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Great Lawn South West Lawn                                                                                                                                                                   |                   | N/A                 | 64,             | 22,             | 
+| 307476   | Turtle Pond Lawn Winter Closure 10-31-16 - 4-1-2017 | 2017-03-28T00:00:00 | 2017-03-28T23:59:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Turtle Pond Lawn                                                                                                                                                                             |                   | N/A                 | 64,             | 22,             | 
+| 307476   | Turtle Pond Lawn Winter Closure 10-31-16 - 4-1-2017 | 2017-03-29T00:00:00 | 2017-03-29T23:59:00 | Parks Department            | Construction                 | Manhattan     | Central Park: Turtle Pond Lawn                                                                                                                                                                             |                   | N/A                 | 64,             | 22,             | 
 ```

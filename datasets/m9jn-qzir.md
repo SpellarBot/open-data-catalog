@@ -100,3 +100,20 @@ property e:m9jn-qzir t:meta.view.owner v:id=99uc-9byy v:screenName=opendataatx v
 
 property e:m9jn-qzir t:meta.view.tableauthor v:id=99uc-9byy v:screenName=opendataatx v:roleName=administrator v:displayName=opendataatx
 ```
+
+## Top Records
+
+```ls
+| date                | day_of_week | log_out_6_6_59am | log_out_7_7_59am | log_out_8_8_59am | log_out_9_9_59am | log_out_10_10_59am | log_out_11_11_59am | log_out_12_12_59pm | log_out_1_1_59pm | total_signed_out | total_contractors | total_signed_in | stayed_until_close | weather_holiday | 
+| =================== | =========== | ================ | ================ | ================ | ================ | ================== | ================== | ================== | ================ | ================ | ================= | =============== | ================== | =============== | 
+| 2011-09-30T00:00:00 | Friday      | 2                | 9                | 4                | 13               | 3                  | 2                  | 19                 | 0                | 52               | 9                 | 91              | 10                 | Clear           | 
+| 2011-09-29T00:00:00 | Thursday    | 8                | 7                | 3                | 2                | 0                  | 6                  | 13                 | 11               | 50               | 5                 | 99              | 9                  | Clear           | 
+| 2011-09-28T00:00:00 | Wednesday   | 11               | 4                | 4                | 4                | 9                  | 3                  | 5                  | 6                | 46               | 11                | 97              | 10                 | Clear           | 
+| 2011-09-27T00:00:00 | Tuesday     | 11               | 11               | 6                | 8                | 7                  | 4                  | 9                  | 0                | 56               | 17                | 108             | 8                  | Clear           | 
+| 2011-09-26T00:00:00 | Monday      | 5                | 5                | 4                | 10               | 1                  | 0                  | 2                  | 10               | 37               | 11                | 106             | 15                 | Clear           | 
+| 2011-09-24T00:00:00 | Saturday    | 0                | 10               | 8                | 4                | 2                  | 21                 | 0                  | 0                | 45               | 15                | 98              | 14                 | Clear           | 
+| 2011-09-23T00:00:00 | Friday      | 1                | 9                | 2                | 20               | 4                  | 2                  | 0                  | 11               | 49               | 13                | 108             | 12                 | Clear           | 
+| 2011-09-22T00:00:00 | Thursday    | 9                | 1                | 11               | 4                | 3                  | 10                 | 0                  | 13               | 51               | 17                | 106             | 13                 | Clear           | 
+| 2011-09-21T00:00:00 | Wednesday   | 6                | 9                | 8                | 4                | 3                  | 1                  | 0                  | 16               | 47               | 10                | 109             | 12                 | Clear           | 
+| 2011-09-20T00:00:00 | Tuesday     | 7                | 8                | 5                | 4                | 2                  | 0                  | 0                  | 20               | 46               | 13                | 106             | 14                 | Clear           | 
+```

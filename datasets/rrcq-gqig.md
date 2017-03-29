@@ -67,3 +67,18 @@ property e:rrcq-gqig t:meta.view.owner v:id=fd5k-6njr v:screenName=APatel v:disp
 
 property e:rrcq-gqig t:meta.view.tableauthor v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
 ```
+
+## Top Records
+
+```ls
+| year | month | permits_processed | 
+| ==== | ===== | ================= | 
+| 2014 | Jan   | 2747              | 
+| 2014 | Feb   | 1020              | 
+| 2014 | Mar   | 2238              | 
+| 2014 | Apr   | 2765              | 
+| 2014 | May   | 2478              | 
+| 2014 | Jun   | 2509              | 
+| 2014 | Jul   | 2729              | 
+| 2014 | Aug   | 2392              | 
+```

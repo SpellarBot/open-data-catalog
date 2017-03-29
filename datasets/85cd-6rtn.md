@@ -60,3 +60,20 @@ property e:85cd-6rtn t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:85cd-6rtn t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| district | candidate         | date_iec_raised     | amount_of_iec | 
+| ======== | ================= | =================== | ============= | 
+| 1        | Lee, David        | 2012-07-24T00:00:00 | 250000.00     | 
+| 1        | Mar, Eric         | 2012-06-22T00:00:00 | 250000.00     | 
+| 3        | Butler, Joe       | 2012-08-28T00:00:00 | 250000.00     | 
+| 5        | Olague, Christina | 2012-08-28T00:00:00 | 250000.00     | 
+| 5        | Selby, Thea       | 2012-08-09T00:00:00 | 250000.00     | 
+| 5        | Davis, Julian     | 2012-08-23T00:00:00 | 250000.00     | 
+| 5        | Rizzo, John       | 2012-08-24T00:00:00 | 250000.00     | 
+| 5        | Breed, London     | 2012-08-28T00:00:00 | 250000.00     | 
+| 7        | Crowley, F.X.     | 2012-07-17T00:00:00 | 250000.00     | 
+| 7        | Garcia, Mike      | 2012-07-20T00:00:00 | 250000.00     | 
+```

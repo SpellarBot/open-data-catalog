@@ -67,3 +67,20 @@ property e:avst-7ttu t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:avst-7ttu t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| month    | fiscal_year | usage_kwh    | cost     | 
+| ======== | =========== | ============ | ======== | 
+| April    | 2011        | 546,355.20   | 49837.92 | 
+| January  | 2008        | 880,914.24   | 68450.91 | 
+| August   | 2010        | 683,354.61   | 64074.54 | 
+| June     | 2009        | 619,755.97   | 65204.46 | 
+| May      | 2009        | 507,749.19   | 55342.34 | 
+| January  | 2010        | 854,762.23   | 73719.88 | 
+| December | 2010        | 1,037,424.92 | 87141.69 | 
+| December | 2008        | 936,858.41   | 72332.97 | 
+| August   | 2008        | 724,067.95   | 75816.17 | 
+| July     | 2008        | 807,472.07   | 83070.69 | 
+```

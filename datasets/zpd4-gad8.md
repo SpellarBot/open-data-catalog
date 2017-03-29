@@ -100,3 +100,20 @@ property e:zpd4-gad8 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:zpd4-gad8 t:meta.view.tableauthor v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
 ```
+
+## Top Records
+
+```ls
+| borough | grade | year | category | number_tested | mean_scale_score | level_1_1 | level_1_2 | level_2_1 | level_2_2 | level_3_1 | level_3_2 | level_4_1 | level_4_2 | level_3_4_1 | level_3_4_2 | 
+| ======= | ===== | ==== | ======== | ============= | ================ | ========= | ========= | ========= | ========= | ========= | ========= | ========= | ========= | =========== | =========== | 
+| BRONX   | 3     | 2006 | ELL      | 3754          | 645              | 876       | 23.3      | 1037      | 27.6      | 1639      | 43.7      | 202       | 5.4       | 1841        | 49.0        | 
+| BRONX   | 3     | 2006 | EP       | 12691         | 669              | 1186      | 9.3       | 2220      | 17.5      | 6979      | 55.0      | 2306      | 18.2      | 9285        | 73.2        | 
+| BRONX   | 3     | 2007 | ELL      | 3726          | 659              | 489       | 13.1      | 908       | 24.4      | 1953      | 52.4      | 376       | 10.1      | 2329        | 62.5        | 
+| BRONX   | 3     | 2007 | EP       | 12463         | 678              | 756       | 6.1       | 1732      | 13.9      | 7043      | 56.5      | 2932      | 23.5      | 9975        | 80.0        | 
+| BRONX   | 3     | 2008 | ELL      | 3311          | 666              | 205       | 6.2       | 620       | 18.7      | 2242      | 67.7      | 244       | 7.4       | 2486        | 75.1        | 
+| BRONX   | 3     | 2008 | EP       | 12325         | 680              | 465       | 3.8       | 1441      | 11.7      | 8205      | 66.6      | 2214      | 18.0      | 10419       | 84.5        | 
+| BRONX   | 3     | 2009 | ELL      | 3370          | 672              | 95        | 2.8       | 523       | 15.5      | 2417      | 71.7      | 335       | 9.9       | 2752        | 81.7        | 
+| BRONX   | 3     | 2009 | EP       | 12439         | 684              | 163       | 1.3       | 1043      | 8.4       | 8878      | 71.4      | 2355      | 18.9      | 11233       | 90.3        | 
+| BRONX   | 3     | 2010 | ELL      | 3696          | 673              | 975       | 26.4      | 1642      | 44.4      | 839       | 22.7      | 240       | 6.5       | 1079        | 29.2        | 
+| BRONX   | 3     | 2010 | EP       | 12170         | 686              | 1663      | 13.7      | 4695      | 38.6      | 3790      | 31.1      | 2022      | 16.6      | 5812        | 47.8        | 
+```

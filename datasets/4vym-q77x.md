@@ -74,3 +74,20 @@ property e:4vym-q77x t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:4vym-q77x t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | public_authority_type | public_authority_name                                          | address                                           | city        | state | zip   | website                                                                                 | 
+| =========== | ===================== | ============================================================== | ================================================= | =========== | ===== | ===== | ======================================================================================= | 
+| 1490133664  | State                 | Agriculture and New York State Horse Breeding Development Fund | 1 Broadway Center                                 | SCHENECTADY | NY    | 12305 | [http://www.nysirestakes.com, null]                                                     | 
+| 1490133664  | Local - LDC           | Albany CSO Pool Communities Corporation                        | CDRPC, One Park Place, Suite 102                  | ALBANY      | NY    | 12205 | [http://cdrpc.org/programs/water-quality/combined-sewer-overflow-cso/, null]            | 
+| 1490133664  | Local - IDA           | Albany City Industrial Development Agency                      | 21 Lodge Street                                   | ALBANY      | NY    | 12207 | [http://www.albanyida.com, null]                                                        | 
+| 1490133664  | Local                 | Albany Community Development Agency                            | 200 Henry Johnson Boulevard, Second Floor         | ALBANY      | NY    | 12210 | [http://www.albanyny.org/Government/Departments/DevelopmentandPlanning/ACDA.aspx, null] | 
+| 1490133664  | State                 | Albany Convention Center Authority                             | 126 State St.                                     | ALBANY      | NY    | 12207 | [http://www.accany.com, null]                                                           | 
+| 1490133664  | Local                 | Albany County Airport Authority                                | Albany International Airport, Admin Bldg Room 204 | ALBANY      | NY    | 12211 | [http://www.albanyairport.com/, null]                                                   | 
+| 1490133664  | Local - LDC           | Albany County Business Development Corporation                 | Five Computer Drive South                         | ALBANY      | NY    | 12205 | [null, null]                                                                            | 
+| 1490133664  | Local - LDC           | Albany County Capital Resource Corporation                     | 112 State Street , Room 740                       | ALBANY      | NY    | 12207 | [null, null]                                                                            | 
+| 1490133664  | Local - IDA           | Albany County Industrial Development Agency                    | 21 Everett Road Extension                         | ALBANY      | NY    | 12205 | [http://www.albanycounty.com/ida/, null]                                                | 
+| 1490133664  | Local - LDC           | Albany County Land Bank Corporation                            | 69 State Street, 8th Floor                        | ALBANY      | NY    | 12207 | [http://www.albanycountylandbank.org, null]                                             | 
+```

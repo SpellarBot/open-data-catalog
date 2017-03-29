@@ -75,3 +75,20 @@ property e:p7e4-ipty t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:p7e4-ipty t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| year | month | average_weekday_trips | average_saturday_trips | average_sunday_trips | 
+| ==== | ===== | ===================== | ====================== | ==================== | 
+| 2015 | 1     | 227560                | 88875                  | 65718                | 
+| 2015 | 2     | 245222                | 94726                  | 69433                | 
+| 2015 | 3     | 250436                | 107723                 | 80341                | 
+| 2015 | 4     | 258345                | 122703                 | 89890                | 
+| 2015 | 5     | 264326                | 119435                 | 95415                | 
+| 2015 | 6     | 267048                | 116406                 | 97617                | 
+| 2015 | 7     | 261749                | 121592                 | 91506                | 
+| 2015 | 8     | 259288                | 119474                 | 95663                | 
+| 2015 | 9     | 269025                | 124025                 | 95915                | 
+| 2015 | 10    | 271211                | 121593                 | 92086                | 
+```

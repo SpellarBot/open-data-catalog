@@ -61,3 +61,20 @@ property e:3bce-kp2x t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/a
 
 property e:3bce-kp2x t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
+
+## Top Records
+
+```ls
+| goal_1_ensure_a_fair_accurate_property_valuation_appeals_process                                                         | reporting_office | tax_year_2009 | tax_year_2011 | ty2012_ytd | ty2012_target | ty2012_variance | 
+| ======================================================================================================================== | ================ | ============= | ============= | ========== | ============= | =============== | 
+| # of parcels reassessed                                                                                                  | Assessor         | 869,663       | 527,490       | 875,000    | TBD           | -               | 
+| # of property tax exemptions received                                                                                    | Assessor         | 1,101,937     | 1,093,220     | 1,101,000  | TBD           | -               | 
+| # of appeals filed                                                                                                       | Assessor         | 134,975       | 109,860       | 135,000    | TBD           | -               | 
+| # of hearings requested                                                                                                  | Board of Review  | 295,108       | 265,152       | 300,000    | TBD           | -               | 
+| # of compalints heard                                                                                                    | Board of Review  | 158,740       | 145,630       | 160,000    | TBD           | -               | 
+| Goal 2: Ensure Efficient, Timely & Effective Assessment & Billing                                                        |                  |               |               |            |               |                 | 
+| Efficient and timely processing results in lower costs to the County and a predictable billing cycle to property owners. |                  |               |               |            |               |                 | 
+| Date second instalment tax bills are mailed                                                                              | Countywide       | 11/10/2010    | 6/26/2012     | TBD        | 6/26/2013     | -               | 
+| Days to hear and close all appeals                                                                                       | Assessor         | 364           | 193           | 244        | TBD           | -               | 
+| Days to hear and close all appeals                                                                                       | Board of Review  | 315           | 225           | 256        | TBD           | -               | 
+```

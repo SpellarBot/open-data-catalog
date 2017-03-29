@@ -81,3 +81,20 @@ property e:qzi7-nx8g t:meta.view.owner v:id=2z47-i38b v:screenName="Watershed Ed
 
 property e:qzi7-nx8g t:meta.view.tableauthor v:id=2z47-i38b v:screenName="Watershed Education" v:roleName=publisher v:displayName="Watershed Education"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | zone      | business_name                    | phone        | status | oil | oil_filter | fluids | tires | batteries | newspapers | scrap_metal | aluminum | zip_code | latitude           | longitude          | 
+| =========== | ========= | ================================ | ============ | ====== | === | ========== | ====== | ===== | ========= | ========== | =========== | ======== | ======== | ================== | ================== | 
+| 1374050384  | Southeast | Tex-Con Oil Company              | 512-444-1941 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78744    | 30.21197822400046  | -97.72995848699969 | 
+| 1374050405  | Southeast | Home Chemical Collection         | 512-974-4343 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78744    | 30.21303076400045  | -97.73832021699968 | 
+| 1374050406  | Southeast | City of Austin Landfill          | 512-243-1894 | 1      | Yes | Yes        | Yes    | Yes   | Yes       | Yes        | Yes         | Yes      | 78719    | 30.136601191000466 | -97.67324819399965 | 
+| 1374050406  | Southeast | Special Automotive Service, Inc. | 512-243-1015 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78759    | 30.401251131000436 | -97.75333968099966 | 
+| 1374050465  | South     | Lube Pit Stop                    | 512-444-8563 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78741    | 30.23095105900046  | -97.73379059599966 | 
+| 1374050264  | East      | Travis County Drop Off           | 512-473-9114 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78704    | 30.326210362000438 | -97.6278986749997  | 
+| 1374050410  | Southeast | TDs Texas Disposal Systems, Inc. | 512-243-4100 | 1      | Yes | Yes        | Yes    | Yes   | Yes       | Yes        | Yes         | Yes      | 78747    | 30.136162345000457 | -97.7587492129997  | 
+| 1374050435  | South     | Volvo Clinic-River City          | 512-441-1334 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78745    | 30.220960771000478 | -97.76516033099966 | 
+| 1374050472  | South     | Advance Auto Parts               | 512-326-1166 | 1      | Yes |            |        |       |           |            |             |          | 78745    | 30.191450819000465 | -97.77308111999969 | 
+| 1374050696  | South     | Quick Lube                       | 512-447-2556 | 1      | Yes | Yes        |        |       | Yes       |            |             |          | 78745    | 30.209320415000434 | -97.80440015499966 | 
+```

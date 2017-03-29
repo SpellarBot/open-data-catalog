@@ -64,3 +64,20 @@ property e:vdgb-f9s3 t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMed
 
 property e:vdgb-f9s3 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```
+
+## Top Records
+
+```ls
+| topic1    | topic2 | topic3 | topic4 | e_cigarettes | question                                                                                                           | responses           | year | surveynameabbrev | surveyname                           | 
+| ========= | ====== | ====== | ====== | ============ | ================================================================================================================== | =================== | ==== | ================ | ==================================== | 
+| Cessation |        |        |        | No           | During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking? | Don't know/Not sure | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking? | Refused             | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking? | No                  | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | During the past 12 months, have you stopped smoking for one day or longer because you were trying to quit smoking? | Yes                 | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | When you quit smoking, did you use a nicotine patch to help you quit?                                              | Refused             | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | When you quit smoking, did you use a nicotine patch to help you quit?                                              | Don't know/Not sure | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | When you quit smoking, did you use a nicotine patch to help you quit?                                              | No                  | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | When you quit smoking, did you use a nicotine patch to help you quit?                                              |                     | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | The last time you tried to quit smoking, did you use a nicotine patch to help you quit?                            | Don't know/Not sure | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+| Cessation |        |        |        | No           | The last time you tried to quit smoking, did you use a nicotine patch to help you quit?                            | No                  | 2007 | AI ATS           | American Indian Adult Tobacco Survey | 
+```

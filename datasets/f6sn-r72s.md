@@ -72,3 +72,20 @@ property e:f6sn-r72s t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/a
 
 property e:f6sn-r72s t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 ```
+
+## Top Records
+
+```ls
+| project_number | hcr_project_type          | project_name                              | developer_name                                   | county   | municipality  | total_project_cost | total_units | affordable_units | calendar_year | 
+| ============== | ========================= | ========================================= | ================================================ | ======== | ============= | ================== | =========== | ================ | ============= | 
+| 20106003.00    | SLIHC/Subsidy Stand Alone | AVENT HOUSE                               | REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC. | ORANGE   | MIDDLETOWN    | 447176             | 24          | 24               | 2011          | 
+| 20106004.00    | SLIHC/Subsidy Stand Alone | AVSH RARP                                 | APPLE VALLEY SENIOR HOUSING CORP.                | CLINTON  | PERU          | 243990             | 30          | 30               | 2011          | 
+| 20106139.00    | SLIHC/Subsidy Stand Alone | ART LEFEVRE SENIOR HOUSING REHABILITATION | FRIENDS OF THE NORTH COUNTRY, INC.               | CLINTON  | PLATTSBURGH   | 124200             | 24          | 24               | 2011          | 
+| 20106151.00    | SLIHC/Subsidy Stand Alone | 1818 MAIN REVITALIZATION                  | CENTER CITY NEIGHBORHOOD DEVELOPMENT CORPORATION | NIAGARA  | NIAGARA FALLS | 220610             | 4           | 4                | 2011          | 
+| 20110253.00    | SLIHC/Subsidy Stand Alone | OIL-FILLED BOILER REPLACEMENT PROJECT     | SENIOR CITZENS COUNCIL OF CLINTON COUNTY, INC.   | CLINTON  | PLATTSBURGH   | 96669              | 0           | 0                | 2011          | 
+| 20116014.00    | SLIHC/Subsidy Stand Alone | HARLEM RIVER POINT                        | L&M DEVELOPMENT PARTNERS                         | NEW YORK | NEW YORK CITY | 58225354           | 173         | 173              | 2011          | 
+| 20116030.00    | SLIHC/Subsidy Stand Alone | SON-HOUSE APARTMENTS                      | PROVIDENCE HOUSING DEVELOPMENT                   | MONROE   | ROCHESTER     | 4552751            | 21          | 21               | 2011          | 
+| 20116032.00    | SLIHC/Subsidy Stand Alone | HIGHBRIDGE OVERLOOK                       | DUNN DEVELOPMENT CORP.                           | BRONX    | NEW YORK CITY | 45225062           | 155         | 154              | 2011          | 
+| 20116084.00    | SLIHC/Subsidy Stand Alone | DEAN STREET                               | HABITAT FOR HUMANITY - NEW YOR                   | KINGS    | NEW YORK CITY | 5799878            | 15          | 15               | 2011          | 
+| 20116086.00    | SLIHC/Subsidy Stand Alone | VULCAN SPECIAL NEEDS APARTMENTS           | SOUTHERN TIER ENVIRONMENTS FOR                   | ERIE     | BUFFALO       | 3403131            | 13          | 13               | 2011          | 
+```

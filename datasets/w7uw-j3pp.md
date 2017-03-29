@@ -94,3 +94,20 @@ property e:w7uw-j3pp t:meta.view.owner v:id=vedk-n2zt v:profileImageUrlMedium=/a
 
 property e:w7uw-j3pp t:meta.view.tableauthor v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```
+
+## Top Records
+
+```ls
+| location          | january | february | march | april | may  | june | july | august | september | october | november | december | ytd   | 
+| ================= | ======= | ======== | ===== | ===== | ==== | ==== | ==== | ====== | ========= | ======= | ======== | ======== | ===== | 
+| Albany Park       | 3275    | 3117     | 3485  | 3522  | 2779 | 3076 | 2778 | 3174   | 2983      | 3202    | 3121     | 2513     | 37025 | 
+| Altgeld           | 1893    | 1458     | 1360  | 1501  | 1289 | 1609 | 1962 | 2115   | 1542      | 1457    | 1493     | 1147     | 18826 | 
+| Archer Heights    | 1951    | 1877     | 2029  | 2030  | 1829 | 1832 | 1935 | 2202   | 1960      | 2071    | 1966     | 1785     | 23467 | 
+| Austin            | 1542    | 1383     | 1583  | 1562  | 1482 | 1733 | 1682 | 1815   | 1474      | 1538    | 1303     | 1191     | 18288 | 
+| Austin-Irving     | 1683    | 1721     | 1809  | 1735  | 1552 | 1610 | 1568 | 1727   | 1758      | 1835    | 1685     | 1596     | 20279 | 
+| Avalon            | 3272    | 3296     | 3529  | 3633  | 3239 | 3518 | 3536 | 3860   | 3560      | 3712    | 3695     | 3662     | 42512 | 
+| Back of the Yards | 2061    | 2145     | 2112  | 2364  | 2189 | 2263 | 2636 | 3030   | 2215      | 1964    | 1924     | 1657     | 26560 | 
+| Beverly           | 1964    | 2149     | 2333  | 2179  | 2076 | 2106 | 2118 | 2420   | 2197      | 2091    | 3324     | 3551     | 28508 | 
+| Bezazian          | 2801    | 2597     | 2740  | 3054  | 2272 | 2751 | 3094 | 3509   | 2787      | 3110    | 2787     | 2717     | 34219 | 
+| Blackstone        | 1835    | 1529     | 1805  | 1909  | 1844 | 2068 | 2026 | 2336   | 2023      | 1986    | 1878     | 1725     | 22964 | 
+```

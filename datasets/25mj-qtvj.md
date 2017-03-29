@@ -64,3 +64,20 @@ property e:25mj-qtvj t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:
 
 property e:25mj-qtvj t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
 ```
+
+## Top Records
+
+```ls
+| fiscal_year | agency | agency_title                 | classification                | service_type  | full_part_time | annual_salary | 
+| =========== | ====== | ============================ | ============================= | ============= | ============== | ============= | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | PRINCIPAL EXECUTIVE/MANAGER D | AGENCY HEAD   | FULL-TIME      | 96036.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | OFFICE SPECIALIST 1           | UNREPRESENTED | FULL-TIME      | 38712.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | ADMINISTRATIVE SPECIALIST 1   | UNREPRESENTED | FULL-TIME      | 35268.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | ADMINISTRATIVE SPECIALIST 1   | UNREPRESENTED | FULL-TIME      | 35268.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | ADMINISTRATIVE SPECIALIST 1   | UNREPRESENTED | FULL-TIME      | 33816.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | ADMINISTRATIVE SPECIALIST 2   | UNREPRESENTED | FULL-TIME      | 51181.20      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | PROGRAM ANALYST 1             | UNREPRESENTED | FULL-TIME      | 61727.40      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | FINANCIAL INVESTIGATOR 1      | UNREPRESENTED | FULL-TIME      | 67848.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | FINANCIAL INVESTIGATOR 1      | UNREPRESENTED | PART-TIME      | 67848.00      | 
+| 2016        | 12000  | ACCOUNTANCY, OREGON BOARD OF | FINANCIAL INVESTIGATOR 1      | UNREPRESENTED | FULL-TIME      | 67861.20      | 
+```

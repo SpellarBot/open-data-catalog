@@ -71,3 +71,20 @@ property e:hs5g-tdzr t:meta.view.owner v:id=vice-rsdw v:profileImageUrlMedium=/a
 
 property e:hs5g-tdzr t:meta.view.tableauthor v:id=vice-rsdw v:profileImageUrlMedium=/api/users/vice-rsdw/profile_images/THUMB v:profileImageUrlLarge=/api/users/vice-rsdw/profile_images/LARGE v:screenName="IDPH Staff" v:profileImageUrlSmall=/api/users/vice-rsdw/profile_images/TINY v:roleName=publisher v:displayName="IDPH Staff"
 ```
+
+## Top Records
+
+```ls
+| county    | _1   | _2   | _3   | _4   | _5   | _6   | _7   | _8   | _9   | _10  | 
+| ========= | ==== | ==== | ==== | ==== | ==== | ==== | ==== | ==== | ==== | ==== | 
+| Adams     | 496  | 544  | 538  | 513  | 490  | 497  | 495  | 518  | 501  | 503  | 
+| Alexander | 88   | 68   | 74   | 83   | 78   | 41   | 49   | 37   | 44   | 44   | 
+| Bond      | 125  | 143  | 140  | 127  | 131  | 137  | 121  | 107  | 115  | 103  | 
+| Boone     | 256  | 277  | 269  | 259  | 206  | 251  | 261  | 254  | 246  | 212  | 
+| Brown     | 53   | 46   | 40   | 39   | 26   | 28   | 48   | 35   | 46   | 36   | 
+| Bureau    | 263  | 281  | 247  | 248  | 209  | 216  | 198  | 202  | 206  | 178  | 
+| Calhoun   | 42   | 31   | 26   | 30   | 41   | 34   | 44   | 32   | 25   | 27   | 
+| Carroll   | 115  | 101  | 113  | 86   | 108  | 97   | 92   | 76   | 82   | 97   | 
+| Cass      | 86   | 100  | 116  | 108  | 96   | 91   | 71   | 98   | 85   | 86   | 
+| Champaign | 1294 | 1155 | 1123 | 1248 | 1208 | 1168 | 1132 | 1031 | 1066 | 1143 | 
+```

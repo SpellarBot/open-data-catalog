@@ -64,3 +64,20 @@ property e:j2u5-4qpk t:meta.view.owner v:id=2iur-ynm8 v:profileImageUrlMedium=/a
 
 property e:j2u5-4qpk t:meta.view.tableauthor v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
 ```
+
+## Top Records
+
+```ls
+| agency_number | agency_title                                                       | abbreviation | agency_accessibility_coordinator | agency_coordinator_email | last_change_date | url_of_accessibility_info | 
+| ============= | ================================================================== | ============ | ================================ | ======================== | ================ | ========================= | 
+| 10            | State Revenue for Distribution (SRD)                               | SRD          |                                  |                          |                  | [null, null]              | 
+| 50            | Federal Revenue for Distribution (FRD)                             | FRD          |                                  |                          |                  | [null, null]              | 
+| 100           | Bond Retirement and Interest (BRI)                                 | BRI          |                                  |                          |                  | [null, null]              | 
+| 110           | House of Representatives (REP)                                     | REP          |                                  |                          |                  | [null, null]              | 
+| 120           | Senate (SEN)                                                       | SEN          |                                  |                          |                  | [null, null]              | 
+| 130           | Joint Transportation Committee (JTC)                               | JTC          |                                  |                          |                  | [null, null]              | 
+| 140           | Joint Legislative Audit and Review Committee (JLARC)               | ARC          |                                  |                          |                  | [null, null]              | 
+| 200           | Legislative Evaluation and Accountability Program Committee (LEAP) | EAP          |                                  |                          |                  | [null, null]              | 
+| 350           | Office of the State Actuary (OSA)                                  | OSA          |                                  |                          |                  | [null, null]              | 
+| 370           | Office of Legislative Support Services (LSS)                       | LSS          |                                  |                          |                  | [null, null]              | 
+```

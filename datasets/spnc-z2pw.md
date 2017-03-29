@@ -56,3 +56,19 @@ property e:spnc-z2pw t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Joh
 
 property e:spnc-z2pw t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
+
+## Top Records
+
+```ls
+| year | meeting | not_meeting | 
+| ==== | ======= | =========== | 
+| 1998 | 18      | 82          | 
+| 2008 | 25      | 75          | 
+| 2010 | 45      | 55          | 
+| 2011 | 61      | 39          | 
+| 2012 | 61      | 39          | 
+| 2013 | 69      | 31          | 
+| 2014 | 83      | 17          | 
+| 2015 | 88      | 12          | 
+| 2016 | 88      | 12          | 
+```

@@ -56,3 +56,20 @@ property e:5jwd-xj5z t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:5jwd-xj5z t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | reason_commodity_service              | contract_value | 
+| =========== | ===================================== | ============== | 
+| 1450341948  | Custom Ordered Products/Services      | 513000         | 
+| 1450341948  | Data Entry                            | 20000          | 
+| 1450341948  | Document Processing                   | 89398          | 
+| 1450341948  | Film and Cameras                      | 25783          | 
+| 1450341948  | Information & Records Conversion Mgt. | 23571          | 
+| 1450341948  | Institutional Furniture               | 49347          | 
+| 1450341948  | Inventory Control Services            | 20000          | 
+| 1450341948  | Janitorial and Housekeeping Supplies  | 120049         | 
+| 1450341948  | Laundry Service (Industrial)          | 40000          | 
+| 1450341948  | Maintenance and Janitorial            | 3445056        | 
+```

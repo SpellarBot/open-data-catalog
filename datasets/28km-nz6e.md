@@ -97,3 +97,19 @@ property e:28km-nz6e t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cd
 
 property e:28km-nz6e t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
+
+## Top Records
+
+```ls
+| state          | all_ages | ages_0_20 | ages_21_34 | ages_35 | male | female | all_ages_2014 | ages_0_20_2014 | ages_21_34_2014 | ages_35_2014 | male_2014 | female_2014 | 
+| ============== | ======== | ========= | ========== | ======= | ==== | ====== | ============= | ============== | =============== | ============ | ========= | =========== | 
+| United States  | 3.3      | 1.3       | 6.7        | 3.1     | 5.2  | 1.5    | 3.1           | 1.2            | 6.2             | 3            | 4.9       | 1.4         | 
+| Alabama        | 5.5      | 2.7       | 10.3       | 5.0     | 8.4  | 2.9    | 5.5           | 2.1            | 10              | 5.5          | 8.6       | 2.6         | 
+| Florida        | 3.7      | 1.2       | 8.0        | 3.3     | 5.7  | 1.7    | 3.5           | 1.2            | 7.4             | 3.1          | 5.4       | 1.7         | 
+| Georgia        | 3.0      | 1.0       | 5.8        | 3.1     | 4.9  | 1.2    | 2.7           | 0.8            | 5.2             | 2.9          | 4.7       | 0.9         | 
+| Kentucky       | 4.0      | 1.8       | 7.2        | 3.7     | 6.5  | 1.5    | 3.9           | 2              | 7.8             | 3.4          | 6.5       | 1.3         | 
+| Mississippi    | 6.1      | 2.6       | 12.0       | 5.7     | 9.8  | 2.7    | 6             | 2.8            | 10.8            | 5.8          | 9.4       | 2.8         | 
+| North Carolina | 4.2      | 1.7       | 8.0        | 4.0     | 6.8  | 1.7    | 3.8           | 1.4            | 7.7             | 3.6          | 6.3       | 1.5         | 
+| South Carolina | 7.6      | 2.8       | 14.2       | 7.6     | 12.3 | 3.2    | 5.8           | 2              | 12.4            | 5.3          | 9         | 2.9         | 
+| Tennessee      | 4.6      | 1.6       | 8.0        | 4.9     | 7.5  | 1.8    | 4.1           |                | 8.2             | 4.1          | 6.8       | 1.5         | 
+```

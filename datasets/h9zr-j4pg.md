@@ -69,3 +69,20 @@ property e:h9zr-j4pg t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:h9zr-j4pg t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| state_fiscal_year_end_date | operator_name                    | inspections | failed_inspections | operator_id | city           | region | 
+| ========================== | ================================ | =========== | ================== | =========== | ============== | ====== | 
+| 2014-03-31T00:00:00        | 1ST CLASS TRANSPORTATION SERVICE | 4           | 1                  | 48486       | QUEENS VILLAGE | 11     | 
+| 2014-03-31T00:00:00        | 21ST AVE. TRANSPORTATION         | 250         | 19                 | 3531        | BROOKLYN       | 11     | 
+| 2014-03-31T00:00:00        | 3J'S LIMOUSINE INC.              | 2           | 0                  | 50284       | MELVILLE       | 10     | 
+| 2014-03-31T00:00:00        | 3RD AVENUE TRANSIT               | 114         | 1                  | 6043        | BROOKLYN       | 11     | 
+| 2014-03-31T00:00:00        | 422 DND CORP                     | 5           | 0                  | 49379       | ISLIP TERRACE  | 10     | 
+| 2014-03-31T00:00:00        | 5 STAR LIMO OF ELMIRA            | 2           | 1                  | 49862       | ELMIRA         | 4      | 
+| 2014-03-31T00:00:00        | A & A SERVICE                    | 5           | 1                  | 5758        | MT VERNON      | 11     | 
+| 2014-03-31T00:00:00        | A & B VAN SERVICE                | 37          | 0                  | 3479        | STATEN ISLAND  | 11     | 
+| 2014-03-31T00:00:00        | A & E MEDICAL TRANSPORT INC      | 42          | 5                  | 6165        | CANANDAIGUA    | 4      | 
+| 2014-03-31T00:00:00        | A & E TRANSPORT SERVICES         | 28          | 4                  | 6692        | OSWEGO         | 3      | 
+```

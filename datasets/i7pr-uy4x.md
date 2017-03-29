@@ -69,3 +69,20 @@ property e:i7pr-uy4x t:meta.view.owner v:id=uaqq-pakk v:screenName="Douglas Oshi
 
 property e:i7pr-uy4x t:meta.view.tableauthor v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
 ```
+
+## Top Records
+
+```ls
+| x_values | city_and_county_of_honolulu | hawaii_county | kauai_county | maui_county | 
+| ======== | =========================== | ============= | ============ | =========== | 
+| 1990     | 913268                      | 137103        | 68558        | 138390      | 
+| 1991     | 901717                      | 141240        | 69605        | 139703      | 
+| 1992     | 912514                      | 146421        | 66076        | 146651      | 
+| 1993     | 909506                      | 148014        | 61262        | 149067      | 
+| 1994     | 919898                      | 150311        | 67161        | 152434      | 
+| 1995     | 921626                      | 152482        | 68844        | 155144      | 
+| 1996     | 921609                      | 154364        | 70474        | 157468      | 
+| 1997     | 932931                      | 161225        | 71763        | 162011      | 
+| 1998     | 931439                      | 165205        | 73920        | 163562      | 
+| 1999     | 927689                      | 164570        | 74441        | 165743      | 
+```

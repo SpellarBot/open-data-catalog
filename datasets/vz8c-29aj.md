@@ -64,3 +64,20 @@ property e:vz8c-29aj t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData
 
 property e:vz8c-29aj t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | borough                                 | zip_code | phone        | districts_served | hours                        | 
+| =========== | ======================================= | ======== | ============ | ================ | ============================ | 
+| 1318282208  | Bronx                                   | 10458    | 718-935-2178 | 7, 9, 10         | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Brooklyn                                | 11230    | 718-935-2313 | 17, 18, 22       | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Brooklyn (Note: General Education Only) | 11217    | 718-935-2371 | 13, 14, 15, 16   | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Brooklyn (Note: Special Education Only) | 11201    | 718-935-4908 | 13, 14, 15, 16   | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Brooklyn                                | 11209    | 718-935-2331 | 20, 21           | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Brooklyn                                | 11233    | 718-935-2340 | 19, 23, 32       | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Manhattan                               | 10027    | 718-935-2385 | 3, 5, 6          | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Bronx                                   | 10462    | 718-935-2278 | 8, 11, 12        | Monday-Friday, 8:00am-3:00pm | 
+| 1318282208  | Manhattan                               | 10001    | 718-935-2383 | 1, 2, 4          | Monday-Friday, 8:00am-3:00pm | 
+| 1318282209  | Staten Island                           | 10301    | 718-935-2402 | 31               | Monday-Friday, 8:00am-3:00pm | 
+```

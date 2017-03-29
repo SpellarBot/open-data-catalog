@@ -74,3 +74,20 @@ property e:7i7v-m2wn t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/a
 
 property e:7i7v-m2wn t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
+
+## Top Records
+
+```ls
+| form_type | report_number | date_filed          | filer                                 | filer_id | amount  | candidate_identified | district                        | support_oppose_or_neutral | start_date_of_distribution | end_or_only_date_of_distribution | notes                                | 
+| ========= | ============= | =================== | ===================================== | ======== | ======= | ==================== | =============================== | ========================= | ========================== | ================================ | ==================================== | 
+| 496       | VA-G16-013    | 2016-08-26T00:00:00 | San Franciscans for a City that Works | 1384192  | 5000    | Joshua Arce          | Board of Supervisors District 9 | Support                   | 2016-08-25T00:00:00        |                                  | Web Ads                              | 
+| 496       | VA-G16-008    | 2016-08-18T00:00:00 | San Franciscans for a City that Works | 1384192  | 5000    | Marjan Philhour      | Board of Supervisors District 1 | Support                   | 2016-08-17T00:00:00        |                                  | Web Ads                              | 
+| 496       | VA-G16-012    | 2016-08-26T00:00:00 | San Franciscans for a City that Works | 1384192  | 5000    | Marjan Philhour      | Board of Supervisors District 1 | Support                   | 2016-08-25T00:00:00        |                                  | Web Ads                              | 
+| 496       | VA-G16-018    | 2016-08-31T00:00:00 | San Franciscans for a City that Works | 1384192  | 3115    | Marjan Philhour      | Board of Supervisors District 1 | Support                   | 2016-08-30T00:00:00        |                                  | Canvassing                           | 
+| 496       | VA-G16-019    | 2016-08-31T00:00:00 | San Franciscans for a City that Works | 1384192  | 2612    | Joshua Arce          | Board of Supervisors District 9 | Support                   | 2016-08-30T00:00:00        |                                  | Canvassing                           | 
+| 496       | VA-G16-023    | 2016-09-02T00:00:00 | San Franciscans for a City that Works | 1384192  | 1500    | Marjan Philhour      | Board of Supervisors District 1 | Support                   | 2016-09-01T00:00:00        |                                  | Consulting                           | 
+| 496       | VA-G16-024    | 2016-09-02T00:00:00 | San Franciscans for a City that Works | 1384192  | 1500    | Joshua Arce          | Board of Supervisors District 9 | Support                   | 2016-09-01T00:00:00        |                                  | Consulting                           | 
+| 496       | VA-G16-026    | 2016-09-06T00:00:00 | San Franciscans for a City that Works | 1384192  | 1674.37 | Marjan Philhour      | Board of Supervisors District 1 | Support                   | 2016-09-03T00:00:00        |                                  | Door Hangers                         | 
+| 496       | VA-G16-021    | 2016-09-02T00:00:00 | San Franciscans for a City that Works | 1384192  | 2930    | Marjan Philhour      | Board of Supervisors District 1 | Support                   | 2016-08-31T00:00:00        |                                  | Staff Time                           | 
+| 496       | VA-G16-027    | 2016-09-06T00:00:00 | San Franciscans for a City that Works | 1384192  | 2484.01 | Joshua Arce          | Board of Supervisors District 9 | Support                   | 2016-09-03T00:00:00        |                                  | Campaign Literature and Door Hangers | 
+```

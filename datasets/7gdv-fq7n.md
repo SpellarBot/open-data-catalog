@@ -75,3 +75,20 @@ property e:7gdv-fq7n t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMed
 
 property e:7gdv-fq7n t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
+
+## Top Records
+
+```ls
+| :updated_at | state_park_facility                  | nature_center                                  | region | county       | facility_url                                       | nature_center_url                                                          | x              | y             | 
+| =========== | ==================================== | ============================================== | ====== | ============ | ================================================== | ========================================================================== | ============== | ============= | 
+| 1361386181  | Allegany State Park                  | Red House Natural History Museum               | 2      | Cattaraugus  | [http://nysparks.com/parks/136/details.aspx, null] | [http://www.nysparks.com/environment/nature-centers/12/details.aspx, null] | -78.7685586473 | 42.0547575211 | 
+| 1361386181  | Beaver Island State Park             | Beaver Island Nature Center                    | 1      | Erie         | [http://nysparks.com/parks/56/details.aspx, null]  | [http://www.nysparks.com/environment/nature-centers/11/details.aspx, null] | -78.9531063633 | 42.9657659397 | 
+| 1361386181  | Caleb Smith Park Preserve            | Caleb Smith Park Preserve Nature Museum        | 9      | Suffolk      | [http://nysparks.com/parks/124/details.aspx, null] | [http://www.nysparks.com/environment/nature-centers/9/details.aspx, null]  | -73.2260164473 | 40.8530379808 | 
+| 1361386181  | Clarence Fahnestock State Park       | Taconic Outdoor Education Center               | 7      | Putnam       | [http://nysparks.com/parks/133/details.aspx, null] | [http://www.nysparks.com/environment/nature-centers/3/details.aspx, null]  | -73.8476473928 | 41.4527563307 | 
+| 1361386181  | Clay Pit Ponds State Park Preserve   | Clay Pit Ponds Park Preserve Nature Museum     | 12     | Richmond     | [http://nysparks.com/parks/166/details.aspx, null] | [http://www.nysparks.com/environment/nature-centers/14/details.aspx, null] | -74.2290460884 | 40.5405635456 | 
+| 1361386181  | Connetquot River State Park Preserve | Long Island Environmental Interpretrive Center | 9      | Suffolk      | [http://nysparks.com/parks/8/details.aspx, null]   | [http://www.nysparks.com/environment/nature-centers/6/details.aspx, null]  | -73.1492496889 | 40.7694292476 | 
+| 1361386181  | John Boyd Thacher State Park         | Emma Treadwell Thacher Nature Center           | 11     | Albany       | [http://nysparks.com/parks/128/details.aspx, null] | [http://www.nysparks.com/environment/nature-centers/8/details.aspx, null]  | -74.0147061578 | 42.655465525  | 
+| 1361386181  | Jones Beach State Park               | Theodore Roosevelt Nature Center               | 9      | Nassau       | [http://nysparks.com/parks/10/details.aspx, null]  | [http://www.nysparks.com/environment/nature-centers/4/details.aspx, null]  | -73.5164273182 | 40.596010848  | 
+| 1361386181  | Moreau Lake State Park               | Moreau Lake Nature Center                      | 11     | Saratoga     | [http://nysparks.com/parks/150/details.aspx, null] | [http://www.nysparks.com/environment/nature-centers/7/details.aspx, null]  | -73.7337768981 | 43.2332136686 | 
+| 1361386181  | Robert Moses State Park              | Robert Moses State Park Nature Center          | 10     | St. Lawrence | [http://nysparks.com/parks/51/details.aspx, null]  | [http://www.nysparks.com/environment/nature-centers/5/details.aspx, null]  | -74.8273503481 | 45.0006401225 | 
+```

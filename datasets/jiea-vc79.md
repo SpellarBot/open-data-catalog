@@ -71,3 +71,20 @@ property e:jiea-vc79 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/a
 
 property e:jiea-vc79 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
 ```
+
+## Top Records
+
+```ls
+| crime_description | precinct_1 | precinct_2 | precinct_3 | precinct_4 | total | week_reported       | 
+| ================= | ========== | ========== | ========== | ========== | ===== | =================== | 
+| Auto Burglary     | 2          | 22         | 5          | 15         | 44    | 2016-10-06T00:00:00 | 
+| Auto Theft        | 3          | 8          | 5          | 5          | 21    | 2016-10-06T00:00:00 | 
+| Business Burglary | 4          | 2          | 2          | 1          | 9     | 2016-10-06T00:00:00 | 
+| Grand Larceny     | 1          | 4          | 0          | 3          | 8     | 2016-10-06T00:00:00 | 
+| House Burglary    | 4          | 3          | 4          | 8          | 19    | 2016-10-06T00:00:00 | 
+| Property Crimes   | 14         | 39         | 16         | 32         | 101   | 2016-10-06T00:00:00 | 
+| Agg Assault       | 2          | 1          | 2          | 1          | 6     | 2016-10-06T00:00:00 | 
+| Armed Robbery     | 1          | 3          | 3          | 6          | 13    | 2016-10-06T00:00:00 | 
+| Carjacking        | 1          | 0          | 1          | 0          | 2     | 2016-10-06T00:00:00 | 
+| Homicide          | 0          | 1          | 0          | 0          | 1     | 2016-10-06T00:00:00 | 
+```
