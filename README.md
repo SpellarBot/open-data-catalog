@@ -73,8 +73,8 @@ Name | Category | Published
 [NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013](datasets/rg8a-czmp.md) | NCHS | 2015-12-02
 [NCHS - Injury Mortality: United States, 1999–2014](datasets/nt65-c7a7.md) | NCHS | 2016-10-20
 [NNDSS - Table II. Ehrlichiosis/Anaplasmosis](datasets/keia-pvvn.md) | NNDSS | 2017-01-05
-[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](datasets/mbsb-z5f8.md) | NNDSS | 2017-03-27
-[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](datasets/scxv-4u4u.md) | NNDSS | 2017-03-27
+[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](datasets/mbsb-z5f8.md) | NNDSS | 2017-03-30
+[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](datasets/scxv-4u4u.md) | NNDSS | 2017-03-30
 [NNDSS - Table II. Shiga toxin to Shigellosis](datasets/xv7k-8e7s.md) | NNDSS | 2017-01-05
 [National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2017-01-04
 [Nutrition, Physical Activity, and Obesity - American Community Survey](datasets/8mrp-rmkw.md) | Nutrition, Physical Activity, and Obesity | 2016-12-19
@@ -87,7 +87,7 @@ Name | Category | Published
 
 Name | Category | Published
 ---- | -------- | ---------
-[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-29
+[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-31
 [Beach Weather Stations - Automated Sensors - 2016 - Humidity](datasets/7edu-s3u7.md) | Parks & Recreation | 2015-06-01
 [Budget - 2015 Budget Recommendations - Appropriations](datasets/kzbi-spm5.md) | Administration & Finance | 2014-10-15
 [Building Violations](datasets/22u3-xenr.md) | Buildings | 2015-09-29
@@ -120,7 +120,7 @@ Name | Category | Published
 ---- | -------- | ---------
 [2001 Campaign Contributions](datasets/735p-zed8.md) | City Government | 2013-06-21
 [2015 Green Taxi Trip Data](datasets/gi8d-wdg5.md) | Transportation | 2016-12-12
-[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-28
+[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-30
 [Average days for the CCRB to close case](datasets/sd9s-b3hd.md) | City Government | 2013-06-21
 [Borough Enrollment Offices](datasets/vz8c-29aj.md) | Education | 2011-10-11
 [CCRB: Determinations to Recommend Other Misconduct 2005 - 2009](datasets/v3f6-2e7z.md) | Public Safety | 2011-09-15
@@ -129,7 +129,7 @@ Name | Category | Published
 [Community Board Appointments](datasets/3gkd-ddzn.md) | City Government | 2014-03-06
 [Current Medallion Drivers](datasets/s22f-jsd4.md) | Transportation | 2013-04-24
 [DEP - Cryptosporidium And Giardia Data Set](datasets/x2s6-6d2j.md) | Environment | 2014-03-06
-[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-03-28
+[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-03-30
 [DOE High School Programs 2013-2014](datasets/i9pf-sj7c.md) | Education | 2014-09-03
 [DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](datasets/m56g-jpua.md) | Housing & Development | 2013-06-26
 [DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](datasets/97iw-vtbx.md) | Housing & Development | 2013-06-26
@@ -153,9 +153,9 @@ Name | Category | Published
 [LinkNYC New Site Permit Applications](datasets/xp25-gxux.md) | Social Services | 2016-11-18
 [Local Law 50 New York State Food Purchasing FY15](datasets/2rd2-9uwy.md) | City Government | 2015-12-17
 [NYC Parks Monuments](datasets/6rrm-vxj9.md) | Recreation | 2016-09-19
-[NYC Permitted Event Information](datasets/tvpp-9vvx.md) | City Government | 2017-03-28
+[NYC Permitted Event Information](datasets/tvpp-9vvx.md) | City Government | 2017-03-30
 [NYC Results On The New York State Math Test (2013-14 And 2014-15) With Math Regents Included](datasets/xw3c-8982.md) |     | 2016-03-14
-[NYC Wi-Fi Hotspot Locations](datasets/yjub-udmw.md) | City Government | 2017-02-02
+[NYC Wi-Fi Hotspot Locations](datasets/yjub-udmw.md) | City Government | 2017-03-30
 [NYC Women's Resource Network Database](datasets/pqg4-dm6b.md) | Social Services | 2011-10-08
 [NYCDCP Manhattan Bike Counts - On Street Weekday](datasets/qfs9-xn8t.md) | Transportation | 2016-09-12
 [NYPL Branch Services - Staten Island](datasets/wibz-uqui.md) | Recreation | 2013-06-21
@@ -435,10 +435,10 @@ Name | Category | Published
 [Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990](datasets/djfn-trk4.md) | Energy & Environment | 2016-11-04
 [Issued Title V Facility Permits](datasets/4n3a-en4b.md) | Energy & Environment | 2016-01-08
 [Law Enforcement Personnel by Agency: Beginning 2007](datasets/khn9-hhpq.md) | Public Safety | 2016-03-22
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-29
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-31
 [MTA Customer Feedback Data: Beginning 2014](datasets/tppa-s6t6.md) | Transportation | 2016-11-02
 [NYC Transit Subway Entrance And Exit Data](datasets/i9wp-a4ja.md) | Transportation | 2015-09-18
-[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-29
+[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-31
 [Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects](datasets/f6sn-r72s.md) | Economic Development | 2016-01-21
 [Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996](datasets/p7e4-ipty.md) | Transportation | 2016-10-28
 [Prison Admissions: Beginning 2008](datasets/m2rg-xjan.md) | Public Safety | 2015-11-30

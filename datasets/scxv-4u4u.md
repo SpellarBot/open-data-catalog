@@ -15,7 +15,7 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-03-27T14:51:33Z |
+| Publication Date | 2017-03-30T16:16:06Z |
 
 ## Description
 

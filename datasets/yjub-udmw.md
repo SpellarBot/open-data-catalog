@@ -14,7 +14,7 @@
 | Attribution | Department of Information Technology & Telecommunications (DoITT) |
 | Category | City Government |
 | Created | 2015-07-14T18:14:19Z |
-| Publication Date | 2017-02-02T21:21:46Z |
+| Publication Date | 2017-03-30T15:48:14Z |
 
 ## Description
 
@@ -59,11 +59,11 @@ Excluded Fields = lat,long_,x,y
 ## Data Commands
 
 ```ls
-series e:yjub-udmw d:2017-02-02T21:21:11.000Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="155th St between 29th Ave and 32nd Ave" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=848 t:type="Limited Free" t:city=Queens m:row_number.yjub-udmw=1
+series e:yjub-udmw d:2017-03-30T15:45:51.000Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="155th St between 29th Ave and 32nd Ave" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=848 t:type="Limited Free" t:city=Queens m:row_number.yjub-udmw=1
 
-series e:yjub-udmw d:2017-02-02T21:21:11.000Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=849 t:type="Limited Free" t:city=Queens m:row_number.yjub-udmw=2
+series e:yjub-udmw d:2017-03-30T15:45:51.000Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=849 t:type="Limited Free" t:city=Queens m:row_number.yjub-udmw=2
 
-series e:yjub-udmw d:2017-02-02T21:21:11.000Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=850 t:type="Limited Free" t:city=Queens m:row_number.yjub-udmw=3
+series e:yjub-udmw d:2017-03-30T15:45:51.000Z t:boro=QU t:location_t="Outdoor TWC Aerial" t:location="32nd Ave between 155th and 156th St" t:name="Bowne Park" t:sourceid=0 t:ssid=GuestWiFi t:provider="Time Warner Cable" t:remarks="3 free 10 min sessions" t:objectid=850 t:type="Limited Free" t:city=Queens m:row_number.yjub-udmw=3
 ```
 
 ## Meta Commands

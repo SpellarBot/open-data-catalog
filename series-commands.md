@@ -1280,20 +1280,20 @@ series e:rpjd-ejph d:2015-12-27T00:00:00.000Z
 [i97v-e8au.md](datasets/i97v-e8au.md)
 
 ```ls
-series e:i97v-e8au d:2012-04-11T00:00:00.000Z
- t:energy_star_partner="Allied Air Enterprises"
- t:capable_of_two_way_communication=Other/Proprietary
- t:model_number=A97DSMV090B20S-*
- t:fuel_type="Natural Gas"
+series e:i97v-e8au d:2013-02-01T00:00:00.000Z
+ t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)"
+ t:capable_of_two_way_communication="Not Applicable"
+ t:model_number=OVM070-RF*
+ t:fuel_type=Oil
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1102531_02012013151616_5756348
+ t:energy_star_model_identifier=ES_1019658_06112013094056_3318459
  t:furnace_is_energy_star_certified_in=All
  t:meets_most_efficient_criteria=No
  t:can_integrate_hot_water_heating=No
- t:brand_name="Armstrong/Air Ease"
- t:model_name="A97DSMV Series"
- t:pd_id=2171653
- m:efficiency_afue=97
+ t:brand_name=Bryant
+ t:model_name=OVM070-RF
+ t:pd_id=2182941
+ m:efficiency_afue=86.4
 
 ```
 
@@ -1973,18 +1973,19 @@ series e:4n3a-en4b d:2009-05-15T00:00:00.000Z
 [b6tj-gt35.md](datasets/b6tj-gt35.md)
 
 ```ls
-series e:b6tj-gt35 d:2016-12-21T14:00:23.000Z
- t:permit_zipcode=94112
+series e:b6tj-gt35 d:2017-03-28T15:09:59.000Z
+ t:permit_zipcode=94118
  t:permit_type=Excavation
- t:agentphone=707-577-7232
+ t:agentphone=415-337-0190
+ t:inspector="Denny Phan"
  t:status=APPROVED
- t:permit_purpose="RECONDUCTOR POPE STREET PROJECT"
- t:contact=415-695-3500
- t:agent="Pacific Gas & Electric"
- t:cross_street_2="PRAGUE ST \ WINDING WAY"
- t:streetname="POPE ST"
- t:cross_street_1="HANOVER ST"
- m:cnn=10597000
+ t:permit_purpose="Various Locations No. 24 Pavement Renovation & Sewer Replacement (Contract No. 2709J)"
+ t:contact="(415) 337-0190"
+ t:agent="Shaw Pipeline Inc."
+ t:cross_street_2="CALIFORNIA ST \ CORNWALL ST"
+ t:streetname="07TH AVE"
+ t:cross_street_1="LAKE ST"
+ m:cnn=350000
 
 ```
 
@@ -2131,18 +2132,18 @@ series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z
 [acvd-5wvz.md](datasets/acvd-5wvz.md)
 
 ```ls
-series e:acvd-5wvz d:2014-05-12T00:00:00.000Z
+series e:acvd-5wvz d:2016-04-13T00:00:00.000Z
  t:energy_star_partner="Carrier Corporation"
- t:model_number=GB018H/V******1*X1
+ t:model_number=HB048H/V*
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1020846_11262014121036_5721501
+ t:energy_star_model_identifier=ES_1020846_08122016172439_9952294
  t:product_type="Closed Loop Water-to-Air"
  t:meets_most_efficient_criteria=No
- t:model_name=GB
- t:brand_name=Bryant
- t:pd_id=2226024
- m:cop_rating=3.8
- m:eer_rating=19
+ t:model_name=HB
+ t:brand_name=Arcoaire
+ t:pd_id=2274962
+ m:cop_rating=3.7
+ m:eer_rating=20
 
 ```
 
@@ -4424,32 +4425,32 @@ series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z
 [t9u7-4d2j.md](datasets/t9u7-4d2j.md)
 
 ```ls
-series e:t9u7-4d2j d:2016-10-11T00:00:00.000Z
- t:markets="United States"
- t:additional_dryer_features="Drum light,Time remaining display,Steam cycle,Other"
+series e:t9u7-4d2j d:2015-10-01T00:00:00.000Z
+ t:additional_dryer_features="Time remaining display,Drum light,Filter cleaning indicator"
+ t:markets="United States, Canada"
  t:connected=No
- t:type=Gas
- t:upc="08469182046, 08469182043, 08469182044,08469182045, 08469182047, 08469182042"
- t:paired_energy_star_clothes_washer_energy_star_model_identifier="GFW490R*K***, GFW480S*K***"
- t:meets_most_efficient_criteria=No
- t:brand_name=GE
- t:model_name=GFD49G**K***
- t:pd_id=2281076
- t:additional_model_information=",GFD48G**K***,; ,GFD48GSPKDG,; ,GFD48GSPKRR,; ,GFD48GSSKWW,; ,GFD49GRPKDG,;
- ,GFD49GRPKRR,; ,GFD49GRSKWW,"
- t:model_number=GFD49G**K***
+ t:type=Electric
+ t:upc=7188286040
+ t:paired_energy_star_clothes_washer_energy_star_model_identifier="ES_1036108_WMY 10148 W0_04102015161443_94
+56445"
+ t:meets_most_efficient_criteria=Yes
+ t:brand_name=Beko
+ t:model_name=HPD24400W
+ t:pd_id=2289056
+ t:model_number=HPD24400W
  t:paired_energy_star_clothes_washer_available=Yes
- t:energy_star_model_identifier=ES_1123206_GFD49G**K***_10112016171924_6364021
- t:energy_test_cycle_information="COTTONS CYCLE WITH THE DEFAULT EDRY ON, WHICH INCLUDES LOW TEMPERATURE SET
-TING AND DRY DRYNESS SETTING"
- t:vented_or_ventless=Vented
- m:depth_inches=34.38
- m:drum_capacity_cu_ft=8.3
- m:height_inches=47
- m:combined_energy_factor_cef=3.48
- m:width_inches=28
- m:estimated_annual_energy_use_kwh_yr=687
- m:estimated_energy_test_cycle_time_min=69
+ t:energy_star_model_identifier=ES_1036108_HPD24400W_01202017203338_4418005
+ t:energy_test_cycle_information="NORMAL REGULAR DRY"
+ t:vented_or_ventless=Ventless
+ m:calculated_combined_energy_factor_max_dryness_setting_lbs_kwh=5.78
+ m:depth_inches=27
+ m:voltage=240
+ m:drum_capacity_cu_ft=4.1
+ m:height_inches=34
+ m:combined_energy_factor_cef=5.7
+ m:width_inches=23.5
+ m:estimated_annual_energy_use_kwh_yr=149
+ m:estimated_energy_test_cycle_time_min=46
 
 ```
 
@@ -4770,20 +4771,21 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z
 [uc6q-9632.md](datasets/uc6q-9632.md)
 
 ```ls
-series e:uc6q-9632 d:2015-06-15T00:00:00.000Z
- t:energy_star_partner="Blueair Inc."
- t:model_number=Sense+
- t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
- t:energy_star_model_identifier=ES_1022565_Sense+_04132015084710_6739007
- t:brand_name=Blueair
- t:model_name=Sense+
- t:pd_id=2238045
- m:pollen_cadr=150
- m:standy_power_watts=0.4
- m:tobacco_smoke_cadr=120
- m:energy_consumption_watts=46
- m:dust_cadr_watt=3.2
- m:dust_cadr=140
+series e:uc6q-9632 d:2014-07-01T00:00:00.000Z
+ t:energy_star_partner="Kaz Incorporated"
+ t:additional_model_information=",FHT170HS,; ,FHT170WC,; ,FHT170WCV,"
+ t:model_number=FHT170W
+ t:markets="United States, Canada"
+ t:energy_star_model_identifier=ES_1026671_FHT170W,FHT170WC,FHT170WCV_05092014163846_9663202
+ t:brand_name=Febreze
+ t:model_name=FHT170W
+ t:pd_id=2212572
+ m:pollen_cadr=81
+ m:standy_power_watts=0
+ m:tobacco_smoke_cadr=60
+ m:energy_consumption_watts=33
+ m:dust_cadr_watt=2.4
+ m:dust_cadr=80
 
 ```
 
@@ -4834,8 +4836,11 @@ series e:madj-gkhr d:2015-09-09T00:00:00.000Z
 [gs3k-hp7i.md](datasets/gs3k-hp7i.md)
 
 ```ls
-series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z
- t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing"
+series e:gs3k-hp7i d:2015-11-30T00:00:00.000Z
+ t:notes="-- On 10/20/2015:--1. Clean up bio hazard. 2. Apartment 3. 3 stories 4. no retail or commercial us
+e. Permanent residence only. No rehabilitation, no transitional housing, no treatment services, no dormitori
+es, no counseling. Each unit is rented separately. Each unit contains its own bathroom &amp; kitchen. No par
+ts of the structure are used by members of the public."
  m:row_number.gs3k-hp7i=1
 
 ```
@@ -5387,7 +5392,7 @@ series e:nhs7-e594 d:2016-04-05T00:00:00.000Z
 [yjub-udmw.md](datasets/yjub-udmw.md)
 
 ```ls
-series e:yjub-udmw d:2017-02-02T21:21:11.000Z
+series e:yjub-udmw d:2017-03-30T15:45:51.000Z
  t:boro=QU
  t:location_t="Outdoor TWC Aerial"
  t:location="155th St between 29th Ave and 32nd Ave"
@@ -7754,48 +7759,44 @@ series e:84fd-3fzf d:2013-04-30T13:41:03.000Z
 [t2v6-g4nf.md](datasets/t2v6-g4nf.md)
 
 ```ls
-series e:t2v6-g4nf d:2014-06-01T00:00:00.000Z
+series e:t2v6-g4nf d:2012-08-15T00:00:00.000Z
  t:energy_star_partner="Avision Inc."
- t:model_number=AGW1500
+ t:model_number=AH56
  t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
  t:marking_technology="Electro-photographic (EP)"
- t:energy_star_model_identifier=ES_25313_AGW1500_06132014082711_8031964
+ t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH56_10182013072854_1334667"
  t:product_type=Scanners
  t:automatic_duplex_output_capable=No
- t:size_format=Small
- t:model_name=AGW1500
+ t:size_format=Standard
+ t:model_name=AH56
  t:brand_name=Avision
- t:pd_id=2212851
- m:power_in_sleep_w=2.23
- m:power_in_standby_w=0.18
+ t:pd_id=2194614
+ m:power_in_sleep_w=2.32
+ m:power_in_standby_w=0.26
  m:monochrome_product_speed_ipm_or_mppm=10
- m:default_delay_time_to_sleep_minutes=15
+ m:default_delay_time_to_sleep_minutes=0
 
 ```
 
 [j624-u8ux.md](datasets/j624-u8ux.md)
 
 ```ls
-series e:j624-u8ux d:2013-04-06T00:00:00.000Z
- t:energy_saving_kit_or_component_model_number="NA NA"
- t:energy_saving_kit_or_component_oem="NA NA"
- t:model_number_or_rebuilt_model_number="AMS LB9"
- t:markets="United States"
+series e:j624-u8ux d:2015-08-01T00:00:00.000Z
+ t:energy_star_partner="Seaga Manufacturing Inc."
+ t:additional_model_information=Infinity,INF5B,
+ t:markets="United States, Europe, Canada"
+ t:model_number_or_rebuilt_model_number=INF5B
+ t:energy_star_model_identifier=ES_1061638_INF5B_09222015193852_0732343
+ t:energy_saving_component_type=INF5B
  t:product_type=New
- t:energy_saving_component_type=NA
- t:door_type="Glass Front"
- t:model_name="AMS LB9"
- t:pd_id=2203621
- t:additional_model_information=",AMS LB9,Identical to AMS LB9.; ,LB9,Identical to AMS LB9.; ,LC9,Same as AM
-S LB9 except there is no control to lock out customers if the internal temperature rises enough to render fo
-od potentially hazardous."
- t:energy_star_partner="Automated Merchandising Systems, Inc."
- t:energy_star_model_identifier="ES_1110953_AMS LB9_01302014194201_6303827"
  t:machine_use_designation="Indoor Only"
- m:refrigerated_volume_cubic_feet=31.42
- m:vendible_capacity=446
- m:energy_consumption_kwh_day=3.63
+ t:door_type="Glass Front"
+ t:model_name=Infinity
+ t:pd_id=2248313
+ m:refrigerated_volume_cubic_feet=31.686
+ m:vendible_capacity=240
+ m:energy_consumption_kwh_day=3.64
 
 ```
 

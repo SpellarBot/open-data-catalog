@@ -15,7 +15,7 @@
 | Category | Housing & Development |
 | Tags | signs, dob, buildings |
 | Created | 2013-04-18T15:18:57Z |
-| Publication Date | 2017-03-28T20:05:58Z |
+| Publication Date | 2017-03-30T20:18:24Z |
 
 ## Description
 
@@ -126,23 +126,23 @@ series e:nyis-y4yr d:2013-04-25T00:00:00.000Z t:text_on_sign="U.S. POLO ASSN. SI
 ## Meta Commands
 
 ```ls
-metric m:initial_cost p:long l:"Initial Cost" d:"Estimated cost of job" t:dataTypeName=number
+metric m:initial_cost p:float l:"Initial Cost" d:"Estimated cost of job" t:dataTypeName=number
 
-metric m:total_est_fee p:long l:"Total Est. Fee" d:"Estimated fee of job" t:dataTypeName=number
+metric m:total_est_fee p:float l:"Total Est. Fee" d:"Estimated fee of job" t:dataTypeName=number
 
-metric m:sign_height_roof p:long l:"Sign Height Roof" d:"Sign Height Roof" t:dataTypeName=number
+metric m:sign_height_roof p:integer l:"Sign Height Roof" d:"Sign Height Roof" t:dataTypeName=number
 
-metric m:sign_height_curb p:long l:"Sign Height Curb" d:"Sign Height Curb" t:dataTypeName=number
+metric m:sign_height_curb p:integer l:"Sign Height Curb" d:"Sign Height Curb" t:dataTypeName=number
 
-metric m:sign_weight p:long l:"Sign Weight" d:"Sign Weight" t:dataTypeName=number
+metric m:sign_weight p:integer l:"Sign Weight" d:"Sign Weight" t:dataTypeName=number
 
-metric m:sign_projection p:long l:"Sign Projection" d:"Sign Projection" t:dataTypeName=number
+metric m:sign_projection p:integer l:"Sign Projection" d:"Sign Projection" t:dataTypeName=number
 
-metric m:sign_sq_footage p:long l:"Sign SQ Footage" d:"Sign SQ Footage" t:dataTypeName=number
+metric m:sign_sq_footage p:integer l:"Sign SQ Footage" d:"Sign SQ Footage" t:dataTypeName=number
 
-metric m:sign_dist_from_highway p:long l:"Sign Dist from Highway" d:"Sign Dist from Highway" t:dataTypeName=number
+metric m:sign_dist_from_highway p:integer l:"Sign Dist from Highway" d:"Sign Dist from Highway" t:dataTypeName=number
 
-metric m:sign_dist_from_park p:long l:"Sign Dist from Park" d:"Sign Dist from Park" t:dataTypeName=number
+metric m:sign_dist_from_park p:integer l:"Sign Dist from Park" d:"Sign Dist from Park" t:dataTypeName=number
 
 entity e:nyis-y4yr l:"DOB Sign Application Filings" t:attribution="Department of Buildings (DOB)" t:url=https://data.cityofnewyork.us/api/views/nyis-y4yr
 
