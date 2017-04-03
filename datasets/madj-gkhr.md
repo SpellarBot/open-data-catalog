@@ -15,7 +15,7 @@
 | Category | Education |
 | Tags | attendance, schools, doe, education |
 | Created | 2015-12-31T18:03:16Z |
-| Publication Date | 2017-03-30T21:30:37Z |
+| Publication Date | 2017-03-31T21:40:14Z |
 
 ## Description
 

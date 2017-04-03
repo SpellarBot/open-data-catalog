@@ -15,7 +15,7 @@
 | Category | Government & Finance |
 | Tags | numbers, win-4, new york lottery, winning, results |
 | Created | 2013-02-26T20:21:34Z |
-| Publication Date | 2017-03-31T10:03:19Z |
+| Publication Date | 2017-04-02T10:04:01Z |
 
 ## Description
 
@@ -52,13 +52,13 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Meta Commands
 
 ```ls
-metric m:midday_daily_sum p:long l:"Midday Daily Sum" t:dataTypeName=number
+metric m:midday_daily_sum p:integer l:"Midday Daily Sum" t:dataTypeName=number
 
-metric m:evening_daily_sum p:long l:"Evening Daily Sum" t:dataTypeName=number
+metric m:evening_daily_sum p:integer l:"Evening Daily Sum" t:dataTypeName=number
 
-metric m:midday_win_4_sum p:long l:"Midday Win 4 Sum" t:dataTypeName=number
+metric m:midday_win_4_sum p:integer l:"Midday Win 4 Sum" t:dataTypeName=number
 
-metric m:evening_win_4_sum p:long l:"Evening Win 4 Sum" t:dataTypeName=number
+metric m:evening_win_4_sum p:integer l:"Evening Win 4 Sum" t:dataTypeName=number
 
 entity e:hsys-3def l:"Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980" t:attribution="New York State Gaming Commission" t:url=https://data.ny.gov/api/views/hsys-3def
 

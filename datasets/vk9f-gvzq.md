@@ -15,7 +15,7 @@
 | Category | Public Safety |
 | Tags | dop, investigation, probation |
 | Created | 2016-11-21T15:48:22Z |
-| Publication Date | 2017-03-08T18:38:56Z |
+| Publication Date | 2017-03-31T21:38:50Z |
 
 ## Columns
 
@@ -75,4 +75,5 @@ property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC Op
 | Citywide | Total                         | November  | 2016 | 146                           | 
 | Citywide | Total                         | December  | 2016 | 166                           | 
 | Citywide | Total                         | January   | 2017 | 200                           | 
+| Citywide | Total                         | February  | 2017 | 156                           | 
 ```

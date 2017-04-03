@@ -87,7 +87,7 @@ Name | Category | Published
 
 Name | Category | Published
 ---- | -------- | ---------
-[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-03-31
+[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-04-02
 [Beach Weather Stations - Automated Sensors - 2016 - Humidity](datasets/7edu-s3u7.md) | Parks & Recreation | 2015-06-01
 [Budget - 2015 Budget Recommendations - Appropriations](datasets/kzbi-spm5.md) | Administration & Finance | 2014-10-15
 [Building Violations](datasets/22u3-xenr.md) | Buildings | 2015-09-29
@@ -120,7 +120,7 @@ Name | Category | Published
 ---- | -------- | ---------
 [2001 Campaign Contributions](datasets/735p-zed8.md) | City Government | 2013-06-21
 [2015 Green Taxi Trip Data](datasets/gi8d-wdg5.md) | Transportation | 2016-12-12
-[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-30
+[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-31
 [Average days for the CCRB to close case](datasets/sd9s-b3hd.md) | City Government | 2013-06-21
 [Borough Enrollment Offices](datasets/vz8c-29aj.md) | Education | 2011-10-11
 [CCRB: Determinations to Recommend Other Misconduct 2005 - 2009](datasets/v3f6-2e7z.md) | Public Safety | 2011-09-15
@@ -129,13 +129,13 @@ Name | Category | Published
 [Community Board Appointments](datasets/3gkd-ddzn.md) | City Government | 2014-03-06
 [Current Medallion Drivers](datasets/s22f-jsd4.md) | Transportation | 2013-04-24
 [DEP - Cryptosporidium And Giardia Data Set](datasets/x2s6-6d2j.md) | Environment | 2014-03-06
-[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-03-30
+[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-04-02
 [DOE High School Programs 2013-2014](datasets/i9pf-sj7c.md) | Education | 2014-09-03
 [DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](datasets/m56g-jpua.md) | Housing & Development | 2013-06-26
 [DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](datasets/97iw-vtbx.md) | Housing & Development | 2013-06-26
 [DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009](datasets/w4v6-3sdt.md) | Housing & Development | 2013-06-21
 [DOP Adult Early Discharges by Fiscal Year](datasets/4e8h-wu86.md) | City Government | 2016-09-16
-[DOP Juvenile Investigations Assigned](datasets/vk9f-gvzq.md) | Public Safety | 2017-03-08
+[DOP Juvenile Investigations Assigned](datasets/vk9f-gvzq.md) | Public Safety | 2017-03-31
 [DSNY's Refuse and Recycling Disposal Networks](datasets/kzmz-ivhb.md) | City Government | 2016-02-19
 [DYCD after-school programs: Beacon Satellite At NYCHA Programs](datasets/pyif-r8qe.md) | Education | 2011-09-01
 [DYCD after-school programs: NDA Youth Employment Programs](datasets/mrxb-9w9v.md) | Education | 2011-09-01
@@ -150,10 +150,10 @@ Name | Category | Published
 [Fair Student Funding Budget Detail 2](datasets/nbgq-j9jt.md) | Education | 2015-10-19
 [LAW Published Columns](datasets/d84z-5kap.md) | City Government | 2013-06-21
 [License Applications](datasets/ptev-4hud.md) | Business | 2016-02-08
-[LinkNYC New Site Permit Applications](datasets/xp25-gxux.md) | Social Services | 2016-11-18
+[LinkNYC New Site Permit Applications](datasets/xp25-gxux.md) | Social Services | 2017-03-31
 [Local Law 50 New York State Food Purchasing FY15](datasets/2rd2-9uwy.md) | City Government | 2015-12-17
 [NYC Parks Monuments](datasets/6rrm-vxj9.md) | Recreation | 2016-09-19
-[NYC Permitted Event Information](datasets/tvpp-9vvx.md) | City Government | 2017-03-30
+[NYC Permitted Event Information](datasets/tvpp-9vvx.md) | City Government | 2017-04-02
 [NYC Results On The New York State Math Test (2013-14 And 2014-15) With Math Regents Included](datasets/xw3c-8982.md) |     | 2016-03-14
 [NYC Wi-Fi Hotspot Locations](datasets/yjub-udmw.md) | City Government | 2017-03-30
 [NYC Women's Resource Network Database](datasets/pqg4-dm6b.md) | Social Services | 2011-10-08
@@ -435,15 +435,15 @@ Name | Category | Published
 [Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990](datasets/djfn-trk4.md) | Energy & Environment | 2016-11-04
 [Issued Title V Facility Permits](datasets/4n3a-en4b.md) | Energy & Environment | 2016-01-08
 [Law Enforcement Personnel by Agency: Beginning 2007](datasets/khn9-hhpq.md) | Public Safety | 2016-03-22
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-03-31
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-04-02
 [MTA Customer Feedback Data: Beginning 2014](datasets/tppa-s6t6.md) | Transportation | 2016-11-02
 [NYC Transit Subway Entrance And Exit Data](datasets/i9wp-a4ja.md) | Transportation | 2015-09-18
-[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-03-31
+[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-04-02
 [Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects](datasets/f6sn-r72s.md) | Economic Development | 2016-01-21
 [Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996](datasets/p7e4-ipty.md) | Transportation | 2016-10-28
 [Prison Admissions: Beginning 2008](datasets/m2rg-xjan.md) | Public Safety | 2015-11-30
 [Public Assistance Case Denials by Reason for Denial: Beginning 2006](datasets/tyyj-jgv5.md) | Human Services | 2017-01-09
-[Public Assistance Cases with Earned Income: Beginning April 2006](datasets/5mdi-3rq9.md) | Human Services | 2017-02-02
+[Public Assistance Cases with Earned Income: Beginning April 2006](datasets/5mdi-3rq9.md) | Human Services | 2017-03-31
 [RSBS MOM: Multifamily On-Site Survey, Measure Level, New York State Residential Statewide Baseline Study](datasets/cif3-ww3e.md) | Energy & Environment | 2015-11-17
 [RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey](datasets/3m6x-h3qa.md) | Energy & Environment | 2015-10-30
 [Salary Information for Local Authorities](datasets/fx93-cifz.md) | Transparency | 2016-10-12
@@ -451,7 +451,7 @@ Name | Category | Published
 [Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010](datasets/3pzs-2zsk.md) | Energy & Environment | 2015-07-29
 [State Highway Work Permits Issued: Beginning 2010](datasets/698j-9a6e.md) | Transportation | 2015-11-24
 [State Nature Centers](datasets/7gdv-fq7n.md) | Recreation | 2015-01-14
-[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](datasets/kbn3-a3jv.md) | Education | 2017-03-01
+[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](datasets/kbn3-a3jv.md) | Education | 2017-04-01
 
 ## data.oregon.gov
 

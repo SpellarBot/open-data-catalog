@@ -1280,20 +1280,20 @@ series e:rpjd-ejph d:2015-12-27T00:00:00.000Z
 [i97v-e8au.md](datasets/i97v-e8au.md)
 
 ```ls
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z
- t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)"
+series e:i97v-e8au d:2011-09-01T00:00:00.000Z
+ t:energy_star_partner="Allied Air Enterprises"
  t:capable_of_two_way_communication="Not Applicable"
- t:model_number=OVM070-RF*
- t:fuel_type=Oil
+ t:model_number=A95DF2V045B12*-*
+ t:fuel_type="Natural Gas"
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1019658_06112013094056_3318459
+ t:energy_star_model_identifier=ES_1102531_02012013151615_7643006
  t:furnace_is_energy_star_certified_in=All
  t:meets_most_efficient_criteria=No
  t:can_integrate_hot_water_heating=No
- t:brand_name=Bryant
- t:model_name=OVM070-RF
- t:pd_id=2182941
- m:efficiency_afue=86.4
+ t:brand_name="AirEase Armstrong"
+ t:model_name="A952V Series"
+ t:pd_id=2171639
+ m:efficiency_afue=95
 
 ```
 
@@ -1867,19 +1867,20 @@ series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z
 [59dq-uw25.md](datasets/59dq-uw25.md)
 
 ```ls
-series e:59dq-uw25 d:2014-12-31T00:00:00.000Z
+series e:59dq-uw25 d:2012-05-30T00:00:00.000Z
  t:markets="United States, Canada"
  t:product_type="Vertical Transparent Door Refrigerator"
  t:product_description="Bottle Cooler"
- t:model_name="Commercial Refrigerator"
- t:brand_name=COLDCO
+ t:model_name="Glass Door Merchandiser"
+ t:brand_name="Entrée, Victory, California Cooking"
  t:door_opening_orientation_hinged_sliding=Hinged
- t:pd_id=2287098
- t:energy_star_partner="Coldco Foodservice Equipment, Ltd."
+ t:pd_id=2287100
+ t:energy_star_partner="Entree LLC"
  t:refrigerant_type=R-134a
- t:model_number=BGD-48R
+ t:model_number=EGD-2DR-48
  t:product_orientation_vertical_chest=Vertical
- t:energy_star_model_identifier=ES_1130408_BGD-48R_12232014105541_2141465
+ t:energy_star_model_identifier="ES_1105798_SHANDONG HONGTAI ELECTRICAL APPLIANCE CO LTD (462997) | EGD-2DR-
+48_10082012183839_1519481"
  t:defrost_type=Automatic
  m:depth_in=31.89
  m:mixed_door_cabinet_glass_door_volume_cu_ft=43.4
@@ -2080,21 +2081,21 @@ series e:tvpp-9vvx d:2016-05-14T10:00:00.000Z
 [gi8d-wdg5.md](datasets/gi8d-wdg5.md)
 
 ```ls
-series e:gi8d-wdg5 d:2015-02-04T18:32:35.000Z
+series e:gi8d-wdg5 d:2015-11-20T08:28:04.000Z
  t:store_and_fwd_flag=N
  t:ratecodeid=1
  t:vendorid=2
  t:trip_type=1
- t:payment_type=2
+ t:payment_type=1
  m:mta_tax=0.5
- m:total_amount=7.3
- m:fare_amount=5.5
+ m:total_amount=8.55
+ m:fare_amount=6.5
  m:passenger_count=1
- m:extra=1
- m:trip_distance=0.76
+ m:extra=0
+ m:trip_distance=0.99
  m:tolls_amount=0
  m:improvement_surcharge=0.3
- m:tip_amount=0
+ m:tip_amount=1.25
 
 ```
 
@@ -2132,18 +2133,18 @@ series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z
 [acvd-5wvz.md](datasets/acvd-5wvz.md)
 
 ```ls
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z
- t:energy_star_partner="Carrier Corporation"
- t:model_number=HB048H/V*
- t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1020846_08122016172439_9952294
- t:product_type="Closed Loop Water-to-Air"
+series e:acvd-5wvz d:2005-01-01T00:00:00.000Z
+ t:energy_star_partner="Advanced Geothermal Technology"
+ t:model_number=GC-24-XXXXX-DW
+ t:markets="United States"
+ t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-DW_05012013143335_7734797
+ t:product_type=DGX
  t:meets_most_efficient_criteria=No
- t:model_name=HB
- t:brand_name=Arcoaire
- t:pd_id=2274962
- m:cop_rating=3.7
- m:eer_rating=20
+ t:model_name=GC-24-XXXXX-DW
+ t:brand_name="Advanced Geothermal Technology"
+ t:pd_id=2179335
+ m:cop_rating=3.6
+ m:eer_rating=16.6
 
 ```
 
@@ -3709,28 +3710,28 @@ series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z
 [wd5q-q35v.md](datasets/wd5q-q35v.md)
 
 ```ls
-series e:wd5q-q35v d:2017-03-27T00:30:00.000Z
+series e:wd5q-q35v d:2017-04-03T00:20:00.000Z
  t:objectid=1
  t:rwis_station_name=AlaskanWayViaduct_KingSt
  t:rwis_display_name="Alaskan Way Viaduct at King St"
- m:airtemp_120min=48.13
- m:airtemp_60min=48.04
- m:rstemp_30min=46.83
- m:rstemp_75min=47.76
- m:airtemp_105min=48.09
- m:airtemp_45min=47.96
- m:airtemp_15min=47.82
- m:airtemp_30min=47.870000000000005
- m:rstemp_105min=47.870000000000005
- m:rstemp_15min=46.87
- m:rstemp_current=46.87
- m:airtemp_75min=48.07
- m:airtemp_current=47.800000000000004
- m:rstemp_90min=47.84
- m:rstemp_120min=47.93
- m:rstemp_45min=47.08
- m:rstemp_60min=47.47
- m:airtemp_90min=48.09
+ m:airtemp_120min=51.02
+ m:airtemp_60min=50.72
+ m:rstemp_30min=49.31
+ m:rstemp_75min=49.81
+ m:airtemp_105min=50.94
+ m:airtemp_45min=50.65
+ m:airtemp_15min=50.49
+ m:airtemp_30min=50.59
+ m:rstemp_105min=50.7
+ m:rstemp_15min=48.95
+ m:rstemp_current=48.620000000000005
+ m:airtemp_75min=50.77
+ m:airtemp_current=50.43
+ m:rstemp_90min=50.04
+ m:rstemp_120min=50.94
+ m:rstemp_45min=49.65
+ m:rstemp_60min=49.76
+ m:airtemp_90min=50.84
 
 ```
 
@@ -4771,21 +4772,20 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z
 [uc6q-9632.md](datasets/uc6q-9632.md)
 
 ```ls
-series e:uc6q-9632 d:2014-07-01T00:00:00.000Z
- t:energy_star_partner="Kaz Incorporated"
- t:additional_model_information=",FHT170HS,; ,FHT170WC,; ,FHT170WCV,"
- t:model_number=FHT170W
- t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1026671_FHT170W,FHT170WC,FHT170WCV_05092014163846_9663202
- t:brand_name=Febreze
- t:model_name=FHT170W
- t:pd_id=2212572
- m:pollen_cadr=81
- m:standy_power_watts=0
- m:tobacco_smoke_cadr=60
- m:energy_consumption_watts=33
- m:dust_cadr_watt=2.4
- m:dust_cadr=80
+series e:uc6q-9632 d:2016-10-30T00:00:00.000Z
+ t:energy_star_partner="Bluestem Brands Inc."
+ t:model_number=AC-2136
+ t:markets="United States"
+ t:energy_star_model_identifier=ES_1139258_AC-2136_04202016154121_5024194
+ t:brand_name="Master Craft"
+ t:model_name=AC-2136
+ t:pd_id=2293459
+ m:pollen_cadr=100
+ m:standy_power_watts=0.1
+ m:tobacco_smoke_cadr=100
+ m:energy_consumption_watts=49
+ m:dust_cadr_watt=2
+ m:dust_cadr=100
 
 ```
 
@@ -5026,28 +5026,28 @@ series e:4zfx-f2ts d:2015-01-01T00:00:00.000Z
 [88g8-5mnd.md](datasets/88g8-5mnd.md)
 
 ```ls
-series e:88g8-5mnd d:2013-01-01T00:00:00.000Z
- t:organization_group="Public Works, Transportation & Commerce"
- t:employee_identifier=52206
- t:job_code=7347
- t:department="Airport Commission"
- t:union="Plumbers and Pipefitters, Local 38"
- t:job_family_code=7300
- t:job_family="Journeyman Trade"
- t:job=Plumber
- t:department_code=AIR
- t:organization_group_code=02
+series e:88g8-5mnd d:2015-01-01T00:00:00.000Z
+ t:organization_group="Community Health"
+ t:employee_identifier=39891
+ t:job_code=P103
+ t:department="Public Health"
+ t:union="SEIU - Staff and Per Diem Nurses, Local 1021"
+ t:job_family_code=2300
+ t:job_family=Nursing
+ t:job="Special Nurse"
+ t:department_code=DPH
+ t:organization_group_code=04
  t:year_type=Calendar
- t:union_code=038
- m:total_benefits=41432.55
- m:total_compensation=143916.66
- m:total_salary=102484.11
- m:retirement=20142.55
- m:other_benefits=8371.76
- m:other_salaries=3955.59
- m:health_dental=12918.24
+ t:union_code=791
+ m:total_benefits=9623.44
+ m:total_compensation=66944.26
+ m:total_salary=57320.82
+ m:retirement=0
+ m:other_benefits=4638.7
+ m:other_salaries=406.73
+ m:health_dental=4984.74
  m:overtime=0
- m:salaries=98528.52
+ m:salaries=56914.09
 
 ```
 
@@ -7759,44 +7759,48 @@ series e:84fd-3fzf d:2013-04-30T13:41:03.000Z
 [t2v6-g4nf.md](datasets/t2v6-g4nf.md)
 
 ```ls
-series e:t2v6-g4nf d:2012-08-15T00:00:00.000Z
+series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z
  t:energy_star_partner="Avision Inc."
- t:model_number=AH56
+ t:model_number=A5150
  t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
  t:marking_technology="Electro-photographic (EP)"
- t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AH56_10182013072854_1334667"
+ t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | A5150_01022014075231_9151078"
  t:product_type=Scanners
  t:automatic_duplex_output_capable=No
  t:size_format=Standard
- t:model_name=AH56
+ t:model_name=A5150
  t:brand_name=Avision
- t:pd_id=2194614
- m:power_in_sleep_w=2.32
- m:power_in_standby_w=0.26
- m:monochrome_product_speed_ipm_or_mppm=10
- m:default_delay_time_to_sleep_minutes=0
+ t:pd_id=2199989
+ m:power_in_sleep_w=2.17
+ m:power_in_standby_w=0.28
+ m:monochrome_product_speed_ipm_or_mppm=120
+ m:default_delay_time_to_sleep_minutes=15
 
 ```
 
 [j624-u8ux.md](datasets/j624-u8ux.md)
 
 ```ls
-series e:j624-u8ux d:2015-08-01T00:00:00.000Z
- t:energy_star_partner="Seaga Manufacturing Inc."
- t:additional_model_information=Infinity,INF5B,
- t:markets="United States, Europe, Canada"
- t:model_number_or_rebuilt_model_number=INF5B
- t:energy_star_model_identifier=ES_1061638_INF5B_09222015193852_0732343
- t:energy_saving_component_type=INF5B
+series e:j624-u8ux d:2013-04-06T00:00:00.000Z
+ t:energy_saving_kit_or_component_model_number="NA NA"
+ t:energy_saving_kit_or_component_oem="NA NA"
+ t:model_number_or_rebuilt_model_number="AMS LB9"
+ t:markets="United States"
  t:product_type=New
- t:machine_use_designation="Indoor Only"
+ t:energy_saving_component_type=NA
  t:door_type="Glass Front"
- t:model_name=Infinity
- t:pd_id=2248313
- m:refrigerated_volume_cubic_feet=31.686
- m:vendible_capacity=240
- m:energy_consumption_kwh_day=3.64
+ t:model_name="AMS LB9"
+ t:pd_id=2203621
+ t:additional_model_information=",AMS LB9,Identical to AMS LB9.; ,LB9,Identical to AMS LB9.; ,LC9,Same as AM
+S LB9 except there is no control to lock out customers if the internal temperature rises enough to render fo
+od potentially hazardous."
+ t:energy_star_partner="Automated Merchandising Systems, Inc."
+ t:energy_star_model_identifier="ES_1110953_AMS LB9_01302014194201_6303827"
+ t:machine_use_designation="Indoor Only"
+ m:refrigerated_volume_cubic_feet=31.42
+ m:vendible_capacity=446
+ m:energy_consumption_kwh_day=3.63
 
 ```
 
@@ -7824,33 +7828,33 @@ series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z
 [qfw2-ekmx.md](datasets/qfw2-ekmx.md)
 
 ```ls
-series e:qfw2-ekmx d:2002-04-08T12:00:00.000Z
- t:dir_from_cross_street=N
+series e:qfw2-ekmx d:2002-10-24T15:00:00.000Z
+ t:dir_from_cross_street=S
  t:study_lane_code=0
- t:unitid2=0153
+ t:unitid2=1100
  t:study_type="VOLUME COUNT"
- t:stdy_title_part="RAINIER AVE S, NW/O S MASSACHUSETTS ST"
- t:title="RAINIER AVE S, NW/O S MASSACHUSETTS ST; N FLOW; 08APR2002 12:00"
- t:stdy_title_part_with_flow="RAINIER AVE S, NW/O S MASSACHUSETTS ST; N FLOW"
- t:unitid=09345
- t:x_street="RAINIER NB I90 EB ON RP"
- t:study_id=100914
+ t:stdy_title_part="5TH AVE NE, S/O NE 112TH S ST"
+ t:title="5TH AVE NE, S/O NE 112TH S ST; S FLOW; 24OCT2002 15:00"
+ t:stdy_title_part_with_flow="5TH AVE NE, S/O NE 112TH S ST; S FLOW"
+ t:unitid=03895
+ t:x_street="NE NORTHGATE WAY"
+ t:study_id=102810
  t:objectid=1
- t:o_street="RAINIER AVE S"
- t:comments="ORIGINAL TITLE:  9345 135N N  0 4/ 8/2002 212: 0 711: 0  RAINIER       AVS S MASSACHUSETTS ST  
-COUNTER 150                                          H"
- t:stdy_label="100914, 2002-04-08, N"
- t:study_dirflow=N
- m:study_awdt=22662
- m:distance=33
- m:study_pmpk=1529
+ t:o_street="5TH AVE NE"
+ t:comments="ORIGINAL TITLE:  3895 590S S  010/24/2002 515: 0 714: 0  5             AVNENE112 S         ST  
+COUNTER 116                                          H"
+ t:stdy_label="102810, 2002-10-24, S"
+ t:study_dirflow=S
+ m:study_awdt=6296
+ m:distance=180
+ m:study_pmpk=515
  m:intended_days=7
  m:actual_days=7
- m:seg_compkey=12352
- m:study_adt=21066
- m:study_ampk=2012
+ m:seg_compkey=7256
+ m:study_adt=6092
+ m:study_ampk=435
  m:study_length=672
- m:study_max8=12107
+ m:study_max8=3566
 
 ```
 
@@ -8649,19 +8653,18 @@ series e:hkfu-49xs d:2016-11-22T00:00:00.000Z
 
 ```ls
 series e:xp25-gxux d:2016-08-19T00:00:00.000Z
- t:company_na="CityBridge LLC"
- t:pavementty="2 STREET"
- t:street_name="NEW DORP LANE"
- t:zoningnumb=C2-1/R3-1
- t:borough=SI
- t:cross_street_2="2 STREET"
- t:cross_street_1="RICHMOND ROAD"
  t:cblinkid=LINK-005408
+ t:company_na="CityBridge LLC"
  t:kiosktype="advertising unit"
  t:linkinbid=NO
+ t:street_name="NEW DORP LANE"
+ t:zoningnumb=C2-1/R3-1
  t:linkinhist=NONE
  t:appl_type="new site"
  t:building_number=8
+ t:borough=SI
+ t:cross_street_2="2 STREET"
+ t:cross_street_1="RICHMOND ROAD"
  m:permit_app=81420
 
 ```
