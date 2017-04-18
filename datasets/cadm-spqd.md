@@ -11,8 +11,8 @@
 | Host | data.maryland.gov |
 | Id | cadm-spqd |
 | Name | Multi-Family Housing FY 2011-2016 |
-| Attribution | Department of Housing & Community Development |
-| Tags | dhcd, department of housing & community development, multi-family housing, cda |
+| Attribution | Department of Housing and Community Development |
+| Tags | dhcd, department of housing & community development, multifamily, multifamily housing, multi-family, multi-family housing, cda, community development administration, affordable housing, rental hou... |
 | Created | 2016-07-01T15:26:31Z |
 | Publication Date | 2017-02-27T21:40:08Z |
 
@@ -24,7 +24,9 @@ Our multifamily bond programs issues tax-exempt and taxable revenue mortgage bon
 
 By advocating for increased production of rental housing units, we help create much-needed jobs and leverage opportunities to live, work and prosper for hardworking Maryland families, senior citizens, and individuals with disabilities throughout the state.​
 
-DISCLAIMER: Some of the information may be tied to the Department’s bond funded loan programs and should not be relied upon in making an investment decision. The Department provides comprehensive quarterly and annual financial information and operating data regarding its bonds and bond funded loan programs, all of which is posted on the publicly-accessible Electronic Municipal Market Access system website (commonly known as EMMA) that is maintained by the Municipal Securities Rulemaking Board, and on the Department’s website under Investor Information. The links are: http://www.mdhousing.org/Website/Investor/Default.aspxhttp://emma.msrb.org/
+DISCLAIMER: Some of the information may be tied to the Department’s bond funded loan programs and should not be relied upon in making an investment decision. The Department provides comprehensive quarterly and annual financial information and operating data regarding its bonds and bond funded loan programs, all of which is posted on the publicly-accessible Electronic Municipal Market Access system website (commonly known as EMMA) that is maintained by the Municipal Securities Rulemaking Board, and on the Department’s website under Investor Information. 
+
+More information accessible here: http://dhcd.maryland.gov/Investors/Pages/default.aspx
 
 ## Columns
 
@@ -69,13 +71,13 @@ series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Burwood Gardens Ph
 ```ls
 metric m:units p:integer l:Units t:dataTypeName=number
 
-entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2016" t:attribution="Department of Housing & Community Development" t:url=https://data.maryland.gov/api/views/cadm-spqd
+entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2016" t:attribution="Department of Housing and Community Development" t:url=https://data.maryland.gov/api/views/cadm-spqd
 
-property e:cadm-spqd t:meta.view v:id=cadm-spqd v:attributionLink=http://dhcd.maryland.gov/HousingDevelopment/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing & Community Development"
+property e:cadm-spqd t:meta.view v:id=cadm-spqd v:attributionLink=http://dhcd.maryland.gov/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing and Community Development"
 
-property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName=Jessica v:displayName=Jessica
+property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName="Jessica Handy" v:lastNotificationSeenAt=1491917263 v:displayName="Jessica Handy"
 
-property e:cadm-spqd t:meta.view.tableauthor v:id=pugw-9r35 v:screenName=Jessica v:roleName=editor v:displayName=Jessica
+property e:cadm-spqd t:meta.view.tableauthor v:id=pugw-9r35 v:screenName="Jessica Handy" v:roleName=editor v:lastNotificationSeenAt=1491917263 v:displayName="Jessica Handy"
 ```
 
 ## Top Records

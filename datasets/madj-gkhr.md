@@ -15,7 +15,7 @@
 | Category | Education |
 | Tags | attendance, schools, doe, education |
 | Created | 2015-12-31T18:03:16Z |
-| Publication Date | 2017-03-31T21:40:14Z |
+| Publication Date | 2017-04-14T21:38:06Z |
 
 ## Description
 
@@ -61,9 +61,9 @@ entity e:madj-gkhr l:"Attendance 4PM Report" t:attribution="Department of Educat
 
 property e:madj-gkhr t:meta.view v:id=madj-gkhr v:category=Education v:averageRating=0 v:name="Attendance 4PM Report" v:attribution="Department of Education (DOE)"
 
-property e:madj-gkhr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:madj-gkhr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:madj-gkhr t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:madj-gkhr t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

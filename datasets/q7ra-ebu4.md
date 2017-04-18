@@ -68,9 +68,9 @@ entity e:q7ra-ebu4 l:"Underutilized Space Report" t:attribution="Department of E
 
 property e:q7ra-ebu4 t:meta.view v:id=q7ra-ebu4 v:category=Education v:averageRating=0 v:name="Underutilized Space Report" v:attribution="Department of Education (DOE)"
 
-property e:q7ra-ebu4 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:q7ra-ebu4 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:q7ra-ebu4 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:q7ra-ebu4 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

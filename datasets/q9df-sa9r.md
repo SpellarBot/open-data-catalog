@@ -84,9 +84,9 @@ property e:q9df-sa9r t:meta.view v:id=q9df-sa9r v:category=Licenses/Permits v:av
 
 property e:q9df-sa9r t:meta.view.license v:name="Public Domain"
 
-property e:q9df-sa9r t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:displayName="MCG ESB Service"
+property e:q9df-sa9r t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 
-property e:q9df-sa9r t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:q9df-sa9r t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 ```
 
 ## Top Records

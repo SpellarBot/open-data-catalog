@@ -11,7 +11,7 @@
 | Host | data.maryland.gov |
 | Id | enjg-rjqz |
 | Name | Choose Maryland: Compare States - Technology |
-| Attribution | Maryland Department of Business and Economic Development |
+| Attribution | Maryland Department of Commerce |
 | Category | Business and Economy |
 | Tags | maryland, state, compare, spending, obligations, research, development, awards, contracts, patents |
 | Created | 2013-08-20T17:52:53Z |
@@ -62,9 +62,9 @@ metric m:sbir_awards_per_capita p:double l:"SBIR Awards, Value Per Capita ($ Dol
 
 metric m:patents_per_100k p:float l:"Number of Patents Issued per 100,000 Population" t:dataTypeName=number
 
-entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Business and Economic Development" t:url=https://data.maryland.gov/api/views/enjg-rjqz
+entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Commerce" t:url=https://data.maryland.gov/api/views/enjg-rjqz
 
-property e:enjg-rjqz t:meta.view v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://www.choosemaryland.org v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Business and Economic Development"
+property e:enjg-rjqz t:meta.view v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://commerce.maryland.gov v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Commerce"
 
 property e:enjg-rjqz t:meta.view.owner v:id=m2gt-bxeg v:screenName="Mike Grandel" v:displayName="Mike Grandel"
 

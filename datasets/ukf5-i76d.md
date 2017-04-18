@@ -19,13 +19,7 @@
 
 ## Description
 
-Austin Energy has a goal to reduce CO2 emissions by 2020 to a level that is 20% below 2005 levels. CO2-equivalent is a measure used to compare the emissions of different greenhouse gases based on their global warming potential.This goal was approved by the Austin City Council in April 2010 as part of Austin Energy’s Generation Plan. From 2005 to 2012 Austin Energy stack emissions have declined by 16.5%. 
-
-Total stack greenhouse gas emissions reported here include carbon dioxide (CO2) as well as the greenhouse gases methane and nitrous oxide, and are reported as metric tonnes of carbon dioxide equivalents (CO2-eq). Carbon dioxide equivalent is a measure used to compare the emissions of different greenhouse gases based on their global warming potential (GWP). Non-CO2 greenhouse gases make up less than 1% of Austin Energy’s stack emissions.
-
-Plant gas emissions reported in the below table do not include CO2-equivalents and are reported in English dry tons. Austin Energy uses English dry tons for annual reporting to the Environmental Protection Agency (EPA).
-
-FPP=Fayette Power Project
+Austin Energy has a goal to reduce CO2 emissions by 2020 to a level that is 20% below 2005 levels. View the type of gas and emissions in metric tons per location starting in 2005. Go to austinenergy.com/go/environment and  austinenergy.com/go/corporatereports to learn more about Austin Energy's commitment to the environment.
 
 ## Columns
 

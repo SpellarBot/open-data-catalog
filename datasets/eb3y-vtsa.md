@@ -60,9 +60,9 @@ entity e:eb3y-vtsa l:"Food Pantry List" t:url=https://data.mo.gov/api/views/eb3y
 
 property e:eb3y-vtsa t:meta.view v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"
 
-property e:eb3y-vtsa t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1491406640 v:displayName=Breanna
 
-property e:eb3y-vtsa t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1491406640 v:displayName=Breanna
 ```
 
 ## Top Records

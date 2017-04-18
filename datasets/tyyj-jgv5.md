@@ -15,7 +15,7 @@
 | Category | Human Services |
 | Tags | ta, sna, public assistance, welfare, case denials |
 | Created | 2016-05-10T16:50:36Z |
-| Publication Date | 2017-01-09T23:01:53Z |
+| Publication Date | 2017-04-06T22:02:29Z |
 
 ## Description
 

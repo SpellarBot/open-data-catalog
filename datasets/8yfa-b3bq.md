@@ -14,7 +14,7 @@
 | Attribution | City of Austin |
 | Tags | austintexas.gov, popular pages, percent exit, bounce rate, entrances, average time on page, unique pageviews, pageviews |
 | Created | 2015-04-21T15:45:40Z |
-| Publication Date | 2017-01-09T18:16:53Z |
+| Publication Date | 2017-04-07T20:55:08Z |
 
 ## Description
 
@@ -51,11 +51,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:01:34 t:page=http://www.austintexas.gov/ m:entrances=380306 m:pageviews=547656 m:unique_pageviews=439779 m:exit=51.1 m:bounce_rate=56.4
+series e:8yfa-b3bq d:2017-04-07T20:54:50.000Z t:avg_time_on_page=0:01:33 t:page=http://austintexas.gov/ m:entrances=145559 m:pageviews=212584 m:unique_pageviews=171097 m:exit=52.19 m:bounce_rate=58.75
 
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:00:28 t:page="http://www.austintexas.gov/web/permit/public-search-other?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_chpyJJVwH9kC&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1" m:entrances=3310 m:pageviews=164537 m:unique_pageviews=31025 m:exit=5.29 m:bounce_rate=15.65
+series e:8yfa-b3bq d:2017-04-07T20:54:50.000Z t:avg_time_on_page=0:00:30 t:page="http://austintexas.gov/web/permit/public-search-other?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_chpyJJVwH9kC&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1" m:entrances=4624 m:pageviews=193299 m:unique_pageviews=35564 m:exit=5.39 m:bounce_rate=15.86
 
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z t:avg_time_on_page=0:03:38 t:page=http://www.austintexas.gov/adoptablepets m:entrances=50425 m:pageviews=149008 m:unique_pageviews=105224 m:exit=59.05 m:bounce_rate=60.7
+series e:8yfa-b3bq d:2017-04-07T20:54:50.000Z t:avg_time_on_page=0:00:33 t:page="http://austintexas.gov/web/permit/folder-select?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_r7TftPdFzOLO&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1" m:entrances=1189 m:pageviews=70403 m:unique_pageviews=12165 m:exit=4.51 m:bounce_rate=9
 ```
 
 ## Meta Commands
@@ -85,16 +85,16 @@ property e:8yfa-b3bq t:meta.view.tableauthor v:id=czye-wfgc v:profileImageUrlMed
 ## Top Records
 
 ```ls
-| :updated_at | page                                                                                                                                                                                                               | pageviews | unique_pageviews | avg_time_on_page | entrances | bounce_rate | exit  | 
-| =========== | ================================================================================================================================================================================================================== | ========= | ================ | ================ | ========= | =========== | ===== | 
-| 1483985792  | [http://www.austintexas.gov/, null]                                                                                                                                                                                | 547,656   | 439,779          | 0:01:34          | 380,306   | 56.40       | 51.10 | 
-| 1483985792  | [http://www.austintexas.gov/web/permit/public-search-other?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_chpyJJVwH9kC&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1, null] | 164,537   | 31,025           | 0:00:28          | 3,310     | 15.65       | 5.29  | 
-| 1483985792  | [http://www.austintexas.gov/adoptablepets, null]                                                                                                                                                                   | 149,008   | 105,224          | 0:03:38          | 50,425    | 60.70       | 59.05 | 
-| 1483985792  | [http://www.austintexas.gov/devreview/d_showpropertyfolderlist.jsp?clicked=searchByOther, null]                                                                                                                    | 143,585   | 45,588           | 0:00:37          | 5,640     | 22.54       | 8.83  | 
-| 1483985792  | [http://www.austintexas.gov/department/aac, null]                                                                                                                                                                  | 141,323   | 97,411           | 0:00:30          | 86,255    | 10.12       | 14.39 | 
-| 1483985792  | [http://www.austintexas.gov/devreview/a_queryfolder_permits.jsp, null]                                                                                                                                             | 109,213   | 61,363           | 0:00:43          | 53,344    | 10.59       | 11.27 | 
-| 1483985792  | [http://www.austintexas.gov/department/animal-adoption, null]                                                                                                                                                      | 90,752    | 64,066           | 0:00:25          | 3,355     | 29.01       | 6.22  | 
-| 1483985792  | [http://www.austintexas.gov/web/permit/folder-select?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_r7TftPdFzOLO&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1, null]       | 79,989    | 14,117           | 0:00:34          | 1,316     | 10.41       | 4.72  | 
-| 1483985792  | [http://www.austintexas.gov/web/permit/folder-select?reset=true, null]                                                                                                                                             | 79,435    | 34,108           | 0:00:41          | 4,010     | 8.15        | 6.71  | 
-| 1483985792  | [http://www.austintexas.gov/department/police, null]                                                                                                                                                               | 74,249    | 55,606           | 0:01:03          | 46,520    | 44.15       | 38.19 | 
+| :updated_at | page                                                                                                                                                                                                           | pageviews | unique_pageviews | avg_time_on_page | entrances | bounce_rate | exit  | 
+| =========== | ============================================================================================================================================================================================================== | ========= | ================ | ================ | ========= | =========== | ===== | 
+| 1491598490  | [http://austintexas.gov/, null]                                                                                                                                                                                | 212,584   | 171,097          | 0:01:33          | 145,559   | 58.75       | 52.19 | 
+| 1491598490  | [http://austintexas.gov/web/permit/public-search-other?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_chpyJJVwH9kC&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1, null] | 193,299   | 35,564           | 0:00:30          | 4,624     | 15.86       | 5.39  | 
+| 1491598490  | [http://austintexas.gov/web/permit/folder-select?p_p_id=SmartPortletJSR286_WAR_smartlets_INSTANCE_r7TftPdFzOLO&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1, null]       | 70,403    | 12,165           | 0:00:33          | 1,189     | 9.00        | 4.51  | 
+| 1491598490  | [http://austintexas.gov/web/permit/folder-select?reset=true, null]                                                                                                                                             | 61,763    | 27,704           | 0:00:39          | 3,306     | 9.44        | 6.29  | 
+| 1491598490  | [http://austintexas.gov/department/barton-springs-pool, null]                                                                                                                                                  | 42,950    | 34,850           | 0:02:41          | 32,291    | 70.48       | 67.89 | 
+| 1491598490  | [http://austintexas.gov/department/aac, null]                                                                                                                                                                  | 42,204    | 30,205           | 0:00:30          | 27,369    | 10.04       | 15.25 | 
+| 1491598490  | [http://austintexas.gov/adoptablepets, null]                                                                                                                                                                   | 39,184    | 30,028           | 0:04:05          | 13,162    | 63.94       | 65.05 | 
+| 1491598490  | [http://austintexas.gov/web/permit/public-search-other, null]                                                                                                                                                  | 35,917    | 27,490           | 0:00:45          | 19,657    | 9.66        | 8.50  | 
+| 1491598490  | [http://austintexas.gov/pay_online, null]                                                                                                                                                                      | 32,574    | 17,206           | 0:00:35          | 3,962     | 19.86       | 15.54 | 
+| 1491598490  | [http://austintexas.gov/airport, null]                                                                                                                                                                         | 28,373    | 22,751           | 0:00:58          | 20,977    | 26.85       | 36.72 | 
 ```

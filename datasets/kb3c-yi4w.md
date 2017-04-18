@@ -68,9 +68,9 @@ property e:kb3c-yi4w t:meta.view v:id=kb3c-yi4w v:category=Government v:attribut
 
 property e:kb3c-yi4w t:meta.view.license v:name="Public Domain"
 
-property e:kb3c-yi4w t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
 
-property e:kb3c-yi4w t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
 ```
 
 ## Top Records

@@ -16,7 +16,7 @@ Name | Category | Published
 [Address Changes](datasets/ruj7-9gwq.md) |     | 2016-09-30
 [Austin Energy Customer Data by Customer Class 2006 - 2014](datasets/9xdm-yhmb.md) | Utility | 2016-09-22
 [Austin Water Authorized Irrigation Inspector List](datasets/dhvz-stgx.md) | Environmental | 2016-10-06
-[Austintexas.gov - Top 50 Pages By Pageviews](datasets/8yfa-b3bq.md) |     | 2017-01-09
+[Austintexas.gov - Top 50 Pages By Pageviews](datasets/8yfa-b3bq.md) |     | 2017-04-07
 [Campaign Finance Data - Report Detail Dataset](datasets/b2pc-2s8n.md) | Government | 2016-10-28
 [City Social Media Inventory](datasets/yph5-vg2u.md) |     | 2017-02-13
 [Department English- Spanish Terminology Bank](datasets/hpf7-4b4e.md) | Government | 2017-01-26
@@ -73,8 +73,8 @@ Name | Category | Published
 [NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013](datasets/rg8a-czmp.md) | NCHS | 2015-12-02
 [NCHS - Injury Mortality: United States, 1999–2014](datasets/nt65-c7a7.md) | NCHS | 2016-10-20
 [NNDSS - Table II. Ehrlichiosis/Anaplasmosis](datasets/keia-pvvn.md) | NNDSS | 2017-01-05
-[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](datasets/mbsb-z5f8.md) | NNDSS | 2017-03-30
-[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](datasets/scxv-4u4u.md) | NNDSS | 2017-03-30
+[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](datasets/mbsb-z5f8.md) | NNDSS | 2017-04-13
+[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](datasets/scxv-4u4u.md) | NNDSS | 2017-04-13
 [NNDSS - Table II. Shiga toxin to Shigellosis](datasets/xv7k-8e7s.md) | NNDSS | 2017-01-05
 [National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2017-01-04
 [Nutrition, Physical Activity, and Obesity - American Community Survey](datasets/8mrp-rmkw.md) | Nutrition, Physical Activity, and Obesity | 2016-12-19
@@ -87,7 +87,7 @@ Name | Category | Published
 
 Name | Category | Published
 ---- | -------- | ---------
-[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-04-02
+[311 Service Requests - Pot Holes Reported](datasets/7as2-ds3y.md) | Service Requests | 2017-04-18
 [Beach Weather Stations - Automated Sensors - 2016 - Humidity](datasets/7edu-s3u7.md) | Parks & Recreation | 2015-06-01
 [Budget - 2015 Budget Recommendations - Appropriations](datasets/kzbi-spm5.md) | Administration & Finance | 2014-10-15
 [Building Violations](datasets/22u3-xenr.md) | Buildings | 2015-09-29
@@ -120,7 +120,7 @@ Name | Category | Published
 ---- | -------- | ---------
 [2001 Campaign Contributions](datasets/735p-zed8.md) | City Government | 2013-06-21
 [2015 Green Taxi Trip Data](datasets/gi8d-wdg5.md) | Transportation | 2016-12-12
-[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-03-31
+[Attendance 4PM Report](datasets/madj-gkhr.md) | Education | 2017-04-14
 [Average days for the CCRB to close case](datasets/sd9s-b3hd.md) | City Government | 2013-06-21
 [Borough Enrollment Offices](datasets/vz8c-29aj.md) | Education | 2011-10-11
 [CCRB: Determinations to Recommend Other Misconduct 2005 - 2009](datasets/v3f6-2e7z.md) | Public Safety | 2011-09-15
@@ -129,7 +129,7 @@ Name | Category | Published
 [Community Board Appointments](datasets/3gkd-ddzn.md) | City Government | 2014-03-06
 [Current Medallion Drivers](datasets/s22f-jsd4.md) | Transportation | 2013-04-24
 [DEP - Cryptosporidium And Giardia Data Set](datasets/x2s6-6d2j.md) | Environment | 2014-03-06
-[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-04-02
+[DOB Sign Application Filings](datasets/nyis-y4yr.md) | Housing & Development | 2017-04-14
 [DOE High School Programs 2013-2014](datasets/i9pf-sj7c.md) | Education | 2014-09-03
 [DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](datasets/m56g-jpua.md) | Housing & Development | 2013-06-26
 [DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](datasets/97iw-vtbx.md) | Housing & Development | 2013-06-26
@@ -142,7 +142,7 @@ Name | Category | Published
 [DYCD after-school programs: OSY Out Of School Youth Employment Programs](datasets/36hn-wea6.md) | Education | 2011-09-01
 [DYCD after-school programs: Reading And Writing Literacy Programs](datasets/w9cy-nnma.md) | Education | 2011-09-02
 [Demographic Projection Report - Enrollment Projections - New York City Public Schools prepared by the Grier Partnership Part C](datasets/9gmp-f9x2.md) | Housing & Development | 2013-06-21
-[Derelict Vehicle Dispositions - Vehicles](datasets/bjuu-44hx.md) | City Government | 2017-03-08
+[Derelict Vehicle Dispositions - Vehicles](datasets/bjuu-44hx.md) | City Government | 2017-04-08
 [Directory of NYCHA Community Facilities](datasets/crns-fw6u.md) | Social Services | 2013-03-29
 [Enrollment Capacity and Utilization Reports District 75 Special Ed.](datasets/3cn8-i54i.md) | Education | 2013-11-15
 [Environmentally Preferable Purchasing FY15 - Construction](datasets/p2q7-at72.md) | City Government | 2015-12-17
@@ -153,9 +153,9 @@ Name | Category | Published
 [LinkNYC New Site Permit Applications](datasets/xp25-gxux.md) | Social Services | 2017-03-31
 [Local Law 50 New York State Food Purchasing FY15](datasets/2rd2-9uwy.md) | City Government | 2015-12-17
 [NYC Parks Monuments](datasets/6rrm-vxj9.md) | Recreation | 2016-09-19
-[NYC Permitted Event Information](datasets/tvpp-9vvx.md) | City Government | 2017-04-02
+[NYC Permitted Event Information](datasets/tvpp-9vvx.md) | City Government | 2017-04-17
 [NYC Results On The New York State Math Test (2013-14 And 2014-15) With Math Regents Included](datasets/xw3c-8982.md) |     | 2016-03-14
-[NYC Wi-Fi Hotspot Locations](datasets/yjub-udmw.md) | City Government | 2017-03-30
+[NYC Wi-Fi Hotspot Locations](datasets/yjub-udmw.md) | City Government | 2017-04-10
 [NYC Women's Resource Network Database](datasets/pqg4-dm6b.md) | Social Services | 2011-10-08
 [NYCDCP Manhattan Bike Counts - On Street Weekday](datasets/qfs9-xn8t.md) | Transportation | 2016-09-12
 [NYPL Branch Services - Staten Island](datasets/wibz-uqui.md) | Recreation | 2013-06-21
@@ -181,7 +181,7 @@ Name | Category | Published
 [Mill Rates for 2017 Fiscal Year](datasets/kb3c-yi4w.md) | Government | 2017-01-30
 [Mill Rates: 2012 Grand List Year For 2014 Fiscal Year](datasets/686s-2uqm.md) | Government | 2014-02-18
 [No. of Transactions VS No. of Customers For FY 2014](datasets/aspx-imar.md) | Transportation | 2014-10-02
-[PCA Group Orientation Schedule](datasets/c28j-48tg.md) | Health and Human Services | 2017-02-24
+[PCA Group Orientation & Training Schedule](datasets/c28j-48tg.md) | Health and Human Services | 2017-04-06
 [Percent of Connecticut Adults, High School Students, and Middle School Students Currently Smoking Cigarettes by Year](datasets/9veb-bt9u.md) | Health and Human Services | 2014-04-08
 [Percent of Connecticut adults (18+ y) reporting ever being told that they had diabetes, by race/ethnicity and year](datasets/s48i-ac23.md) | Health and Human Services | 2014-04-08
 [SFY05-14 Entries Aggregates Race Ethnicity Group](datasets/wzpb-uqdj.md) | Health and Human Services | 2015-08-12
@@ -255,7 +255,7 @@ Name | Category | Published
 [IDOT - Published Annual Program 2011 - Structure Improvements](datasets/erpn-m8ee.md) | Transportation | 2011-06-16
 [IDOT Average Annual Daily Traffic 2006](datasets/xqn9-cme5.md) | Transportation | 2012-01-26
 [IDPH 1990-2015 STD Illinois By County Chlamydia](datasets/vcg3-dux6.md) | Public Health | 2016-08-15
-[IDPH ASBESTOS LICENSED CONTRACTORS](datasets/5vh3-wnad.md) | Public Health | 2017-03-22
+[IDPH ASBESTOS LICENSED CONTRACTORS](datasets/5vh3-wnad.md) | Public Health | 2017-04-12
 [IDPH Hospice Residence Facilities](datasets/hbcs-x3a5.md) | Public Health | 2017-01-06
 [IDPH Marriages, by County, 2000-2009](datasets/hs5g-tdzr.md) | Public Health | 2012-01-23
 [IHDA - Illinois Housing Dev Auth - FY2011 Home Ownership Activity](datasets/7d69-4cty.md) | Housing | 2011-11-22
@@ -307,7 +307,7 @@ Name | Category | Published
 [Super Neighborhood Tracker](datasets/jcxs-qmaz.md) | Community Development | 2016-03-07
 [Thalia Mara Numbers](datasets/wr52-jff7.md) | City Services | 2016-10-17
 [Weekly Community Improvement Numbers](datasets/6d4u-fgst.md) | Community Development | 2017-03-10
-[Weekly Crime Statistics](datasets/jiea-vc79.md) | Public Safety | 2017-02-13
+[Weekly Crime Statistics](datasets/jiea-vc79.md) | Public Safety | 2017-04-03
 
 ## data.kingcounty.gov
 
@@ -344,7 +344,7 @@ Name | Category | Published
 [Maryland Historical and Projected Household Population,1970-2040](datasets/fbii-ubkr.md) | Planning | 2014-09-02
 [Maryland Ozone Exceedance Days in 2007](datasets/iyzm-8pqb.md) | Energy and Environment | 2012-10-26
 [Maryland Ozone Exceedance Days in 2010](datasets/v7fv-ya55.md) | Energy and Environment | 2012-10-26
-[Maryland State Police Performance Dashboard - Quarterly Data](datasets/tx73-47dk.md) | Public Safety | 2017-03-08
+[Maryland State Police Performance Dashboard - Quarterly Data](datasets/tx73-47dk.md) | Public Safety | 2017-04-07
 [Maryland Total Acres For Residential Development: 2006-2010](datasets/p4s2-mc7r.md) | Housing | 2013-11-20
 [Multi-Family Housing FY 2011-2016](datasets/cadm-spqd.md) |     | 2017-02-27
 [Number of Heart Disease Deaths among Maryland Residents, 1920-2011](datasets/x7bj-p425.md) | Health and Human Services | 2012-11-27
@@ -366,7 +366,7 @@ Name | Category | Published
 Name | Category | Published
 ---- | -------- | ---------
 [ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017](datasets/gfzz-8msb.md) | Dialysis Facility Compare | 2017-01-26
-[Home Health Care - Zip Codes](datasets/m5eg-upu5.md) | Home Health Compare | 2017-01-26
+[Home Health Care - Zip Codes](datasets/m5eg-upu5.md) | Home Health Compare | 2017-04-11
 [Patient survey (ICH-CAHPS) - National](datasets/utgq-v46w.md) | Dialysis Facility Compare | 2017-01-26
 [Patient survey (ICH-CAHPS) - State](datasets/hanv-ru8h.md) | Dialysis Facility Compare | 2017-01-26
 [Readmissions and Deaths - Hospital](datasets/ynj2-r877.md) | Hospital Compare | 2016-12-19
@@ -410,8 +410,8 @@ Name | Category | Published
 [Citizen Satisfaction With NOPD (2009 - Present)](datasets/vnht-dg7x.md) | Public Safety and Preparedness | 2015-11-05
 [City Contract Value Awarded To DBEs (2013 - Present)](datasets/8xef-4m72.md) | City Finance and Budget | 2016-02-03
 [Food Insecurity Rates (2009 - Present)](datasets/n3qj-q4w7.md) | Health, Education, and Social Services | 2015-11-03
-[NOPD Body Worn Camera Metadata](datasets/qarb-kkbj.md) | Public Safety and Preparedness | 2017-03-03
-[NOPD In-Car Camera Metadata](datasets/md3v-ph3u.md) | Public Safety and Preparedness | 2017-03-03
+[NOPD Body Worn Camera Metadata](datasets/qarb-kkbj.md) | Public Safety and Preparedness | 2017-04-13
+[NOPD In-Car Camera Metadata](datasets/md3v-ph3u.md) | Public Safety and Preparedness | 2017-04-13
 [ResultsNOLA (historic)](datasets/jqyq-axtx.md) | City Administration | 2016-09-13
 [Stop and Search (Field Interviews)](datasets/kitu-f4uy.md) | Public Safety and Preparedness | 2016-04-17
 [Trash Control and Pickup Rating (2006 - Present)](datasets/bjtq-ptjp.md) | Customer Service | 2015-11-05
@@ -435,14 +435,14 @@ Name | Category | Published
 [Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990](datasets/djfn-trk4.md) | Energy & Environment | 2016-11-04
 [Issued Title V Facility Permits](datasets/4n3a-en4b.md) | Energy & Environment | 2016-01-08
 [Law Enforcement Personnel by Agency: Beginning 2007](datasets/khn9-hhpq.md) | Public Safety | 2016-03-22
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-04-02
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](datasets/hsys-3def.md) | Government & Finance | 2017-04-18
 [MTA Customer Feedback Data: Beginning 2014](datasets/tppa-s6t6.md) | Transportation | 2016-11-02
 [NYC Transit Subway Entrance And Exit Data](datasets/i9wp-a4ja.md) | Transportation | 2015-09-18
-[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-04-02
+[NYS Attorney Registrations](datasets/eqw2-r5nb.md) | Transparency | 2017-04-18
 [Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects](datasets/f6sn-r72s.md) | Economic Development | 2016-01-21
 [Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996](datasets/p7e4-ipty.md) | Transportation | 2016-10-28
 [Prison Admissions: Beginning 2008](datasets/m2rg-xjan.md) | Public Safety | 2015-11-30
-[Public Assistance Case Denials by Reason for Denial: Beginning 2006](datasets/tyyj-jgv5.md) | Human Services | 2017-01-09
+[Public Assistance Case Denials by Reason for Denial: Beginning 2006](datasets/tyyj-jgv5.md) | Human Services | 2017-04-06
 [Public Assistance Cases with Earned Income: Beginning April 2006](datasets/5mdi-3rq9.md) | Human Services | 2017-03-31
 [RSBS MOM: Multifamily On-Site Survey, Measure Level, New York State Residential Statewide Baseline Study](datasets/cif3-ww3e.md) | Energy & Environment | 2015-11-17
 [RSBS SMO: Part 1 of 2, New York State Residential Statewide Baseline Study: Single and Multifamily Occupant Telephone or Web Survey](datasets/3m6x-h3qa.md) | Energy & Environment | 2015-10-30

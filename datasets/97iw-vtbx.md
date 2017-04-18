@@ -131,7 +131,7 @@ entity e:97iw-vtbx l:"DOF: Cooperative Comparable Rental Income – Staten Islan
 
 property e:97iw-vtbx t:meta.view v:id=97iw-vtbx v:category="Housing & Development" v:averageRating=0 v:name="DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009" v:attribution="Department of Finance (DOF)"
 
-property e:97iw-vtbx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:97iw-vtbx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
 property e:97iw-vtbx t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```

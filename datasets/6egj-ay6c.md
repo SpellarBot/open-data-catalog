@@ -19,9 +19,7 @@
 
 ## Description
 
-Austin Energy's Solar for Schools Program was officially launched in 2006 to promote the use of solar energy and to educate students on the benefits of solar power. The program was funded by the utility, the State Energy Conservation Office, and the U.S. Department of Energy. Since the program’s inception, Austin Energy has contributed $1.1 million to help build 47 solar installations at schools in districts served by Austin Energy. The estimated energy savings for those 47 schools is 209,579 kWh annually -- electricity sufficient to power 16 average-sized homes in Austin. These arrays are located in school districts within the Austin Energy service territory.  The Solar for Schools program ended in FY2012.
-
-Modules and Inverters were donated for Maplewood, Brykerwoods, and Kealing
+Austin Energy launched its Solar for Schools Program in 2006 to promote the use of solar energy and to educate students on the benefits of solar power. The program was funded by the utility, the State Energy Conservation Office, and the U.S. Department of Energy. The Solar for Schools program ended in FY2012. Go to austinenergy.com/go/solar to learn more about solar solutions from Austin Energy.
 
 ## Columns
 

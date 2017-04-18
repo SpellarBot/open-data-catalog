@@ -68,9 +68,9 @@ entity e:kzmz-ivhb l:"DSNY's Refuse and Recycling Disposal Networks" t:attributi
 
 property e:kzmz-ivhb t:meta.view v:id=kzmz-ivhb v:category="City Government" v:averageRating=0 v:name="DSNY's Refuse and Recycling Disposal Networks" v:attribution="Department of Sanitation (DSNY)"
 
-property e:kzmz-ivhb t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:kzmz-ivhb t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:kzmz-ivhb t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:kzmz-ivhb t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

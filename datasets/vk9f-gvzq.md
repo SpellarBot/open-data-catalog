@@ -61,9 +61,9 @@ entity e:vk9f-gvzq l:"DOP Juvenile Investigations Assigned" t:attribution="Depar
 
 property e:vk9f-gvzq t:meta.view v:id=vk9f-gvzq v:category="Public Safety" v:averageRating=0 v:name="DOP Juvenile Investigations Assigned" v:attribution="Department of Probation (DOP)"
 
-property e:vk9f-gvzq t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:vk9f-gvzq t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

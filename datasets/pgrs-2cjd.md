@@ -98,7 +98,7 @@ entity e:pgrs-2cjd l:"NYS Math Test Results By Grade 2006-2011 - District - By R
 
 property e:pgrs-2cjd t:meta.view v:id=pgrs-2cjd v:category=Education v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - District - By Race- Ethnicity" v:attribution="Department of Education (DOE)"
 
-property e:pgrs-2cjd t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:pgrs-2cjd t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
 property e:pgrs-2cjd t:meta.view.tableauthor v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
 ```

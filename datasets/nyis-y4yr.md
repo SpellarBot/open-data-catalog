@@ -15,7 +15,7 @@
 | Category | Housing & Development |
 | Tags | signs, dob, buildings |
 | Created | 2013-04-18T15:18:57Z |
-| Publication Date | 2017-04-02T22:12:42Z |
+| Publication Date | 2017-04-14T20:34:08Z |
 
 ## Description
 
@@ -148,9 +148,9 @@ entity e:nyis-y4yr l:"DOB Sign Application Filings" t:attribution="Department of
 
 property e:nyis-y4yr t:meta.view v:id=nyis-y4yr v:category="Housing & Development" v:attributionLink=http://www.nyc.gov/html/dob/html/codes_and_reference_materials/foilmonthly.shtml#sign v:averageRating=0 v:name="DOB Sign Application Filings" v:attribution="Department of Buildings (DOB)"
 
-property e:nyis-y4yr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:nyis-y4yr t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:nyis-y4yr t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:nyis-y4yr t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

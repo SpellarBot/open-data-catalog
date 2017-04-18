@@ -71,7 +71,7 @@ entity e:kh3d-xhq7 l:"Queens Library Branches" t:attribution="Queens Library (QB
 
 property e:kh3d-xhq7 t:meta.view v:id=kh3d-xhq7 v:category=Recreation v:averageRating=0 v:name="Queens Library Branches" v:attribution="Queens Library (QBPL)"
 
-property e:kh3d-xhq7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:kh3d-xhq7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
 property e:kh3d-xhq7 t:meta.view.tableauthor v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
 ```

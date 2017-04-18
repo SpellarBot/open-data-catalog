@@ -104,7 +104,7 @@ property e:bj6v-3hfz t:meta.view.license v:name="Public Domain"
 
 property e:bj6v-3hfz t:meta.view.owner v:id=nyku-jy9c v:screenName="Stephanie O'Day" v:displayName="Stephanie O'Day"
 
-property e:bj6v-3hfz t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:bj6v-3hfz t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
 ```
 
 ## Top Records

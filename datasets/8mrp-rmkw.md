@@ -92,9 +92,9 @@ property e:8mrp-rmkw t:meta.view v:id=8mrp-rmkw v:category="Nutrition, Physical 
 
 property e:8mrp-rmkw t:meta.view.license v:name="Public Domain"
 
-property e:8mrp-rmkw t:meta.view.owner v:id=fjjr-gap9 v:screenName="The Su" v:displayName="The Su"
+property e:8mrp-rmkw t:meta.view.owner v:id=cvya-y955 v:screenName="LV Moore" v:displayName="LV Moore"
 
-property e:8mrp-rmkw t:meta.view.tableauthor v:id=fjjr-gap9 v:screenName="The Su" v:roleName=administrator v:displayName="The Su"
+property e:8mrp-rmkw t:meta.view.tableauthor v:id=cvya-y955 v:screenName="LV Moore" v:roleName=publisher v:displayName="LV Moore"
 
 property e:8mrp-rmkw t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```

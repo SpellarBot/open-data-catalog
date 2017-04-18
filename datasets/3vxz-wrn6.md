@@ -60,9 +60,9 @@ entity e:3vxz-wrn6 l:"Missouri Deaf and Hard of Hearing Demographics Statistics"
 
 property e:3vxz-wrn6 t:meta.view v:id=3vxz-wrn6 v:category=Education v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics"
 
-property e:3vxz-wrn6 t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1491406640 v:displayName=Breanna
 
-property e:3vxz-wrn6 t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1491406640 v:displayName=Breanna
 ```
 
 ## Top Records

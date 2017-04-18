@@ -445,14 +445,14 @@ series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z
 [8yfa-b3bq.md](datasets/8yfa-b3bq.md)
 
 ```ls
-series e:8yfa-b3bq d:2017-01-09T18:16:32.000Z
- t:avg_time_on_page=0:01:34
- t:page=http://www.austintexas.gov/
- m:entrances=380306
- m:pageviews=547656
- m:unique_pageviews=439779
- m:exit=51.1
- m:bounce_rate=56.4
+series e:8yfa-b3bq d:2017-04-07T20:54:50.000Z
+ t:avg_time_on_page=0:01:33
+ t:page=http://austintexas.gov/
+ m:entrances=145559
+ m:pageviews=212584
+ m:unique_pageviews=171097
+ m:exit=52.19
+ m:bounce_rate=58.75
 
 ```
 
@@ -1531,13 +1531,13 @@ series e:43c3-stp6 d:2009-01-01T00:00:00.000Z
 [ebe6-dvsr.md](datasets/ebe6-dvsr.md)
 
 ```ls
-series e:ebe6-dvsr d:2015-08-01T00:00:00.000Z
- t:recsubtype=Demolition
+series e:ebe6-dvsr d:2015-07-01T00:00:00.000Z
+ t:recsubtype="Site Grading"
  t:measure=AvgNumDaysFirstPlanReviewNONRESIDENTIAL
  t:rescomm=Non-Residential
  t:type=monthly
  t:goaltype=NonResidentialOnlyFirstPlanReview
- m:avgnumdays=14
+ m:avgnumdays=18
  m:noofpermits=1
 
 ```
@@ -1867,31 +1867,31 @@ series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z
 [59dq-uw25.md](datasets/59dq-uw25.md)
 
 ```ls
-series e:59dq-uw25 d:2012-05-30T00:00:00.000Z
+series e:59dq-uw25 d:2015-10-01T00:00:00.000Z
  t:markets="United States, Canada"
- t:product_type="Vertical Transparent Door Refrigerator"
- t:product_description="Bottle Cooler"
- t:model_name="Glass Door Merchandiser"
- t:brand_name="Entrée, Victory, California Cooking"
+ t:product_type="Horizontal Transparent Door Refrigerator"
+ t:product_description=Reach-in
+ t:model_name=G-80-N23EB
+ t:brand_name=IDW
  t:door_opening_orientation_hinged_sliding=Hinged
- t:pd_id=2287100
- t:energy_star_partner="Entree LLC"
- t:refrigerant_type=R-134a
- t:model_number=EGD-2DR-48
- t:product_orientation_vertical_chest=Vertical
- t:energy_star_model_identifier="ES_1105798_SHANDONG HONGTAI ELECTRICAL APPLIANCE CO LTD (462997) | EGD-2DR-
-48_10082012183839_1519481"
- t:defrost_type=Automatic
- m:depth_in=31.89
- m:mixed_door_cabinet_glass_door_volume_cu_ft=43.4
+ t:pd_id=2292438
+ t:additional_model_information=,G-80L-N23EB,
+ t:energy_star_partner="Innovative DisplayWorks, Inc."
+ t:refrigerant_type=R-600a
+ t:model_number=G-80-N23EB
+ t:product_orientation_vertical_chest=Chest
+ t:energy_star_model_identifier=ES_1092963_G-80-N23EB_10162015102052_4463617
+ t:defrost_type=Manual
+ m:depth_in=18
+ m:mixed_door_cabinet_glass_door_volume_cu_ft=2.62
  m:mixed_door_cabinet_solid_door_volume_cu_ft=0
- m:width_in=53.94
- m:number_of_glass_doors=2
+ m:width_in=18
+ m:number_of_glass_doors=1
  m:number_of_solid_doors=0
- m:total_volume_cu_ft=43.4
- m:height_in=79.49
- m:energy_use_daily_energy_consumption_kwh_day=3.5
- m:number_of_doors=2
+ m:total_volume_cu_ft=2.62
+ m:height_in=43.7
+ m:energy_use_daily_energy_consumption_kwh_day=0.36
+ m:number_of_doors=1
 
 ```
 
@@ -1974,19 +1974,21 @@ series e:4n3a-en4b d:2009-05-15T00:00:00.000Z
 [b6tj-gt35.md](datasets/b6tj-gt35.md)
 
 ```ls
-series e:b6tj-gt35 d:2017-03-28T15:09:59.000Z
- t:permit_zipcode=94118
+series e:b6tj-gt35 d:2016-02-05T17:23:21.000Z
+ t:permit_number=15EXC-7487
+ t:permit_zipcode=94115
  t:permit_type=Excavation
- t:agentphone=415-337-0190
- t:inspector="Denny Phan"
+ t:agentphone=415-716-8363
+ t:inspector="Melinda Hespen"
  t:status=APPROVED
- t:permit_purpose="Various Locations No. 24 Pavement Renovation & Sewer Replacement (Contract No. 2709J)"
- t:contact="(415) 337-0190"
+ t:permit_purpose="Webster Street Pavement Renovation, Traffic Signal Modification, Water Main Installation,
+ and Sewer Replacement and Repair Project (2386J)"
+ t:contact=415-740-8008
  t:agent="Shaw Pipeline Inc."
- t:cross_street_2="CALIFORNIA ST \ CORNWALL ST"
- t:streetname="07TH AVE"
- t:cross_street_1="LAKE ST"
- m:cnn=350000
+ t:cross_street_2="WEBSTER ST"
+ t:streetname="CALIFORNIA ST"
+ t:cross_street_1="BUCHANAN ST"
+ m:cnn=3555000
 
 ```
 
@@ -2065,15 +2067,17 @@ series e:843n-d2np d:2014-02-20T15:48:52.000Z
 [tvpp-9vvx.md](datasets/tvpp-9vvx.md)
 
 ```ls
-series e:tvpp-9vvx d:2016-05-14T10:00:00.000Z
+series e:tvpp-9vvx d:2017-04-30T08:00:00.000Z
  t:event_borough=Manhattan
- t:event_type="Public Program / Exhibitions"
- t:event_agency="Trust for Governor's Island"
- t:event_id=248006
- t:street_closure_type=N/A
- t:community_board=N/A
- t:event_name=play:ground
- t:police_precinct=N/A
+ t:event_type="Farmers Market"
+ t:event_agency="Street Activity Permit Office"
+ t:event_id=314114
+ t:event_street_side=East
+ t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET"
+ t:street_closure_type="Sidewalk and Curb Lane Closure"
+ t:community_board=9,
+ t:event_name="Columbia Greenmarket Sunday"
+ t:police_precinct=26,
  m:row_number.tvpp-9vvx=1
 
 ```
@@ -2081,21 +2085,21 @@ series e:tvpp-9vvx d:2016-05-14T10:00:00.000Z
 [gi8d-wdg5.md](datasets/gi8d-wdg5.md)
 
 ```ls
-series e:gi8d-wdg5 d:2015-11-20T08:28:04.000Z
+series e:gi8d-wdg5 d:2015-01-23T15:53:56.000Z
  t:store_and_fwd_flag=N
  t:ratecodeid=1
  t:vendorid=2
  t:trip_type=1
- t:payment_type=1
+ t:payment_type=2
  m:mta_tax=0.5
- m:total_amount=8.55
- m:fare_amount=6.5
+ m:total_amount=4.8
+ m:fare_amount=4
  m:passenger_count=1
  m:extra=0
- m:trip_distance=0.99
+ m:trip_distance=0.59
  m:tolls_amount=0
  m:improvement_surcharge=0.3
- m:tip_amount=1.25
+ m:tip_amount=0
 
 ```
 
@@ -2133,18 +2137,18 @@ series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z
 [acvd-5wvz.md](datasets/acvd-5wvz.md)
 
 ```ls
-series e:acvd-5wvz d:2005-01-01T00:00:00.000Z
- t:energy_star_partner="Advanced Geothermal Technology"
- t:model_number=GC-24-XXXXX-DW
- t:markets="United States"
- t:energy_star_model_identifier=ES_1071110_GC-24-XXXXX-DW_05012013143335_7734797
- t:product_type=DGX
+series e:acvd-5wvz d:2014-05-12T00:00:00.000Z
+ t:energy_star_partner="Carrier Corporation"
+ t:model_number=GS060**1*X1
+ t:markets="United States, Canada"
+ t:energy_star_model_identifier=ES_1020846_12082014152247_1620760
+ t:product_type="Open Loop Water-to-Air"
  t:meets_most_efficient_criteria=No
- t:model_name=GC-24-XXXXX-DW
- t:brand_name="Advanced Geothermal Technology"
- t:pd_id=2179335
- m:cop_rating=3.6
- m:eer_rating=16.6
+ t:model_name=GS
+ t:brand_name=Bryant
+ t:pd_id=2226833
+ m:cop_rating=4.1
+ m:eer_rating=22.3
 
 ```
 
@@ -3026,11 +3030,11 @@ series e:uwtt-n6qv d:2010-01-01T00:00:00.000Z
 [bbyy-e7gq.md](datasets/bbyy-e7gq.md)
 
 ```ls
-series e:bbyy-e7gq d:2017-02-20T12:00:36.000Z
- t:station_name="Wentworth Ave & 35th St"
+series e:bbyy-e7gq d:2017-04-16T11:00:38.000Z
+ t:station_name="Jeffery Blvd & 71st St"
  t:status="In Service"
- m:total_docks=15
- m:docks_in_service=15
+ m:total_docks=11
+ m:docks_in_service=10
 
 ```
 
@@ -3458,7 +3462,7 @@ series e:6d4u-fgst d:2016-01-07T00:00:00.000Z
 [m5eg-upu5.md](datasets/m5eg-upu5.md)
 
 ```ls
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z
+series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z
  t:zip_code=36104
  t:provider_number=017000
  t:state=AL
@@ -3710,28 +3714,28 @@ series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z
 [wd5q-q35v.md](datasets/wd5q-q35v.md)
 
 ```ls
-series e:wd5q-q35v d:2017-04-03T00:20:00.000Z
+series e:wd5q-q35v d:2017-04-18T05:19:00.000Z
  t:objectid=1
  t:rwis_station_name=AlaskanWayViaduct_KingSt
  t:rwis_display_name="Alaskan Way Viaduct at King St"
- m:airtemp_120min=51.02
- m:airtemp_60min=50.72
- m:rstemp_30min=49.31
- m:rstemp_75min=49.81
- m:airtemp_105min=50.94
- m:airtemp_45min=50.65
- m:airtemp_15min=50.49
- m:airtemp_30min=50.59
- m:rstemp_105min=50.7
- m:rstemp_15min=48.95
- m:rstemp_current=48.620000000000005
- m:airtemp_75min=50.77
- m:airtemp_current=50.43
- m:rstemp_90min=50.04
- m:rstemp_120min=50.94
- m:rstemp_45min=49.65
- m:rstemp_60min=49.76
- m:airtemp_90min=50.84
+ m:airtemp_120min=54.370000000000005
+ m:airtemp_60min=54.03
+ m:rstemp_30min=50.57
+ m:rstemp_75min=50.7
+ m:airtemp_105min=54.32
+ m:airtemp_45min=53.94
+ m:airtemp_15min=53.83
+ m:airtemp_30min=53.89
+ m:rstemp_105min=51.370000000000005
+ m:rstemp_15min=50.7
+ m:rstemp_current=50.85
+ m:airtemp_75min=54.120000000000005
+ m:airtemp_current=53.81
+ m:rstemp_90min=50.93
+ m:rstemp_120min=51.730000000000004
+ m:rstemp_45min=50.52
+ m:rstemp_60min=50.53
+ m:airtemp_90min=54.24
 
 ```
 
@@ -3918,10 +3922,11 @@ series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z
 [c28j-48tg.md](datasets/c28j-48tg.md)
 
 ```ls
-series e:c28j-48tg d:2017-03-08T00:00:00.000Z
- t:time=10:30am-1:30pm
- t:town=Norwich
- t:place="Norwich Regional  Adult Education"
+series e:c28j-48tg d:2017-05-04T00:00:00.000Z
+ t:time=6:00pm-9:00pm
+ t:town="New Britian"
+ t:place="YMCA- Parker Hall"
+ t:type=Orientation
  m:row_number.c28j-48tg=1
 
 ```
@@ -4021,16 +4026,16 @@ series e:4akt-7p7i d:2014-12-17T00:00:00.000Z
 
 ```ls
 series e:43eg-euh2 d:2013-10-01T00:00:00.000Z
- m:percent_specialty_center=100
+ m:percent_specialty_center=99.41
  m:average_interval_call_to_door_target=45
- m:percent_scene_time_compliance=86.23
+ m:percent_scene_time_compliance=86.39
  m:fiscal_quarter_key=201401
- m:count_scene_time_compliance=144
+ m:count_scene_time_compliance=146
  m:percent_scene_time_compliance_target=90
- m:count_trauma_alert=167
+ m:count_trauma_alert=169
  m:percent_specialty_center_target=95
- m:count_specialty_center=167
- m:average_interval_call_to_door=34.39
+ m:count_specialty_center=168
+ m:average_interval_call_to_door=34.46
 
 ```
 
@@ -4426,32 +4431,30 @@ series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z
 [t9u7-4d2j.md](datasets/t9u7-4d2j.md)
 
 ```ls
-series e:t9u7-4d2j d:2015-10-01T00:00:00.000Z
- t:additional_dryer_features="Time remaining display,Drum light,Filter cleaning indicator"
- t:markets="United States, Canada"
+series e:t9u7-4d2j d:2015-01-26T00:00:00.000Z
+ t:model_number=C6913*41+
+ t:markets=Canada
+ t:additional_dryer_features="Drum light,Time remaining display,Wrinkle prevention option,Steam cycle,Other,
+Sanitization cycle,Filter cleaning indicator"
  t:connected=No
+ t:energy_star_model_identifier=ES_0015649_C6913*41+_01292015110238_8888888
+ t:paired_energy_star_clothes_washer_available=No
+ t:energy_test_cycle_information="Energy Saver, Normal cycle, Automatic Termination, High heat, Normal dryne
+ss level."
+ t:vented_or_ventless=Vented
  t:type=Electric
- t:upc=7188286040
- t:paired_energy_star_clothes_washer_energy_star_model_identifier="ES_1036108_WMY 10148 W0_04102015161443_94
-56445"
- t:meets_most_efficient_criteria=Yes
- t:brand_name=Beko
- t:model_name=HPD24400W
- t:pd_id=2289056
- t:model_number=HPD24400W
- t:paired_energy_star_clothes_washer_available=Yes
- t:energy_star_model_identifier=ES_1036108_HPD24400W_01202017203338_4418005
- t:energy_test_cycle_information="NORMAL REGULAR DRY"
- t:vented_or_ventless=Ventless
- m:calculated_combined_energy_factor_max_dryness_setting_lbs_kwh=5.78
- m:depth_inches=27
- m:voltage=240
- m:drum_capacity_cu_ft=4.1
- m:height_inches=34
- m:combined_energy_factor_cef=5.7
- m:width_inches=23.5
- m:estimated_annual_energy_use_kwh_yr=149
- m:estimated_energy_test_cycle_time_min=46
+ t:upc=883049334851
+ t:meets_most_efficient_criteria=No
+ t:model_name=C6913*41+
+ t:brand_name=Kenmore
+ t:pd_id=2231959
+ m:depth_inches=32
+ m:drum_capacity_cu_ft=8.8
+ m:height_inches=45
+ m:combined_energy_factor_cef=3.93
+ m:width_inches=29
+ m:estimated_annual_energy_use_kwh_yr=608
+ m:estimated_energy_test_cycle_time_min=64
 
 ```
 
@@ -4772,20 +4775,20 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z
 [uc6q-9632.md](datasets/uc6q-9632.md)
 
 ```ls
-series e:uc6q-9632 d:2016-10-30T00:00:00.000Z
- t:energy_star_partner="Bluestem Brands Inc."
- t:model_number=AC-2136
+series e:uc6q-9632 d:2011-03-25T00:00:00.000Z
+ t:energy_star_partner="Kaz Incorporated"
+ t:model_number=HHT-155,HHT-155-SMS
  t:markets="United States"
- t:energy_star_model_identifier=ES_1139258_AC-2136_04202016154121_5024194
- t:brand_name="Master Craft"
- t:model_name=AC-2136
- t:pd_id=2293459
- m:pollen_cadr=100
- m:standy_power_watts=0.1
- m:tobacco_smoke_cadr=100
- m:energy_consumption_watts=49
- m:dust_cadr_watt=2
- m:dust_cadr=100
+ t:energy_star_model_identifier=ES_1026671_HHT-155,HHT-155-SMS_10222012113709_4221612
+ t:brand_name=Honeywell
+ t:model_name=HHT-155,HHT-155-SMS
+ t:pd_id=2099575
+ m:pollen_cadr=148
+ m:standy_power_watts=0.6
+ m:tobacco_smoke_cadr=118
+ m:energy_consumption_watts=57
+ m:dust_cadr_watt=2.84
+ m:dust_cadr=146
 
 ```
 
@@ -5027,27 +5030,27 @@ series e:4zfx-f2ts d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:88g8-5mnd d:2015-01-01T00:00:00.000Z
- t:organization_group="Community Health"
- t:employee_identifier=39891
- t:job_code=P103
- t:department="Public Health"
- t:union="SEIU - Staff and Per Diem Nurses, Local 1021"
- t:job_family_code=2300
- t:job_family=Nursing
- t:job="Special Nurse"
- t:department_code=DPH
- t:organization_group_code=04
- t:year_type=Calendar
- t:union_code=791
- m:total_benefits=9623.44
- m:total_compensation=66944.26
- m:total_salary=57320.82
+ t:organization_group="Culture & Recreation"
+ t:employee_identifier=52702
+ t:job_code=3279
+ t:department="Recreation and Park Commission"
+ t:union="SEIU - Miscellaneous, Local 1021"
+ t:job_family_code=3200
+ t:job_family=Recreation
+ t:job="Recreation Leader"
+ t:department_code=REC
+ t:organization_group_code=05
+ t:year_type=Fiscal
+ t:union_code=790
+ m:total_benefits=341.19
+ m:total_compensation=1384.47
+ m:total_salary=1043.28
  m:retirement=0
- m:other_benefits=4638.7
- m:other_salaries=406.73
- m:health_dental=4984.74
+ m:other_benefits=80.76
+ m:other_salaries=14.84
+ m:health_dental=260.43
  m:overtime=0
- m:salaries=56914.09
+ m:salaries=1028.44
 
 ```
 
@@ -5392,19 +5395,26 @@ series e:nhs7-e594 d:2016-04-05T00:00:00.000Z
 [yjub-udmw.md](datasets/yjub-udmw.md)
 
 ```ls
-series e:yjub-udmw d:2017-03-30T15:45:51.000Z
- t:boro=QU
- t:location_t="Outdoor TWC Aerial"
- t:location="155th St between 29th Ave and 32nd Ave"
- t:name="Bowne Park"
- t:sourceid=0
- t:ssid=GuestWiFi
- t:provider="Time Warner Cable"
- t:remarks="3 free 10 min sessions"
- t:objectid=848
- t:type="Limited Free"
- t:city=Queens
- m:row_number.yjub-udmw=1
+series e:yjub-udmw d:2017-04-10T17:39:46.000Z
+ t:borocode=3
+ t:zip=11205
+ t:location="138 Cumberland Walk"
+ t:borough=BK
+ t:provider=NYCHA
+ t:type=Free
+ t:city=Brooklyn
+ t:boroname=Brooklyn
+ t:location_t=Outdoor
+ t:ntaname="Fort Greene"
+ t:name=0
+ t:ntacode=BK68
+ t:ssid=DowntownBrooklynWiFi_Fon
+ t:objectid=1673
+ m:coundist=35
+ m:ct2010=18501
+ m:borocd=302
+ m:bctcb2010=30185013001
+ m:bin=0
 
 ```
 
@@ -7759,21 +7769,21 @@ series e:84fd-3fzf d:2013-04-30T13:41:03.000Z
 [t2v6-g4nf.md](datasets/t2v6-g4nf.md)
 
 ```ls
-series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z
+series e:t2v6-g4nf d:2012-02-15T00:00:00.000Z
  t:energy_star_partner="Avision Inc."
- t:model_number=A5150
+ t:model_number=AT1210
  t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
  t:marking_technology="Electro-photographic (EP)"
- t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | A5150_01022014075231_9151078"
+ t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AT1210_12102013080341_2621247"
  t:product_type=Scanners
  t:automatic_duplex_output_capable=No
  t:size_format=Standard
- t:model_name=A5150
+ t:model_name=AT1210
  t:brand_name=Avision
- t:pd_id=2199989
- m:power_in_sleep_w=2.17
- m:power_in_standby_w=0.28
+ t:pd_id=2198197
+ m:power_in_sleep_w=2.82
+ m:power_in_standby_w=0.23
  m:monochrome_product_speed_ipm_or_mppm=120
  m:default_delay_time_to_sleep_minutes=15
 
@@ -7782,25 +7792,21 @@ series e:t2v6-g4nf d:2011-11-15T00:00:00.000Z
 [j624-u8ux.md](datasets/j624-u8ux.md)
 
 ```ls
-series e:j624-u8ux d:2013-04-06T00:00:00.000Z
- t:energy_saving_kit_or_component_model_number="NA NA"
- t:energy_saving_kit_or_component_oem="NA NA"
- t:model_number_or_rebuilt_model_number="AMS LB9"
- t:markets="United States"
+series e:j624-u8ux d:2015-08-01T00:00:00.000Z
+ t:energy_star_partner="Seaga Manufacturing Inc."
+ t:additional_model_information=Infinity,INF5B,
+ t:markets="United States, Europe, Canada"
+ t:model_number_or_rebuilt_model_number=INF5B
+ t:energy_star_model_identifier=ES_1061638_INF5B_09222015193852_0732343
+ t:energy_saving_component_type=INF5B
  t:product_type=New
- t:energy_saving_component_type=NA
- t:door_type="Glass Front"
- t:model_name="AMS LB9"
- t:pd_id=2203621
- t:additional_model_information=",AMS LB9,Identical to AMS LB9.; ,LB9,Identical to AMS LB9.; ,LC9,Same as AM
-S LB9 except there is no control to lock out customers if the internal temperature rises enough to render fo
-od potentially hazardous."
- t:energy_star_partner="Automated Merchandising Systems, Inc."
- t:energy_star_model_identifier="ES_1110953_AMS LB9_01302014194201_6303827"
  t:machine_use_designation="Indoor Only"
- m:refrigerated_volume_cubic_feet=31.42
- m:vendible_capacity=446
- m:energy_consumption_kwh_day=3.63
+ t:door_type="Glass Front"
+ t:model_name=Infinity
+ t:pd_id=2248313
+ m:refrigerated_volume_cubic_feet=31.686
+ m:vendible_capacity=240
+ m:energy_consumption_kwh_day=3.64
 
 ```
 
@@ -7828,33 +7834,34 @@ series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z
 [qfw2-ekmx.md](datasets/qfw2-ekmx.md)
 
 ```ls
-series e:qfw2-ekmx d:2002-10-24T15:00:00.000Z
+series e:qfw2-ekmx d:2011-11-08T11:00:00.000Z
  t:dir_from_cross_street=S
- t:study_lane_code=0
- t:unitid2=1100
+ t:study_lane_code=STANDARD
+ t:unitid2=0730
  t:study_type="VOLUME COUNT"
- t:stdy_title_part="5TH AVE NE, S/O NE 112TH S ST"
- t:title="5TH AVE NE, S/O NE 112TH S ST; S FLOW; 24OCT2002 15:00"
- t:stdy_title_part_with_flow="5TH AVE NE, S/O NE 112TH S ST; S FLOW"
- t:unitid=03895
- t:x_street="NE NORTHGATE WAY"
- t:study_id=102810
+ t:hpms=Y
+ t:flowmap=Y
+ t:stdy_title_part="12TH AVE NE, S/O NE 75TH ST"
+ t:screenline=Y
+ t:stdy_title_part_with_flow="12TH AVE NE, S/O NE 75TH ST; N FLOW"
+ t:title="12TH AVE NE, S/O NE 75TH ST; N FLOW; CHD TUBE; 08Nov2011 11:00"
+ t:unitid=00330
+ t:x_street="NE 73RD ST"
+ t:study_id=304349
  t:objectid=1
- t:o_street="5TH AVE NE"
- t:comments="ORIGINAL TITLE:  3895 590S S  010/24/2002 515: 0 714: 0  5             AVNENE112 S         ST  
-COUNTER 116                                          H"
- t:stdy_label="102810, 2002-10-24, S"
- t:study_dirflow=S
- m:study_awdt=6296
- m:distance=180
- m:study_pmpk=515
+ t:o_street="12TH AVE NE"
+ t:stdy_label="304349, 2011-11-08, N"
+ t:study_dirflow=N
+ m:study_awdt=8387
+ m:distance=284
+ m:study_pmpk=1096
  m:intended_days=7
  m:actual_days=7
- m:seg_compkey=7256
- m:study_adt=6092
- m:study_ampk=435
+ m:seg_compkey=1589
+ m:study_adt=7834
+ m:study_ampk=424
  m:study_length=672
- m:study_max8=3566
+ m:study_max8=5492
 
 ```
 

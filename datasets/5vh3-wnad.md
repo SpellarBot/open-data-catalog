@@ -15,7 +15,7 @@
 | Category | Public Health |
 | Tags | asbestos, contractors, idph, license |
 | Created | 2013-09-10T16:31:18Z |
-| Publication Date | 2017-03-22T19:22:01Z |
+| Publication Date | 2017-04-12T13:58:31Z |
 
 ## Description
 
@@ -95,6 +95,6 @@ property e:5vh3-wnad t:meta.view.tableauthor v:id=vice-rsdw v:profileImageUrlMed
 | ABATECO, INC.                          | 3309 ROBBINS RD, PMB #104     | SPRINGFIELD     | IL    | 62704    | Sangamon | STEVE MOORE        | YES                 | 2/18/2018                 |       |     | ABATECO@AOL.COM                  | 2017-05-15T00:00:00     | 
 | ABATEMENT MANAGEMENT INC               | 6990 STATE ROUTE 111          | SOUTH ROXANA    | IL    | 62087    | Madison  |                    | YES                 | 1/8/2018                  |       |     |                                  | 2017-05-15T00:00:00     | 
 | ABATEMENT MATERIALS INC.               | 12700 S BUTLER DRIVE          | CHICAGO         | IL    | 60633    | Cook     |                    | YES                 | 7/10/2017                 |       |     | trichards@abatementmaterials.com | 2017-05-15T00:00:00     | 
-| ABATEMENT SPECIALITIES LLC             | 1814 E AVE NE                 | CEDAR RAPIDS    | IA    | 52402    |          | DENZEL THORNBURG   | YES                 | 3/1/2017                  |       |     | gena@abatement-specialties.com   | 2017-05-15T00:00:00     | 
 | ABATEPRO, INC                          | PO BOX 674                    | EDWARDSVILLE    | IL    | 62025    | Madison  | NICHOLAS FECO      | YES                 | 9/8/2017                  |       |     |                                  | 2017-05-15T00:00:00     | 
+| ABEL PLUS SERVICES INCORPORATED        | 64 W. END DRIVE               | GILBERTS        | IL    | 60136    | Kane     | PAUL MIDDLETON     | YES                 | 11/1/2017                 |       |     | PAUL@ABELPLUSSERVICES.COM        | 2017-05-15T00:00:00     | 
 ```

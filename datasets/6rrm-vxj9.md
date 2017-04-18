@@ -93,9 +93,9 @@ entity e:6rrm-vxj9 l:"NYC Parks Monuments" t:attribution="Department of Parks an
 
 property e:6rrm-vxj9 t:meta.view v:id=6rrm-vxj9 v:category=Recreation v:averageRating=0 v:name="NYC Parks Monuments" v:attribution="Department of Parks and Recreation (DPR)"
 
-property e:6rrm-vxj9 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:6rrm-vxj9 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:6rrm-vxj9 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:6rrm-vxj9 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

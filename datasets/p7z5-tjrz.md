@@ -61,9 +61,9 @@ entity e:p7z5-tjrz l:"Tuition Assistance" t:url=https://data.montgomerycountymd.
 
 property e:p7z5-tjrz t:meta.view v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"
 
-property e:p7z5-tjrz t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 
-property e:p7z5-tjrz t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 ```
 
 ## Top Records

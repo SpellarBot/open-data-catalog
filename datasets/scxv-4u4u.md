@@ -15,7 +15,7 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-03-30T16:16:06Z |
+| Publication Date | 2017-04-13T17:16:05Z |
 
 ## Description
 
@@ -113,7 +113,7 @@ metric m:rabies_animal_cum_2017 p:integer l:"Rabies, animal, Cum 2017" t:dataTyp
 
 metric m:rabies_animal_cum_2016 p:integer l:"Rabies, animal, Cum 2016" t:dataTypeName=number
 
-metric m:rubella_current_week p:long l:"Rubella, Current week" t:dataTypeName=number
+metric m:rubella_current_week p:integer l:"Rubella, Current week" t:dataTypeName=number
 
 metric m:rubella_previous_52_weeks_med p:integer l:"Rubella, Previous 52 weeks Med" t:dataTypeName=number
 

@@ -14,7 +14,7 @@
 | Attribution | Department of Sanitation (DSNY) |
 | Category | City Government |
 | Created | 2015-05-22T20:26:01Z |
-| Publication Date | 2017-03-08T23:05:16Z |
+| Publication Date | 2017-04-08T19:50:49Z |
 
 ## Description
 
@@ -130,9 +130,9 @@ entity e:bjuu-44hx l:"Derelict Vehicle Dispositions - Vehicles" t:attribution="D
 
 property e:bjuu-44hx t:meta.view v:id=bjuu-44hx v:category="City Government" v:averageRating=0 v:name="Derelict Vehicle Dispositions - Vehicles" v:attribution="Department of Sanitation (DSNY)"
 
-property e:bjuu-44hx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:bjuu-44hx t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
-property e:bjuu-44hx t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:displayName="NYC OpenData"
+property e:bjuu-44hx t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

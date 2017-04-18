@@ -13,7 +13,7 @@
 | Name | Weekly Crime Statistics |
 | Category | Public Safety |
 | Created | 2016-12-02T04:15:58Z |
-| Publication Date | 2017-02-13T14:58:42Z |
+| Publication Date | 2017-04-03T19:51:00Z |
 
 ## Description
 
@@ -67,9 +67,9 @@ entity e:jiea-vc79 l:"Weekly Crime Statistics" t:url=https://data.jacksonms.gov/
 
 property e:jiea-vc79 t:meta.view v:id=jiea-vc79 v:category="Public Safety" v:averageRating=0 v:name="Weekly Crime Statistics"
 
-property e:jiea-vc79 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:displayName="Justin Bruce"
+property e:jiea-vc79 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 
-property e:jiea-vc79 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:displayName="Justin Bruce"
+property e:jiea-vc79 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 ```
 
 ## Top Records

@@ -70,9 +70,9 @@ entity e:j55i-sqj8 l:"Population Health Measures: Age-Adjusted Mortality Rates" 
 
 property e:j55i-sqj8 t:meta.view v:id=j55i-sqj8 v:category="Health and Human Services" v:averageRating=0 v:name="Population Health Measures: Age-Adjusted Mortality Rates"
 
-property e:j55i-sqj8 t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:displayName="MCG ESB Service"
+property e:j55i-sqj8 t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 
-property e:j55i-sqj8 t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:displayName="MCG ESB Service"
+property e:j55i-sqj8 t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 ```
 
 ## Top Records

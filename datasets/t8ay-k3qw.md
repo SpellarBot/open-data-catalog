@@ -56,7 +56,7 @@ series e:t8ay-k3qw d:1996-04-18T00:00:00.000Z t:street_side=E t:site_detail="5' 
 
 series e:t8ay-k3qw d:1994-06-27T00:00:00.000Z t:street_side=W t:site_detail="5' to 27' south of 24th St" t:cross_street="24th St" t:object_id=2 t:curb_quality=good m:space_length=22
 
-series e:t8ay-k3qw d:2017-04-01T16:30:16.000Z t:street_side=E t:site_detail="2' to 27' south of the north property line" t:cross_street="17th St" t:object_id=3 m:space_length=25
+series e:t8ay-k3qw d:2017-04-15T16:30:36.000Z t:street_side=E t:site_detail="2' to 27' south of the north property line" t:cross_street="17th St" t:object_id=3 m:space_length=25
 ```
 
 ## Meta Commands

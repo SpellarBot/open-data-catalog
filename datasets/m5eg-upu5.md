@@ -14,7 +14,7 @@
 | Category | Home Health Compare |
 | Tags | hhc, general information |
 | Created | 2012-10-17T19:56:31Z |
-| Publication Date | 2017-01-26T01:48:47Z |
+| Publication Date | 2017-04-11T23:19:18Z |
 
 ## Columns
 
@@ -37,11 +37,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=36104 t:provider_number=017000 t:state=AL m:row_number.m5eg-upu5=1
+series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z t:zip_code=36104 t:provider_number=017000 t:state=AL m:row_number.m5eg-upu5=1
 
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35005 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=2
+series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z t:zip_code=35005 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=2
 
-series e:m5eg-upu5 d:2017-01-05T16:16:55.000Z t:zip_code=35020 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=3
+series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z t:zip_code=35020 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=3
 ```
 
 ## Meta Commands
@@ -65,14 +65,14 @@ property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core v:Publisher=
 ```ls
 | :updated_at | state | provider_number | zip_code | 
 | =========== | ===== | =============== | ======== | 
-| 1483633015  | AL    | 017000          | 36104    | 
-| 1483633015  | AL    | 017008          | 35005    | 
-| 1483633015  | AL    | 017008          | 35020    | 
-| 1483633015  | AL    | 017008          | 35022    | 
-| 1483633015  | AL    | 017008          | 35023    | 
-| 1483633015  | AL    | 017008          | 35060    | 
-| 1483633015  | AL    | 017008          | 35064    | 
-| 1483633015  | AL    | 017008          | 35068    | 
-| 1483633015  | AL    | 017008          | 35071    | 
-| 1483633015  | AL    | 017008          | 35091    | 
+| 1490634070  | AL    | 017000          | 36104    | 
+| 1490634070  | AL    | 017008          | 35005    | 
+| 1490634070  | AL    | 017008          | 35020    | 
+| 1490634070  | AL    | 017008          | 35022    | 
+| 1490634070  | AL    | 017008          | 35023    | 
+| 1490634070  | AL    | 017008          | 35064    | 
+| 1490634070  | AL    | 017008          | 35068    | 
+| 1490634070  | AL    | 017008          | 35071    | 
+| 1490634070  | AL    | 017008          | 35091    | 
+| 1490634070  | AL    | 017008          | 35094    | 
 ```

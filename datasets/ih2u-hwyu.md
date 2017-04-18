@@ -54,9 +54,9 @@ entity e:ih2u-hwyu l:"Salary: OUS: Southern Oregon University: Fiscal Year 2012"
 
 property e:ih2u-hwyu t:meta.view v:id=ih2u-hwyu v:category="Revenue & Expense" v:averageRating=0 v:name="Salary: OUS: Southern Oregon University: Fiscal Year 2012"
 
-property e:ih2u-hwyu t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
+property e:ih2u-hwyu t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
 
-property e:ih2u-hwyu t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:ih2u-hwyu t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
 ```
 
 ## Top Records

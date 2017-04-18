@@ -314,9 +314,9 @@ property e:mdsf-2nsf t:meta.view v:id=mdsf-2nsf v:category=Education v:attributi
 
 property e:mdsf-2nsf t:meta.view.license v:name="Public Domain"
 
-property e:mdsf-2nsf t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:displayName="Tyler Kleykamp"
+property e:mdsf-2nsf t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
 
-property e:mdsf-2nsf t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:displayName="Tyler Kleykamp"
+property e:mdsf-2nsf t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
 ```
 
 ## Top Records

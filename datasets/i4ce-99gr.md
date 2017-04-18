@@ -83,9 +83,9 @@ entity e:i4ce-99gr l:"Budget Table - J1 (Salary and FTE)" t:url=https://data.haw
 
 property e:i4ce-99gr t:meta.view v:id=i4ce-99gr v:averageRating=0 v:name="Budget Table - J1 (Salary and FTE)"
 
-property e:i4ce-99gr t:meta.view.owner v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:displayName="Meredith Slota"
+property e:i4ce-99gr t:meta.view.owner v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1491335579 v:displayName="Meredith Slota"
 
-property e:i4ce-99gr t:meta.view.tableauthor v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:displayName="Meredith Slota"
+property e:i4ce-99gr t:meta.view.tableauthor v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1491335579 v:displayName="Meredith Slota"
 ```
 
 ## Top Records

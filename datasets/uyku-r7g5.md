@@ -57,9 +57,9 @@ entity e:uyku-r7g5 l:"Contracts: OUS: Capital Construction Retainer Program: CSR
 
 property e:uyku-r7g5 t:meta.view v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
 
-property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
 
-property e:uyku-r7g5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
 ```
 
 ## Top Records

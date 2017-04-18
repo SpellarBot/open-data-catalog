@@ -63,7 +63,7 @@ entity e:w9cy-nnma l:"DYCD after-school programs: Reading And Writing Literacy P
 
 property e:w9cy-nnma t:meta.view v:id=w9cy-nnma v:category=Education v:averageRating=80 v:name="DYCD after-school programs: Reading And Writing Literacy Programs" v:attribution="Department of Youth and Community Development (DYCD)"
 
-property e:w9cy-nnma t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:displayName="NYC OpenData"
+property e:w9cy-nnma t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
 
 property e:w9cy-nnma t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```

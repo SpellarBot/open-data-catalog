@@ -15,7 +15,7 @@
 | Category | Public Safety and Preparedness |
 | Tags | police, body worn camera |
 | Created | 2016-03-23T16:00:41Z |
-| Publication Date | 2017-03-03T20:04:43Z |
+| Publication Date | 2017-04-13T16:09:55Z |
 
 ## Description
 
@@ -71,7 +71,7 @@ series e:qarb-kkbj d:2016-11-01T12:47:01.896Z t:title="3250 GEN DE GAULLE" t:id_
 ```ls
 metric m:size_mb p:decimal l:size_mb t:dataTypeName=number
 
-metric m:duration_seconds p:double l:duration_seconds t:dataTypeName=number
+metric m:duration_seconds p:integer l:duration_seconds t:dataTypeName=number
 
 entity e:qarb-kkbj l:"NOPD Body Worn Camera Metadata" t:attribution="City of New Orleans Police Department" t:url=https://data.nola.gov/api/views/qarb-kkbj
 
