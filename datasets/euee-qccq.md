@@ -19,7 +19,7 @@
 
 ## Description
 
-As underground drainage systems age, occasionally failures in the pipes and joints can cause pavement cave-ins.  The Department of Transportation (CDOT) responds to pavement cave-ins reported through 311’s Customer Service Requests (CSR) system on a case-by-case basis.  This metric tracks the average number of days CDOT takes to complete pavement cave-in repairs per week.  The target response time for pavement cave-ins is within 3 days.
+As underground drainage systems age, occasionally failures in the pipes and joints can cause pavement cave-ins.  The Department of Transportation (CDOT) responds to pavement cave-ins reported through 311?s Customer Service Requests (CSR) system on a case-by-case basis.  This metric tracks the average number of days CDOT takes to complete pavement cave-in repairs per week.  The target response time for pavement cave-ins is within 3 days.
 
 ## Columns
 

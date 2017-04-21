@@ -19,7 +19,7 @@
 
 ## Description
 
-This data set features license applications received during the last and current calendar years, including applications where a license was issued, denied, withdrawn, or remains pending. For a list of legally operating businesses, please refer to the DCA – Legally Operating Businesses data set. This data set is updated on a weekly basis.
+This data set features license applications received during the last and current calendar years, including applications where a license was issued, denied, withdrawn, or remains pending. For a list of legally operating businesses, please refer to the DCA ? Legally Operating Businesses data set. This data set is updated on a weekly basis.
 
 ## Columns
 

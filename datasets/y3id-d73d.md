@@ -19,7 +19,7 @@
 
 ## Description
 
-The dataset provides aggregate payments made to vendors by institution and fiscal year starting with FY 2012.  Payments made by the Board of Regents are assigned to fiscal years that run from July 1 to the following June 30, and are numbered for the calendar year in which they end (e.g. FY 2014 is July 1, 2013 – June 30, 2014).
+The dataset provides aggregate payments made to vendors by institution and fiscal year starting with FY 2012.  Payments made by the Board of Regents are assigned to fiscal years that run from July 1 to the following June 30, and are numbered for the calendar year in which they end (e.g. FY 2014 is July 1, 2013 ? June 30, 2014).
 
 ## Columns
 

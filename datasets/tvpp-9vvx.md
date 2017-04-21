@@ -15,7 +15,7 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-04-17T19:32:44Z |
+| Publication Date | 2017-04-20T19:25:31Z |
 
 ## Description
 
@@ -56,11 +56,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-04-30T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2017-05-20T08:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Parks Department" t:event_id=317499 t:event_location="Union Square Park: North Plaza" t:street_closure_type=N/A t:community_board=5, t:event_name="(2017) Green Market (Jan - Dec)" t:police_precinct=13, m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-05-07T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-04-20T08:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Parks Department" t:event_id=317527 t:event_location="Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza" t:street_closure_type=N/A t:community_board=5, t:event_name="(2017) NO AMPLIFIED SOUND" t:police_precinct=13, m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-05-14T08:00:00.000Z t:event_borough=Manhattan t:event_type="Farmers Market" t:event_agency="Street Activity Permit Office" t:event_id=314114 t:event_street_side=East t:event_location="BROADWAY between WEST  114 STREET and WEST  116 STREET" t:street_closure_type="Sidewalk and Curb Lane Closure" t:community_board=9, t:event_name="Columbia Greenmarket Sunday" t:police_precinct=26, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-04-21T08:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Parks Department" t:event_id=317527 t:event_location="Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza" t:street_closure_type=N/A t:community_board=5, t:event_name="(2017) NO AMPLIFIED SOUND" t:police_precinct=13, m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands
@@ -80,16 +80,16 @@ property e:tvpp-9vvx t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC Op
 ## Top Records
 
 ```ls
-| event_id | event_name                      | start_date_time     | end_date_time       | event_agency                  | event_type     | event_borough | event_location                                       | event_street_side | street_closure_type            | community_board | police_precinct | 
-| ======== | =============================== | =================== | =================== | ============================= | ============== | ============= | ==================================================== | ================= | ============================== | =============== | =============== | 
-| 314114   | Columbia Greenmarket Sunday     | 2017-04-30T08:00:00 | 2017-04-30T05:00:00 | Street Activity Permit Office | Farmers Market | Manhattan     | BROADWAY between WEST 114 STREET and WEST 116 STREET | East              | Sidewalk and Curb Lane Closure | 9,              | 26,             | 
-| 314114   | Columbia Greenmarket Sunday     | 2017-05-07T08:00:00 | 2017-05-07T05:00:00 | Street Activity Permit Office | Farmers Market | Manhattan     | BROADWAY between WEST 114 STREET and WEST 116 STREET | East              | Sidewalk and Curb Lane Closure | 9,              | 26,             | 
-| 314114   | Columbia Greenmarket Sunday     | 2017-05-14T08:00:00 | 2017-05-14T05:00:00 | Street Activity Permit Office | Farmers Market | Manhattan     | BROADWAY between WEST 114 STREET and WEST 116 STREET | East              | Sidewalk and Curb Lane Closure | 9,              | 26,             | 
-| 314118   | Cortelyou Greenmarket Sunday    | 2017-04-23T08:00:00 | 2017-04-23T17:00:00 | Street Activity Permit Office | Farmers Market | Brooklyn      | CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD    | North             | Sidewalk and Curb Lane Closure | 14,             | 70,             | 
-| 314118   | Cortelyou Greenmarket Sunday    | 2017-04-30T08:00:00 | 2017-04-30T17:00:00 | Street Activity Permit Office | Farmers Market | Brooklyn      | CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD    | North             | Sidewalk and Curb Lane Closure | 14,             | 70,             | 
-| 314118   | Cortelyou Greenmarket Sunday    | 2017-05-07T08:00:00 | 2017-05-07T17:00:00 | Street Activity Permit Office | Farmers Market | Brooklyn      | CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD    | North             | Sidewalk and Curb Lane Closure | 14,             | 70,             | 
-| 314118   | Cortelyou Greenmarket Sunday    | 2017-05-14T08:00:00 | 2017-05-14T17:00:00 | Street Activity Permit Office | Farmers Market | Brooklyn      | CORTELYOU ROAD between RUGBY ROAD and ARGYLE ROAD    | North             | Sidewalk and Curb Lane Closure | 14,             | 70,             | 
-| 314119   | Forest Hills Greenmarket Sunday | 2017-04-23T08:00:00 | 2017-04-23T17:00:00 | Street Activity Permit Office | Farmers Market | Queens        | QUEENS BOULEVARD between 70 AVENUE and 69 ROAD       | South             | Sidewalk and Curb Lane Closure | 6,              | 112,            | 
-| 314119   | Forest Hills Greenmarket Sunday | 2017-04-30T08:00:00 | 2017-04-30T17:00:00 | Street Activity Permit Office | Farmers Market | Queens        | QUEENS BOULEVARD between 70 AVENUE and 69 ROAD       | South             | Sidewalk and Curb Lane Closure | 6,              | 112,            | 
-| 314119   | Forest Hills Greenmarket Sunday | 2017-05-07T08:00:00 | 2017-05-07T17:00:00 | Street Activity Permit Office | Farmers Market | Queens        | QUEENS BOULEVARD between 70 AVENUE and 69 ROAD       | South             | Sidewalk and Curb Lane Closure | 6,              | 112,            | 
+| event_id | event_name                      | start_date_time     | end_date_time       | event_agency     | event_type    | event_borough | event_location                                                                                   | event_street_side | street_closure_type | community_board | police_precinct | 
+| ======== | =============================== | =================== | =================== | ================ | ============= | ============= | ================================================================================================ | ================= | =================== | =============== | =============== | 
+| 317499   | (2017) Green Market (Jan - Dec) | 2017-05-20T08:00:00 | 2017-05-20T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                   |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-20T08:00:00 | 2017-04-20T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-21T08:00:00 | 2017-04-21T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-22T08:00:00 | 2017-04-22T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-23T08:00:00 | 2017-04-23T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-24T08:00:00 | 2017-04-24T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-25T08:00:00 | 2017-04-25T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-26T08:00:00 | 2017-04-26T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-27T08:00:00 | 2017-04-27T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
+| 317527   | (2017) NO AMPLIFIED SOUND       | 2017-04-28T08:00:00 | 2017-04-28T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: Gandhi Statue ,Union Square Park: South Plaza ,Union Square Park: North Plaza |                   | N/A                 | 5,              | 13,             | 
 ```

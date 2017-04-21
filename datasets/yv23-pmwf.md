@@ -1,0 +1,150 @@
+# Building and Safety Permit Information
+
+## Dataset
+
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/building-and-safety-permit-information) |
+| Metadata | [Link](https://data.lacity.org/api/views/yv23-pmwf) |
+| Data: JSON | [100 Rows](https://data.lacity.org/api/views/yv23-pmwf/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.lacity.org/api/views/yv23-pmwf/rows.csv?max_rows=100) |
+| Host | data.lacity.org |
+| Id | yv23-pmwf |
+| Name | Building and Safety Permit Information |
+| Attribution | LADBS |
+| Category | A Prosperous City |
+| Tags | ladbs, department of building and safety, building and safety, building, safety, construction services, construction, permit, permit number, permit type, occupancy, sign, building permit, building... |
+| Created | 2014-03-19T14:48:47Z |
+| Publication Date | 2017-01-04T00:51:54Z |
+
+## Description
+
+The Department of Building and Safety issues permits for the construction, remodeling, and repair of buildings and structures in the City of Los Angeles.  Permits are categorized into building permits, electrical permits, and mechanical permits (which include plumbing, HVAC systems, fire sprinklers, elevators, and pressure vessels).  Depending on the complexity of a project, a permit may be issued the same day with Express Permit or e-Permit ("No Plan Check" category), or a permit may require that the plans be reviewed ("Plan Check" category) by a Building and Safety Plan Check personnel.
+
+## Columns
+
+```ls
+| Included | Schema Type    | Field Name                              | Name                                     | Data Type     | Render Type   |
+| ======== | ============== | ======================================= | ======================================== | ============= | ============= |
+| Yes      | series tag     | assessor_book                           | Assessor Book                            | text          | text          |
+| Yes      | series tag     | assessor_page                           | Assessor Page                            | text          | text          |
+| Yes      | series tag     | assessor_parcel                         | Assessor Parcel                          | text          | text          |
+| Yes      | series tag     | tract                                   | Tract                                    | text          | text          |
+| Yes      | series tag     | block                                   | Block                                    | text          | text          |
+| Yes      | series tag     | lot                                     | Lot                                      | text          | text          |
+| Yes      | series tag     | reference_old_permit                    | Reference # (Old Permit #)               | text          | text          |
+| Yes      | series tag     | pcis_permit                             | PCIS Permit #                            | text          | text          |
+| Yes      | series tag     | latest_status                           | Status                                   | text          | text          |
+| Yes      | time           | status_date                             | Status Date                              | calendar_date | calendar_date |
+| Yes      | series tag     | permit_type                             | Permit Type                              | text          | text          |
+| Yes      | series tag     | permit_sub_type                         | Permit Sub-Type                          | text          | text          |
+| Yes      | series tag     | permit_category                         | Permit Category                          | text          | text          |
+| Yes      | series tag     | project_number                          | Project Number                           | text          | number        |
+| Yes      | series tag     | event_code                              | Event Code                               | text          | text          |
+| Yes      | series tag     | initiating_office                       | Initiating Office                        | text          | text          |
+| No       |                | issue_date                              | Issue Date                               | calendar_date | calendar_date |
+| No       |                | address_start                           | Address Start                            | number        | number        |
+| No       |                | address_fraction_start                  | Address Fraction Start                   | text          | text          |
+| No       |                | address_end                             | Address End                              | number        | number        |
+| No       |                | address_fraction_end                    | Address Fraction End                     | text          | text          |
+| Yes      | series tag     | street_direction                        | Street Direction                         | text          | text          |
+| Yes      | series tag     | street_name                             | Street Name                              | text          | text          |
+| Yes      | series tag     | street_suffix                           | Street Suffix                            | text          | text          |
+| Yes      | series tag     | suffix_direction                        | Suffix Direction                         | text          | text          |
+| Yes      | series tag     | unit_range_start                        | Unit Range Start                         | text          | text          |
+| Yes      | series tag     | unit_range_end                          | Unit Range End                           | text          | text          |
+| Yes      | series tag     | zip_code                                | Zip Code                                 | text          | number        |
+| Yes      | series tag     | work_description                        | Work Description                         | text          | text          |
+| Yes      | numeric metric | valuation                               | Valuation                                | money         | money         |
+| Yes      | numeric metric | floor_area_l_a_zoning_code_definition   | Floor Area-L.A. Zoning Code Definition   | number        | number        |
+| Yes      | numeric metric | of_residential_dwelling_units           | # of Residential Dwelling Units          | number        | number        |
+| Yes      | numeric metric | of_stories                              | # of Stories                             | number        | number        |
+| Yes      | series tag     | contractors_business_name               | Contractor's Business Name               | text          | text          |
+| No       |                | contractor_address                      | Contractor Address                       | text          | text          |
+| Yes      | series tag     | contractor_city                         | Contractor City                          | text          | text          |
+| Yes      | series tag     | contractor_state                        | Contractor State                         | text          | text          |
+| Yes      | series tag     | license_type                            | License Type                             | text          | text          |
+| Yes      | numeric metric | license                                 | License #                                | number        | number        |
+| Yes      | series tag     | principal_first_name                    | Principal First Name                     | text          | text          |
+| Yes      | series tag     | principal_middle_name                   | Principal Middle Name                    | text          | text          |
+| Yes      | series tag     | principal_last_name                     | Principal Last Name                      | text          | text          |
+| No       |                | license_expiration_date                 | License Expiration Date                  | calendar_date | calendar_date |
+| Yes      | series tag     | applicant_first_name                    | Applicant First Name                     | text          | text          |
+| Yes      | series tag     | applicant_last_name                     | Applicant Last Name                      | text          | text          |
+| Yes      | series tag     | applicant_business_name                 | Applicant Business Name                  | text          | text          |
+| No       |                | applicant_address_1                     | Applicant Address 1                      | text          | text          |
+| No       |                | applicant_address_2                     | Applicant Address 2                      | text          | text          |
+| No       |                | applicant_address_3                     | Applicant Address 3                      | text          | text          |
+| Yes      | series tag     | zone                                    | Zone                                     | text          | text          |
+| Yes      | series tag     | occupancy                               | Occupancy                                | text          | text          |
+| Yes      | numeric metric | floor_area_l_a_building_code_definition | Floor Area-L.A. Building Code Definition | number        | number        |
+| Yes      | series tag     | census_tract                            | Census Tract                             | text          | text          |
+| Yes      | series tag     | council_district                        | Council District                         | text          | text          |
+| Yes      | series tag     | applicant_relationship                  | Applicant Relationship                   | text          | text          |
+```
+
+## Time Field
+
+```ls
+Value = status_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = issue_date,address_start,address_fraction_start,address_end,address_fraction_end,contractor_address,license_expiration_date,applicant_address_1,applicant_address_2,applicant_address_3
+```
+
+## Data Commands
+
+```ls
+series e:yv23-pmwf d:2015-05-21T00:00:00.000Z t:applicant_last_name=KIM t:zip_code=90003 t:street_name=AVALON t:contractor_city=GLENDORA t:block=C t:council_district=9 t:principal_first_name=DANNY t:work_description="(N) OUTDOOR COVERED PATIO/SHADE STRUCTURE IN A PARK, 13'-8"" x 15'-5"" H" t:contractor_state=CA t:latest_status="CofO in Progress" t:occupancy="B Occ. Group" t:census_tract=2392.02 t:reference_old_permit=14LA39072 t:permit_category="Plan Check" t:permit_type=Nonbldg-New t:initiating_office=METRO t:license_type=B t:principal_last_name=DAHER t:applicant_relationship="Agent for Owner" t:street_suffix=BLVD t:pcis_permit=14020-10000-02067 t:applicant_business_name="L.A. NEIGHBROHOOD LAND TRUST" t:contractors_business_name="D D SYSTEMS INC" t:applicant_first_name=MIKE t:tract="STRONG AND DICKINSON'S ASCOT SOUTH PARK TRACT" t:lot=5 t:permit_sub_type=Commercial t:street_direction=S t:zone=[Q]C2-1 m:floor_area_l_a_zoning_code_definition=150 m:of_stories=1 m:valuation=35000 m:floor_area_l_a_building_code_definition=0 m:license=847907
+
+series e:yv23-pmwf d:2015-04-01T00:00:00.000Z t:permit_category="Plan Check" t:permit_type="Fire Sprinkler" t:initiating_office=METRO t:principal_middle_name=DAVID t:principal_last_name=ANCHONDO t:license_type=C16 t:zip_code=91326 t:street_suffix=AVE t:street_name=MASON t:pcis_permit=14043-10000-04901 t:unit_range_start="TYPE 3B" t:contractor_city=ANAHEIM t:council_district=12 t:principal_first_name=CESAR t:work_description="NEW 13D SPRINKLER SYSTEM FOR SINGLE FAMILY DWELLING W/ ATTACHED GARAGE" t:contractors_business_name="RESIDENTIAL FIRE SYSTEMS INC" t:contractor_state=CA t:tract="EX MISSION DE SAN FERNANDO" t:permit_sub_type="1 or 2 Family Dwelling" t:lot="SEC 5 T2N R16W" t:street_direction=N t:latest_status="Permit Finaled" t:reference_old_permit=14LA t:census_tract=1082.02 t:zone=[T]RE-1 m:floor_area_l_a_building_code_definition=0 m:license=786965
+
+series e:yv23-pmwf d:2014-11-06T00:00:00.000Z t:permit_category="No Plan Check" t:permit_type=Electrical t:initiating_office=INTERNET t:principal_middle_name=TERUKO t:principal_last_name=O'BRYANT t:applicant_last_name=WITHERS t:license_type=C10 t:zip_code=91367 t:applicant_relationship="Net Applicant" t:street_suffix=AVE t:street_name=OWENSMOUTH t:pcis_permit=14041-90000-26184 t:unit_range_start="3rd Floor" t:contractor_city=CHATSWORTH t:principal_first_name=CATHERINE t:contractors_business_name="O'BRYANT ELECTRIC INC" t:applicant_first_name=MONICA t:contractor_state=CA t:tract="P M 3700" t:permit_sub_type=Commercial t:lot=B t:street_direction=N t:latest_status="Permit Closed" m:floor_area_l_a_building_code_definition=0 m:license=386619
+```
+
+## Meta Commands
+
+```ls
+metric m:valuation p:integer l:Valuation d:"The property/structure valuation amount is used to calculate the building permit fee and all fees calculated as percentage of the building fee. For all building permit types, except for Grading, the valuation is measured in dollars. For Grading permit applications, the valuation is measured in cubic yards of soil removed or added." t:dataTypeName=money
+
+metric m:floor_area_l_a_zoning_code_definition p:integer l:"Floor Area-L.A. Zoning Code Definition" d:"Floor area as defined in the Los Angeles Zoning Code." t:dataTypeName=number
+
+metric m:of_residential_dwelling_units p:integer l:"# of Residential Dwelling Units" d:"Number of dwelling units for a residential building." t:dataTypeName=number
+
+metric m:of_stories p:integer l:"# of Stories" d:"Number of stories." t:dataTypeName=number
+
+metric m:license p:integer l:"License #" d:"Contractor's license number." t:dataTypeName=number
+
+metric m:floor_area_l_a_building_code_definition p:double l:"Floor Area-L.A. Building Code Definition" d:"Floor area as defined in the Los Angeles Building Code." t:dataTypeName=number
+
+entity e:yv23-pmwf l:"Building and Safety Permit Information" t:attribution=LADBS t:url=https://data.lacity.org/api/views/yv23-pmwf
+
+property e:yv23-pmwf t:meta.view v:id=yv23-pmwf v:category="A Prosperous City" v:averageRating=0 v:name="Building and Safety Permit Information" v:attribution=LADBS
+
+property e:yv23-pmwf t:meta.view.license v:name="Public Domain"
+
+property e:yv23-pmwf t:meta.view.owner v:id=tdwf-cih6 v:profileImageUrlMedium=/api/users/tdwf-cih6/profile_images/THUMB v:profileImageUrlLarge=/api/users/tdwf-cih6/profile_images/LARGE v:screenName="Building and Safety OpenData" v:profileImageUrlSmall=/api/users/tdwf-cih6/profile_images/TINY v:displayName="Building and Safety OpenData"
+
+property e:yv23-pmwf t:meta.view.tableauthor v:id=tdwf-cih6 v:profileImageUrlMedium=/api/users/tdwf-cih6/profile_images/THUMB v:profileImageUrlLarge=/api/users/tdwf-cih6/profile_images/LARGE v:screenName="Building and Safety OpenData" v:profileImageUrlSmall=/api/users/tdwf-cih6/profile_images/TINY v:roleName=publisher v:displayName="Building and Safety OpenData"
+```
+
+## Top Records
+
+```ls
+| assessor_book | assessor_page | assessor_parcel | tract                                         | block | lot            | reference_old_permit | pcis_permit       | latest_status    | status_date         | permit_type       | permit_sub_type        | permit_category | project_number | event_code | initiating_office | issue_date          | address_start | address_fraction_start | address_end | address_fraction_end | street_direction | street_name | street_suffix | suffix_direction | unit_range_start | unit_range_end | zip_code | work_description                                                       | valuation | floor_area_l_a_zoning_code_definition | of_residential_dwelling_units | of_stories | contractors_business_name                          | contractor_address          | contractor_city | contractor_state | license_type | license | principal_first_name | principal_middle_name | principal_last_name | license_expiration_date | applicant_first_name | applicant_last_name | applicant_business_name      | applicant_address_1 | applicant_address_2 | applicant_address_3 | zone          | occupancy        | floor_area_l_a_building_code_definition | census_tract | council_district | applicant_relationship | 
+| ============= | ============= | =============== | ============================================= | ===== | ============== | ==================== | ================= | ================ | =================== | ================= | ====================== | =============== | ============== | ========== | ================= | =================== | ============= | ====================== | =========== | ==================== | ================ | =========== | ============= | ================ | ================ | ============== | ======== | ====================================================================== | ========= | ===================================== | ============================= | ========== | ================================================== | =========================== | =============== | ================ | ============ | ======= | ==================== | ===================== | =================== | ======================= | ==================== | =================== | ============================ | =================== | =================== | =================== | ============= | ================ | ======================================= | ============ | ================ | ====================== | 
+|               |               |                 | STRONG AND DICKINSON'S ASCOT SOUTH PARK TRACT | C     | 5              | 14LA39072            | 14020-10000-02067 | CofO in Progress | 2015-05-21T00:00:00 | Nonbldg-New       | Commercial             | Plan Check      |                |            | METRO             | 2014-10-17T00:00:00 | 6301          |                        | 6301        |                      | S                | AVALON      | BLVD          |                  |                  |                | 90003    | (N) OUTDOOR COVERED PATIO/SHADE STRUCTURE IN A PARK, 13'-8" x 15'-5" H | 35000     | 150                                   |                               | 1          | D D SYSTEMS INC                                    | 147 W ROUTE 66 #431         | GLENDORA        | CA               | B            | 847907  | DANNY                |                       | DAHER               | 2014-10-31T00:00:00     | MIKE                 | KIM                 | L.A. NEIGHBROHOOD LAND TRUST | 315 W 9TH ST        |                     | LOS ANGELES, CA     | [Q]C2-1       | B Occ. Group     | 0                                       | 2392.02      | 9                | Agent for Owner        | 
+|               |               |                 | EX MISSION DE SAN FERNANDO                    |       | SEC 5 T2N R16W | 14LA                 | 14043-10000-04901 | Permit Finaled   | 2015-04-01T00:00:00 | Fire Sprinkler    | 1 or 2 Family Dwelling | Plan Check      |                |            | METRO             | 2014-11-25T00:00:00 | 12400         |                        | 12400       |                      | N                | MASON       | AVE           |                  | TYPE 3B          |                | 91326    | NEW 13D SPRINKLER SYSTEM FOR SINGLE FAMILY DWELLING W/ ATTACHED GARAGE |           |                                       |                               |            | RESIDENTIAL FIRE SYSTEMS INC                       | 8085 E CRYSTAL DRIVE        | ANAHEIM         | CA               | C16          | 786965  | CESAR                | DAVID                 | ANCHONDO            | 2014-11-30T00:00:00     |                      |                     |                              |                     |                     |                     | [T]RE-1       |                  | 0                                       | 1082.02      | 12               |                        | 
+|               |               |                 | P M 3700                                      |       | B              |                      | 14041-90000-26184 | Permit Closed    | 2014-11-06T00:00:00 | Electrical        | Commercial             | No Plan Check   |                |            | INTERNET          | 2014-09-23T00:00:00 | 6301          |                        | 6301        |                      | N                | OWENSMOUTH  | AVE           |                  | 3rd Floor        |                | 91367    |                                                                        |           |                                       |                               |            | O'BRYANT ELECTRIC INC                              | 20417 NORDHOFF STREET       | CHATSWORTH      | CA               | C10          | 386619  | CATHERINE            | TERUKO                | O'BRYANT            | 2016-01-31T00:00:00     | MONICA               | WITHERS             |                              | 20417 NORDHOFF ST   |                     | CHATSWORTH , CA     |               |                  | 0                                       |              |                  | Net Applicant          | 
+|               |               |                 | TR 71589-C                                    |       | LT 1           |                      | 13044-90000-03451 | Permit Finaled   | 2014-02-24T00:00:00 | HVAC              | Apartment              | No Plan Check   |                |            | INTERNET          | 2013-04-02T00:00:00 | 1666          |                        | 1666        |                      | S                | GREENFIELD  | AVE           |                  |                  |                | 90025    |                                                                        |           |                                       |                               |            | VT HEATING AND AC                                  | 4405 LOWELL AVENUE          | LA CRESCENTA    | CA               | C20          | 725895  | VARTKES              |                       | TOROSIAN            | 2014-08-31T00:00:00     | VARTKES              | TOROSIAN            |                              | 4405 LOWELL AVE     |                     | LA CRESCENTA, CA    | [Q]R3-1-O     |                  | 0                                       |              |                  | Net Applicant          | 
+|               |               |                 | TR 71569-C                                    |       | LT 1           | 14WL57392            | 14047-30000-00480 | CofO in Progress | 2014-11-24T00:00:00 | Swimming-Pool/Spa | Apartment              | Plan Check      |                |            | WEST LA           | 2014-04-11T00:00:00 | 21501         |                        | 21501       |                      | W                | ROSCOE      | BLVD          |                  |                  |                | 91304    | PROPOSED POOL 10' DIA SPA PER LA CITY STD POOL PLAN.                   | 7000      |                                       |                               |            | B & M CONTRACTORS INC                              | 4473 E COCHRAN STREET       | SIMI VALLEY     | CA               | C53          | 803703  | RANDALL              | BOUHA                 | BILSLAND            | 2016-01-31T00:00:00     | MAE                  |                     |                              |                     |                     |                     | C2-1          | Misc. Occ. Group | 0                                       | 1132.33      | 3                | Contractor             | 
+|               |               |                 | TR 65610                                      |       | 28             | 14LA                 | 14043-10000-03601 | Permit Finaled   | 2015-06-08T00:00:00 | Fire Sprinkler    | 1 or 2 Family Dwelling | Plan Check      |                |            | METRO             | 2014-10-29T00:00:00 | 5637          |                        | 5637        |                      | W                | CIELO       | WAY           |                  |                  |                | 90028    | 13-D for SFD with individual meter.                                    |           |                                       |                               |            | ON GUARD FIRE PROTECTION                           | 6438 ARVILLE ST             | LAS VEGAS       | NV               | C16          | 950378  | BABAK                |                       | TAVAKOLI            | 2016-07-31T00:00:00     | JASON                | DONOHUE             |                              | 7705 COMMERCIAL WAT | #155                | HENDERSON NV        | R3-1          |                  | 0                                       | 1903.01      | 13               | Agent for Contractor   | 
+|               |               |                 | P M 2011-1716                                 |       | A              |                      | 15041-30000-32959 | Issued           | 2015-10-05T00:00:00 | Electrical        | 1 or 2 Family Dwelling | No Plan Check   |                |            | WEST LA           | 2015-10-05T00:00:00 | 3646          |                        | 3646        |                      | S                | INGLEWOOD   | BLVD          |                  | TEMP             |                | 90066    |                                                                        |           |                                       |                               |            | OWNER-BUILDER                                      |                             |                 |                  | NA           | 0       |                      |                       |                     | 2009-01-01T00:00:00     |                      |                     |                              |                     |                     |                     | R1-1          |                  | 0                                       | 2719.02      | 11               | Owner-Bldr             | 
+|               |               |                 | TR 67492-01                                   |       | LT 2           | 14LA35963            | 14048-10000-01432 | Permit Finaled   | 2014-11-13T00:00:00 | Sign              | Onsite                 | Plan Check      |                |            | METRO             | 2014-08-12T00:00:00 | 225           |                        | 225         |                      | S                | GRAND       | AVE           |                  |                  |                | 90012    | 2 NEW WALL MOUNT SIGNS (3'-6" x 3'-0"; Reading "The Emerson" with logo | 20915     |                                       |                               |            | WEIDNER ARCHITECTURAL SIGNAGE / HOUSE OF SIGNS INC | 5001 24TH STREET            | SACRAMENTO      | CA               | C45          | 559090  | EDWIN                | FREDERICK             | WEIDNER             | 2015-03-31T00:00:00     | KORY                 | KIPP                |                              | 2211 S. FIGUERO ST. | # 370               | LOS ANGELES, CA     | [T][Q]C2-4D   |                  | 0                                       | 2075.02      | 14               | Agent for Contractor   | 
+|               |               |                 |                                               |       |                |                      | 15041-90000-43873 | Issued           | 2015-12-30T00:00:00 | Electrical        | 1 or 2 Family Dwelling | No Plan Check   |                |            | INTERNET          | 2015-12-30T00:00:00 |               |                        |             |                      |                  |             |               |                  |                  |                |          |                                                                        |           |                                       |                               |            | SUNRUN INSTALLATION SERVICES INC                   | 775 FIERO LANE STE 200      | SAN LUIS OBISPO | CA               | C46          | 750184  | GILBERT              | ALAN                  | CORREIA             | 2016-06-30T00:00:00     | KOHEN                | BENNETT             |                              | 13012 SATICOY ST    | 1                   | NORTH HOLLYWOOD, CA |               |                  | 0                                       |              |                  | Net Applicant          | 
+|               |               |                 | TR 61146                                      |       | 39             | 14LA                 | 14043-10000-01384 | Permit Finaled   | 2014-10-07T00:00:00 | Fire Sprinkler    | 1 or 2 Family Dwelling | Plan Check      |                |            | METRO             | 2014-04-16T00:00:00 | 6749          |                        | 6749        |                      | W                | GILL        | WAY           |                  |                  |                | 90068    | 13-D (2013) system for single family dwelling with 1 inch water meter. |           |                                       |                               |            | FIRE SPRINKLER SYSTEMS INC                         | 705 E HARRISON ST SUITE 200 | CORONA          | CA               | C16          | 684600  | HAROLD               | JEROME                | RODGERS             | 2016-02-29T00:00:00     |                      |                     | FIRE SPRINKLER SYSTEMS INC   | 705 E HARRISON ST   | 200                 | CORONA CA           | (T)(Q)RD3-1-H |                  | 0                                       | 1897.02      | 4                | Agent for Contractor   | 
+```

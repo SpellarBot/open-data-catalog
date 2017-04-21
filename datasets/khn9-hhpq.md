@@ -19,7 +19,7 @@
 
 ## Description
 
-The Division of Criminal Justice Services (DCJS) collects personnel statistics from more than 500 New York State police and sheriffs’ departments. In New York State, law enforcement agencies use the Uniform Crime Reporting (UCR) system to report their annual personnel counts to DCJS.
+The Division of Criminal Justice Services (DCJS) collects personnel statistics from more than 500 New York State police and sheriffs? departments. In New York State, law enforcement agencies use the Uniform Crime Reporting (UCR) system to report their annual personnel counts to DCJS.
 
 ## Columns
 
@@ -66,21 +66,21 @@ series e:khn9-hhpq d:2013-01-01T00:00:00.000Z t:county=Albany m:part_time_total=
 ## Meta Commands
 
 ```ls
-metric m:sworn_full_time p:integer l:"Sworn Full Time" d:"Counts of allsworn law enforcement officers with full arrest powers who were on the payroll as of October 31st Personnelthat work a normalfull‐time work week" t:dataTypeName=number
+metric m:sworn_full_time p:integer l:"Sworn Full Time" d:"Counts of allsworn law enforcement officers with full arrest powers who were on the payroll as of October 31st Personnelthat work a normalfull?time work week" t:dataTypeName=number
 
-metric m:sworn_part_time p:integer l:"Sworn Part Time" d:"Counts of allsworn law enforcement officers with full arrest powers who were on the payroll as of October 31st Personnelthat work lessthan a normalfull‐time work week" t:dataTypeName=number
+metric m:sworn_part_time p:integer l:"Sworn Part Time" d:"Counts of allsworn law enforcement officers with full arrest powers who were on the payroll as of October 31st Personnelthat work lessthan a normalfull?time work week" t:dataTypeName=number
 
 metric m:sworn_total p:integer l:"Sworn Total" t:dataTypeName=number
 
-metric m:civilian_full_time p:integer l:"Civilian Full Time" d:"Counts of all non‐sworn support personnel who were on the payroll as ofOctober 31st Personnelthat work a normalfull‐time work week" t:dataTypeName=number
+metric m:civilian_full_time p:integer l:"Civilian Full Time" d:"Counts of all non?sworn support personnel who were on the payroll as ofOctober 31st Personnelthat work a normalfull?time work week" t:dataTypeName=number
 
-metric m:civilian_park_time p:integer l:"Civilian Part Time" d:"Counts of all non‐sworn support personnel who were on the payroll as ofOctober 31st Personnelthat work lessthan a normalfull‐time work week" t:dataTypeName=number
+metric m:civilian_park_time p:integer l:"Civilian Part Time" d:"Counts of all non?sworn support personnel who were on the payroll as ofOctober 31st Personnelthat work lessthan a normalfull?time work week" t:dataTypeName=number
 
-metric m:civilian_total p:integer l:"Civilian Total" d:"Counts of all non‐sworn support personnel who were on the payroll as ofOctober 31st" t:dataTypeName=number
+metric m:civilian_total p:integer l:"Civilian Total" d:"Counts of all non?sworn support personnel who were on the payroll as ofOctober 31st" t:dataTypeName=number
 
-metric m:full_time_total p:integer l:"Full Time Total" d:"Personnelthat work a normalfull‐time work week" t:dataTypeName=number
+metric m:full_time_total p:integer l:"Full Time Total" d:"Personnelthat work a normalfull?time work week" t:dataTypeName=number
 
-metric m:part_time_total p:integer l:"Part Time Total" d:"Personnelthat work lessthan a normalfull‐time work week" t:dataTypeName=number
+metric m:part_time_total p:integer l:"Part Time Total" d:"Personnelthat work lessthan a normalfull?time work week" t:dataTypeName=number
 
 metric m:grand_total p:integer l:"Grand Total" t:dataTypeName=number
 

@@ -1,0 +1,87 @@
+# Draft Additional Imagine Austin Indicators
+
+## Dataset
+
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/draft-additional-imagine-austin-indicators) |
+| Metadata | [Link](https://data.austintexas.gov/api/views/7dis-buys) |
+| Data: JSON | [100 Rows](https://data.austintexas.gov/api/views/7dis-buys/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/7dis-buys/rows.csv?max_rows=100) |
+| Host | data.austintexas.gov |
+| Id | 7dis-buys |
+| Name | Draft Additional Imagine Austin Indicators |
+| Attribution | City of Austin Planning and Development Review Department, Comprehensive Plan Division |
+| Category | Government |
+| Tags | urban, planning, comprhensive, plan |
+| Created | 2013-06-27T15:59:18Z |
+| Publication Date | 2013-10-25T15:06:21Z |
+
+## Description
+
+The Imagine Austin comprehensive plan calls for an analysis and assessment of indicators or metrics that can be used to measure progress after the plan's fifth year.  Many of the indicators were suggested and not completely scoped, and some were aspirational, or not measurable at the time.  The indicators in this list are primarily tracked by other entities, or not deemed as highly relevant and therefore may not receive the same level of analysis as the primary indicators that are available at https://data.austintexas.gov/Government/Draft-Imagine-Austin-Indicators/d7k5-jyb8.  Indicators may be revised as new techniques or data become available.
+
+## Columns
+
+```ls
+| Included | Schema Type | Field Name          | Name                | Data Type | Render Type |
+| ======== | =========== | =================== | =================== | ========= | =========== |
+| No       | time        | :updated_at         | updated_at          | meta_data | meta_data   |
+| Yes      | series tag  | indicator           | Indicator           | text      | text        |
+| Yes      | series tag  | original_name       | Original Name       | text      | text        |
+| Yes      | series tag  | primary_source      | Primary Source      | text      | text        |
+| Yes      | series tag  | primary_source_link | Primary Source Link | url       | url         |
+| Yes      | series tag  | second_source       | Second Source       | url       | url         |
+| Yes      | series tag  | third_source        | Third Source        | url       | url         |
+| Yes      | series tag  | ia_theme            | IA Theme            | text      | text        |
+| Yes      | series tag  | origination         | Origination         | text      | text        |
+| Yes      | series tag  | comments            | Comments            | text      | text        |
+```
+
+## Time Field
+
+```ls
+Value = updated_at
+Format & Zone = seconds
+```
+
+## Data Commands
+
+```ls
+series e:7dis-buys d:2013-06-27T09:00:22.000Z t:indicator="Percent of Residents Who Feel Safe in Their Neighborhoods" t:origination="See Comments" t:primary_source_link="http://www.austintexas.gov/budget/eperf/index.cfm?fuseaction=home.PerfMeasure&DEPT_CD=POLIC&MEASURE_ID=2827&GP_CD=11A2&DIV_CD=11AA" t:primary_source="City of Austin" t:ia_theme=Liveable t:original_name="Perception of Safety" t:comments="Also available in Central Texas Sustainbility Indicator project in 2009." m:row_number.7dis-buys=1
+
+series e:7dis-buys d:2013-06-27T09:00:22.000Z t:indicator="Percent of on-time subdivision and site plan initial reviews" t:origination="Not sure" t:primary_source_link="http://www.austintexas.gov/budget/eperf/index.cfm?fuseaction=home.PerfMeasure&DEPT_CD=PDR&DIV_CD=1SSP&GP_CD=6LUR&MEASURE_ID=3599" t:primary_source="City of Austin, Planning and Development Review" t:ia_theme=Liveable t:original_name="Time Needed for a Decision" t:comments="Original metric was vague.  City Development Tracking report indicates ""Cycle Time"" of development applications." m:row_number.7dis-buys=2
+
+series e:7dis-buys d:2013-06-27T09:00:22.000Z t:indicator="Impervious Cover" t:origination="Scenario Indicators" t:primary_source_link=http://www.austintexas.gov/department/watershed-protection t:primary_source="City of Austin, Watershed Protection, Geographic Information Systems layers" t:ia_theme="Natural and Sustainable" t:original_name="Impervious Cover per Capita and Total" t:comments="Major Update of GIS data in 2013-14, but otherwise updated infrequently depending on funding and availability of aerials.  Surrogate measures may be available, and may be more pertinent on a site by site basis.  Not provided as per capita before.  Jean Drew, WPDR, suggests we provide whatever is available in reports.  No specific number provided in State of Environment report." m:row_number.7dis-buys=3
+```
+
+## Meta Commands
+
+```ls
+metric m:row_number.7dis-buys p:long l:"Row Number"
+
+entity e:7dis-buys l:"Draft Additional Imagine Austin Indicators" t:attribution="City of Austin Planning and Development Review Department, Comprehensive Plan Division" t:url=https://data.austintexas.gov/api/views/7dis-buys
+
+property e:7dis-buys t:meta.view v:id=7dis-buys v:category=Government v:attributionLink=http://austintexas.gov/imagineaustin v:averageRating=0 v:name="Draft Additional Imagine Austin Indicators" v:attribution="City of Austin Planning and Development Review Department, Comprehensive Plan Division"
+
+property e:7dis-buys t:meta.view.owner v:id=4y62-vmjm v:screenName="Paul Frank" v:displayName="Paul Frank"
+
+property e:7dis-buys t:meta.view.tableauthor v:id=4y62-vmjm v:screenName="Paul Frank" v:roleName=editor_stories v:displayName="Paul Frank"
+```
+
+## Top Records
+
+```ls
+| :updated_at | indicator                                                    | original_name                         | primary_source                                                              | primary_source_link                                                                                                                        | second_source                                                   | third_source                                                                                                                                                      | ia_theme                | origination         | comments                                                                                                                                                                                                                                                                                                                                                                                | 
+| =========== | ============================================================ | ===================================== | =========================================================================== | ========================================================================================================================================== | =============================================================== | ================================================================================================================================================================= | ======================= | =================== | ======================================================================================================================================================================================================================================================================================================================================================================================= | 
+| 1372323622  | Percent of Residents Who Feel Safe in Their Neighborhoods    | Perception of Safety                  | City of Austin                                                              | [http://www.austintexas.gov/budget/eperf/index.cfm?fuseaction=home.PerfMeasure&DEPT_CD=POLIC&MEASURE_ID=2827&GP_CD=11A2&DIV_CD=11AA, null] | [null, null]                                                    | [null, null]                                                                                                                                                      | Liveable                | See Comments        | Also available in Central Texas Sustainbility Indicator project in 2009.                                                                                                                                                                                                                                                                                                                | 
+| 1372323622  | Percent of on-time subdivision and site plan initial reviews | Time Needed for a Decision            | City of Austin, Planning and Development Review                             | [http://www.austintexas.gov/budget/eperf/index.cfm?fuseaction=home.PerfMeasure&DEPT_CD=PDR&DIV_CD=1SSP&GP_CD=6LUR&MEASURE_ID=3599, null]   | [null, null]                                                    | [null, null]                                                                                                                                                      | Liveable                | Not sure            | Original metric was vague. City Development Tracking report indicates "Cycle Time" of development applications.                                                                                                                                                                                                                                                                         | 
+| 1372323622  | Impervious Cover                                             | Impervious Cover per Capita and Total | City of Austin, Watershed Protection, Geographic Information Systems layers | [http://www.austintexas.gov/department/watershed-protection, null]                                                                         | [null, null]                                                    | [null, null]                                                                                                                                                      | Natural and Sustainable | Scenario Indicators | Major Update of GIS data in 2013-14, but otherwise updated infrequently depending on funding and availability of aerials. Surrogate measures may be available, and may be more pertinent on a site by site basis. Not provided as per capita before. Jean Drew, WPDR, suggests we provide whatever is available in reports. No specific number provided in State of Environment report. | 
+| 1372323622  | Parks Per 1,000 persons                                      | Parks and Open Space                  | City of Austin, Parks and Recreation Department                             | [http://www.austintexas.gov/budget/eperf/index.cfm?fuseaction=home.PerfMeasure&DEPT_CD=PR&MEASURE_ID=3033&GP_CD=5PCA&DIV_CD=10PL, null]    | [http://cloud.tpl.org/pubs/ccpe-city-park-facts-2011.pdf, null] | [https://www.austintexas.gov/sites/default/files/files/Capital_Planning/Bond_Development/Parks_Open_Space_Committee/urban-parks-workgroup-final-report.pdf, null] | Natural and Sustainable | Several             | Open Space now part of "Amount of permanently preserved land for protection of water quality?" http://www.austintexas.gov/department/planning-and-design has list of parks and acreage.                                                                                                                                                                                                 | 
+| 1372323622  | Ozone Trends in the Austin Area                              | Air Quality                           | City of Austin, Office of Sustainability                                    | [http://issuu.com/austinclimateprotection/docs/city_of_austin_2010-2011_climate_action_report, null]                                       | [null, null]                                                    | [null, null]                                                                                                                                                      | Natural and Sustainable | Not sure            | Community Action Network Tracks "Attainment of Environmental Protection Agency (EPA) air ozone standards. Capital Area Council of Governments tracks information, but not in one easy metric. City tracks "Ozone Trends in the Austin Area: in the Climate Action Report.                                                                                                               | 
+| 1372323622  | Greenhouse Gas Emissions                                     | same                                  | City of Austin, Office of Sustainability                                    | [http://issuu.com/austinclimateprotection/docs/city_of_austin_2010-2011_climate_action_report, null]                                       | [null, null]                                                    | [null, null]                                                                                                                                                      | Natural and Sustainable | Staff/Tiemann       | Zach Baumer, Climate Program Manager, suggests Annual Travis County direct greenhouse gas emissions by sector (stationary combustion, mobile combustion, and fugitive emissions) in Residential Units of metric tons carbon dioxide equivalent.                                                                                                                                         | 
+| 1372323622  | Energy Generation, Percent of Renewables                     | same                                  | City of Austin, Office of Sustainability                                    | [http://issuu.com/austinclimateprotection/docs/city_of_austin_2010-2011_climate_action_report, null]                                       | [null, null]                                                    | [null, null]                                                                                                                                                      | Natural and Sustainable | Staff/Tiemann       | Leslie Sopko, AE, City's goal is to have 20% renewables as part of portfolio by 2020.                                                                                                                                                                                                                                                                                                   | 
+| 1372323622  | Percent of Waste Stream Diverted From Landfills              | new                                   | City of Austin Resource Recovery                                            | [http://www.austintexas.gov/budget/eperf/index.cfm?fuseaction=home.SearchResults&DEPT_CD=SWS&KEYWORD=, null]                               | [null, null]                                                    | [null, null]                                                                                                                                                      | Natural and Sustainable | PDRD                |                                                                                                                                                                                                                                                                                                                                                                                         | 
+| 1372323622  | Live Music Venues                                            | same                                  | State of Texas Governor's Office                                            | [http://governor.state.tx.us/music/directory/venues/venues-austin, null]                                                                   | [null, null]                                                    | [null, null]                                                                                                                                                      | Creative                | General             | The Governor's Music office provides this by the Austin area, but not specifically the City.                                                                                                                                                                                                                                                                                            | 
+| 1372323622  | Number of Public Art Installations                           | same                                  | City of Austin Economic Growth & Redevelopment Services                     | [http://www.austintexas.gov/aipp/aipp_list.cfm, null]                                                                                      | [null, null]                                                    | [null, null]                                                                                                                                                      | Creative                |                     | Janet Seibert, EGRSO: Requires good amount of research. What constitutes an event? Source data may be inconsistent year-to-year. for Public Art numbers contact Meghan Turner, Art in Public Places Program Manager. Public Art are often times multi-year projects.                                                                                                                    | 
+```

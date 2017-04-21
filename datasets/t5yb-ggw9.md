@@ -1,0 +1,83 @@
+# 2014 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL)
+
+## Dataset
+
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/2014-proposed-budget-expenditures-allowance-by-budget-control-level-bcl-ff426) |
+| Metadata | [Link](https://data.seattle.gov/api/views/t5yb-ggw9) |
+| Data: JSON | [100 Rows](https://data.seattle.gov/api/views/t5yb-ggw9/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.seattle.gov/api/views/t5yb-ggw9/rows.csv?max_rows=100) |
+| Host | data.seattle.gov |
+| Id | t5yb-ggw9 |
+| Name | 2014 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL) |
+| Attribution | City Budget Office |
+| Category | Finance |
+| Tags | 2014, proposed, budget |
+| Created | 2013-10-03T18:54:50Z |
+| Publication Date | 2013-10-03T19:10:14Z |
+
+## Description
+
+This data comes directly from Attachment A to the 2014 Budget Adoption Ordinance. This data reflects all appropriations (by budget control level) included in the 2014 Proposed Budget.
+
+## Columns
+
+```ls
+| Included | Schema Type    | Field Name                       | Name                             | Data Type | Render Type |
+| ======== | ============== | ================================ | ================================ | ========= | =========== |
+| Yes      | series tag     | fund_name                        | Fund Name                        | text      | text        |
+| Yes      | series tag     | department_name                  | Department Name                  | text      | text        |
+| Yes      | series tag     | bcl_code                         | BCL Code                         | text      | text        |
+| Yes      | series tag     | bcl_name                         | BCL Name                         | text      | text        |
+| Yes      | series tag     | bcl_purpose                      | BCL Purpose                      | text      | text        |
+| Yes      | numeric metric | 2014_proposed_budget_expenditure | 2014 Proposed Budget Expenditure | number    | number      |
+```
+
+## Time Field
+
+```ls
+Value = 2014
+Format & Zone = yyyy
+```
+
+## Data Commands
+
+```ls
+series e:t5yb-ggw9 d:2014-01-01T00:00:00.000Z t:fund_name="2012 Library Levy Fund (18100)" t:bcl_code=18100-B9TRF t:bcl_purpose="The purpose of the Library Levy Operating Transfer Budget Control Level is to transfer funds to the Library Fund (10410) for library operations.  This BCL is funded by Library Levy dollars (Fund 18100)." t:department_name="2012 Library Levy" t:bcl_name="Library Levy Operating Transfer" m:2014_proposed_budget_expenditure=12658704
+
+series e:t5yb-ggw9 d:2014-01-01T00:00:00.000Z t:fund_name="Cable Television Franchise Subfund (00160)" t:bcl_code=D160C t:bcl_purpose="The purpose of the Cable Fee Support to Library Fund Budget Control Level is to authorize the transfer of resources from the Cable Television Franchise Subfund to the Seattle Public Library's Operating Fund.  The Library uses these resources to pay for and maintain computers available to the public." t:department_name="Cable Television Franchise Subfund" t:bcl_name="Cable Fee Support to Library Fund" m:2014_proposed_budget_expenditure=190000
+
+series e:t5yb-ggw9 d:2014-01-01T00:00:00.000Z t:fund_name="Cable Television Franchise Subfund (00160)" t:bcl_code=D160B t:bcl_purpose="The purpose of the Cable Fee Support to Information Technology Fund Budget Control Level is to authorize the transfer of resources from the Cable Television Franchise Subfund to the Department of Information Technology's Information Technology Fund.  These resources are used by the Department for a variety of programs consistent with Resolution 30379." t:department_name="Cable Television Franchise Subfund" t:bcl_name="Cable Fee Support to Information Technology Fund" m:2014_proposed_budget_expenditure=8709786
+```
+
+## Meta Commands
+
+```ls
+metric m:2014_proposed_budget_expenditure p:integer l:"2014 Proposed Budget Expenditure" t:dataTypeName=number
+
+entity e:t5yb-ggw9 l:"2014 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL)" t:attribution="City Budget Office" t:url=https://data.seattle.gov/api/views/t5yb-ggw9
+
+property e:t5yb-ggw9 t:meta.view v:id=t5yb-ggw9 v:category=Finance v:averageRating=0 v:name="2014 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL)" v:attribution="City Budget Office"
+
+property e:t5yb-ggw9 t:meta.view.owner v:id=4fw3-mzms v:profileImageUrlMedium=/api/users/4fw3-mzms/profile_images/THUMB v:profileImageUrlLarge=/api/users/4fw3-mzms/profile_images/LARGE v:screenName="City Budget Office" v:profileImageUrlSmall=/api/users/4fw3-mzms/profile_images/TINY v:displayName="City Budget Office"
+
+property e:t5yb-ggw9 t:meta.view.tableauthor v:id=4fw3-mzms v:profileImageUrlMedium=/api/users/4fw3-mzms/profile_images/THUMB v:profileImageUrlLarge=/api/users/4fw3-mzms/profile_images/LARGE v:screenName="City Budget Office" v:profileImageUrlSmall=/api/users/4fw3-mzms/profile_images/TINY v:roleName=publisher v:displayName="City Budget Office"
+```
+
+## Top Records
+
+```ls
+| fund_name                                                       | department_name                     | bcl_code       | bcl_name                                                      | bcl_purpose                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 2014_proposed_budget_expenditure | 
+| =============================================================== | =================================== | ============== | ============================================================= | ====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================== | ================================ | 
+| 2012 Library Levy Fund (18100)                                  | 2012 Library Levy                   | 18100-B9TRF    | Library Levy Operating Transfer                               | The purpose of the Library Levy Operating Transfer Budget Control Level is to transfer funds to the Library Fund (10410) for library operations. This BCL is funded by Library Levy dollars (Fund 18100).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 12658704                         | 
+| Cable Television Franchise Subfund (00160)                      | Cable Television Franchise Subfund  | D160C          | Cable Fee Support to Library Fund                             | The purpose of the Cable Fee Support to Library Fund Budget Control Level is to authorize the transfer of resources from the Cable Television Franchise Subfund to the Seattle Public Library's Operating Fund. The Library uses these resources to pay for and maintain computers available to the public.                                                                                                                                                                                                                                                                                                                                                                                                                                                            | 190000                           | 
+| Cable Television Franchise Subfund (00160)                      | Cable Television Franchise Subfund  | D160B          | Cable Fee Support to Information Technology Fund              | The purpose of the Cable Fee Support to Information Technology Fund Budget Control Level is to authorize the transfer of resources from the Cable Television Franchise Subfund to the Department of Information Technology's Information Technology Fund. These resources are used by the Department for a variety of programs consistent with Resolution 30379.                                                                                                                                                                                                                                                                                                                                                                                                       | 8709786                          | 
+| Central Waterfront Improvement Fund                             | Central Waterfront Improvement Fund | CWIF-INT       | Central Waterfront Improvement Fund Interest Expense          | The purpose of the Central Waterfront Improvement Fund Interest Expense BCL is to appropriate interest expense allocated to the Fund.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | 979550                           | 
+| Central Waterfront Improvement Fund                             | Central Waterfront Improvement Fund | CWIF-CAP       | Central Waterfront Improvement Fund Support to Transportation | The purpose of the Central Waterfront Improvement Fund Support to Transportation Budget Control Level Budget Control Level is to appropriate funds from the Central Waterfront Improvement Fund to the Transportation Operating Fund for support of the Waterfront Improvement Program.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 15500000                         | 
+| General Subfund                                                 | Civil Service Commissions           | V1CIV          | Civil Service Commissions                                     | The purpose of the Civil Service Commissions Budget Control Level is to provide administrative support to the Public Safety Civil Service Commission (PSCSC) and the Civil Service Commission (CSC).   The PSCSC provides sworn police and uniformed fire employees with a quasi-judicial process for hearings on appeals concerning disciplinary actions, examination and testing, and other related issues.  The CSC directs the civil service system for all other employees of the City.  It investigates allegations of political patronage so the City?s hiring process conforms to the merit system set forth in the City Charter.  These commissions will at times improve the City personnel system by developing legislation for the Mayor and City Council. | 379974                           | 
+| Cumulative Reserve Subfund - Unrestricted Subaccount (00164)    | Cumulative Reserve Subfund          | 2UU50-TA       | Tenant Relocation Assistance Program - CRS-UR                 | The purpose of the Tenant Relocation Assistance Program - CRS-UR Budget Control Level is to allow the City to pay for relocation assistance to low-income tenants displaced by development activity, as authorized by SMC 22.210 and RCW 59.18.440.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 75678                            | 
+| Cumulative Reserve Subfund - Street Vacation Subaccount (00169) | Cumulative Reserve Subfund          | CRS-StVac-SDOT | CRS Street Vacation Support to Transportation                 | The purpose of the CRS Street Vacation Support to Transportation Budget Control Level is to appropriate funds from the CRS Street Vacation Subaccount to support specific transportation capital programs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 100000                           | 
+| Cumulative Reserve Subfund - REET I Subaccount (00163)          | Cumulative Reserve Subfund          | 2UU51          | Tenant Relocation Assistance Program REET I                   | The purpose of the Tenant Relocation Assistance Program REET I Budget Control Level is to allow the City to pay for relocation assistance to low income tenants displaced by development activity, as authorized by SMC 22.210 and RCW 59.18.440.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 157436                           | 
+| Cumulative Reserve Subfund - REET I Subaccount (00163)          | Cumulative Reserve Subfund          | 2SC10          | CRS REET I Support to McCaw Hall Fund                         | The purpose of the CRS REET I Support to McCaw Hall Fund Budget Control Level is to appropriate resources from REET I to the McCaw Hall Fund to support major maintenance work on McCaw Hall. Any capital projects related to the expenditure of this reserve are listed in Seattle Center's Capital Improvement Program.                                                                                                                                                                                                                                                                                                                                                                                                                                              | 250000                           | 
+```

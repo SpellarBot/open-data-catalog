@@ -18,7 +18,7 @@
 
 ## Description
 
-The annual number of new cases of tuberculosis and average annual tuberculosis incidence rate (new cases per 100,000 residents) with corresponding 95% confidence intervals, by Chicago community area, for the years 2007 – 2011.  See the full description at https://data.cityofchicago.org/api/assets/E0205898-C378-4299-97C1-F9F89AAF603C.
+The annual number of new cases of tuberculosis and average annual tuberculosis incidence rate (new cases per 100,000 residents) with corresponding 95% confidence intervals, by Chicago community area, for the years 2007 ? 2011.  See the full description at https://data.cityofchicago.org/api/assets/E0205898-C378-4299-97C1-F9F89AAF603C.
 
 ## Columns
 

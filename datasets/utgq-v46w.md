@@ -27,9 +27,9 @@ The national average for ICH-CAHPS Survey measures. The ICH-CAHPS Survey is a na
 | ======== | ============== | ============================================================================= | ============================================================================= | ========= | =========== |
 | No       | time           | :updated_at                                                                   | updated_at                                                                    | meta_data | meta_data   |
 | Yes      | series tag     | country                                                                       | Country                                                                       | text      | text        |
-| Yes      | numeric metric | lower_box_percent_of_patients_nephrologists_communication_and_caring          | Lower box percent of patients nephrologists’ communication and caring         | number    | text        |
-| Yes      | numeric metric | middle_box_percent_of_patients_nephrologists_communication_and_caring         | Middle box percent of patients nephrologists’ communication and caring        | number    | text        |
-| Yes      | numeric metric | top_box_percent_of_patients_nephrologists_communication_and_caring            | Top box percent of patients nephrologists’ communication and caring           | number    | text        |
+| Yes      | numeric metric | lower_box_percent_of_patients_nephrologists_communication_and_caring          | Lower box percent of patients nephrologists? communication and caring         | number    | text        |
+| Yes      | numeric metric | middle_box_percent_of_patients_nephrologists_communication_and_caring         | Middle box percent of patients nephrologists? communication and caring        | number    | text        |
+| Yes      | numeric metric | top_box_percent_of_patients_nephrologists_communication_and_caring            | Top box percent of patients nephrologists? communication and caring           | number    | text        |
 | Yes      | numeric metric | lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations  | Lower box percent of patients-quality of dialysis center care and operations  | number    | text        |
 | Yes      | numeric metric | middle_box_percent_of_patients_quality_of_dialysis_center_care_and_operations | Middle box percent of patients-quality of dialysis center care and operations | number    | text        |
 | Yes      | numeric metric | top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations    | Top box percent of patients-quality of dialysis center care and operations    | number    | text        |
@@ -62,11 +62,11 @@ series e:utgq-v46w d:2017-01-10T17:44:29.000Z t:country=NATION m:lower_box_perce
 ## Meta Commands
 
 ```ls
-metric m:lower_box_percent_of_patients_nephrologists_communication_and_caring p:integer l:"Lower box percent of patients nephrologists’ communication and caring" t:dataTypeName=number
+metric m:lower_box_percent_of_patients_nephrologists_communication_and_caring p:integer l:"Lower box percent of patients nephrologists? communication and caring" t:dataTypeName=number
 
-metric m:middle_box_percent_of_patients_nephrologists_communication_and_caring p:integer l:"Middle box percent of patients nephrologists’ communication and caring" t:dataTypeName=number
+metric m:middle_box_percent_of_patients_nephrologists_communication_and_caring p:integer l:"Middle box percent of patients nephrologists? communication and caring" t:dataTypeName=number
 
-metric m:top_box_percent_of_patients_nephrologists_communication_and_caring p:integer l:"Top box percent of patients nephrologists’ communication and caring" t:dataTypeName=number
+metric m:top_box_percent_of_patients_nephrologists_communication_and_caring p:integer l:"Top box percent of patients nephrologists? communication and caring" t:dataTypeName=number
 
 metric m:lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations p:integer l:"Lower box percent of patients-quality of dialysis center care and operations" t:dataTypeName=number
 

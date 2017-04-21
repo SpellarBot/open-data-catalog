@@ -20,7 +20,7 @@
 ## Description
 
 This is the weighted prevalence of 1,276 schoolchildren.  1,276 out of 1,280 cases examined had prevalence available. One out of 1,276 cases had grade information missed, 564 were in Kindergarten and 711 in 3rd grade.  Prevalence is defined as occurrence of any caries among all selected population.  Mean is the average number of teeth with caries among students with caries in the selected population.  Region Identifiers and Constituent Counties:	
-Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George’s); Southern (Calvert, Charles, St. Mary’s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne’s, Somerset, Talbot, Wicomico, Worcester).
+Western (Allegany, Frederick, Garrett, Washington); Central D.C. (Howard, Montgomery, Prince George?s); Southern (Calvert, Charles, St. Mary?s); Central Baltimore (Anne Arundel, Baltimore City, Baltimore County, Carroll, Harford); Eastern Shore (Caroline, Cecil, Dorchester, Kent, Queen Anne?s, Somerset, Talbot, Wicomico, Worcester).
 
 ## Columns
 
@@ -81,9 +81,9 @@ property e:c59t-7iqd t:meta.view.tableauthor v:id=e5tx-wz6d v:screenName="Andrea
 | Urban (region II, IV)   | 31.0       | 3.5                          | 2.9  | 0.2                    | 
 | Rural (region I,III, V) | 31.1       | 3.0                          | 2.6  | 0.3                    | 
 | Region                  |            |                              |      |                        | 
-| I – Western             | 23.5       | 4.8                          | 2.4  | 0.2                    | 
-| II – Central DC         | 28.4       | 5.5                          | 2.5  | 0.5                    | 
-| III – Southern          | 25.5       | 4.4                          | 2.5  | 0.1                    | 
-| IV – Central Baltimore  | 33.6       | 2.9                          | 2.7  | 0.3                    | 
-| V – Eastern Shore       | 39.2       | 4.8                          | 3.3  | 0.3                    | 
+| I ? Western             | 23.5       | 4.8                          | 2.4  | 0.2                    | 
+| II ? Central DC         | 28.4       | 5.5                          | 2.5  | 0.5                    | 
+| III ? Southern          | 25.5       | 4.4                          | 2.5  | 0.1                    | 
+| IV ? Central Baltimore  | 33.6       | 2.9                          | 2.7  | 0.3                    | 
+| V ? Eastern Shore       | 39.2       | 4.8                          | 3.3  | 0.3                    | 
 ```

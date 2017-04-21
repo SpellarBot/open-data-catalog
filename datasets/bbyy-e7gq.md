@@ -84,8 +84,8 @@ property e:bbyy-e7gq t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonath
 | 1492340438  | 11  | Jeffery Blvd & 71st St     | Jeffery Blvd & 71st St     | 11          | 10               | In Service | 41.766638237 | -87.576450114 | 
 | 1492513235  | 13  | Wilton Ave & Diversey Pkwy | 2790 N.Wilton Ave          | 27          | 27               | In Service | 41.932418    | -87.652705    | 
 | 1492513235  | 14  | Morgan St & 18th St        | 962 W. 18th St             | 15          | 15               | In Service | 41.858086    | -87.651073    | 
-| 1492513235  | 163 | Damen Ave & Clybourn Ave   | Damen Ave & Clybourn Ave   | 15          | 13               | In Service | 41.931931    | -87.677856    | 
 | 1492513235  | 532 | Austin Blvd & Lake St      | Austin Blvd & Lake St      | 15          | 15               | In Service | 41.887919    | -87.774446    | 
+| 1492599640  | 163 | Damen Ave & Clybourn Ave   | Damen Ave & Clybourn Ave   | 15          | 14               | In Service | 41.931931    | -87.677856    | 
 | 1483444838  | 12  | South Shore Dr & 71st St   | MLSW                       | 15          | 15               | In Service | 41.766409457 | -87.565687572 | 
 | 1479988838  | 514 | Ridge Blvd & Howard St     | Ridge Blvd & Howard St     | 15          | 15               | In Service | 42.019276    | -87.68452     | 
 | 1490526047  | 22  | May St & Taylor St         | 1134 W. Taylor St          | 15          | 15               | In Service | 41.8694821   | -87.6554864   | 

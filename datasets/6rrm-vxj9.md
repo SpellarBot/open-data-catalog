@@ -19,7 +19,7 @@
 
 ## Description
 
-This data is table of monuments that is maintained by NYC Parks. Prior to being stored electronically the original data was stored on index cards dating back to the 1940s. The database is updated periodically to include new monuments, and information updated for existing monuments. For questions about the dataset please contact Parks’ Art & Antiquities division at (212) 360-8143.
+This data is table of monuments that is maintained by NYC Parks. Prior to being stored electronically the original data was stored on index cards dating back to the 1940s. The database is updated periodically to include new monuments, and information updated for existing monuments. For questions about the dataset please contact Parks? Art & Antiquities division at (212) 360-8143.
 
 ## Columns
 

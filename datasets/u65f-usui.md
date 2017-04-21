@@ -63,13 +63,13 @@ property e:u65f-usui t:meta.view.tableauthor v:id=pf5f-nyht v:screenName="Kathry
 | year | county    | frequency | 
 | ==== | ========= | ========= | 
 | 1995 | Adams     | 123       | 
-| 1995 | Alexander | ≤50       | 
-| 1995 | Bond      | ≤50       | 
+| 1995 | Alexander | ?50       | 
+| 1995 | Bond      | ?50       | 
 | 1995 | Boone     | 119       | 
-| 1995 | Brown     | ≤50       | 
+| 1995 | Brown     | ?50       | 
 | 1995 | Bureau    | 57        | 
-| 1995 | Calhoun   | ≤50       | 
-| 1995 | Carroll   | ≤50       | 
-| 1995 | Cass      | ≤50       | 
+| 1995 | Calhoun   | ?50       | 
+| 1995 | Carroll   | ?50       | 
+| 1995 | Cass      | ?50       | 
 | 1995 | Champaign | 424       | 
 ```

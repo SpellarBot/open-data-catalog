@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/question-inventory-on-tobacco-qit-39432) |
-| Metadata | [Link](https://data.cdc.gov/api/views/vdgb-f9s3) |
-| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/vdgb-f9s3/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/vdgb-f9s3/rows.csv?max_rows=100) |
-| Host | data.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/question-inventory-on-tobacco-qit) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/vdgb-f9s3) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/vdgb-f9s3/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/vdgb-f9s3/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
 | Id | vdgb-f9s3 |
 | Name | Question Inventory on Tobacco (QIT) |
 | Category | Survey Questions (Tobacco Use) |
@@ -52,7 +52,7 @@ Format & Zone = yyyy
 ## Meta Commands
 
 ```ls
-entity e:vdgb-f9s3 l:"Question Inventory on Tobacco (QIT)" t:url=https://data.cdc.gov/api/views/vdgb-f9s3
+entity e:vdgb-f9s3 l:"Question Inventory on Tobacco (QIT)" t:url=https://chronicdata.cdc.gov/api/views/vdgb-f9s3
 
 property e:vdgb-f9s3 t:meta.view v:id=vdgb-f9s3 v:category="Survey Questions (Tobacco Use)" v:averageRating=0 v:name="Question Inventory on Tobacco (QIT)"
 

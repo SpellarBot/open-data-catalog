@@ -28,7 +28,7 @@ The San Francisco Controller's Office maintains a database of spending and reven
 | ======== | ============== | ======================= | ======================= | ========= | =========== |
 | Yes      | time           | fiscal_year             | Fiscal Year             | number    | number      |
 | Yes      | series tag     | revenue_or_spending     | Revenue or Spending     | text      | text        |
-| Yes      | series tag     | related_gov_t_units     | Related Gov’t Units     | text      | text        |
+| Yes      | series tag     | related_gov_t_units     | Related Gov?t Units     | text      | text        |
 | Yes      | series tag     | organization_group_code | Organization Group Code | text      | text        |
 | Yes      | series tag     | organization_group      | Organization Group      | text      | text        |
 | Yes      | series tag     | department_code         | Department Code         | text      | text        |

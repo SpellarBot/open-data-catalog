@@ -15,11 +15,11 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-04-13T17:16:05Z |
+| Publication Date | 2017-04-20T18:38:45Z |
 
 ## Description
 
-NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome - 2017.  In this Table, provisional cases of selected notifiable diseases (≥1,000 cases reported during the preceding year), and selected low frequency diseases are displayed.  The Table includes total number of cases reported in the United States, by region and by states, in accordance with the current method of displaying MMWR data.  Data on United States exclude counts from US territories.
+NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome - 2017.  In this Table, provisional cases of selected notifiable diseases (?1,000 cases reported during the preceding year), and selected low frequency diseases are displayed.  The Table includes total number of cases reported in the United States, by region and by states, in accordance with the current method of displaying MMWR data.  Data on United States exclude counts from US territories.
 
 Note:
 These are provisional cases of selected national notifiable diseases, from the National Notifiable Diseases Surveillance System (NNDSS). NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are collated and published weekly as numbered tables printed in the back of the Morbidity and Mortality Weekly Report (MMWR). Cases reported by state health departments to CDC for weekly publication are provisional because of ongoing revision of information and delayed reporting. 
@@ -29,13 +29,11 @@ Case counts in this table are presented as they were published in the MMWR issue
 Footnotes:
  C.N.M.I.: Commonwealth of Northern Mariana Islands. 
 
- U: Unavailable. —: No reported cases. N: Not reportable. NN: Not Nationally Notifiable. NP: Nationally notifiable but not published. Cum: Cumulative year-to-date counts. Med: Median. Max: Maximum. 
+ U: Unavailable. ?: No reported cases. N: Not reportable. NN: Not Nationally Notifiable. NP: Nationally notifiable but not published. Cum: Cumulative year-to-date counts. Med: Median. Max: Maximum. 
 
 *Three low incidence conditions, rubella, rubella congenital, and tetanus, are in Table II to facilitate case count verification with reporting jurisdictions. 
 
-† Case counts for reporting years 2016 and 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.
-
-NOTE:  These data may not reflect the case counts submitted by Oregon, Michigan, and Upstate New York due to changes in data processing.
+? Case counts for reporting years 2016 and 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.
 
 ## Columns
 
@@ -103,33 +101,33 @@ series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m
 ## Meta Commands
 
 ```ls
-metric m:rabies_animal_current_week p:integer l:"Rabies, animal, Current week" t:dataTypeName=number
+metric m:rabies_animal_current_week p:long l:"Rabies, animal, Current week" t:dataTypeName=number
 
-metric m:rabies_animal_previous_52_weeks_med p:integer l:"Rabies, animal, Previous 52 weeks Med" t:dataTypeName=number
+metric m:rabies_animal_previous_52_weeks_med p:long l:"Rabies, animal, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:rabies_animal_previous_52_weeks_max p:integer l:"Rabies, animal, Previous 52 weeks Max" t:dataTypeName=number
+metric m:rabies_animal_previous_52_weeks_max p:long l:"Rabies, animal, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:rabies_animal_cum_2017 p:integer l:"Rabies, animal, Cum 2017" t:dataTypeName=number
+metric m:rabies_animal_cum_2017 p:long l:"Rabies, animal, Cum 2017" t:dataTypeName=number
 
-metric m:rabies_animal_cum_2016 p:integer l:"Rabies, animal, Cum 2016" t:dataTypeName=number
+metric m:rabies_animal_cum_2016 p:long l:"Rabies, animal, Cum 2016" t:dataTypeName=number
 
-metric m:rubella_current_week p:integer l:"Rubella, Current week" t:dataTypeName=number
+metric m:rubella_current_week p:long l:"Rubella, Current week" t:dataTypeName=number
 
-metric m:rubella_previous_52_weeks_med p:integer l:"Rubella, Previous 52 weeks Med" t:dataTypeName=number
+metric m:rubella_previous_52_weeks_med p:long l:"Rubella, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:rubella_previous_52_weeks_max p:integer l:"Rubella, Previous 52 weeks Max" t:dataTypeName=number
+metric m:rubella_previous_52_weeks_max p:long l:"Rubella, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:rubella_cum_2017 p:integer l:"Rubella, Cum 2017" t:dataTypeName=number
+metric m:rubella_cum_2017 p:long l:"Rubella, Cum 2017" t:dataTypeName=number
 
-metric m:rubella_cum_2016 p:integer l:"Rubella, Cum 2016" t:dataTypeName=number
+metric m:rubella_cum_2016 p:long l:"Rubella, Cum 2016" t:dataTypeName=number
 
 metric m:rubella_congenital_syndrome_current_week p:long l:"Rubella, congenital syndrome, Current week" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_previous_52_weeks_med p:integer l:"Rubella, congenital syndrome, Previous 52 weeks Med" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_previous_52_weeks_med p:long l:"Rubella, congenital syndrome, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_previous_52_weeks_max p:integer l:"Rubella, congenital syndrome, Previous 52 weeks Max" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_previous_52_weeks_max p:long l:"Rubella, congenital syndrome, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_cum_2017 p:integer l:"Rubella, congenital syndrome, Cum 2017" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_cum_2017 p:long l:"Rubella, congenital syndrome, Cum 2017" t:dataTypeName=number
 
 metric m:rubella_congenital_syndrome_cum_2016 p:long l:"Rubella, congenital syndrome, Cum 2016" t:dataTypeName=number
 

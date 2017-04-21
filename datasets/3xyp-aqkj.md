@@ -75,9 +75,9 @@ property e:3xyp-aqkj t:meta.view v:id=3xyp-aqkj v:category="Consumer and Governm
 
 property e:3xyp-aqkj t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:3xyp-aqkj t:meta.view.owner v:id=3p4u-pzii v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:screenName=Andrew v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:lastNotificationSeenAt=1491330879 v:displayName=Andrew
+property e:3xyp-aqkj t:meta.view.owner v:id=3p4u-pzii v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:screenName=Andrew v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:lastNotificationSeenAt=1492546230 v:displayName=Andrew
 
-property e:3xyp-aqkj t:meta.view.tableauthor v:id=3p4u-pzii v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:screenName=Andrew v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1491330879 v:displayName=Andrew
+property e:3xyp-aqkj t:meta.view.tableauthor v:id=3p4u-pzii v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:screenName=Andrew v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492546230 v:displayName=Andrew
 
 property e:3xyp-aqkj t:meta.view.metadata.custom_fields.common_core v:Contact_Name="Andrew Nebus" v:Bureau_Code=356:00 v:Program_Code=000:000
 ```

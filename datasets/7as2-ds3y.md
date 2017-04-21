@@ -15,7 +15,7 @@
 | Category | Service Requests |
 | Tags | streets, pot holes |
 | Created | 2011-09-30T09:11:02Z |
-| Publication Date | 2017-04-18T10:44:09Z |
+| Publication Date | 2017-04-20T10:23:30Z |
 
 ## Description
 
@@ -23,7 +23,7 @@ The Chicago Department of Transportation (CDOT) oversees the patching of pothole
 
 If a previous request is already open for a buffer of 4 addresses the request is given the status of "Duplicate (Open)".  For example, if there is an existing CSR for 6535 N Western and a new request is received for 6531 N Western (which is within four addresses of the original CSR) then the new request is given a status of "Duplicate (Open)".
 
-Once the street is repaired, the status in CSR will read “Completed” for the original request and "Duplicate (Closed)" for any duplicate requests.  A service request also receives the status of “Completed” when the reported address is inspected but no potholes are found or have already been filled.  If another issue is found with the street, such as a “cave-in” or “failed utility cut”, then it is directed to the appropriate department or contractor. 
+Once the street is repaired, the status in CSR will read ?Completed? for the original request and "Duplicate (Closed)" for any duplicate requests.  A service request also receives the status of ?Completed? when the reported address is inspected but no potholes are found or have already been filled.  If another issue is found with the street, such as a ?cave-in? or ?failed utility cut?, then it is directed to the appropriate department or contractor. 
 
 Data Owner: Transportation. Time Period: All open requests and all completed requests since January 1, 2011. Frequency: Data is updated daily.
 
@@ -48,8 +48,8 @@ Data Owner: Transportation. Time Period: All open requests and all completed req
 | Yes      | series tag     | police_district                    | Police District                    | text          | number        |
 | Yes      | series tag     | community_area                     | Community Area                     | text          | number        |
 | Yes      | series tag     | ssa                                | SSA                                | text          | text          |
-| No       |                | latitude                           | LATITUDE                           | number        | number        |
-| No       |                | longitude                          | LONGITUDE                          | number        | number        |
+| Yes      | numeric metric | latitude                           | LATITUDE                           | number        | number        |
+| Yes      | numeric metric | longitude                          | LONGITUDE                          | number        | number        |
 ```
 
 ## Time Field
@@ -62,23 +62,27 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = completion_date,x_coordinate,y_coordinate,latitude,longitude
+Excluded Fields = completion_date,x_coordinate,y_coordinate
 ```
 
 ## Data Commands
 
 ```ls
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60643 t:ward=19 t:police_district=22 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002021 t:current_activity="Dispatch Crew" t:community_area=72 t:type_of_service_request="Pot Hole in Street" t:street_address="1642 W 99TH ST" m:number_of_potholes_filled_on_block=5
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:community_area=69 t:type_of_service_request="Pot Hole in Street" t:street_address="7600 S PARNELL AVE" m:longitude=-87.63853957634103 m:latitude=41.75607825280598
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60623 t:ward=22 t:police_district=10 t:most_recent_action="Pothole Patched" t:status=Completed t:service_request_number=11-00002273 t:current_activity="Dispatch Crew" t:community_area=30 t:type_of_service_request="Pot Hole in Street" t:street_address="3500 S PULASKI RD" m:number_of_potholes_filled_on_block=7
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:ssa=3 t:service_request_number=11-00002209 t:community_area=65 t:type_of_service_request="Pot Hole in Street" t:street_address="7100 S PULASKI RD" m:longitude=-87.72249910770661 m:latitude=41.764007749308014
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60619 t:ward=6 t:police_district=6 t:most_recent_action="Pothole Patched" t:status=Completed t:ssa=51 t:service_request_number=11-00002650 t:current_activity="Dispatch Crew" t:community_area=69 t:type_of_service_request="Pot Hole in Street" t:street_address="7851 S DR MARTIN LUTHER KING JR DR" m:number_of_potholes_filled_on_block=5
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:community_area=22 t:type_of_service_request="Pot Hole in Street" t:street_address="2400 W FULLERTON AVE" m:longitude=-87.68770475222249 m:latitude=41.92500993476519
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:number_of_potholes_filled_on_block p:integer l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
+metric m:number_of_potholes_filled_on_block p:long l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
+
+metric m:latitude p:long l:LATITUDE t:dataTypeName=number
+
+metric m:longitude p:long l:LONGITUDE t:dataTypeName=number
 
 entity e:7as2-ds3y l:"311 Service Requests - Pot Holes Reported" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/7as2-ds3y
 

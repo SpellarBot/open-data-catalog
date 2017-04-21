@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/smoking-attributable-mortality-morbidity-and-economic-costs-sammec-smoking-attributable-ex-d39cf) |
-| Metadata | [Link](https://data.cdc.gov/api/views/ezab-8sq5) |
-| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/ezab-8sq5/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/ezab-8sq5/rows.csv?max_rows=100) |
-| Host | data.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/smoking-attributable-mortality-morbidity-and-economic-costs-sammec-smoking-attributable-ex-827db) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/ezab-8sq5) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/ezab-8sq5/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/ezab-8sq5/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
 | Id | ezab-8sq5 |
 | Name | Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE) |
 | Category | Health Consequences and Costs |
@@ -73,7 +73,7 @@ series e:ezab-8sq5 d:2005-01-01T00:00:00.000Z t:locationabbr=AZ t:locationdesc=A
 ```ls
 metric m:data_value p:float l:Data_Value d:"Value of the data" t:dataTypeName=number
 
-entity e:ezab-8sq5 l:"Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)" t:url=https://data.cdc.gov/api/views/ezab-8sq5
+entity e:ezab-8sq5 l:"Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)" t:url=https://chronicdata.cdc.gov/api/views/ezab-8sq5
 
 property e:ezab-8sq5 t:meta.view v:id=ezab-8sq5 v:category="Health Consequences and Costs" v:averageRating=0 v:name="Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)"
 

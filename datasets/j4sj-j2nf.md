@@ -18,7 +18,7 @@
 
 ## Description
 
-A traffic analysis zone (TAZ) is the unit of geography most commonly used in conventional transportation planning models. The size of a zone varies, but for a typical metropolitan planning software, a zone of under 3000 people is common. The cartographic boundary files are simplified representations of selected geographic areas from the Census Bureau’s MAF/TIGER geographic database. These boundary files are specifically designed for small scale thematic mapping.
+A traffic analysis zone (TAZ) is the unit of geography most commonly used in conventional transportation planning models. The size of a zone varies, but for a typical metropolitan planning software, a zone of under 3000 people is common. The cartographic boundary files are simplified representations of selected geographic areas from the Census Bureau?s MAF/TIGER geographic database. These boundary files are specifically designed for small scale thematic mapping.
 
 ## Columns
 

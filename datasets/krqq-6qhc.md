@@ -19,18 +19,18 @@
 
 ## Description
 
-Exempt organization information is extracted monthly from the Internal Revenue Service’s Business Master File. This is a cumulative file, and the data are the most recent information the IRS has for these organizations.
+Exempt organization information is extracted monthly from the Internal Revenue Service?s Business Master File. This is a cumulative file, and the data are the most recent information the IRS has for these organizations.
 
 If you have any questions about the tax-exempt organizations or the content of the files, please contact TE/GE Customer Account Services toll-free line at 1-877-829-5500
 
-State is determined from the filing address and generally represent the location of an organization’s headquarters, which may or may not represent the state(s) in which an organization has operations.
+State is determined from the filing address and generally represent the location of an organization?s headquarters, which may or may not represent the state(s) in which an organization has operations.
 
 Records are sorted by Employer Identification Number (EIN). 
 
 This dataset is for Connecticut only.
 
 The IRS exempt organization data have been accumulated since the inception of the tax-exempt statutes. A determination letter is issued to an organization upon the granting of an exemption and is considered valid throughout the life of the organization, as long as the organization complies with the provisions of its exemption.
-If an organization's exemption is revoked, an announcement to inform potential donors of the revocation is published in the Internal Revenue Bulletin. In addition, the organization’s name is removed from publicly accessible venues, including this file. NOTE: Split-interest trusts are not included in this database.
+If an organization's exemption is revoked, an announcement to inform potential donors of the revocation is published in the Internal Revenue Bulletin. In addition, the organization?s name is removed from publicly accessible venues, including this file. NOTE: Split-interest trusts are not included in this database.
 
 FIELDS AVAILABLE
 All exempt organization records on this file will contain the following data fields:
@@ -164,9 +164,9 @@ property e:krqq-6qhc t:meta.view v:id=krqq-6qhc v:category=Business v:attributio
 
 property e:krqq-6qhc t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:krqq-6qhc t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
+property e:krqq-6qhc t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1492608796 v:displayName="Tyler Kleykamp"
 
-property e:krqq-6qhc t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
+property e:krqq-6qhc t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1492608796 v:displayName="Tyler Kleykamp"
 ```
 
 ## Top Records

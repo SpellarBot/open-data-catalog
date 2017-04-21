@@ -19,7 +19,7 @@
 
 ## Description
 
-This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: “Library Cardholders (2012 - present)” and “Annual population estimates (2012 – present)."
+This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: ?Library Cardholders (2012 - present)? and ?Annual population estimates (2012 ? present)."
 
 ## Columns
 

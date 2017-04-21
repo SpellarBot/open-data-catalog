@@ -19,7 +19,7 @@
 
 ## Description
 
-Progress Reports grade each school with an A, B, C, D, or F.  These reports focus on a school's learning environment, student performance, and student progress.  They were designed to help parents, teachers, principals, and others understand how well schools are doing—and compare them to other, similar schools.
+Progress Reports grade each school with an A, B, C, D, or F. ?These reports focus on a school's learning environment, student performance, and student progress.? They were designed to help parents, teachers, principals, and others understand how well schools are doing?and compare them to other, similar schools.
 
 ## Columns
 

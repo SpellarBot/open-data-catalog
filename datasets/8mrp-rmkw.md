@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/nutrition-physical-activity-and-obesity-american-community-survey-abe59) |
-| Metadata | [Link](https://data.cdc.gov/api/views/8mrp-rmkw) |
-| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/8mrp-rmkw/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/8mrp-rmkw/rows.csv?max_rows=100) |
-| Host | data.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/nutrition-physical-activity-and-obesity-american-community-survey) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/8mrp-rmkw) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/8mrp-rmkw/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/8mrp-rmkw/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
 | Id | 8mrp-rmkw |
 | Name | Nutrition, Physical Activity, and Obesity - American Community Survey |
 | Attribution | Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity |
@@ -86,7 +86,7 @@ metric m:low_confidence_limit p:float l:Low_Confidence_Limit t:dataTypeName=numb
 
 metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=number
 
-entity e:8mrp-rmkw l:"Nutrition, Physical Activity, and Obesity - American Community Survey" t:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity" t:url=https://data.cdc.gov/api/views/8mrp-rmkw
+entity e:8mrp-rmkw l:"Nutrition, Physical Activity, and Obesity - American Community Survey" t:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity" t:url=https://chronicdata.cdc.gov/api/views/8mrp-rmkw
 
 property e:8mrp-rmkw t:meta.view v:id=8mrp-rmkw v:category="Nutrition, Physical Activity, and Obesity" v:attributionLink=http://www.cdc.gov/nccdphp/DNPAO/index.html v:averageRating=0 v:name="Nutrition, Physical Activity, and Obesity - American Community Survey" v:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity"
 

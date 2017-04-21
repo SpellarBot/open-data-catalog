@@ -19,7 +19,7 @@
 
 ## Description
 
-Facilities in New York City, by agency and site, that offer “NDA Neighborhood Development Area Youth Employment  Program” after-school  job and internship programs for children and young adults ages 14 to 21 in Middle School, in High School, or in all grades.
+Facilities in New York City, by agency and site, that offer ?NDA Neighborhood Development Area Youth Employment  Program? after-school  job and internship programs for children and young adults ages 14 to 21 in Middle School, in High School, or in all grades.
 Update Frequency: Annually
 
 ## Columns

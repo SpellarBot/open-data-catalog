@@ -1,0 +1,112 @@
+# Envista Projects for Paving
+
+## Dataset
+
+| Name | Value |
+| :--- | :---- |
+| Catalog | [Link](https://catalog.data.gov/dataset/envista-projects-for-paving-1785b) |
+| Metadata | [Link](https://data.sfgov.org/api/views/bxqh-5px8) |
+| Data: JSON | [100 Rows](https://data.sfgov.org/api/views/bxqh-5px8/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.sfgov.org/api/views/bxqh-5px8/rows.csv?max_rows=100) |
+| Host | data.sfgov.org |
+| Id | bxqh-5px8 |
+| Name | Envista Projects for Paving |
+| Attribution | San Francisco Department of Public Works |
+| Category | City Infrastructure |
+| Tags | utility, excavation, paving, envista, utilities, construction, noi, five, 5, year, plan |
+| Created | 2014-02-06T23:49:28Z |
+| Publication Date | 2016-03-17T18:00:58Z |
+
+## Description
+
+Envista Projects for Paving. Envista is used by city agencies and private utilities to coordinate utility and paving work in public right of way.
+
+## Columns
+
+```ls
+| Included | Schema Type    | Field Name                | Name                      | Data Type     | Render Type   |
+| ======== | ============== | ========================= | ========================= | ============= | ============= |
+| Yes      | series tag     | project_id                | project_id                | text          | text          |
+| Yes      | series tag     | street_name               | street_name               | text          | text          |
+| Yes      | series tag     | limits                    | limits                    | text          | text          |
+| Yes      | numeric metric | cnn                       | cnn                       | number        | text          |
+| Yes      | series tag     | project_name_full         | project_name_full         | text          | text          |
+| Yes      | series tag     | owner                     | owner                     | text          | text          |
+| Yes      | series tag     | description_full          | description_full          | text          | text          |
+| Yes      | series tag     | dpw_project_class         | dpw_project_class         | text          | text          |
+| Yes      | series tag     | facility_type             | facility_type             | text          | text          |
+| Yes      | series tag     | project_status            | project_status            | text          | text          |
+| Yes      | time           | start_date                | start_date                | calendar_date | calendar_date |
+| No       |                | end_date                  | end_date                  | calendar_date | calendar_date |
+| Yes      | numeric metric | duration                  | duration                  | number        | number        |
+| Yes      | series tag     | facility_indicator        | facility_indicator        | text          | text          |
+| Yes      | series tag     | facility_subindicator     | facility_subindicator     | text          | text          |
+| Yes      | series tag     | group_code                | group_code                | text          | text          |
+| Yes      | series tag     | facility_type_description | facility_type_description | text          | text          |
+| No       |                | create_date               | create_date               | calendar_date | calendar_date |
+| No       |                | modify_date               | modify_date               | calendar_date | calendar_date |
+| Yes      | series tag     | project_type              | project_type              | text          | text          |
+| Yes      | series tag     | project_url               | project_url               | text          | text          |
+| No       |                | x                         | X                         | number        | number        |
+| No       |                | y                         | Y                         | number        | number        |
+| No       |                | latitude                  | latitude                  | number        | number        |
+| No       |                | longitude                 | longitude                 | number        | number        |
+```
+
+## Time Field
+
+```ls
+Value = start_date
+Format & Zone = yyyy-MM-dd'T'HH:mm:ss
+```
+
+## Series Fields
+
+```ls
+Excluded Fields = end_date,create_date,modify_date,x,y,latitude,longitude
+```
+
+## Data Commands
+
+```ls
+series e:bxqh-5px8 d:2017-05-01T00:00:00.000Z t:limits="10TH ST \ BRANNAN ST \ POTRERO AVE to 11TH ST \ 13TH ST \ BRYANT ST (301 - 399) -- SOUTH --" t:project_name_full="Raised Median on Division Street" t:project_status=Committed t:facility_type_description="Roadway Surface / Paved Road-Asphalt / Installation" t:project_id="Raised Median on Division Street" t:street_name="DIVISION ST" t:owner="SF MTA SS - Livable Streets" t:facility_type=Roadway t:facility_subindicator="Paved Road-Asphalt" t:project_type=Installation t:facility_indicator="Roadway Surface" t:dpw_project_class=Paving t:description_full="The City intends to construct a concrete median between the curbside bikeway and the vehicle travel lanes on the north and south sides of Division Street, between the 10th Street and Potrero Avenue intersection and the 11th Street and Bryant Street intersection, approximately 550 feet in each direction. This project scope includes repaving of the curbside bikeway lane and construction of an 8?-high and 2?-wide concrete island on top of the asphalt pinned to the concrete base via sections of rebar." m:duration=61 m:cnn=4846101
+
+series e:bxqh-5px8 d:2017-05-01T00:00:00.000Z t:limits="10TH ST \ BRANNAN ST \ POTRERO AVE to 11TH ST \ 13TH ST \ BRYANT ST (300 - 398) -- NORTH --" t:project_name_full="Raised Median on Division Street" t:project_status=Committed t:facility_type_description="Roadway Surface / Paved Road-Asphalt / Installation" t:project_id="Raised Median on Division Street" t:street_name="DIVISION ST" t:owner="SF MTA SS - Livable Streets" t:facility_type=Roadway t:facility_subindicator="Paved Road-Asphalt" t:project_type=Installation t:facility_indicator="Roadway Surface" t:dpw_project_class=Paving t:description_full="The City intends to construct a concrete median between the curbside bikeway and the vehicle travel lanes on the north and south sides of Division Street, between the 10th Street and Potrero Avenue intersection and the 11th Street and Bryant Street intersection, approximately 550 feet in each direction. This project scope includes repaving of the curbside bikeway lane and construction of an 8?-high and 2?-wide concrete island on top of the asphalt pinned to the concrete base via sections of rebar." m:duration=61 m:cnn=4846201
+
+series e:bxqh-5px8 d:2018-01-05T00:00:00.000Z t:limits="ARMSTRONG AVE to CARROLL AVE \ ISSLEIB AVE (2512 - 2699)" t:project_name_full="2794J - Various Locations Pavement Renovation No 27 and Sewer Replacement" t:project_status=Committed t:group_code=2794J t:facility_type_description="Roadway Surface / Paving-Roads Only" t:project_id=DPW0041_PR_97 t:street_name="NEWHALL ST" t:owner="SF DPW IDC - Streets & Highways" t:facility_type=Roadway t:project_type="Paving-Roads Only" t:facility_indicator="Roadway Surface" t:dpw_project_class=Paving m:duration=368 m:cnn=9581000
+```
+
+## Meta Commands
+
+```ls
+metric m:cnn p:integer l:cnn t:dataTypeName=number
+
+metric m:duration p:integer l:duration t:dataTypeName=number
+
+entity e:bxqh-5px8 l:"Envista Projects for Paving" t:attribution="San Francisco Department of Public Works" t:url=https://data.sfgov.org/api/views/bxqh-5px8
+
+property e:bxqh-5px8 t:meta.view v:id=bxqh-5px8 v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Envista Projects for Paving" v:attribution="San Francisco Department of Public Works"
+
+property e:bxqh-5px8 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+
+property e:bxqh-5px8 t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
+
+property e:bxqh-5px8 t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+```
+
+## Top Records
+
+```ls
+| project_id                       | street_name   | limits                                                                                      | cnn      | project_name_full                                                         | owner                                | description_full                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | dpw_project_class | facility_type | project_status | start_date          | end_date            | duration | facility_indicator | facility_subindicator | group_code | facility_type_description                           | create_date         | modify_date         | project_type          | project_url | x             | y             | latitude         | longitude         | 
+| ================================ | ============= | =========================================================================================== | ======== | ========================================================================= | ==================================== | ====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================== | ================= | ============= | ============== | =================== | =================== | ======== | ================== | ===================== | ========== | =================================================== | =================== | =================== | ===================== | =========== | ============= | ============= | ================ | ================= | 
+| Raised Median on Division Street | DIVISION ST   | 10TH ST \ BRANNAN ST \ POTRERO AVE to 11TH ST \ 13TH ST \ BRYANT ST (301 - 399) -- SOUTH -- | 4846101  | Raised Median on Division Street                                          | SF MTA SS - Livable Streets          | The City intends to construct a concrete median between the curbside bikeway and the vehicle travel lanes on the north and south sides of Division Street, between the 10th Street and Potrero Avenue intersection and the 11th Street and Bryant Street intersection, approximately 550 feet in each direction. This project scope includes repaving of the curbside bikeway lane and construction of an 8?-high and 2?-wide concrete island on top of the asphalt pinned to the concrete base via sections of rebar. | Paving            | Roadway       | Committed      | 2017-05-01T00:00:00 | 2017-07-01T23:59:00 | 61       | Roadway Surface    | Paved Road-Asphalt    |            | Roadway Surface / Paved Road-Asphalt / Installation | 2017-02-17T14:30:00 | 2017-02-23T18:17:00 | Installation          |             | 6009779.96234 | 2108147.04825 | 37.7691218579544 | -122.409482446903 | 
+| Raised Median on Division Street | DIVISION ST   | 10TH ST \ BRANNAN ST \ POTRERO AVE to 11TH ST \ 13TH ST \ BRYANT ST (300 - 398) -- NORTH -- | 4846201  | Raised Median on Division Street                                          | SF MTA SS - Livable Streets          | The City intends to construct a concrete median between the curbside bikeway and the vehicle travel lanes on the north and south sides of Division Street, between the 10th Street and Potrero Avenue intersection and the 11th Street and Bryant Street intersection, approximately 550 feet in each direction. This project scope includes repaving of the curbside bikeway lane and construction of an 8?-high and 2?-wide concrete island on top of the asphalt pinned to the concrete base via sections of rebar. | Paving            | Roadway       | Committed      | 2017-05-01T00:00:00 | 2017-07-01T23:59:00 | 61       | Roadway Surface    | Paved Road-Asphalt    |            | Roadway Surface / Paved Road-Asphalt / Installation | 2017-02-17T14:30:00 | 2017-02-23T18:17:00 | Installation          |             | 6009782.29908 | 2108187.0452  | 37.769231811282  | -122.40947718741  | 
+| DPW0041_PR_97                    | NEWHALL ST    | ARMSTRONG AVE to CARROLL AVE \ ISSLEIB AVE (2512 - 2699)                                    | 9581000  | 2794J - Various Locations Pavement Renovation No 27 and Sewer Replacement | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Committed      | 2018-01-05T00:00:00 | 2019-01-08T00:00:00 | 368      | Roadway Surface    |                       | 2794J      | Roadway Surface / Paving-Roads Only                 | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Roads Only     |             | 6012733.78817 | 2093471.84539 | 37.7289919693119 | -122.39823551063  | 
+| DPW0566_PP_250                   | PALOS PL      | CRESTLAKE DR to SLOAT BLVD (1 - 99)                                                         | 10213000 | 2807J - As Needed Pavement Preservation Contract No 1                     | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Started        | 2016-10-31T00:00:00 | 2018-10-30T00:00:00 | 729      | Roadway Surface    |                       | 2807J      | Roadway Surface / Paving-Microsurfacing             | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Microsurfacing |             | 5987692.95903 | 2096081.25422 | 37.734730104077  | -122.484993830165 | 
+| DPW0186_PR_47                    | SUNNYDALE AVE | PEABODY ST to RUTLAND ST (600 - 699)                                                        | 12259000 | 2501J - University St and Sunnydale Ave Pavement Renovation               | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Committed      | 2017-07-15T00:00:00 | 2018-09-12T00:00:00 | 424      | Roadway Surface    |                       | 2501J      | Roadway Surface / Paving-Roads Only                 | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Roads Only     |             | 6009713.5097  | 2086513.48826 | 37.7097170632869 | -122.408186327808 | 
+| DPW0041_PR_40                    | UNION ST      | SONOMA ST to VARENNES ST (430 - 449)                                                        | 12841000 | 2794J - Various Locations Pavement Renovation No 27 and Sewer Replacement | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Committed      | 2018-01-05T00:00:00 | 2019-01-08T00:00:00 | 368      | Roadway Surface    |                       | 2794J      | Roadway Surface / Paving-Roads Only                 | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Roads Only     |             | 6010846.33767 | 2119648.42551 | 37.800761612697  | -122.406604503195 | 
+| DPW0056_PR_53                    | 24TH ST       | RHODE ISLAND ST intersection                                                                | 23697000 | 2710J - Various Locations Pavement Renovation No 28                       | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Committed      | 2018-02-03T00:00:00 | 2019-02-04T00:00:00 | 366      | Roadway Surface    |                       | 2710J      | Roadway Surface / Paving-Roads Only                 | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Roads Only     |             | 6011978.95135 | 2102337.67752 | 37.7532935849344 | -122.401467889111 | 
+| DPW0566_PP_219                   | CRESTLAKE DR  | YORBA ST to 34TH AVE \ WAWONA ST (500 - 599)                                                | 4522000  | 2807J - As Needed Pavement Preservation Contract No 1                     | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Started        | 2016-10-31T00:00:00 | 2018-10-30T00:00:00 | 729      | Roadway Surface    |                       | 2807J      | Roadway Surface / Paving-Microsurfacing             | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Microsurfacing |             | 5986067.70526 | 2096756.83465 | 37.7364902682938 | -122.490662500737 | 
+| DPW0474_PR_16                    | 02ND ST       | FEDERAL ST to SOUTH PARK (519 - 548)                                                        | 144000   | 1064J - 2nd Street Improvement Project                                    | SF DPW IDC - Construction Management | Streetscape Project                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Paving            | Roadway       | Committed      | 2017-06-19T00:00:00 | 2019-06-19T00:00:00 | 730      | Roadway Surface    |                       | 1064J      | Roadway Surface / Paving-Roads Only                 | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Roads Only     |             | 6014653.02408 | 2112939.74454 | 37.7825533687213 | -122.392962041691 | 
+| DPW0117_PR_6                     | PALOU AVE     | 03RD ST \ MENDELL ST to NEWHALL ST (1600 - 1699)                                            | 10223000 | 2461J - Joint - Streetscape Lead - Palou Ave Pavement Renovation          | SF DPW IDC - Streets & Highways      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Paving            | Roadway       | Planned        | 2017-06-01T00:00:00 | 2018-05-31T00:00:00 | 364      | Roadway Surface    |                       | 2291J      | Roadway Surface / Paving-Roads Only                 | 2017-04-16T04:15:13 | 2017-04-16T04:15:13 | Paving-Roads Only     |             | 6014614.50088 | 2095449.20443 | 37.7345259764708 | -122.39187190388  | 
+```
