@@ -50,6 +50,7 @@ Name | Published
 [National Bridge Inventory - Points](../datasets/idc9-ny42.md) | 2016&#x2011;08&#x2011;02
 [National Highway System](../datasets/8fy6-cztc.md) | 2016&#x2011;11&#x2011;08
 [Network - Commercial and Industrial](../datasets/u4pw-exke.md) | 2016&#x2011;11&#x2011;08
+[Oregon State Owned/Leased Buildings](../datasets/2q2s-w8ry.md) | 2011&#x2011;04&#x2011;17
 [PMIS 2011](../datasets/uxte-8pwb.md) | 2016&#x2011;07&#x2011;28
 [PMIS 2012](../datasets/3kdi-g2dx.md) | 2016&#x2011;07&#x2011;28
 [PMIS 2014](../datasets/66kf-n2cf.md) | 2016&#x2011;07&#x2011;28
@@ -99,6 +100,28 @@ Name | Published
 [Rest Areas - Full Service in Iowa](../datasets/tfhp-9jtn.md) | 2016&#x2011;08&#x2011;19
 [Rest Areas - Weigh Station](../datasets/ufxb-tvw4.md) | 2016&#x2011;08&#x2011;19
 [Right of Way Boundaries](../datasets/gxay-aq2r.md) | 2016&#x2011;06&#x2011;09
+[SDOT Areaways](../datasets/5jb6-3s8a.md) | 2016&#x2011;04&#x2011;22
+[SDOT Bike Racks](../datasets/qwc9-dpzw.md) | 2015&#x2011;03&#x2011;19
+[SDOT Crash Cushions](../datasets/83ak-hryt.md) | 2016&#x2011;04&#x2011;22
+[SDOT Curb Ramps](../datasets/j3nx-ir4y.md) | 2016&#x2011;04&#x2011;22
+[SDOT Dynamic Message Signs](../datasets/8m64-tv56.md) | 2015&#x2011;03&#x2011;19
+[SDOT Guardrails](../datasets/gynh-gvez.md) | 2016&#x2011;04&#x2011;22
+[SDOT Landscape Complex](../datasets/xixz-end5.md) | 2017&#x2011;01&#x2011;25
+[SDOT Marked Crosswalks](../datasets/aykm-6cyc.md) | 2015&#x2011;03&#x2011;19
+[SDOT Parklets](../datasets/m4k5-ua7m.md) | 2016&#x2011;04&#x2011;21
+[SDOT Radar Speed Signs](../datasets/rnye-ezhn.md) | 2016&#x2011;04&#x2011;22
+[SDOT Retaining Walls](../datasets/sxr8-c6r3.md) | 2016&#x2011;04&#x2011;22
+[SDOT Sidewalks](../datasets/dsed-gzpp.md) | 2016&#x2011;06&#x2011;15
+[SDOT Stairways](../datasets/7rt6-fvkm.md) | 2016&#x2011;04&#x2011;22
+[SDOT Street Details](../datasets/njkx-jbip.md) | 2015&#x2011;03&#x2011;19
+[SDOT Street Ends](../datasets/ef3j-zuiv.md) | 2017&#x2011;01&#x2011;25
+[SDOT Street Signs](../datasets/atig-uucb.md) | 2016&#x2011;06&#x2011;15
+[SDOT Traffic Beacons](../datasets/iwrq-qjta.md) | 2015&#x2011;03&#x2011;19
+[SDOT Traffic Cameras](../datasets/vhnv-4n94.md) | 2016&#x2011;12&#x2011;14
+[SDOT Traffic Circles](../datasets/35iz-msg7.md) | 2016&#x2011;04&#x2011;22
+[SDOT Traffic Lanes](../datasets/3ytq-9ntv.md) | 2015&#x2011;03&#x2011;18
+[SDOT Traffic Signals](../datasets/a3dp-9q2z.md) | 2015&#x2011;03&#x2011;19
+[SDOT Work Impacting Right-of-Way Street Segments](../datasets/h9m8-4k45.md) | 2014&#x2011;11&#x2011;18
 [SICL Intersections - All Top 1000](../datasets/sx89-dapt.md) | 2016&#x2011;06&#x2011;09
 [SICL Intersections - Top 200](../datasets/xhwi-zejh.md) | 2016&#x2011;06&#x2011;09
 [SICL Intersections - Top 201-400](../datasets/xu2h-hzpi.md) | 2016&#x2011;06&#x2011;09

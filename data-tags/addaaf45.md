@@ -3,10 +3,12 @@
 Name | Published
 ---- | ---------
 [2011 Adopted Budget - Expenditures Allowance by Budget Control Level (BCL)](../datasets/ig47-2vs9.md) | 2011&#x2011;04&#x2011;17
+[2011 Adopted Budget - Expenditures Allowance by Budget Control Level (BCL)](../datasets/ig47-2vs9.md) | 2011&#x2011;04&#x2011;17
 [2011 General Fund, proposed expenditures, 2011 budget](../datasets/imfe-xrs7.md) | 2015&#x2011;05&#x2011;28
 [2011 General Fund, proposed revenues, 2011 budget](../datasets/4zqn-s6g8.md) | 2011&#x2011;04&#x2011;17
 [2011 Non-General Fund, proposed expenditures, 2011 budget](../datasets/48ub-bstr.md) | 2011&#x2011;04&#x2011;17
 [2011 Non-General Fund, proposed revenues, 2011 budget](../datasets/8tb3-k6wn.md) | 2011&#x2011;04&#x2011;17
+[2011-2012 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL)](../datasets/55z8-f4gi.md) | 2011&#x2011;04&#x2011;17
 [2011-2012 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL)](../datasets/55z8-f4gi.md) | 2011&#x2011;04&#x2011;17
 [2012 Proposed Budget - Expenditures Allowance by Budget Control Level (BCL)](../datasets/q87s-9jj6.md) | 2011&#x2011;09&#x2011;30
 [2013 Proposed Budget, Annual Non- General Fund Expenditures By Appropriation Unit](../datasets/r9p8-w23w.md) | 2012&#x2011;09&#x2011;23

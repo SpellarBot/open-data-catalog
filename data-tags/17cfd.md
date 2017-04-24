@@ -3,9 +3,12 @@
 Name | Published
 ---- | ---------
 [Airport (SFO) Contract Opportunities](../datasets/hmh3-ff63.md) | 2015&#x2011;11&#x2011;25
+[BAVN Open Bid Opportunities](../datasets/qtax-byj7.md) | 2014&#x2011;05&#x2011;27
+[Bid Openings and Results](../datasets/u9zk-8nix.md) | 2015&#x2011;07&#x2011;07
 [Bid Tabulations](../datasets/9k82-ys7w.md) | 2017&#x2011;04&#x2011;15
 [Bid data on projects for the past 10 years](../datasets/u8e9-ci8g.md) | 2017&#x2011;02&#x2011;27
 [Columbus Avenue BID Businesses](../datasets/h5nh-eqde.md) | 2013&#x2011;06&#x2011;21
+[Directory Of Competitive Bid](../datasets/2eq2-trdu.md) | 2013&#x2011;06&#x2011;21
 [Lincoln Square BID Business List](../datasets/ne9f-g6k4.md) | 2013&#x2011;06&#x2011;21
 [Montague Street Business Improvement District. (BID)](../datasets/5e24-x4wa.md) | 2013&#x2011;06&#x2011;21
 [Procurement - Awarded Contracts & Amendments](../datasets/qh8j-6k63.md) | 2017&#x2011;03&#x2011;13

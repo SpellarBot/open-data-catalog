@@ -25,17 +25,21 @@ Name | Published
 [Current Small Business Enterprise, SBE, Certfied Vendors](../datasets/uxwx-55kj.md) | 2015&#x2011;07&#x2011;15
 [Department of Commerce: Central Business Licensing System Report](../datasets/kype-d7gy.md) | 2015&#x2011;10&#x2011;09
 [Downtown Brooklyn Partnership (DBP)/ Court-Livingston-Schermerhorn (CLS) Retail Locations](../datasets/8gqz-6v9v.md) | 2013&#x2011;06&#x2011;21
+[Downtown Brooklyn Partnership (DBP)/ Court-Livingston-Schermerhorn (CLS) Retail Locations](../datasets/8gqz-6v9v.md) | 2013&#x2011;06&#x2011;21
 [Grand Central Partnership (GCP) Business Directory](../datasets/k26i-s5bd.md) | 2013&#x2011;06&#x2011;21
 [Grand Street BID Business Directory](../datasets/656a-faqy.md) | 2013&#x2011;06&#x2011;21
 [HGBP Hotels & Resorts](../datasets/m3r4-2ghp.md) | 2014&#x2011;04&#x2011;03
 [Inspections](../datasets/jzhd-m6uv.md) | 2016&#x2011;03&#x2011;04
+[Jamica Center BID businesses](../datasets/x84u-rirx.md) | 2013&#x2011;06&#x2011;21
 [Legally Operating Businesses](../datasets/w7w3-xahh.md) | 2016&#x2011;10&#x2011;17
 [License Applications](../datasets/ptev-4hud.md) | 2016&#x2011;02&#x2011;08
 [Licensing Center Customer Information](../datasets/azp6-hepu.md) | 2016&#x2011;07&#x2011;13
 [Lincoln Square BID Business List](../datasets/ne9f-g6k4.md) | 2013&#x2011;06&#x2011;21
+[Lincoln Square BID Business List](../datasets/ne9f-g6k4.md) | 2013&#x2011;06&#x2011;21
 [M/WBE, LBE, and EBE Certified Business List](../datasets/ci93-uc8s.md) | 2015&#x2011;08&#x2011;26
 [Maker Spaces, Business Incubators & Accelerators](../datasets/wpin-z8u6.md) | 2017&#x2011;04&#x2011;20
 [Maryland Real Property Assessments: Fields Reference](../datasets/w8th-47fz.md) | 2015&#x2011;12&#x2011;11
+[Minority and Women's Business Enterprises Certifications - MBE/WBE](../datasets/us2p-bijb.md) | 2014&#x2011;04&#x2011;03
 [NY License Center Business Wizard](../datasets/x8bw-q2g6.md) | 2014&#x2011;08&#x2011;19
 [New Home Builders](../datasets/c7hs-c9qq.md) | 2015&#x2011;12&#x2011;23
 [New York Power Authority (NYPA) Electric Supply Rates - Business Customers: Beginning 2012](../datasets/2x8p-pewm.md) | 2017&#x2011;01&#x2011;31
@@ -64,6 +68,7 @@ Name | Published
 [Top Manufacturing Companies in SSMMA Region](../datasets/8ych-bcfm.md) | 2013&#x2011;03&#x2011;14
 [Union Square Partnership (USP) Business List](../datasets/p6bh-gqsg.md) | 2013&#x2011;06&#x2011;21
 [Veteran Owned Businesses](../datasets/czzw-ymcb.md) | 2016&#x2011;08&#x2011;01
+[Village Alliance Merchants](../datasets/grbs-nm2g.md) | 2013&#x2011;06&#x2011;21
 [Village Alliance Merchants](../datasets/grbs-nm2g.md) | 2013&#x2011;06&#x2011;21
 [Workforce & Economic Development 2010](../datasets/8e3m-6y2b.md) | 2014&#x2011;04&#x2011;04
 

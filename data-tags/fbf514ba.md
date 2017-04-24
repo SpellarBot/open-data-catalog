@@ -14,4 +14,5 @@ Name | Published
 [Funded Capacity Seats and Additional Needs](../datasets/ujdf-5byz.md) | 2016&#x2011;06&#x2011;02
 [MEA SmartEnergy: Renewable Energy](../datasets/4ubg-d5ir.md) | 2015&#x2011;02&#x2011;25
 [New Capacity Program By Borough](../datasets/tzwr-vksx.md) | 2016&#x2011;06&#x2011;02
+[Wastewater Treatment Plant Data](../datasets/473p-afgy.md) | 2014&#x2011;03&#x2011;05
 

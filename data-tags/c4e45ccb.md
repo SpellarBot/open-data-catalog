@@ -12,6 +12,7 @@ Name | Published
 [Airport Annual Performance Measures](../datasets/x4vz-3xdy.md) | 2015&#x2011;08&#x2011;11
 [Airport Monthly Operational Report](../datasets/67kt-ykxh.md) | 2017&#x2011;03&#x2011;21
 [Airport Quarterly Passenger Survey](../datasets/dvu8-ztdx.md) | 2016&#x2011;12&#x2011;07
+[Annual Enplanements in NYS Airports: Beginning 1997](../datasets/vpv5-zd4k.md) | 2016&#x2011;03&#x2011;04
 [BWI Passenger Data](../datasets/6jva-hr4v.md) | 2013&#x2011;09&#x2011;15
 [Choose Maryland: Compare Counties - Transportation](../datasets/ief7-i74z.md) | 2016&#x2011;12&#x2011;08
 [Coach Bus Passengers per Month at Port Authority of NY NJ Airports: Beginning 2002](../datasets/39r6-cbzf.md) | 2016&#x2011;11&#x2011;10
