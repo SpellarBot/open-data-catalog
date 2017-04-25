@@ -306,7 +306,7 @@ Name | Datasets count
 [ctkids](data-tags/af84a65e.md) | 11
 [culture](data-tags/42d855ae.md) | 27
 [current](data-tags/432bbd79.md) | 12
-[datum](data-tags/5af086f.md) | 47
+[data](data-tags/2eefaa.md) | 46
 [dca](data-tags/183c2.md) | 18
 [dcf](data-tags/183c7.md) | 12
 [dcp](data-tags/183d1.md) | 29
@@ -460,7 +460,6 @@ Name | Datasets count
 [nedss](data-tags/63d88ad.md) | 62
 [neighborhood](data-tags/1db5e70e.md) | 26
 [netss](data-tags/63dc4bd.md) | 62
-[new](data-tags/1a9a0.md) | 10
 [nndss](data-tags/641a004.md) | 62
 [nyc](data-tags/1abf8.md) | 18
 [nyccfb](data-tags/c28cb167.md) | 13
