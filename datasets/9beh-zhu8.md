@@ -55,11 +55,11 @@ metric m:price p:double l:Price t:dataTypeName=money
 
 entity e:9beh-zhu8 l:"Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/9beh-zhu8
 
-property e:9beh-zhu8 t:meta.view v:id=9beh-zhu8 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012"
+property e:9beh-zhu8 t:meta.view d:2017-06-09T13:51:05.280Z v:id=9beh-zhu8 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: PC Amendments: Fiscal Year 2012"
 
-property e:9beh-zhu8 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1492617591 v:displayName="Paula N."
+property e:9beh-zhu8 t:meta.view.owner d:2017-06-09T13:51:05.280Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:9beh-zhu8 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1492617591 v:displayName="Paula N."
+property e:9beh-zhu8 t:meta.view.tableauthor d:2017-06-09T13:51:05.280Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

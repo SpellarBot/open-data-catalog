@@ -51,11 +51,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state="United States" m:ages_21_34_2014=6.2 m:ages_0_20_2014=1.2 m:male_2014=4.9 m:female_2014=1.4 m:female=1.5 m:ages_21_34=6.7 m:male=5.2 m:ages_0_20=1.3 m:ages_35=3.1 m:all_ages_2014=3.1 m:all_ages=3.3 m:ages_35_2014=3
+series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state="United States" m:ages_21_34_2014=6.2 m:ages_0_20_2014=1.2 m:female_2014=1.4 m:male_2014=4.9 m:ages_21_34=6.7 m:female=1.5 m:ages_0_20=1.3 m:male=5.2 m:ages_35=3.1 m:all_ages_2014=3.1 m:all_ages=3.3 m:ages_35_2014=3
 
-series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state=Alabama m:ages_21_34_2014=10 m:ages_0_20_2014=2.1 m:male_2014=8.6 m:female_2014=2.6 m:female=2.9 m:ages_21_34=10.3 m:male=8.4 m:ages_0_20=2.7 m:ages_35=5 m:all_ages_2014=5.5 m:all_ages=5.5 m:ages_35_2014=5.5
+series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state=Alabama m:ages_21_34_2014=10 m:ages_0_20_2014=2.1 m:female_2014=2.6 m:male_2014=8.6 m:ages_21_34=10.3 m:female=2.9 m:ages_0_20=2.7 m:male=8.4 m:ages_35=5 m:all_ages_2014=5.5 m:all_ages=5.5 m:ages_35_2014=5.5
 
-series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state=Florida m:ages_21_34_2014=7.4 m:ages_0_20_2014=1.2 m:male_2014=5.4 m:female_2014=1.7 m:female=1.7 m:ages_21_34=8 m:male=5.7 m:ages_0_20=1.2 m:ages_35=3.3 m:all_ages_2014=3.5 m:all_ages=3.7 m:ages_35_2014=3.1
+series e:28km-nz6e d:2012-01-01T00:00:00.000Z t:state=Florida m:ages_21_34_2014=7.4 m:ages_0_20_2014=1.2 m:female_2014=1.7 m:male_2014=5.4 m:ages_21_34=8 m:female=1.7 m:ages_0_20=1.2 m:male=5.7 m:ages_35=3.3 m:all_ages_2014=3.5 m:all_ages=3.7 m:ages_35_2014=3.1
 ```
 
 ## Meta Commands
@@ -87,15 +87,15 @@ metric m:female_2014 p:float l:"Female, 2014" t:dataTypeName=number
 
 entity e:28km-nz6e l:"Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/28km-nz6e
 
-property e:28km-nz6e t:meta.view v:id=28km-nz6e v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
+property e:28km-nz6e t:meta.view d:2017-06-09T13:54:33.145Z v:id=28km-nz6e v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Impaired Driving Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
 
-property e:28km-nz6e t:meta.view.license v:name="Public Domain"
+property e:28km-nz6e t:meta.view.license d:2017-06-09T13:54:33.145Z v:name="Public Domain"
 
-property e:28km-nz6e t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
+property e:28km-nz6e t:meta.view.owner d:2017-06-09T13:54:33.145Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
 
-property e:28km-nz6e t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:28km-nz6e t:meta.view.tableauthor d:2017-06-09T13:54:33.145Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:28km-nz6e t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:28km-nz6e t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:54:33.145Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
 
 ## Top Records

@@ -136,13 +136,13 @@ metric m:current_year_registration_fee p:double l:"Current Year Registration Fee
 
 entity e:nv2j-hmda l:"City of Albany Vacant Building Inventory: 2013" t:attribution="City of Albany" t:url=https://data.ny.gov/api/views/nv2j-hmda
 
-property e:nv2j-hmda t:meta.view v:id=nv2j-hmda v:category="Economic Development" v:attributionLink=http://albanyny.gov/Government/Departments/Codes.aspx v:averageRating=0 v:name="City of Albany Vacant Building Inventory: 2013" v:attribution="City of Albany"
+property e:nv2j-hmda t:meta.view d:2017-06-09T13:59:32.228Z v:id=nv2j-hmda v:category="Economic Development" v:attributionLink=http://albanyny.gov/Government/Departments/Codes.aspx v:averageRating=0 v:name="City of Albany Vacant Building Inventory: 2013" v:attribution="City of Albany"
 
-property e:nv2j-hmda t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:nv2j-hmda t:meta.view.owner d:2017-06-09T13:59:32.228Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:nv2j-hmda t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:nv2j-hmda t:meta.view.tableauthor d:2017-06-09T13:59:32.228Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:nv2j-hmda t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:nv2j-hmda t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:59:32.228Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

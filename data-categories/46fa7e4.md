@@ -31,7 +31,7 @@ Name | Host | Published
 [NNDSS - Table II. Hepatitis (viral, acute) A & B](../datasets/vxsn-2csw.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Hepatitis (viral, acute) C](../datasets/swv3-ghj7.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Invasive Pneumococcal Diseases, Age <5](../datasets/9yc3-yir3.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
-[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](../datasets/mbsb-z5f8.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
+[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](../datasets/mbsb-z5f8.md) | data.cdc.gov | 2017&#x2011;06&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | data.cdc.gov | 2015&#x2011;01&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | data.cdc.gov | 2015&#x2011;01&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | data.cdc.gov | 2015&#x2011;01&#x2011;08
@@ -42,7 +42,7 @@ Name | Host | Published
 [NNDSS - Table II. Meningococcal to Pertussis](../datasets/hatw-7gqy.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Mumps to Rabies, animal](../datasets/d69q-iyrb.md) | data.cdc.gov | 2016&#x2011;01&#x2011;07
 [NNDSS - Table II. Mumps to Rabies, animal](../datasets/d69q-iyrb.md) | data.cdc.gov | 2016&#x2011;01&#x2011;07
-[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
+[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | data.cdc.gov | 2017&#x2011;06&#x2011;08
 [NNDSS - Table II. Rubella to Salmonellosis](../datasets/4qb4-rsd8.md) | data.cdc.gov | 2017&#x2011;01&#x2011;05
 [NNDSS - Table II. Rubella to Salmonellosis](../datasets/4qb4-rsd8.md) | data.cdc.gov | 2017&#x2011;01&#x2011;05
 [NNDSS - Table II. Salmonellosis to Shigellosis](../datasets/hwyq-75wu.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20

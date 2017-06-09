@@ -53,13 +53,13 @@ metric m:ytd_through_june_2011 p:integer l:"2011 YTD through June 2011" t:dataTy
 
 entity e:3ghu-xq7n l:"Health & Hospitals System - Outpatient Registrations, by ZIP - Fiscal Year 2011 Incomplete" t:attribution="Cook County Health & Hospitals System" t:url=https://datacatalog.cookcountyil.gov/api/views/3ghu-xq7n
 
-property e:3ghu-xq7n t:meta.view v:id=3ghu-xq7n v:category=Healthcare v:attributionLink=http://www.cookcountyhhs.org/ v:averageRating=0 v:name="Health & Hospitals System - Outpatient Registrations, by ZIP - Fiscal Year 2011 Incomplete" v:attribution="Cook County Health & Hospitals System"
+property e:3ghu-xq7n t:meta.view d:2017-06-09T13:56:04.859Z v:id=3ghu-xq7n v:category=Healthcare v:attributionLink=http://www.cookcountyhhs.org/ v:averageRating=0 v:name="Health & Hospitals System - Outpatient Registrations, by ZIP - Fiscal Year 2011 Incomplete" v:attribution="Cook County Health & Hospitals System"
 
-property e:3ghu-xq7n t:meta.view.license v:name="Public Domain"
+property e:3ghu-xq7n t:meta.view.license d:2017-06-09T13:56:04.859Z v:name="Public Domain"
 
-property e:3ghu-xq7n t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:3ghu-xq7n t:meta.view.owner d:2017-06-09T13:56:04.859Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:3ghu-xq7n t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:3ghu-xq7n t:meta.view.tableauthor d:2017-06-09T13:56:04.859Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
 
 ## Top Records

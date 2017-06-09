@@ -188,7 +188,6 @@ Name | Category | Published
 [SDOT Traffic Beacons](../datasets/iwrq-qjta.md) | Transportation | 2015&#x2011;03&#x2011;19
 [SDOT Traffic Cameras](../datasets/vhnv-4n94.md) |  | 2016&#x2011;12&#x2011;14
 [SDOT Traffic Circles](../datasets/35iz-msg7.md) | Transportation | 2016&#x2011;04&#x2011;22
-[SDOT Traffic Count Details](../datasets/qfw2-ekmx.md) | Transportation | 2015&#x2011;03&#x2011;19
 [SDOT Traffic Lanes](../datasets/3ytq-9ntv.md) | Transportation | 2015&#x2011;03&#x2011;18
 [SDOT Traffic Signals](../datasets/a3dp-9q2z.md) | Transportation | 2015&#x2011;03&#x2011;19
 [SDOT Winter Weather Service Level](../datasets/kcuv-5zuy.md) | Transportation | 2016&#x2011;04&#x2011;22
@@ -231,6 +230,7 @@ Name | Category | Published
 [Top Seven Service Requests](../datasets/vqnu-tyk4.md) | City Business | 2016&#x2011;08&#x2011;19
 [Trade Permits : Current](../datasets/txjd-pq99.md) | Permitting | 2017&#x2011;01&#x2011;23
 [Trade Permits : Older than 5 years](../datasets/w3y2-x633.md) | Permitting | 2017&#x2011;01&#x2011;23
+[Traffic Count Details [arcgis_rest_services_SDOT_EXT_DSG_datasharing_MapServer_77]](../datasets/qfw2-ekmx.md) | Transportation | 2015&#x2011;03&#x2011;19
 [Traffic Flow Counts](../datasets/7svg-ds5z.md) | Transportation | 2011&#x2011;04&#x2011;17
 [Traffic Flow Map Volumes](../datasets/38vd-gytv.md) | Transportation | 2016&#x2011;01&#x2011;04
 [Transit Communities Funding Toolkit](../datasets/bnq7-2pc8.md) | Community | 2011&#x2011;04&#x2011;17

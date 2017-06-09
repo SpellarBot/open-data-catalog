@@ -74,13 +74,13 @@ metric m:mada_for_site p:integer l:"MADA for Site" d:"Identifies the Maximum ave
 
 entity e:ae9a-zs4q l:"Advantage After School Program" t:attribution="NYS Office of Children and Family Services" t:url=https://data.ny.gov/api/views/ae9a-zs4q
 
-property e:ae9a-zs4q t:meta.view v:id=ae9a-zs4q v:category="Human Services" v:attributionLink=http://www.ocfs.state.ny.us/main/bcm/tanf/aas/contractlistAAS.pdf v:averageRating=0 v:name="Advantage After School Program" v:attribution="NYS Office of Children and Family Services"
+property e:ae9a-zs4q t:meta.view d:2017-06-09T13:56:25.654Z v:id=ae9a-zs4q v:category="Human Services" v:attributionLink=http://www.ocfs.state.ny.us/main/bcm/tanf/aas/contractlistAAS.pdf v:averageRating=0 v:name="Advantage After School Program" v:attribution="NYS Office of Children and Family Services"
 
-property e:ae9a-zs4q t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:ae9a-zs4q t:meta.view.owner d:2017-06-09T13:56:25.654Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:ae9a-zs4q t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:ae9a-zs4q t:meta.view.tableauthor d:2017-06-09T13:56:25.654Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:ae9a-zs4q t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:ae9a-zs4q t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:25.654Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

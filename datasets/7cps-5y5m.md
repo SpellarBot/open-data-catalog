@@ -51,11 +51,11 @@ metric m:solar_projects_in_million_dollars p:double l:"Solar Projects (in millio
 
 entity e:7cps-5y5m l:"Solar- Related Construction Expenditures (value of solar projects as percentage of total building permit value)    (Source: DBEDT)" t:attribution=DBEDT t:url=https://data.hawaii.gov/api/views/7cps-5y5m
 
-property e:7cps-5y5m t:meta.view v:id=7cps-5y5m v:averageRating=0 v:name="Solar- Related Construction Expenditures (value of solar projects as percentage of total building permit value)    (Source: DBEDT)" v:attribution=DBEDT
+property e:7cps-5y5m t:meta.view d:2017-06-09T13:56:55.362Z v:id=7cps-5y5m v:averageRating=0 v:name="Solar- Related Construction Expenditures (value of solar projects as percentage of total building permit value)    (Source: DBEDT)" v:attribution=DBEDT
 
-property e:7cps-5y5m t:meta.view.owner v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:displayName="Jerome Koehler"
+property e:7cps-5y5m t:meta.view.owner d:2017-06-09T13:56:55.362Z v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:displayName="Jerome Koehler"
 
-property e:7cps-5y5m t:meta.view.tableauthor v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:roleName=publisher v:displayName="Jerome Koehler"
+property e:7cps-5y5m t:meta.view.tableauthor d:2017-06-09T13:56:55.362Z v:id=kpux-wcj8 v:screenName="Jerome Koehler" v:roleName=publisher v:displayName="Jerome Koehler"
 ```
 
 ## Top Records

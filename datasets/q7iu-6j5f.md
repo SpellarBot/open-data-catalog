@@ -19,7 +19,7 @@
 
 ## Description
 
-CDTA is a public transportation authority in the Capital Region.  This dataset presents information that reflects the organizations performance levels.  This dataset includes customer boarding?s, miles operated, accidents, preventative maintenance inspections, and complaints.
+CDTA is a public transportation authority in the Capital Region.  This dataset presents information that reflects the organizations performance levels.  This dataset includes customer boarding’s, miles operated, accidents, preventative maintenance inspections, and complaints.
 
 ## Columns
 
@@ -60,11 +60,11 @@ Excluded Fields = comp_not_address_10_days
 ## Data Commands
 
 ```ls
-series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z m:pmi_completed=148 m:non_prevent_accidents=27 m:fixed_riders=1398444 m:total_riders=1425100 m:other_complaints=118 m:service_interruptions=0 m:total_complaints=354 m:prevent_accidents=16 m:star_denials=37 m:miles=861430 m:fixed_shut_complaints=236 m:star_riders=26656 m:pmi_not_on_time=3 m:mdbsi=23440.27211
+series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z m:pmi_completed=148 m:total_riders=1425100 m:fixed_riders=1398444 m:non_prevent_accidents=27 m:service_interruptions=0 m:other_complaints=118 m:total_complaints=354 m:prevent_accidents=16 m:star_denials=37 m:fixed_shut_complaints=236 m:miles=861430 m:star_riders=26656 m:pmi_not_on_time=3 m:mdbsi=23440.27211
 
-series e:q7iu-6j5f d:2015-11-30T00:00:00.000Z m:pmi_completed=140 m:non_prevent_accidents=23 m:fixed_riders=1412037 m:total_riders=1437740 m:other_complaints=124 m:service_interruptions=0 m:total_complaints=381 m:prevent_accidents=12 m:star_denials=35 m:miles=808316 m:fixed_shut_complaints=257 m:star_riders=25703 m:pmi_not_on_time=5 m:mdbsi=23261
+series e:q7iu-6j5f d:2015-11-30T00:00:00.000Z m:pmi_completed=140 m:total_riders=1437740 m:fixed_riders=1412037 m:non_prevent_accidents=23 m:service_interruptions=0 m:other_complaints=124 m:total_complaints=381 m:prevent_accidents=12 m:star_denials=35 m:fixed_shut_complaints=257 m:miles=808316 m:star_riders=25703 m:pmi_not_on_time=5 m:mdbsi=23261
 
-series e:q7iu-6j5f d:2015-10-31T00:00:00.000Z m:pmi_completed=141 m:non_prevent_accidents=33 m:fixed_riders=1590696 m:total_riders=1619277 m:other_complaints=133 m:service_interruptions=0 m:total_complaints=442 m:prevent_accidents=17 m:star_denials=28 m:miles=860916 m:fixed_shut_complaints=309 m:star_riders=28581 m:pmi_not_on_time=3 m:mdbsi=30747
+series e:q7iu-6j5f d:2015-10-31T00:00:00.000Z m:pmi_completed=141 m:total_riders=1619277 m:fixed_riders=1590696 m:non_prevent_accidents=33 m:service_interruptions=0 m:other_complaints=133 m:total_complaints=442 m:prevent_accidents=17 m:star_denials=28 m:fixed_shut_complaints=309 m:miles=860916 m:star_riders=28581 m:pmi_not_on_time=3 m:mdbsi=30747
 ```
 
 ## Meta Commands
@@ -86,7 +86,7 @@ metric m:service_interruptions p:integer l:"Service Interruptions" d:"Delays in 
 
 metric m:miles p:integer l:Miles d:"Total miles operated." t:dataTypeName=number
 
-metric m:mdbsi p:integer l:MDBSI d:"Mean Distance Between Service Interruption ? Formula, miles/service interruptions." t:dataTypeName=number
+metric m:mdbsi p:integer l:MDBSI d:"Mean Distance Between Service Interruption – Formula, miles/service interruptions." t:dataTypeName=number
 
 metric m:prevent_accidents p:integer l:"Prevent Accidents" d:"The number of accidents with determination that operator failed to initiate a defensive driving action that may have prevented or reduced the severity of the accident." t:dataTypeName=number
 
@@ -100,13 +100,13 @@ metric m:total_complaints p:integer l:"Total Complaints" d:"All customer complai
 
 entity e:q7iu-6j5f l:"Capital District Transportation Authority (CDTA) Performance Metrics" t:attribution="Capital District Transportation Authority" t:url=https://data.ny.gov/api/views/q7iu-6j5f
 
-property e:q7iu-6j5f t:meta.view v:id=q7iu-6j5f v:category=Transportation v:attributionLink="https://www.google.com/fusiontables/DataSource?docid=15Ha6CHeJv3MC0zlTjUSchdS6Otm6B_WCTja0r7k#rows:id=1" v:averageRating=0 v:name="Capital District Transportation Authority (CDTA) Performance Metrics" v:attribution="Capital District Transportation Authority"
+property e:q7iu-6j5f t:meta.view d:2017-06-09T13:51:05.384Z v:id=q7iu-6j5f v:category=Transportation v:attributionLink="https://www.google.com/fusiontables/DataSource?docid=15Ha6CHeJv3MC0zlTjUSchdS6Otm6B_WCTja0r7k#rows:id=1" v:averageRating=0 v:name="Capital District Transportation Authority (CDTA) Performance Metrics" v:attribution="Capital District Transportation Authority"
 
-property e:q7iu-6j5f t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:q7iu-6j5f t:meta.view.owner d:2017-06-09T13:51:05.384Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:q7iu-6j5f t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:q7iu-6j5f t:meta.view.tableauthor d:2017-06-09T13:51:05.384Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:q7iu-6j5f t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:q7iu-6j5f t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:05.384Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

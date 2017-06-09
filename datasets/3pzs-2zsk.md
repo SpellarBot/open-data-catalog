@@ -19,7 +19,7 @@
 
 ## Description
 
-The Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor Dataset provides market insight into the volume of work and photovoltaic (PV) capacity installed in New York State annually, by city and contractor, beginning August 2010 under the New York State Energy Research and Development Authority (NYSERDA)?s NY-Sun Solar Electric Incentive Program Opportunity Notice (PON) 2112.The dataset includes the following data points: Project Install Year, Contractor, County, City, Project Count by City, Project Cost, NYSERDA Incentives, Kilowatt Capacity, Expected Annual Kilowatt Hour Production, and NYSERDA Solicitation.
+The Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor Dataset provides market insight into the volume of work and photovoltaic (PV) capacity installed in New York State annually, by city and contractor, beginning August 2010 under the New York State Energy Research and Development Authority (NYSERDA)’s NY-Sun Solar Electric Incentive Program Opportunity Notice (PON) 2112.The dataset includes the following data points: Project Install Year, Contractor, County, City, Project Count by City, Project Cost, NYSERDA Incentives, Kilowatt Capacity, Expected Annual Kilowatt Hour Production, and NYSERDA Solicitation.
 
 ## Columns
 
@@ -48,11 +48,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Allegany t:contractor=Other t:solicitation="PON 2112" t:city=Other m:project_count_by_city=1 m:project_cost=34440 m:total_nameplate_kw=4.6 m:expected_kwh_annual_production=5399.66 m:incentive_dollars=8050
+series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Allegany t:contractor=Other t:solicitation="PON 2112" t:city=Other m:total_nameplate_kw=4.6 m:project_cost=34440 m:project_count_by_city=1 m:expected_kwh_annual_production=5399.66 m:incentive_dollars=8050
 
-series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Cayuga t:contractor=Other t:solicitation="PON 2112" t:city=Other m:project_count_by_city=1 m:project_cost=39000 m:total_nameplate_kw=5.04 m:expected_kwh_annual_production=5916.15 m:incentive_dollars=8820
+series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Cayuga t:contractor=Other t:solicitation="PON 2112" t:city=Other m:total_nameplate_kw=5.04 m:project_cost=39000 m:project_count_by_city=1 m:expected_kwh_annual_production=5916.15 m:incentive_dollars=8820
 
-series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Columbia t:contractor=Other t:solicitation="PON 2112" t:city=Other m:project_count_by_city=1 m:project_cost=20198 m:total_nameplate_kw=2.53 m:expected_kwh_annual_production=2969.82 m:incentive_dollars=4427.5
+series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z t:county=Columbia t:contractor=Other t:solicitation="PON 2112" t:city=Other m:total_nameplate_kw=2.53 m:project_cost=20198 m:project_count_by_city=1 m:expected_kwh_annual_production=2969.82 m:incentive_dollars=4427.5
 ```
 
 ## Meta Commands
@@ -70,13 +70,13 @@ metric m:expected_kwh_annual_production p:double l:"Expected KWh Annual Producti
 
 entity e:3pzs-2zsk l:"Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/3pzs-2zsk
 
-property e:3pzs-2zsk t:meta.view v:id=3pzs-2zsk v:category="Energy & Environment" v:averageRating=0 v:name="Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" v:attribution="New York State Energy Research and Development Authority"
+property e:3pzs-2zsk t:meta.view d:2017-06-09T13:56:39.758Z v:id=3pzs-2zsk v:category="Energy & Environment" v:averageRating=0 v:name="Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010" v:attribution="New York State Energy Research and Development Authority"
 
-property e:3pzs-2zsk t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:3pzs-2zsk t:meta.view.owner d:2017-06-09T13:56:39.758Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:3pzs-2zsk t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:3pzs-2zsk t:meta.view.tableauthor d:2017-06-09T13:56:39.758Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:3pzs-2zsk t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:3pzs-2zsk t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:39.758Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

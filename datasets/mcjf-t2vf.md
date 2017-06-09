@@ -36,9 +36,9 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:mcjf-t2vf d:2014-01-01T00:00:00.000Z t:parameter="5 Yr September Average" m:southwest=20 m:northwest=27 m:centeral=49 m:eastern=45
+series e:mcjf-t2vf d:2014-01-01T00:00:00.000Z t:parameter="5 Yr September Average" m:southwest=20 m:northwest=27 m:eastern=45 m:centeral=49
 
-series e:mcjf-t2vf d:2014-01-01T00:00:00.000Z t:parameter="Monthly Average" m:southwest=37 m:northwest=36 m:centeral=38 m:eastern=91
+series e:mcjf-t2vf d:2014-01-01T00:00:00.000Z t:parameter="Monthly Average" m:southwest=37 m:northwest=36 m:eastern=91 m:centeral=38
 ```
 
 ## Meta Commands
@@ -54,11 +54,11 @@ metric m:southwest p:integer l:Southwest t:dataTypeName=percent
 
 entity e:mcjf-t2vf l:"September 2014 FMU Monthly Report WQ EX data" t:url=https://data.wa.gov/api/views/mcjf-t2vf
 
-property e:mcjf-t2vf t:meta.view v:id=mcjf-t2vf v:averageRating=0 v:name="September 2014 FMU Monthly Report WQ EX data"
+property e:mcjf-t2vf t:meta.view d:2017-06-09T13:51:36.021Z v:id=mcjf-t2vf v:averageRating=0 v:name="September 2014 FMU Monthly Report WQ EX data"
 
-property e:mcjf-t2vf t:meta.view.owner v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:mcjf-t2vf t:meta.view.owner d:2017-06-09T13:51:36.021Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:displayName="Markus.Von Prause@ecy.wa.gov"
 
-property e:mcjf-t2vf t:meta.view.tableauthor v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:mcjf-t2vf t:meta.view.tableauthor d:2017-06-09T13:51:36.021Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
 ```
 
 ## Top Records

@@ -1,4 +1,4 @@
-# Maryland Total Acres For Residential Development: 2006-2010
+# Maryland Total Acres For Residential Development: 2006-2015
 
 ## Dataset
 
@@ -10,16 +10,22 @@
 | Data: CSV | [100 Rows](https://data.maryland.gov/api/views/p4s2-mc7r/rows.csv?max_rows=100) |
 | Host | data.maryland.gov |
 | Id | p4s2-mc7r |
-| Name | Maryland Total Acres For Residential Development: 2006-2010 |
+| Name | Maryland Total Acres For Residential Development: 2006-2015 |
 | Attribution | Maryland Department of Planning |
 | Category | Housing |
 | Tags | total, acres, residential, development, planning, mdp |
 | Created | 2012-12-21T17:40:29Z |
-| Publication Date | 2013-11-20T15:57:10Z |
+| Publication Date | 2017-05-25T14:43:10Z |
 
 ## Description
 
-Total Acres used for Residential Development in Maryland and its Counties from 2006 to 2010.
+Total Acres used for Residential Development in Maryland and its jurisdictions from 2006 through and including 2015 based on MdProperty View Edition year data referenced below. 
+ 
+2006-2012 Data Sources:
+-MdProperty View 2012 Edition for all jurisdictions except Allegany and Garrett counties, which are based on MdProperty View 2011 Edition updated with August 2014 parcel data from the State Department of Assessments and Taxation. 
+
+2013-2015 Data Sources:
+-MdProperty View 2013/14 Edition parcel data for all jurisdictions in Maryland except the following: Baltimore, Caroline, Cecil, Dorchester, Harford, Kent, Queen Anne’s, Talbot, and Wicomico counties and Baltimore City, 2013/2014 Edition data updated with June 2016 parcel data from Assessments, and Anne Arundel and Carroll Counties, 2012 Edition data updated with June 2016 parcel data from Assessments. For new parcels included in the June 2016 update, parcel point placement was done via geocoding and not via placement by deed and/or plat.
 
 ## Columns
 
@@ -71,17 +77,17 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z m:baltimore_city=20 m:calvert_county=410 m:st_mary_s_county=1051 m:wicomico_county=511 m:prince_george_s_county=1423 m:washington_county=858 m:carroll_county=696 m:montgomery_county=652 m:garrett_county=619 m:talbot_county=317 m:kent_county=124 m:queen_anne_s_county=276 m:baltimore_county=1031 m:cecil_county=403 m:harford_county=1097 m:caroline_county=264 m:frederick_county=909 m:charles_county=1051 m:somerset_county=337 m:maryland=14358 m:anne_arundel_county=737 m:howard_county=523 m:worcester_county=488 m:allegany_county=275 m:dorchester_county=288
+series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:baltimore_city=19.07 m:calvert_county=407.78 m:st_mary_s_county=1049.88 m:wicomico_county=510.55 m:prince_george_s_county=1422.29 m:washington_county=858.65 m:carroll_county=695.71 m:montgomery_county=651.93 m:garrett_county=618.74 m:talbot_county=316.67 m:kent_county=124.26 m:queen_anne_s_county=277.23 m:baltimore_county=1033.65 m:cecil_county=403.18 m:caroline_county=264.3 m:harford_county=1097.07 m:frederick_county=908.61 m:charles_county=1059.03 m:somerset_county=334.12 m:maryland=14362.14 m:howard_county=522.06 m:anne_arundel_county=736.82 m:worcester_county=487.65 m:allegany_county=275.27 m:dorchester_county=287.62
 
-series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z m:baltimore_city=16 m:calvert_county=350 m:st_mary_s_county=775 m:wicomico_county=305 m:prince_george_s_county=1180 m:washington_county=415 m:carroll_county=470 m:montgomery_county=528 m:garrett_county=449 m:talbot_county=217 m:kent_county=148 m:queen_anne_s_county=265 m:baltimore_county=836 m:cecil_county=317 m:harford_county=713 m:caroline_county=227 m:frederick_county=612 m:charles_county=553 m:somerset_county=251 m:maryland=10558 m:anne_arundel_county=620 m:howard_county=355 m:worcester_county=329 m:allegany_county=336 m:dorchester_county=292
+series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:baltimore_city=16.56 m:calvert_county=349.13 m:st_mary_s_county=774.6 m:wicomico_county=305.29 m:prince_george_s_county=1181.67 m:washington_county=414.39 m:carroll_county=470.43 m:montgomery_county=529.09 m:garrett_county=449.41 m:talbot_county=216.65 m:kent_county=147.8 m:queen_anne_s_county=265.43 m:baltimore_county=835.65 m:cecil_county=316.56 m:caroline_county=226.71 m:harford_county=710.05 m:frederick_county=611.59 m:charles_county=553.22 m:somerset_county=250.66 m:maryland=10556.72 m:howard_county=355.05 m:anne_arundel_county=620.17 m:worcester_county=329.21 m:allegany_county=335.66 m:dorchester_county=291.76
 
-series e:p4s2-mc7r d:2013-07-01T00:00:00.000Z m:baltimore_city=16 m:calvert_county=203 m:st_mary_s_county=668 m:wicomico_county=226 m:prince_george_s_county=651 m:washington_county=305 m:carroll_county=266 m:montgomery_county=427 m:garrett_county=383 m:talbot_county=187 m:kent_county=61 m:queen_anne_s_county=210 m:baltimore_county=501 m:cecil_county=219 m:harford_county=424 m:caroline_county=152 m:frederick_county=423 m:charles_county=449 m:somerset_county=185 m:maryland=7522 m:anne_arundel_county=635 m:howard_county=374 m:worcester_county=178 m:allegany_county=192 m:dorchester_county=185
+series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:baltimore_city=16.5 m:calvert_county=211.4 m:st_mary_s_county=679.62 m:wicomico_county=225.63 m:prince_george_s_county=655.07 m:washington_county=312.62 m:carroll_county=264.32 m:montgomery_county=430.26 m:garrett_county=392.55 m:talbot_county=186.63 m:kent_county=64.8 m:queen_anne_s_county=206.53 m:baltimore_county=501.17 m:cecil_county=217.91 m:caroline_county=147.43 m:harford_county=424.21 m:frederick_county=421.74 m:charles_county=453.76 m:somerset_county=186.24 m:maryland=7595.09 m:howard_county=387.42 m:anne_arundel_county=637 m:worcester_county=183.46 m:allegany_county=198.19 m:dorchester_county=190.65
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:maryland p:long l:MARYLAND t:dataTypeName=number
+metric m:maryland p:float l:MARYLAND t:dataTypeName=number
 
 metric m:allegany_county p:float l:"Allegany County" t:dataTypeName=number
 
@@ -89,7 +95,7 @@ metric m:anne_arundel_county p:float l:"Anne Arundel County" t:dataTypeName=numb
 
 metric m:baltimore_city p:float l:"Baltimore City" t:dataTypeName=number
 
-metric m:baltimore_county p:long l:"Baltimore County" t:dataTypeName=number
+metric m:baltimore_county p:float l:"Baltimore County" t:dataTypeName=number
 
 metric m:calvert_county p:float l:"Calvert County" t:dataTypeName=number
 
@@ -99,7 +105,7 @@ metric m:carroll_county p:float l:"Carroll County" t:dataTypeName=number
 
 metric m:cecil_county p:float l:"Cecil County" t:dataTypeName=number
 
-metric m:charles_county p:long l:"Charles County" t:dataTypeName=number
+metric m:charles_county p:float l:"Charles County" t:dataTypeName=number
 
 metric m:dorchester_county p:float l:"Dorchester County" t:dataTypeName=number
 
@@ -107,7 +113,7 @@ metric m:frederick_county p:float l:"Frederick County" t:dataTypeName=number
 
 metric m:garrett_county p:float l:"Garrett County" t:dataTypeName=number
 
-metric m:harford_county p:long l:"Harford County" t:dataTypeName=number
+metric m:harford_county p:float l:"Harford County" t:dataTypeName=number
 
 metric m:howard_county p:float l:"Howard County" t:dataTypeName=number
 
@@ -115,13 +121,13 @@ metric m:kent_county p:float l:"Kent County" t:dataTypeName=number
 
 metric m:montgomery_county p:float l:"Montgomery County" t:dataTypeName=number
 
-metric m:prince_george_s_county p:long l:"Prince George's County" t:dataTypeName=number
+metric m:prince_george_s_county p:float l:"Prince George's County" t:dataTypeName=number
 
 metric m:queen_anne_s_county p:float l:"Queen Anne's County" t:dataTypeName=number
 
 metric m:somerset_county p:float l:"Somerset County" t:dataTypeName=number
 
-metric m:st_mary_s_county p:long l:"St. Mary's County" t:dataTypeName=number
+metric m:st_mary_s_county p:float l:"St. Mary's County" t:dataTypeName=number
 
 metric m:talbot_county p:float l:"Talbot County" t:dataTypeName=number
 
@@ -131,15 +137,15 @@ metric m:wicomico_county p:float l:"Wicomico County" t:dataTypeName=number
 
 metric m:worcester_county p:float l:"Worcester County" t:dataTypeName=number
 
-entity e:p4s2-mc7r l:"Maryland Total Acres For Residential Development: 2006-2010" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/p4s2-mc7r
+entity e:p4s2-mc7r l:"Maryland Total Acres For Residential Development: 2006-2015" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/p4s2-mc7r
 
-property e:p4s2-mc7r t:meta.view v:id=p4s2-mc7r v:category=Housing v:attributionLink=http://planning.maryland.gov/msdc/md_statistical_handbook12.pdf v:averageRating=0 v:name="Maryland Total Acres For Residential Development: 2006-2010" v:attribution="Maryland Department of Planning"
+property e:p4s2-mc7r t:meta.view d:2017-06-09T13:55:57.868Z v:id=p4s2-mc7r v:category=Housing v:averageRating=0 v:name="Maryland Total Acres For Residential Development: 2006-2015" v:attribution="Maryland Department of Planning"
 
-property e:p4s2-mc7r t:meta.view.license v:name="Public Domain"
+property e:p4s2-mc7r t:meta.view.license d:2017-06-09T13:55:57.868Z v:name="Public Domain"
 
-property e:p4s2-mc7r t:meta.view.owner v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:displayName=MDP
+property e:p4s2-mc7r t:meta.view.owner d:2017-06-09T13:55:57.868Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:lastNotificationSeenAt=1495028713 v:displayName=MDP
 
-property e:p4s2-mc7r t:meta.view.tableauthor v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
+property e:p4s2-mc7r t:meta.view.tableauthor d:2017-06-09T13:55:57.868Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1495028713 v:displayName=MDP
 ```
 
 ## Top Records
@@ -147,9 +153,14 @@ property e:p4s2-mc7r t:meta.view.tableauthor v:id=85mq-rt9c v:profileImageUrlMed
 ```ls
 | date_created | year | maryland | allegany_county | anne_arundel_county | baltimore_city | baltimore_county | calvert_county | caroline_county | carroll_county | cecil_county | charles_county | dorchester_county | frederick_county | garrett_county | harford_county | howard_county | kent_county | montgomery_county | prince_george_s_county | queen_anne_s_county | somerset_county | st_mary_s_county | talbot_county | washington_county | wicomico_county | worcester_county | 
 | ============ | ==== | ======== | =============== | =================== | ============== | ================ | ============== | =============== | ============== | ============ | ============== | ================= | ================ | ============== | ============== | ============= | =========== | ================= | ====================== | =================== | =============== | ================ | ============= | ================= | =============== | ================ | 
-| 7/1/2013     | 2006 | 14,358.0 | 275.0           | 737.0               | 20.0           | 1,031.0          | 410.0          | 264.0           | 696.0          | 403.0        | 1,051.0        | 288.0             | 909.0            | 619.0          | 1,097.0        | 523.0         | 124.0       | 652.0             | 1,423.0                | 276.0               | 337.0           | 1,051.0          | 317.0         | 858.0             | 511.0           | 488.0            | 
-| 7/1/2013     | 2007 | 10,558.0 | 336.0           | 620.0               | 16.0           | 836.0            | 350.0          | 227.0           | 470.0          | 317.0        | 553.0          | 292.0             | 612.0            | 449.0          | 713.0          | 355.0         | 148.0       | 528.0             | 1,180.0                | 265.0               | 251.0           | 775.0            | 217.0         | 415.0             | 305.0           | 329.0            | 
-| 7/1/2013     | 2008 | 7,522.0  | 192.0           | 635.0               | 16.0           | 501.0            | 203.0          | 152.0           | 266.0          | 219.0        | 449.0          | 185.0             | 423.0            | 383.0          | 424.0          | 374.0         | 61.0        | 427.0             | 651.0                  | 210.0               | 185.0           | 668.0            | 187.0         | 305.0             | 226.0           | 178.0            | 
-| 7/1/2013     | 2009 | 4,965.0  | 116.0           | 375.0               | 11.0           | 287.0            | 216.0          | 93.0            | 186.0          | 116.0        | 318.0          | 81.0              | 270.0            | 162.0          | 289.0          | 334.0         | 79.0        | 276.0             | 503.0                  | 50.0                | 68.0            | 634.0            | 98.0          | 160.0             | 157.0           | 87.0             | 
-| 7/1/2013     | 2010 | 4,785.5  | 113.7           | 321.1               | 8.6            | 301.4            | 221.9          | 120.0           | 171.7          | 158.8        | 353.1          | 113.2             | 268.0            | 202.6          | 355.3          | 351.7         | 36.0        | 242.5             | 373.1                  | 45.8                | 31.6            | 513.4            | 85.2          | 149.3             | 142.3           | 105.3            | 
+| 5/15/2017    | 2006 | 14362.14 | 275.27          | 736.82              | 19.07          | 1033.65          | 407.78         | 264.30          | 695.71         | 403.18       | 1059.03        | 287.62            | 908.61           | 618.74         | 1097.07        | 522.06        | 124.26      | 651.93            | 1422.29                | 277.23              | 334.12          | 1049.88          | 316.67        | 858.65            | 510.55          | 487.65           | 
+| 5/15/2017    | 2007 | 10556.72 | 335.66          | 620.17              | 16.56          | 835.65           | 349.13         | 226.71          | 470.43         | 316.56       | 553.22         | 291.76            | 611.59           | 449.41         | 710.05         | 355.05        | 147.80      | 529.09            | 1181.67                | 265.43              | 250.66          | 774.60           | 216.65        | 414.39            | 305.29          | 329.21           | 
+| 5/15/2017    | 2008 | 7595.09  | 198.19          | 637.00              | 16.50          | 501.17           | 211.40         | 147.43          | 264.32         | 217.91       | 453.76         | 190.65            | 421.74           | 392.55         | 424.21         | 387.42        | 64.80       | 430.26            | 655.07                 | 206.53              | 186.24          | 679.62           | 186.63        | 312.62            | 225.63          | 183.46           | 
+| 5/15/2017    | 2009 | 5715.81  | 151.12          | 398.01              | 18.27          | 293.93           | 234.04         | 96.09           | 186.92         | 201.73       | 335.18         | 95.72             | 278.20           | 368.85         | 291.78         | 341.96        | 118.35      | 341.86            | 521.37                 | 137.74              | 100.60          | 634.55           | 115.61        | 178.69            | 157.72          | 117.52           | 
+| 5/15/2017    | 2010 | 5067.32  | 119.58          | 333.24              | 9.36           | 301.86           | 223.27         | 120.02          | 179.07         | 159.28       | 359.68         | 114.44            | 273.36           | 230.14         | 379.43         | 357.85        | 45.09       | 272.91            | 380.56                 | 126.48              | 36.56           | 515.71           | 86.66         | 175.34            | 153.47          | 113.97           | 
+| 5/15/2017    | 2011 | 4632.17  | 115.24          | 351.66              | 11.55          | 340.28           | 269.60         | 50.11           | 128.73         | 231.01       | 290.02         | 71.47             | 166.45           | 176.96         | 336.38         | 389.14        | 62.41       | 239.20            | 513.26                 | 94.47               | 37.97           | 334.52           | 122.46        | 110.86            | 101.08          | 87.32            | 
+| 5/15/2017    | 2012 | 4544.51  | 93.28           | 377.45              | 3.99           | 292.21           | 253.82         | 39.81           | 303.46         | 157.72       | 297.85         | 57.51             | 255.43           | 251.01         | 303.67         | 376.21        | 32.23       | 210.81            | 389.66                 | 118.33              | 36.87           | 389.09           | 38.18         | 81.64             | 93.29           | 90.98            | 
+| 5/15/2017    | 2013 | 5309.11  | 96.64           | 465.71              | 10.41          | 329.53           | 284.51         | 35.16           | 346.08         | 138.60       | 339.46         | 53.51             | 295.62           | 144.16         | 424.20         | 290.74        | 51.09       | 372.23            | 559.07                 | 130.81              | 33.01           | 431.16           | 66.51         | 207.08            | 106.49          | 97.34            | 
+| 5/15/2017    | 2014 | 4862.29  | 32.56           | 530.66              | 8.72           | 369.48           | 237.09         | 57.22           | 251.04         | 134.85       | 428.94         | 24.98             | 285.24           | 95.72          | 242.56         | 440.91        | 41.28       | 259.48            | 459.57                 | 131.00              | 53.05           | 436.20           | 61.20         | 134.70            | 61.75           | 84.11            | 
+| 5/15/2017    | 2015 | 4446.61  | 62.28           | 380.96              | 11.91          | 415.05           | 134.92         | 29.65           | 445.43         | 97.17        | 371.14         | 39.78             | 194.56           | 115.46         | 276.78         | 281.02        | 42.06       | 284.63            | 545.80                 | 107.46              | 51.03           | 193.60           | 52.16         | 126.88            | 152.63          | 34.27            | 
 ```

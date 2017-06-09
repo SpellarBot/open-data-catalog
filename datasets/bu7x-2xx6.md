@@ -46,13 +46,13 @@ metric m:row_number.bu7x-2xx6 p:long l:"Row Number"
 
 entity e:bu7x-2xx6 l:"CSC Kent" t:url=https://data.kingcounty.gov/api/views/bu7x-2xx6
 
-property e:bu7x-2xx6 t:meta.view v:id=bu7x-2xx6 v:category=Operations v:averageRating=0 v:name="CSC Kent"
+property e:bu7x-2xx6 t:meta.view d:2017-06-09T13:52:33.422Z v:id=bu7x-2xx6 v:category=Operations v:averageRating=0 v:name="CSC Kent"
 
-property e:bu7x-2xx6 t:meta.view.license v:name="Public Domain"
+property e:bu7x-2xx6 t:meta.view.license d:2017-06-09T13:52:33.422Z v:name="Public Domain"
 
-property e:bu7x-2xx6 t:meta.view.owner v:id=ph9f-eu4i v:screenName=Cameron v:displayName=Cameron
+property e:bu7x-2xx6 t:meta.view.owner d:2017-06-09T13:52:33.422Z v:id=ph9f-eu4i v:screenName=Cameron v:displayName=Cameron
 
-property e:bu7x-2xx6 t:meta.view.tableauthor v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
+property e:bu7x-2xx6 t:meta.view.tableauthor d:2017-06-09T13:52:33.422Z v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
 ```
 
 ## Top Records

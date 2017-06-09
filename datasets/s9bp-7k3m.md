@@ -57,15 +57,15 @@ metric m:prevalence_2014 p:float l:"Prevalence, 2014" t:dataTypeName=number
 
 entity e:s9bp-7k3m l:"Percentage of Adults Who Report Driving After Drinking Too Much (in the past 30 days), All States, 2012 & 2014" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/s9bp-7k3m
 
-property e:s9bp-7k3m t:meta.view v:id=s9bp-7k3m v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety v:averageRating=0 v:name="Percentage of Adults Who Report Driving After Drinking Too Much (in the past 30 days), All States, 2012 & 2014" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
+property e:s9bp-7k3m t:meta.view d:2017-06-09T13:52:22.326Z v:id=s9bp-7k3m v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety v:averageRating=0 v:name="Percentage of Adults Who Report Driving After Drinking Too Much (in the past 30 days), All States, 2012 & 2014" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
 
-property e:s9bp-7k3m t:meta.view.license v:name="Public Domain"
+property e:s9bp-7k3m t:meta.view.license d:2017-06-09T13:52:22.326Z v:name="Public Domain"
 
-property e:s9bp-7k3m t:meta.view.owner v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
+property e:s9bp-7k3m t:meta.view.owner d:2017-06-09T13:52:22.326Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
 
-property e:s9bp-7k3m t:meta.view.tableauthor v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:s9bp-7k3m t:meta.view.tableauthor d:2017-06-09T13:52:22.326Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
 
-property e:s9bp-7k3m t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:s9bp-7k3m t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:52:22.326Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
 
 ## Top Records

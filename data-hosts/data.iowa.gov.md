@@ -6,8 +6,10 @@ Name | Category | Published
 [3-Year Recidivism for Offenders Admitted to Probation](../datasets/e9zy-uibf.md) | Public Safety | 2016&#x2011;09&#x2011;22
 [3-Year Recidivism for Offenders Released from Prison](../datasets/mw8r-vqy4.md) | Public Safety | 2016&#x2011;09&#x2011;23
 [4-Year Graduation Rates by Cohort and Public School District](../datasets/tqti-3w6t.md) | Education | 2015&#x2011;06&#x2011;17
+[AADT Turning Traffic 1999](../datasets/9bnf-mwkb.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2001](../datasets/8z8t-apms.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2003](../datasets/swa5-edvy.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
+[AADT Turning Traffic 2004](../datasets/x89d-qusv.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2005](../datasets/v7pn-44q8.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2006](../datasets/hpc6-nhr3.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2008](../datasets/bpe7-rq9j.md) | Transportation & Utilities | 2016&#x2011;09&#x2011;29
@@ -56,6 +58,7 @@ Name | Category | Published
 [Crash Data](../datasets/bew5-k5dr.md) | Transportation & Utilities | 2016&#x2011;07&#x2011;12
 [Deer Kill Locations 2006](../datasets/qu3k-zwp8.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2007](../datasets/i2pa-xk8y.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;09
+[Deer Kill Locations 2009](../datasets/i6xa-cxa2.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2010](../datasets/xcu6-b2ty.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2011](../datasets/tffi-yvjr.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2013](../datasets/gjb9-cjen.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;09
@@ -67,6 +70,7 @@ Name | Category | Published
 [FY 2016 State and Federal Allocations to Iowa Schools](../datasets/v7vp-6ccq.md) | Education | 2016&#x2011;08&#x2011;08
 [Family Investment Program Recipients and Grants by Month and County](../datasets/79c3-mzyc.md) | Economy | 2016&#x2011;11&#x2011;07
 [Federal Functional Classification (small-scale)](../datasets/3zkm-p5zz.md) | Transportation & Utilities | 2016&#x2011;11&#x2011;08
+[Federal, Institutional, and Park Lands](../datasets/rfvm-5n7x.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;07
 [Five-Year Program: 2017 Highways](../datasets/yfka-ftmh.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;15
 [Five-Year Program: 2018 Structures](../datasets/4ibx-nmit.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;15
 [Five-Year Program: 2021 Highways](../datasets/fzdk-9ahk.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;15
@@ -139,6 +143,7 @@ Name | Category | Published
 [Low Distortion Projection Boundaries](../datasets/ae66-588u.md) | Transportation & Utilities | 2016&#x2011;06&#x2011;08
 [Math And Reading Proficiency by School Year, Public School District and Grade Level](../datasets/f3h8-mnxi.md) | Education | 2016&#x2011;08&#x2011;08
 [Membership by County, Status, and Membership Group](../datasets/inj7-vzy5.md) | Government | 2017&#x2011;03&#x2011;14
+[Metropolitan Planning Organization Boundaries](../datasets/82yg-8mf6.md) | Communities & People | 2016&#x2011;06&#x2011;07
 [Monthly Medicaid Payments & Recipients By County](../datasets/jmyd-wk9g.md) | Health | 2016&#x2011;11&#x2011;29
 [Monthly Medicaid Payments and Recipients by Category of Service](../datasets/mbny-tr2n.md) | Health | 2016&#x2011;12&#x2011;30
 [National Bridge Inventory - Points](../datasets/idc9-ny42.md) | Transportation & Utilities | 2016&#x2011;08&#x2011;02
@@ -154,6 +159,7 @@ Name | Category | Published
 [Pavement Raw Collection Data 2014](../datasets/tyh9-jfm6.md) | Transportation & Utilities | 2016&#x2011;07&#x2011;28
 [Personal Income and Per Capita Personal Income by Quarter in Iowa](../datasets/vm3e-atwp.md) | Economy | 2016&#x2011;12&#x2011;01
 [RAMS - Access Control](../datasets/9ehx-738h.md) | Transportation & Utilities | 2016&#x2011;12&#x2011;06
+[RAMS - Adjacent County Number](../datasets/c4m7-9ycm.md) | Transportation & Utilities | 2016&#x2011;12&#x2011;06
 [RAMS - Commercial Network](../datasets/8k78-g739.md) | Transportation & Utilities | 2016&#x2011;12&#x2011;06
 [RAMS - Cost Group](../datasets/py72-ecd2.md) | Transportation & Utilities | 2016&#x2011;12&#x2011;06
 [RAMS - County Number](../datasets/qekk-46ub.md) | Transportation & Utilities | 2016&#x2011;12&#x2011;06
@@ -225,6 +231,7 @@ Name | Category | Published
 [State of Iowa Salary Book](../datasets/s3p7-wy6w.md) | Government | 2016&#x2011;11&#x2011;01
 [Successful Employment for Blind Iowans by Federal Fiscal Year](../datasets/twt2-zx5z.md) | Economy | 2016&#x2011;07&#x2011;18
 [Summary Financial Data For Credit Unions](../datasets/5hvp-6496.md) | Economy | 2017&#x2011;03&#x2011;28
+[Survey Markers - Retired](../datasets/hvmg-f4t6.md) | Transportation & Utilities | 2016&#x2011;07&#x2011;06
 [TPAs Active in Iowa](../datasets/u8cp-3zup.md) | Economy | 2016&#x2011;11&#x2011;10
 [Taxable Property Values By Tax District and Year](../datasets/ig9g-pba5.md) | Government | 2015&#x2011;09&#x2011;21
 [Technology Expenditure Report](../datasets/haxp-jp5t.md) | Government | 2017&#x2011;01&#x2011;26

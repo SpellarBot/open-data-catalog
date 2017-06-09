@@ -43,11 +43,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:idfb-y78n d:2013-01-01T00:00:00.000Z t:company_name=Cannonsville m:permits_issued=103 m:temporary_tags=45 m:seasonal_tags=58 m:sailboats=4 m:sculls=1 m:kayaks=53 m:rowboats=11 m:canoes=34
+series e:idfb-y78n d:2013-01-01T00:00:00.000Z t:company_name=Cannonsville m:temporary_tags=45 m:permits_issued=103 m:seasonal_tags=58 m:sculls=1 m:sailboats=4 m:kayaks=53 m:rowboats=11 m:canoes=34
 
-series e:idfb-y78n d:2013-01-01T00:00:00.000Z t:company_name=Neversink m:permits_issued=122 m:temporary_tags=59 m:seasonal_tags=63 m:sailboats=6 m:sculls=0 m:kayaks=91 m:rowboats=5 m:canoes=20
+series e:idfb-y78n d:2013-01-01T00:00:00.000Z t:company_name=Neversink m:temporary_tags=59 m:permits_issued=122 m:seasonal_tags=63 m:sculls=0 m:sailboats=6 m:kayaks=91 m:rowboats=5 m:canoes=20
 
-series e:idfb-y78n d:2013-01-01T00:00:00.000Z t:company_name=Pepacton m:permits_issued=457 m:temporary_tags=238 m:seasonal_tags=219 m:sailboats=10 m:sculls=1 m:kayaks=311 m:rowboats=15 m:canoes=120
+series e:idfb-y78n d:2013-01-01T00:00:00.000Z t:company_name=Pepacton m:temporary_tags=238 m:permits_issued=457 m:seasonal_tags=219 m:sculls=1 m:sailboats=10 m:kayaks=311 m:rowboats=15 m:canoes=120
 ```
 
 ## Meta Commands
@@ -71,11 +71,11 @@ metric m:sculls p:integer l:Sculls t:dataTypeName=number
 
 entity e:idfb-y78n l:"Recreational Boating Permits" t:attribution="Department of Environmental Protection (DEP)" t:url=https://data.cityofnewyork.us/api/views/idfb-y78n
 
-property e:idfb-y78n t:meta.view v:id=idfb-y78n v:averageRating=0 v:name="Recreational Boating Permits" v:attribution="Department of Environmental Protection (DEP)"
+property e:idfb-y78n t:meta.view d:2017-06-09T13:56:34.722Z v:id=idfb-y78n v:averageRating=0 v:name="Recreational Boating Permits" v:attribution="Department of Environmental Protection (DEP)"
 
-property e:idfb-y78n t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:idfb-y78n t:meta.view.owner d:2017-06-09T13:56:34.722Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:idfb-y78n t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:idfb-y78n t:meta.view.tableauthor d:2017-06-09T13:56:34.722Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

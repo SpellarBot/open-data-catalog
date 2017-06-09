@@ -6,7 +6,7 @@ Name | Host | Published
 [311 Service Requests - Alley Lights Out](../datasets/t28b-ys7j.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;20
 [311 Service Requests - Garbage Carts](../datasets/9ksk-na4q.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;20
 [311 Service Requests - Graffiti Removal](../datasets/hec5-y4x5.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;21
-[311 Service Requests - Pot Holes Reported](../datasets/7as2-ds3y.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;20
+[311 Service Requests - Pot Holes Reported](../datasets/7as2-ds3y.md) | data.cityofchicago.org | 2017&#x2011;06&#x2011;09
 [311 Service Requests - Rodent Baiting](../datasets/97t6-zrhs.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;21
 [311 Service Requests - Sanitation Code Complaints](../datasets/me59-5fac.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;20
 [311 Service Requests - Street Lights - One Out](../datasets/3aav-uy2v.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;21

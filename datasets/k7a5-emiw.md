@@ -69,11 +69,11 @@ metric m:dropped_frames p:integer l:"Dropped Frames" d:"Count of dropped frames 
 
 entity e:k7a5-emiw l:"Seattle Police Department In-Car Video Dropped Frame Report" t:attribution="Seattle Police" t:url=https://data.seattle.gov/api/views/k7a5-emiw
 
-property e:k7a5-emiw t:meta.view v:id=k7a5-emiw v:category="Public Safety" v:averageRating=0 v:name="Seattle Police Department In-Car Video Dropped Frame Report" v:attribution="Seattle Police"
+property e:k7a5-emiw t:meta.view d:2017-06-09T13:57:04.621Z v:id=k7a5-emiw v:category="Public Safety" v:averageRating=0 v:name="Seattle Police Department In-Car Video Dropped Frame Report" v:attribution="Seattle Police"
 
-property e:k7a5-emiw t:meta.view.owner v:id=avyg-ej9j v:screenName=spd2internetData v:displayName=spd2internetData
+property e:k7a5-emiw t:meta.view.owner d:2017-06-09T13:57:04.621Z v:id=avyg-ej9j v:screenName=spd2internetData v:displayName=spd2internetData
 
-property e:k7a5-emiw t:meta.view.tableauthor v:id=avyg-ej9j v:screenName=spd2internetData v:roleName=publisher v:displayName=spd2internetData
+property e:k7a5-emiw t:meta.view.tableauthor d:2017-06-09T13:57:04.621Z v:id=avyg-ej9j v:screenName=spd2internetData v:roleName=publisher v:displayName=spd2internetData
 ```
 
 ## Top Records

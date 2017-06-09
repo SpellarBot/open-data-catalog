@@ -191,15 +191,15 @@ metric m:popu_st p:double l:Population t:dataTypeName=number
 
 entity e:9uhv-6je7 l:"State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services" t:attribution=IMLS t:url=https://data.imls.gov/api/views/9uhv-6je7
 
-property e:9uhv-6je7 t:meta.view v:id=9uhv-6je7 v:category="State Library Administrative Agencies Survey" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey v:averageRating=0 v:name="State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services" v:attribution=IMLS
+property e:9uhv-6je7 t:meta.view d:2017-06-09T13:57:23.736Z v:id=9uhv-6je7 v:category="State Library Administrative Agencies Survey" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/state-library-administrative-agency-survey v:averageRating=0 v:name="State Libraries Survey, FY 2005, Part 2: SLAA-Provided Services" v:attribution=IMLS
 
-property e:9uhv-6je7 t:meta.view.license v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:9uhv-6je7 t:meta.view.license d:2017-06-09T13:57:23.736Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:9uhv-6je7 t:meta.view.owner v:id=xhhh-dddv v:screenName="Jason Enos" v:displayName="Jason Enos"
+property e:9uhv-6je7 t:meta.view.owner d:2017-06-09T13:57:23.736Z v:id=xhhh-dddv v:screenName="Jason Enos" v:lastNotificationSeenAt=1495633902 v:displayName="Jason Enos"
 
-property e:9uhv-6je7 t:meta.view.tableauthor v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:displayName="Jason Enos"
+property e:9uhv-6je7 t:meta.view.tableauthor d:2017-06-09T13:57:23.736Z v:id=xhhh-dddv v:screenName="Jason Enos" v:roleName=administrator v:lastNotificationSeenAt=1495633902 v:displayName="Jason Enos"
 
-property e:9uhv-6je7 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:9uhv-6je7 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:23.736Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
 ```
 
 ## Top Records

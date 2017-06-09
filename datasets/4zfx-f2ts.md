@@ -77,13 +77,13 @@ metric m:fte p:double l:FTE d:"Staffing level is represented by ""Full Time Equi
 
 entity e:4zfx-f2ts l:"Budget - FTE" t:attribution="SF Controller's Office" t:url=https://data.sfgov.org/api/views/4zfx-f2ts
 
-property e:4zfx-f2ts t:meta.view v:id=4zfx-f2ts v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Budget - FTE" v:attribution="SF Controller's Office"
+property e:4zfx-f2ts t:meta.view d:2017-06-09T14:00:33.232Z v:id=4zfx-f2ts v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Budget - FTE" v:attribution="SF Controller's Office"
 
-property e:4zfx-f2ts t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:4zfx-f2ts t:meta.view.license d:2017-06-09T14:00:33.232Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:4zfx-f2ts t:meta.view.owner v:id=9ufn-6bwh v:screenName="Jeff Pera" v:displayName="Jeff Pera"
+property e:4zfx-f2ts t:meta.view.owner d:2017-06-09T14:00:33.232Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:displayName="Jeff Pera"
 
-property e:4zfx-f2ts t:meta.view.tableauthor v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
+property e:4zfx-f2ts t:meta.view.tableauthor d:2017-06-09T14:00:33.232Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
 ```
 
 ## Top Records

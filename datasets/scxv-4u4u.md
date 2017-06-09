@@ -15,11 +15,11 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-04-20T18:38:45Z |
+| Publication Date | 2017-06-08T16:34:27Z |
 
 ## Description
 
-NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome - 2017.  In this Table, provisional cases of selected notifiable diseases (?1,000 cases reported during the preceding year), and selected low frequency diseases are displayed.  The Table includes total number of cases reported in the United States, by region and by states, in accordance with the current method of displaying MMWR data.  Data on United States exclude counts from US territories.
+NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome - 2017.  In this Table, provisional cases of selected notifiable diseases (≥1,000 cases reported during the preceding year), and selected low frequency diseases are displayed.  The Table includes total number of cases reported in the United States, by region and by states, in accordance with the current method of displaying MMWR data.  Data on United States exclude counts from US territories.
 
 Note:
 These are provisional cases of selected national notifiable diseases, from the National Notifiable Diseases Surveillance System (NNDSS). NNDSS data reported by the 50 states, New York City, the District of Columbia, and the U.S. territories are collated and published weekly as numbered tables printed in the back of the Morbidity and Mortality Weekly Report (MMWR). Cases reported by state health departments to CDC for weekly publication are provisional because of ongoing revision of information and delayed reporting. 
@@ -29,11 +29,11 @@ Case counts in this table are presented as they were published in the MMWR issue
 Footnotes:
  C.N.M.I.: Commonwealth of Northern Mariana Islands. 
 
- U: Unavailable. ?: No reported cases. N: Not reportable. NN: Not Nationally Notifiable. NP: Nationally notifiable but not published. Cum: Cumulative year-to-date counts. Med: Median. Max: Maximum. 
+ U: Unavailable. —: No reported cases. N: Not reportable. NN: Not Nationally Notifiable. NP: Nationally notifiable but not published. Cum: Cumulative year-to-date counts. Med: Median. Max: Maximum. 
 
 *Three low incidence conditions, rubella, rubella congenital, and tetanus, are in Table II to facilitate case count verification with reporting jurisdictions. 
 
-? Case counts for reporting years 2016 and 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.
+† Case counts for reporting years 2016 and 2017 are provisional and subject to change. For further information on interpretation of these data, see http://wwwn.cdc.gov/nndss/document/ ProvisionalNationaNotifiableDiseasesSurveillanceData20100927.pdf. Data for tuberculosis are displayed in Table IV, which appears quarterly.
 
 ## Columns
 
@@ -91,11 +91,11 @@ Excluded Fields = rabies_animal_current_week_flag,rabies_animal_previous_52_week
 ## Data Commands
 
 ```ls
-series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rabies_animal_previous_52_weeks_max=112 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=34 m:rubella_previous_52_weeks_max=2 m:rabies_animal_current_week=11 m:rabies_animal_previous_52_weeks_med=52
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rabies_animal_previous_52_weeks_max=112 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=2 m:rabies_animal_cum_2016=34 m:rabies_animal_current_week=11 m:rabies_animal_previous_52_weeks_med=52
 
-series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
 
-series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rabies_animal_previous_52_weeks_max=33 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rubella_previous_52_weeks_med=0 m:rabies_animal_cum_2016=5 m:rubella_previous_52_weeks_max=0 m:rabies_animal_current_week=7 m:rabies_animal_previous_52_weeks_med=8
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_max=33 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_cum_2016=5 m:rabies_animal_current_week=7 m:rabies_animal_previous_52_weeks_med=8
 ```
 
 ## Meta Commands
@@ -133,13 +133,13 @@ metric m:rubella_congenital_syndrome_cum_2016 p:long l:"Rubella, congenital synd
 
 entity e:scxv-4u4u l:"NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/scxv-4u4u
 
-property e:scxv-4u4u t:meta.view v:id=scxv-4u4u v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:scxv-4u4u t:meta.view d:2017-06-09T13:59:13.204Z v:id=scxv-4u4u v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
 
-property e:scxv-4u4u t:meta.view.owner v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
+property e:scxv-4u4u t:meta.view.owner d:2017-06-09T13:59:13.204Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
 
-property e:scxv-4u4u t:meta.view.tableauthor v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:scxv-4u4u t:meta.view.tableauthor d:2017-06-09T13:59:13.204Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
 
-property e:scxv-4u4u t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:scxv-4u4u t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:59:13.204Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
 ```
 
 ## Top Records

@@ -58,13 +58,13 @@ metric m:percentage_of_total_contributions_received p:float l:"Percentage of Tot
 
 entity e:hty7-p2e9 l:"2014 Elections - Contributions Received (more than $100) by Contibutor Type" t:url=https://data.hawaii.gov/api/views/hty7-p2e9
 
-property e:hty7-p2e9 t:meta.view v:id=hty7-p2e9 v:category=Community v:averageRating=0 v:name="2014 Elections - Contributions Received (more than $100) by Contibutor Type"
+property e:hty7-p2e9 t:meta.view d:2017-06-09T14:00:28.177Z v:id=hty7-p2e9 v:category=Community v:averageRating=0 v:name="2014 Elections - Contributions Received (more than $100) by Contibutor Type"
 
-property e:hty7-p2e9 t:meta.view.license v:name="Public Domain"
+property e:hty7-p2e9 t:meta.view.license d:2017-06-09T14:00:28.177Z v:name="Public Domain"
 
-property e:hty7-p2e9 t:meta.view.owner v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:displayName="Hawaii Campaign Spending Commission"
+property e:hty7-p2e9 t:meta.view.owner d:2017-06-09T14:00:28.177Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:displayName="Hawaii Campaign Spending Commission"
 
-property e:hty7-p2e9 t:meta.view.tableauthor v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
+property e:hty7-p2e9 t:meta.view.tableauthor d:2017-06-09T14:00:28.177Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
 ```
 
 ## Top Records

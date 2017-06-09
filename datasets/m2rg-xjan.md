@@ -61,13 +61,13 @@ metric m:age_at_admission p:integer l:"Age at Admission" d:"Age of offender at a
 
 entity e:m2rg-xjan l:"Prison Admissions: Beginning 2008" t:attribution="NYS Department of Corrections and Community Supervision" t:url=https://data.ny.gov/api/views/m2rg-xjan
 
-property e:m2rg-xjan t:meta.view v:id=m2rg-xjan v:category="Public Safety" v:attributionLink=http://www.doccs.ny.gov v:averageRating=0 v:name="Prison Admissions: Beginning 2008" v:attribution="NYS Department of Corrections and Community Supervision"
+property e:m2rg-xjan t:meta.view d:2017-06-09T13:53:46.759Z v:id=m2rg-xjan v:category="Public Safety" v:attributionLink=http://www.doccs.ny.gov v:averageRating=0 v:name="Prison Admissions: Beginning 2008" v:attribution="NYS Department of Corrections and Community Supervision"
 
-property e:m2rg-xjan t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:m2rg-xjan t:meta.view.owner d:2017-06-09T13:53:46.759Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:m2rg-xjan t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:m2rg-xjan t:meta.view.tableauthor d:2017-06-09T13:53:46.759Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:m2rg-xjan t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:m2rg-xjan t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:46.759Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

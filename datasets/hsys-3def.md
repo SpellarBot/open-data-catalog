@@ -15,7 +15,7 @@
 | Category | Government & Finance |
 | Tags | numbers, win-4, new york lottery, winning, results |
 | Created | 2013-02-26T20:21:34Z |
-| Publication Date | 2017-04-20T10:04:45Z |
+| Publication Date | 2017-06-09T10:03:42Z |
 
 ## Description
 
@@ -62,13 +62,13 @@ metric m:evening_win_4_sum p:long l:"Evening Win 4 Sum" t:dataTypeName=number
 
 entity e:hsys-3def l:"Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980" t:attribution="New York State Gaming Commission" t:url=https://data.ny.gov/api/views/hsys-3def
 
-property e:hsys-3def t:meta.view v:id=hsys-3def v:category="Government & Finance" v:attributionLink=http://nylottery.ny.gov/wps/portal/Home/Lottery/Home/YOUR+LOTTERY/Drawing+Results/drawing+results/ v:averageRating=0 v:name="Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980" v:attribution="New York State Gaming Commission"
+property e:hsys-3def t:meta.view d:2017-06-09T13:58:58.559Z v:id=hsys-3def v:category="Government & Finance" v:attributionLink=http://nylottery.ny.gov/wps/portal/Home/Lottery/Home/YOUR+LOTTERY/Drawing+Results/drawing+results/ v:averageRating=0 v:name="Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980" v:attribution="New York State Gaming Commission"
 
-property e:hsys-3def t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:hsys-3def t:meta.view.owner d:2017-06-09T13:58:58.559Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:hsys-3def t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:hsys-3def t:meta.view.tableauthor d:2017-06-09T13:58:58.559Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:hsys-3def t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:hsys-3def t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:58.559Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

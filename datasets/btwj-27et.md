@@ -14,7 +14,7 @@
 | Attribution | Oregon Health Authority |
 | Category | Health & Human Services |
 | Created | 2016-12-05T22:17:31Z |
-| Publication Date | 2016-12-05T23:31:32Z |
+| Publication Date | 2017-05-02T18:19:18Z |
 
 ## Description
 
@@ -61,11 +61,11 @@ metric m:row_number.btwj-27et p:long l:"Row Number"
 
 entity e:btwj-27et l:"Conditions Not Covered ( Diagnosis Code Group 6031)" t:attribution="Oregon Health Authority" t:url=https://data.oregon.gov/api/views/btwj-27et
 
-property e:btwj-27et t:meta.view v:id=btwj-27et v:category="Health & Human Services" v:attributionLink=http://www.oregon.gov/OHA/healthplan v:averageRating=0 v:name="Conditions Not Covered ( Diagnosis Code Group 6031)" v:attribution="Oregon Health Authority"
+property e:btwj-27et t:meta.view d:2017-06-09T13:54:57.864Z v:id=btwj-27et v:category="Health & Human Services" v:attributionLink=http://www.oregon.gov/OHA/healthplan v:averageRating=0 v:name="Conditions Not Covered ( Diagnosis Code Group 6031)" v:attribution="Oregon Health Authority"
 
-property e:btwj-27et t:meta.view.owner v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:displayName="Kim Witbeck"
+property e:btwj-27et t:meta.view.owner d:2017-06-09T13:54:57.864Z v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:lastNotificationSeenAt=1493074868 v:displayName="Kim Witbeck"
 
-property e:btwj-27et t:meta.view.tableauthor v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:roleName=editor v:displayName="Kim Witbeck"
+property e:btwj-27et t:meta.view.tableauthor d:2017-06-09T13:54:57.864Z v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1493074868 v:displayName="Kim Witbeck"
 ```
 
 ## Top Records

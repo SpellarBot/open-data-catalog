@@ -44,11 +44,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alabama m:federal_rd_spending_obligations=4537952 m:nih_rd_awards=25399511 m:sbir_awards_per_capita=7.03 m:patents_per_100k=9.7
+series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alabama m:nih_rd_awards=25399511 m:federal_rd_spending_obligations=4537952 m:sbir_awards_per_capita=7.03 m:patents_per_100k=9.7
 
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alaska m:federal_rd_spending_obligations=208043.9 m:nih_rd_awards=0 m:sbir_awards_per_capita=0.2 m:patents_per_100k=5.4
+series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alaska m:nih_rd_awards=0 m:federal_rd_spending_obligations=208043.9 m:sbir_awards_per_capita=0.2 m:patents_per_100k=5.4
 
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Arizona m:federal_rd_spending_obligations=1643746.2 m:nih_rd_awards=3186536 m:sbir_awards_per_capita=2.83 m:patents_per_100k=37.2
+series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Arizona m:nih_rd_awards=3186536 m:federal_rd_spending_obligations=1643746.2 m:sbir_awards_per_capita=2.83 m:patents_per_100k=37.2
 ```
 
 ## Meta Commands
@@ -64,11 +64,11 @@ metric m:patents_per_100k p:float l:"Number of Patents Issued per 100,000 Popula
 
 entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Commerce" t:url=https://data.maryland.gov/api/views/enjg-rjqz
 
-property e:enjg-rjqz t:meta.view v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://commerce.maryland.gov v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Commerce"
+property e:enjg-rjqz t:meta.view d:2017-06-09T13:51:05.133Z v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://commerce.maryland.gov v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Commerce"
 
-property e:enjg-rjqz t:meta.view.owner v:id=m2gt-bxeg v:screenName="Mike Grandel" v:displayName="Mike Grandel"
+property e:enjg-rjqz t:meta.view.owner d:2017-06-09T13:51:05.133Z v:id=m2gt-bxeg v:screenName="Mike Grandel" v:displayName="Mike Grandel"
 
-property e:enjg-rjqz t:meta.view.tableauthor v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
+property e:enjg-rjqz t:meta.view.tableauthor d:2017-06-09T13:51:05.133Z v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
 ```
 
 ## Top Records

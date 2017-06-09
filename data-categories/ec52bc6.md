@@ -119,7 +119,7 @@ Name | Host | Published
 [DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | data.cityofnewyork.us | 2016&#x2011;02&#x2011;19
 [Demographic Statistics By Zip Code](../datasets/kku6-nxdu.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [Derelict Vehicle Dispositions - Tow](../datasets/vr8p-8shw.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
-[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
+[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;08
 [Derelict Vehicles Dispositions - Complaints](../datasets/pq5i-thsu.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
 [Derelict Vehicles Dispositions - Rentals](../datasets/v6j6-k9uc.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
 [Directory Of DOP Family & Adult Court Contact Information](../datasets/f46j-m4iq.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
@@ -212,7 +212,7 @@ Name | Host | Published
 [NYC Open Data Plan - Scheduled Releases 2016](../datasets/tyjc-nqc2.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;20
 [NYC Open Data Removed Datasets](../datasets/avwh-jmzt.md) | data.cityofnewyork.us | 2016&#x2011;06&#x2011;08
 [NYC OpenRecords ? FOIL Request Data](../datasets/9m35-jch2.md) | data.cityofnewyork.us | 2016&#x2011;04&#x2011;05
-[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
+[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;08
 [NYC Wi-Fi Hotspot Locations](../datasets/yjub-udmw.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;10
 [NYC Zoning Tax Lot Database](../datasets/fdkv-4t4z.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;09
 [NYC.gov Web Analytics](../datasets/d5zb-ragj.md) | data.cityofnewyork.us | 2016&#x2011;11&#x2011;30

@@ -58,11 +58,11 @@ metric m:row_number.j2u5-4qpk p:long l:"Row Number"
 
 entity e:j2u5-4qpk l:"WA State Accessibility Coordinators" t:attribution="WA State Accessibility Champion" t:url=https://data.wa.gov/api/views/j2u5-4qpk
 
-property e:j2u5-4qpk t:meta.view v:id=j2u5-4qpk v:averageRating=0 v:name="WA State Accessibility Coordinators" v:attribution="WA State Accessibility Champion"
+property e:j2u5-4qpk t:meta.view d:2017-06-09T13:56:37.790Z v:id=j2u5-4qpk v:averageRating=0 v:name="WA State Accessibility Coordinators" v:attribution="WA State Accessibility Champion"
 
-property e:j2u5-4qpk t:meta.view.owner v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:displayName=ryan.leisinger
+property e:j2u5-4qpk t:meta.view.owner d:2017-06-09T13:56:37.790Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:displayName=ryan.leisinger
 
-property e:j2u5-4qpk t:meta.view.tableauthor v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
+property e:j2u5-4qpk t:meta.view.tableauthor d:2017-06-09T13:56:37.790Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
 ```
 
 ## Top Records

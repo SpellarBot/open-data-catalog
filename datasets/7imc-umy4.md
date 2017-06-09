@@ -52,11 +52,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:7imc-umy4 d:2015-01-01T00:00:00.000Z t:location="Albany Park" m:december=12907 m:november=13567 m:may=11979 m:march=13017 m:april=12912 m:february=8979 m:june=14061 m:january=8234 m:ytd=153751 m:august=13078 m:july=14768 m:october=16093 m:september=14156
+series e:7imc-umy4 d:2015-01-01T00:00:00.000Z t:location="Albany Park" m:december=12907 m:march=13017 m:may=11979 m:november=13567 m:february=8979 m:april=12912 m:june=14061 m:ytd=153751 m:january=8234 m:august=13078 m:july=14768 m:october=16093 m:september=14156
 
-series e:7imc-umy4 d:2015-01-01T00:00:00.000Z t:location=Altgeld m:december=5604 m:november=4794 m:may=3939 m:march=4131 m:april=4083 m:february=2619 m:june=4933 m:january=4577 m:ytd=58248 m:august=7272 m:july=5542 m:october=5672 m:september=5082
+series e:7imc-umy4 d:2015-01-01T00:00:00.000Z t:location=Altgeld m:december=5604 m:march=4131 m:may=3939 m:november=4794 m:february=2619 m:april=4083 m:june=4933 m:ytd=58248 m:january=4577 m:august=7272 m:july=5542 m:october=5672 m:september=5082
 
-series e:7imc-umy4 d:2015-01-01T00:00:00.000Z t:location="Archer Heights*" m:december=8716 m:november=9018 m:may=7536 m:march=9256 m:april=9530 m:february=7672 m:june=8917 m:january=8435 m:ytd=108588 m:august=9613 m:july=10777 m:october=10431 m:september=8687
+series e:7imc-umy4 d:2015-01-01T00:00:00.000Z t:location="Archer Heights*" m:december=8716 m:march=9256 m:may=7536 m:november=9018 m:february=7672 m:april=9530 m:june=8917 m:ytd=108588 m:january=8435 m:august=9613 m:july=10777 m:october=10431 m:september=8687
 ```
 
 ## Meta Commands
@@ -90,11 +90,11 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:7imc-umy4 l:"Libraries - 2015 Visitors by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/7imc-umy4
 
-property e:7imc-umy4 t:meta.view v:id=7imc-umy4 v:averageRating=0 v:name="Libraries - 2015 Visitors by Location" v:attribution="Chicago Public Library"
+property e:7imc-umy4 t:meta.view d:2017-06-09T13:54:39.423Z v:id=7imc-umy4 v:averageRating=0 v:name="Libraries - 2015 Visitors by Location" v:attribution="Chicago Public Library"
 
-property e:7imc-umy4 t:meta.view.owner v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:displayName="Marie E. Hardy"
+property e:7imc-umy4 t:meta.view.owner d:2017-06-09T13:54:39.423Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:displayName="Marie E. Hardy"
 
-property e:7imc-umy4 t:meta.view.tableauthor v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:7imc-umy4 t:meta.view.tableauthor d:2017-06-09T13:54:39.423Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```
 
 ## Top Records

@@ -58,13 +58,13 @@ metric m:aawdt p:float l:AAWDT t:dataTypeName=number
 
 entity e:7svg-ds5z l:"Traffic Flow Counts" t:attribution="Seattle Department of Transportation" t:url=https://data.seattle.gov/api/views/7svg-ds5z
 
-property e:7svg-ds5z t:meta.view v:id=7svg-ds5z v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation v:averageRating=0 v:name="Traffic Flow Counts" v:attribution="Seattle Department of Transportation"
+property e:7svg-ds5z t:meta.view d:2017-06-09T13:55:31.637Z v:id=7svg-ds5z v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation v:averageRating=0 v:name="Traffic Flow Counts" v:attribution="Seattle Department of Transportation"
 
-property e:7svg-ds5z t:meta.view.license v:name="Public Domain"
+property e:7svg-ds5z t:meta.view.license d:2017-06-09T13:55:31.637Z v:name="Public Domain"
 
-property e:7svg-ds5z t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.owner d:2017-06-09T13:55:31.637Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
 
-property e:7svg-ds5z t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.tableauthor d:2017-06-09T13:55:31.637Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```
 
 ## Top Records

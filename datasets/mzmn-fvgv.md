@@ -64,13 +64,13 @@ metric m:row_number.mzmn-fvgv p:long l:"Row Number"
 
 entity e:mzmn-fvgv l:"Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv
 
-property e:mzmn-fvgv t:meta.view v:id=mzmn-fvgv v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com v:averageRating=0 v:name="Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
+property e:mzmn-fvgv t:meta.view d:2017-06-09T13:54:36.941Z v:id=mzmn-fvgv v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com v:averageRating=0 v:name="Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
 
-property e:mzmn-fvgv t:meta.view.license v:name="Public Domain"
+property e:mzmn-fvgv t:meta.view.license d:2017-06-09T13:54:36.941Z v:name="Public Domain"
 
-property e:mzmn-fvgv t:meta.view.owner v:id=u38g-hbsa v:screenName="Cook County Open Data" v:lastNotificationSeenAt=1491341463 v:displayName="Cook County Open Data"
+property e:mzmn-fvgv t:meta.view.owner d:2017-06-09T13:54:36.941Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:lastNotificationSeenAt=1496243074 v:displayName="Cook County Open Data"
 
-property e:mzmn-fvgv t:meta.view.tableauthor v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:lastNotificationSeenAt=1491341463 v:displayName="Cook County Open Data"
+property e:mzmn-fvgv t:meta.view.tableauthor d:2017-06-09T13:54:36.941Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:lastNotificationSeenAt=1496243074 v:displayName="Cook County Open Data"
 ```
 
 ## Top Records

@@ -15,11 +15,11 @@
 | Category | Environmental |
 | Tags | austin water, irrigation, inspector, water, code, property owner |
 | Created | 2016-10-06T21:01:26Z |
-| Publication Date | 2016-10-06T21:06:32Z |
+| Publication Date | 2017-05-04T15:46:40Z |
 
 ## Description
 
-Austin Water?s authorized irrigation inspectors are approved to perform the irrigation evaluation required by City Code 6-4-10(A) Facilities Regulated. Each property owner/manager is responsible for selecting an inspector. Individuals on this list are provided as a resource without endorsement by the City of Austin.
+Austin Water’s authorized irrigation inspectors are approved to perform the irrigation evaluation required by City Code 6-4-10(A) Facilities Regulated. Each property owner/manager is responsible for selecting an inspector. Individuals on this list are provided as a resource without endorsement by the City of Austin.
 
 ## Columns
 
@@ -59,26 +59,26 @@ metric m:row_number.dhvz-stgx p:long l:"Row Number"
 
 entity e:dhvz-stgx l:"Austin Water Authorized Irrigation Inspector List" t:attribution="Austin Water" t:url=https://data.austintexas.gov/api/views/dhvz-stgx
 
-property e:dhvz-stgx t:meta.view v:id=dhvz-stgx v:category=Environmental v:attributionLink=http://waterwiseaustin.org v:averageRating=0 v:name="Austin Water Authorized Irrigation Inspector List" v:attribution="Austin Water"
+property e:dhvz-stgx t:meta.view d:2017-06-09T13:55:44.944Z v:id=dhvz-stgx v:category=Environmental v:attributionLink=http://waterwiseaustin.org v:averageRating=0 v:name="Austin Water Authorized Irrigation Inspector List" v:attribution="Austin Water"
 
-property e:dhvz-stgx t:meta.view.owner v:id=dg6c-4vht v:profileImageUrlMedium=/api/users/dg6c-4vht/profile_images/THUMB v:profileImageUrlLarge=/api/users/dg6c-4vht/profile_images/LARGE v:screenName="Austin Water" v:profileImageUrlSmall=/api/users/dg6c-4vht/profile_images/TINY v:displayName="Austin Water"
+property e:dhvz-stgx t:meta.view.owner d:2017-06-09T13:55:44.944Z v:id=579b-znrx v:screenName="Erik Luna" v:lastNotificationSeenAt=1493912017 v:displayName="Erik Luna"
 
-property e:dhvz-stgx t:meta.view.tableauthor v:id=dg6c-4vht v:profileImageUrlMedium=/api/users/dg6c-4vht/profile_images/THUMB v:profileImageUrlLarge=/api/users/dg6c-4vht/profile_images/LARGE v:screenName="Austin Water" v:profileImageUrlSmall=/api/users/dg6c-4vht/profile_images/TINY v:roleName=editor v:displayName="Austin Water"
+property e:dhvz-stgx t:meta.view.tableauthor d:2017-06-09T13:55:44.944Z v:id=579b-znrx v:screenName="Erik Luna" v:roleName=editor v:lastNotificationSeenAt=1493912017 v:displayName="Erik Luna"
 ```
 
 ## Top Records
 
 ```ls
-| :updated_at | inspector_number | first_name | last_name   | company                                      | telephone    | email                                   | 
-| =========== | ================ | ========== | =========== | ============================================ | ============ | ======================================= | 
-| 1475787689  | AWII 87          | Matt       | Proctor     | Absolute Commercial & Environmental Services | 512-560-1099 | matt@absoluteenvironmental.net          | 
-| 1475787689  | AWII 103         | Eric       | Warnke      | All-Star Inspections                         | 512-803-8711 | Eric@All-StarTexas.com                  | 
-| 1475787689  | AWII 104         | David      | Scoby       | Living Water Irrigation Inspections          | 512-845-6403 | irrinspection@outlook.com               | 
-| 1475787689  | AWII 109         | Brandon    | Cardwell    | Cardwell Irrigation Inspections              | 512-420-6551 | cardwellinspections@gmail.com           | 
-| 1475787689  | AWII 113         | Brian      | Dunn        | All Pro Irrigation Inspections               | 512-876-0344 | allproirrigationtx@gmail.com            | 
-| 1475787689  | AWII 114         | Alec       | Rose        | Lone Star Landscaping & Irrigation, LLC      | 512-228-9819 | alec.rose1@gmail.com                    | 
-| 1475787689  | AWII 116         | James      | Fotinos     | Texas Star Irrigation Inspection             | 512-287-9764 | texasstarirrigationinspection@gmail.com | 
-| 1475787689  | AWII 119         | Michael    | Williams    |                                              | 512-517-0758 | austinirrigationsolutions@gmail.com     | 
-| 1475787689  | AWII 123         | Felix      | Madrid      | Hydro Inspections Services                   | 512-848-7827 | hydroinspections@gmail.com              | 
-| 1475787689  | AWII 124         | Jeremy     | Schneckloth | Austin Water Specialist                      | 512-656-5580 | jshneckin@hotmail.com                   | 
+| :updated_at | inspector_number | first_name | last_name | company                                      | telephone    | email                                   | 
+| =========== | ================ | ========== | ========= | ============================================ | ============ | ======================================= | 
+| 1475787689  | AWII 87          | Matt       | Proctor   | Absolute Commercial & Environmental Services | 512-560-1099 | matt@absoluteenvironmental.net          | 
+| 1475787689  | AWII 103         | Eric       | Warnke    | All-Star Inspections                         | 512-803-8711 | Eric@All-StarTexas.com                  | 
+| 1475787689  | AWII 104         | David      | Scoby     | Living Water Irrigation Inspections          | 512-845-6403 | irrinspection@outlook.com               | 
+| 1475787689  | AWII 109         | Brandon    | Cardwell  | Cardwell Irrigation Inspections              | 512-420-6551 | cardwellinspections@gmail.com           | 
+| 1475787689  | AWII 113         | Brian      | Dunn      | All Pro Irrigation Inspections               | 512-876-0344 | allproirrigationtx@gmail.com            | 
+| 1475787689  | AWII 114         | Alec       | Rose      | Lone Star Landscaping & Irrigation, LLC      | 512-228-9819 | alec.rose1@gmail.com                    | 
+| 1475787689  | AWII 116         | James      | Fotinos   | Texas Star Irrigation Inspection             | 512-287-9764 | texasstarirrigationinspection@gmail.com | 
+| 1475787689  | AWII 119         | Michael    | Williams  |                                              | 512-517-0758 | austinirrigationsolutions@gmail.com     | 
+| 1475787689  | AWII 123         | Felix      | Madrid    | Hydro Inspections Services                   | 512-848-7827 | hydroinspections@gmail.com              | 
+| 1475787689  | AWII 127         | Robert     | Biafore   | Accuracy Inspection Services                 | 512-293-8583 | accuracyinspections@gmail.com           | 
 ```

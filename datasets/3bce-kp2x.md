@@ -53,13 +53,13 @@ metric m:row_number.3bce-kp2x p:long l:"Row Number"
 
 entity e:3bce-kp2x l:"Property and Taxation: Q3 2012 Performance Management Goal Assessment" t:url=https://datacatalog.cookcountyil.gov/api/views/3bce-kp2x
 
-property e:3bce-kp2x t:meta.view v:id=3bce-kp2x v:category="Property & Taxation" v:averageRating=0 v:name="Property and Taxation: Q3 2012 Performance Management Goal Assessment"
+property e:3bce-kp2x t:meta.view d:2017-06-09T13:53:21.716Z v:id=3bce-kp2x v:category="Property & Taxation" v:averageRating=0 v:name="Property and Taxation: Q3 2012 Performance Management Goal Assessment"
 
-property e:3bce-kp2x t:meta.view.license v:name="Public Domain"
+property e:3bce-kp2x t:meta.view.license d:2017-06-09T13:53:21.716Z v:name="Public Domain"
 
-property e:3bce-kp2x t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:3bce-kp2x t:meta.view.owner d:2017-06-09T13:53:21.716Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:3bce-kp2x t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:3bce-kp2x t:meta.view.tableauthor d:2017-06-09T13:53:21.716Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
 
 ## Top Records

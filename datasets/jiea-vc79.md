@@ -65,11 +65,11 @@ metric m:total p:integer l:Total t:dataTypeName=number
 
 entity e:jiea-vc79 l:"Weekly Crime Statistics" t:url=https://data.jacksonms.gov/api/views/jiea-vc79
 
-property e:jiea-vc79 t:meta.view v:id=jiea-vc79 v:category="Public Safety" v:averageRating=0 v:name="Weekly Crime Statistics"
+property e:jiea-vc79 t:meta.view d:2017-06-09T14:00:57.070Z v:id=jiea-vc79 v:category="Public Safety" v:averageRating=0 v:name="Weekly Crime Statistics"
 
-property e:jiea-vc79 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:jiea-vc79 t:meta.view.owner d:2017-06-09T14:00:57.070Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 
-property e:jiea-vc79 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:jiea-vc79 t:meta.view.tableauthor d:2017-06-09T14:00:57.070Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 ```
 
 ## Top Records

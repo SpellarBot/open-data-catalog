@@ -230,7 +230,7 @@ Name | Category | Published
 [Long-term Industry Projections](../datasets/b7d6-zygf.md) | Economic Development | 2015&#x2011;11&#x2011;05
 [Lottery Aid to Education](../datasets/9ypc-vjiq.md) | Government & Finance | 2016&#x2011;08&#x2011;31
 [Lottery Cash 4 Life Winning Numbers: Beginning 2014](../datasets/kwxv-fwze.md) | Government & Finance | 2017&#x2011;04&#x2011;18
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](../datasets/hsys-3def.md) | Government & Finance | 2017&#x2011;04&#x2011;20
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](../datasets/hsys-3def.md) | Government & Finance | 2017&#x2011;06&#x2011;09
 [Lottery Mega Millions Winning Numbers: Beginning 2002](../datasets/5xaw-6ayf.md) | Government & Finance | 2017&#x2011;04&#x2011;19
 [Lottery NY Lotto Winning Numbers: Beginning 2001](../datasets/6nbc-h7bj.md) | Government & Finance | 2017&#x2011;04&#x2011;20
 [Lottery Pick 10 Winning Numbers: Beginning 1987](../datasets/bycu-cw7c.md) | Government & Finance | 2017&#x2011;04&#x2011;20
@@ -262,7 +262,7 @@ Name | Category | Published
 [Motorized Access Trails](../datasets/qugt-5hi9.md) | Recreation | 2013&#x2011;03&#x2011;01
 [NY License Center Business Wizard](../datasets/x8bw-q2g6.md) |  | 2014&#x2011;08&#x2011;19
 [NYC Transit Subway Entrance And Exit Data](../datasets/i9wp-a4ja.md) | Transportation | 2015&#x2011;09&#x2011;18
-[NYS Attorney Registrations](../datasets/eqw2-r5nb.md) | Transparency | 2017&#x2011;04&#x2011;20
+[NYS Attorney Registrations](../datasets/eqw2-r5nb.md) | Transparency | 2017&#x2011;06&#x2011;09
 [NYS Forest Ranger Wildfires for FireFamily Plus 4.1: 1975-2007](../datasets/4xir-miej.md) | Energy & Environment | 2016&#x2011;11&#x2011;25
 [NYS Liquor Authority New Applications Received](../datasets/2kid-jvyk.md) | Economic Development | 2017&#x2011;04&#x2011;19
 [NYS Lottery Retailers](../datasets/2vvn-pdyi.md) | Government & Finance | 2017&#x2011;04&#x2011;20
@@ -367,7 +367,7 @@ Name | Category | Published
 [Public Assistance Case Closings by Reason for Closing: Beginning 2006](../datasets/4x9s-7y8g.md) | Human Services | 2017&#x2011;04&#x2011;06
 [Public Assistance Case Denials by Reason for Denial: Beginning 2006](../datasets/tyyj-jgv5.md) | Human Services | 2017&#x2011;04&#x2011;06
 [Public Assistance Cases Opened by Month: Beginning 2006](../datasets/fivj-j6mz.md) | Human Services | 2017&#x2011;04&#x2011;06
-[Public Assistance Cases with Earned Income: Beginning April 2006](../datasets/5mdi-3rq9.md) | Human Services | 2017&#x2011;03&#x2011;31
+[Public Assistance Cases with Earned Income: Beginning April 2006](../datasets/5mdi-3rq9.md) | Human Services | 2017&#x2011;05&#x2011;30
 [Public Assistance and SNAP Fraud Prevention Performance Measures: Beginning 2013](../datasets/uubd-eei2.md) | Human Services | 2017&#x2011;04&#x2011;17
 [Public Determinations of the NYS Commission on Judicial Conduct: Beginning 1977](../datasets/gnpf-e4p2.md) | Transparency | 2016&#x2011;01&#x2011;07
 [Public Employment Relations Board Decisions: Beginning 1974](../datasets/vmn3-7znf.md) | Government & Finance | 2016&#x2011;12&#x2011;07
@@ -447,7 +447,7 @@ Name | Category | Published
 [State University Construction Fund (SUCF) Projects: Beginning 1989](../datasets/7xmz-2ur8.md) | Education | 2017&#x2011;04&#x2011;01
 [State University Construction Fund (SUCF) Request for Qualifications (RFQs) Distributed: Beginning 2000](../datasets/inze-5yed.md) | Education | 2017&#x2011;04&#x2011;01
 [State University Construction Fund (SUCF) Request for Qualifications (RFQs) Responders: Beginning 2000](../datasets/c6c2-n3if.md) | Education | 2017&#x2011;04&#x2011;01
-[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](../datasets/kbn3-a3jv.md) | Education | 2017&#x2011;04&#x2011;01
+[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](../datasets/kbn3-a3jv.md) | Education | 2017&#x2011;06&#x2011;01
 [State University of New York (SUNY) - NYS High School Attended by First Time Undergraduate Students: Beginning Fall 2010](../datasets/64ar-ackz.md) | Education | 2016&#x2011;09&#x2011;09
 [State University of New York (SUNY) Campus Locations with Websites, Enrollment and Select Program Offerings](../datasets/3cij-nwhw.md) | Education | 2016&#x2011;09&#x2011;09
 [State University of New York (SUNY) Employees By Employment Status: Beginning Fall 2011](../datasets/r7v3-sp8n.md) | Education | 2015&#x2011;09&#x2011;10

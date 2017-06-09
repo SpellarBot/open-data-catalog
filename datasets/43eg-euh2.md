@@ -19,7 +19,7 @@
 
 ## Description
 
-This table contains data describing ATCEMS management of Trauma Alert patients.  In this setting, ?Trauma Alert? refers to injured patients who meet Physiological or Anatomical criteria for transport to a Trauma Center per City of Austin/Travis County EMS System Clinical Operating Guidelines.
+This table contains data describing ATCEMS management of Trauma Alert patients.  In this setting, “Trauma Alert” refers to injured patients who meet Physiological or Anatomical criteria for transport to a Trauma Center per City of Austin/Travis County EMS System Clinical Operating Guidelines.
 
 ## Columns
 
@@ -32,7 +32,7 @@ This table contains data describing ATCEMS management of Trauma Alert patients. 
 | No       |                | fiscal_quarter_end_date              | Fiscal Quarter End Date                          | calendar_date | calendar_date |
 | Yes      | numeric metric | count_trauma_alert                   | Count - Trauma Alerts                            | number        | number        |
 | Yes      | numeric metric | count_scene_time_compliance          | Count - Trauma Alert Scene Interval Compliance   | number        | number        |
-| Yes      | numeric metric | percent_scene_time_compliance        | Percent ? Trauma Alert Scene Interval Compliance | percent       | percent       |
+| Yes      | numeric metric | percent_scene_time_compliance        | Percent – Trauma Alert Scene Interval Compliance | percent       | percent       |
 | Yes      | numeric metric | percent_scene_time_compliance_target | Trauma Alert Scene Interval Compliance Target    | percent       | percent       |
 | Yes      | numeric metric | count_specialty_center               | Count - Trauma Center Transports                 | number        | number        |
 | Yes      | numeric metric | percent_specialty_center             | Percent - Trauma Center Transports               | percent       | percent       |
@@ -57,23 +57,23 @@ Excluded Fields = fiscal_quarter_end_date,fiscal_quarter
 ## Data Commands
 
 ```ls
-series e:43eg-euh2 d:2013-10-01T00:00:00.000Z m:percent_specialty_center=99.41 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=86.39 m:fiscal_quarter_key=201401 m:count_scene_time_compliance=146 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=169 m:percent_specialty_center_target=95 m:count_specialty_center=168 m:average_interval_call_to_door=34.46
+series e:43eg-euh2 d:2013-10-01T00:00:00.000Z m:average_interval_call_to_door_target=45 m:percent_specialty_center=99.41 m:percent_scene_time_compliance=86.39 m:fiscal_quarter_key=201401 m:percent_scene_time_compliance_target=90 m:count_scene_time_compliance=146 m:count_trauma_alert=169 m:count_specialty_center=168 m:percent_specialty_center_target=95 m:average_interval_call_to_door=34.46
 
-series e:43eg-euh2 d:2014-01-01T00:00:00.000Z m:percent_specialty_center=99.31 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=88.89 m:fiscal_quarter_key=201402 m:count_scene_time_compliance=128 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=144 m:percent_specialty_center_target=95 m:count_specialty_center=143 m:average_interval_call_to_door=32.99
+series e:43eg-euh2 d:2014-01-01T00:00:00.000Z m:average_interval_call_to_door_target=45 m:percent_specialty_center=99.31 m:percent_scene_time_compliance=88.89 m:fiscal_quarter_key=201402 m:percent_scene_time_compliance_target=90 m:count_scene_time_compliance=128 m:count_trauma_alert=144 m:count_specialty_center=143 m:percent_specialty_center_target=95 m:average_interval_call_to_door=32.99
 
-series e:43eg-euh2 d:2014-04-01T00:00:00.000Z m:percent_specialty_center=100 m:average_interval_call_to_door_target=45 m:percent_scene_time_compliance=90.96 m:fiscal_quarter_key=201403 m:count_scene_time_compliance=151 m:percent_scene_time_compliance_target=90 m:count_trauma_alert=166 m:percent_specialty_center_target=95 m:count_specialty_center=166 m:average_interval_call_to_door=35.92
+series e:43eg-euh2 d:2014-04-01T00:00:00.000Z m:average_interval_call_to_door_target=45 m:percent_specialty_center=100 m:percent_scene_time_compliance=90.96 m:fiscal_quarter_key=201403 m:percent_scene_time_compliance_target=90 m:count_scene_time_compliance=151 m:count_trauma_alert=166 m:count_specialty_center=166 m:percent_specialty_center_target=95 m:average_interval_call_to_door=35.92
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:fiscal_quarter_key p:integer l:"Fiscal Quarter Key" d:"Row identifier ? numeric representation of fiscal quarter in <yyyyqq> format." t:dataTypeName=number
+metric m:fiscal_quarter_key p:integer l:"Fiscal Quarter Key" d:"Row identifier – numeric representation of fiscal quarter in <yyyyqq> format." t:dataTypeName=number
 
 metric m:count_trauma_alert p:integer l:"Count - Trauma Alerts" d:"Count of Trauma Alert patients." t:dataTypeName=number
 
 metric m:count_scene_time_compliance p:integer l:"Count - Trauma Alert Scene Interval Compliance" d:"Count of Trauma Alert patients with a scene interval less than 15 minutes. Scene interval starts when the first ATCEMS personnel arrive on scene, and ends when ATCEMS personnel depart the scene." t:dataTypeName=number
 
-metric m:percent_scene_time_compliance p:float l:"Percent ? Trauma Alert Scene Interval Compliance" d:"Percent of Trauma Alert patients with a scene interval less than 15 minutes." t:dataTypeName=percent
+metric m:percent_scene_time_compliance p:float l:"Percent – Trauma Alert Scene Interval Compliance" d:"Percent of Trauma Alert patients with a scene interval less than 15 minutes." t:dataTypeName=percent
 
 metric m:percent_scene_time_compliance_target p:float l:"Trauma Alert Scene Interval Compliance Target" d:"Target performance level for compliance with scene time goal for Trauma Alert patients." t:dataTypeName=percent
 
@@ -89,11 +89,11 @@ metric m:average_interval_call_to_door_target p:float l:"Call to Door Interval T
 
 entity e:43eg-euh2 l:"EMS - Quarterly Clinical Measures - Trauma Alert" t:attribution="Austin-Travis County EMS" t:url=https://data.austintexas.gov/api/views/43eg-euh2
 
-property e:43eg-euh2 t:meta.view v:id=43eg-euh2 v:category="Public Safety" v:averageRating=0 v:name="EMS - Quarterly Clinical Measures - Trauma Alert" v:attribution="Austin-Travis County EMS"
+property e:43eg-euh2 t:meta.view d:2017-06-09T13:55:12.903Z v:id=43eg-euh2 v:category="Public Safety" v:averageRating=0 v:name="EMS - Quarterly Clinical Measures - Trauma Alert" v:attribution="Austin-Travis County EMS"
 
-property e:43eg-euh2 t:meta.view.owner v:id=4zcf-8die v:profileImageUrlMedium=/api/users/4zcf-8die/profile_images/THUMB v:profileImageUrlLarge=/api/users/4zcf-8die/profile_images/LARGE v:screenName="Austin-Travis County EMS" v:profileImageUrlSmall=/api/users/4zcf-8die/profile_images/TINY v:displayName="Austin-Travis County EMS"
+property e:43eg-euh2 t:meta.view.owner d:2017-06-09T13:55:12.903Z v:id=4zcf-8die v:profileImageUrlMedium=/api/users/4zcf-8die/profile_images/THUMB v:profileImageUrlLarge=/api/users/4zcf-8die/profile_images/LARGE v:screenName="Austin-Travis County EMS" v:profileImageUrlSmall=/api/users/4zcf-8die/profile_images/TINY v:displayName="Austin-Travis County EMS"
 
-property e:43eg-euh2 t:meta.view.tableauthor v:id=4zcf-8die v:profileImageUrlMedium=/api/users/4zcf-8die/profile_images/THUMB v:profileImageUrlLarge=/api/users/4zcf-8die/profile_images/LARGE v:screenName="Austin-Travis County EMS" v:profileImageUrlSmall=/api/users/4zcf-8die/profile_images/TINY v:roleName=publisher_stories v:displayName="Austin-Travis County EMS"
+property e:43eg-euh2 t:meta.view.tableauthor d:2017-06-09T13:55:12.903Z v:id=4zcf-8die v:profileImageUrlMedium=/api/users/4zcf-8die/profile_images/THUMB v:profileImageUrlLarge=/api/users/4zcf-8die/profile_images/LARGE v:screenName="Austin-Travis County EMS" v:profileImageUrlSmall=/api/users/4zcf-8die/profile_images/TINY v:roleName=publisher_stories v:displayName="Austin-Travis County EMS"
 ```
 
 ## Top Records

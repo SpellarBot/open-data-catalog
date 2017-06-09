@@ -72,11 +72,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=0 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
+series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_lostfoundchild=0 m:ld_keyassist=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_disturbance=0 m:ld_leashlaw=0 m:ld_theft=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_other=0 m:ld_suspiciousincident=0 m:ld_rape=0 m:ld_autotheft=0 m:ld_assault=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
 
-series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=6 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
+series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_lostfoundchild=0 m:ld_keyassist=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_disturbance=0 m:ld_leashlaw=0 m:ld_theft=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_other=6 m:ld_suspiciousincident=0 m:ld_rape=0 m:ld_autotheft=0 m:ld_assault=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
 
-series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_keyassist=0 m:ld_lostfoundchild=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_theft=0 m:ld_leashlaw=0 m:ld_disturbance=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_suspiciousincident=0 m:ld_other=0 m:ld_rape=0 m:ld_assault=0 m:ld_autotheft=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
+series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z m:ld_karesponse=0 m:ld_escort=0 m:ld_lostfoundchild=0 m:ld_keyassist=0 m:ld_centerschool=0 m:ld_carprowl=0 m:ld_disturbance=0 m:ld_leashlaw=0 m:ld_theft=0 m:ld_idbadge=0 m:ld_keycorerequest=0 m:ld_sexoffense=0 m:ld_vandalismproperty=0 m:ld_firearson=0 m:ld_skateboardroller=0 m:ld_autoassist=0 m:ld_alcoholdrug=0 m:ld_radioassist=0 m:ld_lostfound=0 m:ld_injuryfirstaid=0 m:ld_parkingcit=0 m:ld_graffiti=0 m:ld_homicide=0 m:ld_alarm=0 m:ld_other=0 m:ld_suspiciousincident=0 m:ld_rape=0 m:ld_autotheft=0 m:ld_assault=0 m:ld_publiccontactassistance=0 m:ld_burglary=0 m:ld_robbery=0 m:ld_rulesviolation=0
 ```
 
 ## Meta Commands
@@ -150,13 +150,13 @@ metric m:ld_centerschool p:integer l:LD_CenterSchool t:dataTypeName=number
 
 entity e:wgrr-kk3q l:"Seattle Center Emergency Services Unit 2016 Incident Report" t:attribution="Seattle Center" t:url=https://data.seattle.gov/api/views/wgrr-kk3q
 
-property e:wgrr-kk3q t:meta.view v:id=wgrr-kk3q v:category="City Business" v:attributionLink=http://www.seattlecenter.com v:averageRating=0 v:name="Seattle Center Emergency Services Unit 2016 Incident Report" v:attribution="Seattle Center"
+property e:wgrr-kk3q t:meta.view d:2017-06-09T13:56:01.248Z v:id=wgrr-kk3q v:category="City Business" v:attributionLink=http://www.seattlecenter.com v:averageRating=0 v:name="Seattle Center Emergency Services Unit 2016 Incident Report" v:attribution="Seattle Center"
 
-property e:wgrr-kk3q t:meta.view.license v:name="Public Domain"
+property e:wgrr-kk3q t:meta.view.license d:2017-06-09T13:56:01.248Z v:name="Public Domain"
 
-property e:wgrr-kk3q t:meta.view.owner v:id=wy9h-7767 v:screenName="Wells, Denise" v:displayName="Wells, Denise"
+property e:wgrr-kk3q t:meta.view.owner d:2017-06-09T13:56:01.248Z v:id=wy9h-7767 v:screenName="Wells, Denise" v:displayName="Wells, Denise"
 
-property e:wgrr-kk3q t:meta.view.tableauthor v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
+property e:wgrr-kk3q t:meta.view.tableauthor d:2017-06-09T13:56:01.248Z v:id=wy9h-7767 v:screenName="Wells, Denise" v:roleName=publisher v:displayName="Wells, Denise"
 ```
 
 ## Top Records

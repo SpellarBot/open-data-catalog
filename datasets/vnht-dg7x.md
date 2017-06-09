@@ -66,13 +66,13 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:vnht-dg7x l:"Citizen Satisfaction With NOPD (2009 - Present)" t:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey" t:url=https://data.nola.gov/api/views/vnht-dg7x
 
-property e:vnht-dg7x t:meta.view v:id=vnht-dg7x v:category="Public Safety and Preparedness" v:attributionLink=http://crimecoalitionnola.com/ v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey"
+property e:vnht-dg7x t:meta.view d:2017-06-09T13:51:27.344Z v:id=vnht-dg7x v:category="Public Safety and Preparedness" v:attributionLink=http://crimecoalitionnola.com/ v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey"
 
-property e:vnht-dg7x t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.owner d:2017-06-09T13:51:27.344Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
-property e:vnht-dg7x t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.tableauthor d:2017-06-09T13:51:27.344Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
+property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:27.344Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

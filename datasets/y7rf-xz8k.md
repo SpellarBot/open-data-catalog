@@ -18,7 +18,7 @@
 
 ## Description
 
-This dataset includes the Fiscal Year* 2015 County Executive Recommended operating budget for Montgomery County. The dataset does not include revenues and  detailed agency budget information (only includes agency budget information by fund); each agency, such as Montgomery County Public Schools, maintain their individual budget information. The data can be sorted, filtered, and exported by the following elements: Function (grouping, such as ?Public Safety?), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name. *The 12-month period to which the annual operating and capital budgets and their respective appropriations apply. The Montgomery County fiscal year starts on July 1st and ends on June 30th. Update Frequency: Annually
+This dataset includes the Fiscal Year* 2015 County Executive Recommended operating budget for Montgomery County. The dataset does not include revenues and  detailed agency budget information (only includes agency budget information by fund); each agency, such as Montgomery County Public Schools, maintain their individual budget information. The data can be sorted, filtered, and exported by the following elements: Function (grouping, such as “Public Safety”), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name. *The 12-month period to which the annual operating and capital budgets and their respective appropriations apply. The Montgomery County fiscal year starts on July 1st and ends on June 30th. Update Frequency: Annually
 
 ## Columns
 
@@ -59,15 +59,15 @@ series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_ex
 ## Meta Commands
 
 ```ls
-metric m:recommended_amount p:double l:"Recommended Amount" d:"the County Executive?s recommended budget for the upcoming fiscal year, submitted to Council for review each year by March 15th." t:dataTypeName=money
+metric m:recommended_amount p:double l:"Recommended Amount" d:"the County Executive’s recommended budget for the upcoming fiscal year, submitted to Council for review each year by March 15th." t:dataTypeName=money
 
 entity e:y7rf-xz8k l:"Fiscal Year 2015 County Executive Recommended Operating Budget" t:url=https://data.montgomerycountymd.gov/api/views/y7rf-xz8k
 
-property e:y7rf-xz8k t:meta.view v:id=y7rf-xz8k v:category=Government v:averageRating=0 v:name="Fiscal Year 2015 County Executive Recommended Operating Budget"
+property e:y7rf-xz8k t:meta.view d:2017-06-09T14:00:08.089Z v:id=y7rf-xz8k v:category=Government v:averageRating=0 v:name="Fiscal Year 2015 County Executive Recommended Operating Budget"
 
-property e:y7rf-xz8k t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
+property e:y7rf-xz8k t:meta.view.owner d:2017-06-09T14:00:08.089Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
 
-property e:y7rf-xz8k t:meta.view.tableauthor v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:y7rf-xz8k t:meta.view.tableauthor d:2017-06-09T14:00:08.089Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 ```
 
 ## Top Records

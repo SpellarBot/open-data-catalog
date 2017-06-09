@@ -19,7 +19,7 @@
 
 ## Description
 
-This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: ?Library Cardholders (2012 - present)? and ?Annual population estimates (2012 ? present)."
+This dataset includes data for ResultsNOLA indicators that were calculated based on the following source datasets: “Library Cardholders (2012 - present)” and “Annual population estimates (2012 – present)."
 
 ## Columns
 
@@ -64,13 +64,13 @@ metric m:indicatorvalue p:float l:IndicatorValue t:dataTypeName=number
 
 entity e:s995-ndgk l:"Calculated Library Indicators For Results NOLA" t:attribution="New Orleans Public Library" t:url=https://data.nola.gov/api/views/s995-ndgk
 
-property e:s995-ndgk t:meta.view v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
+property e:s995-ndgk t:meta.view d:2017-06-09T13:58:44.842Z v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
 
-property e:s995-ndgk t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.owner d:2017-06-09T13:58:44.842Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
-property e:s995-ndgk t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.tableauthor d:2017-06-09T13:58:44.842Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
+property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:44.842Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

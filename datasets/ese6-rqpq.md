@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/cdc-pramstat-data-for-2011-8b9bf) |
-| Metadata | [Link](https://data.cdc.gov/api/views/ese6-rqpq) |
-| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/ese6-rqpq/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/ese6-rqpq/rows.csv?max_rows=100) |
-| Host | data.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/cdc-pramstat-data-for-2011) |
+| Metadata | [Link](https://chronicdata.cdc.gov/api/views/ese6-rqpq) |
+| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/ese6-rqpq/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/ese6-rqpq/rows.csv?max_rows=100) |
+| Host | chronicdata.cdc.gov |
 | Id | ese6-rqpq |
 | Name | CDC PRAMStat Data for 2011 |
 | Attribution | Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS) |
@@ -89,17 +89,17 @@ metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=nu
 
 metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
-entity e:ese6-rqpq l:"CDC PRAMStat Data for 2011" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://data.cdc.gov/api/views/ese6-rqpq
+entity e:ese6-rqpq l:"CDC PRAMStat Data for 2011" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://chronicdata.cdc.gov/api/views/ese6-rqpq
 
-property e:ese6-rqpq t:meta.view v:id=ese6-rqpq v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/index.htm v:averageRating=0 v:name="CDC PRAMStat Data for 2011" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
+property e:ese6-rqpq t:meta.view d:2017-06-09T13:51:05.838Z v:id=ese6-rqpq v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/index.htm v:averageRating=0 v:name="CDC PRAMStat Data for 2011" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
 
-property e:ese6-rqpq t:meta.view.license v:name="Public Domain"
+property e:ese6-rqpq t:meta.view.license d:2017-06-09T13:51:05.838Z v:name="Public Domain"
 
-property e:ese6-rqpq t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
+property e:ese6-rqpq t:meta.view.owner d:2017-06-09T13:51:05.838Z v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
 
-property e:ese6-rqpq t:meta.view.tableauthor v:id=uj8q-r4hw v:profileImageUrlMedium=/api/users/uj8q-r4hw/profile_images/THUMB v:profileImageUrlLarge=/api/users/uj8q-r4hw/profile_images/LARGE v:screenName=jbraith v:profileImageUrlSmall=/api/users/uj8q-r4hw/profile_images/TINY v:roleName=administrator v:displayName=jbraith
+property e:ese6-rqpq t:meta.view.tableauthor d:2017-06-09T13:51:05.838Z v:id=uj8q-r4hw v:profileImageUrlMedium=/api/users/uj8q-r4hw/profile_images/THUMB v:profileImageUrlLarge=/api/users/uj8q-r4hw/profile_images/LARGE v:screenName=goq6@cdc.gov v:profileImageUrlSmall=/api/users/uj8q-r4hw/profile_images/TINY v:roleName=administrator v:displayName=goq6@cdc.gov
 
-property e:ese6-rqpq t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:ese6-rqpq t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:05.838Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```
 
 ## Top Records

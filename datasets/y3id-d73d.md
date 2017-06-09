@@ -19,7 +19,7 @@
 
 ## Description
 
-The dataset provides aggregate payments made to vendors by institution and fiscal year starting with FY 2012.  Payments made by the Board of Regents are assigned to fiscal years that run from July 1 to the following June 30, and are numbered for the calendar year in which they end (e.g. FY 2014 is July 1, 2013 ? June 30, 2014).
+The dataset provides aggregate payments made to vendors by institution and fiscal year starting with FY 2012.  Payments made by the Board of Regents are assigned to fiscal years that run from July 1 to the following June 30, and are numbered for the calendar year in which they end (e.g. FY 2014 is July 1, 2013 – June 30, 2014).
 
 ## Columns
 
@@ -59,13 +59,13 @@ metric m:amount p:double l:Amount d:"Aggregated total payments received by vendo
 
 entity e:y3id-d73d l:"Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" t:attribution="Iowa Board of Regents" t:url=https://data.iowa.gov/api/views/y3id-d73d
 
-property e:y3id-d73d t:meta.view v:id=y3id-d73d v:category=Education v:averageRating=0 v:name="Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" v:attribution="Iowa Board of Regents"
+property e:y3id-d73d t:meta.view d:2017-06-09T13:53:31.371Z v:id=y3id-d73d v:category=Education v:averageRating=0 v:name="Board of Regents' Vendor Payments By Institution, Fiscal Year And Vendor" v:attribution="Iowa Board of Regents"
 
-property e:y3id-d73d t:meta.view.license v:name="Public Domain"
+property e:y3id-d73d t:meta.view.license d:2017-06-09T13:53:31.371Z v:name="Public Domain"
 
-property e:y3id-d73d t:meta.view.owner v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:displayName="Iowa Board of Regents"
+property e:y3id-d73d t:meta.view.owner d:2017-06-09T13:53:31.371Z v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:displayName="Iowa Board of Regents"
 
-property e:y3id-d73d t:meta.view.tableauthor v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
+property e:y3id-d73d t:meta.view.tableauthor d:2017-06-09T13:53:31.371Z v:id=ym7w-2hjx v:profileImageUrlMedium=/api/users/ym7w-2hjx/profile_images/THUMB v:profileImageUrlLarge=/api/users/ym7w-2hjx/profile_images/LARGE v:screenName="Iowa Board of Regents" v:profileImageUrlSmall=/api/users/ym7w-2hjx/profile_images/TINY v:roleName=editor v:displayName="Iowa Board of Regents"
 ```
 
 ## Top Records

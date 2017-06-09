@@ -46,11 +46,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z m:inc_dec=-0.0006 m:commerical=4633556863 m:industrial=2648486622 m:residential=4381193546 m:government_entities=1005960507 m:public_street_highway=46948693 m:total_billed_kwh=12716146231
+series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z m:inc_dec=-0.0006 m:industrial=2648486622 m:commerical=4633556863 m:residential=4381193546 m:government_entities=1005960507 m:total_billed_kwh=12716146231 m:public_street_highway=46948693
 
-series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z m:inc_dec=0.0624 m:commerical=4675615088 m:industrial=2342538382 m:residential=4561857688 m:government_entities=1094964902 m:public_street_highway=48327221 m:total_billed_kwh=12723303281
+series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z m:inc_dec=0.0624 m:industrial=2342538382 m:commerical=4675615088 m:residential=4561857688 m:government_entities=1094964902 m:total_billed_kwh=12723303281 m:public_street_highway=48327221
 
-series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:inc_dec=-0.010477764 m:commerical=4553866402 m:industrial=2038706310 m:residential=4238690401 m:government_entities=1096985412 m:public_street_highway=48077910 m:total_billed_kwh=11976326435
+series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:inc_dec=-0.010477764 m:industrial=2038706310 m:commerical=4553866402 m:residential=4238690401 m:government_entities=1096985412 m:total_billed_kwh=11976326435 m:public_street_highway=48077910
 ```
 
 ## Meta Commands
@@ -72,13 +72,13 @@ metric m:inc_dec p:double l:"% Inc/Dec" t:dataTypeName=number
 
 entity e:t4zw-f3yr l:"Energy Sales - kilowatt hours by Customer Class" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/t4zw-f3yr
 
-property e:t4zw-f3yr t:meta.view v:id=t4zw-f3yr v:category=Utility v:averageRating=0 v:name="Energy Sales - kilowatt hours by Customer Class" v:attribution="Austin Energy"
+property e:t4zw-f3yr t:meta.view d:2017-06-09T14:00:37.938Z v:id=t4zw-f3yr v:category=Utility v:averageRating=0 v:name="Energy Sales - kilowatt hours by Customer Class" v:attribution="Austin Energy"
 
-property e:t4zw-f3yr t:meta.view.license v:name="Public Domain"
+property e:t4zw-f3yr t:meta.view.license d:2017-06-09T14:00:37.938Z v:name="Public Domain"
 
-property e:t4zw-f3yr t:meta.view.owner v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
+property e:t4zw-f3yr t:meta.view.owner d:2017-06-09T14:00:37.938Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
 
-property e:t4zw-f3yr t:meta.view.tableauthor v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:t4zw-f3yr t:meta.view.tableauthor d:2017-06-09T14:00:37.938Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 ```
 
 ## Top Records

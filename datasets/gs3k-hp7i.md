@@ -49,9 +49,12 @@ Excluded Fields = id
 ```ls
 series e:gs3k-hp7i d:2015-12-09T00:00:00.000Z t:notes="Nordic Project # 15869 WO #01 Harbor Island Safety Fencing" m:row_number.gs3k-hp7i=1
 
-series e:gs3k-hp7i d:2016-08-17T00:00:00.000Z t:notes="Filed by Sarah Wright" m:row_number.gs3k-hp7i=2
+series e:gs3k-hp7i d:2017-05-01T00:00:00.000Z t:notes="-- On 5/18/2016:--
+Other Trucks: Lowbed - mobilization of equipment (Teamsters Union)
+General Laborer: Laborer Foreman/Supervisor (Laborers Union)
+Dump Truck: Broom/Pickup Sweeper (Teamsters Union)" m:row_number.gs3k-hp7i=2
 
-series e:gs3k-hp7i d:2013-04-19T00:00:00.000Z t:notes="Filed by Rob Whitmore" m:row_number.gs3k-hp7i=3
+series e:gs3k-hp7i d:2016-08-17T00:00:00.000Z t:notes="Filed by Sarah Wright" m:row_number.gs3k-hp7i=3
 ```
 
 ## Meta Commands
@@ -61,26 +64,26 @@ metric m:row_number.gs3k-hp7i p:long l:"Row Number"
 
 entity e:gs3k-hp7i l:"L&I Public Notes For Affidavit" t:attribution="L & I" t:url=https://data.wa.gov/api/views/gs3k-hp7i
 
-property e:gs3k-hp7i t:meta.view v:id=gs3k-hp7i v:category=Labor v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I"
+property e:gs3k-hp7i t:meta.view d:2017-06-09T13:57:38.030Z v:id=gs3k-hp7i v:category=Labor v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I"
 
-property e:gs3k-hp7i t:meta.view.owner v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:displayName=Nithya
+property e:gs3k-hp7i t:meta.view.owner d:2017-06-09T13:57:38.030Z v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:lastNotificationSeenAt=1492794743 v:displayName=Nithya
 
-property e:gs3k-hp7i t:meta.view.tableauthor v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:displayName=Nithya
+property e:gs3k-hp7i t:meta.view.tableauthor d:2017-06-09T13:57:38.030Z v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:lastNotificationSeenAt=1492794743 v:displayName=Nithya
 ```
 
 ## Top Records
 
 ```ls
-| id     | notes                                                                                            | notesenteredon      | 
-| ====== | ================================================================================================ | =================== | 
-| 617191 | Nordic Project # 15869 WO #01 Harbor Island Safety Fencing                                       | 2015-12-09T00:00:00 | 
-| 659834 | Filed by Sarah Wright                                                                            | 2016-08-17T00:00:00 | 
-| 44130  | Filed by Rob Whitmore                                                                            | 2013-04-19T00:00:00 | 
-| 615075 | Station 6 9520 Evergreen Way Everett, WA 98204 Door was stuck shut. Emergency chain was engaged. | 2015-12-03T00:00:00 | 
-| 62492  | This Affidavit should actually be tied to Intent 53047.                                          | 2012-06-26T00:00:00 | 
-| 84444  | This Affidavit should actually be tied to Intent 57910.                                          | 2012-06-26T00:00:00 | 
-| 90933  | This Affidavit should actually be tied to Intent 44193.                                          | 2012-06-26T00:00:00 | 
-| 98505  | This Affidavit is tied to Intent 48002                                                           | 2012-10-03T00:00:00 | 
-| 105876 | This Affidavit is tied to Intent 84456                                                           | 2012-08-31T00:00:00 | 
-| 117766 | This Affidavit is tied to Intent 62762                                                           | 2012-08-31T00:00:00 | 
+| id     | notes                                                                                                                                                                                                 | notesenteredon      | 
+| ====== | ===================================================================================================================================================================================================== | =================== | 
+| 617191 | Nordic Project # 15869 WO #01 Harbor Island Safety Fencing                                                                                                                                            | 2015-12-09T00:00:00 | 
+| 711411 | -- On 5/18/2016:-- Other Trucks: Lowbed - mobilization of equipment (Teamsters Union) General Laborer: Laborer Foreman/Supervisor (Laborers Union) Dump Truck: Broom/Pickup Sweeper (Teamsters Union) | 2017-05-01T00:00:00 | 
+| 659834 | Filed by Sarah Wright                                                                                                                                                                                 | 2016-08-17T00:00:00 | 
+| 44130  | Filed by Rob Whitmore                                                                                                                                                                                 | 2013-04-19T00:00:00 | 
+| 615075 | Station 6 9520 Evergreen Way Everett, WA 98204 Door was stuck shut. Emergency chain was engaged.                                                                                                      | 2015-12-03T00:00:00 | 
+| 62492  | This Affidavit should actually be tied to Intent 53047.                                                                                                                                               | 2012-06-26T00:00:00 | 
+| 84444  | This Affidavit should actually be tied to Intent 57910.                                                                                                                                               | 2012-06-26T00:00:00 | 
+| 90933  | This Affidavit should actually be tied to Intent 44193.                                                                                                                                               | 2012-06-26T00:00:00 | 
+| 98505  | This Affidavit is tied to Intent 48002                                                                                                                                                                | 2012-10-03T00:00:00 | 
+| 105876 | This Affidavit is tied to Intent 84456                                                                                                                                                                | 2012-08-31T00:00:00 | 
 ```

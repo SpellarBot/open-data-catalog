@@ -28,7 +28,7 @@ The San Francisco Controller's Office maintains a database of spending and reven
 | ======== | ============== | ======================= | ======================= | ========= | =========== |
 | Yes      | time           | fiscal_year             | Fiscal Year             | number    | number      |
 | Yes      | series tag     | revenue_or_spending     | Revenue or Spending     | text      | text        |
-| Yes      | series tag     | related_gov_t_units     | Related Gov?t Units     | text      | text        |
+| Yes      | series tag     | related_gov_t_units     | Related Gov’t Units     | text      | text        |
 | Yes      | series tag     | organization_group_code | Organization Group Code | text      | text        |
 | Yes      | series tag     | organization_group      | Organization Group      | text      | text        |
 | Yes      | series tag     | department_code         | Department Code         | text      | text        |
@@ -74,13 +74,13 @@ metric m:amount p:double l:Amount d:"The amount earned (Revenue) or spent (Spend
 
 entity e:bpnb-jwfb l:"Spending And Revenue" t:attribution="SF Controller's Office" t:url=https://data.sfgov.org/api/views/bpnb-jwfb
 
-property e:bpnb-jwfb t:meta.view v:id=bpnb-jwfb v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Spending And Revenue" v:attribution="SF Controller's Office"
+property e:bpnb-jwfb t:meta.view d:2017-06-09T14:01:03.357Z v:id=bpnb-jwfb v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Spending And Revenue" v:attribution="SF Controller's Office"
 
-property e:bpnb-jwfb t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:bpnb-jwfb t:meta.view.license d:2017-06-09T14:01:03.357Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:bpnb-jwfb t:meta.view.owner v:id=9ufn-6bwh v:screenName="Jeff Pera" v:displayName="Jeff Pera"
+property e:bpnb-jwfb t:meta.view.owner d:2017-06-09T14:01:03.357Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:displayName="Jeff Pera"
 
-property e:bpnb-jwfb t:meta.view.tableauthor v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
+property e:bpnb-jwfb t:meta.view.tableauthor d:2017-06-09T14:01:03.357Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
 ```
 
 ## Top Records

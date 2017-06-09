@@ -55,13 +55,13 @@ metric m:encumbrances p:double l:Totals t:dataTypeName=number
 
 entity e:pmbr-njwn l:"CIP 2011-2012" t:attribution=OIMT t:url=https://data.hawaii.gov/api/views/pmbr-njwn
 
-property e:pmbr-njwn t:meta.view v:id=pmbr-njwn v:category="Economic Development" v:averageRating=0 v:name="CIP 2011-2012" v:attribution=OIMT
+property e:pmbr-njwn t:meta.view d:2017-06-09T13:57:19.693Z v:id=pmbr-njwn v:category="Economic Development" v:averageRating=0 v:name="CIP 2011-2012" v:attribution=OIMT
 
-property e:pmbr-njwn t:meta.view.license v:name="Public Domain"
+property e:pmbr-njwn t:meta.view.license d:2017-06-09T13:57:19.693Z v:name="Public Domain"
 
-property e:pmbr-njwn t:meta.view.owner v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:displayName="Open Data Portal Administrator"
+property e:pmbr-njwn t:meta.view.owner d:2017-06-09T13:57:19.693Z v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:displayName="Open Data Portal Administrator"
 
-property e:pmbr-njwn t:meta.view.tableauthor v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:roleName=administrator v:displayName="Open Data Portal Administrator"
+property e:pmbr-njwn t:meta.view.tableauthor d:2017-06-09T13:57:19.693Z v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:roleName=administrator v:displayName="Open Data Portal Administrator"
 ```
 
 ## Top Records

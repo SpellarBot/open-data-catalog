@@ -61,11 +61,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=4 m:may=0 m:november=18 m:march=0 m:april=0 m:february=0 m:june=0 m:january=0 m:ytd=63 m:august=7 m:july=0 m:october=26 m:september=8
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=4 m:march=0 m:november=18 m:may=0 m:february=0 m:april=0 m:june=0 m:ytd=63 m:january=0 m:august=7 m:july=0 m:october=26 m:september=8
 
-series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=23 m:may=7 m:november=11 m:march=14 m:april=8 m:february=12 m:june=16 m:january=17 m:ytd=152 m:august=12 m:july=9 m:october=12 m:september=11
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=23 m:march=14 m:november=11 m:may=7 m:february=12 m:april=8 m:june=16 m:ytd=152 m:january=17 m:august=12 m:july=9 m:october=12 m:september=11
 
-series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=110 m:may=90 m:november=73 m:march=85 m:april=110 m:february=92 m:june=85 m:january=110 m:ytd=1128 m:august=116 m:july=114 m:october=83 m:september=60
+series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=110 m:march=85 m:november=73 m:may=90 m:february=92 m:april=110 m:june=85 m:ytd=1128 m:january=110 m:august=116 m:july=114 m:october=83 m:september=60
 ```
 
 ## Meta Commands
@@ -99,11 +99,11 @@ metric m:ytd p:long l:YTD t:dataTypeName=number
 
 entity e:dgeh-7h9y l:"Libraries - 2013 Holds Placed by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/dgeh-7h9y
 
-property e:dgeh-7h9y t:meta.view v:id=dgeh-7h9y v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Holds Placed by Location" v:attribution="Chicago Public Library"
+property e:dgeh-7h9y t:meta.view d:2017-06-09T13:53:54.637Z v:id=dgeh-7h9y v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Holds Placed by Location" v:attribution="Chicago Public Library"
 
-property e:dgeh-7h9y t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
+property e:dgeh-7h9y t:meta.view.owner d:2017-06-09T13:53:54.637Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
 
-property e:dgeh-7h9y t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:dgeh-7h9y t:meta.view.tableauthor d:2017-06-09T13:53:54.637Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```
 
 ## Top Records

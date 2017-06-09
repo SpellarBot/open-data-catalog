@@ -51,11 +51,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location="Albany Park" m:december=12789 m:november=14463 m:may=10915 m:march=12368 m:april=12556 m:february=10593 m:june=15341 m:january=11735 m:ytd=159397 m:august=13907 m:july=14151 m:october=16460 m:september=14119
+series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location="Albany Park" m:december=12789 m:march=12368 m:may=10915 m:november=14463 m:february=10593 m:april=12556 m:june=15341 m:ytd=159397 m:january=11735 m:august=13907 m:july=14151 m:october=16460 m:september=14119
 
-series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location=Altgeld m:december=3325 m:november=4584 m:may=3880 m:march=4529 m:april=4471 m:february=5034 m:june=4431 m:january=5335 m:ytd=57479 m:august=5867 m:july=5526 m:october=5064 m:september=5433
+series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location=Altgeld m:december=3325 m:march=4529 m:may=3880 m:november=4584 m:february=5034 m:april=4471 m:june=4431 m:ytd=57479 m:january=5335 m:august=5867 m:july=5526 m:october=5064 m:september=5433
 
-series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location="Archer Heights*" m:december=6754 m:november=8400 m:may=8714 m:march=10522 m:april=9747 m:february=9079 m:june=9567 m:january=8375 m:ytd=107323 m:august=8831 m:july=9514 m:october=9209 m:september=8611
+series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z t:location="Archer Heights*" m:december=6754 m:march=10522 m:may=8714 m:november=8400 m:february=9079 m:april=9747 m:june=9567 m:ytd=107323 m:january=8375 m:august=8831 m:july=9514 m:october=9209 m:september=8611
 ```
 
 ## Meta Commands
@@ -89,11 +89,11 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:cpc6-pxmp l:"Libraries - 2016 Visitors by Location" t:url=https://data.cityofchicago.org/api/views/cpc6-pxmp
 
-property e:cpc6-pxmp t:meta.view v:id=cpc6-pxmp v:averageRating=0 v:name="Libraries - 2016 Visitors by Location"
+property e:cpc6-pxmp t:meta.view d:2017-06-09T14:00:57.243Z v:id=cpc6-pxmp v:averageRating=0 v:name="Libraries - 2016 Visitors by Location"
 
-property e:cpc6-pxmp t:meta.view.owner v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:displayName="Marie E. Hardy"
+property e:cpc6-pxmp t:meta.view.owner d:2017-06-09T14:00:57.243Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:displayName="Marie E. Hardy"
 
-property e:cpc6-pxmp t:meta.view.tableauthor v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:cpc6-pxmp t:meta.view.tableauthor d:2017-06-09T14:00:57.243Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```
 
 ## Top Records

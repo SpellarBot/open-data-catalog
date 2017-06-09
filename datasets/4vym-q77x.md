@@ -66,13 +66,13 @@ metric m:row_number.4vym-q77x p:long l:"Row Number"
 
 entity e:4vym-q77x l:"Directory of Public Authorities" t:attribution="Authorities Budget Office" t:url=https://data.ny.gov/api/views/4vym-q77x
 
-property e:4vym-q77x t:meta.view v:id=4vym-q77x v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Directory of Public Authorities" v:attribution="Authorities Budget Office"
+property e:4vym-q77x t:meta.view d:2017-06-09T14:00:01.567Z v:id=4vym-q77x v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Directory of Public Authorities" v:attribution="Authorities Budget Office"
 
-property e:4vym-q77x t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:4vym-q77x t:meta.view.owner d:2017-06-09T14:00:01.567Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:4vym-q77x t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:4vym-q77x t:meta.view.tableauthor d:2017-06-09T14:00:01.567Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:4vym-q77x t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:4vym-q77x t:meta.view.metadata.custom_fields.common_core d:2017-06-09T14:00:01.567Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

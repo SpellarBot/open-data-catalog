@@ -69,11 +69,11 @@ metric m:row_number.kh3d-xhq7 p:long l:"Row Number"
 
 entity e:kh3d-xhq7 l:"Queens Library Branches" t:attribution="Queens Library (QBPL)" t:url=https://data.cityofnewyork.us/api/views/kh3d-xhq7
 
-property e:kh3d-xhq7 t:meta.view v:id=kh3d-xhq7 v:category=Recreation v:averageRating=0 v:name="Queens Library Branches" v:attribution="Queens Library (QBPL)"
+property e:kh3d-xhq7 t:meta.view d:2017-06-09T13:59:37.787Z v:id=kh3d-xhq7 v:category=Recreation v:averageRating=0 v:name="Queens Library Branches" v:attribution="Queens Library (QBPL)"
 
-property e:kh3d-xhq7 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:kh3d-xhq7 t:meta.view.owner d:2017-06-09T13:59:37.787Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:kh3d-xhq7 t:meta.view.tableauthor v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
+property e:kh3d-xhq7 t:meta.view.tableauthor d:2017-06-09T13:59:37.787Z v:id=txun-eb7e v:screenName="Albert Webber" v:roleName=administrator v:displayName="Albert Webber"
 ```
 
 ## Top Records

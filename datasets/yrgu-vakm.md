@@ -32,12 +32,12 @@ A table of restrictions and information about existing conditions in the public 
 | Yes      | series tag     | permittype         | PermitType         | text          | text          |
 | Yes      | series tag     | jobordernum        | JobOrderNum        | text          | text          |
 | Yes      | series tag     | projectname        | ProjectName        | text          | text          |
-| Yes      | time           | effectivedate      | EffectiveDate      | calendar_date | calendar_date |
+| No       |                | effectivedate      | EffectiveDate      | calendar_date | calendar_date |
 | No       |                | expirationdate     | ExpirationDate     | calendar_date | calendar_date |
 | Yes      | series tag     | contactname        | ContactName        | text          | text          |
 | Yes      | series tag     | contactphonenumber | ContactPhoneNumber | text          | text          |
 | Yes      | series tag     | restriction_tow    | Restriction_Tow    | text          | text          |
-| No       |                | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
+| Yes      | time           | modifieddate       | ModifiedDate       | calendar_date | calendar_date |
 | Yes      | series tag     | block              | block              | text          | text          |
 | Yes      | series tag     | lot                | lot                | text          | text          |
 ```
@@ -45,24 +45,24 @@ A table of restrictions and information about existing conditions in the public 
 ## Time Field
 
 ```ls
-Value = effectivedate
+Value = modifieddate
 Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = expirationdate,modifieddate
+Excluded Fields = expirationdate,effectivedate
 ```
 
 ## Data Commands
 
 ```ls
-series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
 
-series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
 
-series e:yrgu-vakm d:1980-01-01T00:00:00.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
 ```
 
 ## Meta Commands
@@ -72,13 +72,13 @@ metric m:cnn p:integer l:CNN t:dataTypeName=number
 
 entity e:yrgu-vakm l:"Right of Way Exception Data" t:attribution="San Francisco Department of Public Works" t:url=https://data.sfgov.org/api/views/yrgu-vakm
 
-property e:yrgu-vakm t:meta.view v:id=yrgu-vakm v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Right of Way Exception Data" v:attribution="San Francisco Department of Public Works"
+property e:yrgu-vakm t:meta.view d:2017-06-09T13:53:13.250Z v:id=yrgu-vakm v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Right of Way Exception Data" v:attribution="San Francisco Department of Public Works"
 
-property e:yrgu-vakm t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:yrgu-vakm t:meta.view.license d:2017-06-09T13:53:13.250Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:yrgu-vakm t:meta.view.owner v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.owner d:2017-06-09T13:53:13.250Z v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
 
-property e:yrgu-vakm t:meta.view.tableauthor v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.tableauthor d:2017-06-09T13:53:13.250Z v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
 ```
 
 ## Top Records

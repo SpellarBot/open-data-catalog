@@ -46,11 +46,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:djfn-trk4 d:2014-01-01T00:00:00.000Z m:yeartotal=181 m:commercial_total=22 m:residential_total=35.5 m:transportation_total=74 m:industrial_total=11 m:net_imports_of_electricity=8 m:electric_generation_total=30.4
+series e:djfn-trk4 d:2014-01-01T00:00:00.000Z m:yeartotal=181 m:commercial_total=22 m:transportation_total=74 m:residential_total=35.5 m:industrial_total=11 m:net_imports_of_electricity=8 m:electric_generation_total=30.4
 
-series e:djfn-trk4 d:2013-01-01T00:00:00.000Z m:yeartotal=177 m:commercial_total=22.4 m:residential_total=32.3 m:transportation_total=72.6 m:industrial_total=10.4 m:net_imports_of_electricity=9.3 m:electric_generation_total=29.9
+series e:djfn-trk4 d:2013-01-01T00:00:00.000Z m:yeartotal=177 m:commercial_total=22.4 m:transportation_total=72.6 m:residential_total=32.3 m:industrial_total=10.4 m:net_imports_of_electricity=9.3 m:electric_generation_total=29.9
 
-series e:djfn-trk4 d:2012-01-01T00:00:00.000Z m:yeartotal=175.9 m:commercial_total=20.9 m:residential_total=30.4 m:transportation_total=72.2 m:industrial_total=10.7 m:net_imports_of_electricity=9.5 m:electric_generation_total=32.2
+series e:djfn-trk4 d:2012-01-01T00:00:00.000Z m:yeartotal=175.9 m:commercial_total=20.9 m:transportation_total=72.2 m:residential_total=30.4 m:industrial_total=10.7 m:net_imports_of_electricity=9.5 m:electric_generation_total=32.2
 ```
 
 ## Meta Commands
@@ -72,13 +72,13 @@ metric m:yeartotal p:float l:"Year Total" d:"Million Metric tons" t:dataTypeName
 
 entity e:djfn-trk4 l:"Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/djfn-trk4
 
-property e:djfn-trk4 t:meta.view v:id=djfn-trk4 v:category="Energy & Environment" v:attributionLink=http://www.nyserda.ny.gov/Energy-Prices-Data-and-Reports/Energy-Statistics-and-Weather-Data/Energy-Statistics.aspx v:averageRating=0 v:name="Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990" v:attribution="New York State Energy Research and Development Authority"
+property e:djfn-trk4 t:meta.view d:2017-06-09T13:57:19.267Z v:id=djfn-trk4 v:category="Energy & Environment" v:attributionLink=http://www.nyserda.ny.gov/Energy-Prices-Data-and-Reports/Energy-Statistics-and-Weather-Data/Energy-Statistics.aspx v:averageRating=0 v:name="Greenhouse Gas Emissions From Fuel Combustion, Million Metric Tons: Beginning 1990" v:attribution="New York State Energy Research and Development Authority"
 
-property e:djfn-trk4 t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:djfn-trk4 t:meta.view.owner d:2017-06-09T13:57:19.267Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:djfn-trk4 t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:djfn-trk4 t:meta.view.tableauthor d:2017-06-09T13:57:19.267Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:djfn-trk4 t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:djfn-trk4 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:19.267Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

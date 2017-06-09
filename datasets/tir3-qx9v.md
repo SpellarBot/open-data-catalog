@@ -18,7 +18,7 @@
 
 ## Description
 
-(1.26.15 update) The Oregon Low Income Community Jobs Initiative (Oregon New Markets Tax Credit, or NMTC) program helps finance investments and create jobs in low-income communities; delivers below-market-rate investment options to Oregon businesses; attracts additional Federal New Market Tax Credit investments in Oregon; and sparks revitalization in Oregon?s low-income communities. The program is available to Community Development Entities (CDEs) serving Oregon that have been allocated Federal New Market Tax Credits. The Oregon new market tax credits are then provided to investors who make qualified equity investments in community development entities that in turn invest in projects located in low-income communities. Investments can only be made in qualified, existing low-income community businesses located in Oregon as defined by section 45D of the Internal Revenue Code. If you have additional questions, please contact Laura Engstrom at laura.engstrom@oregon.gov
+(1.26.15 update) The Oregon Low Income Community Jobs Initiative (Oregon New Markets Tax Credit, or NMTC) program helps finance investments and create jobs in low-income communities; delivers below-market-rate investment options to Oregon businesses; attracts additional Federal New Market Tax Credit investments in Oregon; and sparks revitalization in Oregon’s low-income communities. The program is available to Community Development Entities (CDEs) serving Oregon that have been allocated Federal New Market Tax Credits. The Oregon new market tax credits are then provided to investors who make qualified equity investments in community development entities that in turn invest in projects located in low-income communities. Investments can only be made in qualified, existing low-income community businesses located in Oregon as defined by section 45D of the Internal Revenue Code. If you have additional questions, please contact Laura Engstrom at laura.engstrom@oregon.gov
 
 ## Columns
 
@@ -83,11 +83,11 @@ metric m:maximum_amount_of_tax_credit_made_available_to_quality_equity_investor_
 
 entity e:tir3-qx9v l:"Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)" t:url=https://data.oregon.gov/api/views/tir3-qx9v
 
-property e:tir3-qx9v t:meta.view v:id=tir3-qx9v v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)"
+property e:tir3-qx9v t:meta.view d:2017-06-09T14:00:19.255Z v:id=tir3-qx9v v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon New Markets Tax Credit (NMTC) Program: 2014 (update 1.26.15)"
 
-property e:tir3-qx9v t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:tir3-qx9v t:meta.view.owner d:2017-06-09T14:00:19.255Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:tir3-qx9v t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:tir3-qx9v t:meta.view.tableauthor d:2017-06-09T14:00:19.255Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

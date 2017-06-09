@@ -162,7 +162,7 @@ Name | Category | Published
 [Hawaii Public Electric Vehicle Charging Stations](../datasets/cizq-byyq.md) |  | 2017&#x2011;01&#x2011;26
 [Hawaii Public Schools](../datasets/6r5m-ppsj.md) |  | 2012&#x2011;08&#x2011;04
 [Hawaii Renewable Energy Generation By Resource (Source: Hawaii Public Utilities Commission)](../datasets/ezj8-myxp.md) |  | 2016&#x2011;04&#x2011;11
-[Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)](../datasets/rpbd-ypkv.md) |  | 2016&#x2011;04&#x2011;11
+[Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)](../datasets/rpbd-ypkv.md) |  | 2017&#x2011;05&#x2011;31
 [Hawaii Renewable Portfolio Standards ( RPS) (Source: Hawaii Public Utilities Commission)](../datasets/h5ds-84gh.md) |  | 2016&#x2011;07&#x2011;25
 [Hawaii State Ethics Commission's Ethics Advice](../datasets/6ms4-gnxa.md) |  | 2017&#x2011;03&#x2011;21
 [Hawaii State Ethics Commission's Lobbyist Registration Statements](../datasets/gdxe-t5ff.md) |  | 2017&#x2011;04&#x2011;18

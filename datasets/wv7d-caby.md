@@ -56,13 +56,13 @@ metric m:amount_of_iec p:integer l:"Amount of IEC" t:dataTypeName=money
 
 entity e:wv7d-caby l:"Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/wv7d-caby
 
-property e:wv7d-caby t:meta.view v:id=wv7d-caby v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" v:attribution="San Francisco Ethics Commission"
+property e:wv7d-caby t:meta.view d:2017-06-09T13:56:53.078Z v:id=wv7d-caby v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings  IECs  - November 4, 2014 Election" v:attribution="San Francisco Ethics Commission"
 
-property e:wv7d-caby t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:wv7d-caby t:meta.view.license d:2017-06-09T13:56:53.078Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:wv7d-caby t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:wv7d-caby t:meta.view.owner d:2017-06-09T13:56:53.078Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
 
-property e:wv7d-caby t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:wv7d-caby t:meta.view.tableauthor d:2017-06-09T13:56:53.078Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
 
 ## Top Records

@@ -24,7 +24,7 @@ Name | Category | Published
 [ENERGY STAR Certified Light Fixtures](../datasets/wyt9-72bp.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Non-AHRI Central Air Conditioner Equipment and Air Source Heat Pump](../datasets/cker-n33t.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Pool Pumps](../datasets/2ppn-v3hp.md) | Active Specifications | 2016&#x2011;08&#x2011;23
-[ENERGY STAR Certified Residential Clothes Dryers](../datasets/t9u7-4d2j.md) | Active Specifications | 2017&#x2011;03&#x2011;15
+[ENERGY STAR Certified Residential Clothes Dryers](../datasets/t9u7-4d2j.md) | Active Specifications | 2017&#x2011;05&#x2011;15
 [ENERGY STAR Certified Residential Dishwashers](../datasets/58b3-559d.md) | Active Specifications | 2016&#x2011;12&#x2011;19
 [ENERGY STAR Certified Roof Products](../datasets/gp4i-t95q.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Set Top Boxes](../datasets/e567-rku5.md) | Active Specifications | 2016&#x2011;08&#x2011;19

@@ -82,11 +82,11 @@ metric m:capturedateday p:integer l:CAPTUREDATEDAY d:"Capture Date - Day" t:data
 
 entity e:hvmg-f4t6 l:"Survey Markers - Retired" t:attribution="Iowa Department of Transportation - Office of Design" t:url=https://data.iowa.gov/api/views/hvmg-f4t6
 
-property e:hvmg-f4t6 t:meta.view v:id=hvmg-f4t6 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Survey/Survey_Markers/MapServer/1 v:averageRating=0 v:name="Survey Markers - Retired" v:attribution="Iowa Department of Transportation - Office of Design"
+property e:hvmg-f4t6 t:meta.view d:2017-06-09T13:59:10.619Z v:id=hvmg-f4t6 v:category="Transportation & Utilities" v:attributionLink=https://gis.iowadot.gov/public/rest/services/Survey/Survey_Markers/MapServer/1 v:averageRating=0 v:name="Survey Markers - Retired" v:attribution="Iowa Department of Transportation - Office of Design"
 
-property e:hvmg-f4t6 t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:displayName="Iowa Department of Transportation"
+property e:hvmg-f4t6 t:meta.view.owner d:2017-06-09T13:59:10.619Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:displayName="Iowa Department of Transportation"
 
-property e:hvmg-f4t6 t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:hvmg-f4t6 t:meta.view.tableauthor d:2017-06-09T13:59:10.619Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```
 
 ## Top Records

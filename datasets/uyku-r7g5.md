@@ -55,11 +55,11 @@ metric m:price p:integer l:Price t:dataTypeName=money
 
 entity e:uyku-r7g5 l:"Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/uyku-r7g5
 
-property e:uyku-r7g5 t:meta.view v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
+property e:uyku-r7g5 t:meta.view d:2017-06-09T13:51:05.383Z v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
 
-property e:uyku-r7g5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.owner d:2017-06-09T13:51:05.383Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:uyku-r7g5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.tableauthor d:2017-06-09T13:51:05.383Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

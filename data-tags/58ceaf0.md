@@ -2,8 +2,10 @@
 
 Name | Host | Published
 ---- | ---- | ---------
+[AADT Turning Traffic 1999](../datasets/9bnf-mwkb.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2001](../datasets/8z8t-apms.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2003](../datasets/swa5-edvy.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
+[AADT Turning Traffic 2004](../datasets/x89d-qusv.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2005](../datasets/v7pn-44q8.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2006](../datasets/hpc6-nhr3.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
 [AADT Turning Traffic 2008](../datasets/bpe7-rq9j.md) | data.iowa.gov | 2016&#x2011;09&#x2011;29
@@ -28,6 +30,7 @@ Name | Host | Published
 [County Traffic Crash Statistics (SICL)](../datasets/b3wj-5up6.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2006](../datasets/qu3k-zwp8.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2007](../datasets/i2pa-xk8y.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
+[Deer Kill Locations 2009](../datasets/i6xa-cxa2.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2010](../datasets/xcu6-b2ty.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2011](../datasets/tffi-yvjr.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
 [Deer Kill Locations 2013](../datasets/gjb9-cjen.md) | data.iowa.gov | 2016&#x2011;06&#x2011;09
@@ -57,6 +60,7 @@ Name | Host | Published
 [Pavement Raw Collection Data 2012](../datasets/ew7j-7utg.md) | data.iowa.gov | 2016&#x2011;07&#x2011;28
 [Pavement Raw Collection Data 2014](../datasets/tyh9-jfm6.md) | data.iowa.gov | 2016&#x2011;07&#x2011;28
 [RAMS - Access Control](../datasets/9ehx-738h.md) | data.iowa.gov | 2016&#x2011;12&#x2011;06
+[RAMS - Adjacent County Number](../datasets/c4m7-9ycm.md) | data.iowa.gov | 2016&#x2011;12&#x2011;06
 [RAMS - Commercial Network](../datasets/8k78-g739.md) | data.iowa.gov | 2016&#x2011;12&#x2011;06
 [RAMS - Cost Group](../datasets/py72-ecd2.md) | data.iowa.gov | 2016&#x2011;12&#x2011;06
 [RAMS - County Number](../datasets/qekk-46ub.md) | data.iowa.gov | 2016&#x2011;12&#x2011;06

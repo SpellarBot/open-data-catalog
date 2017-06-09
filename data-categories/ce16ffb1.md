@@ -70,7 +70,7 @@ Name | Host | Published
 [Libraries Internet Sessions By Year FY06 - FY11](../datasets/e85y-zk7s.md) | data.hawaii.gov | 2012&#x2011;06&#x2011;27
 [Libraries State Of Hawaii](../datasets/jx86-2vch.md) | data.hawaii.gov | 2012&#x2011;06&#x2011;27
 [LinkNYC Locations](../datasets/s4kf-3yrf.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
-[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;31
+[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;01
 [Missouri Child Support Offices](../datasets/2rxb-22d7.md) | data.mo.gov | 2014&#x2011;02&#x2011;26
 [Missouri Works Assistance Locations](../datasets/kuz5-m96r.md) | data.mo.gov | 2017&#x2011;02&#x2011;27
 [NYC Service: Volunteer Opportunities](../datasets/bquu-z2ht.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21

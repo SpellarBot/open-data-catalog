@@ -81,11 +81,11 @@ metric m:fy_15_salary p:double l:"FY 15 Salary" t:dataTypeName=money
 
 entity e:i4ce-99gr l:"Budget Table - J1 (Salary and FTE)" t:url=https://data.hawaii.gov/api/views/i4ce-99gr
 
-property e:i4ce-99gr t:meta.view v:id=i4ce-99gr v:averageRating=0 v:name="Budget Table - J1 (Salary and FTE)"
+property e:i4ce-99gr t:meta.view d:2017-06-09T13:54:34.892Z v:id=i4ce-99gr v:averageRating=0 v:name="Budget Table - J1 (Salary and FTE)"
 
-property e:i4ce-99gr t:meta.view.owner v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1491335579 v:displayName="Meredith Slota"
+property e:i4ce-99gr t:meta.view.owner d:2017-06-09T13:54:34.892Z v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1492637852 v:displayName="Meredith Slota"
 
-property e:i4ce-99gr t:meta.view.tableauthor v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1491335579 v:displayName="Meredith Slota"
+property e:i4ce-99gr t:meta.view.tableauthor d:2017-06-09T13:54:34.892Z v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1492637852 v:displayName="Meredith Slota"
 ```
 
 ## Top Records

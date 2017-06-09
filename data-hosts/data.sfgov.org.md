@@ -127,7 +127,7 @@ Name | Category | Published
 [FPPC 803 - Behested Payment Report](../datasets/2nqb-h7k4.md) | City Management and Ethics | 2016&#x2011;02&#x2011;20
 [FY07-11 Street Evaluation Results](../datasets/i8y7-m763.md) | City Infrastructure | 2014&#x2011;07&#x2011;23
 [Film Locations in San Francisco](../datasets/yitu-d5am.md) | Culture and Recreation | 2016&#x2011;10&#x2011;27
-[Fire Department Calls for Service](../datasets/nuek-vuh3.md) | Public Safety | 2016&#x2011;05&#x2011;09
+[Fire Department Calls for Service](../datasets/nuek-vuh3.md) | Public Safety | 2017&#x2011;04&#x2011;27
 [Fire Incidents](../datasets/wr8u-xric.md) | Public Safety | 2016&#x2011;07&#x2011;06
 [Fire Inspections](../datasets/wb4c-6hwj.md) | Housing and Buildings | 2016&#x2011;07&#x2011;06
 [Fire Permits](../datasets/893e-xam6.md) | Public Safety | 2016&#x2011;02&#x2011;05
@@ -251,7 +251,7 @@ Name | Category | Published
 [Right of Way Exception Data](../datasets/yrgu-vakm.md) | City Infrastructure | 2015&#x2011;07&#x2011;17
 [SF Civic Art Collection](../datasets/zfw6-95su.md) | Culture and Recreation | 2011&#x2011;11&#x2011;09
 [SF Development Pipeline 2016 Q1](../datasets/dtz9-jkjt.md) | Housing and Buildings | 2016&#x2011;04&#x2011;29
-[SF Development Pipeline 2016 Q2](../datasets/g5sr-9nhs.md) | Housing and Buildings | 2016&#x2011;08&#x2011;15
+[SF Development Pipeline 2016 Q2](../datasets/g5sr-9nhs.md) | Housing and Buildings | 2017&#x2011;05&#x2011;02
 [SF Development Pipeline 2016 Q3](../datasets/k7mk-w2pq.md) |  | 2017&#x2011;03&#x2011;04
 [SFEC 3.216(d) Gifts of Travel Filings](../datasets/uqhk-vesf.md) | City Management and Ethics | 2017&#x2011;04&#x2011;20
 [SFMTA Bikeway Network](../datasets/x3cv-qums.md) | Transportation | 2016&#x2011;10&#x2011;04

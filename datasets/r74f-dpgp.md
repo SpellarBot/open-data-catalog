@@ -78,11 +78,11 @@ metric m:jobs_created p:float l:"JOBS CREATED" t:dataTypeName=number
 
 entity e:r74f-dpgp l:"Oregon Recovery and Reinvestment Act Data - June, 2012" t:url=https://data.oregon.gov/api/views/r74f-dpgp
 
-property e:r74f-dpgp t:meta.view v:id=r74f-dpgp v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012"
+property e:r74f-dpgp t:meta.view d:2017-06-09T13:53:41.334Z v:id=r74f-dpgp v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012"
 
-property e:r74f-dpgp t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.owner d:2017-06-09T13:53:41.334Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:r74f-dpgp t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.tableauthor d:2017-06-09T13:53:41.334Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

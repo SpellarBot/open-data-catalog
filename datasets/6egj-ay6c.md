@@ -69,13 +69,13 @@ metric m:estimated_annual_production_kwh p:integer l:"Estimated Annual Productio
 
 entity e:6egj-ay6c l:"Solar For Schools" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/6egj-ay6c
 
-property e:6egj-ay6c t:meta.view v:id=6egj-ay6c v:category=Utility v:averageRating=0 v:name="Solar For Schools" v:attribution="Austin Energy"
+property e:6egj-ay6c t:meta.view d:2017-06-09T13:56:55.503Z v:id=6egj-ay6c v:category=Utility v:averageRating=0 v:name="Solar For Schools" v:attribution="Austin Energy"
 
-property e:6egj-ay6c t:meta.view.license v:name="Public Domain"
+property e:6egj-ay6c t:meta.view.license d:2017-06-09T13:56:55.503Z v:name="Public Domain"
 
-property e:6egj-ay6c t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:6egj-ay6c t:meta.view.owner d:2017-06-09T13:56:55.503Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
-property e:6egj-ay6c t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
+property e:6egj-ay6c t:meta.view.tableauthor d:2017-06-09T13:56:55.503Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```
 
 ## Top Records

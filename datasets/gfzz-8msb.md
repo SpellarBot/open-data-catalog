@@ -74,13 +74,13 @@ metric m:national_avg_score_ich_cahps_administration p:integer l:"National Avg S
 
 entity e:gfzz-8msb l:"ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017" t:url=https://data.medicare.gov/api/views/gfzz-8msb
 
-property e:gfzz-8msb t:meta.view v:id=gfzz-8msb v:category="Dialysis Facility Compare" v:averageRating=0 v:name="ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017"
+property e:gfzz-8msb t:meta.view d:2017-06-09T13:57:49.453Z v:id=gfzz-8msb v:category="Dialysis Facility Compare" v:averageRating=0 v:name="ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017"
 
-property e:gfzz-8msb t:meta.view.owner v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:displayName=cms
+property e:gfzz-8msb t:meta.view.owner d:2017-06-09T13:57:49.453Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:displayName=cms
 
-property e:gfzz-8msb t:meta.view.tableauthor v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:gfzz-8msb t:meta.view.tableauthor d:2017-06-09T13:57:49.453Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
 
-property e:gfzz-8msb t:meta.view.metadata.custom_fields.common_core v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
+property e:gfzz-8msb t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:49.453Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
 ```
 
 ## Top Records

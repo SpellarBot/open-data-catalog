@@ -60,11 +60,11 @@ metric m:other_source_outside_new_york_state_availability_period p:integer l:"Ot
 
 entity e:2rd2-9uwy l:"Local Law 50 New York State Food Purchasing FY15" t:attribution="Mayor's Office of Contract Services (MOCS)" t:url=https://data.cityofnewyork.us/api/views/2rd2-9uwy
 
-property e:2rd2-9uwy t:meta.view v:id=2rd2-9uwy v:category="City Government" v:averageRating=0 v:name="Local Law 50 New York State Food Purchasing FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"
+property e:2rd2-9uwy t:meta.view d:2017-06-09T13:55:24.653Z v:id=2rd2-9uwy v:category="City Government" v:averageRating=0 v:name="Local Law 50 New York State Food Purchasing FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"
 
-property e:2rd2-9uwy t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:2rd2-9uwy t:meta.view.owner d:2017-06-09T13:55:24.653Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:2rd2-9uwy t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:2rd2-9uwy t:meta.view.tableauthor d:2017-06-09T13:55:24.653Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

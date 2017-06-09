@@ -60,11 +60,11 @@ metric m:row_number.s22f-jsd4 p:long l:"Row Number"
 
 entity e:s22f-jsd4 l:"Current Medallion Drivers" t:attribution="Taxi and Limousine Commission (TLC)" t:url=https://data.cityofnewyork.us/api/views/s22f-jsd4
 
-property e:s22f-jsd4 t:meta.view v:id=s22f-jsd4 v:category=Transportation v:averageRating=0 v:name="Current Medallion Drivers" v:attribution="Taxi and Limousine Commission (TLC)"
+property e:s22f-jsd4 t:meta.view d:2017-06-09T14:00:18.419Z v:id=s22f-jsd4 v:category=Transportation v:averageRating=0 v:name="Current Medallion Drivers" v:attribution="Taxi and Limousine Commission (TLC)"
 
-property e:s22f-jsd4 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:s22f-jsd4 t:meta.view.owner d:2017-06-09T14:00:18.419Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:s22f-jsd4 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:s22f-jsd4 t:meta.view.tableauthor d:2017-06-09T14:00:18.419Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

@@ -74,13 +74,13 @@ metric m:data_value p:double l:Data_Value d:"Value of the data" t:dataTypeName=n
 
 entity e:7nwe-3aj9 l:"The Tax Burden on Tobacco Volume 49, 1970-2014" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://chronicdata.cdc.gov/api/views/7nwe-3aj9
 
-property e:7nwe-3aj9 t:meta.view v:id=7nwe-3aj9 v:category=Policy v:attributionLink=http://www.cdc.gov/tobacco/STATESystem v:averageRating=0 v:name="The Tax Burden on Tobacco Volume 49, 1970-2014" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
+property e:7nwe-3aj9 t:meta.view d:2017-06-09T13:58:41.277Z v:id=7nwe-3aj9 v:category=Policy v:attributionLink=http://www.cdc.gov/tobacco/STATESystem v:averageRating=0 v:name="The Tax Burden on Tobacco Volume 49, 1970-2014" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
 
-property e:7nwe-3aj9 t:meta.view.owner v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
+property e:7nwe-3aj9 t:meta.view.owner d:2017-06-09T13:58:41.277Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
 
-property e:7nwe-3aj9 t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:7nwe-3aj9 t:meta.view.tableauthor d:2017-06-09T13:58:41.277Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:7nwe-3aj9 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:7nwe-3aj9 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:41.277Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```
 
 ## Top Records

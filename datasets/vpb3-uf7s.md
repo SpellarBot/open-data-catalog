@@ -46,12 +46,12 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="Free Insurance" t:family_size_1_ind__monthly_income=1489 t:family_size_2_nos__monthly_income=2017 t:family_size_5_nos__monthly_income=3601 t:family_size_4_nos__monthly_income=3073 t:family_size_3_nos__monthly_income=2545 m:each_additional_person_add=528
+series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="Free Insurance" t:family_size_1_ind_monthly_income=1489 t:family_size_2_nos_monthly_income=2017 t:family_size_5_nos_monthly_income=3601 t:family_size_4_nos_monthly_income=3073 t:family_size_3_nos_monthly_income=2545 m:each_additional_person_add=528
 
 series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="$9 Per Child Per Month
-(Maximum of $27 per family)" t:family_size_1_ind__monthly_income=2067 t:family_size_2_nos__monthly_income=2800 t:family_size_5_nos__monthly_income=4997 t:family_size_4_nos__monthly_income=4265 t:family_size_3_nos__monthly_income=3532 m:each_additional_person_add=733
+(Maximum of $27 per family)" t:family_size_1_ind_monthly_income=2067 t:family_size_2_nos_monthly_income=2800 t:family_size_5_nos_monthly_income=4997 t:family_size_4_nos_monthly_income=4265 t:family_size_3_nos_monthly_income=3532 m:each_additional_person_add=733
 
-series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="$15 Per Child Per MonthMaximum of $45 per family)" t:family_size_1_ind__monthly_income=2328 t:family_size_2_nos__monthly_income=3153 t:family_size_5_nos__monthly_income=5628 t:family_size_4_nos__monthly_income=4803 t:family_size_3_nos__monthly_income=3978 m:each_additional_person_add=825
+series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z t:premium_categories="$15 Per Child Per MonthMaximum of $45 per family)" t:family_size_1_ind_monthly_income=2328 t:family_size_2_nos_monthly_income=3153 t:family_size_5_nos_monthly_income=5628 t:family_size_4_nos_monthly_income=4803 t:family_size_3_nos_monthly_income=3978 m:each_additional_person_add=825
 ```
 
 ## Meta Commands
@@ -61,11 +61,11 @@ metric m:each_additional_person_add p:integer l:"Each Additional Person Add" t:d
 
 entity e:vpb3-uf7s l:"Child health plus income levels" t:attribution="Human Resources Administration (HRA)" t:url=https://data.cityofnewyork.us/api/views/vpb3-uf7s
 
-property e:vpb3-uf7s t:meta.view v:id=vpb3-uf7s v:category="City Government" v:attributionLink=http://www.nyc.gov/html/hia/html/public_insurance/children.shtml v:averageRating=0 v:name="Child health plus income levels" v:attribution="Human Resources Administration (HRA)"
+property e:vpb3-uf7s t:meta.view d:2017-06-09T13:54:54.516Z v:id=vpb3-uf7s v:category="City Government" v:attributionLink=http://www.nyc.gov/html/hia/html/public_insurance/children.shtml v:averageRating=0 v:name="Child health plus income levels" v:attribution="Human Resources Administration (HRA)"
 
-property e:vpb3-uf7s t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:vpb3-uf7s t:meta.view.owner d:2017-06-09T13:54:54.516Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:vpb3-uf7s t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:vpb3-uf7s t:meta.view.tableauthor d:2017-06-09T13:54:54.516Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

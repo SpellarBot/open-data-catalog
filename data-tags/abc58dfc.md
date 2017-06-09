@@ -17,7 +17,7 @@ Name | Host | Published
 [MDA Animal Control Facilities with 2014Renewals](../datasets/i5tt-hvfv.md) | data.maryland.gov | 2013&#x2011;08&#x2011;12
 [March 2014 Austin Animal Center Live Outcome Rates](../datasets/7kz2-qyez.md) | data.austintexas.gov | 2014&#x2011;04&#x2011;01
 [March 2014 Austin Animal Center Outcomes](../datasets/krsq-4num.md) | data.austintexas.gov | 2014&#x2011;04&#x2011;01
-[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | data.cdc.gov | 2017&#x2011;04&#x2011;20
+[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | data.cdc.gov | 2017&#x2011;06&#x2011;08
 [Pet License Sales Locations](../datasets/mwyh-gr8i.md) | data.kingcounty.gov | 2014&#x2011;07&#x2011;23
 [Seattle Pet Licenses](../datasets/jguv-t9rb.md) | data.seattle.gov | 2017&#x2011;01&#x2011;24
 [Sep 2013 Austin Animal Center Intake Count](../datasets/ba4t-mrbm.md) | data.austintexas.gov | 2013&#x2011;11&#x2011;21

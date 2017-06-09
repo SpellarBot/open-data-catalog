@@ -18,7 +18,7 @@
 
 ## Description
 
-A traffic analysis zone (TAZ) is the unit of geography most commonly used in conventional transportation planning models. The size of a zone varies, but for a typical metropolitan planning software, a zone of under 3000 people is common. The cartographic boundary files are simplified representations of selected geographic areas from the Census Bureau?s MAF/TIGER geographic database. These boundary files are specifically designed for small scale thematic mapping.
+A traffic analysis zone (TAZ) is the unit of geography most commonly used in conventional transportation planning models. The size of a zone varies, but for a typical metropolitan planning software, a zone of under 3000 people is common. The cartographic boundary files are simplified representations of selected geographic areas from the Census Bureau’s MAF/TIGER geographic database. These boundary files are specifically designed for small scale thematic mapping.
 
 ## Columns
 
@@ -65,23 +65,23 @@ series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:taz=704 t:county=007 t:name=704 
 ## Meta Commands
 
 ```ls
-metric m:area p:long l:area t:dataTypeName=number
+metric m:area p:double l:area t:dataTypeName=number
 
-metric m:perimeter p:long l:perimeter t:dataTypeName=number
+metric m:perimeter p:double l:perimeter t:dataTypeName=number
 
-metric m:tz06_d00_ p:long l:tz06_d00_ t:dataTypeName=number
+metric m:tz06_d00_ p:float l:tz06_d00_ t:dataTypeName=number
 
-metric m:tz06_d00_i p:long l:tz06_d00_i t:dataTypeName=number
+metric m:tz06_d00_i p:float l:tz06_d00_i t:dataTypeName=number
 
 entity e:j4sj-j2nf l:"Traffic Analysis Zones" t:url=https://data.sfgov.org/api/views/j4sj-j2nf
 
-property e:j4sj-j2nf t:meta.view v:id=j4sj-j2nf v:category="Geographic Locations and Boundaries" v:averageRating=0 v:name="Traffic Analysis Zones"
+property e:j4sj-j2nf t:meta.view d:2017-06-09T13:59:56.985Z v:id=j4sj-j2nf v:category="Geographic Locations and Boundaries" v:averageRating=0 v:name="Traffic Analysis Zones"
 
-property e:j4sj-j2nf t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:j4sj-j2nf t:meta.view.license d:2017-06-09T13:59:56.985Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:j4sj-j2nf t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:j4sj-j2nf t:meta.view.owner d:2017-06-09T13:59:56.985Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
 
-property e:j4sj-j2nf t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:j4sj-j2nf t:meta.view.tableauthor d:2017-06-09T13:59:56.985Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```
 
 ## Top Records

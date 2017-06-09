@@ -74,11 +74,11 @@ metric m:row_number.5qwt-pfng p:long l:"Row Number"
 
 entity e:5qwt-pfng l:"New Business List - April" t:url=https://data.oregon.gov/api/views/5qwt-pfng
 
-property e:5qwt-pfng t:meta.view v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"
+property e:5qwt-pfng t:meta.view d:2017-06-09T13:55:02.258Z v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"
 
-property e:5qwt-pfng t:meta.view.owner v:id=ngr9-eh9y v:screenName="Judy Weems" v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.owner d:2017-06-09T13:55:02.258Z v:id=ngr9-eh9y v:screenName="Judy Weems" v:displayName="Judy Weems"
 
-property e:5qwt-pfng t:meta.view.tableauthor v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.tableauthor d:2017-06-09T13:55:02.258Z v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
 ```
 
 ## Top Records

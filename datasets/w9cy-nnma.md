@@ -61,11 +61,11 @@ metric m:row_number.w9cy-nnma p:long l:"Row Number"
 
 entity e:w9cy-nnma l:"DYCD after-school programs: Reading And Writing Literacy Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/w9cy-nnma
 
-property e:w9cy-nnma t:meta.view v:id=w9cy-nnma v:category=Education v:averageRating=80 v:name="DYCD after-school programs: Reading And Writing Literacy Programs" v:attribution="Department of Youth and Community Development (DYCD)"
+property e:w9cy-nnma t:meta.view d:2017-06-09T13:58:29.423Z v:id=w9cy-nnma v:category=Education v:averageRating=80 v:name="DYCD after-school programs: Reading And Writing Literacy Programs" v:attribution="Department of Youth and Community Development (DYCD)"
 
-property e:w9cy-nnma t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:w9cy-nnma t:meta.view.owner d:2017-06-09T13:58:29.423Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:w9cy-nnma t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:w9cy-nnma t:meta.view.tableauthor d:2017-06-09T13:58:29.423Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
 
 ## Top Records

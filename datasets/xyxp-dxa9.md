@@ -90,15 +90,15 @@ metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
 entity e:xyxp-dxa9 l:"CDC PRAMStat Data for 2004" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://chronicdata.cdc.gov/api/views/xyxp-dxa9
 
-property e:xyxp-dxa9 t:meta.view v:id=xyxp-dxa9 v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/index v:averageRating=0 v:name="CDC PRAMStat Data for 2004" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
+property e:xyxp-dxa9 t:meta.view d:2017-06-09T13:54:25.628Z v:id=xyxp-dxa9 v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/index v:averageRating=0 v:name="CDC PRAMStat Data for 2004" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
 
-property e:xyxp-dxa9 t:meta.view.license v:name="Public Domain"
+property e:xyxp-dxa9 t:meta.view.license d:2017-06-09T13:54:25.628Z v:name="Public Domain"
 
-property e:xyxp-dxa9 t:meta.view.owner v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
+property e:xyxp-dxa9 t:meta.view.owner d:2017-06-09T13:54:25.628Z v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
 
-property e:xyxp-dxa9 t:meta.view.tableauthor v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
+property e:xyxp-dxa9 t:meta.view.tableauthor d:2017-06-09T13:54:25.628Z v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
 
-property e:xyxp-dxa9 t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:xyxp-dxa9 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:54:25.628Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```
 
 ## Top Records

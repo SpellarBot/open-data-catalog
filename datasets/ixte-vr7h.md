@@ -56,11 +56,11 @@ metric m:amount p:double l:Amount d:"Dollar amount paid to the supplier." t:data
 
 entity e:ixte-vr7h l:"Spending Disclosure - Fiscal Year 2013" t:attribution="Montgomery County Department of Finance" t:url=https://data.montgomerycountymd.gov/api/views/ixte-vr7h
 
-property e:ixte-vr7h t:meta.view v:id=ixte-vr7h v:category=Finance/Tax/Property v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance"
+property e:ixte-vr7h t:meta.view d:2017-06-09T13:55:56.488Z v:id=ixte-vr7h v:category=Finance/Tax/Property v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance"
 
-property e:ixte-vr7h t:meta.view.owner v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.owner d:2017-06-09T13:55:56.488Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
 
-property e:ixte-vr7h t:meta.view.tableauthor v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.tableauthor d:2017-06-09T13:55:56.488Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
 ```
 
 ## Top Records

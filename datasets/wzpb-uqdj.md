@@ -19,7 +19,7 @@
 
 ## Description
 
-This dataset contains aggregate data concerning the number of children that entered DCF placement during a given SFY (July 1 ? June 30).  These figures are broken out by the DCF Region and Office responsible for the child's care, the child's Race/Ethnicity group and by the categorical Placement Type into which the child was initially placed.
+This dataset contains aggregate data concerning the number of children that entered DCF placement during a given SFY (July 1 – June 30).  These figures are broken out by the DCF Region and Office responsible for the child's care, the child's Race/Ethnicity group and by the categorical Placement Type into which the child was initially placed.
 
 ## Columns
 
@@ -99,13 +99,13 @@ metric m:independent_living p:integer l:INDEPENDENT_LIVING t:dataTypeName=number
 
 entity e:wzpb-uqdj l:"SFY05-14 Entries Aggregates Race Ethnicity Group" t:attribution="Department of Children and Families, Office for Research and Evaluation" t:url=https://data.ct.gov/api/views/wzpb-uqdj
 
-property e:wzpb-uqdj t:meta.view v:id=wzpb-uqdj v:category="Health and Human Services" v:averageRating=0 v:name="SFY05-14 Entries Aggregates Race Ethnicity Group" v:attribution="Department of Children and Families, Office for Research and Evaluation"
+property e:wzpb-uqdj t:meta.view d:2017-06-09T13:57:38.588Z v:id=wzpb-uqdj v:category="Health and Human Services" v:averageRating=0 v:name="SFY05-14 Entries Aggregates Race Ethnicity Group" v:attribution="Department of Children and Families, Office for Research and Evaluation"
 
-property e:wzpb-uqdj t:meta.view.license v:name="Public Domain"
+property e:wzpb-uqdj t:meta.view.license d:2017-06-09T13:57:38.588Z v:name="Public Domain"
 
-property e:wzpb-uqdj t:meta.view.owner v:id=hd87-ziyn v:screenName="Fred North" v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.owner d:2017-06-09T13:57:38.588Z v:id=hd87-ziyn v:screenName="Fred North" v:displayName="Fred North"
 
-property e:wzpb-uqdj t:meta.view.tableauthor v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.tableauthor d:2017-06-09T13:57:38.588Z v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
 ```
 
 ## Top Records

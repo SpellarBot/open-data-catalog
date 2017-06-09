@@ -18,7 +18,7 @@
 
 ## Description
 
-1995-2010. BRFSS land line only prevalence data. BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. Data will be updated annually as it becomes available. Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf Glossary: http://apps.nccd.cdc.gov/BRFSSQuest/index.asp
+1995-2010. BRFSS land line only prevalence data. BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. Data will be updated annually as it becomes available. Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf Glossary: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct
 
 ## Columns
 
@@ -89,13 +89,13 @@ metric m:confidence_limit_high p:float l:Confidence_limit_High t:dataTypeName=nu
 
 entity e:y4ft-s73h l:"Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)" t:url=https://data.cdc.gov/api/views/y4ft-s73h
 
-property e:y4ft-s73h t:meta.view v:id=y4ft-s73h v:category="Behavioral Risk Factors" v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)"
+property e:y4ft-s73h t:meta.view d:2017-06-09T13:51:06.134Z v:id=y4ft-s73h v:category="Behavioral Risk Factors" v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)"
 
-property e:y4ft-s73h t:meta.view.owner v:id=emuu-zcsq v:screenName=BRFSS v:displayName=BRFSS
+property e:y4ft-s73h t:meta.view.owner d:2017-06-09T13:51:06.134Z v:id=emuu-zcsq v:screenName=BRFSS v:displayName=BRFSS
 
-property e:y4ft-s73h t:meta.view.tableauthor v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
+property e:y4ft-s73h t:meta.view.tableauthor d:2017-06-09T13:51:06.134Z v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
 
-property e:y4ft-s73h t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:y4ft-s73h t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:06.134Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```
 
 ## Top Records

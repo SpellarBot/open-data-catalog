@@ -4,11 +4,11 @@
 
 | Name | Value |
 | :--- | :---- |
-| Catalog | [Link](https://catalog.data.gov/dataset/behavioral-risk-factor-surveillance-system-brfss-age-adjusted-prevalence-data-2011-to-pres) |
-| Metadata | [Link](https://chronicdata.cdc.gov/api/views/d2rk-yvas) |
-| Data: JSON | [100 Rows](https://chronicdata.cdc.gov/api/views/d2rk-yvas/rows.json?max_rows=100) |
-| Data: CSV | [100 Rows](https://chronicdata.cdc.gov/api/views/d2rk-yvas/rows.csv?max_rows=100) |
-| Host | chronicdata.cdc.gov |
+| Catalog | [Link](https://catalog.data.gov/dataset/behavioral-risk-factor-surveillance-system-brfss-age-adjusted-prevalence-data-2011-to-pres-e2415) |
+| Metadata | [Link](https://data.cdc.gov/api/views/d2rk-yvas) |
+| Data: JSON | [100 Rows](https://data.cdc.gov/api/views/d2rk-yvas/rows.json?max_rows=100) |
+| Data: CSV | [100 Rows](https://data.cdc.gov/api/views/d2rk-yvas/rows.csv?max_rows=100) |
+| Host | data.cdc.gov |
 | Id | d2rk-yvas |
 | Name | Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present) |
 | Attribution | Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch |
@@ -22,9 +22,7 @@
 2011 to present. BRFSS combined land line and cell phone age-adjusted prevalence data. The BRFSS is a continuous, state-based surveillance system that collects information about modifiable risk factors for chronic diseases and other leading causes of death. 
 Data will be updated annually as it becomes available.
 
-Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). 
-Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf 
-Glossary: http://apps.nccd.cdc.gov/BRFSSQuest/index.asp
+Detailed information on sampling methodology and quality assurance can be found on the BRFSS website (http://www.cdc.gov/brfss). Methodology: http://www.cdc.gov/brfss/factsheets/pdf/DBS_BRFSS_survey.pdf Glossary: https://chronicdata.cdc.gov/Behavioral-Risk-Factors/Behavioral-Risk-Factor-Surveillance-System-BRFSS-H/iuq5-y9ct
 
 ## Columns
 
@@ -93,15 +91,15 @@ metric m:confidence_limit_low p:float l:Confidence_limit_Low t:dataTypeName=numb
 
 metric m:confidence_limit_high p:float l:Confidence_limit_High t:dataTypeName=number
 
-entity e:d2rk-yvas l:"Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch" t:url=https://chronicdata.cdc.gov/api/views/d2rk-yvas
+entity e:d2rk-yvas l:"Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch" t:url=https://data.cdc.gov/api/views/d2rk-yvas
 
-property e:d2rk-yvas t:meta.view v:id=d2rk-yvas v:category="Behavioral Risk Factors" v:attributionLink=http://www.cdc.gov/BRFSS/ v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)" v:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch"
+property e:d2rk-yvas t:meta.view d:2017-06-09T13:56:01.856Z v:id=d2rk-yvas v:category="Behavioral Risk Factors" v:attributionLink=http://www.cdc.gov/BRFSS/ v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)" v:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Population Health Population Health Surveillance Branch"
 
-property e:d2rk-yvas t:meta.view.owner v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:displayName=Bill_Bartoli
+property e:d2rk-yvas t:meta.view.owner d:2017-06-09T13:56:01.856Z v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:displayName=Bill_Bartoli
 
-property e:d2rk-yvas t:meta.view.tableauthor v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:roleName=publisher v:displayName=Bill_Bartoli
+property e:d2rk-yvas t:meta.view.tableauthor d:2017-06-09T13:56:01.856Z v:id=2dya-yixn v:profileImageUrlMedium=/api/users/2dya-yixn/profile_images/THUMB v:profileImageUrlLarge=/api/users/2dya-yixn/profile_images/LARGE v:screenName=Bill_Bartoli v:profileImageUrlSmall=/api/users/2dya-yixn/profile_images/TINY v:roleName=publisher v:displayName=Bill_Bartoli
 
-property e:d2rk-yvas t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name=CDCINFO
+property e:d2rk-yvas t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:01.856Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name=CDCINFO
 ```
 
 ## Top Records

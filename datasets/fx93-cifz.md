@@ -58,11 +58,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Kailin t:title="Community Development Specialist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Curtin t:exempt_indicator=N t:group=Professional m:total_compensation=26208 m:base_annualized_salary=26208 m:actual_salary_paid=26208 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
+series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Kailin t:title="Community Development Specialist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Curtin t:exempt_indicator=N t:group=Professional m:total_compensation=26208 m:actual_salary_paid=26208 m:base_annualized_salary=26208 m:performance_bonus=0 m:extra_pay=0 m:overtime_paid=0 m:other_compensation=0
 
-series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Nicole t:title="Senior Typist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=DeMouth t:exempt_indicator=N t:group=Administrative/Clerical m:total_compensation=30073 m:base_annualized_salary=30073 m:actual_salary_paid=30073 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
+series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Nicole t:title="Senior Typist" t:pay_type=FT t:paid_by_another_entity=N t:last_name=DeMouth t:exempt_indicator=N t:group=Administrative/Clerical m:total_compensation=30073 m:actual_salary_paid=30073 m:base_annualized_salary=30073 m:performance_bonus=0 m:extra_pay=0 m:overtime_paid=0 m:other_compensation=0
 
-series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Cameron t:title="Document Scanner" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Holloway t:exempt_indicator=N t:group=Operational m:total_compensation=33277 m:base_annualized_salary=33277 m:actual_salary_paid=33277 m:performance_bonus=0 m:overtime_paid=0 m:extra_pay=0 m:other_compensation=0
+series e:fx93-cifz d:2011-12-31T00:00:00.000Z t:authority_name="Albany Community Development Agency" t:first_name=Cameron t:title="Document Scanner" t:pay_type=FT t:paid_by_another_entity=N t:last_name=Holloway t:exempt_indicator=N t:group=Operational m:total_compensation=33277 m:actual_salary_paid=33277 m:base_annualized_salary=33277 m:performance_bonus=0 m:extra_pay=0 m:overtime_paid=0 m:other_compensation=0
 ```
 
 ## Meta Commands
@@ -72,11 +72,11 @@ metric m:base_annualized_salary p:double l:"Base Annualized Salary" d:"The annua
 
 metric m:actual_salary_paid p:double l:"Actual Salary Paid" d:"The actual salary or wages paid to the individual for the reporting period. This amount could be less than the annualized salary if the individual was employed in the position for less than the full year." t:dataTypeName=money
 
-metric m:overtime_paid p:double l:"Overtime Paid" d:"Extra cash payments to the individual for hours worked in excess of normal work week hours, as authorized by the authority?s policies, an employment contract or a collective bargaining agreement. Overtime would include holiday pay." t:dataTypeName=money
+metric m:overtime_paid p:double l:"Overtime Paid" d:"Extra cash payments to the individual for hours worked in excess of normal work week hours, as authorized by the authority’s policies, an employment contract or a collective bargaining agreement. Overtime would include holiday pay." t:dataTypeName=money
 
-metric m:performance_bonus p:double l:"Performance Bonus" d:"A cash payment to the individual that does not become part of the base annualized salary. This payment must be linked to the individual meeting clearly defined and measurable performance goals established and approved by the Board of Directors prior to the start of the fiscal year, or detailed in a performance contract approved by the Board. These performance goals should reflect accomplishments that exceed the expected job standards of the position. The amount of the bonus payment should be calculated based on a formula defined in the authority?s performance bonus policy. A performance bonus would include a bonus earned in a prior year but deferred until the reporting year, provided that the payment is consistent with the policy governing other bonuses." t:dataTypeName=money
+metric m:performance_bonus p:double l:"Performance Bonus" d:"A cash payment to the individual that does not become part of the base annualized salary. This payment must be linked to the individual meeting clearly defined and measurable performance goals established and approved by the Board of Directors prior to the start of the fiscal year, or detailed in a performance contract approved by the Board. These performance goals should reflect accomplishments that exceed the expected job standards of the position. The amount of the bonus payment should be calculated based on a formula defined in the authority’s performance bonus policy. A performance bonus would include a bonus earned in a prior year but deferred until the reporting year, provided that the payment is consistent with the policy governing other bonuses." t:dataTypeName=money
 
-metric m:extra_pay p:double l:"Extra Pay" d:"Payments made to the individual for unused accrued vacation or personal time, commissions, longevity, as incentives for such purposes as excellent attendance or maintaining proper standing with professional licensure requirements; cash payments to the individual in lieu of an authority?s contribution to the individual?s pension fund or health insurance coverage; or other financial awards to the individual not based on performance goals. The terms and type of extra pay to be awarded to an individual should be defined in collectively bargained or employment contracts." t:dataTypeName=money
+metric m:extra_pay p:double l:"Extra Pay" d:"Payments made to the individual for unused accrued vacation or personal time, commissions, longevity, as incentives for such purposes as excellent attendance or maintaining proper standing with professional licensure requirements; cash payments to the individual in lieu of an authority’s contribution to the individual’s pension fund or health insurance coverage; or other financial awards to the individual not based on performance goals. The terms and type of extra pay to be awarded to an individual should be defined in collectively bargained or employment contracts." t:dataTypeName=money
 
 metric m:other_compensation p:double l:"Other Compensation" d:"Allowances, reimbursement for authorized expenses, or all other forms of taxable income not included in one of the above categories. This could include adjustments to previously paid compensation to correct payment errors." t:dataTypeName=money
 
@@ -84,13 +84,13 @@ metric m:total_compensation p:double l:"Total Compensation" d:"Total payments ma
 
 entity e:fx93-cifz l:"Salary Information for Local Authorities" t:attribution="Individual Local Authorities submitted to Authorities Budget Office" t:url=https://data.ny.gov/api/views/fx93-cifz
 
-property e:fx93-cifz t:meta.view v:id=fx93-cifz v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Salary Information for Local Authorities" v:attribution="Individual Local Authorities submitted to Authorities Budget Office"
+property e:fx93-cifz t:meta.view d:2017-06-09T13:52:16.474Z v:id=fx93-cifz v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Salary Information for Local Authorities" v:attribution="Individual Local Authorities submitted to Authorities Budget Office"
 
-property e:fx93-cifz t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:fx93-cifz t:meta.view.owner d:2017-06-09T13:52:16.474Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:fx93-cifz t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:fx93-cifz t:meta.view.tableauthor d:2017-06-09T13:52:16.474Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:fx93-cifz t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:fx93-cifz t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:52:16.474Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

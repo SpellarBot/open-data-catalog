@@ -19,9 +19,7 @@
 
 ## Description
 
-The average system production cost is total operations and maintenance costs divided by total generation in kilowatt hours. View average annual system production cost data starting in 2006. Austin Energy's system annual average production cost is total operations and maintenance costs divided by total generation in kilowatt hours. 
-
-System annual average production cost includes fuel plus operating and maintenance.
+Austin Energy’s system annual average production cost is total operations and maintenance costs divided by total generation in kilowatt-hours. Find more information at http://austinenergy.com/go/reports.
 
 ## Columns
 
@@ -56,13 +54,13 @@ metric m:system_annual_average_production_cost_cents_per_kwh p:float l:"System a
 
 entity e:d683-uqui l:"System Production Cost" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/d683-uqui
 
-property e:d683-uqui t:meta.view v:id=d683-uqui v:category=Utility v:averageRating=0 v:name="System Production Cost" v:attribution="Austin Energy"
+property e:d683-uqui t:meta.view d:2017-06-09T13:52:58.706Z v:id=d683-uqui v:category=Utility v:averageRating=0 v:name="System Production Cost" v:attribution="Austin Energy"
 
-property e:d683-uqui t:meta.view.license v:name="Public Domain"
+property e:d683-uqui t:meta.view.license d:2017-06-09T13:52:58.706Z v:name="Public Domain"
 
-property e:d683-uqui t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:d683-uqui t:meta.view.owner d:2017-06-09T13:52:58.706Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
-property e:d683-uqui t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
+property e:d683-uqui t:meta.view.tableauthor d:2017-06-09T13:52:58.706Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```
 
 ## Top Records

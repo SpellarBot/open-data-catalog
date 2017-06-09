@@ -33,11 +33,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z m:billablehours=848.104117647059
-
 series e:dyvq-j7gn d:2015-06-30T00:00:00.000Z m:billablehours=1292.74066666667
 
 series e:dyvq-j7gn d:2016-06-30T00:00:00.000Z m:billablehours=1349.96352941176
+
+series e:dyvq-j7gn d:2017-06-30T00:00:00.000Z m:billablehours=1232.870625
 ```
 
 ## Meta Commands
@@ -47,11 +47,11 @@ metric m:billablehours p:double l:BillableHours t:dataTypeName=number
 
 entity e:dyvq-j7gn l:TPW_FleetTechnicianBillableHours t:url=https://data.srcity.org/api/views/dyvq-j7gn
 
-property e:dyvq-j7gn t:meta.view v:id=dyvq-j7gn v:averageRating=0 v:name=TPW_FleetTechnicianBillableHours
+property e:dyvq-j7gn t:meta.view d:2017-06-09T13:54:20.591Z v:id=dyvq-j7gn v:averageRating=0 v:name=TPW_FleetTechnicianBillableHours
 
-property e:dyvq-j7gn t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
+property e:dyvq-j7gn t:meta.view.owner d:2017-06-09T13:54:20.591Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
 
-property e:dyvq-j7gn t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:dyvq-j7gn t:meta.view.tableauthor d:2017-06-09T13:54:20.591Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```
 
 ## Top Records
@@ -59,7 +59,7 @@ property e:dyvq-j7gn t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenDa
 ```ls
 | fiscalyear          | billablehours    | 
 | =================== | ================ | 
-| 2017-06-30T00:00:00 | 848.104117647059 | 
 | 2015-06-30T00:00:00 | 1292.74066666667 | 
 | 2016-06-30T00:00:00 | 1349.96352941176 | 
+| 2017-06-30T00:00:00 | 1232.870625      | 
 ```

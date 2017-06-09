@@ -18,7 +18,7 @@
 
 ## Description
 
-This dataset includes the Fiscal Year* 2013 Council-approved operating budget for Montgomery County.  The dataset does not include revenues and agency budget information; each agency, such as Montgomery County Public Schools, maintain their individual budget information.   The data can be sorted, filtered, and exported by the following elements:  Function (grouping, such as ?Public Safety?), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name.
+This dataset includes the Fiscal Year* 2013 Council-approved operating budget for Montgomery County.  The dataset does not include revenues and agency budget information; each agency, such as Montgomery County Public Schools, maintain their individual budget information.   The data can be sorted, filtered, and exported by the following elements:  Function (grouping, such as “Public Safety”), Department, Program, Cost Center (activity within a program), Fund Type , Fund Subtype, Fund Name, Subfund Name, Personnel & Operating Expenses, Object Name, and Account Name.
 
 
 *The 12-month period to which the annual operating and capital budgets and their respective appropriations apply.  The Montgomery County fiscal year starts on July 1st and ends on June 30th.
@@ -68,11 +68,11 @@ metric m:amount p:double l:Amount t:dataTypeName=money
 
 entity e:r89j-py2p l:"Fiscal Year 2013 Budget" t:url=https://data.montgomerycountymd.gov/api/views/r89j-py2p
 
-property e:r89j-py2p t:meta.view v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"
+property e:r89j-py2p t:meta.view d:2017-06-09T13:58:24.086Z v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"
 
-property e:r89j-py2p t:meta.view.owner v:id=fnci-gphj v:screenName="MC Open Data" v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.owner d:2017-06-09T13:58:24.086Z v:id=fnci-gphj v:screenName="MC Open Data" v:displayName="MC Open Data"
 
-property e:r89j-py2p t:meta.view.tableauthor v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.tableauthor d:2017-06-09T13:58:24.086Z v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
 ```
 
 ## Top Records

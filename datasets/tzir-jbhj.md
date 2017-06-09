@@ -78,13 +78,13 @@ metric m:published_through_december_2017 p:integer l:"Published Through December
 
 entity e:tzir-jbhj l:"Department Open Data Inventory and Plan Status" t:url=https://data.sfgov.org/api/views/tzir-jbhj
 
-property e:tzir-jbhj t:meta.view v:id=tzir-jbhj v:category="City Management and Ethics" v:averageRating=0 v:name="Department Open Data Inventory and Plan Status"
+property e:tzir-jbhj t:meta.view d:2017-06-09T13:55:23.095Z v:id=tzir-jbhj v:category="City Management and Ethics" v:averageRating=0 v:name="Department Open Data Inventory and Plan Status"
 
-property e:tzir-jbhj t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:tzir-jbhj t:meta.view.license d:2017-06-09T13:55:23.095Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:tzir-jbhj t:meta.view.owner v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:tzir-jbhj t:meta.view.owner d:2017-06-09T13:55:23.095Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
 
-property e:tzir-jbhj t:meta.view.tableauthor v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:tzir-jbhj t:meta.view.tableauthor d:2017-06-09T13:55:23.095Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
 ```
 
 ## Top Records

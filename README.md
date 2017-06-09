@@ -2,11 +2,11 @@
 
 Name | Datasets count
 ---- | --------------
-[chronicdata.cdc.gov](data-hosts/chronicdata.cdc.gov.md) | 36
+[chronicdata.cdc.gov](data-hosts/chronicdata.cdc.gov.md) | 31
 [data.austintexas.gov](data-hosts/data.austintexas.gov.md) | 365
 [data.baltimorecity.gov](data-hosts/data.baltimorecity.gov.md) | 96
 [data.brla.gov](data-hosts/data.brla.gov.md) | 23
-[data.cdc.gov](data-hosts/data.cdc.gov.md) | 215
+[data.cdc.gov](data-hosts/data.cdc.gov.md) | 220
 [data.cityofchicago.org](data-hosts/data.cityofchicago.org.md) | 370
 [data.cityofnewyork.us](data-hosts/data.cityofnewyork.us.md) | 1055
 [data.ct.gov](data-hosts/data.ct.gov.md) | 307
@@ -16,7 +16,7 @@ Name | Datasets count
 [data.honolulu.gov](data-hosts/data.honolulu.gov.md) | 30
 [data.illinois.gov](data-hosts/data.illinois.gov.md) | 505
 [data.imls.gov](data-hosts/data.imls.gov.md) | 70
-[data.iowa.gov](data-hosts/data.iowa.gov.md) | 248
+[data.iowa.gov](data-hosts/data.iowa.gov.md) | 255
 [data.jacksonms.gov](data-hosts/data.jacksonms.gov.md) | 37
 [data.kingcounty.gov](data-hosts/data.kingcounty.gov.md) | 231
 [data.lacity.org](data-hosts/data.lacity.org.md) | 213
@@ -70,14 +70,14 @@ Name | Datasets count
 [City Infrastructure](data-categories/b560e4f8.md) | 35
 [City Management and Ethics](data-categories/88dcb3f1.md) | 95
 [City Services](data-categories/611c5373.md) | 11
-[Communities & People](data-categories/41339c2.md) | 10
+[Communities & People](data-categories/41339c2.md) | 11
 [Community](data-categories/1f374fc9.md) | 85
 [Community & Economic Development](data-categories/f5ac2781.md) | 23
 [Community Development](data-categories/4d0db44.md) | 4
 [Community/Recreation](data-categories/65f07038.md) | 20
 [Conservation](data-categories/7e3a6d7d.md) | 1
+[Consumer](data-categories/e202e816.md) | 1
 [Consumer Protection](data-categories/7edb9d43.md) | 2
-[Consumer and Government Affairs](data-categories/2c5449ce.md) | 1
 [Consumer/Housing](data-categories/39a4e2c4.md) | 3
 [Courts](data-categories/78a7cc68.md) | 24
 [Culture & Arts](data-categories/5ce31d1c.md) | 10
@@ -146,7 +146,7 @@ Name | Datasets count
 [Home Health Compare](data-categories/85710462.md) | 7
 [Hospice Data Directory](data-categories/6ca37c70.md) | 4
 [Hospital Compare](data-categories/8b53d8ff.md) | 39
-[Housing](data-categories/a4d133bd.md) | 57
+[Housing](data-categories/a4d133bd.md) | 58
 [Housing & Development](data-categories/5f9d80fe.md) | 133
 [Housing / Development](data-categories/c238bb87.md) | 4
 [Housing and Buildings](data-categories/306b79f3.md) | 45
@@ -181,7 +181,7 @@ Name | Datasets count
 [Nutrition, Physical Activity, and Obesity](data-categories/a656b4a4.md) | 6
 [Operations](data-categories/7711b40c.md) | 25
 [Oral Health](data-categories/d995dd6e.md) | 6
-[Other](data-categories/48f8ef0.md) | 712
+[Other](data-categories/48f8ef0.md) | 710
 [Parks](data-categories/49529a9.md) | 1
 [Parks & Recreation](data-categories/329cbb83.md) | 13
 [Parks and Recreation](data-categories/fa650f72.md) | 6
@@ -192,6 +192,7 @@ Name | Datasets count
 [Planning](data-categories/7346cb7d.md) | 30
 [Police](data-categories/8ed2913e.md) | 3
 [Policy](data-categories/8ed29152.md) | 3
+[Politics](data-categories/247b0f81.md) | 1
 [Pregnancy & Vaccination](data-categories/9d5fd958.md) | 1
 [Procurements and Contracts](data-categories/39340cfb.md) | 11
 [Property](data-categories/c8a841f5.md) | 3
@@ -223,7 +224,7 @@ Name | Datasets count
 [Tobacco Use](data-categories/98bec7c.md) | 1
 [Transparency](data-categories/943a9f78.md) | 38
 [Transportation](data-categories/374a218c.md) | 410
-[Transportation & Utilities](data-categories/42965edc.md) | 128
+[Transportation & Utilities](data-categories/42965edc.md) | 134
 [Transportation Facilities](data-categories/855305b5.md) | 4
 [Transportation and Infrastructure](data-categories/f72d8a40.md) | 14
 [Transportation and Transit](data-categories/4eb2b7d6.md) | 1
@@ -239,7 +240,7 @@ Name | Datasets count
 
 Name | Datasets count
 ---- | --------------
-[aadt](data-tags/2d90b0.md) | 10
+[aadt](data-tags/2d90b0.md) | 12
 [abuse](data-tags/58539c6.md) | 17
 [accident](data-tags/8041520f.md) | 12
 [activity](data-tags/9d4bf30f.md) | 105
@@ -261,7 +262,7 @@ Name | Datasets count
 [area](data-tags/2dd08d.md) | 30
 [arrest](data-tags/ac01e785.md) | 22
 [art](data-tags/17a63.md) | 32
-[asset](data-tags/58ceaf0.md) | 129
+[asset](data-tags/58ceaf0.md) | 133
 [atcems](data-tags/ac17443b.md) | 31
 [attendance](data-tags/7117e2e9.md) | 16
 [austin](data-tags/ac2cd97a.md) | 11
@@ -283,7 +284,7 @@ Name | Datasets count
 [boat](data-tags/2e3940.md) | 13
 [boating](data-tags/319d6a2.md) | 13
 [borough](data-tags/4074c8c.md) | 73
-[boundary](data-tags/81eae82a.md) | 20
+[boundary](data-tags/81eae82a.md) | 23
 [breastfeeding](data-tags/7bec1c97.md) | 14
 [brfss](data-tags/59a5ef6.md) | 21
 [bridge](data-tags/adb2a389.md) | 13
@@ -316,15 +317,15 @@ Name | Datasets count
 [citywide](data-tags/ab559abe.md) | 19
 [civilian](data-tags/add8d383.md) | 97
 [claim](data-tags/5a5a83c.md) | 11
-[classification](data-tags/16ca33e6.md) | 74
-[commercial](data-tags/35c8bb4a.md) | 33
+[classification](data-tags/16ca33e6.md) | 76
+[commercial](data-tags/35c8bb4a.md) | 34
 [community](data-tags/a7c52fe9.md) | 71
 [company](data-tags/38a73c7d.md) | 14
 [compare](data-tags/38a73ce5.md) | 18
 [complaint](data-tags/ac5efcab.md) | 123
 [condominiums](data-tags/b53c8ef7.md) | 19
 [conservation](data-tags/746f195d.md) | 14
-[construction](data-tags/890810d1.md) | 75
+[construction](data-tags/890810d1.md) | 76
 [contact](data-tags/38b72420.md) | 15
 [contraception](data-tags/c8ccb461.md) | 12
 [contract](data-tags/de351112.md) | 78
@@ -354,7 +355,7 @@ Name | Datasets count
 [dep](data-tags/1840f.md) | 25
 [department](data-tags/328e4352.md) | 10
 [destination](data-tags/aac6440e.md) | 10
-[development](data-tags/f2999d3b.md) | 78
+[development](data-tags/f2999d3b.md) | 79
 [dfc](data-tags/18421.md) | 11
 [dhcd](data-tags/2f07e5.md) | 13
 [dhs](data-tags/1846f.md) | 14
@@ -455,7 +456,7 @@ Name | Datasets count
 [insurance](data-tags/45aa6da.md) | 22
 [integrity](data-tags/1d5fff4d.md) | 19
 [interstate](data-tags/a1780935.md) | 10
-[inventory](data-tags/8790195c.md) | 51
+[inventory](data-tags/8790195c.md) | 53
 [investigation](data-tags/38fba302.md) | 11
 [job](data-tags/19bbd.md) | 52
 [justice](data-tags/b5866a1f.md) | 11
@@ -472,7 +473,7 @@ Name | Datasets count
 [lobbyist](data-tags/6fab24f4.md) | 37
 [location](data-tags/714f9fb5.md) | 23
 [lot](data-tags/1a351.md) | 12
-[maintenance](data-tags/12eef313.md) | 15
+[maintenance](data-tags/12eef313.md) | 16
 [management](data-tags/94b67843.md) | 13
 [manhattan](data-tags/ef681d00.md) | 18
 [map](data-tags/1a55c.md) | 10
@@ -513,9 +514,9 @@ Name | Datasets count
 [osh](data-tags/1af04.md) | 41
 [outcome](data-tags/be0c0752.md) | 13
 [ozone](data-tags/655549b.md) | 12
-[park](data-tags/3463ea.md) | 58
+[park](data-tags/3463ea.md) | 59
 [parking](data-tags/d0b8b3b8.md) | 35
-[passenger](data-tags/c7af549a.md) | 19
+[passenger](data-tags/c7af549a.md) | 21
 [paving](data-tags/c4ace91d.md) | 10
 [payment](data-tags/d11c3206.md) | 23
 [pedestrian](data-tags/9cc18f3b.md) | 22
@@ -527,7 +528,7 @@ Name | Datasets count
 [pipeline](data-tags/e9d2aaa2.md) | 10
 [placement](data-tags/6ade12e5.md) | 14
 [plan](data-tags/348b29.md) | 21
-[planning](data-tags/6f6c675d.md) | 175
+[planning](data-tags/6f6c675d.md) | 177
 [poisoning](data-tags/658e6bda.md) | 12
 [police](data-tags/c56da51e.md) | 70
 [policy](data-tags/c56da532.md) | 19
@@ -549,19 +550,19 @@ Name | Datasets count
 [queens](data-tags/c773ce89.md) | 16
 [race](data-tags/354ad1.md) | 28
 [rail](data-tags/354b92.md) | 15
-[rams](data-tags/354c15.md) | 37
+[rams](data-tags/354c15.md) | 38
 [rate](data-tags/354ce0.md) | 22
 [rating](data-tags/c815b19d.md) | 13
 [record](data-tags/c8466c51.md) | 13
 [recreation](data-tags/b4359a12.md) | 45
 [recycle](data-tags/408b7293.md) | 12
 [recycling](data-tags/4b793690.md) | 16
-[reference](data-tags/c8db3f4b.md) | 20
+[reference](data-tags/c8db3f4b.md) | 23
 [registration](data-tags/af83e8b9.md) | 30
 [renewable](data-tags/70519167.md) | 13
 [report](data-tags/c84c5534.md) | 18
 [request](data-tags/414ef28f.md) | 13
-[residential](data-tags/41778704.md) | 71
+[residential](data-tags/41778704.md) | 72
 [resource](data-tags/ebabc40e.md) | 11
 [rest](data-tags/355bd4.md) | 25
 [restaurant](data-tags/965a4b3d.md) | 14
@@ -606,11 +607,10 @@ Name | Datasets count
 [stroke](data-tags/cad57638.md) | 10
 [student](data-tags/8ffe823b.md) | 12
 [surveillance](data-tags/e429699.md) | 20
-[survey](data-tags/cae3a75a.md) | 28
+[survey](data-tags/cae3a75a.md) | 29
 [sustainability](data-tags/200a35a7.md) | 42
 [tap](data-tags/1bfa3.md) | 11
-[tax](data-tags/1bfab.md) | 72
-[taxe](data-tags/36361a.md) | 19
+[tax](data-tags/1bfab.md) | 90
 [taxi](data-tags/36361e.md) | 39
 [technology](data-tags/9be7850c.md) | 26
 [theater](data-tags/af87f811.md) | 14
@@ -622,7 +622,7 @@ Name | Datasets count
 [total](data-tags/696db44.md) | 16
 [tourism](data-tags/bc62ef2b.md) | 29
 [town](data-tags/366a92.md) | 18
-[traffic](data-tags/c06221fd.md) | 74
+[traffic](data-tags/c06221fd.md) | 76
 [training](data-tags/4c1008da.md) | 15
 [transit](data-tags/c065f5d3.md) | 28
 [transparency](data-tags/8a6f4b58.md) | 20

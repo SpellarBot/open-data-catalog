@@ -64,13 +64,13 @@ metric m:row_number.xwgr-xw5q p:long l:"Row Number"
 
 entity e:xwgr-xw5q l:"LAPD Calls for Service 2015" t:url=https://data.lacity.org/api/views/xwgr-xw5q
 
-property e:xwgr-xw5q t:meta.view v:id=xwgr-xw5q v:category="A Safe City" v:averageRating=0 v:name="LAPD Calls for Service 2015"
+property e:xwgr-xw5q t:meta.view d:2017-06-09T14:00:54.343Z v:id=xwgr-xw5q v:category="A Safe City" v:averageRating=0 v:name="LAPD Calls for Service 2015"
 
-property e:xwgr-xw5q t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:xwgr-xw5q t:meta.view.license d:2017-06-09T14:00:54.343Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:xwgr-xw5q t:meta.view.owner v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:lastNotificationSeenAt=1492554751 v:displayName="LAPD OpenData"
+property e:xwgr-xw5q t:meta.view.owner d:2017-06-09T14:00:54.343Z v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:lastNotificationSeenAt=1496929966 v:displayName="LAPD OpenData"
 
-property e:xwgr-xw5q t:meta.view.tableauthor v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:lastNotificationSeenAt=1492554751 v:displayName="LAPD OpenData"
+property e:xwgr-xw5q t:meta.view.tableauthor d:2017-06-09T14:00:54.343Z v:id=art8-rc4x v:profileImageUrlMedium=/api/users/art8-rc4x/profile_images/THUMB v:profileImageUrlLarge=/api/users/art8-rc4x/profile_images/LARGE v:screenName="LAPD OpenData" v:profileImageUrlSmall=/api/users/art8-rc4x/profile_images/TINY v:roleName=publisher v:lastNotificationSeenAt=1496929966 v:displayName="LAPD OpenData"
 ```
 
 ## Top Records

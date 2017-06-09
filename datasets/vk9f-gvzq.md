@@ -15,7 +15,7 @@
 | Category | Public Safety |
 | Tags | dop, investigation, probation |
 | Created | 2016-11-21T15:48:22Z |
-| Publication Date | 2017-03-31T21:38:50Z |
+| Publication Date | 2017-04-27T19:35:09Z |
 
 ## Columns
 
@@ -59,11 +59,11 @@ metric m:investigations_assigned_count p:integer l:"Investigations Assigned Coun
 
 entity e:vk9f-gvzq l:"DOP Juvenile Investigations Assigned" t:attribution="Department of Probation (DOP)" t:url=https://data.cityofnewyork.us/api/views/vk9f-gvzq
 
-property e:vk9f-gvzq t:meta.view v:id=vk9f-gvzq v:category="Public Safety" v:averageRating=0 v:name="DOP Juvenile Investigations Assigned" v:attribution="Department of Probation (DOP)"
+property e:vk9f-gvzq t:meta.view d:2017-06-09T13:56:12.253Z v:id=vk9f-gvzq v:category="Public Safety" v:averageRating=0 v:name="DOP Juvenile Investigations Assigned" v:attribution="Department of Probation (DOP)"
 
-property e:vk9f-gvzq t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:vk9f-gvzq t:meta.view.owner d:2017-06-09T13:56:12.253Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:vk9f-gvzq t:meta.view.tableauthor d:2017-06-09T13:56:12.253Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records
@@ -76,4 +76,5 @@ property e:vk9f-gvzq t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC Op
 | Citywide | Total                         | December  | 2016 | 166                           | 
 | Citywide | Total                         | January   | 2017 | 200                           | 
 | Citywide | Total                         | February  | 2017 | 156                           | 
+| Citywide | Total                         | March     | 2017 | 191                           | 
 ```

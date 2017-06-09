@@ -5,7 +5,7 @@ Name | Host | Published
 [2011-2012 NYC Family Guides](../datasets/fuvx-wqd7.md) | data.cityofnewyork.us | 2011&#x2011;10&#x2011;11
 [Active Projects Under Construction](../datasets/2xh6-psuq.md) | data.cityofnewyork.us | 2016&#x2011;02&#x2011;09
 [Aid for Part-Time Study (APTS) Institution Awards Data by College and Sector Group: Beginning 2000](../datasets/mv78-zbh9.md) | data.ny.gov | 2017&#x2011;02&#x2011;24
-[Attendance 4PM Report](../datasets/madj-gkhr.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
+[Attendance 4PM Report](../datasets/madj-gkhr.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;08
 [Borough Enrollment Offices](../datasets/vz8c-29aj.md) | data.cityofnewyork.us | 2011&#x2011;10&#x2011;11
 [Breakfast, Lunch, And At-Risk Afterschool Meals Programs Participation](../datasets/nwze-djuu.md) | data.maryland.gov | 2017&#x2011;04&#x2011;06
 [C4K Children Infants And Toddlers By Setting SFY 2016 Monthly Average](../datasets/2sdx-23q6.md) | data.ct.gov | 2017&#x2011;01&#x2011;16
@@ -150,7 +150,7 @@ Name | Host | Published
 [State University Construction Fund (SUCF) Projects: Beginning 1989](../datasets/7xmz-2ur8.md) | data.ny.gov | 2017&#x2011;04&#x2011;01
 [State University Construction Fund (SUCF) Request for Qualifications (RFQs) Distributed: Beginning 2000](../datasets/inze-5yed.md) | data.ny.gov | 2017&#x2011;04&#x2011;01
 [State University Construction Fund (SUCF) Request for Qualifications (RFQs) Responders: Beginning 2000](../datasets/c6c2-n3if.md) | data.ny.gov | 2017&#x2011;04&#x2011;01
-[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](../datasets/kbn3-a3jv.md) | data.ny.gov | 2017&#x2011;04&#x2011;01
+[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](../datasets/kbn3-a3jv.md) | data.ny.gov | 2017&#x2011;06&#x2011;01
 [Statistical Forecasting Demographic Projection Report - Enrollment Projections - New York City Public Schools](../datasets/e649-r223.md) | data.cityofnewyork.us | 2013&#x2011;12&#x2011;12
 [Statistical Summary Period Attendance Reporting (PAR)](../datasets/hrsu-3w2q.md) | data.cityofnewyork.us | 2016&#x2011;03&#x2011;08
 [Student Gender Grade Ethnicity By Neighborhood 2007 2010](../datasets/4yft-euy9.md) | data.hartford.gov | 2014&#x2011;07&#x2011;28

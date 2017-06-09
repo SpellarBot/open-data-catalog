@@ -64,13 +64,13 @@ metric m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss p:float l:"FY 2017
 
 entity e:kb3c-yi4w l:"Mill Rates for 2017 Fiscal Year" t:attribution="Office of Policy and Managment" t:url=https://data.ct.gov/api/views/kb3c-yi4w
 
-property e:kb3c-yi4w t:meta.view v:id=kb3c-yi4w v:category=Government v:attributionLink="http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976" v:averageRating=0 v:name="Mill Rates for 2017 Fiscal Year" v:attribution="Office of Policy and Managment"
+property e:kb3c-yi4w t:meta.view d:2017-06-09T13:59:02.067Z v:id=kb3c-yi4w v:category=Government v:attributionLink="http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976" v:averageRating=0 v:name="Mill Rates for 2017 Fiscal Year" v:attribution="Office of Policy and Managment"
 
-property e:kb3c-yi4w t:meta.view.license v:name="Public Domain"
+property e:kb3c-yi4w t:meta.view.license d:2017-06-09T13:59:02.067Z v:name="Public Domain"
 
-property e:kb3c-yi4w t:meta.view.owner v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.owner d:2017-06-09T13:59:02.067Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1496849452 v:displayName="Tyler Kleykamp"
 
-property e:kb3c-yi4w t:meta.view.tableauthor v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1491400192 v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.tableauthor d:2017-06-09T13:59:02.067Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1496849452 v:displayName="Tyler Kleykamp"
 ```
 
 ## Top Records

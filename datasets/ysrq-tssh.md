@@ -65,11 +65,11 @@ metric m:row_number.ysrq-tssh p:long l:"Row Number"
 
 entity e:ysrq-tssh l:"Aquatic Pesticide and Algae Management Draft General Permit Comments" t:url=https://data.wa.gov/api/views/ysrq-tssh
 
-property e:ysrq-tssh t:meta.view v:id=ysrq-tssh v:category="Natural Resources & Environment" v:averageRating=0 v:name="Aquatic Pesticide and Algae Management Draft General Permit Comments"
+property e:ysrq-tssh t:meta.view d:2017-06-09T13:54:13.432Z v:id=ysrq-tssh v:category="Natural Resources & Environment" v:averageRating=0 v:name="Aquatic Pesticide and Algae Management Draft General Permit Comments"
 
-property e:ysrq-tssh t:meta.view.owner v:id=us76-w9xc v:screenName="Tim Lewis" v:displayName="Tim Lewis"
+property e:ysrq-tssh t:meta.view.owner d:2017-06-09T13:54:13.432Z v:id=us76-w9xc v:screenName="Tim Lewis" v:lastNotificationSeenAt=1492787109 v:displayName="Tim Lewis"
 
-property e:ysrq-tssh t:meta.view.tableauthor v:id=us76-w9xc v:screenName="Tim Lewis" v:roleName=publisher v:displayName="Tim Lewis"
+property e:ysrq-tssh t:meta.view.tableauthor d:2017-06-09T13:54:13.432Z v:id=us76-w9xc v:screenName="Tim Lewis" v:roleName=publisher v:lastNotificationSeenAt=1492787109 v:displayName="Tim Lewis"
 ```
 
 ## Top Records

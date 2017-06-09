@@ -69,19 +69,19 @@ metric m:recipient_count_by_county p:integer l:"Recipient Count By County" d:"Co
 
 metric m:count_of_recipients_by_rate_code_group_and_county p:integer l:"Count Of Recipients By Rate Code Group And County" d:"Count of distinct Client Identification Numbers by rate code group and county." t:dataTypeName=number
 
-metric m:units_total p:integer l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: ?Notes? link at ?http://bi.omh.ny.gov/cmhp/mh-services?)" t:dataTypeName=number
+metric m:units_total p:integer l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: “Notes” link at “http://bi.omh.ny.gov/cmhp/mh-services”)" t:dataTypeName=number
 
 metric m:paid_claim_total p:integer l:"Paid Claim Total" d:"Sum of total payment or reimbursement amount for a claim or claim line." t:dataTypeName=number
 
 entity e:xgig-n5ch l:"County Mental Health Profiles: Beginning 2006" t:attribution="New York State Office of Mental Health" t:url=https://data.ny.gov/api/views/xgig-n5ch
 
-property e:xgig-n5ch t:meta.view v:id=xgig-n5ch v:category="Human Services" v:attributionLink=http://bi.omh.ny.gov/cmhp/mh-services v:averageRating=0 v:name="County Mental Health Profiles: Beginning 2006" v:attribution="New York State Office of Mental Health"
+property e:xgig-n5ch t:meta.view d:2017-06-09T13:58:59.284Z v:id=xgig-n5ch v:category="Human Services" v:attributionLink=http://bi.omh.ny.gov/cmhp/mh-services v:averageRating=0 v:name="County Mental Health Profiles: Beginning 2006" v:attribution="New York State Office of Mental Health"
 
-property e:xgig-n5ch t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:xgig-n5ch t:meta.view.owner d:2017-06-09T13:58:59.284Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:xgig-n5ch t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:xgig-n5ch t:meta.view.tableauthor d:2017-06-09T13:58:59.284Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:59.284Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

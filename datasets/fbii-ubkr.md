@@ -51,11 +51,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year=MARYLAND m:census_1980=4122547 m:projection_2020=6071714 m:projection_2035=6584079 m:census_1990=4666897 m:census_2000=5162430 m:census_2010=5635177 m:projection_2040=6700425 m:projection_2030=6444321 m:projection_2025=6269826 m:projection_2015=5864129 m:census_1970=3817618
+series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year=MARYLAND m:projection_2035=6584079 m:projection_2020=6071714 m:census_1980=4122547 m:census_2000=5162430 m:census_1990=4666897 m:census_2010=5635177 m:projection_2040=6700425 m:projection_2030=6444321 m:projection_2025=6269826 m:projection_2015=5864129 m:census_1970=3817618
 
-series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year="Allegany County" m:census_1980=77926 m:projection_2020=66626 m:projection_2035=67877 m:census_1990=71895 m:census_2000=68772 m:census_2010=67163 m:projection_2040=67877 m:projection_2030=67811 m:projection_2025=67171 m:projection_2015=66425 m:census_1970=82222
+series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year="Allegany County" m:projection_2035=67877 m:projection_2020=66626 m:census_1980=77926 m:census_2000=68772 m:census_1990=71895 m:census_2010=67163 m:projection_2040=67877 m:projection_2030=67811 m:projection_2025=67171 m:projection_2015=66425 m:census_1970=82222
 
-series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year="Anne Arundel County" m:census_1980=357451 m:projection_2020=564900 m:projection_2035=601190 m:census_1990=411893 m:census_2000=473666 m:census_2010=523523 m:projection_2040=610152 m:projection_2030=590414 m:projection_2025=577971 m:projection_2015=544952 m:census_1970=280151
+series e:fbii-ubkr d:1970-01-01T00:00:00.000Z t:year="Anne Arundel County" m:projection_2035=601190 m:projection_2020=564900 m:census_1980=357451 m:census_2000=473666 m:census_1990=411893 m:census_2010=523523 m:projection_2040=610152 m:projection_2030=590414 m:projection_2025=577971 m:projection_2015=544952 m:census_1970=280151
 ```
 
 ## Meta Commands
@@ -85,11 +85,11 @@ metric m:projection_2040 p:integer l:"Projection, 2040" t:dataTypeName=number
 
 entity e:fbii-ubkr l:"Maryland Historical and Projected Household Population,1970-2040" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/fbii-ubkr
 
-property e:fbii-ubkr t:meta.view v:id=fbii-ubkr v:category=Planning v:attributionLink=http://planning.maryland.gov/msdc/S3_Projection.shtml v:averageRating=0 v:name="Maryland Historical and Projected Household Population,1970-2040" v:attribution="Maryland Department of Planning"
+property e:fbii-ubkr t:meta.view d:2017-06-09T13:57:36.890Z v:id=fbii-ubkr v:category=Planning v:attributionLink=http://planning.maryland.gov/msdc/S3_Projection.shtml v:averageRating=0 v:name="Maryland Historical and Projected Household Population,1970-2040" v:attribution="Maryland Department of Planning"
 
-property e:fbii-ubkr t:meta.view.owner v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:displayName=MDP
+property e:fbii-ubkr t:meta.view.owner d:2017-06-09T13:57:36.890Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:lastNotificationSeenAt=1495028713 v:displayName=MDP
 
-property e:fbii-ubkr t:meta.view.tableauthor v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:displayName=MDP
+property e:fbii-ubkr t:meta.view.tableauthor d:2017-06-09T13:57:36.890Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1495028713 v:displayName=MDP
 ```
 
 ## Top Records

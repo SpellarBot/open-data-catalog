@@ -19,7 +19,7 @@
 
 ## Description
 
-Facilities in New York City, by agency and site, that offer ?Out-Of -School Youth Employment (OSY) Program? after-school  job and internship programs for young adults ages 16 to 21.
+Facilities in New York City, by agency and site, that offer “Out-Of -School Youth Employment (OSY) Program” after-school  job and internship programs for young adults ages 16 to 21.
 Update Frequency: Annually
 
 ## Columns
@@ -61,11 +61,11 @@ metric m:row_number.36hn-wea6 p:long l:"Row Number"
 
 entity e:36hn-wea6 l:"DYCD after-school programs: OSY Out Of School Youth Employment Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/36hn-wea6
 
-property e:36hn-wea6 t:meta.view v:id=36hn-wea6 v:category=Education v:averageRating=0 v:name="DYCD after-school programs: OSY Out Of School Youth Employment Programs" v:attribution="Department of Youth and Community Development (DYCD)"
+property e:36hn-wea6 t:meta.view d:2017-06-09T13:56:35.448Z v:id=36hn-wea6 v:category=Education v:averageRating=0 v:name="DYCD after-school programs: OSY Out Of School Youth Employment Programs" v:attribution="Department of Youth and Community Development (DYCD)"
 
-property e:36hn-wea6 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:36hn-wea6 t:meta.view.owner d:2017-06-09T13:56:35.448Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:36hn-wea6 t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:36hn-wea6 t:meta.view.tableauthor d:2017-06-09T13:56:35.448Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
 
 ## Top Records

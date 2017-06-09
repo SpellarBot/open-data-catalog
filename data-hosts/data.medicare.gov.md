@@ -60,8 +60,8 @@ Name | Category | Published
 [Ownership](../datasets/y2hd-n93e.md) | Nursing Home Compare | 2017&#x2011;03&#x2011;22
 [Patient Survey (HCAHPS) ? National](../datasets/9g7e-btyt.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [Patient survey (HCAHPS) - National](../datasets/99ue-w85f.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
-[Patient survey (ICH-CAHPS) - National](../datasets/utgq-v46w.md) | Dialysis Facility Compare | 2017&#x2011;01&#x2011;26
-[Patient survey (ICH-CAHPS) - State](../datasets/hanv-ru8h.md) | Dialysis Facility Compare | 2017&#x2011;01&#x2011;26
+[Patient survey (ICH-CAHPS) - National](../datasets/utgq-v46w.md) | Dialysis Facility Compare | 2017&#x2011;04&#x2011;26
+[Patient survey (ICH-CAHPS) - State](../datasets/hanv-ru8h.md) | Dialysis Facility Compare | 2017&#x2011;04&#x2011;26
 [Payment - National](../datasets/ygty-mm5a.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [Payment and value of care - Hospital](../datasets/c7us-v4mf.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [Penalties](../datasets/g6vv-u9sr.md) | Nursing Home Compare | 2017&#x2011;03&#x2011;22
@@ -70,7 +70,7 @@ Name | Category | Published
 [Physician Compare 2014 Individual EP Public Reporting - Clinical Quality Of Care](../datasets/wbjt-9zks.md) | Physician Compare | 2016&#x2011;06&#x2011;27
 [Physician Compare National Downloadable File](../datasets/mj5m-pzi6.md) | Physician Compare | 2017&#x2011;04&#x2011;13
 [Provider Info](../datasets/4pq5-n9py.md) | Nursing Home Compare | 2017&#x2011;03&#x2011;22
-[Readmissions and Deaths - Hospital](../datasets/ynj2-r877.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
+[Readmissions and Deaths - Hospital](../datasets/ynj2-r877.md) | Hospital Compare | 2017&#x2011;04&#x2011;28
 [Readmissions and Deaths - National](../datasets/qqw3-t4ie.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [State Averages](../datasets/xcdc-v8bm.md) | Nursing Home Compare | 2017&#x2011;03&#x2011;22
 [Structural Measures - Hospital](../datasets/4hje-vua3.md) | Hospital Compare | 2016&#x2011;12&#x2011;19

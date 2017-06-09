@@ -65,11 +65,11 @@ metric m:goal_wild p:integer l:"Goal (Wild)" t:dataTypeName=number
 
 entity e:5anj-6bnk l:"Joseph Creek Summer Steelhead -- 1112015" t:url=https://data.wa.gov/api/views/5anj-6bnk
 
-property e:5anj-6bnk t:meta.view v:id=5anj-6bnk v:averageRating=0 v:name="Joseph Creek Summer Steelhead -- 1112015"
+property e:5anj-6bnk t:meta.view d:2017-06-09T13:51:05.137Z v:id=5anj-6bnk v:averageRating=0 v:name="Joseph Creek Summer Steelhead -- 1112015"
 
-property e:5anj-6bnk t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:5anj-6bnk t:meta.view.owner d:2017-06-09T13:51:05.137Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
-property e:5anj-6bnk t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:5anj-6bnk t:meta.view.tableauthor d:2017-06-09T13:51:05.137Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
 
 ## Top Records

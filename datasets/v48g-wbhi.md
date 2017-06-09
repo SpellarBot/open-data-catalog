@@ -70,13 +70,13 @@ metric m:percent_diverted p:float l:"Percent Diverted" t:dataTypeName=percent
 
 entity e:v48g-wbhi l:"Table 17: Solid Waste Recycled (in tons)" t:attribution=DOH t:url=https://data.hawaii.gov/api/views/v48g-wbhi
 
-property e:v48g-wbhi t:meta.view v:id=v48g-wbhi v:category=Health v:attributionLink=http://hawaii.gov/doh v:averageRating=0 v:name="Table 17: Solid Waste Recycled (in tons)" v:attribution=DOH
+property e:v48g-wbhi t:meta.view d:2017-06-09T13:52:27.132Z v:id=v48g-wbhi v:category=Health v:attributionLink=http://hawaii.gov/doh v:averageRating=0 v:name="Table 17: Solid Waste Recycled (in tons)" v:attribution=DOH
 
-property e:v48g-wbhi t:meta.view.license v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:v48g-wbhi t:meta.view.license d:2017-06-09T13:52:27.132Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:v48g-wbhi t:meta.view.owner v:id=8c9u-vteh v:screenName=lorrink v:displayName=lorrink
+property e:v48g-wbhi t:meta.view.owner d:2017-06-09T13:52:27.132Z v:id=8c9u-vteh v:screenName=lorrink v:displayName=lorrink
 
-property e:v48g-wbhi t:meta.view.tableauthor v:id=8c9u-vteh v:screenName=lorrink v:roleName=editor v:displayName=lorrink
+property e:v48g-wbhi t:meta.view.tableauthor d:2017-06-09T13:52:27.132Z v:id=8c9u-vteh v:screenName=lorrink v:roleName=editor v:displayName=lorrink
 ```
 
 ## Top Records

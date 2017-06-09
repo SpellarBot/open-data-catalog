@@ -61,11 +61,11 @@ metric m:amount p:double l:Amount t:dataTypeName=money
 
 entity e:whnr-x36y l:"Expenditures: OUS: Southern Oregon University: FY 2014" t:url=https://data.oregon.gov/api/views/whnr-x36y
 
-property e:whnr-x36y t:meta.view v:id=whnr-x36y v:category="Revenue & Expense" v:averageRating=0 v:name="Expenditures: OUS: Southern Oregon University: FY 2014"
+property e:whnr-x36y t:meta.view d:2017-06-09T13:53:12.757Z v:id=whnr-x36y v:category="Revenue & Expense" v:averageRating=0 v:name="Expenditures: OUS: Southern Oregon University: FY 2014"
 
-property e:whnr-x36y t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1492617591 v:displayName="Paula N."
+property e:whnr-x36y t:meta.view.owner d:2017-06-09T13:53:12.757Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:whnr-x36y t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1492617591 v:displayName="Paula N."
+property e:whnr-x36y t:meta.view.tableauthor d:2017-06-09T13:53:12.757Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

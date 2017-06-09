@@ -12,9 +12,10 @@
 | Id | cadm-spqd |
 | Name | Multi-Family Housing FY 2011-2016 |
 | Attribution | Department of Housing and Community Development |
+| Category | Housing |
 | Tags | dhcd, department of housing & community development, multifamily, multifamily housing, multi-family, multi-family housing, cda, community development administration, affordable housing, rental hou... |
 | Created | 2016-07-01T15:26:31Z |
-| Publication Date | 2017-02-27T21:40:08Z |
+| Publication Date | 2017-05-02T20:09:28Z |
 
 ## Description
 
@@ -22,9 +23,9 @@ The Maryland Department of Housing and Community Development offers multifamily 
 
 Our multifamily bond programs issues tax-exempt and taxable revenue mortgage bonds to finance the acquisition, preservation and creation of affordable multifamily rental housing units in priority funding areas.
 
-By advocating for increased production of rental housing units, we help create much-needed jobs and leverage opportunities to live, work and prosper for hardworking Maryland families, senior citizens, and individuals with disabilities throughout the state.?
+By advocating for increased production of rental housing units, we help create much-needed jobs and leverage opportunities to live, work and prosper for hardworking Maryland families, senior citizens, and individuals with disabilities throughout the state.​
 
-DISCLAIMER: Some of the information may be tied to the Department?s bond funded loan programs and should not be relied upon in making an investment decision. The Department provides comprehensive quarterly and annual financial information and operating data regarding its bonds and bond funded loan programs, all of which is posted on the publicly-accessible Electronic Municipal Market Access system website (commonly known as EMMA) that is maintained by the Municipal Securities Rulemaking Board, and on the Department?s website under Investor Information. 
+DISCLAIMER: Some of the information may be tied to the Department’s bond funded loan programs and should not be relied upon in making an investment decision. The Department provides comprehensive quarterly and annual financial information and operating data regarding its bonds and bond funded loan programs, all of which is posted on the publicly-accessible Electronic Municipal Market Access system website (commonly known as EMMA) that is maintained by the Municipal Securities Rulemaking Board, and on the Department’s website under Investor Information. 
 
 More information accessible here: http://dhcd.maryland.gov/Investors/Pages/default.aspx
 
@@ -33,6 +34,7 @@ More information accessible here: http://dhcd.maryland.gov/Investors/Pages/defau
 ```ls
 | Included | Schema Type    | Field Name      | Name            | Data Type | Render Type |
 | ======== | ============== | =============== | =============== | ========= | =========== |
+| No       |                | fy              | FY              | number    | text        |
 | Yes      | series tag     | project_name    | Project Name    | text      | text        |
 | No       |                | project_address | Project Address | text      | text        |
 | Yes      | series tag     | project_city    | Project City    | text      | text        |
@@ -40,7 +42,6 @@ More information accessible here: http://dhcd.maryland.gov/Investors/Pages/defau
 | Yes      | series tag     | project_county  | Project County  | text      | text        |
 | Yes      | numeric metric | units           | Units           | number    | number      |
 | Yes      | series tag     | projecttype     | ProjectType     | text      | text        |
-| No       |                | fy              | FY              | number    | text        |
 ```
 
 ## Time Field
@@ -53,7 +54,7 @@ Format & Zone = yyyy
 ## Series Fields
 
 ```ls
-Excluded Fields = project_address,fy
+Excluded Fields = fy,project_address
 ```
 
 ## Data Commands
@@ -73,26 +74,28 @@ metric m:units p:integer l:Units t:dataTypeName=number
 
 entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2016" t:attribution="Department of Housing and Community Development" t:url=https://data.maryland.gov/api/views/cadm-spqd
 
-property e:cadm-spqd t:meta.view v:id=cadm-spqd v:attributionLink=http://dhcd.maryland.gov/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing and Community Development"
+property e:cadm-spqd t:meta.view d:2017-06-09T13:55:07.602Z v:id=cadm-spqd v:category=Housing v:attributionLink=http://dhcd.maryland.gov/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing and Community Development"
 
-property e:cadm-spqd t:meta.view.owner v:id=pugw-9r35 v:screenName="Jessica Handy" v:lastNotificationSeenAt=1491917263 v:displayName="Jessica Handy"
+property e:cadm-spqd t:meta.view.license d:2017-06-09T13:55:07.602Z v:name="Public Domain"
 
-property e:cadm-spqd t:meta.view.tableauthor v:id=pugw-9r35 v:screenName="Jessica Handy" v:roleName=editor v:lastNotificationSeenAt=1491917263 v:displayName="Jessica Handy"
+property e:cadm-spqd t:meta.view.owner d:2017-06-09T13:55:07.602Z v:id=pugw-9r35 v:screenName="Jessica Handy" v:lastNotificationSeenAt=1495119282 v:displayName="Jessica Handy"
+
+property e:cadm-spqd t:meta.view.tableauthor d:2017-06-09T13:55:07.602Z v:id=pugw-9r35 v:screenName="Jessica Handy" v:roleName=editor v:lastNotificationSeenAt=1495119282 v:displayName="Jessica Handy"
 ```
 
 ## Top Records
 
 ```ls
-| project_name                      | project_address                                   | project_city  | project_zip | project_county  | units | projecttype | fy   | 
-| ================================= | ================================================= | ============= | =========== | =============== | ===== | =========== | ==== | 
-| Park View at Colonial Landing     | 6391 Rowanberry Drive                             | Elkridge      | 21075       | Howard          | 100   | Acq./Rehab. | 2013 | 
-| Park View at Bladensburg          | 4202 58th Avenue                                  | Bladensburg   | 20710       | Prince George's | 101   | Acq./Rehab. | 2013 | 
-| Burwood Gardens Phase I           | 6652 Shelly Avenue                                | Glen Burnie   | 21061       | Anne Arundel    | 100   | New         | 2013 | 
-| Oakwood Family Homes              | 8219 and 8221 Oakwood Road                        | Glen Burnie   | 21061       | Anne Arundel    | 22    | New         | 2013 | 
-| Belle Hill Manor                  | Belle Hill Road                                   | Elkton        | 21921       | Cecil           | 84    | New         | 2013 | 
-| Tanglewood Sligo Hills Apartments | 8900 Manchester Road 8902 8904 9000 Manchester Rd | Silver Spring | 20901       | Montgomery      | 132   | Rehab.      | 2013 | 
-| Barclay Square Phase II           | 341 E. 20th Street                                | Baltimore     | 21218       | Baltimore City  | 69    | New/Rehab.  | 2013 | 
-| O'Donnell Townhomes 1             | 6349 Boston Street                                | Baltimore     | 21224       | Baltimore City  | 75    | New         | 2013 | 
-| Parkview Towers Apartments        | 7667 N Maple Avenue                               | Silver Spring | 20912       | Montgomery      | 125   | Acq./Rehab. | 2013 | 
-| The Greens at Logan Field         | 3455 Dundalk Avenue                               | Dundalk       | 21222       | Baltimore       | 102   | New         | 2013 | 
+| fy   | project_name                      | project_address                                   | project_city  | project_zip | project_county  | units | projecttype | 
+| ==== | ================================= | ================================================= | ============= | =========== | =============== | ===== | =========== | 
+| 2013 | Park View at Colonial Landing     | 6391 Rowanberry Drive                             | Elkridge      | 21075       | Howard          | 100   | Acq./Rehab. | 
+| 2013 | Park View at Bladensburg          | 4202 58th Avenue                                  | Bladensburg   | 20710       | Prince George's | 101   | Acq./Rehab. | 
+| 2013 | Burwood Gardens Phase I           | 6652 Shelly Avenue                                | Glen Burnie   | 21061       | Anne Arundel    | 100   | New         | 
+| 2013 | Oakwood Family Homes              | 8219 and 8221 Oakwood Road                        | Glen Burnie   | 21061       | Anne Arundel    | 22    | New         | 
+| 2013 | Belle Hill Manor                  | Belle Hill Road                                   | Elkton        | 21921       | Cecil           | 84    | New         | 
+| 2013 | Tanglewood Sligo Hills Apartments | 8900 Manchester Road 8902 8904 9000 Manchester Rd | Silver Spring | 20901       | Montgomery      | 132   | Rehab.      | 
+| 2013 | Barclay Square Phase II           | 341 E. 20th Street                                | Baltimore     | 21218       | Baltimore City  | 69    | New/Rehab.  | 
+| 2013 | O'Donnell Townhomes 1             | 6349 Boston Street                                | Baltimore     | 21224       | Baltimore City  | 75    | New         | 
+| 2013 | Parkview Towers Apartments        | 7667 N Maple Avenue                               | Silver Spring | 20912       | Montgomery      | 125   | Acq./Rehab. | 
+| 2013 | The Greens at Logan Field         | 3455 Dundalk Avenue                               | Dundalk       | 21222       | Baltimore       | 102   | New         | 
 ```

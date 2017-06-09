@@ -77,13 +77,13 @@ metric m:total_verygood_good_fair p:integer l:Total_VeryGood_Good_Fair t:dataTyp
 
 entity e:bjtq-ptjp l:"Trash Control and Pickup Rating (2006 - Present)" t:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey" t:url=https://data.nola.gov/api/views/bjtq-ptjp
 
-property e:bjtq-ptjp t:meta.view v:id=bjtq-ptjp v:category="Customer Service" v:attributionLink=http://www.uno.edu/cola/political-science/survey-research-center-studies.aspx v:averageRating=0 v:name="Trash Control and Pickup Rating (2006 - Present)" v:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey"
+property e:bjtq-ptjp t:meta.view d:2017-06-09T13:58:49.389Z v:id=bjtq-ptjp v:category="Customer Service" v:attributionLink=http://www.uno.edu/cola/political-science/survey-research-center-studies.aspx v:averageRating=0 v:name="Trash Control and Pickup Rating (2006 - Present)" v:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey"
 
-property e:bjtq-ptjp t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:bjtq-ptjp t:meta.view.owner d:2017-06-09T13:58:49.389Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
-property e:bjtq-ptjp t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:bjtq-ptjp t:meta.view.tableauthor d:2017-06-09T13:58:49.389Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:bjtq-ptjp t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
+property e:bjtq-ptjp t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:49.389Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

@@ -83,13 +83,13 @@ metric m:trend_year p:float l:"Trend (%/year)" t:dataTypeName=percent
 
 entity e:6i3q-gfgy l:"Summer Low Flow Trend Indicator 1975-2014" t:attribution="Washington State Department of Ecology" t:url=https://data.wa.gov/api/views/6i3q-gfgy
 
-property e:6i3q-gfgy t:meta.view v:id=6i3q-gfgy v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov v:averageRating=0 v:name="Summer Low Flow Trend Indicator 1975-2014" v:attribution="Washington State Department of Ecology"
+property e:6i3q-gfgy t:meta.view d:2017-06-09T13:56:54.165Z v:id=6i3q-gfgy v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov v:averageRating=0 v:name="Summer Low Flow Trend Indicator 1975-2014" v:attribution="Washington State Department of Ecology"
 
-property e:6i3q-gfgy t:meta.view.license v:name="Public Domain"
+property e:6i3q-gfgy t:meta.view.license d:2017-06-09T13:56:54.165Z v:name="Public Domain"
 
-property e:6i3q-gfgy t:meta.view.owner v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:displayName="Paul Pickett"
+property e:6i3q-gfgy t:meta.view.owner d:2017-06-09T13:56:54.165Z v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:displayName="Paul Pickett"
 
-property e:6i3q-gfgy t:meta.view.tableauthor v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
+property e:6i3q-gfgy t:meta.view.tableauthor d:2017-06-09T13:56:54.165Z v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
 ```
 
 ## Top Records

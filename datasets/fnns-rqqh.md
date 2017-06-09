@@ -19,17 +19,7 @@
 
 ## Description
 
-Austin Energy offers free weatherization services to qualifying low-income, elderly and physically/mentally disabled customers. Each of the homes reduces its energy use by an average of about 1,200 kilowatt-hours annually due to these improvements. The program provides up to $1,500 in home improvements including installation of attic insulation, sealing and repair of ducts, solar screen installations, weather stripping around entry doors, and minor home repairs necessary to improve the effectiveness of the efficiency improvements.
-
-In FY 2010, Austin Energy received a grant of nearly $5.9 million from American Recovery and Reinvestment Act (ARRA) funds that allowed for the weatherization of 1,064 homes and apartments for low-income, elderly, and disabled customers within Austin Energy?s service area. Under this program, each dwelling received, on average, about $5,000 worth of improvements including new energy efficient appliances and air conditioning and heating equipment.
-
-Because Austin Energy's implementation of the program was so successful, the utility received additional funding on three separate occasions in the amounts of $2.1 million, $200,000 and $1 million, for total funds of $9.2 million. This allowed the utility to nearly double the number of units receiving this enhanced free weatherization. 
-Under the Federal Weatherization Program which ended April 30, 2012, Austin Energy weatherized  1,886 homes, 77% more than the original goal of 1,064 homes. The homes were occupied by 4,529 people of whom 645 were elderly, 572 had disabilities and 758 were children under the age of 5. On average, each of the homes will save about 1,200 kilowatt-hours annually in energy costs due to the improvements.
-
-*In FY 2010 127 of the 456 homes received weatherization through the use of ARRA funds. 
-*In FY 2011 all homes received weatherization through the use of ARRA funds. 
-*In FY 2012, the 715 homes used both ARRA funds and AE funds.
-*Numbers are lower than expected in FY 2013 due to the late start of the program efforts.
+Austin Energy offers free home energy improvements to customers with low to moderate incomes who qualify. The improvements reduce energy costs and enhance indoor comfort. Qualifying customers can have their home weatherized and receive home improvements. These improvements include attic insulation, solar screens, compact fluorescent light bulbs, minor duct repair and sealing, caulking and weather stripping and other improvements. Customers participating in the program can realize energy savings from 6 to 21 percent. Find more information at http://austinenergy.com/go/reports.
 
 ## Columns
 
@@ -64,13 +54,13 @@ metric m:homes_receiving_weatherization p:integer l:"Homes Receiving Weatherizat
 
 entity e:fnns-rqqh l:"Weatherization Assistance Program" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/fnns-rqqh
 
-property e:fnns-rqqh t:meta.view v:id=fnns-rqqh v:category=Utility v:averageRating=0 v:name="Weatherization Assistance Program" v:attribution="Austin Energy"
+property e:fnns-rqqh t:meta.view d:2017-06-09T13:55:54.006Z v:id=fnns-rqqh v:category=Utility v:averageRating=0 v:name="Weatherization Assistance Program" v:attribution="Austin Energy"
 
-property e:fnns-rqqh t:meta.view.license v:name="Public Domain"
+property e:fnns-rqqh t:meta.view.license d:2017-06-09T13:55:54.006Z v:name="Public Domain"
 
-property e:fnns-rqqh t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:fnns-rqqh t:meta.view.owner d:2017-06-09T13:55:54.006Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
-property e:fnns-rqqh t:meta.view.tableauthor v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
+property e:fnns-rqqh t:meta.view.tableauthor d:2017-06-09T13:55:54.006Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
 ```
 
 ## Top Records

@@ -50,13 +50,13 @@ metric m:count p:integer l:COUNT t:dataTypeName=number
 
 entity e:6jcw-aa54 l:"Medical Examiner--2009 Manner Death, by Gender" t:attribution="Cook County Medical Examiner" t:url=https://datacatalog.cookcountyil.gov/api/views/6jcw-aa54
 
-property e:6jcw-aa54 t:meta.view v:id=6jcw-aa54 v:category=Healthcare v:averageRating=0 v:name="Medical Examiner--2009 Manner Death, by Gender" v:attribution="Cook County Medical Examiner"
+property e:6jcw-aa54 t:meta.view d:2017-06-09T13:52:45.148Z v:id=6jcw-aa54 v:category=Healthcare v:averageRating=0 v:name="Medical Examiner--2009 Manner Death, by Gender" v:attribution="Cook County Medical Examiner"
 
-property e:6jcw-aa54 t:meta.view.license v:name="Public Domain"
+property e:6jcw-aa54 t:meta.view.license d:2017-06-09T13:52:45.148Z v:name="Public Domain"
 
-property e:6jcw-aa54 t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:6jcw-aa54 t:meta.view.owner d:2017-06-09T13:52:45.148Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:6jcw-aa54 t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:6jcw-aa54 t:meta.view.tableauthor d:2017-06-09T13:52:45.148Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
 
 ## Top Records

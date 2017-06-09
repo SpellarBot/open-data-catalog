@@ -50,13 +50,13 @@ metric m:annual_solar_wac_person p:float l:"Annual Solar (WAC/person)" t:dataTyp
 
 entity e:jyvh-hvkp l:"DBEDT HECO Ranks Third In 2010 Annual Solar Watts Per Customer" t:attribution="Department of Economic Development and Tourism" t:url=https://data.hawaii.gov/api/views/jyvh-hvkp
 
-property e:jyvh-hvkp t:meta.view v:id=jyvh-hvkp v:category="Economic Development" v:attributionLink=http://hawaii.gov/dbedt v:averageRating=0 v:name="DBEDT HECO Ranks Third In 2010 Annual Solar Watts Per Customer" v:attribution="Department of Economic Development and Tourism"
+property e:jyvh-hvkp t:meta.view d:2017-06-09T13:57:51.839Z v:id=jyvh-hvkp v:category="Economic Development" v:attributionLink=http://hawaii.gov/dbedt v:averageRating=0 v:name="DBEDT HECO Ranks Third In 2010 Annual Solar Watts Per Customer" v:attribution="Department of Economic Development and Tourism"
 
-property e:jyvh-hvkp t:meta.view.license v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:jyvh-hvkp t:meta.view.license d:2017-06-09T13:57:51.839Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:jyvh-hvkp t:meta.view.owner v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
+property e:jyvh-hvkp t:meta.view.owner d:2017-06-09T13:57:51.839Z v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
 
-property e:jyvh-hvkp t:meta.view.tableauthor v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
+property e:jyvh-hvkp t:meta.view.tableauthor d:2017-06-09T13:57:51.839Z v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
 ```
 
 ## Top Records

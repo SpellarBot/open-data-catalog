@@ -64,9 +64,9 @@ Excluded Fields = measurement_timestamp_label,measurement_id
 ```ls
 series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="Foster Weather Station" m:barometric_pressure=1000 m:humidity=62 m:wind_direction=197 m:interval_rain=0 m:maximum_wind_speed=5 m:solar_radiation=0 m:wind_speed=3.6 m:battery_life=15.2 m:air_temperature=-3.67
 
-series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="Oak Street Weather Station" t:precipitation_type=0.0 m:wind_direction=260 m:interval_rain=0 m:solar_radiation=3 m:wind_speed=4 m:wet_bulb_temperature=-4 m:air_temperature=-2.3 m:barometric_pressure=1000.5 m:humidity=67 m:total_rain=6.3 m:maximum_wind_speed=7.6 m:heading=359 m:battery_life=12.1 m:rain_intensity=0
+series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="Oak Street Weather Station" t:precipitation_type=0.0 m:wind_direction=260 m:interval_rain=0 m:solar_radiation=3 m:wind_speed=4 m:wet_bulb_temperature=-4 m:air_temperature=-2.3 m:barometric_pressure=1000.5 m:humidity=67 m:total_rain=6.3 m:maximum_wind_speed=7.6 m:battery_life=12.1 m:rain_intensity=0 m:heading=359
 
-series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="63rd Street Weather Station" t:precipitation_type=0.0 m:wind_direction=255 m:interval_rain=0 m:solar_radiation=5 m:wind_speed=3.8 m:wet_bulb_temperature=-4.4 m:air_temperature=-2.8 m:barometric_pressure=1000.5 m:humidity=69 m:total_rain=6.7 m:maximum_wind_speed=6.4 m:heading=353 m:battery_life=11.9 m:rain_intensity=0
+series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z t:station_name="63rd Street Weather Station" t:precipitation_type=0.0 m:wind_direction=255 m:interval_rain=0 m:solar_radiation=5 m:wind_speed=3.8 m:wet_bulb_temperature=-4.4 m:air_temperature=-2.8 m:barometric_pressure=1000.5 m:humidity=69 m:total_rain=6.7 m:maximum_wind_speed=6.4 m:battery_life=11.9 m:rain_intensity=0 m:heading=353
 ```
 
 ## Meta Commands
@@ -100,11 +100,11 @@ metric m:battery_life p:float l:"Battery Life" d:"Battery voltage, an indicator 
 
 entity e:7edu-s3u7 l:"Beach Weather Stations - Automated Sensors - 2016 - Humidity" t:attribution="Chicago Park District" t:url=https://data.cityofchicago.org/api/views/7edu-s3u7
 
-property e:7edu-s3u7 t:meta.view v:id=7edu-s3u7 v:category="Parks & Recreation" v:attributionLink=http://www.chicagoparkdistrict.com v:averageRating=0 v:name="Beach Weather Stations - Automated Sensors - 2016 - Humidity" v:attribution="Chicago Park District"
+property e:7edu-s3u7 t:meta.view d:2017-06-09T13:52:09.098Z v:id=7edu-s3u7 v:category="Parks & Recreation" v:attributionLink=http://www.chicagoparkdistrict.com v:averageRating=0 v:name="Beach Weather Stations - Automated Sensors - 2016 - Humidity" v:attribution="Chicago Park District"
 
-property e:7edu-s3u7 t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:displayName="Jonathan Levy"
+property e:7edu-s3u7 t:meta.view.owner d:2017-06-09T13:52:09.098Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
 
-property e:7edu-s3u7 t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:7edu-s3u7 t:meta.view.tableauthor d:2017-06-09T13:52:09.098Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
 ```
 
 ## Top Records

@@ -54,13 +54,13 @@ metric m:installed_capacity_from_solar_incentive_program_in_quarter_kw p:float l
 
 entity e:2yrw-q8tw l:"LADWP Solar Incentive Program" t:attribution=LADWP t:url=https://data.lacity.org/api/views/2yrw-q8tw
 
-property e:2yrw-q8tw t:meta.view v:id=2yrw-q8tw v:category="A Livable and Sustainable City" v:attributionLink="https://www.ladwp.com/ladwp/faces/ladwp/commercial/c-gogreen/c-gg-installsolar?_afrLoop=487268705452986&_afrWindowMode=0&_afrWindowId=16vdo6czx2_1#%40%3F_afrWindowId%3D16vdo6czx2_1%26_afrLoop%3D487268705452986%26_afrWindowMode%3D0%26_adf.ctrl-state%3D16vdo6czx2_49" v:averageRating=0 v:name="LADWP Solar Incentive Program" v:attribution=LADWP
+property e:2yrw-q8tw t:meta.view d:2017-06-09T13:53:44.123Z v:id=2yrw-q8tw v:category="A Livable and Sustainable City" v:attributionLink="https://www.ladwp.com/ladwp/faces/ladwp/commercial/c-gogreen/c-gg-installsolar?_afrLoop=487268705452986&_afrWindowMode=0&_afrWindowId=16vdo6czx2_1#%40%3F_afrWindowId%3D16vdo6czx2_1%26_afrLoop%3D487268705452986%26_afrWindowMode%3D0%26_adf.ctrl-state%3D16vdo6czx2_49" v:averageRating=0 v:name="LADWP Solar Incentive Program" v:attribution=LADWP
 
-property e:2yrw-q8tw t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:2yrw-q8tw t:meta.view.license d:2017-06-09T13:53:44.123Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:2yrw-q8tw t:meta.view.owner v:id=hb8e-gdsp v:profileImageUrlMedium=/api/users/hb8e-gdsp/profile_images/THUMB v:profileImageUrlLarge=/api/users/hb8e-gdsp/profile_images/LARGE v:screenName="LA DWP OpenData" v:profileImageUrlSmall=/api/users/hb8e-gdsp/profile_images/TINY v:displayName="LA DWP OpenData"
+property e:2yrw-q8tw t:meta.view.owner d:2017-06-09T13:53:44.123Z v:id=hb8e-gdsp v:profileImageUrlMedium=/api/users/hb8e-gdsp/profile_images/THUMB v:profileImageUrlLarge=/api/users/hb8e-gdsp/profile_images/LARGE v:screenName="LA DWP OpenData" v:profileImageUrlSmall=/api/users/hb8e-gdsp/profile_images/TINY v:displayName="LA DWP OpenData"
 
-property e:2yrw-q8tw t:meta.view.tableauthor v:id=hb8e-gdsp v:profileImageUrlMedium=/api/users/hb8e-gdsp/profile_images/THUMB v:profileImageUrlLarge=/api/users/hb8e-gdsp/profile_images/LARGE v:screenName="LA DWP OpenData" v:profileImageUrlSmall=/api/users/hb8e-gdsp/profile_images/TINY v:roleName=publisher v:displayName="LA DWP OpenData"
+property e:2yrw-q8tw t:meta.view.tableauthor d:2017-06-09T13:53:44.123Z v:id=hb8e-gdsp v:profileImageUrlMedium=/api/users/hb8e-gdsp/profile_images/THUMB v:profileImageUrlLarge=/api/users/hb8e-gdsp/profile_images/LARGE v:screenName="LA DWP OpenData" v:profileImageUrlSmall=/api/users/hb8e-gdsp/profile_images/TINY v:roleName=publisher v:displayName="LA DWP OpenData"
 ```
 
 ## Top Records

@@ -80,13 +80,13 @@ metric m:row_number.q9df-sa9r p:long l:"Row Number"
 
 entity e:q9df-sa9r l:"Agricultural Producer  Certificates" t:attribution="Montgomery County, MD" t:url=https://data.montgomerycountymd.gov/api/views/q9df-sa9r
 
-property e:q9df-sa9r t:meta.view v:id=q9df-sa9r v:category=Licenses/Permits v:averageRating=0 v:name="Agricultural Producer  Certificates" v:attribution="Montgomery County, MD"
+property e:q9df-sa9r t:meta.view d:2017-06-09T13:51:43.342Z v:id=q9df-sa9r v:category=Licenses/Permits v:averageRating=0 v:name="Agricultural Producer  Certificates" v:attribution="Montgomery County, MD"
 
-property e:q9df-sa9r t:meta.view.license v:name="Public Domain"
+property e:q9df-sa9r t:meta.view.license d:2017-06-09T13:51:43.342Z v:name="Public Domain"
 
-property e:q9df-sa9r t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:q9df-sa9r t:meta.view.owner d:2017-06-09T13:51:43.342Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 
-property e:q9df-sa9r t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:q9df-sa9r t:meta.view.tableauthor d:2017-06-09T13:51:43.342Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 ```
 
 ## Top Records

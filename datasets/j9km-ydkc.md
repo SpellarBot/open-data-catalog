@@ -47,11 +47,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc=Golf t:hours="24 Hours" t:name="Green Lake Park" m:pmaid=307 m:xpos=-122.330394 m:ypos=47.678938
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc=Golf t:hours="24 Hours" t:name="Green Lake Park" m:xpos=-122.330394 m:pmaid=307 m:ypos=47.678938
 
 series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Play Area (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Kirke Park" m:pmaid=4468
 
-series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Restrooms (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Hiawatha Playfield" m:pmaid=456 m:xpos=-122.3849647 m:ypos=47.57827243
+series e:j9km-ydkc d:2016-03-19T15:28:11.000Z t:feature_desc="Restrooms (ADA Compliant)" t:hours="4 a.m. - 11:30 p.m." t:name="Hiawatha Playfield" m:xpos=-122.3849647 m:pmaid=456 m:ypos=47.57827243
 ```
 
 ## Meta Commands
@@ -65,11 +65,11 @@ metric m:ypos p:double l:ypos t:dataTypeName=number
 
 entity e:j9km-ydkc l:"Seattle Parks and Recreation Parks With Features" t:attribution="Seattle Parks and Recreation" t:url=https://data.seattle.gov/api/views/j9km-ydkc
 
-property e:j9km-ydkc t:meta.view v:id=j9km-ydkc v:category="Parks and Recreation" v:attributionLink=http://www.seattle.gov/parks/ v:averageRating=0 v:name="Seattle Parks and Recreation Parks With Features" v:attribution="Seattle Parks and Recreation"
+property e:j9km-ydkc t:meta.view d:2017-06-09T13:52:54.450Z v:id=j9km-ydkc v:category="Parks and Recreation" v:attributionLink=http://www.seattle.gov/parks/ v:averageRating=0 v:name="Seattle Parks and Recreation Parks With Features" v:attribution="Seattle Parks and Recreation"
 
-property e:j9km-ydkc t:meta.view.owner v:id=fs78-6jsr v:screenName="Blood, Bruce" v:displayName="Blood, Bruce"
+property e:j9km-ydkc t:meta.view.owner d:2017-06-09T13:52:54.450Z v:id=fs78-6jsr v:screenName="Blood, Bruce" v:displayName="Blood, Bruce"
 
-property e:j9km-ydkc t:meta.view.tableauthor v:id=fs78-6jsr v:screenName="Blood, Bruce" v:displayName="Blood, Bruce"
+property e:j9km-ydkc t:meta.view.tableauthor d:2017-06-09T13:52:54.450Z v:id=fs78-6jsr v:screenName="Blood, Bruce" v:displayName="Blood, Bruce"
 ```
 
 ## Top Records

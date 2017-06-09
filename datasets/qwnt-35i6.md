@@ -55,13 +55,13 @@ metric m:row_number.qwnt-35i6 p:long l:"Row Number"
 
 entity e:qwnt-35i6 l:"Post- Employment Restriction Waivers" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/qwnt-35i6
 
-property e:qwnt-35i6 t:meta.view v:id=qwnt-35i6 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Post- Employment Restriction Waivers" v:attribution="San Francisco Ethics Commission"
+property e:qwnt-35i6 t:meta.view d:2017-06-09T13:55:24.017Z v:id=qwnt-35i6 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Post- Employment Restriction Waivers" v:attribution="San Francisco Ethics Commission"
 
-property e:qwnt-35i6 t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:qwnt-35i6 t:meta.view.license d:2017-06-09T13:55:24.017Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:qwnt-35i6 t:meta.view.owner v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:qwnt-35i6 t:meta.view.owner d:2017-06-09T13:55:24.017Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
 
-property e:qwnt-35i6 t:meta.view.tableauthor v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:qwnt-35i6 t:meta.view.tableauthor d:2017-06-09T13:55:24.017Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
 ```
 
 ## Top Records

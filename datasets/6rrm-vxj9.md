@@ -19,7 +19,7 @@
 
 ## Description
 
-This data is table of monuments that is maintained by NYC Parks. Prior to being stored electronically the original data was stored on index cards dating back to the 1940s. The database is updated periodically to include new monuments, and information updated for existing monuments. For questions about the dataset please contact Parks? Art & Antiquities division at (212) 360-8143.
+This data is table of monuments that is maintained by NYC Parks. Prior to being stored electronically the original data was stored on index cards dating back to the 1940s. The database is updated periodically to include new monuments, and information updated for existing monuments. For questions about the dataset please contact Parks’ Art & Antiquities division at (212) 360-8143.
 
 ## Columns
 
@@ -91,11 +91,11 @@ metric m:number p:integer l:number t:dataTypeName=number
 
 entity e:6rrm-vxj9 l:"NYC Parks Monuments" t:attribution="Department of Parks and Recreation (DPR)" t:url=https://data.cityofnewyork.us/api/views/6rrm-vxj9
 
-property e:6rrm-vxj9 t:meta.view v:id=6rrm-vxj9 v:category=Recreation v:averageRating=0 v:name="NYC Parks Monuments" v:attribution="Department of Parks and Recreation (DPR)"
+property e:6rrm-vxj9 t:meta.view d:2017-06-09T13:58:52.570Z v:id=6rrm-vxj9 v:category=Recreation v:averageRating=0 v:name="NYC Parks Monuments" v:attribution="Department of Parks and Recreation (DPR)"
 
-property e:6rrm-vxj9 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:6rrm-vxj9 t:meta.view.owner d:2017-06-09T13:58:52.570Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:6rrm-vxj9 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:6rrm-vxj9 t:meta.view.tableauthor d:2017-06-09T13:58:52.570Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

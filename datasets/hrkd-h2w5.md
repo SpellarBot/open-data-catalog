@@ -64,11 +64,11 @@ metric m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year p
 
 entity e:hrkd-h2w5 l:"Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016" t:url=https://data.oregon.gov/api/views/hrkd-h2w5
 
-property e:hrkd-h2w5 t:meta.view v:id=hrkd-h2w5 v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016"
+property e:hrkd-h2w5 t:meta.view d:2017-06-09T13:55:43.371Z v:id=hrkd-h2w5 v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016"
 
-property e:hrkd-h2w5 t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.owner d:2017-06-09T13:55:43.371Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:hrkd-h2w5 t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.tableauthor d:2017-06-09T13:55:43.371Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

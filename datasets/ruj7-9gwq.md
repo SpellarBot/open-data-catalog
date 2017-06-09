@@ -62,11 +62,11 @@ metric m:row_number.ruj7-9gwq p:long l:"Row Number"
 
 entity e:ruj7-9gwq l:"Address Changes" t:url=https://data.austintexas.gov/api/views/ruj7-9gwq
 
-property e:ruj7-9gwq t:meta.view v:id=ruj7-9gwq v:averageRating=0 v:name="Address Changes"
+property e:ruj7-9gwq t:meta.view d:2017-06-09T14:00:50.314Z v:id=ruj7-9gwq v:averageRating=0 v:name="Address Changes"
 
-property e:ruj7-9gwq t:meta.view.owner v:id=52wx-7e7j v:screenName="EGS Data Services" v:displayName="EGS Data Services"
+property e:ruj7-9gwq t:meta.view.owner d:2017-06-09T14:00:50.314Z v:id=52wx-7e7j v:screenName="EGS Data Services" v:displayName="EGS Data Services"
 
-property e:ruj7-9gwq t:meta.view.tableauthor v:id=52wx-7e7j v:screenName="EGS Data Services" v:roleName=publisher v:displayName="EGS Data Services"
+property e:ruj7-9gwq t:meta.view.tableauthor d:2017-06-09T14:00:50.314Z v:id=52wx-7e7j v:screenName="EGS Data Services" v:roleName=publisher v:displayName="EGS Data Services"
 ```
 
 ## Top Records

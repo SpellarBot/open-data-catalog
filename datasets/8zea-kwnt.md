@@ -19,7 +19,7 @@
 
 ## Description
 
-1995-2017. Centers for Disease Control and Prevention (CDC). State Tobacco Activities Tracking and Evaluation (STATE) System. E-Cigarette Legislation?Youth Access. The STATE System houses current and historical state-level legislative data on tobacco use prevention and control policies.  Data are reported on a quarterly basis. Data include information related to restrictions, enforcement and penalties associated with the sale of e-cigarettes to youth through retail sales and vending machines.
+1995-2017. Centers for Disease Control and Prevention (CDC). State Tobacco Activities Tracking and Evaluation (STATE) System. E-Cigarette Legislation—Youth Access. The STATE System houses current and historical state-level legislative data on tobacco use prevention and control policies.  Data are reported on a quarterly basis. Data include information related to restrictions, enforcement and penalties associated with the sale of e-cigarettes to youth through retail sales and vending machines.
 
 ## Columns
 
@@ -80,15 +80,15 @@ metric m:provisionaltvalue p:double l:ProvisionAltValue d:"Alternate numeric val
 
 entity e:8zea-kwnt l:"CDC STATE System E-Cigarette Legislation - Youth Access" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://data.cdc.gov/api/views/8zea-kwnt
 
-property e:8zea-kwnt t:meta.view v:id=8zea-kwnt v:category=Legislation v:attributionLink=http://www.cdc.gov/STATESystem v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Youth Access" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
+property e:8zea-kwnt t:meta.view d:2017-06-09T14:00:45.091Z v:id=8zea-kwnt v:category=Legislation v:attributionLink=http://www.cdc.gov/STATESystem v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Youth Access" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
 
-property e:8zea-kwnt t:meta.view.license v:name="Public Domain"
+property e:8zea-kwnt t:meta.view.license d:2017-06-09T14:00:45.091Z v:name="Public Domain"
 
-property e:8zea-kwnt t:meta.view.owner v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
+property e:8zea-kwnt t:meta.view.owner d:2017-06-09T14:00:45.091Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
 
-property e:8zea-kwnt t:meta.view.tableauthor v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:8zea-kwnt t:meta.view.tableauthor d:2017-06-09T14:00:45.091Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
 
-property e:8zea-kwnt t:meta.view.metadata.custom_fields.common_core v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:8zea-kwnt t:meta.view.metadata.custom_fields.common_core d:2017-06-09T14:00:45.091Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
 ```
 
 ## Top Records
@@ -104,6 +104,6 @@ property e:8zea-kwnt t:meta.view.metadata.custom_fields.common_core v:Contact_Em
 | 2012 | 2       | RI           | Rhode Island         | Legislation - E-Cigarette - Youth Access | E-Cigarette Sales            | OSH        | Penalties          | Penalty to Youth             | No Provision                                         |                           | 0                 | Ranking  |          |              |                | 13           | LEG         | 1045LEG | 1021ECT   | 60GRP            | 520         | 
 | 2007 | 2       | WY           | Wyoming              | Legislation - E-Cigarette - Youth Access | E-Cigarette Sales            | OSH        | Penalties          | Maximum Penalty to Youth ($) | No Provision                                         |                           | 0                 | Money    |          |              |                | 16           | LEG         | 1045LEG | 1021ECT   | 60GRP            | 523         | 
 | 2009 | 4       | OK           | Oklahoma             | Legislation - E-Cigarette - Youth Access | E-Cigarette Vending Machines | OSH        | Restrictions       | Limited Placement            | No Provision                                         |                           | 0                 | Ranking  |          |              |                | 3            | LEG         | 1045LEG | 1024EVM   | 10GRP            | 497         | 
-| 2015 | 2       | GA           | Georgia              | Legislation - E-Cigarette - Youth Access | E-Cigarette Sales            | OSH        | Penalties          | Penalty to Youth (Type)      | Community service or Health education or Combination | GA. CODE ANN. ? 16-12-171 | 0                 |          |          | 4/15/2014    | 7/1/2014       | 14           | LEG         | 1045LEG | 1021ECT   | 60GRP            | 521         | 
+| 2015 | 2       | GA           | Georgia              | Legislation - E-Cigarette - Youth Access | E-Cigarette Sales            | OSH        | Penalties          | Penalty to Youth (Type)      | Community service or Health education or Combination | GA. CODE ANN. § 16-12-171 | 0                 |          |          | 4/15/2014    | 7/1/2014       | 14           | LEG         | 1045LEG | 1021ECT   | 60GRP            | 521         | 
 | 2013 | 1       | AK           | Alaska               | Legislation - E-Cigarette - Youth Access | E-Cigarette Vending Machines | OSH        | Restrictions       | Banned from Location         | No Provision                                         |                           | 0                 | Ranking  |          |              |                | 2            | LEG         | 1045LEG | 1024EVM   | 10GRP            | 496         | 
 ```

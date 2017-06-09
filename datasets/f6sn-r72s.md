@@ -19,7 +19,7 @@
 
 ## Description
 
-Listing of state tax credit and subsidies awarded by NYS Homes & Community Renewal?s Office of Finance and Development. Details include award amount, developer name, project location, and accomplishments for completed projects based on project types.
+Listing of state tax credit and subsidies awarded by NYS Homes & Community Renewal’s Office of Finance and Development. Details include award amount, developer name, project location, and accomplishments for completed projects based on project types.
 
 ## Columns
 
@@ -66,11 +66,11 @@ metric m:affordable_units p:integer l:"Affordable Units" d:"Number of affordable
 
 entity e:f6sn-r72s l:"Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" t:attribution="NYS Homes and Community Renewal" t:url=https://data.ny.gov/api/views/f6sn-r72s
 
-property e:f6sn-r72s t:meta.view v:id=f6sn-r72s v:category="Economic Development" v:attributionLink=http://www.nyshcr.org/Programs/LIHC/ v:averageRating=0 v:name="Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" v:attribution="NYS Homes and Community Renewal"
+property e:f6sn-r72s t:meta.view d:2017-06-09T13:51:59.928Z v:id=f6sn-r72s v:category="Economic Development" v:attributionLink=http://www.nyshcr.org/Programs/LIHC/ v:averageRating=0 v:name="Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" v:attribution="NYS Homes and Community Renewal"
 
-property e:f6sn-r72s t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:f6sn-r72s t:meta.view.owner d:2017-06-09T13:51:59.928Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:f6sn-r72s t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:f6sn-r72s t:meta.view.tableauthor d:2017-06-09T13:51:59.928Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 ```
 
 ## Top Records

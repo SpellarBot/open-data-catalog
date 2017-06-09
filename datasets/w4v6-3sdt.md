@@ -47,11 +47,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="01 ONE FAMILY HOMES" m:average_sale_price=345752 m:lowest_sale_price=345752 m:median_sale_price=345752 m:highest_sale_price=345752 m:total_no_of_properties=87 m:number_of_sales=1
+series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="01 ONE FAMILY HOMES" m:average_sale_price=345752 m:lowest_sale_price=345752 m:median_sale_price=345752 m:highest_sale_price=345752 m:number_of_sales=1 m:total_no_of_properties=87
 
-series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="02 TWO FAMILY HOMES" m:average_sale_price=327310 m:lowest_sale_price=183028 m:median_sale_price=334750 m:highest_sale_price=415440 m:total_no_of_properties=308 m:number_of_sales=8
+series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="02 TWO FAMILY HOMES" m:average_sale_price=327310 m:lowest_sale_price=183028 m:median_sale_price=334750 m:highest_sale_price=415440 m:number_of_sales=8 m:total_no_of_properties=308
 
-series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="03 THREE FAMILY HOMES" m:average_sale_price=536674 m:lowest_sale_price=162240 m:median_sale_price=602500 m:highest_sale_price=640000 m:total_no_of_properties=131 m:number_of_sales=10
+series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z t:neighborhood=BATHGATE t:type_of_home="03 THREE FAMILY HOMES" m:average_sale_price=536674 m:lowest_sale_price=162240 m:median_sale_price=602500 m:highest_sale_price=640000 m:number_of_sales=10 m:total_no_of_properties=131
 ```
 
 ## Meta Commands
@@ -71,11 +71,11 @@ metric m:highest_sale_price p:integer l:"HIGHEST SALE PRICE" t:dataTypeName=mone
 
 entity e:w4v6-3sdt l:"DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" t:attribution="Department of Finance (DOF)" t:url=https://data.cityofnewyork.us/api/views/w4v6-3sdt
 
-property e:w4v6-3sdt t:meta.view v:id=w4v6-3sdt v:category="Housing & Development" v:averageRating=0 v:name="DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" v:attribution="Department of Finance (DOF)"
+property e:w4v6-3sdt t:meta.view d:2017-06-09T13:56:45.445Z v:id=w4v6-3sdt v:category="Housing & Development" v:averageRating=0 v:name="DOF: Summary of Neighborhood Sales for the Bronx for Class 1-, 2- and 3-Family homes - 2009" v:attribution="Department of Finance (DOF)"
 
-property e:w4v6-3sdt t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:w4v6-3sdt t:meta.view.owner d:2017-06-09T13:56:45.445Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:w4v6-3sdt t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:w4v6-3sdt t:meta.view.tableauthor d:2017-06-09T13:56:45.445Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
 
 ## Top Records

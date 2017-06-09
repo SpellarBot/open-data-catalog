@@ -13,8 +13,12 @@ Name | Host | Published
 [Brownfield Redevelopment Credit: Beginning Calendar Year 2005](../datasets/vud8-75x8.md) | data.ny.gov | 2017&#x2011;03&#x2011;02
 [CDC STATE System E-Cigarette Legislation - Tax](../datasets/kwbr-syv2.md) | chronicdata.cdc.gov | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Tax](../datasets/2dwv-vfam.md) | data.cdc.gov | 2017&#x2011;02&#x2011;16
+[Choose Maryland: Compare Counties - Taxes](../datasets/9rx9-sduc.md) | data.maryland.gov | 2017&#x2011;01&#x2011;20
 [Choose Maryland: Compare States - Taxes](../datasets/t833-r94z.md) | data.maryland.gov | 2017&#x2011;03&#x2011;20
 [City Tax Revenue Financial Plan](../datasets/ye26-g8nx.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
+[Commercial Impact Tax for Gaithersburg](../datasets/uwvj-gxqd.md) | data.montgomerycountymd.gov | 2015&#x2011;10&#x2011;29
+[Commercial Impact Tax for Rockville](../datasets/r5vz-knwn.md) | data.montgomerycountymd.gov | 2015&#x2011;10&#x2011;29
+[County Revenues By Source ? Fiscal Year 2010](../datasets/kdwv-2zym.md) | data.maryland.gov | 2014&#x2011;08&#x2011;08
 [Department of Revenue Services - Tax Credit Carryforwards from Fiscal Year 2012-13 Filings](../datasets/ig6u-cthx.md) | data.ct.gov | 2014&#x2011;03&#x2011;25
 [Department of Revenue Services - Tax Credits Claimed During Fiscal Year 2012-13](../datasets/nyid-9wnx.md) | data.ct.gov | 2014&#x2011;03&#x2011;25
 [Department of Revenue Services - Tax Credits Claimed For 2007](../datasets/aem3-ujda.md) | data.ct.gov | 2014&#x2011;03&#x2011;25
@@ -32,7 +36,10 @@ Name | Host | Published
 [EBRP Tax Roll](../datasets/myfc-nh6n.md) | data.brla.gov | 2017&#x2011;01&#x2011;23
 [Earned Income Tax Credit (EITC) Claims by Credit Type and Place of Residence: Beginning Tax Year 1994](../datasets/6q7b-8vuf.md) | data.ny.gov | 2017&#x2011;04&#x2011;20
 [Earned Income Tax Credit (EITC) Claims by Credit Type and Size of Earned Income: Beginning Tax Year 1994](../datasets/3sqx-ew2z.md) | data.ny.gov | 2017&#x2011;04&#x2011;20
+[Essex County Property Taxes: 2013](../datasets/u4z3-9gzj.md) | data.ny.gov | 2013&#x2011;03&#x2011;03
+[FY 2015 Total Non-Ag Levy by City](../datasets/n432-c6ty.md) | data.iowa.gov | 2016&#x2011;06&#x2011;14
 [FY14 Payments Data](../datasets/8xda-39tn.md) | data.maryland.gov | 2015&#x2011;01&#x2011;22
+[Hotel/Motel Tax Collected by Jurisdiction and Quarter](../datasets/tstj-qymt.md) | data.iowa.gov | 2017&#x2011;01&#x2011;09
 [IDOR 2009 Illinois Individual Income Tax - AGI County Report](../datasets/zb5i-mpyi.md) | data.illinois.gov | 2011&#x2011;06&#x2011;15
 [IDOR 2009 Illinois Individual Income Tax - AGI Zip Code Report](../datasets/gsp6-dpce.md) | data.illinois.gov | 2011&#x2011;06&#x2011;16
 [IDOR 2009 Illinois Individual Income Tax - Retirement Subtraction by AGI](../datasets/rgqd-6732.md) | data.illinois.gov | 2011&#x2011;06&#x2011;15
@@ -52,16 +59,27 @@ Name | Host | Published
 [IDOR SIC Report Q3 2010](../datasets/uwtt-n6qv.md) | data.illinois.gov | 2011&#x2011;06&#x2011;15
 [IDOR SIC Report Q4 2010](../datasets/k5hg-a9v2.md) | data.illinois.gov | 2011&#x2011;06&#x2011;15
 [Income Tax Components by Size of Income by Place of Residence: Beginning Tax Year 1999](../datasets/5bb2-yb85.md) | data.ny.gov | 2017&#x2011;02&#x2011;06
+[Iowa Motor Fuel Sales by County and Year](../datasets/hbwp-wys3.md) | data.iowa.gov | 2016&#x2011;04&#x2011;08
+[Levy Authority Rates By Fiscal Year](../datasets/xmkr-kpjb.md) | data.iowa.gov | 2016&#x2011;12&#x2011;22
+[Local Option Sales Tax Receipts by Month and Location](../datasets/9dea-s7w7.md) | data.iowa.gov | 2017&#x2011;01&#x2011;09
 [Managing for Results - Maryland State Department of Education (MSDE)](../datasets/hqge-qgw8.md) | data.maryland.gov | 2016&#x2011;05&#x2011;16
 [Managing for Results - Maryland State Department of Education (MSDE) - Supplemental Dataset for Objective 1.1](../datasets/iadb-36pt.md) | data.maryland.gov | 2016&#x2011;05&#x2011;16
 [Managing for Results - State Department of Assessments and Taxation (SDAT)](../datasets/j85n-nmtq.md) | data.maryland.gov | 2016&#x2011;05&#x2011;06
 [Maryland Real Property Assessments: Fields Reference](../datasets/w8th-47fz.md) | data.maryland.gov | 2015&#x2011;12&#x2011;11
 [Mill Rates for 2017 Fiscal Year](../datasets/kb3c-yi4w.md) | data.ct.gov | 2017&#x2011;01&#x2011;30
 [Missouri Beer, Wine and Liquor Wholesaler List with Zip Code](../datasets/fkt2-8smh.md) | data.mo.gov | 2017&#x2011;04&#x2011;20
+[Municipal Revenues by Source ? Fiscal Year 2010](../datasets/idsb-kajn.md) | data.maryland.gov | 2014&#x2011;08&#x2011;08
+[Per Capita County Revenues By Source ? Fiscal Year 2010](../datasets/bu35-imdp.md) | data.maryland.gov | 2014&#x2011;08&#x2011;08
+[Real Property Tax - 2016](../datasets/uvy4-94zr.md) | data.montgomerycountymd.gov | 2016&#x2011;07&#x2011;08
 [Real Property Tax - 2016](../datasets/uvy4-94zr.md) | data.montgomerycountymd.gov | 2016&#x2011;07&#x2011;08
 [Real Property Tax Rates](../datasets/es5m-4wf9.md) | data.montgomerycountymd.gov | 2012&#x2011;11&#x2011;23
 [Real Property Tax Rates Levy Data By Municipality: Beginning 2004](../datasets/iq85-sdzs.md) | data.ny.gov | 2016&#x2011;08&#x2011;03
+[Real Property Taxes](../datasets/27w9-urtv.md) | data.baltimorecity.gov | 2016&#x2011;03&#x2011;30
+[Residential Impact Tax for Gaithersburg](../datasets/qfzq-8jxi.md) | data.montgomerycountymd.gov | 2015&#x2011;10&#x2011;29
+[Residential Impact Tax for Rockville](../datasets/3q4c-igb4.md) | data.montgomerycountymd.gov | 2015&#x2011;10&#x2011;29
+[Sales Tax Registration](../datasets/qxyi-45qt.md) | data.iowa.gov | 2017&#x2011;04&#x2011;20
 [Sales and Use Tax per Town by NAICS](../datasets/rkm7-uwkb.md) | data.ct.gov | 2017&#x2011;02&#x2011;16
+[State Taxes and Fees Collected: Beginning Fiscal Year Ending March 31, 1995](../datasets/cpjr-ezcj.md) | data.ny.gov | 2016&#x2011;09&#x2011;26
 [State of Maryland Payments Data: FY2008 to FY2016](../datasets/gja3-vy5r.md) | data.maryland.gov | 2017&#x2011;02&#x2011;21
 [Summary of Real Property Tax Exemptions by Code by Municipality: Beginning Roll Year 1999](../datasets/ykg4-r7ad.md) | data.ny.gov | 2016&#x2011;04&#x2011;21
 [Summary of Real Property Tax Exemptions by Municipality: Beginning Roll Year 1999](../datasets/ffnx-ezem.md) | data.ny.gov | 2016&#x2011;04&#x2011;22

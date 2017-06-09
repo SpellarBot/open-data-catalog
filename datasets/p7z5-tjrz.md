@@ -59,11 +59,11 @@ metric m:cost p:double l:Cost t:dataTypeName=money
 
 entity e:p7z5-tjrz l:"Tuition Assistance" t:url=https://data.montgomerycountymd.gov/api/views/p7z5-tjrz
 
-property e:p7z5-tjrz t:meta.view v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"
+property e:p7z5-tjrz t:meta.view d:2017-06-09T14:00:24.458Z v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"
 
-property e:p7z5-tjrz t:meta.view.owner v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.owner d:2017-06-09T14:00:24.458Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 
-property e:p7z5-tjrz t:meta.view.tableauthor v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.tableauthor d:2017-06-09T14:00:24.458Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
 ```
 
 ## Top Records

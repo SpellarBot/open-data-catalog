@@ -75,11 +75,11 @@ metric m:row_number.crns-fw6u p:long l:"Row Number"
 
 entity e:crns-fw6u l:"Directory of NYCHA Community Facilities" t:attribution="New York City Housing Authority (NYCHA)" t:url=https://data.cityofnewyork.us/api/views/crns-fw6u
 
-property e:crns-fw6u t:meta.view v:id=crns-fw6u v:category="Social Services" v:attributionLink=http://www.nyc.gov/html/nycha/html/ccschtml/communitycenters.shtml v:averageRating=0 v:name="Directory of NYCHA Community Facilities" v:attribution="New York City Housing Authority (NYCHA)"
+property e:crns-fw6u t:meta.view d:2017-06-09T14:00:34.812Z v:id=crns-fw6u v:category="Social Services" v:attributionLink=http://www.nyc.gov/html/nycha/html/ccschtml/communitycenters.shtml v:averageRating=0 v:name="Directory of NYCHA Community Facilities" v:attribution="New York City Housing Authority (NYCHA)"
 
-property e:crns-fw6u t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:crns-fw6u t:meta.view.owner d:2017-06-09T14:00:34.812Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:crns-fw6u t:meta.view.tableauthor v:id=8b43-zkvh v:screenName="Ram S." v:displayName="Ram S."
+property e:crns-fw6u t:meta.view.tableauthor d:2017-06-09T14:00:34.812Z v:id=8b43-zkvh v:screenName="Ram S." v:displayName="Ram S."
 ```
 
 ## Top Records

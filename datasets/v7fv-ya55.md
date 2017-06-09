@@ -104,13 +104,13 @@ metric m:state_wide_max p:integer l:"State-wide Max" t:dataTypeName=number
 
 entity e:v7fv-ya55 l:"Maryland Ozone Exceedance Days in 2010" t:url=https://data.maryland.gov/api/views/v7fv-ya55
 
-property e:v7fv-ya55 t:meta.view v:id=v7fv-ya55 v:category="Energy and Environment" v:averageRating=0 v:name="Maryland Ozone Exceedance Days in 2010"
+property e:v7fv-ya55 t:meta.view d:2017-06-09T13:51:39.630Z v:id=v7fv-ya55 v:category="Energy and Environment" v:averageRating=0 v:name="Maryland Ozone Exceedance Days in 2010"
 
-property e:v7fv-ya55 t:meta.view.license v:name="Public Domain"
+property e:v7fv-ya55 t:meta.view.license d:2017-06-09T13:51:39.630Z v:name="Public Domain"
 
-property e:v7fv-ya55 t:meta.view.owner v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:lastNotificationSeenAt=1491588421 v:displayName="Andrew Gosden"
+property e:v7fv-ya55 t:meta.view.owner d:2017-06-09T13:51:39.630Z v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:lastNotificationSeenAt=1496348600 v:displayName="Andrew Gosden"
 
-property e:v7fv-ya55 t:meta.view.tableauthor v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1491588421 v:displayName="Andrew Gosden"
+property e:v7fv-ya55 t:meta.view.tableauthor d:2017-06-09T13:51:39.630Z v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1496348600 v:displayName="Andrew Gosden"
 ```
 
 ## Top Records

@@ -62,11 +62,11 @@ metric m:row_number.x89d-qusv p:long l:"Row Number"
 
 entity e:x89d-qusv l:"AADT Turning Traffic 2004" t:attribution="Iowa Department of Transportation - Office of Systems Planning" t:url=https://data.iowa.gov/api/views/x89d-qusv
 
-property e:x89d-qusv t:meta.view v:id=x89d-qusv v:category="Transportation & Utilities" v:averageRating=0 v:name="AADT Turning Traffic 2004" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
+property e:x89d-qusv t:meta.view d:2017-06-09T13:52:07.869Z v:id=x89d-qusv v:category="Transportation & Utilities" v:averageRating=0 v:name="AADT Turning Traffic 2004" v:attribution="Iowa Department of Transportation - Office of Systems Planning"
 
-property e:x89d-qusv t:meta.view.owner v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:displayName="Iowa Department of Transportation"
+property e:x89d-qusv t:meta.view.owner d:2017-06-09T13:52:07.869Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:displayName="Iowa Department of Transportation"
 
-property e:x89d-qusv t:meta.view.tableauthor v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
+property e:x89d-qusv t:meta.view.tableauthor d:2017-06-09T13:52:07.869Z v:id=2cmj-63jw v:profileImageUrlMedium=/api/users/2cmj-63jw/profile_images/THUMB v:profileImageUrlLarge=/api/users/2cmj-63jw/profile_images/LARGE v:screenName="Iowa Department of Transportation" v:profileImageUrlSmall=/api/users/2cmj-63jw/profile_images/TINY v:roleName=administrator v:displayName="Iowa Department of Transportation"
 ```
 
 ## Top Records

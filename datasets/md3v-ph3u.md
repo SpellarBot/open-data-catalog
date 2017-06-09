@@ -15,7 +15,7 @@
 | Category | Public Safety and Preparedness |
 | Tags | police, car camera |
 | Created | 2016-04-08T15:04:25Z |
-| Publication Date | 2017-04-13T15:31:34Z |
+| Publication Date | 2017-06-06T20:42:26Z |
 
 ## Description
 
@@ -54,21 +54,21 @@ series e:md3v-ph3u d:2016-03-22T07:00:32.000Z t:dvr_name=15091 t:media_local_sta
 ## Meta Commands
 
 ```ls
-metric m:duration p:integer l:duration t:dataTypeName=number
+metric m:duration p:long l:duration t:dataTypeName=number
 
-metric m:media_size_mb p:integer l:media_size_mb t:dataTypeName=number
+metric m:media_size_mb p:long l:media_size_mb t:dataTypeName=number
 
 entity e:md3v-ph3u l:"NOPD In-Car Camera Metadata" t:attribution="City of New Orleans Police Department" t:url=https://data.nola.gov/api/views/md3v-ph3u
 
-property e:md3v-ph3u t:meta.view v:id=md3v-ph3u v:category="Public Safety and Preparedness" v:averageRating=0 v:name="NOPD In-Car Camera Metadata" v:attribution="City of New Orleans Police Department"
+property e:md3v-ph3u t:meta.view d:2017-06-09T13:54:01.703Z v:id=md3v-ph3u v:category="Public Safety and Preparedness" v:averageRating=0 v:name="NOPD In-Car Camera Metadata" v:attribution="City of New Orleans Police Department"
 
-property e:md3v-ph3u t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:md3v-ph3u t:meta.view.license d:2017-06-09T13:54:01.703Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:md3v-ph3u t:meta.view.owner v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:displayName="Enterprise Information Data Team"
+property e:md3v-ph3u t:meta.view.owner d:2017-06-09T13:54:01.703Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:displayName="Enterprise Information Data Team"
 
-property e:md3v-ph3u t:meta.view.tableauthor v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
+property e:md3v-ph3u t:meta.view.tableauthor d:2017-06-09T13:54:01.703Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
 
-property e:md3v-ph3u t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
+property e:md3v-ph3u t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:54:01.703Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

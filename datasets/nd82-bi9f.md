@@ -48,11 +48,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=ACS m:2012_fy_value=15174204 m:2011_fy_value=25794461 m:2014_fy_count=631 m:2012_fy_count=551 m:2013_fy_count=529 m:2013_fy_value=496551457 m:2011_fy_count=375 m:2014_fy_value=168622554
+series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=ACS m:2011_fy_value=25794461 m:2012_fy_value=15174204 m:2012_fy_count=551 m:2014_fy_count=631 m:2013_fy_value=496551457 m:2013_fy_count=529 m:2011_fy_count=375 m:2014_fy_value=168622554
 
-series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=BIC m:2012_fy_value=140424 m:2011_fy_value=139509 m:2014_fy_count=31 m:2012_fy_count=111 m:2013_fy_count=44 m:2013_fy_value=760097 m:2011_fy_count=38 m:2014_fy_value=187816
+series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=BIC m:2011_fy_value=139509 m:2012_fy_value=140424 m:2012_fy_count=111 m:2014_fy_count=31 m:2013_fy_value=760097 m:2013_fy_count=44 m:2011_fy_count=38 m:2014_fy_value=187816
 
-series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=CCHR m:2012_fy_value=61253 m:2011_fy_value=87707 m:2014_fy_count=55 m:2012_fy_count=40 m:2013_fy_count=63 m:2013_fy_value=105841 m:2011_fy_count=42 m:2014_fy_value=91575
+series e:nd82-bi9f d:2014-10-23T13:13:45.000Z t:agency=CCHR m:2011_fy_value=87707 m:2012_fy_value=61253 m:2012_fy_count=40 m:2014_fy_count=55 m:2013_fy_value=105841 m:2013_fy_count=63 m:2011_fy_count=42 m:2014_fy_value=91575
 ```
 
 ## Meta Commands
@@ -76,11 +76,11 @@ metric m:2011_fy_value p:integer l:"2011 FY Value" t:dataTypeName=money
 
 entity e:nd82-bi9f l:"Procurement By Industry" t:attribution="Office of the Mayor (OTM)" t:url=https://data.cityofnewyork.us/api/views/nd82-bi9f
 
-property e:nd82-bi9f t:meta.view v:id=nd82-bi9f v:category="City Government" v:averageRating=0 v:name="Procurement By Industry" v:attribution="Office of the Mayor (OTM)"
+property e:nd82-bi9f t:meta.view d:2017-06-09T13:59:54.841Z v:id=nd82-bi9f v:category="City Government" v:averageRating=0 v:name="Procurement By Industry" v:attribution="Office of the Mayor (OTM)"
 
-property e:nd82-bi9f t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:nd82-bi9f t:meta.view.owner d:2017-06-09T13:59:54.841Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:nd82-bi9f t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:nd82-bi9f t:meta.view.tableauthor d:2017-06-09T13:59:54.841Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

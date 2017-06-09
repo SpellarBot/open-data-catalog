@@ -19,7 +19,7 @@
 
 ## Description
 
-This data set features license applications received during the last and current calendar years, including applications where a license was issued, denied, withdrawn, or remains pending. For a list of legally operating businesses, please refer to the DCA ? Legally Operating Businesses data set. This data set is updated on a weekly basis.
+This data set features license applications received during the last and current calendar years, including applications where a license was issued, denied, withdrawn, or remains pending. For a list of legally operating businesses, please refer to the DCA – Legally Operating Businesses data set. This data set is updated on a weekly basis.
 
 ## Columns
 
@@ -83,11 +83,11 @@ metric m:row_number.ptev-4hud p:long l:"Row Number"
 
 entity e:ptev-4hud l:"License Applications" t:attribution="Department of Consumer Affairs (DCA)" t:url=https://data.cityofnewyork.us/api/views/ptev-4hud
 
-property e:ptev-4hud t:meta.view v:id=ptev-4hud v:category=Business v:averageRating=0 v:name="License Applications" v:attribution="Department of Consumer Affairs (DCA)"
+property e:ptev-4hud t:meta.view d:2017-06-09T13:59:39.888Z v:id=ptev-4hud v:category=Business v:averageRating=0 v:name="License Applications" v:attribution="Department of Consumer Affairs (DCA)"
 
-property e:ptev-4hud t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:ptev-4hud t:meta.view.owner d:2017-06-09T13:59:39.888Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:ptev-4hud t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:ptev-4hud t:meta.view.tableauthor d:2017-06-09T13:59:39.888Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

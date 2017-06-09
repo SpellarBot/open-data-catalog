@@ -58,11 +58,11 @@ metric m:annual_salary p:double l:"ANNUAL SALARY" t:dataTypeName=money
 
 entity e:25mj-qtvj l:"Salaries of State Agencies FY 2016" t:url=https://data.oregon.gov/api/views/25mj-qtvj
 
-property e:25mj-qtvj t:meta.view v:id=25mj-qtvj v:category="Revenue & Expense" v:averageRating=0 v:name="Salaries of State Agencies FY 2016"
+property e:25mj-qtvj t:meta.view d:2017-06-09T13:58:12.501Z v:id=25mj-qtvj v:category="Revenue & Expense" v:averageRating=0 v:name="Salaries of State Agencies FY 2016"
 
-property e:25mj-qtvj t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:25mj-qtvj t:meta.view.owner d:2017-06-09T13:58:12.501Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:25mj-qtvj t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:25mj-qtvj t:meta.view.tableauthor d:2017-06-09T13:58:12.501Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

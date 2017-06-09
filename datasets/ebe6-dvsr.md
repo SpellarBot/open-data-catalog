@@ -56,17 +56,17 @@ series e:ebe6-dvsr d:2015-09-01T00:00:00.000Z t:recsubtype=Plumbing t:measure=Av
 ## Meta Commands
 
 ```ls
-metric m:avgnumdays p:float l:AvgNumDays t:dataTypeName=number
+metric m:avgnumdays p:integer l:AvgNumDays t:dataTypeName=number
 
 metric m:noofpermits p:integer l:NoOfPermits t:dataTypeName=number
 
 entity e:ebe6-dvsr l:PED_PlanReviewMeasures_Building t:url=https://data.srcity.org/api/views/ebe6-dvsr
 
-property e:ebe6-dvsr t:meta.view v:id=ebe6-dvsr v:averageRating=0 v:name=PED_PlanReviewMeasures_Building
+property e:ebe6-dvsr t:meta.view d:2017-06-09T13:57:39.553Z v:id=ebe6-dvsr v:averageRating=0 v:name=PED_PlanReviewMeasures_Building
 
-property e:ebe6-dvsr t:meta.view.owner v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.owner d:2017-06-09T13:57:39.553Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
 
-property e:ebe6-dvsr t:meta.view.tableauthor v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.tableauthor d:2017-06-09T13:57:39.553Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
 ```
 
 ## Top Records

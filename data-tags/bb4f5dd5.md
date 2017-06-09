@@ -9,7 +9,7 @@ Name | Host | Published
 [CDC STATE System Tobacco Legislation - Fire Safety](../datasets/isz8-idbx.md) | data.cdc.gov | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Licensure](../datasets/eb4y-d4ic.md) | data.cdc.gov | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Preemption](../datasets/xsta-sbh5.md) | data.cdc.gov | 2017&#x2011;02&#x2011;16
-[CDC STATE System Tobacco Legislation - Preemption Summary](../datasets/hj2x-85ya.md) | chronicdata.cdc.gov | 2017&#x2011;02&#x2011;07
+[CDC STATE System Tobacco Legislation - Preemption Summary](../datasets/hj2x-85ya.md) | data.cdc.gov | 2017&#x2011;02&#x2011;07
 [CDC STATE System Tobacco Legislation - Smokefree Campus](../datasets/yhkp-cczf.md) | data.cdc.gov | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Smokefree Indoor Air](../datasets/32fd-hyzc.md) | data.cdc.gov | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Smokefree Indoor Air Summary](../datasets/2snk-eav4.md) | chronicdata.cdc.gov | 2017&#x2011;02&#x2011;16
@@ -24,11 +24,11 @@ Name | Host | Published
 [NAAG Tobacco Settlement Payments](../datasets/ffbi-is3j.md) | data.cdc.gov | 2017&#x2011;03&#x2011;02
 [New Liquor Licenses](../datasets/dymb-xy5c.md) | data.mo.gov | 2017&#x2011;04&#x2011;20
 [Percent of Adult Current Smokers by Sex and Race/Ethnicity, 1995-2010](../datasets/xyrh-5e77.md) | data.maryland.gov | 2012&#x2011;11&#x2011;27
-[Question Inventory on Tobacco (QIT)](../datasets/vdgb-f9s3.md) | chronicdata.cdc.gov | 2016&#x2011;11&#x2011;10
+[Question Inventory on Tobacco (QIT)](../datasets/vdgb-f9s3.md) | data.cdc.gov | 2016&#x2011;11&#x2011;10
 [Restricted Flavored Tobacco Flavor Terms](../datasets/fkci-tsq8.md) | data.cityofchicago.org | 2016&#x2011;01&#x2011;13
 [Restricted Flavored Tobacco Products](../datasets/5wce-bks2.md) | data.cityofchicago.org | 2015&#x2011;12&#x2011;18
 [SAMHSA Synar Reports: Youth Tobacco Sales](../datasets/escb-scz6.md) | data.cdc.gov | 2016&#x2011;12&#x2011;12
-[Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)](../datasets/ezab-8sq5.md) | chronicdata.cdc.gov | 2017&#x2011;02&#x2011;06
+[Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)](../datasets/ezab-8sq5.md) | data.cdc.gov | 2017&#x2011;02&#x2011;06
 [Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Mortality (SAM)](../datasets/4yyu-3s69.md) | data.cdc.gov | 2017&#x2011;02&#x2011;06
 [TAX 12-2012 Tobacco Tax Collections](../datasets/42id-b4fw.md) | data.hawaii.gov | 2013&#x2011;02&#x2011;05
 [Tobacco Use Supplement to the Current Population Survey (TUS-CPS) Data](../datasets/4y6p-yphk.md) | data.cdc.gov | 2017&#x2011;03&#x2011;15

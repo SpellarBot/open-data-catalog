@@ -61,11 +61,11 @@ metric m:row_number.szip-b22v p:long l:"Row Number"
 
 entity e:szip-b22v l:"Statewide Hatchery Rollup" t:url=https://data.wa.gov/api/views/szip-b22v
 
-property e:szip-b22v t:meta.view v:id=szip-b22v v:averageRating=0 v:name="Statewide Hatchery Rollup"
+property e:szip-b22v t:meta.view d:2017-06-09T13:53:16.060Z v:id=szip-b22v v:averageRating=0 v:name="Statewide Hatchery Rollup"
 
-property e:szip-b22v t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:szip-b22v t:meta.view.owner d:2017-06-09T13:53:16.060Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
-property e:szip-b22v t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:szip-b22v t:meta.view.tableauthor d:2017-06-09T13:53:16.060Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
 
 ## Top Records

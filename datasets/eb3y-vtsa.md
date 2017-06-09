@@ -58,11 +58,11 @@ metric m:row_number.eb3y-vtsa p:long l:"Row Number"
 
 entity e:eb3y-vtsa l:"Food Pantry List" t:url=https://data.mo.gov/api/views/eb3y-vtsa
 
-property e:eb3y-vtsa t:meta.view v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"
+property e:eb3y-vtsa t:meta.view d:2017-06-09T13:55:17.754Z v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"
 
-property e:eb3y-vtsa t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1492723347 v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.owner d:2017-06-09T13:55:17.754Z v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
 
-property e:eb3y-vtsa t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1492723347 v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.tableauthor d:2017-06-09T13:55:17.754Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
 ```
 
 ## Top Records

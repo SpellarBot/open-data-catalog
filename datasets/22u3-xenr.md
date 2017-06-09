@@ -79,11 +79,11 @@ metric m:row_number.22u3-xenr p:long l:"Row Number"
 
 entity e:22u3-xenr l:"Building Violations" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/22u3-xenr
 
-property e:22u3-xenr t:meta.view v:id=22u3-xenr v:category=Buildings v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Building Violations" v:attribution="City of Chicago"
+property e:22u3-xenr t:meta.view d:2017-06-09T13:59:31.596Z v:id=22u3-xenr v:category=Buildings v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Building Violations" v:attribution="City of Chicago"
 
-property e:22u3-xenr t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:displayName=cocadmin v:privilegesDisabled=false
+property e:22u3-xenr t:meta.view.owner d:2017-06-09T13:59:31.596Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:displayName=cocadmin v:privilegesDisabled=false
 
-property e:22u3-xenr t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:22u3-xenr t:meta.view.tableauthor d:2017-06-09T13:59:31.596Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```
 
 ## Top Records

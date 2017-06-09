@@ -13,6 +13,7 @@ Name | Category | Published
 [BRFSS Prevalence and Trends Data: Tobacco Use - Four Level Smoking Data for 1995-2010](../datasets/8zak-ewtm.md) | Smoking & Tobacco Use | 2013&#x2011;08&#x2011;02
 [Behavioral Risk Factor Data: Health-Related Quality of Life (HRQOL)](../datasets/xuxn-8kju.md) | Health-Related Quality of Life | 2015&#x2011;06&#x2011;04
 [Behavioral Risk Factor Data: Heart Disease & Stroke Prevention](../datasets/4ny5-qn3w.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
+[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](../datasets/d2rk-yvas.md) | Behavioral Risk Factors | 2016&#x2011;12&#x2011;23
 [Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)](../datasets/y4ft-s73h.md) | Behavioral Risk Factors | 2016&#x2011;03&#x2011;11
 [Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2011 to present)](../datasets/dttw-5yxu.md) | Behavioral Risk Factors | 2016&#x2011;12&#x2011;23
 [Behavioral Risk Factors - Vision & Eye Health](../datasets/pttf-ck53.md) | Vision & Eye Health | 2016&#x2011;02&#x2011;02
@@ -27,13 +28,14 @@ Name | Category | Published
 [CDC PRAMStat Data for 2003](../datasets/u76f-m89e.md) | Maternal & Child Health | 2015&#x2011;03&#x2011;17
 [CDC PRAMStat Data for 2009](../datasets/qwpv-wpc8.md) | Maternal & Child Health | 2015&#x2011;03&#x2011;16
 [CDC PRAMStat Data for 2010](../datasets/xvu4-xjdb.md) | Maternal & Child Health | 2015&#x2011;03&#x2011;16
-[CDC PRAMStat Data for 2011](../datasets/ese6-rqpq.md) | Maternal & Child Health | 2015&#x2011;03&#x2011;16
 [CDC STATE System E-Cigarette Legislation - Licensure](../datasets/ne52-uraz.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System E-Cigarette Legislation - Preemption](../datasets/piju-vf3p.md) | Legislation | 2017&#x2011;02&#x2011;16
+[CDC STATE System E-Cigarette Legislation - Smokefree Campus](../datasets/itia-u6fu.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System E-Cigarette Legislation - Youth Access](../datasets/8zea-kwnt.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Fire Safety](../datasets/isz8-idbx.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Licensure](../datasets/eb4y-d4ic.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Preemption](../datasets/xsta-sbh5.md) | Legislation | 2017&#x2011;02&#x2011;16
+[CDC STATE System Tobacco Legislation - Preemption Summary](../datasets/hj2x-85ya.md) | Legislation | 2017&#x2011;02&#x2011;07
 [CDC STATE System Tobacco Legislation - Smokefree Campus](../datasets/yhkp-cczf.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Smokefree Indoor Air](../datasets/32fd-hyzc.md) | Legislation | 2017&#x2011;02&#x2011;16
 [CDC STATE System Tobacco Legislation - Tax](../datasets/2dwv-vfam.md) | Legislation | 2017&#x2011;02&#x2011;16
@@ -80,7 +82,7 @@ Name | Category | Published
 [NCHS - Drug Poisoning Mortality, U.S. and State Trends: United States, 1999?2015](../datasets/jx6g-fdh6.md) | NCHS | 2017&#x2011;04&#x2011;11
 [NCHS - Infant Mortality Rates, by Race: United States, 1915-2013](../datasets/ddsk-zebd.md) | NCHS | 2016&#x2011;06&#x2011;22
 [NCHS - Infant and neonatal mortality rates: United States, 1915-2013](../datasets/epev-k6ss.md) | NCHS | 2016&#x2011;06&#x2011;22
-[NCHS - Injury Mortality: United States, 1999?2014](../datasets/nt65-c7a7.md) | NCHS | 2016&#x2011;10&#x2011;20
+[NCHS - Injury Mortality: United States, 1999–2014](../datasets/nt65-c7a7.md) | NCHS | 2016&#x2011;10&#x2011;20
 [NCHS - Nonmarital Birth Rates, by Age Group for All Women Age 15-44: United States, 1980-2013](../datasets/jvf6-ix4w.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Nonmarital Birth Rates, by Race and Hispanic Origin for Women Aged 15-44: United States, 1970-2013](../datasets/6tkz-y37d.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Percent Distribution of Births, by Maternal Age: United States, 1933-2013](../datasets/isx2-c2ii.md) | NCHS | 2015&#x2011;12&#x2011;02
@@ -119,7 +121,7 @@ Name | Category | Published
 [NNDSS - Table II. Hepatitis (viral, acute) A & B](../datasets/vxsn-2csw.md) | NNDSS | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Hepatitis (viral, acute) C](../datasets/swv3-ghj7.md) | NNDSS | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Invasive Pneumococcal Diseases, Age <5](../datasets/9yc3-yir3.md) | NNDSS | 2017&#x2011;04&#x2011;20
-[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](../datasets/mbsb-z5f8.md) | NNDSS | 2017&#x2011;04&#x2011;20
+[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](../datasets/mbsb-z5f8.md) | NNDSS | 2017&#x2011;06&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | NNDSS | 2015&#x2011;01&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | NNDSS | 2015&#x2011;01&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | NNDSS | 2015&#x2011;01&#x2011;08
@@ -130,7 +132,7 @@ Name | Category | Published
 [NNDSS - Table II. Meningococcal to Pertussis](../datasets/hatw-7gqy.md) | NNDSS | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Mumps to Rabies, animal](../datasets/d69q-iyrb.md) | NNDSS | 2016&#x2011;01&#x2011;07
 [NNDSS - Table II. Mumps to Rabies, animal](../datasets/d69q-iyrb.md) | NNDSS | 2016&#x2011;01&#x2011;07
-[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | NNDSS | 2017&#x2011;04&#x2011;20
+[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | NNDSS | 2017&#x2011;06&#x2011;08
 [NNDSS - Table II. Rubella to Salmonellosis](../datasets/4qb4-rsd8.md) | NNDSS | 2017&#x2011;01&#x2011;05
 [NNDSS - Table II. Rubella to Salmonellosis](../datasets/4qb4-rsd8.md) | NNDSS | 2017&#x2011;01&#x2011;05
 [NNDSS - Table II. Salmonellosis to Shigellosis](../datasets/hwyq-75wu.md) | NNDSS | 2017&#x2011;04&#x2011;20
@@ -152,12 +154,13 @@ Name | Category | Published
 [NNDSS - Table IV. Tuberculosis](../datasets/pxa6-asqb.md) | NNDSS | 2015&#x2011;01&#x2011;15
 [NNDSS - Table IV. Tuberculosis](../datasets/pxa6-asqb.md) | NNDSS | 2015&#x2011;01&#x2011;15
 [NNDSS - Table IV. Tuberculosis](../datasets/pxa6-asqb.md) | NNDSS | 2015&#x2011;01&#x2011;15
-[NOHSS Adult Indicators](../datasets/jz6n-v26y.md) | Oral Health | 2016&#x2011;11&#x2011;17
 [NOHSS Adult Indicators - 2010 And Prior BRFSS](../datasets/aemk-wcbf.md) | Oral Health | 2016&#x2011;11&#x2011;07
 [NOHSS Child Indicators](../datasets/qcai-zfj9.md) | Oral Health | 2016&#x2011;08&#x2011;08
+[National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](../datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
 [National Health and Nutrition Examination Survey (NHANES)](../datasets/5svk-8bnq.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
 [National Vital Statistics System (NVSS) - National Cardiovascular Disease Surveillance Data](../datasets/kztq-p2jf.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
 [Nowcast Predictions for Chikungunya Virus-Infected Travelers](../datasets/2sxq-n8zu.md) |  | 2015&#x2011;08&#x2011;10
+[Nutrition, Physical Activity, and Obesity - American Community Survey](../datasets/8mrp-rmkw.md) | Nutrition, Physical Activity, and Obesity | 2017&#x2011;05&#x2011;01
 [Nutrition, Physical Activity, and Obesity - Behavioral Risk Factor Surveillance System](../datasets/hn4x-zwk7.md) | Nutrition, Physical Activity, and Obesity | 2016&#x2011;12&#x2011;19
 [Nutrition, Physical Activity, and Obesity - National Immunization Survey (Breastfeeding)](../datasets/8hxn-cvik.md) | Nutrition, Physical Activity, and Obesity | 2016&#x2011;12&#x2011;19
 [Nutrition, Physical Activity, and Obesity - Policy and Environmental Data](../datasets/k8w5-7ju6.md) | Nutrition, Physical Activity, and Obesity | 2016&#x2011;12&#x2011;19
@@ -185,6 +188,7 @@ Name | Category | Published
 [Percentage of Drivers and Front Seat Passengers Wearing Seat Belts, 2012 & 2014, Region 7 - Kansas City](../datasets/y8pa-p62q.md) | Motor Vehicle | 2016&#x2011;09&#x2011;14
 [Percentage of Drivers and Front Seat Passengers Wearing Seat Belts, 2012 & 2014, Region 8 - Denver](../datasets/iz46-hpaa.md) | Motor Vehicle | 2016&#x2011;09&#x2011;14
 [Percentage of Drivers and Front Seat Passengers Wearing Seat Belts, 2012 & 2014, Region 9 - San Francisco](../datasets/fkfk-2j5x.md) | Motor Vehicle | 2016&#x2011;09&#x2011;14
+[Question Inventory on Tobacco (QIT)](../datasets/vdgb-f9s3.md) | Survey Questions (Tobacco Use) | 2016&#x2011;11&#x2011;10
 [Quitline ? 7-Month Follow-Up (Not Comparable Across States) ? 2010-2011](../datasets/7dvv-y64a.md) | Quitline | 2017&#x2011;02&#x2011;01
 [Quitline ? Service Utilization - 2010 To Present](../datasets/equ4-92qe.md) | Quitline | 2017&#x2011;04&#x2011;18
 [Quitline ? Services Available ? Counseling - 2010 To Present](../datasets/66cx-b9a4.md) | Quitline | 2017&#x2011;04&#x2011;13
@@ -199,6 +203,7 @@ Name | Category | Published
 [Selected Trend Table from Health, United States, 2011. Leading causes of death and numbers of deaths, by sex, race, and Hispanic origin: United States, 1980 and 2009](../datasets/vp9c-m6nq.md) | Health Statistics | 2013&#x2011;07&#x2011;29
 [Selected Trend Table from Health, United States, 2011. Low birthweight live births, by race and Hispanic origin of mother, and state: United States, 2000 - 2002, 2003 - 2005, and 2006 - 2008](../datasets/m4es-3af4.md) | Health Statistics | 2013&#x2011;07&#x2011;29
 [Selected Trend Table from Health, United States, 2011. Vaccination coverage among children 19 - 35 months of age for selected diseases, by race, Hispanic origin, poverty level, and location of resi...](../datasets/nkri-ptxd.md) | Health Statistics | 2013&#x2011;08&#x2011;14
+[Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Expenditures (SAE)](../datasets/ezab-8sq5.md) | Health Consequences and Costs | 2017&#x2011;02&#x2011;06
 [Smoking-Attributable Mortality, Morbidity, and Economic Costs (SAMMEC) - Smoking-Attributable Mortality (SAM)](../datasets/4yyu-3s69.md) | Health Consequences and Costs | 2017&#x2011;02&#x2011;06
 [State Specific Influenza Vaccination Coverage Among Women With Live Birth- PRAMS, 2009-10 Influenza Season](../datasets/mmi4-8ajr.md) | Pregnancy & Vaccination | 2013&#x2011;06&#x2011;19
 [Stroke Mortality Data Among US Adults (35+) by State/Territory and County](../datasets/dhsy-4sea.md) | Heart Disease & Stroke Prevention | 2016&#x2011;09&#x2011;26

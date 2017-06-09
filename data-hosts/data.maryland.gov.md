@@ -209,7 +209,7 @@ Name | Category | Published
 [Maryland State Department of Education Performance Dashboard Measures](../datasets/qfc2-mfn8.md) | Education | 2017&#x2011;02&#x2011;02
 [Maryland State Police Performance Dashboard - Quarterly Data](../datasets/tx73-47dk.md) | Public Safety | 2017&#x2011;04&#x2011;07
 [Maryland Title X Family Planning Clinics (As of October 2012)](../datasets/bpm6-i7k9.md) | Health and Human Services | 2012&#x2011;11&#x2011;20
-[Maryland Total Acres For Residential Development: 2006-2010](../datasets/p4s2-mc7r.md) | Housing | 2013&#x2011;11&#x2011;20
+[Maryland Total Acres For Residential Development: 2006-2015](../datasets/p4s2-mc7r.md) | Housing | 2017&#x2011;05&#x2011;25
 [Maryland Total Acres Inside PFA For Residential Development: 2006-2010](../datasets/f3qh-wtyk.md) | Housing | 2013&#x2011;11&#x2011;20
 [Maryland Total Acres Outside PFA For Residential Development: 2006-2010](../datasets/hm86-3au5.md) | Housing | 2013&#x2011;11&#x2011;20
 [Maryland Total Births By Year: 2000-2011](../datasets/vavn-j725.md) | Demographic | 2013&#x2011;11&#x2011;14
@@ -234,7 +234,7 @@ Name | Category | Published
 [Minority Business Enterprise: Statewide Directory - MBE, DBE (Disadvantaged Business Enterprise), SBE (Small Business Enterprise), and ACDBE (Airport Concession Disadvantaged Enterprise) Certified ...](../datasets/viap-eh6m.md) | Business and Economy | 2017&#x2011;03&#x2011;01
 [Montgomery County Full and Part Time Jobs By Industry: 2001-2040](../datasets/qgsn-md8q.md) | Planning | 2015&#x2011;02&#x2011;23
 [Mount Rainier: County Designated Historical Sites & National Register of Historic Places Sites](../datasets/nifh-ijgb.md) | Planning | 2014&#x2011;11&#x2011;10
-[Multi-Family Housing FY 2011-2016](../datasets/cadm-spqd.md) |  | 2017&#x2011;02&#x2011;27
+[Multi-Family Housing FY 2011-2016](../datasets/cadm-spqd.md) | Housing | 2017&#x2011;05&#x2011;02
 [Multifamily Energy Fund Recipients 2013 Approved](../datasets/yjxi-zyut.md) | Housing | 2014&#x2011;03&#x2011;24
 [Multifamily LIHTC Recipient 2013 Approved 2 03 14](../datasets/tjss-tqry.md) | Housing | 2014&#x2011;03&#x2011;24
 [Municipal Expenditures By Category ? Fiscal Year 2010](../datasets/6ndv-zvyu.md) | Budget | 2014&#x2011;08&#x2011;08
@@ -248,7 +248,7 @@ Name | Category | Published
 [Number of Deaths for Selected Causes among Maryland Residents, 1992-2011](../datasets/vbug-jt5v.md) | Health and Human Services | 2012&#x2011;11&#x2011;19
 [Number of Diabetes Deaths among Maryland Residents, 1920-2011](../datasets/smru-f5wc.md) | Health and Human Services | 2012&#x2011;11&#x2011;19
 [Number of Drug and Alcohol-Related Intoxication Deaths by County of Incident, 2007-2013](../datasets/eprz-kexz.md) | Health and Human Services | 2014&#x2011;10&#x2011;02
-[Number of Heart Disease Deaths among Maryland Residents, 1920-2011](../datasets/x7bj-p425.md) | Health and Human Services | 2012&#x2011;11&#x2011;27
+[Number of Heart Disease Deaths among Maryland Residents, 1920-2015](../datasets/x7bj-p425.md) | Health and Human Services | 2017&#x2011;06&#x2011;01
 [Number of businesses in the State](../datasets/ftgf-3uby.md) | Business and Economy | 2017&#x2011;04&#x2011;03
 [On Time Performance](../datasets/s7x9-aarw.md) | Transportation | 2016&#x2011;09&#x2011;07
 [Operating Cost Per Passenger Trip](../datasets/ntnu-s899.md) | Transportation | 2016&#x2011;09&#x2011;07

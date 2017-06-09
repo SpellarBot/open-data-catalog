@@ -58,11 +58,11 @@ metric m:tot_fed_expended p:double l:Tot_Fed_Expended t:dataTypeName=money
 
 entity e:eugj-j27t l:"American Recovery And Reinvestment Act Of 2009 ( ARRA)" t:url=https://data.ct.gov/api/views/eugj-j27t
 
-property e:eugj-j27t t:meta.view v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"
+property e:eugj-j27t t:meta.view d:2017-06-09T13:55:10.329Z v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"
 
-property e:eugj-j27t t:meta.view.owner v:id=6ypf-grnx v:screenName="Jamie Gamble" v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.owner d:2017-06-09T13:55:10.329Z v:id=6ypf-grnx v:screenName="Jamie Gamble" v:displayName="Jamie Gamble"
 
-property e:eugj-j27t t:meta.view.tableauthor v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.tableauthor d:2017-06-09T13:55:10.329Z v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
 ```
 
 ## Top Records
@@ -79,5 +79,5 @@ property e:eugj-j27t t:meta.view.tableauthor v:id=6ypf-grnx v:screenName="Jamie 
 | Bethany      | 09RECJAGLO7518  | 9100.00         | 9100.00          | To deploy a speed radar trailer on town and state roadways that the public has cited as hazardous or law enforcment deems a problem in order to increase motorist awareness of their actual speed.                                                              | 
 | Bethel       | 09RECJAGLO7519  | 30000.00        | 30000.00         | To create a mobile command post and puchase the remaining components for a radio backup generator, which will allow uninterrupted police radio communications during power failures.                                                                            | 
 | Bethlehem    | 09RECJAGLO75110 | 9100.00         | 8834.47          | To procure a video surveillance system for the Town Hall and surrounding athletic field, basketball court and parking lot to deter ongoing property crime, nuisance complaints, and narcotics activity.                                                         | 
-| Bloomfield   | 09RECJAGLO75111 | 30000.00        | 30000.00         | Upgrade an existing Storage Area Network (SAN) into a ?Virtual Storage Area Network?.                                                                                                                                                                           | 
+| Bloomfield   | 09RECJAGLO75111 | 30000.00        | 30000.00         | Upgrade an existing Storage Area Network (SAN) into a “Virtual Storage Area Network”.                                                                                                                                                                           | 
 ```

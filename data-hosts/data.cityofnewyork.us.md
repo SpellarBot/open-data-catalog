@@ -92,7 +92,7 @@ Name | Category | Published
 [Assembly District Breakdowns](../datasets/2t32-hbca.md) | City Government | 2013&#x2011;06&#x2011;26
 [Assessment Actions](../datasets/4nft-bihw.md) | City Government | 2017&#x2011;03&#x2011;15
 [Assignment of Officers against whom Allegations were Substantiated](../datasets/rbrz-iagc.md) | City Government | 2013&#x2011;06&#x2011;21
-[Attendance 4PM Report](../datasets/madj-gkhr.md) | Education | 2017&#x2011;04&#x2011;20
+[Attendance 4PM Report](../datasets/madj-gkhr.md) | Education | 2017&#x2011;06&#x2011;08
 [Attribution of Complaints to Different Bureaus](../datasets/wwsa-q2dq.md) | City Government | 2013&#x2011;06&#x2011;21
 [Audited Register Data](../datasets/2pmj-y4p4.md) | Education | 2016&#x2011;03&#x2011;08
 [Average Daily Inmate Population](../datasets/26ze-s5bx.md) | Public Safety | 2013&#x2011;06&#x2011;26
@@ -248,7 +248,7 @@ Name | Category | Published
 [DOB NOW: Build ? Job Application Filings](../datasets/w9ak-ipjd.md) | Housing & Development | 2016&#x2011;05&#x2011;26
 [DOB NOW: Safety ? Facades Compliance Filings](../datasets/xubg-57si.md) | Housing & Development | 2017&#x2011;04&#x2011;20
 [DOB Permit Issuance](../datasets/ipu4-2q9a.md) | Housing & Development | 2017&#x2011;04&#x2011;20
-[DOB Sign Application Filings](../datasets/nyis-y4yr.md) | Housing & Development | 2017&#x2011;04&#x2011;14
+[DOB Sign Application Filings](../datasets/nyis-y4yr.md) | Housing & Development | 2017&#x2011;06&#x2011;08
 [DOB Violations](../datasets/3h2n-5cm9.md) | Housing & Development | 2015&#x2011;11&#x2011;24
 [DOC Annual Statistics](../datasets/wkaa-8g8b.md) | City Government | 2013&#x2011;06&#x2011;21
 [DOC Visitor Arrests](../datasets/hm7r-w4y9.md) | Public Safety | 2013&#x2011;06&#x2011;26
@@ -291,14 +291,14 @@ Name | Category | Published
 [DOF: Cooperative Comparable Rental Income ? Manhattan? FY 2008/2009](../datasets/3btx-p4av.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Manhattan? FY 2009/2010](../datasets/niy5-4j7q.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Manhattan? FY 2010/2011](../datasets/jxyc-rxiv.md) | Housing & Development | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income ? Manhattan? FY 2011/2012](../datasets/m56g-jpua.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2008/2009](../datasets/cwg5-cqkm.md) | Housing & Development | 2013&#x2011;06&#x2011;21
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2009/2010](../datasets/ykx2-pdw8.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2010/2011](../datasets/r4s5-tb2g.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2011/2012](../datasets/sjpy-4cc9.md) | Housing & Development | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2008/2009](../datasets/97iw-vtbx.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2009/2010](../datasets/9sfa-4geq.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2011/2012](../datasets/2zbg-i8fx.md) | Housing & Development | 2013&#x2011;06&#x2011;26
+[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | Housing & Development | 2013&#x2011;06&#x2011;26
+[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2007](../datasets/hdu7-ujt4.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2008](../datasets/ugc2-6t2g.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2009](../datasets/5ps9-yuef.md) | Housing & Development | 2013&#x2011;06&#x2011;21
@@ -340,7 +340,7 @@ Name | Category | Published
 [DOP Juvenile Cases Snapshot by Fiscal Year](../datasets/4epu-t832.md) | City Government | 2016&#x2011;09&#x2011;16
 [DOP Juvenile Intakes by Calendar Year](../datasets/7ree-jtaa.md) | City Government | 2017&#x2011;03&#x2011;08
 [DOP Juvenile Intakes by Fiscal Year](../datasets/ff9v-9yzg.md) | City Government | 2016&#x2011;09&#x2011;16
-[DOP Juvenile Investigations Assigned](../datasets/vk9f-gvzq.md) | Public Safety | 2017&#x2011;03&#x2011;31
+[DOP Juvenile Investigations Assigned](../datasets/vk9f-gvzq.md) | Public Safety | 2017&#x2011;04&#x2011;27
 [DOP Juvenile Investigations by Calendar Year](../datasets/fsis-j6x5.md) | City Government | 2017&#x2011;03&#x2011;08
 [DOP Juvenile Investigations by Fiscal Year](../datasets/3mji-gpg5.md) | City Government | 2016&#x2011;09&#x2011;16
 [DOP Juvenile Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average)](../datasets/7m8q-jgtg.md) | Public Safety | 2017&#x2011;03&#x2011;31
@@ -390,7 +390,7 @@ Name | Category | Published
 [Denied licensees and registrants for trade waste](../datasets/5t7n-dizh.md) | Business | 2013&#x2011;06&#x2011;21
 [Denied registrants in the wholesale markets](../datasets/35f6-8qd2.md) | Business | 2013&#x2011;06&#x2011;21
 [Derelict Vehicle Dispositions - Tow](../datasets/vr8p-8shw.md) | City Government | 2017&#x2011;04&#x2011;08
-[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | City Government | 2017&#x2011;04&#x2011;08
+[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | City Government | 2017&#x2011;06&#x2011;08
 [Derelict Vehicles Dispositions - Complaints](../datasets/pq5i-thsu.md) | City Government | 2017&#x2011;04&#x2011;08
 [Derelict Vehicles Dispositions - Rentals](../datasets/v6j6-k9uc.md) | City Government | 2017&#x2011;04&#x2011;08
 [Directory Of Adult Shelter Performance Ranking FY 2011 Q3 2011 Q4](../datasets/jhn3-4vdj.md) | Social Services | 2013&#x2011;01&#x2011;31
@@ -684,7 +684,7 @@ Name | Category | Published
 [Licensing Center Customer Information](../datasets/azp6-hepu.md) | Business | 2016&#x2011;07&#x2011;13
 [Lincoln Square BID Business List](../datasets/ne9f-g6k4.md) | Business | 2013&#x2011;06&#x2011;21
 [LinkNYC Locations](../datasets/s4kf-3yrf.md) | Social Services | 2017&#x2011;04&#x2011;20
-[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | Social Services | 2017&#x2011;03&#x2011;31
+[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | Social Services | 2017&#x2011;06&#x2011;01
 [LinkNYC Usage Statistics](../datasets/69wu-b929.md) |  | 2017&#x2011;04&#x2011;20
 [List Of Cases Filed By Type At OATH](../datasets/s7vy-wmm7.md) | City Government | 2013&#x2011;06&#x2011;21
 [List Of Total Cases Filed At OATH](../datasets/j8uz-fizu.md) | City Government | 2013&#x2011;06&#x2011;21
@@ -768,7 +768,7 @@ Name | Category | Published
 [NYC Open Data Removed Datasets](../datasets/avwh-jmzt.md) | City Government | 2016&#x2011;06&#x2011;08
 [NYC OpenRecords ? FOIL Request Data](../datasets/9m35-jch2.md) | City Government | 2016&#x2011;04&#x2011;05
 [NYC Parks Monuments](../datasets/6rrm-vxj9.md) | Recreation | 2016&#x2011;09&#x2011;19
-[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | City Government | 2017&#x2011;04&#x2011;20
+[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | City Government | 2017&#x2011;06&#x2011;08
 [NYC REACH Members](../datasets/7btz-mnc8.md) | Health | 2017&#x2011;01&#x2011;21
 [NYC Results On The New York State Math Test (2013-14 And 2014-15) With Math Regents Included](../datasets/xw3c-8982.md) |  | 2016&#x2011;03&#x2011;14
 [NYC School meals income levels](../datasets/h7mf-hrsw.md) | Health | 2013&#x2011;03&#x2011;19

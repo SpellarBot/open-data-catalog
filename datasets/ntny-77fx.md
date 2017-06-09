@@ -88,15 +88,15 @@ metric m:confidence_limit_high p:float l:Confidence_limit_High d:"95% confidence
 
 entity e:ntny-77fx l:"Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" t:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System" t:url=https://chronicdata.cdc.gov/api/views/ntny-77fx
 
-property e:ntny-77fx t:meta.view v:id=ntny-77fx v:category="Heart Disease & Stroke Prevention" v:attributionLink=http://www.cdc.gov/dhdsp/ncvdss/index.htm v:averageRating=0 v:name="Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" v:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System"
+property e:ntny-77fx t:meta.view d:2017-06-09T13:53:48.928Z v:id=ntny-77fx v:category="Heart Disease & Stroke Prevention" v:attributionLink=http://www.cdc.gov/dhdsp/ncvdss/index.htm v:averageRating=0 v:name="Healthcare Cost and Utilization Project (HCUP) - National Inpatient Sample" v:attribution="Centers for Disease Control and Prevention National Center for Chronic Disease Prevention and Health Promotion Division of Heart Disease and Stroke Prevention (DHDSP), National Cardiovascular Disease Surveillance System"
 
-property e:ntny-77fx t:meta.view.license v:name="Public Domain"
+property e:ntny-77fx t:meta.view.license d:2017-06-09T13:53:48.928Z v:name="Public Domain"
 
-property e:ntny-77fx t:meta.view.owner v:id=6thr-55du v:screenName=Angelique v:displayName=Angelique
+property e:ntny-77fx t:meta.view.owner d:2017-06-09T13:53:48.928Z v:id=6thr-55du v:screenName=VHC6@cdc.gov v:displayName=VHC6@cdc.gov
 
-property e:ntny-77fx t:meta.view.tableauthor v:id=6thr-55du v:screenName=Angelique v:roleName=publisher v:displayName=Angelique
+property e:ntny-77fx t:meta.view.tableauthor d:2017-06-09T13:53:48.928Z v:id=6thr-55du v:screenName=VHC6@cdc.gov v:roleName=publisher v:displayName=VHC6@cdc.gov
 
-property e:ntny-77fx t:meta.view.metadata.custom_fields.common_core v:Publisher="CDC INFO" v:Contact_Email=cdcinfo@cdc.gov v:Public_Access_Level="Public Domain" v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:029
+property e:ntny-77fx t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:48.928Z v:Publisher="CDC INFO" v:Contact_Email=cdcinfo@cdc.gov v:Public_Access_Level="Public Domain" v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:029
 ```
 
 ## Top Records

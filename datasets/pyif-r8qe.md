@@ -19,7 +19,7 @@
 
 ## Description
 
-Facilities in New York City, by agency and site, that offer ?Beacon Satellite at NYCHA Programs? after-school programs. Update Schedule: Annually
+Facilities in New York City, by agency and site, that offer “Beacon Satellite at NYCHA Programs” after-school programs. Update Schedule: Annually
 
 ## Columns
 
@@ -60,11 +60,11 @@ metric m:row_number.pyif-r8qe p:long l:"Row Number"
 
 entity e:pyif-r8qe l:"DYCD after-school programs: Beacon Satellite At NYCHA Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/pyif-r8qe
 
-property e:pyif-r8qe t:meta.view v:id=pyif-r8qe v:category=Education v:averageRating=0 v:name="DYCD after-school programs: Beacon Satellite At NYCHA Programs" v:attribution="Department of Youth and Community Development (DYCD)"
+property e:pyif-r8qe t:meta.view d:2017-06-09T13:58:57.035Z v:id=pyif-r8qe v:category=Education v:averageRating=0 v:name="DYCD after-school programs: Beacon Satellite At NYCHA Programs" v:attribution="Department of Youth and Community Development (DYCD)"
 
-property e:pyif-r8qe t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:pyif-r8qe t:meta.view.owner d:2017-06-09T13:58:57.035Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:pyif-r8qe t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:pyif-r8qe t:meta.view.tableauthor d:2017-06-09T13:58:57.035Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
 
 ## Top Records

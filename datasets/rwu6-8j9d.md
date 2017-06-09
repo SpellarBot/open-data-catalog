@@ -79,11 +79,11 @@ metric m:alarms p:integer l:alarms t:dataTypeName=number
 
 entity e:rwu6-8j9d l:GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013 t:url=https://data.hartford.gov/api/views/rwu6-8j9d
 
-property e:rwu6-8j9d t:meta.view v:id=rwu6-8j9d v:averageRating=0 v:name=GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013
+property e:rwu6-8j9d t:meta.view d:2017-06-09T14:00:18.673Z v:id=rwu6-8j9d v:averageRating=0 v:name=GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013
 
-property e:rwu6-8j9d t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
+property e:rwu6-8j9d t:meta.view.owner d:2017-06-09T14:00:18.673Z v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
 
-property e:rwu6-8j9d t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:rwu6-8j9d t:meta.view.tableauthor d:2017-06-09T14:00:18.673Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```
 
 ## Top Records

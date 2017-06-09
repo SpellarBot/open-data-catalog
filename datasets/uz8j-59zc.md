@@ -55,11 +55,11 @@ metric m:row_number.uz8j-59zc p:long l:"Row Number"
 
 entity e:uz8j-59zc l:"Snake Stream Miles Opened" t:url=https://data.wa.gov/api/views/uz8j-59zc
 
-property e:uz8j-59zc t:meta.view v:id=uz8j-59zc v:averageRating=0 v:name="Snake Stream Miles Opened"
+property e:uz8j-59zc t:meta.view d:2017-06-09T13:56:08.801Z v:id=uz8j-59zc v:averageRating=0 v:name="Snake Stream Miles Opened"
 
-property e:uz8j-59zc t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:uz8j-59zc t:meta.view.owner d:2017-06-09T13:56:08.801Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
-property e:uz8j-59zc t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:uz8j-59zc t:meta.view.tableauthor d:2017-06-09T13:56:08.801Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
 
 ## Top Records

@@ -6,7 +6,7 @@ Name | Category | Published
 [311 Service Requests - Alley Lights Out](../datasets/t28b-ys7j.md) | Service Requests | 2017&#x2011;04&#x2011;20
 [311 Service Requests - Garbage Carts](../datasets/9ksk-na4q.md) | Service Requests | 2017&#x2011;04&#x2011;20
 [311 Service Requests - Graffiti Removal](../datasets/hec5-y4x5.md) | Service Requests | 2017&#x2011;04&#x2011;21
-[311 Service Requests - Pot Holes Reported](../datasets/7as2-ds3y.md) | Service Requests | 2017&#x2011;04&#x2011;20
+[311 Service Requests - Pot Holes Reported](../datasets/7as2-ds3y.md) | Service Requests | 2017&#x2011;06&#x2011;09
 [311 Service Requests - Rodent Baiting](../datasets/97t6-zrhs.md) | Service Requests | 2017&#x2011;04&#x2011;21
 [311 Service Requests - Sanitation Code Complaints](../datasets/me59-5fac.md) | Service Requests | 2017&#x2011;04&#x2011;20
 [311 Service Requests - Street Lights - One Out](../datasets/3aav-uy2v.md) | Service Requests | 2017&#x2011;04&#x2011;21
@@ -75,7 +75,7 @@ Name | Category | Published
 [CTA - List of Fare Media Sales Outlets (deprecated August 2014)](../datasets/ag7u-gr9m.md) | Transportation | 2013&#x2011;10&#x2011;14
 [CTA - Performance - Bus Runs Held Due to Absenteeism (2011, Jan-Aug)](../datasets/t58d-f8en.md) | Transportation | 2011&#x2011;10&#x2011;05
 [CTA - Performance - Unscheduled Days Off](../datasets/spus-59r8.md) | Transportation | 2012&#x2011;02&#x2011;15
-[CTA - Ridership - 'L' Station Entries - Daily Totals](../datasets/5neh-572f.md) | Transportation | 2017&#x2011;02&#x2011;16
+[CTA - Ridership - 'L' Station Entries - Daily Totals](../datasets/5neh-572f.md) | Transportation | 2017&#x2011;05&#x2011;17
 [CTA - Ridership - 'L' Station Entries - Monthly Day-Type Averages & Totals](../datasets/t2rn-p8d7.md) | Transportation | 2017&#x2011;02&#x2011;16
 [CTA - Ridership - Annual Boarding Totals](../datasets/w8km-9pzd.md) | Transportation | 2016&#x2011;02&#x2011;26
 [CTA - Ridership - Avg. Weekday Bus Stop Boardings in October 2012](../datasets/mq3i-nnqe.md) | Transportation | 2012&#x2011;12&#x2011;20

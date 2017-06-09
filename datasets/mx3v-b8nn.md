@@ -51,13 +51,13 @@ metric m:row_number.mx3v-b8nn p:long l:"Row Number"
 
 entity e:mx3v-b8nn l:"Results Posting Schedule - August 2013 Primary" t:attribution="King County Elections" t:url=https://data.kingcounty.gov/api/views/mx3v-b8nn
 
-property e:mx3v-b8nn t:meta.view v:id=mx3v-b8nn v:category="Election operations" v:attributionLink=http://kingcounty.gov/elections v:averageRating=0 v:name="Results Posting Schedule - August 2013 Primary" v:attribution="King County Elections"
+property e:mx3v-b8nn t:meta.view d:2017-06-09T14:00:57.209Z v:id=mx3v-b8nn v:category="Election operations" v:attributionLink=http://kingcounty.gov/elections v:averageRating=0 v:name="Results Posting Schedule - August 2013 Primary" v:attribution="King County Elections"
 
-property e:mx3v-b8nn t:meta.view.license v:name="Public Domain"
+property e:mx3v-b8nn t:meta.view.license d:2017-06-09T14:00:57.209Z v:name="Public Domain"
 
-property e:mx3v-b8nn t:meta.view.owner v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:displayName="Kathy Gill"
+property e:mx3v-b8nn t:meta.view.owner d:2017-06-09T14:00:57.209Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:displayName="Kathy Gill"
 
-property e:mx3v-b8nn t:meta.view.tableauthor v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
+property e:mx3v-b8nn t:meta.view.tableauthor d:2017-06-09T14:00:57.209Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
 ```
 
 ## Top Records

@@ -54,8 +54,8 @@ Name | Category | Published
 [Life Expectancy (1999 - Present)](../datasets/hvjp-5787.md) | Health, Education, and Social Services | 2015&#x2011;11&#x2011;03
 [Means of Transportation to Work (2007 - Present)](../datasets/r2sy-8afw.md) | Transportation and Infrastructure | 2015&#x2011;09&#x2011;08
 [NOLA Permits](../datasets/rcm3-fn58.md) | Housing, Land Use, and Blight | 2014&#x2011;11&#x2011;12
-[NOPD Body Worn Camera Metadata](../datasets/qarb-kkbj.md) | Public Safety and Preparedness | 2017&#x2011;04&#x2011;13
-[NOPD In-Car Camera Metadata](../datasets/md3v-ph3u.md) | Public Safety and Preparedness | 2017&#x2011;04&#x2011;13
+[NOPD Body Worn Camera Metadata](../datasets/qarb-kkbj.md) | Public Safety and Preparedness | 2017&#x2011;06&#x2011;06
+[NOPD In-Car Camera Metadata](../datasets/md3v-ph3u.md) | Public Safety and Preparedness | 2017&#x2011;06&#x2011;06
 [NORA Sold Properties](../datasets/hpm5-48nj.md) | Housing, Land Use, and Blight | 2017&#x2011;04&#x2011;04
 [NORA Uncommitted Property Inventory](../datasets/5ktx-e9wc.md) | Housing, Land Use, and Blight | 2017&#x2011;04&#x2011;04
 [Park Score (2014 - present)](../datasets/9r2n-ydic.md) | Recreation and Culture | 2015&#x2011;08&#x2011;26

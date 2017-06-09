@@ -58,11 +58,11 @@ metric m:est_deaf_hoh_10 p:integer l:"Est Deaf + HoH (10%)" t:dataTypeName=numbe
 
 entity e:3vxz-wrn6 l:"Missouri Deaf and Hard of Hearing Demographics Statistics" t:url=https://data.mo.gov/api/views/3vxz-wrn6
 
-property e:3vxz-wrn6 t:meta.view v:id=3vxz-wrn6 v:category=Education v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics"
+property e:3vxz-wrn6 t:meta.view d:2017-06-09T13:57:37.581Z v:id=3vxz-wrn6 v:category=Education v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics"
 
-property e:3vxz-wrn6 t:meta.view.owner v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1491406640 v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.owner d:2017-06-09T13:57:37.581Z v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
 
-property e:3vxz-wrn6 t:meta.view.tableauthor v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1491406640 v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.tableauthor d:2017-06-09T13:57:37.581Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
 ```
 
 ## Top Records

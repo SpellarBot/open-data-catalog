@@ -19,7 +19,7 @@
 
 ## Description
 
-The Security Department ensures the safety and security of patrons, employees and facilities in Chicago?s Parks. The data that is displayed below represents the total number of security checks that staff made during the previous week.
+The Security Department ensures the safety and security of patrons, employees and facilities in Chicago’s Parks. The data that is displayed below represents the total number of security checks that staff made during the previous week.
 
 ## Columns
 
@@ -61,11 +61,11 @@ metric m:park_checks p:integer l:"Park Checks" t:dataTypeName=number
 
 entity e:wrvx-zpw5 l:"Performance Metrics - Chicago Park District - Park Security Checks" t:attribution="Chicago Park District" t:url=https://data.cityofchicago.org/api/views/wrvx-zpw5
 
-property e:wrvx-zpw5 t:meta.view v:id=wrvx-zpw5 v:category="Administration & Finance" v:attributionLink=http://www.chicagoparkdistrict.com/ v:averageRating=0 v:name="Performance Metrics - Chicago Park District - Park Security Checks" v:attribution="Chicago Park District"
+property e:wrvx-zpw5 t:meta.view d:2017-06-09T13:53:36.974Z v:id=wrvx-zpw5 v:category="Administration & Finance" v:attributionLink=http://www.chicagoparkdistrict.com/ v:averageRating=0 v:name="Performance Metrics - Chicago Park District - Park Security Checks" v:attribution="Chicago Park District"
 
-property e:wrvx-zpw5 t:meta.view.owner v:id=7jj6-h75i v:screenName=Eve v:displayName=Eve
+property e:wrvx-zpw5 t:meta.view.owner d:2017-06-09T13:53:36.974Z v:id=7jj6-h75i v:screenName=Eve v:displayName=Eve
 
-property e:wrvx-zpw5 t:meta.view.tableauthor v:id=7jj6-h75i v:screenName=Eve v:displayName=Eve
+property e:wrvx-zpw5 t:meta.view.tableauthor d:2017-06-09T13:53:36.974Z v:id=7jj6-h75i v:screenName=Eve v:displayName=Eve
 ```
 
 ## Top Records

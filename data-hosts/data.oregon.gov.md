@@ -102,7 +102,7 @@ Name | Category | Published
 [Comment on Rulemaking: Title V Consumer Price Index 2016](../datasets/p9nk-5yub.md) |  | 2016&#x2011;01&#x2011;15
 [Comment on Water Quality Copper Standards Rulemaking](../datasets/8gqm-ze73.md) |  | 2016&#x2011;07&#x2011;29
 [Comment on the SB 705 Asbestos Survey Rulemaking](../datasets/gsyt-rkfi.md) |  | 2016&#x2011;01&#x2011;29
-[Conditions Not Covered ( Diagnosis Code Group 6031)](../datasets/btwj-27et.md) | Health & Human Services | 2016&#x2011;12&#x2011;05
+[Conditions Not Covered ( Diagnosis Code Group 6031)](../datasets/btwj-27et.md) | Health & Human Services | 2017&#x2011;05&#x2011;02
 [Construction Contracts: ODOT: Fiscal Year 2013](../datasets/8gu9-39fy.md) | Revenue & Expense | 2013&#x2011;11&#x2011;07
 [Construction Contracts: ODOT: Fiscal Year 2014](../datasets/a3mu-8wek.md) | Revenue & Expense | 2014&#x2011;12&#x2011;30
 [Contract Data](../datasets/h3a5-bh3f.md) |  | 2016&#x2011;11&#x2011;23

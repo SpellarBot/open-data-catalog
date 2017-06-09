@@ -15,7 +15,7 @@
 | Category | Service Requests |
 | Tags | streets, pot holes |
 | Created | 2011-09-30T09:11:02Z |
-| Publication Date | 2017-04-20T10:23:30Z |
+| Publication Date | 2017-06-09T10:08:01Z |
 
 ## Description
 
@@ -23,7 +23,7 @@ The Chicago Department of Transportation (CDOT) oversees the patching of pothole
 
 If a previous request is already open for a buffer of 4 addresses the request is given the status of "Duplicate (Open)".  For example, if there is an existing CSR for 6535 N Western and a new request is received for 6531 N Western (which is within four addresses of the original CSR) then the new request is given a status of "Duplicate (Open)".
 
-Once the street is repaired, the status in CSR will read ?Completed? for the original request and "Duplicate (Closed)" for any duplicate requests.  A service request also receives the status of ?Completed? when the reported address is inspected but no potholes are found or have already been filled.  If another issue is found with the street, such as a ?cave-in? or ?failed utility cut?, then it is directed to the appropriate department or contractor. 
+Once the street is repaired, the status in CSR will read “Completed” for the original request and "Duplicate (Closed)" for any duplicate requests.  A service request also receives the status of “Completed” when the reported address is inspected but no potholes are found or have already been filled.  If another issue is found with the street, such as a “cave-in” or “failed utility cut”, then it is directed to the appropriate department or contractor. 
 
 Data Owner: Transportation. Time Period: All open requests and all completed requests since January 1, 2011. Frequency: Data is updated daily.
 
@@ -86,11 +86,11 @@ metric m:longitude p:long l:LONGITUDE t:dataTypeName=number
 
 entity e:7as2-ds3y l:"311 Service Requests - Pot Holes Reported" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/7as2-ds3y
 
-property e:7as2-ds3y t:meta.view v:id=7as2-ds3y v:category="Service Requests" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="311 Service Requests - Pot Holes Reported" v:attribution="City of Chicago"
+property e:7as2-ds3y t:meta.view d:2017-06-09T13:53:40.667Z v:id=7as2-ds3y v:category="Service Requests" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="311 Service Requests - Pot Holes Reported" v:attribution="City of Chicago"
 
-property e:7as2-ds3y t:meta.view.owner v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:displayName=cocadmin v:privilegesDisabled=false
+property e:7as2-ds3y t:meta.view.owner d:2017-06-09T13:53:40.667Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:displayName=cocadmin v:privilegesDisabled=false
 
-property e:7as2-ds3y t:meta.view.tableauthor v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:7as2-ds3y t:meta.view.tableauthor d:2017-06-09T13:53:40.667Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
 ```
 
 ## Top Records

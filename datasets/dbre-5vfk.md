@@ -38,11 +38,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=1999-01 m:state_all=37040000 m:total=169990013 m:cumulative_total=169990013 m:federal_all=75304074 m:local_all=57645939
+series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=1999-01 m:total=169990013 m:state_all=37040000 m:cumulative_total=169990013 m:federal_all=75304074 m:local_all=57645939
 
-series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=2001-03 m:state_all=26351000 m:total=106139000 m:cumulative_total=276129012 m:federal_all=67801316 m:local_all=11986684
+series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=2001-03 m:total=106139000 m:state_all=26351000 m:cumulative_total=276129012 m:federal_all=67801316 m:local_all=11986684
 
-series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=2003-05 m:state_all=14000000 m:total=98357563 m:cumulative_total=374486575 m:federal_all=55302606 m:local_all=29054957
+series e:dbre-5vfk d:2012-10-17T05:37:50.000Z t:biennium=2003-05 m:total=98357563 m:state_all=14000000 m:cumulative_total=374486575 m:federal_all=55302606 m:local_all=29054957
 ```
 
 ## Meta Commands
@@ -60,11 +60,11 @@ metric m:cumulative_total p:integer l:"Cumulative Total" t:dataTypeName=money
 
 entity e:dbre-5vfk l:"2 -- Government $$ By Biennium" t:url=https://data.wa.gov/api/views/dbre-5vfk
 
-property e:dbre-5vfk t:meta.view v:id=dbre-5vfk v:averageRating=0 v:name="2 -- Government $$ By Biennium"
+property e:dbre-5vfk t:meta.view d:2017-06-09T13:58:44.933Z v:id=dbre-5vfk v:averageRating=0 v:name="2 -- Government $$ By Biennium"
 
-property e:dbre-5vfk t:meta.view.owner v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:dbre-5vfk t:meta.view.owner d:2017-06-09T13:58:44.933Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
 
-property e:dbre-5vfk t:meta.view.tableauthor v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:dbre-5vfk t:meta.view.tableauthor d:2017-06-09T13:58:44.933Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
 ```
 
 ## Top Records

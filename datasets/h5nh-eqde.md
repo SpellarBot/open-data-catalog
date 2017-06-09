@@ -13,7 +13,7 @@
 | Name | Columbus Avenue BID Businesses |
 | Attribution | Columbus Avenue BID |
 | Category | Business |
-| Tags | columbus avenue, business improvement district, bid, merchant, merchandise, shop, shopping, business, sales, food, coffee, tea, shoes, services, hotels, entertainment, children?s store, clothing, ... |
+| Tags | columbus avenue, business improvement district, bid, merchant, merchandise, shop, shopping, business, sales, food, coffee, tea, shoes, services, hotels, entertainment, children’s store, clothing, ... |
 | Created | 2011-09-09T20:29:29Z |
 | Publication Date | 2013-06-21T19:29:27Z |
 
@@ -60,11 +60,11 @@ metric m:row_number.h5nh-eqde p:long l:"Row Number"
 
 entity e:h5nh-eqde l:"Columbus Avenue BID Businesses" t:attribution="Columbus Avenue BID" t:url=https://data.cityofnewyork.us/api/views/h5nh-eqde
 
-property e:h5nh-eqde t:meta.view v:id=h5nh-eqde v:category=Business v:averageRating=0 v:name="Columbus Avenue BID Businesses" v:attribution="Columbus Avenue BID"
+property e:h5nh-eqde t:meta.view d:2017-06-09T13:52:01.582Z v:id=h5nh-eqde v:category=Business v:averageRating=0 v:name="Columbus Avenue BID Businesses" v:attribution="Columbus Avenue BID"
 
-property e:h5nh-eqde t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:h5nh-eqde t:meta.view.owner d:2017-06-09T13:52:01.582Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:h5nh-eqde t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:h5nh-eqde t:meta.view.tableauthor d:2017-06-09T13:52:01.582Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
 
 ## Top Records

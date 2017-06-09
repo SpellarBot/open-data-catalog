@@ -70,11 +70,11 @@ metric m:number_of_mosquitoes p:integer l:"NUMBER OF MOSQUITOES" t:dataTypeName=
 
 entity e:jqe8-8r6s l:"West Nile Virus (WNV) Mosquito Test Results" t:attribution="Chicago Department of Public Health" t:url=https://data.cityofchicago.org/api/views/jqe8-8r6s
 
-property e:jqe8-8r6s t:meta.view v:id=jqe8-8r6s v:category="Health & Human Services" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="West Nile Virus (WNV) Mosquito Test Results" v:attribution="Chicago Department of Public Health"
+property e:jqe8-8r6s t:meta.view d:2017-06-09T14:00:36.927Z v:id=jqe8-8r6s v:category="Health & Human Services" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="West Nile Virus (WNV) Mosquito Test Results" v:attribution="Chicago Department of Public Health"
 
-property e:jqe8-8r6s t:meta.view.owner v:id=pg3c-42qv v:profileImageUrlMedium=/api/users/pg3c-42qv/profile_images/THUMB v:profileImageUrlLarge=/api/users/pg3c-42qv/profile_images/LARGE v:screenName="Matt Roberts" v:profileImageUrlSmall=/api/users/pg3c-42qv/profile_images/TINY v:displayName="Matt Roberts"
+property e:jqe8-8r6s t:meta.view.owner d:2017-06-09T14:00:36.927Z v:id=pg3c-42qv v:profileImageUrlMedium=/api/users/pg3c-42qv/profile_images/THUMB v:profileImageUrlLarge=/api/users/pg3c-42qv/profile_images/LARGE v:screenName="Matt Roberts" v:profileImageUrlSmall=/api/users/pg3c-42qv/profile_images/TINY v:displayName="Matt Roberts"
 
-property e:jqe8-8r6s t:meta.view.tableauthor v:id=pg3c-42qv v:profileImageUrlMedium=/api/users/pg3c-42qv/profile_images/THUMB v:profileImageUrlLarge=/api/users/pg3c-42qv/profile_images/LARGE v:screenName="Matt Roberts" v:profileImageUrlSmall=/api/users/pg3c-42qv/profile_images/TINY v:roleName=editor v:displayName="Matt Roberts"
+property e:jqe8-8r6s t:meta.view.tableauthor d:2017-06-09T14:00:36.927Z v:id=pg3c-42qv v:profileImageUrlMedium=/api/users/pg3c-42qv/profile_images/THUMB v:profileImageUrlLarge=/api/users/pg3c-42qv/profile_images/LARGE v:screenName="Matt Roberts" v:profileImageUrlSmall=/api/users/pg3c-42qv/profile_images/TINY v:roleName=editor v:displayName="Matt Roberts"
 ```
 
 ## Top Records

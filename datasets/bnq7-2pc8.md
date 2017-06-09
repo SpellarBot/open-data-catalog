@@ -64,13 +64,13 @@ metric m:row_number.bnq7-2pc8 p:long l:"Row Number"
 
 entity e:bnq7-2pc8 l:"Transit Communities Funding Toolkit" t:attribution="City of Seattle, Seattle Planning Commission" t:url=https://data.seattle.gov/api/views/bnq7-2pc8
 
-property e:bnq7-2pc8 t:meta.view v:id=bnq7-2pc8 v:category=Community v:averageRating=0 v:name="Transit Communities Funding Toolkit" v:attribution="City of Seattle, Seattle Planning Commission"
+property e:bnq7-2pc8 t:meta.view d:2017-06-09T13:56:57.573Z v:id=bnq7-2pc8 v:category=Community v:averageRating=0 v:name="Transit Communities Funding Toolkit" v:attribution="City of Seattle, Seattle Planning Commission"
 
-property e:bnq7-2pc8 t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:bnq7-2pc8 t:meta.view.license d:2017-06-09T13:56:57.573Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:bnq7-2pc8 t:meta.view.owner v:id=9vuc-jwdr v:profileImageUrlMedium=/api/users/9vuc-jwdr/profile_images/THUMB v:profileImageUrlLarge=/api/users/9vuc-jwdr/profile_images/LARGE v:screenName="Sheehy, Katie" v:profileImageUrlSmall=/api/users/9vuc-jwdr/profile_images/TINY v:displayName="Sheehy, Katie"
+property e:bnq7-2pc8 t:meta.view.owner d:2017-06-09T13:56:57.573Z v:id=9vuc-jwdr v:profileImageUrlMedium=/api/users/9vuc-jwdr/profile_images/THUMB v:profileImageUrlLarge=/api/users/9vuc-jwdr/profile_images/LARGE v:screenName="Sheehy, Katie" v:profileImageUrlSmall=/api/users/9vuc-jwdr/profile_images/TINY v:displayName="Sheehy, Katie"
 
-property e:bnq7-2pc8 t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:bnq7-2pc8 t:meta.view.tableauthor d:2017-06-09T13:56:57.573Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```
 
 ## Top Records

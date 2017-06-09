@@ -42,11 +42,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:wr52-jff7 d:2015-01-31T00:00:00.000Z m:of_shows=3 m:of_visitors=5127 m:revenue=19326
+series e:wr52-jff7 d:2015-01-31T00:00:00.000Z m:of_visitors=5127 m:of_shows=3 m:revenue=19326
 
-series e:wr52-jff7 d:2015-02-28T00:00:00.000Z m:of_shows=4 m:of_visitors=5495 m:revenue=18765
+series e:wr52-jff7 d:2015-02-28T00:00:00.000Z m:of_visitors=5495 m:of_shows=4 m:revenue=18765
 
-series e:wr52-jff7 d:2015-03-31T00:00:00.000Z m:of_shows=3 m:of_visitors=4585 m:revenue=12979
+series e:wr52-jff7 d:2015-03-31T00:00:00.000Z m:of_visitors=4585 m:of_shows=3 m:revenue=12979
 ```
 
 ## Meta Commands
@@ -60,11 +60,11 @@ metric m:of_visitors p:float l:"# of Visitors" t:dataTypeName=number
 
 entity e:wr52-jff7 l:"Thalia Mara Numbers" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/wr52-jff7
 
-property e:wr52-jff7 t:meta.view v:id=wr52-jff7 v:category="City Services" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Thalia Mara Numbers" v:attribution="City of Jackson"
+property e:wr52-jff7 t:meta.view d:2017-06-09T13:57:26.626Z v:id=wr52-jff7 v:category="City Services" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Thalia Mara Numbers" v:attribution="City of Jackson"
 
-property e:wr52-jff7 t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:wr52-jff7 t:meta.view.owner d:2017-06-09T13:57:26.626Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 
-property e:wr52-jff7 t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:wr52-jff7 t:meta.view.tableauthor d:2017-06-09T13:57:26.626Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 ```
 
 ## Top Records

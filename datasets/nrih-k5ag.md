@@ -22,29 +22,29 @@ Approved on October 11, 2015, adds a section to the California Public Records Ac
 
 Enterprise System
  A software application or computer system that collects, stores, exchanges and analyzes information that the agency uses that is both of the following:  
-?A multi-departmental system or a system that contains information collected about the public. 
-?A system that serves as an original source of data within an agency. 
+•A multi-departmental system or a system that contains information collected about the public. 
+•A system that serves as an original source of data within an agency. 
 An Enterprise System does not include any of the following: 
 
-? Information Technology security systems, including firewalls and other cybersecurity systems. 
-? Physical access control systems, employee identification management systems, video monitoring and other physical control systems. 
-? Infrastructure and mechanical control systems, including those that control or manage street lights, electrical, natural gas or water or sewer functions. 
-? Systems related to 911 dispatch and operation or emergency services. 
-? Systems that would be restricted from disclosure by Section 6254.19. 
-? The specific records that the information technology system collects, stores, exchanges or analyzes. 
+• Information Technology security systems, including firewalls and other cybersecurity systems. 
+• Physical access control systems, employee identification management systems, video monitoring and other physical control systems. 
+• Infrastructure and mechanical control systems, including those that control or manage street lights, electrical, natural gas or water or sewer functions. 
+• Systems related to 911 dispatch and operation or emergency services. 
+• Systems that would be restricted from disclosure by Section 6254.19. 
+• The specific records that the information technology system collects, stores, exchanges or analyzes. 
 Requirements 
  1. Create a catalog of enterprise systems, containing: 
 
-? Current system vendor 
-? Current system product 
-? System?s purpose 
-? A description of categories or types of data 
-? The department that is the prime custodian of the data 
-? The frequency that system data is collected 
-? The frequency that system data is updated
+• Current system vendor 
+• Current system product 
+• System’s purpose 
+• A description of categories or types of data 
+• The department that is the prime custodian of the data 
+• The frequency that system data is collected 
+• The frequency that system data is updated
 
 2. To make the catalog publicly available upon request 
- 3. To post the catalog in a prominent location on the agency?s website 
+ 3. To post the catalog in a prominent location on the agency’s website 
 
 Exception
  If the public interest served by not disclosing the information described clearly outweighs the public interest served by disclosure, the local agency may instead provide a system name, brief title or identifier of the system.
@@ -87,11 +87,11 @@ metric m:row_number.nrih-k5ag p:long l:"Row Number"
 
 entity e:nrih-k5ag l:"SB 272 Enterprise Software" t:url=https://data.srcity.org/api/views/nrih-k5ag
 
-property e:nrih-k5ag t:meta.view v:id=nrih-k5ag v:category=Government v:averageRating=0 v:name="SB 272 Enterprise Software"
+property e:nrih-k5ag t:meta.view d:2017-06-09T13:56:58.389Z v:id=nrih-k5ag v:category=Government v:averageRating=0 v:name="SB 272 Enterprise Software"
 
-property e:nrih-k5ag t:meta.view.owner v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:displayName=Webmaster
+property e:nrih-k5ag t:meta.view.owner d:2017-06-09T13:56:58.389Z v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:displayName=Webmaster
 
-property e:nrih-k5ag t:meta.view.tableauthor v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
+property e:nrih-k5ag t:meta.view.tableauthor d:2017-06-09T13:56:58.389Z v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
 ```
 
 ## Top Records

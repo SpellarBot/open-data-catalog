@@ -51,13 +51,13 @@ metric m:row_number.m5eg-upu5 p:long l:"Row Number"
 
 entity e:m5eg-upu5 l:"Home Health Care - Zip Codes" t:url=https://data.medicare.gov/api/views/m5eg-upu5
 
-property e:m5eg-upu5 t:meta.view v:id=m5eg-upu5 v:category="Home Health Compare" v:averageRating=0 v:name="Home Health Care - Zip Codes"
+property e:m5eg-upu5 t:meta.view d:2017-06-09T13:55:29.091Z v:id=m5eg-upu5 v:category="Home Health Compare" v:averageRating=0 v:name="Home Health Care - Zip Codes"
 
-property e:m5eg-upu5 t:meta.view.owner v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:displayName=cms
+property e:m5eg-upu5 t:meta.view.owner d:2017-06-09T13:55:29.091Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:displayName=cms
 
-property e:m5eg-upu5 t:meta.view.tableauthor v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:m5eg-upu5 t:meta.view.tableauthor d:2017-06-09T13:55:29.091Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
 
-property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=HomeHealthQualityQuestions@cms.hhs.gov v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
+property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:55:29.091Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=HomeHealthQualityQuestions@cms.hhs.gov v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
 ```
 
 ## Top Records

@@ -61,13 +61,13 @@ metric m:approximate_length_miles p:integer l:"Approximate Length (Miles)" d:"Ap
 
 entity e:q8sd-9bib l:"Designated Scenic Byways" t:attribution="New York State Department of Transportation" t:url=https://data.ny.gov/api/views/q8sd-9bib
 
-property e:q8sd-9bib t:meta.view v:id=q8sd-9bib v:category=Transportation v:attributionLink=https://www.dot.ny.gov/display/programs/scenic-byways v:averageRating=0 v:name="Designated Scenic Byways" v:attribution="New York State Department of Transportation"
+property e:q8sd-9bib t:meta.view d:2017-06-09T13:54:59.154Z v:id=q8sd-9bib v:category=Transportation v:attributionLink=https://www.dot.ny.gov/display/programs/scenic-byways v:averageRating=0 v:name="Designated Scenic Byways" v:attribution="New York State Department of Transportation"
 
-property e:q8sd-9bib t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:q8sd-9bib t:meta.view.owner d:2017-06-09T13:54:59.154Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:q8sd-9bib t:meta.view.tableauthor v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
+property e:q8sd-9bib t:meta.view.tableauthor d:2017-06-09T13:54:59.154Z v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
 
-property e:q8sd-9bib t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:q8sd-9bib t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:54:59.154Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

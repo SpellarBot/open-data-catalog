@@ -79,13 +79,13 @@ metric m:row_number.mn47-ukcw p:long l:"Row Number"
 
 entity e:mn47-ukcw l:"Facilities Management - Work Orders - 2011 August" t:attribution="Cook County Department of Facilities Management" t:url=https://datacatalog.cookcountyil.gov/api/views/mn47-ukcw
 
-property e:mn47-ukcw t:meta.view v:id=mn47-ukcw v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management v:averageRating=0 v:name="Facilities Management - Work Orders - 2011 August" v:attribution="Cook County Department of Facilities Management"
+property e:mn47-ukcw t:meta.view d:2017-06-09T13:54:24.553Z v:id=mn47-ukcw v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management v:averageRating=0 v:name="Facilities Management - Work Orders - 2011 August" v:attribution="Cook County Department of Facilities Management"
 
-property e:mn47-ukcw t:meta.view.license v:name="Public Domain"
+property e:mn47-ukcw t:meta.view.license d:2017-06-09T13:54:24.553Z v:name="Public Domain"
 
-property e:mn47-ukcw t:meta.view.owner v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:mn47-ukcw t:meta.view.owner d:2017-06-09T13:54:24.553Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 
-property e:mn47-ukcw t:meta.view.tableauthor v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:mn47-ukcw t:meta.view.tableauthor d:2017-06-09T13:54:24.553Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
 ```
 
 ## Top Records

@@ -18,7 +18,7 @@
 
 ## Description
 
-The DOE has previously identified 594 schools located in 330 buildings as ?under-utilized? based upon the 2010-2011 Enrollment-Capacity-Utilization Report (The Blue Book). The DOE is also identifying 25 school buildings (listed below) which contain schools proposed for full phase-out, grade truncation or immediate closure due to poor performance. These proposals are scheduled to be voted on by the Panel for Education Policy on February 9, 2012. Should these proposals be approved, there will be excess space available in the buildings. In many cases, the DOE has already made companion proposals on how to use this additional space
+The DOE has previously identified 594 schools located in 330 buildings as “under-utilized” based upon the 2010-2011 Enrollment-Capacity-Utilization Report (The Blue Book). The DOE is also identifying 25 school buildings (listed below) which contain schools proposed for full phase-out, grade truncation or immediate closure due to poor performance. These proposals are scheduled to be voted on by the Panel for Education Policy on February 9, 2012. Should these proposals be approved, there will be excess space available in the buildings. In many cases, the DOE has already made companion proposals on how to use this additional space
 
 ## Columns
 
@@ -66,11 +66,11 @@ metric m:building_capacity_based_on_2013_2014_blue_book p:integer l:"Building Ca
 
 entity e:q7ra-ebu4 l:"Underutilized Space Report" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/q7ra-ebu4
 
-property e:q7ra-ebu4 t:meta.view v:id=q7ra-ebu4 v:category=Education v:averageRating=0 v:name="Underutilized Space Report" v:attribution="Department of Education (DOE)"
+property e:q7ra-ebu4 t:meta.view d:2017-06-09T13:59:56.329Z v:id=q7ra-ebu4 v:category=Education v:averageRating=0 v:name="Underutilized Space Report" v:attribution="Department of Education (DOE)"
 
-property e:q7ra-ebu4 t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:q7ra-ebu4 t:meta.view.owner d:2017-06-09T13:59:56.329Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:q7ra-ebu4 t:meta.view.tableauthor v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:q7ra-ebu4 t:meta.view.tableauthor d:2017-06-09T13:59:56.329Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 ```
 
 ## Top Records

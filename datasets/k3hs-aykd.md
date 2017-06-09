@@ -145,13 +145,13 @@ metric m:technicians_avg_yrs_in_current_job p:float l:"Technicians Avg Yrs in Cu
 
 entity e:k3hs-aykd l:"City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department" t:url=https://data.seattle.gov/api/views/k3hs-aykd
 
-property e:k3hs-aykd t:meta.view v:id=k3hs-aykd v:category="City Business" v:attributionLink=http://mayormcginn.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Appendix-4-EEO-Final.pdf v:averageRating=0 v:name="City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department"
+property e:k3hs-aykd t:meta.view d:2017-06-09T13:55:15.970Z v:id=k3hs-aykd v:category="City Business" v:attributionLink=http://mayormcginn.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Appendix-4-EEO-Final.pdf v:averageRating=0 v:name="City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department"
 
-property e:k3hs-aykd t:meta.view.license v:name="Public Domain"
+property e:k3hs-aykd t:meta.view.license d:2017-06-09T13:55:15.970Z v:name="Public Domain"
 
-property e:k3hs-aykd t:meta.view.owner v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
+property e:k3hs-aykd t:meta.view.owner d:2017-06-09T13:55:15.970Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
 
-property e:k3hs-aykd t:meta.view.tableauthor v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:k3hs-aykd t:meta.view.tableauthor d:2017-06-09T13:55:15.970Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
 ```
 
 ## Top Records

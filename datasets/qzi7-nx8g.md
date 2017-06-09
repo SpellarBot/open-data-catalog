@@ -73,13 +73,13 @@ metric m:row_number.qzi7-nx8g p:long l:"Row Number"
 
 entity e:qzi7-nx8g l:"Recycle Drop Off Locations" t:attribution="City of Austin Watershed Protection" t:url=https://data.austintexas.gov/api/views/qzi7-nx8g
 
-property e:qzi7-nx8g t:meta.view v:id=qzi7-nx8g v:category=Environmental v:attributionLink=http://www.austintexas.gov/department/watershed-protection v:averageRating=0 v:name="Recycle Drop Off Locations" v:attribution="City of Austin Watershed Protection"
+property e:qzi7-nx8g t:meta.view d:2017-06-09T13:56:03.181Z v:id=qzi7-nx8g v:category=Environmental v:attributionLink=http://www.austintexas.gov/department/watershed-protection v:averageRating=0 v:name="Recycle Drop Off Locations" v:attribution="City of Austin Watershed Protection"
 
-property e:qzi7-nx8g t:meta.view.license v:name="Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:qzi7-nx8g t:meta.view.license d:2017-06-09T13:56:03.181Z v:name="Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:qzi7-nx8g t:meta.view.owner v:id=2z47-i38b v:screenName="Watershed Education" v:displayName="Watershed Education"
+property e:qzi7-nx8g t:meta.view.owner d:2017-06-09T13:56:03.181Z v:id=2z47-i38b v:screenName="Watershed Education" v:lastNotificationSeenAt=1494616333 v:displayName="Watershed Education"
 
-property e:qzi7-nx8g t:meta.view.tableauthor v:id=2z47-i38b v:screenName="Watershed Education" v:roleName=publisher v:displayName="Watershed Education"
+property e:qzi7-nx8g t:meta.view.tableauthor d:2017-06-09T13:56:03.181Z v:id=2z47-i38b v:screenName="Watershed Education" v:roleName=publisher v:lastNotificationSeenAt=1494616333 v:displayName="Watershed Education"
 ```
 
 ## Top Records

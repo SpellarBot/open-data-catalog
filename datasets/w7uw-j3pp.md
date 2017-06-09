@@ -50,11 +50,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location="Albany Park" m:december=2513 m:november=3121 m:may=2779 m:march=3485 m:april=3522 m:february=3117 m:june=3076 m:january=3275 m:ytd=37025 m:august=3174 m:july=2778 m:october=3202 m:september=2983
+series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location="Albany Park" m:december=2513 m:march=3485 m:may=2779 m:november=3121 m:february=3117 m:april=3522 m:june=3076 m:ytd=37025 m:january=3275 m:august=3174 m:july=2778 m:october=3202 m:september=2983
 
-series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location=Altgeld m:december=1147 m:november=1493 m:may=1289 m:march=1360 m:april=1501 m:february=1458 m:june=1609 m:january=1893 m:ytd=18826 m:august=2115 m:july=1962 m:october=1457 m:september=1542
+series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location=Altgeld m:december=1147 m:march=1360 m:may=1289 m:november=1493 m:february=1458 m:april=1501 m:june=1609 m:ytd=18826 m:january=1893 m:august=2115 m:july=1962 m:october=1457 m:september=1542
 
-series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location="Archer Heights" m:december=1785 m:november=1966 m:may=1829 m:march=2029 m:april=2030 m:february=1877 m:june=1832 m:january=1951 m:ytd=23467 m:august=2202 m:july=1935 m:october=2071 m:september=1960
+series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z t:location="Archer Heights" m:december=1785 m:march=2029 m:may=1829 m:november=1966 m:february=1877 m:april=2030 m:june=1832 m:ytd=23467 m:january=1951 m:august=2202 m:july=1935 m:october=2071 m:september=1960
 ```
 
 ## Meta Commands
@@ -88,11 +88,11 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:w7uw-j3pp l:"Libraries - 2016 Computer Sessions by Location" t:url=https://data.cityofchicago.org/api/views/w7uw-j3pp
 
-property e:w7uw-j3pp t:meta.view v:id=w7uw-j3pp v:averageRating=0 v:name="Libraries - 2016 Computer Sessions by Location"
+property e:w7uw-j3pp t:meta.view d:2017-06-09T13:51:48.842Z v:id=w7uw-j3pp v:averageRating=0 v:name="Libraries - 2016 Computer Sessions by Location"
 
-property e:w7uw-j3pp t:meta.view.owner v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:displayName="Marie E. Hardy"
+property e:w7uw-j3pp t:meta.view.owner d:2017-06-09T13:51:48.842Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:displayName="Marie E. Hardy"
 
-property e:w7uw-j3pp t:meta.view.tableauthor v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
+property e:w7uw-j3pp t:meta.view.tableauthor d:2017-06-09T13:51:48.842Z v:id=vedk-n2zt v:profileImageUrlMedium=/api/users/vedk-n2zt/profile_images/THUMB v:profileImageUrlLarge=/api/users/vedk-n2zt/profile_images/LARGE v:screenName="Marie E. Hardy" v:profileImageUrlSmall=/api/users/vedk-n2zt/profile_images/TINY v:roleName=editor v:displayName="Marie E. Hardy"
 ```
 
 ## Top Records

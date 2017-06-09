@@ -54,11 +54,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_type="GENERAL FUND" t:expense_type="PERSONAL SERVICES" t:function_name="OFFICE OF PUBLICATIONS" t:expense_description=SALARIES t:dept_name=ADMINISTRATION t:division_name="OFFICE OF PUBLICATIONS" m:budget=147130 m:current_period_exp=10592 m:ytd_exp=42092 m:bal_available_to_spend=105038 m:of_budget_spent=28.6 m:encumb=0
+series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_type="GENERAL FUND" t:expense_type="PERSONAL SERVICES" t:function_name="OFFICE OF PUBLICATIONS" t:expense_description=SALARIES t:dept_name=ADMINISTRATION t:division_name="OFFICE OF PUBLICATIONS" m:budget=147130 m:current_period_exp=10592 m:ytd_exp=42092 m:of_budget_spent=28.6 m:bal_available_to_spend=105038 m:encumb=0
 
-series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_type="GENERAL FUND" t:expense_type="PERSONAL SERVICES" t:function_name="OFFICE OF PUBLICATIONS" t:expense_description=OVERTIME t:dept_name=ADMINISTRATION t:division_name="OFFICE OF PUBLICATIONS" m:budget=500 m:current_period_exp=0 m:ytd_exp=10 m:bal_available_to_spend=490 m:of_budget_spent=2 m:encumb=0
+series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_type="GENERAL FUND" t:expense_type="PERSONAL SERVICES" t:function_name="OFFICE OF PUBLICATIONS" t:expense_description=OVERTIME t:dept_name=ADMINISTRATION t:division_name="OFFICE OF PUBLICATIONS" m:budget=500 m:current_period_exp=0 m:ytd_exp=10 m:of_budget_spent=2 m:bal_available_to_spend=490 m:encumb=0
 
-series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_type="GENERAL FUND" t:expense_type="PERSONAL SERVICES" t:function_name="OFFICE OF PUBLICATIONS" t:expense_description="FICA TAXES" t:dept_name=ADMINISTRATION t:division_name="OFFICE OF PUBLICATIONS" m:budget=9122 m:current_period_exp=625 m:ytd_exp=2507 m:bal_available_to_spend=6615 m:of_budget_spent=27.5 m:encumb=0
+series e:848a-grzs d:2017-01-01T00:00:00.000Z t:fund_name="GENERAL FUND" t:fund_type="GENERAL FUND" t:expense_type="PERSONAL SERVICES" t:function_name="OFFICE OF PUBLICATIONS" t:expense_description="FICA TAXES" t:dept_name=ADMINISTRATION t:division_name="OFFICE OF PUBLICATIONS" m:budget=9122 m:current_period_exp=625 m:ytd_exp=2507 m:of_budget_spent=27.5 m:bal_available_to_spend=6615 m:encumb=0
 ```
 
 ## Meta Commands
@@ -78,11 +78,11 @@ metric m:of_budget_spent p:float l:"% of Budget Spent" t:dataTypeName=percent
 
 entity e:848a-grzs l:"Jackson Operating Expenses Budget" t:attribution="City of Jackson, Department of Administration" t:url=https://data.jacksonms.gov/api/views/848a-grzs
 
-property e:848a-grzs t:meta.view v:id=848a-grzs v:category="Budget and Finance" v:attributionLink="http://www.jacksonms.gov/index.aspx?nid=114" v:averageRating=0 v:name="Jackson Operating Expenses Budget" v:attribution="City of Jackson, Department of Administration"
+property e:848a-grzs t:meta.view d:2017-06-09T13:59:26.781Z v:id=848a-grzs v:category="Budget and Finance" v:attributionLink="http://www.jacksonms.gov/index.aspx?nid=114" v:averageRating=0 v:name="Jackson Operating Expenses Budget" v:attribution="City of Jackson, Department of Administration"
 
-property e:848a-grzs t:meta.view.owner v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:displayName="Tiffanee Jones"
+property e:848a-grzs t:meta.view.owner d:2017-06-09T13:59:26.781Z v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:displayName="Tiffanee Jones"
 
-property e:848a-grzs t:meta.view.tableauthor v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:roleName=publisher v:displayName="Tiffanee Jones"
+property e:848a-grzs t:meta.view.tableauthor d:2017-06-09T13:59:26.781Z v:id=csn7-fh8q v:screenName="Tiffanee Jones" v:roleName=publisher v:displayName="Tiffanee Jones"
 ```
 
 ## Top Records

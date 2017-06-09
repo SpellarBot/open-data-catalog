@@ -15,7 +15,7 @@
 | Category | Human Services |
 | Tags | public assistance |
 | Created | 2015-04-01T17:52:27Z |
-| Publication Date | 2017-03-31T22:02:46Z |
+| Publication Date | 2017-05-30T22:02:48Z |
 
 ## Description
 
@@ -58,11 +58,11 @@ Excluded Fields = year,month
 ## Data Commands
 
 ```ls
-series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=66 t:month_code=4 t:district="New York City" m:tanf_cases_with_earned_income=9382 m:sna_moe_cases_with_earned_income=10399 m:tanf_average_gross_earned_income=765 m:sna_non_moe_average_net_earned_income=546 m:sna_moe_average_net_earned_income=330 m:tanf_average_net_earned_income=369 m:sna_non_moe_average_gross_earned_income=796 m:sna_moe_average_gross_earned_income=718 m:sna_non_moe_cases_with_earned_income=4622
+series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=66 t:month_code=4 t:district="New York City" m:tanf_average_gross_earned_income=765 m:sna_moe_cases_with_earned_income=10399 m:tanf_cases_with_earned_income=9382 m:sna_non_moe_average_net_earned_income=546 m:tanf_average_net_earned_income=369 m:sna_moe_average_net_earned_income=330 m:sna_non_moe_average_gross_earned_income=796 m:sna_moe_average_gross_earned_income=718 m:sna_non_moe_cases_with_earned_income=4622
 
-series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=1 t:month_code=4 t:district=Albany m:tanf_cases_with_earned_income=162 m:sna_moe_cases_with_earned_income=47 m:tanf_average_gross_earned_income=754 m:sna_non_moe_average_net_earned_income=151 m:sna_moe_average_net_earned_income=352 m:tanf_average_net_earned_income=356 m:sna_non_moe_average_gross_earned_income=226 m:sna_moe_average_gross_earned_income=744 m:sna_non_moe_cases_with_earned_income=10
+series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=1 t:month_code=4 t:district=Albany m:tanf_average_gross_earned_income=754 m:sna_moe_cases_with_earned_income=47 m:tanf_cases_with_earned_income=162 m:sna_non_moe_average_net_earned_income=151 m:tanf_average_net_earned_income=356 m:sna_moe_average_net_earned_income=352 m:sna_non_moe_average_gross_earned_income=226 m:sna_moe_average_gross_earned_income=744 m:sna_non_moe_cases_with_earned_income=10
 
-series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=2 t:month_code=4 t:district=Allegany m:tanf_cases_with_earned_income=48 m:sna_moe_cases_with_earned_income=13 m:tanf_average_gross_earned_income=677 m:sna_non_moe_average_net_earned_income=136 m:sna_moe_average_net_earned_income=400 m:tanf_average_net_earned_income=292 m:sna_non_moe_average_gross_earned_income=226 m:sna_moe_average_gross_earned_income=751 m:sna_non_moe_cases_with_earned_income=9
+series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z t:district_code=2 t:month_code=4 t:district=Allegany m:tanf_average_gross_earned_income=677 m:sna_moe_cases_with_earned_income=13 m:tanf_cases_with_earned_income=48 m:sna_non_moe_average_net_earned_income=136 m:tanf_average_net_earned_income=292 m:sna_moe_average_net_earned_income=400 m:sna_non_moe_average_gross_earned_income=226 m:sna_moe_average_gross_earned_income=751 m:sna_non_moe_cases_with_earned_income=9
 ```
 
 ## Meta Commands
@@ -88,13 +88,13 @@ metric m:sna_non_moe_average_net_earned_income p:integer l:"SNA Non-MOE Average 
 
 entity e:5mdi-3rq9 l:"Public Assistance Cases with Earned Income:  Beginning April 2006" t:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" t:url=https://data.ny.gov/api/views/5mdi-3rq9
 
-property e:5mdi-3rq9 t:meta.view v:id=5mdi-3rq9 v:category="Human Services" v:attributionLink=http://otda.ny.gov/resources/caseload/ v:averageRating=0 v:name="Public Assistance Cases with Earned Income:  Beginning April 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
+property e:5mdi-3rq9 t:meta.view d:2017-06-09T14:00:43.460Z v:id=5mdi-3rq9 v:category="Human Services" v:attributionLink=http://otda.ny.gov/resources/caseload/ v:averageRating=0 v:name="Public Assistance Cases with Earned Income:  Beginning April 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
 
-property e:5mdi-3rq9 t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:5mdi-3rq9 t:meta.view.owner d:2017-06-09T14:00:43.460Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:5mdi-3rq9 t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:5mdi-3rq9 t:meta.view.tableauthor d:2017-06-09T14:00:43.460Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:5mdi-3rq9 t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:5mdi-3rq9 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T14:00:43.460Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records

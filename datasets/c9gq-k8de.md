@@ -1,4 +1,4 @@
-# FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail
+# FY 2016 Proposed Operating Budget Expenditures – Line Item Detail
 
 ## Dataset
 
@@ -10,7 +10,7 @@
 | Data: CSV | [100 Rows](https://data.austintexas.gov/api/views/c9gq-k8de/rows.csv?max_rows=100) |
 | Host | data.austintexas.gov |
 | Id | c9gq-k8de |
-| Name | FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail |
+| Name | FY 2016 Proposed Operating Budget Expenditures – Line Item Detail |
 | Attribution | City of Austin |
 | Category | Government |
 | Tags | proposed budget |
@@ -68,15 +68,15 @@ metric m:dept_rollup p:integer l:DEPT_ROLLUP t:dataTypeName=number
 
 metric m:proposed_budget p:integer l:PROPOSED_BUDGET t:dataTypeName=number
 
-entity e:c9gq-k8de l:"FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/c9gq-k8de
+entity e:c9gq-k8de l:"FY 2016 Proposed Operating Budget Expenditures – Line Item Detail" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/c9gq-k8de
 
-property e:c9gq-k8de t:meta.view v:id=c9gq-k8de v:category=Government v:averageRating=0 v:name="FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail" v:attribution="City of Austin"
+property e:c9gq-k8de t:meta.view d:2017-06-09T13:56:19.305Z v:id=c9gq-k8de v:category=Government v:averageRating=0 v:name="FY 2016 Proposed Operating Budget Expenditures – Line Item Detail" v:attribution="City of Austin"
 
-property e:c9gq-k8de t:meta.view.license v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:c9gq-k8de t:meta.view.license d:2017-06-09T13:56:19.305Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:c9gq-k8de t:meta.view.owner v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.owner d:2017-06-09T13:56:19.305Z v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:displayName="FSD - Controller's Office"
 
-property e:c9gq-k8de t:meta.view.tableauthor v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.tableauthor d:2017-06-09T13:56:19.305Z v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
 ```
 
 ## Top Records

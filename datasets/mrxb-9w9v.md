@@ -19,7 +19,7 @@
 
 ## Description
 
-Facilities in New York City, by agency and site, that offer ?NDA Neighborhood Development Area Youth Employment  Program? after-school  job and internship programs for children and young adults ages 14 to 21 in Middle School, in High School, or in all grades.
+Facilities in New York City, by agency and site, that offer “NDA Neighborhood Development Area Youth Employment  Program” after-school  job and internship programs for children and young adults ages 14 to 21 in Middle School, in High School, or in all grades.
 Update Frequency: Annually
 
 ## Columns
@@ -61,11 +61,11 @@ metric m:row_number.mrxb-9w9v p:long l:"Row Number"
 
 entity e:mrxb-9w9v l:"DYCD after-school programs: NDA Youth Employment Programs" t:attribution="Department of Youth and Community Development (DYCD)" t:url=https://data.cityofnewyork.us/api/views/mrxb-9w9v
 
-property e:mrxb-9w9v t:meta.view v:id=mrxb-9w9v v:category=Education v:averageRating=0 v:name="DYCD after-school programs: NDA Youth Employment Programs" v:attribution="Department of Youth and Community Development (DYCD)"
+property e:mrxb-9w9v t:meta.view d:2017-06-09T13:57:13.845Z v:id=mrxb-9w9v v:category=Education v:averageRating=0 v:name="DYCD after-school programs: NDA Youth Employment Programs" v:attribution="Department of Youth and Community Development (DYCD)"
 
-property e:mrxb-9w9v t:meta.view.owner v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1491336998 v:displayName="NYC OpenData"
+property e:mrxb-9w9v t:meta.view.owner d:2017-06-09T13:57:13.845Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
 
-property e:mrxb-9w9v t:meta.view.tableauthor v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
+property e:mrxb-9w9v t:meta.view.tableauthor d:2017-06-09T13:57:13.845Z v:id=k2fz-tf56 v:screenName="Gary A" v:displayName="Gary A"
 ```
 
 ## Top Records

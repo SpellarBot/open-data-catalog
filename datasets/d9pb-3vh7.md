@@ -60,13 +60,13 @@ metric m:average_bill p:double l:"Average Bill" t:dataTypeName=money
 
 entity e:d9pb-3vh7 l:"Residential Average Monthly kWh and Bills" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/d9pb-3vh7
 
-property e:d9pb-3vh7 t:meta.view v:id=d9pb-3vh7 v:category=Utility v:averageRating=0 v:name="Residential Average Monthly kWh and Bills" v:attribution="Austin Energy"
+property e:d9pb-3vh7 t:meta.view d:2017-06-09T13:54:37.979Z v:id=d9pb-3vh7 v:category=Utility v:averageRating=0 v:name="Residential Average Monthly kWh and Bills" v:attribution="Austin Energy"
 
-property e:d9pb-3vh7 t:meta.view.license v:name="Public Domain"
+property e:d9pb-3vh7 t:meta.view.license d:2017-06-09T13:54:37.979Z v:name="Public Domain"
 
-property e:d9pb-3vh7 t:meta.view.owner v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
+property e:d9pb-3vh7 t:meta.view.owner d:2017-06-09T13:54:37.979Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
 
-property e:d9pb-3vh7 t:meta.view.tableauthor v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:d9pb-3vh7 t:meta.view.tableauthor d:2017-06-09T13:54:37.979Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
 ```
 
 ## Top Records

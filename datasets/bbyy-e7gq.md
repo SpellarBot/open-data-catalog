@@ -53,11 +53,11 @@ Excluded Fields = id,address,latitude,longitude
 ## Data Commands
 
 ```ls
-series e:bbyy-e7gq d:2017-04-16T11:00:38.000Z t:station_name="Jeffery Blvd & 71st St" t:status="In Service" m:total_docks=11 m:docks_in_service=10
+series e:bbyy-e7gq d:2017-05-23T11:00:36.000Z t:station_name="Ridge Blvd & Howard St" t:status="In Service" m:total_docks=15 m:docks_in_service=15
 
-series e:bbyy-e7gq d:2017-04-18T11:00:35.000Z t:station_name="Wilton Ave & Diversey Pkwy" t:status="In Service" m:total_docks=27 m:docks_in_service=27
+series e:bbyy-e7gq d:2017-05-26T11:00:44.000Z t:station_name="Loomis St & Archer Ave" t:status="In Service" m:total_docks=15 m:docks_in_service=15
 
-series e:bbyy-e7gq d:2017-04-18T11:00:35.000Z t:station_name="Morgan St & 18th St" t:status="In Service" m:total_docks=15 m:docks_in_service=15
+series e:bbyy-e7gq d:2017-06-05T11:00:37.000Z t:station_name="Jeffery Blvd & 71st St" t:status="In Service" m:total_docks=11 m:docks_in_service=11
 ```
 
 ## Meta Commands
@@ -69,26 +69,26 @@ metric m:docks_in_service p:integer l:"Docks in Service" d:"Excludes docks taken
 
 entity e:bbyy-e7gq l:"Divvy Bicycle Stations" t:attribution="Alta Bicycle Share, Inc." t:url=https://data.cityofchicago.org/api/views/bbyy-e7gq
 
-property e:bbyy-e7gq t:meta.view v:id=bbyy-e7gq v:category=Transportation v:attributionLink=http://divvybikes.com/stations/json v:averageRating=0 v:name="Divvy Bicycle Stations" v:attribution="Alta Bicycle Share, Inc."
+property e:bbyy-e7gq t:meta.view d:2017-06-09T13:54:12.070Z v:id=bbyy-e7gq v:category=Transportation v:attributionLink=http://divvybikes.com/stations/json v:averageRating=0 v:name="Divvy Bicycle Stations" v:attribution="Alta Bicycle Share, Inc."
 
-property e:bbyy-e7gq t:meta.view.owner v:id=vewm-vupz v:screenName="Jonathan Levy" v:displayName="Jonathan Levy"
+property e:bbyy-e7gq t:meta.view.owner d:2017-06-09T13:54:12.070Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
 
-property e:bbyy-e7gq t:meta.view.tableauthor v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:displayName="Jonathan Levy"
+property e:bbyy-e7gq t:meta.view.tableauthor d:2017-06-09T13:54:12.070Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
 ```
 
 ## Top Records
 
 ```ls
-| :updated_at | id  | station_name               | address                    | total_docks | docks_in_service | status     | latitude     | longitude     | 
-| =========== | === | ========================== | ========================== | =========== | ================ | ========== | ============ | ============= | 
-| 1492340438  | 11  | Jeffery Blvd & 71st St     | Jeffery Blvd & 71st St     | 11          | 10               | In Service | 41.766638237 | -87.576450114 | 
-| 1492513235  | 13  | Wilton Ave & Diversey Pkwy | 2790 N.Wilton Ave          | 27          | 27               | In Service | 41.932418    | -87.652705    | 
-| 1492513235  | 14  | Morgan St & 18th St        | 962 W. 18th St             | 15          | 15               | In Service | 41.858086    | -87.651073    | 
-| 1492513235  | 532 | Austin Blvd & Lake St      | Austin Blvd & Lake St      | 15          | 15               | In Service | 41.887919    | -87.774446    | 
-| 1492599640  | 163 | Damen Ave & Clybourn Ave   | Damen Ave & Clybourn Ave   | 15          | 14               | In Service | 41.931931    | -87.677856    | 
-| 1483444838  | 12  | South Shore Dr & 71st St   | MLSW                       | 15          | 15               | In Service | 41.766409457 | -87.565687572 | 
-| 1479988838  | 514 | Ridge Blvd & Howard St     | Ridge Blvd & Howard St     | 15          | 15               | In Service | 42.019276    | -87.68452     | 
-| 1490526047  | 22  | May St & Taylor St         | 1134 W. Taylor St          | 15          | 15               | In Service | 41.8694821   | -87.6554864   | 
-| 1491822040  | 74  | Kingsbury St & Erie St     | 511 W Erie                 | 23          | 23               | In Service | 41.893882    | -87.641711    | 
-| 1491994837  | 253 | Clifton Ave & Lawrence Ave | Clifton Ave & Lawrence Ave | 15          | 15               | In Service | 41.968873    | -87.658857    | 
+| :updated_at | id  | station_name                  | address                       | total_docks | docks_in_service | status     | latitude     | longitude     | 
+| =========== | === | ============================= | ============================= | =========== | ================ | ========== | ============ | ============= | 
+| 1495537236  | 514 | Ridge Blvd & Howard St        | Ridge Blvd & Howard St        | 15          | 15               | In Service | 42.019276    | -87.68452     | 
+| 1495796444  | 366 | Loomis St & Archer Ave        | Loomis St & Archer Ave        | 15          | 15               | In Service | 41.84163254  | -87.657434953 | 
+| 1496660437  | 11  | Jeffery Blvd & 71st St        | Jeffery Blvd & 71st St        | 11          | 11               | In Service | 41.766638237 | -87.576450114 | 
+| 1496833237  | 14  | Morgan St & 18th St           | 962 W. 18th St                | 15          | 14               | In Service | 41.858086    | -87.651073    | 
+| 1497006043  | 106 | State St & Pearson St         | State St & Pearson St         | 27          | 26               | In Service | 41.897448    | -87.628722    | 
+| 1497006043  | 532 | Austin Blvd & Lake St         | Austin Blvd & Lake St         | 15          | 14               | In Service | 41.887919    | -87.774446    | 
+| 1495018833  | 429 | Cottage Grove Ave & 67th St   | Cottage Grove Ave & 67th St   | 11          | 11               | In Service | 41.773720952 | -87.60563486  | 
+| 1495710033  | 435 | Kedzie Ave & Roosevelt Rd     | Kedzie Ave & Roosevelt Rd     | 15          | 14               | In Service | 41.866492782 | -87.706496176 | 
+| 1496833237  | 214 | Damen Ave & Grand Ave         | Damen Ave & Grand Ave         | 23          | 23               | In Service | 41.89122     | -87.67686     | 
+| 1496833237  | 319 | Greenview Ave & Diversey Pkwy | Greenview Ave & Diversey Pkwy | 15          | 15               | In Service | 41.932595    | -87.665939    | 
 ```

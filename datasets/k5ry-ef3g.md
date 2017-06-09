@@ -58,13 +58,13 @@ metric m:row_number.k5ry-ef3g p:long l:"Row Number"
 
 entity e:k5ry-ef3g l:Restaurants t:attribution="City of Baltimore" t:url=https://data.baltimorecity.gov/api/views/k5ry-ef3g
 
-property e:k5ry-ef3g t:meta.view v:id=k5ry-ef3g v:category="Culture & Arts" v:attributionLink=http://www.baltimorecity.gov v:averageRating=0 v:name=Restaurants v:attribution="City of Baltimore"
+property e:k5ry-ef3g t:meta.view d:2017-06-09T13:51:58.365Z v:id=k5ry-ef3g v:category="Culture & Arts" v:attributionLink=http://www.baltimorecity.gov v:averageRating=0 v:name=Restaurants v:attribution="City of Baltimore"
 
-property e:k5ry-ef3g t:meta.view.license v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:k5ry-ef3g t:meta.view.license d:2017-06-09T13:51:58.365Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:k5ry-ef3g t:meta.view.owner v:id=6r9a-dfdj v:screenName="Open Baltimore" v:displayName="Open Baltimore"
+property e:k5ry-ef3g t:meta.view.owner d:2017-06-09T13:51:58.365Z v:id=6r9a-dfdj v:screenName="Open Baltimore" v:displayName="Open Baltimore"
 
-property e:k5ry-ef3g t:meta.view.tableauthor v:id=6r9a-dfdj v:screenName="Open Baltimore" v:roleName=administrator v:displayName="Open Baltimore"
+property e:k5ry-ef3g t:meta.view.tableauthor d:2017-06-09T13:51:58.365Z v:id=6r9a-dfdj v:screenName="Open Baltimore" v:roleName=administrator v:displayName="Open Baltimore"
 ```
 
 ## Top Records

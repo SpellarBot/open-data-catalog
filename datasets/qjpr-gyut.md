@@ -48,11 +48,11 @@ metric m:row_number.qjpr-gyut p:long l:"Row Number"
 
 entity e:qjpr-gyut l:"Election Maps - Statewide" t:url=https://data.hawaii.gov/api/views/qjpr-gyut
 
-property e:qjpr-gyut t:meta.view v:id=qjpr-gyut v:averageRating=0 v:name="Election Maps - Statewide"
+property e:qjpr-gyut t:meta.view d:2017-06-09T13:54:03.659Z v:id=qjpr-gyut v:averageRating=0 v:name="Election Maps - Statewide"
 
-property e:qjpr-gyut t:meta.view.owner v:id=a7h7-u2zq v:screenName="Office of Elections" v:displayName="Office of Elections"
+property e:qjpr-gyut t:meta.view.owner d:2017-06-09T13:54:03.659Z v:id=a7h7-u2zq v:screenName="Office of Elections" v:displayName="Office of Elections"
 
-property e:qjpr-gyut t:meta.view.tableauthor v:id=a7h7-u2zq v:screenName="Office of Elections" v:roleName=publisher v:displayName="Office of Elections"
+property e:qjpr-gyut t:meta.view.tableauthor d:2017-06-09T13:54:03.659Z v:id=a7h7-u2zq v:screenName="Office of Elections" v:roleName=publisher v:displayName="Office of Elections"
 ```
 
 ## Top Records

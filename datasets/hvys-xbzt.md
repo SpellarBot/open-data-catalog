@@ -57,11 +57,11 @@ metric m:price p:double l:Price t:dataTypeName=number
 
 entity e:hvys-xbzt l:"Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013" t:url=https://data.oregon.gov/api/views/hvys-xbzt
 
-property e:hvys-xbzt t:meta.view v:id=hvys-xbzt v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013"
+property e:hvys-xbzt t:meta.view d:2017-06-09T13:58:43.889Z v:id=hvys-xbzt v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013"
 
-property e:hvys-xbzt t:meta.view.owner v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:hvys-xbzt t:meta.view.owner d:2017-06-09T13:58:43.889Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 
-property e:hvys-xbzt t:meta.view.tableauthor v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1491427936 v:displayName="Paula N."
+property e:hvys-xbzt t:meta.view.tableauthor d:2017-06-09T13:58:43.889Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
 ```
 
 ## Top Records

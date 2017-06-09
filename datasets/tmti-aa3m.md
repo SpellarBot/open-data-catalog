@@ -67,11 +67,11 @@ Excluded Fields = report_period_end_date,date_approved,company_mailing_address_w
 ```ls
 entity e:tmti-aa3m l:"Strategic Investment Program (SIP): FY2016" t:attribution="Business Oregon" t:url=https://data.oregon.gov/api/views/tmti-aa3m
 
-property e:tmti-aa3m t:meta.view v:id=tmti-aa3m v:category="Revenue & Expense" v:attributionLink=http://www.oregon4biz.com/ v:averageRating=0 v:name="Strategic Investment Program (SIP): FY2016" v:attribution="Business Oregon"
+property e:tmti-aa3m t:meta.view d:2017-06-09T13:55:23.632Z v:id=tmti-aa3m v:category="Revenue & Expense" v:attributionLink=http://www.oregon4biz.com/ v:averageRating=0 v:name="Strategic Investment Program (SIP): FY2016" v:attribution="Business Oregon"
 
-property e:tmti-aa3m t:meta.view.owner v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:displayName=carmens
+property e:tmti-aa3m t:meta.view.owner d:2017-06-09T13:55:23.632Z v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:displayName=carmens
 
-property e:tmti-aa3m t:meta.view.tableauthor v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:roleName=editor v:displayName=carmens
+property e:tmti-aa3m t:meta.view.tableauthor d:2017-06-09T13:55:23.632Z v:id=ewcx-ibs2 v:profileImageUrlMedium=/api/users/ewcx-ibs2/profile_images/THUMB v:profileImageUrlLarge=/api/users/ewcx-ibs2/profile_images/LARGE v:screenName=carmens v:profileImageUrlSmall=/api/users/ewcx-ibs2/profile_images/TINY v:roleName=editor v:displayName=carmens
 ```
 
 ## Top Records

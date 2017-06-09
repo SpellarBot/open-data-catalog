@@ -56,13 +56,13 @@ metric m:emissions_metric_tonnes p:integer l:"Emissions (Metric Tons)" t:dataTyp
 
 entity e:ukf5-i76d l:"Emissions By Plant" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/ukf5-i76d
 
-property e:ukf5-i76d t:meta.view v:id=ukf5-i76d v:category=Utility v:averageRating=0 v:name="Emissions By Plant" v:attribution="Austin Energy"
+property e:ukf5-i76d t:meta.view d:2017-06-09T13:56:58.247Z v:id=ukf5-i76d v:category=Utility v:averageRating=0 v:name="Emissions By Plant" v:attribution="Austin Energy"
 
-property e:ukf5-i76d t:meta.view.license v:name="Public Domain"
+property e:ukf5-i76d t:meta.view.license d:2017-06-09T13:56:58.247Z v:name="Public Domain"
 
-property e:ukf5-i76d t:meta.view.owner v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:ukf5-i76d t:meta.view.owner d:2017-06-09T13:56:58.247Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
 
-property e:ukf5-i76d t:meta.view.tableauthor v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:ukf5-i76d t:meta.view.tableauthor d:2017-06-09T13:56:58.247Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
 ```
 
 ## Top Records

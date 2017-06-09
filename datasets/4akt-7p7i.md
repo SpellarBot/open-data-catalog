@@ -74,13 +74,13 @@ metric m:assessment p:integer l:Assessment t:dataTypeName=money
 
 entity e:4akt-7p7i l:"City of Hartford Business Listing" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/4akt-7p7i
 
-property e:4akt-7p7i t:meta.view v:id=4akt-7p7i v:category=Financial v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="City of Hartford Business Listing" v:attribution="City of Hartford"
+property e:4akt-7p7i t:meta.view d:2017-06-09T13:57:55.024Z v:id=4akt-7p7i v:category=Financial v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="City of Hartford Business Listing" v:attribution="City of Hartford"
 
-property e:4akt-7p7i t:meta.view.license v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:4akt-7p7i t:meta.view.license d:2017-06-09T13:57:55.024Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:4akt-7p7i t:meta.view.owner v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
+property e:4akt-7p7i t:meta.view.owner d:2017-06-09T13:57:55.024Z v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
 
-property e:4akt-7p7i t:meta.view.tableauthor v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:4akt-7p7i t:meta.view.tableauthor d:2017-06-09T13:57:55.024Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
 ```
 
 ## Top Records

@@ -104,7 +104,7 @@ Name | Category | Published
 [Austin Water - Wastewater Service Connection Count By Zip Code](../datasets/6v99-vnq3.md) | Utility | 2016&#x2011;11&#x2011;21
 [Austin Water - Water Service Connection Count By Zip Code](../datasets/uizf-mcbc.md) | Utility | 2016&#x2011;11&#x2011;21
 [Austin Water Approved Plant List](../datasets/82dq-nkpk.md) | Environmental | 2016&#x2011;06&#x2011;13
-[Austin Water Authorized Irrigation Inspector List](../datasets/dhvz-stgx.md) | Environmental | 2016&#x2011;10&#x2011;06
+[Austin Water Authorized Irrigation Inspector List](../datasets/dhvz-stgx.md) | Environmental | 2017&#x2011;05&#x2011;04
 [Austin Water Statistics](../datasets/87qq-mkwq.md) | Utility | 2016&#x2011;05&#x2011;05
 [Austin's Small Scale Green Infrastructure](../datasets/2cgz-29c8.md) | Environmental | 2016&#x2011;04&#x2011;11
 [AustinGO Keyword Search](../datasets/sswp-u5uh.md) | Government | 2013&#x2011;05&#x2011;03
@@ -211,7 +211,7 @@ Name | Category | Published
 [Energy Sales - kilowatt hours by Customer Class](../datasets/t4zw-f3yr.md) | Utility | 2016&#x2011;06&#x2011;24
 [Equivalent Availability Factor](../datasets/mpip-i8mq.md) | Utility | 2016&#x2011;10&#x2011;18
 [Event Waivers](../datasets/fytz-zuei.md) | Permitting | 2015&#x2011;08&#x2011;06
-[FY 2016 Proposed Operating Budget Expenditures ? Line Item Detail](../datasets/c9gq-k8de.md) | Government | 2015&#x2011;08&#x2011;14
+[FY 2016 Proposed Operating Budget Expenditures – Line Item Detail](../datasets/c9gq-k8de.md) | Government | 2015&#x2011;08&#x2011;14
 [FY11 Day Labor Placements](../datasets/m9jn-qzir.md) |  | 2012&#x2011;07&#x2011;11
 [FY12 Day Labor Placements](../datasets/utnt-hag5.md) | Workforce Development | 2012&#x2011;10&#x2011;05
 [FY13 Day Labor Placements](../datasets/ykzu-pxxq.md) | Workforce Development | 2013&#x2011;10&#x2011;10

@@ -61,11 +61,11 @@ metric m:row_number.jcxs-qmaz p:long l:"Row Number"
 
 entity e:jcxs-qmaz l:"Super Neighborhood Tracker" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/jcxs-qmaz
 
-property e:jcxs-qmaz t:meta.view v:id=jcxs-qmaz v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Super Neighborhood Tracker" v:attribution="City of Jackson"
+property e:jcxs-qmaz t:meta.view d:2017-06-09T13:59:05.962Z v:id=jcxs-qmaz v:category="Community Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Super Neighborhood Tracker" v:attribution="City of Jackson"
 
-property e:jcxs-qmaz t:meta.view.owner v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:jcxs-qmaz t:meta.view.owner d:2017-06-09T13:59:05.962Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 
-property e:jcxs-qmaz t:meta.view.tableauthor v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:jcxs-qmaz t:meta.view.tableauthor d:2017-06-09T13:59:05.962Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
 ```
 
 ## Top Records

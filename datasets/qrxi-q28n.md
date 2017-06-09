@@ -61,11 +61,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:qrxi-q28n d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=0 m:may=0 m:november=0 m:march=0 m:april=0 m:february=0 m:june=0 m:january=0 m:ytd=0 m:august=0 m:july=0 m:october=0 m:september=0
+series e:qrxi-q28n d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=0 m:march=0 m:november=0 m:may=0 m:february=0 m:april=0 m:june=0 m:ytd=0 m:january=0 m:august=0 m:july=0 m:october=0 m:september=0
 
-series e:qrxi-q28n d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=2643 m:may=2461 m:november=2984 m:march=2923 m:april=3060 m:february=2591 m:june=2448 m:january=3489 m:ytd=34407 m:august=3319 m:july=2883 m:october=2893 m:september=2713
+series e:qrxi-q28n d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=2643 m:march=2923 m:november=2984 m:may=2461 m:february=2591 m:april=3060 m:june=2448 m:ytd=34407 m:january=3489 m:august=3319 m:july=2883 m:october=2893 m:september=2713
 
-series e:qrxi-q28n d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=1728 m:may=1768 m:november=2163 m:march=1945 m:april=1965 m:february=1759 m:june=1816 m:january=2147 m:ytd=24018 m:august=2134 m:july=2065 m:october=2346 m:september=2182
+series e:qrxi-q28n d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights" t:city=CHICAGO m:december=1728 m:march=1945 m:november=2163 m:may=1768 m:february=1759 m:april=1965 m:june=1816 m:ytd=24018 m:january=2147 m:august=2134 m:july=2065 m:october=2346 m:september=2182
 ```
 
 ## Meta Commands
@@ -99,11 +99,11 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:qrxi-q28n l:"Libraries - 2013 Computer Sessions by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/qrxi-q28n
 
-property e:qrxi-q28n t:meta.view v:id=qrxi-q28n v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Computer Sessions by Location" v:attribution="Chicago Public Library"
+property e:qrxi-q28n t:meta.view d:2017-06-09T13:57:15.328Z v:id=qrxi-q28n v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Computer Sessions by Location" v:attribution="Chicago Public Library"
 
-property e:qrxi-q28n t:meta.view.owner v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
+property e:qrxi-q28n t:meta.view.owner d:2017-06-09T13:57:15.328Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
 
-property e:qrxi-q28n t:meta.view.tableauthor v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:qrxi-q28n t:meta.view.tableauthor d:2017-06-09T13:57:15.328Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
 ```
 
 ## Top Records

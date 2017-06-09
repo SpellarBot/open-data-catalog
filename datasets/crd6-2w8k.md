@@ -64,13 +64,13 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:crd6-2w8k l:"Certified Green Buildings (2005 - Present)" t:attribution="U.S. Green Building Council" t:url=https://data.nola.gov/api/views/crd6-2w8k
 
-property e:crd6-2w8k t:meta.view v:id=crd6-2w8k v:category="Housing, Land Use, and Blight" v:attributionLink=http://www.usgbc.org/projects v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council"
+property e:crd6-2w8k t:meta.view d:2017-06-09T13:57:11.241Z v:id=crd6-2w8k v:category="Housing, Land Use, and Blight" v:attributionLink=http://www.usgbc.org/projects v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council"
 
-property e:crd6-2w8k t:meta.view.owner v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.owner d:2017-06-09T13:57:11.241Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
 
-property e:crd6-2w8k t:meta.view.tableauthor v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.tableauthor d:2017-06-09T13:57:11.241Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
 
-property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core v:Contact_Email=data@nola.gov
+property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:11.241Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

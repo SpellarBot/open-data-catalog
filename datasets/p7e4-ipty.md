@@ -67,13 +67,13 @@ metric m:average_sunday_trips p:integer l:"Average Sunday Trips" d:"Identifies p
 
 entity e:p7e4-ipty l:"Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996" t:attribution="Port Authority NY & NJ" t:url=https://data.ny.gov/api/views/p7e4-ipty
 
-property e:p7e4-ipty t:meta.view v:id=p7e4-ipty v:category=Transportation v:averageRating=0 v:name="Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996" v:attribution="Port Authority NY & NJ"
+property e:p7e4-ipty t:meta.view d:2017-06-09T13:57:10.480Z v:id=p7e4-ipty v:category=Transportation v:averageRating=0 v:name="Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996" v:attribution="Port Authority NY & NJ"
 
-property e:p7e4-ipty t:meta.view.owner v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:p7e4-ipty t:meta.view.owner d:2017-06-09T13:57:10.480Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
 
-property e:p7e4-ipty t:meta.view.tableauthor v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:p7e4-ipty t:meta.view.tableauthor d:2017-06-09T13:57:10.480Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
 
-property e:p7e4-ipty t:meta.view.metadata.custom_fields.common_core v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:p7e4-ipty t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:10.480Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
 ```
 
 ## Top Records
