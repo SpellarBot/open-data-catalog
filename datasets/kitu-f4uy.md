@@ -72,11 +72,11 @@ Excluded Fields = createddatetime,lastmodifieddatetime,longitude,latitude,blocka
 ## Data Commands
 
 ```ls
-series e:kitu-f4uy d:2010-01-01T01:11:00.000Z t:vehiclemodel=CARAVAN t:vehiclecolor=BLACK t:subjectgender=FEMALE t:vehicleyear=2005 t:subjecthasphotoid=Yes t:subjectdriverlicstate=LA t:subjecthaircolor=Black t:vehiclemake=DODGE t:vehiclestyle=MINIVAN t:fieldinterviewid=17415 t:subjecteyecolor=Brown t:district=6 t:subjectid=20465 t:stopdescription="TRAFFIC VIOLATION" t:officerassignment="6th  District" t:zone=E t:subjectrace=BLACK m:subjectage=26 m:subjectweight=160 m:subjectheight=69
+series e:kitu-f4uy d:2010-01-01T01:11:00.000Z t:vehicleyear=2005 t:subjectgender=FEMALE t:subjectrace=BLACK t:vehiclecolor=BLACK t:officerassignment="6th  District" t:subjectid=20465 t:subjecteyecolor=Brown t:subjecthaircolor=Black t:zone=E t:fieldinterviewid=17415 t:district=6 t:stopdescription="TRAFFIC VIOLATION" t:vehiclemake=DODGE t:subjectdriverlicstate=LA t:vehiclemodel=CARAVAN t:vehiclestyle=MINIVAN t:subjecthasphotoid=Yes m:subjectheight=69 m:subjectage=26 m:subjectweight=160
 
-series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjectid=20466 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=17 m:subjectweight=140 m:subjectheight=65
+series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjectgender=MALE t:subjecthaircolor=Black t:subjectrace=BLACK t:zone=D t:fieldinterviewid=17416 t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjecthasphotoid=No t:officerassignment="5th  District" t:subjectid=20466 t:subjecteyecolor=Brown m:subjectheight=65 m:subjectage=17 m:subjectweight=140
 
-series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjecthasphotoid=No t:subjecthaircolor=Black t:fieldinterviewid=17416 t:subjecteyecolor=Brown t:subjectgender=MALE t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjectid=20468 t:officerassignment="5th  District" t:zone=D t:subjectrace=BLACK m:subjectage=18 m:subjectweight=140 m:subjectheight=66
+series e:kitu-f4uy d:2010-01-01T02:06:00.000Z t:subjectgender=MALE t:subjecthaircolor=Black t:subjectrace=BLACK t:zone=D t:fieldinterviewid=17416 t:district=5 t:stopdescription="CALL FOR SERVICE" t:subjecthasphotoid=No t:officerassignment="5th  District" t:subjectid=20468 t:subjecteyecolor=Brown m:subjectheight=66 m:subjectage=18 m:subjectweight=140
 ```
 
 ## Meta Commands
@@ -90,15 +90,15 @@ metric m:subjectweight p:integer l:SubjectWeight t:dataTypeName=number
 
 entity e:kitu-f4uy l:"Stop and Search (Field Interviews)" t:url=https://data.nola.gov/api/views/kitu-f4uy
 
-property e:kitu-f4uy t:meta.view d:2017-06-09T13:58:28.820Z v:id=kitu-f4uy v:category="Public Safety and Preparedness" v:averageRating=0 v:name="Stop and Search (Field Interviews)"
+property e:kitu-f4uy t:meta.view d:2017-09-25T07:29:47.503Z v:averageRating=0 v:name="Stop and Search (Field Interviews)" v:id=kitu-f4uy v:category="Public Safety and Preparedness"
 
-property e:kitu-f4uy t:meta.view.license d:2017-06-09T13:58:28.820Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:kitu-f4uy t:meta.view.license d:2017-09-25T07:29:47.503Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:kitu-f4uy t:meta.view.owner d:2017-06-09T13:58:28.820Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:displayName="Enterprise Information Data Team"
+property e:kitu-f4uy t:meta.view.owner d:2017-09-25T07:29:47.503Z v:displayName="Enterprise Information Data Team" v:id=uqfu-rapx v:screenName="Enterprise Information Data Team"
 
-property e:kitu-f4uy t:meta.view.tableauthor d:2017-06-09T13:58:28.820Z v:id=uqfu-rapx v:screenName="Enterprise Information Data Team" v:roleName=publisher v:displayName="Enterprise Information Data Team"
+property e:kitu-f4uy t:meta.view.tableauthor d:2017-09-25T07:29:47.503Z v:displayName="Enterprise Information Data Team" v:roleName=publisher v:id=uqfu-rapx v:screenName="Enterprise Information Data Team"
 
-property e:kitu-f4uy t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:28.820Z v:Contact_Email=data@nola.gov
+property e:kitu-f4uy t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:29:47.503Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

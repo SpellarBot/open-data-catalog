@@ -46,11 +46,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=DEC m:vendor_compliance_audit=20 m:training_seminars=3 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:lobbyist_expense_audit=0 m:inquiries_pre_bid_mtgs_included=24 m:employees_trained=29 m:new_investigations_opened=6
+series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=DEC m:new_investigations_opened=6 m:lobbyist_expense_audit=0 m:vendor_compliance_audit=20 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:employees_trained=29 m:training_seminars=3 m:inquiries_pre_bid_mtgs_included=24
 
-series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=JAN m:vendor_compliance_audit=10 m:training_seminars=2 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:lobbyist_expense_audit=0 m:inquiries_pre_bid_mtgs_included=22 m:employees_trained=29 m:new_investigations_opened=1
+series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=JAN m:new_investigations_opened=1 m:lobbyist_expense_audit=0 m:vendor_compliance_audit=10 m:advisory_opinions_issued=1 m:political_contributions_audit=0 m:employees_trained=29 m:training_seminars=2 m:inquiries_pre_bid_mtgs_included=22
 
-series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=FEB m:vendor_compliance_audit=23 m:training_seminars=2 m:advisory_opinions_issued=2 m:political_contributions_audit=0 m:lobbyist_expense_audit=0 m:inquiries_pre_bid_mtgs_included=10 m:employees_trained=26 m:new_investigations_opened=0
+series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z t:month=FEB m:new_investigations_opened=0 m:lobbyist_expense_audit=0 m:vendor_compliance_audit=23 m:advisory_opinions_issued=2 m:political_contributions_audit=0 m:employees_trained=26 m:training_seminars=2 m:inquiries_pre_bid_mtgs_included=10
 ```
 
 ## Meta Commands
@@ -74,13 +74,13 @@ metric m:political_contributions_audit p:integer l:"Political Contributions Audi
 
 entity e:xy4g-m2tm l:"Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete" t:attribution="Cook County Board of Ethics" t:url=https://datacatalog.cookcountyil.gov/api/views/xy4g-m2tm
 
-property e:xy4g-m2tm t:meta.view d:2017-06-09T13:57:08.831Z v:id=xy4g-m2tm v:category="Finance & Administration" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/board_of_ethics/293 v:averageRating=0 v:name="Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete" v:attribution="Cook County Board of Ethics"
+property e:xy4g-m2tm t:meta.view d:2017-09-25T07:28:28.491Z v:averageRating=0 v:name="Board of Ethics - Summary of Activity, by Month - Fiscal Year 2011 Incomplete" v:attribution="Cook County Board of Ethics" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/board_of_ethics/293 v:id=xy4g-m2tm v:category="Finance & Administration"
 
-property e:xy4g-m2tm t:meta.view.license d:2017-06-09T13:57:08.831Z v:name="Public Domain"
+property e:xy4g-m2tm t:meta.view.license d:2017-09-25T07:28:28.491Z v:name="Public Domain"
 
-property e:xy4g-m2tm t:meta.view.owner d:2017-06-09T13:57:08.831Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:xy4g-m2tm t:meta.view.owner d:2017-09-25T07:28:28.491Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 
-property e:xy4g-m2tm t:meta.view.tableauthor d:2017-06-09T13:57:08.831Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:xy4g-m2tm t:meta.view.tableauthor d:2017-09-25T07:28:28.491Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 ```
 
 ## Top Records

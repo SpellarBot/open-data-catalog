@@ -3,7 +3,7 @@
 Name | Host | Published
 ---- | ---- | ---------
 [311 Service Requests - Sanitation Code Complaints](../datasets/me59-5fac.md) | data.cityofchicago.org | 2017&#x2011;04&#x2011;20
-[DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | data.cityofnewyork.us | 2016&#x2011;02&#x2011;19
+[DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;18
 [LASAN: Miles of Sewer Cleaned](../datasets/iyyp-p2fx.md) | data.lacity.org | 2014&#x2011;08&#x2011;12
 [LASAN: Number of Catch Basins Cleaned](../datasets/8a3v-f7cr.md) | data.lacity.org | 2014&#x2011;11&#x2011;07
 [LASAN: S.A.F.E. (Solvents, Automotive, Flammables, E-Waste) Centers](../datasets/t8kf-2y96.md) | data.lacity.org | 2014&#x2011;05&#x2011;27

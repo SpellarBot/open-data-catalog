@@ -13,7 +13,7 @@ Name | Category | Published
 [BRFSS Prevalence and Trends Data: Tobacco Use - Four Level Smoking Data for 1995-2010](../datasets/8zak-ewtm.md) | Smoking & Tobacco Use | 2013&#x2011;08&#x2011;02
 [Behavioral Risk Factor Data: Health-Related Quality of Life (HRQOL)](../datasets/xuxn-8kju.md) | Health-Related Quality of Life | 2015&#x2011;06&#x2011;04
 [Behavioral Risk Factor Data: Heart Disease & Stroke Prevention](../datasets/4ny5-qn3w.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
-[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](../datasets/d2rk-yvas.md) | Behavioral Risk Factors | 2016&#x2011;12&#x2011;23
+[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](../datasets/d2rk-yvas.md) | Behavioral Risk Factors | 2017&#x2011;09&#x2011;11
 [Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)](../datasets/y4ft-s73h.md) | Behavioral Risk Factors | 2016&#x2011;03&#x2011;11
 [Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2011 to present)](../datasets/dttw-5yxu.md) | Behavioral Risk Factors | 2016&#x2011;12&#x2011;23
 [Behavioral Risk Factors - Vision & Eye Health](../datasets/pttf-ck53.md) | Vision & Eye Health | 2016&#x2011;02&#x2011;02
@@ -71,7 +71,7 @@ Name | Category | Published
 [NCHS - Age-adjusted Death Rates for Selected Major Causes of Death: United States, 1900-2013](../datasets/6rkc-nb2q.md) | NCHS | 2016&#x2011;06&#x2011;22
 [NCHS - Age-adjusted Death Rates for the Top 10 Leading Causes of Death: United States, 2013](../datasets/bi63-dtpu.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Age-adjusted death rates and life-expectancy at birth, (All Races, Both Sexes): United States, 1900-2013](../datasets/w9j2-ggv5.md) | NCHS | 2016&#x2011;07&#x2011;08
-[NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013](../datasets/rg8a-czmp.md) | NCHS | 2015&#x2011;12&#x2011;02
+[NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015](../datasets/rg8a-czmp.md) | NCHS | 2017&#x2011;08&#x2011;15
 [NCHS - Birth Rates, by Age and Race and Hispanic Origin: United States, 1989-2013](../datasets/e8kx-wbww.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Birth Rates, by Age of Mother: United States, 1940-2013](../datasets/yt7u-eiyg.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Births and General Fertility Rates: United States, 1909-2013](../datasets/e6fc-ccez.md) | NCHS | 2015&#x2011;12&#x2011;02
@@ -82,7 +82,7 @@ Name | Category | Published
 [NCHS - Drug Poisoning Mortality, U.S. and State Trends: United States, 1999?2015](../datasets/jx6g-fdh6.md) | NCHS | 2017&#x2011;04&#x2011;11
 [NCHS - Infant Mortality Rates, by Race: United States, 1915-2013](../datasets/ddsk-zebd.md) | NCHS | 2016&#x2011;06&#x2011;22
 [NCHS - Infant and neonatal mortality rates: United States, 1915-2013](../datasets/epev-k6ss.md) | NCHS | 2016&#x2011;06&#x2011;22
-[NCHS - Injury Mortality: United States, 1999–2014](../datasets/nt65-c7a7.md) | NCHS | 2016&#x2011;10&#x2011;20
+[NCHS - Injury Mortality: United States](../datasets/nt65-c7a7.md) | NCHS | 2017&#x2011;08&#x2011;23
 [NCHS - Nonmarital Birth Rates, by Age Group for All Women Age 15-44: United States, 1980-2013](../datasets/jvf6-ix4w.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Nonmarital Birth Rates, by Race and Hispanic Origin for Women Aged 15-44: United States, 1970-2013](../datasets/6tkz-y37d.md) | NCHS | 2015&#x2011;12&#x2011;02
 [NCHS - Percent Distribution of Births, by Maternal Age: United States, 1933-2013](../datasets/isx2-c2ii.md) | NCHS | 2015&#x2011;12&#x2011;02
@@ -121,7 +121,7 @@ Name | Category | Published
 [NNDSS - Table II. Hepatitis (viral, acute) A & B](../datasets/vxsn-2csw.md) | NNDSS | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Hepatitis (viral, acute) C](../datasets/swv3-ghj7.md) | NNDSS | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Invasive Pneumococcal Diseases, Age <5](../datasets/9yc3-yir3.md) | NNDSS | 2017&#x2011;04&#x2011;20
-[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](../datasets/mbsb-z5f8.md) | NNDSS | 2017&#x2011;06&#x2011;08
+[NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages](../datasets/mbsb-z5f8.md) | NNDSS | 2017&#x2011;09&#x2011;21
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | NNDSS | 2015&#x2011;01&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | NNDSS | 2015&#x2011;01&#x2011;08
 [NNDSS - Table II. Invasive Pneumococcal to Legionellosis](../datasets/23gt-ssfe.md) | NNDSS | 2015&#x2011;01&#x2011;08
@@ -132,7 +132,7 @@ Name | Category | Published
 [NNDSS - Table II. Meningococcal to Pertussis](../datasets/hatw-7gqy.md) | NNDSS | 2017&#x2011;04&#x2011;20
 [NNDSS - Table II. Mumps to Rabies, animal](../datasets/d69q-iyrb.md) | NNDSS | 2016&#x2011;01&#x2011;07
 [NNDSS - Table II. Mumps to Rabies, animal](../datasets/d69q-iyrb.md) | NNDSS | 2016&#x2011;01&#x2011;07
-[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | NNDSS | 2017&#x2011;06&#x2011;08
+[NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome](../datasets/scxv-4u4u.md) | NNDSS | 2017&#x2011;09&#x2011;21
 [NNDSS - Table II. Rubella to Salmonellosis](../datasets/4qb4-rsd8.md) | NNDSS | 2017&#x2011;01&#x2011;05
 [NNDSS - Table II. Rubella to Salmonellosis](../datasets/4qb4-rsd8.md) | NNDSS | 2017&#x2011;01&#x2011;05
 [NNDSS - Table II. Salmonellosis to Shigellosis](../datasets/hwyq-75wu.md) | NNDSS | 2017&#x2011;04&#x2011;20
@@ -156,7 +156,7 @@ Name | Category | Published
 [NNDSS - Table IV. Tuberculosis](../datasets/pxa6-asqb.md) | NNDSS | 2015&#x2011;01&#x2011;15
 [NOHSS Adult Indicators - 2010 And Prior BRFSS](../datasets/aemk-wcbf.md) | Oral Health | 2016&#x2011;11&#x2011;07
 [NOHSS Child Indicators](../datasets/qcai-zfj9.md) | Oral Health | 2016&#x2011;08&#x2011;08
-[National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](../datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
+[National Health Interview Survey (NHIS) - National Cardiovascular Disease Surveillance Data](../datasets/fwns-azgu.md) | Heart Disease & Stroke Prevention | 2017&#x2011;06&#x2011;27
 [National Health and Nutrition Examination Survey (NHANES)](../datasets/5svk-8bnq.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
 [National Vital Statistics System (NVSS) - National Cardiovascular Disease Surveillance Data](../datasets/kztq-p2jf.md) | Heart Disease & Stroke Prevention | 2017&#x2011;01&#x2011;04
 [Nowcast Predictions for Chikungunya Virus-Infected Travelers](../datasets/2sxq-n8zu.md) |  | 2015&#x2011;08&#x2011;10

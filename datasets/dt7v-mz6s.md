@@ -43,11 +43,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:position=Support t:measure="Measure J - Minimum Wage" t:reportered_filerid=1367310 t:filerid=1367310 t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations" m:row_number.dt7v-mz6s=1
+series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:measure="Measure J - Minimum Wage" t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations" t:filerid=1367310 t:position=Support t:reportered_filerid=1367310 m:row_number.dt7v-mz6s=1
 
-series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:position=Support t:measure="Measure J - Minimum Wage" t:reportered_filerid=1367310 t:filerid=1367310 t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations, Yes on Proposition J" m:row_number.dt7v-mz6s=2
+series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:measure="Measure J - Minimum Wage" t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations, Yes on Proposition J" t:filerid=1367310 t:position=Support t:reportered_filerid=1367310 m:row_number.dt7v-mz6s=2
 
-series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:position=Support t:measure="Measure C - Children and Youth Fund" t:reportered_filerid=1367736 t:filerid=1367736 t:filer_naml="Children and Family First Committee" m:row_number.dt7v-mz6s=3
+series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z t:measure="Measure C - Children and Youth Fund" t:filer_naml="Children and Family First Committee" t:filerid=1367736 t:position=Support t:reportered_filerid=1367736 m:row_number.dt7v-mz6s=3
 ```
 
 ## Meta Commands
@@ -57,13 +57,13 @@ metric m:row_number.dt7v-mz6s p:long l:"Row Number"
 
 entity e:dt7v-mz6s l:"Campaign Finance - Ballot Measure Committee Name Mapping - November 4 2014 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/dt7v-mz6s
 
-property e:dt7v-mz6s t:meta.view d:2017-06-09T13:54:31.926Z v:id=dt7v-mz6s v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Ballot Measure Committee Name Mapping - November 4 2014 Election" v:attribution="San Francisco Ethics Commission"
+property e:dt7v-mz6s t:meta.view d:2017-09-25T07:25:56.136Z v:averageRating=0 v:name="Campaign Finance - Ballot Measure Committee Name Mapping - November 4 2014 Election" v:attribution="San Francisco Ethics Commission" v:attributionLink=http://www.sfethics.org v:id=dt7v-mz6s v:category="City Management and Ethics"
 
-property e:dt7v-mz6s t:meta.view.license d:2017-06-09T13:54:31.926Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:dt7v-mz6s t:meta.view.license d:2017-09-25T07:25:56.136Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:dt7v-mz6s t:meta.view.owner d:2017-06-09T13:54:31.926Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:dt7v-mz6s t:meta.view.owner d:2017-09-25T07:25:56.136Z v:displayName="San Francisco Ethics Commission" v:lastNotificationSeenAt=1500665894 v:id=kcqd-yeev v:screenName="San Francisco Ethics Commission"
 
-property e:dt7v-mz6s t:meta.view.tableauthor d:2017-06-09T13:54:31.926Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:dt7v-mz6s t:meta.view.tableauthor d:2017-09-25T07:25:56.136Z v:displayName="San Francisco Ethics Commission" v:lastNotificationSeenAt=1500665894 v:roleName=publisher v:id=kcqd-yeev v:screenName="San Francisco Ethics Commission"
 ```
 
 ## Top Records

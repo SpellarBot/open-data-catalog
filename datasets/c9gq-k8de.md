@@ -12,7 +12,7 @@
 | Id | c9gq-k8de |
 | Name | FY 2016 Proposed Operating Budget Expenditures – Line Item Detail |
 | Attribution | City of Austin |
-| Category | Government |
+| Category | Budget and Finance |
 | Tags | proposed budget |
 | Created | 2015-08-14T21:37:06Z |
 | Publication Date | 2015-08-14T21:52:16Z |
@@ -54,11 +54,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:fund_code=1000 t:expense_name="Regular wages - full-time" t:program_code=2ANL t:program_name="Animal Services" t:dept_rollup_name="Animal Services" t:expense_code=5001 t:activity_name="Field Services" t:activity_code=2FDS t:fund_name="General Fund" t:department_code=9200 t:department_name="Animal Services" t:unit_name="Animal Protection" t:unit_code=2131 m:dept_rollup=92 m:proposed_budget=806489
+series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:department_code=9200 t:activity_name="Field Services" t:department_name="Animal Services" t:program_name="Animal Services" t:expense_code=5001 t:dept_rollup_name="Animal Services" t:fund_name="General Fund" t:activity_code=2FDS t:fund_code=1000 t:unit_name="Animal Protection" t:expense_name="Regular wages - full-time" t:program_code=2ANL t:unit_code=2131 m:dept_rollup=92 m:proposed_budget=806489
 
-series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:fund_code=1000 t:expense_name="Regular wages - part-time" t:program_code=2ANL t:program_name="Animal Services" t:dept_rollup_name="Animal Services" t:expense_code=5002 t:activity_name="Field Services" t:activity_code=2FDS t:fund_name="General Fund" t:department_code=9200 t:department_name="Animal Services" t:unit_name="Animal Protection" t:unit_code=2131 m:dept_rollup=92 m:proposed_budget=17879
+series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:department_code=9200 t:activity_name="Field Services" t:department_name="Animal Services" t:program_name="Animal Services" t:expense_code=5002 t:dept_rollup_name="Animal Services" t:fund_name="General Fund" t:activity_code=2FDS t:fund_code=1000 t:unit_name="Animal Protection" t:expense_name="Regular wages - part-time" t:program_code=2ANL t:unit_code=2131 m:dept_rollup=92 m:proposed_budget=17879
 
-series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:fund_code=1000 t:expense_name=Overtime t:program_code=2ANL t:program_name="Animal Services" t:dept_rollup_name="Animal Services" t:expense_code=5005 t:activity_name="Field Services" t:activity_code=2FDS t:fund_name="General Fund" t:department_code=9200 t:department_name="Animal Services" t:unit_name="Animal Protection" t:unit_code=2131 m:dept_rollup=92 m:proposed_budget=45664
+series e:c9gq-k8de d:2016-01-01T00:00:00.000Z t:department_code=9200 t:activity_name="Field Services" t:department_name="Animal Services" t:program_name="Animal Services" t:expense_code=5005 t:dept_rollup_name="Animal Services" t:fund_name="General Fund" t:activity_code=2FDS t:fund_code=1000 t:unit_name="Animal Protection" t:expense_name=Overtime t:program_code=2ANL t:unit_code=2131 m:dept_rollup=92 m:proposed_budget=45664
 ```
 
 ## Meta Commands
@@ -70,13 +70,13 @@ metric m:proposed_budget p:integer l:PROPOSED_BUDGET t:dataTypeName=number
 
 entity e:c9gq-k8de l:"FY 2016 Proposed Operating Budget Expenditures – Line Item Detail" t:attribution="City of Austin" t:url=https://data.austintexas.gov/api/views/c9gq-k8de
 
-property e:c9gq-k8de t:meta.view d:2017-06-09T13:56:19.305Z v:id=c9gq-k8de v:category=Government v:averageRating=0 v:name="FY 2016 Proposed Operating Budget Expenditures – Line Item Detail" v:attribution="City of Austin"
+property e:c9gq-k8de t:meta.view d:2017-09-25T07:27:42.025Z v:averageRating=0 v:name="FY 2016 Proposed Operating Budget Expenditures – Line Item Detail" v:attribution="City of Austin" v:id=c9gq-k8de v:category="Budget and Finance"
 
-property e:c9gq-k8de t:meta.view.license d:2017-06-09T13:56:19.305Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:c9gq-k8de t:meta.view.license d:2017-09-25T07:27:42.025Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:c9gq-k8de t:meta.view.owner d:2017-06-09T13:56:19.305Z v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.owner d:2017-09-25T07:27:42.025Z v:displayName="FSD - Controller's Office" v:id=mx9i-sxdu v:screenName="FSD - Controller's Office"
 
-property e:c9gq-k8de t:meta.view.tableauthor d:2017-06-09T13:56:19.305Z v:id=mx9i-sxdu v:screenName="FSD - Controller's Office" v:roleName=publisher v:displayName="FSD - Controller's Office"
+property e:c9gq-k8de t:meta.view.tableauthor d:2017-09-25T07:27:42.025Z v:displayName="FSD - Controller's Office" v:roleName=publisher v:id=mx9i-sxdu v:screenName="FSD - Controller's Office"
 ```
 
 ## Top Records

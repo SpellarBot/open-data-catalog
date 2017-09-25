@@ -101,7 +101,7 @@ Name | Category | Published
 [County Agricultural Districts Profile](../datasets/9bc8-mx4a.md) | Economic Development | 2016&#x2011;02&#x2011;05
 [County Emergency Management Offices](../datasets/jwkb-x5v6.md) | Public Safety | 2016&#x2011;02&#x2011;24
 [County Level Attainment Status of National Ambient Air Quality Standards (NAAQS)](../datasets/p58z-ik4q.md) | Energy & Environment | 2016&#x2011;09&#x2011;01
-[County Mental Health Profiles: Beginning 2006](../datasets/xgig-n5ch.md) | Human Services | 2017&#x2011;02&#x2011;08
+[County Mental Health Profiles: Beginning 2006](../datasets/xgig-n5ch.md) | Human Services | 2017&#x2011;08&#x2011;02
 [County Seats](../datasets/4xc7-bukh.md) | Government & Finance | 2014&#x2011;01&#x2011;16
 [Curb Ramps on NYS-Owned Highways](../datasets/hmbc-hni2.md) | Transportation | 2015&#x2011;12&#x2011;16
 [Current Active Clinical Trials - Roswell Park Cancer Institute](../datasets/2ig8-yxf8.md) | Health | 2015&#x2011;05&#x2011;28
@@ -204,7 +204,7 @@ Name | Category | Published
 [Key Credit Collection: Beginning 2010](../datasets/kdjh-dhwi.md) | Energy & Environment | 2017&#x2011;02&#x2011;03
 [Labor Market Analysts](../datasets/u56z-mms2.md) | Economic Development | 2016&#x2011;10&#x2011;07
 [Labor Market Regions](../datasets/imem-myat.md) | Economic Development | 2013&#x2011;12&#x2011;23
-[Law Enforcement Personnel by Agency: Beginning 2007](../datasets/khn9-hhpq.md) | Public Safety | 2016&#x2011;03&#x2011;22
+[Law Enforcement Personnel by Agency: Beginning 2007](../datasets/khn9-hhpq.md) | Public Safety | 2017&#x2011;07&#x2011;19
 [License Event Notification Service (LENS) Customers](../datasets/tt84-bydt.md) | Transportation | 2017&#x2011;04&#x2011;07
 [Life Insurance In Force in the State of New York: Beginning 1996](../datasets/mtwe-gah3.md) | Economic Development | 2016&#x2011;02&#x2011;22
 [Liquor Authority Quarterly List of Active Licenses](../datasets/hrvs-fxs2.md) | Economic Development | 2017&#x2011;04&#x2011;19
@@ -230,7 +230,7 @@ Name | Category | Published
 [Long-term Industry Projections](../datasets/b7d6-zygf.md) | Economic Development | 2015&#x2011;11&#x2011;05
 [Lottery Aid to Education](../datasets/9ypc-vjiq.md) | Government & Finance | 2016&#x2011;08&#x2011;31
 [Lottery Cash 4 Life Winning Numbers: Beginning 2014](../datasets/kwxv-fwze.md) | Government & Finance | 2017&#x2011;04&#x2011;18
-[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](../datasets/hsys-3def.md) | Government & Finance | 2017&#x2011;06&#x2011;09
+[Lottery Daily Numbers/Win-4 Winning Numbers: Beginning 1980](../datasets/hsys-3def.md) | Government & Finance | 2017&#x2011;09&#x2011;24
 [Lottery Mega Millions Winning Numbers: Beginning 2002](../datasets/5xaw-6ayf.md) | Government & Finance | 2017&#x2011;04&#x2011;19
 [Lottery NY Lotto Winning Numbers: Beginning 2001](../datasets/6nbc-h7bj.md) | Government & Finance | 2017&#x2011;04&#x2011;20
 [Lottery Pick 10 Winning Numbers: Beginning 1987](../datasets/bycu-cw7c.md) | Government & Finance | 2017&#x2011;04&#x2011;20
@@ -262,7 +262,7 @@ Name | Category | Published
 [Motorized Access Trails](../datasets/qugt-5hi9.md) | Recreation | 2013&#x2011;03&#x2011;01
 [NY License Center Business Wizard](../datasets/x8bw-q2g6.md) |  | 2014&#x2011;08&#x2011;19
 [NYC Transit Subway Entrance And Exit Data](../datasets/i9wp-a4ja.md) | Transportation | 2015&#x2011;09&#x2011;18
-[NYS Attorney Registrations](../datasets/eqw2-r5nb.md) | Transparency | 2017&#x2011;06&#x2011;09
+[NYS Attorney Registrations](../datasets/eqw2-r5nb.md) | Transparency | 2017&#x2011;09&#x2011;23
 [NYS Forest Ranger Wildfires for FireFamily Plus 4.1: 1975-2007](../datasets/4xir-miej.md) | Energy & Environment | 2016&#x2011;11&#x2011;25
 [NYS Liquor Authority New Applications Received](../datasets/2kid-jvyk.md) | Economic Development | 2017&#x2011;04&#x2011;19
 [NYS Lottery Retailers](../datasets/2vvn-pdyi.md) | Government & Finance | 2017&#x2011;04&#x2011;20
@@ -365,9 +365,9 @@ Name | Category | Published
 [Procurement Report for State Authorities](../datasets/ehig-g5x3.md) | Transparency | 2016&#x2011;10&#x2011;17
 [Public Assistance (PA) Caseloads and Expenditures: Beginning 2002](../datasets/42wv-qbv6.md) | Human Services | 2017&#x2011;03&#x2011;31
 [Public Assistance Case Closings by Reason for Closing: Beginning 2006](../datasets/4x9s-7y8g.md) | Human Services | 2017&#x2011;04&#x2011;06
-[Public Assistance Case Denials by Reason for Denial: Beginning 2006](../datasets/tyyj-jgv5.md) | Human Services | 2017&#x2011;04&#x2011;06
+[Public Assistance Case Denials by Reason for Denial: Beginning 2006](../datasets/tyyj-jgv5.md) | Human Services | 2017&#x2011;07&#x2011;06
 [Public Assistance Cases Opened by Month: Beginning 2006](../datasets/fivj-j6mz.md) | Human Services | 2017&#x2011;04&#x2011;06
-[Public Assistance Cases with Earned Income: Beginning April 2006](../datasets/5mdi-3rq9.md) | Human Services | 2017&#x2011;05&#x2011;30
+[Public Assistance Cases with Earned Income: Beginning April 2006](../datasets/5mdi-3rq9.md) | Human Services | 2017&#x2011;08&#x2011;29
 [Public Assistance and SNAP Fraud Prevention Performance Measures: Beginning 2013](../datasets/uubd-eei2.md) | Human Services | 2017&#x2011;04&#x2011;17
 [Public Determinations of the NYS Commission on Judicial Conduct: Beginning 1977](../datasets/gnpf-e4p2.md) | Transparency | 2016&#x2011;01&#x2011;07
 [Public Employment Relations Board Decisions: Beginning 1974](../datasets/vmn3-7znf.md) | Government & Finance | 2016&#x2011;12&#x2011;07
@@ -411,12 +411,12 @@ Name | Category | Published
 [SPDES Multi-Sector General Permit (MSGP) Permitted Facilities: Beginning 2012](../datasets/7hs3-2njf.md) | Energy & Environment | 2016&#x2011;03&#x2011;29
 [START-UP NY Tax-Free Area Locations](../datasets/rpku-hjxn.md) | Economic Development | 2016&#x2011;11&#x2011;04
 [Salary Information for Industrial Development Agencies](../datasets/9yx9-29p4.md) | Transparency | 2016&#x2011;10&#x2011;12
-[Salary Information for Local Authorities](../datasets/fx93-cifz.md) | Transparency | 2016&#x2011;10&#x2011;12
+[Salary Information for Local Authorities](../datasets/fx93-cifz.md) | Transparency | 2017&#x2011;09&#x2011;20
 [Salary Information for Local Development Corporations](../datasets/wryv-rizw.md) | Transparency | 2016&#x2011;10&#x2011;12
 [Salary Information for State Authorities](../datasets/unag-2p27.md) | Transparency | 2016&#x2011;10&#x2011;12
 [Schedule of Debt for Industrial Development Agencies](../datasets/dtk8-znku.md) | Transparency | 2016&#x2011;11&#x2011;04
 [Schedule of Debt for Local Authorities](../datasets/vfju-zm9q.md) | Transparency | 2016&#x2011;11&#x2011;04
-[Schedule of Debt for Local Development Corporations](../datasets/utc6-v4cn.md) | Transparency | 2016&#x2011;11&#x2011;04
+[Schedule of Debt for Local Development Corporations](../datasets/utc6-v4cn.md) | Transparency | 2017&#x2011;09&#x2011;15
 [Schedule of Debt for State Authorities](../datasets/f7ju-wpvk.md) | Transparency | 2016&#x2011;11&#x2011;04
 [Scholarship Recipients And Dollars By College Code: Beginning 2009](../datasets/ww7t-w8k9.md) | Education | 2017&#x2011;02&#x2011;24
 [Scholarship Recipients and Dollars by Sector Group: Beginning 2009](../datasets/d8hf-wqd9.md) | Education | 2017&#x2011;02&#x2011;24
@@ -431,7 +431,7 @@ Name | Category | Published
 [Short-term Occupational Projections](../datasets/dyxu-i752.md) | Economic Development | 2016&#x2011;03&#x2011;03
 [Small Grant Projects Funded by the Developmental Disabilities Planning Council: Beginning 2004](../datasets/3rdq-5smg.md) | Human Services | 2015&#x2011;12&#x2011;14
 [Solar Electric Programs Reported by NYSERDA: Beginning 2000](../datasets/3x8r-34rs.md) | Energy & Environment | 2017&#x2011;04&#x2011;14
-[Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010](../datasets/3pzs-2zsk.md) | Energy & Environment | 2015&#x2011;07&#x2011;29
+[Solar Photovoltaic (PV) Incentive Program Completed Projects by City and Contractor: Beginning 2010](../datasets/3pzs-2zsk.md) | Energy & Environment | 2017&#x2011;09&#x2011;20
 [Solid Waste Management Facilities](../datasets/2fni-raj8.md) | Energy & Environment | 2017&#x2011;01&#x2011;09
 [Spill Incidents](../datasets/u44d-k5fk.md) | Energy & Environment | 2017&#x2011;04&#x2011;20
 [State Highway Work Permits Issued: Beginning 2010](../datasets/698j-9a6e.md) | Transportation | 2015&#x2011;11&#x2011;24
@@ -447,7 +447,7 @@ Name | Category | Published
 [State University Construction Fund (SUCF) Projects: Beginning 1989](../datasets/7xmz-2ur8.md) | Education | 2017&#x2011;04&#x2011;01
 [State University Construction Fund (SUCF) Request for Qualifications (RFQs) Distributed: Beginning 2000](../datasets/inze-5yed.md) | Education | 2017&#x2011;04&#x2011;01
 [State University Construction Fund (SUCF) Request for Qualifications (RFQs) Responders: Beginning 2000](../datasets/c6c2-n3if.md) | Education | 2017&#x2011;04&#x2011;01
-[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](../datasets/kbn3-a3jv.md) | Education | 2017&#x2011;06&#x2011;01
+[State University Construction Fund (SUCF) Short-Listed Firms: Beginning 2000](../datasets/kbn3-a3jv.md) | Education | 2017&#x2011;09&#x2011;01
 [State University of New York (SUNY) - NYS High School Attended by First Time Undergraduate Students: Beginning Fall 2010](../datasets/64ar-ackz.md) | Education | 2016&#x2011;09&#x2011;09
 [State University of New York (SUNY) Campus Locations with Websites, Enrollment and Select Program Offerings](../datasets/3cij-nwhw.md) | Education | 2016&#x2011;09&#x2011;09
 [State University of New York (SUNY) Employees By Employment Status: Beginning Fall 2011](../datasets/r7v3-sp8n.md) | Education | 2015&#x2011;09&#x2011;10

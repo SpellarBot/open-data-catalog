@@ -51,11 +51,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z t:precinct=8400012 t:zip=60706 t:accessible=YES t:polling_place_location_name="THE MONTCLARE BUILDING" t:polling_place_id=1283 t:city="HARWOOD HEIGHTS" m:row_number.3qf7-xrf4=1
+series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z t:zip=60706 t:precinct=8400012 t:accessible=YES t:polling_place_id=1283 t:polling_place_location_name="THE MONTCLARE BUILDING" t:city="HARWOOD HEIGHTS" m:row_number.3qf7-xrf4=1
 
-series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z t:precinct=8100032 t:zip=60091 t:accessible=YES t:polling_place_location_name="MALLINCKRODT COMMUNITY CENTER" t:polling_place_id=4091 t:city=WILMETTE m:row_number.3qf7-xrf4=2
+series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z t:zip=60091 t:precinct=8100032 t:accessible=YES t:polling_place_id=4091 t:polling_place_location_name="MALLINCKRODT COMMUNITY CENTER" t:city=WILMETTE m:row_number.3qf7-xrf4=2
 
-series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z t:precinct=7200068 t:zip=60445 t:accessible=YES t:polling_place_location_name="ESDA BUILDING" t:polling_place_id=284 t:city=CRESTWOOD m:row_number.3qf7-xrf4=3
+series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z t:zip=60445 t:precinct=7200068 t:accessible=YES t:polling_place_id=284 t:polling_place_location_name="ESDA BUILDING" t:city=CRESTWOOD m:row_number.3qf7-xrf4=3
 ```
 
 ## Meta Commands
@@ -65,13 +65,13 @@ metric m:row_number.3qf7-xrf4 p:long l:"Row Number"
 
 entity e:3qf7-xrf4 l:"Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/3qf7-xrf4
 
-property e:3qf7-xrf4 t:meta.view d:2017-06-09T13:59:16.368Z v:id=3qf7-xrf4 v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com/elections/pollinglocations/Pages/default.aspx v:averageRating=0 v:name="Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
+property e:3qf7-xrf4 t:meta.view d:2017-09-25T07:30:35.858Z v:averageRating=0 v:name="Cook County Clerk - Polling Place Locations - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk" v:attributionLink=http://www.cookcountyclerk.com/elections/pollinglocations/Pages/default.aspx v:id=3qf7-xrf4 v:category="Finance & Administration"
 
-property e:3qf7-xrf4 t:meta.view.license d:2017-06-09T13:59:16.368Z v:name="Public Domain"
+property e:3qf7-xrf4 t:meta.view.license d:2017-09-25T07:30:35.858Z v:name="Public Domain"
 
-property e:3qf7-xrf4 t:meta.view.owner d:2017-06-09T13:59:16.368Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:lastNotificationSeenAt=1496243074 v:displayName="Cook County Open Data"
+property e:3qf7-xrf4 t:meta.view.owner d:2017-09-25T07:30:35.858Z v:displayName="Cook County Open Data" v:lastNotificationSeenAt=1503001958 v:id=u38g-hbsa v:screenName="Cook County Open Data"
 
-property e:3qf7-xrf4 t:meta.view.tableauthor d:2017-06-09T13:59:16.368Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:lastNotificationSeenAt=1496243074 v:displayName="Cook County Open Data"
+property e:3qf7-xrf4 t:meta.view.tableauthor d:2017-09-25T07:30:35.858Z v:displayName="Cook County Open Data" v:lastNotificationSeenAt=1503001958 v:roleName=administrator v:id=u38g-hbsa v:screenName="Cook County Open Data"
 ```
 
 ## Top Records

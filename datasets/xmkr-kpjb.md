@@ -52,11 +52,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ADAIR t:levy_authority_1=01 t:county_fip=19001 t:type=COUNTY t:county_name=ADAIR m:tif_rate_rural=7.99067 m:debt_rate=0 m:tif_rate_urban=4.36725 m:rural_rate=7.99067 m:urban_rate=4.36725
+series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:county_fip=19001 t:type=COUNTY t:levy_authority_2=ADAIR t:county_name=ADAIR t:levy_authority_1=01 m:urban_rate=4.36725 m:tif_rate_urban=4.36725 m:tif_rate_rural=7.99067 m:debt_rate=0 m:rural_rate=7.99067
 
-series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ADAMS t:levy_authority_1=02 t:county_fip=19003 t:type=COUNTY t:county_name=ADAMS m:tif_rate_rural=9.20615 m:debt_rate=0.14119 m:tif_rate_urban=5.96817 m:rural_rate=9.34734 m:urban_rate=6.10936
+series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:county_fip=19003 t:type=COUNTY t:levy_authority_2=ADAMS t:county_name=ADAMS t:levy_authority_1=02 m:urban_rate=6.10936 m:tif_rate_urban=5.96817 m:tif_rate_rural=9.20615 m:debt_rate=0.14119 m:rural_rate=9.34734
 
-series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:levy_authority_2=ALLAMAKEE t:levy_authority_1=03 t:county_fip=19005 t:type=COUNTY t:county_name=ALLAMAKEE m:tif_rate_rural=8.2671 m:debt_rate=0 m:tif_rate_urban=6.04643 m:rural_rate=8.2671 m:urban_rate=6.04643
+series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z t:county_fip=19005 t:type=COUNTY t:levy_authority_2=ALLAMAKEE t:county_name=ALLAMAKEE t:levy_authority_1=03 m:urban_rate=6.04643 m:tif_rate_urban=6.04643 m:tif_rate_rural=8.2671 m:debt_rate=0 m:rural_rate=8.2671
 ```
 
 ## Meta Commands
@@ -74,13 +74,13 @@ metric m:tif_rate_rural p:float l:"TIF Rate (Rural)" t:dataTypeName=number
 
 entity e:xmkr-kpjb l:"Levy Authority Rates By Fiscal Year" t:attribution="Iowa Department of Management, Local Budget and Finance" t:url=https://data.iowa.gov/api/views/xmkr-kpjb
 
-property e:xmkr-kpjb t:meta.view d:2017-06-09T13:56:53.338Z v:id=xmkr-kpjb v:category=Government v:averageRating=0 v:name="Levy Authority Rates By Fiscal Year" v:attribution="Iowa Department of Management, Local Budget and Finance"
+property e:xmkr-kpjb t:meta.view d:2017-09-25T07:28:12.221Z v:averageRating=0 v:name="Levy Authority Rates By Fiscal Year" v:attribution="Iowa Department of Management, Local Budget and Finance" v:id=xmkr-kpjb v:category=Government
 
-property e:xmkr-kpjb t:meta.view.license d:2017-06-09T13:56:53.338Z v:name="Public Domain"
+property e:xmkr-kpjb t:meta.view.license d:2017-09-25T07:28:12.221Z v:name="Public Domain"
 
-property e:xmkr-kpjb t:meta.view.owner d:2017-06-09T13:56:53.338Z v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:displayName="IDOM, Local Budget & Finance"
+property e:xmkr-kpjb t:meta.view.owner d:2017-09-25T07:28:12.221Z v:displayName="IDOM, Local Budget & Finance" v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:id=58aa-5akg v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB
 
-property e:xmkr-kpjb t:meta.view.tableauthor d:2017-06-09T13:56:53.338Z v:id=58aa-5akg v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:roleName=editor v:displayName="IDOM, Local Budget & Finance"
+property e:xmkr-kpjb t:meta.view.tableauthor d:2017-09-25T07:28:12.221Z v:displayName="IDOM, Local Budget & Finance" v:profileImageUrlLarge=/api/users/58aa-5akg/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/58aa-5akg/profile_images/TINY v:id=58aa-5akg v:screenName="IDOM, Local Budget & Finance" v:profileImageUrlMedium=/api/users/58aa-5akg/profile_images/THUMB
 ```
 
 ## Top Records

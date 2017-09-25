@@ -43,11 +43,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:na74-jvan d:2011-01-01T00:00:00.000Z t:vendor_zip=21802 t:agency_name="DHMH-GENERAL ACCOUNTING" t:vendor_name="PROCOAT, INC." m:amount=2390
+series e:na74-jvan d:2011-01-01T00:00:00.000Z t:agency_name="DHMH-GENERAL ACCOUNTING" t:vendor_name="PROCOAT, INC." t:vendor_zip=21802 m:amount=2390
 
-series e:na74-jvan d:2011-01-01T00:00:00.000Z t:vendor_zip=21201 t:agency_name="ENERGY ADMINISTRATION" t:vendor_name=BITHENERGY,INC. m:amount=42750.2
+series e:na74-jvan d:2011-01-01T00:00:00.000Z t:agency_name="ENERGY ADMINISTRATION" t:vendor_name=BITHENERGY,INC. t:vendor_zip=21201 m:amount=42750.2
 
-series e:na74-jvan d:2011-01-01T00:00:00.000Z t:vendor_zip=60197 t:agency_name="MILITARY DEPARTMENT" t:vendor_name="SPRINT PCS" m:amount=28470.56
+series e:na74-jvan d:2011-01-01T00:00:00.000Z t:agency_name="MILITARY DEPARTMENT" t:vendor_name="SPRINT PCS" t:vendor_zip=60197 m:amount=28470.56
 ```
 
 ## Meta Commands
@@ -57,13 +57,13 @@ metric m:amount p:double l:Amount t:dataTypeName=money
 
 entity e:na74-jvan l:"Maryland Funding FY11 Payments Data" t:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology" t:url=https://data.maryland.gov/api/views/na74-jvan
 
-property e:na74-jvan t:meta.view d:2017-06-09T13:59:42.773Z v:id=na74-jvan v:category=Budget v:attributionLink=http://www.spending.dbm.maryland.gov v:averageRating=0 v:name="Maryland Funding FY11 Payments Data" v:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology"
+property e:na74-jvan t:meta.view d:2017-09-25T07:31:01.052Z v:averageRating=0 v:name="Maryland Funding FY11 Payments Data" v:attribution="Maryland Department of Budget and Management; Maryland Department of Information Technology" v:attributionLink=http://www.spending.dbm.maryland.gov v:id=na74-jvan v:category=Budget
 
-property e:na74-jvan t:meta.view.license d:2017-06-09T13:59:42.773Z v:name="Public Domain"
+property e:na74-jvan t:meta.view.license d:2017-09-25T07:31:01.052Z v:name="Public Domain"
 
-property e:na74-jvan t:meta.view.owner d:2017-06-09T13:59:42.773Z v:id=kkuv-jqse v:screenName="Teri Greene" v:displayName="Teri Greene"
+property e:na74-jvan t:meta.view.owner d:2017-09-25T07:31:01.052Z v:displayName="Teri Greene" v:id=kkuv-jqse v:screenName="Teri Greene"
 
-property e:na74-jvan t:meta.view.tableauthor d:2017-06-09T13:59:42.773Z v:id=kkuv-jqse v:screenName="Teri Greene" v:roleName=editor v:displayName="Teri Greene"
+property e:na74-jvan t:meta.view.tableauthor d:2017-09-25T07:31:01.052Z v:displayName="Teri Greene" v:roleName=editor v:id=kkuv-jqse v:screenName="Teri Greene"
 ```
 
 ## Top Records

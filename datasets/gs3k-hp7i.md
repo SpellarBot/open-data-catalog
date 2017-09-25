@@ -64,11 +64,11 @@ metric m:row_number.gs3k-hp7i p:long l:"Row Number"
 
 entity e:gs3k-hp7i l:"L&I Public Notes For Affidavit" t:attribution="L & I" t:url=https://data.wa.gov/api/views/gs3k-hp7i
 
-property e:gs3k-hp7i t:meta.view d:2017-06-09T13:57:38.030Z v:id=gs3k-hp7i v:category=Labor v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I"
+property e:gs3k-hp7i t:meta.view d:2017-09-25T07:28:58.978Z v:averageRating=0 v:name="L&I Public Notes For Affidavit" v:attribution="L & I" v:id=gs3k-hp7i v:category=Labor
 
-property e:gs3k-hp7i t:meta.view.owner d:2017-06-09T13:57:38.030Z v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:lastNotificationSeenAt=1492794743 v:displayName=Nithya
+property e:gs3k-hp7i t:meta.view.owner d:2017-09-25T07:28:58.978Z v:displayName=Nithya v:lastNotificationSeenAt=1492794743 v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:id=sbxf-tc9c v:screenName=Nithya v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB
 
-property e:gs3k-hp7i t:meta.view.tableauthor d:2017-06-09T13:57:38.030Z v:id=sbxf-tc9c v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:screenName=Nithya v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:roleName=publisher v:lastNotificationSeenAt=1492794743 v:displayName=Nithya
+property e:gs3k-hp7i t:meta.view.tableauthor d:2017-09-25T07:28:58.978Z v:displayName=Nithya v:lastNotificationSeenAt=1492794743 v:profileImageUrlLarge=/api/users/sbxf-tc9c/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/sbxf-tc9c/profile_images/TINY v:id=sbxf-tc9c v:screenName=Nithya v:profileImageUrlMedium=/api/users/sbxf-tc9c/profile_images/THUMB
 ```
 
 ## Top Records

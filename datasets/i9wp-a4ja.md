@@ -75,11 +75,11 @@ Excluded Fields = station_latitude,station_longitude,entrance_latitude,entrance_
 ## Data Commands
 
 ```ls
-series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:station_name="Atlantic Av-Barclays Ctr" t:corner=NE t:line="4 Avenue" t:east_west_street="Pacific St" t:ada=TRUE t:route4=N t:route3=D t:route2=Q t:route1=B t:division=BMT t:entrance_type=Elevator t:route7=3 t:route6=2 t:vending=YES t:route5=R t:entry=YES t:free_crossover=TRUE t:north_south_street="4th Ave" t:staffing=FULL m:route8=4 m:route9=5
+series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:station_name="Atlantic Av-Barclays Ctr" t:east_west_street="Pacific St" t:line="4 Avenue" t:vending=YES t:staffing=FULL t:division=BMT t:route4=N t:route3=D t:entry=YES t:route2=Q t:route1=B t:corner=NE t:route7=3 t:north_south_street="4th Ave" t:route6=2 t:route5=R t:entrance_type=Elevator t:free_crossover=TRUE t:ada=TRUE m:route8=4 m:route9=5
 
-series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:station_name="Pacific St" t:corner=NW t:line="4 Avenue" t:east_west_street="Pacific St" t:ada=TRUE t:route4=N t:route3=D t:route2=Q t:route1=B t:division=BMT t:entrance_type=Stair t:route7=3 t:route6=2 t:vending=YES t:route5=R t:entry=YES t:free_crossover=TRUE t:north_south_street="4th Ave" t:staffing=FULL m:route8=4 m:route9=5
+series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:station_name="Pacific St" t:east_west_street="Pacific St" t:line="4 Avenue" t:vending=YES t:staffing=FULL t:division=BMT t:route4=N t:route3=D t:entry=YES t:route2=Q t:route1=B t:corner=NW t:route7=3 t:north_south_street="4th Ave" t:route6=2 t:route5=R t:entrance_type=Stair t:free_crossover=TRUE t:ada=TRUE m:route8=4 m:route9=5
 
-series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:station_name="Pacific St" t:corner=NE t:line="4 Avenue" t:east_west_street="Pacific St" t:ada=TRUE t:route4=N t:route3=D t:route2=Q t:route1=B t:division=BMT t:entrance_type=Stair t:route7=3 t:route6=2 t:vending=YES t:route5=R t:entry=YES t:free_crossover=TRUE t:north_south_street="4th Ave" t:staffing=FULL m:route8=4 m:route9=5
+series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z t:station_name="Pacific St" t:east_west_street="Pacific St" t:line="4 Avenue" t:vending=YES t:staffing=FULL t:division=BMT t:route4=N t:route3=D t:entry=YES t:route2=Q t:route1=B t:corner=NE t:route7=3 t:north_south_street="4th Ave" t:route6=2 t:route5=R t:entrance_type=Stair t:free_crossover=TRUE t:ada=TRUE m:route8=4 m:route9=5
 ```
 
 ## Meta Commands
@@ -95,13 +95,13 @@ metric m:route11 p:integer l:Route11 t:dataTypeName=number
 
 entity e:i9wp-a4ja l:"NYC Transit Subway Entrance And Exit Data" t:attribution="MTA Headquarters, New York City Transit" t:url=https://data.ny.gov/api/views/i9wp-a4ja
 
-property e:i9wp-a4ja t:meta.view d:2017-06-09T13:52:37.339Z v:id=i9wp-a4ja v:category=Transportation v:attributionLink=http://www.mta.info/developers/download.html v:averageRating=0 v:name="NYC Transit Subway Entrance And Exit Data" v:attribution="MTA Headquarters, New York City Transit"
+property e:i9wp-a4ja t:meta.view d:2017-09-25T07:23:59.936Z v:averageRating=0 v:name="NYC Transit Subway Entrance And Exit Data" v:attribution="MTA Headquarters, New York City Transit" v:attributionLink=http://www.mta.info/developers/download.html v:id=i9wp-a4ja v:category=Transportation
 
-property e:i9wp-a4ja t:meta.view.owner d:2017-06-09T13:52:37.339Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:i9wp-a4ja t:meta.view.owner d:2017-09-25T07:23:59.936Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:i9wp-a4ja t:meta.view.tableauthor d:2017-06-09T13:52:37.339Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:i9wp-a4ja t:meta.view.tableauthor d:2017-09-25T07:23:59.936Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:i9wp-a4ja t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:52:37.339Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:i9wp-a4ja t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:23:59.936Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

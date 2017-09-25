@@ -12,7 +12,7 @@
 | Id | d683-uqui |
 | Name | System Production Cost |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | system production cost, average system production cost, energy production, cost, energy |
 | Created | 2016-09-09T20:45:18Z |
 | Publication Date | 2016-09-30T19:21:51Z |
@@ -54,13 +54,13 @@ metric m:system_annual_average_production_cost_cents_per_kwh p:float l:"System a
 
 entity e:d683-uqui l:"System Production Cost" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/d683-uqui
 
-property e:d683-uqui t:meta.view d:2017-06-09T13:52:58.706Z v:id=d683-uqui v:category=Utility v:averageRating=0 v:name="System Production Cost" v:attribution="Austin Energy"
+property e:d683-uqui t:meta.view d:2017-09-25T07:24:17.512Z v:averageRating=0 v:name="System Production Cost" v:attribution="Austin Energy" v:id=d683-uqui v:category="Utilities and City Services"
 
-property e:d683-uqui t:meta.view.license d:2017-06-09T13:52:58.706Z v:name="Public Domain"
+property e:d683-uqui t:meta.view.license d:2017-09-25T07:24:17.512Z v:name="Public Domain"
 
-property e:d683-uqui t:meta.view.owner d:2017-06-09T13:52:58.706Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:d683-uqui t:meta.view.owner d:2017-09-25T07:24:17.512Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 
-property e:d683-uqui t:meta.view.tableauthor d:2017-06-09T13:52:58.706Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
+property e:d683-uqui t:meta.view.tableauthor d:2017-09-25T07:24:17.512Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 ```
 
 ## Top Records

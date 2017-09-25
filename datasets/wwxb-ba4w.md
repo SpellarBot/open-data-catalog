@@ -48,13 +48,13 @@ metric m:total_amount p:double l:"Total Amount" t:dataTypeName=money
 
 entity e:wwxb-ba4w l:"2014 Elections - Total Disbursements" t:url=https://data.hawaii.gov/api/views/wwxb-ba4w
 
-property e:wwxb-ba4w t:meta.view d:2017-06-09T14:00:48.036Z v:id=wwxb-ba4w v:category=Community v:averageRating=0 v:name="2014 Elections - Total Disbursements"
+property e:wwxb-ba4w t:meta.view d:2017-09-25T07:32:05.874Z v:averageRating=0 v:name="2014 Elections - Total Disbursements" v:id=wwxb-ba4w v:category=Community
 
-property e:wwxb-ba4w t:meta.view.license d:2017-06-09T14:00:48.036Z v:name="Public Domain"
+property e:wwxb-ba4w t:meta.view.license d:2017-09-25T07:32:05.874Z v:name="Public Domain"
 
-property e:wwxb-ba4w t:meta.view.owner d:2017-06-09T14:00:48.036Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:displayName="Hawaii Campaign Spending Commission"
+property e:wwxb-ba4w t:meta.view.owner d:2017-09-25T07:32:05.874Z v:displayName="Hawaii Campaign Spending Commission" v:lastNotificationSeenAt=1505521909 v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:id=g6c2-gabj v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB
 
-property e:wwxb-ba4w t:meta.view.tableauthor d:2017-06-09T14:00:48.036Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
+property e:wwxb-ba4w t:meta.view.tableauthor d:2017-09-25T07:32:05.874Z v:displayName="Hawaii Campaign Spending Commission" v:lastNotificationSeenAt=1505521909 v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:id=g6c2-gabj v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB
 ```
 
 ## Top Records

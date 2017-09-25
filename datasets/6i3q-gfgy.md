@@ -59,11 +59,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:trend_change_from_2013=down t:station_name="ANDREWS CREEK NEAR MAZAMA, WA" t:salmon_region=UC t:stn_id=12447390 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.2 m:reg_p=0.728 m:trib_level=4 m:trend_cfs_yr=0.02 m:m_k_p=0.709 m:wria=48
+series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:station_name="ANDREWS CREEK NEAR MAZAMA, WA" t:salmon_region=UC t:trend_change_from_2013=down t:trend_category="no trend" t:cat_change_from_2011=same t:stn_id=12447390 m:trib_level=4 m:reg_p=0.728 m:trend_year=0.2 m:wria=48 m:m_k_p=0.709 m:trend_cfs_yr=0.02
 
-series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:trend_change_from_2013=up t:station_name="BIG SOOS CREEK ABOVE HATCHERY NR AUBURN" t:salmon_region=PS t:stn_id=12112600 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.1 m:reg_p=0.837 m:trib_level=2 m:trend_cfs_yr=0.02 m:m_k_p=0.666 m:wria=9
+series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:station_name="BIG SOOS CREEK ABOVE HATCHERY NR AUBURN" t:salmon_region=PS t:trend_change_from_2013=up t:trend_category="no trend" t:cat_change_from_2011=same t:stn_id=12112600 m:trib_level=2 m:reg_p=0.837 m:trend_year=0.1 m:wria=9 m:m_k_p=0.666 m:trend_cfs_yr=0.02
 
-series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:trend_change_from_2013=down t:station_name="CHAMOKANE CREEK BELOW FALLS NEAR LONG LAKE, WA" t:salmon_region=NE t:stn_id=12433200 t:trend_category="no trend" t:cat_change_from_2011=same m:trend_year=0.1 m:reg_p=0.801 m:trib_level=3 m:trend_cfs_yr=0.02 m:m_k_p=0.619 m:wria=54
+series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z t:station_name="CHAMOKANE CREEK BELOW FALLS NEAR LONG LAKE, WA" t:salmon_region=NE t:trend_change_from_2013=down t:trend_category="no trend" t:cat_change_from_2011=same t:stn_id=12433200 m:trib_level=3 m:reg_p=0.801 m:trend_year=0.1 m:wria=54 m:m_k_p=0.619 m:trend_cfs_yr=0.02
 ```
 
 ## Meta Commands
@@ -83,13 +83,13 @@ metric m:trend_year p:float l:"Trend (%/year)" t:dataTypeName=percent
 
 entity e:6i3q-gfgy l:"Summer Low Flow Trend Indicator 1975-2014" t:attribution="Washington State Department of Ecology" t:url=https://data.wa.gov/api/views/6i3q-gfgy
 
-property e:6i3q-gfgy t:meta.view d:2017-06-09T13:56:54.165Z v:id=6i3q-gfgy v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov v:averageRating=0 v:name="Summer Low Flow Trend Indicator 1975-2014" v:attribution="Washington State Department of Ecology"
+property e:6i3q-gfgy t:meta.view d:2017-09-25T07:28:16.065Z v:averageRating=0 v:name="Summer Low Flow Trend Indicator 1975-2014" v:attribution="Washington State Department of Ecology" v:attributionLink=http://www.ecy.wa.gov v:id=6i3q-gfgy v:category="Natural Resources & Environment"
 
-property e:6i3q-gfgy t:meta.view.license d:2017-06-09T13:56:54.165Z v:name="Public Domain"
+property e:6i3q-gfgy t:meta.view.license d:2017-09-25T07:28:16.065Z v:name="Public Domain"
 
-property e:6i3q-gfgy t:meta.view.owner d:2017-06-09T13:56:54.165Z v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:displayName="Paul Pickett"
+property e:6i3q-gfgy t:meta.view.owner d:2017-09-25T07:28:16.065Z v:displayName="Paul Pickett" v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:id=t29c-4u8y v:screenName="Paul Pickett" v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB
 
-property e:6i3q-gfgy t:meta.view.tableauthor d:2017-06-09T13:56:54.165Z v:id=t29c-4u8y v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:screenName="Paul Pickett" v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:roleName=publisher v:displayName="Paul Pickett"
+property e:6i3q-gfgy t:meta.view.tableauthor d:2017-09-25T07:28:16.065Z v:displayName="Paul Pickett" v:profileImageUrlLarge=/api/users/t29c-4u8y/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/t29c-4u8y/profile_images/TINY v:id=t29c-4u8y v:screenName="Paul Pickett" v:profileImageUrlMedium=/api/users/t29c-4u8y/profile_images/THUMB
 ```
 
 ## Top Records

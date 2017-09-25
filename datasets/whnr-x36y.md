@@ -47,11 +47,11 @@ Excluded Fields = vendor_address
 ## Data Commands
 
 ```ls
-series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:vendor_city="GRANTS PASS" t:vendor_state=OR t:account_category="Accounting Service" t:vendor_name="Rogue Community College" t:ous_division="Southern Oregon University" m:amount=9175.25
+series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:ous_division="Southern Oregon University" t:vendor_city="GRANTS PASS" t:account_category="Accounting Service" t:vendor_name="Rogue Community College" t:vendor_state=OR m:amount=9175.25
 
-series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:vendor_city=PASADENA t:vendor_state=CA t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_name="Mail Tribune Co" t:ous_division="Southern Oregon University" m:amount=13616.19
+series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:ous_division="Southern Oregon University" t:vendor_city=PASADENA t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_name="Mail Tribune Co" t:vendor_state=CA m:amount=13616.19
 
-series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:vendor_city=ASHLAND t:vendor_state=OR t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_zip_postal_code=97520 t:vendor_name="Ashland Chamber of Commerce" t:ous_division="Southern Oregon University" m:amount=13125
+series e:whnr-x36y d:2014-01-01T00:00:00.000Z t:ous_division="Southern Oregon University" t:vendor_city=ASHLAND t:account_category="Advertising-Inst Promo/Pub Rel" t:vendor_name="Ashland Chamber of Commerce" t:vendor_state=OR t:vendor_zip_postal_code=97520 m:amount=13125
 ```
 
 ## Meta Commands
@@ -61,11 +61,11 @@ metric m:amount p:double l:Amount t:dataTypeName=money
 
 entity e:whnr-x36y l:"Expenditures: OUS: Southern Oregon University: FY 2014" t:url=https://data.oregon.gov/api/views/whnr-x36y
 
-property e:whnr-x36y t:meta.view d:2017-06-09T13:53:12.757Z v:id=whnr-x36y v:category="Revenue & Expense" v:averageRating=0 v:name="Expenditures: OUS: Southern Oregon University: FY 2014"
+property e:whnr-x36y t:meta.view d:2017-09-25T07:24:34.642Z v:averageRating=0 v:name="Expenditures: OUS: Southern Oregon University: FY 2014" v:id=whnr-x36y v:category="Revenue & Expense"
 
-property e:whnr-x36y t:meta.view.owner d:2017-06-09T13:53:12.757Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:whnr-x36y t:meta.view.owner d:2017-09-25T07:24:34.642Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:whnr-x36y t:meta.view.tableauthor d:2017-06-09T13:53:12.757Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:whnr-x36y t:meta.view.tableauthor d:2017-09-25T07:24:34.642Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

@@ -42,11 +42,11 @@ Format & Zone = ww,yyyy
 ## Data Commands
 
 ```ls
-series e:euee-qccq d:2011-03-28T00:00:00.000Z m:target_response_time_days_=3 m:total_completed_requests=45 m:average_days_to_complete_pavement_cave_in_requests=1.05
+series e:euee-qccq d:2011-03-28T00:00:00.000Z m:total_completed_requests=45 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.05
 
-series e:euee-qccq d:2011-04-04T00:00:00.000Z m:target_response_time_days_=3 m:total_completed_requests=138 m:average_days_to_complete_pavement_cave_in_requests=1.36
+series e:euee-qccq d:2011-04-04T00:00:00.000Z m:total_completed_requests=138 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.36
 
-series e:euee-qccq d:2011-04-11T00:00:00.000Z m:target_response_time_days_=3 m:total_completed_requests=139 m:average_days_to_complete_pavement_cave_in_requests=1.61
+series e:euee-qccq d:2011-04-11T00:00:00.000Z m:total_completed_requests=139 m:target_response_time_days_=3 m:average_days_to_complete_pavement_cave_in_requests=1.61
 ```
 
 ## Meta Commands
@@ -60,11 +60,11 @@ metric m:target_response_time_days_ p:integer l:"Target Response Time (Days)" t:
 
 entity e:euee-qccq l:"Performance Metrics - Transportation - Pavement Cave-ins" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/euee-qccq
 
-property e:euee-qccq t:meta.view d:2017-06-09T13:51:46.308Z v:id=euee-qccq v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Performance Metrics - Transportation - Pavement Cave-ins" v:attribution="City of Chicago"
+property e:euee-qccq t:meta.view d:2017-09-25T07:23:05.645Z v:averageRating=0 v:name="Performance Metrics - Transportation - Pavement Cave-ins" v:attribution="City of Chicago" v:attributionLink=http://www.cityofchicago.org v:id=euee-qccq v:category="Administration & Finance"
 
-property e:euee-qccq t:meta.view.owner d:2017-06-09T13:51:46.308Z v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
+property e:euee-qccq t:meta.view.owner d:2017-09-25T07:23:05.645Z v:displayName="Elizabeth Scott" v:id=zzya-y4bn v:screenName="Elizabeth Scott"
 
-property e:euee-qccq t:meta.view.tableauthor d:2017-06-09T13:51:46.308Z v:id=zzya-y4bn v:screenName="Elizabeth Scott" v:displayName="Elizabeth Scott"
+property e:euee-qccq t:meta.view.tableauthor d:2017-09-25T07:23:05.645Z v:displayName="Elizabeth Scott" v:id=zzya-y4bn v:screenName="Elizabeth Scott"
 ```
 
 ## Top Records

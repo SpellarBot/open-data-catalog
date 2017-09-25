@@ -78,11 +78,11 @@ Excluded Fields = address,address_2,address_3,fiscal_year
 ## Data Commands
 
 ```ls
-series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:mcd_code=1615 t:place_code=80770 t:program_type=IA t:log_number=IA-00-00-0001-00 t:zip_code=99685-0648 t:state=AK t:organization_type="General museum" t:city=Unalaska t:first_name=Richard t:census_block=2014 t:program="Conservation Assessment Prog." t:last_name=Knecht t:title_of_principal_investigator=Dr. t:census_tract=200 t:county_code=16 t:institution="Museum of the Aleutians" m:requested_matching_amount=0 m:total_amount_originally_awarded=3390 m:requested_award_amount=3390 m:total_amount_awarded_and_disbursed=3390
+series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:city=Unalaska t:county_code=16 t:mcd_code=1615 t:last_name=Knecht t:program="Conservation Assessment Prog." t:log_number=IA-00-00-0001-00 t:title_of_principal_investigator=Dr. t:zip_code=99685-0648 t:institution="Museum of the Aleutians" t:program_type=IA t:census_block=2014 t:organization_type="General museum" t:state=AK t:place_code=80770 t:first_name=Richard t:census_tract=200 m:total_amount_originally_awarded=3390 m:requested_award_amount=3390 m:total_amount_awarded_and_disbursed=3390 m:requested_matching_amount=0
 
-series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:mcd_code=91206 t:place_code=27616 t:program_type=IA t:log_number=IA-00-00-0002-00 t:zip_code=35967 t:state=AL t:organization_type=Museum t:city="Fort Payne" t:first_name=Emma t:census_block=2013 t:program="Conservation Assessment Prog." t:last_name=Jordan t:title_of_principal_investigator=Ms. t:census_tract=961000 t:county_code=49 t:institution="Depot Museum, Inc." m:requested_matching_amount=0 m:total_amount_originally_awarded=6030 m:requested_award_amount=6030 m:total_amount_awarded_and_disbursed=6030
+series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:city="Fort Payne" t:county_code=49 t:mcd_code=91206 t:last_name=Jordan t:program="Conservation Assessment Prog." t:log_number=IA-00-00-0002-00 t:title_of_principal_investigator=Ms. t:zip_code=35967 t:institution="Depot Museum, Inc." t:program_type=IA t:census_block=2013 t:organization_type=Museum t:state=AL t:place_code=27616 t:first_name=Emma t:census_tract=961000 m:total_amount_originally_awarded=6030 m:requested_award_amount=6030 m:total_amount_awarded_and_disbursed=6030 m:requested_matching_amount=0
 
-series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:first_name=Rita t:program_type=IA t:log_number=IA-00-00-0004-00 t:zip_code=85273-0613 t:program="Conservation Assessment Prog." t:last_name=Wentzel t:state=AZ t:title_of_principal_investigator=Miss t:organization_type=Museum t:institution="Bob Jones Museum" t:city=Superior m:requested_matching_amount=0 m:total_amount_originally_awarded=6350 m:requested_award_amount=6350 m:total_amount_awarded_and_disbursed=6350
+series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z t:institution="Bob Jones Museum" t:program_type=IA t:city=Superior t:last_name=Wentzel t:organization_type=Museum t:program="Conservation Assessment Prog." t:state=AZ t:first_name=Rita t:log_number=IA-00-00-0004-00 t:title_of_principal_investigator=Miss t:zip_code=85273-0613 m:total_amount_originally_awarded=6350 m:requested_award_amount=6350 m:total_amount_awarded_and_disbursed=6350 m:requested_matching_amount=0
 ```
 
 ## Meta Commands
@@ -100,15 +100,15 @@ metric m:requested_matching_amount p:double l:"Requested Matching Amount" t:data
 
 entity e:kf5m-pcwv l:"Administrative Discretionary Grants (FY 1996-2014)" t:attribution=IMLS t:url=https://data.imls.gov/api/views/kf5m-pcwv
 
-property e:kf5m-pcwv t:meta.view d:2017-06-09T13:58:11.873Z v:id=kf5m-pcwv v:category="Administrative Data" v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/administrative-discretionary-grant-data v:averageRating=0 v:name="Administrative Discretionary Grants (FY 1996-2014)" v:attribution=IMLS
+property e:kf5m-pcwv t:meta.view d:2017-09-25T07:29:33.810Z v:averageRating=0 v:name="Administrative Discretionary Grants (FY 1996-2014)" v:attribution=IMLS v:attributionLink=https://www.imls.gov/research-evaluation/data-collection/administrative-discretionary-grant-data v:id=kf5m-pcwv v:category="Administrative Data"
 
-property e:kf5m-pcwv t:meta.view.license d:2017-06-09T13:58:11.873Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:kf5m-pcwv t:meta.view.license d:2017-09-25T07:29:33.810Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:kf5m-pcwv t:meta.view.owner d:2017-06-09T13:58:11.873Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:kf5m-pcwv t:meta.view.owner d:2017-09-25T07:29:33.810Z v:displayName=Ammie v:id=b4ig-itd5 v:screenName=Ammie
 
-property e:kf5m-pcwv t:meta.view.tableauthor d:2017-06-09T13:58:11.873Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:kf5m-pcwv t:meta.view.tableauthor d:2017-09-25T07:29:33.810Z v:displayName=Ammie v:id=b4ig-itd5 v:screenName=Ammie
 
-property e:kf5m-pcwv t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:11.873Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:kf5m-pcwv t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:29:33.810Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Program_Code=000:000 v:Bureau_Code=474:00
 ```
 
 ## Top Records

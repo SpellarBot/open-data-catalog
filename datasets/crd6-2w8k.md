@@ -50,11 +50,11 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:crd6-2w8k d:2005-01-01T00:00:00.000Z t:indicator="Total number of certified green buildings" t:state=LA t:rowid="New Orleans2005" t:city="New Orleans" m:indicatorvalue=0
+series e:crd6-2w8k d:2005-01-01T00:00:00.000Z t:indicator="Total number of certified green buildings" t:city="New Orleans" t:state=LA t:rowid="New Orleans2005" m:indicatorvalue=0
 
-series e:crd6-2w8k d:2005-01-01T00:00:00.000Z t:indicator="Total number of certified green buildings" t:state=OK t:rowid="Oklahoma City2005" t:city="Oklahoma City" m:indicatorvalue=0
+series e:crd6-2w8k d:2005-01-01T00:00:00.000Z t:indicator="Total number of certified green buildings" t:city="Oklahoma City" t:state=OK t:rowid="Oklahoma City2005" m:indicatorvalue=0
 
-series e:crd6-2w8k d:2005-01-01T00:00:00.000Z t:indicator="Total number of certified green buildings" t:state=FL t:rowid=Tampa2005 t:city=Tampa m:indicatorvalue=0
+series e:crd6-2w8k d:2005-01-01T00:00:00.000Z t:indicator="Total number of certified green buildings" t:city=Tampa t:state=FL t:rowid=Tampa2005 m:indicatorvalue=0
 ```
 
 ## Meta Commands
@@ -64,13 +64,13 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:crd6-2w8k l:"Certified Green Buildings (2005 - Present)" t:attribution="U.S. Green Building Council" t:url=https://data.nola.gov/api/views/crd6-2w8k
 
-property e:crd6-2w8k t:meta.view d:2017-06-09T13:57:11.241Z v:id=crd6-2w8k v:category="Housing, Land Use, and Blight" v:attributionLink=http://www.usgbc.org/projects v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council"
+property e:crd6-2w8k t:meta.view d:2017-09-25T07:28:33.323Z v:averageRating=0 v:name="Certified Green Buildings (2005 - Present)" v:attribution="U.S. Green Building Council" v:attributionLink=http://www.usgbc.org/projects v:id=crd6-2w8k v:category="Housing, Land Use, and Blight"
 
-property e:crd6-2w8k t:meta.view.owner d:2017-06-09T13:57:11.241Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.owner d:2017-09-25T07:28:33.323Z v:displayName=mschigoda v:id=ii98-542e v:screenName=mschigoda
 
-property e:crd6-2w8k t:meta.view.tableauthor d:2017-06-09T13:57:11.241Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:crd6-2w8k t:meta.view.tableauthor d:2017-09-25T07:28:33.323Z v:displayName=mschigoda v:roleName=publisher v:id=ii98-542e v:screenName=mschigoda
 
-property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:11.241Z v:Contact_Email=data@nola.gov
+property e:crd6-2w8k t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:28:33.323Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

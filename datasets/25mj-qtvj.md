@@ -44,11 +44,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type="AGENCY HEAD" t:classification="PRINCIPAL EXECUTIVE/MANAGER D" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=96036
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type="AGENCY HEAD" t:full_part_time=FULL-TIME t:agency=12000 t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:classification="PRINCIPAL EXECUTIVE/MANAGER D" m:annual_salary=96036
 
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="OFFICE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=38712
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:full_part_time=FULL-TIME t:agency=12000 t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:classification="OFFICE SPECIALIST 1" m:annual_salary=38712
 
-series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:classification="ADMINISTRATIVE SPECIALIST 1" t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:agency=12000 t:full_part_time=FULL-TIME m:annual_salary=35268
+series e:25mj-qtvj d:2016-01-01T00:00:00.000Z t:service_type=UNREPRESENTED t:full_part_time=FULL-TIME t:agency=12000 t:agency_title="ACCOUNTANCY, OREGON BOARD OF" t:classification="ADMINISTRATIVE SPECIALIST 1" m:annual_salary=35268
 ```
 
 ## Meta Commands
@@ -58,11 +58,11 @@ metric m:annual_salary p:double l:"ANNUAL SALARY" t:dataTypeName=money
 
 entity e:25mj-qtvj l:"Salaries of State Agencies FY 2016" t:url=https://data.oregon.gov/api/views/25mj-qtvj
 
-property e:25mj-qtvj t:meta.view d:2017-06-09T13:58:12.501Z v:id=25mj-qtvj v:category="Revenue & Expense" v:averageRating=0 v:name="Salaries of State Agencies FY 2016"
+property e:25mj-qtvj t:meta.view d:2017-09-25T07:29:33.362Z v:averageRating=0 v:name="Salaries of State Agencies FY 2016" v:id=25mj-qtvj v:category="Revenue & Expense"
 
-property e:25mj-qtvj t:meta.view.owner d:2017-06-09T13:58:12.501Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:25mj-qtvj t:meta.view.owner d:2017-09-25T07:29:33.362Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:25mj-qtvj t:meta.view.tableauthor d:2017-06-09T13:58:12.501Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:25mj-qtvj t:meta.view.tableauthor d:2017-09-25T07:29:33.362Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

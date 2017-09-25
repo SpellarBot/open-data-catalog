@@ -43,11 +43,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:sd9s-b3hd d:2009-01-01T00:00:00.000Z m:truncated_investigations=113 m:mediations=162 m:full_investigations=349 m:mediation_attempted=227
+series e:sd9s-b3hd d:2009-01-01T00:00:00.000Z m:truncated_investigations=113 m:full_investigations=349 m:mediations=162 m:mediation_attempted=227
 
-series e:sd9s-b3hd d:2010-01-01T00:00:00.000Z m:truncated_investigations=96 m:mediations=177 m:full_investigations=299 m:mediation_attempted=264
+series e:sd9s-b3hd d:2010-01-01T00:00:00.000Z m:truncated_investigations=96 m:full_investigations=299 m:mediations=177 m:mediation_attempted=264
 
-series e:sd9s-b3hd d:2011-01-01T00:00:00.000Z m:truncated_investigations=97 m:mediations=178 m:full_investigations=284 m:mediation_attempted=267
+series e:sd9s-b3hd d:2011-01-01T00:00:00.000Z m:truncated_investigations=97 m:full_investigations=284 m:mediations=178 m:mediation_attempted=267
 ```
 
 ## Meta Commands
@@ -63,11 +63,11 @@ metric m:mediation_attempted p:integer l:"Mediation Attempted" t:dataTypeName=nu
 
 entity e:sd9s-b3hd l:"Average days for the CCRB to close case" t:attribution="Civilian Complaint Review Board (CCRB)" t:url=https://data.cityofnewyork.us/api/views/sd9s-b3hd
 
-property e:sd9s-b3hd t:meta.view d:2017-06-09T13:54:26.757Z v:id=sd9s-b3hd v:category="City Government" v:attributionLink=http://www.nyc.gov/html/ccrb/pdf/ccrbappendices2011.pdf v:averageRating=0 v:name="Average days for the CCRB to close case" v:attribution="Civilian Complaint Review Board (CCRB)"
+property e:sd9s-b3hd t:meta.view d:2017-09-25T07:25:48.296Z v:averageRating=0 v:name="Average days for the CCRB to close case" v:attribution="Civilian Complaint Review Board (CCRB)" v:attributionLink=http://www.nyc.gov/html/ccrb/pdf/ccrbappendices2011.pdf v:id=sd9s-b3hd v:category="City Government"
 
-property e:sd9s-b3hd t:meta.view.owner d:2017-06-09T13:54:26.757Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:sd9s-b3hd t:meta.view.owner d:2017-09-25T07:25:48.296Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:sd9s-b3hd t:meta.view.tableauthor d:2017-06-09T13:54:26.757Z v:id=iacr-duv5 v:screenName=Tejas.Patel v:displayName=Tejas.Patel
+property e:sd9s-b3hd t:meta.view.tableauthor d:2017-09-25T07:25:48.296Z v:displayName=Tejas.Patel v:id=iacr-duv5 v:screenName=Tejas.Patel
 ```
 
 ## Top Records

@@ -43,11 +43,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:phone_number="(860) 249-9625" t:location="500 ALBANY AV" t:description="Community Health Services, Inc." t:name="Community Health Services, Inc." m:row_number.n9tp-i3k3=1
+series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:name="Community Health Services, Inc." t:description="Community Health Services, Inc." t:location="500 ALBANY AV" t:phone_number="(860) 249-9625" m:row_number.n9tp-i3k3=1
 
-series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:phone_number="(860) 808-8607" t:location="500 ALBANY AV" t:description="Clinical Services - Adult Medicine" t:name="Community Health Services, Inc." m:row_number.n9tp-i3k3=2
+series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:name="Community Health Services, Inc." t:description="Clinical Services - Adult Medicine" t:location="500 ALBANY AV" t:phone_number="(860) 808-8607" m:row_number.n9tp-i3k3=2
 
-series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:phone_number="(860) 808-8720" t:location="500 ALBANY AV" t:description="Clinical Services - Adolescent Medicine" t:name="Community Health Services, Inc." m:row_number.n9tp-i3k3=3
+series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z t:name="Community Health Services, Inc." t:description="Clinical Services - Adolescent Medicine" t:location="500 ALBANY AV" t:phone_number="(860) 808-8720" m:row_number.n9tp-i3k3=3
 ```
 
 ## Meta Commands
@@ -57,13 +57,13 @@ metric m:row_number.n9tp-i3k3 p:long l:"Row Number"
 
 entity e:n9tp-i3k3 l:"Community HealthCare Centers" t:attribution="City of Hartford" t:url=https://data.hartford.gov/api/views/n9tp-i3k3
 
-property e:n9tp-i3k3 t:meta.view d:2017-06-09T13:51:46.391Z v:id=n9tp-i3k3 v:category="Public Health" v:attributionLink=http://www.hartford.gov v:averageRating=0 v:name="Community HealthCare Centers" v:attribution="City of Hartford"
+property e:n9tp-i3k3 t:meta.view d:2017-09-25T07:23:06.231Z v:averageRating=0 v:name="Community HealthCare Centers" v:attribution="City of Hartford" v:attributionLink=http://www.hartford.gov v:id=n9tp-i3k3 v:category="Public Health"
 
-property e:n9tp-i3k3 t:meta.view.license d:2017-06-09T13:51:46.391Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:n9tp-i3k3 t:meta.view.license d:2017-09-25T07:23:06.231Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:n9tp-i3k3 t:meta.view.owner d:2017-06-09T13:51:46.391Z v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
+property e:n9tp-i3k3 t:meta.view.owner d:2017-09-25T07:23:06.231Z v:displayName=Brett v:id=cdqe-xcn5 v:screenName=Brett
 
-property e:n9tp-i3k3 t:meta.view.tableauthor d:2017-06-09T13:51:46.391Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:n9tp-i3k3 t:meta.view.tableauthor d:2017-09-25T07:23:06.231Z v:displayName=Brett v:roleName=administrator v:id=cdqe-xcn5 v:screenName=Brett
 ```
 
 ## Top Records

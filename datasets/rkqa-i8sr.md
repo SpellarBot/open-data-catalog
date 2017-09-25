@@ -52,11 +52,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:fund_name="General Fund" t:division=BFS0300C t:department=OP_BFS t:department_name="Budget and Fiscal Services" t:object_code_name="Regular Pay" t:division_name=Administration t:object_code=1101 m:fy_2013_actual=648445 m:fy_2016_proposed_budget=896328 m:fy_2015_budget=854868 m:fy_2016_budget_issues=0 m:fund=110 m:fy_2014_actual=749381 m:fy_2016_current_services=896328
+series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:division=BFS0300C t:department_name="Budget and Fiscal Services" t:object_code_name="Regular Pay" t:division_name=Administration t:object_code=1101 t:fund_name="General Fund" t:department=OP_BFS m:fy_2016_proposed_budget=896328 m:fund=110 m:fy_2016_current_services=896328 m:fy_2016_budget_issues=0 m:fy_2013_actual=648445 m:fy_2015_budget=854868 m:fy_2014_actual=749381
 
-series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:fund_name="General Fund" t:division=BFS0300C t:department=OP_BFS t:department_name="Budget and Fiscal Services" t:object_code_name="Adjustment for Deactivated Positions" t:division_name=Administration t:object_code=1101D m:fy_2013_actual=0 m:fy_2016_proposed_budget=0 m:fy_2015_budget=0 m:fy_2016_budget_issues=0 m:fund=110 m:fy_2014_actual=0 m:fy_2016_current_services=0
+series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:division=BFS0300C t:department_name="Budget and Fiscal Services" t:object_code_name="Adjustment for Deactivated Positions" t:division_name=Administration t:object_code=1101D t:fund_name="General Fund" t:department=OP_BFS m:fy_2016_proposed_budget=0 m:fund=110 m:fy_2016_current_services=0 m:fy_2016_budget_issues=0 m:fy_2013_actual=0 m:fy_2015_budget=0 m:fy_2014_actual=0
 
-series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:fund_name="General Fund" t:division=BFS0300C t:department=OP_BFS t:department_name="Budget and Fiscal Services" t:object_code_name="Transfer to Prov for Vacant Positions" t:division_name=Administration t:object_code=1101T m:fy_2013_actual=0 m:fy_2016_budget_issues=0 m:fund=110 m:fy_2014_actual=0
+series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z t:division=BFS0300C t:department_name="Budget and Fiscal Services" t:object_code_name="Transfer to Prov for Vacant Positions" t:division_name=Administration t:object_code=1101T t:fund_name="General Fund" t:department=OP_BFS m:fund=110 m:fy_2016_budget_issues=0 m:fy_2013_actual=0 m:fy_2014_actual=0
 ```
 
 ## Meta Commands
@@ -78,11 +78,11 @@ metric m:fy_2016_proposed_budget p:double l:"FY 2016 Proposed Budget" t:dataType
 
 entity e:rkqa-i8sr l:"Proposed FY16 Budget" t:url=https://data.honolulu.gov/api/views/rkqa-i8sr
 
-property e:rkqa-i8sr t:meta.view d:2017-06-09T13:52:41.819Z v:id=rkqa-i8sr v:category=Finance v:averageRating=0 v:name="Proposed FY16 Budget"
+property e:rkqa-i8sr t:meta.view d:2017-09-25T07:24:01.641Z v:averageRating=0 v:name="Proposed FY16 Budget" v:id=rkqa-i8sr v:category=Finance
 
-property e:rkqa-i8sr t:meta.view.owner d:2017-06-09T13:52:41.819Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
+property e:rkqa-i8sr t:meta.view.owner d:2017-09-25T07:24:01.641Z v:displayName="Karl Sueyoshi" v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 
-property e:rkqa-i8sr t:meta.view.tableauthor d:2017-06-09T13:52:41.819Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:rkqa-i8sr t:meta.view.tableauthor d:2017-09-25T07:24:01.641Z v:displayName="Karl Sueyoshi" v:roleName=publisher v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 ```
 
 ## Top Records

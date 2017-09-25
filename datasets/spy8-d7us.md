@@ -65,11 +65,11 @@ metric m:percent_exceeds_standard p:double l:"Percent exceeds standard" t:dataTy
 
 entity e:spy8-d7us l:"Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" t:attribution="Washingotn State Department of Ecology" t:url=https://data.wa.gov/api/views/spy8-d7us
 
-property e:spy8-d7us t:meta.view d:2017-06-09T13:56:13.147Z v:id=spy8-d7us v:category="Natural Resources & Environment" v:attributionLink=http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html v:averageRating=0 v:name="Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" v:attribution="Washingotn State Department of Ecology"
+property e:spy8-d7us t:meta.view d:2017-09-25T07:27:40.679Z v:averageRating=0 v:name="Sept 2014 ECY Stations with Exceeded Criteria For Fecal Bacteria, Temperature, Oxygen and pH" v:attribution="Washingotn State Department of Ecology" v:attributionLink=http://www.ecy.wa.gov/programs/eap/fw_riv/rv_main.html v:id=spy8-d7us v:category="Natural Resources & Environment"
 
-property e:spy8-d7us t:meta.view.owner d:2017-06-09T13:56:13.147Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:spy8-d7us t:meta.view.owner d:2017-09-25T07:27:40.679Z v:displayName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:id=q8y9-svx9 v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB
 
-property e:spy8-d7us t:meta.view.tableauthor d:2017-06-09T13:56:13.147Z v:id=q8y9-svx9 v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:roleName=publisher v:displayName="Markus.Von Prause@ecy.wa.gov"
+property e:spy8-d7us t:meta.view.tableauthor d:2017-09-25T07:27:40.679Z v:displayName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlLarge=/api/users/q8y9-svx9/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/q8y9-svx9/profile_images/TINY v:id=q8y9-svx9 v:screenName="Markus.Von Prause@ecy.wa.gov" v:profileImageUrlMedium=/api/users/q8y9-svx9/profile_images/THUMB
 ```
 
 ## Top Records

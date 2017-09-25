@@ -55,11 +55,11 @@ Excluded Fields = geometry
 ## Data Commands
 
 ```ls
-series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:taz=706 t:county=007 t:name=706 t:state=06 m:area=0.0179622866015006 m:tz06_d00_=2 m:perimeter=0.932156624884747 m:tz06_d00_i=2
+series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:county=007 t:name=706 t:state=06 t:taz=706 m:area=0.0179622866015006 m:tz06_d00_=2 m:perimeter=0.932156624884747 m:tz06_d00_i=2
 
-series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:taz=708 t:county=007 t:name=708 t:state=06 m:area=0.0324499727644987 m:tz06_d00_=3 m:perimeter=1.05920246907166 m:tz06_d00_i=3
+series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:county=007 t:name=708 t:state=06 t:taz=708 m:area=0.0324499727644987 m:tz06_d00_=3 m:perimeter=1.05920246907166 m:tz06_d00_i=3
 
-series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:taz=704 t:county=007 t:name=704 t:state=06 m:area=0.0242911759453004 m:tz06_d00_=4 m:perimeter=0.941563538203072 m:tz06_d00_i=4
+series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z t:county=007 t:name=704 t:state=06 t:taz=704 m:area=0.0242911759453004 m:tz06_d00_=4 m:perimeter=0.941563538203072 m:tz06_d00_i=4
 ```
 
 ## Meta Commands
@@ -75,13 +75,13 @@ metric m:tz06_d00_i p:float l:tz06_d00_i t:dataTypeName=number
 
 entity e:j4sj-j2nf l:"Traffic Analysis Zones" t:url=https://data.sfgov.org/api/views/j4sj-j2nf
 
-property e:j4sj-j2nf t:meta.view d:2017-06-09T13:59:56.985Z v:id=j4sj-j2nf v:category="Geographic Locations and Boundaries" v:averageRating=0 v:name="Traffic Analysis Zones"
+property e:j4sj-j2nf t:meta.view d:2017-09-25T07:31:18.604Z v:averageRating=0 v:name="Traffic Analysis Zones" v:id=j4sj-j2nf v:category="Geographic Locations and Boundaries"
 
-property e:j4sj-j2nf t:meta.view.license d:2017-06-09T13:59:56.985Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:j4sj-j2nf t:meta.view.license d:2017-09-25T07:31:18.604Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:j4sj-j2nf t:meta.view.owner d:2017-06-09T13:59:56.985Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:j4sj-j2nf t:meta.view.owner d:2017-09-25T07:31:18.604Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:j4sj-j2nf t:meta.view.tableauthor d:2017-06-09T13:59:56.985Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:j4sj-j2nf t:meta.view.tableauthor d:2017-09-25T07:31:18.604Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records

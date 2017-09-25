@@ -44,11 +44,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:record_type_code=1 t:record_type_description="1 Year Retention" t:college="CUNY Baruch College" t:fall_term="Fall 1990" m:percentage=81.8 m:head_count=1278
+series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:college="CUNY Baruch College" t:fall_term="Fall 1990" t:record_type_code=1 t:record_type_description="1 Year Retention" m:percentage=81.8 m:head_count=1278
 
-series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:record_type_code=2 t:record_type_description="150 Time Graduation" t:college="CUNY Baruch College" t:fall_term="Fall 1990" m:percentage=39.3 m:head_count=1278
+series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:college="CUNY Baruch College" t:fall_term="Fall 1990" t:record_type_code=2 t:record_type_description="150 Time Graduation" m:percentage=39.3 m:head_count=1278
 
-series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:record_type_code=1 t:record_type_description="1 Year Retention" t:college="CUNY Baruch College" t:fall_term="Fall 1991" m:percentage=84.4 m:head_count=1170
+series e:ba86-tr5c d:1990-01-01T00:00:00.000Z t:college="CUNY Baruch College" t:fall_term="Fall 1991" t:record_type_code=1 t:record_type_description="1 Year Retention" m:percentage=84.4 m:head_count=1170
 ```
 
 ## Meta Commands
@@ -60,13 +60,13 @@ metric m:percentage p:float l:Percentage t:dataTypeName=percent
 
 entity e:ba86-tr5c l:"City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" t:attribution="City University of New York" t:url=https://data.ny.gov/api/views/ba86-tr5c
 
-property e:ba86-tr5c t:meta.view d:2017-06-09T13:51:05.174Z v:id=ba86-tr5c v:category=Education v:averageRating=0 v:name="City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" v:attribution="City University of New York"
+property e:ba86-tr5c t:meta.view d:2017-09-25T07:22:28.724Z v:averageRating=0 v:name="City University of New York (CUNY) University Retention and Graduation Rates: Beginning 1990" v:attribution="City University of New York" v:id=ba86-tr5c v:category=Education
 
-property e:ba86-tr5c t:meta.view.owner d:2017-06-09T13:51:05.174Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:ba86-tr5c t:meta.view.owner d:2017-09-25T07:22:28.724Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:ba86-tr5c t:meta.view.tableauthor d:2017-06-09T13:51:05.174Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:ba86-tr5c t:meta.view.tableauthor d:2017-09-25T07:22:28.724Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:ba86-tr5c t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:05.174Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:ba86-tr5c t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:22:28.724Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

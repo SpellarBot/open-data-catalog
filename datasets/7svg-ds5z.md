@@ -44,11 +44,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="N 45TH ST" t:downtown=false m:aawdt=22200
+series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:downtown=false t:stname="N 45TH ST" m:aawdt=22200
 
-series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="NE 80TH ST" t:downtown=false m:aawdt=9500
+series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:downtown=false t:stname="NE 80TH ST" m:aawdt=9500
 
-series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:stname="DENNY WAY" t:downtown=true m:aawdt=30200
+series e:7svg-ds5z d:2009-01-01T00:00:00.000Z t:downtown=true t:stname="DENNY WAY" m:aawdt=30200
 ```
 
 ## Meta Commands
@@ -58,13 +58,13 @@ metric m:aawdt p:float l:AAWDT t:dataTypeName=number
 
 entity e:7svg-ds5z l:"Traffic Flow Counts" t:attribution="Seattle Department of Transportation" t:url=https://data.seattle.gov/api/views/7svg-ds5z
 
-property e:7svg-ds5z t:meta.view d:2017-06-09T13:55:31.637Z v:id=7svg-ds5z v:category=Transportation v:attributionLink=http://www.seattle.gov/transportation v:averageRating=0 v:name="Traffic Flow Counts" v:attribution="Seattle Department of Transportation"
+property e:7svg-ds5z t:meta.view d:2017-09-25T07:26:56.507Z v:averageRating=0 v:name="Traffic Flow Counts" v:attribution="Seattle Department of Transportation" v:attributionLink=http://www.seattle.gov/transportation v:id=7svg-ds5z v:category=Transportation
 
-property e:7svg-ds5z t:meta.view.license d:2017-06-09T13:55:31.637Z v:name="Public Domain"
+property e:7svg-ds5z t:meta.view.license d:2017-09-25T07:26:56.507Z v:name="Public Domain"
 
-property e:7svg-ds5z t:meta.view.owner d:2017-06-09T13:55:31.637Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.owner d:2017-09-25T07:26:56.507Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 
-property e:7svg-ds5z t:meta.view.tableauthor d:2017-06-09T13:55:31.637Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:7svg-ds5z t:meta.view.tableauthor d:2017-09-25T07:26:56.507Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 ```
 
 ## Top Records

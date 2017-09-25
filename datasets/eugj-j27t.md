@@ -11,6 +11,7 @@
 | Host | data.ct.gov |
 | Id | eugj-j27t |
 | Name | American Recovery And Reinvestment Act Of 2009 ( ARRA) |
+| Attribution | Office of Policy and Management |
 | Category | Government |
 | Tags | arra, opm |
 | Created | 2014-06-26T14:59:44Z |
@@ -42,11 +43,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:town_name=Andover t:grant_number=09RECJAGLO7511 t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor vehicle laws through special overtime." m:fed_grant_award=9100 m:tot_fed_expended=8842.42
+series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:grant_number=09RECJAGLO7511 t:town_name=Andover t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor vehicle laws through special overtime." m:tot_fed_expended=8842.42 m:fed_grant_award=9100
 
-series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:town_name=Ansonia t:grant_number=09RECJAGLO7512 t:project_summary="To increase traffic safety by enforcing speeding laws and identify and address quality of life issues by means of plain cothes officers issigned to the Anti-Crime Unit." m:fed_grant_award=30000 m:tot_fed_expended=30000
+series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:grant_number=09RECJAGLO7512 t:town_name=Ansonia t:project_summary="To increase traffic safety by enforcing speeding laws and identify and address quality of life issues by means of plain cothes officers issigned to the Anti-Crime Unit." m:tot_fed_expended=30000 m:fed_grant_award=30000
 
-series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:town_name=Avon t:grant_number=09RECJAGLO7514 t:project_summary="To purchase Automatic External Defibillators (AED) and radar and laser units to be used in speed enforcement." m:fed_grant_award=30000 m:tot_fed_expended=30000
+series e:eugj-j27t d:2009-01-01T00:00:00.000Z t:grant_number=09RECJAGLO7514 t:town_name=Avon t:project_summary="To purchase Automatic External Defibillators (AED) and radar and laser units to be used in speed enforcement." m:tot_fed_expended=30000 m:fed_grant_award=30000
 ```
 
 ## Meta Commands
@@ -56,13 +57,15 @@ metric m:fed_grant_award p:double l:Fed_Grant_Award t:dataTypeName=money
 
 metric m:tot_fed_expended p:double l:Tot_Fed_Expended t:dataTypeName=money
 
-entity e:eugj-j27t l:"American Recovery And Reinvestment Act Of 2009 ( ARRA)" t:url=https://data.ct.gov/api/views/eugj-j27t
+entity e:eugj-j27t l:"American Recovery And Reinvestment Act Of 2009 ( ARRA)" t:attribution="Office of Policy and Management" t:url=https://data.ct.gov/api/views/eugj-j27t
 
-property e:eugj-j27t t:meta.view d:2017-06-09T13:55:10.329Z v:id=eugj-j27t v:category=Government v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)"
+property e:eugj-j27t t:meta.view d:2017-09-25T07:26:33.272Z v:averageRating=0 v:name="American Recovery And Reinvestment Act Of 2009 ( ARRA)" v:attribution="Office of Policy and Management" v:attributionLink=http://www.ct.gov/opm v:id=eugj-j27t v:category=Government
 
-property e:eugj-j27t t:meta.view.owner d:2017-06-09T13:55:10.329Z v:id=6ypf-grnx v:screenName="Jamie Gamble" v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.license d:2017-09-25T07:26:33.272Z v:name="Public Domain"
 
-property e:eugj-j27t t:meta.view.tableauthor d:2017-06-09T13:55:10.329Z v:id=6ypf-grnx v:screenName="Jamie Gamble" v:roleName=editor v:displayName="Jamie Gamble"
+property e:eugj-j27t t:meta.view.owner d:2017-09-25T07:26:33.272Z v:displayName="Jamie Gamble" v:id=6ypf-grnx v:screenName="Jamie Gamble"
+
+property e:eugj-j27t t:meta.view.tableauthor d:2017-09-25T07:26:33.272Z v:displayName="Jamie Gamble" v:roleName=editor v:id=6ypf-grnx v:screenName="Jamie Gamble"
 ```
 
 ## Top Records

@@ -47,11 +47,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Hispanic t:age_sex=0-5 m:total=94 m:percent=8.2 m:count=940 m:female=46 m:male=48 m:profile_percent=81.6
+series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Hispanic t:age_sex=0-5 m:total=94 m:profile_percent=81.6 m:count=940 m:female=46 m:percent=8.2 m:male=48
 
-series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Black t:age_sex=6-13 m:total=198 m:percent=17.2 m:count=94 m:female=91 m:male=107 m:profile_percent=8.2
+series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Black t:age_sex=6-13 m:total=198 m:profile_percent=8.2 m:count=94 m:female=91 m:percent=17.2 m:male=107
 
-series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Asian t:age_sex=14-17 m:total=90 m:percent=7.8 m:count=94 m:female=52 m:male=38 m:profile_percent=8.2
+series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z t:ethnic_profile=Asian t:age_sex=14-17 m:total=90 m:profile_percent=8.2 m:count=94 m:female=52 m:percent=7.8 m:male=38
 ```
 
 ## Meta Commands
@@ -71,13 +71,13 @@ metric m:percent p:float l:Percent t:dataTypeName=percent
 
 entity e:dpg7-s6dp l:"William Mead Homes" t:attribution=HACLA t:url=https://data.lacity.org/api/views/dpg7-s6dp
 
-property e:dpg7-s6dp t:meta.view d:2017-06-09T13:54:29.591Z v:id=dpg7-s6dp v:category="A Livable and Sustainable City" v:averageRating=0 v:name="William Mead Homes" v:attribution=HACLA
+property e:dpg7-s6dp t:meta.view d:2017-09-25T07:25:51.508Z v:averageRating=0 v:name="William Mead Homes" v:attribution=HACLA v:id=dpg7-s6dp v:category="A Livable and Sustainable City"
 
-property e:dpg7-s6dp t:meta.view.license d:2017-06-09T13:54:29.591Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:dpg7-s6dp t:meta.view.license d:2017-09-25T07:25:51.508Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:dpg7-s6dp t:meta.view.owner d:2017-06-09T13:54:29.591Z v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
+property e:dpg7-s6dp t:meta.view.owner d:2017-09-25T07:25:51.508Z v:displayName="Rodd Talebi" v:id=ihg6-62bp v:screenName="Rodd Talebi"
 
-property e:dpg7-s6dp t:meta.view.tableauthor d:2017-06-09T13:54:29.591Z v:id=ihg6-62bp v:screenName="Rodd Talebi" v:displayName="Rodd Talebi"
+property e:dpg7-s6dp t:meta.view.tableauthor d:2017-09-25T07:25:51.508Z v:displayName="Rodd Talebi" v:id=ihg6-62bp v:screenName="Rodd Talebi"
 ```
 
 ## Top Records

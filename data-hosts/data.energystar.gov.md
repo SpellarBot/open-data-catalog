@@ -27,6 +27,7 @@ Name | Category | Published
 [ENERGY STAR Certified Residential Clothes Dryers](../datasets/t9u7-4d2j.md) | Active Specifications | 2017&#x2011;05&#x2011;15
 [ENERGY STAR Certified Residential Dishwashers](../datasets/58b3-559d.md) | Active Specifications | 2016&#x2011;12&#x2011;19
 [ENERGY STAR Certified Roof Products](../datasets/gp4i-t95q.md) | Active Specifications | 2016&#x2011;08&#x2011;19
+[ENERGY STAR Certified Room Air Cleaners](../datasets/uc6q-9632.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Set Top Boxes](../datasets/e567-rku5.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Small Network Equipment](../datasets/pzuf-4vbf.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Uninterruptible Power Supplies](../datasets/3js5-e9d6.md) | Active Specifications | 2016&#x2011;08&#x2011;19
@@ -34,5 +35,4 @@ Name | Category | Published
 [ENERGY STAR Certified Ventilating Fans](../datasets/8dv7-nngq.md) | Active Specifications | 2016&#x2011;12&#x2011;29
 [ENERGY STAR Certified Water Coolers](../datasets/x39k-wz7q.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 [ENERGY STAR Certified Water Heaters](../datasets/3gp2-af4x.md) | Active Specifications | 2016&#x2011;08&#x2011;19
-[HISTORIC ENERGY STAR Certified Room Air Cleaners](../datasets/uc6q-9632.md) | Active Specifications | 2016&#x2011;08&#x2011;19
 

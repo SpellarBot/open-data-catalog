@@ -69,11 +69,11 @@ Excluded Fields = display_order,data_value_unit,data_value_type,data_value_footn
 ## Data Commands
 
 ```ls
-series e:y4ft-s73h d:2010-01-01T00:00:00.000Z t:topic="Overall Health" t:locationabbr=AL t:locationdesc=Alabama t:topicid=Topic41 t:class="Health Status" t:break_out=Overall t:questionid=GENHLTH t:response=Excellent t:locationid=01 t:breakoutid=BO1 t:responseid=RESP056 t:break_out_category=Overall t:question="How is your general health?" t:breakoutcategoryid=CAT1 t:datasource=BRFSS t:classid=CLASS08 m:confidence_limit_low=15 m:sample_size=996 m:data_value=16.4 m:confidence_limit_high=17.7
+series e:y4ft-s73h d:2010-01-01T00:00:00.000Z t:breakoutcategoryid=CAT1 t:questionid=GENHLTH t:question="How is your general health?" t:locationabbr=AL t:break_out=Overall t:locationdesc=Alabama t:topicid=Topic41 t:classid=CLASS08 t:break_out_category=Overall t:response=Excellent t:datasource=BRFSS t:locationid=01 t:breakoutid=BO1 t:topic="Overall Health" t:class="Health Status" t:responseid=RESP056 m:sample_size=996 m:data_value=16.4 m:confidence_limit_low=15 m:confidence_limit_high=17.7
 
-series e:y4ft-s73h d:2010-01-01T00:00:00.000Z t:topic="Overall Health" t:locationabbr=AL t:locationdesc=Alabama t:topicid=Topic41 t:class="Health Status" t:break_out=Overall t:questionid=GENHLTH t:response="Very good" t:locationid=01 t:breakoutid=BO1 t:responseid=RESP057 t:break_out_category=Overall t:question="How is your general health?" t:breakoutcategoryid=CAT1 t:datasource=BRFSS t:classid=CLASS08 m:confidence_limit_low=27.6 m:sample_size=1923 m:data_value=29.2 m:confidence_limit_high=30.8
+series e:y4ft-s73h d:2010-01-01T00:00:00.000Z t:breakoutcategoryid=CAT1 t:questionid=GENHLTH t:question="How is your general health?" t:locationabbr=AL t:break_out=Overall t:locationdesc=Alabama t:topicid=Topic41 t:classid=CLASS08 t:break_out_category=Overall t:response="Very good" t:datasource=BRFSS t:locationid=01 t:breakoutid=BO1 t:topic="Overall Health" t:class="Health Status" t:responseid=RESP057 m:sample_size=1923 m:data_value=29.2 m:confidence_limit_low=27.6 m:confidence_limit_high=30.8
 
-series e:y4ft-s73h d:2010-01-01T00:00:00.000Z t:topic="Overall Health" t:locationabbr=AL t:locationdesc=Alabama t:topicid=Topic41 t:class="Health Status" t:break_out=Overall t:questionid=GENHLTH t:response=Good t:locationid=01 t:breakoutid=BO1 t:responseid=RESP058 t:break_out_category=Overall t:question="How is your general health?" t:breakoutcategoryid=CAT1 t:datasource=BRFSS t:classid=CLASS08 m:confidence_limit_low=31.6 m:sample_size=2524 m:data_value=33.2 m:confidence_limit_high=34.8
+series e:y4ft-s73h d:2010-01-01T00:00:00.000Z t:breakoutcategoryid=CAT1 t:questionid=GENHLTH t:question="How is your general health?" t:locationabbr=AL t:break_out=Overall t:locationdesc=Alabama t:topicid=Topic41 t:classid=CLASS08 t:break_out_category=Overall t:response=Good t:datasource=BRFSS t:locationid=01 t:breakoutid=BO1 t:topic="Overall Health" t:class="Health Status" t:responseid=RESP058 m:sample_size=2524 m:data_value=33.2 m:confidence_limit_low=31.6 m:confidence_limit_high=34.8
 ```
 
 ## Meta Commands
@@ -89,13 +89,15 @@ metric m:confidence_limit_high p:float l:Confidence_limit_High t:dataTypeName=nu
 
 entity e:y4ft-s73h l:"Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)" t:url=https://data.cdc.gov/api/views/y4ft-s73h
 
-property e:y4ft-s73h t:meta.view d:2017-06-09T13:51:06.134Z v:id=y4ft-s73h v:category="Behavioral Risk Factors" v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)"
+property e:y4ft-s73h t:meta.view d:2017-09-25T07:22:29.810Z v:averageRating=0 v:name="Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)" v:id=y4ft-s73h v:category="Behavioral Risk Factors"
 
-property e:y4ft-s73h t:meta.view.owner d:2017-06-09T13:51:06.134Z v:id=emuu-zcsq v:screenName=BRFSS v:displayName=BRFSS
+property e:y4ft-s73h t:meta.view.license d:2017-09-25T07:22:29.810Z v:name="Public Domain"
 
-property e:y4ft-s73h t:meta.view.tableauthor d:2017-06-09T13:51:06.134Z v:id=emuu-zcsq v:screenName=BRFSS v:roleName=publisher v:displayName=BRFSS
+property e:y4ft-s73h t:meta.view.owner d:2017-09-25T07:22:29.810Z v:displayName=BRFSS v:id=emuu-zcsq v:screenName=BRFSS
 
-property e:y4ft-s73h t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:06.134Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:y4ft-s73h t:meta.view.tableauthor d:2017-09-25T07:22:29.810Z v:displayName=BRFSS v:roleName=publisher v:id=emuu-zcsq v:screenName=BRFSS
+
+property e:y4ft-s73h t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:22:29.810Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

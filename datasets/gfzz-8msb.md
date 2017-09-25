@@ -56,11 +56,11 @@ Excluded Fields = address_1,address_2
 ## Data Commands
 
 ```ls
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012306 t:facility_name="CHILDRENS HOSPITAL DIALYSIS" t:zip_code=35233 t:ich_cahps_administration_score="No Score" t:state=AL t:measure_name="ICH CAHPS" t:city=BIRMINGHAM m:alternate_ccn_1=13300 m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:city=BIRMINGHAM t:ich_cahps_administration_score="No Score" t:cms_certification_number_ccn=012306 t:measure_name="ICH CAHPS" t:state=AL t:facility_name="CHILDRENS HOSPITAL DIALYSIS" t:zip_code=35233 m:alternate_ccn_1=13300 m:national_avg_score_ich_cahps_administration=10 m:network=8 m:state_avg_ich_cahps_administration_score=10
 
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012500 t:facility_name="FMC CAPITOL CITY" t:zip_code=36104 t:ich_cahps_administration_score=10 t:alternate_ccn_1=- t:state=AL t:measure_name="ICH CAHPS" t:city=MONTGOMERY m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:alternate_ccn_1=- t:city=MONTGOMERY t:ich_cahps_administration_score=10 t:cms_certification_number_ccn=012500 t:measure_name="ICH CAHPS" t:state=AL t:facility_name="FMC CAPITOL CITY" t:zip_code=36104 m:national_avg_score_ich_cahps_administration=10 m:network=8 m:state_avg_ich_cahps_administration_score=10
 
-series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:cms_certification_number_ccn=012501 t:facility_name="GADSDEN DIALYSIS" t:zip_code=35901 t:ich_cahps_administration_score="No Score" t:alternate_ccn_1=- t:state=AL t:measure_name="ICH CAHPS" t:city=GADSDEN m:state_avg_ich_cahps_administration_score=10 m:network=8 m:national_avg_score_ich_cahps_administration=10
+series e:gfzz-8msb d:2017-01-01T00:00:00.000Z t:alternate_ccn_1=- t:city=GADSDEN t:ich_cahps_administration_score="No Score" t:cms_certification_number_ccn=012501 t:measure_name="ICH CAHPS" t:state=AL t:facility_name="GADSDEN DIALYSIS" t:zip_code=35901 m:national_avg_score_ich_cahps_administration=10 m:network=8 m:state_avg_ich_cahps_administration_score=10
 ```
 
 ## Meta Commands
@@ -74,13 +74,13 @@ metric m:national_avg_score_ich_cahps_administration p:integer l:"National Avg S
 
 entity e:gfzz-8msb l:"ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017" t:url=https://data.medicare.gov/api/views/gfzz-8msb
 
-property e:gfzz-8msb t:meta.view d:2017-06-09T13:57:49.453Z v:id=gfzz-8msb v:category="Dialysis Facility Compare" v:averageRating=0 v:name="ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017"
+property e:gfzz-8msb t:meta.view d:2017-09-25T07:29:10.333Z v:averageRating=0 v:name="ESRD QIP - In-Center Hemodialysis Consumer Assessment of Healthcare Providers and Services Systems (ICH CAHPS) Survey Reporting - Payment Year 2017" v:id=gfzz-8msb v:category="Dialysis Facility Compare"
 
-property e:gfzz-8msb t:meta.view.owner d:2017-06-09T13:57:49.453Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:displayName=cms
+property e:gfzz-8msb t:meta.view.owner d:2017-09-25T07:29:10.333Z v:displayName=cms v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:id=drs7-75yr v:screenName=cms v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB
 
-property e:gfzz-8msb t:meta.view.tableauthor d:2017-06-09T13:57:49.453Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:gfzz-8msb t:meta.view.tableauthor d:2017-09-25T07:29:10.333Z v:displayName=cms v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:id=drs7-75yr v:screenName=cms v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB
 
-property e:gfzz-8msb t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:49.453Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
+property e:gfzz-8msb t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:29:10.333Z v:Contact_Email=DialysisData@umich.edu v:Contact_Name=CMS v:Program_Code=009:078 v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Bureau_Code=009:38
 ```
 
 ## Top Records

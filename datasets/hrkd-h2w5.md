@@ -46,11 +46,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Natural Structures" t:property_tax_year=2015-2016 t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=5 m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=49 m:expected_total_years_of_exemption_3_4_or_5=3
+series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:enterprise_zone="Baker County" t:name_of_qualified_firm="Natural Structures" t:property_tax_year=2015-2016 t:tax_code_area=501 t:county=Baker m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=49 m:expected_total_years_of_exemption_3_4_or_5=3 m:preexisting_zone_employment_annual_average_in_authorization_application=5
 
-series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Glacier 45 LLC" t:property_tax_year=2015-2016 t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=1 m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=0 m:expected_total_years_of_exemption_3_4_or_5=3
+series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:enterprise_zone="Baker County" t:name_of_qualified_firm="Glacier 45 LLC" t:property_tax_year=2015-2016 t:tax_code_area=501 t:county=Baker m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=0 m:expected_total_years_of_exemption_3_4_or_5=3 m:preexisting_zone_employment_annual_average_in_authorization_application=1
 
-series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:tax_code_area=501 t:county=Baker t:name_of_qualified_firm="Hop Heaven Inc" t:property_tax_year=2015-2016 t:enterprise_zone="Baker County" m:preexisting_zone_employment_annual_average_in_authorization_application=2 m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=0 m:expected_total_years_of_exemption_3_4_or_5=3
+series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z t:enterprise_zone="Baker County" t:name_of_qualified_firm="Hop Heaven Inc" t:property_tax_year=2015-2016 t:tax_code_area=501 t:county=Baker m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=0 m:expected_total_years_of_exemption_3_4_or_5=3 m:preexisting_zone_employment_annual_average_in_authorization_application=2
 ```
 
 ## Meta Commands
@@ -64,11 +64,11 @@ metric m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year p
 
 entity e:hrkd-h2w5 l:"Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016" t:url=https://data.oregon.gov/api/views/hrkd-h2w5
 
-property e:hrkd-h2w5 t:meta.view d:2017-06-09T13:55:43.371Z v:id=hrkd-h2w5 v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016"
+property e:hrkd-h2w5 t:meta.view d:2017-09-25T07:27:06.308Z v:averageRating=0 v:name="Part III - Compiled EZ Assessor Reports Reporting Years 2015-2016" v:id=hrkd-h2w5
 
-property e:hrkd-h2w5 t:meta.view.owner d:2017-06-09T13:55:43.371Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.owner d:2017-09-25T07:27:06.308Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:hrkd-h2w5 t:meta.view.tableauthor d:2017-06-09T13:55:43.371Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:hrkd-h2w5 t:meta.view.tableauthor d:2017-09-25T07:27:06.308Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

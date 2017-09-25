@@ -60,11 +60,11 @@ Excluded Fields = standardaddress
 ## Data Commands
 
 ```ls
-series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z t:aff_cat=LI t:supervisor=9 t:lot=52 t:block=3702 t:change_type=Demolition t:zoning="RH-1 (D)" t:pd_no=12 m:netunits=-418 m:units=-418
+series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z t:lot=52 t:pd_no=12 t:zoning="RH-1 (D)" t:change_type=Demolition t:block=3702 t:aff_cat=LI t:supervisor=9 m:units=-418 m:netunits=-418
 
-series e:e7d3-dxh5 d:2013-07-18T00:00:00.000Z t:aff_cat=VLI t:supervisor=5 t:lot=9 t:block=4624 t:propuse=APARTMENTS t:change_type="New Construction" t:zoning=RH-2 t:pd_no=14 m:aff_hsg=54 m:netunits=54 m:units=54
+series e:e7d3-dxh5 d:2013-07-18T00:00:00.000Z t:lot=9 t:pd_no=14 t:zoning=RH-2 t:propuse=APARTMENTS t:change_type="New Construction" t:block=4624 t:aff_cat=VLI t:supervisor=5 m:aff_hsg=54 m:units=54 m:netunits=54
 
-series e:e7d3-dxh5 d:2013-10-02T00:00:00.000Z t:existuse="TOURIST HOTEL/MOTEL" t:aff_cat=LI t:supervisor=5 t:lot=8 t:block=3753 t:propuse=APARTMENTS t:change_type=Conversion t:zoning=RH-2 t:pd_no=14 m:aff_hsg=44 m:netunits=44 m:units=44
+series e:e7d3-dxh5 d:2013-10-02T00:00:00.000Z t:lot=8 t:pd_no=14 t:zoning=RH-2 t:propuse=APARTMENTS t:change_type=Conversion t:existuse="TOURIST HOTEL/MOTEL" t:block=3753 t:aff_cat=LI t:supervisor=5 m:aff_hsg=44 m:units=44 m:netunits=44
 ```
 
 ## Meta Commands
@@ -78,13 +78,13 @@ metric m:aff_hsg p:integer l:AFF_HSG t:dataTypeName=number
 
 entity e:e7d3-dxh5 l:"2013 Housing Inventory" t:attribution="San Francisco Planning Department" t:url=https://data.sfgov.org/api/views/e7d3-dxh5
 
-property e:e7d3-dxh5 t:meta.view d:2017-06-09T13:58:24.784Z v:id=e7d3-dxh5 v:category="Housing and Buildings" v:attributionLink=http://www.sf-planning.org/ftp/files/publications_reports/Housing_Inventory_2013.pdf v:averageRating=0 v:name="2013 Housing Inventory" v:attribution="San Francisco Planning Department"
+property e:e7d3-dxh5 t:meta.view d:2017-09-25T07:29:43.062Z v:averageRating=0 v:name="2013 Housing Inventory" v:attribution="San Francisco Planning Department" v:attributionLink=http://www.sf-planning.org/ftp/files/publications_reports/Housing_Inventory_2013.pdf v:id=e7d3-dxh5 v:category="Housing and Buildings"
 
-property e:e7d3-dxh5 t:meta.view.license d:2017-06-09T13:58:24.784Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:e7d3-dxh5 t:meta.view.license d:2017-09-25T07:29:43.062Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:e7d3-dxh5 t:meta.view.owner d:2017-06-09T13:58:24.784Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:e7d3-dxh5 t:meta.view.owner d:2017-09-25T07:29:43.062Z v:displayName="Information & Analysis Group (IAG) - SFPlanning" v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning"
 
-property e:e7d3-dxh5 t:meta.view.tableauthor d:2017-06-09T13:58:24.784Z v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:displayName="Information & Analysis Group (IAG) - SFPlanning"
+property e:e7d3-dxh5 t:meta.view.tableauthor d:2017-09-25T07:29:43.062Z v:displayName="Information & Analysis Group (IAG) - SFPlanning" v:roleName=editor v:id=hwt3-twww v:screenName="Information & Analysis Group (IAG) - SFPlanning"
 ```
 
 ## Top Records

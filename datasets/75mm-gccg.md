@@ -51,13 +51,13 @@ metric m:total_number_of_grantees_by_type_fy2014 p:integer l:"Total Number of Gr
 
 entity e:75mm-gccg l:"DCA Grant Awards by Grant Type" t:attribution="City of Los Angeles, Department of Cultural Affairs" t:url=https://data.lacity.org/api/views/75mm-gccg
 
-property e:75mm-gccg t:meta.view d:2017-06-09T13:57:26.106Z v:id=75mm-gccg v:category="A Livable and Sustainable City" v:averageRating=0 v:name="DCA Grant Awards by Grant Type" v:attribution="City of Los Angeles, Department of Cultural Affairs"
+property e:75mm-gccg t:meta.view d:2017-09-25T07:28:46.189Z v:averageRating=0 v:name="DCA Grant Awards by Grant Type" v:attribution="City of Los Angeles, Department of Cultural Affairs" v:id=75mm-gccg v:category="A Livable and Sustainable City"
 
-property e:75mm-gccg t:meta.view.license d:2017-06-09T13:57:26.106Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:75mm-gccg t:meta.view.license d:2017-09-25T07:28:46.189Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:75mm-gccg t:meta.view.owner d:2017-06-09T13:57:26.106Z v:id=nze8-qr9f v:profileImageUrlMedium=/api/users/nze8-qr9f/profile_images/THUMB v:profileImageUrlLarge=/api/users/nze8-qr9f/profile_images/LARGE v:screenName="Cultural Affairs OpenData" v:profileImageUrlSmall=/api/users/nze8-qr9f/profile_images/TINY v:displayName="Cultural Affairs OpenData"
+property e:75mm-gccg t:meta.view.owner d:2017-09-25T07:28:46.189Z v:displayName="Cultural Affairs OpenData" v:profileImageUrlLarge=/api/users/nze8-qr9f/profile_images/LARGE v:profileImageUrlSmall=/api/users/nze8-qr9f/profile_images/TINY v:id=nze8-qr9f v:screenName="Cultural Affairs OpenData" v:profileImageUrlMedium=/api/users/nze8-qr9f/profile_images/THUMB
 
-property e:75mm-gccg t:meta.view.tableauthor d:2017-06-09T13:57:26.106Z v:id=nze8-qr9f v:profileImageUrlMedium=/api/users/nze8-qr9f/profile_images/THUMB v:profileImageUrlLarge=/api/users/nze8-qr9f/profile_images/LARGE v:screenName="Cultural Affairs OpenData" v:profileImageUrlSmall=/api/users/nze8-qr9f/profile_images/TINY v:roleName=editor v:displayName="Cultural Affairs OpenData"
+property e:75mm-gccg t:meta.view.tableauthor d:2017-09-25T07:28:46.189Z v:displayName="Cultural Affairs OpenData" v:profileImageUrlLarge=/api/users/nze8-qr9f/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/nze8-qr9f/profile_images/TINY v:id=nze8-qr9f v:screenName="Cultural Affairs OpenData" v:profileImageUrlMedium=/api/users/nze8-qr9f/profile_images/THUMB
 ```
 
 ## Top Records

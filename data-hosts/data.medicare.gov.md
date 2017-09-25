@@ -27,7 +27,7 @@ Name | Category | Published
 [Home Health Care - Patient survey (HHCAHPS)](../datasets/ccn4-8vby.md) | Home Health Compare | 2017&#x2011;04&#x2011;11
 [Home Health Care - Patient survey (HHCAHPS) National Data](../datasets/vxub-6swi.md) | Home Health Compare | 2017&#x2011;04&#x2011;11
 [Home Health Care - Patient survey (HHCAHPS) State Data](../datasets/m5jg-jg7i.md) | Home Health Compare | 2017&#x2011;04&#x2011;11
-[Home Health Care - Zip Codes](../datasets/m5eg-upu5.md) | Home Health Compare | 2017&#x2011;04&#x2011;11
+[Home Health Care - Zip Codes](../datasets/m5eg-upu5.md) | Home Health Compare | 2017&#x2011;07&#x2011;11
 [Home Health Care Agencies](../datasets/6jpm-sxkc.md) | Home Health Compare | 2017&#x2011;04&#x2011;12
 [Hospice Agencies](../datasets/s8t3-rfbq.md) | Hospice Data Directory | 2017&#x2011;02&#x2011;22
 [Hospice CASPER/ASPEN Contacts](../datasets/qx7x-wipa.md) | Hospice Data Directory | 2016&#x2011;10&#x2011;19
@@ -60,8 +60,8 @@ Name | Category | Published
 [Ownership](../datasets/y2hd-n93e.md) | Nursing Home Compare | 2017&#x2011;03&#x2011;22
 [Patient Survey (HCAHPS) ? National](../datasets/9g7e-btyt.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [Patient survey (HCAHPS) - National](../datasets/99ue-w85f.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
-[Patient survey (ICH-CAHPS) - National](../datasets/utgq-v46w.md) | Dialysis Facility Compare | 2017&#x2011;04&#x2011;26
-[Patient survey (ICH-CAHPS) - State](../datasets/hanv-ru8h.md) | Dialysis Facility Compare | 2017&#x2011;04&#x2011;26
+[Patient survey (ICH-CAHPS) - National](../datasets/utgq-v46w.md) | Dialysis Facility Compare | 2017&#x2011;07&#x2011;12
+[Patient survey (ICH-CAHPS) - State](../datasets/hanv-ru8h.md) | Dialysis Facility Compare | 2017&#x2011;07&#x2011;12
 [Payment - National](../datasets/ygty-mm5a.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [Payment and value of care - Hospital](../datasets/c7us-v4mf.md) | Hospital Compare | 2016&#x2011;12&#x2011;19
 [Penalties](../datasets/g6vv-u9sr.md) | Nursing Home Compare | 2017&#x2011;03&#x2011;22

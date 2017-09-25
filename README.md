@@ -54,7 +54,7 @@ Name | Datasets count
 [Archived](data-categories/9d8d9c02.md) | 1
 [Behavioral Risk Factors](data-categories/71a7fdd6.md) | 9
 [Budget](data-categories/773f9b65.md) | 47
-[Budget and Finance](data-categories/6f098e36.md) | 4
+[Budget and Finance](data-categories/6f098e36.md) | 6
 [Buildings](data-categories/23fa641f.md) | 9
 [Business](data-categories/bf7f23e0.md) | 106
 [Business and Economy](data-categories/4621ec95.md) | 21
@@ -66,7 +66,7 @@ Name | Datasets count
 [City Administration](data-categories/e8e45fb3.md) | 3
 [City Business](data-categories/ca8c02d5.md) | 34
 [City Finance and Budget](data-categories/292bc2a9.md) | 3
-[City Government](data-categories/ec52bc6.md) | 274
+[City Government](data-categories/ec52bc6.md) | 280
 [City Infrastructure](data-categories/b560e4f8.md) | 35
 [City Management and Ethics](data-categories/88dcb3f1.md) | 95
 [City Services](data-categories/611c5373.md) | 11
@@ -103,10 +103,10 @@ Name | Datasets count
 [Employment](data-categories/80d9800c.md) | 23
 [Energy & Environment](data-categories/79190981.md) | 82
 [Energy and Environment](data-categories/a6d37fb2.md) | 49
-[Environment](data-categories/5e4ad9f3.md) | 73
+[Environment](data-categories/5e4ad9f3.md) | 74
 [Environment & Sustainable Development](data-categories/1ad71171.md) | 19
 [Environment and Natural Resources](data-categories/23287638.md) | 8
-[Environmental](data-categories/f6fc355e.md) | 19
+[Environmental](data-categories/f6fc355e.md) | 17
 [Environmental Protection](data-categories/5cf6b2fb.md) | 1
 [Ethics](data-categories/7c51e680.md) | 23
 [Events](data-categories/7c6ccd39.md) | 2
@@ -115,7 +115,7 @@ Name | Datasets count
 [Finance](data-categories/305ce7ba.md) | 57
 [Finance & Administration](data-categories/639b875e.md) | 131
 [Finance/Tax/Property](data-categories/bfdcd02e.md) | 12
-[Financial](data-categories/8cc1fc69.md) | 30
+[Financial](data-categories/8cc1fc69.md) | 29
 [Fire](data-categories/216a56.md) | 4
 [Formal Education](data-categories/70aa08b7.md) | 12
 [Fun](data-categories/1155f.md) | 2
@@ -123,7 +123,7 @@ Name | Datasets count
 [Geographic Locations and Boundaries](data-categories/9ce596dc.md) | 55
 [Geography](data-categories/c0dc975c.md) | 4
 [Global Survey Data](data-categories/6e0febd3.md) | 4
-[Government](data-categories/93743611.md) | 234
+[Government](data-categories/93743611.md) | 230
 [Government & Finance](data-categories/ab31b671.md) | 99
 [Government Accountability](data-categories/d540a86c.md) | 3
 [Government Administration](data-categories/a0155a6d.md) | 36
@@ -133,6 +133,7 @@ Name | Datasets count
 [Health & Human Services](data-categories/5773128f.md) | 54
 [Health Consequences and Costs](data-categories/6b504651.md) | 2
 [Health Statistics](data-categories/45565167.md) | 7
+[Health and Community Services](data-categories/a4d08e02.md) | 1
 [Health and Human Services](data-categories/882927be.md) | 104
 [Health and Social Services](data-categories/63944bc4.md) | 7
 [Health, Education, and Social Services](data-categories/e72da3dc.md) | 10
@@ -181,7 +182,7 @@ Name | Datasets count
 [Nutrition, Physical Activity, and Obesity](data-categories/a656b4a4.md) | 6
 [Operations](data-categories/7711b40c.md) | 25
 [Oral Health](data-categories/d995dd6e.md) | 6
-[Other](data-categories/48f8ef0.md) | 710
+[Other](data-categories/48f8ef0.md) | 707
 [Parks](data-categories/49529a9.md) | 1
 [Parks & Recreation](data-categories/329cbb83.md) | 13
 [Parks and Recreation](data-categories/fa650f72.md) | 6
@@ -229,7 +230,8 @@ Name | Datasets count
 [Transportation and Infrastructure](data-categories/f72d8a40.md) | 14
 [Transportation and Transit](data-categories/4eb2b7d6.md) | 1
 [Traumatic Brain Injury](data-categories/6bcae6d9.md) | 3
-[Utility](data-categories/5c5e294c.md) | 77
+[Utilities and City Services](data-categories/80be7134.md) | 11
+[Utility](data-categories/5c5e294c.md) | 66
 [Vision & Eye Health](data-categories/1256b8bd.md) | 1
 [Web Metrics](data-categories/553bd3b7.md) | 2
 [Website content](data-categories/dff89dd4.md) | 3
@@ -495,7 +497,7 @@ Name | Datasets count
 [municipal](data-tags/ecb96f2.md) | 22
 [municipality](data-tags/bdf4447c.md) | 14
 [museum](data-tags/c0a6ca12.md) | 12
-[nchs](data-tags/338180.md) | 22
+[nchs](data-tags/338180.md) | 23
 [nedss](data-tags/63d88ad.md) | 62
 [neighborhood](data-tags/1db5e70e.md) | 26
 [netss](data-tags/63dc4bd.md) | 62
@@ -530,7 +532,7 @@ Name | Datasets count
 [plan](data-tags/348b29.md) | 21
 [planning](data-tags/6f6c675d.md) | 177
 [poisoning](data-tags/658e6bda.md) | 12
-[police](data-tags/c56da51e.md) | 70
+[police](data-tags/c56da51e.md) | 71
 [policy](data-tags/c56da532.md) | 19
 [politics](data-tags/20a0ab61.md) | 15
 [population](data-tags/8762f34d.md) | 73
@@ -576,7 +578,7 @@ Name | Datasets count
 [risk](data-tags/356acf.md) | 13
 [road](data-tags/357f20.md) | 15
 [route](data-tags/67ab249.md) | 12
-[safety](data-tags/c9c41ed2.md) | 39
+[safety](data-tags/c9c41ed2.md) | 40
 [salary](data-tags/c9c6c9ca.md) | 76
 [sale](data-tags/35c047.md) | 25
 [salmon](data-tags/c9c6f66e.md) | 17

@@ -57,11 +57,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z t:region=Other t:office=Other t:demographic=BLACK m:independent_living=0 m:dcf_solnit=1 m:dcf_highmeadows=0 m:residential=45 m:sfy_entry=2005 m:special_study=0 m:dcf_cjts=23 m:group_home=1 m:relative_care=2 m:shelter=0 m:pdc_safe_home=2 m:foster_care=3 m:therapeutic_foster_care=0 m:hospital=0 m:total_entries=77
+series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z t:office=Other t:region=Other t:demographic=BLACK m:therapeutic_foster_care=0 m:special_study=0 m:shelter=0 m:dcf_cjts=23 m:independent_living=0 m:residential=45 m:group_home=1 m:relative_care=2 m:dcf_solnit=1 m:pdc_safe_home=2 m:dcf_highmeadows=0 m:hospital=0 m:foster_care=3 m:sfy_entry=2005 m:total_entries=77
 
-series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z t:region=Other t:office=Other t:demographic=HISPANIC m:independent_living=0 m:dcf_solnit=2 m:dcf_highmeadows=0 m:residential=41 m:sfy_entry=2005 m:special_study=0 m:dcf_cjts=18 m:group_home=2 m:relative_care=0 m:shelter=0 m:pdc_safe_home=1 m:foster_care=6 m:therapeutic_foster_care=0 m:hospital=0 m:total_entries=70
+series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z t:office=Other t:region=Other t:demographic=HISPANIC m:therapeutic_foster_care=0 m:special_study=0 m:shelter=0 m:dcf_cjts=18 m:independent_living=0 m:residential=41 m:group_home=2 m:relative_care=0 m:dcf_solnit=2 m:pdc_safe_home=1 m:dcf_highmeadows=0 m:hospital=0 m:foster_care=6 m:sfy_entry=2005 m:total_entries=70
 
-series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z t:region=Other t:office=Other t:demographic=OTHER m:independent_living=0 m:dcf_solnit=0 m:dcf_highmeadows=0 m:residential=21 m:sfy_entry=2005 m:special_study=0 m:dcf_cjts=2 m:group_home=0 m:relative_care=0 m:shelter=0 m:pdc_safe_home=0 m:foster_care=0 m:therapeutic_foster_care=0 m:hospital=0 m:total_entries=23
+series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z t:office=Other t:region=Other t:demographic=OTHER m:therapeutic_foster_care=0 m:special_study=0 m:shelter=0 m:dcf_cjts=2 m:independent_living=0 m:residential=21 m:group_home=0 m:relative_care=0 m:dcf_solnit=0 m:pdc_safe_home=0 m:dcf_highmeadows=0 m:hospital=0 m:foster_care=0 m:sfy_entry=2005 m:total_entries=23
 ```
 
 ## Meta Commands
@@ -99,13 +99,13 @@ metric m:independent_living p:integer l:INDEPENDENT_LIVING t:dataTypeName=number
 
 entity e:wzpb-uqdj l:"SFY05-14 Entries Aggregates Race Ethnicity Group" t:attribution="Department of Children and Families, Office for Research and Evaluation" t:url=https://data.ct.gov/api/views/wzpb-uqdj
 
-property e:wzpb-uqdj t:meta.view d:2017-06-09T13:57:38.588Z v:id=wzpb-uqdj v:category="Health and Human Services" v:averageRating=0 v:name="SFY05-14 Entries Aggregates Race Ethnicity Group" v:attribution="Department of Children and Families, Office for Research and Evaluation"
+property e:wzpb-uqdj t:meta.view d:2017-09-25T07:29:00.289Z v:averageRating=0 v:name="SFY05-14 Entries Aggregates Race Ethnicity Group" v:attribution="Department of Children and Families, Office for Research and Evaluation" v:id=wzpb-uqdj v:category="Health and Human Services"
 
-property e:wzpb-uqdj t:meta.view.license d:2017-06-09T13:57:38.588Z v:name="Public Domain"
+property e:wzpb-uqdj t:meta.view.license d:2017-09-25T07:29:00.289Z v:name="Public Domain"
 
-property e:wzpb-uqdj t:meta.view.owner d:2017-06-09T13:57:38.588Z v:id=hd87-ziyn v:screenName="Fred North" v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.owner d:2017-09-25T07:29:00.289Z v:displayName="Fred North" v:id=hd87-ziyn v:screenName="Fred North"
 
-property e:wzpb-uqdj t:meta.view.tableauthor d:2017-06-09T13:57:38.588Z v:id=hd87-ziyn v:screenName="Fred North" v:roleName=editor v:displayName="Fred North"
+property e:wzpb-uqdj t:meta.view.tableauthor d:2017-09-25T07:29:00.289Z v:displayName="Fred North" v:roleName=editor v:id=hd87-ziyn v:screenName="Fred North"
 ```
 
 ## Top Records

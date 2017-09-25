@@ -75,8 +75,8 @@ Name | Host | Published
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2011/2012](../datasets/sjpy-4cc9.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2009/2010](../datasets/9sfa-4geq.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2011/2012](../datasets/2zbg-i8fx.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
+[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;16
+[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;16
 [Energy Usage From DCAS Buildings](../datasets/pwva-zn2w.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [Energy Usage From DOE Buildings](../datasets/mq6n-s45c.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [Existing Commercial Buildings Energy Performance Ordinance Report](../datasets/j2j3-acqj.md) | data.sfgov.org | 2017&#x2011;02&#x2011;16

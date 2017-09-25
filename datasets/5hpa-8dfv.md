@@ -57,11 +57,11 @@ Excluded Fields = fac_con_date,editdate
 ## Data Commands
 
 ```ls
-series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="North Cane Street" t:editor=holisgis t:jurisdicti=County t:source="State Bike Plan" t:dp_area="Central Oahu" t:objectid_1=1 t:facility_t=Lane t:facility_d="Kilani Avenue to California Avenue" t:corridor_t=Mauka-Makai t:townl=Wahiawa t:neighborl=WAHIAWA t:creator=holisgis m:length_mi=0.127023639188527
+series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:editor=holisgis t:jurisdicti=County t:creator=holisgis t:facility_t=Lane t:facility_d="Kilani Avenue to California Avenue" t:dp_area="Central Oahu" t:source="State Bike Plan" t:objectid_1=1 t:townl=Wahiawa t:neighborl=WAHIAWA t:corridor_t=Mauka-Makai t:facility_n="North Cane Street" m:length_mi=0.127023639188527
 
-series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="California Avenue (Eastern Section)" t:editor=holisgis t:jurisdicti=County t:source="State Bike Plan" t:dp_area="Central Oahu" t:objectid_1=2 t:facility_t=Lane t:facility_d="Kamehameha Highway to Plum Street" t:corridor_t=Mauka-Makai t:townl=Wahiawa t:neighborl=WAHIAWA t:creator=holisgis m:length_mi=0.422317757891972
+series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:editor=holisgis t:jurisdicti=County t:creator=holisgis t:facility_t=Lane t:facility_d="Kamehameha Highway to Plum Street" t:dp_area="Central Oahu" t:source="State Bike Plan" t:objectid_1=2 t:townl=Wahiawa t:neighborl=WAHIAWA t:corridor_t=Mauka-Makai t:facility_n="California Avenue (Eastern Section)" m:length_mi=0.422317757891972
 
-series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:facility_n="Mililani Ravine Path" t:editor=holisgis t:jurisdicti=Private t:source=N/A t:dp_area="Central Oahu" t:objectid_1=3 t:facility_t=Path t:facility_d="Ainamakua Drive to Lehiwa Drive" t:creator=holisgis m:length_mi=0.844808017924352
+series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z t:editor=holisgis t:jurisdicti=Private t:creator=holisgis t:facility_t=Path t:facility_d="Ainamakua Drive to Lehiwa Drive" t:dp_area="Central Oahu" t:source=N/A t:objectid_1=3 t:facility_n="Mililani Ravine Path" m:length_mi=0.844808017924352
 ```
 
 ## Meta Commands
@@ -71,11 +71,11 @@ metric m:length_mi p:double l:Length_Mi t:dataTypeName=number
 
 entity e:5hpa-8dfv l:"Existing Bike Facilities" t:url=https://data.honolulu.gov/api/views/5hpa-8dfv
 
-property e:5hpa-8dfv t:meta.view d:2017-06-09T13:52:44.156Z v:id=5hpa-8dfv v:category=Transportation v:averageRating=0 v:name="Existing Bike Facilities"
+property e:5hpa-8dfv t:meta.view d:2017-09-25T07:23:55.849Z v:averageRating=0 v:name="Existing Bike Facilities" v:id=5hpa-8dfv v:category=Transportation
 
-property e:5hpa-8dfv t:meta.view.owner d:2017-06-09T13:52:44.156Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
+property e:5hpa-8dfv t:meta.view.owner d:2017-09-25T07:23:55.849Z v:displayName="Karl Sueyoshi" v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 
-property e:5hpa-8dfv t:meta.view.tableauthor d:2017-06-09T13:52:44.156Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:5hpa-8dfv t:meta.view.tableauthor d:2017-09-25T07:23:55.849Z v:displayName="Karl Sueyoshi" v:roleName=publisher v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 ```
 
 ## Top Records

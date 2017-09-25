@@ -48,11 +48,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="AVENT HOUSE" t:county=ORANGE t:developer_name="REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC." t:municipality=MIDDLETOWN t:project_number=20106003.00 m:affordable_units=24 m:total_project_cost=447176 m:total_units=24
+series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:project_number=20106003.00 t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:developer_name="REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC." t:county=ORANGE t:municipality=MIDDLETOWN t:project_name="AVENT HOUSE" m:affordable_units=24 m:total_project_cost=447176 m:total_units=24
 
-series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="AVSH RARP" t:county=CLINTON t:developer_name="APPLE VALLEY SENIOR HOUSING CORP." t:municipality=PERU t:project_number=20106004.00 m:affordable_units=30 m:total_project_cost=243990 m:total_units=30
+series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:project_number=20106004.00 t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:developer_name="APPLE VALLEY SENIOR HOUSING CORP." t:county=CLINTON t:municipality=PERU t:project_name="AVSH RARP" m:affordable_units=30 m:total_project_cost=243990 m:total_units=30
 
-series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:project_name="ART LEFEVRE SENIOR HOUSING REHABILITATION" t:county=CLINTON t:developer_name="FRIENDS OF THE NORTH COUNTRY, INC." t:municipality=PLATTSBURGH t:project_number=20106139.00 m:affordable_units=24 m:total_project_cost=124200 m:total_units=24
+series e:f6sn-r72s d:2011-01-01T00:00:00.000Z t:project_number=20106139.00 t:hcr_project_type="SLIHC/Subsidy Stand Alone" t:developer_name="FRIENDS OF THE NORTH COUNTRY, INC." t:county=CLINTON t:municipality=PLATTSBURGH t:project_name="ART LEFEVRE SENIOR HOUSING REHABILITATION" m:affordable_units=24 m:total_project_cost=124200 m:total_units=24
 ```
 
 ## Meta Commands
@@ -66,11 +66,11 @@ metric m:affordable_units p:integer l:"Affordable Units" d:"Number of affordable
 
 entity e:f6sn-r72s l:"Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" t:attribution="NYS Homes and Community Renewal" t:url=https://data.ny.gov/api/views/f6sn-r72s
 
-property e:f6sn-r72s t:meta.view d:2017-06-09T13:51:59.928Z v:id=f6sn-r72s v:category="Economic Development" v:attributionLink=http://www.nyshcr.org/Programs/LIHC/ v:averageRating=0 v:name="Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" v:attribution="NYS Homes and Community Renewal"
+property e:f6sn-r72s t:meta.view d:2017-09-25T07:23:19.457Z v:averageRating=0 v:name="Office of Finance and Development State Low-Income Housing Tax Credits (SLIHTC) and Subsidy Only Projects" v:attribution="NYS Homes and Community Renewal" v:attributionLink=http://www.nyshcr.org/Programs/LIHC/ v:id=f6sn-r72s v:category="Economic Development"
 
-property e:f6sn-r72s t:meta.view.owner d:2017-06-09T13:51:59.928Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:f6sn-r72s t:meta.view.owner d:2017-09-25T07:23:19.457Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:f6sn-r72s t:meta.view.tableauthor d:2017-06-09T13:51:59.928Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:f6sn-r72s t:meta.view.tableauthor d:2017-09-25T07:23:19.457Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 ```
 
 ## Top Records

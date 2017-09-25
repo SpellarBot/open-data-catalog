@@ -50,11 +50,11 @@ Excluded Fields = year,month
 ## Data Commands
 
 ```ls
-series e:s995-ndgk d:2012-01-01T00:00:00.000Z t:rowid="Percent of the pop. that are library cardholders (year-to-date)201201" t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)" m:indicatorvalue=14.71
+series e:s995-ndgk d:2012-01-01T00:00:00.000Z t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)" t:rowid="Percent of the pop. that are library cardholders (year-to-date)201201" m:indicatorvalue=14.71
 
-series e:s995-ndgk d:2012-01-01T00:00:00.000Z t:rowid="Percent of the pop. that are library cardholders (current month)201201" t:indicatorname="Percent of the pop. that are library cardholders (current month)" m:indicatorvalue=14.71
+series e:s995-ndgk d:2012-01-01T00:00:00.000Z t:indicatorname="Percent of the pop. that are library cardholders (current month)" t:rowid="Percent of the pop. that are library cardholders (current month)201201" m:indicatorvalue=14.71
 
-series e:s995-ndgk d:2012-02-01T00:00:00.000Z t:rowid="Percent of the pop. that are library cardholders (year-to-date)201202" t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)" m:indicatorvalue=14.818
+series e:s995-ndgk d:2012-02-01T00:00:00.000Z t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)" t:rowid="Percent of the pop. that are library cardholders (year-to-date)201202" m:indicatorvalue=14.818
 ```
 
 ## Meta Commands
@@ -64,13 +64,13 @@ metric m:indicatorvalue p:float l:IndicatorValue t:dataTypeName=number
 
 entity e:s995-ndgk l:"Calculated Library Indicators For Results NOLA" t:attribution="New Orleans Public Library" t:url=https://data.nola.gov/api/views/s995-ndgk
 
-property e:s995-ndgk t:meta.view d:2017-06-09T13:58:44.842Z v:id=s995-ndgk v:category="Recreation and Culture" v:attributionLink=http://www.neworleanspubliclibrary.org v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library"
+property e:s995-ndgk t:meta.view d:2017-09-25T07:30:02.954Z v:averageRating=0 v:name="Calculated Library Indicators For Results NOLA" v:attribution="New Orleans Public Library" v:attributionLink=http://www.neworleanspubliclibrary.org v:id=s995-ndgk v:category="Recreation and Culture"
 
-property e:s995-ndgk t:meta.view.owner d:2017-06-09T13:58:44.842Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.owner d:2017-09-25T07:30:02.954Z v:displayName=mschigoda v:id=ii98-542e v:screenName=mschigoda
 
-property e:s995-ndgk t:meta.view.tableauthor d:2017-06-09T13:58:44.842Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:s995-ndgk t:meta.view.tableauthor d:2017-09-25T07:30:02.954Z v:displayName=mschigoda v:roleName=publisher v:id=ii98-542e v:screenName=mschigoda
 
-property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:44.842Z v:Contact_Email=data@nola.gov
+property e:s995-ndgk t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:02.954Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

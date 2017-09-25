@@ -57,11 +57,11 @@ Excluded Fields = id,issue_date,issue_time
 ## Data Commands
 
 ```ls
-series e:3xyp-aqkj d:2016-05-25T11:15:29.000Z t:zip=33324 t:issue_type=Phone t:issue=Robocalls t:state=FL t:type_of_call_or_messge="Autodialed Live Voice Call" t:method="Internet (VOIP)" t:caller_id_number=866-410-0458 t:city=Plantation m:row_number.3xyp-aqkj=1
+series e:3xyp-aqkj d:2016-05-25T11:15:29.000Z t:zip=33324 t:method="Internet (VOIP)" t:issue=Robocalls t:type_of_call_or_messge="Autodialed Live Voice Call" t:city=Plantation t:issue_type=Phone t:caller_id_number=866-410-0458 t:state=FL m:row_number.3xyp-aqkj=1
 
-series e:3xyp-aqkj d:2016-05-25T12:51:35.000Z t:zip=92078 t:issue_type=Phone t:issue="Telemarketing (including do not call and spoofing)" t:state=CA t:advertiser_business_phone_number=619-840-7262 t:type_of_call_or_messge="Live Voice" t:method=Wired t:caller_id_number=619-840-7262 t:city="San Marcos" m:row_number.3xyp-aqkj=2
+series e:3xyp-aqkj d:2016-05-25T12:51:35.000Z t:zip=92078 t:method=Wired t:issue="Telemarketing (including do not call and spoofing)" t:type_of_call_or_messge="Live Voice" t:city="San Marcos" t:issue_type=Phone t:advertiser_business_phone_number=619-840-7262 t:caller_id_number=619-840-7262 t:state=CA m:row_number.3xyp-aqkj=2
 
-series e:3xyp-aqkj d:2016-05-25T12:56:54.000Z t:zip=07481 t:issue_type=Phone t:issue="Telemarketing (including do not call and spoofing)" t:state=NJ t:advertiser_business_phone_number=626-691-9090 t:type_of_call_or_messge="Live Voice" t:method="Wireless (cell phone/other mobile device)" t:caller_id_number=626-691-9090 t:city=Wyckoff m:row_number.3xyp-aqkj=3
+series e:3xyp-aqkj d:2016-05-25T12:56:54.000Z t:zip=07481 t:method="Wireless (cell phone/other mobile device)" t:issue="Telemarketing (including do not call and spoofing)" t:type_of_call_or_messge="Live Voice" t:city=Wyckoff t:issue_type=Phone t:advertiser_business_phone_number=626-691-9090 t:caller_id_number=626-691-9090 t:state=NJ m:row_number.3xyp-aqkj=3
 ```
 
 ## Meta Commands
@@ -71,15 +71,15 @@ metric m:row_number.3xyp-aqkj p:long l:"Row Number"
 
 entity e:3xyp-aqkj l:"CGB - Consumer Complaints Data" t:attribution="Federal Communications Commission: Consumer Inquiries and Complaints Division" t:url=https://opendata.fcc.gov/api/views/3xyp-aqkj
 
-property e:3xyp-aqkj t:meta.view d:2017-06-09T13:56:34.583Z v:id=3xyp-aqkj v:category=Consumer v:attributionLink=https://consumercomplaints.fcc.gov/hc/en-us v:averageRating=0 v:name="CGB - Consumer Complaints Data" v:attribution="Federal Communications Commission: Consumer Inquiries and Complaints Division"
+property e:3xyp-aqkj t:meta.view d:2017-09-25T07:27:58.054Z v:averageRating=0 v:name="CGB - Consumer Complaints Data" v:attribution="Federal Communications Commission: Consumer Inquiries and Complaints Division" v:attributionLink=https://consumercomplaints.fcc.gov/hc/en-us v:id=3xyp-aqkj v:category=Consumer
 
-property e:3xyp-aqkj t:meta.view.license d:2017-06-09T13:56:34.583Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:3xyp-aqkj t:meta.view.license d:2017-09-25T07:27:58.054Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:3xyp-aqkj t:meta.view.owner d:2017-06-09T13:56:34.583Z v:id=3p4u-pzii v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:screenName=Andrew v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:lastNotificationSeenAt=1496856896 v:displayName=Andrew
+property e:3xyp-aqkj t:meta.view.owner d:2017-09-25T07:27:58.054Z v:displayName="Andrew Nebus" v:lastNotificationSeenAt=1505756045 v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:id=3p4u-pzii v:screenName="Andrew Nebus" v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB
 
-property e:3xyp-aqkj t:meta.view.tableauthor d:2017-06-09T13:56:34.583Z v:id=3p4u-pzii v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:screenName=Andrew v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1496856896 v:displayName=Andrew
+property e:3xyp-aqkj t:meta.view.tableauthor d:2017-09-25T07:27:58.054Z v:displayName="Andrew Nebus" v:lastNotificationSeenAt=1505756045 v:profileImageUrlLarge=/api/users/3p4u-pzii/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/3p4u-pzii/profile_images/TINY v:id=3p4u-pzii v:screenName="Andrew Nebus" v:profileImageUrlMedium=/api/users/3p4u-pzii/profile_images/THUMB
 
-property e:3xyp-aqkj t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:34.583Z v:Contact_Name="Andrew Nebus" v:Bureau_Code=356:00 v:Program_Code=000:000
+property e:3xyp-aqkj t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:27:58.054Z v:Contact_Name="Andrew Nebus" v:Program_Code=000:000 v:Bureau_Code=356:00
 ```
 
 ## Top Records

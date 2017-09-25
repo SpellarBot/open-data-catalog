@@ -39,11 +39,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=527,490 t:ty2012_ytd=875,000 t:reporting_office=Assessor t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of parcels reassessed" t:tax_year_2009=869,663 m:row_number.3bce-kp2x=1
+series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of parcels reassessed" t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=527,490 t:reporting_office=Assessor t:tax_year_2009=869,663 t:ty2012_ytd=875,000 m:row_number.3bce-kp2x=1
 
-series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=1,093,220 t:ty2012_ytd=1,101,000 t:reporting_office=Assessor t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of property tax exemptions received" t:tax_year_2009=1,101,937 m:row_number.3bce-kp2x=2
+series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of property tax exemptions received" t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=1,093,220 t:reporting_office=Assessor t:tax_year_2009=1,101,937 t:ty2012_ytd=1,101,000 m:row_number.3bce-kp2x=2
 
-series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=109,860 t:ty2012_ytd=135,000 t:reporting_office=Assessor t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of appeals filed" t:tax_year_2009=134,975 m:row_number.3bce-kp2x=3
+series e:3bce-kp2x d:2012-01-01T00:00:00.000Z t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of appeals filed" t:ty2012_variance=- t:ty2012_target=TBD t:tax_year_2011=109,860 t:reporting_office=Assessor t:tax_year_2009=134,975 t:ty2012_ytd=135,000 m:row_number.3bce-kp2x=3
 ```
 
 ## Meta Commands
@@ -53,13 +53,13 @@ metric m:row_number.3bce-kp2x p:long l:"Row Number"
 
 entity e:3bce-kp2x l:"Property and Taxation: Q3 2012 Performance Management Goal Assessment" t:url=https://datacatalog.cookcountyil.gov/api/views/3bce-kp2x
 
-property e:3bce-kp2x t:meta.view d:2017-06-09T13:53:21.716Z v:id=3bce-kp2x v:category="Property & Taxation" v:averageRating=0 v:name="Property and Taxation: Q3 2012 Performance Management Goal Assessment"
+property e:3bce-kp2x t:meta.view d:2017-09-25T07:24:43.855Z v:averageRating=0 v:name="Property and Taxation: Q3 2012 Performance Management Goal Assessment" v:id=3bce-kp2x v:category="Property & Taxation"
 
-property e:3bce-kp2x t:meta.view.license d:2017-06-09T13:53:21.716Z v:name="Public Domain"
+property e:3bce-kp2x t:meta.view.license d:2017-09-25T07:24:43.855Z v:name="Public Domain"
 
-property e:3bce-kp2x t:meta.view.owner d:2017-06-09T13:53:21.716Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:3bce-kp2x t:meta.view.owner d:2017-09-25T07:24:43.855Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 
-property e:3bce-kp2x t:meta.view.tableauthor d:2017-06-09T13:53:21.716Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:3bce-kp2x t:meta.view.tableauthor d:2017-09-25T07:24:43.855Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 ```
 
 ## Top Records

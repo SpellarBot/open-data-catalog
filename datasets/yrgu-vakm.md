@@ -58,11 +58,11 @@ Excluded Fields = expirationdate,effectivedate
 ## Data Commands
 
 ```ls
-series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625234 m:cnn=9122002
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:ctrid=625234 t:contactphonenumber="(415) 701-4507" m:cnn=9122002
 
-series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625235 m:cnn=9122001
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:ctrid=625235 t:contactphonenumber="(415) 701-4507" m:cnn=9122001
 
-series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:contactphonenumber="(415) 701-4507" t:ctrid=625236 m:cnn=12318002
+series e:yrgu-vakm d:2012-02-15T16:27:02.000Z t:contactname="Alex Demisch" t:exceptioncode=SFPARK t:ctrid=625236 t:contactphonenumber="(415) 701-4507" m:cnn=12318002
 ```
 
 ## Meta Commands
@@ -72,13 +72,13 @@ metric m:cnn p:integer l:CNN t:dataTypeName=number
 
 entity e:yrgu-vakm l:"Right of Way Exception Data" t:attribution="San Francisco Department of Public Works" t:url=https://data.sfgov.org/api/views/yrgu-vakm
 
-property e:yrgu-vakm t:meta.view d:2017-06-09T13:53:13.250Z v:id=yrgu-vakm v:category="City Infrastructure" v:attributionLink=http://www.sfdpw.org v:averageRating=0 v:name="Right of Way Exception Data" v:attribution="San Francisco Department of Public Works"
+property e:yrgu-vakm t:meta.view d:2017-09-25T07:24:35.752Z v:averageRating=0 v:name="Right of Way Exception Data" v:attribution="San Francisco Department of Public Works" v:attributionLink=http://www.sfdpw.org v:id=yrgu-vakm v:category="City Infrastructure"
 
-property e:yrgu-vakm t:meta.view.license d:2017-06-09T13:53:13.250Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:yrgu-vakm t:meta.view.license d:2017-09-25T07:24:35.752Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:yrgu-vakm t:meta.view.owner d:2017-06-09T13:53:13.250Z v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.owner d:2017-09-25T07:24:35.752Z v:displayName="Public Works" v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:id=rcpp-nrjq v:screenName="Public Works" v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB
 
-property e:yrgu-vakm t:meta.view.tableauthor d:2017-06-09T13:53:13.250Z v:id=rcpp-nrjq v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:screenName="Public Works" v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:roleName=editor v:displayName="Public Works"
+property e:yrgu-vakm t:meta.view.tableauthor d:2017-09-25T07:24:35.752Z v:displayName="Public Works" v:profileImageUrlLarge=/api/users/rcpp-nrjq/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/rcpp-nrjq/profile_images/TINY v:id=rcpp-nrjq v:screenName="Public Works" v:profileImageUrlMedium=/api/users/rcpp-nrjq/profile_images/THUMB
 ```
 
 ## Top Records

@@ -40,7 +40,7 @@ Format & Zone = yyyy
 ```ls
 series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Planned Parenthood Federation of America" t:charity_code=1481041 m:donations_total=17026.37
 
-series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Injured Marine Semper Fi Fund" t:charity_code=1479167 t:contact_email=theresa@charitystateregistration.org t:zip_code=92055 m:donations_total=1018.63
+series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Injured Marine Semper Fi Fund" t:charity_code=1479167 t:zip_code=92055 t:contact_email=theresa@charitystateregistration.org m:donations_total=1018.63
 
 series e:m5pi-uads d:2014-01-01T00:00:00.000Z t:charity_name="Milgard School of Business Fund for Excellence" t:charity_code=1479537 m:donations_total=1007.67
 ```
@@ -52,13 +52,13 @@ metric m:donations_total p:double l:"Donations Total" t:dataTypeName=money
 
 entity e:m5pi-uads l:"Combined Fund Drive Donations 2014" t:attribution="Combined Fund Drive Administered by the Washington Secretary of State" t:url=https://data.wa.gov/api/views/m5pi-uads
 
-property e:m5pi-uads t:meta.view d:2017-06-09T13:58:48.503Z v:id=m5pi-uads v:attributionLink=http://www.cfd.wa.gov/ v:averageRating=0 v:name="Combined Fund Drive Donations 2014" v:attribution="Combined Fund Drive Administered by the Washington Secretary of State"
+property e:m5pi-uads t:meta.view d:2017-09-25T07:30:08.998Z v:averageRating=0 v:name="Combined Fund Drive Donations 2014" v:attribution="Combined Fund Drive Administered by the Washington Secretary of State" v:attributionLink=http://www.cfd.wa.gov/ v:id=m5pi-uads
 
-property e:m5pi-uads t:meta.view.license d:2017-06-09T13:58:48.503Z v:name="Public Domain"
+property e:m5pi-uads t:meta.view.license d:2017-09-25T07:30:08.998Z v:name="Public Domain"
 
-property e:m5pi-uads t:meta.view.owner d:2017-06-09T13:58:48.503Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:displayName=ryan.leisinger
+property e:m5pi-uads t:meta.view.owner d:2017-09-25T07:30:08.998Z v:displayName=ryan.leisinger v:lastNotificationSeenAt=1500917366 v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:id=2iur-ynm8 v:screenName=ryan.leisinger v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB
 
-property e:m5pi-uads t:meta.view.tableauthor d:2017-06-09T13:58:48.503Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
+property e:m5pi-uads t:meta.view.tableauthor d:2017-09-25T07:30:08.998Z v:displayName=ryan.leisinger v:lastNotificationSeenAt=1500917366 v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:id=2iur-ynm8 v:screenName=ryan.leisinger v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB
 ```
 
 ## Top Records

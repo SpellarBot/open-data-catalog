@@ -50,11 +50,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:fund_type=LOCAL t:appropriation_account=5 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_authority=2005 t:department_number=1 t:appropriation_account_description="SALARIES AND WAGES - ON PAYROLL" t:fund_description="CORPORATE FUND" m:appropration=5511957 m:recommendation=5550657 m:revised_appropriation=5511957
+series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:fund_description="CORPORATE FUND" t:appropriation_account_description="SALARIES AND WAGES - ON PAYROLL" t:appropriation_account=5 t:department_description="OFFICE OF THE MAYOR" t:fund_type=LOCAL t:appropriation_authority=2005 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:department_number=1 m:recommendation=5550657 m:revised_appropriation=5511957 m:appropration=5511957
 
-series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:fund_type=LOCAL t:appropriation_account=126 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_authority=2005 t:department_number=1 t:appropriation_account_description="OFFICE CONVENIENCES" t:fund_description="CORPORATE FUND" m:appropration=1200 m:recommendation=1000 m:revised_appropriation=1200
+series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:fund_description="CORPORATE FUND" t:appropriation_account_description="OFFICE CONVENIENCES" t:appropriation_account=126 t:department_description="OFFICE OF THE MAYOR" t:fund_type=LOCAL t:appropriation_authority=2005 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:department_number=1 m:recommendation=1000 m:revised_appropriation=1200 m:appropration=1200
 
-series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:department_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:fund_type=LOCAL t:appropriation_account=130 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:appropriation_authority=2005 t:department_number=1 t:appropriation_account_description=POSTAGE t:fund_description="CORPORATE FUND" m:appropration=10000 m:recommendation=5019 m:revised_appropriation=10000
+series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z t:fund_description="CORPORATE FUND" t:appropriation_account_description=POSTAGE t:appropriation_account=130 t:department_description="OFFICE OF THE MAYOR" t:fund_type=LOCAL t:appropriation_authority=2005 t:appropriation_authority_description="OFFICE OF THE MAYOR" t:fund_code=0100 t:department_number=1 m:recommendation=5019 m:revised_appropriation=10000 m:appropration=10000
 ```
 
 ## Meta Commands
@@ -68,11 +68,11 @@ metric m:recommendation p:integer l:"2015 RECOMMENDATION" t:dataTypeName=money
 
 entity e:kzbi-spm5 l:"Budget - 2015 Budget Recommendations - Appropriations" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/kzbi-spm5
 
-property e:kzbi-spm5 t:meta.view d:2017-06-09T13:59:24.306Z v:id=kzbi-spm5 v:category="Administration & Finance" v:attributionLink=http://www.cityofchicago.org/budget v:averageRating=0 v:name="Budget - 2015 Budget Recommendations - Appropriations" v:attribution="City of Chicago"
+property e:kzbi-spm5 t:meta.view d:2017-09-25T07:30:45.341Z v:averageRating=0 v:name="Budget - 2015 Budget Recommendations - Appropriations" v:attribution="City of Chicago" v:attributionLink=http://www.cityofchicago.org/budget v:id=kzbi-spm5 v:category="Administration & Finance"
 
-property e:kzbi-spm5 t:meta.view.owner d:2017-06-09T13:59:24.306Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
+property e:kzbi-spm5 t:meta.view.owner d:2017-09-25T07:30:45.341Z v:displayName="Jonathan Levy" v:lastNotificationSeenAt=1505253103 v:id=vewm-vupz v:screenName="Jonathan Levy"
 
-property e:kzbi-spm5 t:meta.view.tableauthor d:2017-06-09T13:59:24.306Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
+property e:kzbi-spm5 t:meta.view.tableauthor d:2017-09-25T07:30:45.341Z v:displayName="Jonathan Levy" v:lastNotificationSeenAt=1505253103 v:roleName=administrator v:id=vewm-vupz v:screenName="Jonathan Levy"
 ```
 
 ## Top Records

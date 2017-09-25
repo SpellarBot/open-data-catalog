@@ -66,11 +66,11 @@ Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,dat
 ## Data Commands
 
 ```ls
-series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:response=Yes t:locationabbr=AL t:locationdesc=Alabama t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year" t:category=Adult t:locationid=1 t:indicatorid=ADT1_1 t:break_out_category=None t:sortbreakoutid=1 t:datasource=BRFSS m:sortusfirst=2 m:samplesize=5143 m:high_confidence_interval=61.5 m:data_value=60 m:low_confidence_interval=58.5
+series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year" t:indicatorid=ADT1_1 t:break_out_category=None t:response=Yes t:datasource=BRFSS t:locationid=1 t:sortbreakoutid=1 t:locationabbr=AL t:locationdesc=Alabama t:category=Adult m:low_confidence_interval=58.5 m:data_value=60 m:samplesize=5143 m:high_confidence_interval=61.5 m:sortusfirst=2
 
-series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:response=Yes t:break_out_id=1GEN t:locationabbr=AL t:locationdesc=Alabama t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year" t:category=Adult t:locationid=1 t:indicatorid=ADT1_1 t:break_out_category=Gender t:sortbreakoutid=2 t:break_out=Female t:datasource=BRFSS m:sortusfirst=2 m:samplesize=3323 m:high_confidence_interval=62.9 m:data_value=61 m:low_confidence_interval=59.1
+series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year" t:indicatorid=ADT1_1 t:break_out_id=1GEN t:break_out_category=Gender t:response=Yes t:datasource=BRFSS t:locationid=1 t:sortbreakoutid=2 t:locationabbr=AL t:break_out=Female t:locationdesc=Alabama t:category=Adult m:low_confidence_interval=59.1 m:data_value=61 m:samplesize=3323 m:high_confidence_interval=62.9 m:sortusfirst=2
 
-series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:response=Yes t:break_out_id=2GEN t:locationabbr=AL t:locationdesc=Alabama t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year" t:category=Adult t:locationid=1 t:indicatorid=ADT1_1 t:break_out_category=Gender t:sortbreakoutid=3 t:break_out=Male t:datasource=BRFSS m:sortusfirst=2 m:samplesize=1820 m:high_confidence_interval=61.3 m:data_value=58.9 m:low_confidence_interval=56.5
+series e:jz6n-v26y d:2014-01-01T00:00:00.000Z t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year" t:indicatorid=ADT1_1 t:break_out_id=2GEN t:break_out_category=Gender t:response=Yes t:datasource=BRFSS t:locationid=1 t:sortbreakoutid=3 t:locationabbr=AL t:break_out=Male t:locationdesc=Alabama t:category=Adult m:low_confidence_interval=56.5 m:data_value=58.9 m:samplesize=1820 m:high_confidence_interval=61.3 m:sortusfirst=2
 ```
 
 ## Meta Commands
@@ -88,15 +88,15 @@ metric m:sortusfirst p:integer l:SortUSFirst t:dataTypeName=number
 
 entity e:jz6n-v26y l:"NOHSS Adult Indicators" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health" t:url=https://chronicdata.cdc.gov/api/views/jz6n-v26y
 
-property e:jz6n-v26y t:meta.view d:2017-06-09T13:54:26.451Z v:id=jz6n-v26y v:category="Oral Health" v:attributionLink=http://www.cdc.gov/oralhealth/ v:averageRating=0 v:name="NOHSS Adult Indicators" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health"
+property e:jz6n-v26y t:meta.view d:2017-09-25T07:25:48.150Z v:averageRating=0 v:name="NOHSS Adult Indicators" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Division of Oral Health" v:attributionLink=http://www.cdc.gov/oralhealth/ v:id=jz6n-v26y v:category="Oral Health"
 
-property e:jz6n-v26y t:meta.view.license d:2017-06-09T13:54:26.451Z v:name="Public Domain"
+property e:jz6n-v26y t:meta.view.license d:2017-09-25T07:25:48.150Z v:name="Public Domain"
 
-property e:jz6n-v26y t:meta.view.owner d:2017-06-09T13:54:26.451Z v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:displayName="Oral Health Data Administrator"
+property e:jz6n-v26y t:meta.view.owner d:2017-09-25T07:25:48.150Z v:displayName="Oral Health Data Administrator" v:id=5ehu-79qp v:screenName="Oral Health Data Administrator"
 
-property e:jz6n-v26y t:meta.view.tableauthor d:2017-06-09T13:54:26.451Z v:id=5ehu-79qp v:screenName="Oral Health Data Administrator" v:roleName=publisher v:displayName="Oral Health Data Administrator"
+property e:jz6n-v26y t:meta.view.tableauthor d:2017-09-25T07:25:48.150Z v:displayName="Oral Health Data Administrator" v:roleName=publisher v:id=5ehu-79qp v:screenName="Oral Health Data Administrator"
 
-property e:jz6n-v26y t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:54:26.451Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:10 v:Program_Code=009:020
+property e:jz6n-v26y t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:25:48.150Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

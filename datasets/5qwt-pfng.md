@@ -14,7 +14,7 @@
 | Category | Business |
 | Tags | business name, registration |
 | Created | 2012-06-01T16:37:41Z |
-| Publication Date | 2016-05-02T20:14:59Z |
+| Publication Date | 2017-07-05T15:27:37Z |
 
 ## Description
 
@@ -23,25 +23,25 @@ Businesses registered with the Secretary of State Corporation Division during th
 ## Columns
 
 ```ls
-| Included | Schema Type | Field Name                  | Name                        | Data Type     | Render Type   |
-| ======== | =========== | =========================== | =========================== | ============= | ============= |
-| Yes      | series tag  | registry_number             | Registry Number             | text          | text          |
-| Yes      | series tag  | business_name               | Business Name               | text          | text          |
-| Yes      | series tag  | entity_type                 | Entity Type                 | text          | text          |
-| Yes      | time        | registry_date               | Registry Date               | calendar_date | calendar_date |
-| Yes      | series tag  | associated_name_type        | Associated Name Type        | text          | text          |
-| Yes      | series tag  | first_name                  | First Name                  | text          | text          |
-| Yes      | series tag  | middle_name                 | Middle Name                 | text          | text          |
-| Yes      | series tag  | last_name                   | Last Name                   | text          | text          |
-| Yes      | series tag  | suffix                      | Suffix                      | text          | text          |
-| Yes      | series tag  | entity_of_record_reg_number | Entity of Record Reg Number | text          | text          |
-| Yes      | series tag  | not_of_record_entity        | Not of Record Entity        | text          | text          |
-| Yes      | series tag  | entity_of_record_name       | Entity of Record Name       | text          | text          |
-| No       |             | address                     | Address                     | text          | text          |
-| No       |             | address_continued           | Address Continued           | text          | text          |
-| Yes      | series tag  | city                        | City                        | text          | text          |
-| Yes      | series tag  | state                       | State                       | text          | text          |
-| Yes      | series tag  | zip_code                    | Zip Code                    | text          | text          |
+| Included | Schema Type    | Field Name                  | Name                        | Data Type     | Render Type   |
+| ======== | ============== | =========================== | =========================== | ============= | ============= |
+| Yes      | series tag     | registry_number             | Registry Number             | text          | text          |
+| Yes      | series tag     | business_name               | Business Name               | text          | text          |
+| Yes      | series tag     | entity_type                 | Entity Type                 | text          | text          |
+| Yes      | time           | registry_date               | Registry Date               | calendar_date | calendar_date |
+| Yes      | series tag     | associated_name_type        | Associated Name Type        | text          | text          |
+| Yes      | series tag     | first_name                  | First Name                  | text          | text          |
+| Yes      | series tag     | middle_name                 | Middle Name                 | text          | text          |
+| Yes      | series tag     | last_name                   | Last Name                   | text          | text          |
+| Yes      | series tag     | suffix                      | Suffix                      | text          | text          |
+| Yes      | series tag     | entity_of_record_reg_number | Entity of Record Reg Number | text          | text          |
+| Yes      | numeric metric | not_of_record_entity        | Not of Record Entity        | number        | text          |
+| Yes      | series tag     | entity_of_record_name       | Entity of Record Name       | text          | text          |
+| No       |                | address                     | Address                     | text          | text          |
+| No       |                | address_continued           | Address Continued           | text          | text          |
+| Yes      | series tag     | city                        | City                        | text          | text          |
+| Yes      | series tag     | state                       | State                       | text          | text          |
+| Yes      | series tag     | zip_code                    | Zip Code                    | text          | text          |
 ```
 
 ## Time Field
@@ -60,40 +60,40 @@ Excluded Fields = address,address_continued
 ## Data Commands
 
 ```ls
-series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="AUTHORIZED REPRESENTATIVE" t:entity_of_record_name="C T CORPORATION SYSTEM" t:zip_code=97301 t:state=OR t:entity_type="ASSUMED BUSINESS NAME" t:entity_of_record_reg_number=329227 t:city=SALEM t:registry_number=120367297 m:row_number.5qwt-pfng=1
+series e:5qwt-pfng d:2017-04-03T00:00:00.000Z t:business_name="ANGELS WING OF OREGON LLC" t:associated_name_type="REGISTERED AGENT" t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=PORTLAND t:registry_number=131070294 t:state=OR t:zip_code=97225 t:entity_of_record_name="INCORPORATING SERVICES, LTD." m:not_of_record_entity=27939198
 
-series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705" t:associated_name_type="PRINCIPAL PLACE OF BUSINESS" t:zip_code=90670 t:state=CA t:entity_type="ASSUMED BUSINESS NAME" t:city="SANTA FE SPRINGS" t:registry_number=120367297 m:row_number.5qwt-pfng=2
+series e:5qwt-pfng d:2017-04-03T00:00:00.000Z t:business_name="BREAKTIME DENTAL LLC" t:associated_name_type="REGISTERED AGENT" t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=PORTLAND t:registry_number=131063794 t:state=OR t:zip_code=97209 t:entity_of_record_name="IMMIX SERVICES INC" m:not_of_record_entity=76083394
 
-series e:5qwt-pfng d:2016-04-01T00:00:00.000Z t:business_name="AMBROSIA FARMS QUARTZ CREEK, LLC" t:associated_name_type="MAILING ADDRESS" t:zip_code=97532 t:state=OR t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=MERLIN t:registry_number=120350798 m:row_number.5qwt-pfng=3
+series e:5qwt-pfng d:2017-04-03T00:00:00.000Z t:business_name="CHANDLER STAGING, LLC" t:associated_name_type="REGISTERED AGENT" t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY" t:city=GRESHAM t:registry_number=131063299 t:state=OR t:zip_code=97030 t:entity_of_record_name="UNITED STATES CORPORATION AGENTS, INC." m:not_of_record_entity=66022790
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:row_number.5qwt-pfng p:long l:"Row Number"
+metric m:not_of_record_entity p:integer l:"Not of Record Entity" t:dataTypeName=number
 
 entity e:5qwt-pfng l:"New Business List - April" t:url=https://data.oregon.gov/api/views/5qwt-pfng
 
-property e:5qwt-pfng t:meta.view d:2017-06-09T13:55:02.258Z v:id=5qwt-pfng v:category=Business v:averageRating=0 v:name="New Business List - April"
+property e:5qwt-pfng t:meta.view d:2017-09-25T07:26:28.533Z v:averageRating=0 v:name="New Business List - April" v:id=5qwt-pfng v:category=Business
 
-property e:5qwt-pfng t:meta.view.owner d:2017-06-09T13:55:02.258Z v:id=ngr9-eh9y v:screenName="Judy Weems" v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.owner d:2017-09-25T07:26:28.533Z v:displayName="Judy Weems" v:id=ngr9-eh9y v:screenName="Judy Weems"
 
-property e:5qwt-pfng t:meta.view.tableauthor d:2017-06-09T13:55:02.258Z v:id=ngr9-eh9y v:screenName="Judy Weems" v:roleName=editor v:displayName="Judy Weems"
+property e:5qwt-pfng t:meta.view.tableauthor d:2017-09-25T07:26:28.533Z v:displayName="Judy Weems" v:roleName=editor v:id=ngr9-eh9y v:screenName="Judy Weems"
 ```
 
 ## Top Records
 
 ```ls
-| registry_number | business_name                      | entity_type                        | registry_date       | associated_name_type        | first_name | middle_name | last_name | suffix | entity_of_record_reg_number | not_of_record_entity | entity_of_record_name           | address                      | address_continued | city             | state | zip_code | 
-| =============== | ================================== | ================================== | =================== | =========================== | ========== | =========== | ========= | ====== | =========================== | ==================== | =============================== | ============================ | ================= | ================ | ===== | ======== | 
-| 120367297       | ALBERTSON'S SAFEWAY PHARMACY #4705 | ASSUMED BUSINESS NAME              | 2016-04-01T00:00:00 | AUTHORIZED REPRESENTATIVE   |            |             |           |        | 329227                      |                      | C T CORPORATION SYSTEM          | 388 STATE ST STE 420         |                   | SALEM            | OR    | 97301    | 
-| 120367297       | ALBERTSON'S SAFEWAY PHARMACY #4705 | ASSUMED BUSINESS NAME              | 2016-04-01T00:00:00 | PRINCIPAL PLACE OF BUSINESS |            |             |           |        |                             |                      |                                 | 12874 E FLORENCE AVE         |                   | SANTA FE SPRINGS | CA    | 90670    | 
-| 120350798       | AMBROSIA FARMS QUARTZ CREEK, LLC   | DOMESTIC LIMITED LIABILITY COMPANY | 2016-04-01T00:00:00 | MAILING ADDRESS             |            |             |           |        |                             |                      |                                 | PO BOX 1052                  |                   | MERLIN           | OR    | 97532    | 
-| 120350798       | AMBROSIA FARMS QUARTZ CREEK, LLC   | DOMESTIC LIMITED LIABILITY COMPANY | 2016-04-01T00:00:00 | REGISTERED AGENT            | NATALIE    | M           | WETENHALL |        |                             |                      |                                 | 542 WASHINGTON ST STE 104    |                   | ASHLAND          | OR    | 97520    | 
-| 120351994       | ART DOCTOR                         | ASSUMED BUSINESS NAME              | 2016-04-01T00:00:00 | AUTHORIZED REPRESENTATIVE   | KEN        |             | PIERCE    |        |                             |                      |                                 | PO BOX 989                   |                   | KIMBERLY         | ID    | 83341    | 
-| 120351994       | ART DOCTOR                         | ASSUMED BUSINESS NAME              | 2016-04-01T00:00:00 | PRINCIPAL PLACE OF BUSINESS |            |             |           |        |                             |                      |                                 | 3970 SW 97TH AVE             |                   | PORTLAND         | OR    | 97225    | 
-| 120351192       | BAXTER SOLAR LLC                   | DOMESTIC LIMITED LIABILITY COMPANY | 2016-04-01T00:00:00 | MAILING ADDRESS             |            |             |           |        |                             | PETER K BROWN        |                                 | 5 CENTERPOINTE DR STE 250    |                   | LAKE OSWEGO      | OR    | 97035    | 
-| 120351192       | BAXTER SOLAR LLC                   | DOMESTIC LIMITED LIABILITY COMPANY | 2016-04-01T00:00:00 | REGISTERED AGENT            |            |             |           |        | 8601296                     |                      | TT ADMINISTRATIVE SERVICES, LLC | 1600 PIONEER TOWER           | 888 SW FIFTH AVE  | PORTLAND         | OR    | 97204    | 
-| 119830693       | BAY EQUITY LLC THE PLATINUM GROUP  | ASSUMED BUSINESS NAME              | 2016-04-01T00:00:00 | AUTHORIZED REPRESENTATIVE   | BRETT      |             | MCGOVERN  |        |                             |                      |                                 | 28 LIBERTY SHIP WAY STE 2800 |                   | SAUSALITO        | CA    | 94965    | 
-| 119830693       | BAY EQUITY LLC THE PLATINUM GROUP  | ASSUMED BUSINESS NAME              | 2016-04-01T00:00:00 | PRINCIPAL PLACE OF BUSINESS |            |             |           |        |                             |                      |                                 | 28 LIBERTY SHIP WAY STE 2800 |                   | SAUSALITO        | CA    | 94965    | 
+| registry_number | business_name                              | entity_type                        | registry_date       | associated_name_type        | first_name | middle_name | last_name    | suffix | entity_of_record_reg_number | not_of_record_entity | entity_of_record_name        | address                         | address_continued | city      | state | zip_code | 
+| =============== | ========================================== | ================================== | =================== | =========================== | ========== | =========== | ============ | ====== | =========================== | ==================== | ============================ | =============================== | ================= | ========= | ===== | ======== | 
+| 131062994       | 4 PAYMENTS, INC.                           | DOMESTIC BUSINESS CORPORATION      | 2017-04-03T00:00:00 | PRINCIPAL PLACE OF BUSINESS |            |             |              |        |                             |                      |                              | 4825 SE 63RD AVE                |                   | PORTLAND  | OR    | 97206    | 
+| 131062994       | 4 PAYMENTS, INC.                           | DOMESTIC BUSINESS CORPORATION      | 2017-04-03T00:00:00 | REGISTERED AGENT            | JOSEPH     | CARLOS      | BLAIR        |        |                             |                      |                              | 4825 SE 63RD AVE                |                   | PORTLAND  | OR    | 97206    | 
+| 130327794       | @BE, LLC                                   | DOMESTIC LIMITED LIABILITY COMPANY | 2017-04-03T00:00:00 | REGISTERED AGENT            | JENNIFER   | R           | KLINGENSMITH |        |                             |                      |                              | 725 COUNTRY CLUB RD             |                   | EUGENE    | OR    | 97401    | 
+| 131064396       | ALLYKAT ENTERPRISES, LLC                   | DOMESTIC LIMITED LIABILITY COMPANY | 2017-04-03T00:00:00 | REGISTERED AGENT            | AARON      |             | ANDERS       |        |                             |                      |                              | 1911 UNITED WAY                 |                   | MEDFORD   | OR    | 97504    | 
+| 131070294       | ANGELS WING OF OREGON LLC                  | DOMESTIC LIMITED LIABILITY COMPANY | 2017-04-03T00:00:00 | MAILING ADDRESS             |            |             |              |        |                             |                      |                              | 28437 SUNGLOW RUN LAND          |                   | MENIFEE   | CA    | 92584    | 
+| 131070294       | ANGELS WING OF OREGON LLC                  | DOMESTIC LIMITED LIABILITY COMPANY | 2017-04-03T00:00:00 | REGISTERED AGENT            |            |             |              |        |                             | 27939198             | INCORPORATING SERVICES, LTD. | 8130 SW BEAVERTON-HILLSDALE HWY |                   | PORTLAND  | OR    | 97225    | 
+| 131055691       | APPRAISAL ASSOCIATES OF DOUGLAS COUNTY LLC | DOMESTIC LIMITED LIABILITY COMPANY | 2017-04-03T00:00:00 | MAILING ADDRESS             |            |             |              |        |                             |                      |                              | PO BOX 1018                     |                   | WINSTON   | OR    | 97496    | 
+| 131055691       | APPRAISAL ASSOCIATES OF DOUGLAS COUNTY LLC | DOMESTIC LIMITED LIABILITY COMPANY | 2017-04-03T00:00:00 | REGISTERED AGENT            | ROBERT     |             | WHEELER      |        |                             |                      |                              | 88 NW MAIN ST                   |                   | WINSTON   | OR    | 97496    | 
+| 131062895       | AVILA GENERAL MAINTENANCE, INC.            | DOMESTIC BUSINESS CORPORATION      | 2017-04-03T00:00:00 | PRINCIPAL PLACE OF BUSINESS |            |             |              |        |                             |                      |                              | 239 NW ADAMS AVE                |                   | HILLSBORO | OR    | 97124    | 
+| 131062895       | AVILA GENERAL MAINTENANCE, INC.            | DOMESTIC BUSINESS CORPORATION      | 2017-04-03T00:00:00 | REGISTERED AGENT            | JUVENTINO  | AVILA       | ESTRADA      |        |                             |                      |                              | 239 NW ADAMS AVE                |                   | HILLSBORO | OR    | 97124    | 
 ```

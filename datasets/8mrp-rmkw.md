@@ -70,11 +70,11 @@ Excluded Fields = yearend,data_value_unit,data_value_type,data_value_alt,data_va
 ## Data Commands
 
 ```ls
-series e:8mrp-rmkw d:2006-01-01T00:00:00.000Z t:total=Total t:topic="Physical Activity - Behavior" t:locationabbr=AL t:locationdesc=Alabama t:topicid=PA1 t:stratificationid1=OVERALL t:class="Physical Activity" t:questionid=Q042 t:locationid=01 t:stratificationcategoryid1=OVR t:stratificationcategory1=Total t:stratification1=Total t:question="Percent of adults in the state who usually biked or walked to work in the last week" t:datavaluetypeid=VALUE t:datasource="American Community Survey" t:classid=PA m:high_confidence_limit=1.4 m:data_value=1.4 m:low_confidence_limit=1.3
+series e:8mrp-rmkw d:2006-01-01T00:00:00.000Z t:questionid=Q042 t:stratificationid1=OVERALL t:question="Percent of adults in the state who usually biked or walked to work in the last week" t:datavaluetypeid=VALUE t:stratificationcategoryid1=OVR t:locationabbr=AL t:locationdesc=Alabama t:stratification1=Total t:stratificationcategory1=Total t:total=Total t:topicid=PA1 t:classid=PA t:datasource="American Community Survey" t:locationid=01 t:topic="Physical Activity - Behavior" t:class="Physical Activity" m:data_value=1.4 m:high_confidence_limit=1.4 m:low_confidence_limit=1.3
 
-series e:8mrp-rmkw d:2011-01-01T00:00:00.000Z t:total=Total t:topic="Physical Activity - Behavior" t:locationabbr=AL t:locationdesc=Alabama t:topicid=PA1 t:stratificationid1=OVERALL t:class="Physical Activity" t:questionid=Q042 t:locationid=01 t:stratificationcategoryid1=OVR t:stratificationcategory1=Total t:stratification1=Total t:question="Percent of adults in the state who usually biked or walked to work in the last week" t:datavaluetypeid=VALUE t:datasource="American Community Survey" t:classid=PA m:high_confidence_limit=1.3 m:data_value=1.2 m:low_confidence_limit=1.2
+series e:8mrp-rmkw d:2011-01-01T00:00:00.000Z t:questionid=Q042 t:stratificationid1=OVERALL t:question="Percent of adults in the state who usually biked or walked to work in the last week" t:datavaluetypeid=VALUE t:stratificationcategoryid1=OVR t:locationabbr=AL t:locationdesc=Alabama t:stratification1=Total t:stratificationcategory1=Total t:total=Total t:topicid=PA1 t:classid=PA t:datasource="American Community Survey" t:locationid=01 t:topic="Physical Activity - Behavior" t:class="Physical Activity" m:data_value=1.2 m:high_confidence_limit=1.3 m:low_confidence_limit=1.2
 
-series e:8mrp-rmkw d:2006-01-01T00:00:00.000Z t:total=Total t:topic="Physical Activity - Behavior" t:locationabbr=AK t:locationdesc=Alaska t:topicid=PA1 t:stratificationid1=OVERALL t:class="Physical Activity" t:questionid=Q042 t:locationid=02 t:stratificationcategoryid1=OVR t:stratificationcategory1=Total t:stratification1=Total t:question="Percent of adults in the state who usually biked or walked to work in the last week" t:datavaluetypeid=VALUE t:datasource="American Community Survey" t:classid=PA m:high_confidence_limit=9.7 m:data_value=9.2 m:low_confidence_limit=8.7
+series e:8mrp-rmkw d:2006-01-01T00:00:00.000Z t:questionid=Q042 t:stratificationid1=OVERALL t:question="Percent of adults in the state who usually biked or walked to work in the last week" t:datavaluetypeid=VALUE t:stratificationcategoryid1=OVR t:locationabbr=AK t:locationdesc=Alaska t:stratification1=Total t:stratificationcategory1=Total t:total=Total t:topicid=PA1 t:classid=PA t:datasource="American Community Survey" t:locationid=02 t:topic="Physical Activity - Behavior" t:class="Physical Activity" m:data_value=9.2 m:high_confidence_limit=9.7 m:low_confidence_limit=8.7
 ```
 
 ## Meta Commands
@@ -88,15 +88,15 @@ metric m:high_confidence_limit p:float l:High_Confidence_Limit t:dataTypeName=nu
 
 entity e:8mrp-rmkw l:"Nutrition, Physical Activity, and Obesity - American Community Survey" t:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity" t:url=https://data.cdc.gov/api/views/8mrp-rmkw
 
-property e:8mrp-rmkw t:meta.view d:2017-06-09T13:55:35.462Z v:id=8mrp-rmkw v:category="Nutrition, Physical Activity, and Obesity" v:attributionLink=http://www.cdc.gov/nccdphp/DNPAO/index.html v:averageRating=0 v:name="Nutrition, Physical Activity, and Obesity - American Community Survey" v:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity"
+property e:8mrp-rmkw t:meta.view d:2017-09-25T07:26:57.379Z v:averageRating=0 v:name="Nutrition, Physical Activity, and Obesity - American Community Survey" v:attribution="Centers for Disease Control and Prevention (CDC), National Center for Chronic Disease Prevention and Health Promotion, Division of Nutrition, Physical Activity, and Obesity" v:attributionLink=http://www.cdc.gov/nccdphp/DNPAO/index.html v:id=8mrp-rmkw v:category="Nutrition, Physical Activity, and Obesity"
 
-property e:8mrp-rmkw t:meta.view.license d:2017-06-09T13:55:35.462Z v:name="Public Domain"
+property e:8mrp-rmkw t:meta.view.license d:2017-09-25T07:26:57.379Z v:name="Public Domain"
 
-property e:8mrp-rmkw t:meta.view.owner d:2017-06-09T13:55:35.462Z v:id=cvya-y955 v:screenName="LV Moore" v:displayName="LV Moore"
+property e:8mrp-rmkw t:meta.view.owner d:2017-09-25T07:26:57.379Z v:displayName=ggi9@cdc.gov v:id=cvya-y955 v:screenName=ggi9@cdc.gov
 
-property e:8mrp-rmkw t:meta.view.tableauthor d:2017-06-09T13:55:35.462Z v:id=cvya-y955 v:screenName="LV Moore" v:roleName=publisher v:displayName="LV Moore"
+property e:8mrp-rmkw t:meta.view.tableauthor d:2017-09-25T07:26:57.379Z v:displayName=ggi9@cdc.gov v:roleName=publisher v:id=cvya-y955 v:screenName=ggi9@cdc.gov
 
-property e:8mrp-rmkw t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:55:35.462Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:8mrp-rmkw t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:26:57.379Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

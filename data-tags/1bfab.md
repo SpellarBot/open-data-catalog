@@ -90,6 +90,6 @@ Name | Host | Published
 [TAX 12-2012 Tobacco Tax Collections](../datasets/42id-b4fw.md) | data.hawaii.gov | 2013&#x2011;02&#x2011;05
 [Tax Exempt Organizations (Extracted from the Internal Revenue Service)](../datasets/krqq-6qhc.md) | data.ct.gov | 2016&#x2011;12&#x2011;15
 [Taxable Sales And Purchases Quarterly Data: Beginning Sales Tax Year 2013-2014](../datasets/ny73-2j3u.md) | data.ny.gov | 2017&#x2011;04&#x2011;19
-[The Tax Burden on Tobacco Volume 49, 1970-2014](../datasets/7nwe-3aj9.md) | chronicdata.cdc.gov | 2017&#x2011;02&#x2011;07
+[The Tax Burden on Tobacco Volume 51, 1970-2016](../datasets/7nwe-3aj9.md) | chronicdata.cdc.gov | 2017&#x2011;06&#x2011;19
 [Total Income And Tax Liability By Place Of Residence: Beginning Tax Year 1999](../datasets/nacg-rg66.md) | data.ny.gov | 2017&#x2011;02&#x2011;06
 

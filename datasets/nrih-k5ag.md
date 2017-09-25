@@ -73,11 +73,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Office 365" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Office suite of products (mail, spreadsheets, etc)" t:vendor_name=Microsoft m:row_number.nrih-k5ag=1
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Office 365" t:custodian="Information Technology" t:system_purpose="Office suite of products (mail, spreadsheets, etc)" t:vendor_name=Microsoft t:frequency_of_data_update=Daily t:frequency_of_data_collection=Daily m:row_number.nrih-k5ag=1
 
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product=IFAS t:custodian=Finance t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Financial and HR system" t:vendor_name="Sungard Public Sector" m:row_number.nrih-k5ag=2
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product=IFAS t:custodian=Finance t:system_purpose="Financial and HR system" t:vendor_name="Sungard Public Sector" t:frequency_of_data_update=Daily t:frequency_of_data_collection=Daily m:row_number.nrih-k5ag=2
 
-series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Accela Automation (Permits Plus prior to 13/14)" t:custodian="Information Technology" t:frequency_of_data_collection=Daily t:frequency_of_data_update=Daily t:system_purpose="Permit management" t:vendor_name="Accela Automation" m:row_number.nrih-k5ag=3
+series e:nrih-k5ag d:2016-03-14T10:56:29.000Z t:product="Accela Automation (Permits Plus prior to 13/14)" t:custodian="Information Technology" t:system_purpose="Permit management" t:vendor_name="Accela Automation" t:frequency_of_data_update=Daily t:frequency_of_data_collection=Daily m:row_number.nrih-k5ag=3
 ```
 
 ## Meta Commands
@@ -87,11 +87,11 @@ metric m:row_number.nrih-k5ag p:long l:"Row Number"
 
 entity e:nrih-k5ag l:"SB 272 Enterprise Software" t:url=https://data.srcity.org/api/views/nrih-k5ag
 
-property e:nrih-k5ag t:meta.view d:2017-06-09T13:56:58.389Z v:id=nrih-k5ag v:category=Government v:averageRating=0 v:name="SB 272 Enterprise Software"
+property e:nrih-k5ag t:meta.view d:2017-09-25T07:28:20.596Z v:averageRating=0 v:name="SB 272 Enterprise Software" v:id=nrih-k5ag v:category=Government
 
-property e:nrih-k5ag t:meta.view.owner d:2017-06-09T13:56:58.389Z v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:displayName=Webmaster
+property e:nrih-k5ag t:meta.view.owner d:2017-09-25T07:28:20.596Z v:displayName=Webmaster v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:id=s466-99pv v:screenName=Webmaster v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB
 
-property e:nrih-k5ag t:meta.view.tableauthor d:2017-06-09T13:56:58.389Z v:id=s466-99pv v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:screenName=Webmaster v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:roleName=administrator v:displayName=Webmaster
+property e:nrih-k5ag t:meta.view.tableauthor d:2017-09-25T07:28:20.596Z v:displayName=Webmaster v:profileImageUrlLarge=/api/users/s466-99pv/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/s466-99pv/profile_images/TINY v:id=s466-99pv v:screenName=Webmaster v:profileImageUrlMedium=/api/users/s466-99pv/profile_images/THUMB
 ```
 
 ## Top Records

@@ -50,11 +50,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z t:election_day_registration_voting="Nov. 4 6am-7pm" t:site="Oak Park Village Hall" t:early_voting_sunday="Sun Oct. 26  9am-3pm; Sun Nov. 2  9am-4pm" t:grace_period_in_person_absentee="Nov. 3  9am-5pm" t:street="123 Madison St." t:grace_period_registration_voting="During Early Voting Hours" t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm" t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm" t:city="Oak Park" m:row_number.mzmn-fvgv=1
+series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z t:grace_period_registration_voting="During Early Voting Hours" t:site="Oak Park Village Hall" t:early_voting_sunday="Sun Oct. 26  9am-3pm; Sun Nov. 2  9am-4pm" t:city="Oak Park" t:street="123 Madison St." t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm" t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm" t:grace_period_in_person_absentee="Nov. 3  9am-5pm" t:election_day_registration_voting="Nov. 4 6am-7pm" m:row_number.mzmn-fvgv=1
 
-series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z t:site="Alsip Village Hall" t:street="4500 W. 123rd St." t:grace_period_registration_voting="During Early Voting Hours" t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm" t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm" t:city=Alsip m:row_number.mzmn-fvgv=2
+series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z t:grace_period_registration_voting="During Early Voting Hours" t:site="Alsip Village Hall" t:city=Alsip t:street="4500 W. 123rd St." t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm" t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm" m:row_number.mzmn-fvgv=2
 
-series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z t:site="Park Forest Village Hall" t:street="350 Victory Blvd." t:grace_period_registration_voting="During Early Voting Hours" t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm" t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm" t:city="Park Forest" m:row_number.mzmn-fvgv=3
+series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z t:grace_period_registration_voting="During Early Voting Hours" t:site="Park Forest Village Hall" t:city="Park Forest" t:street="350 Victory Blvd." t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm" t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm" m:row_number.mzmn-fvgv=3
 ```
 
 ## Meta Commands
@@ -64,13 +64,13 @@ metric m:row_number.mzmn-fvgv p:long l:"Row Number"
 
 entity e:mzmn-fvgv l:"Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/mzmn-fvgv
 
-property e:mzmn-fvgv t:meta.view d:2017-06-09T13:54:36.941Z v:id=mzmn-fvgv v:category="Finance & Administration" v:attributionLink=http://www.cookcountyclerk.com v:averageRating=0 v:name="Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk"
+property e:mzmn-fvgv t:meta.view d:2017-09-25T07:26:00.894Z v:averageRating=0 v:name="Early Voting & Grace Period Registration and Voting - 2014 November 4 Gubernatorial Election" v:attribution="Cook County Clerk" v:attributionLink=http://www.cookcountyclerk.com v:id=mzmn-fvgv v:category="Finance & Administration"
 
-property e:mzmn-fvgv t:meta.view.license d:2017-06-09T13:54:36.941Z v:name="Public Domain"
+property e:mzmn-fvgv t:meta.view.license d:2017-09-25T07:26:00.894Z v:name="Public Domain"
 
-property e:mzmn-fvgv t:meta.view.owner d:2017-06-09T13:54:36.941Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:lastNotificationSeenAt=1496243074 v:displayName="Cook County Open Data"
+property e:mzmn-fvgv t:meta.view.owner d:2017-09-25T07:26:00.894Z v:displayName="Cook County Open Data" v:lastNotificationSeenAt=1503001958 v:id=u38g-hbsa v:screenName="Cook County Open Data"
 
-property e:mzmn-fvgv t:meta.view.tableauthor d:2017-06-09T13:54:36.941Z v:id=u38g-hbsa v:screenName="Cook County Open Data" v:roleName=administrator v:lastNotificationSeenAt=1496243074 v:displayName="Cook County Open Data"
+property e:mzmn-fvgv t:meta.view.tableauthor d:2017-09-25T07:26:00.894Z v:displayName="Cook County Open Data" v:lastNotificationSeenAt=1503001958 v:roleName=administrator v:id=u38g-hbsa v:screenName="Cook County Open Data"
 ```
 
 ## Top Records

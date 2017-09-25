@@ -42,11 +42,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="WAHIAWA PUBLIC LIBRARY" t:phone=8086226345 t:county=HONOLULU m:row_number.jx86-2vch=1
+series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:phone=8086226345 t:county=HONOLULU t:library_name="WAHIAWA PUBLIC LIBRARY" m:row_number.jx86-2vch=1
 
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="MOUNTAIN VIEW PUBLIC AND SCHOOL LIBRARY" t:phone=8089686300 t:county=HAWAII m:row_number.jx86-2vch=2
+series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:phone=8089686300 t:county=HAWAII t:library_name="MOUNTAIN VIEW PUBLIC AND SCHOOL LIBRARY" m:row_number.jx86-2vch=2
 
-series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:library_name="HILO PUBLIC LIBRARY" t:phone=8089338888 t:county=HAWAII m:row_number.jx86-2vch=3
+series e:jx86-2vch d:2012-06-26T16:27:31.000Z t:phone=8089338888 t:county=HAWAII t:library_name="HILO PUBLIC LIBRARY" m:row_number.jx86-2vch=3
 ```
 
 ## Meta Commands
@@ -56,13 +56,13 @@ metric m:row_number.jx86-2vch p:long l:"Row Number"
 
 entity e:jx86-2vch l:"Libraries State Of Hawaii" t:attribution="Hawaii State Public Library System" t:url=https://data.hawaii.gov/api/views/jx86-2vch
 
-property e:jx86-2vch t:meta.view d:2017-06-09T14:00:05.914Z v:id=jx86-2vch v:category="Social Services" v:attributionLink=http://hawaii.sdp.sirsi.net/custom/web/ v:averageRating=0 v:name="Libraries State Of Hawaii" v:attribution="Hawaii State Public Library System"
+property e:jx86-2vch t:meta.view d:2017-09-25T07:31:24.169Z v:averageRating=0 v:name="Libraries State Of Hawaii" v:attribution="Hawaii State Public Library System" v:attributionLink=http://hawaii.sdp.sirsi.net/custom/web/ v:id=jx86-2vch v:category="Social Services"
 
-property e:jx86-2vch t:meta.view.license d:2017-06-09T14:00:05.914Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:jx86-2vch t:meta.view.license d:2017-09-25T07:31:24.169Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:jx86-2vch t:meta.view.owner d:2017-06-09T14:00:05.914Z v:id=4hgi-fxu8 v:screenName="Paola Saibene" v:displayName="Paola Saibene"
+property e:jx86-2vch t:meta.view.owner d:2017-09-25T07:31:24.169Z v:displayName="Paola Saibene" v:id=4hgi-fxu8 v:screenName="Paola Saibene"
 
-property e:jx86-2vch t:meta.view.tableauthor d:2017-06-09T14:00:05.914Z v:id=a5cm-ukuw v:profileImageUrlMedium=/api/users/a5cm-ukuw/profile_images/THUMB v:profileImageUrlLarge=/api/users/a5cm-ukuw/profile_images/LARGE v:screenName="OIMT Open Data Coordinator" v:profileImageUrlSmall=/api/users/a5cm-ukuw/profile_images/TINY v:roleName=publisher v:displayName="OIMT Open Data Coordinator"
+property e:jx86-2vch t:meta.view.tableauthor d:2017-09-25T07:31:24.169Z v:displayName="OIMT Open Data Coordinator" v:profileImageUrlLarge=/api/users/a5cm-ukuw/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/a5cm-ukuw/profile_images/TINY v:id=a5cm-ukuw v:screenName="OIMT Open Data Coordinator" v:profileImageUrlMedium=/api/users/a5cm-ukuw/profile_images/THUMB
 ```
 
 ## Top Records

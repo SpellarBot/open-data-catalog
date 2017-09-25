@@ -12,7 +12,7 @@
 | Id | dmhd-88xr |
 | Name | Template011: Project Phase List |
 | Created | 2015-11-05T22:36:00Z |
-| Publication Date | 2016-07-01T23:37:12Z |
+| Publication Date | 2017-07-05T18:12:18Z |
 
 ## Columns
 
@@ -36,11 +36,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usually in-house. POR (Program of Requirements) produced at this stage" t:phase_step_number=1 t:phase_type=default t:phase_step_name=Planning m:row_number.dmhd-88xr=1
+series e:dmhd-88xr d:2017-07-05T18:11:32.000Z t:phase_step_name="Preliminary Design" t:phase_type=default t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and  produce construction drawings, etc." t:phase_step_number=2 m:row_number.dmhd-88xr=1
 
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and  produce construction drawings, etc." t:phase_step_number=2 t:phase_type=default t:phase_step_name="Preliminary Design" m:row_number.dmhd-88xr=2
+series e:dmhd-88xr d:2017-07-05T18:11:32.000Z t:phase_step_name="Final Design" t:phase_type=default t:phase_step_description="Design complete. Construction documents complete. Ready to award contract." t:phase_step_number=3 m:row_number.dmhd-88xr=2
 
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z t:phase_step_description="Design complete. Construction documents complete. Ready to award contract." t:phase_step_number=3 t:phase_type=default t:phase_step_name="Final Design" m:row_number.dmhd-88xr=3
+series e:dmhd-88xr d:2017-07-05T18:11:32.000Z t:phase_step_name="Bids Let" t:phase_type=default t:phase_step_description="Contractor is selected based on several procurement criteria" t:phase_step_number=4 m:row_number.dmhd-88xr=3
 ```
 
 ## Meta Commands
@@ -50,26 +50,26 @@ metric m:row_number.dmhd-88xr p:long l:"Row Number"
 
 entity e:dmhd-88xr l:"Template011: Project Phase List" t:url=https://data.srcity.org/api/views/dmhd-88xr
 
-property e:dmhd-88xr t:meta.view d:2017-06-09T13:54:44.725Z v:id=dmhd-88xr v:averageRating=0 v:name="Template011: Project Phase List"
+property e:dmhd-88xr t:meta.view d:2017-09-25T07:26:12.244Z v:averageRating=0 v:name="Template011: Project Phase List" v:id=dmhd-88xr
 
-property e:dmhd-88xr t:meta.view.owner d:2017-06-09T13:54:44.725Z v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:lastNotificationSeenAt=1492537611 v:displayName="Tickner, Brian"
+property e:dmhd-88xr t:meta.view.owner d:2017-09-25T07:26:12.244Z v:displayName="Tickner, Brian" v:lastNotificationSeenAt=1504743279 v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:id=4jau-mr7g v:screenName="Tickner, Brian" v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB
 
-property e:dmhd-88xr t:meta.view.tableauthor d:2017-06-09T13:54:44.725Z v:id=4jau-mr7g v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:screenName="Tickner, Brian" v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492537611 v:displayName="Tickner, Brian"
+property e:dmhd-88xr t:meta.view.tableauthor d:2017-09-25T07:26:12.244Z v:displayName="Tickner, Brian" v:lastNotificationSeenAt=1504743279 v:profileImageUrlLarge=/api/users/4jau-mr7g/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/4jau-mr7g/profile_images/TINY v:id=4jau-mr7g v:screenName="Tickner, Brian" v:profileImageUrlMedium=/api/users/4jau-mr7g/profile_images/THUMB
 ```
 
 ## Top Records
 
 ```ls
-| :updated_at | phase_type | phase_step_number | phase_step_name    | phase_step_description                                                                                                                     | 
-| =========== | ========== | ================= | ================== | ========================================================================================================================================== | 
-| 1446734164  | default    | 1                 | Planning           | User departments and DGS identity the needs/scope/goals of project. Usually in-house. POR (Program of Requirements) produced at this stage | 
-| 1446734164  | default    | 2                 | Preliminary Design | Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc.             | 
-| 1446734164  | default    | 3                 | Final Design       | Design complete. Construction documents complete. Ready to award contract.                                                                 | 
-| 1446734164  | default    | 4                 | Bids Let           | Contractor is selected based on several procurement criteria                                                                               | 
-| 1446734164  | default    | 5                 | Under Construction | Contractors work from the instructions contained in design documents to complete facility.                                                 | 
-| 1446734164  | default    | 6                 | Ongoing            | Refers to level of effort projects or projects that occur each year (i.e., roof replacement)                                               | 
-| 1446734164  | default    | 7                 | Completed          | All project activities have been completed and paid for.                                                                                   | 
-| 1467390999  | N/A        | 1                 | N/A                | CIP                                                                                                                                        | 
-| 1467391000  | 2010-11    | 1                 | 2010-11            | CIP                                                                                                                                        | 
-| 1467391001  | 2011-12    | 1                 | 2011-12            | CIP                                                                                                                                        | 
+| :updated_at | phase_type | phase_step_number | phase_step_name    | phase_step_description                                                                                                         | 
+| =========== | ========== | ================= | ================== | ============================================================================================================================== | 
+| 1499278292  | default    | 2                 | Preliminary Design | Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc. | 
+| 1499278292  | default    | 3                 | Final Design       | Design complete. Construction documents complete. Ready to award contract.                                                     | 
+| 1499278292  | default    | 4                 | Bids Let           | Contractor is selected based on several procurement criteria                                                                   | 
+| 1499278292  | default    | 5                 | Under Construction | Contractors work from the instructions contained in design documents to complete facility.                                     | 
+| 1499278292  | default    | 6                 | Ongoing            | Refers to level of effort projects or projects that occur each year (i.e., roof replacement)                                   | 
+| 1499278292  | default    | 7                 | Completed          | All project activities have been completed and paid for.                                                                       | 
+| 1499278292  | N/A        | 1                 | N/A                | CIP                                                                                                                            | 
+| 1499278292  | 2010-11    | 1                 | 2010-11            | CIP                                                                                                                            | 
+| 1499278292  | 2011-12    | 1                 | 2011-12            | CIP                                                                                                                            | 
+| 1499278292  | 2012-13    | 1                 | 2012-13            | CIP                                                                                                                            | 
 ```

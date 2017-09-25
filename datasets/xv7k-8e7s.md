@@ -79,11 +79,11 @@ Excluded Fields = shiga_toxin_producing_e_coli_stec_current_week_flag,shiga_toxi
 ## Data Commands
 
 ```ls
-series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="UNITED STATES" m:shiga_toxin_producing_e_coli_stec_current_week=16 m:shiga_toxin_producing_e_coli_stec_cum_2015=56 m:shiga_toxin_producing_e_coli_stec_cum_2016=16 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=194 m:shigellosis_current_week=166 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111 m:shigellosis_previous_52_weeks_max=610 m:shigellosis_previous_52_weeks_med=408 m:shigellosis_cum_2015=332 m:shigellosis_cum_2016=166
+series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="UNITED STATES" m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=194 m:shigellosis_cum_2015=332 m:shigellosis_cum_2016=166 m:shigellosis_previous_52_weeks_med=408 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111 m:shigellosis_current_week=166 m:shiga_toxin_producing_e_coli_stec_cum_2015=56 m:shigellosis_previous_52_weeks_max=610 m:shiga_toxin_producing_e_coli_stec_cum_2016=16 m:shiga_toxin_producing_e_coli_stec_current_week=16
 
-series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:shiga_toxin_producing_e_coli_stec_cum_2015=3 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=17 m:shigellosis_current_week=1 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=3 m:shigellosis_previous_52_weeks_max=17 m:shigellosis_previous_52_weeks_med=5 m:shigellosis_cum_2015=2 m:shigellosis_cum_2016=1
+series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=17 m:shigellosis_cum_2015=2 m:shigellosis_cum_2016=1 m:shigellosis_previous_52_weeks_med=5 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=3 m:shigellosis_current_week=1 m:shiga_toxin_producing_e_coli_stec_cum_2015=3 m:shigellosis_previous_52_weeks_max=17
 
-series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:shiga_toxin_producing_e_coli_stec_current_week=2 m:shiga_toxin_producing_e_coli_stec_cum_2015=4 m:shiga_toxin_producing_e_coli_stec_cum_2016=2 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=23 m:shigellosis_current_week=12 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=12 m:shigellosis_previous_52_weeks_max=82 m:shigellosis_previous_52_weeks_med=28 m:shigellosis_cum_2015=49 m:shigellosis_cum_2016=12
+series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=23 m:shigellosis_cum_2015=49 m:shigellosis_cum_2016=12 m:shigellosis_previous_52_weeks_med=28 m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=12 m:shigellosis_current_week=12 m:shiga_toxin_producing_e_coli_stec_cum_2015=4 m:shigellosis_previous_52_weeks_max=82 m:shiga_toxin_producing_e_coli_stec_cum_2016=2 m:shiga_toxin_producing_e_coli_stec_current_week=2
 ```
 
 ## Meta Commands
@@ -111,13 +111,13 @@ metric m:shigellosis_cum_2015 p:integer l:"Shigellosis, Cum 2015" t:dataTypeName
 
 entity e:xv7k-8e7s l:"NNDSS - Table II. Shiga toxin to Shigellosis" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/xv7k-8e7s
 
-property e:xv7k-8e7s t:meta.view d:2017-06-09T13:51:52.594Z v:id=xv7k-8e7s v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Shiga toxin to Shigellosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:xv7k-8e7s t:meta.view d:2017-09-25T07:23:11.362Z v:averageRating=0 v:name="NNDSS - Table II. Shiga toxin to Shigellosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" v:id=xv7k-8e7s v:category=NNDSS
 
-property e:xv7k-8e7s t:meta.view.owner d:2017-06-09T13:51:52.594Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
+property e:xv7k-8e7s t:meta.view.owner d:2017-09-25T07:23:11.362Z v:displayName=wja0@cdc.gov v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:xv7k-8e7s t:meta.view.tableauthor d:2017-06-09T13:51:52.594Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:xv7k-8e7s t:meta.view.tableauthor d:2017-09-25T07:23:11.362Z v:displayName=wja0@cdc.gov v:roleName=editor v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:xv7k-8e7s t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:52.594Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:xv7k-8e7s t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:23:11.362Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

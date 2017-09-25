@@ -41,11 +41,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:expenditures=Expenditure t:agency=Transportation m:encumbrances=108719118.34
+series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:agency=Transportation t:expenditures=Expenditure m:encumbrances=108719118.34
 
-series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:expenditures=Encumbrance t:agency=Transportation m:encumbrances=104647637.54
+series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:agency=Transportation t:expenditures=Encumbrance m:encumbrances=104647637.54
 
-series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:expenditures=Expenditure t:agency="University of Hawaii" m:encumbrances=50720338.9
+series e:pmbr-njwn d:2012-01-01T00:00:00.000Z t:agency="University of Hawaii" t:expenditures=Expenditure m:encumbrances=50720338.9
 ```
 
 ## Meta Commands
@@ -55,13 +55,13 @@ metric m:encumbrances p:double l:Totals t:dataTypeName=number
 
 entity e:pmbr-njwn l:"CIP 2011-2012" t:attribution=OIMT t:url=https://data.hawaii.gov/api/views/pmbr-njwn
 
-property e:pmbr-njwn t:meta.view d:2017-06-09T13:57:19.693Z v:id=pmbr-njwn v:category="Economic Development" v:averageRating=0 v:name="CIP 2011-2012" v:attribution=OIMT
+property e:pmbr-njwn t:meta.view d:2017-09-25T07:28:43.854Z v:averageRating=0 v:name="CIP 2011-2012" v:attribution=OIMT v:id=pmbr-njwn v:category="Economic Development"
 
-property e:pmbr-njwn t:meta.view.license d:2017-06-09T13:57:19.693Z v:name="Public Domain"
+property e:pmbr-njwn t:meta.view.license d:2017-09-25T07:28:43.854Z v:name="Public Domain"
 
-property e:pmbr-njwn t:meta.view.owner d:2017-06-09T13:57:19.693Z v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:displayName="Open Data Portal Administrator"
+property e:pmbr-njwn t:meta.view.owner d:2017-09-25T07:28:43.854Z v:displayName="Open Data Portal Administrator" v:id=q99n-k47h v:screenName="Open Data Portal Administrator"
 
-property e:pmbr-njwn t:meta.view.tableauthor d:2017-06-09T13:57:19.693Z v:id=q99n-k47h v:screenName="Open Data Portal Administrator" v:roleName=administrator v:displayName="Open Data Portal Administrator"
+property e:pmbr-njwn t:meta.view.tableauthor d:2017-09-25T07:28:43.854Z v:displayName="Open Data Portal Administrator" v:roleName=administrator v:id=q99n-k47h v:screenName="Open Data Portal Administrator"
 ```
 
 ## Top Records

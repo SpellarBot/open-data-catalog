@@ -12,7 +12,7 @@
 | Id | jttf-iwhx |
 | Name | Purchase Power Agreements |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | purchase power agreements, renewable energy, energy |
 | Created | 2016-08-02T15:42:09Z |
 | Publication Date | 2016-08-02T15:46:48Z |
@@ -49,11 +49,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:jttf-iwhx d:2020-09-29T00:00:00.000Z t:duration=1995-2020 t:location="West Texas" t:agreement=LCRA t:type=Wind m:capacity_mw=10 m:term_years=25
+series e:jttf-iwhx d:2020-09-29T00:00:00.000Z t:duration=1995-2020 t:agreement=LCRA t:location="West Texas" t:type=Wind m:capacity_mw=10 m:term_years=25
 
-series e:jttf-iwhx d:2017-02-11T00:00:00.000Z t:duration=2005-2017 t:location="West Texas" t:agreement="Sweetwater 2" t:type=Wind m:capacity_mw=91.5 m:term_years=12
+series e:jttf-iwhx d:2017-02-11T00:00:00.000Z t:duration=2005-2017 t:agreement="Sweetwater 2" t:location="West Texas" t:type=Wind m:capacity_mw=91.5 m:term_years=12
 
-series e:jttf-iwhx d:2017-12-30T00:00:00.000Z t:duration=2005-2017 t:location="West Texas" t:agreement="Sweetwater 3" t:type=Wind m:capacity_mw=34.5 m:term_years=12
+series e:jttf-iwhx d:2017-12-30T00:00:00.000Z t:duration=2005-2017 t:agreement="Sweetwater 3" t:location="West Texas" t:type=Wind m:capacity_mw=34.5 m:term_years=12
 ```
 
 ## Meta Commands
@@ -65,13 +65,13 @@ metric m:term_years p:double l:"Term (years)" t:dataTypeName=number
 
 entity e:jttf-iwhx l:"Purchase Power Agreements" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/jttf-iwhx
 
-property e:jttf-iwhx t:meta.view d:2017-06-09T13:52:26.140Z v:id=jttf-iwhx v:category=Utility v:averageRating=0 v:name="Purchase Power Agreements" v:attribution="Austin Energy"
+property e:jttf-iwhx t:meta.view d:2017-09-25T07:23:45.337Z v:averageRating=0 v:name="Purchase Power Agreements" v:attribution="Austin Energy" v:id=jttf-iwhx v:category="Utilities and City Services"
 
-property e:jttf-iwhx t:meta.view.license d:2017-06-09T13:52:26.140Z v:name="Public Domain"
+property e:jttf-iwhx t:meta.view.license d:2017-09-25T07:23:45.337Z v:name="Public Domain"
 
-property e:jttf-iwhx t:meta.view.owner d:2017-06-09T13:52:26.140Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:jttf-iwhx t:meta.view.owner d:2017-09-25T07:23:45.337Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 
-property e:jttf-iwhx t:meta.view.tableauthor d:2017-06-09T13:52:26.140Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:jttf-iwhx t:meta.view.tableauthor d:2017-09-25T07:23:45.337Z v:displayName="Elaine Lee" v:roleName=editor v:id=3qbr-w2gj v:screenName="Elaine Lee"
 ```
 
 ## Top Records

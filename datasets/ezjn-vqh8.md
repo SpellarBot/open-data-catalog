@@ -63,11 +63,11 @@ Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
 ## Data Commands
 
 ```ls
-series e:ezjn-vqh8 d:2005-04-01T00:00:00.000Z t:product_fda_list_name=INTAL t:ndc=60793001108 t:package_size=08 t:state_code=MO t:labeler_code=60793 t:product_code=0011 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=2953.32 m:number_of_prescriptions=38 m:units_reimbursed=364.5 m:non_medicaid_amount_reimbursed=0
+series e:ezjn-vqh8 d:2005-04-01T00:00:00.000Z t:record_id=FFSU t:package_size=08 t:product_fda_list_name=INTAL t:labeler_code=60793 t:suppression_used=false t:product_code=0011 t:ndc=60793001108 t:state_code=MO m:total_amount_reimbursed=2953.32 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=364.5 m:medicaid_amount_reimbursed=0 m:number_of_prescriptions=38
 
-series e:ezjn-vqh8 d:2005-01-01T00:00:00.000Z t:product_fda_list_name=LACTULOSE t:ndc=50383079516 t:package_size=16 t:state_code=VA t:labeler_code=50383 t:product_code=0795 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=6713.48 m:number_of_prescriptions=432 m:units_reimbursed=255853 m:non_medicaid_amount_reimbursed=0
+series e:ezjn-vqh8 d:2005-01-01T00:00:00.000Z t:record_id=FFSU t:package_size=16 t:product_fda_list_name=LACTULOSE t:labeler_code=50383 t:suppression_used=false t:product_code=0795 t:ndc=50383079516 t:state_code=VA m:total_amount_reimbursed=6713.48 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=255853 m:medicaid_amount_reimbursed=0 m:number_of_prescriptions=432
 
-series e:ezjn-vqh8 d:2005-07-01T00:00:00.000Z t:product_fda_list_name="FERROUS SU" t:ndc=00182402801 t:package_size=01 t:state_code=RI t:labeler_code=00182 t:product_code=4028 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=438.76 m:number_of_prescriptions=181 m:units_reimbursed=11445 m:non_medicaid_amount_reimbursed=0
+series e:ezjn-vqh8 d:2005-07-01T00:00:00.000Z t:record_id=FFSU t:package_size=01 t:product_fda_list_name="FERROUS SU" t:labeler_code=00182 t:suppression_used=false t:product_code=4028 t:ndc=00182402801 t:state_code=RI m:total_amount_reimbursed=438.76 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=11445 m:medicaid_amount_reimbursed=0 m:number_of_prescriptions=181
 ```
 
 ## Meta Commands
@@ -85,15 +85,15 @@ metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimburs
 
 entity e:ezjn-vqh8 l:"State Drug Utilization Data 2005" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/ezjn-vqh8
 
-property e:ezjn-vqh8 t:meta.view d:2017-06-09T13:51:05.638Z v:id=ezjn-vqh8 v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2005" v:attribution="Centers for Medicare and Medicaid"
+property e:ezjn-vqh8 t:meta.view d:2017-09-25T07:22:29.166Z v:averageRating=0 v:name="State Drug Utilization Data 2005" v:attribution="Centers for Medicare and Medicaid" v:attributionLink=https://medicaid.gov v:id=ezjn-vqh8 v:category="State Drug Utilization"
 
-property e:ezjn-vqh8 t:meta.view.license d:2017-06-09T13:51:05.638Z v:name="Public Domain"
+property e:ezjn-vqh8 t:meta.view.license d:2017-09-25T07:22:29.166Z v:name="Public Domain"
 
-property e:ezjn-vqh8 t:meta.view.owner d:2017-06-09T13:51:05.638Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:displayName=Medicaid.gov
+property e:ezjn-vqh8 t:meta.view.owner d:2017-09-25T07:22:29.166Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:ezjn-vqh8 t:meta.view.tableauthor d:2017-06-09T13:51:05.638Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:roleName=administrator v:displayName=Medicaid.gov
+property e:ezjn-vqh8 t:meta.view.tableauthor d:2017-09-25T07:22:29.166Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:ezjn-vqh8 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:05.638Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:ezjn-vqh8 t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:22:29.166Z v:Program_Code=009:076 v:Bureau_Code=009:00
 ```
 
 ## Top Records

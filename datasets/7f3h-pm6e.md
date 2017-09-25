@@ -41,11 +41,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:7f3h-pm6e d:2016-12-22T17:21:35.000Z t:phase_step_description="Identify the needs, scope and goals of the project." t:phase_step_number=1 t:phase_type=IMP t:phase_step_name=Planning m:row_number.7f3h-pm6e=1
+series e:7f3h-pm6e d:2016-12-22T17:21:35.000Z t:phase_step_name=Planning t:phase_type=IMP t:phase_step_description="Identify the needs, scope and goals of the project." t:phase_step_number=1 m:row_number.7f3h-pm6e=1
 
-series e:7f3h-pm6e d:2016-12-22T17:21:37.000Z t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc." t:phase_step_number=2 t:phase_type=IMP t:phase_step_name=Design m:row_number.7f3h-pm6e=2
+series e:7f3h-pm6e d:2016-12-22T17:21:37.000Z t:phase_step_name=Design t:phase_type=IMP t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the design, and produce construction drawings, etc." t:phase_step_number=2 m:row_number.7f3h-pm6e=2
 
-series e:7f3h-pm6e d:2016-12-22T17:21:39.000Z t:phase_step_description="If Right of Way acquisition is required, the proper documentation is put forth during this time." t:phase_step_number=3 t:phase_type=IMP t:phase_step_name="RoW Acquisition" m:row_number.7f3h-pm6e=3
+series e:7f3h-pm6e d:2016-12-22T17:21:39.000Z t:phase_step_name="RoW Acquisition" t:phase_type=IMP t:phase_step_description="If Right of Way acquisition is required, the proper documentation is put forth during this time." t:phase_step_number=3 m:row_number.7f3h-pm6e=3
 ```
 
 ## Meta Commands
@@ -55,11 +55,11 @@ metric m:row_number.7f3h-pm6e p:long l:"Row Number"
 
 entity e:7f3h-pm6e l:"Jackson Capital Budget Project Phases List" t:url=https://data.jacksonms.gov/api/views/7f3h-pm6e
 
-property e:7f3h-pm6e t:meta.view d:2017-06-09T13:59:46.907Z v:id=7f3h-pm6e v:category="Public Works" v:averageRating=0 v:name="Jackson Capital Budget Project Phases List"
+property e:7f3h-pm6e t:meta.view d:2017-09-25T07:31:07.614Z v:averageRating=0 v:name="Jackson Capital Budget Project Phases List" v:id=7f3h-pm6e v:category="Public Works"
 
-property e:7f3h-pm6e t:meta.view.owner d:2017-06-09T13:59:46.907Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:7f3h-pm6e t:meta.view.owner d:2017-09-25T07:31:07.614Z v:displayName="Justin Bruce" v:lastNotificationSeenAt=1492180672 v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:id=6ngd-c2u2 v:screenName="Justin Bruce" v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB
 
-property e:7f3h-pm6e t:meta.view.tableauthor d:2017-06-09T13:59:46.907Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:7f3h-pm6e t:meta.view.tableauthor d:2017-09-25T07:31:07.614Z v:displayName="Justin Bruce" v:lastNotificationSeenAt=1492180672 v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:id=6ngd-c2u2 v:screenName="Justin Bruce" v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB
 ```
 
 ## Top Records

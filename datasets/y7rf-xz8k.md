@@ -49,11 +49,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name="Contract and Services" t:fund_subtype="General Fund" t:account_name="Preparation Of Transcripts/Recorders" t:function="General Government" m:recommended_amount=15000
+series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_type="Tax Supported Funds" t:fund_subtype="General Fund" t:program_name="Zoning and Administrative Hearings" t:function="General Government" t:object_name="Contract and Services" t:account_name="Preparation Of Transcripts/Recorders" t:fund_name="General Fund" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:cost_center_name="Office Of Zoning And Admin Hearings" m:recommended_amount=15000
 
-series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name=Maintenance t:fund_subtype="General Fund" t:account_name="Other Office Equip Repair / Maint" t:function="General Government" m:recommended_amount=180
+series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_type="Tax Supported Funds" t:fund_subtype="General Fund" t:program_name="Zoning and Administrative Hearings" t:function="General Government" t:object_name=Maintenance t:account_name="Other Office Equip Repair / Maint" t:fund_name="General Fund" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:cost_center_name="Office Of Zoning And Admin Hearings" m:recommended_amount=180
 
-series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:cost_center_name="Office Of Zoning And Admin Hearings" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:program_name="Zoning and Administrative Hearings" t:object_name="Rental Leases" t:fund_subtype="General Fund" t:account_name=Copiers t:function="General Government" m:recommended_amount=6000
+series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z t:personnel_costs_amp_operating_expenses="Operating Expenses" t:fund_type="Tax Supported Funds" t:fund_subtype="General Fund" t:program_name="Zoning and Administrative Hearings" t:function="General Government" t:object_name="Rental Leases" t:account_name=Copiers t:fund_name="General Fund" t:subfund_name="General Fund" t:department="Zoning and Administrative Hearings" t:cost_center_name="Office Of Zoning And Admin Hearings" m:recommended_amount=6000
 ```
 
 ## Meta Commands
@@ -63,11 +63,11 @@ metric m:recommended_amount p:double l:"Recommended Amount" d:"the County Execut
 
 entity e:y7rf-xz8k l:"Fiscal Year 2015 County Executive Recommended Operating Budget" t:url=https://data.montgomerycountymd.gov/api/views/y7rf-xz8k
 
-property e:y7rf-xz8k t:meta.view d:2017-06-09T14:00:08.089Z v:id=y7rf-xz8k v:category=Government v:averageRating=0 v:name="Fiscal Year 2015 County Executive Recommended Operating Budget"
+property e:y7rf-xz8k t:meta.view d:2017-09-25T07:31:29.027Z v:averageRating=0 v:name="Fiscal Year 2015 County Executive Recommended Operating Budget" v:id=y7rf-xz8k v:category=Government
 
-property e:y7rf-xz8k t:meta.view.owner d:2017-06-09T14:00:08.089Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
+property e:y7rf-xz8k t:meta.view.owner d:2017-09-25T07:31:29.027Z v:displayName="Kathy Luh" v:id=qzhb-tftn v:screenName="Kathy Luh"
 
-property e:y7rf-xz8k t:meta.view.tableauthor d:2017-06-09T14:00:08.089Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:y7rf-xz8k t:meta.view.tableauthor d:2017-09-25T07:31:29.027Z v:displayName="Kathy Luh" v:roleName=administrator v:id=qzhb-tftn v:screenName="Kathy Luh"
 ```
 
 ## Top Records

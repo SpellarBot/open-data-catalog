@@ -58,11 +58,11 @@ Excluded Fields = contract_end_date
 ## Data Commands
 
 ```ls
-series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=14516 t:contract=C027297 t:agency="Wayne County Action Program" t:street_address="10456 Salter-Colvin Rd" t:site_name="North Rose/Wolcott Elementary" t:primary_city="North Rose" t:elementary=x t:round_number=9 m:mada_for_site=100 m:contract_amount=126041
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:site_name="North Rose/Wolcott Elementary" t:round_number=9 t:street_address="10456 Salter-Colvin Rd" t:agency="Wayne County Action Program" t:primary_city="North Rose" t:contract=C027297 t:elementary=x t:zip_code=14516 m:contract_amount=126041 m:mada_for_site=100
 
-series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=14305 t:contract=C027331 t:high_school=x t:agency="People and Possibilities" t:street_address="4455 Porter Rd" t:site_name="Niagara Falls High School" t:primary_city="Niagara Falls" t:round_number=9 m:mada_for_site=80
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:site_name="Niagara Falls High School" t:round_number=9 t:street_address="4455 Porter Rd" t:agency="People and Possibilities" t:primary_city="Niagara Falls" t:contract=C027331 t:high_school=x t:zip_code=14305 m:mada_for_site=80
 
-series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:zip_code=12180 t:contract=C027330 t:agency="Catholic Charities of the Diocese of Albany" t:street_address="110 East Sunnyside Way" t:site_name="Sunnyside Center" t:primary_city=Troy t:elementary=x t:round_number=9 m:mada_for_site=80 m:contract_amount=110000
+series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z t:site_name="Sunnyside Center" t:round_number=9 t:street_address="110 East Sunnyside Way" t:agency="Catholic Charities of the Diocese of Albany" t:primary_city=Troy t:contract=C027330 t:elementary=x t:zip_code=12180 m:contract_amount=110000 m:mada_for_site=80
 ```
 
 ## Meta Commands
@@ -74,13 +74,13 @@ metric m:mada_for_site p:integer l:"MADA for Site" d:"Identifies the Maximum ave
 
 entity e:ae9a-zs4q l:"Advantage After School Program" t:attribution="NYS Office of Children and Family Services" t:url=https://data.ny.gov/api/views/ae9a-zs4q
 
-property e:ae9a-zs4q t:meta.view d:2017-06-09T13:56:25.654Z v:id=ae9a-zs4q v:category="Human Services" v:attributionLink=http://www.ocfs.state.ny.us/main/bcm/tanf/aas/contractlistAAS.pdf v:averageRating=0 v:name="Advantage After School Program" v:attribution="NYS Office of Children and Family Services"
+property e:ae9a-zs4q t:meta.view d:2017-09-25T07:27:48.351Z v:averageRating=0 v:name="Advantage After School Program" v:attribution="NYS Office of Children and Family Services" v:attributionLink=http://www.ocfs.state.ny.us/main/bcm/tanf/aas/contractlistAAS.pdf v:id=ae9a-zs4q v:category="Human Services"
 
-property e:ae9a-zs4q t:meta.view.owner d:2017-06-09T13:56:25.654Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:ae9a-zs4q t:meta.view.owner d:2017-09-25T07:27:48.351Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:ae9a-zs4q t:meta.view.tableauthor d:2017-06-09T13:56:25.654Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:ae9a-zs4q t:meta.view.tableauthor d:2017-09-25T07:27:48.351Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:ae9a-zs4q t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:25.654Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:ae9a-zs4q t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:27:48.351Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

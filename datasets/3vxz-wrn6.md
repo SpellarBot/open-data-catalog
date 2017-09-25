@@ -38,11 +38,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z t:county=Missouri m:est_deaf_hoh_10=598893 m:est_deaf_1=59889 m:total_population_2010=5988927 m:est_hoh_9=539003
+series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z t:county=Missouri m:est_deaf_1=59889 m:total_population_2010=5988927 m:est_hoh_9=539003 m:est_deaf_hoh_10=598893
 
-series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z t:county=Adair m:est_deaf_hoh_10=2561 m:est_deaf_1=256 m:total_population_2010=25607 m:est_hoh_9=2305
+series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z t:county=Adair m:est_deaf_1=256 m:total_population_2010=25607 m:est_hoh_9=2305 m:est_deaf_hoh_10=2561
 
-series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z t:county=Andrew m:est_deaf_hoh_10=1729 m:est_deaf_1=173 m:total_population_2010=17291 m:est_hoh_9=1556
+series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z t:county=Andrew m:est_deaf_1=173 m:total_population_2010=17291 m:est_hoh_9=1556 m:est_deaf_hoh_10=1729
 ```
 
 ## Meta Commands
@@ -58,11 +58,11 @@ metric m:est_deaf_hoh_10 p:integer l:"Est Deaf + HoH (10%)" t:dataTypeName=numbe
 
 entity e:3vxz-wrn6 l:"Missouri Deaf and Hard of Hearing Demographics Statistics" t:url=https://data.mo.gov/api/views/3vxz-wrn6
 
-property e:3vxz-wrn6 t:meta.view d:2017-06-09T13:57:37.581Z v:id=3vxz-wrn6 v:category=Education v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics"
+property e:3vxz-wrn6 t:meta.view d:2017-09-25T07:28:57.293Z v:averageRating=0 v:name="Missouri Deaf and Hard of Hearing Demographics Statistics" v:id=3vxz-wrn6 v:category=Education
 
-property e:3vxz-wrn6 t:meta.view.owner d:2017-06-09T13:57:37.581Z v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.owner d:2017-09-25T07:28:57.293Z v:displayName=Breanna v:lastNotificationSeenAt=1504107758 v:id=jzbz-iqr6 v:screenName=Breanna
 
-property e:3vxz-wrn6 t:meta.view.tableauthor d:2017-06-09T13:57:37.581Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
+property e:3vxz-wrn6 t:meta.view.tableauthor d:2017-09-25T07:28:57.293Z v:displayName=Breanna v:lastNotificationSeenAt=1504107758 v:roleName=administrator v:id=jzbz-iqr6 v:screenName=Breanna
 ```
 
 ## Top Records

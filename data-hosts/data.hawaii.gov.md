@@ -111,7 +111,7 @@ Name | Category | Published
 [Department of Public Safety Bed Capacity 2013](../datasets/qv4n-m8rb.md) | Public Safety | 2013&#x2011;06&#x2011;27
 [Department of Public Safety Weekly Population Reports](../datasets/fu6a-2jaq.md) | Public Safety | 2013&#x2011;11&#x2011;21
 [Department of Public Safety Weekly Population Reports](../datasets/fu6a-2jaq.md) | Public Safety | 2013&#x2011;11&#x2011;21
-[Durable Assets For Hawaii Noncandidate Committees From January 1, 2008 Through December 31, 2016](../datasets/i778-my94.md) | Community | 2017&#x2011;03&#x2011;17
+[Durable Assets For Hawaii Noncandidate Committees From January 1, 2008 Through June 30, 2017](../datasets/i778-my94.md) | Community | 2017&#x2011;08&#x2011;10
 [Durable Assets For Hawaii State and County Candidates From November 8, 2006 Through December 31, 2016](../datasets/fmfj-bac2.md) | Community | 2017&#x2011;03&#x2011;13
 [Economic Development Subsidies](../datasets/hk5u-xz4u.md) |  | 2016&#x2011;01&#x2011;14
 [Election Maps - Statewide](../datasets/qjpr-gyut.md) |  | 2016&#x2011;01&#x2011;25

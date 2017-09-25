@@ -61,11 +61,11 @@ metric m:permits_processed p:integer l:"Permits Processed" t:dataTypeName=number
 
 entity e:rrcq-gqig l:"Handicap Permits issued at DMV between Jan to Aug 2014" t:attribution="Department of Motor Vehicles" t:url=https://data.ct.gov/api/views/rrcq-gqig
 
-property e:rrcq-gqig t:meta.view d:2017-06-09T13:51:06.028Z v:id=rrcq-gqig v:category=Transportation v:attributionLink=http://www.ct.gov/dmv v:averageRating=0 v:name="Handicap Permits issued at DMV between Jan to Aug 2014" v:attribution="Department of Motor Vehicles"
+property e:rrcq-gqig t:meta.view d:2017-09-25T07:22:28.703Z v:averageRating=0 v:name="Handicap Permits issued at DMV between Jan to Aug 2014" v:attribution="Department of Motor Vehicles" v:attributionLink=http://www.ct.gov/dmv v:id=rrcq-gqig v:category=Transportation
 
-property e:rrcq-gqig t:meta.view.owner d:2017-06-09T13:51:06.028Z v:id=fd5k-6njr v:screenName=APatel v:displayName=APatel
+property e:rrcq-gqig t:meta.view.owner d:2017-09-25T07:22:28.703Z v:displayName=APatel v:id=fd5k-6njr v:screenName=APatel
 
-property e:rrcq-gqig t:meta.view.tableauthor d:2017-06-09T13:51:06.028Z v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
+property e:rrcq-gqig t:meta.view.tableauthor d:2017-09-25T07:22:28.703Z v:displayName=APatel v:roleName=editor v:id=fd5k-6njr v:screenName=APatel
 ```
 
 ## Top Records

@@ -25,6 +25,7 @@ Name | Host | Published
 [ACRIS - UCC Collateral Codes](../datasets/q9kp-jvxv.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
 [Active Uniform Staff By Rank And Gender](../datasets/6dn9-qgma.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Additional Revenue](../datasets/hii3-dcun.md) | data.cityofnewyork.us | 2017&#x2011;02&#x2011;08
+[Address Changes](../datasets/ruj7-9gwq.md) | data.austintexas.gov | 2016&#x2011;09&#x2011;30
 [Adult Medicaid income levels](../datasets/r69u-62nw.md) | data.cityofnewyork.us | 2016&#x2011;03&#x2011;02
 [Adult family health plus levels](../datasets/2enn-s52j.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Alerts](../datasets/sn5i-xuny.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;13
@@ -34,6 +35,7 @@ Name | Host | Published
 [Assessment Actions](../datasets/4nft-bihw.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;15
 [Assignment of Officers against whom Allegations were Substantiated](../datasets/rbrz-iagc.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Attribution of Complaints to Different Bureaus](../datasets/wwsa-q2dq.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
+[Austintexas.gov - Top 50 Pages By Pageviews](../datasets/8yfa-b3bq.md) | data.austintexas.gov | 2017&#x2011;07&#x2011;07
 [Average Salaries In Department Of Correction](../datasets/pf7i-ims3.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Average days for the CCRB to close case](../datasets/sd9s-b3hd.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Baltimore City Employee Residency by Agency](../datasets/b2y4-vd6j.md) | data.baltimorecity.gov | 2014&#x2011;03&#x2011;27
@@ -49,6 +51,7 @@ Name | Host | Published
 [CEPS Organization Information](../datasets/nsu8-kyp7.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [CEQR Project Locations](../datasets/did2-qzw3.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
 [CEQR Projects](../datasets/gezn-7mgk.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
+[Campaign Finance Data - Report Detail Dataset](../datasets/b2pc-2s8n.md) | data.austintexas.gov | 2016&#x2011;10&#x2011;28
 [Capital Commitments -- Exec](../datasets/tiex-dv5v.md) | data.cityofnewyork.us | 2016&#x2011;05&#x2011;04
 [Capital Commitments All Funds](../datasets/8fnh-fcum.md) | data.cityofnewyork.us | 2017&#x2011;02&#x2011;08
 [Capital Commitments City Funds](../datasets/4vf7-wwbk.md) | data.cityofnewyork.us | 2017&#x2011;02&#x2011;08
@@ -58,6 +61,7 @@ Name | Host | Published
 [Child health plus income levels](../datasets/vpb3-uf7s.md) | data.cityofnewyork.us | 2016&#x2011;03&#x2011;02
 [Citiwide Service Desk Statistics](../datasets/vr2i-c3qq.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [City Council Legislative Items](../datasets/6ctv-n46c.md) | data.cityofnewyork.us | 2015&#x2011;02&#x2011;17
+[City Social Media Inventory](../datasets/yph5-vg2u.md) | data.austintexas.gov | 2017&#x2011;02&#x2011;13
 [City Store - The Official Store of the City of New York](../datasets/mqdy-gu73.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
 [City Tax Revenue Financial Plan](../datasets/ye26-g8nx.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [Citywide Auto Fringe Benefits](../datasets/8k4x-9mp5.md) | data.cityofnewyork.us | 2016&#x2011;08&#x2011;09
@@ -67,7 +71,7 @@ Name | Host | Published
 [Civil Service List (Terminated)](../datasets/qu8g-sxqf.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;01
 [Civil Service List Certification](../datasets/a9md-ynri.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
 [Community Board Applications](../datasets/a2rn-4ju4.md) | data.cityofnewyork.us | 2014&#x2011;03&#x2011;06
-[Community Board Appointments](../datasets/3gkd-ddzn.md) | data.cityofnewyork.us | 2014&#x2011;03&#x2011;06
+[Community Board Appointments](../datasets/3gkd-ddzn.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;14
 [Community District Breakdowns](../datasets/w3c6-35wg.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Community Health Centers](../datasets/b2sp-asbg.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Complaint Log](../datasets/ck4n-5h6x.md) | data.cityofnewyork.us | 2015&#x2011;03&#x2011;17
@@ -88,7 +92,7 @@ Name | Host | Published
 [DOP Adult Cases Snapshot by Calendar Year](../datasets/ph29-5mxy.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;08
 [DOP Adult Cases Snapshot by Fiscal Year](../datasets/8dxm-n5ha.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;16
 [DOP Adult Early Discharges by Calendar Year](../datasets/jmr8-fdbz.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;08
-[DOP Adult Early Discharges by Fiscal Year](../datasets/4e8h-wu86.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;16
+[DOP Adult Early Discharges by Fiscal Year](../datasets/4e8h-wu86.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;20
 [DOP Adult Investigations by Calendar Year](../datasets/k659-gwja.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;08
 [DOP Adult Investigations by Fiscal Year](../datasets/vvym-pu7g.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;16
 [DOP Adult Supervision Intakes by Calendar Year](../datasets/az65-9z36.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;08
@@ -116,10 +120,11 @@ Name | Host | Published
 [DOP Juvenile Violations of Probation Filed by Fiscal Year](../datasets/mzy5-smmw.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;16
 [DSNY Graffiti Information](../datasets/gpwd-npar.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
 [DSNY Monthly Tonnage Data](../datasets/ebb7-mvp5.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
-[DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | data.cityofnewyork.us | 2016&#x2011;02&#x2011;19
+[DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;18
 [Demographic Statistics By Zip Code](../datasets/kku6-nxdu.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
+[Department English- Spanish Terminology Bank](../datasets/hpf7-4b4e.md) | data.austintexas.gov | 2017&#x2011;07&#x2011;20
 [Derelict Vehicle Dispositions - Tow](../datasets/vr8p-8shw.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
-[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;08
+[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;11
 [Derelict Vehicles Dispositions - Complaints](../datasets/pq5i-thsu.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
 [Derelict Vehicles Dispositions - Rentals](../datasets/v6j6-k9uc.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;08
 [Directory Of DOP Family & Adult Court Contact Information](../datasets/f46j-m4iq.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
@@ -212,8 +217,8 @@ Name | Host | Published
 [NYC Open Data Plan - Scheduled Releases 2016](../datasets/tyjc-nqc2.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;20
 [NYC Open Data Removed Datasets](../datasets/avwh-jmzt.md) | data.cityofnewyork.us | 2016&#x2011;06&#x2011;08
 [NYC OpenRecords ? FOIL Request Data](../datasets/9m35-jch2.md) | data.cityofnewyork.us | 2016&#x2011;04&#x2011;05
-[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;08
-[NYC Wi-Fi Hotspot Locations](../datasets/yjub-udmw.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;10
+[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;24
+[NYC Wi-Fi Hotspot Locations](../datasets/yjub-udmw.md) | data.cityofnewyork.us | 2017&#x2011;08&#x2011;11
 [NYC Zoning Tax Lot Database](../datasets/fdkv-4t4z.md) | data.cityofnewyork.us | 2017&#x2011;03&#x2011;09
 [NYC.gov Web Analytics](../datasets/d5zb-ragj.md) | data.cityofnewyork.us | 2016&#x2011;11&#x2011;30
 [NYCHA Customer Contact Centers](../datasets/37fm-7uaa.md) | data.cityofnewyork.us | 2016&#x2011;09&#x2011;15
@@ -253,6 +258,7 @@ Name | Host | Published
 [Projected Population 2010-2040 - Total By Age Groups](../datasets/97pn-acdf.md) | data.cityofnewyork.us | 2014&#x2011;04&#x2011;22
 [Prompt Payment Interest Rates](../datasets/qt4e-9a97.md) | data.cityofnewyork.us | 2015&#x2011;12&#x2011;17
 [Property Tax Rates by Tax Class](../datasets/7zb8-7bpk.md) | data.cityofnewyork.us | 2015&#x2011;12&#x2011;29
+[Proposed One- Day- Per- Week Watering Schedule](../datasets/q86y-e7vw.md) | data.austintexas.gov | 2016&#x2011;02&#x2011;11
 [Quality Of Life Indicators](../datasets/8hkx-uppz.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [Race of Officers against whom Allegations were Substantiated](../datasets/cj5g-iwxb.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
 [Rate at which the CCRB made findings on the merits](../datasets/t6g4-rw7k.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21

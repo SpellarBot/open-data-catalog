@@ -44,11 +44,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Alsip Village Hall" t:zip=60803 t:hours="Monday-Saturday: 9 a.m.–5 p.m." t:state=IL t:city=Alsip m:row_number.c5zu-3cbe=1
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:zip=60803 t:site="Alsip Village Hall" t:hours="Monday-Saturday: 9 a.m.–5 p.m." t:city=Alsip t:state=IL m:row_number.c5zu-3cbe=1
 
-series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Arlington Heights Village Hall" t:zip=60005 t:hours="Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m." t:state=IL t:city="Arlington Heights" m:row_number.c5zu-3cbe=2
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:zip=60005 t:site="Arlington Heights Village Hall" t:hours="Monday-Saturday: 9 a.m.–5 p.m.; Sunday: 9 a.m. – 3 p.m." t:city="Arlington Heights" t:state=IL m:row_number.c5zu-3cbe=2
 
-series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:site="Barrington Township Hall" t:zip=60010 t:hours="Monday-Saturday: 9 a.m.–5 p.m." t:state=IL t:city=Barrington m:row_number.c5zu-3cbe=3
+series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z t:zip=60010 t:site="Barrington Township Hall" t:hours="Monday-Saturday: 9 a.m.–5 p.m." t:city=Barrington t:state=IL m:row_number.c5zu-3cbe=3
 ```
 
 ## Meta Commands
@@ -58,13 +58,13 @@ metric m:row_number.c5zu-3cbe p:long l:"Row Number"
 
 entity e:c5zu-3cbe l:"Early Voting Locations - 2012" t:attribution="Cook County Clerk" t:url=https://datacatalog.cookcountyil.gov/api/views/c5zu-3cbe
 
-property e:c5zu-3cbe t:meta.view d:2017-06-09T13:54:45.371Z v:id=c5zu-3cbe v:attributionLink=http://cookcountyclerk.com v:averageRating=0 v:name="Early Voting Locations - 2012" v:attribution="Cook County Clerk"
+property e:c5zu-3cbe t:meta.view d:2017-09-25T07:26:12.630Z v:averageRating=0 v:name="Early Voting Locations - 2012" v:attribution="Cook County Clerk" v:attributionLink=http://cookcountyclerk.com v:id=c5zu-3cbe
 
-property e:c5zu-3cbe t:meta.view.license d:2017-06-09T13:54:45.371Z v:name="Public Domain"
+property e:c5zu-3cbe t:meta.view.license d:2017-09-25T07:26:12.630Z v:name="Public Domain"
 
-property e:c5zu-3cbe t:meta.view.owner d:2017-06-09T13:54:45.371Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:c5zu-3cbe t:meta.view.owner d:2017-09-25T07:26:12.630Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 
-property e:c5zu-3cbe t:meta.view.tableauthor d:2017-06-09T13:54:45.371Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:c5zu-3cbe t:meta.view.tableauthor d:2017-09-25T07:26:12.630Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 ```
 
 ## Top Records

@@ -59,9 +59,9 @@ Excluded Fields = address
 ```ls
 series e:m2gw-xt7z d:2015-01-01T00:00:00.000Z t:description="1032 Fort Street Garage (bet. S. Hotel St-S. King St)" t:latitude_longitude="21.310518, -157.861866" t:operator=ProPark m:daily_max=18
 
-series e:m2gw-xt7z d:2015-01-01T00:00:00.000Z t:after_hours_flat_rate="Fri-Sat - $10 in after 5pm; Sun-Thu-$7 in after 5pm" t:phone=592-7275 t:description="1131 Maunakea Street" t:hours_of_operation="Mon-Sun, 24 hrs." t:indoors_outdoors=Outdoors t:hourly="20 mins-$1; 1 hr-$3; 2 hrs-$5; 4 hrs-$7" t:monthly_rate="$215 Sun-Thu, in after 5pm" t:latitude_longitude="21.312651, -157.862120" t:note="Disabled Spaces" t:operator="United Parking Svc." t:height_restriction=None m:earlybird=10
+series e:m2gw-xt7z d:2015-01-01T00:00:00.000Z t:after_hours_flat_rate="Fri-Sat - $10 in after 5pm; Sun-Thu-$7 in after 5pm" t:note="Disabled Spaces" t:monthly_rate="$215 Sun-Thu, in after 5pm" t:hours_of_operation="Mon-Sun, 24 hrs." t:indoors_outdoors=Outdoors t:phone=592-7275 t:description="1131 Maunakea Street" t:height_restriction=None t:hourly="20 mins-$1; 1 hr-$3; 2 hrs-$5; 4 hrs-$7" t:latitude_longitude="21.312651, -157.862120" t:operator="United Parking Svc." m:earlybird=10
 
-series e:m2gw-xt7z d:2015-01-01T00:00:00.000Z t:after_hours_flat_rate="$3.25 after 4:30 pm" t:phone=522-1293 t:description="1132 Bishop Street" t:hourly="$3.25/half hr" t:monthly_rate="$210 unrsvd; $375 rsvd" t:latitude_longitude="21.310231, -157.860206" t:operator=Ampco t:weekendrate=$3.25 m:daily_max=33 m:earlybird=15
+series e:m2gw-xt7z d:2015-01-01T00:00:00.000Z t:weekendrate=$3.25 t:after_hours_flat_rate="$3.25 after 4:30 pm" t:monthly_rate="$210 unrsvd; $375 rsvd" t:phone=522-1293 t:description="1132 Bishop Street" t:hourly="$3.25/half hr" t:latitude_longitude="21.310231, -157.860206" t:operator=Ampco m:daily_max=33 m:earlybird=15
 ```
 
 ## Meta Commands
@@ -73,11 +73,11 @@ metric m:earlybird p:long l:EarlyBird t:dataTypeName=money
 
 entity e:m2gw-xt7z l:"Parking 2015" t:url=https://data.honolulu.gov/api/views/m2gw-xt7z
 
-property e:m2gw-xt7z t:meta.view d:2017-06-09T13:55:14.909Z v:id=m2gw-xt7z v:category=Transportation v:averageRating=0 v:name="Parking 2015"
+property e:m2gw-xt7z t:meta.view d:2017-09-25T07:26:38.788Z v:averageRating=0 v:name="Parking 2015" v:id=m2gw-xt7z v:category=Transportation
 
-property e:m2gw-xt7z t:meta.view.owner d:2017-06-09T13:55:14.909Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
+property e:m2gw-xt7z t:meta.view.owner d:2017-09-25T07:26:38.788Z v:displayName="Karl Sueyoshi" v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 
-property e:m2gw-xt7z t:meta.view.tableauthor d:2017-06-09T13:55:14.909Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:m2gw-xt7z t:meta.view.tableauthor d:2017-09-25T07:26:38.788Z v:displayName="Karl Sueyoshi" v:roleName=publisher v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 ```
 
 ## Top Records

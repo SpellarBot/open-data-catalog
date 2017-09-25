@@ -60,11 +60,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Asian t:grade=3 t:district=1 m:level_3_4_2=94.8 m:level_4_1=79 m:level_2_2=2.6 m:mean_scale_score=704 m:level_4_2=51 m:level_2_1=4 m:level_1_2=2.6 m:level_1_1=4 m:number_tested=155 m:level_3_4_1=147 m:level_3_2=43.9 m:level_3_1=68
+series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:district=1 t:grade=3 t:category=Asian m:level_4_2=51 m:mean_scale_score=704 m:level_3_4_1=147 m:level_1_1=4 m:level_1_2=2.6 m:level_2_1=4 m:level_2_2=2.6 m:level_3_1=68 m:level_3_2=43.9 m:level_4_1=79 m:level_3_4_2=94.8 m:number_tested=155
 
-series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Black t:grade=3 t:district=1 m:level_3_4_2=63.2 m:level_4_1=13 m:level_2_2=25.4 m:mean_scale_score=659 m:level_4_2=7 m:level_2_1=47 m:level_1_2=11.4 m:level_1_1=21 m:number_tested=185 m:level_3_4_1=117 m:level_3_2=56.2 m:level_3_1=104
+series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:district=1 t:grade=3 t:category=Black m:level_4_2=7 m:mean_scale_score=659 m:level_3_4_1=117 m:level_1_1=21 m:level_1_2=11.4 m:level_2_1=47 m:level_2_2=25.4 m:level_3_1=104 m:level_3_2=56.2 m:level_4_1=13 m:level_3_4_2=63.2 m:number_tested=185
 
-series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:category=Hispanic t:grade=3 t:district=1 m:level_3_4_2=68.2 m:level_4_1=73 m:level_2_2=22.5 m:mean_scale_score=664 m:level_4_2=14.8 m:level_2_1=111 m:level_1_2=9.3 m:level_1_1=46 m:number_tested=494 m:level_3_4_1=337 m:level_3_2=53.4 m:level_3_1=264
+series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z t:district=1 t:grade=3 t:category=Hispanic m:level_4_2=14.8 m:mean_scale_score=664 m:level_3_4_1=337 m:level_1_1=46 m:level_1_2=9.3 m:level_2_1=111 m:level_2_2=22.5 m:level_3_1=264 m:level_3_2=53.4 m:level_4_1=73 m:level_3_4_2=68.2 m:number_tested=494
 ```
 
 ## Meta Commands
@@ -96,11 +96,11 @@ metric m:level_3_4_2 p:float l:"Level 3+4 %" t:dataTypeName=percent
 
 entity e:pgrs-2cjd l:"NYS Math Test Results By Grade 2006-2011 - District - By Race- Ethnicity" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/pgrs-2cjd
 
-property e:pgrs-2cjd t:meta.view d:2017-06-09T13:51:42.912Z v:id=pgrs-2cjd v:category=Education v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - District - By Race- Ethnicity" v:attribution="Department of Education (DOE)"
+property e:pgrs-2cjd t:meta.view d:2017-09-25T07:23:01.455Z v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - District - By Race- Ethnicity" v:attribution="Department of Education (DOE)" v:id=pgrs-2cjd v:category=Education
 
-property e:pgrs-2cjd t:meta.view.owner d:2017-06-09T13:51:42.912Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:pgrs-2cjd t:meta.view.owner d:2017-09-25T07:23:01.455Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:pgrs-2cjd t:meta.view.tableauthor d:2017-06-09T13:51:42.912Z v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
+property e:pgrs-2cjd t:meta.view.tableauthor d:2017-09-25T07:23:01.455Z v:displayName="Jorge J." v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:id=rnig-m3uj v:screenName="Jorge J." v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB
 ```
 
 ## Top Records

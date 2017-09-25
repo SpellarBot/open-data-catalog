@@ -52,11 +52,11 @@ Excluded Fields = quarter_end_date,quarter,year
 ## Data Commands
 
 ```ls
-series e:ewuz-v3y2 d:2016-03-01T00:00:00.000Z t:consultant="Muir Consulting" t:vendor_sub_vendor_name="Spot On" m:payments_received=3250 m:payments_promised=3250
+series e:ewuz-v3y2 d:2016-03-01T00:00:00.000Z t:consultant="Muir Consulting" t:vendor_sub_vendor_name="Spot On" m:payments_promised=3250 m:payments_received=3250
 
-series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Pacific Print Resource" m:payments_received=630.5 m:payments_promised=630.5
+series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Pacific Print Resource" m:payments_promised=630.5 m:payments_received=630.5
 
-series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Lizard Press" m:payments_received=875 m:payments_promised=875
+series e:ewuz-v3y2 d:2014-09-01T00:00:00.000Z t:consultant="Lester Connect" t:vendor_sub_vendor_name="Lizard Press" m:payments_promised=875 m:payments_received=875
 ```
 
 ## Meta Commands
@@ -68,13 +68,13 @@ metric m:payments_received p:double l:"Payments received" t:dataTypeName=money
 
 entity e:ewuz-v3y2 l:"Campaign Consultants - Vendor Payments" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/ewuz-v3y2
 
-property e:ewuz-v3y2 t:meta.view d:2017-06-09T13:54:16.131Z v:id=ewuz-v3y2 v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Consultants - Vendor Payments" v:attribution="San Francisco Ethics Commission"
+property e:ewuz-v3y2 t:meta.view d:2017-09-25T07:25:39.396Z v:averageRating=0 v:name="Campaign Consultants - Vendor Payments" v:attribution="San Francisco Ethics Commission" v:attributionLink=http://www.sfethics.org v:id=ewuz-v3y2 v:category="City Management and Ethics"
 
-property e:ewuz-v3y2 t:meta.view.license d:2017-06-09T13:54:16.131Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:ewuz-v3y2 t:meta.view.license d:2017-09-25T07:25:39.396Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:ewuz-v3y2 t:meta.view.owner d:2017-06-09T13:54:16.131Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:ewuz-v3y2 t:meta.view.owner d:2017-09-25T07:25:39.396Z v:displayName="San Francisco Ethics Commission" v:lastNotificationSeenAt=1500665894 v:id=kcqd-yeev v:screenName="San Francisco Ethics Commission"
 
-property e:ewuz-v3y2 t:meta.view.tableauthor d:2017-06-09T13:54:16.131Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:ewuz-v3y2 t:meta.view.tableauthor d:2017-09-25T07:25:39.396Z v:displayName="San Francisco Ethics Commission" v:lastNotificationSeenAt=1500665894 v:roleName=publisher v:id=kcqd-yeev v:screenName="San Francisco Ethics Commission"
 ```
 
 ## Top Records
@@ -82,14 +82,14 @@ property e:ewuz-v3y2 t:meta.view.tableauthor d:2017-06-09T13:54:16.131Z v:id=vm9
 ```ls
 | consultant           | vendor_sub_vendor_name                        | payments_promised | payments_received | quarter_start_date  | quarter_end_date    | quarter | year | 
 | ==================== | ============================================= | ================= | ================= | =================== | =================== | ======= | ==== | 
-| Muir Consulting      | Spot On                                       | 3250              | 3250              | 2016-03-01T00:00:00 | 2016-05-31T00:00:00 | 2       | 2016 | 
-| Lester Connect       | Pacific Print Resource                        | 630.5             | 630.5             | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
-| Lester Connect       | Lizard Press                                  | 875               | 875               | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
-| Lester Connect       | Campaign Grid                                 | 9500              | 9500              | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Muir Consulting      | Spot On                                       | 3250.00           | 3250.00           | 2016-03-01T00:00:00 | 2016-05-31T00:00:00 | 2       | 2016 | 
+| Lester Connect       | Pacific Print Resource                        | 630.50            | 630.50            | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Lester Connect       | Lizard Press                                  | 875.00            | 875.00            | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Lester Connect       | Campaign Grid                                 | 9500.00           | 9500.00           | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
 | Tourk, Alex          | Pacific Printing                              | 7671.76           | 7671.76           | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
-| Rodriguez Strategies | Goddard Gunster                               | 0                 | 48666.12          | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
-| Rodriguez Strategies | Barnes, Mosher, Whitehurst, Lauter & Partners | 0                 | 13096.97          | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
-| Goddard Gunster Inc. | Amplified Strategies                          | 0                 | 148032            | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
-| Goddard Gunster Inc. | Amplified Strategies                          | 61962             | 0                 | 2014-06-01T00:00:00 | 2014-08-31T00:00:00 | 3       | 2014 | 
-| Rodriguez Strategies | Goddard Gunster                               | 0                 | 1693.64           | 2014-06-01T00:00:00 | 2014-08-31T00:00:00 | 3       | 2014 | 
+| Rodriguez Strategies | Goddard Gunster                               | 0.00              | 48666.12          | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Rodriguez Strategies | Barnes, Mosher, Whitehurst, Lauter & Partners | 0.00              | 13096.97          | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Goddard Gunster Inc. | Amplified Strategies                          | 0.00              | 148032.00         | 2014-09-01T00:00:00 | 2014-11-30T00:00:00 | 4       | 2014 | 
+| Goddard Gunster Inc. | Amplified Strategies                          | 61962.00          | 0.00              | 2014-06-01T00:00:00 | 2014-08-31T00:00:00 | 3       | 2014 | 
+| Rodriguez Strategies | Goddard Gunster                               | 0.00              | 1693.64           | 2014-06-01T00:00:00 | 2014-08-31T00:00:00 | 3       | 2014 | 
 ```

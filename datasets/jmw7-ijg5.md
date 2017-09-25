@@ -67,11 +67,11 @@ Excluded Fields = address,address_line_2,x_coordinate,y_coordinate,latitude,long
 ## Data Commands
 
 ```ls
-series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60620 t:program_model="Head Start Support Services" t:phone_number=7733965556 t:street_name=91ST t:state=IL t:agency="A.M. Bus Company" t:site_name="A.M. Bus Company" t:city=Chicago t:division="Children Services" t:ward=21 t:street_direction=W t:community_area=ROSELAND t:street_number=100 t:community_area_number=49 t:street_type=ST m:row_number.jmw7-ijg5=1
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60620 t:community_area=ROSELAND t:street_direction=W t:agency="A.M. Bus Company" t:city=Chicago t:program_model="Head Start Support Services" t:ward=21 t:street_name=91ST t:division="Children Services" t:site_name="A.M. Bus Company" t:street_number=100 t:street_type=ST t:phone_number=7733965556 t:state=IL t:community_area_number=49 m:row_number.jmw7-ijg5=1
 
-series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60649 t:program_model="Child Care Only" t:phone_number=7732219711 t:street_name=EXCHANGE t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Ersula Howard" t:city=Chicago t:division="Children Services" t:ward=7 t:street_direction=S t:community_area="SOUTH SHORE" t:street_number=7222 t:community_area_number=43 t:street_type=AVE m:row_number.jmw7-ijg5=2
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60649 t:community_area="SOUTH SHORE" t:street_direction=S t:agency="Ada S. McKinley Community Services, Inc." t:city=Chicago t:program_model="Child Care Only" t:ward=7 t:street_name=EXCHANGE t:division="Children Services" t:site_name="McKinley-Ersula Howard" t:street_number=7222 t:street_type=AVE t:phone_number=7732219711 t:state=IL t:community_area_number=43 m:row_number.jmw7-ijg5=2
 
-series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60653 t:program_model="Child Care Only" t:phone_number=7733738200 t:street_name=WABASH t:state=IL t:agency="Ada S. McKinley Community Services, Inc." t:site_name="McKinley-Maggie Drummond" t:city=Chicago t:division="Children Services" t:ward=3 t:street_direction=S t:community_area="GRAND BOULEVARD" t:street_number=4301 t:community_area_number=38 t:street_type=AVE m:row_number.jmw7-ijg5=3
+series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z t:zip=60653 t:community_area="GRAND BOULEVARD" t:street_direction=S t:agency="Ada S. McKinley Community Services, Inc." t:city=Chicago t:program_model="Child Care Only" t:ward=3 t:street_name=WABASH t:division="Children Services" t:site_name="McKinley-Maggie Drummond" t:street_number=4301 t:street_type=AVE t:phone_number=7733738200 t:state=IL t:community_area_number=38 m:row_number.jmw7-ijg5=3
 ```
 
 ## Meta Commands
@@ -81,11 +81,11 @@ metric m:row_number.jmw7-ijg5 p:long l:"Row Number"
 
 entity e:jmw7-ijg5 l:"Family and Support Services Delegate Agencies" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/jmw7-ijg5
 
-property e:jmw7-ijg5 t:meta.view d:2017-06-09T13:54:07.808Z v:id=jmw7-ijg5 v:category="Health & Human Services" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="Family and Support Services Delegate Agencies" v:attribution="City of Chicago"
+property e:jmw7-ijg5 t:meta.view d:2017-09-25T07:25:28.060Z v:averageRating=0 v:name="Family and Support Services Delegate Agencies" v:attribution="City of Chicago" v:attributionLink=http://www.cityofchicago.org v:id=jmw7-ijg5 v:category="Health & Human Services"
 
-property e:jmw7-ijg5 t:meta.view.owner d:2017-06-09T13:54:07.808Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
+property e:jmw7-ijg5 t:meta.view.owner d:2017-09-25T07:25:28.060Z v:displayName="Jonathan Levy" v:lastNotificationSeenAt=1505253103 v:id=vewm-vupz v:screenName="Jonathan Levy"
 
-property e:jmw7-ijg5 t:meta.view.tableauthor d:2017-06-09T13:54:07.808Z v:id=vewm-vupz v:screenName="Jonathan Levy" v:roleName=administrator v:lastNotificationSeenAt=1496780786 v:displayName="Jonathan Levy"
+property e:jmw7-ijg5 t:meta.view.tableauthor d:2017-09-25T07:25:28.060Z v:displayName="Jonathan Levy" v:lastNotificationSeenAt=1505253103 v:roleName=administrator v:id=vewm-vupz v:screenName="Jonathan Levy"
 ```
 
 ## Top Records

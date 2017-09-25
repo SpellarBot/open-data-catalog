@@ -47,11 +47,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC SYSTEMS UNIT(1644)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 t:fundnumber=1030 m:dept=730 m:loworg=1644
+series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC SYSTEMS UNIT(1644)" t:funddescription="COUNTY ROAD FUND" t:deptdescription=ROADS(0730) t:fundnumber=1030 t:account=59502 t:accountdescription="59502  BIENNIAL BUDGET BALANCER" m:dept=730 m:loworg=1644
 
-series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC BASIC-BURIEN(3906)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 t:fundnumber=1030 m:dept=730 m:loworg=3906
+series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC BASIC-BURIEN(3906)" t:funddescription="COUNTY ROAD FUND" t:deptdescription=ROADS(0730) t:fundnumber=1030 t:account=59502 t:accountdescription="59502  BIENNIAL BUDGET BALANCER" m:dept=730 m:loworg=3906
 
-series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC BASIC-SNOQUALMIE(3910)" t:accountdescription="59502  BIENNIAL BUDGET BALANCER" t:deptdescription=ROADS(0730) t:funddescription="COUNTY ROAD FUND" t:account=59502 t:fundnumber=1030 m:dept=730 m:loworg=3910
+series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z t:loworgdescription="TRAFFIC BASIC-SNOQUALMIE(3910)" t:funddescription="COUNTY ROAD FUND" t:deptdescription=ROADS(0730) t:fundnumber=1030 t:account=59502 t:accountdescription="59502  BIENNIAL BUDGET BALANCER" m:dept=730 m:loworg=3910
 ```
 
 ## Meta Commands
@@ -65,13 +65,13 @@ metric m:adopted p:integer l:Adopted t:dataTypeName=money
 
 entity e:vv8b-tzy8 l:"Non-General Fund Expenditures 2010" t:attribution="King County" t:url=https://data.kingcounty.gov/api/views/vv8b-tzy8
 
-property e:vv8b-tzy8 t:meta.view d:2017-06-09T13:52:54.927Z v:id=vv8b-tzy8 v:category=Budget v:attributionLink=http://www.kingcounty.gov v:averageRating=100 v:name="Non-General Fund Expenditures 2010" v:attribution="King County"
+property e:vv8b-tzy8 t:meta.view d:2017-09-25T07:24:16.968Z v:averageRating=100 v:name="Non-General Fund Expenditures 2010" v:attribution="King County" v:attributionLink=http://www.kingcounty.gov v:id=vv8b-tzy8 v:category=Budget
 
-property e:vv8b-tzy8 t:meta.view.license d:2017-06-09T13:52:54.927Z v:name="Public Domain"
+property e:vv8b-tzy8 t:meta.view.license d:2017-09-25T07:24:16.968Z v:name="Public Domain"
 
-property e:vv8b-tzy8 t:meta.view.owner d:2017-06-09T13:52:54.927Z v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:lastNotificationSeenAt=1496959418 v:displayName="King County Webteam"
+property e:vv8b-tzy8 t:meta.view.owner d:2017-09-25T07:24:16.968Z v:displayName="King County Webteam" v:lastNotificationSeenAt=1498687736 v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:id=2gzv-6b6z v:screenName="King County Webteam" v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB
 
-property e:vv8b-tzy8 t:meta.view.tableauthor d:2017-06-09T13:52:54.927Z v:id=2gzv-6b6z v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:screenName="King County Webteam" v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1496959418 v:displayName="King County Webteam"
+property e:vv8b-tzy8 t:meta.view.tableauthor d:2017-09-25T07:24:16.968Z v:displayName="King County Webteam" v:lastNotificationSeenAt=1498687736 v:profileImageUrlLarge=/api/users/2gzv-6b6z/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/2gzv-6b6z/profile_images/TINY v:id=2gzv-6b6z v:screenName="King County Webteam" v:profileImageUrlMedium=/api/users/2gzv-6b6z/profile_images/THUMB
 ```
 
 ## Top Records

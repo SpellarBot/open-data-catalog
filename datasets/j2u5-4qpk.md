@@ -18,7 +18,7 @@
 
 ## Description
 
-WA State Office of the Chief Information Officer Accessibility Policy #188 requires agencies and other groups required to follow OCIO Policy to identify an Accessibility Coordinator and publish information about their Accessibility policy and process.
+WA State Office of the Chief Information Officer Accessibility Policy #188 requires agencies and other groups required to follow OCIO Policy to identify an Accessibility Coordinator. Having a central list will help the public contact coordinators to resolve issues and assist Agencies with resources. http://ocio.wa.gov/policy/accessibility
 
 ## Columns
 
@@ -44,11 +44,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z t:agency_title="State Revenue for Distribution (SRD)" t:agency_number=10 t:abbreviation=SRD m:row_number.j2u5-4qpk=1
+series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z t:agency_number=10 t:agency_title="State Revenue for Distribution (SRD)" t:abbreviation=SRD m:row_number.j2u5-4qpk=1
 
-series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z t:agency_title="Federal Revenue for Distribution (FRD)" t:agency_number=50 t:abbreviation=FRD m:row_number.j2u5-4qpk=2
+series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z t:agency_number=50 t:agency_title="Federal Revenue for Distribution (FRD)" t:abbreviation=FRD m:row_number.j2u5-4qpk=2
 
-series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z t:agency_title="Bond Retirement and Interest (BRI)" t:agency_number=100 t:abbreviation=BRI m:row_number.j2u5-4qpk=3
+series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z t:agency_number=100 t:agency_title="Bond Retirement and Interest (BRI)" t:abbreviation=BRI m:row_number.j2u5-4qpk=3
 ```
 
 ## Meta Commands
@@ -58,11 +58,13 @@ metric m:row_number.j2u5-4qpk p:long l:"Row Number"
 
 entity e:j2u5-4qpk l:"WA State Accessibility Coordinators" t:attribution="WA State Accessibility Champion" t:url=https://data.wa.gov/api/views/j2u5-4qpk
 
-property e:j2u5-4qpk t:meta.view d:2017-06-09T13:56:37.790Z v:id=j2u5-4qpk v:averageRating=0 v:name="WA State Accessibility Coordinators" v:attribution="WA State Accessibility Champion"
+property e:j2u5-4qpk t:meta.view d:2017-09-25T07:28:00.830Z v:averageRating=0 v:name="WA State Accessibility Coordinators" v:attribution="WA State Accessibility Champion" v:attributionLink=http://ocio.wa.gov/policy/accessibility v:id=j2u5-4qpk
 
-property e:j2u5-4qpk t:meta.view.owner d:2017-06-09T13:56:37.790Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:displayName=ryan.leisinger
+property e:j2u5-4qpk t:meta.view.license d:2017-09-25T07:28:00.830Z v:name="Public Domain"
 
-property e:j2u5-4qpk t:meta.view.tableauthor d:2017-06-09T13:56:37.790Z v:id=2iur-ynm8 v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:screenName=ryan.leisinger v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:roleName=administrator v:displayName=ryan.leisinger
+property e:j2u5-4qpk t:meta.view.owner d:2017-09-25T07:28:00.830Z v:displayName=ryan.leisinger v:lastNotificationSeenAt=1500917366 v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:id=2iur-ynm8 v:screenName=ryan.leisinger v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB
+
+property e:j2u5-4qpk t:meta.view.tableauthor d:2017-09-25T07:28:00.830Z v:displayName=ryan.leisinger v:lastNotificationSeenAt=1500917366 v:profileImageUrlLarge=/api/users/2iur-ynm8/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/2iur-ynm8/profile_images/TINY v:id=2iur-ynm8 v:screenName=ryan.leisinger v:profileImageUrlMedium=/api/users/2iur-ynm8/profile_images/THUMB
 ```
 
 ## Top Records

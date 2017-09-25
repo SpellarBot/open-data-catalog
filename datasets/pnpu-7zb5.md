@@ -45,11 +45,11 @@ Excluded Fields = date_certified_approved
 ## Data Commands
 
 ```ls
-series e:pnpu-7zb5 d:2015-06-17T00:00:00.000Z t:pending_completed=Completed t:candidate="Christensen, Julie" t:district=3 m:funds_disbursed=20000
+series e:pnpu-7zb5 d:2015-06-17T00:00:00.000Z t:candidate="Christensen, Julie" t:pending_completed=Completed t:district=3 m:funds_disbursed=20000
 
-series e:pnpu-7zb5 d:2015-06-12T00:00:00.000Z t:pending_completed=Completed t:candidate="Peskin, Aaron" t:district=3 m:funds_disbursed=20000
+series e:pnpu-7zb5 d:2015-06-12T00:00:00.000Z t:candidate="Peskin, Aaron" t:pending_completed=Completed t:district=3 m:funds_disbursed=20000
 
-series e:pnpu-7zb5 d:2015-06-24T00:00:00.000Z t:pending_completed=Completed t:candidate="Christensen, Julie" t:district=3 m:funds_disbursed=55039
+series e:pnpu-7zb5 d:2015-06-24T00:00:00.000Z t:candidate="Christensen, Julie" t:pending_completed=Completed t:district=3 m:funds_disbursed=55039
 ```
 
 ## Meta Commands
@@ -59,13 +59,13 @@ metric m:funds_disbursed p:integer l:"Funds Disbursed" t:dataTypeName=money
 
 entity e:pnpu-7zb5 l:"Campaign Finance - Public Funds Disbursed - November 3, 2015 Election" t:url=https://data.sfgov.org/api/views/pnpu-7zb5
 
-property e:pnpu-7zb5 t:meta.view d:2017-06-09T13:56:34.728Z v:id=pnpu-7zb5 v:category="City Management and Ethics" v:averageRating=0 v:name="Campaign Finance - Public Funds Disbursed - November 3, 2015 Election"
+property e:pnpu-7zb5 t:meta.view d:2017-09-25T07:27:55.511Z v:averageRating=0 v:name="Campaign Finance - Public Funds Disbursed - November 3, 2015 Election" v:id=pnpu-7zb5 v:category="City Management and Ethics"
 
-property e:pnpu-7zb5 t:meta.view.license d:2017-06-09T13:56:34.728Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:pnpu-7zb5 t:meta.view.license d:2017-09-25T07:27:55.511Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:pnpu-7zb5 t:meta.view.owner d:2017-06-09T13:56:34.728Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:pnpu-7zb5 t:meta.view.owner d:2017-09-25T07:27:55.511Z v:displayName="Steven Massey" v:lastNotificationSeenAt=1498669627 v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:id=vm9c-ykir v:screenName="Steven Massey" v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB
 
-property e:pnpu-7zb5 t:meta.view.tableauthor d:2017-06-09T13:56:34.728Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:pnpu-7zb5 t:meta.view.tableauthor d:2017-09-25T07:27:55.511Z v:displayName="Steven Massey" v:lastNotificationSeenAt=1498669627 v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:id=vm9c-ykir v:screenName="Steven Massey" v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB
 ```
 
 ## Top Records

@@ -15,7 +15,7 @@
 | Category | Human Services |
 | Tags | ta, sna, public assistance, welfare, case denials |
 | Created | 2016-05-10T16:50:36Z |
-| Publication Date | 2017-04-06T22:02:29Z |
+| Publication Date | 2017-07-06T22:02:28Z |
 
 ## Description
 
@@ -67,11 +67,11 @@ Excluded Fields = year,month
 ## Data Commands
 
 ```ls
-series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=01 t:month_code=1 t:district=Albany m:fa_finance=10 m:fa_comp_other=79 m:sna_comp_employ=20 m:ta_comp_employ=25 m:fa_comp_employ=5 m:fa_client_req=2 m:ta_finance=16 m:sna_client_req=0 m:fa_residence=9 m:sna_finance=6 m:ta_residence=28 m:ta_client_req=2 m:fa_other=5 m:sna_residence=19 m:sna_other=30 m:ta_other=35 m:sna_comp_other=176 m:ta_comp_other=255
+series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=01 t:district=Albany t:month_code=1 m:ta_finance=16 m:sna_comp_other=176 m:fa_comp_employ=5 m:fa_residence=9 m:ta_other=35 m:sna_finance=6 m:fa_other=5 m:ta_comp_employ=25 m:fa_client_req=2 m:fa_finance=10 m:sna_client_req=0 m:ta_residence=28 m:sna_comp_employ=20 m:sna_residence=19 m:ta_comp_other=255 m:fa_comp_other=79 m:ta_client_req=2 m:sna_other=30
 
-series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=02 t:month_code=1 t:district=Allegany m:fa_finance=4 m:fa_comp_other=4 m:sna_comp_employ=3 m:ta_comp_employ=5 m:fa_comp_employ=2 m:fa_client_req=2 m:ta_finance=6 m:sna_client_req=4 m:fa_residence=1 m:sna_finance=2 m:ta_residence=2 m:ta_client_req=6 m:fa_other=0 m:sna_residence=1 m:sna_other=0 m:ta_other=0 m:sna_comp_other=10 m:ta_comp_other=14
+series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=02 t:district=Allegany t:month_code=1 m:ta_finance=6 m:sna_comp_other=10 m:fa_comp_employ=2 m:fa_residence=1 m:ta_other=0 m:sna_finance=2 m:fa_other=0 m:ta_comp_employ=5 m:fa_client_req=2 m:fa_finance=4 m:sna_client_req=4 m:ta_residence=2 m:sna_comp_employ=3 m:sna_residence=1 m:ta_comp_other=14 m:fa_comp_other=4 m:ta_client_req=6 m:sna_other=0
 
-series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=03 t:month_code=1 t:district=Broome m:fa_finance=28 m:fa_comp_other=67 m:sna_comp_employ=17 m:ta_comp_employ=19 m:fa_comp_employ=2 m:fa_client_req=8 m:ta_finance=81 m:sna_client_req=4 m:fa_residence=3 m:sna_finance=53 m:ta_residence=14 m:ta_client_req=12 m:fa_other=3 m:sna_residence=11 m:sna_other=17 m:ta_other=20 m:sna_comp_other=97 m:ta_comp_other=164
+series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z t:district_code=03 t:district=Broome t:month_code=1 m:ta_finance=81 m:sna_comp_other=97 m:fa_comp_employ=2 m:fa_residence=3 m:ta_other=20 m:sna_finance=53 m:fa_other=3 m:ta_comp_employ=19 m:fa_client_req=8 m:fa_finance=28 m:sna_client_req=4 m:ta_residence=14 m:sna_comp_employ=17 m:sna_residence=11 m:ta_comp_other=164 m:fa_comp_other=67 m:ta_client_req=12 m:sna_other=17
 ```
 
 ## Meta Commands
@@ -115,11 +115,11 @@ metric m:sna_other p:float l:"SNA Case Denials - Other" d:"Safety Net Assistance
 
 entity e:tyyj-jgv5 l:"Public Assistance Case Denials by Reason for Denial: Beginning 2006" t:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" t:url=https://data.ny.gov/api/views/tyyj-jgv5
 
-property e:tyyj-jgv5 t:meta.view d:2017-06-09T13:53:59.249Z v:id=tyyj-jgv5 v:category="Human Services" v:attributionLink=https://otda.ny.gov/resources/legislative-report/ v:averageRating=0 v:name="Public Assistance Case Denials by Reason for Denial: Beginning 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)"
+property e:tyyj-jgv5 t:meta.view d:2017-09-25T07:25:23.280Z v:averageRating=0 v:name="Public Assistance Case Denials by Reason for Denial: Beginning 2006" v:attribution="New York State Office of Temporary and Disability Assistance (OTDA)" v:attributionLink=https://otda.ny.gov/resources/legislative-report/ v:id=tyyj-jgv5 v:category="Human Services"
 
-property e:tyyj-jgv5 t:meta.view.owner d:2017-06-09T13:53:59.249Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:tyyj-jgv5 t:meta.view.owner d:2017-09-25T07:25:23.280Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:tyyj-jgv5 t:meta.view.tableauthor d:2017-06-09T13:53:59.249Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:tyyj-jgv5 t:meta.view.tableauthor d:2017-09-25T07:25:23.280Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 ```
 
 ## Top Records

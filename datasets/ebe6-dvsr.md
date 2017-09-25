@@ -46,27 +46,27 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:ebe6-dvsr d:2015-07-01T00:00:00.000Z t:recsubtype="Site Grading" t:measure=AvgNumDaysFirstPlanReviewNONRESIDENTIAL t:rescomm=Non-Residential t:type=monthly t:goaltype=NonResidentialOnlyFirstPlanReview m:avgnumdays=18 m:noofpermits=1
+series e:ebe6-dvsr d:2015-07-01T00:00:00.000Z t:measure=AvgNumDaysFirstPlanReviewNONRESIDENTIAL t:goaltype=NonResidentialOnlyFirstPlanReview t:type=monthly t:recsubtype="Site Grading" t:rescomm=Non-Residential m:avgnumdays=18 m:noofpermits=1
 
-series e:ebe6-dvsr d:2015-08-01T00:00:00.000Z t:recsubtype=New t:measure=AvgNumDaysFirstPlanReviewNONRESIDENTIAL t:rescomm=Non-Residential t:type=monthly t:goaltype=NonResidentialOnlyFirstPlanReview m:avgnumdays=2 m:noofpermits=1
+series e:ebe6-dvsr d:2015-08-01T00:00:00.000Z t:measure=AvgNumDaysFirstPlanReviewNONRESIDENTIAL t:goaltype=NonResidentialOnlyFirstPlanReview t:type=monthly t:recsubtype=New t:rescomm=Non-Residential m:avgnumdays=2 m:noofpermits=1
 
-series e:ebe6-dvsr d:2015-09-01T00:00:00.000Z t:recsubtype=Plumbing t:measure=AvgNumDaysFirstPlanReviewRESIDENTIAL t:rescomm=Residential t:type=monthly t:goaltype=ResidentialOnlyFirstPlanReview m:avgnumdays=29 m:noofpermits=1
+series e:ebe6-dvsr d:2015-09-01T00:00:00.000Z t:measure=AvgNumDaysFirstPlanReviewRESIDENTIAL t:goaltype=ResidentialOnlyFirstPlanReview t:type=monthly t:recsubtype=Plumbing t:rescomm=Residential m:avgnumdays=29 m:noofpermits=1
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:avgnumdays p:integer l:AvgNumDays t:dataTypeName=number
+metric m:avgnumdays p:double l:AvgNumDays t:dataTypeName=number
 
 metric m:noofpermits p:integer l:NoOfPermits t:dataTypeName=number
 
 entity e:ebe6-dvsr l:PED_PlanReviewMeasures_Building t:url=https://data.srcity.org/api/views/ebe6-dvsr
 
-property e:ebe6-dvsr t:meta.view d:2017-06-09T13:57:39.553Z v:id=ebe6-dvsr v:averageRating=0 v:name=PED_PlanReviewMeasures_Building
+property e:ebe6-dvsr t:meta.view d:2017-09-25T07:29:03.606Z v:averageRating=0 v:name=PED_PlanReviewMeasures_Building v:id=ebe6-dvsr
 
-property e:ebe6-dvsr t:meta.view.owner d:2017-06-09T13:57:39.553Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.owner d:2017-09-25T07:29:03.606Z v:displayName="OpenData, RO" v:id=v4p4-re39 v:screenName="OpenData, RO"
 
-property e:ebe6-dvsr t:meta.view.tableauthor d:2017-06-09T13:57:39.553Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:ebe6-dvsr t:meta.view.tableauthor d:2017-09-25T07:29:03.606Z v:displayName="OpenData, RO" v:roleName=administrator v:id=v4p4-re39 v:screenName="OpenData, RO"
 ```
 
 ## Top Records

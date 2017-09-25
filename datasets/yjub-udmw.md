@@ -14,7 +14,7 @@
 | Attribution | Department of Information Technology & Telecommunications (DoITT) |
 | Category | City Government |
 | Created | 2015-07-14T18:14:19Z |
-| Publication Date | 2017-04-10T18:38:04Z |
+| Publication Date | 2017-08-11T18:37:46Z |
 
 ## Description
 
@@ -46,12 +46,13 @@ Location of wifi hotspots in the city with basic descriptive information.
 | Yes      | series tag     | ntacode    | NTACode    | text          | text          |
 | Yes      | series tag     | ntaname    | NTAName    | text          | text          |
 | Yes      | numeric metric | coundist   | CounDist   | number        | number        |
-| Yes      | series tag     | zip        | ZIP        | text          | number        |
+| Yes      | series tag     | zip        | Postcode   | text          | number        |
 | Yes      | numeric metric | borocd     | BoroCD     | number        | number        |
 | Yes      | numeric metric | ct2010     | CT2010     | number        | number        |
 | Yes      | numeric metric | bctcb2010  | BCTCB2010  | number        | number        |
 | Yes      | numeric metric | bin        | BIN        | number        | number        |
 | Yes      | numeric metric | bbl        | BBL        | number        | number        |
+| Yes      | series tag     | doitt_id   | DOITT_ID   | text          | number        |
 ```
 
 ## Time Field
@@ -70,50 +71,50 @@ Excluded Fields = latitude,longitude,x,y
 ## Data Commands
 
 ```ls
-series e:yjub-udmw d:2017-04-10T17:39:46.000Z t:borocode=3 t:zip=11205 t:location="138 Cumberland Walk" t:borough=BK t:provider=NYCHA t:type=Free t:city=Brooklyn t:boroname=Brooklyn t:location_t=Outdoor t:ntaname="Fort Greene" t:name=0 t:ntacode=BK68 t:ssid=DowntownBrooklynWiFi_Fon t:objectid=1673 m:coundist=35 m:ct2010=18501 m:borocd=302 m:bctcb2010=30185013001 m:bin=0
+series e:yjub-udmw d:2017-01-18T00:00:00.000Z t:sourceid=LINK-008695 t:zip=10001 t:city="New York" t:boroname=Manhattan t:borough=MN t:type=Free t:location_t="Outdoor Kiosk" t:ntaname="Midtown-Midtown South" t:ssid="LinkNYC Free Wi-Fi" t:borocode=1 t:ntacode=MN17 t:doitt_id=1425 t:provider="LinkNYC - Citybridge" t:name=mn-05-123662 t:location="179 WEST 26 STREET" t:objectid=998 t:remarks="Tablet Internet -phone , Free 1 GB Wi-FI Service" m:bin=0 m:coundist=3 m:borocd=105 m:ct2010=95 m:bctcb2010=1009500 m:bbl=0
 
-series e:yjub-udmw d:2017-04-10T17:39:45.000Z t:borocode=1 t:zip=10007 t:location="Fulton St (A,C,J,Z,2,3,4,5)" t:provider="Transit Wireless" t:remarks="SN 412" t:borough=MN t:type=Free t:city="New York" t:boroname=Manhattan t:location_t="Subway Station" t:ntaname="Battery Park City-Lower Manhattan" t:name="Fulton St (J,M,Z,2,3,4,5)/Bway-Nassau St (A,C) (4-5)" t:ntacode=MN25 t:ssid=TransitWirelessWiFi t:objectid=2364 m:coundist=1 m:ct2010=1502 m:borocd=101 m:bctcb2010=10015021000 m:bin=0
+series e:yjub-udmw d:2017-06-21T00:00:00.000Z t:sourceid=LINK-014013 t:zip=10016 t:city="New York" t:boroname=Manhattan t:borough=MN t:type=Free t:location_t="Outdoor Kiosk" t:ntaname="Midtown-Midtown South" t:ssid="LinkNYC Free Wi-Fi" t:borocode=1 t:ntacode=MN17 t:doitt_id=1426 t:provider="LinkNYC - Citybridge" t:name=mn-05-123789 t:location="25 EAST 29 STREET" t:objectid=999 t:remarks="Tablet Internet -phone , Free 1 GB Wi-FI Service" m:bin=1016929 m:coundist=2 m:borocd=105 m:ct2010=74 m:bctcb2010=1007400 m:bbl=1008590024
 
-series e:yjub-udmw d:2017-04-10T17:39:45.000Z t:borocode=1 t:zip=10016 t:location="28th Street - Park Avenue South" t:provider="Transit Wireless" t:remarks="SN 404" t:borough=MN t:type=Free t:city="New York" t:boroname=Manhattan t:location_t="Subway Station" t:ntaname="Hudson Yards-Chelsea-Flatiron-Union Square" t:name="28th Street - (6)" t:ntacode=MN13 t:ssid=TransitWirelessWiFi t:objectid=2258 m:coundist=2 m:ct2010=5600 m:borocd=105 m:bctcb2010=10056001000 m:bin=0
+series e:yjub-udmw d:2017-08-11T18:35:28.000Z t:sourceid=LINK-007083 t:zip=10036 t:city="New York" t:boroname=Manhattan t:borough=MN t:type=Free t:location_t="Outdoor Kiosk" t:ntaname="Midtown-Midtown South" t:ssid="LinkNYC Free Wi-Fi" t:borocode=1 t:ntacode=MN17 t:doitt_id=1427 t:provider="LinkNYC - Citybridge" t:name=mn-05-133354 t:location="1515 BROADWAY" t:objectid=1000 t:remarks="Tablet Internet -phone , Free 1 GB Wi-FI Service" m:bin=1024714 m:coundist=3 m:borocd=105 m:ct2010=119 m:bctcb2010=1011900 m:bbl=1010160036
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:coundist p:integer l:CounDist d:"NYC City Council District number" t:dataTypeName=number
+metric m:coundist p:float l:CounDist d:"NYC City Council District number" t:dataTypeName=number
 
-metric m:borocd p:integer l:BoroCD d:"New York City Borough plus Community Board Numbers." t:dataTypeName=number
+metric m:borocd p:float l:BoroCD d:"New York City Borough plus Community Board Numbers." t:dataTypeName=number
 
-metric m:ct2010 p:integer l:CT2010 d:"2010 U.S. Census data based on location." t:dataTypeName=number
+metric m:ct2010 p:float l:CT2010 d:"2010 U.S. Census data based on location." t:dataTypeName=number
 
-metric m:bctcb2010 p:long l:BCTCB2010 d:"Combined value of Borough CD and Census 2010." t:dataTypeName=number
+metric m:bctcb2010 p:float l:BCTCB2010 d:"Combined value of Borough CD and Census 2010." t:dataTypeName=number
 
-metric m:bin p:integer l:BIN d:"Building Identification Number." t:dataTypeName=number
+metric m:bin p:float l:BIN d:"Building Identification Number." t:dataTypeName=number
 
-metric m:bbl p:long l:BBL d:"Borough Block Lot." t:dataTypeName=number
+metric m:bbl p:double l:BBL d:"Borough Block Lot." t:dataTypeName=number
 
 entity e:yjub-udmw l:"NYC Wi-Fi Hotspot Locations" t:attribution="Department of Information Technology & Telecommunications (DoITT)" t:url=https://data.cityofnewyork.us/api/views/yjub-udmw
 
-property e:yjub-udmw t:meta.view d:2017-06-09T13:59:58.379Z v:id=yjub-udmw v:category="City Government" v:averageRating=0 v:name="NYC Wi-Fi Hotspot Locations" v:attribution="Department of Information Technology & Telecommunications (DoITT)"
+property e:yjub-udmw t:meta.view d:2017-09-25T07:31:20.557Z v:averageRating=0 v:name="NYC Wi-Fi Hotspot Locations" v:attribution="Department of Information Technology & Telecommunications (DoITT)" v:id=yjub-udmw v:category="City Government"
 
-property e:yjub-udmw t:meta.view.owner d:2017-06-09T13:59:58.379Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:yjub-udmw t:meta.view.owner d:2017-09-25T07:31:20.557Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:yjub-udmw t:meta.view.tableauthor d:2017-06-09T13:59:58.379Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:yjub-udmw t:meta.view.tableauthor d:2017-09-25T07:31:20.557Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records
 
 ```ls
-| objectid | borough | type | provider             | name                                                 | location                        | latitude       | longitude       | x                  | y                  | location_t     | remarks                                          | city     | ssid                     | sourceid    | activated           | borocode | boroname  | ntacode | ntaname                                    | coundist | zip   | borocd | ct2010 | bctcb2010   | bin | bbl | 
-| ======== | ======= | ==== | ==================== | ==================================================== | =============================== | ============== | =============== | ================== | ================== | ============== | ================================================ | ======== | ======================== | =========== | =================== | ======== | ========= | ======= | ========================================== | ======== | ===== | ====== | ====== | =========== | === | === | 
-| 1673     | BK      | Free | NYCHA                | 0                                                    | 138 Cumberland Walk             | 40.69438200000 | -73.97461400000 | 991289.58870800000 | 192259.55524200000 | Outdoor        |                                                  | Brooklyn | DowntownBrooklynWiFi_Fon |             |                     | 3        | Brooklyn  | BK68    | Fort Greene                                | 35       | 11205 | 302    | 18501  | 30185013001 | 0   |     | 
-| 2364     | MN      | Free | Transit Wireless     | Fulton St (J,M,Z,2,3,4,5)/Bway-Nassau St (A,C) (4-5) | Fulton St (A,C,J,Z,2,3,4,5)     | 40.71036800000 | -74.00950900000 | 981613.74666100000 | 198082.85529800000 | Subway Station | SN 412                                           | New York | TransitWirelessWiFi      |             |                     | 1        | Manhattan | MN25    | Battery Park City-Lower Manhattan          | 1        | 10007 | 101    | 1502   | 10015021000 | 0   |     | 
-| 2258     | MN      | Free | Transit Wireless     | 28th Street - (6)                                    | 28th Street - Park Avenue South | 40.74307000000 | -73.98426400000 | 988610.47221600000 | 209997.45729300000 | Subway Station | SN 404                                           | New York | TransitWirelessWiFi      |             |                     | 1        | Manhattan | MN13    | Hudson Yards-Chelsea-Flatiron-Union Square | 2        | 10016 | 105    | 5600   | 10056001000 | 0   |     | 
-| 3391     | MN      | Free | LinkNYC - Citybridge | mn-05-121626                                         | 63 Madison Ave                  | 40.74338100000 | -73.98596300000 | 988139.65829000000 | 210110.68449300000 | Outdoor Kiosk  | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi       | LINK-011982 | 2016-12-09T00:00:00 | 1        | Manhattan | MN13    | Hudson Yards-Chelsea-Flatiron-Union Square | 2        | 10016 | 105    | 5600   | 10056001000 | 0   |     | 
-| 3448     | MN      | Free | LinkNYC - Citybridge | mn-05-139806                                         | 1170 Broadway                   | 40.74512600000 | -73.98866100000 | 987391.95912400000 | 210746.33539300000 | Outdoor Kiosk  | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi       | LINK-000120 | 2016-11-02T00:00:00 | 1        | Manhattan | MN13    | Hudson Yards-Chelsea-Flatiron-Union Square | 2        | 10001 | 105    | 5800   | 10058001000 | 0   |     | 
-| 968      | MN      | Free | Chelsea              |                                                      | 17th near 9th                   | 40.74247745350 | -74.00296211240 | 983429.18634100000 | 209781.19597300000 | Outdoor        |                                                  | New York | CICFreeWiFi              |             |                     | 1        | Manhattan | MN13    | Hudson Yards-Chelsea-Flatiron-Union Square | 3        | 10011 | 104    | 8300   | 10083001000 | 0   |     | 
-| 3347     | MN      | Free | LinkNYC - Citybridge | mn-04-108537                                         | 159 8 Avenue                    | 40.74229700000 | -74.00094000000 | 983989.52138700000 | 209715.43852400000 | Outdoor Kiosk  | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi       | LINK-000453 | 2016-04-07T00:00:00 | 1        | Manhattan | MN13    | Hudson Yards-Chelsea-Flatiron-Union Square | 3        | 10011 | 104    | 8300   | 10083001000 | 0   |     | 
-| 959      | MN      | Free | Chelsea              |                                                      | 19th between 9th and 10th r     | 40.74457030860 | -74.00458853680 | 982978.53730800000 | 210543.70921200000 | Outdoor        |                                                  | New York | CICFreeWiFi              |             |                     | 1        | Manhattan | MN13    | Hudson Yards-Chelsea-Flatiron-Union Square | 3        | 10011 | 104    | 8900   | 10089003001 | 0   |     | 
-| 3411     | MN      | Free | LinkNYC - Citybridge | mn-05-122453                                         | 341 7 AVENUE                    | 40.74790400000 | -73.99274500000 | 986260.22691500000 | 211758.32967100000 | Outdoor Kiosk  | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi       | LINK-013873 | 2016-12-16T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South                      | 3        | 10001 | 105    | 9500   | 10095001000 | 0   |     | 
-| 3395     | MN      | Free | LinkNYC - Citybridge | mn-05-121798                                         | 133 E 55 St                     | 40.75980900000 | -73.97036800000 | 992459.01421500000 | 216097.01231200000 | Outdoor Kiosk  | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi       | LINK-000626 | 2017-03-23T00:00:00 | 1        | Manhattan | MN19    | Turtle Bay-East Midtown                    | 4        | 10022 | 105    | 10000  | 10100001000 | 0   |     | 
+| objectid | borough | type | provider             | name         | location           | latitude       | longitude       | x                  | y                  | location_t    | remarks                                          | city     | ssid               | sourceid    | activated           | borocode | boroname  | ntacode | ntaname               | coundist      | zip   | borocd          | ct2010          | bctcb2010           | bin                 | bbl                    | doitt_id | 
+| ======== | ======= | ==== | ==================== | ============ | ================== | ============== | =============== | ================== | ================== | ============= | ================================================ | ======== | ================== | =========== | =================== | ======== | ========= | ======= | ===================== | ============= | ===== | =============== | =============== | =================== | =================== | ====================== | ======== | 
+| 998      | MN      | Free | LinkNYC - Citybridge | mn-05-123662 | 179 WEST 26 STREET | 40.74596800000 | -73.99403900000 | 985901.69530700000 | 211053.13064400000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-008695 | 2017-01-18T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 3.00000000000 | 10001 | 105.00000000000 | 95.00000000000  | 1009500.00000000000 | 0.00000000000       | 0.00000000000          | 1425     | 
+| 999      | MN      | Free | LinkNYC - Citybridge | mn-05-123789 | 25 EAST 29 STREET  | 40.74461400000 | -73.98506900000 | 988387.30947300000 | 210559.94668400000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-014013 | 2017-06-21T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 2.00000000000 | 10016 | 105.00000000000 | 74.00000000000  | 1007400.00000000000 | 1016929.00000000000 | 1008590024.00000000000 | 1426     | 
+| 1000     | MN      | Free | LinkNYC - Citybridge | mn-05-133354 | 1515 BROADWAY      | 40.75766600000 | -73.98587800000 | 988162.25644900000 | 215315.02126300000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-007083 |                     | 1        | Manhattan | MN17    | Midtown-Midtown South | 3.00000000000 | 10036 | 105.00000000000 | 119.00000000000 | 1011900.00000000000 | 1024714.00000000000 | 1010160036.00000000000 | 1427     | 
+| 1001     | MN      | Free | LinkNYC - Citybridge | mn-05-133359 | 201 WEST 48 STREET | 40.75997100000 | -73.98434200000 | 988587.75761700000 | 216155.03344800000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-003309 | 2016-11-10T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 4.00000000000 | 10036 | 105.00000000000 | 125.00000000000 | 1012500.00000000000 | 1076195.00000000000 | 1010200046.00000000000 | 1428     | 
+| 1002     | MN      | Free | LinkNYC - Citybridge | mn-05-133361 | 1600 Broadway      | 40.76041300000 | -73.98454100000 | 988532.65536000000 | 216316.03688100000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-000162 | 2016-07-18T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 4.00000000000 | 10019 | 105.00000000000 | 125.00000000000 | 1012500.00000000000 | 1087187.00000000000 | 1010207502.00000000000 | 1429     | 
+| 1003     | MN      | Free | LinkNYC - Citybridge | mn-05-133505 | 1668 Broadway      | 40.76259300000 | -73.98307700000 | 988938.04546000000 | 217110.48854000000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-000173 | 2016-10-28T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 4.00000000000 | 10019 | 105.00000000000 | 131.00000000000 | 1013100.00000000000 | 1024818.00000000000 | 1010230029.00000000000 | 1430     | 
+| 1004     | MN      | Free | LinkNYC - Citybridge | mn-05-133508 | 1626 Broadway      | 40.76088300000 | -73.98427700000 | 988605.59699200000 | 216487.22433500000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-000168 | 2016-07-18T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 4.00000000000 | 10019 | 105.00000000000 | 125.00000000000 | 1012500.00000000000 | 1024795.00000000000 | 1010210026.00000000000 | 1431     | 
+| 1005     | MN      | Free | LinkNYC - Citybridge | mn-05-133511 | 1606 Broadway      | 40.76063200000 | -73.98428300000 | 988604.08922900000 | 216395.92389200000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-000165 | 2016-07-19T00:00:00 | 1        | Manhattan | MN17    | Midtown-Midtown South | 4.00000000000 | 10019 | 105.00000000000 | 125.00000000000 | 1012500.00000000000 | 1024779.00000000000 | 1010200038.00000000000 | 1432     | 
+| 1006     | MN      | Free | LinkNYC - Citybridge | mn-05-133538 | 300 Madison Ave    | 40.75233500000 | -73.97973800000 | 989863.78714400000 | 213373.34647400000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-000726 | 2017-05-04T00:00:00 | 1        | Manhattan | MN20    | Murray Hill-Kips Bay  | 4.00000000000 | 10017 | 105.00000000000 | 82.00000000000  | 1008200.00000000000 | 1085972.00000000000 | 1012760058.00000000000 | 1433     | 
+| 1007     | MN      | Free | LinkNYC - Citybridge | mn-05-133550 | 370 Lexington Ave  | 40.75083300000 | -73.97681700000 | 990673.37478200000 | 212826.12701300000 | Outdoor Kiosk | Tablet Internet -phone , Free 1 GB Wi-FI Service | New York | LinkNYC Free Wi-Fi | LINK-000666 | 2017-05-19T00:00:00 | 1        | Manhattan | MN20    | Murray Hill-Kips Bay  | 4.00000000000 | 10017 | 105.00000000000 | 80.00000000000  | 1008000.00000000000 | 1036150.00000000000 | 1012950058.00000000000 | 1434     | 
 ```

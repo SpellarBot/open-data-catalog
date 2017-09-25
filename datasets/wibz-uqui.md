@@ -61,11 +61,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:wibz-uqui d:2011-10-31T09:26:03.000Z t:branch="Dongan Hills" t:boro_central_library="Staten Island" t:network="Staten Island Network" m:outreach_services_attendance=8935 m:total_attendance=15368 m:adult_program=66 m:circulation_young_adult=13544 m:juvenile_program=165 m:circulation_adult=68168 m:weekly_hours_of_public_service=42 m:reference_transactions=36478 m:reference_transactions_juvenile=10764 m:juvenile_attendance=4105 m:circulation_juvenile=70811 m:circulation=152523 m:reference_transactions_young_adult=6318 m:reference_transactions_adult=19396 m:young_adult_program=82 m:young_adult_attendance=1005 m:adult_attendance=1323 m:total_program=480 m:outreach_services_program=167
+series e:wibz-uqui d:2011-10-31T09:26:03.000Z t:boro_central_library="Staten Island" t:branch="Dongan Hills" t:network="Staten Island Network" m:reference_transactions_juvenile=10764 m:circulation_young_adult=13544 m:young_adult_program=82 m:juvenile_program=165 m:circulation_adult=68168 m:reference_transactions_adult=19396 m:total_attendance=15368 m:reference_transactions_young_adult=6318 m:total_program=480 m:adult_program=66 m:outreach_services_program=167 m:young_adult_attendance=1005 m:circulation_juvenile=70811 m:circulation=152523 m:weekly_hours_of_public_service=42 m:adult_attendance=1323 m:juvenile_attendance=4105 m:outreach_services_attendance=8935 m:reference_transactions=36478
 
-series e:wibz-uqui d:2011-10-31T09:26:03.000Z t:branch="Great Kills" t:boro_central_library="Staten Island" t:network="Staten Island Network" m:outreach_services_attendance=3030 m:total_attendance=9906 m:adult_program=83 m:circulation_young_adult=14004 m:juvenile_program=215 m:circulation_adult=60629 m:weekly_hours_of_public_service=42 m:reference_transactions=57603 m:reference_transactions_juvenile=9126 m:juvenile_attendance=3809 m:circulation_juvenile=85539 m:circulation=160172 m:reference_transactions_young_adult=9074 m:reference_transactions_adult=39403 m:young_adult_program=60 m:young_adult_attendance=1412 m:adult_attendance=1655 m:total_program=432 m:outreach_services_program=74
+series e:wibz-uqui d:2011-10-31T09:26:03.000Z t:boro_central_library="Staten Island" t:branch="Great Kills" t:network="Staten Island Network" m:reference_transactions_juvenile=9126 m:circulation_young_adult=14004 m:young_adult_program=60 m:juvenile_program=215 m:circulation_adult=60629 m:reference_transactions_adult=39403 m:total_attendance=9906 m:reference_transactions_young_adult=9074 m:total_program=432 m:adult_program=83 m:outreach_services_program=74 m:young_adult_attendance=1412 m:circulation_juvenile=85539 m:circulation=160172 m:weekly_hours_of_public_service=42 m:adult_attendance=1655 m:juvenile_attendance=3809 m:outreach_services_attendance=3030 m:reference_transactions=57603
 
-series e:wibz-uqui d:2011-10-31T09:26:03.000Z t:branch="Huguenot Park" t:boro_central_library="Staten Island" t:network="Staten Island Network" m:outreach_services_attendance=278 m:total_attendance=5240 m:adult_program=94 m:circulation_young_adult=22124 m:juvenile_program=140 m:circulation_adult=98731 m:weekly_hours_of_public_service=44 m:reference_transactions=71292 m:reference_transactions_juvenile=18941 m:juvenile_attendance=3389 m:circulation_juvenile=124491 m:circulation=245346 m:reference_transactions_young_adult=15652 m:reference_transactions_adult=36699 m:young_adult_program=44 m:young_adult_attendance=400 m:adult_attendance=1173 m:total_program=288 m:outreach_services_program=10
+series e:wibz-uqui d:2011-10-31T09:26:03.000Z t:boro_central_library="Staten Island" t:branch="Huguenot Park" t:network="Staten Island Network" m:reference_transactions_juvenile=18941 m:circulation_young_adult=22124 m:young_adult_program=44 m:juvenile_program=140 m:circulation_adult=98731 m:reference_transactions_adult=36699 m:total_attendance=5240 m:reference_transactions_young_adult=15652 m:total_program=288 m:adult_program=94 m:outreach_services_program=10 m:young_adult_attendance=400 m:circulation_juvenile=124491 m:circulation=245346 m:weekly_hours_of_public_service=44 m:adult_attendance=1173 m:juvenile_attendance=3389 m:outreach_services_attendance=278 m:reference_transactions=71292
 ```
 
 ## Meta Commands
@@ -111,11 +111,11 @@ metric m:weekly_hours_of_public_service p:integer l:"Weekly Hours of Public Serv
 
 entity e:wibz-uqui l:"NYPL Branch Services - Staten Island" t:attribution="New York Public Library (NYPL)" t:url=https://data.cityofnewyork.us/api/views/wibz-uqui
 
-property e:wibz-uqui t:meta.view d:2017-06-09T13:52:18.002Z v:id=wibz-uqui v:category=Recreation v:averageRating=0 v:name="NYPL Branch Services - Staten Island" v:attribution="New York Public Library (NYPL)"
+property e:wibz-uqui t:meta.view d:2017-09-25T07:23:38.076Z v:averageRating=0 v:name="NYPL Branch Services - Staten Island" v:attribution="New York Public Library (NYPL)" v:id=wibz-uqui v:category=Recreation
 
-property e:wibz-uqui t:meta.view.owner d:2017-06-09T13:52:18.002Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:wibz-uqui t:meta.view.owner d:2017-09-25T07:23:38.076Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:wibz-uqui t:meta.view.tableauthor d:2017-06-09T13:52:18.002Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:wibz-uqui t:meta.view.tableauthor d:2017-09-25T07:23:38.076Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records

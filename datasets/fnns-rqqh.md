@@ -12,7 +12,7 @@
 | Id | fnns-rqqh |
 | Name | Weatherization Assistance Program |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | weatherization, assistance, weatherization assistance program, energy, savings |
 | Created | 2016-09-06T16:43:36Z |
 | Publication Date | 2016-09-30T18:29:51Z |
@@ -54,13 +54,13 @@ metric m:homes_receiving_weatherization p:integer l:"Homes Receiving Weatherizat
 
 entity e:fnns-rqqh l:"Weatherization Assistance Program" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/fnns-rqqh
 
-property e:fnns-rqqh t:meta.view d:2017-06-09T13:55:54.006Z v:id=fnns-rqqh v:category=Utility v:averageRating=0 v:name="Weatherization Assistance Program" v:attribution="Austin Energy"
+property e:fnns-rqqh t:meta.view d:2017-09-25T07:27:18.234Z v:averageRating=0 v:name="Weatherization Assistance Program" v:attribution="Austin Energy" v:id=fnns-rqqh v:category="Utilities and City Services"
 
-property e:fnns-rqqh t:meta.view.license d:2017-06-09T13:55:54.006Z v:name="Public Domain"
+property e:fnns-rqqh t:meta.view.license d:2017-09-25T07:27:18.234Z v:name="Public Domain"
 
-property e:fnns-rqqh t:meta.view.owner d:2017-06-09T13:55:54.006Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:fnns-rqqh t:meta.view.owner d:2017-09-25T07:27:18.234Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 
-property e:fnns-rqqh t:meta.view.tableauthor d:2017-06-09T13:55:54.006Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
+property e:fnns-rqqh t:meta.view.tableauthor d:2017-09-25T07:27:18.234Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 ```
 
 ## Top Records

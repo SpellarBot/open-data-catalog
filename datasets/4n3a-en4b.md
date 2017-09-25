@@ -57,11 +57,11 @@ Excluded Fields = expiration_date
 ## Data Commands
 
 ```ls
-series e:4n3a-en4b d:2009-05-15T00:00:00.000Z t:facility_city=FREEPORT t:permit_id=1-2820-00358/00002 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf t:facility_name="FREEPORT POWER PLANT #2" t:facility_zip=11520 t:facility_location="289 BUFFALO AVE" t:facility_state=NY m:row_number.4n3a-en4b=1
+series e:4n3a-en4b d:2009-05-15T00:00:00.000Z t:facility_city=FREEPORT t:permit_id=1-2820-00358/00002 t:facility_location="289 BUFFALO AVE" t:facility_state=NY t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf t:facility_zip=11520 t:facility_name="FREEPORT POWER PLANT #2" m:row_number.4n3a-en4b=1
 
-series e:4n3a-en4b d:2013-04-24T00:00:00.000Z t:facility_city=HEMPSTEAD t:permit_id=1-2820-00457/00003 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf t:facility_name="HOFSTRA UNIVERSITY" t:facility_zip=11550 t:facility_location="1000 FULTON AVE" t:facility_state=NY m:row_number.4n3a-en4b=2
+series e:4n3a-en4b d:2013-04-24T00:00:00.000Z t:facility_city=HEMPSTEAD t:permit_id=1-2820-00457/00003 t:facility_location="1000 FULTON AVE" t:facility_state=NY t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200045700003_r2.pdf t:facility_zip=11550 t:facility_name="HOFSTRA UNIVERSITY" m:row_number.4n3a-en4b=2
 
-series e:4n3a-en4b d:2011-02-24T00:00:00.000Z t:facility_city="ISLAND PARK" t:permit_id=1-2820-00553/00025 t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf t:facility_name="EF BARRETT POWER STATION" t:facility_zip=11558 t:facility_location="1 MCCARTHY RD" t:facility_state=NY m:row_number.4n3a-en4b=3
+series e:4n3a-en4b d:2011-02-24T00:00:00.000Z t:facility_city="ISLAND PARK" t:permit_id=1-2820-00553/00025 t:facility_location="1 MCCARTHY RD" t:facility_state=NY t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200055300025_r2_1.pdf t:facility_zip=11558 t:facility_name="EF BARRETT POWER STATION" m:row_number.4n3a-en4b=3
 ```
 
 ## Meta Commands
@@ -71,11 +71,11 @@ metric m:row_number.4n3a-en4b p:long l:"Row Number"
 
 entity e:4n3a-en4b l:"Issued Title V Facility Permits" t:attribution="New York State Department of Environmental Conservation" t:url=https://data.ny.gov/api/views/4n3a-en4b
 
-property e:4n3a-en4b t:meta.view d:2017-06-09T13:55:40.924Z v:id=4n3a-en4b v:category="Energy & Environment" v:attributionLink=http://www.dec.ny.gov/dardata/boss/afs/issued_atv.html v:averageRating=0 v:name="Issued Title V Facility Permits" v:attribution="New York State Department of Environmental Conservation"
+property e:4n3a-en4b t:meta.view d:2017-09-25T07:27:04.478Z v:averageRating=0 v:name="Issued Title V Facility Permits" v:attribution="New York State Department of Environmental Conservation" v:attributionLink=http://www.dec.ny.gov/dardata/boss/afs/issued_atv.html v:id=4n3a-en4b v:category="Energy & Environment"
 
-property e:4n3a-en4b t:meta.view.owner d:2017-06-09T13:55:40.924Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:4n3a-en4b t:meta.view.owner d:2017-09-25T07:27:04.478Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:4n3a-en4b t:meta.view.tableauthor d:2017-06-09T13:55:40.924Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:4n3a-en4b t:meta.view.tableauthor d:2017-09-25T07:27:04.478Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 ```
 
 ## Top Records

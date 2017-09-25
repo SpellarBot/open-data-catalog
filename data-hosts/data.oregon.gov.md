@@ -173,7 +173,7 @@ Name | Category | Published
 [Contracts: Treasury: Fiscal Year 2011](../datasets/6h93-vmtc.md) | Revenue & Expense | 2011&#x2011;12&#x2011;18
 [Contracts: Treasury: Fiscal Year 2012](../datasets/vpzu-i3hc.md) | Revenue & Expense | 2012&#x2011;12&#x2011;18
 [Correctional Institutions](../datasets/fqhs-84r4.md) | Government | 2011&#x2011;04&#x2011;17
-[County Lottery Fund Expenditures: 2015-2016 Composite](../datasets/c8sw-khn9.md) | Revenue & Expense | 2016&#x2011;11&#x2011;20
+[County Lottery Fund Expenditures: 2015-2016 Composite](../datasets/c8sw-khn9.md) | Revenue & Expense | 2017&#x2011;07&#x2011;11
 [DEQ Comments](../datasets/s95x-tpzn.md) | Natural Resources | 2013&#x2011;08&#x2011;07
 [DEQ Director Reqruitment](../datasets/c2nt-2xqc.md) | Administrative | 2016&#x2011;09&#x2011;07
 [DEQ Director's Recruitment](../datasets/89y3-qkr8.md) |  | 2017&#x2011;01&#x2011;19
@@ -275,7 +275,7 @@ Name | Category | Published
 [Maker Spaces, Business Incubators & Accelerators](../datasets/wpin-z8u6.md) | Business | 2017&#x2011;04&#x2011;20
 [Marketplace-events](../datasets/y9z5-dqiu.md) | Health & Human Services | 2016&#x2011;11&#x2011;14
 [Medford Limited Maintenance Plan](../datasets/pjba-5k5q.md) |  | 2015&#x2011;09&#x2011;24
-[New Business List - April](../datasets/5qwt-pfng.md) | Business | 2016&#x2011;05&#x2011;02
+[New Business List - April](../datasets/5qwt-pfng.md) | Business | 2017&#x2011;07&#x2011;05
 [New Business List - December](../datasets/fizx-mxwm.md) | Business | 2017&#x2011;02&#x2011;14
 [New Business List - February](../datasets/rzbk-bycp.md) | Business | 2017&#x2011;04&#x2011;04
 [New Business List - January](../datasets/v44b-kxkg.md) | Business | 2017&#x2011;03&#x2011;01

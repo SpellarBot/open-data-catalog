@@ -52,11 +52,11 @@ Excluded Fields = start_date_of_distribution,end_or_only_date_of_distribution
 ## Data Commands
 
 ```ls
-series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-013 t:form_type=496 t:candidate_identified="Joshua Arce" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 9" m:amount=5000
+series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:report_number=VA-G16-013 t:district="Board of Supervisors District 9" t:filer="San Franciscans for a City that Works" t:candidate_identified="Joshua Arce" t:form_type=496 m:amount=5000
 
-series e:7i7v-m2wn d:2016-08-18T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-008 t:form_type=496 t:candidate_identified="Marjan Philhour" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 1" m:amount=5000
+series e:7i7v-m2wn d:2016-08-18T00:00:00.000Z t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:report_number=VA-G16-008 t:district="Board of Supervisors District 1" t:filer="San Franciscans for a City that Works" t:candidate_identified="Marjan Philhour" t:form_type=496 m:amount=5000
 
-series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:filer="San Franciscans for a City that Works" t:report_number=VA-G16-012 t:form_type=496 t:candidate_identified="Marjan Philhour" t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:district="Board of Supervisors District 1" m:amount=5000
+series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z t:support_oppose_or_neutral=Support t:filer_id=1384192 t:notes="Web Ads" t:report_number=VA-G16-012 t:district="Board of Supervisors District 1" t:filer="San Franciscans for a City that Works" t:candidate_identified="Marjan Philhour" t:form_type=496 m:amount=5000
 ```
 
 ## Meta Commands
@@ -66,13 +66,13 @@ metric m:amount p:double l:Amount t:dataTypeName=money
 
 entity e:7i7v-m2wn l:"Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/7i7v-m2wn
 
-property e:7i7v-m2wn t:meta.view d:2017-06-09T13:58:10.508Z v:id=7i7v-m2wn v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org v:averageRating=0 v:name="Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016" v:attribution="San Francisco Ethics Commission"
+property e:7i7v-m2wn t:meta.view d:2017-09-25T07:29:31.663Z v:averageRating=0 v:name="Campaign Finance - Summary Of Third Party Disclosure Forms Regarding San Francisco Candidates - November 8, 2016" v:attribution="San Francisco Ethics Commission" v:attributionLink=http://www.sfethics.org v:id=7i7v-m2wn v:category="City Management and Ethics"
 
-property e:7i7v-m2wn t:meta.view.license d:2017-06-09T13:58:10.508Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:7i7v-m2wn t:meta.view.license d:2017-09-25T07:29:31.663Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:7i7v-m2wn t:meta.view.owner d:2017-06-09T13:58:10.508Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:7i7v-m2wn t:meta.view.owner d:2017-09-25T07:29:31.663Z v:displayName="Steven Massey" v:lastNotificationSeenAt=1498669627 v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:id=vm9c-ykir v:screenName="Steven Massey" v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB
 
-property e:7i7v-m2wn t:meta.view.tableauthor d:2017-06-09T13:58:10.508Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:7i7v-m2wn t:meta.view.tableauthor d:2017-09-25T07:29:31.663Z v:displayName="Steven Massey" v:lastNotificationSeenAt=1498669627 v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:id=vm9c-ykir v:screenName="Steven Massey" v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB
 ```
 
 ## Top Records

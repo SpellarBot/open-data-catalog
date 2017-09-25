@@ -66,11 +66,11 @@ Excluded Fields = enacted_date,effective_date,displayorder,year,quarter
 ## Data Commands
 
 ```ls
-series e:8zea-kwnt d:1995-10-01T00:00:00.000Z t:locationabbr=AK t:locationdesc=Alaska t:topicid=1045LEG t:provisiondesc="Restriction on Access" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Restrictions t:provisiongroupid=10GRP t:provisionvalue="No Provision" t:provisionid=495 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:8zea-kwnt d:1995-10-01T00:00:00.000Z t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiondesc="Restriction on Access" t:locationabbr=AK t:locationdesc=Alaska t:topicdesc="Legislation - E-Cigarette - Youth Access" t:provisionid=495 t:topicid=1045LEG t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG t:provisionvalue="No Provision" t:provisiongroupid=10GRP t:provisiongroupdesc=Restrictions m:provisionaltvalue=0
 
-series e:8zea-kwnt d:2006-10-01T00:00:00.000Z t:locationabbr=MT t:locationdesc=Montana t:topicid=1045LEG t:provisiondesc="Maximum Penalty ($)" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Penalties t:provisiongroupid=60GRP t:provisionvalue="No Provision" t:provisionid=506 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Money t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:8zea-kwnt d:2006-10-01T00:00:00.000Z t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiondesc="Maximum Penalty ($)" t:locationabbr=MT t:locationdesc=Montana t:topicdesc="Legislation - E-Cigarette - Youth Access" t:provisionid=506 t:topicid=1045LEG t:datatype=Money t:datasource=OSH t:topictypeid=LEG t:provisionvalue="No Provision" t:provisiongroupid=60GRP t:provisiongroupdesc=Penalties m:provisionaltvalue=0
 
-series e:8zea-kwnt d:2008-01-01T00:00:00.000Z t:locationabbr=DC t:locationdesc="District of Columbia" t:topicid=1045LEG t:provisiondesc="Minimum Penalty ($)" t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiongroupdesc=Penalties t:provisiongroupid=60GRP t:provisionvalue="No Provision" t:provisionid=505 t:topicdesc="Legislation - E-Cigarette - Youth Access" t:datatype=Money t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:8zea-kwnt d:2008-01-01T00:00:00.000Z t:measureid=1024EVM t:measuredesc="E-Cigarette Vending Machines" t:provisiondesc="Minimum Penalty ($)" t:locationabbr=DC t:locationdesc="District of Columbia" t:topicdesc="Legislation - E-Cigarette - Youth Access" t:provisionid=505 t:topicid=1045LEG t:datatype=Money t:datasource=OSH t:topictypeid=LEG t:provisionvalue="No Provision" t:provisiongroupid=60GRP t:provisiongroupdesc=Penalties m:provisionaltvalue=0
 ```
 
 ## Meta Commands
@@ -80,15 +80,15 @@ metric m:provisionaltvalue p:double l:ProvisionAltValue d:"Alternate numeric val
 
 entity e:8zea-kwnt l:"CDC STATE System E-Cigarette Legislation - Youth Access" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://data.cdc.gov/api/views/8zea-kwnt
 
-property e:8zea-kwnt t:meta.view d:2017-06-09T14:00:45.091Z v:id=8zea-kwnt v:category=Legislation v:attributionLink=http://www.cdc.gov/STATESystem v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Youth Access" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
+property e:8zea-kwnt t:meta.view d:2017-09-25T07:32:01.091Z v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Youth Access" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" v:attributionLink=http://www.cdc.gov/STATESystem v:id=8zea-kwnt v:category=Legislation
 
-property e:8zea-kwnt t:meta.view.license d:2017-06-09T14:00:45.091Z v:name="Public Domain"
+property e:8zea-kwnt t:meta.view.license d:2017-09-25T07:32:01.091Z v:name="Public Domain"
 
-property e:8zea-kwnt t:meta.view.owner d:2017-06-09T14:00:45.091Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
+property e:8zea-kwnt t:meta.view.owner d:2017-09-25T07:32:01.091Z v:displayName=OSHData v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:id=p5wh-zttj v:screenName=OSHData v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB
 
-property e:8zea-kwnt t:meta.view.tableauthor d:2017-06-09T14:00:45.091Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:8zea-kwnt t:meta.view.tableauthor d:2017-09-25T07:32:01.091Z v:displayName=OSHData v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:id=p5wh-zttj v:screenName=OSHData v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB
 
-property e:8zea-kwnt t:meta.view.metadata.custom_fields.common_core d:2017-06-09T14:00:45.091Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:8zea-kwnt t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:32:01.091Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

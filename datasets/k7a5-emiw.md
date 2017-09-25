@@ -51,11 +51,11 @@ Excluded Fields = time_stamp_start,time_stamp_end
 ## Data Commands
 
 ```ls
-series e:k7a5-emiw d:2014-02-24T12:39:00.000Z t:officer_id=7693 t:file_size="47.783 MB" t:resolution=720x480 t:frame_range=598-897 t:file_name=76936@20140224123907.mpg t:time_range=00:00:19-00:00:29 m:duration=10.82 m:dropped_frames=24 m:fps=27.64
+series e:k7a5-emiw d:2014-02-24T12:39:00.000Z t:officer_id=7693 t:time_range=00:00:19-00:00:29 t:file_name=76936@20140224123907.mpg t:frame_range=598-897 t:resolution=720x480 t:file_size="47.783 MB" m:duration=10.82 m:fps=27.64 m:dropped_frames=24
 
-series e:k7a5-emiw d:2014-03-10T19:21:05.000Z t:officer_id=7693 t:file_size="28.075 MB" t:resolution=720x480 t:frame_range=598-897 t:file_name=76936@20140310192154.mpg t:time_range=00:00:19-00:00:29 m:duration=11.91 m:dropped_frames=57 m:fps=25.1
+series e:k7a5-emiw d:2014-03-10T19:21:05.000Z t:officer_id=7693 t:time_range=00:00:19-00:00:29 t:file_name=76936@20140310192154.mpg t:frame_range=598-897 t:resolution=720x480 t:file_size="28.075 MB" m:duration=11.91 m:fps=25.1 m:dropped_frames=57
 
-series e:k7a5-emiw d:2014-03-10T19:21:05.000Z t:officer_id=7693 t:file_size="28.075 MB" t:resolution=720x480 t:frame_range=1196-1495 t:file_name=76936@20140310192154.mpg t:time_range=00:00:39-00:00:49 m:duration=13.68 m:dropped_frames=110 m:fps=21.86
+series e:k7a5-emiw d:2014-03-10T19:21:05.000Z t:officer_id=7693 t:time_range=00:00:39-00:00:49 t:file_name=76936@20140310192154.mpg t:frame_range=1196-1495 t:resolution=720x480 t:file_size="28.075 MB" m:duration=13.68 m:fps=21.86 m:dropped_frames=110
 ```
 
 ## Meta Commands
@@ -69,11 +69,11 @@ metric m:dropped_frames p:integer l:"Dropped Frames" d:"Count of dropped frames 
 
 entity e:k7a5-emiw l:"Seattle Police Department In-Car Video Dropped Frame Report" t:attribution="Seattle Police" t:url=https://data.seattle.gov/api/views/k7a5-emiw
 
-property e:k7a5-emiw t:meta.view d:2017-06-09T13:57:04.621Z v:id=k7a5-emiw v:category="Public Safety" v:averageRating=0 v:name="Seattle Police Department In-Car Video Dropped Frame Report" v:attribution="Seattle Police"
+property e:k7a5-emiw t:meta.view d:2017-09-25T07:28:26.389Z v:averageRating=0 v:name="Seattle Police Department In-Car Video Dropped Frame Report" v:attribution="Seattle Police" v:id=k7a5-emiw v:category="Public Safety"
 
-property e:k7a5-emiw t:meta.view.owner d:2017-06-09T13:57:04.621Z v:id=avyg-ej9j v:screenName=spd2internetData v:displayName=spd2internetData
+property e:k7a5-emiw t:meta.view.owner d:2017-09-25T07:28:26.389Z v:displayName=spd2internetData v:id=avyg-ej9j v:screenName=spd2internetData
 
-property e:k7a5-emiw t:meta.view.tableauthor d:2017-06-09T13:57:04.621Z v:id=avyg-ej9j v:screenName=spd2internetData v:roleName=publisher v:displayName=spd2internetData
+property e:k7a5-emiw t:meta.view.tableauthor d:2017-09-25T07:28:26.389Z v:displayName=spd2internetData v:roleName=publisher v:id=avyg-ej9j v:screenName=spd2internetData
 ```
 
 ## Top Records

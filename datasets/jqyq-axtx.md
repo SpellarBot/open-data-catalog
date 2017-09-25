@@ -64,11 +64,11 @@ Excluded Fields = quarter,datelabel,quarter_label,year
 ## Data Commands
 
 ```ls
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization=Budget t:indicatorid=101 t:action_aggregation="Maintain Below" t:direction=Under t:name="Avg. days to approve requisitions for the purchase of goods or services" t:target=1 t:seasonality="Not Seasonal" t:type=Average t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31" t:note="6,973 requisitions approved in 2016." m:total=0.63 m:ytd=0.634975982 m:value=0.63
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:note="6,973 requisitions approved in 2016." t:indicatorid=101 t:action_aggregation="Maintain Below" t:organization=Budget t:name="Avg. days to approve requisitions for the purchase of goods or services" t:strategyid=20103 t:type=Average t:seasonality="Not Seasonal" t:target=1 t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31" t:direction=Under m:total=0.63 m:ytd=0.634975982 m:value=0.63
 
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=40103 t:organization="Capital Projects" t:indicatorid=201 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of projects delivered on schedule" t:target=80% t:seasonality="Not Seasonal" t:type="Average Percent" t:rowid="Percent of projects delivered on schedule_2016-03-31" t:note="111 of 140 project milestones delivered on schedule in 2016." m:percent=82.4 m:value=82.4
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:note="111 of 140 project milestones delivered on schedule in 2016." t:indicatorid=201 t:action_aggregation="Maintain Above" t:organization="Capital Projects" t:name="Percent of projects delivered on schedule" t:strategyid=40103 t:type="Average Percent" t:seasonality="Not Seasonal" t:target=80% t:rowid="Percent of projects delivered on schedule_2016-03-31" t:direction=Over m:percent=82.4 m:value=82.4
 
-series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:strategyid=20103 t:organization="Capital Projects" t:indicatorid=203 t:action_aggregation="Maintain Above" t:direction=Over t:name="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds" t:target=80% t:seasonality="Not Seasonal" t:type="Average Percent" t:rowid="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds_2016-03-31" t:note="387 of 451 invoices paid within respective time periods in 2016." m:percent=82.1 m:value=82.1
+series e:jqyq-axtx d:2016-03-31T00:00:00.000Z t:note="387 of 451 invoices paid within respective time periods in 2016." t:indicatorid=203 t:action_aggregation="Maintain Above" t:organization="Capital Projects" t:name="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds" t:strategyid=20103 t:type="Average Percent" t:seasonality="Not Seasonal" t:target=80% t:rowid="Percent of invoices paid within 30 days for bonds, 60 days for revolver funds, and 60 days for DCDBG funds_2016-03-31" t:direction=Over m:percent=82.1 m:value=82.1
 ```
 
 ## Meta Commands
@@ -84,13 +84,13 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:jqyq-axtx l:"ResultsNOLA (historic)" t:attribution="City of New Orleans" t:url=https://data.nola.gov/api/views/jqyq-axtx
 
-property e:jqyq-axtx t:meta.view d:2017-06-09T13:53:10.159Z v:id=jqyq-axtx v:category="City Administration" v:averageRating=0 v:name="ResultsNOLA (historic)" v:attribution="City of New Orleans"
+property e:jqyq-axtx t:meta.view d:2017-09-25T07:24:28.196Z v:averageRating=0 v:name="ResultsNOLA (historic)" v:attribution="City of New Orleans" v:id=jqyq-axtx v:category="City Administration"
 
-property e:jqyq-axtx t:meta.view.owner d:2017-06-09T13:53:10.159Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:jqyq-axtx t:meta.view.owner d:2017-09-25T07:24:28.196Z v:displayName=mschigoda v:id=ii98-542e v:screenName=mschigoda
 
-property e:jqyq-axtx t:meta.view.tableauthor d:2017-06-09T13:53:10.159Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:jqyq-axtx t:meta.view.tableauthor d:2017-09-25T07:24:28.196Z v:displayName=mschigoda v:roleName=publisher v:id=ii98-542e v:screenName=mschigoda
 
-property e:jqyq-axtx t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:10.159Z v:Contact_Email=data@nola.gov
+property e:jqyq-axtx t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:24:28.196Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

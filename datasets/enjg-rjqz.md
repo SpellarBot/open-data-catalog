@@ -15,7 +15,7 @@
 | Category | Business and Economy |
 | Tags | maryland, state, compare, spending, obligations, research, development, awards, contracts, patents |
 | Created | 2013-08-20T17:52:53Z |
-| Publication Date | 2017-03-22T19:52:56Z |
+| Publication Date | 2017-08-16T17:50:47Z |
 
 ## Description
 
@@ -44,11 +44,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alabama m:nih_rd_awards=25399511 m:federal_rd_spending_obligations=4537952 m:sbir_awards_per_capita=7.03 m:patents_per_100k=9.7
+series e:enjg-rjqz d:2017-08-16T17:50:21.000Z t:state=Alabama m:patents_per_100k=10.1 m:nih_rd_awards=25399511 m:sbir_awards_per_capita=4.57 m:federal_rd_spending_obligations=4537952
 
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Alaska m:nih_rd_awards=0 m:federal_rd_spending_obligations=208043.9 m:sbir_awards_per_capita=0.2 m:patents_per_100k=5.4
+series e:enjg-rjqz d:2017-08-16T17:50:21.000Z t:state=Alaska m:patents_per_100k=7.3 m:nih_rd_awards=0 m:sbir_awards_per_capita=0.26 m:federal_rd_spending_obligations=208043.9
 
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Arizona m:nih_rd_awards=3186536 m:federal_rd_spending_obligations=1643746.2 m:sbir_awards_per_capita=2.83 m:patents_per_100k=37.2
+series e:enjg-rjqz d:2017-08-16T17:50:21.000Z t:state=Arizona m:patents_per_100k=39.2 m:nih_rd_awards=3186536 m:sbir_awards_per_capita=3.33 m:federal_rd_spending_obligations=1643746.2
 ```
 
 ## Meta Commands
@@ -56,7 +56,7 @@ series e:enjg-rjqz d:2017-03-22T19:52:37.000Z t:state=Arizona m:nih_rd_awards=31
 ```ls
 metric m:federal_rd_spending_obligations p:double l:"Federal R&D Spending/Obligations ($ Thousands)" t:dataTypeName=money
 
-metric m:nih_rd_awards p:integer l:"National Institutes of Health R&D Contract Awards ($ Dollars)" t:dataTypeName=money
+metric m:nih_rd_awards p:double l:"National Institutes of Health R&D Contract Awards ($ Dollars)" t:dataTypeName=money
 
 metric m:sbir_awards_per_capita p:double l:"SBIR Awards, Value Per Capita ($ Dollars)" t:dataTypeName=money
 
@@ -64,11 +64,11 @@ metric m:patents_per_100k p:float l:"Number of Patents Issued per 100,000 Popula
 
 entity e:enjg-rjqz l:"Choose Maryland:  Compare States - Technology" t:attribution="Maryland Department of Commerce" t:url=https://data.maryland.gov/api/views/enjg-rjqz
 
-property e:enjg-rjqz t:meta.view d:2017-06-09T13:51:05.133Z v:id=enjg-rjqz v:category="Business and Economy" v:attributionLink=http://commerce.maryland.gov v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Commerce"
+property e:enjg-rjqz t:meta.view d:2017-09-25T07:22:29.236Z v:averageRating=0 v:name="Choose Maryland:  Compare States - Technology" v:attribution="Maryland Department of Commerce" v:attributionLink=http://commerce.maryland.gov v:id=enjg-rjqz v:category="Business and Economy"
 
-property e:enjg-rjqz t:meta.view.owner d:2017-06-09T13:51:05.133Z v:id=m2gt-bxeg v:screenName="Mike Grandel" v:displayName="Mike Grandel"
+property e:enjg-rjqz t:meta.view.owner d:2017-09-25T07:22:29.236Z v:displayName="Mike Grandel" v:id=m2gt-bxeg v:screenName="Mike Grandel"
 
-property e:enjg-rjqz t:meta.view.tableauthor d:2017-06-09T13:51:05.133Z v:id=m2gt-bxeg v:screenName="Mike Grandel" v:roleName=editor v:displayName="Mike Grandel"
+property e:enjg-rjqz t:meta.view.tableauthor d:2017-09-25T07:22:29.236Z v:displayName="Mike Grandel" v:roleName=editor v:id=m2gt-bxeg v:screenName="Mike Grandel"
 ```
 
 ## Top Records
@@ -76,14 +76,14 @@ property e:enjg-rjqz t:meta.view.tableauthor d:2017-06-09T13:51:05.133Z v:id=m2g
 ```ls
 | :updated_at | state       | federal_rd_spending_obligations | nih_rd_awards | sbir_awards_per_capita | patents_per_100k | 
 | =========== | =========== | =============================== | ============= | ====================== | ================ | 
-| 1490212357  | Alabama     | 4537952.0                       | 25399511      | 7.03                   | 9.7              | 
-| 1490212357  | Alaska      | 208043.9                        | 0             | 0.20                   | 5.4              | 
-| 1490212357  | Arizona     | 1643746.2                       | 3186536       | 2.83                   | 37.2             | 
-| 1490212357  | Arkansas    | 105595.5                        | 1758464       | 2.48                   | 7.8              | 
-| 1490212357  | California  | 15280643.1                      | 91438716      | 8.49                   | 102.7            | 
-| 1490212357  | Colorado    | 3506387.5                       | 6547016       | 15.04                  | 55.8             | 
-| 1490212357  | Connecticut | 2292751.1                       | 3533404       | 6.89                   | 60.1             | 
-| 1490212357  | Delaware    | 108102.9                        | 0             | 9.55                   | 38.2             | 
-| 1490212357  | Florida     | 2932695.7                       | 3501386       | 2.33                   | 20.0             | 
-| 1490212357  | Georgia     | 1182449.5                       | 21414017      | 1.36                   | 24.1             | 
+| 1502905821  | Alabama     | 4537952.00                      | 25399511.00   | 4.57                   | 10.1             | 
+| 1502905821  | Alaska      | 208043.90                       | 0.00          | 0.26                   | 7.3              | 
+| 1502905821  | Arizona     | 1643746.20                      | 3186536.00    | 3.33                   | 39.2             | 
+| 1502905821  | Arkansas    | 105595.50                       | 1758464.00    | 1.52                   | 8.1              | 
+| 1502905821  | California  | 15280643.10                     | 91438716.00   | 9.99                   | 104.0            | 
+| 1502905821  | Colorado    | 3506387.50                      | 6547016.00    | 14.17                  | 54.8             | 
+| 1502905821  | Connecticut | 2292751.10                      | 3533404.00    | 8.61                   | 64.8             | 
+| 1502905821  | Delaware    | 108102.90                       | 0.00          | 13.41                  | 33.8             | 
+| 1502905821  | Florida     | 2932695.70                      | 3501386.00    | 2.10                   | 20.6             | 
+| 1502905821  | Georgia     | 1182449.50                      | 21414017.00   | 1.88                   | 24.1             | 
 ```

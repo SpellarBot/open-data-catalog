@@ -104,11 +104,11 @@ Excluded Fields = address,alarm_dttm,arrival_dttm,close_dttm
 ## Data Commands
 
 ```ls
-series e:wr8u-xric d:2009-04-12T00:00:00.000Z t:first_unit_on_scene=T15 t:primary_situation="551 - assist pd or other govern. agency" t:property_use="000 - property use, other" t:action_taken_other=- t:station_area=15 t:call_number=091020273 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="52 - forcible entry" t:action_taken_secondary=- t:incident_number=09030109 t:city=SF m:suppression_units=1 m:other_personnel=0 m:ems_units=0 m:ems_personnel=0 m:other_units=0 m:civilian_fatalities=0 m:suppression_personnel=5 m:fire_fatalities=0 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2009-04-12T00:00:00.000Z t:mutual_aid=none t:property_use="000 - property use, other" t:call_number=091020273 t:detector_alerted_occupants=- t:action_taken_primary="52 - forcible entry" t:city=SF t:first_unit_on_scene=T15 t:exposure_number=0 t:station_area=15 t:incident_number=09030109 t:battalion=B09 t:primary_situation="551 - assist pd or other govern. agency" t:action_taken_secondary=- t:action_taken_other=- m:ems_personnel=0 m:fire_fatalities=0 m:fire_injuries=0 m:ems_units=0 m:suppression_personnel=5 m:other_personnel=0 m:suppression_units=1 m:other_units=0 m:civilian_injuries=0 m:civilian_fatalities=0
 
-series e:wr8u-xric d:2013-07-18T00:00:00.000Z t:first_unit_on_scene=E39 t:primary_situation="745 - alarm system sounded/no fire-accidental" t:property_use="429 - multifamily dwellings" t:action_taken_other=- t:station_area=39 t:call_number=131990117 t:mutual_aid=none t:detector_alerted_occupants=- t:exposure_number=0 t:battalion=B09 t:action_taken_primary="86 - investigate" t:action_taken_secondary=- t:box=8571 t:incident_number=13067402 t:city=SF m:suppression_units=3 m:other_personnel=0 m:ems_units=0 m:ems_personnel=0 m:other_units=0 m:civilian_fatalities=0 m:suppression_personnel=11 m:fire_fatalities=0 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2013-07-18T00:00:00.000Z t:mutual_aid=none t:property_use="429 - multifamily dwellings" t:call_number=131990117 t:detector_alerted_occupants=- t:action_taken_primary="86 - investigate" t:city=SF t:first_unit_on_scene=E39 t:exposure_number=0 t:station_area=39 t:box=8571 t:incident_number=13067402 t:battalion=B09 t:primary_situation="745 - alarm system sounded/no fire-accidental" t:action_taken_secondary=- t:action_taken_other=- m:ems_personnel=0 m:fire_fatalities=0 m:fire_injuries=0 m:ems_units=0 m:suppression_personnel=11 m:other_personnel=0 m:suppression_units=3 m:other_units=0 m:civilian_injuries=0 m:civilian_fatalities=0
 
-series e:wr8u-xric d:2012-05-13T00:00:00.000Z t:primary_situation="711 - municipal alarm system, street box false" t:property_use="963 - street or road in commercial area" t:station_area=01 t:mutual_aid=none t:zipcode=94103 t:detector_alerted_occupants=- t:neighborhood_district="South of Market" t:exposure_number=0 t:incident_number=12044490 t:supervisor_district=6 t:city=SF t:first_unit_on_scene=B03 t:action_taken_other=- t:call_number=121340051 t:battalion=B03 t:action_taken_secondary=- t:action_taken_primary="86 - investigate" m:suppression_units=3 m:other_personnel=0 m:ems_units=0 m:ems_personnel=0 m:other_units=0 m:civilian_fatalities=0 m:suppression_personnel=10 m:fire_fatalities=0 m:fire_injuries=0 m:civilian_injuries=0
+series e:wr8u-xric d:2012-05-13T00:00:00.000Z t:mutual_aid=none t:property_use="963 - street or road in commercial area" t:call_number=121340051 t:detector_alerted_occupants=- t:action_taken_primary="86 - investigate" t:city=SF t:first_unit_on_scene=B03 t:exposure_number=0 t:station_area=01 t:incident_number=12044490 t:battalion=B03 t:supervisor_district=6 t:primary_situation="711 - municipal alarm system, street box false" t:zipcode=94103 t:action_taken_secondary=- t:action_taken_other=- t:neighborhood_district="South of Market" m:ems_personnel=0 m:fire_fatalities=0 m:fire_injuries=0 m:ems_units=0 m:suppression_personnel=10 m:other_personnel=0 m:suppression_units=3 m:other_units=0 m:civilian_injuries=0 m:civilian_fatalities=0
 ```
 
 ## Meta Commands
@@ -154,13 +154,13 @@ metric m:number_of_sprinkler_heads_operating p:integer l:"Number of Sprinkler He
 
 entity e:wr8u-xric l:"Fire Incidents" t:url=https://data.sfgov.org/api/views/wr8u-xric
 
-property e:wr8u-xric t:meta.view d:2017-06-09T13:57:25.430Z v:id=wr8u-xric v:category="Public Safety" v:averageRating=0 v:name="Fire Incidents"
+property e:wr8u-xric t:meta.view d:2017-09-25T07:28:45.729Z v:averageRating=0 v:name="Fire Incidents" v:id=wr8u-xric v:category="Public Safety"
 
-property e:wr8u-xric t:meta.view.license d:2017-06-09T13:57:25.430Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:wr8u-xric t:meta.view.license d:2017-09-25T07:28:45.729Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:wr8u-xric t:meta.view.owner d:2017-06-09T13:57:25.430Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:wr8u-xric t:meta.view.owner d:2017-09-25T07:28:45.729Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:wr8u-xric t:meta.view.tableauthor d:2017-06-09T13:57:25.430Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:wr8u-xric t:meta.view.tableauthor d:2017-09-25T07:28:45.729Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records

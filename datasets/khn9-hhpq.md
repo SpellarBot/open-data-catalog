@@ -15,7 +15,7 @@
 | Category | Public Safety |
 | Tags | personnel, law enforcement, public safety, ucr |
 | Created | 2013-03-01T17:47:03Z |
-| Publication Date | 2016-03-22T22:00:59Z |
+| Publication Date | 2017-07-19T22:02:47Z |
 
 ## Description
 
@@ -56,11 +56,11 @@ Excluded Fields = pd
 ## Data Commands
 
 ```ls
-series e:khn9-hhpq d:2015-01-01T00:00:00.000Z t:county=Albany m:part_time_total=54 m:sworn_part_time=0 m:civilian_total=152 m:civilian_park_time=54 m:sworn_total=335 m:full_time_total=433 m:civilian_full_time=98 m:sworn_full_time=335 m:grand_total=487
+series e:khn9-hhpq d:2016-01-01T00:00:00.000Z t:county=Albany m:sworn_full_time=336 m:civilian_park_time=58 m:civilian_full_time=97 m:part_time_total=58 m:full_time_total=433 m:sworn_part_time=0 m:civilian_total=155 m:grand_total=491 m:sworn_total=336
 
-series e:khn9-hhpq d:2014-01-01T00:00:00.000Z t:county=Albany m:part_time_total=51 m:sworn_part_time=0 m:civilian_total=172 m:civilian_park_time=51 m:sworn_total=337 m:full_time_total=458 m:civilian_full_time=121 m:sworn_full_time=337 m:grand_total=509
+series e:khn9-hhpq d:2015-01-01T00:00:00.000Z t:county=Albany m:sworn_full_time=335 m:civilian_park_time=54 m:civilian_full_time=98 m:part_time_total=54 m:full_time_total=433 m:sworn_part_time=0 m:civilian_total=152 m:grand_total=487 m:sworn_total=335
 
-series e:khn9-hhpq d:2013-01-01T00:00:00.000Z t:county=Albany m:part_time_total=52 m:sworn_part_time=0 m:civilian_total=156 m:civilian_park_time=52 m:sworn_total=332 m:full_time_total=436 m:civilian_full_time=104 m:sworn_full_time=332 m:grand_total=488
+series e:khn9-hhpq d:2014-01-01T00:00:00.000Z t:county=Albany m:sworn_full_time=337 m:civilian_park_time=51 m:civilian_full_time=121 m:part_time_total=51 m:full_time_total=458 m:sworn_part_time=0 m:civilian_total=172 m:grand_total=509 m:sworn_total=337
 ```
 
 ## Meta Commands
@@ -86,28 +86,28 @@ metric m:grand_total p:integer l:"Grand Total" t:dataTypeName=number
 
 entity e:khn9-hhpq l:"Law Enforcement Personnel by Agency:  Beginning 2007" t:attribution="New York State Division of Criminal Justice Services" t:url=https://data.ny.gov/api/views/khn9-hhpq
 
-property e:khn9-hhpq t:meta.view d:2017-06-09T14:00:19.316Z v:id=khn9-hhpq v:category="Public Safety" v:attributionLink=http://www.criminaljustice.ny.gov/crimnet/ojsa/crimereporting/index.htm v:averageRating=0 v:name="Law Enforcement Personnel by Agency:  Beginning 2007" v:attribution="New York State Division of Criminal Justice Services"
+property e:khn9-hhpq t:meta.view d:2017-09-25T07:31:39.113Z v:averageRating=0 v:name="Law Enforcement Personnel by Agency:  Beginning 2007" v:attribution="New York State Division of Criminal Justice Services" v:attributionLink=http://www.criminaljustice.ny.gov/crimnet/ojsa/crimereporting/index.htm v:id=khn9-hhpq v:category="Public Safety"
 
-property e:khn9-hhpq t:meta.view.owner d:2017-06-09T14:00:19.316Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:khn9-hhpq t:meta.view.owner d:2017-09-25T07:31:39.113Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:khn9-hhpq t:meta.view.tableauthor d:2017-06-09T14:00:19.316Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:khn9-hhpq t:meta.view.tableauthor d:2017-09-25T07:31:39.113Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:khn9-hhpq t:meta.view.metadata.custom_fields.common_core d:2017-06-09T14:00:19.316Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:khn9-hhpq t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:31:39.113Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records
 
 ```ls
-| county | pd                                 | year | sworn_full_time | sworn_part_time | sworn_total | civilian_full_time | civilian_park_time | civilian_total | full_time_total | part_time_total | grand_total | 
-| ====== | ================================== | ==== | =============== | =============== | =========== | ================== | ================== | ============== | =============== | =============== | =========== | 
-| Albany | Albany City PD                     | 2015 | 335             | 0               | 335         | 98                 | 54                 | 152            | 433             | 54              | 487         | 
-| Albany | Albany City PD                     | 2014 | 337             | 0               | 337         | 121                | 51                 | 172            | 458             | 51              | 509         | 
-| Albany | Albany City PD                     | 2013 | 332             | 0               | 332         | 104                | 52                 | 156            | 436             | 52              | 488         | 
-| Albany | Albany City PD                     | 2012 | 322             | 0               | 322         | 123                | 54                 | 177            | 445             | 54              | 499         | 
-| Albany | Albany City PD                     | 2011 | 312             | 0               | 312         | 132                | 59                 | 191            | 444             | 59              | 503         | 
-| Albany | Albany City PD                     | 2010 | 327             | 0               | 327         | 138                | 66                 | 204            | 465             | 66              | 531         | 
-| Albany | Albany City PD                     | 2009 | 327             | 0               | 327         | 136                | 58                 | 194            | 463             | 58              | 521         | 
-| Albany | Albany City PD                     | 2008 | 332             | 0               | 332         | 124                | 9                  | 133            | 456             | 9               | 465         | 
-| Albany | Albany City PD                     | 2007 | 334             | 0               | 334         | 123                | 71                 | 194            | 457             | 71              | 528         | 
-| Albany | Albany County Park PD Headquarters | 2015 | 0               | 0               | 0           | 0                  | 0                  | 0              | 0               | 0               | 0           | 
+| county | pd             | year | sworn_full_time | sworn_part_time | sworn_total | civilian_full_time | civilian_park_time | civilian_total | full_time_total | part_time_total | grand_total | 
+| ====== | ============== | ==== | =============== | =============== | =========== | ================== | ================== | ============== | =============== | =============== | =========== | 
+| Albany | Albany City PD | 2016 | 336             | 0               | 336         | 97                 | 58                 | 155            | 433             | 58              | 491         | 
+| Albany | Albany City PD | 2015 | 335             | 0               | 335         | 98                 | 54                 | 152            | 433             | 54              | 487         | 
+| Albany | Albany City PD | 2014 | 337             | 0               | 337         | 121                | 51                 | 172            | 458             | 51              | 509         | 
+| Albany | Albany City PD | 2013 | 332             | 0               | 332         | 104                | 52                 | 156            | 436             | 52              | 488         | 
+| Albany | Albany City PD | 2012 | 322             | 0               | 322         | 123                | 54                 | 177            | 445             | 54              | 499         | 
+| Albany | Albany City PD | 2011 | 312             | 0               | 312         | 132                | 59                 | 191            | 444             | 59              | 503         | 
+| Albany | Albany City PD | 2010 | 327             | 0               | 327         | 138                | 66                 | 204            | 465             | 66              | 531         | 
+| Albany | Albany City PD | 2009 | 327             | 0               | 327         | 136                | 58                 | 194            | 463             | 58              | 521         | 
+| Albany | Albany City PD | 2008 | 332             | 0               | 332         | 124                | 9                  | 133            | 456             | 9               | 465         | 
+| Albany | Albany City PD | 2007 | 334             | 0               | 334         | 123                | 71                 | 194            | 457             | 71              | 528         | 
 ```

@@ -52,11 +52,11 @@ Excluded Fields = datelabel,year,month
 ## Data Commands
 
 ```ls
-series e:vnht-dg7x d:2009-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=33
+series e:vnht-dg7x d:2009-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009" m:indicatorvalue=33
 
-series e:vnht-dg7x d:2010-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2010" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=50
+series e:vnht-dg7x d:2010-08-01T00:00:00.000Z t:indicatorlabel=Satisfied t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2010" m:indicatorvalue=50
 
-series e:vnht-dg7x d:2011-02-01T00:00:00.000Z t:indicatorlabel=Satisfied t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2011" t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" m:indicatorvalue=60
+series e:vnht-dg7x d:2011-02-01T00:00:00.000Z t:indicatorlabel=Satisfied t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department" t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentFebruary2011" m:indicatorvalue=60
 ```
 
 ## Meta Commands
@@ -66,13 +66,13 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:vnht-dg7x l:"Citizen Satisfaction With NOPD (2009 - Present)" t:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey" t:url=https://data.nola.gov/api/views/vnht-dg7x
 
-property e:vnht-dg7x t:meta.view d:2017-06-09T13:51:27.344Z v:id=vnht-dg7x v:category="Public Safety and Preparedness" v:attributionLink=http://crimecoalitionnola.com/ v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey"
+property e:vnht-dg7x t:meta.view d:2017-09-25T07:22:46.445Z v:averageRating=0 v:name="Citizen Satisfaction With NOPD (2009 - Present)" v:attribution="New Orleans Crime Coalition's Citizen Satisfaction Survey" v:attributionLink=http://crimecoalitionnola.com/ v:id=vnht-dg7x v:category="Public Safety and Preparedness"
 
-property e:vnht-dg7x t:meta.view.owner d:2017-06-09T13:51:27.344Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.owner d:2017-09-25T07:22:46.445Z v:displayName=mschigoda v:id=ii98-542e v:screenName=mschigoda
 
-property e:vnht-dg7x t:meta.view.tableauthor d:2017-06-09T13:51:27.344Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:vnht-dg7x t:meta.view.tableauthor d:2017-09-25T07:22:46.445Z v:displayName=mschigoda v:roleName=publisher v:id=ii98-542e v:screenName=mschigoda
 
-property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:27.344Z v:Contact_Email=data@nola.gov
+property e:vnht-dg7x t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:22:46.445Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

@@ -56,11 +56,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z m:fy2014=80642 m:fy2005=65977 m:fy2015=80129 m:fy2006=65739 m:fy2003=71777 m:fy2016=80264 m:fy2004=71777 m:fy2010=89708 m:fy2011=86309 m:fy2012=81378 m:fy2013=80076 m:fy2009=88735 m:fy2007=65449 m:fy2008=65133
+series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z m:fy2009=88735 m:fy2007=65449 m:fy2008=65133 m:fy2016=80264 m:fy2005=65977 m:fy2006=65739 m:fy2014=80642 m:fy2003=71777 m:fy2015=80129 m:fy2004=71777 m:fy2012=81378 m:fy2013=80076 m:fy2010=89708 m:fy2011=86309
 
-series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z m:fy2014=79303 m:fy2005=75106 m:fy2015=79389 m:fy2006=75737 m:fy2003=76185 m:fy2016=79993 m:fy2004=76184 m:fy2010=83305 m:fy2011=80639 m:fy2012=80748 m:fy2013=79484 m:fy2009=98393 m:fy2007=76310 m:fy2008=76850
+series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z m:fy2009=98393 m:fy2007=76310 m:fy2008=76850 m:fy2016=79993 m:fy2005=75106 m:fy2006=75737 m:fy2014=79303 m:fy2003=76185 m:fy2015=79389 m:fy2004=76184 m:fy2012=80748 m:fy2013=79484 m:fy2010=83305 m:fy2011=80639
 
-series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z m:fy2014=254300 m:fy2005=203404 m:fy2015=253590 m:fy2006=203371 m:fy2003=216389 m:fy2016=254576 m:fy2004=216389 m:fy2010=267255 m:fy2011=257272 m:fy2012=254658 m:fy2013=250113 m:fy2009=265072 m:fy2007=203225 m:fy2008=203040
+series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z m:fy2009=265072 m:fy2007=203225 m:fy2008=203040 m:fy2016=254576 m:fy2005=203404 m:fy2006=203371 m:fy2014=254300 m:fy2003=216389 m:fy2015=253590 m:fy2004=216389 m:fy2012=254658 m:fy2013=250113 m:fy2010=267255 m:fy2011=257272
 ```
 
 ## Meta Commands
@@ -96,15 +96,15 @@ metric m:fy2003 p:integer l:"FY 2003" d:"Fiscal Year 2003" t:dataTypeName=money
 
 entity e:fg2z-wgcj l:"LSTA Allotments (FY 2003-2016)" t:attribution=IMLS t:url=https://data.imls.gov/api/views/fg2z-wgcj
 
-property e:fg2z-wgcj t:meta.view d:2017-06-09T13:59:36.994Z v:id=fg2z-wgcj v:category="Administrative Data" v:attributionLink=https://www.imls.gov/grants/grants-state/state-allotments v:averageRating=0 v:name="LSTA Allotments (FY 2003-2016)" v:attribution=IMLS
+property e:fg2z-wgcj t:meta.view d:2017-09-25T07:30:55.738Z v:averageRating=0 v:name="LSTA Allotments (FY 2003-2016)" v:attribution=IMLS v:attributionLink=https://www.imls.gov/grants/grants-state/state-allotments v:id=fg2z-wgcj v:category="Administrative Data"
 
-property e:fg2z-wgcj t:meta.view.license d:2017-06-09T13:59:36.994Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
+property e:fg2z-wgcj t:meta.view.license d:2017-09-25T07:30:55.738Z v:name="Public Domain U.S. Government" v:termsLink=https://www.usa.gov/government-works
 
-property e:fg2z-wgcj t:meta.view.owner d:2017-06-09T13:59:36.994Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:fg2z-wgcj t:meta.view.owner d:2017-09-25T07:30:55.738Z v:displayName=Ammie v:id=b4ig-itd5 v:screenName=Ammie
 
-property e:fg2z-wgcj t:meta.view.tableauthor d:2017-06-09T13:59:36.994Z v:id=b4ig-itd5 v:screenName=Ammie v:displayName=Ammie
+property e:fg2z-wgcj t:meta.view.tableauthor d:2017-09-25T07:30:55.738Z v:displayName=Ammie v:id=b4ig-itd5 v:screenName=Ammie
 
-property e:fg2z-wgcj t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:59:36.994Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Bureau_Code=474:00 v:Program_Code=000:000
+property e:fg2z-wgcj t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:55.738Z v:Contact_Email=imlsinfo@imls.gov v:Contact_Name="Office of Digital and Information Strategy" v:Program_Code=000:000 v:Bureau_Code=474:00
 ```
 
 ## Top Records

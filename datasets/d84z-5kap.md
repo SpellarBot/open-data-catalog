@@ -41,11 +41,11 @@ Format & Zone = MM/dd/yy
 ## Data Commands
 
 ```ls
-series e:d84z-5kap d:2012-11-26T00:00:00.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)" m:row_number.d84z-5kap=1
+series e:d84z-5kap d:2012-11-26T00:00:00.000Z t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)" t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-26-12.pdf m:row_number.d84z-5kap=1
 
-series e:d84z-5kap d:2012-09-18T00:00:00.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf t:columns_title="Municipal Law - Innovations in City Land-Use Transactions" m:row_number.d84z-5kap=2
+series e:d84z-5kap d:2012-09-18T00:00:00.000Z t:columns_title="Municipal Law - Innovations in City Land-Use Transactions" t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%209-18-12.pdf m:row_number.d84z-5kap=2
 
-series e:d84z-5kap d:2012-06-18T00:00:00.000Z t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf t:columns_title="Municipal Law - Cleaning Up City Waterways" m:row_number.d84z-5kap=3
+series e:d84z-5kap d:2012-06-18T00:00:00.000Z t:columns_title="Municipal Law - Cleaning Up City Waterways" t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%206-18-12.pdf m:row_number.d84z-5kap=3
 ```
 
 ## Meta Commands
@@ -55,11 +55,11 @@ metric m:row_number.d84z-5kap p:long l:"Row Number"
 
 entity e:d84z-5kap l:"LAW Published Columns" t:attribution="Law Department (LAW)" t:url=https://data.cityofnewyork.us/api/views/d84z-5kap
 
-property e:d84z-5kap t:meta.view d:2017-06-09T13:58:52.657Z v:id=d84z-5kap v:category="City Government" v:attributionLink=http://www.nyc.gov/html/law/html/news/articles.shtml#2012 v:averageRating=0 v:name="LAW Published Columns" v:attribution="Law Department (LAW)"
+property e:d84z-5kap t:meta.view d:2017-09-25T07:30:15.037Z v:averageRating=0 v:name="LAW Published Columns" v:attribution="Law Department (LAW)" v:attributionLink=http://www.nyc.gov/html/law/html/news/articles.shtml#2012 v:id=d84z-5kap v:category="City Government"
 
-property e:d84z-5kap t:meta.view.owner d:2017-06-09T13:58:52.657Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:d84z-5kap t:meta.view.owner d:2017-09-25T07:30:15.037Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:d84z-5kap t:meta.view.tableauthor d:2017-06-09T13:58:52.657Z v:id=8b43-zkvh v:screenName="Ram S." v:displayName="Ram S."
+property e:d84z-5kap t:meta.view.tableauthor d:2017-09-25T07:30:15.037Z v:displayName="Ram S." v:id=8b43-zkvh v:screenName="Ram S."
 ```
 
 ## Top Records

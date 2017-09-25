@@ -49,11 +49,11 @@ Excluded Fields = year,month
 ## Data Commands
 
 ```ls
-series e:p7e4-ipty d:2015-01-01T00:00:00.000Z m:average_weekday_trips=227560 m:average_saturday_trips=88875 m:average_sunday_trips=65718
+series e:p7e4-ipty d:2015-01-01T00:00:00.000Z m:average_sunday_trips=65718 m:average_saturday_trips=88875 m:average_weekday_trips=227560
 
-series e:p7e4-ipty d:2015-02-01T00:00:00.000Z m:average_weekday_trips=245222 m:average_saturday_trips=94726 m:average_sunday_trips=69433
+series e:p7e4-ipty d:2015-02-01T00:00:00.000Z m:average_sunday_trips=69433 m:average_saturday_trips=94726 m:average_weekday_trips=245222
 
-series e:p7e4-ipty d:2015-03-01T00:00:00.000Z m:average_weekday_trips=250436 m:average_saturday_trips=107723 m:average_sunday_trips=80341
+series e:p7e4-ipty d:2015-03-01T00:00:00.000Z m:average_sunday_trips=80341 m:average_saturday_trips=107723 m:average_weekday_trips=250436
 ```
 
 ## Meta Commands
@@ -67,13 +67,13 @@ metric m:average_sunday_trips p:integer l:"Average Sunday Trips" d:"Identifies p
 
 entity e:p7e4-ipty l:"Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996" t:attribution="Port Authority NY & NJ" t:url=https://data.ny.gov/api/views/p7e4-ipty
 
-property e:p7e4-ipty t:meta.view d:2017-06-09T13:57:10.480Z v:id=p7e4-ipty v:category=Transportation v:averageRating=0 v:name="Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996" v:attribution="Port Authority NY & NJ"
+property e:p7e4-ipty t:meta.view d:2017-09-25T07:28:32.894Z v:averageRating=0 v:name="Port Authority Trans-Hudson Corporation (PATH) Average Weekday and Weekend Ridership: Beginning 1996" v:attribution="Port Authority NY & NJ" v:id=p7e4-ipty v:category=Transportation
 
-property e:p7e4-ipty t:meta.view.owner d:2017-06-09T13:57:10.480Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:p7e4-ipty t:meta.view.owner d:2017-09-25T07:28:32.894Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:p7e4-ipty t:meta.view.tableauthor d:2017-06-09T13:57:10.480Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:p7e4-ipty t:meta.view.tableauthor d:2017-09-25T07:28:32.894Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:p7e4-ipty t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:10.480Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:p7e4-ipty t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:28:32.894Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

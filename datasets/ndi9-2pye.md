@@ -42,11 +42,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:ndi9-2pye d:2011-02-14T11:50:11.000Z t:status_check=http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/university/ t:current_conditions="Has a core employment population" t:typology="Mixed Use Center future" t:name="University District" t:major_transit_project=http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml t:district=Northeast m:row_number.ndi9-2pye=1
+series e:ndi9-2pye d:2011-02-14T11:50:11.000Z t:typology="Mixed Use Center future" t:status_check=http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf t:district=Northeast t:name="University District" t:major_transit_project=http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml t:current_conditions="Has a core employment population" t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/university/ m:row_number.ndi9-2pye=1
 
-series e:ndi9-2pye d:2011-02-14T11:50:11.000Z t:city_planning=http://www.seattle.gov/dpd/Planning/BallardURV/Overview/default.asp t:status_check=http://www.seattle.gov/planningcommission/docs/CHBExecSummary.pdf t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/chill/ t:current_conditions="High population, S edge is industrial" t:typology="Mixed use Center local" t:name=Ballard t:major_transit_project=http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx t:future_needs_priorities="Ballard is a “new urban center” Combine districts keeping identities separate" t:district=Ballard m:row_number.ndi9-2pye=2
+series e:ndi9-2pye d:2011-02-14T11:50:11.000Z t:city_planning=http://www.seattle.gov/dpd/Planning/BallardURV/Overview/default.asp t:typology="Mixed use Center local" t:status_check=http://www.seattle.gov/planningcommission/docs/CHBExecSummary.pdf t:district=Ballard t:name=Ballard t:future_needs_priorities="Ballard is a “new urban center” Combine districts keeping identities separate" t:major_transit_project=http://www.kingcounty.gov/transportation/kcdot/MetroTransit/RapidRide/DLine.aspx t:current_conditions="High population, S edge is industrial" t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/chill/ m:row_number.ndi9-2pye=2
 
-series e:ndi9-2pye d:2011-02-14T11:50:11.000Z t:city_planning=http://www.seattle.gov/dpd/Planning/FremontUrbanVillageRezone/Overview/default.asp t:status_check=http://www.seattle.gov/planningcommission/docs/FremontExecSummary.pdf t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/fremont/ t:current_conditions="24 hr neighborhood" t:typology="Mixed Use Center local" t:name=Fremont t:district="Lake Union" m:row_number.ndi9-2pye=3
+series e:ndi9-2pye d:2011-02-14T11:50:11.000Z t:city_planning=http://www.seattle.gov/dpd/Planning/FremontUrbanVillageRezone/Overview/default.asp t:typology="Mixed Use Center local" t:status_check=http://www.seattle.gov/planningcommission/docs/FremontExecSummary.pdf t:district="Lake Union" t:name=Fremont t:current_conditions="24 hr neighborhood" t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/fremont/ m:row_number.ndi9-2pye=3
 ```
 
 ## Meta Commands
@@ -56,11 +56,11 @@ metric m:row_number.ndi9-2pye p:long l:"Row Number"
 
 entity e:ndi9-2pye l:"Transit communities" t:url=https://data.seattle.gov/api/views/ndi9-2pye
 
-property e:ndi9-2pye t:meta.view d:2017-06-09T13:54:22.247Z v:id=ndi9-2pye v:category=Transportation v:averageRating=0 v:name="Transit communities"
+property e:ndi9-2pye t:meta.view d:2017-09-25T07:25:45.257Z v:averageRating=0 v:name="Transit communities" v:id=ndi9-2pye v:category=Transportation
 
-property e:ndi9-2pye t:meta.view.owner d:2017-06-09T13:54:22.247Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
+property e:ndi9-2pye t:meta.view.owner d:2017-09-25T07:25:45.257Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 
-property e:ndi9-2pye t:meta.view.tableauthor d:2017-06-09T13:54:22.247Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:ndi9-2pye t:meta.view.tableauthor d:2017-09-25T07:25:45.257Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 ```
 
 ## Top Records

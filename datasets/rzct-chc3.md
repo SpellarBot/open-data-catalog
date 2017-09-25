@@ -67,11 +67,11 @@ Excluded Fields = final_year
 ## Data Commands
 
 ```ls
-series e:rzct-chc3 d:2014-06-06T00:00:00.000Z t:site_city=Portland t:applicant_business_name="SOO Portland State University" t:system=Conservation t:application=32077 t:site_zip=97201 t:site_county=Mult t:agency_issuing_tax_expenditure="Oregon Department of Energy" t:system_name="HVAC System" m:final_certified_project_cost=243600 m:final_month=6 m:tax_credit_ratepercentage=0.35 m:final_tax_credit=85260 m:total_energy_million_btu=2352
+series e:rzct-chc3 d:2014-06-06T00:00:00.000Z t:system=Conservation t:application=32077 t:site_county=Mult t:system_name="HVAC System" t:applicant_business_name="SOO Portland State University" t:agency_issuing_tax_expenditure="Oregon Department of Energy" t:site_zip=97201 t:site_city=Portland m:final_tax_credit=85260 m:tax_credit_ratepercentage=0.35 m:final_certified_project_cost=243600 m:total_energy_million_btu=2352 m:final_month=6
 
-series e:rzct-chc3 d:2013-07-01T00:00:00.000Z t:site_city=Portland t:applicant_business_name="Northwest Evaluation Association" t:system="Sustainable Building" t:application=30191 t:site_zip=97209 t:site_county=Mult t:agency_issuing_tax_expenditure="Oregon Department of Energy" t:system_name="USGBC LEED (CI) Gold" m:final_certified_project_cost=123995 m:final_month=7 m:tax_credit_ratepercentage=0.34999798378966895 m:final_tax_credit=43398 m:total_energy_million_btu=0
+series e:rzct-chc3 d:2013-07-01T00:00:00.000Z t:system="Sustainable Building" t:application=30191 t:site_county=Mult t:system_name="USGBC LEED (CI) Gold" t:applicant_business_name="Northwest Evaluation Association" t:agency_issuing_tax_expenditure="Oregon Department of Energy" t:site_zip=97209 t:site_city=Portland m:final_tax_credit=43398 m:tax_credit_ratepercentage=0.34999798378966895 m:final_certified_project_cost=123995 m:total_energy_million_btu=0 m:final_month=7
 
-series e:rzct-chc3 d:2013-07-31T00:00:00.000Z t:site_city=Tualatin t:applicant_business_name="Stafford Hills Racquet & Fitness Club" t:system="Sustainable Building" t:application=30849 t:site_zip=97062 t:site_county=Clac t:agency_issuing_tax_expenditure="Oregon Department of Energy" t:system_name="USGBC LEED (NC) Silver" m:final_certified_project_cost=375736 m:final_month=7 m:tax_credit_ratepercentage=0.3500010645772564 m:final_tax_credit=131508 m:total_energy_million_btu=0
+series e:rzct-chc3 d:2013-07-31T00:00:00.000Z t:system="Sustainable Building" t:application=30849 t:site_county=Clac t:system_name="USGBC LEED (NC) Silver" t:applicant_business_name="Stafford Hills Racquet & Fitness Club" t:agency_issuing_tax_expenditure="Oregon Department of Energy" t:site_zip=97062 t:site_city=Tualatin m:final_tax_credit=131508 m:tax_credit_ratepercentage=0.3500010645772564 m:final_certified_project_cost=375736 m:total_energy_million_btu=0 m:final_month=7
 ```
 
 ## Meta Commands
@@ -89,11 +89,11 @@ metric m:tax_credit_ratepercentage p:decimal l:"Tax Credit Rate" t:dataTypeName=
 
 entity e:rzct-chc3 l:"Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)" t:url=https://data.oregon.gov/api/views/rzct-chc3
 
-property e:rzct-chc3 t:meta.view d:2017-06-09T13:54:18.378Z v:id=rzct-chc3 v:category="Revenue & Expense" v:averageRating=0 v:name="Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)"
+property e:rzct-chc3 t:meta.view d:2017-09-25T07:25:40.772Z v:averageRating=0 v:name="Business Energy Tax Credit Program: Fiscal Year 2014 (Ended 7/1/14)" v:id=rzct-chc3 v:category="Revenue & Expense"
 
-property e:rzct-chc3 t:meta.view.owner d:2017-06-09T13:54:18.378Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:rzct-chc3 t:meta.view.owner d:2017-09-25T07:25:40.772Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:rzct-chc3 t:meta.view.tableauthor d:2017-06-09T13:54:18.378Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:rzct-chc3 t:meta.view.tableauthor d:2017-09-25T07:25:40.772Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

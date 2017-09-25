@@ -39,11 +39,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:kczx-tmjn d:2013-09-30T15:31:24.000Z t:first_name=David t:organization="Self: Citizen Air Breather" t:state=Oregon t:last_name=Hoffman t:comment="Proposed new higher limits are NOT good enough but are a step in the right direction." t:email_address=fixit@efn.org m:row_number.kczx-tmjn=1
+series e:kczx-tmjn d:2013-09-30T15:31:24.000Z t:email_address=fixit@efn.org t:organization="Self: Citizen Air Breather" t:last_name=Hoffman t:comment="Proposed new higher limits are NOT good enough but are a step in the right direction." t:state=Oregon t:first_name=David m:row_number.kczx-tmjn=1
 
-series e:kczx-tmjn d:2013-09-30T17:23:48.000Z t:first_name=David t:state=Oregon t:last_name=Newman t:comment="The form of fluoride emmissions by Intel must be specified in the permit. Specific forms of fluoride must be measured and reported by DEQ and Intel. For example, if hydrofluoric acid (HF) is included in Intel's emmissions, there are serious health and environmental effects. Many fluorine containing chemical compounds, such as fluorocarbons, are harmful to the environment. All specific fluoride compound emmisions should be monitored." t:email_address=md.newman@comcast.net m:row_number.kczx-tmjn=2
+series e:kczx-tmjn d:2013-09-30T17:23:48.000Z t:email_address=md.newman@comcast.net t:last_name=Newman t:comment="The form of fluoride emmissions by Intel must be specified in the permit. Specific forms of fluoride must be measured and reported by DEQ and Intel. For example, if hydrofluoric acid (HF) is included in Intel's emmissions, there are serious health and environmental effects. Many fluorine containing chemical compounds, such as fluorocarbons, are harmful to the environment. All specific fluoride compound emmisions should be monitored." t:state=Oregon t:first_name=David m:row_number.kczx-tmjn=2
 
-series e:kczx-tmjn d:2013-10-06T14:44:22.000Z t:first_name=Anne t:organization=NFCA t:state=Oregon t:last_name=Ferguson t:comment="I wish to express my opposition to any renewal of any permit for emissions until there is more transparency and  more oversight of the ROnler Acres plant in Hillsboro" t:email_address=ArtistAnne@Paganini.us m:row_number.kczx-tmjn=3
+series e:kczx-tmjn d:2013-10-06T14:44:22.000Z t:email_address=ArtistAnne@Paganini.us t:organization=NFCA t:last_name=Ferguson t:comment="I wish to express my opposition to any renewal of any permit for emissions until there is more transparency and  more oversight of the ROnler Acres plant in Hillsboro" t:state=Oregon t:first_name=Anne m:row_number.kczx-tmjn=3
 ```
 
 ## Meta Commands
@@ -53,11 +53,11 @@ metric m:row_number.kczx-tmjn p:long l:"Row Number"
 
 entity e:kczx-tmjn l:IntelCorporation t:url=https://data.oregon.gov/api/views/kczx-tmjn
 
-property e:kczx-tmjn t:meta.view d:2017-06-09T13:59:31.786Z v:id=kczx-tmjn v:averageRating=0 v:name=IntelCorporation
+property e:kczx-tmjn t:meta.view d:2017-09-25T07:30:51.028Z v:averageRating=0 v:name=IntelCorporation v:id=kczx-tmjn
 
-property e:kczx-tmjn t:meta.view.owner d:2017-06-09T13:59:31.786Z v:id=44u9-wper v:screenName="MT Oregon DEQ" v:displayName="MT Oregon DEQ"
+property e:kczx-tmjn t:meta.view.owner d:2017-09-25T07:30:51.028Z v:displayName="MT Oregon DEQ" v:lastNotificationSeenAt=1500317291 v:id=44u9-wper v:screenName="MT Oregon DEQ"
 
-property e:kczx-tmjn t:meta.view.tableauthor d:2017-06-09T13:59:31.786Z v:id=44u9-wper v:screenName="MT Oregon DEQ" v:roleName=editor v:displayName="MT Oregon DEQ"
+property e:kczx-tmjn t:meta.view.tableauthor d:2017-09-25T07:30:51.028Z v:displayName="MT Oregon DEQ" v:lastNotificationSeenAt=1500317291 v:roleName=editor v:id=44u9-wper v:screenName="MT Oregon DEQ"
 ```
 
 ## Top Records

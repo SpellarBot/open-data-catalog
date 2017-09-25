@@ -45,11 +45,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=11 t:operator_name="1ST CLASS TRANSPORTATION SERVICE" t:operator_id=48486 t:city="QUEENS VILLAGE" m:failed_inspections=1 m:inspections=4
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="1ST CLASS TRANSPORTATION SERVICE" t:city="QUEENS VILLAGE" t:operator_id=48486 t:region=11 m:inspections=4 m:failed_inspections=1
 
-series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=11 t:operator_name="21ST AVE. TRANSPORTATION" t:operator_id=3531 t:city=BROOKLYN m:failed_inspections=19 m:inspections=250
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="21ST AVE. TRANSPORTATION" t:city=BROOKLYN t:operator_id=3531 t:region=11 m:inspections=250 m:failed_inspections=19
 
-series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:region=10 t:operator_name="3J'S LIMOUSINE INC." t:operator_id=50284 t:city=MELVILLE m:failed_inspections=0 m:inspections=2
+series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z t:operator_name="3J'S LIMOUSINE INC." t:city=MELVILLE t:operator_id=50284 t:region=10 m:inspections=2 m:failed_inspections=0
 ```
 
 ## Meta Commands
@@ -61,13 +61,13 @@ metric m:failed_inspections p:integer l:"Failed Inspections" d:"The number of in
 
 entity e:h9zr-j4pg l:"Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" t:attribution="New York State Department of Transportation (NYSDOT)" t:url=https://data.ny.gov/api/views/h9zr-j4pg
 
-property e:h9zr-j4pg t:meta.view d:2017-06-09T13:53:30.827Z v:id=h9zr-j4pg v:category=Transportation v:attributionLink=https://www.dot.ny.gov/divisions/operating/osss/bus/inspection v:averageRating=0 v:name="Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" v:attribution="New York State Department of Transportation (NYSDOT)"
+property e:h9zr-j4pg t:meta.view d:2017-09-25T07:24:45.942Z v:averageRating=0 v:name="Bus Safety Information Network (BUSNET) Operator Report:  Beginning 2009" v:attribution="New York State Department of Transportation (NYSDOT)" v:attributionLink=https://www.dot.ny.gov/divisions/operating/osss/bus/inspection v:id=h9zr-j4pg v:category=Transportation
 
-property e:h9zr-j4pg t:meta.view.owner d:2017-06-09T13:53:30.827Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:h9zr-j4pg t:meta.view.owner d:2017-09-25T07:24:45.942Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:h9zr-j4pg t:meta.view.tableauthor d:2017-06-09T13:53:30.827Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:h9zr-j4pg t:meta.view.tableauthor d:2017-09-25T07:24:45.942Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:h9zr-j4pg t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:30.827Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:h9zr-j4pg t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:24:45.942Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

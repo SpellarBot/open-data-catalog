@@ -53,11 +53,11 @@ metric m:no_of_customers p:integer l:"No. of Customers" t:dataTypeName=number
 
 entity e:aspx-imar l:"No. of Transactions VS No. of Customers For FY 2014" t:attribution="Department of Motor Vehicles" t:url=https://data.ct.gov/api/views/aspx-imar
 
-property e:aspx-imar t:meta.view d:2017-06-09T13:56:29.238Z v:id=aspx-imar v:category=Transportation v:attributionLink=http://www.ct.gov/dmv v:averageRating=0 v:name="No. of Transactions VS No. of Customers For FY 2014" v:attribution="Department of Motor Vehicles"
+property e:aspx-imar t:meta.view d:2017-09-25T07:27:53.302Z v:averageRating=0 v:name="No. of Transactions VS No. of Customers For FY 2014" v:attribution="Department of Motor Vehicles" v:attributionLink=http://www.ct.gov/dmv v:id=aspx-imar v:category=Transportation
 
-property e:aspx-imar t:meta.view.owner d:2017-06-09T13:56:29.238Z v:id=fd5k-6njr v:screenName=APatel v:displayName=APatel
+property e:aspx-imar t:meta.view.owner d:2017-09-25T07:27:53.302Z v:displayName=APatel v:id=fd5k-6njr v:screenName=APatel
 
-property e:aspx-imar t:meta.view.tableauthor d:2017-06-09T13:56:29.238Z v:id=fd5k-6njr v:screenName=APatel v:roleName=editor v:displayName=APatel
+property e:aspx-imar t:meta.view.tableauthor d:2017-09-25T07:27:53.302Z v:displayName=APatel v:roleName=editor v:id=fd5k-6njr v:screenName=APatel
 ```
 
 ## Top Records

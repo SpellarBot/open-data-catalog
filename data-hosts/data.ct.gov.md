@@ -227,7 +227,7 @@ Name | Category | Published
 [Nutmeg Network Site List](../datasets/dhpd-c9cf.md) | Government | 2014&#x2011;03&#x2011;26
 [Old Age Assistance Payments by the Department of Social Services](../datasets/ky2m-bftb.md) | Health and Human Services | 2015&#x2011;09&#x2011;21
 [Opioid Related Treatment Admissions by Town in Department of Mental Health and Addiction Services Programs](../datasets/4pv7-jhxb.md) | Health and Human Services | 2016&#x2011;09&#x2011;26
-[PCA Group Orientation & Training Schedule](../datasets/c28j-48tg.md) | Health and Human Services | 2017&#x2011;04&#x2011;06
+[PCA Group Orientation & Training Schedule](../datasets/c28j-48tg.md) | Health and Human Services | 2017&#x2011;08&#x2011;22
 [Package Store Permit Availability](../datasets/fiq7-t34m.md) | Business | 2016&#x2011;06&#x2011;21
 [Pari-mutuel Grants To Municipalities](../datasets/59ps-catp.md) | Government | 2014&#x2011;09&#x2011;17
 [Payment in Lieu of Taxes (PILOT) on Private Tax-Exempt Property](../datasets/ax65-fnv9.md) | Government | 2014&#x2011;08&#x2011;04

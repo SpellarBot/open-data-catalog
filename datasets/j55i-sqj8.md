@@ -50,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:j55i-sqj8 d:2015-01-07T22:20:29.000Z t:hispanic_origin=Hispanic t:unique_id=A2006200804120 t:cause_of_death="Whooping cough" t:year_range=2006-2008 t:gender=Total t:race=White m:upper_95_confidence_interval=0.8 m:age_adjusted_rate_per_100_000_population=0 m:lower_95_confidence_interval=0
+series e:j55i-sqj8 d:2015-01-07T22:20:29.000Z t:unique_id=A2006200804120 t:cause_of_death="Whooping cough" t:year_range=2006-2008 t:race=White t:gender=Total t:hispanic_origin=Hispanic m:upper_95_confidence_interval=0.8 m:age_adjusted_rate_per_100_000_population=0 m:lower_95_confidence_interval=0
 
-series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Total t:unique_id=A2007200914000 t:cause_of_death=Malaria t:year_range=2007-2009 t:gender=Total t:race=Total m:upper_95_confidence_interval=0.1 m:age_adjusted_rate_per_100_000_population=0 m:lower_95_confidence_interval=0
+series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:unique_id=A2007200914000 t:cause_of_death=Malaria t:year_range=2007-2009 t:race=Total t:gender=Total t:hispanic_origin=Total m:upper_95_confidence_interval=0.1 m:age_adjusted_rate_per_100_000_population=0 m:lower_95_confidence_interval=0
 
-series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:hispanic_origin=Hispanic t:unique_id=A2007200914220 t:cause_of_death=Malaria t:year_range=2007-2009 t:gender=Total t:race=Black m:upper_95_confidence_interval=15.5 m:age_adjusted_rate_per_100_000_population=0 m:lower_95_confidence_interval=0
+series e:j55i-sqj8 d:2015-01-07T22:20:40.000Z t:unique_id=A2007200914220 t:cause_of_death=Malaria t:year_range=2007-2009 t:race=Black t:gender=Total t:hispanic_origin=Hispanic m:upper_95_confidence_interval=15.5 m:age_adjusted_rate_per_100_000_population=0 m:lower_95_confidence_interval=0
 ```
 
 ## Meta Commands
@@ -68,11 +68,11 @@ metric m:upper_95_confidence_interval p:float l:"Upper 95% Confidence Interval" 
 
 entity e:j55i-sqj8 l:"Population Health Measures: Age-Adjusted Mortality Rates" t:url=https://data.montgomerycountymd.gov/api/views/j55i-sqj8
 
-property e:j55i-sqj8 t:meta.view d:2017-06-09T13:53:54.706Z v:id=j55i-sqj8 v:category="Health and Human Services" v:averageRating=0 v:name="Population Health Measures: Age-Adjusted Mortality Rates"
+property e:j55i-sqj8 t:meta.view d:2017-09-25T07:25:16.938Z v:averageRating=0 v:name="Population Health Measures: Age-Adjusted Mortality Rates" v:id=j55i-sqj8 v:category="Health and Human Services"
 
-property e:j55i-sqj8 t:meta.view.owner d:2017-06-09T13:53:54.706Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:j55i-sqj8 t:meta.view.owner d:2017-09-25T07:25:16.938Z v:displayName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:id=ajn4-zy65 v:screenName="MCG ESB Service"
 
-property e:j55i-sqj8 t:meta.view.tableauthor d:2017-06-09T13:53:54.706Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:j55i-sqj8 t:meta.view.tableauthor d:2017-09-25T07:25:16.938Z v:displayName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:roleName=administrator v:id=ajn4-zy65 v:screenName="MCG ESB Service"
 ```
 
 ## Top Records

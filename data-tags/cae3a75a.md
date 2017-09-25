@@ -8,7 +8,7 @@ Name | Host | Published
 [Airport Quarterly Passenger Survey](../datasets/dvu8-ztdx.md) | data.austintexas.gov | 2016&#x2011;12&#x2011;07
 [Behavioral Risk Factor Data: Tobacco Use (2010 And Prior)](../datasets/fpp2-pp25.md) | chronicdata.cdc.gov | 2015&#x2011;11&#x2011;18
 [Behavioral Risk Factor Data: Tobacco Use (2011 to present)](../datasets/wsas-xwh5.md) | chronicdata.cdc.gov | 2017&#x2011;02&#x2011;06
-[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](../datasets/d2rk-yvas.md) | data.cdc.gov | 2016&#x2011;12&#x2011;23
+[Behavioral Risk Factor Surveillance System (BRFSS) Age-Adjusted Prevalence Data (2011 to present)](../datasets/d2rk-yvas.md) | data.cdc.gov | 2017&#x2011;09&#x2011;11
 [Behavioral Risk Factor Surveillance System (BRFSS) Historical Questions](../datasets/iuq5-y9ct.md) | chronicdata.cdc.gov | 2017&#x2011;04&#x2011;12
 [Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2010 and prior)](../datasets/y4ft-s73h.md) | data.cdc.gov | 2016&#x2011;03&#x2011;11
 [Behavioral Risk Factor Surveillance System (BRFSS) Prevalence Data (2011 to present)](../datasets/dttw-5yxu.md) | data.cdc.gov | 2016&#x2011;12&#x2011;23

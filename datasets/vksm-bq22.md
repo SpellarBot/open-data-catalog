@@ -52,11 +52,11 @@ Excluded Fields = geom
 ## Data Commands
 
 ```ls
-series e:vksm-bq22 d:2017-02-04T17:55:04.000Z t:cnn_segment_id=3837000 t:street_name=CAYUGA t:object_id=1 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-02-04T17:55:04.000Z t:cnn_segment_id=3837000 t:street_type=AVE t:object_id=1 t:street_name=CAYUGA m:speed_limit=15
 
-series e:vksm-bq22 d:2017-02-04T17:55:04.000Z t:cnn_segment_id=3835000 t:street_name=CAYUGA t:object_id=2 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-02-04T17:55:04.000Z t:cnn_segment_id=3835000 t:street_type=AVE t:object_id=2 t:street_name=CAYUGA m:speed_limit=15
 
-series e:vksm-bq22 d:2017-02-04T17:55:04.000Z t:cnn_segment_id=3834000 t:street_name=CAYUGA t:object_id=3 t:street_type=AVE m:speed_limit=15
+series e:vksm-bq22 d:2017-02-04T17:55:04.000Z t:cnn_segment_id=3834000 t:street_type=AVE t:object_id=3 t:street_name=CAYUGA m:speed_limit=15
 ```
 
 ## Meta Commands
@@ -66,13 +66,13 @@ metric m:speed_limit p:integer l:"Speed Limit" t:dataTypeName=number
 
 entity e:vksm-bq22 l:"Speed Limits" t:url=https://data.sfgov.org/api/views/vksm-bq22
 
-property e:vksm-bq22 t:meta.view d:2017-06-09T13:56:40.384Z v:id=vksm-bq22 v:category=Transportation v:averageRating=0 v:name="Speed Limits"
+property e:vksm-bq22 t:meta.view d:2017-09-25T07:28:03.660Z v:averageRating=0 v:name="Speed Limits" v:id=vksm-bq22 v:category=Transportation
 
-property e:vksm-bq22 t:meta.view.license d:2017-06-09T13:56:40.384Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:vksm-bq22 t:meta.view.license d:2017-09-25T07:28:03.660Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:vksm-bq22 t:meta.view.owner d:2017-06-09T13:56:40.384Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:vksm-bq22 t:meta.view.owner d:2017-09-25T07:28:03.660Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:vksm-bq22 t:meta.view.tableauthor d:2017-06-09T13:56:40.384Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:vksm-bq22 t:meta.view.tableauthor d:2017-09-25T07:28:03.660Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records

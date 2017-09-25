@@ -90,11 +90,11 @@ Excluded Fields = ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_current_week_f
 ## Data Commands
 
 ```ls
-series e:keia-pvvn d:2015-12-27T00:00:00.000Z t:reporting_area="UNITED STATES" m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=39 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=13 m:ehrlichiosis_anaplasmosis_undetermined_cum_2015=1 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=70 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=6 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=194 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week=1 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=2 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=9 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015=2
+series e:keia-pvvn d:2015-12-27T00:00:00.000Z t:reporting_area="UNITED STATES" m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015=2 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=6 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=9 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=194 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=70 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=2 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week=1 m:ehrlichiosis_anaplasmosis_undetermined_cum_2015=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=39 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=13
 
-series e:keia-pvvn d:2015-12-27T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=15 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=1 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=6 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=3 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=98 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week=1 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=0 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=2
+series e:keia-pvvn d:2015-12-27T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=3 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=2 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=98 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=6 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=0 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=15 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=1
 
-series e:keia-pvvn d:2015-12-27T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=15 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=2 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=9 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=61 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=0 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=2 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015=1
+series e:keia-pvvn d:2015-12-27T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015=1 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=1 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=2 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=61 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=9 m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=0 m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=15 m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=2
 ```
 
 ## Meta Commands
@@ -132,13 +132,13 @@ metric m:ehrlichiosis_anaplasmosis_undetermined_cum_2015 p:integer l:"Ehrlichios
 
 entity e:keia-pvvn l:"NNDSS - Table II. Ehrlichiosis/Anaplasmosis" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/keia-pvvn
 
-property e:keia-pvvn t:meta.view d:2017-06-09T13:57:17.998Z v:id=keia-pvvn v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Ehrlichiosis/Anaplasmosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:keia-pvvn t:meta.view d:2017-09-25T07:28:40.561Z v:averageRating=0 v:name="NNDSS - Table II. Ehrlichiosis/Anaplasmosis" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" v:id=keia-pvvn v:category=NNDSS
 
-property e:keia-pvvn t:meta.view.owner d:2017-06-09T13:57:17.998Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
+property e:keia-pvvn t:meta.view.owner d:2017-09-25T07:28:40.561Z v:displayName=wja0@cdc.gov v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:keia-pvvn t:meta.view.tableauthor d:2017-06-09T13:57:17.998Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:keia-pvvn t:meta.view.tableauthor d:2017-09-25T07:28:40.561Z v:displayName=wja0@cdc.gov v:roleName=editor v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:keia-pvvn t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:17.998Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:keia-pvvn t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:28:40.561Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

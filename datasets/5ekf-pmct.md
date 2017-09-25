@@ -50,11 +50,11 @@ Excluded Fields = no
 ## Data Commands
 
 ```ls
-series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:category="Health Care Access/Coverage" t:condition="Do you have any kind of health care coverage?" t:state="Nationwide (States, DC, and Territories)" m:yes=82.1
+series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:condition="Do you have any kind of health care coverage?" t:state="Nationwide (States, DC, and Territories)" t:category="Health Care Access/Coverage" m:yes=82.1
 
-series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:category="Health Care Access/Coverage" t:condition="Do you have any kind of health care coverage?" t:state="Nationwide (States and DC)" m:yes=82.1
+series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:condition="Do you have any kind of health care coverage?" t:state="Nationwide (States and DC)" t:category="Health Care Access/Coverage" m:yes=82.1
 
-series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:category="Health Care Access/Coverage" t:condition="Do you have any kind of health care coverage?" t:state=Guam m:yes=72
+series e:5ekf-pmct d:2011-01-01T00:00:00.000Z t:condition="Do you have any kind of health care coverage?" t:state=Guam t:category="Health Care Access/Coverage" m:yes=72
 ```
 
 ## Meta Commands
@@ -64,13 +64,13 @@ metric m:yes p:float l:Yes t:dataTypeName=percent
 
 entity e:5ekf-pmct l:"BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" t:attribution="Behavioral Risk Factor Surveillance System" t:url=https://data.cdc.gov/api/views/5ekf-pmct
 
-property e:5ekf-pmct t:meta.view d:2017-06-09T13:56:10.015Z v:id=5ekf-pmct v:category="Health Statistics" v:attributionLink=http://www.cdc.gov/brfss/ v:averageRating=0 v:name="BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" v:attribution="Behavioral Risk Factor Surveillance System"
+property e:5ekf-pmct t:meta.view d:2017-09-25T07:27:34.607Z v:averageRating=0 v:name="BRFSS Prevalence And Trends Data: Health Care Access/Coverage for 2011" v:attribution="Behavioral Risk Factor Surveillance System" v:attributionLink=http://www.cdc.gov/brfss/ v:id=5ekf-pmct v:category="Health Statistics"
 
-property e:5ekf-pmct t:meta.view.owner d:2017-06-09T13:56:10.015Z v:id=g3fc-zmqn v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:screenName=CDC v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:displayName=CDC
+property e:5ekf-pmct t:meta.view.owner d:2017-09-25T07:27:34.607Z v:displayName=CDC v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:id=g3fc-zmqn v:screenName=CDC v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB
 
-property e:5ekf-pmct t:meta.view.tableauthor d:2017-06-09T13:56:10.015Z v:id=g3fc-zmqn v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:screenName=CDC v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:roleName=publisher v:displayName=CDC
+property e:5ekf-pmct t:meta.view.tableauthor d:2017-09-25T07:27:34.607Z v:displayName=CDC v:profileImageUrlLarge=/api/users/g3fc-zmqn/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/g3fc-zmqn/profile_images/TINY v:id=g3fc-zmqn v:screenName=CDC v:profileImageUrlMedium=/api/users/g3fc-zmqn/profile_images/THUMB
 
-property e:5ekf-pmct t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:10.015Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:5ekf-pmct t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:27:34.607Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

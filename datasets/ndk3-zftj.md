@@ -49,11 +49,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area_name="Rogers Park" t:community_area=1 m:incidence_rate_upper_ci=16.1 m:cases_2006_2010=32 m:cases_2006=8 m:cases_2007=7 m:cases_2008=4 m:cases_2009=6 m:incidence_rate_lower_ci=7.8 m:cases_2010=7 m:average_annual_incidence_rate_2006_2010=11.4
+series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area=1 t:community_area_name="Rogers Park" m:cases_2006=8 m:cases_2006_2010=32 m:cases_2007=7 m:incidence_rate_upper_ci=16.1 m:cases_2008=4 m:cases_2009=6 m:cases_2010=7 m:average_annual_incidence_rate_2006_2010=11.4 m:incidence_rate_lower_ci=7.8
 
-series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area_name="West Ridge" t:community_area=2 m:incidence_rate_upper_ci=12.5 m:cases_2006_2010=32 m:cases_2006=8 m:cases_2007=7 m:cases_2008=5 m:cases_2009=3 m:incidence_rate_lower_ci=6.1 m:cases_2010=9 m:average_annual_incidence_rate_2006_2010=8.9
+series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area=2 t:community_area_name="West Ridge" m:cases_2006=8 m:cases_2006_2010=32 m:cases_2007=7 m:incidence_rate_upper_ci=12.5 m:cases_2008=5 m:cases_2009=3 m:cases_2010=9 m:average_annual_incidence_rate_2006_2010=8.9 m:incidence_rate_lower_ci=6.1
 
-series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area_name=Uptown t:community_area=3 m:incidence_rate_upper_ci=18.6 m:cases_2006_2010=39 m:cases_2006=6 m:cases_2007=8 m:cases_2008=13 m:cases_2009=2 m:incidence_rate_lower_ci=9.7 m:cases_2010=10 m:average_annual_incidence_rate_2006_2010=13.6
+series e:ndk3-zftj d:2007-01-01T00:00:00.000Z t:community_area=3 t:community_area_name=Uptown m:cases_2006=6 m:cases_2006_2010=39 m:cases_2007=8 m:incidence_rate_upper_ci=18.6 m:cases_2008=13 m:cases_2009=2 m:cases_2010=10 m:average_annual_incidence_rate_2006_2010=13.6 m:incidence_rate_lower_ci=9.7
 ```
 
 ## Meta Commands
@@ -79,11 +79,11 @@ metric m:incidence_rate_upper_ci p:float l:"Average Annual Incidence Rate 2007-2
 
 entity e:ndk3-zftj l:"Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" t:attribution="Public Health" t:url=https://data.cityofchicago.org/api/views/ndk3-zftj
 
-property e:ndk3-zftj t:meta.view d:2017-06-09T14:00:31.380Z v:id=ndk3-zftj v:category="Health & Human Services" v:averageRating=0 v:name="Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" v:attribution="Public Health"
+property e:ndk3-zftj t:meta.view d:2017-09-25T07:31:45.170Z v:averageRating=0 v:name="Public Health Statistics- Tuberculosis cases and average annual incidence rate, Chicago, 2007- 2011" v:attribution="Public Health" v:id=ndk3-zftj v:category="Health & Human Services"
 
-property e:ndk3-zftj t:meta.view.owner d:2017-06-09T14:00:31.380Z v:id=is6y-5c5n v:screenName=Jamyia v:displayName=Jamyia
+property e:ndk3-zftj t:meta.view.owner d:2017-09-25T07:31:45.170Z v:displayName=Jamyia v:id=is6y-5c5n v:screenName=Jamyia
 
-property e:ndk3-zftj t:meta.view.tableauthor d:2017-06-09T14:00:31.380Z v:id=is6y-5c5n v:screenName=Jamyia v:displayName=Jamyia
+property e:ndk3-zftj t:meta.view.tableauthor d:2017-09-25T07:31:45.170Z v:displayName=Jamyia v:id=is6y-5c5n v:screenName=Jamyia
 ```
 
 ## Top Records

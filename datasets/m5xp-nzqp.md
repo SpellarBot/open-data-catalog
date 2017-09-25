@@ -53,13 +53,13 @@ Excluded Fields = mailing_address
 ## Data Commands
 
 ```ls
-series e:m5xp-nzqp d:2014-06-30T00:00:00.000Z t:project_location_congressional_district=n/a t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry 
+series e:m5xp-nzqp d:2014-06-30T00:00:00.000Z t:business_firm_name="NO APPROVALS WERE MADE DURING PRECEDING FISCAL YEAR" t:project_location_county_code=n/a t:estimated_total_investment=n/a t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry 
 Full disclosure of concurrent, statewide employment changes 
 Investment costs exceed taxable portion 
 Local approval pursuant to—
  - County public hearing 
  - Written agreement with business firm
- - Vote by county governing body" t:zip_code=n/a t:agency_issuing_tax_expenditure="County Assessor (Oregon Department of Revenue)" t:business_firm_name="NO APPROVALS WERE MADE DURING PRECEDING FISCAL YEAR" t:anticipated_first_tax_year_of_exemption=n/a t:statistics_and_methodology_employed="Not applicable" t:agency_s_certification_decision="Commission determination of eligibility based on review of local process, proposed investment & operations, and other evidence." t:project_location_county_code=n/a t:property_tax_benefit_not_a_credit="UNREALIZED - Project property with market value in excess of taxable portion exempt for 15 years, less community service fee and locally negotiated requirements" t:estimated_total_investment=n/a t:name_of_proposed_project=n/a m:row_number.m5xp-nzqp=1
+ - Vote by county governing body" t:name_of_proposed_project=n/a t:project_location_congressional_district=n/a t:agency_s_certification_decision="Commission determination of eligibility based on review of local process, proposed investment & operations, and other evidence." t:agency_issuing_tax_expenditure="County Assessor (Oregon Department of Revenue)" t:property_tax_benefit_not_a_credit="UNREALIZED - Project property with market value in excess of taxable portion exempt for 15 years, less community service fee and locally negotiated requirements" t:zip_code=n/a t:anticipated_first_tax_year_of_exemption=n/a t:statistics_and_methodology_employed="Not applicable" m:row_number.m5xp-nzqp=1
 ```
 
 ## Meta Commands
@@ -69,11 +69,11 @@ metric m:row_number.m5xp-nzqp p:long l:"Row Number"
 
 entity e:m5xp-nzqp l:"Strategic Investment Program - Fiscal Year 2014" t:url=https://data.oregon.gov/api/views/m5xp-nzqp
 
-property e:m5xp-nzqp t:meta.view d:2017-06-09T13:55:47.876Z v:id=m5xp-nzqp v:category="Revenue & Expense" v:averageRating=0 v:name="Strategic Investment Program - Fiscal Year 2014"
+property e:m5xp-nzqp t:meta.view d:2017-09-25T07:27:13.570Z v:averageRating=0 v:name="Strategic Investment Program - Fiscal Year 2014" v:id=m5xp-nzqp v:category="Revenue & Expense"
 
-property e:m5xp-nzqp t:meta.view.owner d:2017-06-09T13:55:47.876Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:m5xp-nzqp t:meta.view.owner d:2017-09-25T07:27:13.570Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:m5xp-nzqp t:meta.view.tableauthor d:2017-06-09T13:55:47.876Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:m5xp-nzqp t:meta.view.tableauthor d:2017-09-25T07:27:13.570Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

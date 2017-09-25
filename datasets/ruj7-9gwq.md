@@ -11,6 +11,7 @@
 | Host | data.austintexas.gov |
 | Id | ruj7-9gwq |
 | Name | Address Changes |
+| Category | City Government |
 | Created | 2016-09-30T20:18:41Z |
 | Publication Date | 2016-09-30T20:23:07Z |
 
@@ -48,11 +49,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:ruj7-9gwq d:2016-09-26T00:00:00.000Z t:new_type=LN t:old_type=LN t:old_street_name=WINSTED t:key_number=14121 t:new_street_name=WINSTED t:new_house=2400 t:new_bldg=2 t:tax_id=0115040605 t:old_house=2400 m:row_number.ruj7-9gwq=1
+series e:ruj7-9gwq d:2016-09-26T00:00:00.000Z t:key_number=14121 t:new_type=LN t:old_street_name=WINSTED t:old_type=LN t:old_house=2400 t:new_bldg=2 t:new_street_name=WINSTED t:tax_id=0115040605 t:new_house=2400 m:row_number.ruj7-9gwq=1
 
-series e:ruj7-9gwq d:2016-09-12T00:00:00.000Z t:new_type=DR t:old_type=DR t:old_street_name="IVALENES HOPE" t:key_number=13960 t:new_street_name="IVALENES HOPE" t:new_house=9200 t:tax_id=R498117 t:old_house=9200 m:row_number.ruj7-9gwq=2
+series e:ruj7-9gwq d:2016-09-12T00:00:00.000Z t:key_number=13960 t:new_type=DR t:old_street_name="IVALENES HOPE" t:old_type=DR t:old_house=9200 t:new_street_name="IVALENES HOPE" t:tax_id=R498117 t:new_house=9200 m:row_number.ruj7-9gwq=2
 
-series e:ruj7-9gwq d:2016-09-06T00:00:00.000Z t:new_type=RD t:old_unit=25-B t:old_type=RD t:old_street_name=969 t:key_number=13921 t:new_street_name=969 t:new_house=9308 t:tax_id=0210310512 t:new_unit=31 t:old_house=9308 m:row_number.ruj7-9gwq=3
+series e:ruj7-9gwq d:2016-09-06T00:00:00.000Z t:key_number=13921 t:new_type=RD t:old_unit=25-B t:old_street_name=969 t:old_type=RD t:new_unit=31 t:old_house=9308 t:new_street_name=969 t:tax_id=0210310512 t:new_house=9308 m:row_number.ruj7-9gwq=3
 ```
 
 ## Meta Commands
@@ -62,11 +63,11 @@ metric m:row_number.ruj7-9gwq p:long l:"Row Number"
 
 entity e:ruj7-9gwq l:"Address Changes" t:url=https://data.austintexas.gov/api/views/ruj7-9gwq
 
-property e:ruj7-9gwq t:meta.view d:2017-06-09T14:00:50.314Z v:id=ruj7-9gwq v:averageRating=0 v:name="Address Changes"
+property e:ruj7-9gwq t:meta.view d:2017-09-25T07:32:08.483Z v:averageRating=0 v:name="Address Changes" v:id=ruj7-9gwq v:category="City Government"
 
-property e:ruj7-9gwq t:meta.view.owner d:2017-06-09T14:00:50.314Z v:id=52wx-7e7j v:screenName="EGS Data Services" v:displayName="EGS Data Services"
+property e:ruj7-9gwq t:meta.view.owner d:2017-09-25T07:32:08.483Z v:displayName="EGS Data Services" v:id=52wx-7e7j v:screenName="EGS Data Services"
 
-property e:ruj7-9gwq t:meta.view.tableauthor d:2017-06-09T14:00:50.314Z v:id=52wx-7e7j v:screenName="EGS Data Services" v:roleName=publisher v:displayName="EGS Data Services"
+property e:ruj7-9gwq t:meta.view.tableauthor d:2017-09-25T07:32:08.483Z v:displayName="EGS Data Services" v:roleName=publisher v:id=52wx-7e7j v:screenName="EGS Data Services"
 ```
 
 ## Top Records

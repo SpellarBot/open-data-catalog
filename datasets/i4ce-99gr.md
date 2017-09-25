@@ -53,11 +53,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:i4ce-99gr d:2014-01-28T12:54:51.000Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=60 m:fy_14_salary=0 m:fy_12_salary=12926 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2014-01-28T12:54:51.000Z t:dept_code=UOH t:mof=A t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:position_number=60 t:prog_id_org=UOH800HE t:position_title=CASUAL-PAYROLL t:perm_temp_j1a=J1A m:fy_12_salary=12926 m:fy_14_salary=0 m:fy_13_salary=0 m:fy_15_salary=0
 
-series e:i4ce-99gr d:2014-01-28T12:54:51.000Z t:mof=B t:perm_temp_j1a=J1A t:dept_code=UOH t:position_title=CASUAL-PAYROLL t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:prog_id_org=UOH800HE t:position_number=61 m:fy_14_salary=0 m:fy_12_salary=21265 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2014-01-28T12:54:51.000Z t:dept_code=UOH t:mof=B t:source_file_header="Act 134, SLH 2013 - UOH Personal Services" t:position_number=61 t:prog_id_org=UOH800HE t:position_title=CASUAL-PAYROLL t:perm_temp_j1a=J1A m:fy_12_salary=21265 m:fy_14_salary=0 m:fy_13_salary=0 m:fy_15_salary=0
 
-series e:i4ce-99gr d:2014-01-28T12:55:07.000Z t:mof=A t:perm_temp_j1a=J1A t:dept_code=HMS t:position_title="RIF SAVINGS" t:source_file_header="Act 134, SLH 2013 -  HMS Personal Services" t:prog_id_org=HMS301SA t:position_number=975 m:fy_14_salary=0 m:fy_12_salary=2759573 m:fy_15_salary=0 m:fy_13_salary=0
+series e:i4ce-99gr d:2014-01-28T12:55:07.000Z t:dept_code=HMS t:mof=A t:source_file_header="Act 134, SLH 2013 -  HMS Personal Services" t:position_number=975 t:prog_id_org=HMS301SA t:position_title="RIF SAVINGS" t:perm_temp_j1a=J1A m:fy_12_salary=2759573 m:fy_14_salary=0 m:fy_13_salary=0 m:fy_15_salary=0
 ```
 
 ## Meta Commands
@@ -81,11 +81,11 @@ metric m:fy_15_salary p:double l:"FY 15 Salary" t:dataTypeName=money
 
 entity e:i4ce-99gr l:"Budget Table - J1 (Salary and FTE)" t:url=https://data.hawaii.gov/api/views/i4ce-99gr
 
-property e:i4ce-99gr t:meta.view d:2017-06-09T13:54:34.892Z v:id=i4ce-99gr v:averageRating=0 v:name="Budget Table - J1 (Salary and FTE)"
+property e:i4ce-99gr t:meta.view d:2017-09-25T07:26:00.741Z v:averageRating=0 v:name="Budget Table - J1 (Salary and FTE)" v:id=i4ce-99gr
 
-property e:i4ce-99gr t:meta.view.owner d:2017-06-09T13:54:34.892Z v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1492637852 v:displayName="Meredith Slota"
+property e:i4ce-99gr t:meta.view.owner d:2017-09-25T07:26:00.741Z v:displayName="Meredith Slota" v:lastNotificationSeenAt=1492637852 v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:id=trij-xrnq v:screenName="Meredith Slota" v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB
 
-property e:i4ce-99gr t:meta.view.tableauthor d:2017-06-09T13:54:34.892Z v:id=trij-xrnq v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:screenName="Meredith Slota" v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:lastNotificationSeenAt=1492637852 v:displayName="Meredith Slota"
+property e:i4ce-99gr t:meta.view.tableauthor d:2017-09-25T07:26:00.741Z v:displayName="Meredith Slota" v:lastNotificationSeenAt=1492637852 v:profileImageUrlLarge=/api/users/trij-xrnq/profile_images/LARGE v:profileImageUrlSmall=/api/users/trij-xrnq/profile_images/TINY v:id=trij-xrnq v:screenName="Meredith Slota" v:profileImageUrlMedium=/api/users/trij-xrnq/profile_images/THUMB
 ```
 
 ## Top Records

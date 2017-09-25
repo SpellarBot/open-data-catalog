@@ -12,7 +12,7 @@
 | Id | q3b3-ezki |
 | Name | Operations And Maintenance Expenditures |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | operations and maintenance, o&m, expenditures, energy, budget |
 | Created | 2016-08-01T14:33:01Z |
 | Publication Date | 2016-10-31T13:55:05Z |
@@ -45,11 +45,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:q3b3-ezki d:2007-01-01T00:00:00.000Z m:electric_service_delivery=103947739 m:fuel=368759133 m:administrative_and_general=78289887 m:distributed_energy_services=26394706 m:customer_care=23690882 m:power_supply_market_operations=129980185
+series e:q3b3-ezki d:2007-01-01T00:00:00.000Z m:customer_care=23690882 m:fuel=368759133 m:electric_service_delivery=103947739 m:power_supply_market_operations=129980185 m:distributed_energy_services=26394706 m:administrative_and_general=78289887
 
-series e:q3b3-ezki d:2008-01-01T00:00:00.000Z m:electric_service_delivery=112627646 m:fuel=480998900 m:administrative_and_general=79860010 m:distributed_energy_services=28758771 m:customer_care=24120110 m:power_supply_market_operations=123595487
+series e:q3b3-ezki d:2008-01-01T00:00:00.000Z m:customer_care=24120110 m:fuel=480998900 m:electric_service_delivery=112627646 m:power_supply_market_operations=123595487 m:distributed_energy_services=28758771 m:administrative_and_general=79860010
 
-series e:q3b3-ezki d:2009-01-01T00:00:00.000Z m:electric_service_delivery=128031667 m:fuel=442789384 m:administrative_and_general=93614766 m:distributed_energy_services=34208249 m:customer_care=28670858 m:power_supply_market_operations=124978787
+series e:q3b3-ezki d:2009-01-01T00:00:00.000Z m:customer_care=28670858 m:fuel=442789384 m:electric_service_delivery=128031667 m:power_supply_market_operations=124978787 m:distributed_energy_services=34208249 m:administrative_and_general=93614766
 ```
 
 ## Meta Commands
@@ -69,13 +69,13 @@ metric m:administrative_and_general p:integer l:"Administrative and General" t:d
 
 entity e:q3b3-ezki l:"Operations And Maintenance Expenditures" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/q3b3-ezki
 
-property e:q3b3-ezki t:meta.view d:2017-06-09T13:56:49.638Z v:id=q3b3-ezki v:category=Utility v:averageRating=0 v:name="Operations And Maintenance Expenditures" v:attribution="Austin Energy"
+property e:q3b3-ezki t:meta.view d:2017-09-25T07:28:09.814Z v:averageRating=0 v:name="Operations And Maintenance Expenditures" v:attribution="Austin Energy" v:id=q3b3-ezki v:category="Utilities and City Services"
 
-property e:q3b3-ezki t:meta.view.license d:2017-06-09T13:56:49.638Z v:name="Public Domain"
+property e:q3b3-ezki t:meta.view.license d:2017-09-25T07:28:09.814Z v:name="Public Domain"
 
-property e:q3b3-ezki t:meta.view.owner d:2017-06-09T13:56:49.638Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:q3b3-ezki t:meta.view.owner d:2017-09-25T07:28:09.814Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 
-property e:q3b3-ezki t:meta.view.tableauthor d:2017-06-09T13:56:49.638Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:q3b3-ezki t:meta.view.tableauthor d:2017-09-25T07:28:09.814Z v:displayName="Elaine Lee" v:roleName=editor v:id=3qbr-w2gj v:screenName="Elaine Lee"
 ```
 
 ## Top Records

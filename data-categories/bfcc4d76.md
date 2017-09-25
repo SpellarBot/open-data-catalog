@@ -12,7 +12,7 @@ Name | Host | Published
 [EWDD - Day Labor Program](../datasets/9et4-6fpi.md) | data.lacity.org | 2014&#x2011;05&#x2011;29
 [EWDD - Worksource Center Program Performance Outcomes](../datasets/7w5j-7jjp.md) | data.lacity.org | 2014&#x2011;05&#x2011;29
 [General City Budget Incremental Changes](../datasets/k4k6-bwwv.md) | data.lacity.org | 2016&#x2011;07&#x2011;11
-[General Fund Revenue](../datasets/qrkr-kfbh.md) | data.lacity.org | 2017&#x2011;05&#x2011;19
+[General Fund Revenue](../datasets/qrkr-kfbh.md) | data.lacity.org | 2017&#x2011;08&#x2011;04
 [HACLA Large Public Housing Sites (16)](../datasets/9rf7-dm83.md) | data.lacity.org | 2015&#x2011;01&#x2011;26
 [HACLA Resident Ethnicity Demographics - Large Public Housing Sites (16)](../datasets/f88n-w5b8.md) | data.lacity.org | 2015&#x2011;01&#x2011;26
 [Job Applicants by Gender and Ethnicity](../datasets/mkf9-fagf.md) | data.lacity.org | 2016&#x2011;12&#x2011;01

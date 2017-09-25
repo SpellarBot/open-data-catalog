@@ -14,7 +14,7 @@
 | Category | City Management and Ethics |
 | Tags | inventory, publishing plans, open data program |
 | Created | 2015-07-13T18:57:52Z |
-| Publication Date | 2017-03-24T17:45:24Z |
+| Publication Date | 2017-08-14T18:46:04Z |
 
 ## Description
 
@@ -50,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:tzir-jbhj d:2017-03-24T17:44:56.000Z t:inventory_status=Complete t:publishing_plan_status=Complete t:department_code=311 t:department_or_division=311 m:target_december_2017=0 m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_december_2017=0 m:published_through_june_2016=0 m:target_december_2015=0 m:target_december_2016=0
+series e:tzir-jbhj d:2017-08-14T18:45:32.000Z t:department_code=311 t:publishing_plan_status=Complete t:department_or_division=311 t:inventory_status=Complete m:target_december_2016=0 m:target_december_2015=0 m:published_through_june_2016=0 m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:target_december_2017=0 m:published_through_december_2017=0
 
-series e:tzir-jbhj d:2017-03-24T17:44:56.000Z t:inventory_status=Incomplete t:publishing_plan_status=Incomplete t:department_code=SCI t:department_or_division="Academy of Sciences" m:target_december_2017=0 m:target_june_2016=0 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_december_2017=0 m:published_through_june_2016=0 m:target_december_2015=0 m:target_december_2016=0
+series e:tzir-jbhj d:2017-08-14T18:45:32.000Z t:department_code=ADP t:publishing_plan_status=Complete t:department_or_division="Adult Probation" t:inventory_status=Complete m:target_december_2016=0 m:target_december_2015=2 m:published_through_june_2016=0 m:target_june_2016=2 m:published_through_december_2015=0 m:published_through_december_2016=0 m:target_december_2017=0 m:published_through_december_2017=0
 
-series e:tzir-jbhj d:2017-03-24T17:44:56.000Z t:inventory_status=Complete t:publishing_plan_status=Complete t:department_code=ADP t:department_or_division="Adult Probation" m:target_december_2017=0 m:target_june_2016=2 m:published_through_december_2015=0 m:published_through_december_2016=0 m:published_through_december_2017=0 m:published_through_june_2016=0 m:target_december_2015=2 m:target_december_2016=0
+series e:tzir-jbhj d:2017-08-14T18:45:32.000Z t:department_code=AIR t:publishing_plan_status=Incomplete t:department_or_division=Airport t:inventory_status=Complete m:target_december_2016=0 m:target_december_2015=15 m:published_through_june_2016=5 m:target_june_2016=19 m:published_through_december_2015=4 m:published_through_december_2016=0 m:target_december_2017=0 m:published_through_december_2017=0
 ```
 
 ## Meta Commands
@@ -78,28 +78,28 @@ metric m:published_through_december_2017 p:integer l:"Published Through December
 
 entity e:tzir-jbhj l:"Department Open Data Inventory and Plan Status" t:url=https://data.sfgov.org/api/views/tzir-jbhj
 
-property e:tzir-jbhj t:meta.view d:2017-06-09T13:55:23.095Z v:id=tzir-jbhj v:category="City Management and Ethics" v:averageRating=0 v:name="Department Open Data Inventory and Plan Status"
+property e:tzir-jbhj t:meta.view d:2017-09-25T07:26:48.049Z v:averageRating=0 v:name="Department Open Data Inventory and Plan Status" v:id=tzir-jbhj v:category="City Management and Ethics"
 
-property e:tzir-jbhj t:meta.view.license d:2017-06-09T13:55:23.095Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:tzir-jbhj t:meta.view.license d:2017-09-25T07:26:48.049Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:tzir-jbhj t:meta.view.owner d:2017-06-09T13:55:23.095Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:tzir-jbhj t:meta.view.owner d:2017-09-25T07:26:48.049Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:tzir-jbhj t:meta.view.tableauthor d:2017-06-09T13:55:23.095Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:tzir-jbhj t:meta.view.tableauthor d:2017-09-25T07:26:48.049Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records
 
 ```ls
-| :updated_at | department_code | department_or_division | inventory_status | publishing_plan_status | target_december_2015 | published_through_december_2015 | target_june_2016 | published_through_june_2016 | target_december_2016 | published_through_december_2016 | target_december_2017 | published_through_december_2017 | 
-| =========== | =============== | ====================== | ================ | ====================== | ==================== | =============================== | ================ | =========================== | ==================== | =============================== | ==================== | =============================== | 
-| 1490377496  | 311             | 311                    | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | SCI             | Academy of Sciences    | Incomplete       | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | ADP             | Adult Probation        | Complete         | Complete               | 2                    | 0                               | 2                | 0                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | AIR             | Airport                | Complete         | Incomplete             | 15                   | 4                               | 19               | 5                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | ART             | Arts Commission        | Complete         | Complete               | 1                    | 1                               | 0                | 0                           | 0                    | 0                               | 2                    | 0                               | 
-| 1490377496  | AAM             | Asian Art Museum       | Complete         | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | ASR             | Assessor-Recorder      | Complete         | Incomplete             | 0                    | 0                               | 1                | 2                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | BOA             | Board of Appeals       | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | BOS             | Board of Supervisors   | Complete         | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
-| 1490377496  | DBI             | Building Inspection    | Incomplete       | Incomplete             | 0                    | 0                               | 0                | 6                           | 0                    | 0                               | 0                    | 0                               | 
+| :updated_at | department_code | department_or_division           | inventory_status | publishing_plan_status | target_december_2015 | published_through_december_2015 | target_june_2016 | published_through_june_2016 | target_december_2016 | published_through_december_2016 | target_december_2017 | published_through_december_2017 | 
+| =========== | =============== | ================================ | ================ | ====================== | ==================== | =============================== | ================ | =========================== | ==================== | =============================== | ==================== | =============================== | 
+| 1502736332  | 311             | 311                              | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | ADP             | Adult Probation                  | Complete         | Complete               | 2                    | 0                               | 2                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | AIR             | Airport                          | Complete         | Incomplete             | 15                   | 4                               | 19               | 5                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | ART             | Arts Commission                  | Complete         | Complete               | 1                    | 1                               | 0                | 0                           | 0                    | 0                               | 2                    | 0                               | 
+| 1502736332  | AAM             | Asian Art Museum                 | Complete         | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | ASR             | Assessor-Recorder                | Complete         | Incomplete             | 0                    | 0                               | 1                | 2                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | BOA             | Board of Appeals                 | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | BOS             | Board of Supervisors             | Complete         | Incomplete             | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | CSS             | Child Support Services           | Complete         | Complete               | 0                    | 0                               | 0                | 0                           | 0                    | 0                               | 0                    | 0                               | 
+| 1502736332  | CFC             | Children and Families Commission | Complete         | Incomplete             | 4                    | 0                               | 4                | 0                           | 4                    | 0                               | 0                    | 0                               | 
 ```

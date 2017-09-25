@@ -50,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 5 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="P.S. 005 Dr. Ronald Mcnair" t:building_level=PS t:district_of_building=16 t:school_code=K005 t:school_year=2014-15 t:building_code=K005 m:building_capacity_based_on_2013_2014_blue_book=712 m:building_enrollment_based_on_2013_2014_blue_book=412
+series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:district_of_building=16 t:building_name="P.S. 5 - BROOKLYN" t:school_code=K005 t:final_uu_2015_designation=300+ t:school_name="P.S. 005 Dr. Ronald Mcnair" t:building_code=K005 t:school_year=2014-15 t:borough_of_building=Brooklyn t:building_level=PS m:building_enrollment_based_on_2013_2014_blue_book=412 m:building_capacity_based_on_2013_2014_blue_book=712
 
-series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 5 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="P.S. K369 - Coy L. Cox School" t:building_level=PS t:district_of_building=16 t:school_code=K369 t:school_year=2014-15 t:building_code=K005 m:building_capacity_based_on_2013_2014_blue_book=712 m:building_enrollment_based_on_2013_2014_blue_book=412
+series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:district_of_building=16 t:building_name="P.S. 5 - BROOKLYN" t:school_code=K369 t:final_uu_2015_designation=300+ t:school_name="P.S. K369 - Coy L. Cox School" t:building_code=K005 t:school_year=2014-15 t:borough_of_building=Brooklyn t:building_level=PS m:building_enrollment_based_on_2013_2014_blue_book=412 m:building_capacity_based_on_2013_2014_blue_book=712
 
-series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:building_name="P.S. 12 - BROOKLYN" t:borough_of_building=Brooklyn t:final_uu_2015_designation=300+ t:school_name="Dr. Jacqueline Peek-Davis School" t:building_level=PS t:district_of_building=23 t:school_code=K012 t:school_year=2014-15 t:building_code=K012 m:building_capacity_based_on_2013_2014_blue_book=861 m:building_enrollment_based_on_2013_2014_blue_book=357
+series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z t:district_of_building=23 t:building_name="P.S. 12 - BROOKLYN" t:school_code=K012 t:final_uu_2015_designation=300+ t:school_name="Dr. Jacqueline Peek-Davis School" t:building_code=K012 t:school_year=2014-15 t:borough_of_building=Brooklyn t:building_level=PS m:building_enrollment_based_on_2013_2014_blue_book=357 m:building_capacity_based_on_2013_2014_blue_book=861
 ```
 
 ## Meta Commands
@@ -66,11 +66,11 @@ metric m:building_capacity_based_on_2013_2014_blue_book p:integer l:"Building Ca
 
 entity e:q7ra-ebu4 l:"Underutilized Space Report" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/q7ra-ebu4
 
-property e:q7ra-ebu4 t:meta.view d:2017-06-09T13:59:56.329Z v:id=q7ra-ebu4 v:category=Education v:averageRating=0 v:name="Underutilized Space Report" v:attribution="Department of Education (DOE)"
+property e:q7ra-ebu4 t:meta.view d:2017-09-25T07:31:15.411Z v:averageRating=0 v:name="Underutilized Space Report" v:attribution="Department of Education (DOE)" v:id=q7ra-ebu4 v:category=Education
 
-property e:q7ra-ebu4 t:meta.view.owner d:2017-06-09T13:59:56.329Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:q7ra-ebu4 t:meta.view.owner d:2017-09-25T07:31:15.411Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:q7ra-ebu4 t:meta.view.tableauthor d:2017-06-09T13:59:56.329Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:q7ra-ebu4 t:meta.view.tableauthor d:2017-09-25T07:31:15.411Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records

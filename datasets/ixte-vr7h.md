@@ -42,11 +42,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:ixte-vr7h d:2013-01-01T00:00:00.000Z t:zip_code=55170 t:department="Not Defined" t:supplier_name="US BANK" m:amount=1200000
+series e:ixte-vr7h d:2013-01-01T00:00:00.000Z t:supplier_name="US BANK" t:department="Not Defined" t:zip_code=55170 m:amount=1200000
 
-series e:ixte-vr7h d:2013-01-01T00:00:00.000Z t:zip_code=75266 t:department=Police t:supplier_name=VERIZON m:amount=1869.45
+series e:ixte-vr7h d:2013-01-01T00:00:00.000Z t:supplier_name=VERIZON t:department=Police t:zip_code=75266 m:amount=1869.45
 
-series e:ixte-vr7h d:2013-01-01T00:00:00.000Z t:zip_code=60197 t:department=Police t:supplier_name="WEST GROUP" m:amount=292
+series e:ixte-vr7h d:2013-01-01T00:00:00.000Z t:supplier_name="WEST GROUP" t:department=Police t:zip_code=60197 m:amount=292
 ```
 
 ## Meta Commands
@@ -56,11 +56,11 @@ metric m:amount p:double l:Amount d:"Dollar amount paid to the supplier." t:data
 
 entity e:ixte-vr7h l:"Spending Disclosure - Fiscal Year 2013" t:attribution="Montgomery County Department of Finance" t:url=https://data.montgomerycountymd.gov/api/views/ixte-vr7h
 
-property e:ixte-vr7h t:meta.view d:2017-06-09T13:55:56.488Z v:id=ixte-vr7h v:category=Finance/Tax/Property v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance"
+property e:ixte-vr7h t:meta.view d:2017-09-25T07:27:20.890Z v:averageRating=0 v:name="Spending Disclosure - Fiscal Year 2013" v:attribution="Montgomery County Department of Finance" v:id=ixte-vr7h v:category=Finance/Tax/Property
 
-property e:ixte-vr7h t:meta.view.owner d:2017-06-09T13:55:56.488Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.owner d:2017-09-25T07:27:20.890Z v:displayName="Kathy Luh" v:id=qzhb-tftn v:screenName="Kathy Luh"
 
-property e:ixte-vr7h t:meta.view.tableauthor d:2017-06-09T13:55:56.488Z v:id=qzhb-tftn v:screenName="Kathy Luh" v:roleName=administrator v:displayName="Kathy Luh"
+property e:ixte-vr7h t:meta.view.tableauthor d:2017-09-25T07:27:20.890Z v:displayName="Kathy Luh" v:roleName=administrator v:id=qzhb-tftn v:screenName="Kathy Luh"
 ```
 
 ## Top Records

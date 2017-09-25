@@ -15,7 +15,7 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, rabies, animal, rubella, congenital syndrome |
 | Created | 2017-01-12T20:23:18Z |
-| Publication Date | 2017-06-08T16:34:27Z |
+| Publication Date | 2017-09-21T15:49:26Z |
 
 ## Description
 
@@ -91,55 +91,55 @@ Excluded Fields = rabies_animal_current_week_flag,rabies_animal_previous_52_week
 ## Data Commands
 
 ```ls
-series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=11 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rabies_animal_previous_52_weeks_max=112 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=2 m:rabies_animal_cum_2016=34 m:rabies_animal_current_week=11 m:rabies_animal_previous_52_weeks_med=52
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:rabies_animal_cum_2017=11 m:rabies_animal_previous_52_weeks_med=52 m:rubella_previous_52_weeks_max=2 m:rubella_congenital_syndrome_previous_52_weeks_max=1 m:rabies_animal_current_week=11 m:rabies_animal_previous_52_weeks_max=112 m:rubella_previous_52_weeks_med=0 m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2016=34
 
-series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_med=4
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:rabies_animal_previous_52_weeks_med=4 m:rubella_previous_52_weeks_max=0 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_max=13 m:rubella_previous_52_weeks_med=0 m:rubella_congenital_syndrome_previous_52_weeks_med=0
 
-series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2017=7 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rabies_animal_previous_52_weeks_max=33 m:rubella_previous_52_weeks_med=0 m:rubella_previous_52_weeks_max=0 m:rabies_animal_cum_2016=5 m:rabies_animal_current_week=7 m:rabies_animal_previous_52_weeks_med=8
+series e:scxv-4u4u d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:rabies_animal_cum_2017=7 m:rabies_animal_previous_52_weeks_med=8 m:rubella_previous_52_weeks_max=0 m:rubella_congenital_syndrome_previous_52_weeks_max=0 m:rabies_animal_current_week=7 m:rabies_animal_previous_52_weeks_max=33 m:rubella_previous_52_weeks_med=0 m:rubella_congenital_syndrome_previous_52_weeks_med=0 m:rabies_animal_cum_2016=5
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:rabies_animal_current_week p:long l:"Rabies, animal, Current week" t:dataTypeName=number
+metric m:rabies_animal_current_week p:integer l:"Rabies, animal, Current week" t:dataTypeName=number
 
-metric m:rabies_animal_previous_52_weeks_med p:long l:"Rabies, animal, Previous 52 weeks Med" t:dataTypeName=number
+metric m:rabies_animal_previous_52_weeks_med p:integer l:"Rabies, animal, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:rabies_animal_previous_52_weeks_max p:long l:"Rabies, animal, Previous 52 weeks Max" t:dataTypeName=number
+metric m:rabies_animal_previous_52_weeks_max p:integer l:"Rabies, animal, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:rabies_animal_cum_2017 p:long l:"Rabies, animal, Cum 2017" t:dataTypeName=number
+metric m:rabies_animal_cum_2017 p:integer l:"Rabies, animal, Cum 2017" t:dataTypeName=number
 
-metric m:rabies_animal_cum_2016 p:long l:"Rabies, animal, Cum 2016" t:dataTypeName=number
+metric m:rabies_animal_cum_2016 p:integer l:"Rabies, animal, Cum 2016" t:dataTypeName=number
 
-metric m:rubella_current_week p:long l:"Rubella, Current week" t:dataTypeName=number
+metric m:rubella_current_week p:integer l:"Rubella, Current week" t:dataTypeName=number
 
-metric m:rubella_previous_52_weeks_med p:long l:"Rubella, Previous 52 weeks Med" t:dataTypeName=number
+metric m:rubella_previous_52_weeks_med p:integer l:"Rubella, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:rubella_previous_52_weeks_max p:long l:"Rubella, Previous 52 weeks Max" t:dataTypeName=number
+metric m:rubella_previous_52_weeks_max p:integer l:"Rubella, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:rubella_cum_2017 p:long l:"Rubella, Cum 2017" t:dataTypeName=number
+metric m:rubella_cum_2017 p:integer l:"Rubella, Cum 2017" t:dataTypeName=number
 
-metric m:rubella_cum_2016 p:long l:"Rubella, Cum 2016" t:dataTypeName=number
+metric m:rubella_cum_2016 p:integer l:"Rubella, Cum 2016" t:dataTypeName=number
 
 metric m:rubella_congenital_syndrome_current_week p:long l:"Rubella, congenital syndrome, Current week" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_previous_52_weeks_med p:long l:"Rubella, congenital syndrome, Previous 52 weeks Med" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_previous_52_weeks_med p:integer l:"Rubella, congenital syndrome, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_previous_52_weeks_max p:long l:"Rubella, congenital syndrome, Previous 52 weeks Max" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_previous_52_weeks_max p:integer l:"Rubella, congenital syndrome, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:rubella_congenital_syndrome_cum_2017 p:long l:"Rubella, congenital syndrome, Cum 2017" t:dataTypeName=number
+metric m:rubella_congenital_syndrome_cum_2017 p:integer l:"Rubella, congenital syndrome, Cum 2017" t:dataTypeName=number
 
 metric m:rubella_congenital_syndrome_cum_2016 p:long l:"Rubella, congenital syndrome, Cum 2016" t:dataTypeName=number
 
 entity e:scxv-4u4u l:"NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/scxv-4u4u
 
-property e:scxv-4u4u t:meta.view d:2017-06-09T13:59:13.204Z v:id=scxv-4u4u v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:scxv-4u4u t:meta.view d:2017-09-25T07:30:35.177Z v:averageRating=0 v:name="NNDSS - Table II. Rabies, animal to Rubella, congenital syndrome" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" v:id=scxv-4u4u v:category=NNDSS
 
-property e:scxv-4u4u t:meta.view.owner d:2017-06-09T13:59:13.204Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
+property e:scxv-4u4u t:meta.view.owner d:2017-09-25T07:30:35.177Z v:displayName=wja0@cdc.gov v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:scxv-4u4u t:meta.view.tableauthor d:2017-06-09T13:59:13.204Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:scxv-4u4u t:meta.view.tableauthor d:2017-09-25T07:30:35.177Z v:displayName=wja0@cdc.gov v:roleName=editor v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:scxv-4u4u t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:59:13.204Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:scxv-4u4u t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:35.177Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

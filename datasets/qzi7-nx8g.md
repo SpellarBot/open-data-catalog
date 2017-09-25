@@ -12,7 +12,7 @@
 | Id | qzi7-nx8g |
 | Name | Recycle Drop Off Locations |
 | Attribution | City of Austin Watershed Protection |
-| Category | Environmental |
+| Category | Environment |
 | Created | 2013-07-17T12:58:22Z |
 | Publication Date | 2013-09-18T14:22:42Z |
 
@@ -59,11 +59,11 @@ Excluded Fields = latitude,longitude
 ## Data Commands
 
 ```ls
-series e:qzi7-nx8g d:2013-07-17T08:39:44.000Z t:business_name="Tex-Con Oil Company" t:phone=512-444-1941 t:zip_code=78744 t:status=1 t:batteries=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:row_number.qzi7-nx8g=1
+series e:qzi7-nx8g d:2013-07-17T08:39:44.000Z t:business_name="Tex-Con Oil Company" t:oil=Yes t:oil_filter=Yes t:batteries=Yes t:zone=Southeast t:phone=512-444-1941 t:zip_code=78744 t:status=1 m:row_number.qzi7-nx8g=1
 
-series e:qzi7-nx8g d:2013-07-17T08:40:05.000Z t:business_name="Home Chemical Collection" t:phone=512-974-4343 t:zip_code=78744 t:status=1 t:batteries=Yes t:zone=Southeast t:oil_filter=Yes t:oil=Yes m:row_number.qzi7-nx8g=2
+series e:qzi7-nx8g d:2013-07-17T08:40:05.000Z t:business_name="Home Chemical Collection" t:oil=Yes t:oil_filter=Yes t:batteries=Yes t:zone=Southeast t:phone=512-974-4343 t:zip_code=78744 t:status=1 m:row_number.qzi7-nx8g=2
 
-series e:qzi7-nx8g d:2013-07-17T08:40:06.000Z t:phone=512-243-1894 t:zip_code=78719 t:status=1 t:batteries=Yes t:oil=Yes t:business_name="City of Austin Landfill" t:fluids=Yes t:aluminum=Yes t:tires=Yes t:scrap_metal=Yes t:newspapers=Yes t:zone=Southeast t:oil_filter=Yes m:row_number.qzi7-nx8g=3
+series e:qzi7-nx8g d:2013-07-17T08:40:06.000Z t:business_name="City of Austin Landfill" t:oil_filter=Yes t:batteries=Yes t:newspapers=Yes t:aluminum=Yes t:scrap_metal=Yes t:zip_code=78719 t:oil=Yes t:zone=Southeast t:phone=512-243-1894 t:status=1 t:fluids=Yes t:tires=Yes m:row_number.qzi7-nx8g=3
 ```
 
 ## Meta Commands
@@ -73,13 +73,13 @@ metric m:row_number.qzi7-nx8g p:long l:"Row Number"
 
 entity e:qzi7-nx8g l:"Recycle Drop Off Locations" t:attribution="City of Austin Watershed Protection" t:url=https://data.austintexas.gov/api/views/qzi7-nx8g
 
-property e:qzi7-nx8g t:meta.view d:2017-06-09T13:56:03.181Z v:id=qzi7-nx8g v:category=Environmental v:attributionLink=http://www.austintexas.gov/department/watershed-protection v:averageRating=0 v:name="Recycle Drop Off Locations" v:attribution="City of Austin Watershed Protection"
+property e:qzi7-nx8g t:meta.view d:2017-09-25T07:27:27.631Z v:averageRating=0 v:name="Recycle Drop Off Locations" v:attribution="City of Austin Watershed Protection" v:attributionLink=http://www.austintexas.gov/department/watershed-protection v:id=qzi7-nx8g v:category=Environment
 
-property e:qzi7-nx8g t:meta.view.license d:2017-06-09T13:56:03.181Z v:name="Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:qzi7-nx8g t:meta.view.license d:2017-09-25T07:27:27.631Z v:name="Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:qzi7-nx8g t:meta.view.owner d:2017-06-09T13:56:03.181Z v:id=2z47-i38b v:screenName="Watershed Education" v:lastNotificationSeenAt=1494616333 v:displayName="Watershed Education"
+property e:qzi7-nx8g t:meta.view.owner d:2017-09-25T07:27:27.631Z v:displayName="Watershed Education" v:lastNotificationSeenAt=1504100905 v:id=2z47-i38b v:screenName="Watershed Education"
 
-property e:qzi7-nx8g t:meta.view.tableauthor d:2017-06-09T13:56:03.181Z v:id=2z47-i38b v:screenName="Watershed Education" v:roleName=publisher v:lastNotificationSeenAt=1494616333 v:displayName="Watershed Education"
+property e:qzi7-nx8g t:meta.view.tableauthor d:2017-09-25T07:27:27.631Z v:displayName="Watershed Education" v:lastNotificationSeenAt=1504100905 v:roleName=publisher v:id=2z47-i38b v:screenName="Watershed Education"
 ```
 
 ## Top Records

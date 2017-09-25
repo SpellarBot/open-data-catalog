@@ -53,11 +53,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:category=K-5 t:attribute_category="Grade Weights" t:location=Q184 t:attribute_reference=ATTRIBUTE_01 t:sub_category=NA t:need_name=NA m:column_r_register_dollar_change=-32980.37 m:column_o_projected_register=462 m:column_m_fy15_per_capita_no_ats_growth=4122.55 m:column_l_fy15_weight=1 m:column_q_register_change=-8 m:column_p_projected_formula=1904616.09 m:column_n_fy14_actual_registers=470 m:print_order=2
+series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:attribute_category="Grade Weights" t:need_name=NA t:sub_category=NA t:location=Q184 t:attribute_reference=ATTRIBUTE_01 t:category=K-5 m:column_l_fy15_weight=1 m:column_o_projected_register=462 m:column_q_register_change=-8 m:column_r_register_dollar_change=-32980.37 m:column_m_fy15_per_capita_no_ats_growth=4122.55 m:print_order=2 m:column_p_projected_formula=1904616.09 m:column_n_fy14_actual_registers=470
 
-series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:category=K-5 t:attribute_category="Grade Weights" t:location=Q214 t:attribute_reference=ATTRIBUTE_01 t:sub_category=NA t:need_name=NA m:column_r_register_dollar_change=210249.83 m:column_o_projected_register=490 m:column_m_fy15_per_capita_no_ats_growth=4122.55 m:column_l_fy15_weight=1 m:column_q_register_change=51 m:column_p_projected_formula=2020047.37 m:column_n_fy14_actual_registers=439 m:print_order=2
+series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:attribute_category="Grade Weights" t:need_name=NA t:sub_category=NA t:location=Q214 t:attribute_reference=ATTRIBUTE_01 t:category=K-5 m:column_l_fy15_weight=1 m:column_o_projected_register=490 m:column_q_register_change=51 m:column_r_register_dollar_change=210249.83 m:column_m_fy15_per_capita_no_ats_growth=4122.55 m:print_order=2 m:column_p_projected_formula=2020047.37 m:column_n_fy14_actual_registers=439
 
-series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:category=K-5 t:attribute_category="Grade Weights" t:location=Q209 t:attribute_reference=ATTRIBUTE_01 t:sub_category=NA t:need_name=NA m:column_r_register_dollar_change=-82450.91 m:column_o_projected_register=596 m:column_m_fy15_per_capita_no_ats_growth=4122.55 m:column_l_fy15_weight=1 m:column_q_register_change=-20 m:column_p_projected_formula=2457037.2 m:column_n_fy14_actual_registers=616 m:print_order=2
+series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z t:attribute_category="Grade Weights" t:need_name=NA t:sub_category=NA t:location=Q209 t:attribute_reference=ATTRIBUTE_01 t:category=K-5 m:column_l_fy15_weight=1 m:column_o_projected_register=596 m:column_q_register_change=-20 m:column_r_register_dollar_change=-82450.91 m:column_m_fy15_per_capita_no_ats_growth=4122.55 m:print_order=2 m:column_p_projected_formula=2457037.2 m:column_n_fy14_actual_registers=616
 ```
 
 ## Meta Commands
@@ -81,11 +81,11 @@ metric m:column_r_register_dollar_change p:double l:"Column R: Register Dollar C
 
 entity e:wr4r-bue7 l:"Fair Student Funding Budget Detail 1" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/wr4r-bue7
 
-property e:wr4r-bue7 t:meta.view d:2017-06-09T13:54:12.949Z v:id=wr4r-bue7 v:category="City Government" v:averageRating=0 v:name="Fair Student Funding Budget Detail 1" v:attribution="Department of Education (DOE)"
+property e:wr4r-bue7 t:meta.view d:2017-09-25T07:25:35.111Z v:averageRating=0 v:name="Fair Student Funding Budget Detail 1" v:attribution="Department of Education (DOE)" v:id=wr4r-bue7 v:category="City Government"
 
-property e:wr4r-bue7 t:meta.view.owner d:2017-06-09T13:54:12.949Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:wr4r-bue7 t:meta.view.owner d:2017-09-25T07:25:35.111Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:wr4r-bue7 t:meta.view.tableauthor d:2017-06-09T13:54:12.949Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:wr4r-bue7 t:meta.view.tableauthor d:2017-09-25T07:25:35.111Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records

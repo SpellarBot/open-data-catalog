@@ -1,4 +1,4 @@
-# Multi-Family Housing FY 2011-2016
+# Multi-Family Housing FY 2011-2017
 
 ## Dataset
 
@@ -10,12 +10,12 @@
 | Data: CSV | [100 Rows](https://data.maryland.gov/api/views/cadm-spqd/rows.csv?max_rows=100) |
 | Host | data.maryland.gov |
 | Id | cadm-spqd |
-| Name | Multi-Family Housing FY 2011-2016 |
+| Name | Multi-Family Housing FY 2011-2017 |
 | Attribution | Department of Housing and Community Development |
 | Category | Housing |
 | Tags | dhcd, department of housing & community development, multifamily, multifamily housing, multi-family, multi-family housing, cda, community development administration, affordable housing, rental hou... |
 | Created | 2016-07-01T15:26:31Z |
-| Publication Date | 2017-05-02T20:09:28Z |
+| Publication Date | 2017-09-01T13:57:46Z |
 
 ## Description
 
@@ -60,11 +60,11 @@ Excluded Fields = fy,project_address
 ## Data Commands
 
 ```ls
-series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Park View at Colonial Landing" t:project_county=Howard t:projecttype=Acq./Rehab. t:project_city=Elkridge t:project_zip=21075 m:units=100
+series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_county=Howard t:project_city=Elkridge t:projecttype=Acq./Rehab. t:project_zip=21075 t:project_name="Park View at Colonial Landing" m:units=100
 
-series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Park View at Bladensburg" t:project_county="Prince George's" t:projecttype=Acq./Rehab. t:project_city=Bladensburg t:project_zip=20710 m:units=101
+series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_county="Prince George's" t:project_city=Bladensburg t:projecttype=Acq./Rehab. t:project_zip=20710 t:project_name="Park View at Bladensburg" m:units=101
 
-series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Burwood Gardens Phase I" t:project_county="Anne Arundel" t:projecttype=New t:project_city="Glen Burnie" t:project_zip=21061 m:units=100
+series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_county="Anne Arundel" t:project_city="Glen Burnie" t:projecttype=New t:project_zip=21061 t:project_name="Burwood Gardens Phase I" m:units=100
 ```
 
 ## Meta Commands
@@ -72,15 +72,15 @@ series e:cadm-spqd d:2011-01-01T00:00:00.000Z t:project_name="Burwood Gardens Ph
 ```ls
 metric m:units p:integer l:Units t:dataTypeName=number
 
-entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2016" t:attribution="Department of Housing and Community Development" t:url=https://data.maryland.gov/api/views/cadm-spqd
+entity e:cadm-spqd l:"Multi-Family Housing FY 2011-2017" t:attribution="Department of Housing and Community Development" t:url=https://data.maryland.gov/api/views/cadm-spqd
 
-property e:cadm-spqd t:meta.view d:2017-06-09T13:55:07.602Z v:id=cadm-spqd v:category=Housing v:attributionLink=http://dhcd.maryland.gov/Pages/default.aspx v:averageRating=0 v:name="Multi-Family Housing FY 2011-2016" v:attribution="Department of Housing and Community Development"
+property e:cadm-spqd t:meta.view d:2017-09-25T07:26:30.223Z v:averageRating=0 v:name="Multi-Family Housing FY 2011-2017" v:attribution="Department of Housing and Community Development" v:attributionLink=http://dhcd.maryland.gov/Pages/default.aspx v:id=cadm-spqd v:category=Housing
 
-property e:cadm-spqd t:meta.view.license d:2017-06-09T13:55:07.602Z v:name="Public Domain"
+property e:cadm-spqd t:meta.view.license d:2017-09-25T07:26:30.223Z v:name="Public Domain"
 
-property e:cadm-spqd t:meta.view.owner d:2017-06-09T13:55:07.602Z v:id=pugw-9r35 v:screenName="Jessica Handy" v:lastNotificationSeenAt=1495119282 v:displayName="Jessica Handy"
+property e:cadm-spqd t:meta.view.owner d:2017-09-25T07:26:30.223Z v:displayName="Jessica Handy" v:lastNotificationSeenAt=1504032914 v:id=pugw-9r35 v:screenName="Jessica Handy"
 
-property e:cadm-spqd t:meta.view.tableauthor d:2017-06-09T13:55:07.602Z v:id=pugw-9r35 v:screenName="Jessica Handy" v:roleName=editor v:lastNotificationSeenAt=1495119282 v:displayName="Jessica Handy"
+property e:cadm-spqd t:meta.view.tableauthor d:2017-09-25T07:26:30.223Z v:displayName="Jessica Handy" v:lastNotificationSeenAt=1504032914 v:roleName=editor v:id=pugw-9r35 v:screenName="Jessica Handy"
 ```
 
 ## Top Records

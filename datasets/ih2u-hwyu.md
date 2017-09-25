@@ -38,11 +38,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Accountant 1" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=36048
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:full_part_time=Full-Time t:agency=58040 t:agency_title="OUS - Southern Oregon University" t:classification="Accountant 1" m:annual_salary=36048
 
-series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Administrative Program Assist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=37800
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:full_part_time=Full-Time t:agency=58040 t:agency_title="OUS - Southern Oregon University" t:classification="Administrative Program Assist" m:annual_salary=37800
 
-series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:classification="Medical Transcriptionist" t:agency_title="OUS - Southern Oregon University" t:agency=58040 t:full_part_time=Full-Time m:annual_salary=36048
+series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z t:service_type="Classified Staff" t:full_part_time=Full-Time t:agency=58040 t:agency_title="OUS - Southern Oregon University" t:classification="Medical Transcriptionist" m:annual_salary=36048
 ```
 
 ## Meta Commands
@@ -52,11 +52,11 @@ metric m:annual_salary p:integer l:"ANNUAL SALARY" t:dataTypeName=money
 
 entity e:ih2u-hwyu l:"Salary: OUS: Southern Oregon University: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/ih2u-hwyu
 
-property e:ih2u-hwyu t:meta.view d:2017-06-09T14:00:39.042Z v:id=ih2u-hwyu v:category="Revenue & Expense" v:averageRating=0 v:name="Salary: OUS: Southern Oregon University: Fiscal Year 2012"
+property e:ih2u-hwyu t:meta.view d:2017-09-25T07:31:56.947Z v:averageRating=0 v:name="Salary: OUS: Southern Oregon University: Fiscal Year 2012" v:id=ih2u-hwyu v:category="Revenue & Expense"
 
-property e:ih2u-hwyu t:meta.view.owner d:2017-06-09T14:00:39.042Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:ih2u-hwyu t:meta.view.owner d:2017-09-25T07:31:56.947Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:ih2u-hwyu t:meta.view.tableauthor d:2017-06-09T14:00:39.042Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:ih2u-hwyu t:meta.view.tableauthor d:2017-09-25T07:31:56.947Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

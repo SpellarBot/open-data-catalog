@@ -12,7 +12,7 @@
 | Id | t4zw-f3yr |
 | Name | Energy Sales - kilowatt hours by Customer Class |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | austin energy, utility data, energy sales |
 | Created | 2016-06-24T19:14:38Z |
 | Publication Date | 2016-06-24T19:25:13Z |
@@ -46,11 +46,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z m:inc_dec=-0.0006 m:industrial=2648486622 m:commerical=4633556863 m:residential=4381193546 m:government_entities=1005960507 m:total_billed_kwh=12716146231 m:public_street_highway=46948693
+series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z m:government_entities=1005960507 m:industrial=2648486622 m:inc_dec=-0.0006 m:residential=4381193546 m:commerical=4633556863 m:total_billed_kwh=12716146231 m:public_street_highway=46948693
 
-series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z m:inc_dec=0.0624 m:industrial=2342538382 m:commerical=4675615088 m:residential=4561857688 m:government_entities=1094964902 m:total_billed_kwh=12723303281 m:public_street_highway=48327221
+series e:t4zw-f3yr d:2011-01-01T00:00:00.000Z m:government_entities=1094964902 m:industrial=2342538382 m:inc_dec=0.0624 m:residential=4561857688 m:commerical=4675615088 m:total_billed_kwh=12723303281 m:public_street_highway=48327221
 
-series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:inc_dec=-0.010477764 m:industrial=2038706310 m:commerical=4553866402 m:residential=4238690401 m:government_entities=1096985412 m:total_billed_kwh=11976326435 m:public_street_highway=48077910
+series e:t4zw-f3yr d:2010-01-01T00:00:00.000Z m:government_entities=1096985412 m:industrial=2038706310 m:inc_dec=-0.010477764 m:residential=4238690401 m:commerical=4553866402 m:total_billed_kwh=11976326435 m:public_street_highway=48077910
 ```
 
 ## Meta Commands
@@ -72,13 +72,13 @@ metric m:inc_dec p:double l:"% Inc/Dec" t:dataTypeName=number
 
 entity e:t4zw-f3yr l:"Energy Sales - kilowatt hours by Customer Class" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/t4zw-f3yr
 
-property e:t4zw-f3yr t:meta.view d:2017-06-09T14:00:37.938Z v:id=t4zw-f3yr v:category=Utility v:averageRating=0 v:name="Energy Sales - kilowatt hours by Customer Class" v:attribution="Austin Energy"
+property e:t4zw-f3yr t:meta.view d:2017-09-25T07:31:53.079Z v:averageRating=0 v:name="Energy Sales - kilowatt hours by Customer Class" v:attribution="Austin Energy" v:id=t4zw-f3yr v:category="Utilities and City Services"
 
-property e:t4zw-f3yr t:meta.view.license d:2017-06-09T14:00:37.938Z v:name="Public Domain"
+property e:t4zw-f3yr t:meta.view.license d:2017-09-25T07:31:53.079Z v:name="Public Domain"
 
-property e:t4zw-f3yr t:meta.view.owner d:2017-06-09T14:00:37.938Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
+property e:t4zw-f3yr t:meta.view.owner d:2017-09-25T07:31:53.079Z v:displayName="Shannon Wisner" v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:id=fxfz-wsmq v:screenName="Shannon Wisner" v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB
 
-property e:t4zw-f3yr t:meta.view.tableauthor d:2017-06-09T14:00:37.938Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:t4zw-f3yr t:meta.view.tableauthor d:2017-09-25T07:31:53.079Z v:displayName="Shannon Wisner" v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:id=fxfz-wsmq v:screenName="Shannon Wisner" v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB
 ```
 
 ## Top Records

@@ -15,7 +15,7 @@
 | Category | Education |
 | Tags | attendance, schools, doe, education |
 | Created | 2015-12-31T18:03:16Z |
-| Publication Date | 2017-06-08T22:26:01Z |
+| Publication Date | 2017-09-21T21:03:50Z |
 
 ## Description
 
@@ -26,9 +26,8 @@ Statistical report that provides daily school wide attendance each day for all s
 ```ls
 | Included | Schema Type    | Field Name    | Name            | Data Type | Render Type |
 | ======== | ============== | ============= | =============== | ========= | =========== |
-| No       | time           | :updated_at   | updated_at      | meta_data | meta_data   |
 | Yes      | series tag     | school_year   | SCHOOL_YEAR     | text      | text        |
-| No       |                | date          | DATE            | text      | text        |
+| Yes      | time           | date          | DATE            | text      | text        |
 | Yes      | series tag     | school_dbn    | SCHOOL_DBN      | text      | text        |
 | Yes      | numeric metric | register      | REGISTER        | number    | number      |
 | Yes      | numeric metric | of_attd_taken | %_OF_ATTD_TAKEN | number    | number      |
@@ -37,55 +36,49 @@ Statistical report that provides daily school wide attendance each day for all s
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
-```
-
-## Series Fields
-
-```ls
-Excluded Fields = date
+Value = date
+Format & Zone = MM-dd-yy
 ```
 
 ## Data Commands
 
 ```ls
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X024 t:school_year=2015-2016 m:of_attd_taken=96.6 m:register=999
+series e:madj-gkhr d:2015-09-09T00:00:00.000Z t:school_year=2015-2016 t:school_dbn=10X024 m:of_attd_taken=96.6 m:register=999
 
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X032 t:school_year=2015-2016 m:of_attd_taken=88.4 m:register=810
+series e:madj-gkhr d:2015-09-09T00:00:00.000Z t:school_year=2015-2016 t:school_dbn=10X032 m:of_attd_taken=88.4 m:register=810
 
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z t:school_dbn=10X033 t:school_year=2015-2016 m:of_attd_taken=86.7 m:register=991
+series e:madj-gkhr d:2015-09-09T00:00:00.000Z t:school_year=2015-2016 t:school_dbn=10X033 m:of_attd_taken=86.7 m:register=991
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:register p:long l:REGISTER t:dataTypeName=number
+metric m:register p:integer l:REGISTER t:dataTypeName=number
 
-metric m:of_attd_taken p:long l:%_OF_ATTD_TAKEN t:dataTypeName=number
+metric m:of_attd_taken p:float l:%_OF_ATTD_TAKEN t:dataTypeName=number
 
 entity e:madj-gkhr l:"Attendance 4PM Report" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/madj-gkhr
 
-property e:madj-gkhr t:meta.view d:2017-06-09T13:58:08.374Z v:id=madj-gkhr v:category=Education v:averageRating=0 v:name="Attendance 4PM Report" v:attribution="Department of Education (DOE)"
+property e:madj-gkhr t:meta.view d:2017-09-25T07:29:28.555Z v:averageRating=0 v:name="Attendance 4PM Report" v:attribution="Department of Education (DOE)" v:id=madj-gkhr v:category=Education
 
-property e:madj-gkhr t:meta.view.owner d:2017-06-09T13:58:08.374Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:madj-gkhr t:meta.view.owner d:2017-09-25T07:29:28.555Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:madj-gkhr t:meta.view.tableauthor d:2017-06-09T13:58:08.374Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:madj-gkhr t:meta.view.tableauthor d:2017-09-25T07:29:28.555Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records
 
 ```ls
-| :updated_at | school_year | date     | school_dbn | register | of_attd_taken | 
-| =========== | =========== | ======== | ========== | ======== | ============= | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X024     | 999      | 96.6          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X032     | 810      | 88.4          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X033     | 991      | 86.7          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X045     | 702      | 91.3          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X046     | 1075     | 84.2          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X056     | 662      | 92.3          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X080     | 595      | 86.4          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X081     | 676      | 97.2          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X086     | 1651     | 88.9          | 
-| 1451556205  | 2015-2016   | 09-09-15 | 10X094     | 1216     | 90.2          | 
+| school_year | date     | school_dbn | register | of_attd_taken | 
+| =========== | ======== | ========== | ======== | ============= | 
+| 2015-2016   | 09-09-15 | 10X024     | 999      | 96.6          | 
+| 2015-2016   | 09-09-15 | 10X032     | 810      | 88.4          | 
+| 2015-2016   | 09-09-15 | 10X033     | 991      | 86.7          | 
+| 2015-2016   | 09-09-15 | 10X045     | 702      | 91.3          | 
+| 2015-2016   | 09-09-15 | 10X046     | 1075     | 84.2          | 
+| 2015-2016   | 09-09-15 | 10X056     | 662      | 92.3          | 
+| 2015-2016   | 09-09-15 | 10X080     | 595      | 86.4          | 
+| 2015-2016   | 09-09-15 | 10X081     | 676      | 97.2          | 
+| 2015-2016   | 09-09-15 | 10X086     | 1651     | 88.9          | 
+| 2015-2016   | 09-09-15 | 10X094     | 1216     | 90.2          | 
 ```

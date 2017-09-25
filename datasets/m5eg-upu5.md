@@ -14,7 +14,7 @@
 | Category | Home Health Compare |
 | Tags | hhc, general information |
 | Created | 2012-10-17T19:56:31Z |
-| Publication Date | 2017-04-11T23:19:18Z |
+| Publication Date | 2017-07-11T23:59:14Z |
 
 ## Columns
 
@@ -37,11 +37,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z t:zip_code=36104 t:provider_number=017000 t:state=AL m:row_number.m5eg-upu5=1
+series e:m5eg-upu5 d:2017-06-26T17:38:51.000Z t:provider_number=017000 t:state=AL t:zip_code=36104 m:row_number.m5eg-upu5=1
 
-series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z t:zip_code=35005 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=2
+series e:m5eg-upu5 d:2017-06-26T17:38:51.000Z t:provider_number=017008 t:state=AL t:zip_code=35005 m:row_number.m5eg-upu5=2
 
-series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z t:zip_code=35020 t:provider_number=017008 t:state=AL m:row_number.m5eg-upu5=3
+series e:m5eg-upu5 d:2017-06-26T17:38:51.000Z t:provider_number=017008 t:state=AL t:zip_code=35020 m:row_number.m5eg-upu5=3
 ```
 
 ## Meta Commands
@@ -51,13 +51,13 @@ metric m:row_number.m5eg-upu5 p:long l:"Row Number"
 
 entity e:m5eg-upu5 l:"Home Health Care - Zip Codes" t:url=https://data.medicare.gov/api/views/m5eg-upu5
 
-property e:m5eg-upu5 t:meta.view d:2017-06-09T13:55:29.091Z v:id=m5eg-upu5 v:category="Home Health Compare" v:averageRating=0 v:name="Home Health Care - Zip Codes"
+property e:m5eg-upu5 t:meta.view d:2017-09-25T07:26:56.446Z v:averageRating=0 v:name="Home Health Care - Zip Codes" v:id=m5eg-upu5 v:category="Home Health Compare"
 
-property e:m5eg-upu5 t:meta.view.owner d:2017-06-09T13:55:29.091Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:displayName=cms
+property e:m5eg-upu5 t:meta.view.owner d:2017-09-25T07:26:56.446Z v:displayName=cms v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:id=drs7-75yr v:screenName=cms v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB
 
-property e:m5eg-upu5 t:meta.view.tableauthor d:2017-06-09T13:55:29.091Z v:id=drs7-75yr v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:screenName=cms v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:roleName=administrator v:displayName=cms
+property e:m5eg-upu5 t:meta.view.tableauthor d:2017-09-25T07:26:56.446Z v:displayName=cms v:profileImageUrlLarge=/api/users/drs7-75yr/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/drs7-75yr/profile_images/TINY v:id=drs7-75yr v:screenName=cms v:profileImageUrlMedium=/api/users/drs7-75yr/profile_images/THUMB
 
-property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:55:29.091Z v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Contact_Email=HomeHealthQualityQuestions@cms.hhs.gov v:Contact_Name=CMS v:Bureau_Code=009:38 v:Program_Code=009:078
+property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:26:56.446Z v:Contact_Email=HomeHealthQualityQuestions@cms.hhs.gov v:Contact_Name=CMS v:Program_Code=009:078 v:Publisher="Centers for Medicare & Medicaid Services (CMS)" v:Bureau_Code=009:38
 ```
 
 ## Top Records
@@ -65,14 +65,14 @@ property e:m5eg-upu5 t:meta.view.metadata.custom_fields.common_core d:2017-06-09
 ```ls
 | :updated_at | state | provider_number | zip_code | 
 | =========== | ===== | =============== | ======== | 
-| 1490634070  | AL    | 017000          | 36104    | 
-| 1490634070  | AL    | 017008          | 35005    | 
-| 1490634070  | AL    | 017008          | 35020    | 
-| 1490634070  | AL    | 017008          | 35022    | 
-| 1490634070  | AL    | 017008          | 35023    | 
-| 1490634070  | AL    | 017008          | 35064    | 
-| 1490634070  | AL    | 017008          | 35068    | 
-| 1490634070  | AL    | 017008          | 35071    | 
-| 1490634070  | AL    | 017008          | 35091    | 
-| 1490634070  | AL    | 017008          | 35094    | 
+| 1498498731  | AL    | 017000          | 36104    | 
+| 1498498731  | AL    | 017008          | 35005    | 
+| 1498498731  | AL    | 017008          | 35020    | 
+| 1498498731  | AL    | 017008          | 35022    | 
+| 1498498731  | AL    | 017008          | 35023    | 
+| 1498498731  | AL    | 017008          | 35061    | 
+| 1498498731  | AL    | 017008          | 35064    | 
+| 1498498731  | AL    | 017008          | 35068    | 
+| 1498498731  | AL    | 017008          | 35071    | 
+| 1498498731  | AL    | 017008          | 35094    | 
 ```

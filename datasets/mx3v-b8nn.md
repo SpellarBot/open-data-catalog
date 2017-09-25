@@ -37,11 +37,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:8_15_p_m="8:15 p.m." t:tuesday_aug_6="Tuesday, Aug. 6" t:election_day_results_posted_to_the_web="Election day results posted to the web." m:row_number.mx3v-b8nn=1
+series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:tuesday_aug_6="Tuesday, Aug. 6" t:8_15_p_m="8:15 p.m." t:election_day_results_posted_to_the_web="Election day results posted to the web." m:row_number.mx3v-b8nn=1
 
-series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:8_15_p_m="4:30 p.m." t:tuesday_aug_6="Wednesday, Aug. 7" t:election_day_results_posted_to_the_web="Results posted, including votes cast at the accessible voting centers." m:row_number.mx3v-b8nn=2
+series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:tuesday_aug_6="Wednesday, Aug. 7" t:8_15_p_m="4:30 p.m." t:election_day_results_posted_to_the_web="Results posted, including votes cast at the accessible voting centers." m:row_number.mx3v-b8nn=2
 
-series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:8_15_p_m="4:30 p.m." t:tuesday_aug_6="Thursday, Aug. 8" t:election_day_results_posted_to_the_web="Results posted." m:row_number.mx3v-b8nn=3
+series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z t:tuesday_aug_6="Thursday, Aug. 8" t:8_15_p_m="4:30 p.m." t:election_day_results_posted_to_the_web="Results posted." m:row_number.mx3v-b8nn=3
 ```
 
 ## Meta Commands
@@ -51,13 +51,13 @@ metric m:row_number.mx3v-b8nn p:long l:"Row Number"
 
 entity e:mx3v-b8nn l:"Results Posting Schedule - August 2013 Primary" t:attribution="King County Elections" t:url=https://data.kingcounty.gov/api/views/mx3v-b8nn
 
-property e:mx3v-b8nn t:meta.view d:2017-06-09T14:00:57.209Z v:id=mx3v-b8nn v:category="Election operations" v:attributionLink=http://kingcounty.gov/elections v:averageRating=0 v:name="Results Posting Schedule - August 2013 Primary" v:attribution="King County Elections"
+property e:mx3v-b8nn t:meta.view d:2017-09-25T07:32:12.662Z v:averageRating=0 v:name="Results Posting Schedule - August 2013 Primary" v:attribution="King County Elections" v:attributionLink=http://kingcounty.gov/elections v:id=mx3v-b8nn v:category="Election operations"
 
-property e:mx3v-b8nn t:meta.view.license d:2017-06-09T14:00:57.209Z v:name="Public Domain"
+property e:mx3v-b8nn t:meta.view.license d:2017-09-25T07:32:12.662Z v:name="Public Domain"
 
-property e:mx3v-b8nn t:meta.view.owner d:2017-06-09T14:00:57.209Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:displayName="Kathy Gill"
+property e:mx3v-b8nn t:meta.view.owner d:2017-09-25T07:32:12.662Z v:displayName="Kathy Gill" v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:id=iw7b-ptyg v:screenName="Kathy Gill" v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB
 
-property e:mx3v-b8nn t:meta.view.tableauthor d:2017-06-09T14:00:57.209Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
+property e:mx3v-b8nn t:meta.view.tableauthor d:2017-09-25T07:32:12.662Z v:displayName="Kathy Gill" v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:id=iw7b-ptyg v:screenName="Kathy Gill" v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB
 ```
 
 ## Top Records

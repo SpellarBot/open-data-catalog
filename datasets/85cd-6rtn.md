@@ -52,13 +52,13 @@ metric m:amount_of_iec p:double l:"Amount of IEC" t:dataTypeName=money
 
 entity e:85cd-6rtn l:"Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/85cd-6rtn
 
-property e:85cd-6rtn t:meta.view d:2017-06-09T13:54:15.447Z v:id=85cd-6rtn v:category="City Management and Ethics" v:attributionLink=http://www.sfethics.org/ethics/2012/05/voluntary-expenditure-ceiling-and-individual-expenditure-ceilings.html v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election" v:attribution="San Francisco Ethics Commission"
+property e:85cd-6rtn t:meta.view d:2017-09-25T07:25:35.330Z v:averageRating=0 v:name="Campaign Finance - Individual Expenditure Ceilings (IECs) - November 6, 2012 Election" v:attribution="San Francisco Ethics Commission" v:attributionLink=http://www.sfethics.org/ethics/2012/05/voluntary-expenditure-ceiling-and-individual-expenditure-ceilings.html v:id=85cd-6rtn v:category="City Management and Ethics"
 
-property e:85cd-6rtn t:meta.view.license d:2017-06-09T13:54:15.447Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:85cd-6rtn t:meta.view.license d:2017-09-25T07:25:35.330Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:85cd-6rtn t:meta.view.owner d:2017-06-09T13:54:15.447Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:85cd-6rtn t:meta.view.owner d:2017-09-25T07:25:35.330Z v:displayName="Steven Massey" v:lastNotificationSeenAt=1498669627 v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:id=vm9c-ykir v:screenName="Steven Massey" v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB
 
-property e:85cd-6rtn t:meta.view.tableauthor d:2017-06-09T13:54:15.447Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:85cd-6rtn t:meta.view.tableauthor d:2017-09-25T07:25:35.330Z v:displayName="Steven Massey" v:lastNotificationSeenAt=1498669627 v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:id=vm9c-ykir v:screenName="Steven Massey" v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB
 ```
 
 ## Top Records

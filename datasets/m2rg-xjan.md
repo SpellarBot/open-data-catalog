@@ -47,11 +47,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:m2rg-xjan d:2012-01-01T00:00:00.000Z t:county_of_commitment=ALBANY t:admission_month=JANUARY t:month_code=1 t:latest_admission_type="NEW COURT COMMITMENT" t:most_serious_crime="BURGLARY 3RD" t:gender=FEMALE m:age_at_admission=17
+series e:m2rg-xjan d:2012-01-01T00:00:00.000Z t:latest_admission_type="NEW COURT COMMITMENT" t:admission_month=JANUARY t:gender=FEMALE t:county_of_commitment=ALBANY t:month_code=1 t:most_serious_crime="BURGLARY 3RD" m:age_at_admission=17
 
-series e:m2rg-xjan d:2012-01-01T00:00:00.000Z t:county_of_commitment=ALBANY t:admission_month=JANUARY t:month_code=1 t:latest_admission_type="NEW COURT COMMITMENT" t:most_serious_crime="CRIM SALE CONTROLLED SUB 3RD" t:gender=FEMALE m:age_at_admission=24
+series e:m2rg-xjan d:2012-01-01T00:00:00.000Z t:latest_admission_type="NEW COURT COMMITMENT" t:admission_month=JANUARY t:gender=FEMALE t:county_of_commitment=ALBANY t:month_code=1 t:most_serious_crime="CRIM SALE CONTROLLED SUB 3RD" m:age_at_admission=24
 
-series e:m2rg-xjan d:2012-01-01T00:00:00.000Z t:county_of_commitment=ALBANY t:admission_month=JANUARY t:month_code=1 t:latest_admission_type="NEW COURT COMMITMENT" t:most_serious_crime="CRIM POSS CONTROLLED SUB 4TH" t:gender=FEMALE m:age_at_admission=27
+series e:m2rg-xjan d:2012-01-01T00:00:00.000Z t:latest_admission_type="NEW COURT COMMITMENT" t:admission_month=JANUARY t:gender=FEMALE t:county_of_commitment=ALBANY t:month_code=1 t:most_serious_crime="CRIM POSS CONTROLLED SUB 4TH" m:age_at_admission=27
 ```
 
 ## Meta Commands
@@ -61,13 +61,13 @@ metric m:age_at_admission p:integer l:"Age at Admission" d:"Age of offender at a
 
 entity e:m2rg-xjan l:"Prison Admissions: Beginning 2008" t:attribution="NYS Department of Corrections and Community Supervision" t:url=https://data.ny.gov/api/views/m2rg-xjan
 
-property e:m2rg-xjan t:meta.view d:2017-06-09T13:53:46.759Z v:id=m2rg-xjan v:category="Public Safety" v:attributionLink=http://www.doccs.ny.gov v:averageRating=0 v:name="Prison Admissions: Beginning 2008" v:attribution="NYS Department of Corrections and Community Supervision"
+property e:m2rg-xjan t:meta.view d:2017-09-25T07:25:08.675Z v:averageRating=0 v:name="Prison Admissions: Beginning 2008" v:attribution="NYS Department of Corrections and Community Supervision" v:attributionLink=http://www.doccs.ny.gov v:id=m2rg-xjan v:category="Public Safety"
 
-property e:m2rg-xjan t:meta.view.owner d:2017-06-09T13:53:46.759Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:m2rg-xjan t:meta.view.owner d:2017-09-25T07:25:08.675Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:m2rg-xjan t:meta.view.tableauthor d:2017-06-09T13:53:46.759Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:m2rg-xjan t:meta.view.tableauthor d:2017-09-25T07:25:08.675Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:m2rg-xjan t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:46.759Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:m2rg-xjan t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:25:08.675Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

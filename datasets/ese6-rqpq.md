@@ -71,11 +71,11 @@ Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,dat
 ## Data Commands
 
 ```ls
-series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic="Prenatal Care - Visits" t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP44 t:class="Control Variable" t:break_out="Age 18 - 44" t:questionid=QUO171 t:response=NO t:locationid=5 t:breakoutid=AGE1844ALL t:responseid=RES23 t:break_out_category="Maternal Age - 18 to 44 years only" t:question="Indicator of no prenatal care" t:breakoutcategoryid=BOC16 t:datasource=PRAMS t:classid=CLA1 m:data_value=99.1
+series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:breakoutcategoryid=BOC16 t:questionid=QUO171 t:question="Indicator of no prenatal care" t:locationabbr=AR t:break_out="Age 18 - 44" t:locationdesc=Arkansas t:topicid=TOP44 t:classid=CLA1 t:break_out_category="Maternal Age - 18 to 44 years only" t:datasource=PRAMS t:response=NO t:locationid=5 t:breakoutid=AGE1844ALL t:topic="Prenatal Care - Visits" t:class="Control Variable" t:responseid=RES23 m:data_value=99.1
 
-series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:questionid=QUO25 t:locationid=5 t:breakoutid=BOC1 t:break_out_category="Birth Weight" t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:data_value=25
+series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:breakoutcategoryid=BOC1 t:questionid=QUO25 t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP12 t:classid=CLA10 t:break_out_category="Birth Weight" t:datasource=PRAMS t:locationid=5 t:breakoutid=BOC1 t:topic=Medicaid t:class=Insurance/Medicaid/Services m:data_value=25
 
-series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AR t:locationdesc=Arkansas t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:break_out="LBW (<=2500g)" t:questionid=QUO25 t:response="NO (UNCHECKED)" t:locationid=5 t:breakoutid=BWT1 t:responseid=RES24 t:break_out_category="Birth Weight" t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:high_confidence_limit=37.5 m:sample_size=143 m:data_value=33 m:low_confidence_limit=28.8
+series e:ese6-rqpq d:2011-01-01T00:00:00.000Z t:breakoutcategoryid=BOC1 t:questionid=QUO25 t:question="Indicator of whether mother received Medicaid coverage for prenatal care." t:locationabbr=AR t:break_out="LBW (<=2500g)" t:locationdesc=Arkansas t:topicid=TOP12 t:classid=CLA10 t:break_out_category="Birth Weight" t:datasource=PRAMS t:response="NO (UNCHECKED)" t:locationid=5 t:breakoutid=BWT1 t:topic=Medicaid t:class=Insurance/Medicaid/Services t:responseid=RES24 m:sample_size=143 m:data_value=33 m:high_confidence_limit=37.5 m:low_confidence_limit=28.8
 ```
 
 ## Meta Commands
@@ -91,15 +91,15 @@ metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
 entity e:ese6-rqpq l:"CDC PRAMStat Data for 2011" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://chronicdata.cdc.gov/api/views/ese6-rqpq
 
-property e:ese6-rqpq t:meta.view d:2017-06-09T13:51:05.838Z v:id=ese6-rqpq v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/index.htm v:averageRating=0 v:name="CDC PRAMStat Data for 2011" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
+property e:ese6-rqpq t:meta.view d:2017-09-25T07:22:29.380Z v:averageRating=0 v:name="CDC PRAMStat Data for 2011" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" v:attributionLink=http://www.cdc.gov/prams/index.htm v:id=ese6-rqpq v:category="Maternal & Child Health"
 
-property e:ese6-rqpq t:meta.view.license d:2017-06-09T13:51:05.838Z v:name="Public Domain"
+property e:ese6-rqpq t:meta.view.license d:2017-09-25T07:22:29.380Z v:name="Public Domain"
 
-property e:ese6-rqpq t:meta.view.owner d:2017-06-09T13:51:05.838Z v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
+property e:ese6-rqpq t:meta.view.owner d:2017-09-25T07:22:29.380Z v:displayName="PRAMStat Administrator" v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator"
 
-property e:ese6-rqpq t:meta.view.tableauthor d:2017-06-09T13:51:05.838Z v:id=uj8q-r4hw v:profileImageUrlMedium=/api/users/uj8q-r4hw/profile_images/THUMB v:profileImageUrlLarge=/api/users/uj8q-r4hw/profile_images/LARGE v:screenName=goq6@cdc.gov v:profileImageUrlSmall=/api/users/uj8q-r4hw/profile_images/TINY v:roleName=administrator v:displayName=goq6@cdc.gov
+property e:ese6-rqpq t:meta.view.tableauthor d:2017-09-25T07:22:29.380Z v:displayName=goq6@cdc.gov v:profileImageUrlLarge=/api/users/uj8q-r4hw/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/uj8q-r4hw/profile_images/TINY v:id=uj8q-r4hw v:screenName=goq6@cdc.gov v:profileImageUrlMedium=/api/users/uj8q-r4hw/profile_images/THUMB
 
-property e:ese6-rqpq t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:05.838Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:ese6-rqpq t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:22:29.380Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

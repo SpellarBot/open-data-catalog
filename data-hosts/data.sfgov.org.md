@@ -111,7 +111,7 @@ Name | Category | Published
 [DPW Maintained Roadway Structures](../datasets/x5tj-txci.md) | City Infrastructure | 2016&#x2011;08&#x2011;10
 [DPW Street & Sidewalk Evaluation Results, 7-1-2013 to Present](../datasets/83ki-hu3p.md) | City Infrastructure | 2017&#x2011;03&#x2011;07
 [Dataset Inventory](../datasets/y8fp-fbf5.md) | City Management and Ethics | 2017&#x2011;03&#x2011;24
-[Department Open Data Inventory and Plan Status](../datasets/tzir-jbhj.md) | City Management and Ethics | 2017&#x2011;03&#x2011;24
+[Department Open Data Inventory and Plan Status](../datasets/tzir-jbhj.md) | City Management and Ethics | 2017&#x2011;08&#x2011;14
 [Disclosure Report Developers of Major City Projects Filings](../datasets/mqks-ty4r.md) | City Management and Ethics | 2016&#x2011;12&#x2011;13
 [Donations to Recreation and Parks Department](../datasets/n5gw-x78q.md) | Culture and Recreation | 2016&#x2011;05&#x2011;25
 [Electrical Permits](../datasets/ftty-kx6y.md) | Housing and Buildings | 2016&#x2011;08&#x2011;04
@@ -194,7 +194,7 @@ Name | Category | Published
 [Lobbyist Client Directory](../datasets/u4y3-k4vs.md) | City Management and Ethics | 2014&#x2011;09&#x2011;29
 [Lobbyist Data Name Mapping](../datasets/u89s-bsxm.md) | City Management and Ethics | 2013&#x2011;03&#x2011;04
 [Lobbyist Directory](../datasets/exbu-si57.md) | City Management and Ethics | 2014&#x2011;09&#x2011;29
-[Lobbyists on Behalf of the City Disclosure Reports](../datasets/sz7b-c3pn.md) | City Management and Ethics | 2016&#x2011;05&#x2011;23
+[Lobbyists on Behalf of the City Disclosure Reports](../datasets/sz7b-c3pn.md) | City Management and Ethics | 2017&#x2011;08&#x2011;29
 [Mayor's Office of Housing and Community Development Bond Issuances](../datasets/2sdw-jdpk.md) | Housing and Buildings | 2016&#x2011;06&#x2011;15
 [Mayor?s Office of Housing and Community Development Affordable Rental Portfolio](../datasets/9rdx-httc.md) | Housing and Buildings | 2016&#x2011;06&#x2011;15
 [Mayor?s Office of Housing and Community Development Grants and Loans](../datasets/ez9i-q28j.md) | Housing and Buildings | 2016&#x2011;06&#x2011;15

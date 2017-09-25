@@ -15,7 +15,7 @@
 | Category | Service Requests |
 | Tags | streets, pot holes |
 | Created | 2011-09-30T09:11:02Z |
-| Publication Date | 2017-06-09T10:08:01Z |
+| Publication Date | 2017-09-23T09:43:54Z |
 
 ## Description
 
@@ -48,8 +48,8 @@ Data Owner: Transportation. Time Period: All open requests and all completed req
 | Yes      | series tag     | police_district                    | Police District                    | text          | number        |
 | Yes      | series tag     | community_area                     | Community Area                     | text          | number        |
 | Yes      | series tag     | ssa                                | SSA                                | text          | text          |
-| Yes      | numeric metric | latitude                           | LATITUDE                           | number        | number        |
-| Yes      | numeric metric | longitude                          | LONGITUDE                          | number        | number        |
+| No       |                | latitude                           | LATITUDE                           | number        | number        |
+| No       |                | longitude                          | LONGITUDE                          | number        | number        |
 ```
 
 ## Time Field
@@ -62,35 +62,31 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Series Fields
 
 ```ls
-Excluded Fields = completion_date,x_coordinate,y_coordinate
+Excluded Fields = completion_date,x_coordinate,y_coordinate,latitude,longitude
 ```
 
 ## Data Commands
 
 ```ls
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60620 t:ward=17 t:police_district=6 t:status="Completed - Dup" t:service_request_number=11-00002110 t:community_area=69 t:type_of_service_request="Pot Hole in Street" t:street_address="7600 S PARNELL AVE" m:longitude=-87.63853957634103 m:latitude=41.75607825280598
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60643 t:service_request_number=11-00002021 t:most_recent_action="Pothole Patched" t:street_address="1642 W 99TH ST" t:community_area=72 t:current_activity="Dispatch Crew" t:police_district=22 t:ward=19 t:status=Completed t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=5
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60629 t:ward=13 t:police_district=8 t:status="Completed - Dup" t:ssa=3 t:service_request_number=11-00002209 t:community_area=65 t:type_of_service_request="Pot Hole in Street" t:street_address="7100 S PULASKI RD" m:longitude=-87.72249910770661 m:latitude=41.764007749308014
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60623 t:service_request_number=11-00002273 t:most_recent_action="Pothole Patched" t:street_address="3500 S PULASKI RD" t:community_area=30 t:current_activity="Dispatch Crew" t:police_district=10 t:ward=22 t:status=Completed t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=7
 
-series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60647 t:ward=1 t:police_district=14 t:status="Completed - Dup" t:service_request_number=11-00002224 t:community_area=22 t:type_of_service_request="Pot Hole in Street" t:street_address="2400 W FULLERTON AVE" m:longitude=-87.68770475222249 m:latitude=41.92500993476519
+series e:7as2-ds3y d:2011-01-01T00:00:00.000Z t:zip=60619 t:ssa=51 t:service_request_number=11-00002650 t:most_recent_action="Pothole Patched" t:street_address="7851 S DR MARTIN LUTHER KING JR DR" t:community_area=69 t:current_activity="Dispatch Crew" t:police_district=6 t:ward=6 t:status=Completed t:type_of_service_request="Pot Hole in Street" m:number_of_potholes_filled_on_block=5
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:number_of_potholes_filled_on_block p:long l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
-
-metric m:latitude p:long l:LATITUDE t:dataTypeName=number
-
-metric m:longitude p:long l:LONGITUDE t:dataTypeName=number
+metric m:number_of_potholes_filled_on_block p:integer l:"NUMBER OF POTHOLES FILLED ON BLOCK" t:dataTypeName=number
 
 entity e:7as2-ds3y l:"311 Service Requests - Pot Holes Reported" t:attribution="City of Chicago" t:url=https://data.cityofchicago.org/api/views/7as2-ds3y
 
-property e:7as2-ds3y t:meta.view d:2017-06-09T13:53:40.667Z v:id=7as2-ds3y v:category="Service Requests" v:attributionLink=http://www.cityofchicago.org v:averageRating=0 v:name="311 Service Requests - Pot Holes Reported" v:attribution="City of Chicago"
+property e:7as2-ds3y t:meta.view d:2017-09-25T07:25:01.058Z v:averageRating=0 v:name="311 Service Requests - Pot Holes Reported" v:attribution="City of Chicago" v:attributionLink=http://www.cityofchicago.org v:id=7as2-ds3y v:category="Service Requests"
 
-property e:7as2-ds3y t:meta.view.owner d:2017-06-09T13:53:40.667Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:displayName=cocadmin v:privilegesDisabled=false
+property e:7as2-ds3y t:meta.view.owner d:2017-09-25T07:25:01.058Z v:displayName=cocadmin v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:id=scy9-9wg4 v:screenName=cocadmin v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB
 
-property e:7as2-ds3y t:meta.view.tableauthor d:2017-06-09T13:53:40.667Z v:id=scy9-9wg4 v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:screenName=cocadmin v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:roleName=administrator v:displayName=cocadmin v:privilegesDisabled=false
+property e:7as2-ds3y t:meta.view.tableauthor d:2017-09-25T07:25:01.058Z v:displayName=cocadmin v:profileImageUrlLarge=/api/users/scy9-9wg4/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/scy9-9wg4/profile_images/TINY v:id=scy9-9wg4 v:screenName=cocadmin v:profileImageUrlMedium=/api/users/scy9-9wg4/profile_images/THUMB
 ```
 
 ## Top Records

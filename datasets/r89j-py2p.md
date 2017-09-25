@@ -54,11 +54,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name=ACS t:subfund_name="General Fund" t:department="Correction and Rehabilitation" t:program_name="Pre-Trial Services" t:object_name=Retirement t:fund_subtype="General Fund" t:account_name=RSP t:function="Public Safety" m:amount=4295
+series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_type="Tax Supported Funds" t:fund_subtype="General Fund" t:program_name="Pre-Trial Services" t:function="Public Safety" t:object_name=Retirement t:account_name=RSP t:personnel_costs_operating_expenses="Personnel Costs" t:fund_name="General Fund" t:subfund_name="General Fund" t:department="Correction and Rehabilitation" t:cost_center_name=ACS m:amount=4295
 
-series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name="5th District S.A.T" t:subfund_name="General Fund" t:department=Police t:program_name="Field Services" t:object_name=Retirement t:fund_subtype="General Fund" t:account_name=ERS t:function="Public Safety" m:amount=193146
+series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_type="Tax Supported Funds" t:fund_subtype="General Fund" t:program_name="Field Services" t:function="Public Safety" t:object_name=Retirement t:account_name=ERS t:personnel_costs_operating_expenses="Personnel Costs" t:fund_name="General Fund" t:subfund_name="General Fund" t:department=Police t:cost_center_name="5th District S.A.T" m:amount=193146
 
-series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_name="General Fund" t:fund_type="Tax Supported Funds" t:personnel_costs_operating_expenses="Personnel Costs" t:cost_center_name="C.I.D-Auto Theft" t:subfund_name="General Fund" t:department=Police t:program_name="Investigative Services" t:object_name=Retirement t:fund_subtype="General Fund" t:account_name=ERS t:function="Public Safety" m:amount=229661
+series e:r89j-py2p d:2013-01-01T00:00:00.000Z t:fund_type="Tax Supported Funds" t:fund_subtype="General Fund" t:program_name="Investigative Services" t:function="Public Safety" t:object_name=Retirement t:account_name=ERS t:personnel_costs_operating_expenses="Personnel Costs" t:fund_name="General Fund" t:subfund_name="General Fund" t:department=Police t:cost_center_name="C.I.D-Auto Theft" m:amount=229661
 ```
 
 ## Meta Commands
@@ -68,11 +68,11 @@ metric m:amount p:double l:Amount t:dataTypeName=money
 
 entity e:r89j-py2p l:"Fiscal Year 2013 Budget" t:url=https://data.montgomerycountymd.gov/api/views/r89j-py2p
 
-property e:r89j-py2p t:meta.view d:2017-06-09T13:58:24.086Z v:id=r89j-py2p v:category=Government v:averageRating=0 v:name="Fiscal Year 2013 Budget"
+property e:r89j-py2p t:meta.view d:2017-09-25T07:29:42.237Z v:averageRating=0 v:name="Fiscal Year 2013 Budget" v:id=r89j-py2p v:category=Government
 
-property e:r89j-py2p t:meta.view.owner d:2017-06-09T13:58:24.086Z v:id=fnci-gphj v:screenName="MC Open Data" v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.owner d:2017-09-25T07:29:42.237Z v:displayName="MC Open Data" v:id=fnci-gphj v:screenName="MC Open Data"
 
-property e:r89j-py2p t:meta.view.tableauthor d:2017-06-09T13:58:24.086Z v:id=fnci-gphj v:screenName="MC Open Data" v:roleName=administrator v:displayName="MC Open Data"
+property e:r89j-py2p t:meta.view.tableauthor d:2017-09-25T07:29:42.237Z v:displayName="MC Open Data" v:roleName=administrator v:id=fnci-gphj v:screenName="MC Open Data"
 ```
 
 ## Top Records

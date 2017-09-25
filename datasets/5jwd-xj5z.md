@@ -50,11 +50,11 @@ metric m:contract_value p:integer l:"Contract Value" t:dataTypeName=money
 
 entity e:5jwd-xj5z l:"Preferred Source Procurements FY15" t:attribution="Mayor's Office of Contract Services (MOCS)" t:url=https://data.cityofnewyork.us/api/views/5jwd-xj5z
 
-property e:5jwd-xj5z t:meta.view d:2017-06-09T13:55:45.896Z v:id=5jwd-xj5z v:category="City Government" v:averageRating=0 v:name="Preferred Source Procurements FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"
+property e:5jwd-xj5z t:meta.view d:2017-09-25T07:27:08.815Z v:averageRating=0 v:name="Preferred Source Procurements FY15" v:attribution="Mayor's Office of Contract Services (MOCS)" v:id=5jwd-xj5z v:category="City Government"
 
-property e:5jwd-xj5z t:meta.view.owner d:2017-06-09T13:55:45.896Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:5jwd-xj5z t:meta.view.owner d:2017-09-25T07:27:08.815Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:5jwd-xj5z t:meta.view.tableauthor d:2017-06-09T13:55:45.896Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:5jwd-xj5z t:meta.view.tableauthor d:2017-09-25T07:27:08.815Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records

@@ -69,11 +69,11 @@ Excluded Fields = all_causes_by_age_years_all_ages_flag,all_causes_by_age_years_
 ## Data Commands
 
 ```ls
-series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="New England" m:all_causes_by_age_years_all_ages=600 m:p_i_total=47 m:all_causes_by_age_years_65=426 m:all_causes_by_age_years_45_64=125 m:all_causes_by_age_years_1_24=12 m:all_causes_by_age_years_25_44=28 m:all_causes_by_age_years_lt_1=9
+series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="New England" m:all_causes_by_age_years_25_44=28 m:all_causes_by_age_years_lt_1=9 m:all_causes_by_age_years_all_ages=600 m:all_causes_by_age_years_65=426 m:all_causes_by_age_years_1_24=12 m:p_i_total=47 m:all_causes_by_age_years_45_64=125
 
-series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="Mid. Atlantic" m:all_causes_by_age_years_all_ages=807 m:p_i_total=32 m:all_causes_by_age_years_65=563 m:all_causes_by_age_years_45_64=181 m:all_causes_by_age_years_1_24=13 m:all_causes_by_age_years_25_44=32 m:all_causes_by_age_years_lt_1=18
+series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="Mid. Atlantic" m:all_causes_by_age_years_25_44=32 m:all_causes_by_age_years_lt_1=18 m:all_causes_by_age_years_all_ages=807 m:all_causes_by_age_years_65=563 m:all_causes_by_age_years_1_24=13 m:p_i_total=32 m:all_causes_by_age_years_45_64=181
 
-series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="E.N. Central" m:all_causes_by_age_years_all_ages=2468 m:p_i_total=159 m:all_causes_by_age_years_65=1611 m:all_causes_by_age_years_45_64=594 m:all_causes_by_age_years_1_24=62 m:all_causes_by_age_years_25_44=167 m:all_causes_by_age_years_lt_1=34
+series e:rpjd-ejph d:2015-12-27T00:00:00.000Z t:reporting_area="E.N. Central" m:all_causes_by_age_years_25_44=167 m:all_causes_by_age_years_lt_1=34 m:all_causes_by_age_years_all_ages=2468 m:all_causes_by_age_years_65=1611 m:all_causes_by_age_years_1_24=62 m:p_i_total=159 m:all_causes_by_age_years_45_64=594
 ```
 
 ## Meta Commands
@@ -95,13 +95,13 @@ metric m:p_i_total p:integer l:"P&I† Total" t:dataTypeName=number
 
 entity e:rpjd-ejph l:"TABLE III. Deaths in 122 U.S. cities" t:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)" t:url=https://data.cdc.gov/api/views/rpjd-ejph
 
-property e:rpjd-ejph t:meta.view d:2017-06-09T13:55:55.385Z v:id=rpjd-ejph v:category=NNDSS v:averageRating=0 v:name="TABLE III. Deaths in 122 U.S. cities" v:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)"
+property e:rpjd-ejph t:meta.view d:2017-09-25T07:27:19.438Z v:averageRating=0 v:name="TABLE III. Deaths in 122 U.S. cities" v:attribution="National Center for Immunization and Respiratory Diseases (NCIRD)" v:id=rpjd-ejph v:category=NNDSS
 
-property e:rpjd-ejph t:meta.view.owner d:2017-06-09T13:55:55.385Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
+property e:rpjd-ejph t:meta.view.owner d:2017-09-25T07:27:19.438Z v:displayName=wja0@cdc.gov v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:rpjd-ejph t:meta.view.tableauthor d:2017-06-09T13:55:55.385Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:rpjd-ejph t:meta.view.tableauthor d:2017-09-25T07:27:19.438Z v:displayName=wja0@cdc.gov v:roleName=editor v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:rpjd-ejph t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:55:55.385Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:rpjd-ejph t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:27:19.438Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

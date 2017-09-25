@@ -43,11 +43,11 @@ Excluded Fields = fiscal_year,month
 ## Data Commands
 
 ```ls
-series e:avst-7ttu d:2011-04-01T00:00:00.000Z m:usage_kwh=546355.2 m:cost=49837.92
+series e:avst-7ttu d:2011-04-01T00:00:00.000Z m:cost=49837.92 m:usage_kwh=546355.2
 
-series e:avst-7ttu d:2008-01-01T00:00:00.000Z m:usage_kwh=880914.24 m:cost=68450.91
+series e:avst-7ttu d:2008-01-01T00:00:00.000Z m:cost=68450.91 m:usage_kwh=880914.24
 
-series e:avst-7ttu d:2010-08-01T00:00:00.000Z m:usage_kwh=683354.61 m:cost=64074.54
+series e:avst-7ttu d:2010-08-01T00:00:00.000Z m:cost=64074.54 m:usage_kwh=683354.61
 ```
 
 ## Meta Commands
@@ -59,13 +59,13 @@ metric m:cost p:double l:Cost t:dataTypeName=money
 
 entity e:avst-7ttu l:"Facilities Management - Electricity Usage, 2121 Euclid Av Facility, by Month - Fiscal Year 2008 through February 2012" t:attribution="Cook County Department of Facilities Management" t:url=https://datacatalog.cookcountyil.gov/api/views/avst-7ttu
 
-property e:avst-7ttu t:meta.view d:2017-06-09T13:53:19.841Z v:id=avst-7ttu v:category="Finance & Administration" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management v:averageRating=0 v:name="Facilities Management - Electricity Usage, 2121 Euclid Av Facility, by Month - Fiscal Year 2008 through February 2012" v:attribution="Cook County Department of Facilities Management"
+property e:avst-7ttu t:meta.view d:2017-09-25T07:24:37.404Z v:averageRating=0 v:name="Facilities Management - Electricity Usage, 2121 Euclid Av Facility, by Month - Fiscal Year 2008 through February 2012" v:attribution="Cook County Department of Facilities Management" v:attributionLink=http://www.cookcountygov.com/portal/server.pt/community/facilities_management/294/facilities_management v:id=avst-7ttu v:category="Finance & Administration"
 
-property e:avst-7ttu t:meta.view.license d:2017-06-09T13:53:19.841Z v:name="Public Domain"
+property e:avst-7ttu t:meta.view.license d:2017-09-25T07:24:37.404Z v:name="Public Domain"
 
-property e:avst-7ttu t:meta.view.owner d:2017-06-09T13:53:19.841Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:avst-7ttu t:meta.view.owner d:2017-09-25T07:24:37.404Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 
-property e:avst-7ttu t:meta.view.tableauthor d:2017-06-09T13:53:19.841Z v:id=wyzd-r23j v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:screenName="Cook County Government" v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:displayName="Cook County Government"
+property e:avst-7ttu t:meta.view.tableauthor d:2017-09-25T07:24:37.404Z v:displayName="Cook County Government" v:profileImageUrlLarge=/api/users/wyzd-r23j/profile_images/LARGE v:profileImageUrlSmall=/api/users/wyzd-r23j/profile_images/TINY v:id=wyzd-r23j v:screenName="Cook County Government" v:profileImageUrlMedium=/api/users/wyzd-r23j/profile_images/THUMB
 ```
 
 ## Top Records

@@ -52,11 +52,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:t8ay-k3qw d:1996-04-18T00:00:00.000Z t:street_side=E t:site_detail="5' to 23' north of Ellis" t:cross_street=Ellis t:object_id=1 t:curb_quality=good m:space_length=18
+series e:t8ay-k3qw d:1996-04-18T00:00:00.000Z t:site_detail="5' to 23' north of Ellis" t:street_side=E t:object_id=1 t:curb_quality=good t:cross_street=Ellis m:space_length=18
 
-series e:t8ay-k3qw d:1994-06-27T00:00:00.000Z t:street_side=W t:site_detail="5' to 27' south of 24th St" t:cross_street="24th St" t:object_id=2 t:curb_quality=good m:space_length=22
+series e:t8ay-k3qw d:1994-06-27T00:00:00.000Z t:site_detail="5' to 27' south of 24th St" t:street_side=W t:object_id=2 t:curb_quality=good t:cross_street="24th St" m:space_length=22
 
-series e:t8ay-k3qw d:2017-06-03T16:31:45.000Z t:street_side=E t:site_detail="2' to 27' south of the north property line" t:cross_street="17th St" t:object_id=3 m:space_length=25
+series e:t8ay-k3qw d:2017-06-17T16:32:05.000Z t:site_detail="2' to 27' south of the north property line" t:street_side=E t:object_id=3 t:cross_street="17th St" m:space_length=25
 ```
 
 ## Meta Commands
@@ -66,13 +66,13 @@ metric m:space_length p:integer l:"Space Length" t:dataTypeName=number
 
 entity e:t8ay-k3qw l:"Blue Zone (Accessible) Parking" t:url=https://data.sfgov.org/api/views/t8ay-k3qw
 
-property e:t8ay-k3qw t:meta.view d:2017-06-09T13:59:21.582Z v:id=t8ay-k3qw v:category=Transportation v:averageRating=0 v:name="Blue Zone (Accessible) Parking"
+property e:t8ay-k3qw t:meta.view d:2017-09-25T07:30:41.123Z v:averageRating=0 v:name="Blue Zone (Accessible) Parking" v:id=t8ay-k3qw v:category=Transportation
 
-property e:t8ay-k3qw t:meta.view.license d:2017-06-09T13:59:21.582Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:t8ay-k3qw t:meta.view.license d:2017-09-25T07:30:41.123Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:t8ay-k3qw t:meta.view.owner d:2017-06-09T13:59:21.582Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:t8ay-k3qw t:meta.view.owner d:2017-09-25T07:30:41.123Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:t8ay-k3qw t:meta.view.tableauthor d:2017-06-09T13:59:21.582Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:t8ay-k3qw t:meta.view.tableauthor d:2017-09-25T07:30:41.123Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records

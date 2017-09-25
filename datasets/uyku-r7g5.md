@@ -41,11 +41,11 @@ Format & Zone = MM/dd/yy
 ## Data Commands
 
 ```ls
-series e:uyku-r7g5 d:2011-07-01T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="June 2011 - June 2012" t:project="CARSON HALL PLASTER REPAIR PROJECT" t:organization="University of Oregon" t:contractor="Oregon Ceiling & Acoustics, LLC" t:supplement_number=UO-390-C-11-5 t:mwesb="MBE, ESB" m:price=46200
+series e:uyku-r7g5 d:2011-07-01T00:00:00.000Z t:supplement_number=UO-390-C-11-5 t:contractor="Oregon Ceiling & Acoustics, LLC" t:compensation_method=Fixed t:organization="University of Oregon" t:retainer_period="June 2011 - June 2012" t:project="CARSON HALL PLASTER REPAIR PROJECT" t:mwesb="MBE, ESB" m:price=46200
 
-series e:uyku-r7g5 d:2011-07-05T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="June 2011 - June 2012" t:project="Heritage Hall Door Replacement" t:organization="Western Oregon University" t:contractor="Robert Gray Partners, Inc." t:supplement_number=WOU-409-C-11-2 t:mwesb=No m:price=54828
+series e:uyku-r7g5 d:2011-07-05T00:00:00.000Z t:supplement_number=WOU-409-C-11-2 t:contractor="Robert Gray Partners, Inc." t:compensation_method=Fixed t:organization="Western Oregon University" t:retainer_period="June 2011 - June 2012" t:project="Heritage Hall Door Replacement" t:mwesb=No m:price=54828
 
-series e:uyku-r7g5 d:2011-07-05T00:00:00.000Z t:compensation_method=Fixed t:retainer_period=2010-2012 t:project="Residence Hall Infrastructure Upgrade" t:organization="Oregon State University" t:contractor="Jimco Electrical Contracting, Inc." t:supplement_number=OSU-16-C-10-151 t:mwesb=No m:price=207750
+series e:uyku-r7g5 d:2011-07-05T00:00:00.000Z t:supplement_number=OSU-16-C-10-151 t:contractor="Jimco Electrical Contracting, Inc." t:compensation_method=Fixed t:organization="Oregon State University" t:retainer_period=2010-2012 t:project="Residence Hall Infrastructure Upgrade" t:mwesb=No m:price=207750
 ```
 
 ## Meta Commands
@@ -55,11 +55,11 @@ metric m:price p:integer l:Price t:dataTypeName=money
 
 entity e:uyku-r7g5 l:"Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012" t:url=https://data.oregon.gov/api/views/uyku-r7g5
 
-property e:uyku-r7g5 t:meta.view d:2017-06-09T13:51:05.383Z v:id=uyku-r7g5 v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012"
+property e:uyku-r7g5 t:meta.view d:2017-09-25T07:22:29.310Z v:averageRating=0 v:name="Contracts: OUS: Capital Construction Retainer Program: CSR Supplements: Fiscal Year 2012" v:id=uyku-r7g5 v:category="Revenue & Expense"
 
-property e:uyku-r7g5 t:meta.view.owner d:2017-06-09T13:51:05.383Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.owner d:2017-09-25T07:22:29.310Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:uyku-r7g5 t:meta.view.tableauthor d:2017-06-09T13:51:05.383Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:uyku-r7g5 t:meta.view.tableauthor d:2017-09-25T07:22:29.310Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

@@ -45,11 +45,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department=Mayor m:total=735784 m:personal_services=598685 m:debt_service=0 m:contractual_expenses=10300 m:equipment=0 m:benefits=126799
+series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department=Mayor m:benefits=126799 m:total=735784 m:equipment=0 m:personal_services=598685 m:contractual_expenses=10300 m:debt_service=0
 
-series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department="Central Data Processing" m:total=668792 m:personal_services=394605 m:debt_service=0 m:contractual_expenses=133000 m:equipment=52000 m:benefits=89187
+series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department="Central Data Processing" m:benefits=89187 m:total=668792 m:equipment=52000 m:personal_services=394605 m:contractual_expenses=133000 m:debt_service=0
 
-series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department="Common Council" m:total=592268 m:personal_services=435920 m:debt_service=0 m:contractual_expenses=33500 m:equipment=1500 m:benefits=121348
+series e:7a7x-7wap d:2013-01-01T00:00:00.000Z t:department="Common Council" m:benefits=121348 m:total=592268 m:equipment=1500 m:personal_services=435920 m:contractual_expenses=33500 m:debt_service=0
 ```
 
 ## Meta Commands
@@ -69,13 +69,13 @@ metric m:total p:integer l:Total t:dataTypeName=money
 
 entity e:7a7x-7wap l:"City of Albany Budget Summary: 2013" t:attribution="City of Albany" t:url=https://data.ny.gov/api/views/7a7x-7wap
 
-property e:7a7x-7wap t:meta.view d:2017-06-09T13:57:37.956Z v:id=7a7x-7wap v:category="Government & Finance" v:attributionLink=http://albanyny.gov/Government/MayorsOffice/Budget.aspx v:averageRating=0 v:name="City of Albany Budget Summary: 2013" v:attribution="City of Albany"
+property e:7a7x-7wap t:meta.view d:2017-09-25T07:28:59.510Z v:averageRating=0 v:name="City of Albany Budget Summary: 2013" v:attribution="City of Albany" v:attributionLink=http://albanyny.gov/Government/MayorsOffice/Budget.aspx v:id=7a7x-7wap v:category="Government & Finance"
 
-property e:7a7x-7wap t:meta.view.owner d:2017-06-09T13:57:37.956Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:7a7x-7wap t:meta.view.owner d:2017-09-25T07:28:59.510Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:7a7x-7wap t:meta.view.tableauthor d:2017-06-09T13:57:37.956Z v:id=mwxm-zess v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:screenName="Lindsey Krough" v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:roleName=administrator v:displayName="Lindsey Krough"
+property e:7a7x-7wap t:meta.view.tableauthor d:2017-09-25T07:28:59.510Z v:displayName="Lindsey Krough" v:profileImageUrlLarge=/api/users/mwxm-zess/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/mwxm-zess/profile_images/TINY v:id=mwxm-zess v:screenName="Lindsey Krough" v:profileImageUrlMedium=/api/users/mwxm-zess/profile_images/THUMB
 
-property e:7a7x-7wap t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:37.956Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:7a7x-7wap t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:28:59.510Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

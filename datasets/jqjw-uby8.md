@@ -63,11 +63,11 @@ Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
 ## Data Commands
 
 ```ls
-series e:jqjw-uby8 d:1996-01-01T00:00:00.000Z t:product_fda_list_name=PROMETHAZI t:ndc=00182050163 t:package_size=63 t:state_code=CO t:labeler_code=00182 t:product_code=0501 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=1171.42 m:number_of_prescriptions=63 m:units_reimbursed=990 m:non_medicaid_amount_reimbursed=0
+series e:jqjw-uby8 d:1996-01-01T00:00:00.000Z t:record_id=FFSU t:package_size=63 t:product_fda_list_name=PROMETHAZI t:labeler_code=00182 t:suppression_used=false t:product_code=0501 t:ndc=00182050163 t:state_code=CO m:total_amount_reimbursed=1171.42 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=990 m:medicaid_amount_reimbursed=0 m:number_of_prescriptions=63
 
-series e:jqjw-uby8 d:1996-10-01T00:00:00.000Z t:product_fda_list_name="INTRON A P" t:ndc=00085064704 t:package_size=04 t:state_code=MT t:labeler_code=00085 t:product_code=0647 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=3934.23 m:number_of_prescriptions=14 m:units_reimbursed=134 m:non_medicaid_amount_reimbursed=0
+series e:jqjw-uby8 d:1996-10-01T00:00:00.000Z t:record_id=FFSU t:package_size=04 t:product_fda_list_name="INTRON A P" t:labeler_code=00085 t:suppression_used=false t:product_code=0647 t:ndc=00085064704 t:state_code=MT m:total_amount_reimbursed=3934.23 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=134 m:medicaid_amount_reimbursed=0 m:number_of_prescriptions=14
 
-series e:jqjw-uby8 d:1996-07-01T00:00:00.000Z t:product_fda_list_name="BACLOFEN T" t:ndc=00172409660 t:package_size=60 t:state_code=VA t:labeler_code=00172 t:product_code=4096 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=0 m:total_amount_reimbursed=13779.52 m:number_of_prescriptions=803 m:units_reimbursed=95748 m:non_medicaid_amount_reimbursed=0
+series e:jqjw-uby8 d:1996-07-01T00:00:00.000Z t:record_id=FFSU t:package_size=60 t:product_fda_list_name="BACLOFEN T" t:labeler_code=00172 t:suppression_used=false t:product_code=4096 t:ndc=00172409660 t:state_code=VA m:total_amount_reimbursed=13779.52 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=95748 m:medicaid_amount_reimbursed=0 m:number_of_prescriptions=803
 ```
 
 ## Meta Commands
@@ -85,15 +85,15 @@ metric m:non_medicaid_amount_reimbursed p:float l:"Non Medicaid Amount Reimburse
 
 entity e:jqjw-uby8 l:"State Drug Utilization Data 1996" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/jqjw-uby8
 
-property e:jqjw-uby8 t:meta.view d:2017-06-09T13:56:05.273Z v:id=jqjw-uby8 v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 1996" v:attribution="Centers for Medicare and Medicaid"
+property e:jqjw-uby8 t:meta.view d:2017-09-25T07:27:28.664Z v:averageRating=0 v:name="State Drug Utilization Data 1996" v:attribution="Centers for Medicare and Medicaid" v:attributionLink=https://medicaid.gov v:id=jqjw-uby8 v:category="State Drug Utilization"
 
-property e:jqjw-uby8 t:meta.view.license d:2017-06-09T13:56:05.273Z v:name="Public Domain"
+property e:jqjw-uby8 t:meta.view.license d:2017-09-25T07:27:28.664Z v:name="Public Domain"
 
-property e:jqjw-uby8 t:meta.view.owner d:2017-06-09T13:56:05.273Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:displayName=Medicaid.gov
+property e:jqjw-uby8 t:meta.view.owner d:2017-09-25T07:27:28.664Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:jqjw-uby8 t:meta.view.tableauthor d:2017-06-09T13:56:05.273Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:roleName=administrator v:displayName=Medicaid.gov
+property e:jqjw-uby8 t:meta.view.tableauthor d:2017-09-25T07:27:28.664Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:jqjw-uby8 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:56:05.273Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:jqjw-uby8 t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:27:28.664Z v:Program_Code=009:076 v:Bureau_Code=009:00
 ```
 
 ## Top Records

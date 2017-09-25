@@ -65,18 +65,18 @@ series e:9t3u-k43z d:2014-08-28T08:39:52.000Z
 
 ```ls
 series e:6i3q-gfgy d:1975-01-01T00:00:00.000Z
- t:trend_change_from_2013=down
  t:station_name="ANDREWS CREEK NEAR MAZAMA, WA"
  t:salmon_region=UC
- t:stn_id=12447390
+ t:trend_change_from_2013=down
  t:trend_category="no trend"
  t:cat_change_from_2011=same
- m:trend_year=0.2
- m:reg_p=0.728
+ t:stn_id=12447390
  m:trib_level=4
- m:trend_cfs_yr=0.02
- m:m_k_p=0.709
+ m:reg_p=0.728
+ m:trend_year=0.2
  m:wria=48
+ m:m_k_p=0.709
+ m:trend_cfs_yr=0.02
 
 ```
 
@@ -283,12 +283,12 @@ series e:6hpa-vs46 d:2010-07-01T00:00:00.000Z
 
 ```ls
 series e:q3b3-ezki d:2007-01-01T00:00:00.000Z
- m:electric_service_delivery=103947739
- m:fuel=368759133
- m:administrative_and_general=78289887
- m:distributed_energy_services=26394706
  m:customer_care=23690882
+ m:fuel=368759133
+ m:electric_service_delivery=103947739
  m:power_supply_market_operations=129980185
+ m:distributed_energy_services=26394706
+ m:administrative_and_general=78289887
 
 ```
 
@@ -379,25 +379,25 @@ series e:rray-3xfa d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:y4ft-s73h d:2010-01-01T00:00:00.000Z
- t:topic="Overall Health"
+ t:breakoutcategoryid=CAT1
+ t:questionid=GENHLTH
+ t:question="How is your general health?"
  t:locationabbr=AL
+ t:break_out=Overall
  t:locationdesc=Alabama
  t:topicid=Topic41
- t:class="Health Status"
- t:break_out=Overall
- t:questionid=GENHLTH
+ t:classid=CLASS08
+ t:break_out_category=Overall
  t:response=Excellent
+ t:datasource=BRFSS
  t:locationid=01
  t:breakoutid=BO1
+ t:topic="Overall Health"
+ t:class="Health Status"
  t:responseid=RESP056
- t:break_out_category=Overall
- t:question="How is your general health?"
- t:breakoutcategoryid=CAT1
- t:datasource=BRFSS
- t:classid=CLASS08
- m:confidence_limit_low=15
  m:sample_size=996
  m:data_value=16.4
+ m:confidence_limit_low=15
  m:confidence_limit_high=17.7
 
 ```
@@ -1173,11 +1173,11 @@ null
 
 ```ls
 series e:w4v6-3sdt d:2009-01-01T00:00:00.000Z
- t:neighborhood=BATHGATE
  t:type_of_home="01 ONE FAMILY HOMES"
- m:average_sale_price=345752
+ t:neighborhood=BATHGATE
  m:lowest_sale_price=345752
  m:median_sale_price=345752
+ m:average_sale_price=345752
  m:highest_sale_price=345752
  m:number_of_sales=1
  m:total_no_of_properties=87
@@ -1300,25 +1300,25 @@ series e:54qs-2h7f d:2017-04-13T18:23:43.000Z
 [hanv-ru8h.md](../datasets/hanv-ru8h.md)
 
 ```ls
-series e:hanv-ru8h d:2017-04-11T14:31:53.000Z
+series e:hanv-ru8h d:2017-06-09T17:34:56.000Z
  t:state=AK
- m:lower_box_percent_of_patients_rating_of_the_dialysis_center_staff=8
- m:lower_box_percent_of_patients_nephrologists_communication_and_caring=13
- m:lower_box_percent_of_patients_rating_of_the_nephrologist=13
- m:lower_box_percent_of_patients_providing_information_to_patients=19
  m:middle_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=22
- m:top_box_percent_of_patients_rating_of_the_nephrologist=67
- m:top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=63
- m:middle_box_percent_of_patients_nephrologists_communication_and_caring=17
- m:top_box_percent_of_patients_providing_information_to_patients=81
- m:top_box_percent_of_patients_rating_of_the_dialysis_center_staff=68
- m:lower_box_percent_of_patients_rating_of_the_dialysis_facility=9
- m:middle_box_percent_of_patients_rating_of_the_dialysis_facility=15
- m:middle_box_percent_of_patients_rating_of_the_dialysis_center_staff=24
  m:top_box_percent_of_patients_nephrologists_communication_and_caring=70
- m:top_box_percent_of_patients_rating_of_the_dialysis_facility=76
- m:lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=15
+ m:middle_box_percent_of_patients_rating_of_the_dialysis_facility=15
+ m:lower_box_percent_of_patients_providing_information_to_patients=19
+ m:top_box_percent_of_patients_rating_of_the_nephrologist=67
+ m:top_box_percent_of_patients_rating_of_the_dialysis_center_staff=68
  m:middle_box_percent_of_patients_rating_of_the_nephrologist=20
+ m:lower_box_percent_of_patients_rating_of_the_nephrologist=13
+ m:lower_box_percent_of_patients_nephrologists_communication_and_caring=13
+ m:lower_box_percent_of_patients_rating_of_the_dialysis_center_staff=8
+ m:lower_box_percent_of_patients_rating_of_the_dialysis_facility=9
+ m:top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=63
+ m:top_box_percent_of_patients_rating_of_the_dialysis_facility=76
+ m:top_box_percent_of_patients_providing_information_to_patients=81
+ m:middle_box_percent_of_patients_nephrologists_communication_and_caring=17
+ m:lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=15
+ m:middle_box_percent_of_patients_rating_of_the_dialysis_center_staff=24
 
 ```
 
@@ -1594,13 +1594,13 @@ series e:ehju-t29q d:2016-05-06T17:54:23.000Z
 ```ls
 series e:nd82-bi9f d:2014-10-23T13:13:45.000Z
  t:agency=ACS
+ m:2013_fy_count=529
+ m:2013_fy_value=496551457
+ m:2012_fy_count=551
  m:2011_fy_value=25794461
  m:2012_fy_value=15174204
- m:2012_fy_count=551
- m:2014_fy_count=631
- m:2013_fy_value=496551457
- m:2013_fy_count=529
  m:2011_fy_count=375
+ m:2014_fy_count=631
  m:2014_fy_value=168622554
 
 ```
@@ -1644,16 +1644,13 @@ series e:9689-kxj4 d:2011-01-01T00:00:00.000Z
 [qarb-kkbj.md](../datasets/qarb-kkbj.md)
 
 ```ls
-series e:qarb-kkbj d:2016-11-04T15:10:49.000Z
- t:title="2424 CUMBERLAND CT"
+series e:qarb-kkbj d:2016-11-01T12:08:53.549Z
  t:id_external=J-34739-16
  t:police_district=4
- t:location="(29.9295015, -89.99376245)"
- t:status=Active
  t:evidence_id=6115BE71-B124-42DD-878B-929294147540
+ t:title="2424 CUMBERLAND CT"
+ t:status=Active
  m:duration_seconds=633
- m:longitude=-89.99376245
- m:latitude=29.9295015
  m:size_mb=290.207674026489
 
 ```
@@ -2172,8 +2169,8 @@ series e:tjuw-mfat d:2015-07-21T13:38:40.000Z
 ```ls
 series e:sd9s-b3hd d:2009-01-01T00:00:00.000Z
  m:truncated_investigations=113
- m:mediations=162
  m:full_investigations=349
+ m:mediations=162
  m:mediation_attempted=227
 
 ```
@@ -2416,12 +2413,12 @@ series e:35x9-cadj d:2014-09-15T00:00:00.000Z
 
 ```ls
 series e:m2rg-xjan d:2012-01-01T00:00:00.000Z
- t:county_of_commitment=ALBANY
- t:admission_month=JANUARY
- t:month_code=1
  t:latest_admission_type="NEW COURT COMMITMENT"
- t:most_serious_crime="BURGLARY 3RD"
+ t:admission_month=JANUARY
  t:gender=FEMALE
+ t:county_of_commitment=ALBANY
+ t:month_code=1
+ t:most_serious_crime="BURGLARY 3RD"
  m:age_at_admission=17
 
 ```
@@ -2934,20 +2931,20 @@ or masking and abatement."
 
 ```ls
 series e:tfm3-3j95 d:2015-08-25T01:01:25.000Z
- t:vehicle_color=WHITE
- t:zip_code=60448
- t:status=ACTIVE
- t:vehicle_type=Medicar
- t:state=IL
- t:vehicle_make=FORD
- t:vehicle_fuel_source=Gasoline
- t:city=MOKENA
- t:record_id=7418Medicar
- t:vehicle_model_year=2010
  t:public_vehicle_number=7418
- t:company_name="ELITE MEDICAL TRANSPORTATION LLC"
- t:vehicle_model=E350
+ t:vehicle_make=FORD
+ t:vehicle_color=WHITE
  t:wheelchair_accessible=N
+ t:city=MOKENA
+ t:vehicle_model=E350
+ t:vehicle_type=Medicar
+ t:zip_code=60448
+ t:record_id=7418Medicar
+ t:vehicle_fuel_source=Gasoline
+ t:company_name="ELITE MEDICAL TRANSPORTATION LLC"
+ t:vehicle_model_year=2010
+ t:state=IL
+ t:status=ACTIVE
  m:row_number.tfm3-3j95=1
 
 ```
@@ -3345,11 +3342,11 @@ series e:uxwx-55kj d:2015-07-15T12:26:56.000Z
 
 ```ls
 series e:cadm-spqd d:2011-01-01T00:00:00.000Z
- t:project_name="Park View at Colonial Landing"
  t:project_county=Howard
- t:projecttype=Acq./Rehab.
  t:project_city=Elkridge
+ t:projecttype=Acq./Rehab.
  t:project_zip=21075
+ t:project_name="Park View at Colonial Landing"
  m:units=100
 
 ```
@@ -3422,16 +3419,16 @@ series e:c7jj-qjvh d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:ak95-mjh9 d:2012-11-01T00:00:00.000Z
- t:laus_area_code=CN5300100000000
+ t:period=12-Nov
  t:area_title="Adams County, WA"
  t:state_fips_code=53
  t:state=WA
- t:county_fips_code=1
- t:period=12-Nov
  t:county_name="Adams County"
+ t:laus_area_code=CN5300100000000
+ t:county_fips_code=1
  m:employed_level=7389
- m:unemployment_rate=8.6
  m:civilian_labor_force=8082
+ m:unemployment_rate=8.6
  m:unemployed_level=693
 
 ```
@@ -3493,12 +3490,12 @@ series e:arhf-esqb d:2016-03-01T00:00:00.000Z
 
 ```ls
 series e:h9zr-j4pg d:2014-03-31T00:00:00.000Z
- t:region=11
  t:operator_name="1ST CLASS TRANSPORTATION SERVICE"
- t:operator_id=48486
  t:city="QUEENS VILLAGE"
- m:failed_inspections=1
+ t:operator_id=48486
+ t:region=11
  m:inspections=4
+ m:failed_inspections=1
 
 ```
 
@@ -3949,14 +3946,14 @@ series e:di8r-g5w9 d:2001-01-01T00:00:00.000Z
 
 ```ls
 series e:7i7v-m2wn d:2016-08-26T00:00:00.000Z
- t:filer="San Franciscans for a City that Works"
- t:report_number=VA-G16-013
- t:form_type=496
- t:candidate_identified="Joshua Arce"
  t:support_oppose_or_neutral=Support
  t:filer_id=1384192
  t:notes="Web Ads"
+ t:report_number=VA-G16-013
  t:district="Board of Supervisors District 9"
+ t:filer="San Franciscans for a City that Works"
+ t:candidate_identified="Joshua Arce"
+ t:form_type=496
  m:amount=5000
 
 ```
@@ -4626,28 +4623,28 @@ series e:p3p6-xqr5 d:2011-12-31T00:00:00.000Z
 
 ```ls
 series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z
- t:cand_naml=Philhour
- t:payee_state=CA
- t:payee_zip4=94612
- t:cand_namf=Marjan
- t:entity_cd=OTH
- t:dist_no=1
- t:office_cd=CSU
  t:filer_naml="Vote Marjan Philhour for Supervisor 2016"
+ t:entity_cd=OTH
  t:juris_dscr="San Francisco, CA"
- t:report_num=1
- t:expn_code=CMP
- t:juris_cd=OTH
- t:agent_naml="Spotlight Printing"
- t:form_type=G
- t:rec_type=EXPN
  t:g_from_e_f=E
- t:filer_id=1374373
- t:committee_type=CTL
- t:payee_naml="State Board of Equalization"
- t:payee_city=Oakland
  t:expn_dscr="Sales Tax"
+ t:office_cd=CSU
  t:tran_id=EDT48
+ t:payee_zip4=94612
+ t:form_type=G
+ t:agent_naml="Spotlight Printing"
+ t:filer_id=1374373
+ t:payee_naml="State Board of Equalization"
+ t:cand_naml=Philhour
+ t:juris_cd=OTH
+ t:rec_type=EXPN
+ t:payee_city=Oakland
+ t:payee_state=CA
+ t:report_num=1
+ t:dist_no=1
+ t:expn_code=CMP
+ t:cand_namf=Marjan
+ t:committee_type=CTL
  m:amount=48.13
  m:cum_ytd=1391.38
 
@@ -4875,21 +4872,21 @@ series e:n9da-svsr d:2017-09-21T17:15:00.000Z
 
 ```ls
 series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z
- t:category=ELL
  t:grade=3
  t:borough=BRONX
- m:level_3_4_2=49
- m:level_4_1=202
- m:level_2_2=27.6
- m:mean_scale_score=645
+ t:category=ELL
  m:level_4_2=5.4
- m:level_2_1=1037
- m:level_1_2=23.3
- m:level_1_1=876
- m:number_tested=3754
+ m:mean_scale_score=645
  m:level_3_4_1=1841
- m:level_3_2=43.7
+ m:level_1_1=876
+ m:level_1_2=23.3
+ m:level_2_1=1037
+ m:level_2_2=27.6
  m:level_3_1=1639
+ m:level_3_2=43.7
+ m:level_4_1=202
+ m:level_3_4_2=49
+ m:number_tested=3754
 
 ```
 
@@ -5045,17 +5042,17 @@ series e:fivj-j6mz d:2006-01-01T00:00:00.000Z
 ```ls
 series e:v3f6-2e7z d:2005-01-01T00:00:00.000Z
  t:category="False statement"
+ m:2009_number_of_allegations_against_officers_with_subbed_fado_allegation=4
+ m:2008_number_of_allegations_against_officers_without_subbed_fado_allegation=0
  m:total=19
- m:2008_number_of_allegations_against_officers_with_subbed_fado_allegation=1
- m:2005_number_of_allegations_against_officers_without_subbed_fado_allegation=3
- m:2007_number_of_allegations_against_officers_without_subbed_fado_allegation=0
  m:2007_number_of_allegations_against_officers_with_subbed_fado_allegation=0
+ m:2005_number_of_allegations_against_officers_without_subbed_fado_allegation=3
+ m:2008_number_of_allegations_against_officers_with_subbed_fado_allegation=1
  m:2009_number_of_allegations_against_officers_without_subbed_fado_allegation=3
  m:2006_number_of_allegations_against_officers_without_subbed_fado_allegation=1
  m:2006_number_of_allegations_against_officers_with_subbed_fado_allegation=2
- m:2009_number_of_allegations_against_officers_with_subbed_fado_allegation=4
  m:2005_number_of_allegations_against_officers_with_subbed_fado_allegation=5
- m:2008_number_of_allegations_against_officers_without_subbed_fado_allegation=0
+ m:2007_number_of_allegations_against_officers_without_subbed_fado_allegation=0
 
 ```
 
@@ -5791,9 +5788,9 @@ series e:qcf2-zajk d:1987-01-01T00:00:00.000Z
 
 ```ls
 series e:im7g-fucq d:2012-02-15T10:41:59.000Z
- t:zip_code=63960
- t:county=Stoddard
  t:city=Acornridge
+ t:county=Stoddard
+ t:zip_code=63960
  m:row_number.im7g-fucq=1
 
 ```
@@ -6500,18 +6497,18 @@ series e:srq6-hmpi d:2016-08-19T04:00:38.000Z
 
 ```ls
 series e:83a4-b7r2 d:2015-07-17T08:58:25.000Z
+ t:metric_id=8
  t:omh_region="01-Western NY"
  t:age_group=Adult
  t:description_of_metric="Percentage of MH Discharges Followed by Two or More MH Outpatient Visits within 30
  Days"
- t:metric_id=8
  t:indicator_domain_group="MH Engagement In Care"
- m:year_to_date_numerator=1612
  m:rate=42.6
- m:year_to_date_rate=45.2
+ m:year_to_date_numerator=1612
  m:year_to_date_denominator=3565
- m:denominator=779
  m:numerator=332
+ m:denominator=779
+ m:year_to_date_rate=45.2
 
 ```
 
@@ -7322,16 +7319,16 @@ series e:r4uk-afju d:1991-05-15T00:00:00.000Z
 
 ```ls
 series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z
- t:open_space=false
  t:website=http://www.seattle.gov/arts/publicart/default.asp
+ t:administrator="Arts & Cultural Affairs"
+ t:open_space=false
+ t:infrastructure=false
+ t:funding_type="legislative encumbrance"
+ t:community_development=true
  t:description="identifies and coordinates opportunities to include public art in capital projects funded at
  the local, state, and federal levels."
  t:program="1% for Art"
- t:administrator="Arts & Cultural Affairs"
- t:funding_type="legislative encumbrance"
- t:community_development=true
  t:funding_amount=$
- t:infrastructure=false
  m:row_number.bnq7-2pc8=1
 
 ```
@@ -8338,20 +8335,20 @@ series e:phth-xf25 d:2006-01-01T00:00:00.000Z
 
 ```ls
 series e:itia-u6fu d:1995-10-01T00:00:00.000Z
- t:locationabbr=AK
- t:locationdesc=Alaska
- t:topicid=1043LEG
- t:provisiondesc="Smokefree Campus"
  t:measureid=1017PUS
  t:measuredesc="Public Schools (K-12)"
- t:provisiongroupdesc=Restrictions
- t:provisiongroupid=10GRP
- t:provisionvalue="No Provision"
- t:provisionid=525
+ t:provisiondesc="Smokefree Campus"
+ t:locationabbr=AK
+ t:locationdesc=Alaska
  t:topicdesc="Legislation - E-Cigarette - Smokefree Campus"
+ t:provisionid=525
+ t:topicid=1043LEG
  t:datatype=Ranking
  t:datasource=OSH
  t:topictypeid=LEG
+ t:provisionvalue="No Provision"
+ t:provisiongroupid=10GRP
+ t:provisiongroupdesc=Restrictions
  m:provisionaltvalue=0
 
 ```
@@ -8517,12 +8514,12 @@ series e:df3k-buyh d:2012-09-10T08:17:52.000Z
 
 ```ls
 series e:9beh-zhu8 d:2011-07-07T00:00:00.000Z
+ t:supplement_number=UO-54-P-11-58
+ t:consultant="CADD Connection LLC"
+ t:organization="University of Oregon"
  t:retainer_period=2011-2013
  t:project="Allen Hall Add.& Renovations-MEPF Coordination Plans"
  t:amendments=UO-54-P-11-58-1
- t:organization="University of Oregon"
- t:consultant="CADD Connection LLC"
- t:supplement_number=UO-54-P-11-58
  t:mwesb="DBE, MBE, ESB"
  m:price=49844
 
@@ -8650,10 +8647,10 @@ series e:j5dj-2hfj d:2012-01-01T00:00:00.000Z
 ```ls
 series e:ih2u-hwyu d:2012-01-01T00:00:00.000Z
  t:service_type="Classified Staff"
- t:classification="Accountant 1"
- t:agency_title="OUS - Southern Oregon University"
- t:agency=58040
  t:full_part_time=Full-Time
+ t:agency=58040
+ t:agency_title="OUS - Southern Oregon University"
+ t:classification="Accountant 1"
  m:annual_salary=36048
 
 ```
@@ -9306,14 +9303,14 @@ series e:bubj-tpbw d:2012-08-28T13:23:06.000Z
 
 ```ls
 series e:hrkd-h2w5 d:2016-01-01T00:00:00.000Z
- t:tax_code_area=501
- t:county=Baker
+ t:enterprise_zone="Baker County"
  t:name_of_qualified_firm="Natural Structures"
  t:property_tax_year=2015-2016
- t:enterprise_zone="Baker County"
- m:preexisting_zone_employment_annual_average_in_authorization_application=5
+ t:tax_code_area=501
+ t:county=Baker
  m:reported_total_zone_employment_on_or_before_april_1_of_reporting_year=49
  m:expected_total_years_of_exemption_3_4_or_5=3
+ m:preexisting_zone_employment_annual_average_in_authorization_application=5
 
 ```
 
@@ -9353,14 +9350,14 @@ series e:33fu-uwca d:2011-01-05T00:00:00.000Z
 [8yfa-b3bq.md](../datasets/8yfa-b3bq.md)
 
 ```ls
-series e:8yfa-b3bq d:2017-04-07T20:54:50.000Z
- t:avg_time_on_page=0:01:33
+series e:8yfa-b3bq d:2017-07-07T16:28:54.000Z
+ t:avg_time_on_page=0:01:34
  t:page=http://austintexas.gov/
- m:entrances=145559
- m:pageviews=212584
- m:unique_pageviews=171097
- m:exit=52.19
- m:bounce_rate=58.75
+ m:exit=51.72
+ m:pageviews=591385
+ m:unique_pageviews=474794
+ m:bounce_rate=58.34
+ m:entrances=403277
 
 ```
 
@@ -9649,22 +9646,22 @@ series e:vadf-gfmj d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:akmt-4qtj d:2006-01-01T00:00:00.000Z
- t:topic="Prenatal Care - Visits"
+ t:breakoutcategoryid=BOC16
+ t:questionid=QUO171
+ t:question="Indicator of no prenatal care"
  t:locationabbr=AK
+ t:break_out="Age 18 - 44"
  t:locationdesc=Alaska
  t:topicid=TOP44
- t:class="Control Variable"
- t:break_out="Age 18 - 44"
- t:questionid=QUO171
+ t:classid=CLA1
+ t:break_out_category="Maternal Age - 18 to 44 years only"
+ t:datasource=PRAMS
  t:response=NO
  t:locationid=2
  t:breakoutid=AGE1844ALL
+ t:topic="Prenatal Care - Visits"
+ t:class="Control Variable"
  t:responseid=RES23
- t:break_out_category="Maternal Age - 18 to 44 years only"
- t:question="Indicator of no prenatal care"
- t:breakoutcategoryid=BOC16
- t:datasource=PRAMS
- t:classid=CLA1
  m:data_value=99.1
 
 ```
@@ -9737,25 +9734,25 @@ series e:dskn-nj3p d:2011-01-03T00:00:00.000Z
 [utgq-v46w.md](../datasets/utgq-v46w.md)
 
 ```ls
-series e:utgq-v46w d:2017-04-11T14:31:51.000Z
+series e:utgq-v46w d:2017-06-09T17:34:53.000Z
  t:country=NATION
- m:lower_box_percent_of_patients_rating_of_the_dialysis_center_staff=12
- m:lower_box_percent_of_patients_nephrologists_communication_and_caring=18
- m:lower_box_percent_of_patients_rating_of_the_nephrologist=15
- m:lower_box_percent_of_patients_providing_information_to_patients=21
  m:middle_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=21
- m:top_box_percent_of_patients_rating_of_the_nephrologist=61
- m:top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=61
- m:middle_box_percent_of_patients_nephrologists_communication_and_caring=16
- m:top_box_percent_of_patients_providing_information_to_patients=79
- m:top_box_percent_of_patients_rating_of_the_dialysis_center_staff=62
- m:lower_box_percent_of_patients_rating_of_the_dialysis_facility=12
- m:middle_box_percent_of_patients_rating_of_the_dialysis_facility=22
- m:middle_box_percent_of_patients_rating_of_the_dialysis_center_staff=26
  m:top_box_percent_of_patients_nephrologists_communication_and_caring=66
- m:top_box_percent_of_patients_rating_of_the_dialysis_facility=66
- m:lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=18
+ m:middle_box_percent_of_patients_rating_of_the_dialysis_facility=22
+ m:lower_box_percent_of_patients_providing_information_to_patients=21
+ m:top_box_percent_of_patients_rating_of_the_nephrologist=61
+ m:top_box_percent_of_patients_rating_of_the_dialysis_center_staff=62
  m:middle_box_percent_of_patients_rating_of_the_nephrologist=24
+ m:lower_box_percent_of_patients_rating_of_the_nephrologist=15
+ m:lower_box_percent_of_patients_nephrologists_communication_and_caring=18
+ m:lower_box_percent_of_patients_rating_of_the_dialysis_center_staff=12
+ m:lower_box_percent_of_patients_rating_of_the_dialysis_facility=12
+ m:top_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=61
+ m:top_box_percent_of_patients_rating_of_the_dialysis_facility=66
+ m:top_box_percent_of_patients_providing_information_to_patients=79
+ m:middle_box_percent_of_patients_nephrologists_communication_and_caring=16
+ m:lower_box_percent_of_patients_quality_of_dialysis_center_care_and_operations=18
+ m:middle_box_percent_of_patients_rating_of_the_dialysis_center_staff=26
 
 ```
 
@@ -10864,9 +10861,9 @@ series e:gia4-fgdb d:2016-05-03T12:13:41.000Z
 
 ```ls
 series e:qjpr-gyut d:2016-01-25T12:25:37.000Z
- t:description="Hawaii Island"
  t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF
 _HAWAII.pdf""> Hawaii Map: Island view</a>"
+ t:description="Hawaii Island"
  m:row_number.qjpr-gyut=1
 
 ```
@@ -11517,19 +11514,19 @@ series e:5hk7-b79m d:0102-08-15T00:00:00.000Z
 
 ```ls
 series e:hj2x-85ya d:1996-10-01T00:00:00.000Z
- t:locationabbr=NV
- t:locationdesc=Nevada
- t:topicid=630
- t:topictypedesc=Legislation
  t:measureid=667COMB
  t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH"
+ t:licensure=No
+ t:locationabbr=NV
+ t:locationdesc=Nevada
  t:advertising=Yes
  t:topicdesc=Preemption
- t:youth_access=Yes
  t:smokefree_indoor_air=Yes
- t:licensure=No
- t:preemption="Preemption for three policies"
+ t:topicid=630
+ t:youth_access=Yes
  t:topictypeid=LEG
+ t:topictypedesc=Legislation
+ t:preemption="Preemption for three policies"
  m:preemptionaltvalue=3
 
 ```
@@ -11613,7 +11610,9 @@ series e:tf7e-z5t7 d:2015-11-20T13:59:26.000Z
 
 ```ls
 series e:m5xp-nzqp d:2014-06-30T00:00:00.000Z
- t:project_location_congressional_district=n/a
+ t:business_firm_name="NO APPROVALS WERE MADE DURING PRECEDING FISCAL YEAR"
+ t:project_location_county_code=n/a
+ t:estimated_total_investment=n/a
  t:specific_outcomes_of_the_program_and_taxpayer_requirements="Project benefits traded-sector industry Full 
 disclosure of concurrent, statewide employment changes 
 
@@ -12006,10 +12005,10 @@ series e:xe9x-a24f d:2013-01-01T00:00:00.000Z
 ```ls
 series e:3vxz-wrn6 d:2015-08-06T12:15:52.000Z
  t:county=Missouri
- m:est_deaf_hoh_10=598893
  m:est_deaf_1=59889
  m:total_population_2010=5988927
  m:est_hoh_9=539003
+ m:est_deaf_hoh_10=598893
 
 ```
 
@@ -12342,8 +12341,8 @@ series e:hdnu-nbrh d:1980-01-01T00:00:00.000Z
 ```ls
 series e:jgg3-zkyf d:2013-03-12T16:47:07.000Z
  t:ethnicity="African American"
- m:upper_ci=26
  m:lower_ci=17
+ m:upper_ci=26
  m:percent=21
 
 ```
@@ -12433,19 +12432,19 @@ series e:2j58-f6mz d:2011-01-01T00:00:00.000Z
 [7nwe-3aj9.md](../datasets/7nwe-3aj9.md)
 
 ```ls
-series e:7nwe-3aj9 d:2014-01-01T00:00:00.000Z
- t:locationabbr=AL
- t:locationdesc=Alabama
- t:topicid=450POL
- t:source="Table 13- Orzechowski and Walker, Tax Burden on Tobacco"
+series e:7nwe-3aj9 d:1970-01-01T00:00:00.000Z
  t:measureid=450CGS
  t:measuredesc="Cigarette Sales"
- t:submeasuredesc="Average Cost per pack"
- t:topicdesc="The Tax Burden on Tobacco"
+ t:topicid=450POL
  t:submeasureid=455CGS
  t:datasource=OW
  t:topictypeid=POL
- m:data_value=5.102
+ t:locationabbr=AL
+ t:locationdesc=Alabama
+ t:source="Table 13- Orzechowski and Walker, Tax Burden on Tobacco"
+ t:submeasuredesc="Average Cost per pack"
+ t:topicdesc="The Tax Burden on Tobacco"
+ m:data_value=0.427
 
 ```
 
@@ -12501,8 +12500,8 @@ series e:s5ct-e4qp d:2013-07-01T00:00:00.000Z
 
 ```ls
 series e:9x7t-w4u8 d:2013-05-20T10:14:46.000Z
- t:icon=pSz6hbFcqbb4UssyZihNmW7yWAbFXzsbHaIKB1lTJNs
  t:station_name="DEQ VIP Sherwood Station"
+ t:icon=pSz6hbFcqbb4UssyZihNmW7yWAbFXzsbHaIKB1lTJNs
  t:details="<p>14962 SW Tualtin-Sherwood Road&nbsp;<strong>|</strong> Sherwood, OR 97140</p><p>Phone: 503-22
 9-5066<span style=""color:#000000;"">&nbsp;<strong>|</strong> </span><span style=""color:#741b47;""><strong>
 <a target=""_blank"" href=""http://www.deq.state.or.us/aq/vip/stationcams/vipshcam.htm""><span style=""color
@@ -12970,13 +12969,16 @@ series e:f9we-t9h3 d:2008-01-01T00:00:00.000Z
 [vz8c-29aj.md](../datasets/vz8c-29aj.md)
 
 ```ls
-series e:vz8c-29aj d:2011-10-10T21:30:08.000Z
- t:phone=718-935-2178
- t:zip_code=10458
+series e:vz8c-29aj d:2017-08-15T14:56:19.000Z
  t:hours="Monday-Friday, 8:00am-3:00pm"
+ t:phone=718-935-2178
  t:districts_served="7, 9, 10"
+ t:nta=Belmont
  t:borough=Bronx
- m:row_number.vz8c-29aj=1
+ t:council_district=15
+ t:zip_code=10458
+ m:community_board=6
+ m:census_tract=387
 
 ```
 
@@ -14267,24 +14269,24 @@ series e:wavz-fkw8 d:2015-06-10T13:16:02.000Z
 
 ```ls
 series e:735p-zed8 d:2001-07-13T07:00:00.000Z
- t:seg_ind=N
- t:schedule=ABC
- t:candfirst=Elizabeth
- t:refno=P0002-01
- t:committee=H
- t:candlast="Atwood King"
- t:candid=553
  t:c_code=IND
- t:rr_ind=N
- t:boroughcd=K
+ t:refno=P0002-01
+ t:schedule=ABC
  t:canclass=P
- m:prevamnt=0
- m:amnt=45
- m:election=2001
- m:pay_method=2
- m:officecd=5
+ t:candlast="Atwood King"
+ t:committee=H
+ t:candfirst=Elizabeth
+ t:candid=553
+ t:boroughcd=K
+ t:rr_ind=N
+ t:seg_ind=N
  m:filing=9
+ m:election=2001
+ m:prevamnt=0
  m:matchamnt=45
+ m:pay_method=2
+ m:amnt=45
+ m:officecd=5
 
 ```
 
@@ -14750,29 +14752,29 @@ series e:pcn2-jime d:2016-03-23T07:02:56.000Z
 series e:idfb-y78n d:2013-01-01T00:00:00.000Z
  t:company_name=Cannonsville
  m:temporary_tags=45
- m:permits_issued=103
- m:seasonal_tags=58
- m:sculls=1
  m:sailboats=4
  m:kayaks=53
- m:rowboats=11
+ m:permits_issued=103
+ m:seasonal_tags=58
  m:canoes=34
+ m:sculls=1
+ m:rowboats=11
 
 ```
 
 [xgig-n5ch.md](../datasets/xgig-n5ch.md)
 
 ```ls
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z
- t:rate_code_group="Clinic Treatment"
- t:county_label=Allegany
- t:age_group=ADULT
- t:omh_region_label="Western NY"
- t:omh_region_code=1
- m:recipient_count_by_county=443
- m:paid_claim_total=273141
- m:units_total=2674
- m:count_of_recipients_by_rate_code_group_and_county=345
+series e:xgig-n5ch d:2017-07-19T09:44:43.000Z
+ t:rate_code_group="Day Treatment"
+ t:omh_region_code=3
+ t:county_label=Ulster
+ t:age_group=CHILD
+ t:omh_region_label="Hudson River"
+ m:paid_claim_total=313495
+ m:recipient_count_by_county=714
+ m:units_total=953
+ m:count_of_recipients_by_rate_code_group_and_county=39
 
 ```
 
@@ -14794,9 +14796,9 @@ series e:qqa2-kmne d:2010-01-01T00:00:00.000Z
 [rg8a-czmp.md](../datasets/rg8a-czmp.md)
 
 ```ls
-series e:rg8a-czmp d:1960-01-01T00:00:00.000Z
- t:age_group="15-17 years"
- m:birth_rate=43.9
+series e:rg8a-czmp d:2015-01-01T00:00:00.000Z
+ t:age_group="15-19 years"
+ m:birth_rate=22.3
 
 ```
 
@@ -15177,13 +15179,13 @@ series e:kiwy-fuw2 d:2016-04-08T15:30:50.000Z
 ```ls
 series e:3xyp-aqkj d:2016-05-25T11:15:29.000Z
  t:zip=33324
- t:issue_type=Phone
- t:issue=Robocalls
- t:state=FL
- t:type_of_call_or_messge="Autodialed Live Voice Call"
  t:method="Internet (VOIP)"
- t:caller_id_number=866-410-0458
+ t:issue=Robocalls
+ t:type_of_call_or_messge="Autodialed Live Voice Call"
  t:city=Plantation
+ t:issue_type=Phone
+ t:caller_id_number=866-410-0458
+ t:state=FL
  m:row_number.3xyp-aqkj=1
 
 ```
@@ -16204,21 +16206,21 @@ series e:8dps-5d4x d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:jz6n-v26y d:2014-01-01T00:00:00.000Z
- t:response=Yes
- t:locationabbr=AL
- t:locationdesc=Alabama
  t:indicator="Adults aged 18+ who have visited a dentist or dental clinic in the past year"
- t:category=Adult
- t:locationid=1
  t:indicatorid=ADT1_1
  t:break_out_category=None
- t:sortbreakoutid=1
+ t:response=Yes
  t:datasource=BRFSS
- m:sortusfirst=2
+ t:locationid=1
+ t:sortbreakoutid=1
+ t:locationabbr=AL
+ t:locationdesc=Alabama
+ t:category=Adult
+ m:low_confidence_interval=58.5
+ m:data_value=60
  m:samplesize=5143
  m:high_confidence_interval=61.5
- m:data_value=60
- m:low_confidence_interval=58.5
+ m:sortusfirst=2
 
 ```
 
@@ -16544,23 +16546,23 @@ series e:r37a-62u5 d:2011-12-13T14:09:42.000Z
 series e:k3hs-aykd d:2013-07-16T13:42:18.000Z
  t:gender_descr=Female
  t:department="Arts and Cultural Affairs"
- m:professionals_avg_hrly=35
- m:service_maintenance_ee=1
- m:technicians_gender=0
- m:protected_services_ee=0
- m:admin_support_avg_hrly=26.53
- m:service_maintenance_avg_hrly=27.78
  m:professionals_gender=79
- m:service_maintenance_gender=33
- m:technicians_ee=0
- m:professionals_ee=15
- m:skilled_craft_ee=0
  m:para_professionals_ee=0
- m:officials_admin_avg_hrly=49.97
- m:officials_admin_ee=2
- m:officials_admin_gender=67
+ m:professionals_avg_hrly=35
  m:admin_support_ee=2
+ m:officials_admin_gender=67
+ m:admin_support_avg_hrly=26.53
+ m:officials_admin_avg_hrly=49.97
+ m:technicians_ee=0
+ m:service_maintenance_ee=1
+ m:service_maintenance_gender=33
+ m:service_maintenance_avg_hrly=27.78
+ m:professionals_ee=15
+ m:protected_services_ee=0
  m:admin_support_gender=100
+ m:officials_admin_ee=2
+ m:skilled_craft_ee=0
+ m:technicians_gender=0
 
 ```
 
@@ -16828,9 +16830,9 @@ series e:6tta-i2fd d:2013-01-01T00:00:00.000Z
 ```ls
 series e:rpbd-ypkv d:2010-01-01T00:00:00.000Z
  m:helco=383622
- m:kiuc=39750
  m:meco=182560
  m:heco=344809
+ m:kiuc=39750
 
 ```
 
@@ -16945,6 +16947,10 @@ series e:k659-gwja d:2006-01-01T00:00:00.000Z
 
 ```ls
 series e:pkba-543m d:2013-01-01T00:00:00.000Z
+ t:current_referral="WTL, JDL"
+ t:subject="Coastal Areas; Public Access"
+ t:bill="HB17 HD1 SD2"
+ t:introducer_s="EVANS, COFFMAN, HANOHANO, KAWAKAMI, C. LEE, LOWEN, NISHIMOTO, TAKUMI, THIELEN"
  t:abstract="Deletes the &quot;one gallon per person per day&quot; exception to the prohibition against the 
 removal of sand and other beach or marine deposits, except for materials inadvertently taken, and creates an
  exemption for public emergencies and traditional cultural practices. Ensures public lateral access along th
@@ -16953,11 +16959,7 @@ ned vegetation interfering with such access and maintaining DLNR's enforcement d
  Clarifies that Act 160, SLH 2010 does not alter or modify any agreement of the DLNR existing or executed on
  the effective date of Act 160. Effective 06/29/13. (SD2)"
  t:title="RELATING TO COASTAL AREAS."
- t:current_referral="WTL, JDL"
- t:bill="HB17 HD1 SD2"
  t:status="H 5/7/2013: Transmitted to Governor."
- t:introducer_s="EVANS, COFFMAN, HANOHANO, KAWAKAMI, C. LEE, LOWEN, NISHIMOTO, TAKUMI, THIELEN"
- t:subject="Coastal Areas; Public Access"
  m:row_number.pkba-543m=1
 
 ```
@@ -16967,9 +16969,9 @@ ned vegetation interfering with such access and maintaining DLNR's enforcement d
 ```ls
 series e:65ac-s4v5 d:1979-10-24T00:00:00.000Z
  t:jobtitle="Facilities/Office Services II"
- t:agencyid=A03031
- t:name="Aaron,Patricia G"
  t:agency="OED-Employment Dev (031)"
+ t:name="Aaron,Patricia G"
+ t:agencyid=A03031
  m:grosspay=54135.44
  m:annualsalary=56705
 
@@ -17717,10 +17719,10 @@ series e:2mb6-tu96 d:2013-10-01T00:00:00.000Z
 
 ```ls
 series e:p2q7-at72 d:2015-02-09T00:00:00.000Z
+ t:epp_product_type_s="Roof Coating"
+ t:agency=DCAS
  t:contract_description="Roof replacement and repair for DCAS bldgns in Bklyn,Qns,SI."
  t:products_meets_epp_minimum_standards_y_n=Yes
- t:agency=DCAS
- t:epp_product_type_s="Roof Coating"
  m:contract_value=1000000
 
 ```
@@ -18393,10 +18395,10 @@ series e:cfsh-2wi3 d:2010-07-08T00:00:00.000Z
 series e:nrih-k5ag d:2016-03-14T10:56:29.000Z
  t:product="Office 365"
  t:custodian="Information Technology"
- t:frequency_of_data_collection=Daily
- t:frequency_of_data_update=Daily
  t:system_purpose="Office suite of products (mail, spreadsheets, etc)"
  t:vendor_name=Microsoft
+ t:frequency_of_data_update=Daily
+ t:frequency_of_data_collection=Daily
  m:row_number.nrih-k5ag=1
 
 ```
@@ -18948,11 +18950,11 @@ series e:2cvx-33uz d:2013-01-23T10:22:26.000Z
 
 ```ls
 series e:5anj-6bnk d:1997-01-01T00:00:00.000Z
- t:population_stock_number=6884
  t:population_stock_name="Joseph Creek Summer Steelhead"
- m:wild=1251
+ t:population_stock_number=6884
  m:wild_hatchery=1251
  m:goal_wild=1000
+ m:wild=1251
 
 ```
 
@@ -19026,10 +19028,10 @@ series e:92xm-uf99 d:2012-11-30T00:00:00.000Z
 
 ```ls
 series e:yph5-vg2u d:2016-06-24T12:44:20.000Z
- t:account_link=https://www.facebook.com/atx311
- t:department=3-1-1
  t:account_platform=Facebook
+ t:account_link=https://www.facebook.com/atx311
  t:account_name="Austin 3-1-1"
+ t:department=3-1-1
  m:row_number.yph5-vg2u=1
 
 ```
@@ -19038,22 +19040,22 @@ series e:yph5-vg2u d:2016-06-24T12:44:20.000Z
 
 ```ls
 series e:s9zb-nuc6 d:2013-01-01T00:00:00.000Z
- t:title="ANIMAL CARE AIDE I"
  t:department_name="Animal Care and Control"
  t:employee_name="AGUILAR, ELMA M"
- m:jul_2013=864.58
+ t:title="ANIMAL CARE AIDE I"
+ m:jun_2013=182.02
+ m:feb_2013=-22.75
  m:jan_2013=887.34
  m:nov_2013=500.55
- m:may_2013=182.02
- m:dec_2013=333.62
- m:apr_2013=500.55
  m:aug_2013=1274.13
- m:feb_2013=-22.75
- m:oct_2013=0
- m:mar_2013=318.53
- m:grand_total=5763.83
- m:jun_2013=182.02
  m:sep_2013=743.24
+ m:jul_2013=864.58
+ m:oct_2013=0
+ m:dec_2013=333.62
+ m:may_2013=182.02
+ m:mar_2013=318.53
+ m:apr_2013=500.55
+ m:grand_total=5763.83
 
 ```
 
@@ -19271,37 +19273,37 @@ series e:99t6-wshd d:1990-01-01T00:00:00.000Z
  t:census_tract_by_year="5045 - 1990"
  t:neighborhood="Behind the Rocks"
  t:year_by_census_track="1990 - 5045"
- m:medianhouseholdincome=30969
- m:somecollegenodegreeper25plus=18
- m:blackorafricanamerican=786
+ m:population18_24=393
  m:other=910
- m:bachelorsdegreeper25plus=7
+ m:medianhouseholdincome=30969
+ m:rentervacancyrateper=77
  m:whitealoneper=49
- m:malepopulation=1601
- m:femalepopulationper=53
+ m:highschoolgraduateorequivalencyper25plus=29
+ m:femalepopulation=1814
+ m:femalehouseholderper=20
+ m:blackorafricanamericanper=23
+ m:population16yearsandoverinlaborforceper=72
+ m:homeownervacancyrateper=0
+ m:whitealone=1684
+ m:graduateorprofessionaldegreeper25plus=7
+ m:somecollegenodegreeper25plus=18
+ m:femalehouseholder=266
+ m:census_tract=5045
+ m:malepopulationper=47
+ m:blackorafricanamerican=786
+ m:population25andover=2144
+ m:unemployedper=4
  m:vacanthousingunits=81
  m:totalhouseholds=1308
- m:femalepopulation=1814
- m:population18_24=393
- m:census_tract=5045
- m:blackorafricanamericanper=23
- m:rentervacancyrateper=77
- m:highschoolgraduateorequivalencyper25plus=29
- m:population25andover=2144
- m:malepopulationper=47
+ m:allpeoplewhoseincomeinpast12monthsisbelowpovertylineper=13
+ m:highschoolgraduateorhigherper25plus=60
+ m:bachelorsdegreeper25plus=7
  m:employedper=68
  m:totalpopulation=3415
- m:otherper=27
- m:femalehouseholderper=20
- m:highschoolgraduateorhigherper25plus=60
- m:whitealone=1684
+ m:femalepopulationper=53
  m:precentbachelorsdegreeorhigherper25plus=14
- m:homeownervacancyrateper=0
- m:femalehouseholder=266
- m:allpeoplewhoseincomeinpast12monthsisbelowpovertylineper=13
- m:graduateorprofessionaldegreeper25plus=7
- m:population16yearsandoverinlaborforceper=72
- m:unemployedper=4
+ m:malepopulation=1601
+ m:otherper=27
 
 ```
 
@@ -20027,10 +20029,10 @@ series e:xtj2-daw9 d:2015-12-24T16:52:01.000Z
 [5neh-572f.md](../datasets/5neh-572f.md)
 
 ```ls
-series e:5neh-572f d:2001-01-01T08:00:00.000Z
- t:stationname="Austin-Forest Park"
+series e:5neh-572f d:2001-01-01T00:00:00.000Z
  t:daytype=U
  t:station_id=40010
+ t:stationname="Austin-Forest Park"
  m:rides=290
 
 ```
@@ -20041,9 +20043,9 @@ series e:5neh-572f d:2001-01-01T08:00:00.000Z
 series e:mcjf-t2vf d:2014-01-01T00:00:00.000Z
  t:parameter="5 Yr September Average"
  m:southwest=20
- m:northwest=27
- m:eastern=45
  m:centeral=49
+ m:eastern=45
+ m:northwest=27
 
 ```
 
@@ -20887,13 +20889,13 @@ series e:igkv-isiz d:2012-08-28T12:28:36.000Z
 ```ls
 series e:rpjd-ejph d:2015-12-27T00:00:00.000Z
  t:reporting_area="New England"
- m:all_causes_by_age_years_all_ages=600
- m:p_i_total=47
- m:all_causes_by_age_years_65=426
- m:all_causes_by_age_years_45_64=125
- m:all_causes_by_age_years_1_24=12
  m:all_causes_by_age_years_25_44=28
  m:all_causes_by_age_years_lt_1=9
+ m:all_causes_by_age_years_all_ages=600
+ m:all_causes_by_age_years_65=426
+ m:all_causes_by_age_years_1_24=12
+ m:p_i_total=47
+ m:all_causes_by_age_years_45_64=125
 
 ```
 
@@ -21034,20 +21036,20 @@ uisition and replacement of Heald College building on Howard Street with 62,000-
 [i97v-e8au.md](../datasets/i97v-e8au.md)
 
 ```ls
-series e:i97v-e8au d:2013-02-01T00:00:00.000Z
- t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)"
- t:capable_of_two_way_communication="Not Applicable"
- t:model_number=OVM084-BF*
- t:fuel_type=Oil
+series e:i97v-e8au d:2012-04-27T00:00:00.000Z
+ t:energy_star_model_identifier=ES_1102531_02012013151616_2923130
  t:markets="United States, Canada"
- t:energy_star_model_identifier=ES_1019658_06112013094056_5846454
+ t:meets_most_efficient_criteria=Yes
+ t:model_name="A97USMV Series"
  t:furnace_is_energy_star_certified_in=All
- t:meets_most_efficient_criteria=No
+ t:energy_star_partner="Allied Air Enterprises"
+ t:capable_of_two_way_communication=Other/Proprietary
+ t:brand_name="Armstrong/Air Ease"
+ t:model_number=A97USMV090C16S-*
+ t:fuel_type="Natural Gas"
  t:can_integrate_hot_water_heating=No
- t:brand_name=Bryant
- t:model_name=OVM084-BF
- t:pd_id=2182942
- m:efficiency_afue=85.1
+ t:pd_id=2171657
+ m:efficiency_afue=97
 
 ```
 
@@ -21103,19 +21105,19 @@ series e:ajpg-dges d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:3v6v-qk5s d:2016-10-01T00:00:00.000Z
- t:product_fda_list_name=ACYCLOVIR
- t:ndc=65162083596
  t:package_size=96
- t:state_code=FL
+ t:product_fda_list_name=ACYCLOVIR
  t:labeler_code=65162
- t:product_code=0835
- t:utilization_type=MCOU
  t:suppression_used=false
- m:medicaid_amount_reimbursed=180412.58
+ t:product_code=0835
+ t:ndc=65162083596
+ t:state_code=FL
+ t:utilization_type=MCOU
  m:total_amount_reimbursed=180412.58
- m:number_of_prescriptions=435
- m:units_reimbursed=13200
  m:non_medicaid_amount_reimbursed=0
+ m:units_reimbursed=13200
+ m:medicaid_amount_reimbursed=180412.58
+ m:number_of_prescriptions=435
 
 ```
 
@@ -21454,27 +21456,28 @@ series e:5wzj-8s9b d:2013-12-23T11:41:16.000Z
 
 ```ls
 series e:fwns-azgu d:2000-01-01T00:00:00.000Z
- t:topic="Coronary Heart Disease"
- t:indicator="Prevalence of coronary heart disease among US adults (18+) (Percentage); NHIS"
- t:locationdesc=Midwest
- t:locationabbr=MDW
- t:topicid=T4
+ t:indicator="Prevalence of major cardiovascular disease among US adults (18+); NHIS"
  t:priorityarea3=None
+ t:breakoutcategoryid=BOC01
  t:priorityarea4=None
- t:priorityarea1="Million Hearts"
+ t:priorityarea1=None
  t:priorityarea2=None
- t:break_out="Non-Hispanic White"
- t:categoryid=C1
- t:category="Cardiovascular Diseases"
- t:locationid=103
+ t:locationabbr=US
+ t:break_out=Overall
+ t:locationdesc="United States"
+ t:data_value_typeid=AgeStdz
+ t:topicid=T1
  t:indicatorid=NS001
- t:breakoutid=RAC01
- t:break_out_category=Race
- t:breakoutcategoryid=BOC04
+ t:break_out_category=Overall
  t:datasource=NHIS
- m:confidence_limit_low=3.3
- m:data_value=3.9
- m:confidence_limit_high=4.5
+ t:locationid=59
+ t:breakoutid=OVR01
+ t:topic="Major Cardiovascular Disease"
+ t:category="Cardiovascular Diseases"
+ t:categoryid=C1
+ m:data_value=7.1
+ m:confidence_limit_low=6.8
+ m:confidence_limit_high=7.4
 
 ```
 
@@ -21504,27 +21507,27 @@ these comments.  Due to staffing availability limits this , we will not have a c
 series e:qfs9-xn8t d:2005-01-01T00:00:00.000Z
  t:locationid=1
  t:typeoftime=Weekday
- t:location="Second Avenue at E7 St."
  t:locationtype=On-Street
- m:citibike_all=0
- m:non_citibikecyc=1027
- m:cycadjacentlane=15
- m:noncyc_otheruser=34
- m:cycsidewalk=51
+ t:location="Second Avenue at E7 St."
  m:cyclistvolume=1027
- m:malecyc_total=834
- m:citibike_male=0
- m:male_cyc_helmet=154
- m:cyc_under16=36
- m:cyccnterflowoutoflane=29
- m:cyclotherlane=247
- m:cyccounterflowinlane=99
- m:cycbikelane=586
- m:female_cyc_helmet=42
  m:cycl_helmet_all=196
- m:femalecyc_total=193
- m:totalusers=1061
+ m:cycbikelane=586
+ m:non_citibikecyc=1027
+ m:cyclotherlane=247
  m:citibike_female=0
+ m:cyc_under16=36
+ m:citibike_male=0
+ m:cyccnterflowoutoflane=29
+ m:malecyc_total=834
+ m:totalusers=1061
+ m:cycadjacentlane=15
+ m:cycsidewalk=51
+ m:citibike_all=0
+ m:noncyc_otheruser=34
+ m:femalecyc_total=193
+ m:female_cyc_helmet=42
+ m:male_cyc_helmet=154
+ m:cyccounterflowinlane=99
 
 ```
 
@@ -21727,8 +21730,8 @@ series e:vtqa-m4zn d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:pmbr-njwn d:2012-01-01T00:00:00.000Z
- t:expenditures=Expenditure
  t:agency=Transportation
+ t:expenditures=Expenditure
  m:encumbrances=108719118.34
 
 ```
@@ -22175,24 +22178,24 @@ series e:f4qc-fg29 d:2012-07-01T00:00:00.000Z
 
 ```ls
 series e:9nnw-c693 d:2016-08-01T00:00:00.000Z
- t:employer_id=16068
- t:report_number=25621
- t:filer_name="ADVOCATES INC*"
  t:employment_type=Direct
- t:employment_registration_id=18113
- t:filer_id=17329
- t:funding_source="ADVANCE AMERICA (THRU MULTISTATE)"
- t:employer_name="ADVANCE AMERICA (THRU MULTISTATE)"
- t:origin=FE
- t:type=Employer
  t:funding_source_id=16068
+ t:filer_id=17329
+ t:report_number=25621
+ t:funding_source="ADVANCE AMERICA (THRU MULTISTATE)"
+ t:origin=FE
+ t:employer_name="ADVANCE AMERICA (THRU MULTISTATE)"
+ t:employment_registration_id=18113
+ t:filer_name="ADVOCATES INC*"
+ t:type=Employer
+ t:employer_id=16068
  t:url=https://accesshub.pdc.wa.gov/node/25621
- m:compensation=1099.29
  m:political_ads=0
  m:other=0
- m:advertising=0
  m:contributions=0
  m:entertainment=0
+ m:compensation=1099.29
+ m:advertising=0
  m:personal_expenses=0
 
 ```
@@ -22356,13 +22359,13 @@ capital_has_one_qei=*
 
 ```ls
 series e:c774-azg6 d:2016-03-31T00:00:00.000Z
- t:client="ABBVIE, INC."
- t:person_lobbied="JERRY ""ICEMAN"" BUTLER"
- t:subject_matter="ORDINANCE (16-1983) ON “SAFE DISPOSAL OF PHARMACEUTICALS”"
- t:lobbyist="MATTHEW WILLIAMS"
- t:contact_nature="Phone Call"
- t:person_lobbied_title="COOK COUNTY COMMISSIONER, 3RD DISTRICT"
  t:lobbyist_firm_sole_proprietor="ABBVIE, INC."
+ t:person_lobbied="JERRY ""ICEMAN"" BUTLER"
+ t:contact_nature="Phone Call"
+ t:client="ABBVIE, INC."
+ t:subject_matter="ORDINANCE (16-1983) ON “SAFE DISPOSAL OF PHARMACEUTICALS”"
+ t:person_lobbied_title="COOK COUNTY COMMISSIONER, 3RD DISTRICT"
+ t:lobbyist="MATTHEW WILLIAMS"
  m:row_number.c774-azg6=1
 
 ```
@@ -22385,12 +22388,12 @@ series e:mq8q-3qtk d:2017-03-30T00:00:00.000Z
 
 ```ls
 series e:8qii-np8b d:2013-12-19T00:00:00.000Z
- t:status=Issued
- t:record_type="Residential New"
  t:permittype="Custom SFD"
+ t:record_id=B13-5120
  t:record_type_4level=Building/Residential/New/NA
  t:historystatus=Issued
- t:record_id=B13-5120
+ t:record_type="Residential New"
+ t:status=Issued
  m:housingunits=1
  m:sqrft=2309
 
@@ -22736,10 +22739,10 @@ series e:9hk7-xgkb d:2015-10-02T00:00:00.000Z
 
 ```ls
 series e:7f3h-pm6e d:2016-12-22T17:21:35.000Z
+ t:phase_step_name=Planning
+ t:phase_type=IMP
  t:phase_step_description="Identify the needs, scope and goals of the project."
  t:phase_step_number=1
- t:phase_type=IMP
- t:phase_step_name=Planning
  m:row_number.7f3h-pm6e=1
 
 ```
@@ -23762,31 +23765,31 @@ series e:hu2j-wciz d:2014-05-29T15:31:17.000Z
 
 ```ls
 series e:krb3-8st4 d:2000-01-01T00:00:00.000Z
- t:saep_version="September 21, 2016"
- t:educational_service_district_code=113
- t:unified_school_district_name="Aberdeen School District"
  t:percent_change_in_population_2000_to_2010=1.57%
+ t:saep_version="September 21, 2016"
  t:washington_school_district_code=14005
  t:unified_school_district_code=30
- m:numeric_change_in_population_2000_to_2010=314
+ t:educational_service_district_code=113
+ t:unified_school_district_name="Aberdeen School District"
+ m:estimated_total_population_2008=20480
+ m:estimated_total_population_2009=20430
+ m:estimated_total_population_2006=20537
  m:numeric_change_in_population_2010_to_2015=-196
  m:estimated_total_population_2007=20537
- m:estimated_total_population_2006=20537
- m:estimated_total_population_2009=20430
- m:estimated_total_population_2008=20480
- m:estimated_total_population_2016=20172
- m:estimated_total_population_2015=20229
- m:estimated_total_population_2001=20368
- m:estimated_total_population_2014=20317
+ m:numeric_change_in_population_2000_to_2010=314
  m:estimated_total_population_2000=20054
- m:estimated_total_population_2013=20323
- m:estimated_total_population_2003=20315
- m:estimated_total_population_2012=20364
- m:estimated_total_population_2002=20386
  m:estimated_total_population_2011=20341
- m:estimated_total_population_2005=20447
+ m:estimated_total_population_2001=20368
+ m:estimated_total_population_2012=20364
  m:estimated_total_population_2010=20368
  m:estimated_total_population_2004=20364
+ m:estimated_total_population_2015=20229
+ m:estimated_total_population_2005=20447
+ m:estimated_total_population_2016=20172
+ m:estimated_total_population_2002=20386
+ m:estimated_total_population_2013=20323
+ m:estimated_total_population_2003=20315
+ m:estimated_total_population_2014=20317
 
 ```
 
@@ -25257,9 +25260,9 @@ series e:9nr5-bsgm d:2009-01-01T00:00:00.000Z
 ```ls
 series e:v48g-wbhi d:2004-01-01T00:00:00.000Z
  m:percent_diverted=32.5
+ m:produced_statewide=2116724
  m:disposed_statewide=1427904
  m:diverted_statewide=688820
- m:produced_statewide=2116724
 
 ```
 
@@ -25852,11 +25855,11 @@ series e:gmb4-77ea d:2002-01-01T00:00:00.000Z
 
 ```ls
 series e:ebe6-dvsr d:2015-07-01T00:00:00.000Z
- t:recsubtype="Site Grading"
  t:measure=AvgNumDaysFirstPlanReviewNONRESIDENTIAL
- t:rescomm=Non-Residential
- t:type=monthly
  t:goaltype=NonResidentialOnlyFirstPlanReview
+ t:type=monthly
+ t:recsubtype="Site Grading"
+ t:rescomm=Non-Residential
  m:avgnumdays=18
  m:noofpermits=1
 
@@ -27316,15 +27319,22 @@ series e:zgvr-7yfd d:2011-09-29T13:21:41.000Z
 [mrxb-9w9v.md](../datasets/mrxb-9w9v.md)
 
 ```ls
-series e:mrxb-9w9v d:2011-09-01T14:00:46.000Z
- t:contact_number=718-599-2386
- t:program_type="Jobs & Internships, Youth Employment"
- t:borough_community=Brooklyn
- t:program="Summer Youth Employment"
- t:agency="Asociaciones Dominicanas, Inc."
- t:grade_level_age_group="14 to 21"
- t:site_name="Asociaciones Dominicanas, Inc - Vulnerable Youth"
- m:row_number.mrxb-9w9v=1
+series e:mrxb-9w9v d:2017-09-16T16:05:52.000Z
+ t:site_name="Afrikan Poetry Theatre"
+ t:program_type="Youth Employment, NDA Youth Employment"
+ t:agency="Afrikan Poetry Theatre"
+ t:borough_community=Queens
+ t:number_and_street_address="176-03 Jamaica Avenue"
+ t:postcode=11432
+ t:nta=Jamaica
+ t:program="Youth Employment"
+ t:grade_level_age_group=MS/HS
+ t:contact_number=718.523.3312
+ m:bin=4209975
+ m:community_board=12
+ m:bbl=4098120008
+ m:community_council=27
+ m:census_tract=468
 
 ```
 
@@ -27916,18 +27926,18 @@ series e:emvs-38e6 d:2017-01-01T00:00:00.000Z
 
 ```ls
 series e:q9df-sa9r d:2004-06-16T09:06:18.000Z
- t:stno=11918
  t:zip=20854
  t:license_no=203907
- t:applicationtype="AGRICULTURAL PRODUCERS CERTIF"
- t:product_sold=PRODUCE
- t:state=MD
- t:farm_name="LEWIS ORCHARD"
- t:stname="GLEN MILL"
  t:in_county=Y
  t:out_county=N
- t:suffix=RD
+ t:stno=11918
  t:city=POTOMAC
+ t:state=MD
+ t:suffix=RD
+ t:product_sold=PRODUCE
+ t:applicationtype="AGRICULTURAL PRODUCERS CERTIF"
+ t:farm_name="LEWIS ORCHARD"
+ t:stname="GLEN MILL"
  m:row_number.q9df-sa9r=1
 
 ```
@@ -29815,18 +29825,18 @@ series e:ydr8-5enu d:2017-03-22T14:27:14.000Z
 
 ```ls
 series e:c9gq-k8de d:2016-01-01T00:00:00.000Z
+ t:department_code=9200
+ t:activity_name="Field Services"
+ t:department_name="Animal Services"
+ t:program_name="Animal Services"
+ t:expense_code=5001
+ t:dept_rollup_name="Animal Services"
+ t:fund_name="General Fund"
+ t:activity_code=2FDS
  t:fund_code=1000
+ t:unit_name="Animal Protection"
  t:expense_name="Regular wages - full-time"
  t:program_code=2ANL
- t:program_name="Animal Services"
- t:dept_rollup_name="Animal Services"
- t:expense_code=5001
- t:activity_name="Field Services"
- t:activity_code=2FDS
- t:fund_name="General Fund"
- t:department_code=9200
- t:department_name="Animal Services"
- t:unit_name="Animal Protection"
  t:unit_code=2131
  m:dept_rollup=92
  m:proposed_budget=806489
@@ -29880,15 +29890,15 @@ series e:qew5-gawh d:2015-06-16T14:54:23.000Z
 
 ```ls
 series e:3pzs-2zsk d:2010-01-01T00:00:00.000Z
- t:county=Allegany
  t:contractor=Other
- t:solicitation="PON 2112"
  t:city=Other
+ t:solicitation="PON 2112"
+ t:county=Allegany
+ m:project_count_by_city=1
+ m:incentive_dollars=8050
  m:total_nameplate_kw=4.6
  m:project_cost=34440
- m:project_count_by_city=1
  m:expected_kwh_annual_production=5399.66
- m:incentive_dollars=8050
 
 ```
 
@@ -30244,8 +30254,8 @@ series e:fy8b-xsh8 d:2015-02-18T00:00:00.000Z
 
 ```ls
 series e:ukf5-i76d d:2005-01-01T00:00:00.000Z
- t:emissions=SO2
  t:location=Decker
+ t:emissions=SO2
  m:emissions_metric_tonnes=3
 
 ```
@@ -30569,8 +30579,8 @@ series e:8856-65e9 d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:mx3v-b8nn d:2013-01-01T00:00:00.000Z
- t:8_15_p_m="8:15 p.m."
  t:tuesday_aug_6="Tuesday, Aug. 6"
+ t:8_15_p_m="8:15 p.m."
  t:election_day_results_posted_to_the_web="Election day results posted to the web."
  m:row_number.mx3v-b8nn=1
 
@@ -31301,9 +31311,9 @@ series e:pef7-bzkf d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:d84z-5kap d:2012-11-26T00:00:00.000Z
+ t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)"
  t:link_to_pdf_file=http://www.nyc.gov/html/law/downloads/pdf/Friedlander%20Jeff%20Newspaper%20Article%2011-
 26-12.pdf
- t:columns_title="Municipal Law - Preserving New York City's Finances 11/26/12 (in PDF)"
  m:row_number.d84z-5kap=1
 
 ```
@@ -31412,8 +31422,8 @@ series e:grbs-nm2g d:2011-09-30T12:32:41.000Z
 
 ```ls
 series e:4e8h-wu86 d:2006-01-01T00:00:00.000Z
- t:borough=Bronx
  t:early_discharge_request_status="New Requests"
+ t:borough=Bronx
  m:early_discharge_count=140
 
 ```
@@ -31799,57 +31809,57 @@ series e:cqra-s74n d:2015-07-24T13:59:05.000Z
 ```ls
 series e:mdsf-2nsf d:2014-01-01T00:00:00.000Z
  t:school_low_grade=District
- t:district_code=10011
- t:school_orgtype=District
- t:category=DistrictTot
  t:district_name="Andover School District"
- t:school_name=District_0000000
  t:school_code=0
- m:ind1sci_all_possiblepoints=100
- m:ind3ela_hn_rate=100
- m:ind4hnrate=3.7
- m:threshold_mean_ela=17.3
- m:ind1_math_nhn_rate=75
- m:ind1math_all_rate=76.4
- m:ind1math_all_possiblepoints=100
- m:threshold_mean_sci=17.2
- m:threshold_mean_math=19.6
- m:ind1sci_all_rate=64
- m:ind4hnpossiblepoints=50
- m:ind11participationrate=97.6
- m:ind3ela_all_rate=98.8
- m:ind1_ela_hn_rate=74.4
- m:ind11possiblepoints=50
- m:ind4points=50
- m:total_points=618.9
- m:ind1sci_hn_possiblepoints=0
- m:ind1math_hn_rate=67.2
- m:ind11points=44.7
- m:ind4possiblepoints=50
- m:ind1mathgap=7.8
- m:ind1math_hn_possiblepoints=100
- m:total_possible_points=650
- m:ind1sci_nhn_rate=71.1
- m:ind4rate=1.2
- m:ind1_ela_nhn_rate=75
- m:ind1math_all_points=100
- m:ind3math_all_rate=98.8
- m:ind1math_hn_points=89.6
- m:ind3sci_all_rate=100
- m:ind1_ela_all_rate=82.9
- m:ind3partrateflag=0
- m:ind11fitnessrate=67.1
- m:ind4hnpoints=50
- m:of_distinctions=0
- m:achievement_gap_flag=0
- m:accountability_index=95.2
- m:ind1_ela_hn_points=99.2
+ t:school_orgtype=District
+ t:district_code=10011
+ t:school_name=District_0000000
+ t:category=DistrictTot
  m:ind1_ela_all_possiblepoints=100
- m:ind1elagap=0.6
- m:ind1sci_all_points=85.4
+ m:ind1sci_hn_possiblepoints=0
  m:ind1ela_hn_possiblepoints=100
+ m:ind1math_hn_points=89.6
+ m:ind3math_all_rate=98.8
  m:ind3math_hn_rate=100
+ m:achievement_gap_flag=0
+ m:ind1math_all_rate=76.4
+ m:total_points=618.9
+ m:ind1math_hn_possiblepoints=100
+ m:ind11points=44.7
+ m:ind1mathgap=7.8
+ m:ind3partrateflag=0
+ m:of_distinctions=0
+ m:ind1sci_all_rate=64
+ m:ind3sci_all_rate=100
+ m:ind4hnpoints=50
+ m:ind11participationrate=97.6
+ m:ind11possiblepoints=50
+ m:ind1math_hn_rate=67.2
+ m:ind4possiblepoints=50
+ m:ind1_ela_hn_points=99.2
+ m:ind11fitnessrate=67.1
+ m:accountability_index=95.2
+ m:ind4hnpossiblepoints=50
+ m:ind3ela_hn_rate=100
+ m:ind1math_all_points=100
+ m:ind3ela_all_rate=98.8
+ m:ind1_ela_nhn_rate=75
+ m:ind1sci_all_possiblepoints=100
+ m:ind4hnrate=3.7
+ m:ind1_ela_hn_rate=74.4
+ m:ind1sci_nhn_rate=71.1
+ m:ind1elagap=0.6
+ m:ind4rate=1.2
+ m:ind1_ela_all_rate=82.9
+ m:ind1_math_nhn_rate=75
+ m:threshold_mean_math=19.6
+ m:ind1math_all_possiblepoints=100
  m:ind1_ela_all_points=100
+ m:ind4points=50
+ m:threshold_mean_ela=17.3
+ m:total_possible_points=650
+ m:ind1sci_all_points=85.4
+ m:threshold_mean_sci=17.2
 
 ```
 
@@ -32254,23 +32264,23 @@ series e:8e3m-6y2b d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:wzpb-uqdj d:2015-08-06T00:00:00.000Z
- t:region=Other
  t:office=Other
+ t:region=Other
  t:demographic=BLACK
- m:independent_living=0
- m:dcf_solnit=1
- m:dcf_highmeadows=0
- m:residential=45
- m:sfy_entry=2005
+ m:therapeutic_foster_care=0
  m:special_study=0
+ m:shelter=0
  m:dcf_cjts=23
+ m:independent_living=0
+ m:residential=45
  m:group_home=1
  m:relative_care=2
- m:shelter=0
+ m:dcf_solnit=1
  m:pdc_safe_home=2
- m:foster_care=3
- m:therapeutic_foster_care=0
+ m:dcf_highmeadows=0
  m:hospital=0
+ m:foster_care=3
+ m:sfy_entry=2005
  m:total_entries=77
 
 ```
@@ -33227,18 +33237,18 @@ series e:v2ei-xfce d:2013-05-14T00:00:00.000Z
 
 ```ls
 series e:5hpa-8dfv d:2015-02-27T18:18:39.000Z
- t:facility_n="North Cane Street"
  t:editor=holisgis
  t:jurisdicti=County
- t:source="State Bike Plan"
- t:dp_area="Central Oahu"
- t:objectid_1=1
+ t:creator=holisgis
  t:facility_t=Lane
  t:facility_d="Kilani Avenue to California Avenue"
- t:corridor_t=Mauka-Makai
+ t:dp_area="Central Oahu"
+ t:source="State Bike Plan"
+ t:objectid_1=1
  t:townl=Wahiawa
  t:neighborl=WAHIAWA
- t:creator=holisgis
+ t:corridor_t=Mauka-Makai
+ t:facility_n="North Cane Street"
  m:length_mi=0.127023639188527
 
 ```
@@ -34201,17 +34211,17 @@ series e:ftxf-ex85 d:1998-07-01T00:00:00.000Z
 
 ```ls
 series e:q7ra-ebu4 d:2015-08-31T11:20:57.000Z
+ t:district_of_building=16
  t:building_name="P.S. 5 - BROOKLYN"
- t:borough_of_building=Brooklyn
+ t:school_code=K005
  t:final_uu_2015_designation=300+
  t:school_name="P.S. 005 Dr. Ronald Mcnair"
- t:building_level=PS
- t:district_of_building=16
- t:school_code=K005
- t:school_year=2014-15
  t:building_code=K005
- m:building_capacity_based_on_2013_2014_blue_book=712
+ t:school_year=2014-15
+ t:borough_of_building=Brooklyn
+ t:building_level=PS
  m:building_enrollment_based_on_2013_2014_blue_book=412
+ m:building_capacity_based_on_2013_2014_blue_book=712
 
 ```
 
@@ -34343,31 +34353,31 @@ series e:qf8m-dzta d:2014-05-30T10:59:41.000Z
 [59dq-uw25.md](../datasets/59dq-uw25.md)
 
 ```ls
-series e:59dq-uw25 d:2014-10-01T00:00:00.000Z
- t:markets="United States, Canada"
- t:product_type="Vertical Solid Door Refrigerator"
- t:product_description="Bottle Cooler"
- t:model_name="Commercial Refrigerator"
- t:brand_name="Arctic Air"
- t:door_opening_orientation_hinged_sliding=Hinged
- t:pd_id=2286988
- t:energy_star_partner="Broich Enterprises, Inc."
- t:refrigerant_type=R-134a
- t:model_number=AR23E
+series e:59dq-uw25 d:2014-10-08T00:00:00.000Z
  t:product_orientation_vertical_chest=Vertical
- t:energy_star_model_identifier="ES_1105798_SHANDONG HONGTAI ELECTRICAL APPLIANCE CO LTD (462997) | AR23E_10
-082012183709_1429935"
+ t:additional_model_information=F49-S,F49-S,
+ t:brand_name=Blue-air
+ t:refrigerant_type=R-404A
+ t:energy_star_model_identifier=ES_1062560_F49-S_03242017061121_5881650
+ t:markets="United States, Canada"
+ t:product_type="Vertical Solid Door Freezer"
+ t:model_name=BASF2
+ t:energy_star_partner="Blue Air Commercial Refrigeration, Inc"
  t:defrost_type=Automatic
- m:depth_in=32.68
- m:mixed_door_cabinet_glass_door_volume_cu_ft=0
- m:mixed_door_cabinet_solid_door_volume_cu_ft=17.7
- m:width_in=26.77
+ t:model_number=F49-S
+ t:product_description=Reach-in
+ t:door_opening_orientation_hinged_sliding=Hinged
+ t:pd_id=2292917
+ m:number_of_doors=2
+ m:total_volume_cu_ft=42.24
+ m:energy_use_daily_energy_consumption_kwh_day=7.79
  m:number_of_glass_doors=0
- m:height_in=82.68
- m:total_volume_cu_ft=17.7
- m:number_of_solid_doors=1
- m:energy_use_daily_energy_consumption_kwh_day=1.35
- m:number_of_doors=1
+ m:mixed_door_cabinet_glass_door_volume_cu_ft=0
+ m:height_in=83.8
+ m:number_of_solid_doors=2
+ m:depth_in=31.3
+ m:width_in=55.3
+ m:mixed_door_cabinet_solid_door_volume_cu_ft=42.24
 
 ```
 
@@ -34699,17 +34709,17 @@ series e:prxf-ppu5 d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:8xef-4m72 d:2013-01-01T00:00:00.000Z
- t:description="New Orleans Coroner Complex"
- t:department="CAO-CAPITAL PROJECTS"
  t:number=2285-01389
  t:notes=Validated
+ t:description="New Orleans Coroner Complex"
  t:type=Bid
+ t:department="CAO-CAPITAL PROJECTS"
  t:rowid=2
- m:estimated_contract_value=11116000
- m:dbe_award_value=1667400
- m:validate_days=19
- m:dbe_goal_percent=0.15
  m:non_dbe_award_value=9448600
+ m:estimated_contract_value=11116000
+ m:validate_days=19
+ m:dbe_award_value=1667400
+ m:dbe_goal_percent=0.15
 
 ```
 
@@ -35804,21 +35814,21 @@ series e:ju3b-rwpy d:2015-10-05T00:00:00.000Z
 ```ls
 series e:cpva-49fs d:2012-01-01T00:00:00.000Z
  t:zip=60625
- t:location="Albany Park"
  t:city=CHICAGO
- m:december=0
- m:march=230
+ t:location="Albany Park"
  m:november=0
  m:may=195
- m:february=224
- m:april=239
- m:june=197
- m:ytd=1719
- m:january=198
  m:august=137
+ m:february=224
+ m:ytd=1719
  m:july=254
- m:october=1
+ m:april=239
+ m:march=230
+ m:june=197
  m:september=44
+ m:january=198
+ m:december=0
+ m:october=1
 
 ```
 
@@ -36816,11 +36826,11 @@ series e:c9ab-sb5q d:2012-04-12T00:00:00.000Z
 series e:4n3a-en4b d:2009-05-15T00:00:00.000Z
  t:facility_city=FREEPORT
  t:permit_id=1-2820-00358/00002
- t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf
- t:facility_name="FREEPORT POWER PLANT #2"
- t:facility_zip=11520
  t:facility_location="289 BUFFALO AVE"
  t:facility_state=NY
+ t:url_to_permit_text=http://www.dec.ny.gov/dardata/boss/afs/permits/128200035800002_r1.pdf
+ t:facility_zip=11520
+ t:facility_name="FREEPORT POWER PLANT #2"
  m:row_number.4n3a-en4b=1
 
 ```
@@ -37139,18 +37149,18 @@ series e:5qsu-6n7j d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:b6tj-gt35 d:2017-03-15T15:48:02.000Z
+ t:cross_street_2=END
+ t:cross_street_1="02ND ST"
+ t:agent="21ST AMENDMENT"
  t:permit_number=17TC-0237
- t:permit_zipcode=94107
- t:permit_type=TableChair
+ t:streetname="DE BOOM ST"
  t:agentphone="(415) 369-0900"
- t:status=APPROVED
+ t:contact="Refer to Agent"
  t:permit_purpose="TEN (10) TABLES AND THIRTY EIGHT (38) CHAIRS ARE AT DE BOOM ALLEY11:00 AM to 10:00 PM -  
 Monday through Sunday"
- t:contact="Refer to Agent"
- t:agent="21ST AMENDMENT"
- t:cross_street_2=END
- t:streetname="DE BOOM ST"
- t:cross_street_1="02ND ST"
+ t:permit_type=TableChair
+ t:permit_zipcode=94107
+ t:status=APPROVED
  m:cnn=4624000
 
 ```
@@ -37257,17 +37267,17 @@ series e:bkbb-h3r6 d:2015-01-01T00:00:00.000Z
 [qrkr-kfbh.md](../datasets/qrkr-kfbh.md)
 
 ```ls
-series e:qrkr-kfbh d:2017-05-08T16:45:36.000Z
- t:fiscal_year="2016-17 Adopted Budget"
- t:fund_name="General Fund"
- t:fund_code=100
- t:program_code=7001
- t:program_name="Field Forces"
- t:dept_code=70
- t:account_code=4595
- t:department_name=Police
- t:account_name="Service To Airports"
- m:revenue=10374958
+series e:qrkr-kfbh d:2017-08-04T18:35:07.000Z
+ t:dept_code=10
+ t:program_code="Budget Formulation and Control"
+ t:fiscal_year=2014_15_actuals
+ t:department_name="City Administrative Officer"
+ t:account_name=1.01001E+12
+ t:account_code="Contribution Fr La Marathon"
+ t:fund_code="General Fund"
+ m:revenue=434622
+ m:program_name=100
+ m:fund_name=5104
 
 ```
 
@@ -37372,15 +37382,22 @@ series e:bew5-k5dr d:2016-01-02T00:00:00.000Z
 [36hn-wea6.md](../datasets/36hn-wea6.md)
 
 ```ls
-series e:36hn-wea6 d:2011-09-01T13:39:35.000Z
- t:contact_number="212.478.5400 ext. 210"
+series e:36hn-wea6 d:2017-09-14T19:36:00.000Z
+ t:site_name="Brooklyn Job Corps Academy"
  t:program_type="Jobs & Internships"
- t:borough_community="New York"
+ t:agency="Arbor Employment and Training"
+ t:borough_community=Brooklyn
+ t:postcode=11205
+ t:nta=Bedford
  t:program="Out-of-School Youth Employment (OSY)"
- t:agency="Henry Street Settlement"
  t:grade_level_age_group="16 to 21"
- t:site_name="Henry Street Settlement Workforce Development Center"
- m:row_number.36hn-wea6=1
+ t:number_and_street=Brooklyn
+ t:contact_number=718.623.4031
+ m:bin=3049016
+ m:community_board=3
+ m:bbl=3017640001
+ m:community_council=33
+ m:census_tract=241
 
 ```
 
@@ -37568,8 +37585,8 @@ series e:8bmh-pbvm d:2010-08-10T00:00:00.000Z
 
 ```ls
 series e:bu7x-2xx6 d:2011-12-16T11:48:25.000Z
- t:phone=206-205-7330
  t:hours="Mon-Fri: 9:30am-5pm"
+ t:phone=206-205-7330
  t:name="Maleng Regional Justice Center (Kent)"
  m:row_number.bu7x-2xx6=1
 
@@ -37822,13 +37839,13 @@ series e:vrn4-2abs d:2008-01-01T00:00:00.000Z
 
 ```ls
 series e:843n-d2np d:2014-02-20T15:48:52.000Z
- t:available_to_the_public=Public
  t:station_name="Community College of Baltimore County (CCBC)"
- t:program="Electric Vehicle Infrastructure Program (EVIP)"
  t:zipcode=21228
- t:state=MD
  t:program_link=http://energy.maryland.gov/Transportation/electric.html
  t:city=Catonsville
+ t:program="Electric Vehicle Infrastructure Program (EVIP)"
+ t:state=MD
+ t:available_to_the_public=Public
  m:mea_contribution=12796.3
 
 ```
@@ -37856,16 +37873,17 @@ series e:b6ht-fw3x d:2000-10-18T02:10:55.000Z
 [tvpp-9vvx.md](../datasets/tvpp-9vvx.md)
 
 ```ls
-series e:tvpp-9vvx d:2017-06-08T10:00:00.000Z
- t:event_borough=Manhattan
- t:event_type="Special Event"
+series e:tvpp-9vvx d:2017-10-14T00:00:00.000Z
  t:event_agency="Parks Department"
- t:event_id=317055
- t:event_location="Riverside Park South: Locomotive Picnic Area"
+ t:event_borough=Manhattan
+ t:event_id=317411
+ t:event_type="Special Event"
+ t:police_precinct="20, 24,"
+ t:event_location="Riverside Park: Promenade Lower - 79th-95th Streets ,Riverside Park: Promenade 100th-110t
+h Street-RSP"
+ t:community_board="7, 9,"
+ t:event_name="CaringKind Alzheimer's Walk"
  t:street_closure_type=N/A
- t:community_board=7,
- t:event_name="Locomotive Lawn Live"
- t:police_precinct=20,
  m:row_number.tvpp-9vvx=1
 
 ```
@@ -38026,21 +38044,21 @@ series e:78y7-gx22 d:2003-02-04T00:00:00.000Z
 [gi8d-wdg5.md](../datasets/gi8d-wdg5.md)
 
 ```ls
-series e:gi8d-wdg5 d:2015-02-25T20:14:18.000Z
+series e:gi8d-wdg5 d:2015-01-14T19:49:40.000Z
  t:store_and_fwd_flag=N
- t:ratecodeid=1
- t:vendorid=2
- t:trip_type=1
  t:payment_type=2
- m:fare_amount=4.5
- m:total_amount=5.8
- m:mta_tax=0.5
+ t:trip_type=1
+ t:ratecodeid=1
+ t:vendorid=1
+ m:fare_amount=5
+ m:total_amount=6.8
+ m:extra=1
  m:passenger_count=1
- m:extra=0.5
- m:tolls_amount=0
- m:trip_distance=0.61
- m:improvement_surcharge=0.3
  m:tip_amount=0
+ m:tolls_amount=0
+ m:mta_tax=0.5
+ m:improvement_surcharge=0.3
+ m:trip_distance=0.9
 
 ```
 
@@ -38048,30 +38066,30 @@ series e:gi8d-wdg5 d:2015-02-25T20:14:18.000Z
 
 ```ls
 series e:b2pc-2s8n d:2016-07-15T00:00:00.000Z
- t:filer_city="Austin, TX, 78729"
- t:filer_name="Flannigan, James T. ""Jimmy"""
- t:link_to_report="http://www.austintexas.gov/edims/document.cfm?id=258182"
- t:treasurer_name="Landuyt, Noel"
- t:office_sought="District 6"
- t:election_type=General
- t:report_type="July 15 Seminannual Report"
- t:treasurer_phone=5127738437
  t:treasurer_city="Austin, TX, 78717"
  t:form_type="C/OH - Candidate/Officeholder Campaign Finance Report"
- t:name_as_reported="James, Flannigan, T., ""Jimmy"""
+ t:treasurer_name="Landuyt, Noel"
+ t:filer_name="Flannigan, James T. ""Jimmy"""
+ t:report_type="July 15 Seminannual Report"
+ t:filer_city="Austin, TX, 78729"
+ t:link_to_report="http://www.austintexas.gov/edims/document.cfm?id=258182"
  t:report_id=R20160715180436
  t:filer_phone=5129178428
+ t:name_as_reported="James, Flannigan, T., ""Jimmy"""
+ t:office_sought="District 6"
+ t:election_type=General
+ t:treasurer_phone=5127738437
+ m:unitemized_cred_card_total=0
+ m:unitemized_unpaid_total=0
+ m:outstand_loan=0
  m:unitemized_inkind_total=0
+ m:unitemized_loan_total=0
+ m:contrib_balance=20487.21
+ m:contrib_total=46951.54
  m:unitemized_pledge_total=0
  m:unitemized_expend_total=0
  m:unitemized_contrib_total=0
  m:expend_total=12209.9
- m:unitemized_unpaid_total=0
- m:unitemized_loan_total=0
- m:contrib_balance=20487.21
- m:contrib_total=46951.54
- m:outstand_loan=0
- m:unitemized_cred_card_total=0
 
 ```
 
@@ -38154,14 +38172,14 @@ series e:cxu4-yemb d:2014-01-01T00:00:00.000Z
 
 ```ls
 series e:acvd-5wvz d:2009-02-01T00:00:00.000Z
- t:energy_star_partner="Bard Manufacturing Company, Inc."
- t:model_number=GV71S1
- t:markets="United States, Canada"
  t:energy_star_model_identifier=ES_1076358_3272135_06062012104352_7425177
+ t:markets="United States, Canada"
  t:product_type="Closed Loop Water-to-Air"
  t:meets_most_efficient_criteria=No
  t:model_name=GeoTec
+ t:energy_star_partner="Bard Manufacturing Company, Inc."
  t:brand_name=Bard
+ t:model_number=GV71S1
  t:pd_id=1738857
  m:cop_rating=3.8
  m:eer_rating=17.3
@@ -38368,16 +38386,16 @@ t research, develop web and mobile applications, design data visualizations, and
 
 ```ls
 series e:xmkr-kpjb d:2002-01-01T00:00:00.000Z
- t:levy_authority_2=ADAIR
- t:levy_authority_1=01
  t:county_fip=19001
  t:type=COUNTY
+ t:levy_authority_2=ADAIR
  t:county_name=ADAIR
+ t:levy_authority_1=01
+ m:urban_rate=4.36725
+ m:tif_rate_urban=4.36725
  m:tif_rate_rural=7.99067
  m:debt_rate=0
- m:tif_rate_urban=4.36725
  m:rural_rate=7.99067
- m:urban_rate=4.36725
 
 ```
 
@@ -38546,9 +38564,9 @@ series e:y63e-f8gg d:1972-01-01T00:00:00.000Z
 
 ```ls
 series e:na74-jvan d:2011-01-01T00:00:00.000Z
- t:vendor_zip=21802
  t:agency_name="DHMH-GENERAL ACCOUNTING"
  t:vendor_name="PROCOAT, INC."
+ t:vendor_zip=21802
  m:amount=2390
 
 ```
@@ -38849,121 +38867,121 @@ series e:n9bu-8eic d:2006-01-01T00:00:00.000Z
 
 ```ls
 series e:cmqi-svw5 d:2003-07-01T00:00:00.000Z
- t:physcity=JUNEAU
- t:mailcity=JUNEAU
- t:asf_lc=N
- t:mail_st=AK
- t:pub_fips=2
- t:obereg=8
- t:asf_ac=Y
- t:physaddr="333 WILLOUGHBY AVENUE"
- t:phys_st=AK
- t:mailzip=99811
- t:mailzip4=571
- t:asf_pub=Y
  t:mailaddr="P.O. BOX 110571"
- t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
- t:physzip4=571
- t:asf_sch=N
- t:webaddr=WWW.LIBRARY.STATE.AK.US
  t:asf_sp=Y
- t:rstatus=1
- t:physzip=99811
+ t:asf_ac=Y
  t:fiothsp="FUND FOR THE IMPROVEMENT OF POST SECONDARY EDUCATION (FIPSE) (HIGHER EDUCATION ACT OF 1965, TITL
 E VII)"
- m:capitalc=0
- m:capitalb=0
- m:capitala=0
- m:totaidb=879957
- m:siother=221300
- m:totaida=623360
- m:aidsala=530719
- m:capitald=0
- m:totox_ao=0
- m:admexpt=0
- m:swexpt=0
- m:admexpu=0
+ t:asf_lc=N
+ t:asf_sch=N
+ t:pub_fips=2
+ t:physaddr="333 WILLOUGHBY AVENUE"
+ t:mailcity=JUNEAU
+ t:mailzip=99811
+ t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
+ t:mail_st=AK
+ t:rstatus=1
+ t:physcity=JUNEAU
+ t:webaddr=WWW.LIBRARY.STATE.AK.US
+ t:physzip4=571
+ t:asf_pub=Y
+ t:obereg=8
+ t:mailzip4=571
+ t:phys_st=AK
+ t:physzip=99811
+ m:aidipld=784971
+ m:aidiplc=0
+ m:aidiplb=692330
+ m:aidipla=92641
+ m:oexpsald=1427264
+ m:oexpsala=17456
+ m:siaidlib=891400
+ m:oexpsalc=0
+ m:oexpsalb=1409808
+ m:totexpd=4533494
  m:oexpbenb=523084
+ m:aidoild=0
  m:oexpbena=6456
+ m:siother=221300
+ m:capitald=0
  m:oexpbend=529540
+ m:aidoilb=0
  m:oexpbenc=0
- m:netacxu=113421
- m:totincm=4450807
- m:othincm=74420
- m:aidlcd=0
- m:aidlcc=0
+ m:aidoilc=0
+ m:capitala=0
+ m:aidoila=0
+ m:aidplsd=0
+ m:capitalc=0
+ m:aidplsc=0
+ m:capitalb=0
+ m:aidplsb=0
+ m:aidplsa=0
  m:totexpu=623360
  m:totexpt=623360
- m:allopstf=0
- m:fioth=26412
- m:aidlca=0
- m:aidlcb=0
- m:totexpd=4533494
- m:allopcap=0
- m:totexpa=649772
- m:totexpc=74420
- m:totexpb=3809302
- m:othexpao=0
+ m:aidsalb=187627
+ m:aidsalc=0
+ m:aidsald=718346
+ m:swexpt=0
+ m:oexpcold=236770
+ m:othexpd=0
+ m:othexpc=0
+ m:oexpcolb=236770
+ m:othexpb=0
+ m:oexpcolc=0
+ m:othexpa=0
+ m:totox_ao=0
  m:sistlaop=2619200
- m:aidmlsa=0
+ m:allopstf=0
+ m:allopoth=0
+ m:admexpt=0
+ m:totaidb=879957
+ m:admexpu=0
+ m:totaida=623360
  m:popu_st=655435
- m:aidmlsc=0
- m:aidmlsb=0
+ m:oexpcola=0
+ m:othincm=74420
  m:totoxstc=0
- m:totexpao=0
+ m:aidothc=0
  m:totoxstd=1956804
- m:aidmlsd=0
+ m:aidothd=0
+ m:lstainc=618075
+ m:aidotha=0
+ m:aidothb=0
+ m:totexpao=0
  m:totopexc=74420
+ m:total_fi=644487
  m:totopexd=3030177
  m:totopexa=26412
- m:aidothd=0
  m:totopexb=2929345
- m:aidothc=0
- m:aidothb=0
- m:oexpothc=74420
- m:total_fi=644487
- m:aidotha=0
- m:oexpothd=836603
- m:oexpotha=2500
- m:oexpothb=759683
- m:aidplsc=0
- m:aidplsd=0
- m:total_si=3731900
- m:totoxstb=1932892
- m:totoxsta=23912
- m:serpovxu=0
- m:oexpcold=236770
- m:lstainc=618075
- m:grexpt=623360
- m:oexpcolb=236770
- m:aidplsa=0
- m:allopoth=0
- m:oexpcolc=0
- m:aidplsb=0
- m:oexpcola=0
- m:aidiplc=0
- m:othexpd=0
- m:oexpsalb=1409808
- m:serdifxu=509939
- m:siaidlib=891400
- m:aidipld=784971
- m:oexpsalc=0
- m:aidipla=92641
- m:othexpb=0
- m:aidiplb=692330
- m:othexpc=0
- m:aidoila=0
- m:oexpsala=17456
  m:totaidd=1503317
- m:aidsald=718346
- m:aidoilb=0
  m:totaidc=0
- m:aidoilc=0
- m:aidsalb=187627
- m:aidoild=0
- m:oexpsald=1427264
- m:aidsalc=0
- m:othexpa=0
+ m:fioth=26412
+ m:serpovxu=0
+ m:grexpt=623360
+ m:allopcap=0
+ m:aidsala=530719
+ m:total_si=3731900
+ m:serdifxu=509939
+ m:netacxu=113421
+ m:aidlcc=0
+ m:aidlcd=0
+ m:totexpc=74420
+ m:aidmlsd=0
+ m:totexpb=3809302
+ m:aidlca=0
+ m:totexpa=649772
+ m:aidlcb=0
+ m:oexpothd=836603
+ m:aidmlsa=0
+ m:oexpothc=74420
+ m:oexpothb=759683
+ m:aidmlsc=0
+ m:oexpotha=2500
+ m:aidmlsb=0
+ m:totincm=4450807
+ m:totoxsta=23912
+ m:othexpao=0
+ m:totoxstb=1932892
 
 ```
 
@@ -39182,10 +39200,10 @@ series e:jjf7-k22c d:2014-01-01T00:00:00.000Z
 
 ```ls
 series e:n9tp-i3k3 d:2014-07-01T13:21:12.000Z
- t:phone_number="(860) 249-9625"
- t:location="500 ALBANY AV"
- t:description="Community Health Services, Inc."
  t:name="Community Health Services, Inc."
+ t:description="Community Health Services, Inc."
+ t:location="500 ALBANY AV"
+ t:phone_number="(860) 249-9625"
  m:row_number.n9tp-i3k3=1
 
 ```
@@ -39681,26 +39699,26 @@ series e:tmp8-b5cn d:2010-07-01T00:00:00.000Z
 ```ls
 series e:tyyj-jgv5 d:2006-01-01T00:00:00.000Z
  t:district_code=01
- t:month_code=1
  t:district=Albany
- m:fa_finance=10
- m:fa_comp_other=79
- m:sna_comp_employ=20
- m:ta_comp_employ=25
- m:fa_comp_employ=5
- m:fa_client_req=2
+ t:month_code=1
  m:ta_finance=16
- m:sna_client_req=0
- m:fa_residence=9
- m:sna_finance=6
- m:ta_residence=28
- m:ta_client_req=2
- m:fa_other=5
- m:sna_residence=19
- m:sna_other=30
- m:ta_other=35
  m:sna_comp_other=176
+ m:fa_comp_employ=5
+ m:fa_residence=9
+ m:ta_other=35
+ m:sna_finance=6
+ m:fa_other=5
+ m:ta_comp_employ=25
+ m:fa_client_req=2
+ m:fa_finance=10
+ m:sna_client_req=0
+ m:ta_residence=28
+ m:sna_comp_employ=20
+ m:sna_residence=19
  m:ta_comp_other=255
+ m:fa_comp_other=79
+ m:ta_client_req=2
+ m:sna_other=30
 
 ```
 
@@ -39993,12 +40011,12 @@ series e:mdcw-n682 d:2017-04-20T20:00:25.000Z
 
 ```ls
 series e:utc6-v4cn d:2011-12-31T00:00:00.000Z
- t:authority_name="ATC of Buffalo and Erie County, Inc."
  t:type_of_debt="Authority Debt - Other"
  t:debt_program="Other Non-State Funded"
+ t:authority_name="ATC of Buffalo and Erie County, Inc."
+ m:amount_retired=4588557
  m:end_amount_total=0
  m:begin_amount_total=4588557
- m:amount_retired=4588557
  m:new_debt_issuance=0
 
 ```
@@ -41290,13 +41308,13 @@ series e:78tb-4u7r d:2012-01-01T00:00:00.000Z
 [f5dd-pqys.md](../datasets/f5dd-pqys.md)
 
 ```ls
-series e:f5dd-pqys d:2016-12-09T19:44:00.000Z
- t:kilonbr=LHP161209000575
- t:status=U
- t:cmid=Honolulu_PD_HI_LHP161209000575_060
+series e:f5dd-pqys d:2017-03-31T09:55:00.000Z
+ t:kilonbr=LHP170330001881
  t:cmagency="Honolulu PD, HI"
- t:type=THEFT/LARCENY
- t:objectid=776818
+ t:cmid=Honolulu_PD_HI_LHP170330001881_210
+ t:type=DUI
+ t:objectid=839775
+ t:status=U
  m:score=0
 
 ```
@@ -41560,12 +41578,12 @@ series e:hrir-ejvj d:2012-10-30T00:00:00.000Z
 
 ```ls
 series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z
- t:region=2
- t:facility_url=http://nysparks.com/parks/136/details.aspx
+ t:state_park_facility="Allegany State Park"
  t:county=Cattaraugus
  t:nature_center="Red House Natural History Museum"
- t:state_park_facility="Allegany State Park"
+ t:region=2
  t:nature_center_url=http://www.nysparks.com/environment/nature-centers/12/details.aspx
+ t:facility_url=http://nysparks.com/parks/136/details.aspx
  m:row_number.7gdv-fq7n=1
 
 ```
@@ -42234,16 +42252,16 @@ series e:rgw6-bpst d:2017-01-10T20:19:10.000Z
 ```ls
 series e:t8dk-esb7 d:2005-01-01T00:00:00.000Z
  t:region=Northeast
- m:barriers_removed_altered=23
- m:estuary_acres_treated=0
- m:riparian_acre_projects=1
  m:riparian_miles_treated=0
+ m:barrier_projects=1
+ m:estuary_acres_treated=0
  m:riparian_acres_treated=6
  m:stream_miles_opened=9
- m:stream_mile_projects=1
- m:riparian_mile_projects=0
- m:barrier_projects=1
  m:estuary_projects=0
+ m:riparian_acre_projects=1
+ m:riparian_mile_projects=0
+ m:barriers_removed_altered=23
+ m:stream_mile_projects=1
 
 ```
 
@@ -43035,9 +43053,9 @@ series e:dbre-5vfk d:2012-10-17T05:37:50.000Z
  t:biennium=1999-01
  m:total=169990013
  m:state_all=37040000
- m:cumulative_total=169990013
- m:federal_all=75304074
  m:local_all=57645939
+ m:federal_all=75304074
+ m:cumulative_total=169990013
 
 ```
 
@@ -44243,8 +44261,8 @@ series e:fpp2-pp25 d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:md3v-ph3u d:2016-03-22T07:28:31.000Z
- t:dvr_name=15091
  t:media_local_status=Online
+ t:dvr_name=15091
  t:system_id=265887
  m:duration=0
  m:media_size_mb=17
@@ -44627,8 +44645,8 @@ series e:nwze-djuu d:2013-02-13T13:29:34.000Z
 
 ```ls
 series e:pnpu-7zb5 d:2015-06-17T00:00:00.000Z
- t:pending_completed=Completed
  t:candidate="Christensen, Julie"
+ t:pending_completed=Completed
  t:district=3
  m:funds_disbursed=20000
 
@@ -44927,8 +44945,8 @@ series e:q3xd-hfi8 d:2005-01-01T00:00:00.000Z
 
 ```ls
 series e:iyzm-8pqb d:2007-04-22T00:00:00.000Z
- m:fairhill=77
  m:state_wide_max=77
+ m:fairhill=77
 
 ```
 
@@ -44993,20 +45011,20 @@ series e:updi-aez3 d:2014-01-01T00:00:00.000Z
 
 ```ls
 series e:ptev-4hud d:2017-01-09T00:00:00.000Z
- t:business_name="PEYKO TZENOV"
  t:zip=10467
- t:license_type=Business
- t:status=Issued
+ t:business_name="PEYKO TZENOV"
  t:application_category=Special
+ t:contact_phone=9178047161
+ t:city=BRONX
+ t:license_type=Business
+ t:license_category="Home Improvement Contractor"
+ t:application_id=1066-2017-RHIC
  t:license_number=1294131-DCA
  t:street="RESERVOIR OVAL E"
- t:contact_phone=9178047161
- t:license_category="Home Improvement Contractor"
  t:state=NY
- t:building_number=3280
- t:application_id=1066-2017-RHIC
  t:application_or_renewal=Renewal
- t:city=BRONX
+ t:building_number=3280
+ t:status=Issued
  m:row_number.ptev-4hud=1
 
 ```
@@ -45232,8 +45250,8 @@ series e:96g3-9rcf d:2012-11-27T12:45:23.000Z
 series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z
  t:food_type="Apple Cider"
  m:other_source_outside_new_york_state_availability_period=0
- m:from_new_york_state_source=158
  m:other_source_during_new_york_state_availability_period=0
+ m:from_new_york_state_source=158
 
 ```
 
@@ -45998,14 +46016,14 @@ series e:6y52-j6td d:2015-11-19T13:15:15.000Z
 ```ls
 series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z
  t:reporting_area="UNITED STATES"
- m:invasive_pneumococcal_disease_all_ages_probable_cum_2016=2
  m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=270
+ m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0
  m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=487
  m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=264
- m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=264
- m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0
+ m:invasive_pneumococcal_disease_all_ages_probable_cum_2016=2
  m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=2
  m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=488
+ m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=264
 
 ```
 
@@ -46131,12 +46149,12 @@ series e:5w85-2euh d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:uyku-r7g5 d:2011-07-01T00:00:00.000Z
+ t:supplement_number=UO-390-C-11-5
+ t:contractor="Oregon Ceiling & Acoustics, LLC"
  t:compensation_method=Fixed
+ t:organization="University of Oregon"
  t:retainer_period="June 2011 - June 2012"
  t:project="CARSON HALL PLASTER REPAIR PROJECT"
- t:organization="University of Oregon"
- t:contractor="Oregon Ceiling & Acoustics, LLC"
- t:supplement_number=UO-390-C-11-5
  t:mwesb="MBE, ESB"
  m:price=46200
 
@@ -46562,12 +46580,12 @@ series e:gugp-n5ip d:2016-04-19T09:58:24.000Z
 
 ```ls
 series e:sz7b-c3pn d:2015-05-14T00:00:00.000Z
+ t:report.size=1231828
  t:report.content_type="application/pdf; charset=binary"
+ t:report.file_id=9HIooxQA8K8VvZE-f8UVRn5VLcmzVZqDgQpIMqz2F34
+ t:lobbyist_name="SHAW / YODER / ANTWIH / INC"
  t:report.filename="SHAW, YODER, ANTWIH, Inc - Quarter 1 - 2015 - Period February 1, 2015 to April 30, 2015.
 pdf"
- t:lobbyist_name="SHAW / YODER / ANTWIH / INC"
- t:report.size=1231828
- t:report.file_id=9HIooxQA8K8VvZE-f8UVRn5VLcmzVZqDgQpIMqz2F34
  m:row_number.sz7b-c3pn=1
 
 ```
@@ -47008,11 +47026,11 @@ series e:cbrw-uf54 d:2014-05-30T10:24:39.000Z
 
 ```ls
 series e:k5ry-ef3g d:2011-12-14T11:21:02.000Z
- t:councildistrict=2
  t:zipcode=21206
  t:name=410
- t:neighborhood=Frankford
  t:policedistrict=NORTHEASTERN
+ t:neighborhood=Frankford
+ t:councildistrict=2
  m:row_number.k5ry-ef3g=1
 
 ```
@@ -47036,8 +47054,8 @@ series e:pzgr-wqm5 d:2014-01-01T00:00:00.000Z
 
 ```ls
 series e:7cps-5y5m d:2009-01-01T00:00:00.000Z
- m:solar_projects=4.7
  m:solar_projects_in_million_dollars=93.2
+ m:solar_projects=4.7
 
 ```
 
@@ -47217,26 +47235,26 @@ e Management Services, Procurement of Intensive Mental Health Services"
 
 ```ls
 series e:kf5m-pcwv d:2000-03-30T00:00:00.000Z
- t:mcd_code=1615
- t:place_code=80770
- t:program_type=IA
- t:log_number=IA-00-00-0001-00
- t:zip_code=99685-0648
- t:state=AK
- t:organization_type="General museum"
  t:city=Unalaska
- t:first_name=Richard
- t:census_block=2014
- t:program="Conservation Assessment Prog."
- t:last_name=Knecht
- t:title_of_principal_investigator=Dr.
- t:census_tract=200
  t:county_code=16
+ t:mcd_code=1615
+ t:last_name=Knecht
+ t:program="Conservation Assessment Prog."
+ t:log_number=IA-00-00-0001-00
+ t:title_of_principal_investigator=Dr.
+ t:zip_code=99685-0648
  t:institution="Museum of the Aleutians"
- m:requested_matching_amount=0
+ t:program_type=IA
+ t:census_block=2014
+ t:organization_type="General museum"
+ t:state=AK
+ t:place_code=80770
+ t:first_name=Richard
+ t:census_tract=200
  m:total_amount_originally_awarded=3390
  m:requested_award_amount=3390
  m:total_amount_awarded_and_disbursed=3390
+ m:requested_matching_amount=0
 
 ```
 
@@ -47756,9 +47774,9 @@ series e:acme-vg9e d:2010-01-01T00:00:00.000Z
 ```ls
 series e:6htv-6453 d:2011-04-03T00:00:00.000Z
  m:median_days_to_respond_to_garbage_cart_request=8
- m:average_days_to_complete_garbage_cart_request=9.58
- m:target_response_time_days_=7
  m:total_completed_requests=434
+ m:target_response_time_days_=7
+ m:average_days_to_complete_garbage_cart_request=9.58
 
 ```
 
@@ -47784,9 +47802,9 @@ series e:2rxu-2uqk d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z
+ t:code=1
  t:municipality=Andover
  t:service_district_code=0
- t:code=1
  m:fy_2017_mill_rate=30.72
 
 ```
@@ -48941,9 +48959,9 @@ series e:7dvm-92bt d:2000-01-01T00:00:00.000Z
 ```ls
 series e:2j28-xzd7 d:2013-06-10T00:00:00.000Z
  t:jobtitle="AIDE BLUE CHIP"
- t:agencyid=W02200
- t:name="Aaron,Keontae E"
  t:agency="Youth Summer"
+ t:name="Aaron,Keontae E"
+ t:agencyid=W02200
  m:grosspay=873.63
  m:annualsalary=11310
 
@@ -48954,8 +48972,8 @@ series e:2j28-xzd7 d:2013-06-10T00:00:00.000Z
 ```ls
 series e:jttf-iwhx d:2020-09-29T00:00:00.000Z
  t:duration=1995-2020
- t:location="West Texas"
  t:agreement=LCRA
+ t:location="West Texas"
  t:type=Wind
  m:capacity_mw=10
  m:term_years=25
@@ -49093,20 +49111,20 @@ series e:s9kh-t3xq d:2010-01-01T00:00:00.000Z
 ```ls
 series e:rb93-4tgj d:2012-01-01T00:00:00.000Z
  t:state="United States"
- m:male_2014=9.2
- m:female_2014=4.5
- m:age_35_54=6.8
- m:age_21_34_2014=10.1
- m:male=9.4
- m:age_0_20_2014=3.7
  m:age_55=8.1
- m:all_ages_2014=6.8
+ m:age_0_20_2014=3.7
  m:age_35_54_2014=6.6
+ m:female_2014=4.5
  m:age_21_34=10.8
  m:age_55_2014=7.8
- m:female=4.7
+ m:all_ages_2014=6.8
  m:age_0_20=4
+ m:male_2014=9.2
  m:all_ages=7
+ m:female=4.7
+ m:age_21_34_2014=10.1
+ m:age_35_54=6.8
+ m:male=9.4
 
 ```
 
@@ -49261,8 +49279,8 @@ series e:b9p6-8dmm d:2014-12-31T14:28:09.000Z
 
 ```ls
 series e:4i42-qv3h d:2014-01-13T00:00:00.000Z
- t:first_approach=EB
  t:second_approach=WB
+ t:first_approach=EB
  m:row_number.4i42-qv3h=1
 
 ```
@@ -49999,114 +50017,114 @@ series e:cpgn-z9js d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:mjb9-rsyd d:2009-07-01T00:00:00.000Z
- t:physcity=JUNEAU
- t:mailcity=JUNEAU
- t:asf_lc=Y
- t:mail_st=AK
- t:obereg=2
- t:asf_ac=Y
- t:physaddr="333 WILLOUGHBY AVENUE"
- t:phys_st=AK
- t:mailzip=99811
- t:mailzip4=571
- t:asf_pub=N
  t:mailaddr="P.O. BOX 110571"
- t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
- t:physzip4=571
- t:asf_sch=N
- t:webaddr=WWW.LIBRARY.STATE.AK.US
  t:asf_sp=Y
- t:rstatus=1
- t:physzip=99811
- t:fipsst=2
+ t:asf_ac=Y
  t:fiothsp=P
- m:capitalc=0
- m:capitalb=0
- m:capitala=0
- m:totaidb=101570615
- m:siother=0
- m:totaida=3779717
- m:aidsala=0
- m:capitald=0
- m:admexpt=369346
- m:swexpt=5315887
- m:admexpu=369346
+ t:asf_lc=Y
+ t:asf_sch=N
+ t:physaddr="333 WILLOUGHBY AVENUE"
+ t:mailcity=JUNEAU
+ t:mailzip=99811
+ t:fipsst=2
+ t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
+ t:mail_st=AK
+ t:rstatus=1
+ t:physcity=JUNEAU
+ t:webaddr=WWW.LIBRARY.STATE.AK.US
+ t:physzip4=571
+ t:asf_pub=N
+ t:obereg=2
+ t:mailzip4=571
+ t:phys_st=AK
+ t:physzip=99811
+ m:aidipld=42409901
+ m:aidiplc=0
+ m:aidiplb=42238799
+ m:aidipla=171102
+ m:oexpsald=9044585
+ m:oexpsala=3329900
+ m:siaidlib=101175853
+ m:oexpsalc=0
+ m:oexpsalb=5714685
+ m:totexpd=120411470
  m:oexpbenb=0
+ m:aidoild=4870474
  m:oexpbena=1398640
+ m:siother=0
+ m:capitald=0
  m:oexpbend=1398640
+ m:aidoilb=4870474
  m:oexpbenc=0
- m:totincm=122217928
- m:othincm=66016
- m:aidlcd=14000000
- m:aidlcc=0
+ m:aidoilc=0
+ m:capitala=0
+ m:aidoila=0
+ m:aidplsd=27011704
+ m:capitalc=0
+ m:aidplsc=0
+ m:capitalb=0
+ m:aidplsb=26649574
+ m:aidplsa=362130
  m:totexpu=9464950
  m:totexpt=9464950
- m:fioth=0
- m:aidlca=0
- m:aidlcb=14000000
- m:totexpd=120411470
- m:totexpa=9482726
- m:totexpc=80044
- m:totexpb=110848700
+ m:aidsalb=0
+ m:aidsalc=0
+ m:aidsald=0
+ m:swexpt=5315887
+ m:techxu=6906140
+ m:oexpcold=3416232
+ m:othexpd=0
+ m:othexpc=0
+ m:oexpcolb=3416232
+ m:othexpb=0
+ m:oexpcolc=0
+ m:othexpa=0
  m:sistlaop=9484211
- m:aidmlsa=73999
- m:aidmlsc=0
+ m:admexpt=369346
+ m:totaidb=101570615
+ m:admexpu=369346
+ m:totaida=3779717
  m:popu_st=19378102
- m:aidmlsb=6102313
+ m:oexpcola=0
+ m:othincm=66016
  m:totoxstc=0
+ m:aidothc=0
  m:totoxstd=10443225
- m:aidmlsd=6176312
- m:serllxu=2115690
+ m:aidothd=10881941
+ m:lstainc=11491848
+ m:aidotha=3172486
+ m:aidothb=7709455
  m:totopexc=80044
+ m:total_fi=11491848
  m:totopexd=15061138
  m:totopexa=5703009
- m:aidothd=10881941
  m:totopexb=9278085
- m:aidothc=0
- m:oexpothc=80044
- m:aidothb=7709455
- m:total_fi=11491848
- m:oexpothd=1201681
- m:aidotha=3172486
- m:oexpotha=974469
- m:oexpothb=147168
- m:aidplsc=0
- m:aidplsd=27011704
- m:total_si=110660064
- m:totoxstb=5714685
- m:totoxsta=4728540
- m:oexpcold=3416232
- m:lstainc=11491848
- m:grexpt=3779717
- m:oexpcolb=3416232
- m:aidplsa=362130
- m:oexpcolc=0
- m:aidplsb=26649574
- m:oexpcola=0
- m:aidiplc=0
- m:othexpd=0
- m:oexpsalb=5714685
- m:serdifxu=73774
- m:siaidlib=101175853
- m:aidipld=42409901
- m:oexpsalc=0
- m:aidipla=171102
- m:othexpb=0
- m:aidiplb=42238799
- m:othexpc=0
- m:aidoila=0
- m:oexpsala=3329900
  m:totaidd=105350332
- m:aidsald=0
- m:aidoilb=4870474
- m:techxu=6906140
  m:totaidc=0
- m:aidoilc=0
- m:aidsalb=0
- m:aidoild=4870474
- m:oexpsald=9044585
- m:aidsalc=0
- m:othexpa=0
+ m:fioth=0
+ m:grexpt=3779717
+ m:aidsala=0
+ m:serllxu=2115690
+ m:total_si=110660064
+ m:serdifxu=73774
+ m:aidlcc=0
+ m:aidlcd=14000000
+ m:totexpc=80044
+ m:aidmlsd=6176312
+ m:totexpb=110848700
+ m:aidlca=0
+ m:totexpa=9482726
+ m:aidlcb=14000000
+ m:oexpothd=1201681
+ m:aidmlsa=73999
+ m:oexpothc=80044
+ m:oexpothb=147168
+ m:aidmlsc=0
+ m:oexpotha=974469
+ m:aidmlsb=6102313
+ m:totincm=122217928
+ m:totoxsta=4728540
+ m:totoxstb=5714685
 
 ```
 
@@ -50134,12 +50152,12 @@ series e:u2nq-s7gg d:2011-05-26T00:00:00.000Z
 
 ```ls
 series e:kczx-tmjn d:2013-09-30T15:31:24.000Z
- t:first_name=David
+ t:email_address=fixit@efn.org
  t:organization="Self: Citizen Air Breather"
- t:state=Oregon
  t:last_name=Hoffman
  t:comment="Proposed new higher limits are NOT good enough but are a step in the right direction."
- t:email_address=fixit@efn.org
+ t:state=Oregon
+ t:first_name=David
  m:row_number.kczx-tmjn=1
 
 ```
@@ -50242,21 +50260,21 @@ series e:ipu4-2q9a d:2016-03-29T12:00:00.000Z
 
 ```ls
 series e:fx93-cifz d:2011-12-31T00:00:00.000Z
+ t:paid_by_another_entity=N
+ t:exempt_indicator=N
+ t:last_name=Curtin
+ t:pay_type=FT
+ t:title="Community Development Specialist"
  t:authority_name="Albany Community Development Agency"
  t:first_name=Kailin
- t:title="Community Development Specialist"
- t:pay_type=FT
- t:paid_by_another_entity=N
- t:last_name=Curtin
- t:exempt_indicator=N
  t:group=Professional
- m:total_compensation=26208
- m:actual_salary_paid=26208
- m:base_annualized_salary=26208
- m:performance_bonus=0
  m:extra_pay=0
  m:overtime_paid=0
+ m:actual_salary_paid=26208
+ m:performance_bonus=0
+ m:base_annualized_salary=26208
  m:other_compensation=0
+ m:total_compensation=26208
 
 ```
 
@@ -52108,11 +52126,11 @@ series e:h9m8-4k45 d:2014-05-19T00:00:00.000Z
 ```ls
 series e:9xdm-yhmb d:2006-01-01T00:00:00.000Z
  t:customer_class=Residential
- m:cents_per_kwh=9.499
- m:percentage_of_mwh=36
- m:percentage_of_revenue=41
- m:number_of_customers=338184
  m:revenue=387540000
+ m:cents_per_kwh=9.499
+ m:number_of_customers=338184
+ m:percentage_of_revenue=41
+ m:percentage_of_mwh=36
 
 ```
 
@@ -52989,8 +53007,8 @@ series e:mdc9-qh2x d:2016-01-01T06:00:00.000Z
 ```ls
 series e:h4i4-uff6 d:2012-01-01T00:00:00.000Z
  t:county_department_number=2
- m:enrollment_count=11
  m:cost=10674.56
+ m:enrollment_count=11
 
 ```
 
@@ -53022,21 +53040,21 @@ series e:y6ih-4ijb d:2013-01-23T13:28:28.000Z
 ```ls
 series e:x74m-smqb d:2013-01-01T00:00:00.000Z
  t:zip=60625
- t:location="Albany Park"
  t:city=CHICAGO
- m:december=36
- m:march=0
+ t:location="Albany Park"
  m:november=89
  m:may=0
- m:february=0
- m:april=0
- m:june=0
- m:ytd=421
- m:january=0
  m:august=74
+ m:february=0
+ m:ytd=421
  m:july=0
- m:october=117
+ m:april=0
+ m:march=0
+ m:june=0
  m:september=105
+ m:january=0
+ m:december=36
+ m:october=117
 
 ```
 
@@ -53126,9 +53144,9 @@ series e:g3ip-u8rb d:2015-06-04T11:04:10.000Z
 
 ```ls
 series e:d9pb-3vh7 d:2000-01-01T00:00:00.000Z
+ m:average_kwh=820
  m:average_bill=54.26
  m:fuel_charge_cents_kwh=1.372
- m:average_kwh=820
 
 ```
 
@@ -53169,24 +53187,24 @@ null
 ```ls
 series e:i9wp-a4ja d:2015-09-18T08:16:30.000Z
  t:station_name="Atlantic Av-Barclays Ctr"
- t:corner=NE
- t:line="4 Avenue"
  t:east_west_street="Pacific St"
- t:ada=TRUE
+ t:line="4 Avenue"
+ t:vending=YES
+ t:staffing=FULL
+ t:division=BMT
  t:route4=N
  t:route3=D
+ t:entry=YES
  t:route2=Q
  t:route1=B
- t:division=BMT
- t:entrance_type=Elevator
+ t:corner=NE
  t:route7=3
- t:route6=2
- t:vending=YES
- t:route5=R
- t:entry=YES
- t:free_crossover=TRUE
  t:north_south_street="4th Ave"
- t:staffing=FULL
+ t:route6=2
+ t:route5=R
+ t:entrance_type=Elevator
+ t:free_crossover=TRUE
+ t:ada=TRUE
  m:route8=4
  m:route9=5
 
@@ -53299,11 +53317,11 @@ series e:vj4a-58fj d:2012-08-08T16:56:51.000Z
 [bbyy-e7gq.md](../datasets/bbyy-e7gq.md)
 
 ```ls
-series e:bbyy-e7gq d:2017-05-23T11:00:36.000Z
+series e:bbyy-e7gq d:2017-09-17T11:00:35.000Z
  t:station_name="Ridge Blvd & Howard St"
  t:status="In Service"
- m:total_docks=15
  m:docks_in_service=15
+ m:total_docks=15
 
 ```
 
@@ -53311,26 +53329,26 @@ series e:bbyy-e7gq d:2017-05-23T11:00:36.000Z
 
 ```ls
 series e:7rxe-3ase d:2015-11-10T17:20:08.000Z
- t:mbl="39/ C/ 23/ 4C/"
- t:bldg_no=1
- t:use_code=1020
- t:cls=R
  t:account_number=870151
  t:eyb_code=A+5
- t:location="255 BEACON ST"
- t:style_desc="Low rise"
- t:gis_id=39-C-23
- t:building_type=Condominium
+ t:mbl="39/ C/ 23/ 4C/"
  t:grantee="ZHU ZHIYING"
+ t:gis_id=39-C-23
+ t:location="255 BEACON ST"
+ t:cls=R
+ t:bldg_no=1
+ t:style_desc="Low rise"
+ t:use_code=1020
+ t:building_type=Condominium
+ m:full_baths=2
+ m:total_assessed_land_value=0
+ m:res_nbhd=2001
  m:living_area=794
+ m:half_baths=0
  m:land_area_in_acres=0
  m:ayb=1986
  m:num_bedrms=2
  m:total_assessed_parcel_value=342300
- m:res_nbhd=2001
- m:half_baths=0
- m:total_assessed_land_value=0
- m:full_baths=2
 
 ```
 
@@ -54899,28 +54917,28 @@ series e:urvc-2kdr d:2011-07-27T07:12:00.000Z
 
 ```ls
 series e:wibz-uqui d:2011-10-31T09:26:03.000Z
- t:branch="Dongan Hills"
  t:boro_central_library="Staten Island"
+ t:branch="Dongan Hills"
  t:network="Staten Island Network"
- m:outreach_services_attendance=8935
- m:total_attendance=15368
- m:adult_program=66
+ m:reference_transactions_juvenile=10764
  m:circulation_young_adult=13544
+ m:young_adult_program=82
  m:juvenile_program=165
  m:circulation_adult=68168
- m:weekly_hours_of_public_service=42
- m:reference_transactions=36478
- m:reference_transactions_juvenile=10764
- m:juvenile_attendance=4105
+ m:reference_transactions_adult=19396
+ m:total_attendance=15368
+ m:reference_transactions_young_adult=6318
+ m:total_program=480
+ m:adult_program=66
+ m:outreach_services_program=167
+ m:young_adult_attendance=1005
  m:circulation_juvenile=70811
  m:circulation=152523
- m:reference_transactions_young_adult=6318
- m:reference_transactions_adult=19396
- m:young_adult_program=82
- m:young_adult_attendance=1005
+ m:weekly_hours_of_public_service=42
  m:adult_attendance=1323
- m:total_program=480
- m:outreach_services_program=167
+ m:juvenile_attendance=4105
+ m:outreach_services_attendance=8935
+ m:reference_transactions=36478
 
 ```
 
@@ -55032,17 +55050,17 @@ series e:rewu-ipqu d:2016-01-01T00:00:00.000Z
 [khn9-hhpq.md](../datasets/khn9-hhpq.md)
 
 ```ls
-series e:khn9-hhpq d:2015-01-01T00:00:00.000Z
+series e:khn9-hhpq d:2016-01-01T00:00:00.000Z
  t:county=Albany
- m:part_time_total=54
- m:sworn_part_time=0
- m:civilian_total=152
- m:civilian_park_time=54
- m:sworn_total=335
+ m:sworn_full_time=336
+ m:civilian_park_time=58
+ m:civilian_full_time=97
+ m:part_time_total=58
  m:full_time_total=433
- m:civilian_full_time=98
- m:sworn_full_time=335
- m:grand_total=487
+ m:sworn_part_time=0
+ m:civilian_total=155
+ m:grand_total=491
+ m:sworn_total=336
 
 ```
 
@@ -55245,13 +55263,13 @@ series e:dyyz-c89u d:2013-05-10T11:00:00.000Z
 
 ```ls
 series e:3bs9-vysh d:2015-06-30T00:00:00.000Z
+ t:org_description="COMMUNICATIONS ORDINARY MAINT"
+ t:item=1
  t:account_desc="NEIGHBORHOOD IMP. COUNCIL"
+ t:category_of_gov="General Government"
+ t:vendor_name=4IMPRINT
  t:check=1999
  t:department="COMMUNICATIONS DEPARTMENT"
- t:item=1
- t:vendor_name=4IMPRINT
- t:org_description="COMMUNICATIONS ORDINARY MAINT"
- t:category_of_gov="General Government"
  m:amount=995.12
 
 ```
@@ -55498,11 +55516,11 @@ series e:hdpy-hkrt d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:t8ay-k3qw d:1996-04-18T00:00:00.000Z
- t:street_side=E
  t:site_detail="5' to 23' north of Ellis"
- t:cross_street=Ellis
+ t:street_side=E
  t:object_id=1
  t:curb_quality=good
+ t:cross_street=Ellis
  m:space_length=18
 
 ```
@@ -55528,19 +55546,19 @@ series e:97zg-4p9t d:1980-01-15T00:00:00.000Z
 ```ls
 series e:rwu6-8j9d d:2013-06-14T00:00:00.000Z
  t:zip=6112
- t:mutl_aid=N
- t:station=16
+ t:city=Hartford
+ t:shift=A
+ t:st_type=ST
  t:occup_id=5701
+ t:inci_no=13-0165020
+ t:alm_type=1
+ t:mutl_aid=N
  t:street=VINE
+ t:inci_type=321
+ t:station=16
  t:state=CT
  t:descript="EMS call, excluding vehicle accident with injury"
- t:inci_type=321
- t:city=Hartford
- t:alm_type=1
- t:st_type=ST
  t:objectid=32100
- t:shift=A
- t:inci_no=13-0165020
  m:number=500
  m:alarms=1
 
@@ -57287,10 +57305,7 @@ series e:askc-vuqf d:2012-10-01T00:00:00.000Z
 
 ```ls
 series e:v7w6-yw7h d:2015-10-18T23:37:28.000Z
- t:first_name=Charlie
  t:organization="Clean Air Performance Professionals"
- t:email=cappcharlie@earthlink.net
- t:state=California
  t:last_name=Peters
  t:comment="Voluntary GMO fuel may reduce CO2, ozone &amp; NOxin 2016.
 
@@ -57595,11 +57610,11 @@ series e:dpg7-s6dp d:2014-12-08T12:23:29.000Z
  t:ethnic_profile=Hispanic
  t:age_sex=0-5
  m:total=94
- m:percent=8.2
+ m:profile_percent=81.6
  m:count=940
  m:female=46
+ m:percent=8.2
  m:male=48
- m:profile_percent=81.6
 
 ```
 
@@ -58290,12 +58305,12 @@ series e:k7vg-hfw6 d:2013-01-01T00:00:00.000Z
 ```ls
 series e:i9pf-sj7c d:2013-01-01T00:00:00.000Z
  t:dbn=01M292
- t:program="International Studies"
- t:interest="Humanities & Interdisciplinary"
  t:10seats=None
- t:method="Limited Unscreened"
  t:code=M46X
+ t:method="Limited Unscreened"
+ t:interest="Humanities & Interdisciplinary"
  t:10ap=None
+ t:program="International Studies"
  m:9app=234
  m:9seats=98
 
@@ -58308,9 +58323,9 @@ series e:j9km-ydkc d:2016-03-19T15:28:11.000Z
  t:feature_desc=Golf
  t:hours="24 Hours"
  t:name="Green Lake Park"
- m:xpos=-122.330394
  m:pmaid=307
  m:ypos=47.678938
+ m:xpos=-122.330394
 
 ```
 
@@ -59214,20 +59229,20 @@ series e:gkgz-nw24 d:2015-08-03T15:16:49.000Z
 
 ```ls
 series e:q7iu-6j5f d:2015-12-31T00:00:00.000Z
- m:pmi_completed=148
- m:total_riders=1425100
+ m:star_riders=26656
  m:fixed_riders=1398444
- m:non_prevent_accidents=27
- m:service_interruptions=0
  m:other_complaints=118
- m:total_complaints=354
- m:prevent_accidents=16
+ m:non_prevent_accidents=27
  m:star_denials=37
  m:fixed_shut_complaints=236
  m:miles=861430
- m:star_riders=26656
- m:pmi_not_on_time=3
  m:mdbsi=23440.27211
+ m:pmi_not_on_time=3
+ m:total_complaints=354
+ m:pmi_completed=148
+ m:service_interruptions=0
+ m:prevent_accidents=16
+ m:total_riders=1425100
 
 ```
 
@@ -59266,21 +59281,21 @@ series e:rubn-abch d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:pgrs-2cjd d:2006-01-01T00:00:00.000Z
- t:category=Asian
- t:grade=3
  t:district=1
- m:level_3_4_2=94.8
- m:level_4_1=79
- m:level_2_2=2.6
- m:mean_scale_score=704
+ t:grade=3
+ t:category=Asian
  m:level_4_2=51
- m:level_2_1=4
- m:level_1_2=2.6
- m:level_1_1=4
- m:number_tested=155
+ m:mean_scale_score=704
  m:level_3_4_1=147
- m:level_3_2=43.9
+ m:level_1_1=4
+ m:level_1_2=2.6
+ m:level_2_1=4
+ m:level_2_2=2.6
  m:level_3_1=68
+ m:level_3_2=43.9
+ m:level_4_1=79
+ m:level_3_4_2=94.8
+ m:number_tested=155
 
 ```
 
@@ -59620,17 +59635,16 @@ series e:fw3c-w5de d:2016-06-24T11:47:49.000Z
 [5qwt-pfng.md](../datasets/5qwt-pfng.md)
 
 ```ls
-series e:5qwt-pfng d:2016-04-01T00:00:00.000Z
- t:business_name="ALBERTSON'S SAFEWAY PHARMACY #4705"
- t:associated_name_type="AUTHORIZED REPRESENTATIVE"
- t:entity_of_record_name="C T CORPORATION SYSTEM"
- t:zip_code=97301
+series e:5qwt-pfng d:2017-04-03T00:00:00.000Z
+ t:business_name="ANGELS WING OF OREGON LLC"
+ t:associated_name_type="REGISTERED AGENT"
+ t:entity_type="DOMESTIC LIMITED LIABILITY COMPANY"
+ t:city=PORTLAND
+ t:registry_number=131070294
  t:state=OR
- t:entity_type="ASSUMED BUSINESS NAME"
- t:entity_of_record_reg_number=329227
- t:city=SALEM
- t:registry_number=120367297
- m:row_number.5qwt-pfng=1
+ t:zip_code=97225
+ t:entity_of_record_name="INCORPORATING SERVICES, LTD."
+ m:not_of_record_entity=27939198
 
 ```
 
@@ -59885,21 +59899,21 @@ series e:i95s-tzua d:1998-07-01T00:00:00.000Z
 
 ```ls
 series e:22u3-xenr d:2016-02-02T08:17:42.000Z
+ t:violation_location="REWRITTEN ON 08/27/2014-INSPECTION #11320166-BL01041"
  t:violation_inspector_comments="REAR PORCH WARPED AND TWISTED BEAM 2ND FLR. 5448 LOOSE TREADS, 1ST TO 2ND F
 LR. REAR 415 LOOSE STRINGER 1ST TO 2ND FLR. ALSO SPLIT TREADS OBTAIN PERMIT AND PLANS."
- t:inspection_number=1950920
+ t:department_bureau=CONSERVATION
+ t:violation_status=COMPLIED
  t:inspection_category=COMPLAINT
+ t:inspection_waived=N
+ t:inspector_id=BL00254
  t:property_group=24447
  t:violation_code=CN070024
- t:violation_location="REWRITTEN ON 08/27/2014-INSPECTION #11320166-BL01041"
- t:inspection_waived=N
- t:violation_status=COMPLIED
- t:department_bureau=CONSERVATION
- t:inspection_status=FAILED
  t:violation_description="REPAIR PORCH SYSTEM"
- t:inspector_id=BL00254
+ t:inspection_number=1950920
  t:violation_ordinance="Failed to repair or replace defective or missing members of porch system.  (13-196-5
 70, 13-196-641)"
+ t:inspection_status=FAILED
  m:row_number.22u3-xenr=1
 
 ```
@@ -60513,12 +60527,12 @@ series e:y3m9-i8tg d:2017-01-17T21:09:02.000Z
 
 ```ls
 series e:vpb3-uf7s d:2013-03-19T11:20:45.000Z
- t:premium_categories="Free Insurance"
- t:family_size_1_ind_monthly_income=1489
  t:family_size_2_nos_monthly_income=2017
- t:family_size_5_nos_monthly_income=3601
  t:family_size_4_nos_monthly_income=3073
+ t:premium_categories="Free Insurance"
  t:family_size_3_nos_monthly_income=2545
+ t:family_size_5_nos_monthly_income=3601
+ t:family_size_1_ind_monthly_income=1489
  m:each_additional_person_add=528
 
 ```
@@ -60788,23 +60802,23 @@ iframe></div></a>"
 
 ```ls
 series e:8iri-b2sz d:2005-11-15T00:00:00.000Z
- t:height=40-X
- t:app_no=20000112908
- t:supervisor=7
- t:action="CFC ISSUED"
- t:pln_district_name="Inner Sunset"
- t:st_type=ST
- t:supdist="SUPERVISORIAL DISTRICT 7"
+ t:yr_qtr=2005_Q4
  t:st_name=KIRKHAM
+ t:st_type=ST
  t:zoning_sim=RH-2
+ t:pln_district_name="Inner Sunset"
+ t:supdist="SUPERVISORIAL DISTRICT 7"
+ t:action="CFC ISSUED"
+ t:app_no=20000112908
  t:zoning_districtname="RESIDENTIAL- HOUSE, TWO FAMILY"
  t:apn="APN 1855052"
- t:yr_qtr=2005_Q4
  t:bp_descript="ERECT 4 STORY 2 FAMILY DWELLING UNIT"
+ t:supervisor=7
+ t:height=40-X
  m:netunits_c=2
- m:aff_hsg=0
  m:st_num=507
  m:form=2
+ m:aff_hsg=0
  m:units=0
 
 ```
@@ -60884,10 +60898,10 @@ series e:fbsa-93dh d:2013-02-13T11:48:13.000Z
 
 ```ls
 series e:ba86-tr5c d:1990-01-01T00:00:00.000Z
- t:record_type_code=1
- t:record_type_description="1 Year Retention"
  t:college="CUNY Baruch College"
  t:fall_term="Fall 1990"
+ t:record_type_code=1
+ t:record_type_description="1 Year Retention"
  m:percentage=81.8
  m:head_count=1278
 
@@ -61026,8 +61040,8 @@ series e:i8hz-ffis d:2000-01-01T00:00:00.000Z
 
 ```ls
 series e:s995-ndgk d:2012-01-01T00:00:00.000Z
- t:rowid="Percent of the pop. that are library cardholders (year-to-date)201201"
  t:indicatorname="Percent of the pop. that are library cardholders (year-to-date)"
+ t:rowid="Percent of the pop. that are library cardholders (year-to-date)201201"
  m:indicatorvalue=14.71
 
 ```
@@ -61444,15 +61458,22 @@ series e:g8gh-wnt9 d:2012-01-24T11:35:02.000Z
 [w9cy-nnma.md](../datasets/w9cy-nnma.md)
 
 ```ls
-series e:w9cy-nnma d:2011-09-02T11:40:24.000Z
- t:contact_number=718.282.5575
+series e:w9cy-nnma d:2017-09-15T20:49:40.000Z
+ t:site_name="African Services Committee, Inc."
  t:program_type="Reading & Writing"
- t:borough_community=Brooklyn
- t:program="Adolescent Literacy"
- t:agency="Church Ave. Merchants Block Assoc."
- t:grade_level_age_group="grades 6 to 8"
- t:site_name="School for Democracy and Leadership 600 Kingston Avenue"
- m:row_number.w9cy-nnma=1
+ t:agency="African Services Committee, Inc."
+ t:borough_community="New York"
+ t:number_and_street_address="429 West 127 Street"
+ t:postcode=10027
+ t:nta=Manhattanville
+ t:program="Adult Literacy"
+ t:grade_level_age_group="At least 16 Years Old or Older"
+ t:contact_number=212.222.3882
+ m:bin=1084104
+ m:community_board=9
+ m:bbl=1019670060
+ m:community_council=7
+ m:census_tract=21303
 
 ```
 
@@ -61593,14 +61614,14 @@ series e:b2z7-ns9b d:1996-07-01T00:00:00.000Z
 
 ```ls
 series e:bjtq-ptjp d:2006-01-01T00:00:00.000Z
- t:row_id=Orleans2006
  t:parish=Orleans
- m:very_poor=28
- m:total_verygood_good_fair=35
+ t:row_id=Orleans2006
  m:poor=37
- m:good=14
- m:fair=18
+ m:very_poor=28
  m:very_good=3
+ m:fair=18
+ m:good=14
+ m:total_verygood_good_fair=35
 
 ```
 
@@ -61901,25 +61922,25 @@ series e:ec78-i9z5 d:2013-02-15T09:54:34.000Z
 
 ```ls
 series e:6d4u-fgst d:2016-01-07T00:00:00.000Z
- m:money_saved_supervisor_completion=0
- m:number_of_311_complaints_resolved=12
+ m:money_saved_board_up_cases=1251.94
+ m:number_of_initiated_board_up_cases=0
  m:number_of_lots_completed_by_inmate_labor=0
+ m:money_saved_inmate_labor=0
  m:money_saved_demolition_cases=4635
+ m:number_of_board_up_cases_completed=1
+ m:money_saved_supervisor_completion=0
  m:number_of_grass_and_weed_casses_completed=6
+ m:number_of_initiated_demolition_cases=0
+ m:number_of_cases_presented_to_hearing_officers=37
  m:number_of_311_complaints_received=6
  m:number_of_inspections=106
  m:number_of_hearing_notices_mailed=38
- m:money_saved_board_up_cases=1251.94
- m:number_of_board_up_cases_completed=1
- m:money_saved_grass_and_weed_cases=3863.89
- m:number_of_housing_inspections=1
- m:number_of_cases_presented_to_hearing_officers=37
- m:number_of_initiated_demolition_cases=0
- m:number_of_demolition_cases_completed=3
- m:number_of_initiated_board_up_cases=0
- m:money_saved_inmate_labor=0
- m:number_of_lots_completed_by_supervisors=0
  m:number_of_initiated_grass_and_weed_cases=1
+ m:number_of_housing_inspections=1
+ m:number_of_311_complaints_resolved=12
+ m:money_saved_grass_and_weed_cases=3863.89
+ m:number_of_demolition_cases_completed=3
+ m:number_of_lots_completed_by_supervisors=0
 
 ```
 
@@ -62161,10 +62182,10 @@ series e:82zv-km3m d:2009-01-01T00:00:00.000Z
 [m5eg-upu5.md](../datasets/m5eg-upu5.md)
 
 ```ls
-series e:m5eg-upu5 d:2017-03-27T17:01:10.000Z
- t:zip_code=36104
+series e:m5eg-upu5 d:2017-06-26T17:38:51.000Z
  t:provider_number=017000
  t:state=AL
+ t:zip_code=36104
  m:row_number.m5eg-upu5=1
 
 ```
@@ -62340,30 +62361,30 @@ series e:8zbq-e3e9 d:2010-05-17T00:00:00.000Z
 
 ```ls
 series e:wr8u-xric d:2009-04-12T00:00:00.000Z
- t:first_unit_on_scene=T15
- t:primary_situation="551 - assist pd or other govern. agency"
- t:property_use="000 - property use, other"
- t:action_taken_other=-
- t:station_area=15
- t:call_number=091020273
  t:mutual_aid=none
+ t:property_use="000 - property use, other"
+ t:call_number=091020273
  t:detector_alerted_occupants=-
- t:exposure_number=0
- t:battalion=B09
  t:action_taken_primary="52 - forcible entry"
- t:action_taken_secondary=-
- t:incident_number=09030109
  t:city=SF
- m:suppression_units=1
- m:other_personnel=0
- m:ems_units=0
+ t:first_unit_on_scene=T15
+ t:exposure_number=0
+ t:station_area=15
+ t:incident_number=09030109
+ t:battalion=B09
+ t:primary_situation="551 - assist pd or other govern. agency"
+ t:action_taken_secondary=-
+ t:action_taken_other=-
  m:ems_personnel=0
- m:other_units=0
- m:civilian_fatalities=0
- m:suppression_personnel=5
  m:fire_fatalities=0
  m:fire_injuries=0
+ m:ems_units=0
+ m:suppression_personnel=5
+ m:other_personnel=0
+ m:suppression_units=1
+ m:other_units=0
  m:civilian_injuries=0
+ m:civilian_fatalities=0
 
 ```
 
@@ -62467,17 +62488,17 @@ series e:m48u-yjt8 d:2014-12-17T00:00:00.000Z
 ```ls
 series e:keia-pvvn d:2015-12-27T00:00:00.000Z
  t:reporting_area="UNITED STATES"
+ m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015=2
+ m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=6
+ m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=9
+ m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016=1
+ m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=194
+ m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=70
+ m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=2
+ m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week=1
+ m:ehrlichiosis_anaplasmosis_undetermined_cum_2015=1
  m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_med=39
  m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_med=13
- m:ehrlichiosis_anaplasmosis_undetermined_cum_2015=1
- m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_previous_52_weeks_max=70
- m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2015=6
- m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_previous_52_weeks_max=194
- m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_cum_2016=1
- m:ehrlichiosis_anaplasmosis_anaplasma_phagocytophilum_current_week=1
- m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_med=2
- m:ehrlichiosis_anaplasmosis_undetermined_previous_52_weeks_max=9
- m:ehrlichiosis_anaplasmosis_ehrlichia_chaffeensis_cum_2015=2
 
 ```
 
@@ -62611,8 +62632,8 @@ series e:ykw4-j3aj d:2016-05-05T11:53:19.000Z
 series e:jqe8-8r6s d:2011-07-25T00:07:00.000Z
  t:result=negative
  t:species="CULEX PIPIENS"
- t:block="100XX W OHARE AIRPORT"
  t:trap_type=GRAVID
+ t:block="100XX W OHARE AIRPORT"
  t:trap=T916
  t:test_id=31550
  m:number_of_mosquitoes=3
@@ -63258,13 +63279,13 @@ series e:gdxe-t5ff d:2013-01-14T00:00:00.000Z
 ```ls
 series e:qzi7-nx8g d:2013-07-17T08:39:44.000Z
  t:business_name="Tex-Con Oil Company"
+ t:oil=Yes
+ t:oil_filter=Yes
+ t:batteries=Yes
+ t:zone=Southeast
  t:phone=512-444-1941
  t:zip_code=78744
  t:status=1
- t:batteries=Yes
- t:zone=Southeast
- t:oil_filter=Yes
- t:oil=Yes
  m:row_number.qzi7-nx8g=1
 
 ```
@@ -63414,27 +63435,27 @@ series e:4pq5-n9py d:1974-01-01T00:00:00.000Z
 
 ```ls
 series e:tir3-qx9v d:2014-06-30T00:00:00.000Z
+ t:project_location_county_code=32
+ t:eligibility_determination_made_by_community_development_entity="Advantage Capital"
+ t:quality_active_low_income_community_business="Integrated Biomass Resources LLC"
+ t:tax_credit_recipient_quality_equity_investor="AC Small Business Fund III, LLC"
+ t:number_of_employment_for_created_jobs="8-10 Full-time, 2-4 Part-time"
+ t:project_location_congressional_district=2
+ t:number_of_employment_for_retained_jobs="15 Full-time, 2 Part-time"
+ t:investment_satisfied_documentation_complete_subject_to_confidentiality_laws=Yes
+ t:issuing_agency="Business Oregon"
  t:other_social_community_and_or_economic_impacts="Providing a local customer for woody biomass created by t
 he local forest industry, IBR reduces the environmental impact and cost of transporting biomass outside of t
 he region."
- t:project_location_congressional_district=2
- t:quality_active_low_income_community_business="Integrated Biomass Resources LLC"
- t:eligibility_determination_made_by_community_development_entity="Advantage Capital"
- t:project_location=Wallowa
  t:meets_green_project_requirements_per_oar_123_630_0090_2_a_b=Yes
- t:issuing_agency="Business Oregon"
- t:number_of_employment_for_retained_jobs="15 Full-time, 2 Part-time"
- t:investment_satisfied_documentation_complete_subject_to_confidentiality_laws=Yes
- t:tax_credit_recipient_quality_equity_investor="AC Small Business Fund III, LLC"
- t:project_location_county_code=32
- t:number_of_employment_for_created_jobs="8-10 Full-time, 2-4 Part-time"
- m:total_amount_of_state_new_market_tax_allocation=3750000
+ t:project_location=Wallowa
  m:average_annual_salary_of_employment=24960
- m:maximum_amount_of_tax_credit_made_available_to_quality_equity_investor_in_current_tax_year=0
- m:total_amount_of_federal_new_market_tax_allocation=13600000
- m:total_costs_of_professional_fees_note_cde_does_not_charge_fees=121269
- m:total_project_costs=3750000
  m:number_of_employment_created_and_or_retained_jobs_with_health_benefits=0
+ m:total_project_costs=3750000
+ m:maximum_amount_of_tax_credit_made_available_to_quality_equity_investor_in_current_tax_year=0
+ m:total_costs_of_professional_fees_note_cde_does_not_charge_fees=121269
+ m:total_amount_of_federal_new_market_tax_allocation=13600000
+ m:total_amount_of_state_new_market_tax_allocation=3750000
 
 ```
 
@@ -63626,16 +63647,16 @@ series e:tgmn-chny d:2010-05-14T00:00:00.000Z
 
 ```ls
 series e:ae9a-zs4q d:2014-10-01T00:00:00.000Z
- t:zip_code=14516
- t:contract=C027297
- t:agency="Wayne County Action Program"
- t:street_address="10456 Salter-Colvin Rd"
  t:site_name="North Rose/Wolcott Elementary"
- t:primary_city="North Rose"
- t:elementary=x
  t:round_number=9
- m:mada_for_site=100
+ t:street_address="10456 Salter-Colvin Rd"
+ t:agency="Wayne County Action Program"
+ t:primary_city="North Rose"
+ t:contract=C027297
+ t:elementary=x
+ t:zip_code=14516
  m:contract_amount=126041
+ m:mada_for_site=100
 
 ```
 
@@ -63693,14 +63714,14 @@ series e:dttw-5yxu d:2015-01-01T00:00:00.000Z
 ```ls
 series e:u88z-wkud d:2015-11-05T00:00:00.000Z
  t:topic="Graduated Reentry: One Step Closer to Strengthening Communities"
- t:presentation_report=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Heari
-ng-2015_Loyola_Presentation.pdf
- t:program=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Hearing-2015-Prog
-ram_FINAL.pdf
  t:description="The Cook County Commission on Women’s Issues held its annual public hearing on the topic of 
 Graduated Reentry. Graduated Reentry is a solution to helping formerly incarcerated women return to their co
 mmunities. Graduated Reentry uses a blend of supports and sanctions to help women and girls released from in
 carceration to make good decisions, avoid recidivism, and build healthy lives."
+ t:presentation_report=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Heari
+ng-2015_Loyola_Presentation.pdf
+ t:program=http://opendocs.cookcountyil.gov/womens-commission/hearing-reports/CCCWI-Public-Hearing-2015-Prog
+ram_FINAL.pdf
  m:row_number.u88z-wkud=1
 
 ```
@@ -64366,10 +64387,10 @@ series e:a3mu-8wek d:2014-04-04T00:00:00.000Z
 series e:4vym-q77x d:2017-03-21T22:01:04.000Z
  t:zip=12305
  t:website=http://www.nysirestakes.com
- t:state=NY
- t:public_authority_type=State
- t:public_authority_name="Agriculture and New York State Horse Breeding Development Fund"
  t:city=SCHENECTADY
+ t:public_authority_type=State
+ t:state=NY
+ t:public_authority_name="Agriculture and New York State Horse Breeding Development Fund"
  m:row_number.4vym-q77x=1
 
 ```
@@ -65137,19 +65158,19 @@ series e:ypp6-4z98 d:2014-01-01T00:00:00.000Z
 
 ```ls
 series e:jqjw-uby8 d:1996-01-01T00:00:00.000Z
- t:product_fda_list_name=PROMETHAZI
- t:ndc=00182050163
- t:package_size=63
- t:state_code=CO
- t:labeler_code=00182
- t:product_code=0501
- t:suppression_used=false
  t:record_id=FFSU
- m:medicaid_amount_reimbursed=0
+ t:package_size=63
+ t:product_fda_list_name=PROMETHAZI
+ t:labeler_code=00182
+ t:suppression_used=false
+ t:product_code=0501
+ t:ndc=00182050163
+ t:state_code=CO
  m:total_amount_reimbursed=1171.42
- m:number_of_prescriptions=63
- m:units_reimbursed=990
  m:non_medicaid_amount_reimbursed=0
+ m:units_reimbursed=990
+ m:medicaid_amount_reimbursed=0
+ m:number_of_prescriptions=63
 
 ```
 
@@ -65170,8 +65191,8 @@ series e:sj6t-9cju d:2012-09-18T12:19:44.000Z
 
 ```ls
 series e:euee-qccq d:2011-03-28T00:00:00.000Z
- m:target_response_time_days_=3
  m:total_completed_requests=45
+ m:target_response_time_days_=3
  m:average_days_to_complete_pavement_cave_in_requests=1.05
 
 ```
@@ -65341,16 +65362,21 @@ series e:h8u2-6ejg d:2013-07-08T00:00:00.000Z
 
 ```ls
 series e:crns-fw6u d:2013-02-01T00:00:00.000Z
- t:program_type=Closed
  t:zip=10456
+ t:sponsor=NYCHA
+ t:program_type=Closed
  t:count_as=Pending
  t:development="1162-1176 'Washington Ave."
- t:state=NY
- t:borough=Bronx
- t:type=NYCHA
- t:sponsor=NYCHA
  t:city=Bronx
- m:row_number.crns-fw6u=1
+ t:nta=Claremont-Bathgate
+ t:borough=Bronx
+ t:state=NY
+ t:type=NYCHA
+ t:council_district=16
+ m:bin=2001312
+ m:community_board=3
+ m:bbl=2023720001
+ m:census_tract=145
 
 ```
 
@@ -65752,11 +65778,11 @@ series e:q9kp-jvxv d:2017-04-08T20:02:42.000Z
 ```ls
 series e:vv8b-tzy8 d:2010-01-01T00:00:00.000Z
  t:loworgdescription="TRAFFIC SYSTEMS UNIT(1644)"
- t:accountdescription="59502  BIENNIAL BUDGET BALANCER"
- t:deptdescription=ROADS(0730)
  t:funddescription="COUNTY ROAD FUND"
- t:account=59502
+ t:deptdescription=ROADS(0730)
  t:fundnumber=1030
+ t:account=59502
+ t:accountdescription="59502  BIENNIAL BUDGET BALANCER"
  m:dept=730
  m:loworg=1644
 
@@ -65771,28 +65797,28 @@ null
 [wd5q-q35v.md](../datasets/wd5q-q35v.md)
 
 ```ls
-series e:wd5q-q35v d:2017-04-18T05:19:00.000Z
+series e:wd5q-q35v d:2017-09-25T00:20:00.000Z
+ t:rwis_display_name="Alaskan Way Viaduct at King St"
  t:objectid=1
  t:rwis_station_name=AlaskanWayViaduct_KingSt
- t:rwis_display_name="Alaskan Way Viaduct at King St"
- m:airtemp_120min=54.370000000000005
- m:airtemp_60min=54.03
- m:rstemp_30min=50.57
- m:rstemp_75min=50.7
- m:airtemp_105min=54.32
- m:airtemp_45min=53.94
- m:airtemp_15min=53.83
- m:airtemp_30min=53.89
- m:rstemp_105min=51.370000000000005
- m:rstemp_15min=50.7
- m:rstemp_current=50.85
- m:airtemp_75min=54.120000000000005
- m:airtemp_current=53.81
- m:rstemp_90min=50.93
- m:rstemp_120min=51.730000000000004
- m:rstemp_45min=50.52
- m:rstemp_60min=50.53
- m:airtemp_90min=54.24
+ m:rstemp_120min=65.15
+ m:rstemp_90min=64.39
+ m:rstemp_current=63.120000000000005
+ m:rstemp_15min=63.22
+ m:airtemp_current=61.7
+ m:airtemp_90min=62.02
+ m:airtemp_30min=61.75
+ m:rstemp_60min=63.71
+ m:airtemp_75min=61.93
+ m:rstemp_45min=63.480000000000004
+ m:airtemp_120min=62.14
+ m:airtemp_15min=61.72
+ m:rstemp_30min=63.32
+ m:airtemp_60min=61.84
+ m:airtemp_105min=62.1
+ m:rstemp_105min=64.8
+ m:rstemp_75min=64.01
+ m:airtemp_45min=61.79
 
 ```
 
@@ -66005,34 +66031,32 @@ series e:5gzq-577f d:2002-01-01T00:00:00.000Z
 [krqq-6qhc.md](../datasets/krqq-6qhc.md)
 
 ```ls
-series e:krqq-6qhc d:2017-05-17T16:26:54.000Z
- t:ntee_cd=A80
- t:zip_code=06024-0383
- t:status=1
- t:name="FRIENDS OF BECKLEY FURNACE INC"
- t:street="PO BOX 383"
+series e:krqq-6qhc d:2017-07-20T13:31:41.000Z
+ t:ntee_cd=B82
+ t:city="NEW BRITAIN"
+ t:street="55 NEANDA ST"
+ t:name="ITALIAN HERITAGE FOUNDATION INC"
  t:state=CT
- t:ico="% ROBERT ANDERSON"
- t:city="EAST CANAAN"
- m:subsection=3
- m:ein=10703391
- m:ruling=200306
- m:acct_pd=12
- m:filing_req_cd=2
- m:tax_period=201512
- m:organization=1
- m:pf_filing_req_cd=0
- m:asset_cd=0
- m:classification=2000
- m:foundation=15
- m:affiliation=3
- m:income_cd=0
- m:group=0
- m:revenue_amt=0
+ t:zip_code=06050-0446
+ t:status=1
+ m:tax_period=201606
  m:deductibility=1
- m:income_amt=0
+ m:filing_req_cd=0
+ m:subsection=3
+ m:income_cd=3
  m:activity=0
- m:asset_amt=0
+ m:ein=10692828
+ m:foundation=4
+ m:pf_filing_req_cd=1
+ m:classification=1000
+ m:asset_cd=3
+ m:ruling=200209
+ m:asset_amt=61462
+ m:affiliation=3
+ m:acct_pd=6
+ m:organization=1
+ m:income_amt=55131
+ m:group=0
 
 ```
 
@@ -66484,9 +66508,9 @@ parately."
 
 ```ls
 series e:bwg6-98m2 d:2014-12-05T07:30:38.000Z
+ t:lot=5
  t:permit_number=P058793
  t:description="ALT BOW WINDOWS  SPECIFIC LOCATION:3826-28 LIBERTY HGTS AVE"
- t:lot=5
  t:block=2930
  m:row_number.bwg6-98m2=1
 
@@ -66842,8 +66866,8 @@ series e:g4rv-58tp d:2011-01-01T00:00:00.000Z
 series e:ewuz-v3y2 d:2016-03-01T00:00:00.000Z
  t:consultant="Muir Consulting"
  t:vendor_sub_vendor_name="Spot On"
- m:payments_received=3250
  m:payments_promised=3250
+ m:payments_received=3250
 
 ```
 
@@ -67196,11 +67220,11 @@ series e:s5s8-d82d d:2014-12-28T00:00:00.000Z
 
 ```ls
 series e:c5zu-3cbe d:2012-01-01T00:00:00.000Z
- t:site="Alsip Village Hall"
  t:zip=60803
+ t:site="Alsip Village Hall"
  t:hours="Monday-Saturday: 9 a.m.–5 p.m."
- t:state=IL
  t:city=Alsip
+ t:state=IL
  m:row_number.c5zu-3cbe=1
 
 ```
@@ -67307,15 +67331,15 @@ series e:mfac-nzpe d:2014-06-18T11:00:41.000Z
 
 ```ls
 series e:e7d3-dxh5 d:2013-07-30T00:00:00.000Z
+ t:lot=52
+ t:pd_no=12
+ t:zoning="RH-1 (D)"
+ t:change_type=Demolition
+ t:block=3702
  t:aff_cat=LI
  t:supervisor=9
- t:lot=52
- t:block=3702
- t:change_type=Demolition
- t:zoning="RH-1 (D)"
- t:pd_no=12
- m:netunits=-418
  m:units=-418
+ m:netunits=-418
 
 ```
 
@@ -68354,14 +68378,14 @@ null
 
 ```ls
 series e:6egj-ay6c d:2006-01-01T00:00:00.000Z
+ t:school_district=Austin
  t:school_name="Cunningham Elementary"
  t:source_of_grant=SECO
- t:school_district=Austin
  m:estimated_total_cost=44205.56
- m:system_size_dc_kw=3.4
  m:estimated_ae_cost=35114.65
- m:estimated_annual_production_kwh=5450
  m:estimated_grant_funds=9090.91
+ m:estimated_annual_production_kwh=5450
+ m:system_size_dc_kw=3.4
 
 ```
 
@@ -68605,16 +68629,16 @@ series e:6jad-5sav d:2001-01-01T00:00:00.000Z
 ```ls
 series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z
  t:dataset_name=Budget
+ m:rank_and_score=9.666666666666666
+ m:member_3=10
+ m:member_4=8
+ m:member_1=9
+ m:member_2=10
  m:member_7=10
  m:member_8=10
- m:rank_and_score=9.666666666666666
  m:member_5=10
  m:member_6=10
  m:member_9=10
- m:member_4=8
- m:member_3=10
- m:member_2=10
- m:member_1=9
 
 ```
 
@@ -68763,39 +68787,39 @@ series e:4j6h-st85 d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:wgrr-kk3q d:2016-01-01T00:00:00.000Z
+ m:ld_robbery=0
+ m:ld_vandalismproperty=0
+ m:ld_injuryfirstaid=0
+ m:ld_rulesviolation=0
+ m:ld_suspiciousincident=0
+ m:ld_burglary=0
+ m:ld_lostfoundchild=0
+ m:ld_idbadge=0
+ m:ld_radioassist=0
+ m:ld_firearson=0
+ m:ld_other=0
+ m:ld_alarm=0
+ m:ld_autotheft=0
+ m:ld_alcoholdrug=0
+ m:ld_carprowl=0
+ m:ld_keyassist=0
  m:ld_karesponse=0
  m:ld_escort=0
- m:ld_lostfoundchild=0
- m:ld_keyassist=0
- m:ld_centerschool=0
- m:ld_carprowl=0
- m:ld_disturbance=0
- m:ld_leashlaw=0
- m:ld_theft=0
- m:ld_idbadge=0
- m:ld_keycorerequest=0
- m:ld_sexoffense=0
- m:ld_vandalismproperty=0
- m:ld_firearson=0
- m:ld_skateboardroller=0
- m:ld_autoassist=0
- m:ld_alcoholdrug=0
- m:ld_radioassist=0
- m:ld_lostfound=0
- m:ld_injuryfirstaid=0
- m:ld_parkingcit=0
- m:ld_graffiti=0
  m:ld_homicide=0
- m:ld_alarm=0
- m:ld_other=0
- m:ld_suspiciousincident=0
- m:ld_rape=0
- m:ld_autotheft=0
- m:ld_assault=0
+ m:ld_theft=0
+ m:ld_sexoffense=0
+ m:ld_graffiti=0
+ m:ld_lostfound=0
+ m:ld_keycorerequest=0
+ m:ld_autoassist=0
  m:ld_publiccontactassistance=0
- m:ld_burglary=0
- m:ld_robbery=0
- m:ld_rulesviolation=0
+ m:ld_assault=0
+ m:ld_parkingcit=0
+ m:ld_leashlaw=0
+ m:ld_disturbance=0
+ m:ld_skateboardroller=0
+ m:ld_rape=0
+ m:ld_centerschool=0
 
 ```
 
@@ -69589,10 +69613,10 @@ series e:ux64-t7is d:2015-08-14T13:17:47.000Z
 [c28j-48tg.md](../datasets/c28j-48tg.md)
 
 ```ls
-series e:c28j-48tg d:2017-05-04T00:00:00.000Z
- t:time=6:00pm-9:00pm
- t:town="New Britian"
- t:place="YMCA- Parker Hall"
+series e:c28j-48tg d:2017-08-08T00:00:00.000Z
+ t:town="New London"
+ t:time=10:30am-1:30pm
+ t:place="New London Public Library"
  t:type=Orientation
  m:row_number.c28j-48tg=1
 
@@ -70109,13 +70133,13 @@ series e:rjb8-qkpa d:2015-01-14T00:00:00.000Z
 
 ```ls
 series e:3bce-kp2x d:2012-01-01T00:00:00.000Z
+ t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of parcels reassessed"
  t:ty2012_variance=-
  t:ty2012_target=TBD
  t:tax_year_2011=527,490
- t:ty2012_ytd=875,000
  t:reporting_office=Assessor
- t:goal_1_ensure_a_fair_accurate_property_valuation_appeals_process="# of parcels reassessed"
  t:tax_year_2009=869,663
+ t:ty2012_ytd=875,000
  m:row_number.3bce-kp2x=1
 
 ```
@@ -70557,11 +70581,11 @@ series e:848i-8umt d:2015-12-23T15:48:47.000Z
 
 ```ls
 series e:wryv-d7zf d:2013-08-26T12:36:45.000Z
- t:zip_code=60068
- t:company="Trader Joe's"
- t:state=IL
- t:store_type=Specialty
  t:city="Park Ridge"
+ t:company="Trader Joe's"
+ t:store_type=Specialty
+ t:state=IL
+ t:zip_code=60068
  m:row_number.wryv-d7zf=1
 
 ```
@@ -70684,8 +70708,8 @@ series e:3kck-gq3y d:2004-04-01T00:00:00.000Z
 series e:yrgu-vakm d:2012-02-15T16:27:02.000Z
  t:contactname="Alex Demisch"
  t:exceptioncode=SFPARK
- t:contactphonenumber="(415) 701-4507"
  t:ctrid=625234
+ t:contactphonenumber="(415) 701-4507"
  m:cnn=9122002
 
 ```
@@ -71029,16 +71053,16 @@ series e:s4kf-3yrf d:2017-03-31T00:00:00.000Z
 
 ```ls
 series e:4akt-7p7i d:2014-12-17T00:00:00.000Z
- t:zip=06105-3177
- t:source="2014 DECLARATION"
- t:location="242 SISSON AV"
- t:dba="DEVARS-PHILLIPS FLORIST"
  t:owner="PAPERWHITES LLC"
+ t:zip=06105-3177
+ t:dba="DEVARS-PHILLIPS FLORIST"
+ t:city=HARTFORD
+ t:st_name="SISSON AV"
  t:st_number=242
+ t:location="242 SISSON AV"
+ t:source="2014 DECLARATION"
  t:state=CT
  t:account=562460
- t:st_name="SISSON AV"
- t:city=HARTFORD
  m:assessment=4370
 
 ```
@@ -71086,16 +71110,16 @@ series e:w898-3dfm d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:43eg-euh2 d:2013-10-01T00:00:00.000Z
- m:average_interval_call_to_door_target=45
- m:percent_specialty_center=99.41
- m:percent_scene_time_compliance=86.39
- m:fiscal_quarter_key=201401
+ m:average_interval_call_to_door=34.44
+ m:count_trauma_alert=170
  m:percent_scene_time_compliance_target=90
- m:count_scene_time_compliance=146
- m:count_trauma_alert=169
- m:count_specialty_center=168
+ m:count_specialty_center=169
+ m:fiscal_quarter_key=201401
+ m:count_scene_time_compliance=147
+ m:percent_specialty_center=99.41
+ m:percent_scene_time_compliance=86.47
+ m:average_interval_call_to_door_target=45
  m:percent_specialty_center_target=95
- m:average_interval_call_to_door=34.46
 
 ```
 
@@ -71171,16 +71195,16 @@ series e:i8zb-z82e d:2012-02-03T07:33:21.000Z
 ```ls
 series e:xv7k-8e7s d:2015-12-27T00:00:00.000Z
  t:reporting_area="UNITED STATES"
- m:shiga_toxin_producing_e_coli_stec_current_week=16
- m:shiga_toxin_producing_e_coli_stec_cum_2015=56
- m:shiga_toxin_producing_e_coli_stec_cum_2016=16
  m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_max=194
- m:shigellosis_current_week=166
- m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111
- m:shigellosis_previous_52_weeks_max=610
- m:shigellosis_previous_52_weeks_med=408
  m:shigellosis_cum_2015=332
  m:shigellosis_cum_2016=166
+ m:shigellosis_previous_52_weeks_med=408
+ m:shiga_toxin_producing_e_coli_stec_previous_52_weeks_med=111
+ m:shigellosis_current_week=166
+ m:shiga_toxin_producing_e_coli_stec_cum_2015=56
+ m:shigellosis_previous_52_weeks_max=610
+ m:shiga_toxin_producing_e_coli_stec_cum_2016=16
+ m:shiga_toxin_producing_e_coli_stec_current_week=16
 
 ```
 
@@ -71231,12 +71255,12 @@ series e:u2xa-4y4q d:1986-01-01T00:00:00.000Z
 [dmhd-88xr.md](../datasets/dmhd-88xr.md)
 
 ```ls
-series e:dmhd-88xr d:2015-11-05T14:36:04.000Z
- t:phase_step_description="User departments and DGS identity the needs/scope/goals of project. Usually in-ho
-use. POR (Program of Requirements) produced at this stage"
- t:phase_step_number=1
+series e:dmhd-88xr d:2017-07-05T18:11:32.000Z
+ t:phase_step_name="Preliminary Design"
  t:phase_type=default
- t:phase_step_name=Planning
+ t:phase_step_description="Architects and engineers work from the defined scope and budget to develop the de
+sign, and  produce construction drawings, etc."
+ t:phase_step_number=2
  m:row_number.dmhd-88xr=1
 
 ```
@@ -72271,17 +72295,17 @@ series e:tth8-fxzt d:2014-01-01T00:00:00.000Z
 ```ls
 series e:fbii-ubkr d:1970-01-01T00:00:00.000Z
  t:year=MARYLAND
- m:projection_2035=6584079
- m:projection_2020=6071714
- m:census_1980=4122547
- m:census_2000=5162430
- m:census_1990=4666897
- m:census_2010=5635177
  m:projection_2040=6700425
  m:projection_2030=6444321
- m:projection_2025=6269826
+ m:census_2010=5635177
+ m:projection_2020=6071714
  m:projection_2015=5864129
+ m:census_1990=4666897
+ m:projection_2035=6584079
  m:census_1970=3817618
+ m:census_2000=5162430
+ m:projection_2025=6269826
+ m:census_1980=4122547
 
 ```
 
@@ -73066,8 +73090,8 @@ series e:28rh-vpvr d:2016-10-01T11:00:40.000Z
 
 ```ls
 series e:q86y-e7vw d:2016-02-11T10:08:43.000Z
- t:what_council_district_do_you_reside_in=10
  t:what_is_your_current_residential_zip_code=78731
+ t:what_council_district_do_you_reside_in=10
  m:row_number.q86y-e7vw=1
 
 ```
@@ -73658,20 +73682,20 @@ series e:si2e-g6pa d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:8zea-kwnt d:1995-10-01T00:00:00.000Z
- t:locationabbr=AK
- t:locationdesc=Alaska
- t:topicid=1045LEG
- t:provisiondesc="Restriction on Access"
  t:measureid=1024EVM
  t:measuredesc="E-Cigarette Vending Machines"
- t:provisiongroupdesc=Restrictions
- t:provisiongroupid=10GRP
- t:provisionvalue="No Provision"
- t:provisionid=495
+ t:provisiondesc="Restriction on Access"
+ t:locationabbr=AK
+ t:locationdesc=Alaska
  t:topicdesc="Legislation - E-Cigarette - Youth Access"
+ t:provisionid=495
+ t:topicid=1045LEG
  t:datatype=Ranking
  t:datasource=OSH
  t:topictypeid=LEG
+ t:provisionvalue="No Provision"
+ t:provisiongroupid=10GRP
+ t:provisiongroupdesc=Restrictions
  m:provisionaltvalue=0
 
 ```
@@ -74477,21 +74501,21 @@ series e:dx5r-rh67 d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:3cn8-i54i d:2013-11-15T13:32:11.000Z
- t:org_id=X012
  t:building_name="P.S. 12 - BRONX"
- t:bldg_i_d_=X012
- t:borough=X
+ t:org_id=X012
  t:district=75
+ t:borough=X
  t:organization_name="X012 SPED - BRONX"
- m:bldg_enroll=231
- m:bldg_over_under=-53
+ t:bldg_i_d_=X012
  m:org_capacity=284
- m:bldg_capacity=284
- m:org_enroll=231
+ m:bldg_enroll=231
  m:org_over_under=-53
  m:org_utilization=81
- m:no_of_spec_rooms_used=2
  m:bldg_utilization=81
+ m:org_enroll=231
+ m:bldg_over_under=-53
+ m:bldg_capacity=284
+ m:no_of_spec_rooms_used=2
 
 ```
 
@@ -74843,11 +74867,11 @@ series e:h5ds-84gh d:2013-12-31T00:00:00.000Z
 
 ```ls
 series e:whnr-x36y d:2014-01-01T00:00:00.000Z
+ t:ous_division="Southern Oregon University"
  t:vendor_city="GRANTS PASS"
- t:vendor_state=OR
  t:account_category="Accounting Service"
  t:vendor_name="Rogue Community College"
- t:ous_division="Southern Oregon University"
+ t:vendor_state=OR
  m:amount=9175.25
 
 ```
@@ -75229,19 +75253,19 @@ series e:7tbu-af89 d:2017-04-13T00:00:00.000Z
 [tzir-jbhj.md](../datasets/tzir-jbhj.md)
 
 ```ls
-series e:tzir-jbhj d:2017-03-24T17:44:56.000Z
- t:inventory_status=Complete
- t:publishing_plan_status=Complete
+series e:tzir-jbhj d:2017-08-14T18:45:32.000Z
  t:department_code=311
+ t:publishing_plan_status=Complete
  t:department_or_division=311
- m:target_december_2017=0
+ t:inventory_status=Complete
+ m:target_december_2016=0
+ m:target_december_2015=0
+ m:published_through_june_2016=0
  m:target_june_2016=0
  m:published_through_december_2015=0
  m:published_through_december_2016=0
+ m:target_december_2017=0
  m:published_through_december_2017=0
- m:published_through_june_2016=0
- m:target_december_2015=0
- m:target_december_2016=0
 
 ```
 
@@ -76040,8 +76064,8 @@ series e:vvj6-d5qx d:2015-04-09T13:04:16.000Z
 
 ```ls
 series e:vk9f-gvzq d:2016-09-01T00:00:00.000Z
- t:total_investigations_assigned=Total
  t:borough=Citywide
+ t:total_investigations_assigned=Total
  m:investigations_assigned_count=112
 
 ```
@@ -76112,13 +76136,13 @@ series e:au6r-w9n3 d:2017-03-20T08:00:00.000Z
 
 ```ls
 series e:pf2v-pv7v d:2014-10-20T10:18:28.000Z
- t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo
- t:phone=503-854-3366
- t:facility="Detroit Lake  (Blowout Arm)"
- t:waterbody="Detroit Lake"
- t:name="USFS, Detroit Ranger District"
  t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx
+ t:phone=503-854-3366
+ t:name="USFS, Detroit Ranger District"
+ t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo
+ t:waterbody="Detroit Lake"
  t:type="Floating Restroom"
+ t:facility="Detroit Lake  (Blowout Arm)"
  m:point_size=20
 
 ```
@@ -76170,136 +76194,136 @@ series e:azpf-uc4s d:2013-11-25T14:34:44.000Z
 
 ```ls
 series e:9uhv-6je7 d:2004-07-01T00:00:00.000Z
- t:cntedpre=D
- t:cntedprd=D
- t:cntedprc=D
- t:cntedprb=D
+ t:cnsltsvb=D
+ t:cnsltsva=D
  t:physaddr="333 WILLOUGHBY AVENUE"
- t:mailzip=99811
+ t:cnsltsve=D
+ t:cnsltsvd=D
+ t:cnsltsvc=D
+ t:oclcgaca=D
+ t:oclcgacd=D
+ t:oclcgace=D
+ t:mailzip4=571
+ t:oclcgacb=D
+ t:oclcgacc=D
+ t:univserb=N
+ t:univserc=D
+ t:univserd=N
+ t:univsere=D
+ t:collbstb=N
+ t:collbsta=D
+ t:collbste=N
+ t:collbstd=N
+ t:collbstc=D
+ t:univsera=D
  t:mailaddr="P.O. BOX 110571"
- t:cntedpra=D
- t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
+ t:lstasve=D
+ t:lstasvc=D
+ t:lstasvd=D
+ t:lstasva=D
+ t:lstasvb=D
  t:physzip4=571
- t:sumreade=N
- t:sumreadd=N
- t:sumreadc=N
- t:sumreadb=N
- t:sumreada=D
+ t:litprsve=N
+ t:litprsvd=N
+ t:litprsvc=N
+ t:litprsvb=N
+ t:litprsva=N
+ t:cntedpra=D
+ t:cntedprd=D
+ t:cntedpre=D
+ t:cntedprb=D
+ t:pub_fips=2
+ t:cntedprc=D
+ t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
  t:mail_st=AK
+ t:swvrsb=N
+ t:swvrsa=N
+ t:swvrsd=N
+ t:cooppura=N
+ t:swvrsc=N
+ t:cooppurb=N
+ t:cooppurc=N
+ t:retrocve=N
+ t:swvrse=N
+ t:physcity=JUNEAU
+ t:cooppurd=N
+ t:retrocvd=N
+ t:cooppure=N
+ t:retrocvc=N
+ t:retrocvb=N
+ t:retrocva=N
+ t:swdigpra=D
+ t:swdigprc=N
+ t:swdigprb=N
+ t:swdigpre=N
+ t:mailzip=99811
+ t:swdigprd=N
  t:obereg=8
- t:ststande=D
+ t:certlibe=N
+ t:certlibd=N
+ t:certlibc=N
+ t:certlibb=N
+ t:certliba=N
  t:ststandd=N
  t:ststandc=D
  t:ststandb=N
+ t:preserve=N
  t:ststanda=D
- t:physcity=JUNEAU
+ t:preservd=N
+ t:preservc=N
+ t:preservb=N
+ t:stwidprb=N
+ t:preserva=N
+ t:stwidpra=C
+ t:staidsvd=N
+ t:stwidprd=N
+ t:uniondvd=C
  t:rstatus=1
- t:physzip=99811
- t:lstasvc=D
- t:retrocvc=N
- t:collbste=N
- t:lstasvd=D
- t:retrocvd=N
- t:collbstd=N
- t:lstasve=D
- t:retrocva=N
- t:collbstc=D
- t:retrocvb=N
- t:collbstb=N
- t:collbsta=D
- t:lstasva=D
- t:retrocve=N
- t:lstasvb=D
+ t:staidsve=N
+ t:stwidprc=C
+ t:uniondvc=C
+ t:staidsvb=N
+ t:uniondvb=C
+ t:staidsvc=N
+ t:stwidpre=C
+ t:uniondva=C
+ t:webaddr=WWW.LIBRARY.STATE.AK.US
+ t:staidsva=D
+ t:illrefa=D
+ t:ststande=D
+ t:uniondve=C
  t:illrefb=D
- t:litprsvd=N
  t:illrefc=D
- t:litprsve=N
  t:illrefd=D
  t:illrefe=D
- t:litprsva=N
- t:litprsvb=N
- t:litprsvc=N
- t:illrefa=D
+ t:phys_st=AK
+ t:mailcity=JUNEAU
+ t:accrlibc=N
+ t:accrlibb=N
+ t:accrliba=N
+ t:accrlibe=N
+ t:accrlibd=N
+ t:physzip=99811
+ t:libplanc=D
+ t:refrefb=D
+ t:libplanb=D
+ t:refrefc=D
+ t:libplane=D
+ t:sumreade=N
+ t:libpland=D
+ t:refrefa=D
+ t:sumreadc=N
+ t:sumreadd=N
+ t:libplana=D
+ t:refrefd=D
+ t:sumreada=D
+ t:refrefe=D
+ t:sumreadb=N
+ t:liblege=D
  t:liblegb=D
  t:liblega=D
  t:liblegd=D
  t:liblegc=D
- t:liblege=D
- t:swdigprd=N
- t:stwidprb=N
- t:swdigpre=N
- t:stwidpra=C
- t:swdigpra=D
- t:swdigprb=N
- t:swdigprc=N
- t:preservc=N
- t:preservd=N
- t:preserva=N
- t:preservb=N
- t:preserve=N
- t:oclcgace=D
- t:cooppurd=N
- t:oclcgacd=D
- t:cooppure=N
- t:oclcgacc=D
- t:oclcgacb=D
- t:webaddr=WWW.LIBRARY.STATE.AK.US
- t:oclcgaca=D
- t:cooppura=N
- t:cooppurb=N
- t:cooppurc=N
- t:stwidpre=C
- t:stwidprc=C
- t:stwidprd=N
- t:accrlibe=N
- t:accrlibd=N
- t:phys_st=AK
- t:certlibe=N
- t:certlibc=N
- t:certlibd=N
- t:certliba=N
- t:certlibb=N
- t:accrlibb=N
- t:refrefa=D
- t:accrlibc=N
- t:refrefb=D
- t:refrefc=D
- t:accrliba=N
- t:refrefd=D
- t:refrefe=D
- t:cnsltsve=D
- t:cnsltsvd=D
- t:cnsltsvc=D
- t:mailcity=JUNEAU
- t:pub_fips=2
- t:uniondva=C
- t:uniondvb=C
- t:uniondvc=C
- t:uniondvd=C
- t:uniondve=C
- t:cnsltsva=D
- t:cnsltsvb=D
- t:swvrsa=N
- t:swvrsb=N
- t:libplana=D
- t:mailzip4=571
- t:libpland=D
- t:libplane=D
- t:libplanb=D
- t:libplanc=D
- t:staidsva=D
- t:univsera=D
- t:staidsve=N
- t:staidsvd=N
- t:staidsvc=N
- t:staidsvb=N
- t:swvrsd=N
- t:swvrsc=N
- t:swvrse=N
- t:univserc=D
- t:univserb=N
- t:univsere=D
- t:univserd=N
  m:popu_st=663661
 
 ```
@@ -76385,14 +76409,14 @@ series e:expr-duat d:2011-11-02T09:14:50.000Z
 ```ls
 series e:k7a5-emiw d:2014-02-24T12:39:00.000Z
  t:officer_id=7693
- t:file_size="47.783 MB"
- t:resolution=720x480
- t:frame_range=598-897
- t:file_name=76936@20140224123907.mpg
  t:time_range=00:00:19-00:00:29
+ t:file_name=76936@20140224123907.mpg
+ t:frame_range=598-897
+ t:resolution=720x480
+ t:file_size="47.783 MB"
  m:duration=10.82
- m:dropped_frames=24
  m:fps=27.64
+ m:dropped_frames=24
 
 ```
 
@@ -76545,9 +76569,9 @@ series e:72qm-3bwf d:2010-05-04T00:00:00.000Z
 ```ls
 series e:puxz-9rab d:2002-01-01T00:00:00.000Z
  m:domestic_arrivals=4358850
- m:total_visitor_arrivals=6389058
  m:international_arrivals=2030208
  m:total_visitor_days=58471088
+ m:total_visitor_arrivals=6389058
 
 ```
 
@@ -77056,9 +77080,9 @@ series e:bss9-579f d:2011-01-01T00:00:00.000Z
 ```ls
 series e:f8a8-4x84 d:2010-11-29T00:00:00.000Z
  t:lot=11
- t:block=1150
- t:projectname="Lower Caroline St."
  t:phase=CDC_1
+ t:projectname="Lower Caroline St."
+ t:block=1150
  m:row_number.f8a8-4x84=1
 
 ```
@@ -77403,11 +77427,11 @@ series e:ypez-j3yg d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:t4zw-f3yr d:2012-01-01T00:00:00.000Z
- m:inc_dec=-0.0006
- m:industrial=2648486622
- m:commerical=4633556863
- m:residential=4381193546
  m:government_entities=1005960507
+ m:industrial=2648486622
+ m:inc_dec=-0.0006
+ m:residential=4381193546
+ m:commerical=4633556863
  m:total_billed_kwh=12716146231
  m:public_street_highway=46948693
 
@@ -79160,31 +79184,31 @@ series e:s54h-bixi d:1989-01-01T00:00:00.000Z
 [t9u7-4d2j.md](../datasets/t9u7-4d2j.md)
 
 ```ls
-series e:t9u7-4d2j d:2015-11-20T00:00:00.000Z
- t:additional_dryer_features="Drum light,Time remaining display,Wrinkle prevention option,Sanitization cycle
-"
- t:markets="United States"
- t:connected=No
- t:type=Electric
- t:upc=8
- t:paired_energy_star_clothes_washer_energy_star_model_identifier=GTW680BSJ***
- t:meets_most_efficient_criteria=No
- t:brand_name=GE
- t:model_name=GTX65EB*J***
- t:pd_id=2252704
- t:model_number=GTX65EB*J***
+series e:t9u7-4d2j d:2015-12-21T00:00:00.000Z
  t:paired_energy_star_clothes_washer_available=Yes
- t:energy_star_model_identifier=ES_1123206_GTX65EB*J***_11162015221610_2170044
- t:energy_test_cycle_information="COTTONS CYCLE WITH DEFAULT DRYNESS SETTING OF DRY, LOW TEMP, AND DEFAULT E
-DRY ON"
+ t:upc=08469181039
+ t:brand_name=GE
+ t:type=Electric
+ t:energy_star_model_identifier=ES_1123206_GTD81ESSJ2WS_05132016163147_7107967
+ t:connected=No
+ t:paired_energy_star_clothes_washer_energy_star_model_identifier=ES_1123206_GTW810S*J***_04302015180548_714
+8523
+ t:markets="United States"
+ t:meets_most_efficient_criteria=No
+ t:model_name=GTD81ESSJ2WS
+ t:additional_dryer_features="Drum light,Time remaining display,Steam cycle,Energy monitor/indicator"
+ t:energy_test_cycle_information="COTTONS CYCLE WITH DEFAULT DRYNESS SETTING OF DRY AND DEFAULT EDRY ON, WHI
+CH INCLUDES LOW TEMPERATURE SETTING"
  t:vented_or_ventless=Vented
- m:depth_inches=26.75
- m:drum_capacity_cu_ft=6.2
- m:height_inches=43.7
- m:estimated_annual_energy_use_kwh_yr=608
- m:width_inches=26.96
+ t:model_number=GTD81ESSJ2WS
+ t:pd_id=2267737
+ m:estimated_energy_test_cycle_time_min=69
+ m:depth_inches=31.9
+ m:width_inches=28
  m:combined_energy_factor_cef=3.93
- m:estimated_energy_test_cycle_time_min=59
+ m:height_inches=44.5
+ m:drum_capacity_cu_ft=7.8
+ m:estimated_annual_energy_use_kwh_yr=608
 
 ```
 
@@ -79354,15 +79378,15 @@ series e:9cnu-4c7f d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:ruj7-9gwq d:2016-09-26T00:00:00.000Z
- t:new_type=LN
- t:old_type=LN
- t:old_street_name=WINSTED
  t:key_number=14121
- t:new_street_name=WINSTED
- t:new_house=2400
- t:new_bldg=2
- t:tax_id=0115040605
+ t:new_type=LN
+ t:old_street_name=WINSTED
+ t:old_type=LN
  t:old_house=2400
+ t:new_bldg=2
+ t:new_street_name=WINSTED
+ t:tax_id=0115040605
+ t:new_house=2400
  m:row_number.ruj7-9gwq=1
 
 ```
@@ -80110,12 +80134,12 @@ series e:5ytf-wban d:2015-02-03T09:25:58.000Z
 ```ls
 series e:7a7x-7wap d:2013-01-01T00:00:00.000Z
  t:department=Mayor
- m:total=735784
- m:personal_services=598685
- m:debt_service=0
- m:contractual_expenses=10300
- m:equipment=0
  m:benefits=126799
+ m:total=735784
+ m:equipment=0
+ m:personal_services=598685
+ m:contractual_expenses=10300
+ m:debt_service=0
 
 ```
 
@@ -80370,12 +80394,12 @@ series e:jxyc-rxiv d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:j55i-sqj8 d:2015-01-07T22:20:29.000Z
- t:hispanic_origin=Hispanic
  t:unique_id=A2006200804120
  t:cause_of_death="Whooping cough"
  t:year_range=2006-2008
- t:gender=Total
  t:race=White
+ t:gender=Total
+ t:hispanic_origin=Hispanic
  m:upper_95_confidence_interval=0.8
  m:age_adjusted_rate_per_100_000_population=0
  m:lower_95_confidence_interval=0
@@ -80486,12 +80510,12 @@ series e:npw8-6cq9 d:2010-06-20T00:00:00.000Z
 
 ```ls
 series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z
- t:subject_detail="CSR - Ambassador"
- t:commendation_or_complaint=Commendation
  t:branch_line_route="No Value"
- t:subject_matter=Employees
+ t:commendation_or_complaint=Commendation
  t:agency="Long Island Rail Road"
+ t:subject_matter=Employees
  t:issue_detail="Very Helpful/Friendly"
+ t:subject_detail="CSR - Ambassador"
  m:row_number.tppa-s6t6=1
 
 ```
@@ -80785,19 +80809,19 @@ series e:m4iq-w9dy d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z
- t:fy08_actual="* 85,376,533"
- t:fy10_actual="* 94,988,009"
- t:fy14_actual="* 113,841,399"
- t:fy11_actual="* 98,703,496"
  t:type=Revenue
+ t:fy12_actual="* 102,975,330"
  t:fy13_actual="* 108,407,664"
+ t:fy11_actual="* 98,703,496"
+ t:fy08_actual="* 85,376,533"
+ t:fy07_actual="* 81,005,608"
  t:fy15_budgeted="* 120,467,965"
  t:category="Real Estate and Personal Property taxes"
- t:fy12_actual="* 102,975,330"
+ t:fy14_actual="* 113,841,399"
+ t:fy10_actual="* 94,988,009"
  t:fy09_actual="* 90,085,919"
- t:fy07_actual="* 81,005,608"
- t:fy05_actual="* 72,674,214"
  t:fy06_actual="* 76,777,383"
+ t:fy05_actual="* 72,674,214"
  m:fy04_actual=69129693
 
 ```
@@ -80806,11 +80830,11 @@ series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z
 
 ```ls
 series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z
+ t:system_use="Storm; even if DS flow is combined"
+ t:drain_type="Catch Basin Drain"
+ t:puc_maximo_asset_id=N-42990
  t:system_use_code=STORM
  t:dpw_node_id=155540
- t:puc_maximo_asset_id=N-42990
- t:drain_type="Catch Basin Drain"
- t:system_use="Storm; even if DS flow is combined"
  m:row_number.jtgq-b7c5=1
 
 ```
@@ -81168,8 +81192,8 @@ series e:bqh6-bapa d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:v7fv-ya55 d:2010-04-02T00:00:00.000Z
- m:piney_run=76
  m:state_wide_max=76
+ m:piney_run=76
 
 ```
 
@@ -81370,16 +81394,16 @@ series e:hx52-x7fs d:2014-06-17T00:00:00.000Z
 
 ```ls
 series e:2dce-kiyy d:2013-10-25T10:06:51.000Z
- t:box_city=Burien
- t:election_day_hours="Close at 8 pm"
- t:ballot_drop_box="Burien City Hall"
- t:box_zip_code=98166
+ t:chinese=布萊恩市政廳
  t:hours="24 hours"
+ t:ballot_drop_box="Burien City Hall"
+ t:election_day_hours="Close at 8 pm"
  t:in_use=true
+ t:box_city=Burien
  t:vietnamese="Hội Trường Thành Phố Burien"
  t:photo2=EqLUSLZASNzMiwp4OUmu-ftPzpdbDS4RXXXvpT9-_Fs
  t:dates_open="Oct 17-Nov 5"
- t:chinese=布萊恩市政廳
+ t:box_zip_code=98166
  m:row_number.2dce-kiyy=1
 
 ```
@@ -81670,134 +81694,134 @@ series e:i7f9-fj37 d:1991-07-15T00:00:00.000Z
 
 ```ls
 series e:2sms-kv74 d:2011-10-01T00:00:00.000Z
- t:appbygov=X
- t:physaddr="6030 MONTICELLO DRIVE"
  t:stlacont=N
- t:mailzip=36117
- t:netmount=Y
- t:mailaddr="6030 MONTICELLO DRIVE"
- t:stlaname="ALABAMA PUBLIC LIBRARY SERVICE"
- t:physzip4=1907
- t:webaddr=HTTP://WEBMINI.APLS.STATE.AL.US/APLS_WEB/APLS/APLS/
- t:othallop=N
- t:netgoph=Y
- t:remoteac=Y
- t:stdeplib=N
- t:sthstmus=N
- t:mail_st=AL
- t:obereg=5
- t:elecbibl=Y
- t:phys_st=AL
- t:pla_gov=P
- t:netsub=Y
- t:fddeplib=N
- t:othallsp=P
- t:dig_ag=N
- t:starchiv=N
- t:pld_oth=P
- t:strecmng=N
- t:accoth=N
- t:largerag=P
- t:dig_lib=Y
- t:branch=E
- t:erateapp=N
- t:pubswdbl=Y
- t:fipsst=1
  t:schswdbl=Y
- t:nettrstf=Y
- t:physcity=MONTGOMERY
- t:mailcity=MONTGOMERY
- t:elecoper=N
+ t:remoteac=Y
+ t:othallop=N
+ t:physaddr="6030 MONTICELLO DRIVE"
  t:othagsp=P
- t:appbyoth=P
- t:elecplan=Y
- t:rstatus=1
- t:physzip=36117
- t:dig_stla=N
- t:electext=Y
- t:lcswdbl=Y
- t:othswdbl=Y
- t:stlahost=N
- t:nettrcus=Y
+ t:branch=E
+ t:mailzip=36117
+ t:othallsp=P
+ t:obereg=5
  t:mailzip4=1907
+ t:appbygov=X
+ t:dig_ag=N
+ t:netmount=Y
+ t:appbyoth=P
+ t:elecbibl=Y
+ t:dig_stla=N
+ t:accoth=N
+ t:nettrcus=Y
+ t:netgoph=Y
  t:othaccsp=P
- t:netequip=N
- t:pla_brco=P
- t:spcswdbl=Y
- t:accwbcat=Y
- t:regional=N
- t:stlegref=N
+ t:elecoper=N
  t:selectiv=N
+ t:lcswdbl=Y
+ t:rstatus=1
+ t:webaddr=HTTP://WEBMINI.APLS.STATE.AL.US/APLS_WEB/APLS/APLS/
+ t:strecmng=N
+ t:spcswdbl=Y
+ t:pla_gov=P
+ t:dig_lib=Y
  t:indagy=B
+ t:phys_st=AL
+ t:mailaddr="6030 MONTICELLO DRIVE"
+ t:pla_brco=P
+ t:regional=N
+ t:electext=Y
+ t:erateapp=N
+ t:nettrstf=Y
+ t:mailcity=MONTGOMERY
+ t:accwbcat=Y
  t:acswdbl=Y
- m:libserv=11
- m:mainout=1
- m:bkservol=64302
- m:ototstaf=18
- m:govdoc=0
- m:othserv=4
- m:ntotstaf=0
- m:libvists=525
- m:nadmin=0
- m:mothserv=0
- m:bkmobile=0
- m:nlibdev=0
- m:mon2frce=0
- m:oadmin=7
- m:nlibserv=0
- m:video=0
- m:otstoutd=0
- m:otstoutc=0
- m:otstoutb=0
- m:atevents=4946
- m:otstouta=0
- m:satsunce=0
- m:otherout=0
- m:totstaf=30
- m:grantaw=108
- m:swdblicd=1100399
- m:tothrsce=40
- m:coroutd=0
- m:swdblicb=269800
- m:coroutb=0
- m:oothserv=4
- m:nothserv=0
- m:swdblicc=0
- m:coroutc=0
- m:events=75
- m:olibdev=0
- m:corouta=0
- m:swdblica=830599
- m:madmin=1
- m:gvemoutd=1
- m:recfrom=187
- m:gvemoutc=0
- m:olibserv=7
- m:gvemoutb=0
+ t:starchiv=N
+ t:stdeplib=N
+ t:physzip4=1907
+ t:elecplan=Y
+ t:fddeplib=N
+ t:physzip=36117
+ t:largerag=P
+ t:stlegref=N
+ t:fipsst=1
+ t:stlaname="ALABAMA PUBLIC LIBRARY SERVICE"
+ t:mail_st=AL
+ t:pubswdbl=Y
+ t:stlahost=N
+ t:physcity=MONTGOMERY
+ t:netsub=Y
+ t:othswdbl=Y
+ t:netequip=N
+ t:sthstmus=N
+ t:pld_oth=P
  m:bphoutc=0
- m:gvemouta=1
  m:bphoutb=0
  m:bphouta=1
- m:provto=1025
- m:bphoutd=1
- m:popu_st=4822023
- m:mlibdev=7
+ m:madmin=1
+ m:olibdev=0
+ m:otherout=0
+ m:othserv=4
+ m:bkservol=64302
+ m:mon2frce=0
+ m:otstouta=0
+ m:otstoutc=0
+ m:otstoutb=0
+ m:bkmobile=0
+ m:otstoutd=0
+ m:swdblica=830599
+ m:swdblicb=269800
+ m:swdblicc=0
  m:subscrip=310
- m:paiw_oth=0
- m:reftrans=461
- m:pagiw_lo=0
- m:gpouta=0
- m:audio=0
+ m:nadmin=0
  m:gpoutb=0
- m:mlibserv=4
- m:gpoutc=0
+ m:gpouta=0
  m:gpoutd=0
- m:totalout=1
- m:circ=902
- m:admin=8
- m:libdev=7
- m:tothrs=40
+ m:events=75
+ m:gpoutc=0
+ m:bphoutd=1
+ m:atevents=4946
  m:mtotstaf=12
+ m:ototstaf=18
+ m:tothrsce=40
+ m:oadmin=7
+ m:libdev=7
+ m:coroutd=0
+ m:reftrans=461
+ m:corouta=0
+ m:coroutc=0
+ m:coroutb=0
+ m:popu_st=4822023
+ m:circ=902
+ m:mothserv=0
+ m:recfrom=187
+ m:provto=1025
+ m:oothserv=4
+ m:nlibserv=0
+ m:mlibserv=4
+ m:olibserv=7
+ m:admin=8
+ m:totstaf=30
+ m:video=0
+ m:mlibdev=7
+ m:audio=0
+ m:pagiw_lo=0
+ m:totalout=1
+ m:libvists=525
+ m:paiw_oth=0
+ m:grantaw=108
+ m:ntotstaf=0
+ m:swdblicd=1100399
+ m:satsunce=0
+ m:gvemoutc=0
+ m:gvemoutd=1
+ m:gvemouta=1
+ m:gvemoutb=0
+ m:nlibdev=0
+ m:libserv=11
+ m:tothrs=40
+ m:govdoc=0
+ m:mainout=1
+ m:nothserv=0
 
 ```
 
@@ -82276,14 +82300,14 @@ elopment Authority Council, for aterm of confirmation to December 31, 2014."
 series e:9gmp-f9x2 d:2013-03-06T07:19:47.000Z
  t:grade=9
  t:borough=MANHATTAN
- m:2017=13725
+ m:2009=17150
  m:2008=18366
  m:2018=13764
- m:2009=17150
- m:2013=14380
- m:2014=14440
- m:2015=13884
+ m:2017=13725
  m:2016=13327
+ m:2015=13884
+ m:2014=14440
+ m:2013=14380
  m:2012=14879
  m:2011=15537
  m:2010=16092
@@ -82294,10 +82318,10 @@ series e:9gmp-f9x2 d:2013-03-06T07:19:47.000Z
 
 ```ls
 series e:j4sj-j2nf d:2016-07-26T18:30:18.000Z
- t:taz=706
  t:county=007
  t:name=706
  t:state=06
+ t:taz=706
  m:area=0.0179622866015006
  m:tz06_d00_=2
  m:perimeter=0.932156624884747
@@ -83255,20 +83279,21 @@ series e:y7qa-tvqx d:2012-09-18T12:30:09.000Z
 [uc6q-9632.md](../datasets/uc6q-9632.md)
 
 ```ls
-series e:uc6q-9632 d:2010-06-15T00:00:00.000Z
- t:energy_star_partner="Kaz Incorporated"
- t:model_number=HHT-155
+series e:uc6q-9632 d:2013-07-01T00:00:00.000Z
+ t:energy_star_model_identifier="ES_1124533_AeraMax 200_07312013150738_5546228"
  t:markets="United States"
- t:energy_star_model_identifier=ES_1026671_HHT-155_10182012151134_8262903
- t:brand_name=Honeywell
- t:model_name=HHT-155
- t:pd_id=2099518
- m:pollen_cadr=148
- m:standy_power_watts=0.53
- m:tobacco_smoke_cadr=118
- m:energy_consumption_watts=57
- m:dust_cadr_watt=2.84
- m:dust_cadr=146
+ t:additional_model_information=",AeraMax 190,; ,AeraMax DB55,; ,AeraMax DX55,"
+ t:model_name="AeraMax 200"
+ t:energy_star_partner="Fellowes, Inc."
+ t:brand_name=Fellowes
+ t:model_number="AeraMax 200"
+ t:pd_id=2189195
+ m:tobacco_smoke_cadr=120
+ m:pollen_cadr=127
+ m:dust_cadr=129
+ m:standy_power_watts=0.01
+ m:dust_cadr_watt=2.3
+ m:energy_consumption_watts=58
 
 ```
 
@@ -83724,16 +83749,16 @@ ention the lost green space, and opportunity to use the land productively withou
 
 ```ls
 series e:97wa-y6ff d:2014-05-02T00:00:00.000Z
+ t:license=94026
  t:renewed=05/2016
- t:sex=MALE
+ t:driver_type=Taxi
+ t:city=ROSEMONT
  t:license_type=PERMANENT
- t:status=ACTIVE
+ t:sex=MALE
+ t:record_number=10-00180783
  t:name="ABDALLAH OU ALI, OMAR AIT"
  t:state=IL
- t:license=94026
- t:driver_type=Taxi
- t:record_number=10-00180783
- t:city=ROSEMONT
+ t:status=ACTIVE
  m:row_number.97wa-y6ff=1
 
 ```
@@ -83881,9 +83906,9 @@ series e:ej35-turb d:1975-01-01T00:00:00.000Z
 [madj-gkhr.md](../datasets/madj-gkhr.md)
 
 ```ls
-series e:madj-gkhr d:2015-12-31T10:03:25.000Z
- t:school_dbn=10X024
+series e:madj-gkhr d:2015-09-09T00:00:00.000Z
  t:school_year=2015-2016
+ t:school_dbn=10X024
  m:of_attd_taken=96.6
  m:register=999
 
@@ -85083,114 +85108,114 @@ series e:pwhu-m93q d:2009-06-30T00:00:00.000Z
 
 ```ls
 series e:9wry-mtm5 d:2006-07-01T00:00:00.000Z
- t:physcity=JUNEAU
- t:mailcity=JUNEAU
- t:asf_lc=Y
- t:mail_st=AK
- t:pub_fips=2
- t:obereg=8
- t:asf_ac=Y
- t:physaddr="333 WILLOUGHBY AVENUE"
- t:phys_st=AK
- t:mailzip=99811
- t:mailzip4=571
- t:asf_pub=Y
  t:mailaddr="P.O. BOX 110571"
- t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
- t:physzip4=571
- t:asf_sch=Y
- t:webaddr=WWW.LIBRARY.STATE.AK.US
  t:asf_sp=Y
- t:rstatus=1
- t:physzip=99811
+ t:asf_ac=Y
  t:fiothsp=P
- m:capitalc=0
- m:capitalb=0
- m:capitala=0
- m:totaidb=891400
- m:siother=90403
- m:totaida=872718
- m:aidsala=443008
- m:capitald=0
- m:admexpt=14735
- m:swexpt=0
- m:admexpu=14735
+ t:asf_lc=Y
+ t:asf_sch=Y
+ t:pub_fips=2
+ t:physaddr="333 WILLOUGHBY AVENUE"
+ t:mailcity=JUNEAU
+ t:mailzip=99811
+ t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
+ t:mail_st=AK
+ t:rstatus=1
+ t:physcity=JUNEAU
+ t:webaddr=WWW.LIBRARY.STATE.AK.US
+ t:physzip4=571
+ t:asf_pub=Y
+ t:obereg=8
+ t:mailzip4=571
+ t:phys_st=AK
+ t:physzip=99811
+ m:aidipld=767959
+ m:aidiplc=2261
+ m:aidiplb=652310
+ m:aidipla=113388
+ m:oexpsald=1590977
+ m:oexpsala=6630
+ m:siaidlib=891400
+ m:oexpsalc=36794
+ m:oexpsalb=1547553
+ m:totexpd=5073528
  m:oexpbenb=852843
+ m:aidoild=128773
  m:oexpbena=8105
+ m:siother=90403
+ m:capitald=0
  m:oexpbend=877867
+ m:aidoilb=85389
  m:oexpbenc=16919
- m:totincm=5099564
- m:othincm=35300
- m:aidlcd=0
- m:aidlcc=0
+ m:aidoilc=6749
+ m:capitala=0
+ m:aidoila=36635
+ m:aidplsd=121925
+ m:capitalc=0
+ m:aidplsc=25000
+ m:capitalb=0
+ m:aidplsb=0
+ m:aidplsa=96925
  m:totexpu=887453
  m:totexpt=887453
- m:fioth=0
- m:aidlca=0
- m:aidlcb=0
- m:totexpd=5073528
- m:totexpa=887453
- m:totexpc=99667
- m:totexpb=4086408
+ m:aidsalb=144916
+ m:aidsalc=0
+ m:aidsald=587924
+ m:swexpt=0
+ m:techxu=274310
+ m:oexpcold=208402
+ m:othexpd=0
+ m:othexpc=0
+ m:oexpcolb=208402
+ m:othexpb=0
+ m:oexpcolc=0
+ m:othexpa=0
  m:sistlaop=3195008
- m:aidmlsa=182762
- m:aidmlsc=11944
+ m:admexpt=14735
+ m:totaidb=891400
+ m:admexpu=14735
+ m:totaida=872718
  m:popu_st=683478
- m:aidmlsb=8785
+ m:oexpcola=0
+ m:othincm=35300
  m:totoxstc=53713
+ m:aidothc=0
  m:totoxstd=2468844
- m:aidmlsd=203491
- m:serllxu=328659
+ m:aidothd=0
+ m:lstainc=887453
+ m:aidotha=0
+ m:aidothb=0
  m:totopexc=53713
+ m:total_fi=887453
  m:totopexd=3263456
  m:totopexa=14735
- m:aidothd=0
  m:totopexb=3195008
- m:aidothc=0
- m:oexpothc=0
- m:aidothb=0
- m:total_fi=887453
- m:oexpothd=586210
- m:aidotha=0
- m:oexpotha=0
- m:oexpothb=586210
- m:aidplsc=25000
- m:aidplsd=121925
- m:total_si=4176811
- m:totoxstb=2400396
- m:totoxsta=14735
- m:oexpcold=208402
- m:lstainc=887453
- m:grexpt=872718
- m:oexpcolb=208402
- m:aidplsa=96925
- m:oexpcolc=0
- m:aidplsb=0
- m:oexpcola=0
- m:aidiplc=2261
- m:othexpd=0
- m:oexpsalb=1547553
- m:serdifxu=269749
- m:siaidlib=891400
- m:aidipld=767959
- m:oexpsalc=36794
- m:aidipla=113388
- m:othexpb=0
- m:aidiplb=652310
- m:othexpc=0
- m:aidoila=36635
- m:oexpsala=6630
  m:totaidd=1810072
- m:aidsald=587924
- m:aidoilb=85389
- m:techxu=274310
  m:totaidc=45954
- m:aidoilc=6749
- m:aidsalb=144916
- m:aidoild=128773
- m:oexpsald=1590977
- m:aidsalc=0
- m:othexpa=0
+ m:fioth=0
+ m:grexpt=872718
+ m:aidsala=443008
+ m:serllxu=328659
+ m:total_si=4176811
+ m:serdifxu=269749
+ m:aidlcc=0
+ m:aidlcd=0
+ m:totexpc=99667
+ m:aidmlsd=203491
+ m:totexpb=4086408
+ m:aidlca=0
+ m:totexpa=887453
+ m:aidlcb=0
+ m:oexpothd=586210
+ m:aidmlsa=182762
+ m:oexpothc=0
+ m:oexpothb=586210
+ m:aidmlsc=11944
+ m:oexpotha=0
+ m:aidmlsb=8785
+ m:totincm=5099564
+ m:totoxsta=14735
+ m:totoxstb=2400396
 
 ```
 
@@ -85426,15 +85451,15 @@ series e:cibe-gpzy d:2010-10-01T00:00:00.000Z
 ```ls
 series e:scxv-4u4u d:2017-01-01T00:00:00.000Z
  t:reporting_area="UNITED STATES"
- m:rubella_congenital_syndrome_previous_52_weeks_med=0
  m:rabies_animal_cum_2017=11
+ m:rabies_animal_previous_52_weeks_med=52
+ m:rubella_previous_52_weeks_max=2
  m:rubella_congenital_syndrome_previous_52_weeks_max=1
+ m:rabies_animal_current_week=11
  m:rabies_animal_previous_52_weeks_max=112
  m:rubella_previous_52_weeks_med=0
- m:rubella_previous_52_weeks_max=2
+ m:rubella_congenital_syndrome_previous_52_weeks_med=0
  m:rabies_animal_cum_2016=34
- m:rabies_animal_current_week=11
- m:rabies_animal_previous_52_weeks_med=52
 
 ```
 
@@ -85984,29 +86009,29 @@ series e:822f-gjp4 d:2013-12-01T00:00:00.000Z
 
 ```ls
 series e:4zfx-f2ts d:2015-01-01T00:00:00.000Z
- t:organization_group="Public Protection"
- t:fund_code=1GAGF
- t:fund_type="General Fund"
- t:program_code=ACB
- t:department=Police
- t:job_family=Management
- t:job_family_code=0900
- t:sub_object=Misc-Regular
- t:job="Manager I"
- t:object="Permanent Salaries-Misc"
- t:object_code=001
+ t:department_code=POL
  t:fund_type_code=1G
- t:character=Salaries
- t:job_code=0922
  t:character_code=001
+ t:fund_type="General Fund"
+ t:organization_group="Public Protection"
+ t:job_family_code=0900
  t:fund_category_code=1
  t:program=Investigations
- t:sub_object_code=00101
- t:fund_category=Operating
- t:department_code=POL
- t:fund="General Fund"
- t:organization_group_code=01
+ t:fund_code=1GAGF
  t:related_gov_t_units=No
+ t:character=Salaries
+ t:program_code=ACB
+ t:sub_object_code=00101
+ t:fund="General Fund"
+ t:sub_object=Misc-Regular
+ t:job_family=Management
+ t:organization_group_code=01
+ t:object_code=001
+ t:fund_category=Operating
+ t:job_code=0922
+ t:department=Police
+ t:job="Manager I"
+ t:object="Permanent Salaries-Misc"
  m:fte=1
 
 ```
@@ -86859,27 +86884,27 @@ series e:6a37-mn2g d:2010-01-01T00:00:00.000Z
 
 ```ls
 series e:88g8-5mnd d:2016-01-01T00:00:00.000Z
- t:organization_group="Public Protection"
- t:employee_identifier=26926
- t:job_code=Q002
- t:department=Police
- t:union="Police Officers' Association"
- t:job_family_code=Q000
- t:job_family="Police Services"
- t:job="Police Officer"
- t:department_code=POL
- t:organization_group_code=01
+ t:department_code=MTA
+ t:job_family="Information Systems"
+ t:union_code=021
+ t:organization_group="Public Works, Transportation & Commerce"
+ t:job_family_code=1000
  t:year_type=Calendar
- t:union_code=911
- m:total_compensation=174028.17
- m:total_benefits=28257.36
- m:retirement=15478.74
- m:total_salary=145770.81
- m:other_benefits=2489.52
- m:other_salaries=10615.98
- m:health_dental=10289.1
- m:overtime=47481.86
- m:salaries=87672.97
+ t:organization_group_code=02
+ t:union="Prof & Tech Engineers - Miscellaneous, Local 21"
+ t:job_code=1094
+ t:employee_identifier=17958
+ t:department="Municipal Transportation Agency"
+ t:job="IT Operations Support Admin IV"
+ m:salaries=117510.21
+ m:total_benefits=45214.66
+ m:other_salaries=0
+ m:total_salary=117510.21
+ m:overtime=0
+ m:total_compensation=162724.87
+ m:retirement=21644.26
+ m:health_dental=13890.29
+ m:other_benefits=9680.11
 
 ```
 
@@ -87258,9 +87283,9 @@ series e:c8jn-ua56 d:2010-09-30T00:00:00.000Z
 ```ls
 series e:c59t-7iqd d:2005-01-01T00:00:00.000Z
  t:characteristic=Overall
- m:mean_standard_error_se=0.2
  m:prevalence=31.1
  m:mean=2.7
+ m:mean_standard_error_se=0.2
  m:prevalence_standard_error_se=2.4
 
 ```
@@ -87524,22 +87549,22 @@ series e:3ehi-je3s d:2013-03-06T10:52:44.000Z
 
 ```ls
 series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z
- t:school="P.S. 015 Roberto Clemente"
- t:2010_2011_overall_grade=C
  t:principal="Irene Sanchez"
  t:dbn=01M015
- t:progress_report_type=EMS
  t:2010_2011_performance_grade=D
- t:2010_2011_progress_grade=C
- t:district=1
  t:2009_10_progress_report_grade=C
- t:2010_2011_environment_grade=B
+ t:school="P.S. 015 Roberto Clemente"
+ t:district=1
+ t:progress_report_type=EMS
  t:school_level=Elementary
- m:2010_2011_overall_score=27
+ t:2010_2011_progress_grade=C
+ t:2010_2011_overall_grade=C
+ t:2010_2011_environment_grade=B
+ m:peer_index=63.61
+ m:2010_2011_environment_category_score=6.4
  m:2010_2011_performance_category_score=2.1
  m:2010_2011_additional_credit=0.5
- m:2010_2011_environment_category_score=6.4
- m:peer_index=63.61
+ m:2010_2011_overall_score=27
  m:2010_2011_progress_category_score=18
 
 ```
@@ -89038,31 +89063,31 @@ null
 
 ```ls
 series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z
- m:baltimore_city=19.07
- m:calvert_county=407.78
- m:st_mary_s_county=1049.88
- m:wicomico_county=510.55
- m:prince_george_s_county=1422.29
- m:washington_county=858.65
- m:carroll_county=695.71
- m:montgomery_county=651.93
- m:garrett_county=618.74
- m:talbot_county=316.67
- m:kent_county=124.26
- m:queen_anne_s_county=277.23
- m:baltimore_county=1033.65
- m:cecil_county=403.18
- m:caroline_county=264.3
- m:harford_county=1097.07
- m:frederick_county=908.61
- m:charles_county=1059.03
- m:somerset_county=334.12
- m:maryland=14362.14
  m:howard_county=522.06
- m:anne_arundel_county=736.82
- m:worcester_county=487.65
- m:allegany_county=275.27
+ m:maryland=14362.14
+ m:frederick_county=908.61
+ m:talbot_county=316.67
+ m:cecil_county=403.18
+ m:montgomery_county=651.93
+ m:wicomico_county=510.55
+ m:charles_county=1059.03
+ m:baltimore_city=19.07
+ m:harford_county=1097.07
  m:dorchester_county=287.62
+ m:worcester_county=487.65
+ m:anne_arundel_county=736.82
+ m:somerset_county=334.12
+ m:baltimore_county=1033.65
+ m:allegany_county=275.27
+ m:caroline_county=264.3
+ m:garrett_county=618.74
+ m:prince_george_s_county=1422.29
+ m:kent_county=124.26
+ m:st_mary_s_county=1049.88
+ m:queen_anne_s_county=277.23
+ m:washington_county=858.65
+ m:calvert_county=407.78
+ m:carroll_county=695.71
 
 ```
 
@@ -89589,21 +89614,21 @@ series e:c7av-ntdz d:2011-03-24T15:59:30.000Z
 ```ls
 series e:dgeh-7h9y d:2013-01-01T00:00:00.000Z
  t:zip=60625
- t:location="Albany Park"
  t:city=CHICAGO
- m:december=4
- m:march=0
+ t:location="Albany Park"
  m:november=18
  m:may=0
- m:february=0
- m:april=0
- m:june=0
- m:ytd=63
- m:january=0
  m:august=7
+ m:february=0
+ m:ytd=63
  m:july=0
- m:october=26
+ m:april=0
+ m:march=0
+ m:june=0
  m:september=8
+ m:january=0
+ m:december=4
+ m:october=26
 
 ```
 
@@ -89647,25 +89672,25 @@ series e:fc3u-86zh d:2013-08-01T00:00:00.000Z
 
 ```ls
 series e:d2rk-yvas d:2015-01-01T00:00:00.000Z
- t:topic="Alcohol Consumption"
+ t:breakoutcategoryid=CAT1
+ t:questionid=DRNKANY5
+ t:question="Adults who have had at least one drink of alcohol within the past 30 days"
  t:locationabbr=AL
+ t:break_out=Overall
  t:locationdesc=Alabama
  t:topicid=Topic03
- t:class="Alcohol Consumption"
- t:break_out=Overall
- t:questionid=DRNKANY5
+ t:classid=CLASS01
+ t:break_out_category=Overall
  t:response=Yes
+ t:datasource=BRFSS
  t:locationid=01
  t:breakoutid=BO1
+ t:topic="Alcohol Consumption"
+ t:class="Alcohol Consumption"
  t:responseid=RESP046
- t:break_out_category=Overall
- t:question="Adults who have had at least one drink of alcohol within the past 30 days"
- t:breakoutcategoryid=CAT1
- t:datasource=BRFSS
- t:classid=CLASS01
- m:confidence_limit_low=40.2
  m:sample_size=2767
  m:data_value=41.9
+ m:confidence_limit_low=40.2
  m:confidence_limit_high=43.6
 
 ```
@@ -89702,33 +89727,33 @@ series e:vw2r-zys4 d:2014-06-06T12:50:44.000Z
 [hpf7-4b4e.md](../datasets/hpf7-4b4e.md)
 
 ```ls
-series e:hpf7-4b4e d:2017-01-26T17:17:12.000Z
- t:departamento_de_recuperaci_n_de_desperdicios_de_austin=Reciclar
- t:departamento_de_parques_y_recreaci_n="Centro de Recreacion"
- t:oficina_de_servicios_para_animales="ofrecerse de voluntario (v)"
- t:austin_resource_recovery=Recyle
- t:biblioteca_publica_de_austin="La Biblioteca"
- t:departamento_de_transportaci_n=Semáforo
- t:departments="Animal Services Office"
- t:transportation="Traffic Signal"
- t:public_works=Curb
- t:departamento_de_energia_de_austin=chispa
- t:austin_public_health="adult day care"
- t:watershed="Onion Creek"
- t:salud_p_blica_de_austin="cuidado de adultos por el día"
- t:departamento_de_obras_p_blicas="el bordillo de la acera"
- t:austin_water="Water Leak"
- t:telecommunications_and_regulatory_affairs="credit access business"
- t:police="Theft Report"
- t:parks_and_recreation="Recreation Center"
- t:servicio_de_acueductos_y_arcantarillado_de_austin="Fuga de Agua"
- t:oficina_de_telecomunicaciones_y_asuntos_regulatorios="Negocios de Acceso a Crédito"
- t:departamento_de_cuencas_hidrogr_ficas="Arrollo Onion"
+series e:hpf7-4b4e d:2017-07-20T13:13:10.000Z
+ t:watershed="Departamento de Servicios de Desarrollo"
+ t:austin_public_library="Departamento de Bomberos"
  t:departamentos="Oficina de Servicios para Animales"
- t:animal_services=Volunteer
- t:austin_public_library="The Library"
- t:departamento_de_polic_a="Reporte de Robo"
- t:austin_energy=spark
+ t:telecommunications_and_regulatory_affairs="Juntas Directivas y comisiones de la Ciudad"
+ t:departamento_de_recuperaci_n_de_desperdicios_de_austin="Centro de Convenciones de Austin"
+ t:animal_services=Ayuntamiento
+ t:biblioteca_publica_de_austin="Seguridad y Manejo de Emergencias"
+ t:departamento_de_transportaci_n="Salud Pública de Austin"
+ t:austin_resource_recovery="Departamento de Energia de Austin"
+ t:public_works="Servicios médicos de emergencia de la Ciudad y el Condado de Travis"
+ t:oficina_de_servicios_para_animales="Corte de la comunidad"
+ t:departments=Departamentos
+ t:departamento_de_polic_a="Secretaría de la ciudad de Austin"
+ t:oficina_de_telecomunicaciones_y_asuntos_regulatorios="Comunicaciones e Información Pública"
+ t:austin_energy="Oficina de Planificación Capitalina"
+ t:austin_public_health="Austin 3-1-1"
+ t:departamento_de_obras_p_blicas="Servicio de Acueductos y Arcantarillado de Austin"
+ t:parks_and_recreation="Comunicaciones y Manejo Tecnológico"
+ t:servicio_de_acueductos_y_arcantarillado_de_austin="Biblioteca Pública de Austin"
+ t:austin_water="Departamento de Recuperación de Desperdicios de Austin"
+ t:departamento_de_cuencas_hidrogr_ficas="Servicios Financieros"
+ t:departamento_de_energia_de_austin="Oficina del Administrador de la Ciudad"
+ t:departamento_de_parques_y_recreaci_n="Auditor de la ciudad"
+ t:transportation="Aeropuerto Internacional Austin-Bergstrom"
+ t:police="Oficina de Contratos Capitalinos"
+ t:salud_p_blica_de_austin="Departamento de Códigos de Austin"
  m:row_number.hpf7-4b4e=1
 
 ```
@@ -90666,17 +90691,17 @@ series e:fdhy-vi9z d:2012-01-17T00:00:00.000Z
 
 ```ls
 series e:i4ce-99gr d:2014-01-28T12:54:51.000Z
- t:mof=A
- t:perm_temp_j1a=J1A
  t:dept_code=UOH
- t:position_title=CASUAL-PAYROLL
+ t:mof=A
  t:source_file_header="Act 134, SLH 2013 - UOH Personal Services"
- t:prog_id_org=UOH800HE
  t:position_number=60
- m:fy_14_salary=0
+ t:prog_id_org=UOH800HE
+ t:position_title=CASUAL-PAYROLL
+ t:perm_temp_j1a=J1A
  m:fy_12_salary=12926
- m:fy_15_salary=0
+ m:fy_14_salary=0
  m:fy_13_salary=0
+ m:fy_15_salary=0
 
 ```
 
@@ -91640,19 +91665,19 @@ ENT_ID=3810"
 
 ```ls
 series e:848a-grzs d:2017-01-01T00:00:00.000Z
- t:fund_name="GENERAL FUND"
- t:fund_type="GENERAL FUND"
- t:expense_type="PERSONAL SERVICES"
- t:function_name="OFFICE OF PUBLICATIONS"
  t:expense_description=SALARIES
- t:dept_name=ADMINISTRATION
+ t:expense_type="PERSONAL SERVICES"
+ t:fund_type="GENERAL FUND"
+ t:function_name="OFFICE OF PUBLICATIONS"
  t:division_name="OFFICE OF PUBLICATIONS"
- m:budget=147130
- m:current_period_exp=10592
- m:ytd_exp=42092
- m:of_budget_spent=28.6
+ t:dept_name=ADMINISTRATION
+ t:fund_name="GENERAL FUND"
  m:bal_available_to_spend=105038
+ m:of_budget_spent=28.6
+ m:ytd_exp=42092
  m:encumb=0
+ m:current_period_exp=10592
+ m:budget=147130
 
 ```
 
@@ -91711,46 +91736,46 @@ series e:3u4r-ezst d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:g5sr-9nhs d:2015-12-17T00:00:00.000Z
+ t:sponsor=PENDING
+ t:bldguse="RECREATION BLDG"
+ t:nameaddr="1 ARDATH COURT (COMMUNITY CENTER)"
+ t:beststat="BP FILED"
+ t:zoning_sim=RH-2
  t:supe_dist="SUPERVISORIAL DISTRICT 10"
  t:dbi_desc="ERECT 1-STORY, NO BASEMENT, TYPE 5-1, COMMUNITY CENTER.** MAHER: N/A **"
- t:neighborhood=Bayview
- t:bldguse="RECREATION BLDG"
- t:zoning_sim=RH-2
  t:sp_contact=PENDING
- t:sponsor=PENDING
- t:pln_area="Bayview Hunters Point"
- t:pln_caseno=2015-003310PRJ
- t:pln_district="South Bayshore"
- t:height=40-X
  t:sp_contactph=PENDING
- t:nameaddr="1 ARDATH COURT (COMMUNITY CENTER)"
+ t:zoning_district_name="RESIDENTIAL- HOUSE, TWO FAMILY"
+ t:pln_caseno=2015-003310PRJ
+ t:pln_area="Bayview Hunters Point"
+ t:pln_district="South Bayshore"
+ t:neighborhood=Bayview
+ t:planner=JDISALVO
  t:pln_desc="New construction of a community center to be located on an empty patch of land on the corner of
  Harbor Road and Ingalls Street."
- t:planner=JDISALVO
- t:zoning_district_name="RESIDENTIAL- HOUSE, TWO FAMILY"
  t:apn="APN 4712008"
- t:beststat="BP FILED"
- m:med=0
- m:ret=0
- m:cienet=5588
- m:mednet=0
+ t:height=40-X
  m:aff=0
- m:pdr=0
- m:visit=0
- m:cie=5588
- m:bpapplno=201512175326
+ m:ret=0
  m:cost=600000
- m:mipsnet=0
- m:unitsnet=0
- m:units=0
  m:total_gsf=5588
  m:visitnet=0
+ m:bpapplno=201512175326
+ m:mipsnet=0
  m:pdrnet=0
- m:affnet=0
- m:retnet=0
- m:mips=0
  m:entitlement=0
+ m:units=0
+ m:mips=0
+ m:med=0
  m:net_gsf=5588
+ m:affnet=0
+ m:mednet=0
+ m:unitsnet=0
+ m:retnet=0
+ m:cienet=5588
+ m:visit=0
+ m:cie=5588
+ m:pdr=0
 
 ```
 
@@ -92664,26 +92689,30 @@ series e:x82b-q8rg d:2016-03-25T07:25:59.000Z
 [yjub-udmw.md](../datasets/yjub-udmw.md)
 
 ```ls
-series e:yjub-udmw d:2017-04-10T17:39:46.000Z
- t:borocode=3
- t:zip=11205
- t:location="138 Cumberland Walk"
- t:borough=BK
- t:provider=NYCHA
+series e:yjub-udmw d:2017-01-18T00:00:00.000Z
+ t:sourceid=LINK-008695
+ t:zip=10001
+ t:city="New York"
+ t:boroname=Manhattan
+ t:borough=MN
  t:type=Free
- t:city=Brooklyn
- t:boroname=Brooklyn
- t:location_t=Outdoor
- t:ntaname="Fort Greene"
- t:name=0
- t:ntacode=BK68
- t:ssid=DowntownBrooklynWiFi_Fon
- t:objectid=1673
- m:coundist=35
- m:ct2010=18501
- m:borocd=302
- m:bctcb2010=30185013001
+ t:location_t="Outdoor Kiosk"
+ t:ntaname="Midtown-Midtown South"
+ t:ssid="LinkNYC Free Wi-Fi"
+ t:borocode=1
+ t:ntacode=MN17
+ t:doitt_id=1425
+ t:provider="LinkNYC - Citybridge"
+ t:name=mn-05-123662
+ t:location="179 WEST 26 STREET"
+ t:objectid=998
+ t:remarks="Tablet Internet -phone , Free 1 GB Wi-FI Service"
  m:bin=0
+ m:coundist=3
+ m:borocd=105
+ m:ct2010=95
+ m:bctcb2010=1009500
+ m:bbl=0
 
 ```
 
@@ -93472,12 +93501,12 @@ series e:e7u9-uyxu d:2012-07-31T18:11:51.000Z
 
 ```ls
 series e:dhvz-stgx d:2016-10-06T21:01:29.000Z
+ t:inspector_number="AWII 87"
+ t:last_name=Proctor
+ t:company="Absolute Commercial & Environmental Services"
+ t:telephone=512-560-1099
  t:first_name=Matt
  t:email=matt@absoluteenvironmental.net
- t:company="Absolute Commercial & Environmental Services"
- t:last_name=Proctor
- t:inspector_number="AWII 87"
- t:telephone=512-560-1099
  m:row_number.dhvz-stgx=1
 
 ```
@@ -93521,12 +93550,19 @@ series e:fj6s-ssz6 d:2012-01-01T00:00:00.000Z
 [kzmz-ivhb.md](../datasets/kzmz-ivhb.md)
 
 ```ls
-series e:kzmz-ivhb d:2016-02-19T11:24:08.000Z
- t:location="215 Varick Ave Brooklyn, NY"
- t:primary_disposal_facility="WM - Varick"
- t:district=BK01
+series e:kzmz-ivhb d:2017-09-18T20:28:40.000Z
  t:material=Refuse
- m:row_number.kzmz-ivhb=1
+ t:district=BK01
+ t:postcode=11237
+ t:location="215 Varick Ave Brooklyn, NY"
+ t:nta="East Williamsburg"
+ t:borough=BROOKLYN
+ t:primary_disposal_facility="WM - Varick"
+ m:bin=3332350
+ m:community_board=1
+ m:bbl=3029500001
+ m:community_council=34
+ m:census_tract=449
 
 ```
 
@@ -94275,25 +94311,25 @@ series e:n432-c6ty d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z
- t:station_area=18
- t:neighborhoods_analysis_boundaries=Sunset/Parkside
- t:final_priority=3
- t:unit_id=E18
- t:call_final_disposition=Other
- t:incident_number=00306091
- t:supervisor_district=4
- t:city=SF
- t:als_unit=false
- t:zipcode_of_incident=94116
- t:call_type="Medical Incident"
  t:call_number=001030101
- t:priority=3
+ t:city=SF
  t:original_priority=3
+ t:station_area=18
  t:fire_prevention_district=8
- t:battalion=B08
- t:unit_type=ENGINE
  t:box=0757
+ t:neighborhoods_analysis_boundaries=Sunset/Parkside
+ t:unit_type=ENGINE
+ t:priority=3
+ t:incident_number=00306091
+ t:battalion=B08
+ t:call_final_disposition=Other
+ t:supervisor_district=4
+ t:zipcode_of_incident=94116
+ t:final_priority=3
  t:rowid=001030101-E18
+ t:als_unit=false
+ t:unit_id=E18
+ t:call_type="Medical Incident"
  m:number_of_alarms=1
  m:unit_sequence_in_call_dispatch=1
 
@@ -94758,17 +94794,17 @@ series e:scd6-haif d:2014-03-20T11:25:04.000Z
 
 ```ls
 series e:ndk3-zftj d:2007-01-01T00:00:00.000Z
- t:community_area_name="Rogers Park"
  t:community_area=1
- m:incidence_rate_upper_ci=16.1
- m:cases_2006_2010=32
+ t:community_area_name="Rogers Park"
  m:cases_2006=8
+ m:cases_2006_2010=32
  m:cases_2007=7
+ m:incidence_rate_upper_ci=16.1
  m:cases_2008=4
  m:cases_2009=6
- m:incidence_rate_lower_ci=7.8
  m:cases_2010=7
  m:average_annual_incidence_rate_2006_2010=11.4
+ m:incidence_rate_lower_ci=7.8
 
 ```
 
@@ -94811,13 +94847,13 @@ between Folsom &amp; Alabama beginning at 12:00 PM to 11:59 PM</p><p> <strong>NO
 ```ls
 series e:i778-my94 d:2009-02-26T00:00:00.000Z
  t:election_period=2008-2010
- t:noncandidate_committee_name="Committee For Balanced Transportation dba Go Rail Go"
- t:to_whom="Committee for Balanced Transportation"
  t:method=Donate
- t:vendor_type=VEN
- t:vendor_name="Office Max"
  t:reg_no=NC20210
+ t:noncandidate_committee_name="Committee For Balanced Transportation dba Go Rail Go"
  t:durable_asset_id=52
+ t:vendor_name="Office Max"
+ t:to_whom="Committee for Balanced Transportation"
+ t:vendor_type=VEN
  m:diposition_amount=0
 
 ```
@@ -95091,68 +95127,68 @@ series e:2vre-ahnq d:2002-01-01T00:00:00.000Z
 
 ```ls
 series e:35yf-6dy3 d:2000-01-01T00:00:00.000Z
- t:community_area_name="Rogers Park"
  t:community_area=1
- m:incidence_rate_2012_lower_ci=543.7
- m:incidence_rate_2011_lower_ci=627.6
- m:cases_2007_male_15_44=79
- m:incidence_rate_2004_upper_ci=646.9
- m:cases_2009_male_15_44=84
- m:incidence_rate_2014_upper_ci=1072.1
- m:cases_2012_male_15_44=102
- m:incidence_rate_2003_upper_ci=583.4
+ t:community_area_name="Rogers Park"
  m:cases_2014_male_15_44=139
- m:incidence_rate_2013_lower_ci=742.3
- m:incidence_rate_2013_upper_ci=1043.5
- m:incidence_rate_2009_upper_ci=670.7
- m:cases_2000_male_15_44=89
+ m:incidence_rate_2005_lower_ci=351.1
+ m:incidence_rate_2008_lower_ci=348.9
  m:incidence_rate_2014_lower_ci=766.5
  m:incidence_rate_2001_upper_ci=690.1
- m:incidence_rate_2003_lower_ci=375.8
- m:cases_2002_male_15_44=136
- m:incidence_rate_2002_lower_ci=621.1
- m:incidence_rate_2012_upper_ci=805.5
- m:incidence_rate_2000_upper_ci=576.8
- m:incidence_rate_2001_lower_ci=471.1
- m:incidence_rate_2006_upper_ci=604.1
- m:cases_2001_male_15_44=108
- m:incidence_rate_2005_lower_ci=351.1
  m:incidence_rate_2007_upper_ci=604.7
+ m:cases_2004_male_15_44=92
+ m:incidence_rate_2004_upper_ci=646.9
+ m:incidence_rate_2013_upper_ci=1043.5
  m:incidence_rate_2001=580.6
  m:incidence_rate_2000=468.7
  m:incidence_rate_2003=471.2
  m:incidence_rate_2002=746.6
- m:incidence_rate_2010_upper_ci=760.8
  m:incidence_rate_2005=445.6
  m:incidence_rate_2004=527.5
- m:incidence_rate_2008_lower_ci=348.9
  m:incidence_rate_2007=485.2
  m:incidence_rate_2006=486
+ m:cases_2009_male_15_44=84
  m:incidence_rate_2009=541.7
  m:incidence_rate_2008=446.7
- m:cases_2004_male_15_44=92
+ m:cases_2011_male_15_44=116
+ m:incidence_rate_2011_upper_ci=906.8
+ m:cases_2001_male_15_44=108
+ m:incidence_rate_2005_upper_ci=557.7
+ m:incidence_rate_2012_lower_ci=543.7
+ m:incidence_rate_2004_lower_ci=425.2
+ m:cases_2012_male_15_44=102
+ m:incidence_rate_2000_lower_ci=376.4
+ m:cases_2002_male_15_44=136
+ m:incidence_rate_2010=621.7
+ m:incidence_rate_2012=674.6
+ m:incidence_rate_2011=767.2
+ m:cases_2013_male_15_44=135
+ m:incidence_rate_2014=919.3
+ m:incidence_rate_2013=892.9
+ m:incidence_rate_2012_upper_ci=805.5
+ m:incidence_rate_2006_upper_ci=604.1
+ m:incidence_rate_2011_lower_ci=627.6
+ m:cases_2003_male_15_44=84
+ m:cases_2008_male_15_44=71
+ m:cases_2010_male_15_44=94
+ m:cases_2000_male_15_44=89
+ m:incidence_rate_2000_upper_ci=576.8
+ m:cases_2005_male_15_44=76
+ m:incidence_rate_2003_lower_ci=375.8
  m:incidence_rate_2010_lower_ci=502.4
- m:incidence_rate_2007_lower_ci=384.1
+ m:incidence_rate_2001_lower_ci=471.1
+ m:incidence_rate_2006_lower_ci=386
+ m:incidence_rate_2009_lower_ci=432.1
  m:incidence_rate_2002_upper_ci=872.1
  m:incidence_rate_2008_upper_ci=563.4
  m:cases_2006_male_15_44=81
- m:cases_2010_male_15_44=94
- m:incidence_rate_2000_lower_ci=376.4
- m:incidence_rate_2012=674.6
- m:incidence_rate_2011=767.2
- m:incidence_rate_2010=621.7
- m:cases_2011_male_15_44=116
- m:incidence_rate_2014=919.3
- m:cases_2013_male_15_44=135
- m:incidence_rate_2006_lower_ci=386
- m:incidence_rate_2009_lower_ci=432.1
- m:incidence_rate_2013=892.9
- m:cases_2003_male_15_44=84
- m:incidence_rate_2004_lower_ci=425.2
- m:cases_2005_male_15_44=76
- m:incidence_rate_2005_upper_ci=557.7
- m:incidence_rate_2011_upper_ci=906.8
- m:cases_2008_male_15_44=71
+ m:incidence_rate_2014_upper_ci=1072.1
+ m:incidence_rate_2007_lower_ci=384.1
+ m:incidence_rate_2013_lower_ci=742.3
+ m:incidence_rate_2010_upper_ci=760.8
+ m:incidence_rate_2009_upper_ci=670.7
+ m:incidence_rate_2003_upper_ci=583.4
+ m:cases_2007_male_15_44=79
+ m:incidence_rate_2002_lower_ci=621.1
 
 ```
 
@@ -95289,22 +95325,22 @@ series e:tkdy-59zg d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:xyxp-dxa9 d:2004-01-01T00:00:00.000Z
- t:topic="Prenatal Care - Visits"
+ t:breakoutcategoryid=BOC16
+ t:questionid=QUO171
+ t:question="Indicator of no prenatal care"
  t:locationabbr=AK
+ t:break_out="Age 18 - 44"
  t:locationdesc=Alaska
  t:topicid=TOP44
- t:class="Control Variable"
- t:break_out="Age 18 - 44"
- t:questionid=QUO171
+ t:classid=CLA1
+ t:break_out_category="Maternal Age - 18 to 44 years only"
+ t:datasource=PRAMS
  t:response=NO
  t:locationid=2
  t:breakoutid=AGE1844ALL
+ t:topic="Prenatal Care - Visits"
+ t:class="Control Variable"
  t:responseid=RES23
- t:break_out_category="Maternal Age - 18 to 44 years only"
- t:question="Indicator of no prenatal care"
- t:breakoutcategoryid=BOC16
- t:datasource=PRAMS
- t:classid=CLA1
  m:data_value=99.1
 
 ```
@@ -95524,17 +95560,17 @@ series e:wbuv-35mw d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:jqyq-axtx d:2016-03-31T00:00:00.000Z
- t:strategyid=20103
- t:organization=Budget
+ t:note="6,973 requisitions approved in 2016."
  t:indicatorid=101
  t:action_aggregation="Maintain Below"
- t:direction=Under
+ t:organization=Budget
  t:name="Avg. days to approve requisitions for the purchase of goods or services"
- t:target=1
- t:seasonality="Not Seasonal"
+ t:strategyid=20103
  t:type=Average
+ t:seasonality="Not Seasonal"
+ t:target=1
  t:rowid="Avg. days to approve requisitions for the purchase of goods or services_2016-03-31"
- t:note="6,973 requisitions approved in 2016."
+ t:direction=Under
  m:total=0.63
  m:ytd=0.634975982
  m:value=0.63
@@ -95564,12 +95600,12 @@ series e:q9xk-w9iv d:2015-05-11T13:46:22.000Z
 ```ls
 series e:tjzn-e5cs d:2008-01-01T00:00:00.000Z
  t:month=Dec
- m:output_workloads=20
- m:outcomes=20
  m:effectiveness=6
- m:inputs=240
  m:efficiencies=6
+ m:outcomes=20
+ m:inputs=240
  m:output_demands=40
+ m:output_workloads=20
 
 ```
 
@@ -95838,9 +95874,9 @@ series e:2fa6-zgve d:2016-05-13T10:48:31.000Z
 
 ```ls
 series e:wr52-jff7 d:2015-01-31T00:00:00.000Z
- m:of_visitors=5127
  m:of_shows=3
  m:revenue=19326
+ m:of_visitors=5127
 
 ```
 
@@ -96061,16 +96097,17 @@ series e:tay4-rqsd d:2011-06-30T00:00:00.000Z
 
 ```ls
 series e:7as2-ds3y d:2011-01-01T00:00:00.000Z
- t:zip=60620
- t:ward=17
- t:police_district=6
- t:status="Completed - Dup"
- t:service_request_number=11-00002110
- t:community_area=69
+ t:zip=60643
+ t:service_request_number=11-00002021
+ t:most_recent_action="Pothole Patched"
+ t:street_address="1642 W 99TH ST"
+ t:community_area=72
+ t:current_activity="Dispatch Crew"
+ t:police_district=22
+ t:ward=19
+ t:status=Completed
  t:type_of_service_request="Pot Hole in Street"
- t:street_address="7600 S PARNELL AVE"
- m:longitude=-87.63853957634103
- m:latitude=41.75607825280598
+ m:number_of_potholes_filled_on_block=5
 
 ```
 
@@ -97148,19 +97185,19 @@ series e:mvzj-j8t8 d:2000-01-01T00:00:00.000Z
 
 ```ls
 series e:ezjn-vqh8 d:2005-04-01T00:00:00.000Z
- t:product_fda_list_name=INTAL
- t:ndc=60793001108
- t:package_size=08
- t:state_code=MO
- t:labeler_code=60793
- t:product_code=0011
- t:suppression_used=false
  t:record_id=FFSU
- m:medicaid_amount_reimbursed=0
+ t:package_size=08
+ t:product_fda_list_name=INTAL
+ t:labeler_code=60793
+ t:suppression_used=false
+ t:product_code=0011
+ t:ndc=60793001108
+ t:state_code=MO
  m:total_amount_reimbursed=2953.32
- m:number_of_prescriptions=38
- m:units_reimbursed=364.5
  m:non_medicaid_amount_reimbursed=0
+ m:units_reimbursed=364.5
+ m:medicaid_amount_reimbursed=0
+ m:number_of_prescriptions=38
 
 ```
 
@@ -97401,118 +97438,118 @@ series e:fazv-a8mb d:2012-07-12T19:47:00.000Z
 
 ```ls
 series e:gdgs-utb6 d:1995-07-01T00:00:00.000Z
- t:cntedpre=Y
- t:cntedprd=Y
- t:cntedprc=Y
- t:cntedprb=Y
+ t:cnsltsvb=Y
+ t:cnsltsva=Y
  t:physaddr="333 WILLOUGHBY AVENUE"
- t:mailzip=99811
+ t:cnsltsve=Y
+ t:cnsltsvd=Y
+ t:cnsltsvc=Y
+ t:oclcgaca=Y
+ t:oclcgacd=Y
+ t:oclcgace=Y
+ t:mailzip4=571.0
+ t:oclcgacb=Y
+ t:oclcgacc=Y
+ t:collbstb=N
+ t:collbsta=Y
+ t:collbste=N
+ t:collbstd=N
+ t:collbstc=Y
  t:mailaddr="P.O. BOX 110571"
- t:cntedpra=Y
- t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
  t:physzip4=571.0
- t:sumreade=N
- t:sumreadd=N
- t:sumreadc=N
- t:sumreadb=N
- t:sumreada=Y
+ t:litprsve=Y
+ t:litprsvd=N
+ t:litprsvc=Y
+ t:litprsvb=N
+ t:litprsva=Y
+ t:cntedpra=Y
+ t:cntedprd=Y
+ t:cntedpre=Y
+ t:cntedprb=Y
+ t:pub_fips=2
+ t:cntedprc=Y
+ t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
  t:mail_st=AK
- t:ststande=Y
+ t:cooppura=N
+ t:cooppurb=N
+ t:cooppurc=N
+ t:retrocve=N
+ t:physcity=JUNEAU
+ t:cooppurd=N
+ t:retrocvd=N
+ t:cooppure=N
+ t:retrocvc=N
+ t:retrocvb=N
+ t:retrocva=N
+ t:mailzip=99811
+ t:certlibe=N
+ t:certlibd=N
+ t:certlibc=N
+ t:certlibb=N
+ t:certliba=N
  t:ststandd=N
  t:ststandc=Y
  t:ststandb=N
+ t:preserve=N
  t:ststanda=Y
- t:lscasvd=Y
- t:lscasve=Y
- t:physcity=JUNEAU
- t:lscasva=Y
- t:lscasvb=Y
- t:lscasvc=Y
- t:physzip=99811
- t:retrocvc=N
- t:collbste=N
- t:retrocvd=N
- t:collbstd=N
- t:retrocva=N
- t:collbstc=Y
- t:retrocvb=N
- t:collbstb=N
- t:collbsta=Y
- t:retrocve=N
+ t:preservd=N
+ t:preservc=N
+ t:preservb=N
+ t:stwidprb=N
+ t:preserva=N
+ t:stwidpra=Y
+ t:staidsvd=N
+ t:stwidprd=N
+ t:uniondvd=Y
+ t:staidsve=N
+ t:stwidprc=Y
+ t:uniondvc=Y
+ t:staidsvb=N
+ t:uniondvb=Y
+ t:staidsvc=N
+ t:stwidpre=Y
+ t:uniondva=Y
+ t:staidsva=Y
+ t:illrefa=Y
+ t:ststande=Y
+ t:uniondve=Y
  t:illrefb=Y
- t:litprsvd=N
  t:illrefc=Y
- t:litprsve=Y
  t:illrefd=Y
  t:illrefe=Y
- t:litprsva=Y
- t:litprsvb=N
- t:illrefa=Y
- t:litprsvc=Y
+ t:phys_st=AK
+ t:mailcity=JUNEAU
+ t:accrlibc=N
+ t:accrlibb=N
+ t:accrliba=N
+ t:accrlibe=N
+ t:accrlibd=N
+ t:physzip=99811
+ t:lscasve=Y
+ t:lscasvd=Y
+ t:lscasvc=Y
+ t:lscasvb=Y
+ t:lscasva=Y
+ t:libplanc=Y
+ t:refrefb=Y
+ t:libplanb=Y
+ t:refrefc=Y
+ t:libplane=Y
+ t:sumreade=N
+ t:libpland=Y
+ t:refrefa=Y
+ t:sumreadc=N
+ t:sumreadd=N
+ t:libplana=Y
+ t:refrefd=Y
+ t:sumreada=Y
+ t:refrefe=Y
+ t:sumreadb=N
+ t:liblege=Y
  t:liblegb=Y
  t:liblega=Y
  t:liblegd=Y
  t:liblegc=Y
- t:liblege=Y
- t:stwidprb=N
- t:stwidpra=Y
- t:preservc=N
- t:preservd=N
- t:preserva=N
- t:preservb=N
- t:preserve=N
- t:oclcgace=Y
- t:cooppurd=N
- t:oclcgacd=Y
- t:cooppure=N
- t:oclcgacc=Y
- t:oclcgacb=Y
- t:oclcgaca=Y
- t:cooppura=N
- t:cooppurb=N
- t:cooppurc=N
- t:stwidpre=Y
- t:stwidprc=Y
- t:stwidprd=N
- t:accrlibe=N
- t:accrlibd=N
- t:phys_st=AK
- t:certlibe=N
- t:certlibc=N
- t:certlibd=N
- t:certliba=N
- t:certlibb=N
- t:accrlibb=N
- t:refrefa=Y
- t:accrlibc=N
- t:refrefb=Y
- t:refrefc=Y
- t:accrliba=N
- t:refrefd=Y
- t:refrefe=Y
- t:cnsltsve=Y
- t:cnsltsvd=Y
- t:mailcity=JUNEAU
- t:cnsltsvc=Y
- t:pub_fips=2
- t:uniondva=Y
- t:uniondvb=Y
- t:uniondvc=Y
- t:uniondvd=Y
- t:uniondve=Y
- t:cnsltsva=Y
- t:cnsltsvb=Y
- t:libplana=Y
- t:mailzip4=571.0
- t:libpland=Y
- t:libplane=Y
- t:libplanb=Y
- t:libplanc=Y
- t:staidsva=Y
- t:staidsve=N
- t:staidsvd=N
- t:staidsvc=N
- t:staidsvb=N
  m:period_e=615900
 
 ```
@@ -97587,17 +97624,17 @@ series e:ht3z-vfgq d:1999-01-01T00:00:00.000Z
 
 ```ls
 series e:r89j-py2p d:2013-01-01T00:00:00.000Z
- t:fund_name="General Fund"
  t:fund_type="Tax Supported Funds"
+ t:fund_subtype="General Fund"
+ t:program_name="Pre-Trial Services"
+ t:function="Public Safety"
+ t:object_name=Retirement
+ t:account_name=RSP
  t:personnel_costs_operating_expenses="Personnel Costs"
- t:cost_center_name=ACS
+ t:fund_name="General Fund"
  t:subfund_name="General Fund"
  t:department="Correction and Rehabilitation"
- t:program_name="Pre-Trial Services"
- t:object_name=Retirement
- t:fund_subtype="General Fund"
- t:account_name=RSP
- t:function="Public Safety"
+ t:cost_center_name=ACS
  m:amount=4295
 
 ```
@@ -97606,8 +97643,8 @@ series e:r89j-py2p d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:avst-7ttu d:2011-04-01T00:00:00.000Z
- m:usage_kwh=546355.2
  m:cost=49837.92
+ m:usage_kwh=546355.2
 
 ```
 
@@ -97931,13 +97968,13 @@ series e:tgvi-w9ww d:2013-02-13T11:42:35.000Z
 ```ls
 series e:5fn8-vtui d:2012-12-31T23:59:34.000Z
  t:zip=70117
- t:type_=94
- t:nopd_item=A0000113
- t:priority=2B
- t:dispositiontext=UNFOUNDED
- t:policedistrict=5
- t:typetext="DISCHARGING FIREARM"
  t:disposition=UNF
+ t:nopd_item=A0000113
+ t:typetext="DISCHARGING FIREARM"
+ t:policedistrict=5
+ t:dispositiontext=UNFOUNDED
+ t:priority=2B
+ t:type_=94
  m:row_number.5fn8-vtui=1
 
 ```
@@ -98745,28 +98782,29 @@ series e:bdxr-3qgk d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:ntny-77fx d:2004-01-01T00:00:00.000Z
- t:topic="Major Cardiovascular Disease"
  t:indicator="Prevalence of major cardiovascular disease hospitalizations among all hospitalizations, US adu
-lts (18+) (Percentage); HCUP-NIS"
- t:locationdesc="United States"
- t:locationabbr=US
- t:topicid=T1
+lts (18+); HCUP-NIS"
  t:priorityarea3=None
+ t:breakoutcategoryid=BOC01
  t:priorityarea4=None
  t:priorityarea1=None
  t:priorityarea2=None
- t:break_out=Male
- t:categoryid=C1
- t:category="Cardiovascular Diseases"
- t:locationid=00
+ t:locationabbr=US
+ t:break_out=Overall
+ t:locationdesc="United States"
+ t:data_value_typeid=Crude
+ t:topicid=T1
  t:indicatorid=HC101
- t:breakoutid=GEN01
- t:break_out_category=Gender
- t:breakoutcategoryid=BOC02
+ t:break_out_category=Overall
  t:datasource=HCUP
- m:confidence_limit_low=22.4
- m:data_value=23.1
- m:confidence_limit_high=23.9
+ t:locationid=59
+ t:breakoutid=OVR01
+ t:topic="Major Cardiovascular Disease"
+ t:category="Cardiovascular Diseases"
+ t:categoryid=C1
+ m:data_value=17
+ m:confidence_limit_low=16.5
+ m:confidence_limit_high=17.5
 
 ```
 
@@ -98844,10 +98882,10 @@ series e:75gm-hb4x d:2016-01-20T00:00:00.000Z
 
 ```ls
 series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z
- m:hawaii_county=137103
  m:city_and_county_of_honolulu=913268
- m:maui_county=138390
  m:kauai_county=68558
+ m:maui_county=138390
+ m:hawaii_county=137103
  m:x_values=1990
 
 ```
@@ -99104,12 +99142,12 @@ series e:b4av-siev d:2001-01-01T00:00:00.000Z
 
 ```ls
 series e:hvys-xbzt d:2012-07-02T00:00:00.000Z
+ t:supplement_number=UO-636-C-12-1
+ t:contractor="Stedman Sheet Metal, Inc."
  t:compensation_method="Time and Materials"
+ t:organization="University of Oregon"
  t:retainer_period="July 2012 - June 2014"
  t:project="Miscellaneous Small Campus Projects"
- t:organization="University of Oregon"
- t:contractor="Stedman Sheet Metal, Inc."
- t:supplement_number=UO-636-C-12-1
  t:mwesb=No
  m:price=50000
 
@@ -99678,17 +99716,17 @@ series e:tccz-tc3t d:2008-01-01T00:00:00.000Z
 
 ```ls
 series e:ezab-8sq5 d:2005-01-01T00:00:00.000Z
- t:locationabbr=AL
- t:locationdesc=Alabama
- t:measure_id=520SAE
  t:topic_type_id=HLT
  t:measuredesc="Type of Expense"
- t:topictype="Health Consequences and Costs"
- t:topicdesc="Smoking-Attributable Expenditures (SAEs)"
- t:topic_id=501HLT
- t:variable=Ambulatory
  t:submeasureid=SAE002
  t:datasource=SAMMEC
+ t:variable=Ambulatory
+ t:locationabbr=AL
+ t:locationdesc=Alabama
+ t:topic_id=501HLT
+ t:topictype="Health Consequences and Costs"
+ t:measure_id=520SAE
+ t:topicdesc="Smoking-Attributable Expenditures (SAEs)"
  m:data_value=265.7
 
 ```
@@ -100059,47 +100097,47 @@ series e:tbf6-u8ea d:2013-03-26T09:48:12.000Z
 
 ```ls
 series e:ny2h-ckbz d:2015-06-16T14:53:35.000Z
- t:higrade10=12
- t:funcstat10=E
- t:name10="Maryville R-II School District"
- t:mtfcc10=G5420
- t:geoid10=2920490
- t:feature_id_string=MO_2013_School_Districts_shp.1
- t:statefp10=29
- t:lograde10=PK
  t:feature_id=1
+ t:lograde10=PK
+ t:geoid10=2920490
  t:lsad10=00
- t:dist_code=074201
  t:dist_name="Maryville R-II"
- t:intptlat10=+40.3426688
  t:codist=074-201
+ t:higrade10=12
+ t:statefp10=29
+ t:feature_id_string=MO_2013_School_Districts_shp.1
+ t:intptlat10=+40.3426688
+ t:name10="Maryville R-II School District"
+ t:funcstat10=E
  t:intptlon10=-094.8788717
- m:other10=56
- m:amind90=28
- m:amind00=37
- m:black90=164
- m:asian10=349
- m:aland10=324365817
- m:asian00=170
- m:pop00=13968
- m:multra00=115
- m:black10=551
- m:hisp10=237
- m:hawnpi00=2
- m:white00=13320
- m:amind10=34
+ t:dist_code=074201
+ t:mtfcc10=G5420
  m:hisp90=86
- m:white90=12887
- m:awater10=612177
- m:black00=285
- m:white10=14739
- m:pop10=15911
+ m:hawnpi00=2
+ m:other10=56
  m:multra10=179
- m:pop90=13262
- m:asian90=149
- m:hisp00=122
- m:hawnpi10=3
+ m:amind00=37
  m:other90=34
+ m:hisp10=237
+ m:asian00=170
+ m:black00=285
+ m:pop00=13968
+ m:white00=13320
+ m:asian90=149
+ m:awater10=612177
+ m:hawnpi10=3
+ m:multra00=115
+ m:black90=164
+ m:amind10=34
+ m:hisp00=122
+ m:asian10=349
+ m:black10=551
+ m:pop10=15911
+ m:white10=14739
+ m:pop90=13262
+ m:aland10=324365817
+ m:white90=12887
+ m:amind90=28
  m:other00=39
 
 ```
@@ -101183,8 +101221,8 @@ series e:inub-pueg d:2015-01-01T00:00:00.000Z
 ```ls
 series e:vnht-dg7x d:2009-08-01T00:00:00.000Z
  t:indicatorlabel=Satisfied
- t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009"
  t:indicatorname="Percent of citizens reporting being satisfied with the New Orleans Police Department"
+ t:rowid="Percent of citizens reporting being satisfied with the New Orleans Police DepartmentAugust2009"
  m:indicatorvalue=33
 
 ```
@@ -101387,19 +101425,19 @@ series e:ee2e-smp3 d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:e7is-4a3j d:2006-10-01T00:00:00.000Z
- t:product_fda_list_name="AMOX TR-K"
- t:ndc=66685101201
- t:package_size=01
- t:state_code=MS
- t:labeler_code=66685
- t:product_code=1012
- t:suppression_used=false
  t:record_id=FFSU
- m:medicaid_amount_reimbursed=0
+ t:package_size=01
+ t:product_fda_list_name="AMOX TR-K"
+ t:labeler_code=66685
+ t:suppression_used=false
+ t:product_code=1012
+ t:ndc=66685101201
+ t:state_code=MS
  m:total_amount_reimbursed=21548.28
- m:number_of_prescriptions=419
- m:units_reimbursed=41950
  m:non_medicaid_amount_reimbursed=0
+ m:units_reimbursed=41950
+ m:medicaid_amount_reimbursed=0
+ m:number_of_prescriptions=419
 
 ```
 
@@ -102191,9 +102229,9 @@ series e:a8zr-68i9 d:1999-01-01T00:00:00.000Z
 
 ```ls
 series e:xw3c-8982 d:2014-01-01T00:00:00.000Z
- t:school_name="P.S. 034 Franklin D. Roosevelt"
  t:dbn=01M034
  t:grade=7
+ t:school_name="P.S. 034 Franklin D. Roosevelt"
  m:level_3_or_higher_2=40.4
  m:level_3_or_higher_1=23
  m:number_tested=57
@@ -102349,9 +102387,9 @@ series e:4j6d-yzce d:2015-01-01T00:00:00.000Z
 
 ```ls
 series e:ixte-vr7h d:2013-01-01T00:00:00.000Z
- t:zip_code=55170
- t:department="Not Defined"
  t:supplier_name="US BANK"
+ t:department="Not Defined"
+ t:zip_code=55170
  m:amount=1200000
 
 ```
@@ -103254,54 +103292,16 @@ series e:tijg-9zyp d:2012-08-05T00:00:00.000Z
 [pqg4-dm6b.md](../datasets/pqg4-dm6b.md)
 
 ```ls
-series e:pqg4-dm6b d:2011-07-27T07:49:35.000Z
- t:community_service_volunteerism=N
- t:none_of_the_above=N
- t:victim_services=N
- t:phone=2127554500
- t:disabilities=N
- t:child_care_parent_information=Y
- t:arts_culture=N
- t:education=N
- t:lesbian_gay_bisexual_and_or_transgender=N
- t:business=N
- t:veterans_military_families=N
- t:domestic_violence=N
- t:employment_job_training=Y
- t:description="Established in 1858, the YWCA of the City of New York is one of the nationï¿½s oldest non-pr
-ofit organizations. Our mission is to address the critical needs of New York City women and to empower them 
-for success and leadership in their lives, jobs and communities. We focus on underserved families through jo
-b training, educational child care and after school programs; partnerships with business, government and oth
-er not-for-profits; and advocacy on behalf of the clients we serve."
- t:immigration=N
- t:legal_services=N
- t:foundation=N
- t:nonprofit=Y
- t:published=Published
- t:aging=N
- t:organizationname="YWCA of the City of New York"
- t:staten_island=Y
- t:fax=2122236438
- t:is_registered_with_the_attorney_general_s_office=N
- t:housing=N
- t:manhattan=Y
- t:nourl=N
- t:health=N
- t:youth_services=Y
- t:other_government_organization=N
- t:url=http://www.ywcanyc.org
- t:personal_finance_financial_education=N
- t:faith_based_organization=N
- t:outsideloc=N
- t:new_york_city_agency=N
- t:queens=N
+series e:pqg4-dm6b d:2017-09-22T19:50:14.000Z
  t:anti_discrimination_human_rights=N
- t:professional_association=N
- t:bronx=N
- t:homelessness=N
- t:counseling_support_groups=Y
- t:brooklyn=Y
- m:row_number.pqg4-dm6b=1
+ t:nonprofit=Y
+ t:child_care_parent_information=N
+ t:education=N
+ t:victim_services=N
+ t:housing=N
+ t:description="Our mission is to build safer communities by ending gender-based violence, from sexual haras
+sment to assault.  We accomplish this through community organizing, offering direct service programs, plus f
+ostering greater safety awareness and individual empowerment in our related educational programs.
 
 ```
 
@@ -103564,10 +103564,10 @@ series e:csji-bia6 d:1980-01-01T00:00:00.000Z
 ```ls
 series e:55dk-ypji d:2013-01-01T00:00:00.000Z
  t:description="Property Tax Revenue"
- m:fy_2012_budgeted_revenue=335209275
- m:fy_2012_actual_dec_may=167604600
- m:fy_2013_preliminary_estimate=352918250
  m:estimated_2012_year_end=335209200
+ m:fy_2012_budgeted_revenue=335209275
+ m:fy_2013_preliminary_estimate=352918250
+ m:fy_2012_actual_dec_may=167604600
  m:fy_2012_budgeted_june_nov_estimated=167604600
 
 ```
@@ -103666,8 +103666,8 @@ series e:pgg3-6j5j d:2003-01-01T00:00:00.000Z
 
 ```ls
 series e:7svg-ds5z d:2009-01-01T00:00:00.000Z
- t:stname="N 45TH ST"
  t:downtown=false
+ t:stname="N 45TH ST"
  m:aawdt=22200
 
 ```
@@ -103996,19 +103996,19 @@ series e:c5a8-vfhd d:2016-09-01T00:00:00.000Z
 
 ```ls
 series e:ju2h-vcgs d:2015-01-01T00:00:00.000Z
- t:product_fda_list_name="GLUCAGON E"
- t:ndc=00002803101
- t:package_size=01
- t:state_code=AK
- t:labeler_code=00002
- t:product_code=8031
- t:suppression_used=false
  t:record_id=FFSU
- m:medicaid_amount_reimbursed=8811.68
+ t:package_size=01
+ t:product_fda_list_name="GLUCAGON E"
+ t:labeler_code=00002
+ t:suppression_used=false
+ t:product_code=8031
+ t:ndc=00002803101
+ t:state_code=AK
  m:total_amount_reimbursed=9725.63
- m:number_of_prescriptions=29
- m:units_reimbursed=51
  m:non_medicaid_amount_reimbursed=913.95
+ m:units_reimbursed=51
+ m:medicaid_amount_reimbursed=8811.68
+ m:number_of_prescriptions=29
 
 ```
 
@@ -104622,9 +104622,9 @@ series e:bvna-6j7v d:2011-10-08T13:44:17.000Z
 
 ```ls
 series e:jx86-2vch d:2012-06-26T16:27:31.000Z
- t:library_name="WAHIAWA PUBLIC LIBRARY"
  t:phone=8086226345
  t:county=HONOLULU
+ t:library_name="WAHIAWA PUBLIC LIBRARY"
  m:row_number.jx86-2vch=1
 
 ```
@@ -105112,17 +105112,17 @@ series e:bfiu-cc7d d:2009-01-01T00:00:00.000Z
 
 ```ls
 series e:gfzz-8msb d:2017-01-01T00:00:00.000Z
+ t:city=BIRMINGHAM
+ t:ich_cahps_administration_score="No Score"
  t:cms_certification_number_ccn=012306
+ t:measure_name="ICH CAHPS"
+ t:state=AL
  t:facility_name="CHILDRENS HOSPITAL DIALYSIS"
  t:zip_code=35233
- t:ich_cahps_administration_score="No Score"
- t:state=AL
- t:measure_name="ICH CAHPS"
- t:city=BIRMINGHAM
  m:alternate_ccn_1=13300
- m:state_avg_ich_cahps_administration_score=10
- m:network=8
  m:national_avg_score_ich_cahps_administration=10
+ m:network=8
+ m:state_avg_ich_cahps_administration_score=10
 
 ```
 
@@ -106292,38 +106292,38 @@ series e:6ctv-n46c d:2015-02-17T10:38:32.000Z
 
 ```ls
 series e:v5p2-emnu d:2009-11-03T08:00:00.000Z
- t:project_status="BP REINSTATED"
- t:zoning_generalized="Mixed Use"
- t:block_lot=4172053
  t:lot=053
- t:zoning_simplified=NCT-2
- t:block=4172
- t:status_group="BP Approved/Issued/Re-Instated"
- t:landuse=Resident
- t:heightlimit=40-X
- t:planning_neighborhood="Central Waterfront"
- t:zoning=NCT-2
  t:dbi_project_description="ERECT A FOUR STORY EIGHT UNIT RESIDENTIAL BLDG WITH COML"
- m:office=0
- m:prod_dist_rep=0
- m:supdist=10
- m:net_medical=0
+ t:status_group="BP Approved/Issued/Re-Instated"
+ t:zoning=NCT-2
+ t:zoning_generalized="Mixed Use"
+ t:project_status="BP REINSTATED"
+ t:landuse=Resident
+ t:block_lot=4172053
+ t:block=4172
+ t:planning_neighborhood="Central Waterfront"
+ t:zoning_simplified=NCT-2
+ t:heightlimit=40-X
+ m:total_gsf_commercial=0
+ m:medical=0
+ m:ret_ent=0
+ m:net_added_units=8
  m:net_office=0
  m:units=8
- m:visitor=0
- m:net_prod_dist_rep=0
- m:cult_inst_educ=0
- m:taz=521
- m:medical=0
+ m:office=0
  m:net_added_sf=0
- m:dbi_permit=9902819
- m:net_ret_ent=0
- m:ret_ent=0
- m:sitearea=6090
- m:total_gsf_commercial=0
+ m:net_prod_dist_rep=0
+ m:net_medical=0
+ m:taz=521
  m:net_cult_inst_educ=0
- m:net_added_units=8
  m:net_visitor=0
+ m:sitearea=6090
+ m:prod_dist_rep=0
+ m:net_ret_ent=0
+ m:cult_inst_educ=0
+ m:supdist=10
+ m:visitor=0
+ m:dbi_permit=9902819
 
 ```
 
@@ -107213,34 +107213,40 @@ series e:idx4-2868 d:2002-01-01T00:00:00.000Z
 [i98e-djp9.md](../datasets/i98e-djp9.md)
 
 ```ls
-series e:i98e-djp9 d:1964-08-27T00:00:00.000Z
- t:permit_type=3
- t:fire_only_permit=false
- t:neighborhoods_analysis_boundaries="Inner Richmond"
- t:use_code_description=office
- t:status=cancelled
+series e:i98e-djp9 d:2009-10-19T00:00:00.000Z
+ t:proposed_use="radio & tv stations"
+ t:existing_construction_type=5
+ t:proposed_construction_type=5
+ t:permit_number=200910199309
  t:tidf_compliance=false
- t:zipcode=94118
+ t:description="to obtain final inspection for work approved under pa#9822980. all work has been completed. 
+sign has been in place since 1998."
+ t:street_name="South Van Ness"
+ t:supervisor_district=9
  t:street_suffix=Ave
- t:street_name=05th
- t:block=1548
- t:voluntary_soft_story_retrofit=false
- t:proposed_use=office
- t:supervisor_district=1
+ t:lot=043
+ t:fire_only_permit=false
  t:structural_notification=false
- t:existing_use=office
- t:use_codes=10
- t:permit_number=0304329
- t:description=horizontal
- t:lot=014
- t:street_number=553
- t:permit_type_definition="additions alterations or repairs"
- m:plansets=2
- m:revised_cost=15000
- m:estimated_cost=100
- m:number_of_existing_stories=999
- m:proposed_units=9999
- m:number_of_proposed_stories=999
+ t:block=3549
+ t:use_codes=46
+ t:neighborhoods_analysis_boundaries=Mission
+ t:permit_type_definition="otc alterations permit"
+ t:permit_type=8
+ t:zipcode=94103
+ t:proposed_construction_type_description="wood frame (5)"
+ t:voluntary_soft_story_retrofit=false
+ t:street_number=307
+ t:existing_use="radio & tv stations"
+ t:use_code_description="radio & tv stations"
+ t:status=complete
+ t:existing_construction_type_description="wood frame (5)"
+ m:number_of_existing_stories=3
+ m:number_of_proposed_stories=3
+ m:proposed_units=14
+ m:plansets=0
+ m:estimated_cost=1
+ m:existing_units=14
+ m:revised_cost=1
 
 ```
 
@@ -108006,22 +108012,22 @@ series e:awnv-dyag d:2017-01-01T00:00:00.000Z
 
 ```ls
 series e:ese6-rqpq d:2011-01-01T00:00:00.000Z
- t:topic="Prenatal Care - Visits"
+ t:breakoutcategoryid=BOC16
+ t:questionid=QUO171
+ t:question="Indicator of no prenatal care"
  t:locationabbr=AR
+ t:break_out="Age 18 - 44"
  t:locationdesc=Arkansas
  t:topicid=TOP44
- t:class="Control Variable"
- t:break_out="Age 18 - 44"
- t:questionid=QUO171
+ t:classid=CLA1
+ t:break_out_category="Maternal Age - 18 to 44 years only"
+ t:datasource=PRAMS
  t:response=NO
  t:locationid=5
  t:breakoutid=AGE1844ALL
+ t:topic="Prenatal Care - Visits"
+ t:class="Control Variable"
  t:responseid=RES23
- t:break_out_category="Maternal Age - 18 to 44 years only"
- t:question="Indicator of no prenatal care"
- t:breakoutcategoryid=BOC16
- t:datasource=PRAMS
- t:classid=CLA1
  m:data_value=99.1
 
 ```
@@ -108377,15 +108383,15 @@ series e:wspt-s43w d:2009-01-01T00:00:00.000Z
 
 ```ls
 series e:mzmn-fvgv d:2014-01-01T00:00:00.000Z
- t:election_day_registration_voting="Nov. 4 6am-7pm"
+ t:grace_period_registration_voting="During Early Voting Hours"
  t:site="Oak Park Village Hall"
  t:early_voting_sunday="Sun Oct. 26  9am-3pm; Sun Nov. 2  9am-4pm"
- t:grace_period_in_person_absentee="Nov. 3  9am-5pm"
- t:street="123 Madison St."
- t:grace_period_registration_voting="During Early Voting Hours"
- t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm"
- t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm"
  t:city="Oak Park"
+ t:street="123 Madison St."
+ t:early_voting_weekdays="M-F  Oct. 20-24 9am-5pm; M-F Oct. 27-31 9am-7pm"
+ t:early_voting_saturday="Sat Oct. 25, Nov. 1 9am-5pm"
+ t:grace_period_in_person_absentee="Nov. 3  9am-5pm"
+ t:election_day_registration_voting="Nov. 4 6am-7pm"
  m:row_number.mzmn-fvgv=1
 
 ```
@@ -108645,14 +108651,14 @@ series e:m3tr-qhgy d:2015-11-20T00:00:00.000Z
 
 ```ls
 series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z
- t:degree_desc=AA
- t:major_desc=Business/Admin./Mgmt.
- t:course_title="INTRODUCTION TO BUSINESS"
- t:department=Police
- t:school_desc="Montgomery College Rockville Campus"
  t:course_desc="An introductory course designed to survey the field of business and its environment in order
  to give the student a broad overview of the principles, practices, institutions, and functions of business.
 "
+ t:major_desc=Business/Admin./Mgmt.
+ t:degree_desc=AA
+ t:school_desc="Montgomery College Rockville Campus"
+ t:course_title="INTRODUCTION TO BUSINESS"
+ t:department=Police
  m:cost=392
 
 ```
@@ -109366,23 +109372,23 @@ null
 
 ```ls
 series e:6rrm-vxj9 d:2016-09-19T20:11:24.000Z
- t:parknumber=M099
- t:location="Haven Avenue between West 173rd Street and West 176th Street"
- t:commboard=12
- t:borough=Manhattan
- t:council=10
- t:dimen="H: 35' W: 3' D: 1'"
- t:materials="Magnesium, aluminum, steel, concrete"
- t:inscribed="3000 A. D. BY TERRY FUGATE-WILCOX / THE ALUMINUM & MAGNESIUM WILL MIX TOGETHER BY 3000 A.D"
- t:donor="Public Arts Council and Neighborhood Action Council"
  t:dedicated=1974
- t:extant=Y
- t:name="3000 A.D. Diffusion Piece"
- t:maintainedbyparks=Y
- t:parkprop=Y
+ t:dimen="H: 35' W: 3' D: 1'"
+ t:commboard=12
  t:descrip="Monolith of eight magnesium and aluminum plates with steel bolts set on steel base set in concre
 te pad with plaque"
+ t:borough=Manhattan
+ t:extant=Y
+ t:parkprop=Y
+ t:maintainedbyparks=Y
+ t:donor="Public Arts Council and Neighborhood Action Council"
  t:sculptor="Tery Fugate-Wilcox"
+ t:inscribed="3000 A. D. BY TERRY FUGATE-WILCOX / THE ALUMINUM & MAGNESIUM WILL MIX TOGETHER BY 3000 A.D"
+ t:materials="Magnesium, aluminum, steel, concrete"
+ t:council=10
+ t:name="3000 A.D. Diffusion Piece"
+ t:parknumber=M099
+ t:location="Haven Avenue between West 173rd Street and West 176th Street"
  m:number=2109
 
 ```
@@ -109711,12 +109717,19 @@ series e:2ua9-wand d:2012-01-01T00:00:00.000Z
 [3gkd-ddzn.md](../datasets/3gkd-ddzn.md)
 
 ```ls
-series e:3gkd-ddzn d:2014-03-06T09:40:58.000Z
+series e:3gkd-ddzn d:2017-09-14T20:43:14.000Z
  t:chair="Georgette Morgan-Thomas"
- t:community_board_number=9
- t:district_manager="Eutha R. Prince"
  t:board_meeting_cabinet_meeting="Third Thursday, 6:30 PM"
- m:row_number.3gkd-ddzn=1
+ t:postcode=10027
+ t:district_manager="Eutha R. Prince"
+ t:community_board_number=9
+ t:nta=Manhattanville
+ t:borough=MANHATTAN
+ m:bin=1059714
+ m:community_board=9
+ m:bbl=1019820067
+ m:community_council=7
+ m:census_tract=219
 
 ```
 
@@ -110249,40 +110262,40 @@ series e:xx2p-4jnq d:2013-03-06T09:43:46.000Z
 
 ```ls
 series e:i8y7-m763 d:2007-03-21T00:00:00.000Z
- t:side_of_street=West
- t:inspector=CSA
+ t:1_1_litter_count=N/A
  t:clean_corridor=No
  t:route_no=1
- t:sweeping_time_s="Not Recorded"
+ t:4_1=50.0%
+ t:2_4=No
+ t:4_2=50.0%
+ t:2_5=Yes
+ t:4_3=50.0%
+ t:4_4=100.0%
+ t:4_5=100.0%
+ t:inspector=CSA
+ t:side_of_street=West
+ t:4_6=100.0%
  t:type_of_street=Residential
- t:fiscal_year=2006-2007
+ t:startstreetname=Clement
+ t:endstreetname=Fulton
  t:corridor_name="25th Avenue"
  t:4_0_pass=No
  t:2_1_litter_count=N/A
- t:2_4=No
- t:4_6=100.0%
- t:4_5=100.0%
- t:startstreetname=Clement
- t:4_4=100.0%
- t:4_3=50.0%
- t:1_1_litter_count=N/A
- t:4_2=50.0%
- t:4_1=50.0%
- t:sweeping_day_s="Not Recorded"
+ t:fiscal_year=2006-2007
+ t:sweeping_time_s="Not Recorded"
  t:district=1
- t:2_5=Yes
- t:endstreetname=Fulton
+ t:sweeping_day_s="Not Recorded"
+ m:1_1=1.55
  m:2_1=2.23
  m:2_2=100
- m:1_1=1.55
- m:2_3=1.05
- m:5_1=83.3
- m:5_4=100
- m:5_2=100
- m:5_3=100
  m:3_1=0.2
+ m:2_3=1.05
  m:3_2=9.8
  m:3_3=21.2
+ m:5_1=83.3
+ m:5_2=100
+ m:5_3=100
+ m:5_4=100
 
 ```
 
@@ -110398,19 +110411,19 @@ series e:kv7h-kjye d:2007-07-11T00:00:00.000Z
 ```ls
 series e:cpc6-pxmp d:2016-01-01T00:00:00.000Z
  t:location="Albany Park"
- m:december=12789
- m:march=12368
- m:may=10915
  m:november=14463
- m:february=10593
- m:april=12556
- m:june=15341
- m:ytd=159397
- m:january=11735
+ m:may=10915
  m:august=13907
+ m:february=10593
+ m:ytd=159397
  m:july=14151
- m:october=16460
+ m:april=12556
+ m:march=12368
+ m:june=15341
  m:september=14119
+ m:january=11735
+ m:december=12789
+ m:october=16460
 
 ```
 
@@ -110608,8 +110621,8 @@ series e:u93h-quup d:2001-01-01T00:00:00.000Z
 ```ls
 series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z
  t:contributor_type="Candidate Committee"
- m:count=128
  m:percentage_of_total_contributions_received=0.34
+ m:count=128
  m:percentage_of_total_count=0.64
  m:total_contribution_received=39575.16
 
@@ -110885,20 +110898,20 @@ series e:9ray-6dmy d:2002-01-01T00:00:00.000Z
 
 ```ls
 series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z
- m:fy2014=80642
- m:fy2005=65977
- m:fy2015=80129
- m:fy2006=65739
- m:fy2003=71777
- m:fy2016=80264
- m:fy2004=71777
- m:fy2010=89708
- m:fy2011=86309
- m:fy2012=81378
- m:fy2013=80076
  m:fy2009=88735
  m:fy2007=65449
  m:fy2008=65133
+ m:fy2016=80264
+ m:fy2005=65977
+ m:fy2006=65739
+ m:fy2014=80642
+ m:fy2003=71777
+ m:fy2015=80129
+ m:fy2004=71777
+ m:fy2012=81378
+ m:fy2013=80076
+ m:fy2010=89708
+ m:fy2011=86309
 
 ```
 
@@ -110907,20 +110920,20 @@ series e:fg2z-wgcj d:2003-01-01T00:00:00.000Z
 ```ls
 series e:jmw7-ijg5 d:2015-10-07T14:44:20.000Z
  t:zip=60620
- t:program_model="Head Start Support Services"
- t:phone_number=7733965556
- t:street_name=91ST
- t:state=IL
- t:agency="A.M. Bus Company"
- t:site_name="A.M. Bus Company"
- t:city=Chicago
- t:division="Children Services"
- t:ward=21
- t:street_direction=W
  t:community_area=ROSELAND
+ t:street_direction=W
+ t:agency="A.M. Bus Company"
+ t:city=Chicago
+ t:program_model="Head Start Support Services"
+ t:ward=21
+ t:street_name=91ST
+ t:division="Children Services"
+ t:site_name="A.M. Bus Company"
  t:street_number=100
- t:community_area_number=49
  t:street_type=ST
+ t:phone_number=7733965556
+ t:state=IL
+ t:community_area_number=49
  m:row_number.jmw7-ijg5=1
 
 ```
@@ -110994,21 +111007,21 @@ series e:g5wn-pq7y d:2015-01-01T00:00:00.000Z
 ```ls
 series e:qrxi-q28n d:2013-01-01T00:00:00.000Z
  t:zip=60625
- t:location="Albany Park"
  t:city=CHICAGO
- m:december=0
- m:march=0
+ t:location="Albany Park"
  m:november=0
  m:may=0
- m:february=0
- m:april=0
- m:june=0
- m:ytd=0
- m:january=0
  m:august=0
+ m:february=0
+ m:ytd=0
  m:july=0
- m:october=0
+ m:april=0
+ m:march=0
+ m:june=0
  m:september=0
+ m:january=0
+ m:december=0
+ m:october=0
 
 ```
 
@@ -111543,17 +111556,17 @@ series e:cz2e-ihje d:2014-01-01T00:00:00.000Z
 
 ```ls
 series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z
- t:inventory=RTD_GPS
- t:pic=.\CCH_Signs\Images\2.jpg
- t:pole_type="Traffic Signals w/Pedestrian Signals"
- t:signmsg1="SPEED LIMIT [25] (R2-1)"
- t:point_id=2
  t:signclr1="Black on White"
+ t:point_id=2
+ t:signmsg1="SPEED LIMIT [25] (R2-1)"
+ t:pic=.\CCH_Signs\Images\2.jpg
+ t:inventory=RTD_GPS
+ t:pole_type="Traffic Signals w/Pedestrian Signals"
+ m:height_ft=6
+ m:offset=0
  m:horiz_gap=0
  m:numplates=1
  m:height_in=8
- m:offset=0
- m:height_ft=6
 
 ```
 
@@ -111708,11 +111721,11 @@ series e:hbfc-v9c2 d:2015-07-03T04:31:49.000Z
 
 ```ls
 series e:dt7v-mz6s d:2014-01-01T00:00:00.000Z
- t:position=Support
  t:measure="Measure J - Minimum Wage"
- t:reportered_filerid=1367310
- t:filerid=1367310
  t:filer_naml="Campaign for a Fair Economy and Higher Wages, sponsored by community and labor organizations"
+ t:filerid=1367310
+ t:position=Support
+ t:reportered_filerid=1367310
  m:row_number.dt7v-mz6s=1
 
 ```
@@ -112884,11 +112897,11 @@ series e:93qk-wjz6 d:2017-01-30T23:01:06.000Z
 
 ```ls
 series e:3qf7-xrf4 d:2014-01-01T00:00:00.000Z
- t:precinct=8400012
  t:zip=60706
+ t:precinct=8400012
  t:accessible=YES
- t:polling_place_location_name="THE MONTCLARE BUILDING"
  t:polling_place_id=1283
+ t:polling_place_location_name="THE MONTCLARE BUILDING"
  t:city="HARWOOD HEIGHTS"
  m:row_number.3qf7-xrf4=1
 
@@ -113305,19 +113318,19 @@ series e:rniz-qjw4 d:2014-01-01T00:00:00.000Z
 ```ls
 series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z
  t:location="Albany Park"
- m:december=2513
- m:march=3485
- m:may=2779
  m:november=3121
- m:february=3117
- m:april=3522
- m:june=3076
- m:ytd=37025
- m:january=3275
+ m:may=2779
  m:august=3174
+ m:february=3117
+ m:ytd=37025
  m:july=2778
- m:october=3202
+ m:april=3522
+ m:march=3485
+ m:june=3076
  m:september=2983
+ m:january=3275
+ m:december=2513
+ m:october=3202
 
 ```
 
@@ -113326,10 +113339,10 @@ series e:w7uw-j3pp d:2016-01-01T00:00:00.000Z
 ```ls
 series e:25mj-qtvj d:2016-01-01T00:00:00.000Z
  t:service_type="AGENCY HEAD"
- t:classification="PRINCIPAL EXECUTIVE/MANAGER D"
- t:agency_title="ACCOUNTANCY, OREGON BOARD OF"
- t:agency=12000
  t:full_part_time=FULL-TIME
+ t:agency=12000
+ t:agency_title="ACCOUNTANCY, OREGON BOARD OF"
+ t:classification="PRINCIPAL EXECUTIVE/MANAGER D"
  m:annual_salary=96036
 
 ```
@@ -113339,18 +113352,18 @@ series e:25mj-qtvj d:2016-01-01T00:00:00.000Z
 ```ls
 series e:28km-nz6e d:2012-01-01T00:00:00.000Z
  t:state="United States"
- m:ages_21_34_2014=6.2
- m:ages_0_20_2014=1.2
- m:female_2014=1.4
- m:male_2014=4.9
- m:ages_21_34=6.7
- m:female=1.5
- m:ages_0_20=1.3
- m:male=5.2
- m:ages_35=3.1
  m:all_ages_2014=3.1
+ m:ages_21_34=6.7
+ m:male_2014=4.9
+ m:ages_0_20_2014=1.2
+ m:ages_21_34_2014=6.2
+ m:ages_0_20=1.3
  m:all_ages=3.3
  m:ages_35_2014=3
+ m:ages_35=3.1
+ m:female=1.5
+ m:female_2014=1.4
+ m:male=5.2
 
 ```
 
@@ -113359,12 +113372,12 @@ series e:28km-nz6e d:2012-01-01T00:00:00.000Z
 ```ls
 series e:s48i-ac23 d:2014-04-08T08:08:32.000Z
  t:data_years=2003-2005
- t:demographic="Connecticut adults (18+y)"
  t:95_confidence_limits_for_percent=5.8-6.6
- m:coefficient_of_variation=3.3
- m:standard_error_for_percent=0.21
+ t:demographic="Connecticut adults (18+y)"
  m:estimated_number_of_adults_had_diabetes=488915
+ m:standard_error_for_percent=0.21
  m:percent_of_adults_with_diabetes=6.2
+ m:coefficient_of_variation=3.3
 
 ```
 
@@ -113430,19 +113443,19 @@ null
 
 ```ls
 series e:nv2j-hmda d:2010-01-14T00:00:00.000Z
- t:owner_name="Smith Property Management LLC"
- t:owner_state=NY
- t:tax_id_number=12159
- t:owner_zip=12206
- t:vacant_no_longer_vacant=V
- t:sbl_number=65.52-2-22
- t:street_name="ALBANY ST"
  t:court_notes2="Trial 2/22/12"
- t:court_notes="Trial 2/22/12"
- t:street_number=5
- t:additional_notes="8/25/12: new owner"
- t:initial_disposition="Demolition recommended"
+ t:owner_name="Smith Property Management LLC"
+ t:owner_zip=12206
  t:owner_city=Albany
+ t:court_notes="Trial 2/22/12"
+ t:tax_id_number=12159
+ t:initial_disposition="Demolition recommended"
+ t:street_name="ALBANY ST"
+ t:additional_notes="8/25/12: new owner"
+ t:sbl_number=65.52-2-22
+ t:vacant_no_longer_vacant=V
+ t:street_number=5
+ t:owner_state=NY
  m:current_registration_fee=250
 
 ```
@@ -113974,47 +113987,55 @@ series e:mxaw-q8gs d:2012-11-27T10:45:18.000Z
 
 ```ls
 series e:m56g-jpua d:2011-01-01T00:00:00.000Z
- t:manhattan_cooperatives_comparable_properties_neighborhood="GREENWICH VILLAGE-CENTRAL"
- t:comparable_rental_2_boro_block_lot=1-00606-0009
- t:comparable_rental_1_building_classification=D9-ELEVATOR
- t:comparable_rental_1_boro_block_lot=1-00575-0077
- t:manhattan_cooperatives_comparable_properties_building_classification=D4-ELEVATOR
- t:manhattan_cooperatives_comparable_properties_boro_block_lot=1-00576-0049
- t:comparable_rental_1_neighborhood="GREENWICH VILLAGE-CENTRAL"
- t:comparable_rental_2_building_classification=D8-ELEVATOR
- t:comparable_rental_2_neighborhood="GREENWICH VILLAGE-WEST"
- m:comparable_rental_2_market_value_per_sqft=228.93
- m:comparable_rental_2_full_market_value=8639000
- m:comparable_rental_1_total_units=88
- m:comparable_rental_1_expense_per_sqft=13.12
- m:manhattan_cooperatives_comparable_properties_estimated_expense=877369
- m:manhattan_cooperatives_comparable_properties_net_operating_income=1977640
- m:comparable_rental_1_distance_from_coop_in_miles=0.05
- m:manhattan_cooperatives_comparable_properties_year_built=1959
- m:comparable_rental_1_gross_income_per_sqft=38.32
- m:comparable_rental_2_estimated_expense=434752
- m:comparable_rental_2_total_units=51
- m:manhattan_cooperatives_comparable_properties_total_units=82
- m:manhattan_cooperatives_comparable_properties_estimated_gross_income=2855009
- m:manhattan_cooperatives_comparable_properties_gross_income_per_sqft=40.09
- m:manhattan_cooperatives_comparable_properties_full_market_value=14946000
- m:comparable_rental_1_net_operating_income=1611483
- m:comparable_rental_1_estimated_gross_income=2450267
- m:comparable_rental_2_estimated_gross_income=1579342
- m:comparable_rental_1_year_built=1924
- m:comparable_rental_1_gross_sqft=63943
- m:manhattan_cooperatives_comparable_properties_market_value_per_sqft=209.87
- m:comparable_rental_2_year_built=1920
- m:comparable_rental_1_full_market_value=12194000
- m:comparable_rental_1_estimated_expense=838784
- m:comparable_rental_2_net_operating_income=1144590
- m:comparable_rental_2_gross_income_per_sqft=41.85
- m:comparable_rental_1_market_value_per_sqft=190.7
- m:comparable_rental_2_distance_from_coop_in_miles=0.19
- m:comparable_rental_2_gross_sqft=37736
- m:comparable_rental_2_expense_per_sqft=11.52
- m:manhattan_cooperatives_comparable_properties_gross_sqft=71215
- m:manhattan_cooperatives_comparable_properties_expense_per_sqft=12.32
+ t:comparable_rental_2_boro_block_lot=1-00518-0034
+ t:comparable_rental_1_neighborhood=SOHO
+ t:comparable_rental_1_boro_block_lot=1-00518-0010
+ t:manhattan_cooperatives_comparable_properties_building_classification=C6-WALK-UP
+ t:postcode=10012
+ t:manhattan_cooperatives_comparable_properties_boro_block_lot=1-00518-0032
+ t:comparable_rental_1_building_classification=C7-WALK-UP
+ t:comparable_rental_2_building_classification=C7-WALK-UP
+ t:nta="SoHo-TriBeCa-Civic Center-Little Italy"
+ t:manhattan_cooperatives_comparable_properties_neighborhood=SOHO
+ t:comparable_rental_2_neighborhood=SOHO
+ m:comparable_rental_1_distance_from_coop_in_miles=0
+ m:bin=1008072
+ m:comparable_rental_2_gross_sqft=10606
+ m:comparable_rental_1_expense_per_sqft=7.22
+ m:borough=1
+ m:manhattan_cooperatives_comparable_properties_gross_sqft=20190
+ m:comparable_rental_2_gross_income_per_sqft=31.36
+ m:manhattan_cooperatives_comparable_properties_market_value_per_sqft=204.56
+ m:manhattan_cooperatives_comparable_properties_expense_per_sqft=8.33
+ m:comparable_rental_1_full_market_value=5296000
+ m:comparable_rental_1_gross_income_per_sqft=40.76
+ m:comparable_rental_1_estimated_expense=150805
+ m:comparable_rental_2_expense_per_sqft=9.44
+ m:manhattan_cooperatives_comparable_properties_gross_income_per_sqft=36.06
+ m:comparable_rental_1_net_operating_income=701102
+ m:community_council=3
+ m:census_tract=49
+ m:comparable_rental_2_distance_from_coop_in_miles=0
+ m:comparable_rental_2_estimated_expense=100091
+ m:comparable_rental_1_total_units=34
+ m:comparable_rental_2_estimated_gross_income=332649
+ m:manhattan_cooperatives_comparable_properties_year_built=1900
+ m:manhattan_cooperatives_comparable_properties_estimated_gross_income=728051
+ m:comparable_rental_1_market_value_per_sqft=253.39
+ m:comparable_rental_2_total_units=20
+ m:bbl=1005180032
+ m:manhattan_cooperatives_comparable_properties_total_units=41
+ m:comparable_rental_2_full_market_value=1736000
+ m:manhattan_cooperatives_comparable_properties_net_operating_income=559868
+ m:comparable_rental_2_year_built=1900
+ m:manhattan_cooperatives_comparable_properties_full_market_value=4130000
+ m:comparable_rental_2_net_operating_income=232558
+ m:comparable_rental_1_estimated_gross_income=851907
+ m:community_board=2
+ m:comparable_rental_1_gross_sqft=20901
+ m:manhattan_cooperatives_comparable_properties_estimated_expense=168183
+ m:comparable_rental_2_market_value_per_sqft=163.68
+ m:comparable_rental_1_year_built=1900
 
 ```
 
@@ -114178,14 +114199,14 @@ series e:suk6-uupp d:2016-01-01T00:00:00.000Z
 ```ls
 series e:xy4g-m2tm d:2011-01-01T00:00:00.000Z
  t:month=DEC
+ m:new_investigations_opened=6
+ m:lobbyist_expense_audit=0
  m:vendor_compliance_audit=20
- m:training_seminars=3
  m:advisory_opinions_issued=1
  m:political_contributions_audit=0
- m:lobbyist_expense_audit=0
- m:inquiries_pre_bid_mtgs_included=24
  m:employees_trained=29
- m:new_investigations_opened=6
+ m:training_seminars=3
+ m:inquiries_pre_bid_mtgs_included=24
 
 ```
 
@@ -114419,14 +114440,14 @@ series e:s5ne-bpvg d:2005-01-01T00:00:00.000Z
 ```ls
 series e:an65-3p9b d:2012-01-01T00:00:00.000Z
  t:state="New Hampshire"
- m:female_2014=4.2
+ m:age_55=6.8
+ m:all_ages_2014=4.6
  m:male_2014=5
+ m:all_ages=5
  m:female=2.8
  m:age_21_34_2014=9.4
+ m:female_2014=4.2
  m:male=7.3
- m:all_ages_2014=4.6
- m:age_55=6.8
- m:all_ages=5
 
 ```
 
@@ -115253,10 +115274,18 @@ series e:qtts-5qbh d:2015-02-18T00:00:00.000Z
 [kh3d-xhq7.md](../datasets/kh3d-xhq7.md)
 
 ```ls
-series e:kh3d-xhq7 d:2011-10-08T13:59:54.000Z
- t:phone="(718) 352-2027"
- t:name=Auburndale
- m:row_number.kh3d-xhq7=1
+series e:kh3d-xhq7 d:2017-09-16T17:38:07.000Z
+ t:city=Arverne
+ t:phone="(718) 634-4784"
+ t:postcode=11692
+ t:name=Arverne
+ t:nta=Hammels-Arverne-Edgemere
+ t:borough=QUEENS
+ m:bin=4158900018
+ m:community_board=14
+ m:bbl=4158900018
+ m:community_council=31
+ m:census_tract=97204
 
 ```
 
@@ -115279,10 +115308,10 @@ x
 
 ```ls
 series e:xwgr-xw5q d:2016-10-31T04:57:44.000Z
- t:call_type_code=9212
- t:call_type_text="TRESPASS SUSP"
- t:area_occ=Newton
  t:rpt_dist=1321
+ t:call_type_code=9212
+ t:area_occ=Newton
+ t:call_type_text="TRESPASS SUSP"
  t:incident_number=161031000621
  m:row_number.xwgr-xw5q=1
 
@@ -115482,18 +115511,18 @@ series e:su6u-afcg d:2013-02-12T09:50:05.000Z
 
 ```ls
 series e:kzbi-spm5 d:2015-01-01T00:00:00.000Z
- t:department_description="OFFICE OF THE MAYOR"
- t:fund_code=0100
- t:fund_type=LOCAL
- t:appropriation_account=5
- t:appropriation_authority_description="OFFICE OF THE MAYOR"
- t:appropriation_authority=2005
- t:department_number=1
- t:appropriation_account_description="SALARIES AND WAGES - ON PAYROLL"
  t:fund_description="CORPORATE FUND"
- m:appropration=5511957
+ t:appropriation_account_description="SALARIES AND WAGES - ON PAYROLL"
+ t:appropriation_account=5
+ t:department_description="OFFICE OF THE MAYOR"
+ t:fund_type=LOCAL
+ t:appropriation_authority=2005
+ t:appropriation_authority_description="OFFICE OF THE MAYOR"
+ t:fund_code=0100
+ t:department_number=1
  m:recommendation=5550657
  m:revised_appropriation=5511957
+ m:appropration=5511957
 
 ```
 
@@ -115708,23 +115737,33 @@ series e:a7ub-k7sa d:2005-01-01T00:00:00.000Z
 [bjuu-44hx.md](../datasets/bjuu-44hx.md)
 
 ```ls
-series e:bjuu-44hx d:2017-06-08T19:30:08.000Z
- t:dvv_print_flag=F
+series e:bjuu-44hx d:1997-07-04T22:15:21.000Z
+ t:isn=11
+ t:dvv_district_cd=ME11
+ t:dvv_hq_approve=X
  t:dvv_464_color=BLACK
- t:dvv_tag_remarks="EMERGENCY TOW"
- t:isn=1
- t:dvv_tag_loc1="AVENUE P & E 4TH ST"
- t:dvv_color=BLACK
- t:dvv_464_make=VOLVO
+ t:dvv_464_make=DODGE
  t:dvv_type=4D
- t:dvv_final_disp_cd=NOL
- t:dvv_make=VOLVO
- t:dvv_district_cd=TRN01
- t:dvv_yard_resp=DVO999
- t:dvv_tag_no=1
+ t:dvv_year=1985
+ t:dvv_yard_resp=DVO1A
+ t:dvv_color=BLACK
+ t:dvv_907_no=D40620B
+ t:dvv_se_status=V
  t:dvv_464_type=4D
- m:dvv_timestmp=19891117162634
- m:dvv_timestmp_upd=19970606070052
+ t:dvv_tag_no=1072203
+ t:dvv_tag_remarks=7A-7P
+ t:dvv_tag_loc2="2 AVE - 3 AVE"
+ t:dvv_print_flag=F
+ t:dvv_challenge_48=N
+ t:dvv_tag_loc1="S/S E 126 ST"
+ t:dvv_lor_indic=A
+ t:dvv_over48_ind=N
+ t:dvv_make=CHRYSL
+ t:dvv_state=NY
+ t:dvv_city="NEW YORK"
+ t:dvv_chrge_48=N
+ t:dvv_final_disp_cd=RTC
+ m:dvv_summons=96754947
 
 ```
 
@@ -115732,117 +115771,117 @@ series e:bjuu-44hx d:2017-06-08T19:30:08.000Z
 
 ```ls
 series e:xzhn-73j5 d:1996-07-01T00:00:00.000Z
- t:physzip4=571.0
- t:physcity=JUNEAU
- t:mailcity=JUNEAU
- t:mail_st=AK
- t:pub_fips=2
- t:physaddr="333 WILLOUGHBY AVENUE"
- t:phys_st=AK
- t:physzip=99811
- t:mailzip=99811
- t:mailzip4=571.0
  t:mailaddr="P.O. BOX 110571"
  t:fiothsp="NEH (NEWSPAPER PROJECT)"
+ t:pub_fips=2
+ t:physaddr="333 WILLOUGHBY AVENUE"
+ t:mailcity=JUNEAU
+ t:mailzip=99811
  t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
- m:t1expadm=0
- m:totox_ao=0
- m:totex123=619028
+ t:mail_st=AK
+ t:physcity=JUNEAU
+ t:physzip4=571.0
+ t:mailzip4=571.0
+ t:phys_st=AK
+ t:physzip=99811
+ m:aidipld=906353
+ m:aidiplc=0
+ m:aidiplb=777759
+ m:aidipla=128594
+ m:t2expadm=0
+ m:oexpsald=1342504
+ m:oexpsala=25628
+ m:oexpsalc=0
+ m:oexpsalb=1316876
  m:oexpbenb=854037
+ m:aidoild=54044
  m:oexpbena=16621
  m:oexpbend=870658
+ m:aidoilb=54044
  m:oexpbenc=0
+ m:aidoilc=0
+ m:aidoila=0
+ m:othexpd=0
+ m:othexpc=0
+ m:othexpb=0
+ m:othexpa=0
+ m:totaidb=962474
+ m:totaida=619028
+ m:t1expstw=295590
+ m:othincm=0
+ m:t2expgrt=119247
+ m:fitott13=585191
+ m:fioth=262699
+ m:fiotht48=0
+ m:allopcap=0
+ m:aidsala=371187
+ m:total_si=3956410
+ m:t1expgrt=128594
+ m:aidlcc=0
  m:fit3=61512
+ m:aidlcd=129747
  m:fit2=124343
  m:fit1=399336
+ m:aidmlsd=0
+ m:aidlca=119247
+ m:totex123=619028
+ m:aidlcb=10500
+ m:oexpothd=284724
+ m:aidmlsa=0
+ m:oexpothc=0
+ m:oexpothb=190810
+ m:aidmlsc=0
+ m:oexpotha=93914
+ m:aidmlsb=0
  m:totincm=4804300
- m:t1expgrt=128594
- m:othincm=0
+ m:siaidlib=925300
+ m:totexpd=4350234
+ m:siother=152483
+ m:capitald=94676
+ m:capitala=0
+ m:aidplsd=0
+ m:capitalc=0
+ m:aidplsc=0
+ m:capitalb=94676
+ m:aidplsb=0
+ m:aidplsa=0
+ m:aidsalb=120171
+ m:aidsalc=0
+ m:aidsald=491358
+ m:oexpcold=176170
+ m:t3expgrt=0
+ m:oexpcolb=176170
+ m:oexpcolc=0
+ m:t1expadm=0
+ m:totox_ao=0
+ m:sistlaop=2878627
+ m:allopstf=0
+ m:allopoth=0
+ m:oexpcola=0
+ m:period_e=607800
+ m:totoxstc=0
+ m:aidothc=0
+ m:totoxstd=2213162
+ m:aidothd=0
+ m:aidotha=0
+ m:aidothb=0
+ m:totexpao=0
+ m:totopexc=0
+ m:total_fi=847890
+ m:totopexd=2674056
+ m:totopexa=136163
+ m:totopexb=2537893
+ m:totaidd=1581502
+ m:totaidc=0
+ m:totexpc=0
+ m:totexpb=3595043
+ m:totexpa=755191
  m:totexpt1=424184
  m:totexpt3=75597
  m:totexpt2=119247
- m:fitott13=585191
- m:sistlaop=2878627
- m:aidmlsa=0
- m:aidmlsc=0
- m:aidmlsb=0
- m:totexpao=0
- m:aidmlsd=0
- m:totopexc=0
- m:totopexd=2674056
- m:totopexa=136163
- m:aidothd=0
- m:totopexb=2537893
- m:aidothc=0
- m:oexpothc=0
- m:aidothb=0
- m:t2expgrt=119247
- m:oexpothd=284724
- m:aidotha=0
- m:oexpotha=93914
- m:oexpothb=190810
- m:othexpd=0
- m:oexpsalb=1316876
- m:oexpsalc=0
- m:othexpb=0
- m:oexpsala=25628
- m:aidoila=0
- m:othexpc=0
- m:t1expstw=295590
- m:aidoilb=54044
- m:aidsald=491358
- m:totaidd=1581502
- m:totaidc=0
- m:aidoilc=0
- m:aidsalb=120171
- m:aidoild=54044
- m:oexpsald=1342504
- m:aidsalc=0
- m:othexpa=0
- m:capitalc=0
  m:t3expstw=75597
- m:capitalb=94676
- m:capitala=0
- m:totaidb=962474
- m:totaida=619028
- m:siother=152483
- m:capitald=94676
- m:aidsala=371187
- m:aidlcd=129747
- m:aidlcc=0
- m:t2expadm=0
- m:period_e=607800
- m:allopstf=0
- m:fioth=262699
- m:aidlca=119247
- m:aidlcb=10500
- m:t3expgrt=0
- m:totexpd=4350234
- m:allopcap=0
- m:totexpa=755191
- m:totexpc=0
- m:totexpb=3595043
- m:totoxstc=0
- m:totoxstd=2213162
- m:total_fi=847890
- m:aidplsc=0
- m:aidplsd=0
- m:fiotht48=0
- m:total_si=3956410
- m:totoxstb=2170913
  m:totoxsta=42249
- m:oexpcold=176170
- m:aidplsa=0
- m:oexpcolb=176170
- m:aidplsb=0
- m:oexpcolc=0
- m:allopoth=0
- m:aidiplc=0
- m:oexpcola=0
- m:aidipld=906353
- m:siaidlib=925300
- m:aidipla=128594
- m:aidiplb=777759
+ m:totoxstb=2170913
 
 ```
 
@@ -115861,19 +115900,19 @@ series e:gv8w-7mdg d:2017-01-11T14:23:41.000Z
 ```ls
 series e:7imc-umy4 d:2015-01-01T00:00:00.000Z
  t:location="Albany Park"
- m:december=12907
- m:march=13017
- m:may=11979
  m:november=13567
- m:february=8979
- m:april=12912
- m:june=14061
- m:ytd=153751
- m:january=8234
+ m:may=11979
  m:august=13078
+ m:february=8979
+ m:ytd=153751
  m:july=14768
- m:october=16093
+ m:april=12912
+ m:march=13017
+ m:june=14061
  m:september=14156
+ m:january=8234
+ m:december=12907
+ m:october=16093
 
 ```
 
@@ -115942,187 +115981,187 @@ f_no=55812"
 
 ```ls
 series e:3m6x-h3qa d:2015-10-29T14:23:21.000Z
- t:number_of_people_age_6_17=0
- t:number_of_separate_oven_units=1
- t:age_of_second_fridge="Programmed Skip"
- t:season_of_occupation_summer="Programmed Skip"
- t:number_of_portable_electric_heaters_in_winter=0
- t:construction_type="Existing Construction - built prior to 2012"
- t:highest_education_level="College degree (e.g. Bachelor's degree)"
- t:number_of_housing_units=4
- t:other_space="Programmed Skip"
- t:annual_tune_up_air_conditioning="Programmed Skip"
- t:purpose_of_home="Programmed Skip"
- t:fuel_for_separate_oven_units_natural_gas="Not mentioned"
- t:number_of_exhaust_fans_in_kitchen=0
- t:number_of_separate_stove_tops=0
- t:age_of_fridge="20 years old or more"
- t:non_participation_initiation="Not mentioned"
- t:case_disposition="Phone complete"
- t:type_of_first_standalone_freezer="Programmed Skip"
- t:number_of_exhaust_fans_in_other_rooms=1
- t:other_fuel_type_fuel_oil="Programmed Skip"
- t:past_clothes_washer="Programmed Skip"
- t:fuel_for_separate_stove_tops_propane="Programmed Skip"
- t:non_participation_rent="Not mentioned"
- t:age_of_fourth_dehumidifier="Programmed Skip"
- t:utility_electric=Yes
- t:energy_star_dehumidifier=Yes
- t:energy_star_dehumidifers="Programmed Skip"
- t:other_fuel_type_other="Programmed Skip"
- t:familiarity_with_energy_star="Very familiar"
- t:desired_appliances=Mentioned
- t:ownership=Own/buying
- t:other_air_conditioning_type_other="Programmed Skip"
- t:county=Rensselaer
- t:age_of_primary_heating_system="20 years old or more"
- t:fuel_oil_inclusion="Programmed Skip"
- t:other_fuel_type_wood_pellets="Programmed Skip"
- t:kwh_category="500 kWh or less"
- t:number_of_whole_house_fans=0
- t:future_insulation_or_weatherization=Mentioned
- t:number_of_compact_fridges="Programmed Skip"
- t:number_of_people_age_45_54=0
- t:number_of_buildings="Programmed Skip"
  t:fuel_for_ovens_with_burners_electric=Mentioned
- t:number_of_electric_fireplaces_in_winter=0
- t:region="Capital District"
- t:other_air_conditioning_type_central_air="Programmed Skip"
- t:number_of_propane_fireplaces_in_winter=0
- t:natural_gas_provider="National Grid"
- t:number_of_heat_stoves_in_winter=0
- t:programmable_thermostat=Yes
- t:age_of_second_dehumidifier="Programmed Skip"
- t:season_of_occupation_varies="Programmed Skip"
- t:energy_star_chiller_cooler="Programmed Skip"
- t:number_of_microwave_ovens=1
- t:major_renovations=Yes
- t:number_of_room_window_units=1
- t:fridge_description="Full-size with two doors, top freezer"
- t:number_of_natural_gas_fireplaces_in_winter=0
- t:number_of_people_age_5=1
- t:desired_clothes_washer="Not mentioned"
- t:shared_air_conditioning="Programmed Skip"
- t:primary_heating_system_type="Steam/hot water system with radiators or pipes in each room"
- t:fuel_for_separate_stove_tops_electric="Programmed Skip"
- t:age_of_third_standalone_freezer="Programmed Skip"
- t:past_other_equipment="Programmed Skip"
- t:energy_star_chillers_coolers="Programmed Skip"
- t:number_of_bedrooms=3
- t:automatic_ice_maker=No
- t:desired_air_conditioning="Not mentioned"
- t:dwelling_type="Single family"
- t:other_running_fridges=No
- t:unique_case_id=CD10093
- t:fuel_for_separate_stove_tops_other="Programmed Skip"
- t:fuel_for_separate_oven_units_electricity=Mentioned
- t:number_of_people_age_35_44=2
- t:desired_water_heating=Mentioned
- t:future_heating="Not mentioned"
- t:climate_zone="Climate zone 5"
- t:home_description="Single-family attached house"
- t:other_fuel_type_kerosene="Programmed Skip"
- t:other_fuel_type_propane="Programmed Skip"
- t:future_clothes_washer="Not mentioned"
- t:other_fuel_type_solar="Programmed Skip"
- t:multiple_buildings_with_housing="Programmed Skip"
- t:non_participation_too_busy="Not mentioned"
- t:past_water_heating="Programmed Skip"
- t:fuel_for_separate_stove_tops_natural_gas="Programmed Skip"
- t:season_of_occupation_winter="Programmed Skip"
- t:approximate_square_feet_of_home="Programmed Skip"
- t:interest_in_natural_gas_conversion="Programmed Skip"
- t:annual_electricity_cost="Programmed Skip"
- t:type_of_third_standalone_freezer="Programmed Skip"
- t:electricity_consumption_rate="Programmed Skip"
- t:non_particpation_other=Mentioned
- t:number_of_other_running_fridges="Programmed Skip"
- t:future_water_heating=Mentioned
- t:number_of_running_standalone_freezers="Programmed Skip"
- t:future_air_conditioning="Not mentioned"
- t:basement_heating="Yes, an unheated basement"
- t:household_income_2012="$100,000 to less than $150,000"
- t:desired_heating="Not mentioned"
- t:fuel_for_ovens_with_burners_natural_gas=Mentioned
- t:number_of_people_age_65=0
- t:months_of_occupation=12
- t:primary_fuel_type="Natural gas from underground pipes"
- t:past_air_conditioning="Programmed Skip"
- t:other_fuel_type_district_steam="Programmed Skip"
- t:air_conditioning_in_home=Yes
- t:electric_utility="National Grid"
- t:number_of_running_chillers_coolers=0
+ t:other_air_conditioning_type_other="Programmed Skip"
  t:survey_method="Phone complete"
- t:gender=Male
- t:age_of_first_dehumidifier="5 to 9 years old"
- t:number_of_ovens_with_burners=1
- t:number_of_stories="Programmed Skip"
- t:age_of_first_standalone_freezer="Programmed Skip"
- t:age_of_primary_air_conditioning="15 to 19 years old"
- t:future_none="Not mentioned"
- t:season_of_occupation_fall="Programmed Skip"
- t:efficiency_program_participation_in_past_five_years=No
- t:type_of_second_standalone_freezer="Programmed Skip"
- t:propane_inclusion="Programmed Skip"
- t:number_of_humidifiers=0
- t:age_of_second_standalone_freezer="Programmed Skip"
- t:data_origin="Utility data"
- t:shared_central_heating="Programmed Skip"
- t:fuel_for_separate_oven_units_propane="Not mentioned"
- t:primary_air_conditioning_type="Room or window air conditioner"
- t:number_of_ceiling_fans=0
- t:past_appliances="Programmed Skip"
- t:non_participation_awareness="Not mentioned"
- t:past_insulation_or_weatherization="Programmed Skip"
- t:non_participation_low_bills="Not mentioned"
- t:past_refrigeration="Programmed Skip"
- t:energy_star_standalone_freezers="Programmed Skip"
- t:non_participation_not_needed="Not mentioned"
- t:other_air_conditioning_type_room_window_unit="Programmed Skip"
- t:year_of_home="1939 or earlier"
- t:estimated_number_of_housing_units="Programmed Skip"
- t:energy_star_air_conditioning="Programmed Skip"
+ t:season_of_occupation_winter="Programmed Skip"
+ t:other_fuel_type_propane="Programmed Skip"
+ t:county=Rensselaer
  t:energy_star_primary_heating_system="Programmed Skip"
- t:number_of_people_age_25_34=0
- t:age_of_third_dehumidifier="Programmed Skip"
- t:number_of_dehumidifiers=1
- t:electric_providers="Programmed Skip"
- t:multiple_electric_meters="Programmed Skip"
- t:other_fuel_type=No
- t:number_of_people_age_18_24=0
+ t:type_of_second_standalone_freezer="Programmed Skip"
+ t:age_of_first_standalone_freezer="Programmed Skip"
  t:running_standalone_freezer=No
- t:past_lighting="Programmed Skip"
- t:number_of_people_age_55_64=0
- t:annual_tune_up_heating_system=No
+ t:number_of_running_standalone_freezers="Programmed Skip"
  t:recruitment=Recruited
- t:programmed_thermostat="Programmed to change temperature automatically"
- t:other_air_conditioning_type_heat_pump="Programmed Skip"
- t:natural_gas_available_in_street="Programmed Skip"
- t:water_dispenser=No
- t:other_fuel_type_electricity="Programmed Skip"
- t:other_fuel_type_natural_gas="Programmed Skip"
- t:homes_owned_in_county="Programmed Skip"
- t:natural_gas_inclusion="Programmed Skip"
- t:fuel_for_ovens_with_burners_propane="Not mentioned"
- t:number_of_attic_fans=0
- t:desired_insulation_or_weatherization=Mentioned
- t:number_of_portable_kerosene_heaters_in_winter=0
- t:age_of_fourth_fridge="Programmed Skip"
- t:energy_star_fridge="Programmed Skip"
- t:non_participation_high_cost="Not mentioned"
- t:energy_star_standalone_freezer="Programmed Skip"
- t:season_of_occupation_spring="Programmed Skip"
- t:other_air_conditioning=No
- t:age_of_third_fridge="Programmed Skip"
- t:fuel_for_ovens_with_burners_other="Not mentioned"
- t:number_of_wood_fireplaces_in_winter=0
- t:fuel_for_separate_oven_units_other="Not mentioned"
- t:past_heating="Programmed Skip"
- t:future_appliances=Mentioned
- t:desired_none="Not mentioned"
  t:non_participation_new_residence="Not mentioned"
+ t:age_of_primary_heating_system="20 years old or more"
+ t:type_of_first_standalone_freezer="Programmed Skip"
+ t:year_of_home="1939 or earlier"
+ t:desired_insulation_or_weatherization=Mentioned
+ t:number_of_microwave_ovens=1
  t:square_feet_of_home=1200
+ t:programmed_thermostat="Programmed to change temperature automatically"
+ t:electricity_consumption_rate="Programmed Skip"
+ t:other_fuel_type_other="Programmed Skip"
+ t:number_of_ceiling_fans=0
+ t:number_of_wood_fireplaces_in_winter=0
+ t:natural_gas_inclusion="Programmed Skip"
+ t:months_of_occupation=12
+ t:highest_education_level="College degree (e.g. Bachelor's degree)"
+ t:air_conditioning_in_home=Yes
+ t:age_of_third_dehumidifier="Programmed Skip"
+ t:homes_owned_in_county="Programmed Skip"
+ t:natural_gas_provider="National Grid"
+ t:age_of_fourth_dehumidifier="Programmed Skip"
+ t:energy_star_dehumidifers="Programmed Skip"
+ t:non_particpation_other=Mentioned
+ t:major_renovations=Yes
+ t:future_air_conditioning="Not mentioned"
+ t:other_fuel_type_district_steam="Programmed Skip"
+ t:season_of_occupation_fall="Programmed Skip"
+ t:other_air_conditioning=No
+ t:fuel_for_separate_stove_tops_other="Programmed Skip"
+ t:desired_heating="Not mentioned"
+ t:home_description="Single-family attached house"
+ t:energy_star_chiller_cooler="Programmed Skip"
+ t:number_of_people_age_35_44=2
+ t:energy_star_air_conditioning="Programmed Skip"
+ t:fuel_oil_inclusion="Programmed Skip"
+ t:energy_star_chillers_coolers="Programmed Skip"
+ t:gender=Male
+ t:propane_inclusion="Programmed Skip"
+ t:number_of_separate_stove_tops=0
+ t:energy_star_fridge="Programmed Skip"
+ t:non_participation_not_needed="Not mentioned"
+ t:fuel_for_ovens_with_burners_natural_gas=Mentioned
+ t:number_of_people_age_45_54=0
+ t:past_clothes_washer="Programmed Skip"
+ t:annual_tune_up_heating_system=No
+ t:other_fuel_type_natural_gas="Programmed Skip"
+ t:purpose_of_home="Programmed Skip"
+ t:other_space="Programmed Skip"
+ t:number_of_exhaust_fans_in_other_rooms=1
+ t:fuel_for_ovens_with_burners_other="Not mentioned"
+ t:energy_star_dehumidifier=Yes
+ t:number_of_heat_stoves_in_winter=0
+ t:number_of_dehumidifiers=1
+ t:automatic_ice_maker=No
+ t:desired_none="Not mentioned"
+ t:electric_providers="Programmed Skip"
+ t:age_of_second_dehumidifier="Programmed Skip"
+ t:number_of_portable_kerosene_heaters_in_winter=0
+ t:climate_zone="Climate zone 5"
+ t:other_fuel_type_solar="Programmed Skip"
+ t:fuel_for_separate_oven_units_propane="Not mentioned"
+ t:shared_central_heating="Programmed Skip"
+ t:construction_type="Existing Construction - built prior to 2012"
+ t:ownership=Own/buying
+ t:approximate_square_feet_of_home="Programmed Skip"
+ t:desired_appliances=Mentioned
+ t:number_of_separate_oven_units=1
  t:home_electric_provider="Programmed Skip"
+ t:multiple_buildings_with_housing="Programmed Skip"
+ t:age_of_third_fridge="Programmed Skip"
+ t:water_dispenser=No
+ t:fuel_for_separate_stove_tops_electric="Programmed Skip"
+ t:fuel_for_separate_stove_tops_propane="Programmed Skip"
+ t:utility_electric=Yes
+ t:non_participation_too_busy="Not mentioned"
+ t:type_of_third_standalone_freezer="Programmed Skip"
+ t:future_water_heating=Mentioned
+ t:future_clothes_washer="Not mentioned"
+ t:number_of_people_age_18_24=0
+ t:number_of_other_running_fridges="Programmed Skip"
+ t:number_of_whole_house_fans=0
+ t:other_fuel_type=No
+ t:future_heating="Not mentioned"
+ t:other_air_conditioning_type_room_window_unit="Programmed Skip"
+ t:other_air_conditioning_type_central_air="Programmed Skip"
+ t:desired_air_conditioning="Not mentioned"
+ t:age_of_third_standalone_freezer="Programmed Skip"
+ t:energy_star_standalone_freezer="Programmed Skip"
+ t:number_of_portable_electric_heaters_in_winter=0
+ t:number_of_humidifiers=0
+ t:other_fuel_type_fuel_oil="Programmed Skip"
+ t:efficiency_program_participation_in_past_five_years=No
+ t:non_participation_initiation="Not mentioned"
+ t:shared_air_conditioning="Programmed Skip"
+ t:number_of_people_age_65=0
+ t:data_origin="Utility data"
+ t:energy_star_standalone_freezers="Programmed Skip"
+ t:other_fuel_type_kerosene="Programmed Skip"
+ t:non_participation_low_bills="Not mentioned"
+ t:other_fuel_type_wood_pellets="Programmed Skip"
+ t:past_heating="Programmed Skip"
+ t:fridge_description="Full-size with two doors, top freezer"
+ t:number_of_room_window_units=1
+ t:desired_water_heating=Mentioned
+ t:number_of_running_chillers_coolers=0
+ t:programmable_thermostat=Yes
+ t:number_of_compact_fridges="Programmed Skip"
+ t:number_of_people_age_5=1
+ t:fuel_for_separate_oven_units_natural_gas="Not mentioned"
+ t:electric_utility="National Grid"
+ t:household_income_2012="$100,000 to less than $150,000"
+ t:number_of_stories="Programmed Skip"
+ t:number_of_bedrooms=3
+ t:natural_gas_available_in_street="Programmed Skip"
+ t:past_air_conditioning="Programmed Skip"
+ t:primary_fuel_type="Natural gas from underground pipes"
+ t:kwh_category="500 kWh or less"
+ t:unique_case_id=CD10093
+ t:estimated_number_of_housing_units="Programmed Skip"
+ t:past_lighting="Programmed Skip"
+ t:case_disposition="Phone complete"
+ t:primary_air_conditioning_type="Room or window air conditioner"
+ t:region="Capital District"
+ t:season_of_occupation_varies="Programmed Skip"
+ t:other_fuel_type_electricity="Programmed Skip"
+ t:other_air_conditioning_type_heat_pump="Programmed Skip"
+ t:past_other_equipment="Programmed Skip"
+ t:non_participation_high_cost="Not mentioned"
+ t:fuel_for_ovens_with_burners_propane="Not mentioned"
+ t:age_of_second_standalone_freezer="Programmed Skip"
+ t:age_of_first_dehumidifier="5 to 9 years old"
+ t:number_of_exhaust_fans_in_kitchen=0
+ t:other_running_fridges=No
+ t:non_participation_awareness="Not mentioned"
+ t:season_of_occupation_spring="Programmed Skip"
+ t:number_of_attic_fans=0
+ t:past_appliances="Programmed Skip"
+ t:age_of_primary_air_conditioning="15 to 19 years old"
+ t:primary_heating_system_type="Steam/hot water system with radiators or pipes in each room"
+ t:interest_in_natural_gas_conversion="Programmed Skip"
+ t:past_insulation_or_weatherization="Programmed Skip"
+ t:basement_heating="Yes, an unheated basement"
+ t:age_of_fridge="20 years old or more"
+ t:number_of_propane_fireplaces_in_winter=0
+ t:future_none="Not mentioned"
+ t:multiple_electric_meters="Programmed Skip"
+ t:number_of_people_age_55_64=0
+ t:future_insulation_or_weatherization=Mentioned
+ t:desired_clothes_washer="Not mentioned"
+ t:familiarity_with_energy_star="Very familiar"
+ t:fuel_for_separate_oven_units_electricity=Mentioned
+ t:annual_electricity_cost="Programmed Skip"
+ t:number_of_natural_gas_fireplaces_in_winter=0
+ t:past_water_heating="Programmed Skip"
+ t:number_of_ovens_with_burners=1
+ t:season_of_occupation_summer="Programmed Skip"
+ t:number_of_people_age_25_34=0
+ t:future_appliances=Mentioned
+ t:number_of_electric_fireplaces_in_winter=0
+ t:number_of_people_age_6_17=0
+ t:fuel_for_separate_stove_tops_natural_gas="Programmed Skip"
+ t:number_of_housing_units=4
+ t:fuel_for_separate_oven_units_other="Not mentioned"
+ t:past_refrigeration="Programmed Skip"
+ t:age_of_second_fridge="Programmed Skip"
+ t:age_of_fourth_fridge="Programmed Skip"
+ t:annual_tune_up_air_conditioning="Programmed Skip"
+ t:dwelling_type="Single family"
+ t:number_of_buildings="Programmed Skip"
+ t:non_participation_rent="Not mentioned"
  m:survey_weight=1835.55
 
 ```
@@ -117208,15 +117247,12 @@ series e:wkfw-kthe d:2014-07-01T00:00:00.000Z
 [kbn3-a3jv.md](../datasets/kbn3-a3jv.md)
 
 ```ls
-series e:kbn3-a3jv d:2015-09-11T00:00:00.000Z
- t:project=011006-00
- t:phone_number="(212) 643-9898"
- t:zip_code=10018-0000
- t:project_title="Upgrade Central Plant - SUCF"
+series e:kbn3-a3jv d:2017-05-12T00:00:00.000Z
+ t:city=Syracuse
+ t:firm_name="C&S Engineers, Inc."
+ t:phone_number="(315) 703-4287"
  t:state=NY
- t:campus_name="State University of New York at Albany"
- t:firm_name="Kallen & Lemelson, Consulting Engineers, LLP"
- t:city="New York"
+ t:zip_code=13212
  m:row_number.kbn3-a3jv=1
 
 ```
@@ -118588,19 +118624,19 @@ series e:b6vb-j8t4 d:2012-12-25T21:49:20.000Z
 
 ```ls
 series e:rzct-chc3 d:2014-06-06T00:00:00.000Z
- t:site_city=Portland
- t:applicant_business_name="SOO Portland State University"
  t:system=Conservation
  t:application=32077
- t:site_zip=97201
  t:site_county=Mult
- t:agency_issuing_tax_expenditure="Oregon Department of Energy"
  t:system_name="HVAC System"
- m:final_certified_project_cost=243600
- m:final_month=6
- m:tax_credit_ratepercentage=0.35
+ t:applicant_business_name="SOO Portland State University"
+ t:agency_issuing_tax_expenditure="Oregon Department of Energy"
+ t:site_zip=97201
+ t:site_city=Portland
  m:final_tax_credit=85260
+ m:tax_credit_ratepercentage=0.35
+ m:final_certified_project_cost=243600
  m:total_energy_million_btu=2352
+ m:final_month=6
 
 ```
 
@@ -118845,57 +118881,57 @@ series e:8kzf-xyr7 d:2010-01-01T00:00:00.000Z
 ```ls
 series e:2u4b-s8xd d:2016-08-31T15:31:07.000Z
  t:city_council_district="District 8"
- m:parks_libraries_pools_aquatic_programming=0
- m:watershed_protection_waterway_maintenance_stream_restoration=0
- m:parks_libraries_facility_and_grounds_services_park_planning=5
- m:public_safety_emergency_medical_response_operations=5
- m:planning_development_comprehensive_planning_and_implementation=0
- m:planning_development_annexation_zoning_case_management=0
- m:health_housing_rental_owner_buyer_developer_assistance_community_development=0
- m:parks_libraries_library_materials_collection_acquisition=0
- m:health_housing_youth_family_services_workforce_development=5
- m:austin_energy_energy_efficiency_programs=0
- m:economic_development_global_business_recruitment_small_business_development=5
- m:infrastructure_transportation_bicycle_infrastructure_management_transportation_engineering=5
- m:infrastructure_transportation_street_bridge_preventive_maintenance_and_repair=0
+ m:economic_development_redevelopment_commercial_stabilization=0
+ m:health_housing_quality_of_life_initiatives=5
  m:public_safety_victim_services_forensics_and_strategic_support=5
- m:health_housing_behavioral_mental_health=5
- m:public_safety_municipal_court=0
- m:clean_community_austin_code_case_investigations=0
- m:health_housing_disease_prevention_health_promotion_services=5
- m:watershed_protection_water_quality_policy_planning_and_protection=0
- m:health_housing_animal_shelter_pet_adoption_services=5
- m:public_safety_ems_community_relations_injury_prevention=0
- m:austin_resource_recovery_trash_and_recycling_collection_services=0
- m:planning_development_one_stop_shop_inspection_plan_review_and_permits=0
- m:public_safety_fire_emergency_response_operations=0
- m:total_expenditure=100.66000366210938
  m:austin_energy_power_supply_operations=0
- m:parks_libraries_athletics_recreation_program_services=0
- m:total_income=0
- m:public_safety_fire_emergency_prevention_outreach=0
- m:infrastructure_transportation_transportation_arterial_management_traffic_signs_and_markings=0
- m:public_safety_community_court=0
- m:health_housing_basic_needs_transitional_housing_permanent_supportive_housing=0
- m:austin_energy_austin_energy_customer_care=0
- m:public_safety_police_investigations=0
- m:clean_community_litter_abatement_waste_diversion=0
- m:public_safety_neighborhood_based_policing_patrol=0
- m:austin_water_water_environmental_affairs_conservation=0
+ m:infrastructure_transportation_bicycle_infrastructure_management_transportation_engineering=5
+ m:health_housing_behavioral_mental_health=5
  m:austin_water_water_treatment_and_resource_management=0
  m:economic_development_cultural_arts_music_entertainment=-5
- m:parks_libraries_library_programming_services=0
- m:watershed_protection_transfer_for_capital_improvement_projects=0
- m:public_safety_emergency_communications_9_1_1_call_center=5
- m:parks_libraries_cemeteries=0
- m:watershed_protection_flood_hazard_mitigation=0
- m:austin_water_water_delivery_services=0
- m:health_housing_public_health_inspections=0
  m:infrastructure_transportation_right_of_way_maintenance_sidewalk_management=0
- m:health_housing_quality_of_life_initiatives=5
- m:clean_community_austin_code_licensing_registration_compliance=0
+ m:health_housing_basic_needs_transitional_housing_permanent_supportive_housing=0
+ m:parks_libraries_pools_aquatic_programming=0
+ m:planning_development_annexation_zoning_case_management=0
+ m:public_safety_community_court=0
+ m:austin_resource_recovery_trash_and_recycling_collection_services=0
+ m:health_housing_public_health_inspections=0
  m:parks_libraries_forestry_park_rangers_nature_cultural_programs=0
- m:economic_development_redevelopment_commercial_stabilization=0
+ m:clean_community_litter_abatement_waste_diversion=0
+ m:parks_libraries_library_materials_collection_acquisition=0
+ m:total_income=0
+ m:parks_libraries_library_programming_services=0
+ m:austin_energy_energy_efficiency_programs=0
+ m:austin_water_water_delivery_services=0
+ m:austin_energy_austin_energy_customer_care=0
+ m:infrastructure_transportation_transportation_arterial_management_traffic_signs_and_markings=0
+ m:infrastructure_transportation_street_bridge_preventive_maintenance_and_repair=0
+ m:public_safety_fire_emergency_response_operations=0
+ m:parks_libraries_cemeteries=0
+ m:parks_libraries_athletics_recreation_program_services=0
+ m:austin_water_water_environmental_affairs_conservation=0
+ m:parks_libraries_facility_and_grounds_services_park_planning=5
+ m:public_safety_emergency_communications_9_1_1_call_center=5
+ m:public_safety_fire_emergency_prevention_outreach=0
+ m:health_housing_rental_owner_buyer_developer_assistance_community_development=0
+ m:watershed_protection_flood_hazard_mitigation=0
+ m:watershed_protection_transfer_for_capital_improvement_projects=0
+ m:public_safety_municipal_court=0
+ m:health_housing_youth_family_services_workforce_development=5
+ m:total_expenditure=100.66000366210938
+ m:public_safety_neighborhood_based_policing_patrol=0
+ m:public_safety_ems_community_relations_injury_prevention=0
+ m:economic_development_global_business_recruitment_small_business_development=5
+ m:health_housing_animal_shelter_pet_adoption_services=5
+ m:planning_development_one_stop_shop_inspection_plan_review_and_permits=0
+ m:public_safety_police_investigations=0
+ m:clean_community_austin_code_case_investigations=0
+ m:planning_development_comprehensive_planning_and_implementation=0
+ m:clean_community_austin_code_licensing_registration_compliance=0
+ m:public_safety_emergency_medical_response_operations=5
+ m:health_housing_disease_prevention_health_promotion_services=5
+ m:watershed_protection_waterway_maintenance_stream_restoration=0
+ m:watershed_protection_water_quality_policy_planning_and_protection=0
 
 ```
 
@@ -119218,11 +119254,11 @@ series e:qubt-bv3h d:2010-01-01T00:00:00.000Z
 ```ls
 series e:j5r5-zefd d:2012-01-01T00:00:00.000Z
  t:county=Adams
- m:asian_non_hispanic=37
  m:indian_non_hispanic=31
  m:black_non_hispanic=46
- m:white_non_hispanic=1574
  m:hispanic=4932
+ m:asian_non_hispanic=37
+ m:white_non_hispanic=1574
 
 ```
 
@@ -120952,114 +120988,114 @@ series e:kh6p-bipc d:2011-11-03T05:32:54.000Z
 
 ```ls
 series e:v5ua-6vwr d:2004-07-01T00:00:00.000Z
- t:physcity=JUNEAU
- t:mailcity=JUNEAU
- t:asf_lc=N
- t:mail_st=AK
- t:pub_fips=2
- t:obereg=8
- t:asf_ac=Y
- t:physaddr="333 WILLOUGHBY AVENUE"
- t:phys_st=AK
- t:mailzip=99811
- t:mailzip4=571
- t:asf_pub=Y
  t:mailaddr="P.O. BOX 110571"
- t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
- t:physzip4=571
- t:asf_sch=Y
- t:webaddr=WWW.LIBRARY.STATE.AK.US
  t:asf_sp=Y
- t:rstatus=1
- t:physzip=99811
+ t:asf_ac=Y
  t:fiothsp=P
- m:capitalc=0
- m:capitalb=0
- m:capitala=0
- m:totaidb=891400
- m:siother=199200
- m:totaida=738757
- m:aidsala=485493
- m:capitald=0
- m:admexpt=30740
- m:swexpt=0
- m:admexpu=30740
+ t:asf_lc=N
+ t:asf_sch=Y
+ t:pub_fips=2
+ t:physaddr="333 WILLOUGHBY AVENUE"
+ t:mailcity=JUNEAU
+ t:mailzip=99811
+ t:stlaname="DIVISION OF LIBRARIES, ARCHIVES & MUSEUMS"
+ t:mail_st=AK
+ t:rstatus=1
+ t:physcity=JUNEAU
+ t:webaddr=WWW.LIBRARY.STATE.AK.US
+ t:physzip4=571
+ t:asf_pub=Y
+ t:obereg=8
+ t:mailzip4=571
+ t:phys_st=AK
+ t:physzip=99811
+ m:aidipld=916406
+ m:aidiplc=0
+ m:aidiplb=799930
+ m:aidipla=116476
+ m:oexpsald=1317069
+ m:oexpsala=23716
+ m:siaidlib=891400
+ m:oexpsalc=0
+ m:oexpsalb=1293353
+ m:totexpd=4204992
  m:oexpbenb=670098
+ m:aidoild=136788
  m:oexpbena=7024
+ m:siother=199200
+ m:capitald=0
  m:oexpbend=677122
+ m:aidoilb=0
  m:oexpbenc=0
- m:totincm=4215997
- m:othincm=15000
- m:aidlcd=0
- m:aidlcc=0
+ m:aidoilc=0
+ m:capitala=0
+ m:aidoila=136788
+ m:aidplsd=0
+ m:capitalc=0
+ m:aidplsc=0
+ m:capitalb=0
+ m:aidplsb=0
+ m:aidplsa=0
  m:totexpu=769497
  m:totexpt=769497
- m:fioth=0
- m:aidlca=0
- m:aidlcb=0
- m:totexpd=4204992
- m:totexpa=769497
- m:totexpc=4000
- m:totexpb=3431495
+ m:aidsalb=91470
+ m:aidsalc=0
+ m:aidsald=576963
+ m:swexpt=0
+ m:techxu=238946
+ m:oexpcold=0
+ m:othexpd=0
+ m:othexpc=0
+ m:oexpcolb=0
+ m:othexpb=0
+ m:oexpcolc=0
+ m:othexpa=0
  m:sistlaop=2340900
- m:aidmlsa=0
- m:aidmlsc=0
+ m:admexpt=30740
+ m:totaidb=891400
+ m:admexpu=30740
+ m:totaida=738757
  m:popu_st=663661
- m:aidmlsb=0
+ m:oexpcola=0
+ m:othincm=15000
  m:totoxstc=0
+ m:aidothc=0
  m:totoxstd=1994191
- m:aidmlsd=0
- m:serllxu=166632
+ m:aidothd=0
+ m:lstainc=769497
+ m:aidotha=0
+ m:aidothb=0
  m:totopexc=4000
+ m:total_fi=769497
  m:totopexd=2574835
  m:totopexa=30740
- m:aidothd=0
  m:totopexb=2540095
- m:aidothc=0
- m:oexpothc=4000
- m:aidothb=0
- m:total_fi=769497
- m:oexpothd=580644
- m:aidotha=0
- m:oexpotha=0
- m:oexpothb=576644
- m:aidplsc=0
- m:aidplsd=0
- m:total_si=3431500
- m:totoxstb=1963451
- m:totoxsta=30740
- m:oexpcold=0
- m:lstainc=769497
- m:grexpt=738757
- m:oexpcolb=0
- m:aidplsa=0
- m:oexpcolc=0
- m:aidplsb=0
- m:oexpcola=0
- m:aidiplc=0
- m:othexpd=0
- m:oexpsalb=1293353
- m:serdifxu=333179
- m:siaidlib=891400
- m:aidipld=916406
- m:oexpsalc=0
- m:aidipla=116476
- m:othexpb=0
- m:aidiplb=799930
- m:othexpc=0
- m:aidoila=136788
- m:oexpsala=23716
  m:totaidd=1630157
- m:aidsald=576963
- m:aidoilb=0
- m:techxu=238946
  m:totaidc=0
- m:aidoilc=0
- m:aidsalb=91470
- m:aidoild=136788
- m:oexpsald=1317069
- m:aidsalc=0
- m:othexpa=0
+ m:fioth=0
+ m:grexpt=738757
+ m:aidsala=485493
+ m:serllxu=166632
+ m:total_si=3431500
+ m:serdifxu=333179
+ m:aidlcc=0
+ m:aidlcd=0
+ m:totexpc=4000
+ m:aidmlsd=0
+ m:totexpb=3431495
+ m:aidlca=0
+ m:totexpa=769497
+ m:aidlcb=0
+ m:oexpothd=580644
+ m:aidmlsa=0
+ m:oexpothc=4000
+ m:oexpothb=576644
+ m:aidmlsc=0
+ m:oexpotha=0
+ m:aidmlsb=0
+ m:totincm=4215997
+ m:totoxsta=30740
+ m:totoxstb=1963451
 
 ```
 
@@ -121112,13 +121148,13 @@ series e:nvzt-4ge8 d:2016-12-02T00:00:00.000Z
 
 ```ls
 series e:djfn-trk4 d:2014-01-01T00:00:00.000Z
+ m:transportation_total=74
+ m:net_imports_of_electricity=8
+ m:industrial_total=11
+ m:residential_total=35.5
+ m:electric_generation_total=30.4
  m:yeartotal=181
  m:commercial_total=22
- m:transportation_total=74
- m:residential_total=35.5
- m:industrial_total=11
- m:net_imports_of_electricity=8
- m:electric_generation_total=30.4
 
 ```
 
@@ -121203,15 +121239,22 @@ series e:x574-csgd d:2011-03-02T00:00:00.000Z
 [pyif-r8qe.md](../datasets/pyif-r8qe.md)
 
 ```ls
-series e:pyif-r8qe d:2011-09-01T11:33:05.000Z
- t:contact_number="(718) 652-0246"
+series e:pyif-r8qe d:2017-09-16T14:47:01.000Z
+ t:site_name="NYCHA BAY VIEW HOUSES"
  t:program_type="After-School Programs,Beacon,NYCHA Centers"
- t:borough_community=Bronx
+ t:agency="Sesame Flyers  @Bayview Community Center"
+ t:borough_community=Brooklyn
+ t:number_and_street_address="5985 Shore Parkway"
+ t:postcode=11236
+ t:nta=Canarsie
  t:program="Beacon Satellite"
- t:agency="Mosholu Montefiore  @Edenwald Community Center"
  t:grade_level_age_group="6 and up"
- t:site_name="NYCHA EDENWALD HOUSES"
- m:row_number.pyif-r8qe=1
+ t:contact_number="(718) 968-9621"
+ m:bin=3331443
+ m:community_board=18
+ m:bbl=3083290225
+ m:community_council=46
+ m:census_tract=1034
 
 ```
 
@@ -121340,11 +121383,11 @@ that life&#39;s detours and obstacles often provide the most poignant revelation
 
 ```ls
 series e:53x2-di4n d:2015-01-01T00:00:00.000Z
- m:community_benefit_charge_discount_savings=86215
- m:customer_service_charge_savings=397270
- m:totals=1119844
- m:number_of_customers=40931
  m:electric_bill_discount_10_savings=636359
+ m:number_of_customers=40931
+ m:customer_service_charge_savings=397270
+ m:community_benefit_charge_discount_savings=86215
+ m:totals=1119844
 
 ```
 
@@ -121366,17 +121409,17 @@ series e:4y5x-hw8j d:2013-01-01T00:00:00.000Z
 
 ```ls
 series e:698j-9a6e d:2015-03-23T00:00:00.000Z
- t:fiscal_year="2014 TO 2015"
- t:region=1
- t:location_beginning_reference_number="9 15093131"
- t:permit_number=20140148736
- t:permit_type=4
- t:description_of_work="Miscellaneous utility work"
- t:county=SARATOGA
  t:route=9
+ t:location_end_reference_number="9 15093132"
+ t:permit_number=20140148736
+ t:fiscal_year="2014 TO 2015"
+ t:description_of_work="Miscellaneous utility work"
+ t:location_beginning_reference_number="9 15093131"
+ t:county=SARATOGA
  t:municipality=MOREAU
  t:fee_type=UTILITY
- t:location_end_reference_number="9 15093132"
+ t:region=1
+ t:permit_type=4
  t:applicant_name="3 PHASE LINE CONSTRUCTION"
  m:row_number.698j-9a6e=1
 
@@ -121782,48 +121825,48 @@ s=permit=13MFF-0102&ExportPDF=1&Filename=13MFF-0102_schedule.pdf"
 
 ```ls
 series e:fv2q-qaux d:2009-04-08T00:00:00.000Z
- t:planningdistrictscombo=Downtown
- t:sort="Planning Filed"
- t:entitlementstatus=0
- t:block_lot=3507042
- t:sponsor_firm="Citizens Housing Corporation"
- t:heightlimit=150-S/200-S
- t:planning_neighborhood=Downtown
  t:planning_project_description="THC/Citizens Housing (MOH) proposal for 165-du 100% affordable housing proj
 ect, 15-story, w/ 18 parking spaces and 3,640-gsf retail at ground level.  Related to Addendum 2003.0262E EI
 R."
- t:zoning_generalized=Commercial
+ t:planningdistrictscombo=Downtown
+ t:sponsor_firm="Citizens Housing Corporation"
+ t:planning_neighborhood=Downtown
+ t:sort="Planning Filed"
  t:planning_id=2008.0553
- t:sponsor_name="Jake Wegmann"
- t:contactphone=694-5841
  t:zoning_simplified=C-3-G
- t:landuse=Mixres
- t:objectid=1
- t:best_stat="PL FILED"
- t:contactadd="26 O'Farrell St., Suite 600"
  t:zoning=C-3-G
+ t:best_stat="PL FILED"
+ t:zoning_generalized=Commercial
+ t:contactadd="26 O'Farrell St., Suite 600"
+ t:landuse=Mixres
+ t:entitlementstatus=0
+ t:block_lot=3507042
+ t:contactphone=694-5841
  t:fullname="Jake Wegmann 694-5841"
+ t:sponsor_name="Jake Wegmann"
  t:contactcity="San Francisco, CA 94108"
- m:office=0
- m:prod_dist_rep=0
- m:heightnum=150
- m:net_medical=0
- m:affordable=165
- m:net_office=0
- m:visitor=0
- m:units=165
- m:net_prod_dist_rep=0
- m:cult_inst_educ=0
- m:taz=608
- m:medical=0
- m:net_added_sf=3640
- m:net_ret_ent=3640
- m:ret_ent=3640
+ t:heightlimit=150-S/200-S
+ t:objectid=1
  m:total_gsf_commercial=3640
- m:net_cult_inst_educ=0
+ m:affordable=165
+ m:medical=0
+ m:ret_ent=3640
  m:net_added_units=165
- m:affordablenet=165
+ m:net_office=0
+ m:units=165
+ m:office=0
+ m:net_added_sf=3640
+ m:net_prod_dist_rep=0
+ m:net_medical=0
+ m:taz=608
+ m:net_cult_inst_educ=0
  m:net_visitor=0
+ m:affordablenet=165
+ m:prod_dist_rep=0
+ m:net_ret_ent=3640
+ m:cult_inst_educ=0
+ m:heightnum=150
+ m:visitor=0
 
 ```
 
@@ -121944,27 +121987,27 @@ series e:e8xz-zi2e d:2016-04-28T11:54:26.000Z
 ```ls
 series e:nbgq-j9jt d:2015-01-01T00:00:00.000Z
  t:location=K001
- m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-99126.82
- m:label_d_initial_fair_student_funding_allocations_total=5858476.18
- m:total_column_q_register_change=-29.26
- m:total_column_n_fy14_actual_registers=1692.42
- m:calculation_j_fsf_formula_at_100=7081416.99
- m:label_j_fy15_fair_student_formula_at_100=7081416.99
- m:system_wide_teacher_salary_growth=0
- m:label_s_fair_student_funding_register_formula=-120645.73
- m:label_h_foundation_for_new_schools=0
  m:label_g_teacher_salary_growth=0
- m:total_column_p_projected_formula=6856416.99
- m:total_column_o_projected_register=1663.15
- m:label_a_fy14_revised_based_allocations=5957603
- m:foundation=225000
- m:calculation_j_initial_fair_student_funding_allocations_total=5858476.18
- m:calculation_j_foundation=225000
  m:label_g_teacher_salary_growth_2=0
+ m:total_column_o_projected_register=1663.15
+ m:total_column_q_register_change=-29.26
+ m:label_s_fair_student_funding_register_formula=-120645.73
+ m:calculation_j_foundation=225000
+ m:weighted_register=1663.15
+ m:total_column_n_fy14_actual_registers=1692.42
+ m:system_wide_teacher_salary_growth=0
+ m:foundation=225000
+ m:label_w_final_school_fsf_percent=0.8216
+ m:label_h_foundation_for_new_schools=0
+ m:label_f_register_change_allocation_based_on_school_s_percent_of_formula=-99126.82
+ m:label_j_fy15_fair_student_formula_at_100=7081416.99
+ m:total_column_p_projected_formula=6856416.99
  m:label_t_change_to_preliminary_fair_student_funding_percentage_capped_at_100=0.8216
  m:total_column_r_register_dollar_change=-120645.73
- m:label_w_final_school_fsf_percent=0.8216
- m:weighted_register=1663.15
+ m:calculation_j_fsf_formula_at_100=7081416.99
+ m:label_a_fy14_revised_based_allocations=5957603
+ m:label_d_initial_fair_student_funding_allocations_total=5858476.18
+ m:calculation_j_initial_fair_student_funding_allocations_total=5858476.18
 
 ```
 
@@ -122221,17 +122264,17 @@ series e:9sys-2i9y d:2006-01-01T00:00:00.000Z
 ```ls
 series e:5mdi-3rq9 d:2006-04-01T00:00:00.000Z
  t:district_code=66
- t:month_code=4
  t:district="New York City"
- m:tanf_average_gross_earned_income=765
- m:sna_moe_cases_with_earned_income=10399
- m:tanf_cases_with_earned_income=9382
- m:sna_non_moe_average_net_earned_income=546
+ t:month_code=4
  m:tanf_average_net_earned_income=369
- m:sna_moe_average_net_earned_income=330
  m:sna_non_moe_average_gross_earned_income=796
- m:sna_moe_average_gross_earned_income=718
+ m:sna_non_moe_average_net_earned_income=546
+ m:tanf_cases_with_earned_income=9382
  m:sna_non_moe_cases_with_earned_income=4622
+ m:sna_moe_average_gross_earned_income=718
+ m:sna_moe_average_net_earned_income=330
+ m:sna_moe_cases_with_earned_income=10399
+ m:tanf_average_gross_earned_income=765
 
 ```
 
@@ -122961,10 +123004,10 @@ series e:vcdt-av5j d:2017-01-01T00:00:00.000Z
 
 ```ls
 series e:84fd-3fzf d:2013-04-30T13:41:03.000Z
- t:location="Schofield Barracks, Ulrich S., w. of bldg. S2107"
- t:species_and_number_of_trees="Acrocarpus fraxinifolius (1)"
- t:common_name="Pink Cedar Tree"
  t:tmk=N/A
+ t:location="Schofield Barracks, Ulrich S., w. of bldg. S2107"
+ t:common_name="Pink Cedar Tree"
+ t:species_and_number_of_trees="Acrocarpus fraxinifolius (1)"
  m:row_number.84fd-3fzf=1
 
 ```
@@ -123124,23 +123167,23 @@ series e:ikdx-vgub d:2013-12-03T07:04:28.000Z
 [t2v6-g4nf.md](../datasets/t2v6-g4nf.md)
 
 ```ls
-series e:t2v6-g4nf d:2014-09-01T00:00:00.000Z
- t:energy_star_partner="Avision Inc."
- t:model_number=AD240I
- t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
+series e:t2v6-g4nf d:2012-06-01T00:00:00.000Z
+ t:energy_star_model_identifier="ES_1105798_AVISION INC (175217) | AV610C2+_11262013102530_1530898"
  t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada"
- t:marking_technology="N/A (Scanner)"
- t:energy_star_model_identifier=ES_25313_AD240I_07062015033309_3589281
  t:product_type=Scanners
- t:automatic_duplex_output_capable=No
- t:size_format=Standard
- t:model_name=AD240I
+ t:model_name=AV610C2+
+ t:energy_star_partner="Avision Inc."
  t:brand_name=Avision
- t:pd_id=2245702
- m:power_in_sleep_w=2.44
- m:power_in_standby_w=0.32
- m:monochrome_product_speed_ipm_or_mppm=60
+ t:size_format=Standard
+ t:model_number=AV610C2+
+ t:functional_adders="Wired > 20 MHz and < 500 MHz - USB 2.x, None"
+ t:marking_technology="Electro-photographic (EP)"
+ t:pd_id=2195656
+ t:automatic_duplex_output_capable=No
  m:default_delay_time_to_sleep_minutes=15
+ m:power_in_standby_w=0.24
+ m:monochrome_product_speed_ipm_or_mppm=40
+ m:power_in_sleep_w=1.95
 
 ```
 
@@ -123171,20 +123214,20 @@ series e:jy6h-2e5x d:2016-01-01T00:00:00.000Z
 [j624-u8ux.md](../datasets/j624-u8ux.md)
 
 ```ls
-series e:j624-u8ux d:2016-01-22T00:00:00.000Z
- t:energy_star_partner="Seaga Manufacturing Inc."
- t:markets="United States"
- t:model_number_or_rebuilt_model_number=LV2018
- t:energy_star_model_identifier=ES_1061638_LV2018_02112016204636_3596624
- t:energy_saving_component_type=N/A
- t:product_type=New
- t:machine_use_designation=Indoor/Outdoor
+series e:j624-u8ux d:2012-01-01T00:00:00.000Z
  t:door_type="Closed Front"
- t:model_name=FlexiVend
- t:pd_id=2260401
- m:refrigerated_volume_cubic_feet=25.9
- m:vendible_capacity=300
- m:energy_consumption_kwh_day=3.6
+ t:energy_star_model_identifier=ES_1020286_621CNP***02082013014226_2600518
+ t:markets="United States, Canada"
+ t:product_type=New
+ t:energy_saving_component_type=None
+ t:model_name=621
+ t:model_number_or_rebuilt_model_number=621CNP***
+ t:energy_star_partner="Sanden Vendo America Inc"
+ t:machine_use_designation=Indoor/Outdoor
+ t:pd_id=2173418
+ m:vendible_capacity=544
+ m:energy_consumption_kwh_day=3.42
+ m:refrigerated_volume_cubic_feet=21.82
 
 ```
 
@@ -123900,20 +123943,20 @@ series e:m822-j8iy d:2008-07-18T00:00:00.000Z
 
 ```ls
 series e:rkqa-i8sr d:2015-03-05T17:35:57.000Z
- t:fund_name="General Fund"
  t:division=BFS0300C
- t:department=OP_BFS
  t:department_name="Budget and Fiscal Services"
  t:object_code_name="Regular Pay"
  t:division_name=Administration
  t:object_code=1101
- m:fy_2013_actual=648445
+ t:fund_name="General Fund"
+ t:department=OP_BFS
  m:fy_2016_proposed_budget=896328
- m:fy_2015_budget=854868
- m:fy_2016_budget_issues=0
  m:fund=110
- m:fy_2014_actual=749381
  m:fy_2016_current_services=896328
+ m:fy_2016_budget_issues=0
+ m:fy_2013_actual=648445
+ m:fy_2015_budget=854868
+ m:fy_2014_actual=749381
 
 ```
 
@@ -123973,32 +124016,32 @@ series e:5wjn-gtmu d:2017-06-01T00:00:00.000Z
 [qfw2-ekmx.md](../datasets/qfw2-ekmx.md)
 
 ```ls
-series e:qfw2-ekmx d:2014-09-23T12:00:00.000Z
- t:dir_from_cross_street=E
- t:study_lane_code=STANDARD
- t:unitid2=0070
- t:study_type=AGGREGATE
- t:stdy_title_part="NW 58TH ST, E/O 8TH AVE NW"
- t:title="NW 58TH ST, E/O 8TH AVE NW; TOTAL FLOW; CH(AGG); 23Sep2014 12:00"
- t:stdy_title_part_with_flow="NW 58TH ST, E/O 8TH AVE NW; TOTAL FLOW"
- t:unitid=14565
- t:x_street="7TH AVE NW"
- t:study_id=321580
- t:objectid=1
- t:o_street="NW 58TH ST"
- t:comments="This study is an aggregate of the following source studies: 321527, 321528"
- t:stdy_label="321580, 2014-09-23, TOTAL"
+series e:qfw2-ekmx d:2009-11-10T11:15:00.000Z
+ t:dir_from_cross_street=SE
+ t:comments="This study is an aggregate of the following source studies: 217878, 217879"
+ t:stdy_label="316946, 2009-11-10, TOTAL"
+ t:study_id=316946
+ t:title="ALASKAN WAY, SE/O BLANCHARD ST, TOTAL FLOW; CH(AGG); 10NOV2009 11:15"
  t:study_dirflow=TOTAL
- m:study_awdt=396
- m:distance=133.5
+ t:stdy_title_part_with_flow="ALASKAN WAY, SE/O BLANCHARD ST, TOTAL FLOW; CH(AGG)"
+ t:o_street="ALASKAN WAY"
+ t:study_type=AGGREGATE
+ t:x_street="LENORA ST"
+ t:unitid=05045
+ t:study_lane_code=STANDARD
+ t:stdy_title_part="ALASKAN WAY, SE/O BLANCHARD ST, TOTAL FLOW"
+ t:objectid=1
+ t:unitid2=0210
+ m:study_adt=9374
  m:actual_days=7
+ m:seg_compkey=8728
+ m:distance=213.5
  m:intended_days=7
- m:study_pmpk=55
- m:study_adt=371
- m:seg_compkey=18491
+ m:study_ampk=687
+ m:study_awdt=9926
+ m:study_max8=5949
  m:study_length=672
- m:study_ampk=62
- m:study_max8=298
+ m:study_pmpk=1210
 
 ```
 
@@ -124658,23 +124701,23 @@ series e:7ks4-3r3s d:2013-07-01T00:00:00.000Z
 
 ```ls
 series e:893e-xam6 d:2005-07-28T00:00:00.000Z
- t:permit_type=152
- t:station_area=07
- t:neighborhood_district=Mission
+ t:permit_number=7199
  t:permit_holder="Tacos Santana"
+ t:tax_class=D19
  t:night_place_of_assembly_permit=false
  t:bureau_of_fire_prevention_district=06
- t:supervisor_district=9
- t:permit_number=7199
- t:permit_zipcode=94110
- t:permit_type_description="liquefied petroleum gas, mobile caterer, use"
+ t:station_area=07
  t:permit_status="closed (permit)"
- t:dba_name_associated_with_this_permit_holder="Tacos Santana"
- t:tax_class=D19
  t:battalion=06
+ t:permit_type=152
+ t:permit_zipcode=94110
+ t:supervisor_district=9
+ t:dba_name_associated_with_this_permit_holder="Tacos Santana"
+ t:permit_type_description="liquefied petroleum gas, mobile caterer, use"
+ t:neighborhood_district=Mission
  m:posting_fee=0
- m:referral_fee=0
  m:permit_fee=160
+ m:referral_fee=0
 
 ```
 
@@ -125607,17 +125650,17 @@ series e:2r3c-zkbc d:2017-03-01T21:04:59.000Z
 
 ```ls
 series e:8yac-vygm d:2016-03-21T00:00:00.000Z
- t:route_number=C911
- t:vendor_code=VN
- t:garage_street_name="670 Hillside Road"
- t:garage_city="Pelham Manor"
  t:garage_state=NY
- t:garage_zip=10803
- t:vendor_affiliation="VAN TRANS LLC (B2192)"
+ t:vendor_code=VN
  t:service_type=D2D
+ t:vendor_affiliation="VAN TRANS LLC (B2192)"
+ t:garage_city="Pelham Manor"
+ t:garage_street_name="670 Hillside Road"
+ t:garage_zip=10803
  t:vehicle_typedescription="Non-Wheelchair Accessible Alternative (NWC)"
- t:school_year=2015-2016
+ t:route_number=C911
  t:vendor_name="VAN TRANS LLC (B2192)"
+ t:school_year=2015-2016
  m:row_number.8yac-vygm=1
 
 ```
@@ -125643,27 +125686,27 @@ series e:vyxt-abab d:2009-01-01T00:00:00.000Z
 
 ```ls
 series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z
+ t:district_name="Ansonia School District"
  t:dpi_read_status=No
  t:dpi_science_status=Yes
+ t:dpi_write_status=Yes
+ t:frl_dpi_overall_status=Yes
+ t:district=2
  t:black_dpi_overall_status=Yes
  t:high_needs_dpi_overall_status=Yes
- t:district_name="Ansonia School District"
- t:swd_dpi_overall_status=n/a
- t:dpi_overall_status=No
- t:dpi_write_status=Yes
  t:hispanic_dpi_overall_status=Yes
  t:dpi_math_target_status=No
- t:district=2
- t:frl_dpi_overall_status=Yes
- m:dpi_write_2013=69.2
- m:hispanic_dpi_overall_2013=61
- m:dpi_read_2013=55.9
- m:dpi_science_2013=63.1
- m:frl_dpi_overall_2013=55.5
- m:high_needs_dpi_overall_2013=52.6
+ t:dpi_overall_status=No
+ t:swd_dpi_overall_status=n/a
  m:dpi_overall_2013=57.8
  m:black_dpi_overall_2013=52.3
  m:dpi_math_2013=52.4
+ m:dpi_write_2013=69.2
+ m:frl_dpi_overall_2013=55.5
+ m:hispanic_dpi_overall_2013=61
+ m:high_needs_dpi_overall_2013=52.6
+ m:dpi_science_2013=63.1
+ m:dpi_read_2013=55.9
 
 ```
 
@@ -126269,13 +126312,13 @@ series e:v7pn-44q8 d:2005-01-01T00:00:00.000Z
 
 ```ls
 series e:ysrq-tssh d:2015-12-04T15:39:35.000Z
+ t:name="becky argyle/Mission Lake-Kitsap County"
  t:draft_permit_comments="Our lake has hired aqua technex for over 10 years to spray-every year to keep the 
 costs down we spend hours posting each property before and remove all signs as required to assure we abide b
 y the requirements.  this new purposal would impact the price and I fear many neighbors would no longer be a
 ble to afford the spray costs which would then effect the overall use of our lake,  right now its in beautif
 ul condition and many fisherman and families do not fear swimming and get tangled in the lilies,  please do 
 NOT consider this new rule."
- t:name="becky argyle/Mission Lake-Kitsap County"
  m:row_number.ysrq-tssh=1
 
 ```
@@ -126722,12 +126765,12 @@ series e:ach8-dmse d:2016-01-07T00:00:00.000Z
 
 ```ls
 series e:eugj-j27t d:2009-01-01T00:00:00.000Z
- t:town_name=Andover
  t:grant_number=09RECJAGLO7511
+ t:town_name=Andover
  t:project_summary="To enhance community safety and quality of life by enforcing Connecticut motor vehicle l
 aws through special overtime."
- m:fed_grant_award=9100
  m:tot_fed_expended=8842.42
+ m:fed_grant_award=9100
 
 ```
 
@@ -127156,12 +127199,12 @@ series e:i9rk-duva d:2011-12-22T00:00:00.000Z
 
 ```ls
 series e:c8sw-khn9 d:2016-06-30T00:00:00.000Z
- t:county=Baker
  t:purpose_and_use_of_moneys_narrative="All of the Lottery funds Baker County received were spent on Economi
 c Development expenses."
+ t:county=Baker
+ m:amount_of_money_received=108718
  m:amount_of_money_expended_on_administration=0
  m:amount_of_money_expended=108718
- m:amount_of_money_received=108718
 
 ```
 
@@ -127862,26 +127905,26 @@ series e:y7z5-rhh5 d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:kitu-f4uy d:2010-01-01T01:11:00.000Z
- t:vehiclemodel=CARAVAN
- t:vehiclecolor=BLACK
- t:subjectgender=FEMALE
  t:vehicleyear=2005
- t:subjecthasphotoid=Yes
- t:subjectdriverlicstate=LA
- t:subjecthaircolor=Black
- t:vehiclemake=DODGE
- t:vehiclestyle=MINIVAN
- t:fieldinterviewid=17415
- t:subjecteyecolor=Brown
- t:district=6
- t:subjectid=20465
- t:stopdescription="TRAFFIC VIOLATION"
- t:officerassignment="6th  District"
- t:zone=E
+ t:subjectgender=FEMALE
  t:subjectrace=BLACK
+ t:vehiclecolor=BLACK
+ t:officerassignment="6th  District"
+ t:subjectid=20465
+ t:subjecteyecolor=Brown
+ t:subjecthaircolor=Black
+ t:zone=E
+ t:fieldinterviewid=17415
+ t:district=6
+ t:stopdescription="TRAFFIC VIOLATION"
+ t:vehiclemake=DODGE
+ t:subjectdriverlicstate=LA
+ t:vehiclemodel=CARAVAN
+ t:vehiclestyle=MINIVAN
+ t:subjecthasphotoid=Yes
+ m:subjectheight=69
  m:subjectage=26
  m:subjectweight=160
- m:subjectheight=69
 
 ```
 
@@ -128007,11 +128050,11 @@ series e:d4uz-6jaw d:2010-01-01T00:00:00.000Z
 ```ls
 series e:3iyi-2ngk d:2013-12-11T17:00:00.000Z
  t:short_description="Regular Board meeting"
- t:contact_email=marla.royal@imesd.k12.or.us
- t:contact_name="Marla J. Royal"
- t:agency_board_commission_branch="InterMountain ESD"
  t:meeting_title="IMESD Board Meeting"
+ t:agency_board_commission_branch="InterMountain ESD"
+ t:contact_name="Marla J. Royal"
  t:meeting_location="InterMountain ESD"
+ t:contact_email=marla.royal@imesd.k12.or.us
  m:row_number.3iyi-2ngk=1
 
 ```
@@ -128019,13 +128062,7 @@ series e:3iyi-2ngk d:2013-12-11T17:00:00.000Z
 [h5nh-eqde.md](../datasets/h5nh-eqde.md)
 
 ```ls
-series e:h5nh-eqde d:2011-09-09T13:29:31.000Z
- t:website=new.lincolncenter.org/
- t:telephone=212.875.5456
- t:store_type_category_1="Museums & Cultural Institutions"
- t:shop_name="Lincoln Center for the Preforming Arts"
- m:row_number.h5nh-eqde=1
-
+null
 ```
 
 [7r2t-vmm5.md](../datasets/7r2t-vmm5.md)
@@ -128448,20 +128485,20 @@ series e:xsu4-4sk9 d:2012-01-01T00:00:00.000Z
 
 ```ls
 series e:wr4r-bue7 d:2015-01-01T00:00:00.000Z
- t:category=K-5
  t:attribute_category="Grade Weights"
+ t:need_name=NA
+ t:sub_category=NA
  t:location=Q184
  t:attribute_reference=ATTRIBUTE_01
- t:sub_category=NA
- t:need_name=NA
- m:column_r_register_dollar_change=-32980.37
- m:column_o_projected_register=462
- m:column_m_fy15_per_capita_no_ats_growth=4122.55
+ t:category=K-5
  m:column_l_fy15_weight=1
+ m:column_o_projected_register=462
  m:column_q_register_change=-8
+ m:column_r_register_dollar_change=-32980.37
+ m:column_m_fy15_per_capita_no_ats_growth=4122.55
+ m:print_order=2
  m:column_p_projected_formula=1904616.09
  m:column_n_fy14_actual_registers=470
- m:print_order=2
 
 ```
 
@@ -129349,10 +129386,10 @@ series e:pudb-wetr d:2016-11-16T15:57:35.000Z
 
 ```ls
 series e:tx73-47dk d:2014-03-31T00:00:00.000Z
- m:cross_border_criminal_investigations=180
- m:impaired_driving_arrests=1496
  m:total_traffic_stops=110734
+ m:cross_border_criminal_investigations=180
  m:medevac_missions=376
+ m:impaired_driving_arrests=1496
 
 ```
 
@@ -129811,9 +129848,9 @@ apeake_bay_total_maximum_daily_load=42.46
 
 ```ls
 series e:p7e4-ipty d:2015-01-01T00:00:00.000Z
- m:average_weekday_trips=227560
- m:average_saturday_trips=88875
  m:average_sunday_trips=65718
+ m:average_saturday_trips=88875
+ m:average_weekday_trips=227560
 
 ```
 
@@ -130009,26 +130046,26 @@ series e:j4e8-4cec d:2011-01-01T00:00:00.000Z
 
 ```ls
 series e:i6qv-ar46 d:2015-06-09T15:39:03.000Z
- t:category=C1
- t:stat_type=DR:SQFT
  t:geo=NONE
- t:class_description=Commercial
- t:class=C
  t:category_description="Commercial 1"
+ t:stat_type=DR:SQFT
  t:future_land_use_map_designation="Commercial / Mixed Use Areas"
  t:zoning=C1-125
- m:splitcom=0.5
- m:comm_obs_far=3.5
- m:ratio=0.4
- m:splitres=0.5
- m:max_height=125
- m:du_gross_sqft=1000
+ t:class_description=Commercial
+ t:category=C1
+ t:class=C
  m:comm_max_far=5
- m:res_max_far=5
- m:res_obs_far=5
+ m:comm_obs_far=3.5
  m:maxrdens=250
- m:empl_per_sqft=300
+ m:du_gross_sqft=1000
+ m:res_obs_far=5
+ m:max_height=125
+ m:splitres=0.5
+ m:splitcom=0.5
  m:du_acre=174
+ m:res_max_far=5
+ m:empl_per_sqft=300
+ m:ratio=0.4
 
 ```
 
@@ -130373,16 +130410,16 @@ series e:mtwe-gah3 d:2013-01-01T00:00:00.000Z
 ```ls
 series e:y7rf-xz8k d:2015-01-01T00:00:00.000Z
  t:personnel_costs_amp_operating_expenses="Operating Expenses"
- t:fund_name="General Fund"
  t:fund_type="Tax Supported Funds"
- t:cost_center_name="Office Of Zoning And Admin Hearings"
+ t:fund_subtype="General Fund"
+ t:program_name="Zoning and Administrative Hearings"
+ t:function="General Government"
+ t:object_name="Contract and Services"
+ t:account_name="Preparation Of Transcripts/Recorders"
+ t:fund_name="General Fund"
  t:subfund_name="General Fund"
  t:department="Zoning and Administrative Hearings"
- t:program_name="Zoning and Administrative Hearings"
- t:object_name="Contract and Services"
- t:fund_subtype="General Fund"
- t:account_name="Preparation Of Transcripts/Recorders"
- t:function="General Government"
+ t:cost_center_name="Office Of Zoning And Admin Hearings"
  m:recommended_amount=15000
 
 ```
@@ -131013,27 +131050,27 @@ series e:2in3-5b7t d:2015-01-29T00:00:00.000Z
 
 ```ls
 series e:r74f-dpgp d:2012-01-01T00:00:00.000Z
- t:award_number=OR-00J03801
- t:project_name="Port of Newport's International Terminal Clean-up - Award ID#:6062"
- t:project_status=Completed
- t:vendor=NO
- t:award_instrument=Q10002
- t:root_id=5
- t:zipcode=97365-4338
- t:recipient_type=SUB
- t:award_id=6062
  t:congressional_district=5
- t:project_description="Port of Newport's International Terminal Clean-up - Award ID: 6062"
+ t:award_number=OR-00J03801
+ t:award_recipient="Port of Newport"
+ t:county=Lincoln
+ t:project_status=Completed
+ t:prime_award=00J03801
  t:project="Port of Newport's International Terminal Clean-up - Award ID#:6062"
  t:month_code=1106
+ t:project_name="Port of Newport's International Terminal Clean-up - Award ID#:6062"
+ t:award_id=6062
+ t:recipient_type=SUB
+ t:zipcode=97365-4338
+ t:project_description="Port of Newport's International Terminal Clean-up - Award ID: 6062"
+ t:vendor=NO
  t:award_description="Brownfields Clean-up"
- t:county=Lincoln
- t:prime_award=00J03801
- t:award_recipient="Port of Newport"
- m:amount_expended=200000
+ t:root_id=5
+ t:award_instrument=Q10002
  m:award_amount=200000
- m:jobs_created=0
+ m:amount_expended=200000
  m:sort_order=2
+ m:jobs_created=0
 
 ```
 
@@ -131465,15 +131502,15 @@ series e:2zbg-i8fx d:2011-01-01T00:00:00.000Z
 ```ls
 series e:7edu-s3u7 d:2016-01-01T00:00:00.000Z
  t:station_name="Foster Weather Station"
- m:barometric_pressure=1000
- m:humidity=62
- m:wind_direction=197
- m:interval_rain=0
- m:maximum_wind_speed=5
- m:solar_radiation=0
- m:wind_speed=3.6
- m:battery_life=15.2
  m:air_temperature=-3.67
+ m:interval_rain=0
+ m:humidity=62
+ m:maximum_wind_speed=5
+ m:battery_life=15.2
+ m:wind_direction=197
+ m:barometric_pressure=1000
+ m:wind_speed=3.6
+ m:solar_radiation=0
 
 ```
 
@@ -131646,17 +131683,18 @@ series e:biy3-c45y d:2014-01-01T00:00:00.000Z
 [nt65-c7a7.md](../datasets/nt65-c7a7.md)
 
 ```ls
-series e:nt65-c7a7 d:2002-01-01T00:00:00.000Z
- t:injury_mechanism=Drowning
+series e:nt65-c7a7 d:1999-01-01T00:00:00.000Z
+ t:race="All races"
  t:sex="Both sexes"
- t:age_years=75+
- t:race=Hispanic
- t:injury_intent=Undetermined
- m:age_specific_rate=0
- m:age_specific_rate_lower_confidence_limit=0
- m:deaths=0
- m:age_specific_rate_upper_confidence_limit=0
- m:population=751478
+ t:age_years="15-24 years"
+ t:injury_intent="All Intentions"
+ t:injury_mechanism="All Mechanisms"
+ m:age_specific_rate=59.602793
+ m:age_specific_rate_lower_confidence_limit=58.833364
+ m:age_specific_rate_upper_confidence_limit=60.372222
+ m:age_specific_rate_standard_error=0.3925657
+ m:deaths=23052
+ m:population=38676040
 
 ```
 
@@ -131965,9 +132003,9 @@ series e:ww7t-w8k9 d:2015-01-01T00:00:00.000Z
 ```ls
 series e:vksm-bq22 d:2017-02-04T17:55:04.000Z
  t:cnn_segment_id=3837000
- t:street_name=CAYUGA
- t:object_id=1
  t:street_type=AVE
+ t:object_id=1
+ t:street_name=CAYUGA
  m:speed_limit=15
 
 ```
@@ -132680,13 +132718,13 @@ series e:vn2t-jh2b d:2006-01-01T00:00:00.000Z
 
 ```ls
 series e:ndi9-2pye d:2011-02-14T11:50:11.000Z
- t:status_check=http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf
- t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/university/
- t:current_conditions="Has a core employment population"
  t:typology="Mixed Use Center future"
+ t:status_check=http://www.seattle.gov/planningcommission/docs/UniversityCommunityExecSummary.pdf
+ t:district=Northeast
  t:name="University District"
  t:major_transit_project=http://projects.soundtransit.org/Projects-Home/North-Link/Brooklyn-Station.xml
- t:district=Northeast
+ t:current_conditions="Has a core employment population"
+ t:neighborhood_plan=http://www.seattle.gov/neighborhoods/npi/plans/university/
  m:row_number.ndi9-2pye=1
 
 ```
@@ -132695,68 +132733,68 @@ series e:ndi9-2pye d:2011-02-14T11:50:11.000Z
 
 ```ls
 series e:bz6k-73ti d:2000-01-01T00:00:00.000Z
- t:community_area_name="Rogers Park"
  t:community_area=1
- m:incidence_rate_2012_lower_ci=1297.4
- m:incidence_rate_2011_lower_ci=1323.1
- m:cases_2014_female_15_44=234
- m:incidence_rate_2004_upper_ci=1349.7
- m:cases_2004_female_15_44=189
- m:incidence_rate_2014_upper_ci=1811.5
- m:incidence_rate_2003_upper_ci=1560.3
- m:cases_2001_female_15_44=217
- m:cases_2008_female_15_44=210
- m:cases_2010_female_15_44=211
- m:incidence_rate_2013_lower_ci=1201.5
- m:incidence_rate_2013_upper_ci=1584.7
- m:incidence_rate_2009_upper_ci=1479.8
- m:cases_2009_female_15_44=192
+ t:community_area_name="Rogers Park"
+ m:incidence_rate_2005_lower_ci=998.7
+ m:incidence_rate_2008_lower_ci=1206.8
  m:incidence_rate_2014_lower_ci=1400.1
  m:incidence_rate_2001_upper_ci=1471.3
- m:incidence_rate_2003_lower_ci=1198.9
  m:cases_2003_female_15_44=224
- m:cases_2011_female_15_44=222
- m:incidence_rate_2002_lower_ci=1210.1
- m:incidence_rate_2012_upper_ci=1694.6
- m:incidence_rate_2000_upper_ci=1707.8
- m:incidence_rate_2001_lower_ci=1125.7
- m:incidence_rate_2006_upper_ci=1439.4
- m:cases_2000_female_15_44=258
- m:incidence_rate_2005_lower_ci=998.7
  m:incidence_rate_2007_upper_ci=1573.7
+ m:cases_2001_female_15_44=217
+ m:incidence_rate_2004_upper_ci=1349.7
+ m:incidence_rate_2013_upper_ci=1584.7
  m:incidence_rate_2001=1298.5
- m:cases_2002_female_15_44=229
  m:incidence_rate_2000=1522.1
  m:incidence_rate_2003=1379.6
  m:incidence_rate_2002=1390.1
- m:incidence_rate_2010_upper_ci=1643.4
  m:incidence_rate_2005=1167.4
+ m:cases_2013_female_15_44=203
  m:incidence_rate_2004=1181.3
- m:incidence_rate_2008_lower_ci=1206.8
  m:incidence_rate_2007=1387
  m:incidence_rate_2006=1262.6
  m:incidence_rate_2009=1296.4
  m:incidence_rate_2008=1395.5
- m:cases_2006_female_15_44=196
- m:incidence_rate_2010_lower_ci=1252.6
- m:incidence_rate_2007_lower_ci=1200.3
- m:cases_2005_female_15_44=184
- m:incidence_rate_2002_upper_ci=1570.1
- m:cases_2013_female_15_44=203
- m:incidence_rate_2008_upper_ci=1584.2
+ m:incidence_rate_2011_upper_ci=1723.9
+ m:incidence_rate_2005_upper_ci=1336.1
+ m:incidence_rate_2012_lower_ci=1297.4
+ m:incidence_rate_2004_lower_ci=1012.9
+ m:cases_2010_female_15_44=211
+ m:cases_2012_female_15_44=218
  m:incidence_rate_2000_lower_ci=1336.4
+ m:cases_2011_female_15_44=222
+ m:incidence_rate_2010=1448
  m:incidence_rate_2012=1496
  m:incidence_rate_2011=1523.5
- m:cases_2007_female_15_44=212
- m:incidence_rate_2010=1448
  m:incidence_rate_2014=1605.8
+ m:incidence_rate_2013=1393.1
+ m:incidence_rate_2012_upper_ci=1694.6
+ m:incidence_rate_2006_upper_ci=1439.4
+ m:incidence_rate_2011_lower_ci=1323.1
+ m:cases_2000_female_15_44=258
+ m:cases_2004_female_15_44=189
+ m:incidence_rate_2000_upper_ci=1707.8
+ m:cases_2002_female_15_44=229
+ m:cases_2014_female_15_44=234
+ m:incidence_rate_2003_lower_ci=1198.9
+ m:incidence_rate_2010_lower_ci=1252.6
+ m:incidence_rate_2001_lower_ci=1125.7
  m:incidence_rate_2006_lower_ci=1085.8
  m:incidence_rate_2009_lower_ci=1113
- m:incidence_rate_2013=1393.1
- m:cases_2012_female_15_44=218
- m:incidence_rate_2004_lower_ci=1012.9
- m:incidence_rate_2005_upper_ci=1336.1
- m:incidence_rate_2011_upper_ci=1723.9
+ m:incidence_rate_2002_upper_ci=1570.1
+ m:incidence_rate_2008_upper_ci=1584.2
+ m:incidence_rate_2014_upper_ci=1811.5
+ m:incidence_rate_2007_lower_ci=1200.3
+ m:incidence_rate_2013_lower_ci=1201.5
+ m:cases_2009_female_15_44=192
+ m:cases_2008_female_15_44=210
+ m:incidence_rate_2010_upper_ci=1643.4
+ m:incidence_rate_2009_upper_ci=1479.8
+ m:cases_2005_female_15_44=184
+ m:incidence_rate_2003_upper_ci=1560.3
+ m:cases_2006_female_15_44=196
+ m:incidence_rate_2002_lower_ci=1210.1
+ m:cases_2007_female_15_44=212
 
 ```
 
@@ -132835,9 +132873,9 @@ series e:bvnw-4za7 d:1982-01-01T00:00:00.000Z
 ```ls
 series e:crd6-2w8k d:2005-01-01T00:00:00.000Z
  t:indicator="Total number of certified green buildings"
+ t:city="New Orleans"
  t:state=LA
  t:rowid="New Orleans2005"
- t:city="New Orleans"
  m:indicatorvalue=0
 
 ```
@@ -133364,67 +133402,67 @@ series e:a2da-hhhc d:2015-10-01T00:00:00.000Z
 
 ```ls
 series e:qvup-qejq d:2002-01-01T00:00:00.000Z
- t:dwi_ride="0 times"
- t:cig_get="I gave someone else money to buy them for me"
- t:had_std=No
- t:thr_skl=No
- t:race=White
- t:sex_num="1 person"
- t:sex_ever=Yes
- t:skl_gra="Mostly A's"
- t:alc_age="13 or 14 years old"
- t:stayhome=9
- t:age="16 years old"
- t:gender=Male
- t:divorce=No
- t:fast_30=No
- t:samesex=No
- t:alc_30="3 to 5 days"
- t:death=Yes
- t:hiv_skl=9
- t:cig_30="All 30 days"
- t:see_self=9
- t:emo_abus=Yes
- t:sex_age="16 years old or older"
- t:ster_age=9
- t:pot_30="1 or 2 times"
- t:exer_7=9
- t:fad_30=No
- t:pregnant=Yes
- t:harassed=No
- t:attempt=9
- t:depress=9
- t:home="Public housing (Section 8, the projects)"
- t:gamble=9
- t:chew_30="0 days"
- t:less_30=No
- t:trying=9
- t:witness=No
- t:ran_away=Yes
- t:inha_age=9
- t:exer_30=No
- t:consider=9
- t:hurtdate=9
- t:pills_30=No
- t:grade="Sophomore - 10th"
- t:treated=No
  t:mistreat=No
- t:off_skl=9
- t:fut_ed="Finish college"
- t:alc5_30="3 to 5 days"
- t:moved=No
- t:orient="Heterosexual (straight)"
- t:plan=9
- t:hiv_par=9
- t:exp_tob=Yes
  t:vomit_30=No
- m:read_7=9
- m:stren_7=9
- m:work_7=9
- m:resolve=9
+ t:chew_30="0 days"
+ t:exer_30=No
+ t:pills_30=No
+ t:moved=No
+ t:hiv_skl=9
+ t:skl_gra="Mostly A's"
+ t:attempt=9
+ t:hiv_par=9
+ t:consider=9
+ t:plan=9
+ t:pregnant=Yes
+ t:sex_num="1 person"
+ t:treated=No
+ t:orient="Heterosexual (straight)"
+ t:harassed=No
+ t:alc5_30="3 to 5 days"
+ t:sex_age="16 years old or older"
+ t:fut_ed="Finish college"
+ t:ran_away=Yes
+ t:trying=9
+ t:grade="Sophomore - 10th"
+ t:alc_30="3 to 5 days"
+ t:gender=Male
+ t:death=Yes
+ t:emo_abus=Yes
+ t:fad_30=No
+ t:less_30=No
+ t:ster_age=9
+ t:depress=9
+ t:had_std=No
+ t:cig_get="I gave someone else money to buy them for me"
+ t:exp_tob=Yes
+ t:divorce=No
+ t:inha_age=9
+ t:stayhome=9
+ t:samesex=No
+ t:race=White
+ t:gamble=9
+ t:off_skl=9
+ t:fast_30=No
+ t:thr_skl=No
+ t:home="Public housing (Section 8, the projects)"
+ t:hurtdate=9
+ t:witness=No
+ t:pot_30="1 or 2 times"
+ t:dwi_ride="0 times"
+ t:sex_ever=Yes
+ t:cig_30="All 30 days"
+ t:exer_7=9
+ t:age="16 years old"
+ t:see_self=9
+ t:alc_age="13 or 14 years old"
  m:inj_fit=9
- m:manage=9
+ m:resolve=9
+ m:stren_7=9
+ m:read_7=9
+ m:work_7=9
  m:study_7=9
+ m:manage=9
 
 ```
 
@@ -133825,24 +133863,24 @@ series e:83kr-sbhe d:2009-01-01T00:00:00.000Z
 
 ```ls
 series e:8mrp-rmkw d:2006-01-01T00:00:00.000Z
- t:total=Total
- t:topic="Physical Activity - Behavior"
- t:locationabbr=AL
- t:locationdesc=Alabama
- t:topicid=PA1
- t:stratificationid1=OVERALL
- t:class="Physical Activity"
  t:questionid=Q042
- t:locationid=01
- t:stratificationcategoryid1=OVR
- t:stratificationcategory1=Total
- t:stratification1=Total
+ t:stratificationid1=OVERALL
  t:question="Percent of adults in the state who usually biked or walked to work in the last week"
  t:datavaluetypeid=VALUE
- t:datasource="American Community Survey"
+ t:stratificationcategoryid1=OVR
+ t:locationabbr=AL
+ t:locationdesc=Alabama
+ t:stratification1=Total
+ t:stratificationcategory1=Total
+ t:total=Total
+ t:topicid=PA1
  t:classid=PA
- m:high_confidence_limit=1.4
+ t:datasource="American Community Survey"
+ t:locationid=01
+ t:topic="Physical Activity - Behavior"
+ t:class="Physical Activity"
  m:data_value=1.4
+ m:high_confidence_limit=1.4
  m:low_confidence_limit=1.3
 
 ```
@@ -134048,26 +134086,26 @@ RVICES AND SHELTER CENTER AT 902 ALDER STREET, TMK (1) 2-3-012-019."
 
 ```ls
 series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z
- t:organization_group="Public Protection"
- t:fund_type="General Fund"
- t:fund_code=1GAGF
- t:program_code=AKB
- t:department="Adult Probation"
- t:revenue_or_spending=Revenue
- t:sub_object="Court Fines"
- t:object="Court Fines-Non Traffic"
- t:object_code=252
+ t:department_code=ADP
  t:fund_type_code=1G
- t:character="Fines, Forfeitures & Penalties"
  t:character_code=250
+ t:fund_type="General Fund"
+ t:organization_group="Public Protection"
  t:fund_category_code=1
  t:program="Community Services"
- t:fund_category=Operating
+ t:fund_code=1GAGF
+ t:related_gov_t_units=No
+ t:character="Fines, Forfeitures & Penalties"
+ t:program_code=AKB
  t:sub_object_code=25210
  t:fund="General Fund"
- t:department_code=ADP
+ t:sub_object="Court Fines"
+ t:revenue_or_spending=Revenue
  t:organization_group_code=01
- t:related_gov_t_units=No
+ t:object_code=252
+ t:fund_category=Operating
+ t:department="Adult Probation"
+ t:object="Court Fines-Non Traffic"
  m:amount=22409.06
 
 ```
@@ -134605,32 +134643,32 @@ er and microwavable safe."
 ```ls
 series e:k5fe-2e4s d:1994-01-01T00:00:00.000Z
  t:station_name="Humptulips R nr Humptulips"
- t:station=22A070
  t:ssr=Coast
+ t:station=22A070
  t:comment="Annual sediment and phosphorus scores were usually below 80.  Temperature scores were below 80 a
 bout half the time. Average Bacteria, Oxygen, Nitrogen and pH scores were usually above 80. The Humptulips h
 as an approved temperature management plan and is listed for oxygen and pH."
- m:2008=73
- m:2009=78
- m:2006=70
- m:2007=67
- m:2013=84
- m:2004=68
- m:2005=77
- m:2002=75
- m:2003=74
- m:1995=76
- m:1996=75
- m:1997=76
- m:1998=66
- m:1994=84
  m:2012=94
- m:2011=70
- m:2010=75
- m:1999=76
  m:2001=81
- m:ave=76
+ m:2011=70
  m:2000=86
+ m:2010=75
+ m:1998=66
+ m:2009=78
+ m:1997=76
+ m:2008=73
+ m:ave=76
+ m:1996=75
+ m:2007=67
+ m:1995=76
+ m:2006=70
+ m:1994=84
+ m:2005=77
+ m:2004=68
+ m:2003=74
+ m:2002=75
+ m:2013=84
+ m:1999=76
 
 ```
 
@@ -134638,9 +134676,9 @@ as an approved temperature management plan and is listed for oxygen and pH."
 
 ```ls
 series e:5ekf-pmct d:2011-01-01T00:00:00.000Z
- t:category="Health Care Access/Coverage"
  t:condition="Do you have any kind of health care coverage?"
  t:state="Nationwide (States, DC, and Territories)"
+ t:category="Health Care Access/Coverage"
  m:yes=82.1
 
 ```
@@ -135552,12 +135590,12 @@ series e:rabp-3j3n d:2016-11-14T22:50:58.000Z
 
 ```ls
 series e:f6sn-r72s d:2011-01-01T00:00:00.000Z
- t:hcr_project_type="SLIHC/Subsidy Stand Alone"
- t:project_name="AVENT HOUSE"
- t:county=ORANGE
- t:developer_name="REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC."
- t:municipality=MIDDLETOWN
  t:project_number=20106003.00
+ t:hcr_project_type="SLIHC/Subsidy Stand Alone"
+ t:developer_name="REGIONAL ECONOMIC COMMUNITY ACTION PROGRAM, INC."
+ t:county=ORANGE
+ t:municipality=MIDDLETOWN
+ t:project_name="AVENT HOUSE"
  m:affordable_units=24
  m:total_project_cost=447176
  m:total_units=24
@@ -135959,39 +135997,39 @@ series e:9d9t-bmk7 d:2013-03-25T10:37:17.000Z
 
 ```ls
 series e:mn47-ukcw d:2011-01-01T00:00:00.000Z
- t:tinsmith_open="Tinsmith Open"
- t:plasterer_close="Plasterer Close"
- t:machinist_close="Machinist Close"
+ t:asbestos_close="Asbestos Close"
+ t:elec_tech_open="Elec.Tech Open"
+ t:electrician_open="Electrician Open"
  t:painter_open="Painter Open"
- t:bricklayer_close="Bricklayer Close"
- t:glazier_close="Glazier Close"
- t:tinsmith_close="Tinsmith Close"
- t:facility=Facility
- t:plasterer_open="Plasterer Open"
- t:asbeston_open="Asbeston Open"
+ t:elec_tech_close="Elec.Tech Close"
+ t:laborer_close="Laborer Close"
  t:ironworker_open="Ironworker Open"
  t:ironworker_close="Ironworker Close"
- t:elec_tech_close="Elec.Tech Close"
- t:steamfitter_close="Steamfitter Close"
- t:glazier_open="Glazier Open"
- t:laborer_open="Laborer Open"
- t:carpenter_close="Carpenter Close"
- t:plumber_open="Plumber Open"
- t:engineer_open="Engineer Open"
- t:electrician_close="Electrician Close"
+ t:machinist_close="Machinist Close"
+ t:sign_open="Sign Open"
  t:plumber_close="Plumber Close"
  t:bricklayer_open="Bricklayer Open"
- t:sign_close="Sign Close"
+ t:laborer_open="Laborer Open"
  t:machinist_open="Machinist Open"
- t:electrician_open="Electrician Open"
- t:steamfitter_open="Steamfitter Open"
- t:engineer_close="Engineer Close"
+ t:bricklayer_close="Bricklayer Close"
+ t:asbeston_open="Asbeston Open"
  t:painter_close="Painter Close"
- t:elec_tech_open="Elec.Tech Open"
- t:asbestos_close="Asbestos Close"
- t:sign_open="Sign Open"
  t:carpenter_open="Carpenter Open"
- t:laborer_close="Laborer Close"
+ t:engineer_close="Engineer Close"
+ t:plumber_open="Plumber Open"
+ t:tinsmith_open="Tinsmith Open"
+ t:carpenter_close="Carpenter Close"
+ t:plasterer_close="Plasterer Close"
+ t:sign_close="Sign Close"
+ t:engineer_open="Engineer Open"
+ t:glazier_close="Glazier Close"
+ t:steamfitter_close="Steamfitter Close"
+ t:tinsmith_close="Tinsmith Close"
+ t:electrician_close="Electrician Close"
+ t:steamfitter_open="Steamfitter Open"
+ t:glazier_open="Glazier Open"
+ t:facility=Facility
+ t:plasterer_open="Plasterer Open"
  m:row_number.mn47-ukcw=1
 
 ```
@@ -136374,10 +136412,10 @@ series e:56wb-gfbm d:2001-07-01T00:00:00.000Z
 ```ls
 series e:y59h-w6v4 d:2015-06-15T06:59:25.000Z
  t:street_1="230 FLATBUSH AVENUE"
- t:zip_code=11217
+ t:city=BROOKLYN
  t:company="A & T CHECK CASHING #2"
  t:state=NY
- t:city=BROOKLYN
+ t:zip_code=11217
  m:row_number.y59h-w6v4=1
 
 ```
@@ -136616,8 +136654,8 @@ series e:r9vq-bark d:2008-08-13T00:00:00.000Z
 
 ```ls
 series e:j2u5-4qpk d:2016-11-22T21:43:42.000Z
- t:agency_title="State Revenue for Distribution (SRD)"
  t:agency_number=10
+ t:agency_title="State Revenue for Distribution (SRD)"
  t:abbreviation=SRD
  m:row_number.j2u5-4qpk=1
 
@@ -137440,13 +137478,13 @@ series e:fqcv-e9sg d:2011-09-06T13:28:40.000Z
 
 ```ls
 series e:hkfu-49xs d:2016-11-22T00:00:00.000Z
+ t:org_description="OSPCD-ADMIN ORDINARY MAINT"
+ t:item=1
  t:account_desc="OFFICE SUPPLIES"
+ t:category_of_gov="General Government"
+ t:vendor_name=4IMPRINT
  t:check=4229
  t:department="OSPCD ADMINISTRATION"
- t:item=1
- t:vendor_name=4IMPRINT
- t:org_description="OSPCD-ADMIN ORDINARY MAINT"
- t:category_of_gov="General Government"
  m:amount=870.66
 
 ```
@@ -137712,14 +137750,15 @@ series e:99ue-w85f d:2015-04-01T00:00:00.000Z
 [xp25-gxux.md](../datasets/xp25-gxux.md)
 
 ```ls
-series e:xp25-gxux d:2016-08-15T00:00:00.000Z
- t:historic_district=N
- t:cblinkid=LINK-018177
- t:gf_permit_appl_id=81586
+series e:xp25-gxux d:2017-05-01T00:00:00.000Z
+ t:street_address="93-01 ROOSEVELT AVE"
+ t:greenfield_in_bid_location=FALSE
+ t:cblinkid=LINK-021803
+ t:gf_permit_appl_id=81892
  t:zoningnumb=C2-4
- t:borough=Manhattan
- t:street_address="1895 Amsterdam Ave"
- m:greenfield_in_bid_location=0
+ t:historic_district=N
+ t:borough=Queens
+ m:row_number.xp25-gxux=1
 
 ```
 
@@ -137728,37 +137767,45 @@ series e:xp25-gxux d:2016-08-15T00:00:00.000Z
 ```ls
 series e:97iw-vtbx d:2008-01-01T00:00:00.000Z
  t:comparable_rental_2_boro_block_lot=5-03157-0001
- t:comparable_rental_1_building_classification=D3-ELEVATOR
- t:staten_island_cooperatives_comparable_properties_building_classification=D0-ELEVATOR
- t:comparable_rental_1_boro_block_lot=5-00051-0001
- t:staten_island_cooperatives_comparable_properties_boro_block_lot=5-00001-0216
  t:staten_island_cooperatives_comparable_properties_neighborhood="NEW BRIGHTON-ST. GEORGE"
  t:comparable_rental_1_neighborhood="NEW BRIGHTON"
+ t:comparable_rental_1_boro_block_lot=5-00051-0001
+ t:staten_island_cooperatives_comparable_properties_building_classification=D0-ELEVATOR
+ t:postcode=10301
+ t:comparable_rental_1_building_classification=D3-ELEVATOR
  t:comparable_rental_2_building_classification=D1-ELEVATOR
+ t:nta="West New Brighton-New Brighton-St. George"
+ t:staten_island_cooperatives_comparable_properties_boro_block_lot=5-00001-0216
  t:comparable_rental_2_neighborhood=GRASMERE
- m:staten_island_cooperatives_comparable_properties_market_value_per_sqft=36.2
- m:comparable_rental_2_market_value_per_sqft=30.9
- m:comparable_rental_2_full_market_value=5570000
- m:comparable_rental_1_total_units=131
- m:staten_island_cooperatives_comparable_properties_gross_income_per_sqft=10.7
- m:comparable_rental_1_year_built=1963
- m:comparable_rental_1_gross_sqft=174895
- m:comparable_rental_1_dist_from_coop_in_miles=0.85
- m:comparable_rental_2_year_built=1973
- m:comparable_rental_1_full_market_value=10900000
- m:staten_island_cooperatives_comparable_properties_total_units=128
- m:comparable_rental_1_gross_income_per_sqft=15.31
- m:staten_island_cooperatives_comparable_properties_est_gross_income=1839705
- m:staten_island_cooperatives_comparable_properties_full_market_value=6220000
+ m:bin=5110065
+ m:staten_island_cooperatives_comparable_properties_year_built=1984
+ m:comparable_rental_2_gross_sqft=180495
+ m:borough=5
+ m:staten_island_cooperatives_comparable_properties_gross_sqft=171935
  m:comparable_rental_2_gross_income_per_sqft=9.36
+ m:comparable_rental_1_full_market_value=10900000
+ m:comparable_rental_1_dist_from_coop_in_miles=0.85
+ m:comparable_rental_1_gross_income_per_sqft=15.31
+ m:staten_island_cooperatives_comparable_properties_total_units=128
+ m:community_council=49
+ m:census_tract=3
+ m:staten_island_cooperatives_comparable_properties_gross_income_per_sqft=10.7
  m:comparable_rental_2_dist_from_coop_in_miles=2.55
  m:comparable_rental_2_est_gross_income=1690099
+ m:staten_island_cooperatives_comparable_properties_market_value_per_sqft=36.2
+ m:comparable_rental_1_total_units=131
  m:comparable_rental_1_market_value_per_sqft=62
  m:comparable_rental_2_total_units=177
- m:comparable_rental_2_gross_sqft=180495
- m:staten_island_cooperatives_comparable_properties_year_built=1984
+ m:bbl=5000010216
+ m:comparable_rental_2_full_market_value=5570000
+ m:comparable_rental_2_year_built=1973
+ m:staten_island_cooperatives_comparable_properties_est_gross_income=1839705
  m:comparable_rental_1_est_gross_income=2677642
- m:staten_island_cooperatives_comparable_properties_gross_sqft=171935
+ m:community_board=1
+ m:comparable_rental_1_gross_sqft=174895
+ m:staten_island_cooperatives_comparable_properties_full_market_value=6220000
+ m:comparable_rental_2_market_value_per_sqft=30.9
+ m:comparable_rental_1_year_built=1963
 
 ```
 
@@ -137987,10 +138034,10 @@ series e:23t7-b7ij d:2017-07-11T00:00:00.000Z
 
 ```ls
 series e:eb3y-vtsa d:2015-11-06T11:14:16.000Z
- t:phone_number=417-993-4403
- t:county=Dallas
  t:hours_of_operation="3RD T 2-7"
  t:agency_name="Prairie Chapel United Methodist"
+ t:county=Dallas
+ t:phone_number=417-993-4403
  m:row_number.eb3y-vtsa=1
 
 ```
@@ -139425,14 +139472,14 @@ r said size the test would ber equied, but under 300 squir feet would not need t
 ```ls
 series e:ea3z-m7eh d:2012-01-01T00:00:00.000Z
  t:state=Iowa
- m:ages_21_34_2014=4.6
- m:male_2014=4.8
- m:ages_21_34=5.9
- m:male=5.1
- m:ages_35=2.9
  m:all_ages_2014=3
+ m:ages_21_34=5.9
+ m:male_2014=4.8
+ m:ages_21_34_2014=4.6
  m:all_ages=3.2
  m:ages_35_2014=3.4
+ m:ages_35=2.9
+ m:male=5.1
 
 ```
 
@@ -139535,12 +139582,12 @@ series e:fai6-2ni7 d:1986-01-01T00:00:00.000Z
 [enjg-rjqz.md](../datasets/enjg-rjqz.md)
 
 ```ls
-series e:enjg-rjqz d:2017-03-22T19:52:37.000Z
+series e:enjg-rjqz d:2017-08-16T17:50:21.000Z
  t:state=Alabama
+ m:patents_per_100k=10.1
  m:nih_rd_awards=25399511
+ m:sbir_awards_per_capita=4.57
  m:federal_rd_spending_obligations=4537952
- m:sbir_awards_per_capita=7.03
- m:patents_per_100k=9.7
 
 ```
 

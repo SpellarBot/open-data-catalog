@@ -36,7 +36,7 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:bu7x-2xx6 d:2011-12-16T11:48:25.000Z t:phone=206-205-7330 t:hours="Mon-Fri: 9:30am-5pm" t:name="Maleng Regional Justice Center (Kent)" m:row_number.bu7x-2xx6=1
+series e:bu7x-2xx6 d:2011-12-16T11:48:25.000Z t:hours="Mon-Fri: 9:30am-5pm" t:phone=206-205-7330 t:name="Maleng Regional Justice Center (Kent)" m:row_number.bu7x-2xx6=1
 ```
 
 ## Meta Commands
@@ -46,13 +46,13 @@ metric m:row_number.bu7x-2xx6 p:long l:"Row Number"
 
 entity e:bu7x-2xx6 l:"CSC Kent" t:url=https://data.kingcounty.gov/api/views/bu7x-2xx6
 
-property e:bu7x-2xx6 t:meta.view d:2017-06-09T13:52:33.422Z v:id=bu7x-2xx6 v:category=Operations v:averageRating=0 v:name="CSC Kent"
+property e:bu7x-2xx6 t:meta.view d:2017-09-25T07:23:53.440Z v:averageRating=0 v:name="CSC Kent" v:id=bu7x-2xx6 v:category=Operations
 
-property e:bu7x-2xx6 t:meta.view.license d:2017-06-09T13:52:33.422Z v:name="Public Domain"
+property e:bu7x-2xx6 t:meta.view.license d:2017-09-25T07:23:53.440Z v:name="Public Domain"
 
-property e:bu7x-2xx6 t:meta.view.owner d:2017-06-09T13:52:33.422Z v:id=ph9f-eu4i v:screenName=Cameron v:displayName=Cameron
+property e:bu7x-2xx6 t:meta.view.owner d:2017-09-25T07:23:53.440Z v:displayName=Cameron v:id=ph9f-eu4i v:screenName=Cameron
 
-property e:bu7x-2xx6 t:meta.view.tableauthor d:2017-06-09T13:52:33.422Z v:id=ph9f-eu4i v:screenName=Cameron v:roleName=publisher v:displayName=Cameron
+property e:bu7x-2xx6 t:meta.view.tableauthor d:2017-09-25T07:23:53.440Z v:displayName=Cameron v:roleName=publisher v:id=ph9f-eu4i v:screenName=Cameron
 ```
 
 ## Top Records

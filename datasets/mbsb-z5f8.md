@@ -15,7 +15,7 @@
 | Category | NNDSS |
 | Tags | 2017, mmwr, nndss, wonder, nedss, netss, invasive pneumococcal diseases, all ages |
 | Created | 2017-01-12T19:51:08Z |
-| Publication Date | 2017-06-08T16:28:47Z |
+| Publication Date | 2017-09-21T15:43:34Z |
 
 ## Description
 
@@ -83,45 +83,45 @@ Excluded Fields = invasive_pneumococcal_disease_all_ages_confirmed_current_week_
 ## Data Commands
 
 ```ls
-series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:invasive_pneumococcal_disease_all_ages_probable_cum_2016=2 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=270 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=487 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=264 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=264 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=2 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=488
+series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="UNITED STATES" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=270 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=487 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=264 m:invasive_pneumococcal_disease_all_ages_probable_cum_2016=2 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=2 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=488 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=264
 
-series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=20 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=31 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=5 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=5 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=39
+series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="NEW ENGLAND" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=20 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=31 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=5 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=39 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=5
 
-series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=41 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=45 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=50 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=50 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=79
+series e:mbsb-z5f8 d:2017-01-01T00:00:00.000Z t:reporting_area="MID. ATLANTIC" m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med=41 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med=0 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016=45 m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017=50 m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max=0 m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max=79 m:invasive_pneumococcal_disease_all_ages_confirmed_current_week=50
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:invasive_pneumococcal_disease_all_ages_confirmed_current_week p:long l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Current week" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_confirmed_current_week p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Current week" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med p:long l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Med" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_med p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max p:long l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Max" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_confirmed_previous_52_weeks_max p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017 p:long l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2017" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2017 p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2017" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016 p:long l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2016" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_confirmed_cum_2016 p:integer l:"Invasive Pneumococcal Disease§, All ages, Confirmed, Cum 2016" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_probable_current_week p:long l:"Invasive Pneumococcal Disease§, All ages, Probable, Current week" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_probable_current_week p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Current week" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med p:long l:"Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Med" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_med p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Med" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max p:long l:"Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Max" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_probable_previous_52_weeks_max p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Previous 52 weeks Max" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_probable_cum_2017 p:long l:"Invasive Pneumococcal Disease§, All ages, Probable, Cum 2017" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_probable_cum_2017 p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Cum 2017" t:dataTypeName=number
 
-metric m:invasive_pneumococcal_disease_all_ages_probable_cum_2016 p:long l:"Invasive Pneumococcal Disease§, All ages, Probable, Cum 2016" t:dataTypeName=number
+metric m:invasive_pneumococcal_disease_all_ages_probable_cum_2016 p:integer l:"Invasive Pneumococcal Disease§, All ages, Probable, Cum 2016" t:dataTypeName=number
 
 entity e:mbsb-z5f8 l:"NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" t:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" t:url=https://data.cdc.gov/api/views/mbsb-z5f8
 
-property e:mbsb-z5f8 t:meta.view d:2017-06-09T13:58:54.176Z v:id=mbsb-z5f8 v:category=NNDSS v:averageRating=0 v:name="NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention"
+property e:mbsb-z5f8 t:meta.view d:2017-09-25T07:30:17.301Z v:averageRating=0 v:name="NNDSS - Table II. Invasive Pneumococcal Diseases, All Ages" v:attribution="Division of Health Informatics and Surveillance (DHIS), Centers for Disease Control and Prevention" v:id=mbsb-z5f8 v:category=NNDSS
 
-property e:mbsb-z5f8 t:meta.view.owner d:2017-06-09T13:58:54.176Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:displayName=wja0@cdc.gov
+property e:mbsb-z5f8 t:meta.view.owner d:2017-09-25T07:30:17.301Z v:displayName=wja0@cdc.gov v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:mbsb-z5f8 t:meta.view.tableauthor d:2017-06-09T13:58:54.176Z v:id=2fth-98hd v:screenName=wja0@cdc.gov v:roleName=editor v:displayName=wja0@cdc.gov
+property e:mbsb-z5f8 t:meta.view.tableauthor d:2017-09-25T07:30:17.301Z v:displayName=wja0@cdc.gov v:roleName=editor v:id=2fth-98hd v:screenName=wja0@cdc.gov
 
-property e:mbsb-z5f8 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:54.176Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:mbsb-z5f8 t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:17.301Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

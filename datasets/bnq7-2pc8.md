@@ -50,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=false t:website=http://www.seattle.gov/arts/publicart/default.asp t:description="identifies and coordinates opportunities to include public art in capital projects funded at the local, state, and federal levels." t:program="1% for Art" t:administrator="Arts & Cultural Affairs" t:funding_type="legislative encumbrance" t:community_development=true t:funding_amount=$ t:infrastructure=false m:row_number.bnq7-2pc8=1
+series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:website=http://www.seattle.gov/arts/publicart/default.asp t:administrator="Arts & Cultural Affairs" t:open_space=false t:infrastructure=false t:funding_type="legislative encumbrance" t:community_development=true t:description="identifies and coordinates opportunities to include public art in capital projects funded at the local, state, and federal levels." t:program="1% for Art" t:funding_amount=$ m:row_number.bnq7-2pc8=1
 
-series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=true t:website=http://www.seattle.gov/parks/levy/opportunity.htm t:description="funds community-initiated park development or acquisition projects." t:program="Opportunity Fund" t:administrator=Parks t:funding_type="competitive grants" t:community_development=false t:funding_amount=$-$$ t:infrastructure=false m:row_number.bnq7-2pc8=2
+series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:website=http://www.seattle.gov/parks/levy/opportunity.htm t:administrator=Parks t:open_space=true t:infrastructure=false t:funding_type="competitive grants" t:community_development=false t:description="funds community-initiated park development or acquisition projects." t:program="Opportunity Fund" t:funding_amount=$-$$ m:row_number.bnq7-2pc8=2
 
-series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:open_space=true t:website=http://www.seattle.gov/neighborhoods/nmf/ t:description="include four funds (Small Sparks, Small and Simple Projects, Large Projects, and Tree) for community-initiated neighborhood projects." t:program="Neighborhood Matching Fund" t:administrator=DON t:funding_type="matching grants" t:community_development=true t:funding_amount=$-$$ t:infrastructure=true m:row_number.bnq7-2pc8=3
+series e:bnq7-2pc8 d:2011-02-14T11:47:16.000Z t:website=http://www.seattle.gov/neighborhoods/nmf/ t:administrator=DON t:open_space=true t:infrastructure=true t:funding_type="matching grants" t:community_development=true t:description="include four funds (Small Sparks, Small and Simple Projects, Large Projects, and Tree) for community-initiated neighborhood projects." t:program="Neighborhood Matching Fund" t:funding_amount=$-$$ m:row_number.bnq7-2pc8=3
 ```
 
 ## Meta Commands
@@ -64,13 +64,13 @@ metric m:row_number.bnq7-2pc8 p:long l:"Row Number"
 
 entity e:bnq7-2pc8 l:"Transit Communities Funding Toolkit" t:attribution="City of Seattle, Seattle Planning Commission" t:url=https://data.seattle.gov/api/views/bnq7-2pc8
 
-property e:bnq7-2pc8 t:meta.view d:2017-06-09T13:56:57.573Z v:id=bnq7-2pc8 v:category=Community v:averageRating=0 v:name="Transit Communities Funding Toolkit" v:attribution="City of Seattle, Seattle Planning Commission"
+property e:bnq7-2pc8 t:meta.view d:2017-09-25T07:28:20.104Z v:averageRating=0 v:name="Transit Communities Funding Toolkit" v:attribution="City of Seattle, Seattle Planning Commission" v:id=bnq7-2pc8 v:category=Community
 
-property e:bnq7-2pc8 t:meta.view.license d:2017-06-09T13:56:57.573Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:bnq7-2pc8 t:meta.view.license d:2017-09-25T07:28:20.104Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:bnq7-2pc8 t:meta.view.owner d:2017-06-09T13:56:57.573Z v:id=9vuc-jwdr v:profileImageUrlMedium=/api/users/9vuc-jwdr/profile_images/THUMB v:profileImageUrlLarge=/api/users/9vuc-jwdr/profile_images/LARGE v:screenName="Sheehy, Katie" v:profileImageUrlSmall=/api/users/9vuc-jwdr/profile_images/TINY v:displayName="Sheehy, Katie"
+property e:bnq7-2pc8 t:meta.view.owner d:2017-09-25T07:28:20.104Z v:displayName="Sheehy, Katie" v:profileImageUrlLarge=/api/users/9vuc-jwdr/profile_images/LARGE v:profileImageUrlSmall=/api/users/9vuc-jwdr/profile_images/TINY v:id=9vuc-jwdr v:screenName="Sheehy, Katie" v:profileImageUrlMedium=/api/users/9vuc-jwdr/profile_images/THUMB
 
-property e:bnq7-2pc8 t:meta.view.tableauthor d:2017-06-09T13:56:57.573Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:bnq7-2pc8 t:meta.view.tableauthor d:2017-09-25T07:28:20.104Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 ```
 
 ## Top Records

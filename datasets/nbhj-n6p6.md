@@ -53,11 +53,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z t:fy08_actual="* 85,376,533" t:fy10_actual="* 94,988,009" t:fy14_actual="* 113,841,399" t:fy11_actual="* 98,703,496" t:type=Revenue t:fy13_actual="* 108,407,664" t:fy15_budgeted="* 120,467,965" t:category="Real Estate and Personal Property taxes" t:fy12_actual="* 102,975,330" t:fy09_actual="* 90,085,919" t:fy07_actual="* 81,005,608" t:fy05_actual="* 72,674,214" t:fy06_actual="* 76,777,383" m:fy04_actual=69129693
+series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z t:type=Revenue t:fy12_actual="* 102,975,330" t:fy13_actual="* 108,407,664" t:fy11_actual="* 98,703,496" t:fy08_actual="* 85,376,533" t:fy07_actual="* 81,005,608" t:fy15_budgeted="* 120,467,965" t:category="Real Estate and Personal Property taxes" t:fy14_actual="* 113,841,399" t:fy10_actual="* 94,988,009" t:fy09_actual="* 90,085,919" t:fy06_actual="* 76,777,383" t:fy05_actual="* 72,674,214" m:fy04_actual=69129693
 
-series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z t:fy08_actual="* 870,517" t:fy10_actual="* 1,078,578" t:fy14_actual="* 847,582" t:fy11_actual="* 1,161,723" t:type=Revenue t:fy13_actual="* 1,118,479" t:fy15_budgeted=0.0 t:category="Tax Liens" t:fy12_actual="* 1,297,050" t:fy09_actual="* 1,165,496" t:fy07_actual="* 660,729" t:fy05_actual="* 1,144,242" t:fy06_actual="* 986,111" m:fy04_actual=881336
+series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z t:type=Revenue t:fy12_actual="* 1,297,050" t:fy13_actual="* 1,118,479" t:fy11_actual="* 1,161,723" t:fy08_actual="* 870,517" t:fy07_actual="* 660,729" t:fy15_budgeted=0.0 t:category="Tax Liens" t:fy14_actual="* 847,582" t:fy10_actual="* 1,078,578" t:fy09_actual="* 1,165,496" t:fy06_actual="* 986,111" t:fy05_actual="* 1,144,242" m:fy04_actual=881336
 
-series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z t:fy08_actual="* 5,007,547" t:fy10_actual="* 4,563,267" t:fy14_actual="* 7,759,040" t:fy11_actual="* 4,894,601" t:type=Revenue t:fy13_actual="* 7,206,904" t:fy15_budgeted="* 8,092,927" t:category="Motor Vehicle Exces and other excise taxes" t:fy12_actual="* 6,762,048" t:fy09_actual="* 4,531,602" t:fy07_actual="* 5,009,381" t:fy05_actual="* 5,379,484" t:fy06_actual="* 5,272,658" m:fy04_actual=5353299
+series e:nbhj-n6p6 d:2015-08-18T07:20:02.000Z t:type=Revenue t:fy12_actual="* 6,762,048" t:fy13_actual="* 7,206,904" t:fy11_actual="* 4,894,601" t:fy08_actual="* 5,007,547" t:fy07_actual="* 5,009,381" t:fy15_budgeted="* 8,092,927" t:category="Motor Vehicle Exces and other excise taxes" t:fy14_actual="* 7,759,040" t:fy10_actual="* 4,563,267" t:fy09_actual="* 4,531,602" t:fy06_actual="* 5,272,658" t:fy05_actual="* 5,379,484" m:fy04_actual=5353299
 ```
 
 ## Meta Commands
@@ -67,13 +67,13 @@ metric m:fy04_actual p:integer l:"FY04 Actual" t:dataTypeName=number
 
 entity e:nbhj-n6p6 l:"Historical Budget Summary by Category FY14-FY05" t:attribution="City of Somerville" t:url=https://data.somervillema.gov/api/views/nbhj-n6p6
 
-property e:nbhj-n6p6 t:meta.view d:2017-06-09T13:53:47.635Z v:id=nbhj-n6p6 v:category=Finance v:attributionLink=http://www.somervillema.gov v:averageRating=100 v:name="Historical Budget Summary by Category FY14-FY05" v:attribution="City of Somerville"
+property e:nbhj-n6p6 t:meta.view d:2017-09-25T07:25:09.871Z v:averageRating=100 v:name="Historical Budget Summary by Category FY14-FY05" v:attribution="City of Somerville" v:attributionLink=http://www.somervillema.gov v:id=nbhj-n6p6 v:category=Finance
 
-property e:nbhj-n6p6 t:meta.view.license d:2017-06-09T13:53:47.635Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:nbhj-n6p6 t:meta.view.license d:2017-09-25T07:25:09.871Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:nbhj-n6p6 t:meta.view.owner d:2017-06-09T13:53:47.635Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:displayName="Michael Mastrobuoni"
+property e:nbhj-n6p6 t:meta.view.owner d:2017-09-25T07:25:09.871Z v:displayName="Michael Mastrobuoni" v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 
-property e:nbhj-n6p6 t:meta.view.tableauthor d:2017-06-09T13:53:47.635Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:nbhj-n6p6 t:meta.view.tableauthor d:2017-09-25T07:25:09.871Z v:displayName="Michael Mastrobuoni" v:roleName=administrator v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 ```
 
 ## Top Records

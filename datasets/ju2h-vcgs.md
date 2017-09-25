@@ -63,11 +63,11 @@ Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
 ## Data Commands
 
 ```ls
-series e:ju2h-vcgs d:2015-01-01T00:00:00.000Z t:product_fda_list_name="GLUCAGON E" t:ndc=00002803101 t:package_size=01 t:state_code=AK t:labeler_code=00002 t:product_code=8031 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=8811.68 m:total_amount_reimbursed=9725.63 m:number_of_prescriptions=29 m:units_reimbursed=51 m:non_medicaid_amount_reimbursed=913.95
+series e:ju2h-vcgs d:2015-01-01T00:00:00.000Z t:record_id=FFSU t:package_size=01 t:product_fda_list_name="GLUCAGON E" t:labeler_code=00002 t:suppression_used=false t:product_code=8031 t:ndc=00002803101 t:state_code=AK m:total_amount_reimbursed=9725.63 m:non_medicaid_amount_reimbursed=913.95 m:units_reimbursed=51 m:medicaid_amount_reimbursed=8811.68 m:number_of_prescriptions=29
 
-series e:ju2h-vcgs d:2015-07-01T00:00:00.000Z t:product_fda_list_name="GLUCAGON E" t:ndc=00002803101 t:package_size=01 t:state_code=AK t:labeler_code=00002 t:product_code=8031 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=13371.78 m:total_amount_reimbursed=16053.26 m:number_of_prescriptions=46 m:units_reimbursed=77 m:non_medicaid_amount_reimbursed=2681.48
+series e:ju2h-vcgs d:2015-07-01T00:00:00.000Z t:record_id=FFSU t:package_size=01 t:product_fda_list_name="GLUCAGON E" t:labeler_code=00002 t:suppression_used=false t:product_code=8031 t:ndc=00002803101 t:state_code=AK m:total_amount_reimbursed=16053.26 m:non_medicaid_amount_reimbursed=2681.48 m:units_reimbursed=77 m:medicaid_amount_reimbursed=13371.78 m:number_of_prescriptions=46
 
-series e:ju2h-vcgs d:2015-07-01T00:00:00.000Z t:product_fda_list_name="HUMULIN 70" t:ndc=00002871501 t:package_size=01 t:state_code=AK t:labeler_code=00002 t:product_code=8715 t:suppression_used=false t:record_id=FFSU m:medicaid_amount_reimbursed=11700.63 m:total_amount_reimbursed=11700.63 m:number_of_prescriptions=15 m:units_reimbursed=980 m:non_medicaid_amount_reimbursed=0
+series e:ju2h-vcgs d:2015-07-01T00:00:00.000Z t:record_id=FFSU t:package_size=01 t:product_fda_list_name="HUMULIN 70" t:labeler_code=00002 t:suppression_used=false t:product_code=8715 t:ndc=00002871501 t:state_code=AK m:total_amount_reimbursed=11700.63 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=980 m:medicaid_amount_reimbursed=11700.63 m:number_of_prescriptions=15
 ```
 
 ## Meta Commands
@@ -85,15 +85,15 @@ metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimburs
 
 entity e:ju2h-vcgs l:"State Drug Utilization Data 2015" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/ju2h-vcgs
 
-property e:ju2h-vcgs t:meta.view d:2017-06-09T13:54:42.089Z v:id=ju2h-vcgs v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2015" v:attribution="Centers for Medicare and Medicaid"
+property e:ju2h-vcgs t:meta.view d:2017-09-25T07:26:06.264Z v:averageRating=0 v:name="State Drug Utilization Data 2015" v:attribution="Centers for Medicare and Medicaid" v:attributionLink=https://medicaid.gov v:id=ju2h-vcgs v:category="State Drug Utilization"
 
-property e:ju2h-vcgs t:meta.view.license d:2017-06-09T13:54:42.089Z v:name="Public Domain"
+property e:ju2h-vcgs t:meta.view.license d:2017-09-25T07:26:06.264Z v:name="Public Domain"
 
-property e:ju2h-vcgs t:meta.view.owner d:2017-06-09T13:54:42.089Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:displayName=Medicaid.gov
+property e:ju2h-vcgs t:meta.view.owner d:2017-09-25T07:26:06.264Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:ju2h-vcgs t:meta.view.tableauthor d:2017-06-09T13:54:42.089Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:roleName=administrator v:displayName=Medicaid.gov
+property e:ju2h-vcgs t:meta.view.tableauthor d:2017-09-25T07:26:06.264Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:ju2h-vcgs t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:54:42.089Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:ju2h-vcgs t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:26:06.264Z v:Program_Code=009:076 v:Bureau_Code=009:00
 ```
 
 ## Top Records

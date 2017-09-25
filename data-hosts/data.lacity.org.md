@@ -96,7 +96,7 @@ Name | Category | Published
 [Finance - Performance Metrics](../datasets/7y6s-y8bd.md) | A Well Run City | 2015&#x2011;04&#x2011;15
 [Funded Status](../datasets/e2fp-yzdz.md) | A Well Run City | 2015&#x2011;12&#x2011;07
 [General City Budget Incremental Changes](../datasets/k4k6-bwwv.md) | A Prosperous City | 2016&#x2011;07&#x2011;11
-[General Fund Revenue](../datasets/qrkr-kfbh.md) | A Prosperous City | 2017&#x2011;05&#x2011;19
+[General Fund Revenue](../datasets/qrkr-kfbh.md) | A Prosperous City | 2017&#x2011;08&#x2011;04
 [HACLA Large Public Housing Sites (16)](../datasets/9rf7-dm83.md) | A Prosperous City | 2015&#x2011;01&#x2011;26
 [HACLA Resident Ethnicity Demographics - Large Public Housing Sites (16)](../datasets/f88n-w5b8.md) | A Prosperous City | 2015&#x2011;01&#x2011;26
 [HCIDLA Affordable Housing Projects Catalog And Listing (2003 To Present)](../datasets/u4mj-cwbz.md) | A Livable and Sustainable City | 2014&#x2011;05&#x2011;29
@@ -126,8 +126,8 @@ Name | Category | Published
 [LAFPP Portfolio Summary](../datasets/tnz4-ynvq.md) | A Well Run City | 2014&#x2011;05&#x2011;23
 [LAPD - Annual High Level Metrics - GOVSTAT](../datasets/t6kt-2yic.md) | A Safe City | 2014&#x2011;05&#x2011;30
 [LAPD Calls for Service 2014](../datasets/mgue-vbsx.md) | A Safe City | 2015&#x2011;11&#x2011;19
-[LAPD Calls for Service 2015](../datasets/xwgr-xw5q.md) | A Safe City | 2016&#x2011;11&#x2011;14
-[LAPD Calls for Service 2015](../datasets/xwgr-xw5q.md) | A Safe City | 2016&#x2011;11&#x2011;14
+[LAPD Calls for Service 2015](../datasets/tss8-455b.md) | A Safe City | 2016&#x2011;04&#x2011;28
+[LAPD Calls for Service 2016](../datasets/xwgr-xw5q.md) | A Safe City | 2017&#x2011;08&#x2011;08
 [LAPD Vehicle and Pedestrian Stops 2015](../datasets/fmpk-vq3h.md) | A Safe City | 2017&#x2011;01&#x2011;25
 [LAPD Vehicle and Pedestrian Stops 2016](../datasets/ghrm-j3er.md) | A Safe City | 2017&#x2011;01&#x2011;24
 [LASAN: Miles of Sewer Cleaned](../datasets/iyyp-p2fx.md) | A Livable and Sustainable City | 2014&#x2011;08&#x2011;12

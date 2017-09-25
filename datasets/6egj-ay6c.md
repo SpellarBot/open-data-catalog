@@ -12,7 +12,7 @@
 | Id | 6egj-ay6c |
 | Name | Solar For Schools |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | solar for schools, solar, solar energy, solar power, energy conservation |
 | Created | 2016-09-20T20:07:28Z |
 | Publication Date | 2016-10-14T18:30:13Z |
@@ -47,11 +47,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:6egj-ay6c d:2006-01-01T00:00:00.000Z t:school_name="Cunningham Elementary" t:source_of_grant=SECO t:school_district=Austin m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
+series e:6egj-ay6c d:2006-01-01T00:00:00.000Z t:school_district=Austin t:school_name="Cunningham Elementary" t:source_of_grant=SECO m:estimated_total_cost=44205.56 m:estimated_ae_cost=35114.65 m:estimated_grant_funds=9090.91 m:estimated_annual_production_kwh=5450 m:system_size_dc_kw=3.4
 
-series e:6egj-ay6c d:2006-01-01T00:00:00.000Z t:school_name="Bedichek Middle School" t:source_of_grant=SECO t:school_district=Austin m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
+series e:6egj-ay6c d:2006-01-01T00:00:00.000Z t:school_district=Austin t:school_name="Bedichek Middle School" t:source_of_grant=SECO m:estimated_total_cost=44205.56 m:estimated_ae_cost=35114.65 m:estimated_grant_funds=9090.91 m:estimated_annual_production_kwh=5450 m:system_size_dc_kw=3.4
 
-series e:6egj-ay6c d:2006-01-01T00:00:00.000Z t:school_name="Blanton Elementary School" t:source_of_grant=SECO t:school_district=Austin m:estimated_total_cost=44205.56 m:system_size_dc_kw=3.4 m:estimated_ae_cost=35114.65 m:estimated_annual_production_kwh=5450 m:estimated_grant_funds=9090.91
+series e:6egj-ay6c d:2006-01-01T00:00:00.000Z t:school_district=Austin t:school_name="Blanton Elementary School" t:source_of_grant=SECO m:estimated_total_cost=44205.56 m:estimated_ae_cost=35114.65 m:estimated_grant_funds=9090.91 m:estimated_annual_production_kwh=5450 m:system_size_dc_kw=3.4
 ```
 
 ## Meta Commands
@@ -69,13 +69,13 @@ metric m:estimated_annual_production_kwh p:integer l:"Estimated Annual Productio
 
 entity e:6egj-ay6c l:"Solar For Schools" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/6egj-ay6c
 
-property e:6egj-ay6c t:meta.view d:2017-06-09T13:56:55.503Z v:id=6egj-ay6c v:category=Utility v:averageRating=0 v:name="Solar For Schools" v:attribution="Austin Energy"
+property e:6egj-ay6c t:meta.view d:2017-09-25T07:28:15.825Z v:averageRating=0 v:name="Solar For Schools" v:attribution="Austin Energy" v:id=6egj-ay6c v:category="Utilities and City Services"
 
-property e:6egj-ay6c t:meta.view.license d:2017-06-09T13:56:55.503Z v:name="Public Domain"
+property e:6egj-ay6c t:meta.view.license d:2017-09-25T07:28:15.825Z v:name="Public Domain"
 
-property e:6egj-ay6c t:meta.view.owner d:2017-06-09T13:56:55.503Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:6egj-ay6c t:meta.view.owner d:2017-09-25T07:28:15.825Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 
-property e:6egj-ay6c t:meta.view.tableauthor d:2017-06-09T13:56:55.503Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:roleName=publisher v:displayName="Sarah Lambert"
+property e:6egj-ay6c t:meta.view.tableauthor d:2017-09-25T07:28:15.825Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 ```
 
 ## Top Records

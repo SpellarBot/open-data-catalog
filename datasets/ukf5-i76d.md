@@ -12,7 +12,7 @@
 | Id | ukf5-i76d |
 | Name | Emissions By Plant |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | emissions by plant, gas, greenhouse gas, carbon dioxide, energy |
 | Created | 2016-09-12T15:33:02Z |
 | Publication Date | 2016-10-25T19:31:04Z |
@@ -42,11 +42,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:ukf5-i76d d:2005-01-01T00:00:00.000Z t:emissions=SO2 t:location=Decker m:emissions_metric_tonnes=3
+series e:ukf5-i76d d:2005-01-01T00:00:00.000Z t:location=Decker t:emissions=SO2 m:emissions_metric_tonnes=3
 
-series e:ukf5-i76d d:2005-01-01T00:00:00.000Z t:emissions=SO2 t:location="Sand Hill" m:emissions_metric_tonnes=3
+series e:ukf5-i76d d:2005-01-01T00:00:00.000Z t:location="Sand Hill" t:emissions=SO2 m:emissions_metric_tonnes=3
 
-series e:ukf5-i76d d:2005-01-01T00:00:00.000Z t:emissions=SO2 t:location=Holly m:emissions_metric_tonnes=2
+series e:ukf5-i76d d:2005-01-01T00:00:00.000Z t:location=Holly t:emissions=SO2 m:emissions_metric_tonnes=2
 ```
 
 ## Meta Commands
@@ -56,13 +56,13 @@ metric m:emissions_metric_tonnes p:integer l:"Emissions (Metric Tons)" t:dataTyp
 
 entity e:ukf5-i76d l:"Emissions By Plant" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/ukf5-i76d
 
-property e:ukf5-i76d t:meta.view d:2017-06-09T13:56:58.247Z v:id=ukf5-i76d v:category=Utility v:averageRating=0 v:name="Emissions By Plant" v:attribution="Austin Energy"
+property e:ukf5-i76d t:meta.view d:2017-09-25T07:28:21.780Z v:averageRating=0 v:name="Emissions By Plant" v:attribution="Austin Energy" v:id=ukf5-i76d v:category="Utilities and City Services"
 
-property e:ukf5-i76d t:meta.view.license d:2017-06-09T13:56:58.247Z v:name="Public Domain"
+property e:ukf5-i76d t:meta.view.license d:2017-09-25T07:28:21.780Z v:name="Public Domain"
 
-property e:ukf5-i76d t:meta.view.owner d:2017-06-09T13:56:58.247Z v:id=c433-zrb5 v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:screenName="Sarah Lambert" v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:displayName="Sarah Lambert"
+property e:ukf5-i76d t:meta.view.owner d:2017-09-25T07:28:21.780Z v:displayName="Sarah Lambert" v:profileImageUrlLarge=/api/users/c433-zrb5/profile_images/LARGE v:profileImageUrlSmall=/api/users/c433-zrb5/profile_images/TINY v:id=c433-zrb5 v:screenName="Sarah Lambert" v:profileImageUrlMedium=/api/users/c433-zrb5/profile_images/THUMB
 
-property e:ukf5-i76d t:meta.view.tableauthor d:2017-06-09T13:56:58.247Z v:id=3qbr-w2gj v:screenName="Elaine Lee" v:roleName=editor v:displayName="Elaine Lee"
+property e:ukf5-i76d t:meta.view.tableauthor d:2017-09-25T07:28:21.780Z v:displayName="Elaine Lee" v:roleName=editor v:id=3qbr-w2gj v:screenName="Elaine Lee"
 ```
 
 ## Top Records

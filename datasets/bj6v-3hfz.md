@@ -64,11 +64,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:dpi_read_status=No t:dpi_science_status=Yes t:black_dpi_overall_status=Yes t:high_needs_dpi_overall_status=Yes t:district_name="Ansonia School District" t:swd_dpi_overall_status=n/a t:dpi_overall_status=No t:dpi_write_status=Yes t:hispanic_dpi_overall_status=Yes t:dpi_math_target_status=No t:district=2 t:frl_dpi_overall_status=Yes m:dpi_write_2013=69.2 m:hispanic_dpi_overall_2013=61 m:dpi_read_2013=55.9 m:dpi_science_2013=63.1 m:frl_dpi_overall_2013=55.5 m:high_needs_dpi_overall_2013=52.6 m:dpi_overall_2013=57.8 m:black_dpi_overall_2013=52.3 m:dpi_math_2013=52.4
+series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:district_name="Ansonia School District" t:dpi_read_status=No t:dpi_science_status=Yes t:dpi_write_status=Yes t:frl_dpi_overall_status=Yes t:district=2 t:black_dpi_overall_status=Yes t:high_needs_dpi_overall_status=Yes t:hispanic_dpi_overall_status=Yes t:dpi_math_target_status=No t:dpi_overall_status=No t:swd_dpi_overall_status=n/a m:dpi_overall_2013=57.8 m:black_dpi_overall_2013=52.3 m:dpi_math_2013=52.4 m:dpi_write_2013=69.2 m:frl_dpi_overall_2013=55.5 m:hispanic_dpi_overall_2013=61 m:high_needs_dpi_overall_2013=52.6 m:dpi_science_2013=63.1 m:dpi_read_2013=55.9
 
-series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:dpi_read_status=Yes t:dpi_science_status=Yes t:high_needs_dpi_overall_status=Yes t:district_name="Avon School District" t:swd_dpi_overall_status=No t:dpi_overall_status=Yes t:dpi_write_status=Yes t:dpi_math_target_status=Yes t:district=4 m:dpi_write_2013=94.8 m:dpi_read_2013=88.6 m:swd_dpi_overall_2013=61.4 m:dpi_science_2013=92.3 m:high_needs_dpi_overall_2013=70.9 m:dpi_overall_2013=91.7 m:dpi_math_2013=92.5
+series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:district_name="Avon School District" t:dpi_read_status=Yes t:dpi_science_status=Yes t:dpi_write_status=Yes t:district=4 t:high_needs_dpi_overall_status=Yes t:dpi_math_target_status=Yes t:dpi_overall_status=Yes t:swd_dpi_overall_status=No m:dpi_overall_2013=91.7 m:dpi_math_2013=92.5 m:swd_dpi_overall_2013=61.4 m:dpi_write_2013=94.8 m:high_needs_dpi_overall_2013=70.9 m:dpi_science_2013=92.3 m:dpi_read_2013=88.6
 
-series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:dpi_read_status=No t:dpi_science_status=Yes t:high_needs_dpi_overall_status=No t:district_name="Berlin School District" t:swd_dpi_overall_status=No t:dpi_overall_status=No t:dpi_write_status=Yes t:hispanic_dpi_overall_status=n/a t:dpi_math_target_status=No t:district=7 t:frl_dpi_overall_status=No m:dpi_write_2013=92.7 m:hispanic_dpi_overall_2013=61.7 m:dpi_read_2013=83.9 m:swd_dpi_overall_2013=55.4 m:dpi_science_2013=86.3 m:frl_dpi_overall_2013=60.9 m:high_needs_dpi_overall_2013=62.2 m:dpi_overall_2013=85.4 m:dpi_math_2013=83
+series e:bj6v-3hfz d:2013-01-01T00:00:00.000Z t:district_name="Berlin School District" t:dpi_read_status=No t:dpi_science_status=Yes t:dpi_write_status=Yes t:frl_dpi_overall_status=No t:district=7 t:high_needs_dpi_overall_status=No t:hispanic_dpi_overall_status=n/a t:dpi_math_target_status=No t:dpi_overall_status=No t:swd_dpi_overall_status=No m:dpi_overall_2013=85.4 m:dpi_math_2013=83 m:swd_dpi_overall_2013=55.4 m:dpi_write_2013=92.7 m:frl_dpi_overall_2013=60.9 m:hispanic_dpi_overall_2013=61.7 m:high_needs_dpi_overall_2013=62.2 m:dpi_science_2013=86.3 m:dpi_read_2013=83.9
 ```
 
 ## Meta Commands
@@ -98,13 +98,13 @@ metric m:dpi_science_2013 p:float l:"DPI SCIENCE 2013" t:dataTypeName=number
 
 entity e:bj6v-3hfz l:"CAPT District Performance: 2013" t:attribution="State Department of Education" t:url=https://data.ct.gov/api/views/bj6v-3hfz
 
-property e:bj6v-3hfz t:meta.view d:2017-06-09T13:59:58.057Z v:id=bj6v-3hfz v:category=Education v:averageRating=0 v:name="CAPT District Performance: 2013" v:attribution="State Department of Education"
+property e:bj6v-3hfz t:meta.view d:2017-09-25T07:31:18.722Z v:averageRating=0 v:name="CAPT District Performance: 2013" v:attribution="State Department of Education" v:id=bj6v-3hfz v:category=Education
 
-property e:bj6v-3hfz t:meta.view.license d:2017-06-09T13:59:58.057Z v:name="Public Domain"
+property e:bj6v-3hfz t:meta.view.license d:2017-09-25T07:31:18.722Z v:name="Public Domain"
 
-property e:bj6v-3hfz t:meta.view.owner d:2017-06-09T13:59:58.057Z v:id=nyku-jy9c v:screenName="Stephanie O'Day" v:displayName="Stephanie O'Day"
+property e:bj6v-3hfz t:meta.view.owner d:2017-09-25T07:31:18.722Z v:displayName="Stephanie O'Day" v:id=nyku-jy9c v:screenName="Stephanie O'Day"
 
-property e:bj6v-3hfz t:meta.view.tableauthor d:2017-06-09T13:59:58.057Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1496849452 v:displayName="Tyler Kleykamp"
+property e:bj6v-3hfz t:meta.view.tableauthor d:2017-09-25T07:31:18.722Z v:displayName="Tyler Kleykamp" v:lastNotificationSeenAt=1505139295 v:roleName=administrator v:id=cvy9-n6sb v:screenName="Tyler Kleykamp"
 ```
 
 ## Top Records

@@ -61,11 +61,11 @@ metric m:row_number.btwj-27et p:long l:"Row Number"
 
 entity e:btwj-27et l:"Conditions Not Covered ( Diagnosis Code Group 6031)" t:attribution="Oregon Health Authority" t:url=https://data.oregon.gov/api/views/btwj-27et
 
-property e:btwj-27et t:meta.view d:2017-06-09T13:54:57.864Z v:id=btwj-27et v:category="Health & Human Services" v:attributionLink=http://www.oregon.gov/OHA/healthplan v:averageRating=0 v:name="Conditions Not Covered ( Diagnosis Code Group 6031)" v:attribution="Oregon Health Authority"
+property e:btwj-27et t:meta.view d:2017-09-25T07:26:23.140Z v:averageRating=0 v:name="Conditions Not Covered ( Diagnosis Code Group 6031)" v:attribution="Oregon Health Authority" v:attributionLink=http://www.oregon.gov/OHA/healthplan v:id=btwj-27et v:category="Health & Human Services"
 
-property e:btwj-27et t:meta.view.owner d:2017-06-09T13:54:57.864Z v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:lastNotificationSeenAt=1493074868 v:displayName="Kim Witbeck"
+property e:btwj-27et t:meta.view.owner d:2017-09-25T07:26:23.140Z v:displayName="Kim Witbeck" v:lastNotificationSeenAt=1505239794 v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:id=mx6a-id83 v:screenName="Kim Witbeck" v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB
 
-property e:btwj-27et t:meta.view.tableauthor d:2017-06-09T13:54:57.864Z v:id=mx6a-id83 v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:screenName="Kim Witbeck" v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1493074868 v:displayName="Kim Witbeck"
+property e:btwj-27et t:meta.view.tableauthor d:2017-09-25T07:26:23.140Z v:displayName="Kim Witbeck" v:lastNotificationSeenAt=1505239794 v:profileImageUrlLarge=/api/users/mx6a-id83/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/mx6a-id83/profile_images/TINY v:id=mx6a-id83 v:screenName="Kim Witbeck" v:profileImageUrlMedium=/api/users/mx6a-id83/profile_images/THUMB
 ```
 
 ## Top Records

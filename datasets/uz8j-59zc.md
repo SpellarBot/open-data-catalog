@@ -55,11 +55,11 @@ metric m:row_number.uz8j-59zc p:long l:"Row Number"
 
 entity e:uz8j-59zc l:"Snake Stream Miles Opened" t:url=https://data.wa.gov/api/views/uz8j-59zc
 
-property e:uz8j-59zc t:meta.view d:2017-06-09T13:56:08.801Z v:id=uz8j-59zc v:averageRating=0 v:name="Snake Stream Miles Opened"
+property e:uz8j-59zc t:meta.view d:2017-09-25T07:27:33.069Z v:averageRating=0 v:name="Snake Stream Miles Opened" v:id=uz8j-59zc
 
-property e:uz8j-59zc t:meta.view.owner d:2017-06-09T13:56:08.801Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:uz8j-59zc t:meta.view.owner d:2017-09-25T07:27:33.069Z v:displayName="Jennifer Johnson" v:profileImageUrlLarge=/api/users/fuyk-waw8/profile_images/LARGE v:profileImageUrlSmall=/api/users/fuyk-waw8/profile_images/TINY v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:profileImageUrlMedium=/api/users/fuyk-waw8/profile_images/THUMB
 
-property e:uz8j-59zc t:meta.view.tableauthor d:2017-06-09T13:56:08.801Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:uz8j-59zc t:meta.view.tableauthor d:2017-09-25T07:27:33.069Z v:displayName="Jennifer Johnson" v:profileImageUrlLarge=/api/users/fuyk-waw8/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/fuyk-waw8/profile_images/TINY v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:profileImageUrlMedium=/api/users/fuyk-waw8/profile_images/THUMB
 ```
 
 ## Top Records

@@ -61,11 +61,11 @@ metric m:park_checks p:integer l:"Park Checks" t:dataTypeName=number
 
 entity e:wrvx-zpw5 l:"Performance Metrics - Chicago Park District - Park Security Checks" t:attribution="Chicago Park District" t:url=https://data.cityofchicago.org/api/views/wrvx-zpw5
 
-property e:wrvx-zpw5 t:meta.view d:2017-06-09T13:53:36.974Z v:id=wrvx-zpw5 v:category="Administration & Finance" v:attributionLink=http://www.chicagoparkdistrict.com/ v:averageRating=0 v:name="Performance Metrics - Chicago Park District - Park Security Checks" v:attribution="Chicago Park District"
+property e:wrvx-zpw5 t:meta.view d:2017-09-25T07:24:58.957Z v:averageRating=0 v:name="Performance Metrics - Chicago Park District - Park Security Checks" v:attribution="Chicago Park District" v:attributionLink=http://www.chicagoparkdistrict.com/ v:id=wrvx-zpw5 v:category="Administration & Finance"
 
-property e:wrvx-zpw5 t:meta.view.owner d:2017-06-09T13:53:36.974Z v:id=7jj6-h75i v:screenName=Eve v:displayName=Eve
+property e:wrvx-zpw5 t:meta.view.owner d:2017-09-25T07:24:58.957Z v:displayName=Eve v:id=7jj6-h75i v:screenName=Eve
 
-property e:wrvx-zpw5 t:meta.view.tableauthor d:2017-06-09T13:53:36.974Z v:id=7jj6-h75i v:screenName=Eve v:displayName=Eve
+property e:wrvx-zpw5 t:meta.view.tableauthor d:2017-09-25T07:24:58.957Z v:displayName=Eve v:id=7jj6-h75i v:screenName=Eve
 ```
 
 ## Top Records

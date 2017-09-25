@@ -38,11 +38,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type="Candidate Committee" m:count=128 m:percentage_of_total_contributions_received=0.34 m:percentage_of_total_count=0.64 m:total_contribution_received=39575.16
+series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type="Candidate Committee" m:percentage_of_total_contributions_received=0.34 m:count=128 m:percentage_of_total_count=0.64 m:total_contribution_received=39575.16
 
-series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type="Immediate Family" m:count=310 m:percentage_of_total_contributions_received=2.06 m:percentage_of_total_count=1.54 m:total_contribution_received=238752.53
+series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type="Immediate Family" m:percentage_of_total_contributions_received=2.06 m:count=310 m:percentage_of_total_count=1.54 m:total_contribution_received=238752.53
 
-series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type=Individual m:count=14966 m:percentage_of_total_contributions_received=68.21 m:percentage_of_total_count=74.57 m:total_contribution_received=7912040.29
+series e:hty7-p2e9 d:2014-01-01T00:00:00.000Z t:contributor_type=Individual m:percentage_of_total_contributions_received=68.21 m:count=14966 m:percentage_of_total_count=74.57 m:total_contribution_received=7912040.29
 ```
 
 ## Meta Commands
@@ -58,13 +58,13 @@ metric m:percentage_of_total_contributions_received p:float l:"Percentage of Tot
 
 entity e:hty7-p2e9 l:"2014 Elections - Contributions Received (more than $100) by Contibutor Type" t:url=https://data.hawaii.gov/api/views/hty7-p2e9
 
-property e:hty7-p2e9 t:meta.view d:2017-06-09T14:00:28.177Z v:id=hty7-p2e9 v:category=Community v:averageRating=0 v:name="2014 Elections - Contributions Received (more than $100) by Contibutor Type"
+property e:hty7-p2e9 t:meta.view d:2017-09-25T07:31:40.976Z v:averageRating=0 v:name="2014 Elections - Contributions Received (more than $100) by Contibutor Type" v:id=hty7-p2e9 v:category=Community
 
-property e:hty7-p2e9 t:meta.view.license d:2017-06-09T14:00:28.177Z v:name="Public Domain"
+property e:hty7-p2e9 t:meta.view.license d:2017-09-25T07:31:40.976Z v:name="Public Domain"
 
-property e:hty7-p2e9 t:meta.view.owner d:2017-06-09T14:00:28.177Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:displayName="Hawaii Campaign Spending Commission"
+property e:hty7-p2e9 t:meta.view.owner d:2017-09-25T07:31:40.976Z v:displayName="Hawaii Campaign Spending Commission" v:lastNotificationSeenAt=1505521909 v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:id=g6c2-gabj v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB
 
-property e:hty7-p2e9 t:meta.view.tableauthor d:2017-06-09T14:00:28.177Z v:id=g6c2-gabj v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:roleName=editor v:displayName="Hawaii Campaign Spending Commission"
+property e:hty7-p2e9 t:meta.view.tableauthor d:2017-09-25T07:31:40.976Z v:displayName="Hawaii Campaign Spending Commission" v:lastNotificationSeenAt=1505521909 v:profileImageUrlLarge=/api/users/g6c2-gabj/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/g6c2-gabj/profile_images/TINY v:id=g6c2-gabj v:screenName="Hawaii Campaign Spending Commission" v:profileImageUrlMedium=/api/users/g6c2-gabj/profile_images/THUMB
 ```
 
 ## Top Records

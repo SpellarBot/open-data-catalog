@@ -47,11 +47,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:3bs9-vysh d:2015-06-30T00:00:00.000Z t:account_desc="NEIGHBORHOOD IMP. COUNCIL" t:check=1999 t:department="COMMUNICATIONS DEPARTMENT" t:item=1 t:vendor_name=4IMPRINT t:org_description="COMMUNICATIONS ORDINARY MAINT" t:category_of_gov="General Government" m:amount=995.12
+series e:3bs9-vysh d:2015-06-30T00:00:00.000Z t:org_description="COMMUNICATIONS ORDINARY MAINT" t:item=1 t:account_desc="NEIGHBORHOOD IMP. COUNCIL" t:category_of_gov="General Government" t:vendor_name=4IMPRINT t:check=1999 t:department="COMMUNICATIONS DEPARTMENT" m:amount=995.12
 
-series e:3bs9-vysh d:2014-08-13T00:00:00.000Z t:account_desc="OTHER SUPPLIES" t:check=1094 t:department="BOARD OF HEALTH" t:item=2 t:vendor_name=4IMPRINT t:org_description="MASS IN MOTION '14" t:category_of_gov="General Government" m:amount=958.27
+series e:3bs9-vysh d:2014-08-13T00:00:00.000Z t:org_description="MASS IN MOTION '14" t:item=2 t:account_desc="OTHER SUPPLIES" t:category_of_gov="General Government" t:vendor_name=4IMPRINT t:check=1094 t:department="BOARD OF HEALTH" m:amount=958.27
 
-series e:3bs9-vysh d:2014-10-29T00:00:00.000Z t:account_desc="PROMOTIONAL MATERIALS" t:check=1286 t:department="BOARD OF HEALTH" t:item=4 t:vendor_name=4IMPRINT t:org_description="MASS.IN MOTION '15" t:category_of_gov="General Government" m:amount=953.15
+series e:3bs9-vysh d:2014-10-29T00:00:00.000Z t:org_description="MASS.IN MOTION '15" t:item=4 t:account_desc="PROMOTIONAL MATERIALS" t:category_of_gov="General Government" t:vendor_name=4IMPRINT t:check=1286 t:department="BOARD OF HEALTH" m:amount=953.15
 ```
 
 ## Meta Commands
@@ -61,13 +61,13 @@ metric m:amount p:float l:Amount t:dataTypeName=number
 
 entity e:3bs9-vysh l:"Open Checkbook Data FY15" t:attribution="City of Somerville Auditing Department" t:url=https://data.somervillema.gov/api/views/3bs9-vysh
 
-property e:3bs9-vysh t:meta.view d:2017-06-09T13:52:08.944Z v:id=3bs9-vysh v:category=Finance v:attributionLink=http://www.somervillema.gov/departments/finance/auditing v:averageRating=0 v:name="Open Checkbook Data FY15" v:attribution="City of Somerville Auditing Department"
+property e:3bs9-vysh t:meta.view d:2017-09-25T07:23:28.154Z v:averageRating=0 v:name="Open Checkbook Data FY15" v:attribution="City of Somerville Auditing Department" v:attributionLink=http://www.somervillema.gov/departments/finance/auditing v:id=3bs9-vysh v:category=Finance
 
-property e:3bs9-vysh t:meta.view.license d:2017-06-09T13:52:08.944Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:3bs9-vysh t:meta.view.license d:2017-09-25T07:23:28.154Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:3bs9-vysh t:meta.view.owner d:2017-06-09T13:52:08.944Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:displayName="Michael Mastrobuoni"
+property e:3bs9-vysh t:meta.view.owner d:2017-09-25T07:23:28.154Z v:displayName="Michael Mastrobuoni" v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 
-property e:3bs9-vysh t:meta.view.tableauthor d:2017-06-09T13:52:08.944Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:3bs9-vysh t:meta.view.tableauthor d:2017-09-25T07:23:28.154Z v:displayName="Michael Mastrobuoni" v:roleName=administrator v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 ```
 
 ## Top Records

@@ -39,11 +39,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:hawaii_county=137103 m:city_and_county_of_honolulu=913268 m:maui_county=138390 m:kauai_county=68558 m:x_values=1990
+series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:city_and_county_of_honolulu=913268 m:kauai_county=68558 m:maui_county=138390 m:hawaii_county=137103 m:x_values=1990
 
-series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:hawaii_county=141240 m:city_and_county_of_honolulu=901717 m:maui_county=139703 m:kauai_county=69605 m:x_values=1991
+series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:city_and_county_of_honolulu=901717 m:kauai_county=69605 m:maui_county=139703 m:hawaii_county=141240 m:x_values=1991
 
-series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:hawaii_county=146421 m:city_and_county_of_honolulu=912514 m:maui_county=146651 m:kauai_county=66076 m:x_values=1992
+series e:i7pr-uy4x d:2000-01-01T00:00:00.000Z m:city_and_county_of_honolulu=912514 m:kauai_county=66076 m:maui_county=146651 m:hawaii_county=146421 m:x_values=1992
 ```
 
 ## Meta Commands
@@ -61,13 +61,13 @@ metric m:maui_county p:integer l:"Maui County" t:dataTypeName=number
 
 entity e:i7pr-uy4x l:"DBEDT Hawaii De Facto Population By County 2000-2010" t:attribution="Department of Economic Development and Tourism" t:url=https://data.hawaii.gov/api/views/i7pr-uy4x
 
-property e:i7pr-uy4x t:meta.view d:2017-06-09T13:54:12.830Z v:id=i7pr-uy4x v:category="Economic Development" v:attributionLink=http://hawaii.gov/dbedt v:averageRating=0 v:name="DBEDT Hawaii De Facto Population By County 2000-2010" v:attribution="Department of Economic Development and Tourism"
+property e:i7pr-uy4x t:meta.view d:2017-09-25T07:25:34.770Z v:averageRating=0 v:name="DBEDT Hawaii De Facto Population By County 2000-2010" v:attribution="Department of Economic Development and Tourism" v:attributionLink=http://hawaii.gov/dbedt v:id=i7pr-uy4x v:category="Economic Development"
 
-property e:i7pr-uy4x t:meta.view.license d:2017-06-09T13:54:12.830Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:i7pr-uy4x t:meta.view.license d:2017-09-25T07:25:34.770Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:i7pr-uy4x t:meta.view.owner d:2017-06-09T13:54:12.830Z v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
+property e:i7pr-uy4x t:meta.view.owner d:2017-09-25T07:25:34.770Z v:displayName="Douglas Oshiro" v:id=uaqq-pakk v:screenName="Douglas Oshiro"
 
-property e:i7pr-uy4x t:meta.view.tableauthor d:2017-06-09T13:54:12.830Z v:id=uaqq-pakk v:screenName="Douglas Oshiro" v:displayName="Douglas Oshiro"
+property e:i7pr-uy4x t:meta.view.tableauthor d:2017-09-25T07:25:34.770Z v:displayName="Douglas Oshiro" v:id=uaqq-pakk v:screenName="Douglas Oshiro"
 ```
 
 ## Top Records

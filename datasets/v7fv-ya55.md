@@ -11,6 +11,7 @@
 | Host | data.maryland.gov |
 | Id | v7fv-ya55 |
 | Name | Maryland Ozone Exceedance Days in 2010 |
+| Attribution | Maryland Department of Environment |
 | Category | Energy and Environment |
 | Tags | air quality, ozone, mde |
 | Created | 2012-10-26T18:08:17Z |
@@ -56,11 +57,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:v7fv-ya55 d:2010-04-02T00:00:00.000Z m:piney_run=76 m:state_wide_max=76
+series e:v7fv-ya55 d:2010-04-02T00:00:00.000Z m:state_wide_max=76 m:piney_run=76
 
-series e:v7fv-ya55 d:2010-04-11T00:00:00.000Z m:piney_run=78 m:state_wide_max=78
+series e:v7fv-ya55 d:2010-04-11T00:00:00.000Z m:state_wide_max=78 m:piney_run=78
 
-series e:v7fv-ya55 d:2010-04-15T00:00:00.000Z m:piney_run=83 m:state_wide_max=83
+series e:v7fv-ya55 d:2010-04-15T00:00:00.000Z m:state_wide_max=83 m:piney_run=83
 ```
 
 ## Meta Commands
@@ -102,15 +103,15 @@ metric m:southern_maryland p:integer l:"Southern Maryland" t:dataTypeName=number
 
 metric m:state_wide_max p:integer l:"State-wide Max" t:dataTypeName=number
 
-entity e:v7fv-ya55 l:"Maryland Ozone Exceedance Days in 2010" t:url=https://data.maryland.gov/api/views/v7fv-ya55
+entity e:v7fv-ya55 l:"Maryland Ozone Exceedance Days in 2010" t:attribution="Maryland Department of Environment" t:url=https://data.maryland.gov/api/views/v7fv-ya55
 
-property e:v7fv-ya55 t:meta.view d:2017-06-09T13:51:39.630Z v:id=v7fv-ya55 v:category="Energy and Environment" v:averageRating=0 v:name="Maryland Ozone Exceedance Days in 2010"
+property e:v7fv-ya55 t:meta.view d:2017-09-25T07:22:58.654Z v:averageRating=0 v:name="Maryland Ozone Exceedance Days in 2010" v:attribution="Maryland Department of Environment" v:id=v7fv-ya55 v:category="Energy and Environment"
 
-property e:v7fv-ya55 t:meta.view.license d:2017-06-09T13:51:39.630Z v:name="Public Domain"
+property e:v7fv-ya55 t:meta.view.license d:2017-09-25T07:22:58.654Z v:name="Public Domain"
 
-property e:v7fv-ya55 t:meta.view.owner d:2017-06-09T13:51:39.630Z v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:lastNotificationSeenAt=1496348600 v:displayName="Andrew Gosden"
+property e:v7fv-ya55 t:meta.view.owner d:2017-09-25T07:22:58.654Z v:displayName="Andrew Gosden" v:lastNotificationSeenAt=1497884474 v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:id=6wh5-kegk v:screenName="Andrew Gosden" v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB
 
-property e:v7fv-ya55 t:meta.view.tableauthor d:2017-06-09T13:51:39.630Z v:id=6wh5-kegk v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:screenName="Andrew Gosden" v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1496348600 v:displayName="Andrew Gosden"
+property e:v7fv-ya55 t:meta.view.tableauthor d:2017-09-25T07:22:58.654Z v:displayName="Andrew Gosden" v:lastNotificationSeenAt=1497884474 v:profileImageUrlLarge=/api/users/6wh5-kegk/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/6wh5-kegk/profile_images/TINY v:id=6wh5-kegk v:screenName="Andrew Gosden" v:profileImageUrlMedium=/api/users/6wh5-kegk/profile_images/THUMB
 ```
 
 ## Top Records

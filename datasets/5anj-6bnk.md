@@ -45,11 +45,11 @@ Excluded Fields = listing_year
 ## Data Commands
 
 ```ls
-series e:5anj-6bnk d:1997-01-01T00:00:00.000Z t:population_stock_number=6884 t:population_stock_name="Joseph Creek Summer Steelhead" m:wild=1251 m:wild_hatchery=1251 m:goal_wild=1000
+series e:5anj-6bnk d:1997-01-01T00:00:00.000Z t:population_stock_name="Joseph Creek Summer Steelhead" t:population_stock_number=6884 m:wild_hatchery=1251 m:goal_wild=1000 m:wild=1251
 
-series e:5anj-6bnk d:1998-01-01T00:00:00.000Z t:population_stock_number=6884 t:population_stock_name="Joseph Creek Summer Steelhead" m:wild=3171 m:wild_hatchery=3171 m:goal_wild=1000
+series e:5anj-6bnk d:1998-01-01T00:00:00.000Z t:population_stock_name="Joseph Creek Summer Steelhead" t:population_stock_number=6884 m:wild_hatchery=3171 m:goal_wild=1000 m:wild=3171
 
-series e:5anj-6bnk d:1999-01-01T00:00:00.000Z t:population_stock_number=6884 t:population_stock_name="Joseph Creek Summer Steelhead" m:wild=2133 m:wild_hatchery=2133 m:goal_wild=1000
+series e:5anj-6bnk d:1999-01-01T00:00:00.000Z t:population_stock_name="Joseph Creek Summer Steelhead" t:population_stock_number=6884 m:wild_hatchery=2133 m:goal_wild=1000 m:wild=2133
 ```
 
 ## Meta Commands
@@ -65,11 +65,11 @@ metric m:goal_wild p:integer l:"Goal (Wild)" t:dataTypeName=number
 
 entity e:5anj-6bnk l:"Joseph Creek Summer Steelhead -- 1112015" t:url=https://data.wa.gov/api/views/5anj-6bnk
 
-property e:5anj-6bnk t:meta.view d:2017-06-09T13:51:05.137Z v:id=5anj-6bnk v:averageRating=0 v:name="Joseph Creek Summer Steelhead -- 1112015"
+property e:5anj-6bnk t:meta.view d:2017-09-25T07:22:28.687Z v:averageRating=0 v:name="Joseph Creek Summer Steelhead -- 1112015" v:id=5anj-6bnk
 
-property e:5anj-6bnk t:meta.view.owner d:2017-06-09T13:51:05.137Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:5anj-6bnk t:meta.view.owner d:2017-09-25T07:22:28.687Z v:displayName="Jennifer Johnson" v:profileImageUrlLarge=/api/users/fuyk-waw8/profile_images/LARGE v:profileImageUrlSmall=/api/users/fuyk-waw8/profile_images/TINY v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:profileImageUrlMedium=/api/users/fuyk-waw8/profile_images/THUMB
 
-property e:5anj-6bnk t:meta.view.tableauthor d:2017-06-09T13:51:05.137Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:5anj-6bnk t:meta.view.tableauthor d:2017-09-25T07:22:28.687Z v:displayName="Jennifer Johnson" v:profileImageUrlLarge=/api/users/fuyk-waw8/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/fuyk-waw8/profile_images/TINY v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:profileImageUrlMedium=/api/users/fuyk-waw8/profile_images/THUMB
 ```
 
 ## Top Records

@@ -63,13 +63,13 @@ metric m:indicatorvalue p:integer l:IndicatorValue t:dataTypeName=number
 
 entity e:n3qj-q4w7 l:"Food Insecurity Rates (2009 - Present)" t:attribution="Feeding America, Map the Meal Gap" t:url=https://data.nola.gov/api/views/n3qj-q4w7
 
-property e:n3qj-q4w7 t:meta.view d:2017-06-09T13:59:23.423Z v:id=n3qj-q4w7 v:category="Health, Education, and Social Services" v:attributionLink=http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx v:averageRating=0 v:name="Food Insecurity Rates (2009 - Present)" v:attribution="Feeding America, Map the Meal Gap"
+property e:n3qj-q4w7 t:meta.view d:2017-09-25T07:30:41.938Z v:averageRating=0 v:name="Food Insecurity Rates (2009 - Present)" v:attribution="Feeding America, Map the Meal Gap" v:attributionLink=http://feedingamerica.org/hunger-in-america/hunger-studies/map-the-meal-gap.aspx v:id=n3qj-q4w7 v:category="Health, Education, and Social Services"
 
-property e:n3qj-q4w7 t:meta.view.owner d:2017-06-09T13:59:23.423Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:n3qj-q4w7 t:meta.view.owner d:2017-09-25T07:30:41.938Z v:displayName=mschigoda v:id=ii98-542e v:screenName=mschigoda
 
-property e:n3qj-q4w7 t:meta.view.tableauthor d:2017-06-09T13:59:23.423Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:n3qj-q4w7 t:meta.view.tableauthor d:2017-09-25T07:30:41.938Z v:displayName=mschigoda v:roleName=publisher v:id=ii98-542e v:screenName=mschigoda
 
-property e:n3qj-q4w7 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:59:23.423Z v:Contact_Email=data@nola.gov
+property e:n3qj-q4w7 t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:41.938Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

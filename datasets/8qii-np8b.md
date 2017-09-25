@@ -49,11 +49,11 @@ Excluded Fields = historystatusdate
 ## Data Commands
 
 ```ls
-series e:8qii-np8b d:2013-12-19T00:00:00.000Z t:status=Issued t:record_type="Residential New" t:permittype="Custom SFD" t:record_type_4level=Building/Residential/New/NA t:historystatus=Issued t:record_id=B13-5120 m:housingunits=1 m:sqrft=2309
+series e:8qii-np8b d:2013-12-19T00:00:00.000Z t:permittype="Custom SFD" t:record_id=B13-5120 t:record_type_4level=Building/Residential/New/NA t:historystatus=Issued t:record_type="Residential New" t:status=Issued m:housingunits=1 m:sqrft=2309
 
-series e:8qii-np8b d:2013-12-19T00:00:00.000Z t:status=Issued t:record_type="Residential New" t:permittype="Second Dwelling Unit" t:record_type_4level=Building/Residential/New/NA t:historystatus=Issued t:record_id=B13-5121 m:housingunits=1 m:sqrft=1463
+series e:8qii-np8b d:2013-12-19T00:00:00.000Z t:permittype="Second Dwelling Unit" t:record_id=B13-5121 t:record_type_4level=Building/Residential/New/NA t:historystatus=Issued t:record_type="Residential New" t:status=Issued m:housingunits=1 m:sqrft=1463
 
-series e:8qii-np8b d:2013-12-24T00:00:00.000Z t:housingimpactreason=SALE t:status=Finaled t:record_type="Residential New" t:permittype="Single Family Dwelling per MP" t:record_type_4level=Building/Residential/New/NA t:historystatus=Issued t:record_id=B13-5189 m:housingunits=1 m:sqrft=1708
+series e:8qii-np8b d:2013-12-24T00:00:00.000Z t:permittype="Single Family Dwelling per MP" t:record_id=B13-5189 t:record_type_4level=Building/Residential/New/NA t:historystatus=Issued t:housingimpactreason=SALE t:record_type="Residential New" t:status=Finaled m:housingunits=1 m:sqrft=1708
 ```
 
 ## Meta Commands
@@ -65,11 +65,11 @@ metric m:sqrft p:integer l:SqrFt t:dataTypeName=number
 
 entity e:8qii-np8b l:PED_NewHousingPermitsIssuedDetail t:url=https://data.srcity.org/api/views/8qii-np8b
 
-property e:8qii-np8b t:meta.view d:2017-06-09T13:53:21.390Z v:id=8qii-np8b v:averageRating=0 v:name=PED_NewHousingPermitsIssuedDetail
+property e:8qii-np8b t:meta.view d:2017-09-25T07:24:39.035Z v:averageRating=0 v:name=PED_NewHousingPermitsIssuedDetail v:id=8qii-np8b
 
-property e:8qii-np8b t:meta.view.owner d:2017-06-09T13:53:21.390Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:displayName="OpenData, RO"
+property e:8qii-np8b t:meta.view.owner d:2017-09-25T07:24:39.035Z v:displayName="OpenData, RO" v:id=v4p4-re39 v:screenName="OpenData, RO"
 
-property e:8qii-np8b t:meta.view.tableauthor d:2017-06-09T13:53:21.390Z v:id=v4p4-re39 v:screenName="OpenData, RO" v:roleName=administrator v:displayName="OpenData, RO"
+property e:8qii-np8b t:meta.view.tableauthor d:2017-09-25T07:24:39.035Z v:displayName="OpenData, RO" v:roleName=administrator v:id=v4p4-re39 v:screenName="OpenData, RO"
 ```
 
 ## Top Records

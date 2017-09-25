@@ -53,11 +53,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state="United States" m:male_2014=9.2 m:female_2014=4.5 m:age_35_54=6.8 m:age_21_34_2014=10.1 m:male=9.4 m:age_0_20_2014=3.7 m:age_55=8.1 m:all_ages_2014=6.8 m:age_35_54_2014=6.6 m:age_21_34=10.8 m:age_55_2014=7.8 m:female=4.7 m:age_0_20=4 m:all_ages=7
+series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state="United States" m:age_55=8.1 m:age_0_20_2014=3.7 m:age_35_54_2014=6.6 m:female_2014=4.5 m:age_21_34=10.8 m:age_55_2014=7.8 m:all_ages_2014=6.8 m:age_0_20=4 m:male_2014=9.2 m:all_ages=7 m:female=4.7 m:age_21_34_2014=10.1 m:age_35_54=6.8 m:male=9.4
 
-series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state=Tennessee m:male_2014=15 m:female_2014=7.4 m:age_35_54=12.3 m:age_21_34_2014=15.6 m:male=16.8 m:age_0_20_2014=5.4 m:age_55=15 m:all_ages_2014=11.1 m:age_35_54_2014=11.5 m:age_21_34=16.4 m:age_55_2014=13 m:female=6.9 m:age_0_20=6.1 m:all_ages=11.7
+series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state=Tennessee m:age_55=15 m:age_0_20_2014=5.4 m:age_35_54_2014=11.5 m:female_2014=7.4 m:age_21_34=16.4 m:age_55_2014=13 m:all_ages_2014=11.1 m:age_0_20=6.1 m:male_2014=15 m:all_ages=11.7 m:female=6.9 m:age_21_34_2014=15.6 m:age_35_54=12.3 m:male=16.8
 
-series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state="South Carolina" m:male_2014=16 m:female_2014=8.1 m:age_35_54=12.7 m:age_21_34_2014=20.9 m:male=17 m:age_0_20_2014=7.6 m:age_55=11.8 m:all_ages_2014=12 m:age_35_54_2014=10.2 m:age_21_34=19.8 m:age_55_2014=11.7 m:female=7.2 m:age_0_20=6.8 m:all_ages=12
+series e:rb93-4tgj d:2012-01-01T00:00:00.000Z t:state="South Carolina" m:age_55=11.8 m:age_0_20_2014=7.6 m:age_35_54_2014=10.2 m:female_2014=8.1 m:age_21_34=19.8 m:age_55_2014=11.7 m:all_ages_2014=12 m:age_0_20=6.8 m:male_2014=16 m:all_ages=12 m:female=7.2 m:age_21_34_2014=20.9 m:age_35_54=12.7 m:male=17
 ```
 
 ## Meta Commands
@@ -93,15 +93,15 @@ metric m:female_2014 p:float l:"Female, 2014" t:dataTypeName=number
 
 entity e:rb93-4tgj l:"Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" t:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" t:url=https://data.cdc.gov/api/views/rb93-4tgj
 
-property e:rb93-4tgj t:meta.view d:2017-06-09T14:00:18.797Z v:id=rb93-4tgj v:category="Motor Vehicle" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:averageRating=0 v:name="Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention"
+property e:rb93-4tgj t:meta.view d:2017-09-25T07:31:36.376Z v:averageRating=0 v:name="Motor Vehicle Occupant Death Rate, by Age and Gender, 2012 & 2014, Region 4 - Atlanta" v:attribution="CDC National Center for Injury Prevention and Control, Division of Unintentional Injury Prevention" v:attributionLink=http://www.cdc.gov/motorvehiclesafety/ v:id=rb93-4tgj v:category="Motor Vehicle"
 
-property e:rb93-4tgj t:meta.view.license d:2017-06-09T14:00:18.797Z v:name="Public Domain"
+property e:rb93-4tgj t:meta.view.license d:2017-09-25T07:31:36.376Z v:name="Public Domain"
 
-property e:rb93-4tgj t:meta.view.owner d:2017-06-09T14:00:18.797Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:displayName=iqw7@cdc.gov
+property e:rb93-4tgj t:meta.view.owner d:2017-09-25T07:31:36.376Z v:displayName=iqw7@cdc.gov v:id=cg4e-25jx v:screenName=iqw7@cdc.gov
 
-property e:rb93-4tgj t:meta.view.tableauthor d:2017-06-09T14:00:18.797Z v:id=cg4e-25jx v:screenName=iqw7@cdc.gov v:roleName=publisher v:displayName=iqw7@cdc.gov
+property e:rb93-4tgj t:meta.view.tableauthor d:2017-09-25T07:31:36.376Z v:displayName=iqw7@cdc.gov v:roleName=publisher v:id=cg4e-25jx v:screenName=iqw7@cdc.gov
 
-property e:rb93-4tgj t:meta.view.metadata.custom_fields.common_core d:2017-06-09T14:00:18.797Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:00 v:Program_Code=009:020
+property e:rb93-4tgj t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:31:36.376Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Bureau_Code=009:00
 ```
 
 ## Top Records

@@ -60,11 +60,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:organization_group="Public Protection" t:fund_type="General Fund" t:fund_code=1GAGF t:program_code=AKB t:department="Adult Probation" t:revenue_or_spending=Revenue t:sub_object="Court Fines" t:object="Court Fines-Non Traffic" t:object_code=252 t:fund_type_code=1G t:character="Fines, Forfeitures & Penalties" t:character_code=250 t:fund_category_code=1 t:program="Community Services" t:fund_category=Operating t:sub_object_code=25210 t:fund="General Fund" t:department_code=ADP t:organization_group_code=01 t:related_gov_t_units=No m:amount=22409.06
+series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:department_code=ADP t:fund_type_code=1G t:character_code=250 t:fund_type="General Fund" t:organization_group="Public Protection" t:fund_category_code=1 t:program="Community Services" t:fund_code=1GAGF t:related_gov_t_units=No t:character="Fines, Forfeitures & Penalties" t:program_code=AKB t:sub_object_code=25210 t:fund="General Fund" t:sub_object="Court Fines" t:revenue_or_spending=Revenue t:organization_group_code=01 t:object_code=252 t:fund_category=Operating t:department="Adult Probation" t:object="Court Fines-Non Traffic" m:amount=22409.06
 
-series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:organization_group="Public Protection" t:fund_type="General Fund" t:fund_code=1GAGF t:program_code=AKB t:department="Adult Probation" t:revenue_or_spending=Revenue t:sub_object="Court Fines Superior" t:object="Court Fines-Non Traffic" t:object_code=252 t:fund_type_code=1G t:character="Fines, Forfeitures & Penalties" t:character_code=250 t:fund_category_code=1 t:program="Community Services" t:fund_category=Operating t:sub_object_code=25220 t:fund="General Fund" t:department_code=ADP t:organization_group_code=01 t:related_gov_t_units=No m:amount=8027.68
+series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:department_code=ADP t:fund_type_code=1G t:character_code=250 t:fund_type="General Fund" t:organization_group="Public Protection" t:fund_category_code=1 t:program="Community Services" t:fund_code=1GAGF t:related_gov_t_units=No t:character="Fines, Forfeitures & Penalties" t:program_code=AKB t:sub_object_code=25220 t:fund="General Fund" t:sub_object="Court Fines Superior" t:revenue_or_spending=Revenue t:organization_group_code=01 t:object_code=252 t:fund_category=Operating t:department="Adult Probation" t:object="Court Fines-Non Traffic" m:amount=8027.68
 
-series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:organization_group="Public Protection" t:fund_type="Special Revenue Funds" t:fund_code=2SPPF t:program_code=AKB t:department="Adult Probation" t:revenue_or_spending=Revenue t:sub_object="Federal Grants Pass-Through State/Other" t:object=Federal-Other t:object_code=449 t:fund_type_code=2S t:character="Intergovernmental Revenues-Federal" t:character_code=400 t:fund_category_code=4 t:program="Community Services" t:fund_category=Grants t:sub_object_code=44931 t:fund="Public Protection Fund" t:department_code=ADP t:organization_group_code=01 t:related_gov_t_units=No m:amount=131977.11
+series e:bpnb-jwfb d:1999-01-01T00:00:00.000Z t:department_code=ADP t:fund_type_code=2S t:character_code=400 t:fund_type="Special Revenue Funds" t:organization_group="Public Protection" t:fund_category_code=4 t:program="Community Services" t:fund_code=2SPPF t:related_gov_t_units=No t:character="Intergovernmental Revenues-Federal" t:program_code=AKB t:sub_object_code=44931 t:fund="Public Protection Fund" t:sub_object="Federal Grants Pass-Through State/Other" t:revenue_or_spending=Revenue t:organization_group_code=01 t:object_code=449 t:fund_category=Grants t:department="Adult Probation" t:object=Federal-Other m:amount=131977.11
 ```
 
 ## Meta Commands
@@ -74,13 +74,13 @@ metric m:amount p:double l:Amount d:"The amount earned (Revenue) or spent (Spend
 
 entity e:bpnb-jwfb l:"Spending And Revenue" t:attribution="SF Controller's Office" t:url=https://data.sfgov.org/api/views/bpnb-jwfb
 
-property e:bpnb-jwfb t:meta.view d:2017-06-09T14:01:03.357Z v:id=bpnb-jwfb v:category="City Management and Ethics" v:attributionLink=http://openbook.sfgov.org v:averageRating=0 v:name="Spending And Revenue" v:attribution="SF Controller's Office"
+property e:bpnb-jwfb t:meta.view d:2017-09-25T07:32:17.763Z v:averageRating=0 v:name="Spending And Revenue" v:attribution="SF Controller's Office" v:attributionLink=http://openbook.sfgov.org v:id=bpnb-jwfb v:category="City Management and Ethics"
 
-property e:bpnb-jwfb t:meta.view.license d:2017-06-09T14:01:03.357Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:bpnb-jwfb t:meta.view.license d:2017-09-25T07:32:17.763Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:bpnb-jwfb t:meta.view.owner d:2017-06-09T14:01:03.357Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:displayName="Jeff Pera"
+property e:bpnb-jwfb t:meta.view.owner d:2017-09-25T07:32:17.763Z v:displayName="Alex Levitsky" v:id=9ufn-6bwh v:screenName="Alex Levitsky"
 
-property e:bpnb-jwfb t:meta.view.tableauthor d:2017-06-09T14:01:03.357Z v:id=9ufn-6bwh v:screenName="Jeff Pera" v:roleName=editor v:displayName="Jeff Pera"
+property e:bpnb-jwfb t:meta.view.tableauthor d:2017-09-25T07:32:17.763Z v:displayName="Alex Levitsky" v:roleName=editor v:id=9ufn-6bwh v:screenName="Alex Levitsky"
 ```
 
 ## Top Records

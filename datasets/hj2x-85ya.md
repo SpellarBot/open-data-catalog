@@ -60,11 +60,11 @@ Excluded Fields = year,quarter
 ## Data Commands
 
 ```ls
-series e:hj2x-85ya d:1996-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
+series e:hj2x-85ya d:1996-10-01T00:00:00.000Z t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:licensure=No t:locationabbr=NV t:locationdesc=Nevada t:advertising=Yes t:topicdesc=Preemption t:smokefree_indoor_air=Yes t:topicid=630 t:youth_access=Yes t:topictypeid=LEG t:topictypedesc=Legislation t:preemption="Preemption for three policies" m:preemptionaltvalue=3
 
-series e:hj2x-85ya d:1997-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
+series e:hj2x-85ya d:1997-10-01T00:00:00.000Z t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:licensure=No t:locationabbr=NV t:locationdesc=Nevada t:advertising=Yes t:topicdesc=Preemption t:smokefree_indoor_air=Yes t:topicid=630 t:youth_access=Yes t:topictypeid=LEG t:topictypedesc=Legislation t:preemption="Preemption for three policies" m:preemptionaltvalue=3
 
-series e:hj2x-85ya d:1998-10-01T00:00:00.000Z t:locationabbr=NV t:locationdesc=Nevada t:topicid=630 t:topictypedesc=Legislation t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:advertising=Yes t:topicdesc=Preemption t:youth_access=Yes t:smokefree_indoor_air=Yes t:licensure=No t:preemption="Preemption for three policies" t:topictypeid=LEG m:preemptionaltvalue=3
+series e:hj2x-85ya d:1998-10-01T00:00:00.000Z t:measureid=667COMB t:measuredesc="Smokefree Indoor Air, Youth Access, Advertising, Licensure – OSH" t:licensure=No t:locationabbr=NV t:locationdesc=Nevada t:advertising=Yes t:topicdesc=Preemption t:smokefree_indoor_air=Yes t:topicid=630 t:youth_access=Yes t:topictypeid=LEG t:topictypedesc=Legislation t:preemption="Preemption for three policies" m:preemptionaltvalue=3
 ```
 
 ## Meta Commands
@@ -74,15 +74,15 @@ metric m:preemptionaltvalue p:integer l:PreemptionAltValue d:"Alternate numeric 
 
 entity e:hj2x-85ya l:"CDC STATE System Tobacco Legislation - Preemption Summary" t:attribution="Office of Smoking and Health (OSH)" t:url=https://data.cdc.gov/api/views/hj2x-85ya
 
-property e:hj2x-85ya t:meta.view d:2017-06-09T13:53:35.686Z v:id=hj2x-85ya v:category=Legislation v:attributionLink=http://www.cdc.gov/tobacco/statesystem v:averageRating=0 v:name="CDC STATE System Tobacco Legislation - Preemption Summary" v:attribution="Office of Smoking and Health (OSH)"
+property e:hj2x-85ya t:meta.view d:2017-09-25T07:24:58.867Z v:averageRating=0 v:name="CDC STATE System Tobacco Legislation - Preemption Summary" v:attribution="Office of Smoking and Health (OSH)" v:attributionLink=http://www.cdc.gov/tobacco/statesystem v:id=hj2x-85ya v:category=Legislation
 
-property e:hj2x-85ya t:meta.view.license d:2017-06-09T13:53:35.686Z v:name="Public Domain"
+property e:hj2x-85ya t:meta.view.license d:2017-09-25T07:24:58.867Z v:name="Public Domain"
 
-property e:hj2x-85ya t:meta.view.owner d:2017-06-09T13:53:35.686Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
+property e:hj2x-85ya t:meta.view.owner d:2017-09-25T07:24:58.867Z v:displayName=OSHData v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:id=p5wh-zttj v:screenName=OSHData v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB
 
-property e:hj2x-85ya t:meta.view.tableauthor d:2017-06-09T13:53:35.686Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:hj2x-85ya t:meta.view.tableauthor d:2017-09-25T07:24:58.867Z v:displayName=OSHData v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:id=p5wh-zttj v:screenName=OSHData v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB
 
-property e:hj2x-85ya t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:35.686Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:029
+property e:hj2x-85ya t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:24:58.867Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

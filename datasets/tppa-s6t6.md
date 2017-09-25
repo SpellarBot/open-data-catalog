@@ -52,11 +52,11 @@ Excluded Fields = year,quarter
 ## Data Commands
 
 ```ls
-series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z t:subject_detail="CSR - Ambassador" t:commendation_or_complaint=Commendation t:branch_line_route="No Value" t:subject_matter=Employees t:agency="Long Island Rail Road" t:issue_detail="Very Helpful/Friendly" m:row_number.tppa-s6t6=1
+series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z t:branch_line_route="No Value" t:commendation_or_complaint=Commendation t:agency="Long Island Rail Road" t:subject_matter=Employees t:issue_detail="Very Helpful/Friendly" t:subject_detail="CSR - Ambassador" m:row_number.tppa-s6t6=1
 
-series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z t:subject_detail="CSR - Ambassador" t:commendation_or_complaint=Commendation t:branch_line_route="Port Jefferson" t:subject_matter=Employees t:agency="Long Island Rail Road" t:issue_detail="Very Helpful/Friendly" m:row_number.tppa-s6t6=2
+series e:tppa-s6t6 d:2015-04-01T00:00:00.000Z t:branch_line_route="Port Jefferson" t:commendation_or_complaint=Commendation t:agency="Long Island Rail Road" t:subject_matter=Employees t:issue_detail="Very Helpful/Friendly" t:subject_detail="CSR - Ambassador" m:row_number.tppa-s6t6=2
 
-series e:tppa-s6t6 d:2015-01-01T00:00:00.000Z t:subject_detail="CSR - Customer Service Office" t:commendation_or_complaint=Commendation t:branch_line_route="No Value" t:subject_matter=Employees t:agency="Long Island Rail Road" m:row_number.tppa-s6t6=3
+series e:tppa-s6t6 d:2015-01-01T00:00:00.000Z t:branch_line_route="No Value" t:commendation_or_complaint=Commendation t:agency="Long Island Rail Road" t:subject_matter=Employees t:subject_detail="CSR - Customer Service Office" m:row_number.tppa-s6t6=3
 ```
 
 ## Meta Commands
@@ -66,13 +66,13 @@ metric m:row_number.tppa-s6t6 p:long l:"Row Number"
 
 entity e:tppa-s6t6 l:"MTA Customer Feedback Data: Beginning 2014" t:attribution="Metropolitan Transportation Authority (MTA)" t:url=https://data.ny.gov/api/views/tppa-s6t6
 
-property e:tppa-s6t6 t:meta.view d:2017-06-09T13:51:45.272Z v:id=tppa-s6t6 v:category=Transportation v:averageRating=0 v:name="MTA Customer Feedback Data: Beginning 2014" v:attribution="Metropolitan Transportation Authority (MTA)"
+property e:tppa-s6t6 t:meta.view d:2017-09-25T07:23:05.393Z v:averageRating=0 v:name="MTA Customer Feedback Data: Beginning 2014" v:attribution="Metropolitan Transportation Authority (MTA)" v:id=tppa-s6t6 v:category=Transportation
 
-property e:tppa-s6t6 t:meta.view.owner d:2017-06-09T13:51:45.272Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:tppa-s6t6 t:meta.view.owner d:2017-09-25T07:23:05.393Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:tppa-s6t6 t:meta.view.tableauthor d:2017-06-09T13:51:45.272Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:tppa-s6t6 t:meta.view.tableauthor d:2017-09-25T07:23:05.393Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:tppa-s6t6 t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:45.272Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:tppa-s6t6 t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:23:05.393Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

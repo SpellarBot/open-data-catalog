@@ -58,11 +58,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:category=ELL t:grade=3 t:borough=BRONX m:level_3_4_2=49 m:level_4_1=202 m:level_2_2=27.6 m:mean_scale_score=645 m:level_4_2=5.4 m:level_2_1=1037 m:level_1_2=23.3 m:level_1_1=876 m:number_tested=3754 m:level_3_4_1=1841 m:level_3_2=43.7 m:level_3_1=1639
+series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:grade=3 t:borough=BRONX t:category=ELL m:level_4_2=5.4 m:mean_scale_score=645 m:level_3_4_1=1841 m:level_1_1=876 m:level_1_2=23.3 m:level_2_1=1037 m:level_2_2=27.6 m:level_3_1=1639 m:level_3_2=43.7 m:level_4_1=202 m:level_3_4_2=49 m:number_tested=3754
 
-series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:category=EP t:grade=3 t:borough=BRONX m:level_3_4_2=73.2 m:level_4_1=2306 m:level_2_2=17.5 m:mean_scale_score=669 m:level_4_2=18.2 m:level_2_1=2220 m:level_1_2=9.3 m:level_1_1=1186 m:number_tested=12691 m:level_3_4_1=9285 m:level_3_2=55 m:level_3_1=6979
+series e:zpd4-gad8 d:2006-01-01T00:00:00.000Z t:grade=3 t:borough=BRONX t:category=EP m:level_4_2=18.2 m:mean_scale_score=669 m:level_3_4_1=9285 m:level_1_1=1186 m:level_1_2=9.3 m:level_2_1=2220 m:level_2_2=17.5 m:level_3_1=6979 m:level_3_2=55 m:level_4_1=2306 m:level_3_4_2=73.2 m:number_tested=12691
 
-series e:zpd4-gad8 d:2007-01-01T00:00:00.000Z t:category=ELL t:grade=3 t:borough=BRONX m:level_3_4_2=62.5 m:level_4_1=376 m:level_2_2=24.4 m:mean_scale_score=659 m:level_4_2=10.1 m:level_2_1=908 m:level_1_2=13.1 m:level_1_1=489 m:number_tested=3726 m:level_3_4_1=2329 m:level_3_2=52.4 m:level_3_1=1953
+series e:zpd4-gad8 d:2007-01-01T00:00:00.000Z t:grade=3 t:borough=BRONX t:category=ELL m:level_4_2=10.1 m:mean_scale_score=659 m:level_3_4_1=2329 m:level_1_1=489 m:level_1_2=13.1 m:level_2_1=908 m:level_2_2=24.4 m:level_3_1=1953 m:level_3_2=52.4 m:level_4_1=376 m:level_3_4_2=62.5 m:number_tested=3726
 ```
 
 ## Meta Commands
@@ -94,11 +94,11 @@ metric m:level_3_4_2 p:float l:"Level 3+4 %" t:dataTypeName=percent
 
 entity e:zpd4-gad8 l:"NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/zpd4-gad8
 
-property e:zpd4-gad8 t:meta.view d:2017-06-09T13:51:53.017Z v:id=zpd4-gad8 v:category=Education v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" v:attribution="Department of Education (DOE)"
+property e:zpd4-gad8 t:meta.view d:2017-09-25T07:23:11.857Z v:averageRating=0 v:name="NYS Math Test Results By Grade 2006-2011 - Boro - By English Proficiency Status" v:attribution="Department of Education (DOE)" v:id=zpd4-gad8 v:category=Education
 
-property e:zpd4-gad8 t:meta.view.owner d:2017-06-09T13:51:53.017Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:zpd4-gad8 t:meta.view.owner d:2017-09-25T07:23:11.857Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:zpd4-gad8 t:meta.view.tableauthor d:2017-06-09T13:51:53.017Z v:id=rnig-m3uj v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:screenName="Jorge J." v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:displayName="Jorge J."
+property e:zpd4-gad8 t:meta.view.tableauthor d:2017-09-25T07:23:11.857Z v:displayName="Jorge J." v:profileImageUrlLarge=/api/users/rnig-m3uj/profile_images/LARGE v:profileImageUrlSmall=/api/users/rnig-m3uj/profile_images/TINY v:id=rnig-m3uj v:screenName="Jorge J." v:profileImageUrlMedium=/api/users/rnig-m3uj/profile_images/THUMB
 ```
 
 ## Top Records

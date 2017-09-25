@@ -55,11 +55,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:school="P.S. 015 Roberto Clemente" t:2010_2011_overall_grade=C t:principal="Irene Sanchez" t:dbn=01M015 t:progress_report_type=EMS t:2010_2011_performance_grade=D t:2010_2011_progress_grade=C t:district=1 t:2009_10_progress_report_grade=C t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=27 m:2010_2011_performance_category_score=2.1 m:2010_2011_additional_credit=0.5 m:2010_2011_environment_category_score=6.4 m:peer_index=63.61 m:2010_2011_progress_category_score=18
+series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:principal="Irene Sanchez" t:dbn=01M015 t:2010_2011_performance_grade=D t:2009_10_progress_report_grade=C t:school="P.S. 015 Roberto Clemente" t:district=1 t:progress_report_type=EMS t:school_level=Elementary t:2010_2011_progress_grade=C t:2010_2011_overall_grade=C t:2010_2011_environment_grade=B m:peer_index=63.61 m:2010_2011_environment_category_score=6.4 m:2010_2011_performance_category_score=2.1 m:2010_2011_additional_credit=0.5 m:2010_2011_overall_score=27 m:2010_2011_progress_category_score=18
 
-series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:school="P.S. 019 Asher Levy" t:2010_2011_overall_grade=B t:principal="Jacqueline Flanagan" t:dbn=01M019 t:progress_report_type=EMS t:2010_2011_performance_grade=D t:2010_2011_progress_grade=A t:district=1 t:2009_10_progress_report_grade=C t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=48.7 m:2010_2011_performance_category_score=5.2 m:2010_2011_additional_credit=0.5 m:2010_2011_environment_category_score=7.8 m:peer_index=49.48 m:2010_2011_progress_category_score=35.1
+series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:principal="Jacqueline Flanagan" t:dbn=01M019 t:2010_2011_performance_grade=D t:2009_10_progress_report_grade=C t:school="P.S. 019 Asher Levy" t:district=1 t:progress_report_type=EMS t:school_level=Elementary t:2010_2011_progress_grade=A t:2010_2011_overall_grade=B t:2010_2011_environment_grade=B m:peer_index=49.48 m:2010_2011_environment_category_score=7.8 m:2010_2011_performance_category_score=5.2 m:2010_2011_additional_credit=0.5 m:2010_2011_overall_score=48.7 m:2010_2011_progress_category_score=35.1
 
-series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:school="P.S. 020 Anna Silver" t:2010_2011_overall_grade=B t:principal="James Lee" t:dbn=01M020 t:progress_report_type=EMS t:2010_2011_performance_grade=C t:2010_2011_progress_grade=B t:district=1 t:2009_10_progress_report_grade=A t:2010_2011_environment_grade=B t:school_level=Elementary m:2010_2011_overall_score=48.2 m:2010_2011_performance_category_score=7.4 m:2010_2011_additional_credit=2 m:2010_2011_environment_category_score=7.7 m:peer_index=56.65 m:2010_2011_progress_category_score=31.1
+series e:upwt-zvh3 d:2010-01-01T00:00:00.000Z t:principal="James Lee" t:dbn=01M020 t:2010_2011_performance_grade=C t:2009_10_progress_report_grade=A t:school="P.S. 020 Anna Silver" t:district=1 t:progress_report_type=EMS t:school_level=Elementary t:2010_2011_progress_grade=B t:2010_2011_overall_grade=B t:2010_2011_environment_grade=B m:peer_index=56.65 m:2010_2011_environment_category_score=7.7 m:2010_2011_performance_category_score=7.4 m:2010_2011_additional_credit=2 m:2010_2011_overall_score=48.2 m:2010_2011_progress_category_score=31.1
 ```
 
 ## Meta Commands
@@ -79,11 +79,11 @@ metric m:2010_2011_additional_credit p:float l:"2010-2011 ADDITIONAL CREDIT" t:d
 
 entity e:upwt-zvh3 l:"School Progress Report 2010-2011" t:attribution="Department of Education (DOE)" t:url=https://data.cityofnewyork.us/api/views/upwt-zvh3
 
-property e:upwt-zvh3 t:meta.view d:2017-06-09T13:53:07.640Z v:id=upwt-zvh3 v:category=Education v:attributionLink=http://schools.nyc.gov/Accountability/tools/report/default.htm v:averageRating=0 v:name="School Progress Report 2010-2011" v:attribution="Department of Education (DOE)"
+property e:upwt-zvh3 t:meta.view d:2017-09-25T07:24:27.245Z v:averageRating=0 v:name="School Progress Report 2010-2011" v:attribution="Department of Education (DOE)" v:attributionLink=http://schools.nyc.gov/Accountability/tools/report/default.htm v:id=upwt-zvh3 v:category=Education
 
-property e:upwt-zvh3 t:meta.view.owner d:2017-06-09T13:53:07.640Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:upwt-zvh3 t:meta.view.owner d:2017-09-25T07:24:27.245Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:upwt-zvh3 t:meta.view.tableauthor d:2017-06-09T13:53:07.640Z v:id=ya7g-926w v:screenName="Aakash Dalwani" v:displayName="Aakash Dalwani"
+property e:upwt-zvh3 t:meta.view.tableauthor d:2017-09-25T07:24:27.245Z v:displayName="Aakash Dalwani" v:id=ya7g-926w v:screenName="Aakash Dalwani"
 ```
 
 ## Top Records

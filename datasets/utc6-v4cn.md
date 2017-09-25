@@ -15,7 +15,7 @@
 | Category | Transparency |
 | Tags | ldc |
 | Created | 2015-02-23T19:35:45Z |
-| Publication Date | 2016-11-04T14:31:39Z |
+| Publication Date | 2017-09-15T22:04:59Z |
 
 ## Description
 
@@ -47,11 +47,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:utc6-v4cn d:2011-12-31T00:00:00.000Z t:authority_name="ATC of Buffalo and Erie County, Inc." t:type_of_debt="Authority Debt - Other" t:debt_program="Other Non-State Funded" m:end_amount_total=0 m:begin_amount_total=4588557 m:amount_retired=4588557 m:new_debt_issuance=0
+series e:utc6-v4cn d:2011-12-31T00:00:00.000Z t:type_of_debt="Authority Debt - Other" t:debt_program="Other Non-State Funded" t:authority_name="ATC of Buffalo and Erie County, Inc." m:amount_retired=4588557 m:end_amount_total=0 m:begin_amount_total=4588557 m:new_debt_issuance=0
 
-series e:utc6-v4cn d:2014-12-31T00:00:00.000Z t:authority_name="Albany County Capital Resource Corporation" t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" m:end_amount_total=87953506 m:begin_amount_total=0 m:amount_retired=46494 m:new_debt_issuance=88000000
+series e:utc6-v4cn d:2015-12-31T00:00:00.000Z t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" t:authority_name="Albany County Capital Resource Corporation" m:amount_retired=0 m:end_amount_total=178592467 m:begin_amount_total=87953506 m:new_debt_issuance=90638961
 
-series e:utc6-v4cn d:2015-12-31T00:00:00.000Z t:authority_name="Albany County Capital Resource Corporation" t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" m:end_amount_total=178592467 m:begin_amount_total=87953506 m:amount_retired=0 m:new_debt_issuance=90638961
+series e:utc6-v4cn d:2016-12-31T00:00:00.000Z t:type_of_debt="Conduit Debt" t:debt_program="Conduit Debt" t:authority_name="Albany County Capital Resource Corporation" m:amount_retired=0 m:end_amount_total=183510011.45 m:begin_amount_total=178592467 m:new_debt_issuance=4917544.45
 ```
 
 ## Meta Commands
@@ -67,13 +67,13 @@ metric m:end_amount_total p:double l:"End Amount Total" d:"Amount of debt outsta
 
 entity e:utc6-v4cn l:"Schedule of Debt for Local Development Corporations" t:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office" t:url=https://data.ny.gov/api/views/utc6-v4cn
 
-property e:utc6-v4cn t:meta.view d:2017-06-09T13:55:09.520Z v:id=utc6-v4cn v:category=Transparency v:attributionLink=http://www.abo.ny.gov/ v:averageRating=0 v:name="Schedule of Debt for Local Development Corporations" v:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office"
+property e:utc6-v4cn t:meta.view d:2017-09-25T07:26:35.174Z v:averageRating=0 v:name="Schedule of Debt for Local Development Corporations" v:attribution="Individual Local Development Corporations submitted to the Authorities Budget Office" v:attributionLink=http://www.abo.ny.gov/ v:id=utc6-v4cn v:category=Transparency
 
-property e:utc6-v4cn t:meta.view.owner d:2017-06-09T13:55:09.520Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:utc6-v4cn t:meta.view.owner d:2017-09-25T07:26:35.174Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:utc6-v4cn t:meta.view.tableauthor d:2017-06-09T13:55:09.520Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:utc6-v4cn t:meta.view.tableauthor d:2017-09-25T07:26:35.174Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:utc6-v4cn t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:55:09.520Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:utc6-v4cn t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:26:35.174Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records
@@ -82,13 +82,13 @@ property e:utc6-v4cn t:meta.view.metadata.custom_fields.common_core d:2017-06-09
 | authority_name                                 | fiscal_year_end_date | has_outstanding_debt | type_of_debt           | debt_program           | begin_amount_total | new_debt_issuance | amount_retired | end_amount_total | 
 | ============================================== | ==================== | ==================== | ====================== | ====================== | ================== | ================= | ============== | ================ | 
 | ATC of Buffalo and Erie County, Inc.           | 2011-12-31T00:00:00  |                      | Authority Debt - Other | Other Non-State Funded | 4588557.00         | 0.00              | 4588557.00     | 0.00             | 
+| Albany CSO Pool Communities Corporation        | 2016-09-30T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
+| Albany County Business Development Corporation | 2016-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
 | Albany County Business Development Corporation | 2011-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
 | Albany County Business Development Corporation | 2012-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
-| Albany County Business Development Corporation | 2013-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
-| Albany County Business Development Corporation | 2015-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
 | Albany County Business Development Corporation | 2014-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
-| Albany County Capital Resource Corporation     | 2014-12-31T00:00:00  |                      | Conduit Debt           | Conduit Debt           | 0.00               | 88000000.00       | 46494.00       | 87953506.00      | 
+| Albany County Business Development Corporation | 2015-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
+| Albany County Business Development Corporation | 2013-12-31T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
 | Albany County Capital Resource Corporation     | 2015-12-31T00:00:00  |                      | Conduit Debt           | Conduit Debt           | 87953506.00        | 90638961.00       | 0.00           | 178592467.00     | 
-| Albany County Land Bank Corporation            | 2015-06-30T00:00:00  | N                    |                        |                        |                    |                   |                |                  | 
-| Allegany County Capital Resource Corporation   | 2013-12-31T00:00:00  |                      | Authority Debt - Other | Other Non-State Funded | 0.00               | 18644.00          | 0.00           | 18644.00         | 
+| Albany County Capital Resource Corporation     | 2016-12-31T00:00:00  |                      | Conduit Debt           | Conduit Debt           | 178592467.00       | 4917544.45        | 0.00           | 183510011.45     | 
 ```

@@ -144,7 +144,7 @@ Name | Category | Published
 [LCB Liquor Renewal](../datasets/9dee-kzm5.md) | Public Safety | 2015&#x2011;06&#x2011;17
 [LCB Local Authority Letters](../datasets/vgcw-qfjm.md) | Public Safety | 2015&#x2011;07&#x2011;01
 [LCB Marijuana Renewal](../datasets/brpd-b6zd.md) | Public Safety | 2015&#x2011;05&#x2011;15
-[Lobbyist Compensation and Expenses by Source](../datasets/9nnw-c693.md) | Politics | 2017&#x2011;02&#x2011;10
+[Lobbyist Compensation and Expenses by Source](../datasets/9nnw-c693.md) | Politics | 2017&#x2011;09&#x2011;22
 [Lobbyist Employment Registrations](../datasets/xhn7-64im.md) |  | 2017&#x2011;02&#x2011;10
 [Local Area Unemployment Statistics](../datasets/ak95-mjh9.md) | Economics | 2014&#x2011;02&#x2011;06
 [Lower Columbia Complete](../datasets/25xk-8tku.md) |  | 2015&#x2011;02&#x2011;13

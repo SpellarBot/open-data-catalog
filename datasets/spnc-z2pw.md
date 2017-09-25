@@ -50,11 +50,11 @@ metric m:not_meeting p:integer l:"Not Meeting" t:dataTypeName=number
 
 entity e:spnc-z2pw l:"Statewide -- Hatchery Standards 2016 SOS 10172016" t:url=https://data.wa.gov/api/views/spnc-z2pw
 
-property e:spnc-z2pw t:meta.view d:2017-06-09T13:58:40.532Z v:id=spnc-z2pw v:averageRating=0 v:name="Statewide -- Hatchery Standards 2016 SOS 10172016"
+property e:spnc-z2pw t:meta.view d:2017-09-25T07:29:59.177Z v:averageRating=0 v:name="Statewide -- Hatchery Standards 2016 SOS 10172016" v:id=spnc-z2pw
 
-property e:spnc-z2pw t:meta.view.owner d:2017-06-09T13:58:40.532Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:displayName="Jennifer Johnson"
+property e:spnc-z2pw t:meta.view.owner d:2017-09-25T07:29:59.177Z v:displayName="Jennifer Johnson" v:profileImageUrlLarge=/api/users/fuyk-waw8/profile_images/LARGE v:profileImageUrlSmall=/api/users/fuyk-waw8/profile_images/TINY v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:profileImageUrlMedium=/api/users/fuyk-waw8/profile_images/THUMB
 
-property e:spnc-z2pw t:meta.view.tableauthor d:2017-06-09T13:58:40.532Z v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:roleName=publisher v:displayName="Jennifer Johnson"
+property e:spnc-z2pw t:meta.view.tableauthor d:2017-09-25T07:29:59.177Z v:displayName="Jennifer Johnson" v:profileImageUrlLarge=/api/users/fuyk-waw8/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/fuyk-waw8/profile_images/TINY v:id=fuyk-waw8 v:screenName="Jennifer Johnson" v:profileImageUrlMedium=/api/users/fuyk-waw8/profile_images/THUMB
 ```
 
 ## Top Records

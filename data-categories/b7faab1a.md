@@ -95,7 +95,7 @@ Name | Host | Published
 [Contracts: Treasury: As of June 30, 2010](../datasets/pxm3-5ksy.md) | data.oregon.gov | 2011&#x2011;04&#x2011;17
 [Contracts: Treasury: Fiscal Year 2011](../datasets/6h93-vmtc.md) | data.oregon.gov | 2011&#x2011;12&#x2011;18
 [Contracts: Treasury: Fiscal Year 2012](../datasets/vpzu-i3hc.md) | data.oregon.gov | 2012&#x2011;12&#x2011;18
-[County Lottery Fund Expenditures: 2015-2016 Composite](../datasets/c8sw-khn9.md) | data.oregon.gov | 2016&#x2011;11&#x2011;20
+[County Lottery Fund Expenditures: 2015-2016 Composite](../datasets/c8sw-khn9.md) | data.oregon.gov | 2017&#x2011;07&#x2011;11
 [ESD Contracts 2016 - Composite Dataset - V1](../datasets/3aeb-4e3m.md) | data.oregon.gov | 2017&#x2011;01&#x2011;02
 [ESD Expenditures 2016 - Composite Dataset - V1](../datasets/2t2b-sfjh.md) | data.oregon.gov | 2017&#x2011;01&#x2011;08
 [ESD REVENUE BY FUND AND SOURCE: 2009, 2010](../datasets/wspt-s43w.md) | data.oregon.gov | 2011&#x2011;12&#x2011;27

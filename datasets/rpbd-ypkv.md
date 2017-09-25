@@ -36,11 +36,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:rpbd-ypkv d:2010-01-01T00:00:00.000Z m:helco=383622 m:kiuc=39750 m:meco=182560 m:heco=344809
+series e:rpbd-ypkv d:2010-01-01T00:00:00.000Z m:helco=383622 m:meco=182560 m:heco=344809 m:kiuc=39750
 
-series e:rpbd-ypkv d:2011-01-01T00:00:00.000Z m:helco=453349 m:kiuc=45562 m:meco=202270 m:heco=484826
+series e:rpbd-ypkv d:2011-01-01T00:00:00.000Z m:helco=453349 m:meco=202270 m:heco=484826 m:kiuc=45562
 
-series e:rpbd-ypkv d:2012-01-01T00:00:00.000Z m:helco=507062 m:kiuc=47719 m:meco=238319 m:heco=530853
+series e:rpbd-ypkv d:2012-01-01T00:00:00.000Z m:helco=507062 m:meco=238319 m:heco=530853 m:kiuc=47719
 ```
 
 ## Meta Commands
@@ -56,11 +56,11 @@ metric m:kiuc p:integer l:KIUC/Kauai t:dataTypeName=number
 
 entity e:rpbd-ypkv l:"Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)" t:url=https://data.hawaii.gov/api/views/rpbd-ypkv
 
-property e:rpbd-ypkv t:meta.view d:2017-06-09T13:51:26.735Z v:id=rpbd-ypkv v:averageRating=0 v:name="Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)"
+property e:rpbd-ypkv t:meta.view d:2017-09-25T07:22:46.443Z v:averageRating=0 v:name="Hawaii Renewable Energy Generation by Utility/County (Source: Hawaii Public Utilities Commission)" v:id=rpbd-ypkv
 
-property e:rpbd-ypkv t:meta.view.owner d:2017-06-09T13:51:26.735Z v:id=vf6n-ptiq v:screenName=Kathy v:displayName=Kathy
+property e:rpbd-ypkv t:meta.view.owner d:2017-09-25T07:22:46.443Z v:displayName=Kathy v:id=vf6n-ptiq v:screenName=Kathy
 
-property e:rpbd-ypkv t:meta.view.tableauthor d:2017-06-09T13:51:26.735Z v:id=vf6n-ptiq v:screenName=Kathy v:roleName=publisher v:displayName=Kathy
+property e:rpbd-ypkv t:meta.view.tableauthor d:2017-09-25T07:22:46.443Z v:displayName=Kathy v:roleName=publisher v:id=vf6n-ptiq v:screenName=Kathy
 ```
 
 ## Top Records

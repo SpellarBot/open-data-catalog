@@ -77,11 +77,11 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:baltimore_city=19.07 m:calvert_county=407.78 m:st_mary_s_county=1049.88 m:wicomico_county=510.55 m:prince_george_s_county=1422.29 m:washington_county=858.65 m:carroll_county=695.71 m:montgomery_county=651.93 m:garrett_county=618.74 m:talbot_county=316.67 m:kent_county=124.26 m:queen_anne_s_county=277.23 m:baltimore_county=1033.65 m:cecil_county=403.18 m:caroline_county=264.3 m:harford_county=1097.07 m:frederick_county=908.61 m:charles_county=1059.03 m:somerset_county=334.12 m:maryland=14362.14 m:howard_county=522.06 m:anne_arundel_county=736.82 m:worcester_county=487.65 m:allegany_county=275.27 m:dorchester_county=287.62
+series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:howard_county=522.06 m:maryland=14362.14 m:frederick_county=908.61 m:talbot_county=316.67 m:cecil_county=403.18 m:montgomery_county=651.93 m:wicomico_county=510.55 m:charles_county=1059.03 m:baltimore_city=19.07 m:harford_county=1097.07 m:dorchester_county=287.62 m:worcester_county=487.65 m:anne_arundel_county=736.82 m:somerset_county=334.12 m:baltimore_county=1033.65 m:allegany_county=275.27 m:caroline_county=264.3 m:garrett_county=618.74 m:prince_george_s_county=1422.29 m:kent_county=124.26 m:st_mary_s_county=1049.88 m:queen_anne_s_county=277.23 m:washington_county=858.65 m:calvert_county=407.78 m:carroll_county=695.71
 
-series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:baltimore_city=16.56 m:calvert_county=349.13 m:st_mary_s_county=774.6 m:wicomico_county=305.29 m:prince_george_s_county=1181.67 m:washington_county=414.39 m:carroll_county=470.43 m:montgomery_county=529.09 m:garrett_county=449.41 m:talbot_county=216.65 m:kent_county=147.8 m:queen_anne_s_county=265.43 m:baltimore_county=835.65 m:cecil_county=316.56 m:caroline_county=226.71 m:harford_county=710.05 m:frederick_county=611.59 m:charles_county=553.22 m:somerset_county=250.66 m:maryland=10556.72 m:howard_county=355.05 m:anne_arundel_county=620.17 m:worcester_county=329.21 m:allegany_county=335.66 m:dorchester_county=291.76
+series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:howard_county=355.05 m:maryland=10556.72 m:frederick_county=611.59 m:talbot_county=216.65 m:cecil_county=316.56 m:montgomery_county=529.09 m:wicomico_county=305.29 m:charles_county=553.22 m:baltimore_city=16.56 m:harford_county=710.05 m:dorchester_county=291.76 m:worcester_county=329.21 m:anne_arundel_county=620.17 m:somerset_county=250.66 m:baltimore_county=835.65 m:allegany_county=335.66 m:caroline_county=226.71 m:garrett_county=449.41 m:prince_george_s_county=1181.67 m:kent_county=147.8 m:st_mary_s_county=774.6 m:queen_anne_s_county=265.43 m:washington_county=414.39 m:calvert_county=349.13 m:carroll_county=470.43
 
-series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:baltimore_city=16.5 m:calvert_county=211.4 m:st_mary_s_county=679.62 m:wicomico_county=225.63 m:prince_george_s_county=655.07 m:washington_county=312.62 m:carroll_county=264.32 m:montgomery_county=430.26 m:garrett_county=392.55 m:talbot_county=186.63 m:kent_county=64.8 m:queen_anne_s_county=206.53 m:baltimore_county=501.17 m:cecil_county=217.91 m:caroline_county=147.43 m:harford_county=424.21 m:frederick_county=421.74 m:charles_county=453.76 m:somerset_county=186.24 m:maryland=7595.09 m:howard_county=387.42 m:anne_arundel_county=637 m:worcester_county=183.46 m:allegany_county=198.19 m:dorchester_county=190.65
+series e:p4s2-mc7r d:2017-05-15T00:00:00.000Z m:howard_county=387.42 m:maryland=7595.09 m:frederick_county=421.74 m:talbot_county=186.63 m:cecil_county=217.91 m:montgomery_county=430.26 m:wicomico_county=225.63 m:charles_county=453.76 m:baltimore_city=16.5 m:harford_county=424.21 m:dorchester_county=190.65 m:worcester_county=183.46 m:anne_arundel_county=637 m:somerset_county=186.24 m:baltimore_county=501.17 m:allegany_county=198.19 m:caroline_county=147.43 m:garrett_county=392.55 m:prince_george_s_county=655.07 m:kent_county=64.8 m:st_mary_s_county=679.62 m:queen_anne_s_county=206.53 m:washington_county=312.62 m:calvert_county=211.4 m:carroll_county=264.32
 ```
 
 ## Meta Commands
@@ -139,13 +139,13 @@ metric m:worcester_county p:float l:"Worcester County" t:dataTypeName=number
 
 entity e:p4s2-mc7r l:"Maryland Total Acres For Residential Development: 2006-2015" t:attribution="Maryland Department of Planning" t:url=https://data.maryland.gov/api/views/p4s2-mc7r
 
-property e:p4s2-mc7r t:meta.view d:2017-06-09T13:55:57.868Z v:id=p4s2-mc7r v:category=Housing v:averageRating=0 v:name="Maryland Total Acres For Residential Development: 2006-2015" v:attribution="Maryland Department of Planning"
+property e:p4s2-mc7r t:meta.view d:2017-09-25T07:27:21.991Z v:averageRating=0 v:name="Maryland Total Acres For Residential Development: 2006-2015" v:attribution="Maryland Department of Planning" v:id=p4s2-mc7r v:category=Housing
 
-property e:p4s2-mc7r t:meta.view.license d:2017-06-09T13:55:57.868Z v:name="Public Domain"
+property e:p4s2-mc7r t:meta.view.license d:2017-09-25T07:27:21.991Z v:name="Public Domain"
 
-property e:p4s2-mc7r t:meta.view.owner d:2017-06-09T13:55:57.868Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:lastNotificationSeenAt=1495028713 v:displayName=MDP
+property e:p4s2-mc7r t:meta.view.owner d:2017-09-25T07:27:21.991Z v:displayName=MDP v:lastNotificationSeenAt=1495028713 v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:id=85mq-rt9c v:screenName=MDP v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB
 
-property e:p4s2-mc7r t:meta.view.tableauthor d:2017-06-09T13:55:57.868Z v:id=85mq-rt9c v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:screenName=MDP v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:roleName=editor v:lastNotificationSeenAt=1495028713 v:displayName=MDP
+property e:p4s2-mc7r t:meta.view.tableauthor d:2017-09-25T07:27:21.991Z v:displayName=MDP v:lastNotificationSeenAt=1495028713 v:profileImageUrlLarge=/api/users/85mq-rt9c/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/85mq-rt9c/profile_images/TINY v:id=85mq-rt9c v:screenName=MDP v:profileImageUrlMedium=/api/users/85mq-rt9c/profile_images/THUMB
 ```
 
 ## Top Records

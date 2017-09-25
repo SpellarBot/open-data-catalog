@@ -46,11 +46,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Andover t:service_district_code=0 t:code=1 m:fy_2017_mill_rate=30.72
+series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:code=1 t:municipality=Andover t:service_district_code=0 m:fy_2017_mill_rate=30.72
 
-series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Ansonia t:service_district_code=0 t:code=2 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=37 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=37.32
+series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:code=2 t:municipality=Ansonia t:service_district_code=0 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=37.32 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=37
 
-series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:municipality=Ashford t:service_district_code=0 t:code=3 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=32 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=32.368
+series e:kb3c-yi4w d:2017-01-01T00:00:00.000Z t:code=3 t:municipality=Ashford t:service_district_code=0 m:fy_2017_mill_rate_real_personal_property_pa_16_3_s_189_may_ss=32.368 m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss=32
 ```
 
 ## Meta Commands
@@ -64,13 +64,13 @@ metric m:fy_2017_mill_rate_motor_vehicle_pa_16_3_s_189_may_ss p:float l:"FY 2017
 
 entity e:kb3c-yi4w l:"Mill Rates for 2017 Fiscal Year" t:attribution="Office of Policy and Managment" t:url=https://data.ct.gov/api/views/kb3c-yi4w
 
-property e:kb3c-yi4w t:meta.view d:2017-06-09T13:59:02.067Z v:id=kb3c-yi4w v:category=Government v:attributionLink="http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976" v:averageRating=0 v:name="Mill Rates for 2017 Fiscal Year" v:attribution="Office of Policy and Managment"
+property e:kb3c-yi4w t:meta.view d:2017-09-25T07:30:21.167Z v:averageRating=0 v:name="Mill Rates for 2017 Fiscal Year" v:attribution="Office of Policy and Managment" v:attributionLink="http://www.ct.gov/opm/cwp/view.asp?A=2987&Q=385976" v:id=kb3c-yi4w v:category=Government
 
-property e:kb3c-yi4w t:meta.view.license d:2017-06-09T13:59:02.067Z v:name="Public Domain"
+property e:kb3c-yi4w t:meta.view.license d:2017-09-25T07:30:21.167Z v:name="Public Domain"
 
-property e:kb3c-yi4w t:meta.view.owner d:2017-06-09T13:59:02.067Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:lastNotificationSeenAt=1496849452 v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.owner d:2017-09-25T07:30:21.167Z v:displayName="Tyler Kleykamp" v:lastNotificationSeenAt=1505139295 v:id=cvy9-n6sb v:screenName="Tyler Kleykamp"
 
-property e:kb3c-yi4w t:meta.view.tableauthor d:2017-06-09T13:59:02.067Z v:id=cvy9-n6sb v:screenName="Tyler Kleykamp" v:roleName=administrator v:lastNotificationSeenAt=1496849452 v:displayName="Tyler Kleykamp"
+property e:kb3c-yi4w t:meta.view.tableauthor d:2017-09-25T07:30:21.167Z v:displayName="Tyler Kleykamp" v:lastNotificationSeenAt=1505139295 v:roleName=administrator v:id=cvy9-n6sb v:screenName="Tyler Kleykamp"
 ```
 
 ## Top Records

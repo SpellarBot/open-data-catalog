@@ -51,11 +51,11 @@ Excluded Fields = point_x,point_y
 ## Data Commands
 
 ```ls
-series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=155540 t:puc_maximo_asset_id=N-42990 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:row_number.jtgq-b7c5=1
+series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use="Storm; even if DS flow is combined" t:drain_type="Catch Basin Drain" t:puc_maximo_asset_id=N-42990 t:system_use_code=STORM t:dpw_node_id=155540 m:row_number.jtgq-b7c5=1
 
-series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=157534 t:puc_maximo_asset_id=N-43293 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:row_number.jtgq-b7c5=2
+series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use="Storm; even if DS flow is combined" t:drain_type="Catch Basin Drain" t:puc_maximo_asset_id=N-43293 t:system_use_code=STORM t:dpw_node_id=157534 m:row_number.jtgq-b7c5=2
 
-series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use_code=STORM t:dpw_node_id=155897 t:puc_maximo_asset_id=N-42862 t:drain_type="Catch Basin Drain" t:system_use="Storm; even if DS flow is combined" m:row_number.jtgq-b7c5=3
+series e:jtgq-b7c5 d:2016-12-27T23:11:01.000Z t:system_use="Storm; even if DS flow is combined" t:drain_type="Catch Basin Drain" t:puc_maximo_asset_id=N-42862 t:system_use_code=STORM t:dpw_node_id=155897 m:row_number.jtgq-b7c5=3
 ```
 
 ## Meta Commands
@@ -65,13 +65,13 @@ metric m:row_number.jtgq-b7c5 p:long l:"Row Number"
 
 entity e:jtgq-b7c5 l:"Stormwater inlets, drains and catch basins" t:url=https://data.sfgov.org/api/views/jtgq-b7c5
 
-property e:jtgq-b7c5 t:meta.view d:2017-06-09T13:51:28.880Z v:id=jtgq-b7c5 v:category="City Infrastructure" v:averageRating=0 v:name="Stormwater inlets, drains and catch basins"
+property e:jtgq-b7c5 t:meta.view d:2017-09-25T07:22:51.672Z v:averageRating=0 v:name="Stormwater inlets, drains and catch basins" v:id=jtgq-b7c5 v:category="City Infrastructure"
 
-property e:jtgq-b7c5 t:meta.view.license d:2017-06-09T13:51:28.880Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:jtgq-b7c5 t:meta.view.license d:2017-09-25T07:22:51.672Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:jtgq-b7c5 t:meta.view.owner d:2017-06-09T13:51:28.880Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:jtgq-b7c5 t:meta.view.owner d:2017-09-25T07:22:51.672Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:jtgq-b7c5 t:meta.view.tableauthor d:2017-06-09T13:51:28.880Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:jtgq-b7c5 t:meta.view.tableauthor d:2017-09-25T07:22:51.672Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records
@@ -86,7 +86,7 @@ property e:jtgq-b7c5 t:meta.view.tableauthor d:2017-06-09T13:51:28.880Z v:id=dba
 | 1482880261  | 254047      | N-290876            | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6013341.12615436 | 2116975.87629157 | 
 | 1482880261  | 177759      | N-15629             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6009953.1088     | 2119366.3678     | 
 | 1482880261  | 157444      | N-43469             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6010128.31108148 | 2105524.84103321 | 
-| 1482880261  | 155827      | N-42657             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 5993207.46536172 | 2093737.70623419 | 
 | 1482880261  | 155511      | N-42514             | STORM           | Storm; even if DS flow is combined | Track Drain       | 6010592.90748695 | 2086222.58181359 | 
-| 1482880261  | 198597      | N-40558             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 5992511.32821493 | 2097012.53229601 | 
+| 1482880261  | 157824      | N-43255             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6002378.35628522 | 2105282.03382846 | 
+| 1482880261  | 155850      | N-43135             | STORM           | Storm; even if DS flow is combined | Catch Basin Drain | 6012816.53804344 | 2089753.66034502 | 
 ```

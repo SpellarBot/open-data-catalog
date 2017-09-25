@@ -50,11 +50,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name=Budget m:member_7=10 m:member_8=10 m:rank_and_score=9.666666666666666 m:member_5=10 m:member_6=10 m:member_9=10 m:member_4=8 m:member_3=10 m:member_2=10 m:member_1=9
+series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name=Budget m:rank_and_score=9.666666666666666 m:member_3=10 m:member_4=8 m:member_1=9 m:member_2=10 m:member_7=10 m:member_8=10 m:member_5=10 m:member_6=10 m:member_9=10
 
-series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="Crime Stats" m:member_7=10 m:member_8=10 m:rank_and_score=8.88888888888889 m:member_5=10 m:member_6=10 m:member_9=10 m:member_4=0 m:member_3=10 m:member_2=10 m:member_1=10
+series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="Crime Stats" m:rank_and_score=8.88888888888889 m:member_3=10 m:member_4=0 m:member_1=10 m:member_2=10 m:member_7=10 m:member_8=10 m:member_5=10 m:member_6=10 m:member_9=10
 
-series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="311 Data" m:member_7=1 m:member_8=10 m:rank_and_score=8.777777777777779 m:member_5=10 m:member_6=9 m:member_9=10 m:member_4=10 m:member_3=10 m:member_2=10 m:member_1=9
+series e:yjnx-i3j5 d:2016-03-28T14:33:54.000Z t:dataset_name="311 Data" m:rank_and_score=8.777777777777779 m:member_3=10 m:member_4=10 m:member_1=9 m:member_2=10 m:member_7=1 m:member_8=10 m:member_5=10 m:member_6=9 m:member_9=10
 ```
 
 ## Meta Commands
@@ -82,11 +82,11 @@ metric m:rank_and_score p:decimal l:"Rank and Score" t:dataTypeName=number
 
 entity e:yjnx-i3j5 l:"Data Priority List" t:attribution="City of Jackson" t:url=https://data.jacksonms.gov/api/views/yjnx-i3j5
 
-property e:yjnx-i3j5 t:meta.view d:2017-06-09T13:59:45.879Z v:id=yjnx-i3j5 v:category="Economic Development" v:attributionLink=http://www.jacksonms.gov v:averageRating=0 v:name="Data Priority List" v:attribution="City of Jackson"
+property e:yjnx-i3j5 t:meta.view d:2017-09-25T07:31:06.849Z v:averageRating=0 v:name="Data Priority List" v:attribution="City of Jackson" v:attributionLink=http://www.jacksonms.gov v:id=yjnx-i3j5 v:category="Economic Development"
 
-property e:yjnx-i3j5 t:meta.view.owner d:2017-06-09T13:59:45.879Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:yjnx-i3j5 t:meta.view.owner d:2017-09-25T07:31:06.849Z v:displayName="Justin Bruce" v:lastNotificationSeenAt=1492180672 v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:id=6ngd-c2u2 v:screenName="Justin Bruce" v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB
 
-property e:yjnx-i3j5 t:meta.view.tableauthor d:2017-06-09T13:59:45.879Z v:id=6ngd-c2u2 v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:screenName="Justin Bruce" v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1492180672 v:displayName="Justin Bruce"
+property e:yjnx-i3j5 t:meta.view.tableauthor d:2017-09-25T07:31:06.849Z v:displayName="Justin Bruce" v:lastNotificationSeenAt=1492180672 v:profileImageUrlLarge=/api/users/6ngd-c2u2/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/6ngd-c2u2/profile_images/TINY v:id=6ngd-c2u2 v:screenName="Justin Bruce" v:profileImageUrlMedium=/api/users/6ngd-c2u2/profile_images/THUMB
 ```
 
 ## Top Records

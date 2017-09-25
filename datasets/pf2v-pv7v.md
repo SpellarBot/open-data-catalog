@@ -49,11 +49,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:pf2v-pv7v d:2014-10-20T10:18:28.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=503-854-3366 t:facility="Detroit Lake  (Blowout Arm)" t:waterbody="Detroit Lake" t:name="USFS, Detroit Ranger District" t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:type="Floating Restroom" m:point_size=20
+series e:pf2v-pv7v d:2014-10-20T10:18:28.000Z t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:phone=503-854-3366 t:name="USFS, Detroit Ranger District" t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:waterbody="Detroit Lake" t:type="Floating Restroom" t:facility="Detroit Lake  (Blowout Arm)" m:point_size=20
 
-series e:pf2v-pv7v d:2014-10-20T10:21:27.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=541-776-7001 t:facility="Howard Prairie Reservoir" t:waterbody="Howard Praire Reservoir" t:name="Jackson County" t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:type="Floating Restroom" m:point_size=10
+series e:pf2v-pv7v d:2014-10-20T10:21:27.000Z t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:phone=541-776-7001 t:name="Jackson County" t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:waterbody="Howard Praire Reservoir" t:type="Floating Restroom" t:facility="Howard Prairie Reservoir" m:point_size=10
 
-series e:pf2v-pv7v d:2014-10-20T10:23:18.000Z t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:phone=541-682-2000 t:facility="Siltcoos Lake" t:waterbody="Siltcoos Lake" t:name="Lane County" t:river_mile=--- t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:type="Floating Restroom" m:point_size=5
+series e:pf2v-pv7v d:2014-10-20T10:23:18.000Z t:marine_board_s_environmental_programs=http://www.oregon.gov/OSMB/Clean/pages/index.aspx t:river_mile=--- t:phone=541-682-2000 t:name="Lane County" t:icon=HKrggq8czm_4ZTx7KboBSAbK2Q4GBVs2Fs6VbajgWGo t:waterbody="Siltcoos Lake" t:type="Floating Restroom" t:facility="Siltcoos Lake" m:point_size=5
 ```
 
 ## Meta Commands
@@ -63,11 +63,11 @@ metric m:point_size p:integer l:"Point Size" t:dataTypeName=number
 
 entity e:pf2v-pv7v l:"Floating Restroom Locations" t:attribution="Oregon State Marine Board" t:url=https://data.oregon.gov/api/views/pf2v-pv7v
 
-property e:pf2v-pv7v t:meta.view d:2017-06-09T13:54:08.412Z v:id=pf2v-pv7v v:category=Recreation v:attributionLink=http://www.oregon.gov/osmb/Pages/about_us.aspx v:averageRating=0 v:name="Floating Restroom Locations" v:attribution="Oregon State Marine Board"
+property e:pf2v-pv7v t:meta.view d:2017-09-25T07:25:29.314Z v:averageRating=0 v:name="Floating Restroom Locations" v:attribution="Oregon State Marine Board" v:attributionLink=http://www.oregon.gov/osmb/Pages/about_us.aspx v:id=pf2v-pv7v v:category=Recreation
 
-property e:pf2v-pv7v t:meta.view.owner d:2017-06-09T13:54:08.412Z v:id=a2bu-8256 v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:screenName="Ashley Massey" v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:displayName="Ashley Massey"
+property e:pf2v-pv7v t:meta.view.owner d:2017-09-25T07:25:29.314Z v:displayName="Ashley Massey" v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:id=a2bu-8256 v:screenName="Ashley Massey" v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB
 
-property e:pf2v-pv7v t:meta.view.tableauthor d:2017-06-09T13:54:08.412Z v:id=a2bu-8256 v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:screenName="Ashley Massey" v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:roleName=editor v:displayName="Ashley Massey"
+property e:pf2v-pv7v t:meta.view.tableauthor d:2017-09-25T07:25:29.314Z v:displayName="Ashley Massey" v:profileImageUrlLarge=/api/users/a2bu-8256/profile_images/LARGE v:roleName=editor v:profileImageUrlSmall=/api/users/a2bu-8256/profile_images/TINY v:id=a2bu-8256 v:screenName="Ashley Massey" v:profileImageUrlMedium=/api/users/a2bu-8256/profile_images/THUMB
 ```
 
 ## Top Records

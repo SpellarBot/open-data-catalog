@@ -59,11 +59,11 @@ Excluded Fields = mapx,mapy,timedispatch,timearrive,timeclosed,block_address
 ## Data Commands
 
 ```ls
-series e:5fn8-vtui d:2012-12-31T23:59:34.000Z t:zip=70117 t:type_=94 t:nopd_item=A0000113 t:priority=2B t:dispositiontext=UNFOUNDED t:policedistrict=5 t:typetext="DISCHARGING FIREARM" t:disposition=UNF m:row_number.5fn8-vtui=1
+series e:5fn8-vtui d:2012-12-31T23:59:34.000Z t:zip=70117 t:disposition=UNF t:nopd_item=A0000113 t:typetext="DISCHARGING FIREARM" t:policedistrict=5 t:dispositiontext=UNFOUNDED t:priority=2B t:type_=94 m:row_number.5fn8-vtui=1
 
-series e:5fn8-vtui d:2012-12-31T23:59:49.000Z t:zip=70131 t:type_=94 t:nopd_item=A0000213 t:priority=2B t:dispositiontext=UNFOUNDED t:policedistrict=4 t:typetext="DISCHARGING FIREARM" t:disposition=UNF m:row_number.5fn8-vtui=2
+series e:5fn8-vtui d:2012-12-31T23:59:49.000Z t:zip=70131 t:disposition=UNF t:nopd_item=A0000213 t:typetext="DISCHARGING FIREARM" t:policedistrict=4 t:dispositiontext=UNFOUNDED t:priority=2B t:type_=94 m:row_number.5fn8-vtui=2
 
-series e:5fn8-vtui d:2013-01-01T00:00:22.000Z t:zip=70130 t:type_=67S t:nopd_item=A0000313 t:priority=1C t:dispositiontext=DUPLICATE t:policedistrict=8 t:typetext=SHOPLIFTING t:disposition=DUP m:row_number.5fn8-vtui=3
+series e:5fn8-vtui d:2013-01-01T00:00:22.000Z t:zip=70130 t:disposition=DUP t:nopd_item=A0000313 t:typetext=SHOPLIFTING t:policedistrict=8 t:dispositiontext=DUPLICATE t:priority=1C t:type_=67S m:row_number.5fn8-vtui=3
 ```
 
 ## Meta Commands
@@ -73,15 +73,15 @@ metric m:row_number.5fn8-vtui p:long l:"Row Number"
 
 entity e:5fn8-vtui l:"Calls for Service 2013" t:attribution="Orleans Parish Communications District" t:url=https://data.nola.gov/api/views/5fn8-vtui
 
-property e:5fn8-vtui t:meta.view d:2017-06-09T13:57:13.860Z v:id=5fn8-vtui v:category="Public Safety and Preparedness" v:averageRating=0 v:name="Calls for Service 2013" v:attribution="Orleans Parish Communications District"
+property e:5fn8-vtui t:meta.view d:2017-09-25T07:28:34.861Z v:averageRating=0 v:name="Calls for Service 2013" v:attribution="Orleans Parish Communications District" v:id=5fn8-vtui v:category="Public Safety and Preparedness"
 
-property e:5fn8-vtui t:meta.view.license d:2017-06-09T13:57:13.860Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
+property e:5fn8-vtui t:meta.view.license d:2017-09-25T07:28:34.861Z v:name="Creative Commons 1.0 Universal (Public Domain Dedication)" v:termsLink=http://creativecommons.org/publicdomain/zero/1.0/legalcode v:logoUrl=images/licenses/ccZero.png
 
-property e:5fn8-vtui t:meta.view.owner d:2017-06-09T13:57:13.860Z v:id=guap-8ddq v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:screenName="City of New Orleans GIS Department" v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:lastNotificationSeenAt=1493757593 v:displayName="City of New Orleans GIS Department" v:privilegesDisabled=false
+property e:5fn8-vtui t:meta.view.owner d:2017-09-25T07:28:34.861Z v:displayName="City of New Orleans GIS Department" v:lastNotificationSeenAt=1493757593 v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:id=guap-8ddq v:screenName="City of New Orleans GIS Department" v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB
 
-property e:5fn8-vtui t:meta.view.tableauthor d:2017-06-09T13:57:13.860Z v:id=guap-8ddq v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:screenName="City of New Orleans GIS Department" v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1493757593 v:displayName="City of New Orleans GIS Department" v:privilegesDisabled=false
+property e:5fn8-vtui t:meta.view.tableauthor d:2017-09-25T07:28:34.861Z v:displayName="City of New Orleans GIS Department" v:lastNotificationSeenAt=1493757593 v:profileImageUrlLarge=/api/users/guap-8ddq/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/guap-8ddq/profile_images/TINY v:id=guap-8ddq v:screenName="City of New Orleans GIS Department" v:profileImageUrlMedium=/api/users/guap-8ddq/profile_images/THUMB
 
-property e:5fn8-vtui t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:57:13.860Z v:Contact_Email=data@nola.gov
+property e:5fn8-vtui t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:28:34.861Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

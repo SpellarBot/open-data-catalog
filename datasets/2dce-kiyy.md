@@ -59,11 +59,11 @@ Excluded Fields = bdb_address
 ## Data Commands
 
 ```ls
-series e:2dce-kiyy d:2013-10-25T10:06:51.000Z t:box_city=Burien t:election_day_hours="Close at 8 pm" t:ballot_drop_box="Burien City Hall" t:box_zip_code=98166 t:hours="24 hours" t:in_use=true t:vietnamese="Hội Trường Thành Phố Burien" t:photo2=EqLUSLZASNzMiwp4OUmu-ftPzpdbDS4RXXXvpT9-_Fs t:dates_open="Oct 17-Nov 5" t:chinese=布萊恩市政廳 m:row_number.2dce-kiyy=1
+series e:2dce-kiyy d:2013-10-25T10:06:51.000Z t:chinese=布萊恩市政廳 t:hours="24 hours" t:ballot_drop_box="Burien City Hall" t:election_day_hours="Close at 8 pm" t:in_use=true t:box_city=Burien t:vietnamese="Hội Trường Thành Phố Burien" t:photo2=EqLUSLZASNzMiwp4OUmu-ftPzpdbDS4RXXXvpT9-_Fs t:dates_open="Oct 17-Nov 5" t:box_zip_code=98166 m:row_number.2dce-kiyy=1
 
-series e:2dce-kiyy d:2013-10-25T10:14:21.000Z t:box_city="Maple Valley" t:election_day_hours="Close at 8 pm" t:ballot_drop_box="Van: Tahoma School District  Building" t:box_zip_code=98038 t:hours="10 a.m. to 5 p.m." t:in_use=true t:vietnamese="Trường Học Khu Vực Tahoma" t:photo2=gm70_AWlmwWjTDPliJ1Ue5OgjN76P9LklA2jyXyenTQ t:dates_open="Nov 2, 4, 5" t:chinese=塔何瑪（Tahoma）校區辦公室 m:row_number.2dce-kiyy=2
+series e:2dce-kiyy d:2013-10-25T10:14:21.000Z t:chinese=塔何瑪（Tahoma）校區辦公室 t:hours="10 a.m. to 5 p.m." t:ballot_drop_box="Van: Tahoma School District  Building" t:election_day_hours="Close at 8 pm" t:in_use=true t:box_city="Maple Valley" t:vietnamese="Trường Học Khu Vực Tahoma" t:photo2=gm70_AWlmwWjTDPliJ1Ue5OgjN76P9LklA2jyXyenTQ t:dates_open="Nov 2, 4, 5" t:box_zip_code=98038 m:row_number.2dce-kiyy=2
 
-series e:2dce-kiyy d:2013-10-25T10:14:42.000Z t:box_city=Seattle t:election_day_hours="10 a.m. to 8 p.m." t:ballot_drop_box="Van: University of Washington Campus" t:box_zip_code=98105 t:description="Red Square; no parking or vehicle access available" t:hours="10 a.m. to 5 p.m." t:in_use=true t:vietnamese="Khu Trường Học Đại Học Washington" t:photo2=HYkBnnUKNm4ZkyvVMW4r_209ssAIFrSMJyPGau_Nfgs t:dates_open="Nov 2, 4, 5" t:chinese=華盛頓大學校園 m:row_number.2dce-kiyy=3
+series e:2dce-kiyy d:2013-10-25T10:14:42.000Z t:chinese=華盛頓大學校園 t:hours="10 a.m. to 5 p.m." t:ballot_drop_box="Van: University of Washington Campus" t:election_day_hours="10 a.m. to 8 p.m." t:description="Red Square; no parking or vehicle access available" t:in_use=true t:box_city=Seattle t:vietnamese="Khu Trường Học Đại Học Washington" t:photo2=HYkBnnUKNm4ZkyvVMW4r_209ssAIFrSMJyPGau_Nfgs t:dates_open="Nov 2, 4, 5" t:box_zip_code=98105 m:row_number.2dce-kiyy=3
 ```
 
 ## Meta Commands
@@ -73,13 +73,13 @@ metric m:row_number.2dce-kiyy p:long l:"Row Number"
 
 entity e:2dce-kiyy l:"DEPRECATED : King County Ballot Drop Boxes" t:attribution="King County Elections" t:url=https://data.kingcounty.gov/api/views/2dce-kiyy
 
-property e:2dce-kiyy t:meta.view d:2017-06-09T13:53:56.015Z v:id=2dce-kiyy v:category="Election operations" v:attributionLink=http://kingcounty.gov/elections v:averageRating=0 v:name="DEPRECATED : King County Ballot Drop Boxes" v:attribution="King County Elections"
+property e:2dce-kiyy t:meta.view d:2017-09-25T07:25:20.123Z v:averageRating=0 v:name="DEPRECATED : King County Ballot Drop Boxes" v:attribution="King County Elections" v:attributionLink=http://kingcounty.gov/elections v:id=2dce-kiyy v:category="Election operations"
 
-property e:2dce-kiyy t:meta.view.license d:2017-06-09T13:53:56.015Z v:name="Public Domain"
+property e:2dce-kiyy t:meta.view.license d:2017-09-25T07:25:20.123Z v:name="Public Domain"
 
-property e:2dce-kiyy t:meta.view.owner d:2017-06-09T13:53:56.015Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:displayName="Kathy Gill"
+property e:2dce-kiyy t:meta.view.owner d:2017-09-25T07:25:20.123Z v:displayName="Kathy Gill" v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:id=iw7b-ptyg v:screenName="Kathy Gill" v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB
 
-property e:2dce-kiyy t:meta.view.tableauthor d:2017-06-09T13:53:56.015Z v:id=iw7b-ptyg v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:screenName="Kathy Gill" v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:roleName=publisher v:displayName="Kathy Gill"
+property e:2dce-kiyy t:meta.view.tableauthor d:2017-09-25T07:25:20.123Z v:displayName="Kathy Gill" v:profileImageUrlLarge=/api/users/iw7b-ptyg/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/iw7b-ptyg/profile_images/TINY v:id=iw7b-ptyg v:screenName="Kathy Gill" v:profileImageUrlMedium=/api/users/iw7b-ptyg/profile_images/THUMB
 ```
 
 ## Top Records

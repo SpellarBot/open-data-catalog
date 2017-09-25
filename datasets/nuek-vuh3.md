@@ -76,11 +76,11 @@ Excluded Fields = watch_date,received_dttm,entry_dttm,dispatch_dttm,response_dtt
 ## Data Commands
 
 ```ls
-series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z t:station_area=18 t:neighborhoods_analysis_boundaries=Sunset/Parkside t:final_priority=3 t:unit_id=E18 t:call_final_disposition=Other t:incident_number=00306091 t:supervisor_district=4 t:city=SF t:als_unit=false t:zipcode_of_incident=94116 t:call_type="Medical Incident" t:call_number=001030101 t:priority=3 t:original_priority=3 t:fire_prevention_district=8 t:battalion=B08 t:unit_type=ENGINE t:box=0757 t:rowid=001030101-E18 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=1
+series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z t:call_number=001030101 t:city=SF t:original_priority=3 t:station_area=18 t:fire_prevention_district=8 t:box=0757 t:neighborhoods_analysis_boundaries=Sunset/Parkside t:unit_type=ENGINE t:priority=3 t:incident_number=00306091 t:battalion=B08 t:call_final_disposition=Other t:supervisor_district=4 t:zipcode_of_incident=94116 t:final_priority=3 t:rowid=001030101-E18 t:als_unit=false t:unit_id=E18 t:call_type="Medical Incident" m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=1
 
-series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z t:station_area=23 t:neighborhoods_analysis_boundaries=Sunset/Parkside t:final_priority=3 t:unit_id=M14 t:call_final_disposition=Other t:incident_number=00030612 t:supervisor_district=4 t:city=SF t:als_unit=true t:zipcode_of_incident=94122 t:call_type="Medical Incident" t:call_number=001030104 t:priority=3 t:original_priority=3 t:fire_prevention_district=8 t:battalion=B08 t:unit_type=MEDIC t:box=7651 t:rowid=001030104-M14 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=2
+series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z t:call_number=001030104 t:city=SF t:original_priority=3 t:station_area=23 t:fire_prevention_district=8 t:box=7651 t:neighborhoods_analysis_boundaries=Sunset/Parkside t:unit_type=MEDIC t:priority=3 t:incident_number=00030612 t:battalion=B08 t:call_final_disposition=Other t:supervisor_district=4 t:zipcode_of_incident=94122 t:final_priority=3 t:rowid=001030104-M14 t:als_unit=true t:unit_id=M14 t:call_type="Medical Incident" m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=2
 
-series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z t:station_area=36 t:neighborhoods_analysis_boundaries=Tenderloin t:final_priority=3 t:unit_id=M36 t:call_final_disposition=Other t:incident_number=00030614 t:supervisor_district=6 t:city=SF t:als_unit=false t:zipcode_of_incident=94102 t:call_type="Medical Incident" t:call_number=001030106 t:priority=3 t:original_priority=3 t:fire_prevention_district=2 t:battalion=B02 t:unit_type=MEDIC t:box=3111 t:rowid=001030106-M36 m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=1
+series e:nuek-vuh3 d:2000-04-12T00:00:00.000Z t:call_number=001030106 t:city=SF t:original_priority=3 t:station_area=36 t:fire_prevention_district=2 t:box=3111 t:neighborhoods_analysis_boundaries=Tenderloin t:unit_type=MEDIC t:priority=3 t:incident_number=00030614 t:battalion=B02 t:call_final_disposition=Other t:supervisor_district=6 t:zipcode_of_incident=94102 t:final_priority=3 t:rowid=001030106-M36 t:als_unit=false t:unit_id=M36 t:call_type="Medical Incident" m:number_of_alarms=1 m:unit_sequence_in_call_dispatch=1
 ```
 
 ## Meta Commands
@@ -92,13 +92,13 @@ metric m:unit_sequence_in_call_dispatch p:integer l:"Unit sequence in call dispa
 
 entity e:nuek-vuh3 l:"Fire Department Calls for Service" t:url=https://data.sfgov.org/api/views/nuek-vuh3
 
-property e:nuek-vuh3 t:meta.view d:2017-06-09T13:51:18.736Z v:id=nuek-vuh3 v:category="Public Safety" v:averageRating=0 v:name="Fire Department Calls for Service"
+property e:nuek-vuh3 t:meta.view d:2017-09-25T07:22:40.400Z v:averageRating=0 v:name="Fire Department Calls for Service" v:id=nuek-vuh3 v:category="Public Safety"
 
-property e:nuek-vuh3 t:meta.view.license d:2017-06-09T13:51:18.736Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:nuek-vuh3 t:meta.view.license d:2017-09-25T07:22:40.400Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:nuek-vuh3 t:meta.view.owner d:2017-06-09T13:51:18.736Z v:id=dbag-6qd9 v:screenName=OpenData v:displayName=OpenData
+property e:nuek-vuh3 t:meta.view.owner d:2017-09-25T07:22:40.400Z v:displayName=OpenData v:id=dbag-6qd9 v:screenName=OpenData
 
-property e:nuek-vuh3 t:meta.view.tableauthor d:2017-06-09T13:51:18.736Z v:id=dbag-6qd9 v:screenName=OpenData v:roleName=publisher v:displayName=OpenData
+property e:nuek-vuh3 t:meta.view.tableauthor d:2017-09-25T07:22:40.400Z v:displayName=OpenData v:roleName=publisher v:id=dbag-6qd9 v:screenName=OpenData
 ```
 
 ## Top Records

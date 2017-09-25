@@ -36,11 +36,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:puxz-9rab d:2002-01-01T00:00:00.000Z m:domestic_arrivals=4358850 m:total_visitor_arrivals=6389058 m:international_arrivals=2030208 m:total_visitor_days=58471088
+series e:puxz-9rab d:2002-01-01T00:00:00.000Z m:domestic_arrivals=4358850 m:international_arrivals=2030208 m:total_visitor_days=58471088 m:total_visitor_arrivals=6389058
 
-series e:puxz-9rab d:2003-01-01T00:00:00.000Z m:domestic_arrivals=4531289 m:total_visitor_arrivals=6380439 m:international_arrivals=1849150 m:total_visitor_days=58782699
+series e:puxz-9rab d:2003-01-01T00:00:00.000Z m:domestic_arrivals=4531289 m:international_arrivals=1849150 m:total_visitor_days=58782699 m:total_visitor_arrivals=6380439
 
-series e:puxz-9rab d:2004-01-01T00:00:00.000Z m:domestic_arrivals=4892960 m:total_visitor_arrivals=6912094 m:international_arrivals=2019134 m:total_visitor_days=62761989
+series e:puxz-9rab d:2004-01-01T00:00:00.000Z m:domestic_arrivals=4892960 m:international_arrivals=2019134 m:total_visitor_days=62761989 m:total_visitor_arrivals=6912094
 ```
 
 ## Meta Commands
@@ -56,11 +56,11 @@ metric m:total_visitor_days p:integer l:"Total Visitor Days" t:dataTypeName=numb
 
 entity e:puxz-9rab l:"Report Card 1:  Overall Hawaii Visitor Numbers" t:url=https://data.hawaii.gov/api/views/puxz-9rab
 
-property e:puxz-9rab t:meta.view d:2017-06-09T14:01:01.775Z v:id=puxz-9rab v:averageRating=0 v:name="Report Card 1:  Overall Hawaii Visitor Numbers"
+property e:puxz-9rab t:meta.view d:2017-09-25T07:32:12.902Z v:averageRating=0 v:name="Report Card 1:  Overall Hawaii Visitor Numbers" v:id=puxz-9rab
 
-property e:puxz-9rab t:meta.view.owner d:2017-06-09T14:01:01.775Z v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:displayName="Daniel Nahoopii"
+property e:puxz-9rab t:meta.view.owner d:2017-09-25T07:32:12.902Z v:displayName="Daniel Nahoopii" v:id=pvmv-89ja v:screenName="Daniel Nahoopii"
 
-property e:puxz-9rab t:meta.view.tableauthor d:2017-06-09T14:01:01.775Z v:id=pvmv-89ja v:screenName="Daniel Nahoopii" v:roleName=editor v:displayName="Daniel Nahoopii"
+property e:puxz-9rab t:meta.view.tableauthor d:2017-09-25T07:32:12.902Z v:displayName="Daniel Nahoopii" v:roleName=editor v:id=pvmv-89ja v:screenName="Daniel Nahoopii"
 ```
 
 ## Top Records

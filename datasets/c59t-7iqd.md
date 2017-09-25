@@ -44,11 +44,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic=Overall m:mean_standard_error_se=0.2 m:prevalence=31.1 m:mean=2.7 m:prevalence_standard_error_se=2.4
+series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic=Overall m:prevalence=31.1 m:mean=2.7 m:mean_standard_error_se=0.2 m:prevalence_standard_error_se=2.4
 
-series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic="Urban (region II, IV)" m:mean_standard_error_se=0.2 m:prevalence=31 m:mean=2.9 m:prevalence_standard_error_se=3.5
+series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic="Urban (region II, IV)" m:prevalence=31 m:mean=2.9 m:mean_standard_error_se=0.2 m:prevalence_standard_error_se=3.5
 
-series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic="Rural (region I,III, V)" m:mean_standard_error_se=0.3 m:prevalence=31.1 m:mean=2.6 m:prevalence_standard_error_se=3
+series e:c59t-7iqd d:2005-01-01T00:00:00.000Z t:characteristic="Rural (region I,III, V)" m:prevalence=31.1 m:mean=2.6 m:mean_standard_error_se=0.3 m:prevalence_standard_error_se=3
 ```
 
 ## Meta Commands
@@ -64,11 +64,11 @@ metric m:mean_standard_error_se p:float l:"Mean Standard Error (SE)" t:dataTypeN
 
 entity e:c59t-7iqd l:"Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" t:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health" t:url=https://data.maryland.gov/api/views/c59t-7iqd
 
-property e:c59t-7iqd t:meta.view d:2017-06-09T13:51:38.299Z v:id=c59t-7iqd v:category="Health and Human Services" v:attributionLink=http://fha.dhmh.maryland.gov/oralhealth/docs1/Oral_Health_Survey_Report.pdf v:averageRating=0 v:name="Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" v:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health"
+property e:c59t-7iqd t:meta.view d:2017-09-25T07:22:57.999Z v:averageRating=0 v:name="Prevalence and Mean of Dental Caries (Cavities) among Maryland School Children, 2005-2006" v:attribution="Survey of the Oral Health Status of Maryland School Children, 2005-2006. Office of Oral Health" v:attributionLink=http://fha.dhmh.maryland.gov/oralhealth/docs1/Oral_Health_Survey_Report.pdf v:id=c59t-7iqd v:category="Health and Human Services"
 
-property e:c59t-7iqd t:meta.view.owner d:2017-06-09T13:51:38.299Z v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:displayName="Andrea Bankoski"
+property e:c59t-7iqd t:meta.view.owner d:2017-09-25T07:22:57.999Z v:displayName="Andrea Bankoski" v:id=e5tx-wz6d v:screenName="Andrea Bankoski"
 
-property e:c59t-7iqd t:meta.view.tableauthor d:2017-06-09T13:51:38.299Z v:id=e5tx-wz6d v:screenName="Andrea Bankoski" v:roleName=editor v:displayName="Andrea Bankoski"
+property e:c59t-7iqd t:meta.view.tableauthor d:2017-09-25T07:22:57.999Z v:displayName="Andrea Bankoski" v:roleName=editor v:id=e5tx-wz6d v:screenName="Andrea Bankoski"
 ```
 
 ## Top Records

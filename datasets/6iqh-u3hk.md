@@ -107,11 +107,11 @@ Excluded Fields = rpt_date,thru_date,elect_date,expn_date
 ## Data Commands
 
 ```ls
-series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:cand_naml=Philhour t:payee_state=CA t:payee_zip4=94612 t:cand_namf=Marjan t:entity_cd=OTH t:dist_no=1 t:office_cd=CSU t:filer_naml="Vote Marjan Philhour for Supervisor 2016" t:juris_dscr="San Francisco, CA" t:report_num=1 t:expn_code=CMP t:juris_cd=OTH t:agent_naml="Spotlight Printing" t:form_type=G t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1374373 t:committee_type=CTL t:payee_naml="State Board of Equalization" t:payee_city=Oakland t:expn_dscr="Sales Tax" t:tran_id=EDT48 m:amount=48.13 m:cum_ytd=1391.38
+series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:filer_naml="Vote Marjan Philhour for Supervisor 2016" t:entity_cd=OTH t:juris_dscr="San Francisco, CA" t:g_from_e_f=E t:expn_dscr="Sales Tax" t:office_cd=CSU t:tran_id=EDT48 t:payee_zip4=94612 t:form_type=G t:agent_naml="Spotlight Printing" t:filer_id=1374373 t:payee_naml="State Board of Equalization" t:cand_naml=Philhour t:juris_cd=OTH t:rec_type=EXPN t:payee_city=Oakland t:payee_state=CA t:report_num=1 t:dist_no=1 t:expn_code=CMP t:cand_namf=Marjan t:committee_type=CTL m:amount=48.13 m:cum_ytd=1391.38
 
-series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:payee_state=CA t:payee_zip4=94080 t:entity_cd=OTH t:filer_naml="NO ON V, ENOUGH IS ENOUGH: DON'T TAX OUR GROCERIES, WITH MAJOR FUNDING BY AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC" t:report_num=2 t:bal_juris="CITY AND COUNTY OF SAN FRANCISCO" t:expn_code=PRT t:agent_naml="STOREFRONT POLITICAL MEDIA" t:form_type=G t:bal_name="TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V" t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1382995 t:committee_type=BMC t:payee_naml="SING TAO DAILY" t:sup_opp_cd=O t:payee_city="San Francisco" t:tran_id=EDT28 m:amount=36691.2 m:cum_ytd=36691.2
+series e:6iqh-u3hk d:2016-07-01T00:00:00.000Z t:sup_opp_cd=O t:filer_naml="NO ON V, ENOUGH IS ENOUGH: DON'T TAX OUR GROCERIES, WITH MAJOR FUNDING BY AMERICAN BEVERAGE ASSOCIATION CALIFORNIA PAC" t:entity_cd=OTH t:g_from_e_f=E t:tran_id=EDT28 t:payee_zip4=94080 t:form_type=G t:agent_naml="STOREFRONT POLITICAL MEDIA" t:bal_juris="CITY AND COUNTY OF SAN FRANCISCO" t:filer_id=1382995 t:payee_naml="SING TAO DAILY" t:bal_name="TAX ON DISTRIBUTING SUGAR-SWEETENED BEVERAGES - PROPOSITION V" t:rec_type=EXPN t:payee_city="San Francisco" t:payee_state=CA t:report_num=2 t:expn_code=PRT t:committee_type=BMC m:amount=36691.2 m:cum_ytd=36691.2
 
-series e:6iqh-u3hk d:2016-05-22T00:00:00.000Z t:cand_naml="Lee Fewer" t:payee_state=UT t:payee_zip4=84401 t:cand_namf=Sandra t:entity_cd=OTH t:dist_no=1 t:office_cd=CSU t:filer_naml="Sandra Lee Fewer for Supervisor 2016" t:juris_dscr="San Francisco District 1" t:report_num=1 t:expn_code=SAL t:juris_cd=CTY t:agent_naml="River City Business Services" t:form_type=G t:rec_type=EXPN t:g_from_e_f=E t:filer_id=1382203 t:committee_type=CAO t:payee_naml="Internal Revenue Service" t:payee_city=Ogden t:tran_id=VSFW49QASM0 m:amount=736.97 m:cum_ytd=0
+series e:6iqh-u3hk d:2016-05-22T00:00:00.000Z t:filer_naml="Sandra Lee Fewer for Supervisor 2016" t:entity_cd=OTH t:juris_dscr="San Francisco District 1" t:g_from_e_f=E t:office_cd=CSU t:tran_id=VSFW49QASM0 t:payee_zip4=84401 t:form_type=G t:agent_naml="River City Business Services" t:filer_id=1382203 t:payee_naml="Internal Revenue Service" t:cand_naml="Lee Fewer" t:juris_cd=CTY t:rec_type=EXPN t:payee_city=Ogden t:payee_state=UT t:report_num=1 t:dist_no=1 t:expn_code=SAL t:cand_namf=Sandra t:committee_type=CAO m:amount=736.97 m:cum_ytd=0
 ```
 
 ## Meta Commands
@@ -123,13 +123,13 @@ metric m:cum_ytd p:double l:Cum_YTD t:dataTypeName=money
 
 entity e:6iqh-u3hk l:"Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" t:attribution="San Francisco Ethics Commission" t:url=https://data.sfgov.org/api/views/6iqh-u3hk
 
-property e:6iqh-u3hk t:meta.view d:2017-06-09T13:52:24.658Z v:id=6iqh-u3hk v:category="City Management and Ethics" v:attributionLink="http://nf4.netfile.com/pub2?aid=sfo" v:averageRating=0 v:name="Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" v:attribution="San Francisco Ethics Commission"
+property e:6iqh-u3hk t:meta.view d:2017-09-25T07:23:45.607Z v:averageRating=0 v:name="Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor" v:attribution="San Francisco Ethics Commission" v:attributionLink="http://nf4.netfile.com/pub2?aid=sfo" v:id=6iqh-u3hk v:category="City Management and Ethics"
 
-property e:6iqh-u3hk t:meta.view.license d:2017-06-09T13:52:24.658Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
+property e:6iqh-u3hk t:meta.view.license d:2017-09-25T07:23:45.607Z v:name="Open Data Commons Public Domain Dedication and License" v:termsLink=http://opendatacommons.org/licenses/pddl/1.0/
 
-property e:6iqh-u3hk t:meta.view.owner d:2017-06-09T13:52:24.658Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:displayName="Steven Massey"
+property e:6iqh-u3hk t:meta.view.owner d:2017-09-25T07:23:45.607Z v:displayName="San Francisco Ethics Commission" v:lastNotificationSeenAt=1500665894 v:id=kcqd-yeev v:screenName="San Francisco Ethics Commission"
 
-property e:6iqh-u3hk t:meta.view.tableauthor d:2017-06-09T13:52:24.658Z v:id=vm9c-ykir v:profileImageUrlMedium=/api/users/vm9c-ykir/profile_images/THUMB v:profileImageUrlLarge=/api/users/vm9c-ykir/profile_images/LARGE v:screenName="Steven Massey" v:profileImageUrlSmall=/api/users/vm9c-ykir/profile_images/TINY v:roleName=publisher v:displayName="Steven Massey"
+property e:6iqh-u3hk t:meta.view.tableauthor d:2017-09-25T07:23:45.607Z v:displayName="San Francisco Ethics Commission" v:lastNotificationSeenAt=1500665894 v:roleName=publisher v:id=kcqd-yeev v:screenName="San Francisco Ethics Commission"
 ```
 
 ## Top Records

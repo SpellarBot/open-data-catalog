@@ -61,11 +61,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60625 t:location="Albany Park" t:city=CHICAGO m:december=36 m:march=0 m:november=89 m:may=0 m:february=0 m:april=0 m:june=0 m:ytd=421 m:january=0 m:august=74 m:july=0 m:october=117 m:september=105
+series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60625 t:city=CHICAGO t:location="Albany Park" m:november=89 m:may=0 m:august=74 m:february=0 m:ytd=421 m:july=0 m:april=0 m:march=0 m:june=0 m:september=105 m:january=0 m:december=36 m:october=117
 
-series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60827 t:location=Altgeld t:city=CHICAGO m:december=4906 m:march=5301 m:november=5277 m:may=5176 m:february=4014 m:april=5668 m:june=5142 m:ytd=63052 m:january=5741 m:august=6104 m:july=5276 m:october=5228 m:september=5219
+series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60827 t:city=CHICAGO t:location=Altgeld m:november=5277 m:may=5176 m:august=6104 m:february=4014 m:ytd=63052 m:july=5276 m:april=5668 m:march=5301 m:june=5142 m:september=5219 m:january=5741 m:december=4906 m:october=5228
 
-series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60632 t:location="Archer Heights*" t:city=CHICAGO m:december=7382 m:march=9405 m:november=9448 m:may=8054 m:february=7994 m:april=9712 m:june=8470 m:ytd=110419 m:january=9744 m:august=9768 m:july=10180 m:october=10915 m:september=9347
+series e:x74m-smqb d:2013-01-01T00:00:00.000Z t:zip=60632 t:city=CHICAGO t:location="Archer Heights*" m:november=9448 m:may=8054 m:august=9768 m:february=7994 m:ytd=110419 m:july=10180 m:april=9712 m:march=9405 m:june=8470 m:september=9347 m:january=9744 m:december=7382 m:october=10915
 ```
 
 ## Meta Commands
@@ -99,11 +99,11 @@ metric m:ytd p:integer l:YTD t:dataTypeName=number
 
 entity e:x74m-smqb l:"Libraries - 2013 Visitors by Location" t:attribution="Chicago Public Library" t:url=https://data.cityofchicago.org/api/views/x74m-smqb
 
-property e:x74m-smqb t:meta.view d:2017-06-09T13:53:28.761Z v:id=x74m-smqb v:category=Education v:attributionLink=http://chipublib.org v:averageRating=0 v:name="Libraries - 2013 Visitors by Location" v:attribution="Chicago Public Library"
+property e:x74m-smqb t:meta.view d:2017-09-25T07:24:49.513Z v:averageRating=0 v:name="Libraries - 2013 Visitors by Location" v:attribution="Chicago Public Library" v:attributionLink=http://chipublib.org v:id=x74m-smqb v:category=Education
 
-property e:x74m-smqb t:meta.view.owner d:2017-06-09T13:53:28.761Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:displayName="Ebony Jones"
+property e:x74m-smqb t:meta.view.owner d:2017-09-25T07:24:49.513Z v:displayName="Ebony Jones" v:id=cmhs-sm84 v:screenName="Ebony Jones"
 
-property e:x74m-smqb t:meta.view.tableauthor d:2017-06-09T13:53:28.761Z v:id=cmhs-sm84 v:screenName="Ebony Jones" v:roleName=editor v:displayName="Ebony Jones"
+property e:x74m-smqb t:meta.view.tableauthor d:2017-09-25T07:24:49.513Z v:displayName="Ebony Jones" v:roleName=editor v:id=cmhs-sm84 v:screenName="Ebony Jones"
 ```
 
 ## Top Records

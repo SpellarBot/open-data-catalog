@@ -12,7 +12,7 @@
 | Id | d9pb-3vh7 |
 | Name | Residential Average Monthly kWh and Bills |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | austin energy, bill, residential bill, kwh, electric bill |
 | Created | 2016-05-12T17:09:17Z |
 | Publication Date | 2016-10-13T21:58:12Z |
@@ -42,11 +42,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:d9pb-3vh7 d:2000-01-01T00:00:00.000Z m:average_bill=54.26 m:fuel_charge_cents_kwh=1.372 m:average_kwh=820
+series e:d9pb-3vh7 d:2000-01-01T00:00:00.000Z m:average_kwh=820 m:average_bill=54.26 m:fuel_charge_cents_kwh=1.372
 
-series e:d9pb-3vh7 d:2000-02-01T00:00:00.000Z m:average_bill=50.27 m:fuel_charge_cents_kwh=1.372 m:average_kwh=766
+series e:d9pb-3vh7 d:2000-02-01T00:00:00.000Z m:average_kwh=766 m:average_bill=50.27 m:fuel_charge_cents_kwh=1.372
 
-series e:d9pb-3vh7 d:2000-03-01T00:00:00.000Z m:average_bill=45.91 m:fuel_charge_cents_kwh=1.372 m:average_kwh=707
+series e:d9pb-3vh7 d:2000-03-01T00:00:00.000Z m:average_kwh=707 m:average_bill=45.91 m:fuel_charge_cents_kwh=1.372
 ```
 
 ## Meta Commands
@@ -60,13 +60,13 @@ metric m:average_bill p:double l:"Average Bill" t:dataTypeName=money
 
 entity e:d9pb-3vh7 l:"Residential Average Monthly kWh and Bills" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/d9pb-3vh7
 
-property e:d9pb-3vh7 t:meta.view d:2017-06-09T13:54:37.979Z v:id=d9pb-3vh7 v:category=Utility v:averageRating=0 v:name="Residential Average Monthly kWh and Bills" v:attribution="Austin Energy"
+property e:d9pb-3vh7 t:meta.view d:2017-09-25T07:26:01.397Z v:averageRating=0 v:name="Residential Average Monthly kWh and Bills" v:attribution="Austin Energy" v:id=d9pb-3vh7 v:category="Utilities and City Services"
 
-property e:d9pb-3vh7 t:meta.view.license d:2017-06-09T13:54:37.979Z v:name="Public Domain"
+property e:d9pb-3vh7 t:meta.view.license d:2017-09-25T07:26:01.397Z v:name="Public Domain"
 
-property e:d9pb-3vh7 t:meta.view.owner d:2017-06-09T13:54:37.979Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
+property e:d9pb-3vh7 t:meta.view.owner d:2017-09-25T07:26:01.397Z v:displayName="Shannon Wisner" v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:id=fxfz-wsmq v:screenName="Shannon Wisner" v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB
 
-property e:d9pb-3vh7 t:meta.view.tableauthor d:2017-06-09T13:54:37.979Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:d9pb-3vh7 t:meta.view.tableauthor d:2017-09-25T07:26:01.397Z v:displayName="Shannon Wisner" v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:id=fxfz-wsmq v:screenName="Shannon Wisner" v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB
 ```
 
 ## Top Records

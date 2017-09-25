@@ -69,11 +69,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:gender_descr=Female t:department="Arts and Cultural Affairs" m:professionals_avg_hrly=35 m:service_maintenance_ee=1 m:technicians_gender=0 m:protected_services_ee=0 m:admin_support_avg_hrly=26.53 m:service_maintenance_avg_hrly=27.78 m:professionals_gender=79 m:service_maintenance_gender=33 m:technicians_ee=0 m:professionals_ee=15 m:skilled_craft_ee=0 m:para_professionals_ee=0 m:officials_admin_avg_hrly=49.97 m:officials_admin_ee=2 m:officials_admin_gender=67 m:admin_support_ee=2 m:admin_support_gender=100
+series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:gender_descr=Female t:department="Arts and Cultural Affairs" m:professionals_gender=79 m:para_professionals_ee=0 m:professionals_avg_hrly=35 m:admin_support_ee=2 m:officials_admin_gender=67 m:admin_support_avg_hrly=26.53 m:officials_admin_avg_hrly=49.97 m:technicians_ee=0 m:service_maintenance_ee=1 m:service_maintenance_gender=33 m:service_maintenance_avg_hrly=27.78 m:professionals_ee=15 m:protected_services_ee=0 m:admin_support_gender=100 m:officials_admin_ee=2 m:skilled_craft_ee=0 m:technicians_gender=0
 
-series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:gender_descr=Male t:department="Arts and Cultural Affairs" m:professionals_avg_hrly=32.64 m:service_maintenance_ee=2 m:technicians_gender=100 m:protected_services_ee=0 m:service_maintenance_avg_hrly=20.73 m:professionals_gender=21 m:service_maintenance_gender=67 m:technicians_ee=1 m:professionals_ee=4 m:skilled_craft_ee=0 m:technicians_avg_hrly=29.04 m:para_professionals_ee=0 m:officials_admin_avg_hrly=51.95 m:officials_admin_ee=1 m:officials_admin_gender=33 m:admin_support_ee=0 m:admin_support_gender=0
+series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:gender_descr=Male t:department="Arts and Cultural Affairs" m:professionals_gender=21 m:para_professionals_ee=0 m:professionals_avg_hrly=32.64 m:admin_support_ee=0 m:officials_admin_gender=33 m:officials_admin_avg_hrly=51.95 m:technicians_ee=1 m:service_maintenance_ee=2 m:service_maintenance_gender=67 m:technicians_avg_hrly=29.04 m:service_maintenance_avg_hrly=20.73 m:professionals_ee=4 m:protected_services_ee=0 m:admin_support_gender=0 m:officials_admin_ee=1 m:skilled_craft_ee=0 m:technicians_gender=100
 
-series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:department="Arts and Cultural Affairs" t:descr="Total Employees" m:technicians_ee=1 m:professionals_ee=19 m:service_maintenance_ee=3 m:officials_admin_ee=3 m:admin_support_ee=2
+series e:k3hs-aykd d:2013-07-16T13:42:18.000Z t:descr="Total Employees" t:department="Arts and Cultural Affairs" m:admin_support_ee=2 m:professionals_ee=19 m:technicians_ee=1 m:service_maintenance_ee=3 m:officials_admin_ee=3
 ```
 
 ## Meta Commands
@@ -145,13 +145,13 @@ metric m:technicians_avg_yrs_in_current_job p:float l:"Technicians Avg Yrs in Cu
 
 entity e:k3hs-aykd l:"City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department" t:url=https://data.seattle.gov/api/views/k3hs-aykd
 
-property e:k3hs-aykd t:meta.view d:2017-06-09T13:55:15.970Z v:id=k3hs-aykd v:category="City Business" v:attributionLink=http://mayormcginn.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Appendix-4-EEO-Final.pdf v:averageRating=0 v:name="City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department"
+property e:k3hs-aykd t:meta.view d:2017-09-25T07:26:38.778Z v:averageRating=0 v:name="City of Seattle Wages: Comparison by Gender - Discretionary Pay Titles by Department" v:attributionLink=http://mayormcginn.wpengine.netdna-cdn.com/wp-content/uploads/2013/07/Appendix-4-EEO-Final.pdf v:id=k3hs-aykd v:category="City Business"
 
-property e:k3hs-aykd t:meta.view.license d:2017-06-09T13:55:15.970Z v:name="Public Domain"
+property e:k3hs-aykd t:meta.view.license d:2017-09-25T07:26:38.778Z v:name="Public Domain"
 
-property e:k3hs-aykd t:meta.view.owner d:2017-06-09T13:55:15.970Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:displayName="Seattle IT"
+property e:k3hs-aykd t:meta.view.owner d:2017-09-25T07:26:38.778Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 
-property e:k3hs-aykd t:meta.view.tableauthor d:2017-06-09T13:55:15.970Z v:id=pfbu-yuv5 v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:screenName="Seattle IT" v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:roleName=administrator v:displayName="Seattle IT"
+property e:k3hs-aykd t:meta.view.tableauthor d:2017-09-25T07:26:38.778Z v:displayName="Seattle IT" v:profileImageUrlLarge=/api/users/pfbu-yuv5/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/pfbu-yuv5/profile_images/TINY v:id=pfbu-yuv5 v:screenName="Seattle IT" v:profileImageUrlMedium=/api/users/pfbu-yuv5/profile_images/THUMB
 ```
 
 ## Top Records

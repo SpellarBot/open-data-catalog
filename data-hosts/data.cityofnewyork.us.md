@@ -92,7 +92,7 @@ Name | Category | Published
 [Assembly District Breakdowns](../datasets/2t32-hbca.md) | City Government | 2013&#x2011;06&#x2011;26
 [Assessment Actions](../datasets/4nft-bihw.md) | City Government | 2017&#x2011;03&#x2011;15
 [Assignment of Officers against whom Allegations were Substantiated](../datasets/rbrz-iagc.md) | City Government | 2013&#x2011;06&#x2011;21
-[Attendance 4PM Report](../datasets/madj-gkhr.md) | Education | 2017&#x2011;06&#x2011;08
+[Attendance 4PM Report](../datasets/madj-gkhr.md) | Education | 2017&#x2011;09&#x2011;21
 [Attribution of Complaints to Different Bureaus](../datasets/wwsa-q2dq.md) | City Government | 2013&#x2011;06&#x2011;21
 [Audited Register Data](../datasets/2pmj-y4p4.md) | Education | 2016&#x2011;03&#x2011;08
 [Average Daily Inmate Population](../datasets/26ze-s5bx.md) | Public Safety | 2013&#x2011;06&#x2011;26
@@ -101,7 +101,7 @@ Name | Category | Published
 [Basin Town County 2010](../datasets/9akp-irxz.md) | Environment | 2013&#x2011;06&#x2011;21
 [Bid Tabulations](../datasets/9k82-ys7w.md) | City Government | 2017&#x2011;04&#x2011;15
 [Borough Enrollment Centers (Additional Ways To Graduate)](../datasets/yj3u-pw36.md) | Social Services | 2013&#x2011;03&#x2011;19
-[Borough Enrollment Offices](../datasets/vz8c-29aj.md) | Education | 2011&#x2011;10&#x2011;11
+[Borough Enrollment Offices](../datasets/vz8c-29aj.md) | Education | 2017&#x2011;08&#x2011;15
 [Brooklyn Public Library Catalog](../datasets/ym2h-u9dt.md) | Recreation | 2013&#x2011;06&#x2011;21
 [Building Complaint Disposition Codes](../datasets/6v9u-ndjg.md) | Housing & Development | 2017&#x2011;02&#x2011;08
 [Buildings Subject to HPD Jurisdiction](../datasets/kj4p-ruqc.md) | Housing & Development | 2017&#x2011;04&#x2011;02
@@ -190,11 +190,11 @@ Name | Category | Published
 [Civil Service List (Terminated)](../datasets/qu8g-sxqf.md) | City Government | 2017&#x2011;04&#x2011;01
 [Civil Service List Certification](../datasets/a9md-ynri.md) | City Government | 2017&#x2011;04&#x2011;20
 [Clear Channel Sign List - Times Sqaure](../datasets/wjtn-s4z7.md) | Business | 2011&#x2011;10&#x2011;31
-[Columbus Avenue BID Businesses](../datasets/h5nh-eqde.md) | Business | 2013&#x2011;06&#x2011;21
+[Columbus Avenue BID Businesses](../datasets/h5nh-eqde.md) | Business | 2017&#x2011;09&#x2011;14
 [Commissioners Regulations](../datasets/a6x3-4y2a.md) | Health | 2013&#x2011;03&#x2011;06
 [Communities potentially eligible for Community Wastewater Management Program funds](../datasets/a9yv-r6p4.md) | Environment | 2013&#x2011;06&#x2011;21
 [Community Board Applications](../datasets/a2rn-4ju4.md) | City Government | 2014&#x2011;03&#x2011;06
-[Community Board Appointments](../datasets/3gkd-ddzn.md) | City Government | 2014&#x2011;03&#x2011;06
+[Community Board Appointments](../datasets/3gkd-ddzn.md) | City Government | 2017&#x2011;09&#x2011;14
 [Community Car Service Vehicles](../datasets/scwj-eyn6.md) | Transportation | 2013&#x2011;06&#x2011;26
 [Community District Breakdowns](../datasets/w3c6-35wg.md) | City Government | 2013&#x2011;06&#x2011;21
 [Community Health Centers](../datasets/b2sp-asbg.md) | City Government | 2013&#x2011;06&#x2011;21
@@ -297,8 +297,8 @@ Name | Category | Published
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2011/2012](../datasets/sjpy-4cc9.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2009/2010](../datasets/9sfa-4geq.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2011/2012](../datasets/2zbg-i8fx.md) | Housing & Development | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | Housing & Development | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | Housing & Development | 2013&#x2011;06&#x2011;26
+[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | Housing & Development | 2017&#x2011;09&#x2011;16
+[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | Housing & Development | 2017&#x2011;09&#x2011;16
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2007](../datasets/hdu7-ujt4.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2008](../datasets/ugc2-6t2g.md) | Housing & Development | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2009](../datasets/5ps9-yuef.md) | Housing & Development | 2013&#x2011;06&#x2011;21
@@ -320,7 +320,7 @@ Name | Category | Published
 [DOP Adult Cases Snapshot by Calendar Year](../datasets/ph29-5mxy.md) | City Government | 2017&#x2011;03&#x2011;08
 [DOP Adult Cases Snapshot by Fiscal Year](../datasets/8dxm-n5ha.md) | City Government | 2016&#x2011;09&#x2011;16
 [DOP Adult Early Discharges by Calendar Year](../datasets/jmr8-fdbz.md) | City Government | 2017&#x2011;03&#x2011;08
-[DOP Adult Early Discharges by Fiscal Year](../datasets/4e8h-wu86.md) | City Government | 2016&#x2011;09&#x2011;16
+[DOP Adult Early Discharges by Fiscal Year](../datasets/4e8h-wu86.md) | City Government | 2017&#x2011;09&#x2011;20
 [DOP Adult Investigations Ordered](../datasets/kkwv-djnk.md) | Public Safety | 2017&#x2011;03&#x2011;31
 [DOP Adult Investigations by Calendar Year](../datasets/k659-gwja.md) | City Government | 2017&#x2011;03&#x2011;08
 [DOP Adult Investigations by Fiscal Year](../datasets/vvym-pu7g.md) | City Government | 2016&#x2011;09&#x2011;16
@@ -340,7 +340,7 @@ Name | Category | Published
 [DOP Juvenile Cases Snapshot by Fiscal Year](../datasets/4epu-t832.md) | City Government | 2016&#x2011;09&#x2011;16
 [DOP Juvenile Intakes by Calendar Year](../datasets/7ree-jtaa.md) | City Government | 2017&#x2011;03&#x2011;08
 [DOP Juvenile Intakes by Fiscal Year](../datasets/ff9v-9yzg.md) | City Government | 2016&#x2011;09&#x2011;16
-[DOP Juvenile Investigations Assigned](../datasets/vk9f-gvzq.md) | Public Safety | 2017&#x2011;04&#x2011;27
+[DOP Juvenile Investigations Assigned](../datasets/vk9f-gvzq.md) | Public Safety | 2017&#x2011;09&#x2011;08
 [DOP Juvenile Investigations by Calendar Year](../datasets/fsis-j6x5.md) | City Government | 2017&#x2011;03&#x2011;08
 [DOP Juvenile Investigations by Fiscal Year](../datasets/3mji-gpg5.md) | City Government | 2016&#x2011;09&#x2011;16
 [DOP Juvenile Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average)](../datasets/7m8q-jgtg.md) | Public Safety | 2017&#x2011;03&#x2011;31
@@ -355,12 +355,12 @@ Name | Category | Published
 [DOP Juvenile Violations of Probation Filed by Fiscal Year](../datasets/mzy5-smmw.md) | City Government | 2016&#x2011;09&#x2011;16
 [DSNY Graffiti Information](../datasets/gpwd-npar.md) | City Government | 2017&#x2011;04&#x2011;08
 [DSNY Monthly Tonnage Data](../datasets/ebb7-mvp5.md) | City Government | 2017&#x2011;04&#x2011;08
-[DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | City Government | 2016&#x2011;02&#x2011;19
+[DSNY's Refuse and Recycling Disposal Networks](../datasets/kzmz-ivhb.md) | City Government | 2017&#x2011;09&#x2011;18
 [DYCD Contractors](../datasets/75e9-fg2t.md) | Social Services | 2013&#x2011;06&#x2011;21
 [DYCD after-school programs](../datasets/mbd7-jfnc.md) | Education | 2011&#x2011;08&#x2011;31
 [DYCD after-school programs: Adolescent Literacy](../datasets/a8rp-fpnn.md) | Education | 2011&#x2011;09&#x2011;02
 [DYCD after-school programs: Beacon Programs](../datasets/35sw-rdxj.md) | Education | 2011&#x2011;08&#x2011;31
-[DYCD after-school programs: Beacon Satellite At NYCHA Programs](../datasets/pyif-r8qe.md) | Education | 2011&#x2011;09&#x2011;01
+[DYCD after-school programs: Beacon Satellite At NYCHA Programs](../datasets/pyif-r8qe.md) | Education | 2017&#x2011;09&#x2011;16
 [DYCD after-school programs: Family Support Programs for Seniors](../datasets/dhs7-q59e.md) | Social Services | 2013&#x2011;06&#x2011;21
 [DYCD after-school programs: Fatherhood](../datasets/esw6-z4id.md) | Social Services | 2013&#x2011;06&#x2011;21
 [DYCD after-school programs: Health Stat](../datasets/9f5k-vxxv.md) | Social Services | 2013&#x2011;06&#x2011;21
@@ -370,11 +370,11 @@ Name | Category | Published
 [DYCD after-school programs: Jobs and Internships](../datasets/99br-frp6.md) | Education | 2011&#x2011;09&#x2011;01
 [DYCD after-school programs: NDA Adult Literacy Programs](../datasets/ia9u-k3t3.md) | Education | 2011&#x2011;09&#x2011;02
 [DYCD after-school programs: NDA Family Literacy](../datasets/k3qa-jvkc.md) | Education | 2011&#x2011;09&#x2011;02
-[DYCD after-school programs: NDA Youth Employment Programs](../datasets/mrxb-9w9v.md) | Education | 2011&#x2011;09&#x2011;01
+[DYCD after-school programs: NDA Youth Employment Programs](../datasets/mrxb-9w9v.md) | Education | 2017&#x2011;09&#x2011;16
 [DYCD after-school programs: Neighborhood Development Area (NDA) Family Support](../datasets/chv4-k4fa.md) | Education | 2011&#x2011;09&#x2011;06
-[DYCD after-school programs: OSY Out Of School Youth Employment Programs](../datasets/36hn-wea6.md) | Education | 2011&#x2011;09&#x2011;01
+[DYCD after-school programs: OSY Out Of School Youth Employment Programs](../datasets/36hn-wea6.md) | Education | 2017&#x2011;09&#x2011;14
 [DYCD after-school programs: Out Of School Time](../datasets/uvks-tn5n.md) | Education | 2011&#x2011;08&#x2011;31
-[DYCD after-school programs: Reading And Writing Literacy Programs](../datasets/w9cy-nnma.md) | Education | 2011&#x2011;09&#x2011;02
+[DYCD after-school programs: Reading And Writing Literacy Programs](../datasets/w9cy-nnma.md) | Education | 2017&#x2011;09&#x2011;15
 [DYCD after-school programs: Runaway And Homeless Youth](../datasets/ujsc-un6m.md) | Social Services | 2013&#x2011;06&#x2011;21
 [DYCD after-school programs: Teen ACTION Programs](../datasets/fijd-wye8.md) | Education | 2011&#x2011;09&#x2011;01
 [DYCD after-school programs: Young Adult Internship Programs](../datasets/73bd-vkmx.md) | Education | 2011&#x2011;09&#x2011;01
@@ -390,7 +390,7 @@ Name | Category | Published
 [Denied licensees and registrants for trade waste](../datasets/5t7n-dizh.md) | Business | 2013&#x2011;06&#x2011;21
 [Denied registrants in the wholesale markets](../datasets/35f6-8qd2.md) | Business | 2013&#x2011;06&#x2011;21
 [Derelict Vehicle Dispositions - Tow](../datasets/vr8p-8shw.md) | City Government | 2017&#x2011;04&#x2011;08
-[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | City Government | 2017&#x2011;06&#x2011;08
+[Derelict Vehicle Dispositions - Vehicles](../datasets/bjuu-44hx.md) | City Government | 2017&#x2011;09&#x2011;11
 [Derelict Vehicles Dispositions - Complaints](../datasets/pq5i-thsu.md) | City Government | 2017&#x2011;04&#x2011;08
 [Derelict Vehicles Dispositions - Rentals](../datasets/v6j6-k9uc.md) | City Government | 2017&#x2011;04&#x2011;08
 [Directory Of Adult Shelter Performance Ranking FY 2011 Q3 2011 Q4](../datasets/jhn3-4vdj.md) | Social Services | 2013&#x2011;01&#x2011;31
@@ -425,7 +425,7 @@ Name | Category | Published
 [Directory of Family Justice Centers](../datasets/xggi-kgx9.md) | Social Services | 2013&#x2011;03&#x2011;19
 [Directory of Food Stamp Centers](../datasets/tc6u-8rnp.md) | Social Services | 2013&#x2011;03&#x2011;19
 [Directory of Hospitals with Domestic Violence Coordinators](../datasets/22b5-sytd.md) | Social Services | 2013&#x2011;03&#x2011;19
-[Directory of NYCHA Community Facilities](../datasets/crns-fw6u.md) | Social Services | 2013&#x2011;03&#x2011;29
+[Directory of NYCHA Community Facilities](../datasets/crns-fw6u.md) | Social Services | 2017&#x2011;09&#x2011;16
 [Directory of Parks Disability Accessibility Facilities and Programs](../datasets/e4ej-j6hn.md) | Recreation | 2013&#x2011;06&#x2011;26
 [Directory of Senior News Services in NYCHA Journal](../datasets/hfac-j85r.md) | Social Services | 2013&#x2011;02&#x2011;13
 [Directory of Tennis Permit Fees](../datasets/9n2n-hkug.md) | Recreation | 2013&#x2011;06&#x2011;21
@@ -684,7 +684,7 @@ Name | Category | Published
 [Licensing Center Customer Information](../datasets/azp6-hepu.md) | Business | 2016&#x2011;07&#x2011;13
 [Lincoln Square BID Business List](../datasets/ne9f-g6k4.md) | Business | 2013&#x2011;06&#x2011;21
 [LinkNYC Locations](../datasets/s4kf-3yrf.md) | Social Services | 2017&#x2011;04&#x2011;20
-[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | Social Services | 2017&#x2011;06&#x2011;01
+[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | Social Services | 2017&#x2011;07&#x2011;26
 [LinkNYC Usage Statistics](../datasets/69wu-b929.md) |  | 2017&#x2011;04&#x2011;20
 [List Of Cases Filed By Type At OATH](../datasets/s7vy-wmm7.md) | City Government | 2013&#x2011;06&#x2011;21
 [List Of Total Cases Filed At OATH](../datasets/j8uz-fizu.md) | City Government | 2013&#x2011;06&#x2011;21
@@ -768,15 +768,15 @@ Name | Category | Published
 [NYC Open Data Removed Datasets](../datasets/avwh-jmzt.md) | City Government | 2016&#x2011;06&#x2011;08
 [NYC OpenRecords ? FOIL Request Data](../datasets/9m35-jch2.md) | City Government | 2016&#x2011;04&#x2011;05
 [NYC Parks Monuments](../datasets/6rrm-vxj9.md) | Recreation | 2016&#x2011;09&#x2011;19
-[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | City Government | 2017&#x2011;06&#x2011;08
+[NYC Permitted Event Information](../datasets/tvpp-9vvx.md) | City Government | 2017&#x2011;09&#x2011;24
 [NYC REACH Members](../datasets/7btz-mnc8.md) | Health | 2017&#x2011;01&#x2011;21
 [NYC Results On The New York State Math Test (2013-14 And 2014-15) With Math Regents Included](../datasets/xw3c-8982.md) |  | 2016&#x2011;03&#x2011;14
 [NYC School meals income levels](../datasets/h7mf-hrsw.md) | Health | 2013&#x2011;03&#x2011;19
 [NYC Service: Volunteer Opportunities](../datasets/bquu-z2ht.md) | Social Services | 2013&#x2011;06&#x2011;21
 [NYC Social Media Usage](../datasets/5b3a-rs48.md) | Recreation | 2013&#x2011;06&#x2011;21
 [NYC Taxi and Limousine Commission authorized Dispatch Service Providers (DSP)](../datasets/2n4x-d97d.md) | Transportation | 2016&#x2011;12&#x2011;21
-[NYC Wi-Fi Hotspot Locations](../datasets/yjub-udmw.md) | City Government | 2017&#x2011;04&#x2011;10
-[NYC Women's Resource Network Database](../datasets/pqg4-dm6b.md) | Social Services | 2011&#x2011;10&#x2011;08
+[NYC Wi-Fi Hotspot Locations](../datasets/yjub-udmw.md) | City Government | 2017&#x2011;08&#x2011;11
+[NYC Women's Resource Network Database](../datasets/pqg4-dm6b.md) | Social Services | 2017&#x2011;09&#x2011;22
 [NYC Zoning Tax Lot Database](../datasets/fdkv-4t4z.md) | City Government | 2017&#x2011;03&#x2011;09
 [NYC.gov Web Analytics](../datasets/d5zb-ragj.md) | City Government | 2016&#x2011;11&#x2011;30
 [NYCDCP Manhattan Bike Counts - Off Street](../datasets/mfmf-gtvc.md) | Transportation | 2016&#x2011;09&#x2011;12
@@ -890,7 +890,7 @@ Name | Category | Published
 [Public Recycling Bins](../datasets/sxx4-xhzg.md) | Environment | 2013&#x2011;06&#x2011;21
 [Quality Of Life Indicators](../datasets/8hkx-uppz.md) | City Government | 2013&#x2011;06&#x2011;26
 [Quality Review 2005-2012](../datasets/piri-jns7.md) | Education | 2013&#x2011;02&#x2011;21
-[Queens Library Branches](../datasets/kh3d-xhq7.md) | Recreation | 2013&#x2011;06&#x2011;21
+[Queens Library Branches](../datasets/kh3d-xhq7.md) | Recreation | 2017&#x2011;09&#x2011;16
 [Race Of Alleged Victims Compared To New York City Demographics 2005 - 2009](../datasets/pfbw-d97h.md) | Public Safety | 2011&#x2011;09&#x2011;29
 [Race Of Victims Whose Allegations Were Substantiated 2005 - 2009](../datasets/x8rc-3utf.md) | Public Safety | 2011&#x2011;09&#x2011;29
 [Race of Officers against whom Allegations were Substantiated](../datasets/cj5g-iwxb.md) | City Government | 2013&#x2011;06&#x2011;21

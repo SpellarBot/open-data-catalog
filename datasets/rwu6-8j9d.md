@@ -63,11 +63,11 @@ Excluded Fields = alm_time,latitude,longitude
 ## Data Commands
 
 ```ls
-series e:rwu6-8j9d d:2013-06-14T00:00:00.000Z t:zip=6112 t:mutl_aid=N t:station=16 t:occup_id=5701 t:street=VINE t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:inci_type=321 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=32100 t:shift=A t:inci_no=13-0165020 m:number=500 m:alarms=1
+series e:rwu6-8j9d d:2013-06-14T00:00:00.000Z t:zip=6112 t:city=Hartford t:shift=A t:st_type=ST t:occup_id=5701 t:inci_no=13-0165020 t:alm_type=1 t:mutl_aid=N t:street=VINE t:inci_type=321 t:station=16 t:state=CT t:descript="EMS call, excluding vehicle accident with injury" t:objectid=32100 m:number=500 m:alarms=1
 
-series e:rwu6-8j9d d:2012-10-26T00:00:00.000Z t:zip=6105 t:mutl_aid=N t:station=11 t:occup_id=19549 t:street=SISSON t:state=CT t:descript="Medical assist, assist EMS crew" t:inci_type=311 t:city=Hartford t:alm_type=1 t:st_type=AV t:objectid=18015 t:shift=B t:inci_no=12-0300023 m:number=170 m:alarms=1
+series e:rwu6-8j9d d:2012-10-26T00:00:00.000Z t:zip=6105 t:city=Hartford t:shift=B t:st_type=AV t:occup_id=19549 t:inci_no=12-0300023 t:alm_type=1 t:mutl_aid=N t:street=SISSON t:inci_type=311 t:station=11 t:state=CT t:descript="Medical assist, assist EMS crew" t:objectid=18015 m:number=170 m:alarms=1
 
-series e:rwu6-8j9d d:2012-07-28T00:00:00.000Z t:zip=6114 t:mutl_aid=N t:station=15 t:occup_id=33109 t:street=KENNETH t:state=CT t:descript="False alarm or false call, Other" t:inci_type=700 t:city=Hartford t:alm_type=1 t:st_type=ST t:objectid=12578 t:shift=D t:inci_no=12-0210049 m:number=8 m:alarms=1
+series e:rwu6-8j9d d:2012-07-28T00:00:00.000Z t:zip=6114 t:city=Hartford t:shift=D t:st_type=ST t:occup_id=33109 t:inci_no=12-0210049 t:alm_type=1 t:mutl_aid=N t:street=KENNETH t:inci_type=700 t:station=15 t:state=CT t:descript="False alarm or false call, Other" t:objectid=12578 m:number=8 m:alarms=1
 ```
 
 ## Meta Commands
@@ -79,11 +79,11 @@ metric m:alarms p:integer l:alarms t:dataTypeName=number
 
 entity e:rwu6-8j9d l:GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013 t:url=https://data.hartford.gov/api/views/rwu6-8j9d
 
-property e:rwu6-8j9d t:meta.view d:2017-06-09T14:00:18.673Z v:id=rwu6-8j9d v:averageRating=0 v:name=GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013
+property e:rwu6-8j9d t:meta.view d:2017-09-25T07:31:36.508Z v:averageRating=0 v:name=GISADMIN.SOCRATA_FIRE_INCIDENTS_01012012_12312013 v:id=rwu6-8j9d
 
-property e:rwu6-8j9d t:meta.view.owner d:2017-06-09T14:00:18.673Z v:id=cdqe-xcn5 v:screenName=Brett v:displayName=Brett
+property e:rwu6-8j9d t:meta.view.owner d:2017-09-25T07:31:36.508Z v:displayName=Brett v:id=cdqe-xcn5 v:screenName=Brett
 
-property e:rwu6-8j9d t:meta.view.tableauthor d:2017-06-09T14:00:18.673Z v:id=cdqe-xcn5 v:screenName=Brett v:roleName=administrator v:displayName=Brett
+property e:rwu6-8j9d t:meta.view.tableauthor d:2017-09-25T07:31:36.508Z v:displayName=Brett v:roleName=administrator v:id=cdqe-xcn5 v:screenName=Brett
 ```
 
 ## Top Records

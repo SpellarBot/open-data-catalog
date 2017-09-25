@@ -82,11 +82,11 @@ Excluded Fields = xcoord,ycoord
 ## Data Commands
 
 ```ls
-series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=RTD_GPS t:pic=.\CCH_Signs\Images\2.jpg t:pole_type="Traffic Signals w/Pedestrian Signals" t:signmsg1="SPEED LIMIT [25] (R2-1)" t:point_id=2 t:signclr1="Black on White" m:horiz_gap=0 m:numplates=1 m:height_in=8 m:offset=0 m:height_ft=6
+series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:signclr1="Black on White" t:point_id=2 t:signmsg1="SPEED LIMIT [25] (R2-1)" t:pic=.\CCH_Signs\Images\2.jpg t:inventory=RTD_GPS t:pole_type="Traffic Signals w/Pedestrian Signals" m:height_ft=6 m:offset=0 m:horiz_gap=0 m:numplates=1 m:height_in=8
 
-series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=Adjusted t:pic=.\CCH_Signs\Images\3.jpg t:pole_type="Street Light Standard" t:signmsg1="1 HR PARKING [7 AM TO 3:30 PM MON THRU FRI, 7 AM TO 6PM SATURDAYS EXCEPT SUNDAYS STATE HOLIDAYS] (R7-108)" t:signclr2="Red on White" t:comments="GPS point visually adjusted to aerial image" t:point_id=3 t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr1="Green on White" m:horiz_gap=0 m:numplates=2 m:height_in=2 m:offset=0 m:height_ft=7
+series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:signclr1="Green on White" t:point_id=3 t:comments="GPS point visually adjusted to aerial image" t:signclr2="Red on White" t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signmsg1="1 HR PARKING [7 AM TO 3:30 PM MON THRU FRI, 7 AM TO 6PM SATURDAYS EXCEPT SUNDAYS STATE HOLIDAYS] (R7-108)" t:pic=.\CCH_Signs\Images\3.jpg t:inventory=Adjusted t:pole_type="Street Light Standard" m:height_ft=7 m:offset=0 m:horiz_gap=0 m:numplates=2 m:height_in=2
 
-series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:inventory=Adjusted t:material2="Diamond Grade" t:pic=.\CCH_Signs\Images\4.jpg t:pole_type=Round t:signmsg1="FREIGHT LOADING ZONE - [7:00 AM TO 3:30 PM MON THRU FRI, 7:00 AM TO 4:00 PM SATURDAYS EXCEPT SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr2="Red on White" t:comments="GPS point visually adjusted to aerial image" t:point_id=4 t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signclr1="Red on White" m:horiz_gap=0 m:numplates=2 m:dateinstl2=7012008 m:height_in=2.5 m:offset=0 m:height_ft=7
+series e:8hqv-tn8i d:2011-12-15T00:00:00.000Z t:signclr1="Red on White" t:point_id=4 t:material2="Diamond Grade" t:comments="GPS point visually adjusted to aerial image" t:signclr2="Red on White" t:signmsg2="TOW-AWAY ZONE [3:30 PM TO 5:30 PM EXCEPT SATURDAYS SUNDAYS AND STATE HOLIDAYS] (R9)" t:signmsg1="FREIGHT LOADING ZONE - [7:00 AM TO 3:30 PM MON THRU FRI, 7:00 AM TO 4:00 PM SATURDAYS EXCEPT SUNDAYS AND STATE HOLIDAYS] (R9)" t:pic=.\CCH_Signs\Images\4.jpg t:inventory=Adjusted t:pole_type=Round m:height_ft=7 m:offset=0 m:horiz_gap=0 m:numplates=2 m:dateinstl2=7012008 m:height_in=2.5
 ```
 
 ## Meta Commands
@@ -116,11 +116,11 @@ metric m:horiz_gap p:integer l:Horiz_Gap t:dataTypeName=number
 
 entity e:8hqv-tn8i l:"DTS/DFM Sign Inventory - Fort St. to River St.  as of: 2014-08-07" t:url=https://data.honolulu.gov/api/views/8hqv-tn8i
 
-property e:8hqv-tn8i t:meta.view d:2017-06-09T13:53:34.052Z v:id=8hqv-tn8i v:category=Transportation v:averageRating=0 v:name="DTS/DFM Sign Inventory - Fort St. to River St.  as of: 2014-08-07"
+property e:8hqv-tn8i t:meta.view d:2017-09-25T07:24:56.160Z v:averageRating=0 v:name="DTS/DFM Sign Inventory - Fort St. to River St.  as of: 2014-08-07" v:id=8hqv-tn8i v:category=Transportation
 
-property e:8hqv-tn8i t:meta.view.owner d:2017-06-09T13:53:34.052Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:displayName="Karl Sueyoshi"
+property e:8hqv-tn8i t:meta.view.owner d:2017-09-25T07:24:56.160Z v:displayName="Karl Sueyoshi" v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 
-property e:8hqv-tn8i t:meta.view.tableauthor d:2017-06-09T13:53:34.052Z v:id=b4zr-4dtj v:screenName="Karl Sueyoshi" v:roleName=administrator v:displayName="Karl Sueyoshi"
+property e:8hqv-tn8i t:meta.view.tableauthor d:2017-09-25T07:24:56.160Z v:displayName="Karl Sueyoshi" v:roleName=publisher v:id=b4zr-4dtj v:screenName="Karl Sueyoshi"
 ```
 
 ## Top Records

@@ -15,7 +15,7 @@
 | Category | City Government |
 | Tags | event, to do, activity, park, block party, festival, nyc permitted event information, otm, office of the mayor |
 | Created | 2013-11-06T18:26:59Z |
-| Publication Date | 2017-06-08T19:42:07Z |
+| Publication Date | 2017-09-24T20:32:02Z |
 
 ## Description
 
@@ -56,11 +56,11 @@ Excluded Fields = end_date_time
 ## Data Commands
 
 ```ls
-series e:tvpp-9vvx d:2017-06-08T10:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Parks Department" t:event_id=317055 t:event_location="Riverside Park South: Locomotive Picnic Area" t:street_closure_type=N/A t:community_board=7, t:event_name="Locomotive Lawn Live" t:police_precinct=20, m:row_number.tvpp-9vvx=1
+series e:tvpp-9vvx d:2017-10-14T00:00:00.000Z t:event_agency="Parks Department" t:event_borough=Manhattan t:event_id=317411 t:event_type="Special Event" t:police_precinct="20, 24," t:event_location="Riverside Park: Promenade Lower - 79th-95th Streets ,Riverside Park: Promenade 100th-110th Street-RSP" t:community_board="7, 9," t:event_name="CaringKind Alzheimer's Walk" t:street_closure_type=N/A m:row_number.tvpp-9vvx=1
 
-series e:tvpp-9vvx d:2017-06-15T10:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Parks Department" t:event_id=317055 t:event_location="Riverside Park South: Locomotive Picnic Area" t:street_closure_type=N/A t:community_board=7, t:event_name="Locomotive Lawn Live" t:police_precinct=20, m:row_number.tvpp-9vvx=2
+series e:tvpp-9vvx d:2017-10-15T00:00:00.000Z t:event_agency="Parks Department" t:event_borough=Manhattan t:event_id=317411 t:event_type="Special Event" t:police_precinct="20, 24," t:event_location="Riverside Park: Promenade Lower - 79th-95th Streets ,Riverside Park: Promenade 100th-110th Street-RSP" t:community_board="7, 9," t:event_name="CaringKind Alzheimer's Walk" t:street_closure_type=N/A m:row_number.tvpp-9vvx=2
 
-series e:tvpp-9vvx d:2017-06-22T10:00:00.000Z t:event_borough=Manhattan t:event_type="Special Event" t:event_agency="Parks Department" t:event_id=317055 t:event_location="Riverside Park South: Locomotive Picnic Area" t:street_closure_type=N/A t:community_board=7, t:event_name="Locomotive Lawn Live" t:police_precinct=20, m:row_number.tvpp-9vvx=3
+series e:tvpp-9vvx d:2017-09-28T18:00:00.000Z t:event_agency="Parks Department" t:event_borough=Manhattan t:event_id=317494 t:event_type="Special Event" t:police_precinct=5, t:event_location="Thomas Paine Park (Foley Square): Thomas Paine Park (Foley Square)" t:community_board=1, t:event_name="The Lesbian and Gay Big Apple Corps Rehearsal" t:street_closure_type=N/A m:row_number.tvpp-9vvx=3
 ```
 
 ## Meta Commands
@@ -70,26 +70,26 @@ metric m:row_number.tvpp-9vvx p:long l:"Row Number"
 
 entity e:tvpp-9vvx l:"NYC Permitted Event Information" t:attribution="Office of Citywide Event Coordination and Management (CECM)" t:url=https://data.cityofnewyork.us/api/views/tvpp-9vvx
 
-property e:tvpp-9vvx t:meta.view d:2017-06-09T14:00:21.238Z v:id=tvpp-9vvx v:category="City Government" v:averageRating=0 v:name="NYC Permitted Event Information" v:attribution="Office of Citywide Event Coordination and Management (CECM)"
+property e:tvpp-9vvx t:meta.view d:2017-09-25T07:31:39.192Z v:averageRating=0 v:name="NYC Permitted Event Information" v:attribution="Office of Citywide Event Coordination and Management (CECM)" v:id=tvpp-9vvx v:category="City Government"
 
-property e:tvpp-9vvx t:meta.view.owner d:2017-06-09T14:00:21.238Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:tvpp-9vvx t:meta.view.owner d:2017-09-25T07:31:39.192Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:tvpp-9vvx t:meta.view.tableauthor d:2017-06-09T14:00:21.238Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:tvpp-9vvx t:meta.view.tableauthor d:2017-09-25T07:31:39.192Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records
 
 ```ls
-| event_id | event_name                                       | start_date_time     | end_date_time       | event_agency     | event_type    | event_borough | event_location                                             | event_street_side | street_closure_type | community_board | police_precinct | 
-| ======== | ================================================ | =================== | =================== | ================ | ============= | ============= | ========================================================== | ================= | =================== | =============== | =============== | 
-| 317055   | Locomotive Lawn Live                             | 2017-06-08T10:00:00 | 2017-06-08T11:00:00 | Parks Department | Special Event | Manhattan     | Riverside Park South: Locomotive Picnic Area               |                   | N/A                 | 7,              | 20,             | 
-| 317055   | Locomotive Lawn Live                             | 2017-06-15T10:00:00 | 2017-06-15T11:00:00 | Parks Department | Special Event | Manhattan     | Riverside Park South: Locomotive Picnic Area               |                   | N/A                 | 7,              | 20,             | 
-| 317055   | Locomotive Lawn Live                             | 2017-06-22T10:00:00 | 2017-06-22T11:00:00 | Parks Department | Special Event | Manhattan     | Riverside Park South: Locomotive Picnic Area               |                   | N/A                 | 7,              | 20,             | 
-| 317055   | Locomotive Lawn Live                             | 2017-06-29T10:00:00 | 2017-06-29T11:00:00 | Parks Department | Special Event | Manhattan     | Riverside Park South: Locomotive Picnic Area               |                   | N/A                 | 7,              | 20,             | 
-| 317060   | Harlem Dances                                    | 2017-06-16T18:00:00 | 2017-06-16T20:00:00 | Parks Department | Special Event | Manhattan     | West Harlem Piers: Marginal Street Between 125th 123rd St. |                   | N/A                 | 9,              | 26,             | 
-| 317065   | Only in Queens Festival - Queens Summer Festival | 2017-06-11T13:00:00 | 2017-06-11T20:30:00 | Parks Department | Special Event | Queens        | Flushing Meadows Corona Park: Festival Site                |                   | N/A                 | 81,             | 110,            | 
-| 317071   | Friday Freshen Up                                | 2017-06-30T19:00:00 | 2017-06-30T20:00:00 | Parks Department | Special Event | Manhattan     | West Harlem Piers: Marginal Street Between 125th 123rd St. |                   | N/A                 | 9,              | 26,             | 
-| 317081   | Celebration                                      | 2017-06-24T11:30:00 | 2017-06-24T13:30:00 | Parks Department | Special Event | Manhattan     | Central Park: Cop Cot                                      |                   | N/A                 | 64,             | 22,             | 
-| 317086   | Celebration                                      | 2017-06-24T12:00:00 | 2017-06-24T16:00:00 | Parks Department | Special Event | Manhattan     | Riverside Park: Skate Park Plaza-RSP                       |                   | N/A                 | 9,              | 24,             | 
-| 317093   | B-SIDE MUSIC                                     | 2017-06-10T15:00:00 | 2017-06-10T19:00:00 | Parks Department | Special Event | Brooklyn      | Fulton Park: Plaza                                         |                   | N/A                 | 3,              | 81,             | 
+| event_id | event_name                                    | start_date_time     | end_date_time       | event_agency     | event_type    | event_borough | event_location                                                                                        | event_street_side | street_closure_type | community_board | police_precinct | 
+| ======== | ============================================= | =================== | =================== | ================ | ============= | ============= | ===================================================================================================== | ================= | =================== | =============== | =============== | 
+| 317411   | CaringKind Alzheimer's Walk                   | 2017-10-14T00:00:00 | 2017-10-14T23:59:00 | Parks Department | Special Event | Manhattan     | Riverside Park: Promenade Lower - 79th-95th Streets ,Riverside Park: Promenade 100th-110th Street-RSP |                   | N/A                 | 7, 9,           | 20, 24,         | 
+| 317411   | CaringKind Alzheimer's Walk                   | 2017-10-15T00:00:00 | 2017-10-15T23:59:00 | Parks Department | Special Event | Manhattan     | Riverside Park: Promenade Lower - 79th-95th Streets ,Riverside Park: Promenade 100th-110th Street-RSP |                   | N/A                 | 7, 9,           | 20, 24,         | 
+| 317494   | The Lesbian and Gay Big Apple Corps Rehearsal | 2017-09-28T18:00:00 | 2017-09-28T22:00:00 | Parks Department | Special Event | Manhattan     | Thomas Paine Park (Foley Square): Thomas Paine Park (Foley Square)                                    |                   | N/A                 | 1,              | 5,              | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-09-25T08:00:00 | 2017-09-25T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-09-27T08:00:00 | 2017-09-27T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-09-29T08:00:00 | 2017-09-29T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-09-30T08:00:00 | 2017-09-30T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-10-02T08:00:00 | 2017-10-02T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-10-04T08:00:00 | 2017-10-04T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
+| 317499   | (2017) Green Market (Jan - Dec)               | 2017-10-06T08:00:00 | 2017-10-06T20:00:00 | Parks Department | Special Event | Manhattan     | Union Square Park: North Plaza                                                                        |                   | N/A                 | 5,              | 13,             | 
 ```

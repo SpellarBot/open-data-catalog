@@ -14,7 +14,7 @@
 | Attribution | Department of Sanitation (DSNY) |
 | Category | City Government |
 | Created | 2015-05-22T20:26:01Z |
-| Publication Date | 2017-06-08T19:46:42Z |
+| Publication Date | 2017-09-11T15:11:58Z |
 
 ## Description
 
@@ -29,7 +29,6 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 ```ls
 | Included | Schema Type    | Field Name          | Name                | Data Type | Render Type |
 | ======== | ============== | =================== | =================== | ========= | =========== |
-| No       | time           | :updated_at         | updated_at          | meta_data | meta_data   |
 | Yes      | series tag     | isn                 | ISN                 | text      | number      |
 | Yes      | series tag     | dvv_yard_resp       | DVV_YARD_RESP       | text      | text        |
 | Yes      | series tag     | dvv_district_cd     | DVV_DISTRICT_CD     | text      | text        |
@@ -37,7 +36,7 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | numeric metric | dvv_464_upd_cnt     | DVV_464_UPD_CNT     | number    | number      |
 | Yes      | series tag     | dvv_tag_loc1        | DVV_TAG_LOC1        | text      | text        |
 | Yes      | series tag     | dvv_tag_loc2        | DVV_TAG_LOC2        | text      | text        |
-| No       |                | dvv_year            | DVV_YEAR            | text      | number      |
+| Yes      | series tag     | dvv_year            | DVV_YEAR            | text      | number      |
 | Yes      | series tag     | dvv_make            | DVV_MAKE            | text      | text        |
 | Yes      | series tag     | dvv_type            | DVV_TYPE            | text      | text        |
 | Yes      | series tag     | dvv_color           | DVV_COLOR           | text      | text        |
@@ -46,12 +45,12 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | No       |                | dvv_tag_date        | DVV_TAG_DATE        | text      | number      |
 | No       |                | dvv_tag_time        | DVV_TAG_TIME        | number    | number      |
 | Yes      | numeric metric | dvv_prev_463        | DVV_PREV_463        | number    | number      |
-| Yes      | numeric metric | dvv_timestmp        | DVV_TIMESTMP        | number    | number      |
+| Yes      | time           | dvv_timestmp        | DVV_TIMESTMP        | number    | number      |
 | Yes      | series tag     | dvv_filler3         | DVV_FILLER3         | text      | text        |
 | Yes      | numeric metric | dvv_filler4         | DVV_FILLER4         | number    | number      |
 | Yes      | series tag     | dvv_print_flag      | DVV_PRINT_FLAG      | text      | text        |
 | No       |                | dvv_checked_date    | DVV_CHECKED_DATE    | text      | number      |
-| Yes      | numeric metric | dvv_timestmp_upd    | DVV_TIMESTMP_UPD    | number    | number      |
+| No       |                | dvv_timestmp_upd    | DVV_TIMESTMP_UPD    | number    | number      |
 | No       |                | dvv_final_disp_date | DVV_FINAL_DISP_DATE | text      | number      |
 | Yes      | series tag     | dvv_final_disp_cd   | DVV_FINAL_DISP_CD   | text      | text        |
 | Yes      | series tag     | dvv_464_make        | DVV_464_MAKE        | text      | text        |
@@ -66,7 +65,7 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | series tag     | dvv_chrge_48        | DVV_CHRGE_48        | text      | text        |
 | Yes      | series tag     | dvv_challenge_48    | DVV_CHALLENGE_48    | text      | text        |
 | Yes      | series tag     | dvv_hq_approve      | DVV_HQ_APPROVE      | text      | text        |
-| Yes      | numeric metric | dvv_vin_timestmp    | DVV_VIN_TIMESTMP    | number    | number      |
+| No       |                | dvv_vin_timestmp    | DVV_VIN_TIMESTMP    | number    | number      |
 | Yes      | series tag     | dvv_rental_find     | DVV_RENTAL_FIND     | text      | text        |
 | Yes      | series tag     | dvv_rental_indic    | DVV_RENTAL_INDIC    | text      | text        |
 | Yes      | series tag     | dvv_city            | DVV_CITY            | text      | text        |
@@ -75,9 +74,9 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 | Yes      | series tag     | dvv_lor_indic       | DVV_LOR_INDIC       | text      | text        |
 | Yes      | numeric metric | dvv_dot             | DVV_DOT             | number    | number      |
 | Yes      | numeric metric | dvv_kdvo_cnt        | DVV_KDVO_CNT        | number    | number      |
-| Yes      | numeric metric | dvv_nicb_timestmp   | DVV_NICB_TIMESTMP   | number    | number      |
+| No       |                | dvv_nicb_timestmp   | DVV_NICB_TIMESTMP   | number    | number      |
 | Yes      | numeric metric | dvv_summons         | DVV_SUMMONS         | number    | number      |
-| Yes      | series tag     | dvv_yd_sub_contr    | DVV_YD_SUB_CONTR    | text      | text        |
+| Yes      | numeric metric | dvv_yd_sub_contr    | DVV_YD_SUB_CONTR    | number    | text        |
 | Yes      | series tag     | dvv_last_upd_opid   | DVV_LAST_UPD_OPID   | text      | text        |
 | Yes      | numeric metric | dvv_rotow_tagno     | DVV_ROTOW_TAGNO     | number    | number      |
 | Yes      | series tag     | dvv_acc_logno       | DVV_ACC_LOGNO       | text      | text        |
@@ -86,75 +85,69 @@ https://data.cityofnewyork.us/City-Government/Derelict-Vehicles-Dispositions-Ren
 ## Time Field
 
 ```ls
-Value = updated_at
-Format & Zone = seconds
+Value = dvv_timestmp
+Format & Zone = yyyyMMddHHmmss
 ```
 
 ## Series Fields
 
 ```ls
-Excluded Fields = dvv_year,dvv_tag_date,dvv_tag_time,dvv_checked_date,dvv_final_disp_date
+Excluded Fields = dvv_tag_time,dvv_checked_date,dvv_timestmp_upd,dvv_final_disp_date,dvv_vin_timestmp,dvv_nicb_timestmp,dvv_tag_date
 ```
 
 ## Data Commands
 
 ```ls
-series e:bjuu-44hx d:2017-06-08T19:30:08.000Z t:dvv_print_flag=F t:dvv_464_color=BLACK t:dvv_tag_remarks="EMERGENCY TOW" t:isn=1 t:dvv_tag_loc1="AVENUE P & E 4TH ST" t:dvv_color=BLACK t:dvv_464_make=VOLVO t:dvv_type=4D t:dvv_final_disp_cd=NOL t:dvv_make=VOLVO t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=1 t:dvv_464_type=4D m:dvv_timestmp=19891117162634 m:dvv_timestmp_upd=19970606070052
+series e:bjuu-44hx d:1997-07-04T22:15:21.000Z t:isn=11 t:dvv_district_cd=ME11 t:dvv_hq_approve=X t:dvv_464_color=BLACK t:dvv_464_make=DODGE t:dvv_type=4D t:dvv_year=1985 t:dvv_yard_resp=DVO1A t:dvv_color=BLACK t:dvv_907_no=D40620B t:dvv_se_status=V t:dvv_464_type=4D t:dvv_tag_no=1072203 t:dvv_tag_remarks=7A-7P t:dvv_tag_loc2="2 AVE - 3 AVE" t:dvv_print_flag=F t:dvv_challenge_48=N t:dvv_tag_loc1="S/S E 126 ST" t:dvv_lor_indic=A t:dvv_over48_ind=N t:dvv_make=CHRYSL t:dvv_state=NY t:dvv_city="NEW YORK" t:dvv_chrge_48=N t:dvv_final_disp_cd=RTC m:dvv_summons=96754947
 
-series e:bjuu-44hx d:2017-06-08T19:30:08.000Z t:dvv_print_flag=F t:dvv_464_color=BURNT t:dvv_tag_loc2="IFO DUNKIN DONUTS" t:dvv_tag_remarks="NORTH SIDE OF STREET" t:isn=2 t:dvv_tag_loc1="WOODSIDE/61ST ST" t:dvv_color=BURNT t:dvv_464_make=DATSUN t:dvv_type=2D t:dvv_final_disp_cd=AAA t:dvv_make=DATSUN t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=2 t:dvv_464_type=2D m:dvv_timestmp=19891120113336 m:dvv_timestmp_upd=19900711055802
+series e:bjuu-44hx d:1997-11-24T22:36:42.000Z t:dvv_color=BLUE t:dvv_907_no=D53346B t:isn=42 t:dvv_se_status=S t:dvv_464_type=4D t:dvv_district_cd=BKN05 t:dvv_tag_no=3106736 t:dvv_hq_approve=X t:dvv_tag_remarks="NO PARKING" t:dvv_tag_loc2="PITKIN X GLENMORE" t:dvv_print_flag=F t:dvv_challenge_48=N t:dvv_tag_loc1="INF 236 WYONA" t:dvv_464_color=GREEN t:dvv_464_make=HONDA t:dvv_type=4D t:dvv_over48_ind=N t:dvv_make=HONDA t:dvv_year=1995 t:dvv_yard_resp=DVO3A t:dvv_chrge_48=N t:dvv_final_disp_cd=RTC m:dvv_yd_sub_contr=2
 
-series e:bjuu-44hx d:2017-06-08T19:30:08.000Z t:dvv_print_flag=F t:dvv_464_color=GREEN t:dvv_tag_loc2=STREET t:isn=3 t:dvv_tag_loc1=LOCATION t:dvv_color=GREEN t:dvv_464_make=OLDS t:dvv_type=SW t:dvv_final_disp_cd=RTC t:dvv_make=OLDS t:dvv_district_cd=TRN01 t:dvv_yard_resp=DVO999 t:dvv_tag_no=5 t:dvv_464_type=SW m:dvv_timestmp=19891120103827
+series e:bjuu-44hx d:1995-09-05T06:18:41.000Z t:isn=44 t:dvv_district_cd=MW04 t:dvv_hq_approve=X t:dvv_464_color=RED t:dvv_464_make=SUBARU t:dvv_type=SW t:dvv_year=1982 t:dvv_yard_resp=DVO1A t:dvv_color=RED t:dvv_907_no=C46564Y t:dvv_se_status=V t:dvv_464_type=SW t:dvv_tag_no=1064107 t:dvv_tag_remarks=8A/6P t:dvv_tag_loc2="OPP.448 WEST 16" t:dvv_print_flag=F t:dvv_challenge_48=N t:dvv_tag_loc1="N/S 16 TH ST. BET. 10/9" t:dvv_lor_indic=A t:dvv_over48_ind=N t:dvv_make=SUBARU t:dvv_state=NY t:dvv_city=BRONX t:dvv_chrge_48=N t:dvv_final_disp_cd=RTC m:dvv_summons=88644160
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:dvv_464_upd_cnt p:long l:DVV_464_UPD_CNT t:dataTypeName=number
+metric m:dvv_464_upd_cnt p:integer l:DVV_464_UPD_CNT t:dataTypeName=number
 
-metric m:dvv_prev_463 p:long l:DVV_PREV_463 t:dataTypeName=number
-
-metric m:dvv_timestmp p:long l:DVV_TIMESTMP t:dataTypeName=number
+metric m:dvv_prev_463 p:integer l:DVV_PREV_463 t:dataTypeName=number
 
 metric m:dvv_filler4 p:long l:DVV_FILLER4 t:dataTypeName=number
 
-metric m:dvv_timestmp_upd p:long l:DVV_TIMESTMP_UPD t:dataTypeName=number
-
 metric m:dvv_filler6 p:long l:DVV_FILLER6 t:dataTypeName=number
 
-metric m:dvv_vin_timestmp p:long l:DVV_VIN_TIMESTMP t:dataTypeName=number
+metric m:dvv_dot p:integer l:DVV_DOT t:dataTypeName=number
 
-metric m:dvv_dot p:long l:DVV_DOT t:dataTypeName=number
+metric m:dvv_kdvo_cnt p:integer l:DVV_KDVO_CNT t:dataTypeName=number
 
-metric m:dvv_kdvo_cnt p:long l:DVV_KDVO_CNT t:dataTypeName=number
+metric m:dvv_summons p:integer l:DVV_SUMMONS t:dataTypeName=number
 
-metric m:dvv_nicb_timestmp p:long l:DVV_NICB_TIMESTMP t:dataTypeName=number
+metric m:dvv_yd_sub_contr p:integer l:DVV_YD_SUB_CONTR t:dataTypeName=number
 
-metric m:dvv_summons p:long l:DVV_SUMMONS t:dataTypeName=number
-
-metric m:dvv_rotow_tagno p:long l:DVV_ROTOW_TAGNO t:dataTypeName=number
+metric m:dvv_rotow_tagno p:integer l:DVV_ROTOW_TAGNO t:dataTypeName=number
 
 entity e:bjuu-44hx l:"Derelict Vehicle Dispositions - Vehicles" t:attribution="Department of Sanitation (DSNY)" t:url=https://data.cityofnewyork.us/api/views/bjuu-44hx
 
-property e:bjuu-44hx t:meta.view d:2017-06-09T13:59:45.707Z v:id=bjuu-44hx v:category="City Government" v:averageRating=0 v:name="Derelict Vehicle Dispositions - Vehicles" v:attribution="Department of Sanitation (DSNY)"
+property e:bjuu-44hx t:meta.view d:2017-09-25T07:31:06.936Z v:averageRating=0 v:name="Derelict Vehicle Dispositions - Vehicles" v:attribution="Department of Sanitation (DSNY)" v:id=bjuu-44hx v:category="City Government"
 
-property e:bjuu-44hx t:meta.view.owner d:2017-06-09T13:59:45.707Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:bjuu-44hx t:meta.view.owner d:2017-09-25T07:31:06.936Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:bjuu-44hx t:meta.view.tableauthor d:2017-06-09T13:59:45.707Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:bjuu-44hx t:meta.view.tableauthor d:2017-09-25T07:31:06.936Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records
 
 ```ls
-| :updated_at | isn | dvv_yard_resp | dvv_district_cd | dvv_orig_yard | dvv_464_upd_cnt | dvv_tag_loc1              | dvv_tag_loc2             | dvv_year | dvv_make | dvv_type | dvv_color | dvv_tag_remarks      | dvv_tag_no | dvv_tag_date | dvv_tag_time | dvv_prev_463 | dvv_timestmp   | dvv_filler3 | dvv_filler4 | dvv_print_flag | dvv_checked_date | dvv_timestmp_upd | dvv_final_disp_date | dvv_final_disp_cd | dvv_464_make | dvv_464_type | dvv_464_color | dvv_907_no | dvv_hold_no | dvv_filler5 | dvv_filler6 | dvv_se_status | dvv_over48_ind | dvv_chrge_48 | dvv_challenge_48 | dvv_hq_approve | dvv_vin_timestmp | dvv_rental_find | dvv_rental_indic | dvv_city | dvv_state | dvv_stolen_indic | dvv_lor_indic | dvv_dot | dvv_kdvo_cnt | dvv_nicb_timestmp | dvv_summons | dvv_yd_sub_contr | dvv_last_upd_opid | dvv_rotow_tagno | dvv_acc_logno | 
-| =========== | === | ============= | =============== | ============= | =============== | ========================= | ======================== | ======== | ======== | ======== | ========= | ==================== | ========== | ============ | ============ | ============ | ============== | =========== | =========== | ============== | ================ | ================ | =================== | ================= | ============ | ============ | ============= | ========== | =========== | =========== | =========== | ============= | ============== | ============ | ================ | ============== | ================ | =============== | ================ | ======== | ========= | ================ | ============= | ======= | ============ | ================= | =========== | ================ | ================= | =============== | ============= | 
-| 1496950208  | 1   | DVO999        | TRN01           |               |                 | AVENUE P & E 4TH ST       |                          |          | VOLVO    | 4D       | BLACK     | EMERGENCY TOW        | 1          | 19891117     | 900          |              | 19891117162634 |             |             | F              |                  | 19970606070052   | 19891117            | NOL               | VOLVO        | 4D           | BLACK         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 2   | DVO999        | TRN01           |               |                 | WOODSIDE/61ST ST          | IFO DUNKIN DONUTS        |          | DATSUN   | 2D       | BURNT     | NORTH SIDE OF STREET | 2          | 19891119     | 900          |              | 19891120113336 |             |             | F              |                  | 19900711055802   | 99999999            | AAA               | DATSUN       | 2D           | BURNT         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 3   | DVO999        | TRN01           |               |                 | LOCATION                  | STREET                   |          | OLDS     | SW       | GREEN     |                      | 5          | 19891120     | 900          |              | 19891120103827 |             |             | F              | 19891120         |                  | 19891120            | RTC               | OLDS         | SW           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 4   | DVO999        | TRN05           |               |                 | SMITH STR NR BWAY IFO     | SCHOOL YARD              |          | CHEV     | SW       | GREEN     | EMERGENCY TOW        | 6          | 19891120     | 900          |              | 19900328092426 |             |             | F              |                  |                  | 19900328            | NOL               | CHEV         | SW           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 5   | DVO999        | TRN01           |               |                 | N/E CORNER 125ST & 5TH AV |                          |          | FORD     | 4D       | BLUE      |                      | 100001     | 19891120     | 930          |              | 19891127142252 |             |             | E              |                  |                  | 99999999            | AAA               | FORD         | 4D           | BLUE          |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 6   | DVO999        | TRN01           |               |                 | 86TH ST BETW LEXINGTON    | AND PARK AVE             |          | FORD     | 4D       | GREEN     |                      | 100002     | 19891120     | 1000         |              | 19891122135609 |             |             | F              |                  |                  | 99999999            | AAA               | FORD         | 4D           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 7   | DVO999        | TRN01           |               |                 | N/S WELLINGTON DRIVE,BET  | HOBART & HASTINGS AVENUE |          | FORD     | VN       | GREEN     |                      | 100003     | 19891121     | 830          |              | 19891121095359 |             |             | E              |                  |                  | 99999999            | AAA               | FORD         | VN           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 8   | DVO999        | TRN14           |               |                 | N/S WELLINGTON DRIVE BET  | HOBART & HASTINGS AVE.   |          | FORD     | VN       | GREEN     |                      | 1400001    | 19891121     | 830          |              | 19891121113125 |             |             | E              |                  | 19900409093631   | 99999999            | AAA               | FORD         | VN           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 9   | DVO999        | TRN14           |               |                 | 351 FRESH POND AVE BET    | GRAND AVE & 31 PLACE     |          | BUICK    | 4D       | GRAY      |                      | 1400002    | 19891121     | 830          |              | 19891121095945 |             |             | F              |                  | 19900921090033   | 99999999            | AAA               | BUICK        | 4D           | GRAY          |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
-| 1496950208  | 10  | DVO999        | TRN13           |               |                 | N/S WELLINGTON DRIVE BET  | HOBART & HASTINGS        |          | FORD     | VN       | GREEN     |                      | 1300001    | 19891121     | 830          |              | 19891127112401 |             |             | F              |                  |                  | 99999999            | AAA               | FORD         | VN           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| isn | dvv_yard_resp | dvv_district_cd | dvv_orig_yard | dvv_464_upd_cnt | dvv_tag_loc1              | dvv_tag_loc2             | dvv_year | dvv_make | dvv_type | dvv_color | dvv_tag_remarks      | dvv_tag_no | dvv_tag_date | dvv_tag_time | dvv_prev_463 | dvv_timestmp   | dvv_filler3 | dvv_filler4 | dvv_print_flag | dvv_checked_date | dvv_timestmp_upd | dvv_final_disp_date | dvv_final_disp_cd | dvv_464_make | dvv_464_type | dvv_464_color | dvv_907_no | dvv_hold_no | dvv_filler5 | dvv_filler6 | dvv_se_status | dvv_over48_ind | dvv_chrge_48 | dvv_challenge_48 | dvv_hq_approve | dvv_vin_timestmp | dvv_rental_find | dvv_rental_indic | dvv_city | dvv_state | dvv_stolen_indic | dvv_lor_indic | dvv_dot | dvv_kdvo_cnt | dvv_nicb_timestmp | dvv_summons | dvv_yd_sub_contr | dvv_last_upd_opid | dvv_rotow_tagno | dvv_acc_logno | 
+| === | ============= | =============== | ============= | =============== | ========================= | ======================== | ======== | ======== | ======== | ========= | ==================== | ========== | ============ | ============ | ============ | ============== | =========== | =========== | ============== | ================ | ================ | =================== | ================= | ============ | ============ | ============= | ========== | =========== | =========== | =========== | ============= | ============== | ============ | ================ | ============== | ================ | =============== | ================ | ======== | ========= | ================ | ============= | ======= | ============ | ================= | =========== | ================ | ================= | =============== | ============= | 
+| 1   | DVO999        | TRN01           |               |                 | AVENUE P & E 4TH ST       |                          |          | VOLVO    | 4D       | BLACK     | EMERGENCY TOW        | 1          | 19891117     | 900          |              | 19891117162634 |             |             | F              |                  | 19970606070052   | 19891117            | NOL               | VOLVO        | 4D           | BLACK         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 2   | DVO999        | TRN01           |               |                 | WOODSIDE/61ST ST          | IFO DUNKIN DONUTS        |          | DATSUN   | 2D       | BURNT     | NORTH SIDE OF STREET | 2          | 19891119     | 900          |              | 19891120113336 |             |             | F              |                  | 19900711055802   | 99999999            | AAA               | DATSUN       | 2D           | BURNT         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 3   | DVO999        | TRN01           |               |                 | LOCATION                  | STREET                   |          | OLDS     | SW       | GREEN     |                      | 5          | 19891120     | 900          |              | 19891120103827 |             |             | F              | 19891120         |                  | 19891120            | RTC               | OLDS         | SW           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 4   | DVO999        | TRN05           |               |                 | SMITH STR NR BWAY IFO     | SCHOOL YARD              |          | CHEV     | SW       | GREEN     | EMERGENCY TOW        | 6          | 19891120     | 900          |              | 19900328092426 |             |             | F              |                  |                  | 19900328            | NOL               | CHEV         | SW           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 5   | DVO999        | TRN01           |               |                 | N/E CORNER 125ST & 5TH AV |                          |          | FORD     | 4D       | BLUE      |                      | 100001     | 19891120     | 930          |              | 19891127142252 |             |             | E              |                  |                  | 99999999            | AAA               | FORD         | 4D           | BLUE          |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 6   | DVO999        | TRN01           |               |                 | 86TH ST BETW LEXINGTON    | AND PARK AVE             |          | FORD     | 4D       | GREEN     |                      | 100002     | 19891120     | 1000         |              | 19891122135609 |             |             | F              |                  |                  | 99999999            | AAA               | FORD         | 4D           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 7   | DVO999        | TRN01           |               |                 | N/S WELLINGTON DRIVE,BET  | HOBART & HASTINGS AVENUE |          | FORD     | VN       | GREEN     |                      | 100003     | 19891121     | 830          |              | 19891121095359 |             |             | E              |                  |                  | 99999999            | AAA               | FORD         | VN           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 8   | DVO999        | TRN14           |               |                 | N/S WELLINGTON DRIVE BET  | HOBART & HASTINGS AVE.   |          | FORD     | VN       | GREEN     |                      | 1400001    | 19891121     | 830          |              | 19891121113125 |             |             | E              |                  | 19900409093631   | 99999999            | AAA               | FORD         | VN           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 9   | DVO999        | TRN14           |               |                 | 351 FRESH POND AVE BET    | GRAND AVE & 31 PLACE     |          | BUICK    | 4D       | GRAY      |                      | 1400002    | 19891121     | 830          |              | 19891121095945 |             |             | F              |                  | 19900921090033   | 99999999            | AAA               | BUICK        | 4D           | GRAY          |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
+| 10  | DVO999        | TRN13           |               |                 | N/S WELLINGTON DRIVE BET  | HOBART & HASTINGS        |          | FORD     | VN       | GREEN     |                      | 1300001    | 19891121     | 830          |              | 19891127112401 |             |             | F              |                  |                  | 99999999            | AAA               | FORD         | VN           | GREEN         |            |             |             |             |               |                |              |                  |                |                  |                 |                  |          |           |                  |               |         |              |                   |             |                  |                   |                 |               | 
 ```

@@ -276,11 +276,11 @@ metric m:no_tier_2_plug_loads_smart_strips_and_outlets p:integer l:"Number of Ti
 
 entity e:cif3-ww3e l:"RSBS MOM: Multifamily On-Site Survey, Measure Level, New York State Residential Statewide Baseline Study" t:attribution="New York State Energy Research and Development Authority" t:url=https://data.ny.gov/api/views/cif3-ww3e
 
-property e:cif3-ww3e t:meta.view d:2017-06-09T13:56:58.417Z v:id=cif3-ww3e v:category="Energy & Environment" v:averageRating=0 v:name="RSBS MOM: Multifamily On-Site Survey, Measure Level, New York State Residential Statewide Baseline Study" v:attribution="New York State Energy Research and Development Authority"
+property e:cif3-ww3e t:meta.view d:2017-09-25T07:28:21.073Z v:averageRating=0 v:name="RSBS MOM: Multifamily On-Site Survey, Measure Level, New York State Residential Statewide Baseline Study" v:attribution="New York State Energy Research and Development Authority" v:id=cif3-ww3e v:category="Energy & Environment"
 
-property e:cif3-ww3e t:meta.view.owner d:2017-06-09T13:56:58.417Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:cif3-ww3e t:meta.view.owner d:2017-09-25T07:28:21.073Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:cif3-ww3e t:meta.view.tableauthor d:2017-06-09T13:56:58.417Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:cif3-ww3e t:meta.view.tableauthor d:2017-09-25T07:28:21.073Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 ```
 
 ## Top Records

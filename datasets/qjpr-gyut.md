@@ -34,11 +34,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Hawaii Island" t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_HAWAII.pdf""> Hawaii Map: Island view</a>" m:row_number.qjpr-gyut=1
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/ISLAND_OF_HAWAII.pdf""> Hawaii Map: Island view</a>" t:description="Hawaii Island" m:row_number.qjpr-gyut=1
 
-series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description="Waipio - Kohala Mountain" t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII1.pdf""> Hawaii #1: Waipio - Kohala Mountain</a>" m:row_number.qjpr-gyut=2
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII1.pdf""> Hawaii #1: Waipio - Kohala Mountain</a>" t:description="Waipio - Kohala Mountain" m:row_number.qjpr-gyut=2
 
-series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:description=Hilo t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII2.pdf""> Hawaii #2: Hilo</a>" m:row_number.qjpr-gyut=3
+series e:qjpr-gyut d:2016-01-25T12:25:37.000Z t:map_name="<a target=""_blank"" href=""http://files.hawaii.gov/elections/files/maps/electionmaps/HAWAII2.pdf""> Hawaii #2: Hilo</a>" t:description=Hilo m:row_number.qjpr-gyut=3
 ```
 
 ## Meta Commands
@@ -48,11 +48,11 @@ metric m:row_number.qjpr-gyut p:long l:"Row Number"
 
 entity e:qjpr-gyut l:"Election Maps - Statewide" t:url=https://data.hawaii.gov/api/views/qjpr-gyut
 
-property e:qjpr-gyut t:meta.view d:2017-06-09T13:54:03.659Z v:id=qjpr-gyut v:averageRating=0 v:name="Election Maps - Statewide"
+property e:qjpr-gyut t:meta.view d:2017-09-25T07:25:25.725Z v:averageRating=0 v:name="Election Maps - Statewide" v:id=qjpr-gyut
 
-property e:qjpr-gyut t:meta.view.owner d:2017-06-09T13:54:03.659Z v:id=a7h7-u2zq v:screenName="Office of Elections" v:displayName="Office of Elections"
+property e:qjpr-gyut t:meta.view.owner d:2017-09-25T07:25:25.725Z v:displayName="Office of Elections" v:id=a7h7-u2zq v:screenName="Office of Elections"
 
-property e:qjpr-gyut t:meta.view.tableauthor d:2017-06-09T13:54:03.659Z v:id=a7h7-u2zq v:screenName="Office of Elections" v:roleName=publisher v:displayName="Office of Elections"
+property e:qjpr-gyut t:meta.view.tableauthor d:2017-09-25T07:25:25.725Z v:displayName="Office of Elections" v:roleName=publisher v:id=a7h7-u2zq v:screenName="Office of Elections"
 ```
 
 ## Top Records

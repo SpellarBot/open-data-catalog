@@ -53,11 +53,11 @@ Excluded Fields = x,y
 ## Data Commands
 
 ```ls
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:region=2 t:facility_url=http://nysparks.com/parks/136/details.aspx t:county=Cattaraugus t:nature_center="Red House Natural History Museum" t:state_park_facility="Allegany State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/12/details.aspx m:row_number.7gdv-fq7n=1
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:state_park_facility="Allegany State Park" t:county=Cattaraugus t:nature_center="Red House Natural History Museum" t:region=2 t:nature_center_url=http://www.nysparks.com/environment/nature-centers/12/details.aspx t:facility_url=http://nysparks.com/parks/136/details.aspx m:row_number.7gdv-fq7n=1
 
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:region=1 t:facility_url=http://nysparks.com/parks/56/details.aspx t:county=Erie t:nature_center="Beaver Island Nature Center" t:state_park_facility="Beaver Island State Park" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/11/details.aspx m:row_number.7gdv-fq7n=2
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:state_park_facility="Beaver Island State Park" t:county=Erie t:nature_center="Beaver Island Nature Center" t:region=1 t:nature_center_url=http://www.nysparks.com/environment/nature-centers/11/details.aspx t:facility_url=http://nysparks.com/parks/56/details.aspx m:row_number.7gdv-fq7n=2
 
-series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:region=9 t:facility_url=http://nysparks.com/parks/124/details.aspx t:county=Suffolk t:nature_center="Caleb Smith Park Preserve Nature Museum" t:state_park_facility="Caleb Smith Park Preserve" t:nature_center_url=http://www.nysparks.com/environment/nature-centers/9/details.aspx m:row_number.7gdv-fq7n=3
+series e:7gdv-fq7n d:2013-02-20T18:49:41.000Z t:state_park_facility="Caleb Smith Park Preserve" t:county=Suffolk t:nature_center="Caleb Smith Park Preserve Nature Museum" t:region=9 t:nature_center_url=http://www.nysparks.com/environment/nature-centers/9/details.aspx t:facility_url=http://nysparks.com/parks/124/details.aspx m:row_number.7gdv-fq7n=3
 ```
 
 ## Meta Commands
@@ -67,13 +67,13 @@ metric m:row_number.7gdv-fq7n p:long l:"Row Number"
 
 entity e:7gdv-fq7n l:"State Nature Centers" t:attribution="New York State Office of Parks, Recreation and Historic Preservation" t:url=https://data.ny.gov/api/views/7gdv-fq7n
 
-property e:7gdv-fq7n t:meta.view d:2017-06-09T13:53:36.715Z v:id=7gdv-fq7n v:category=Recreation v:attributionLink=http://nysparks.com/environment/nature-centers/default.aspx v:averageRating=0 v:name="State Nature Centers" v:attribution="New York State Office of Parks, Recreation and Historic Preservation"
+property e:7gdv-fq7n t:meta.view d:2017-09-25T07:24:57.387Z v:averageRating=0 v:name="State Nature Centers" v:attribution="New York State Office of Parks, Recreation and Historic Preservation" v:attributionLink=http://nysparks.com/environment/nature-centers/default.aspx v:id=7gdv-fq7n v:category=Recreation
 
-property e:7gdv-fq7n t:meta.view.owner d:2017-06-09T13:53:36.715Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:7gdv-fq7n t:meta.view.owner d:2017-09-25T07:24:57.387Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:7gdv-fq7n t:meta.view.tableauthor d:2017-06-09T13:53:36.715Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:7gdv-fq7n t:meta.view.tableauthor d:2017-09-25T07:24:57.387Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:7gdv-fq7n t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:36.715Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:7gdv-fq7n t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:24:57.387Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

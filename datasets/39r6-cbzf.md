@@ -62,13 +62,13 @@ metric m:coach_passengers p:integer l:"Coach Passengers" t:dataTypeName=number
 
 entity e:39r6-cbzf l:"Coach Bus Passengers per Month at Port Authority of NY NJ Airports: Beginning 2002" t:attribution="The Port Authority of New York & New Jersey" t:url=https://data.ny.gov/api/views/39r6-cbzf
 
-property e:39r6-cbzf t:meta.view d:2017-06-09T13:53:42.736Z v:id=39r6-cbzf v:category=Transportation v:attributionLink=http://www.panynj.gov/airports/ewr-public-transportation.html v:averageRating=0 v:name="Coach Bus Passengers per Month at Port Authority of NY NJ Airports: Beginning 2002" v:attribution="The Port Authority of New York & New Jersey"
+property e:39r6-cbzf t:meta.view d:2017-09-25T07:25:01.968Z v:averageRating=0 v:name="Coach Bus Passengers per Month at Port Authority of NY NJ Airports: Beginning 2002" v:attribution="The Port Authority of New York & New Jersey" v:attributionLink=http://www.panynj.gov/airports/ewr-public-transportation.html v:id=39r6-cbzf v:category=Transportation
 
-property e:39r6-cbzf t:meta.view.owner d:2017-06-09T13:53:42.736Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:39r6-cbzf t:meta.view.owner d:2017-09-25T07:25:01.968Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:39r6-cbzf t:meta.view.tableauthor d:2017-06-09T13:53:42.736Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:39r6-cbzf t:meta.view.tableauthor d:2017-09-25T07:25:01.968Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:39r6-cbzf t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:42.736Z v:Publisher="State of New York" v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY"
+property e:39r6-cbzf t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:25:01.968Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records

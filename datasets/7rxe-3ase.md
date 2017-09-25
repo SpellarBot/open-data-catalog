@@ -71,11 +71,11 @@ Excluded Fields = mailing_address
 ## Data Commands
 
 ```ls
-series e:7rxe-3ase d:2015-11-10T17:20:08.000Z t:mbl="39/ C/ 23/ 4C/" t:bldg_no=1 t:use_code=1020 t:cls=R t:account_number=870151 t:eyb_code=A+5 t:location="255 BEACON ST" t:style_desc="Low rise" t:gis_id=39-C-23 t:building_type=Condominium t:grantee="ZHU ZHIYING" m:living_area=794 m:land_area_in_acres=0 m:ayb=1986 m:num_bedrms=2 m:total_assessed_parcel_value=342300 m:res_nbhd=2001 m:half_baths=0 m:total_assessed_land_value=0 m:full_baths=2
+series e:7rxe-3ase d:2015-11-10T17:20:08.000Z t:account_number=870151 t:eyb_code=A+5 t:mbl="39/ C/ 23/ 4C/" t:grantee="ZHU ZHIYING" t:gis_id=39-C-23 t:location="255 BEACON ST" t:cls=R t:bldg_no=1 t:style_desc="Low rise" t:use_code=1020 t:building_type=Condominium m:full_baths=2 m:total_assessed_land_value=0 m:res_nbhd=2001 m:living_area=794 m:half_baths=0 m:land_area_in_acres=0 m:ayb=1986 m:num_bedrms=2 m:total_assessed_parcel_value=342300
 
-series e:7rxe-3ase d:2015-11-10T17:18:21.000Z t:mbl="73/ A/ 48/ 1/" t:bldg_no=1 t:use_code=1020 t:cls=R t:account_number=20052620 t:eyb_code=VG t:location="7 VINAL AVE" t:style_desc="Three decker" t:gis_id=73-A-48 t:building_type=Condominium t:grantee="ASHER RUTH SARAH" m:living_area=1044 m:land_area_in_acres=0 m:ayb=1900 m:num_bedrms=2 m:total_assessed_parcel_value=429100 m:res_nbhd=8001 m:half_baths=0 m:total_assessed_land_value=0 m:full_baths=1
+series e:7rxe-3ase d:2015-11-10T17:18:21.000Z t:account_number=20052620 t:eyb_code=VG t:mbl="73/ A/ 48/ 1/" t:grantee="ASHER RUTH SARAH" t:gis_id=73-A-48 t:location="7 VINAL AVE" t:cls=R t:bldg_no=1 t:style_desc="Three decker" t:use_code=1020 t:building_type=Condominium m:full_baths=1 m:total_assessed_land_value=0 m:res_nbhd=8001 m:living_area=1044 m:half_baths=0 m:land_area_in_acres=0 m:ayb=1900 m:num_bedrms=2 m:total_assessed_parcel_value=429100
 
-series e:7rxe-3ase d:2015-11-10T17:19:10.000Z t:mbl="70/ C/ 23/ 1/" t:bldg_no=1 t:use_code=1020 t:cls=R t:account_number=20092730 t:eyb_code=VG t:location="25 WHEATLAND ST #1" t:style_desc="Two Family" t:gis_id=70-C-23 t:building_type=Condominium t:grantee="DIAMOND LESLIE" m:living_area=1058 m:land_area_in_acres=0 m:ayb=1885 m:num_bedrms=2 m:total_assessed_parcel_value=340000 m:res_nbhd=5001 m:total_assessed_land_value=0 m:full_baths=1
+series e:7rxe-3ase d:2015-11-10T17:19:10.000Z t:account_number=20092730 t:eyb_code=VG t:mbl="70/ C/ 23/ 1/" t:grantee="DIAMOND LESLIE" t:gis_id=70-C-23 t:location="25 WHEATLAND ST #1" t:cls=R t:bldg_no=1 t:style_desc="Two Family" t:use_code=1020 t:building_type=Condominium m:full_baths=1 m:total_assessed_land_value=0 m:res_nbhd=5001 m:living_area=1058 m:land_area_in_acres=0 m:ayb=1885 m:num_bedrms=2 m:total_assessed_parcel_value=340000
 ```
 
 ## Meta Commands
@@ -103,11 +103,11 @@ metric m:total_assessed_parcel_value p:integer l:"Total Assessed Parcel Value" t
 
 entity e:7rxe-3ase l:"City Of Somerville Assessors Valuations FY16" t:attribution="City of Somerville Assessing Department" t:url=https://data.somervillema.gov/api/views/7rxe-3ase
 
-property e:7rxe-3ase t:meta.view d:2017-06-09T13:51:47.718Z v:id=7rxe-3ase v:category=Finance v:attributionLink=http://www.somervillema.gov/departments/finance/assessing v:averageRating=0 v:name="City Of Somerville Assessors Valuations FY16" v:attribution="City of Somerville Assessing Department"
+property e:7rxe-3ase t:meta.view d:2017-09-25T07:23:06.926Z v:averageRating=0 v:name="City Of Somerville Assessors Valuations FY16" v:attribution="City of Somerville Assessing Department" v:attributionLink=http://www.somervillema.gov/departments/finance/assessing v:id=7rxe-3ase v:category=Finance
 
-property e:7rxe-3ase t:meta.view.owner d:2017-06-09T13:51:47.718Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:displayName="Michael Mastrobuoni"
+property e:7rxe-3ase t:meta.view.owner d:2017-09-25T07:23:06.926Z v:displayName="Michael Mastrobuoni" v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 
-property e:7rxe-3ase t:meta.view.tableauthor d:2017-06-09T13:51:47.718Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:7rxe-3ase t:meta.view.tableauthor d:2017-09-25T07:23:06.926Z v:displayName="Michael Mastrobuoni" v:roleName=administrator v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 ```
 
 ## Top Records

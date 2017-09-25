@@ -1,4 +1,4 @@
-# NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013
+# NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015
 
 ## Dataset
 
@@ -10,12 +10,12 @@
 | Data: CSV | [100 Rows](https://data.cdc.gov/api/views/rg8a-czmp/rows.csv?max_rows=100) |
 | Host | data.cdc.gov |
 | Id | rg8a-czmp |
-| Name | NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013 |
+| Name | NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015 |
 | Attribution | National Center for Health Statistics |
 | Category | NCHS |
 | Tags | birth rate, women, united states, nchs |
 | Created | 2015-12-02T19:26:25Z |
-| Publication Date | 2015-12-02T19:31:05Z |
+| Publication Date | 2017-08-15T18:25:18Z |
 
 ## Description
 
@@ -41,11 +41,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:rg8a-czmp d:1960-01-01T00:00:00.000Z t:age_group="15-17 years" m:birth_rate=43.9
+series e:rg8a-czmp d:2015-01-01T00:00:00.000Z t:age_group="15-19 years" m:birth_rate=22.3
 
-series e:rg8a-czmp d:1961-01-01T00:00:00.000Z t:age_group="15-17 years" m:birth_rate=43.8
+series e:rg8a-czmp d:2015-01-01T00:00:00.000Z t:age_group="15-17 years" m:birth_rate=9.9
 
-series e:rg8a-czmp d:1962-01-01T00:00:00.000Z t:age_group="15-17 years" m:birth_rate=38.1
+series e:rg8a-czmp d:2015-01-01T00:00:00.000Z t:age_group="18-19 years" m:birth_rate=40.7
 ```
 
 ## Meta Commands
@@ -53,17 +53,17 @@ series e:rg8a-czmp d:1962-01-01T00:00:00.000Z t:age_group="15-17 years" m:birth_
 ```ls
 metric m:birth_rate p:float l:"Birth Rate" t:dataTypeName=number
 
-entity e:rg8a-czmp l:"NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013" t:attribution="National Center for Health Statistics" t:url=https://data.cdc.gov/api/views/rg8a-czmp
+entity e:rg8a-czmp l:"NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015" t:attribution="National Center for Health Statistics" t:url=https://data.cdc.gov/api/views/rg8a-czmp
 
-property e:rg8a-czmp t:meta.view d:2017-06-09T13:55:35.300Z v:id=rg8a-czmp v:category=NCHS v:averageRating=0 v:name="NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2013" v:attribution="National Center for Health Statistics"
+property e:rg8a-czmp t:meta.view d:2017-09-25T07:26:57.193Z v:averageRating=0 v:name="NCHS - Birth Rates for Women Aged 15-17, 17-18, and 15-19: United States, 1960-2015" v:attribution="National Center for Health Statistics" v:id=rg8a-czmp v:category=NCHS
 
-property e:rg8a-czmp t:meta.view.license d:2017-06-09T13:55:35.300Z v:name="Public Domain"
+property e:rg8a-czmp t:meta.view.license d:2017-09-25T07:26:57.193Z v:name="Public Domain"
 
-property e:rg8a-czmp t:meta.view.owner d:2017-06-09T13:55:35.300Z v:id=ki96-txhe v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:screenName=hku4@cdc.gov v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:displayName=hku4@cdc.gov
+property e:rg8a-czmp t:meta.view.owner d:2017-09-25T07:26:57.193Z v:displayName=NCHS v:lastNotificationSeenAt=1503441408 v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:id=ki96-txhe v:screenName=NCHS v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB
 
-property e:rg8a-czmp t:meta.view.tableauthor d:2017-06-09T13:55:35.300Z v:id=ki96-txhe v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:screenName=hku4@cdc.gov v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:roleName=administrator v:displayName=hku4@cdc.gov
+property e:rg8a-czmp t:meta.view.tableauthor d:2017-09-25T07:26:57.193Z v:displayName=NCHS v:lastNotificationSeenAt=1503441408 v:profileImageUrlLarge=/api/users/ki96-txhe/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/ki96-txhe/profile_images/TINY v:id=ki96-txhe v:screenName=NCHS v:profileImageUrlMedium=/api/users/ki96-txhe/profile_images/THUMB
 
-property e:rg8a-czmp t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:55:35.300Z v:Publisher="National Center for Health Statistics" v:Contact_Email=hku4@cdc.gov v:Contact_Name="National Center for Health Statistics" v:Bureau_Code=009:020 v:Program_Code=009:000
+property e:rg8a-czmp t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:26:57.193Z v:Contact_Email=nchsdata@cdc.gov v:Contact_Name="National Center for Health Statistics" v:Program_Code=009:020 v:Publisher="National Center for Health Statistics" v:Bureau_Code=009:00
 ```
 
 ## Top Records
@@ -71,14 +71,14 @@ property e:rg8a-czmp t:meta.view.metadata.custom_fields.common_core d:2017-06-09
 ```ls
 | year | age_group   | birth_rate | 
 | ==== | =========== | ========== | 
-| 1960 | 15-17 years | 43.9       | 
-| 1961 | 15-17 years | 43.8       | 
-| 1962 | 15-17 years | 38.1       | 
-| 1963 | 15-17 years | 36.9       | 
-| 1964 | 15-17 years | 37.2       | 
-| 1965 | 15-17 years | 36.6       | 
-| 1966 | 15-17 years | 35.7       | 
-| 1967 | 15-17 years | 35.3       | 
-| 1968 | 15-17 years | 35.1       | 
-| 1969 | 15-17 years | 35.7       | 
+| 2015 | 15-19 years | 22.3       | 
+| 2015 | 15-17 years | 9.9        | 
+| 2015 | 18-19 years | 40.7       | 
+| 2014 | 15-19 years | 24.2       | 
+| 2014 | 15-17 years | 10.9       | 
+| 2014 | 18-19 years | 43.8       | 
+| 2013 | 15-19 years | 26.5       | 
+| 2013 | 15-17 years | 12.3       | 
+| 2013 | 18-19 years | 47.1       | 
+| 2012 | 15-19 years | 29.4       | 
 ```

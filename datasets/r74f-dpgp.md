@@ -58,11 +58,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:award_number=OR-00J03801 t:project_name="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:project_status=Completed t:vendor=NO t:award_instrument=Q10002 t:root_id=5 t:zipcode=97365-4338 t:recipient_type=SUB t:award_id=6062 t:congressional_district=5 t:project_description="Port of Newport's International Terminal Clean-up - Award ID: 6062" t:project="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:month_code=1106 t:award_description="Brownfields Clean-up" t:county=Lincoln t:prime_award=00J03801 t:award_recipient="Port of Newport" m:amount_expended=200000 m:award_amount=200000 m:jobs_created=0 m:sort_order=2
+series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:congressional_district=5 t:award_number=OR-00J03801 t:award_recipient="Port of Newport" t:county=Lincoln t:project_status=Completed t:prime_award=00J03801 t:project="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:month_code=1106 t:project_name="Port of Newport's International Terminal Clean-up - Award ID#:6062" t:award_id=6062 t:recipient_type=SUB t:zipcode=97365-4338 t:project_description="Port of Newport's International Terminal Clean-up - Award ID: 6062" t:vendor=NO t:award_description="Brownfields Clean-up" t:root_id=5 t:award_instrument=Q10002 m:award_amount=200000 m:amount_expended=200000 m:sort_order=2 m:jobs_created=0
 
-series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:award_number=OR-00J03801 t:project_name="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:project_status=Completed t:vendor=NO t:award_instrument=Q10003 t:root_id=5 t:zipcode=97526-2000 t:recipient_type=SUB t:award_id=9245 t:congressional_district=2 t:project_description="Grant Pass River Road Reserve Clean-up Project - Award ID: 9245" t:project="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:month_code=1203 t:award_description="Brownfields Clean-up" t:county=Josephine t:prime_award=00J03801 t:award_recipient="City of Grants Pass" m:amount_expended=220938 m:award_amount=220938 m:jobs_created=0 m:sort_order=5
+series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:congressional_district=2 t:award_number=OR-00J03801 t:award_recipient="City of Grants Pass" t:county=Josephine t:project_status=Completed t:prime_award=00J03801 t:project="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:month_code=1203 t:project_name="Grant Pass River Road Reserve Clean-up Project - Award ID#:9245" t:award_id=9245 t:recipient_type=SUB t:zipcode=97526-2000 t:project_description="Grant Pass River Road Reserve Clean-up Project - Award ID: 9245" t:vendor=NO t:award_description="Brownfields Clean-up" t:root_id=5 t:award_instrument=Q10003 m:award_amount=220938 m:amount_expended=220938 m:sort_order=5 m:jobs_created=0
 
-series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:award_number=OR-00J03801 t:project_name="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:project_status=Completed t:vendor=NO t:award_instrument=Q10004 t:root_id=5 t:zipcode=97463 t:recipient_type=SUB t:award_id=9247 t:congressional_district=4 t:project_description="Oakridge Industrial Park Clean-up project - Award ID: 9247" t:project="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:month_code=1112 t:award_description="Brownfields Clean-up" t:county=Lane t:prime_award=00J03801 t:award_recipient="City of Oakridge" m:amount_expended=160000 m:award_amount=160000 m:jobs_created=0 m:sort_order=9
+series e:r74f-dpgp d:2012-01-01T00:00:00.000Z t:congressional_district=4 t:award_number=OR-00J03801 t:award_recipient="City of Oakridge" t:county=Lane t:project_status=Completed t:prime_award=00J03801 t:project="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:month_code=1112 t:project_name="Oakridge Industrial Park Clean-up project - Award ID#:9247" t:award_id=9247 t:recipient_type=SUB t:zipcode=97463 t:project_description="Oakridge Industrial Park Clean-up project - Award ID: 9247" t:vendor=NO t:award_description="Brownfields Clean-up" t:root_id=5 t:award_instrument=Q10004 m:award_amount=160000 m:amount_expended=160000 m:sort_order=9 m:jobs_created=0
 ```
 
 ## Meta Commands
@@ -78,11 +78,11 @@ metric m:jobs_created p:float l:"JOBS CREATED" t:dataTypeName=number
 
 entity e:r74f-dpgp l:"Oregon Recovery and Reinvestment Act Data - June, 2012" t:url=https://data.oregon.gov/api/views/r74f-dpgp
 
-property e:r74f-dpgp t:meta.view d:2017-06-09T13:53:41.334Z v:id=r74f-dpgp v:category="Revenue & Expense" v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012"
+property e:r74f-dpgp t:meta.view d:2017-09-25T07:25:01.233Z v:averageRating=0 v:name="Oregon Recovery and Reinvestment Act Data - June, 2012" v:id=r74f-dpgp v:category="Revenue & Expense"
 
-property e:r74f-dpgp t:meta.view.owner d:2017-06-09T13:53:41.334Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.owner d:2017-09-25T07:25:01.233Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:r74f-dpgp t:meta.view.tableauthor d:2017-06-09T13:53:41.334Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:r74f-dpgp t:meta.view.tableauthor d:2017-09-25T07:25:01.233Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

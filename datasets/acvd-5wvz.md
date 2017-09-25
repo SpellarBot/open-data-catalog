@@ -57,11 +57,11 @@ Excluded Fields = date_qualified
 ## Data Commands
 
 ```ls
-series e:acvd-5wvz d:2009-02-01T00:00:00.000Z t:energy_star_partner="Bard Manufacturing Company, Inc." t:model_number=GV71S1 t:markets="United States, Canada" t:energy_star_model_identifier=ES_1076358_3272135_06062012104352_7425177 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GeoTec t:brand_name=Bard t:pd_id=1738857 m:cop_rating=3.8 m:eer_rating=17.3
+series e:acvd-5wvz d:2009-02-01T00:00:00.000Z t:energy_star_model_identifier=ES_1076358_3272135_06062012104352_7425177 t:markets="United States, Canada" t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GeoTec t:energy_star_partner="Bard Manufacturing Company, Inc." t:brand_name=Bard t:model_number=GV71S1 t:pd_id=1738857 m:cop_rating=3.8 m:eer_rating=17.3
 
-series e:acvd-5wvz d:2012-10-15T00:00:00.000Z t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:model_number=50YGV026 t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:energy_star_model_identifier=ES_1019658_11192012172705_5837817 t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GT-PC t:brand_name=Carrier t:pd_id=2132041 m:cop_rating=4.2 m:eer_rating=23.8
+series e:acvd-5wvz d:2012-10-15T00:00:00.000Z t:energy_star_model_identifier=ES_1019658_11192012172705_5837817 t:markets="United States, Australia, New Zealand, Switzerland, Europe, Taiwan, Japan, Canada" t:product_type="Closed Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=GT-PC t:energy_star_partner="Bryant Heating and Cooling Systems (Carrier Corporation)" t:brand_name=Carrier t:model_number=50YGV026 t:pd_id=2132041 m:cop_rating=4.2 m:eer_rating=23.8
 
-series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_partner="Carrier Corporation" t:model_number=HB018H/V* t:markets="United States, Canada" t:energy_star_model_identifier=ES_1020846_08122016172437_2459551 t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:brand_name=Arcoaire t:pd_id=2274900 m:cop_rating=4.5 m:eer_rating=25.6
+series e:acvd-5wvz d:2016-04-13T00:00:00.000Z t:energy_star_model_identifier=ES_1020846_08122016172437_2459551 t:markets="United States, Canada" t:product_type="Open Loop Water-to-Air" t:meets_most_efficient_criteria=No t:model_name=HB t:energy_star_partner="Carrier Corporation" t:brand_name=Arcoaire t:model_number=HB018H/V* t:pd_id=2274900 m:cop_rating=4.5 m:eer_rating=25.6
 ```
 
 ## Meta Commands
@@ -73,13 +73,13 @@ metric m:eer_rating p:float l:"Energy Efficiency (EER)" d:"A measure of efficien
 
 entity e:acvd-5wvz l:"ENERGY STAR Certified Geothermal Heat Pumps" t:url=https://data.energystar.gov/api/views/acvd-5wvz
 
-property e:acvd-5wvz t:meta.view d:2017-06-09T13:52:35.703Z v:id=acvd-5wvz v:category="Active Specifications" v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps"
+property e:acvd-5wvz t:meta.view d:2017-09-25T07:23:54.609Z v:averageRating=0 v:name="ENERGY STAR Certified Geothermal Heat Pumps" v:id=acvd-5wvz v:category="Active Specifications"
 
-property e:acvd-5wvz t:meta.view.owner d:2017-06-09T13:52:35.703Z v:id=guxy-scz5 v:screenName=ESddas v:lastNotificationSeenAt=1493126780 v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.owner d:2017-09-25T07:23:54.609Z v:displayName=ESddas v:lastNotificationSeenAt=1493126780 v:id=guxy-scz5 v:screenName=ESddas
 
-property e:acvd-5wvz t:meta.view.tableauthor d:2017-06-09T13:52:35.703Z v:id=guxy-scz5 v:screenName=ESddas v:roleName=publisher v:lastNotificationSeenAt=1493126780 v:displayName=ESddas
+property e:acvd-5wvz t:meta.view.tableauthor d:2017-09-25T07:23:54.609Z v:displayName=ESddas v:lastNotificationSeenAt=1493126780 v:roleName=publisher v:id=guxy-scz5 v:screenName=ESddas
 
-property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:52:35.703Z v:Publisher="U.S. Environmental Protection Agency" v:License=https://edg.epa.gov/EPA_Data_License.html v:Contact_Name="Kathleen Vokes" v:Bureau_Code=020:00 v:Program_Code=020:033
+property e:acvd-5wvz t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:23:54.609Z v:Contact_Name="Kathleen Vokes" v:License=https://edg.epa.gov/EPA_Data_License.html v:Program_Code=020:033 v:Publisher="U.S. Environmental Protection Agency" v:Bureau_Code=020:00
 ```
 
 ## Top Records

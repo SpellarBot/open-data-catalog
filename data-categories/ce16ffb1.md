@@ -49,7 +49,7 @@ Name | Host | Published
 [Directory of Family Justice Centers](../datasets/xggi-kgx9.md) | data.cityofnewyork.us | 2013&#x2011;03&#x2011;19
 [Directory of Food Stamp Centers](../datasets/tc6u-8rnp.md) | data.cityofnewyork.us | 2013&#x2011;03&#x2011;19
 [Directory of Hospitals with Domestic Violence Coordinators](../datasets/22b5-sytd.md) | data.cityofnewyork.us | 2013&#x2011;03&#x2011;19
-[Directory of NYCHA Community Facilities](../datasets/crns-fw6u.md) | data.cityofnewyork.us | 2013&#x2011;03&#x2011;29
+[Directory of NYCHA Community Facilities](../datasets/crns-fw6u.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;16
 [Directory of Senior News Services in NYCHA Journal](../datasets/hfac-j85r.md) | data.cityofnewyork.us | 2013&#x2011;02&#x2011;13
 [Emergency Food Assistance Program (Quarterly Report)](../datasets/mpqk-skis.md) | data.cityofnewyork.us | 2013&#x2011;05&#x2011;17
 [FDNY Monthly Response Times](../datasets/j34j-vqvt.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
@@ -70,11 +70,11 @@ Name | Host | Published
 [Libraries Internet Sessions By Year FY06 - FY11](../datasets/e85y-zk7s.md) | data.hawaii.gov | 2012&#x2011;06&#x2011;27
 [Libraries State Of Hawaii](../datasets/jx86-2vch.md) | data.hawaii.gov | 2012&#x2011;06&#x2011;27
 [LinkNYC Locations](../datasets/s4kf-3yrf.md) | data.cityofnewyork.us | 2017&#x2011;04&#x2011;20
-[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | data.cityofnewyork.us | 2017&#x2011;06&#x2011;01
+[LinkNYC New Site Permit Applications](../datasets/xp25-gxux.md) | data.cityofnewyork.us | 2017&#x2011;07&#x2011;26
 [Missouri Child Support Offices](../datasets/2rxb-22d7.md) | data.mo.gov | 2014&#x2011;02&#x2011;26
 [Missouri Works Assistance Locations](../datasets/kuz5-m96r.md) | data.mo.gov | 2017&#x2011;02&#x2011;27
 [NYC Service: Volunteer Opportunities](../datasets/bquu-z2ht.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21
-[NYC Women's Resource Network Database](../datasets/pqg4-dm6b.md) | data.cityofnewyork.us | 2011&#x2011;10&#x2011;08
+[NYC Women's Resource Network Database](../datasets/pqg4-dm6b.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;22
 [NYCHA Applicant Income Limits](../datasets/yizy-365y.md) | data.cityofnewyork.us | 2013&#x2011;03&#x2011;29
 [NYCHA Resident Jobs Programs and Training](../datasets/an6v-iuem.md) | data.cityofnewyork.us | 2013&#x2011;03&#x2011;28
 [ODRA MA Trend](../datasets/qj9s-yv6v.md) | data.cityofnewyork.us | 2013&#x2011;05&#x2011;21

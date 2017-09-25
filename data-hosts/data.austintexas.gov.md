@@ -44,7 +44,7 @@ Name | Category | Published
 [ARR Household Hazardous Waste Totals Comparison of Fiscal Years 2010-2015](../datasets/cje8-pznp.md) |  | 2015&#x2011;09&#x2011;15
 [Active Credit Access Business Licenses](../datasets/97sh-bm58.md) | Business | 2016&#x2011;05&#x2011;02
 [Active Credit Access Business Licenses January 5, 2017](../datasets/3fnm-exg7.md) | Business | 2017&#x2011;01&#x2011;05
-[Address Changes](../datasets/ruj7-9gwq.md) |  | 2016&#x2011;09&#x2011;30
+[Address Changes](../datasets/ruj7-9gwq.md) | City Government | 2016&#x2011;09&#x2011;30
 [Adult and Children Vaccinations Provided](../datasets/nttt-2a35.md) | Health | 2017&#x2011;02&#x2011;02
 [Affordable Housing Inventory (AHI)](../datasets/x5p7-qyuv.md) | Neighborhood | 2017&#x2011;01&#x2011;12
 [African American Quality of Life (AAQL) Performance Measures](../datasets/7j64-2qf8.md) | Health | 2012&#x2011;09&#x2011;25
@@ -71,7 +71,7 @@ Name | Category | Published
 [Austin Code Complaint Case Events](../datasets/afwp-v695.md) | Government | 2017&#x2011;01&#x2011;11
 [Austin Code Complaint Cases](../datasets/6wtj-zbtb.md) | Government | 2017&#x2011;01&#x2011;11
 [Austin Digital Assessment - Aggregated Responses by Geography](../datasets/xf72-sbj4.md) | Workforce Development | 2015&#x2011;07&#x2011;10
-[Austin Energy Customer Data by Customer Class 2006 - 2014](../datasets/9xdm-yhmb.md) | Utility | 2016&#x2011;09&#x2011;22
+[Austin Energy Customer Data by Customer Class 2006 - 2014](../datasets/9xdm-yhmb.md) | Utilities and City Services | 2016&#x2011;09&#x2011;22
 [Austin Energy General Fund Transfer](../datasets/zzix-yxi4.md) | Financial | 2016&#x2011;10&#x2011;13
 [Austin Energy GreenChoice? Sales](../datasets/wr7f-jdtu.md) | Utility | 2017&#x2011;04&#x2011;07
 [Austin Energy Operating Budget](../datasets/erps-465e.md) | Utility | 2016&#x2011;09&#x2011;06
@@ -104,14 +104,14 @@ Name | Category | Published
 [Austin Water - Wastewater Service Connection Count By Zip Code](../datasets/6v99-vnq3.md) | Utility | 2016&#x2011;11&#x2011;21
 [Austin Water - Water Service Connection Count By Zip Code](../datasets/uizf-mcbc.md) | Utility | 2016&#x2011;11&#x2011;21
 [Austin Water Approved Plant List](../datasets/82dq-nkpk.md) | Environmental | 2016&#x2011;06&#x2011;13
-[Austin Water Authorized Irrigation Inspector List](../datasets/dhvz-stgx.md) | Environmental | 2017&#x2011;05&#x2011;04
+[Austin Water Authorized Irrigation Inspector List](../datasets/dhvz-stgx.md) | Utilities and City Services | 2017&#x2011;09&#x2011;21
 [Austin Water Statistics](../datasets/87qq-mkwq.md) | Utility | 2016&#x2011;05&#x2011;05
 [Austin's Small Scale Green Infrastructure](../datasets/2cgz-29c8.md) | Environmental | 2016&#x2011;04&#x2011;11
 [AustinGO Keyword Search](../datasets/sswp-u5uh.md) | Government | 2013&#x2011;05&#x2011;03
 [Austintexas.gov - Community Registry - Updated once a Month](../datasets/u3yy-shmz.md) |  | 2017&#x2011;04&#x2011;07
 [Austintexas.gov - Social Media Network Referrals](../datasets/55ji-8nqx.md) | Government | 2015&#x2011;07&#x2011;13
 [Austintexas.gov - Top 10 Searches](../datasets/3e38-4hji.md) | Government | 2017&#x2011;04&#x2011;07
-[Austintexas.gov - Top 50 Pages By Pageviews](../datasets/8yfa-b3bq.md) |  | 2017&#x2011;04&#x2011;07
+[Austintexas.gov - Top 50 Pages By Pageviews](../datasets/8yfa-b3bq.md) | City Government | 2017&#x2011;07&#x2011;07
 [Bad Debt Expense](../datasets/6zan-sbz2.md) | Utility | 2016&#x2011;09&#x2011;12
 [Battery Drop Off Locations](../datasets/pdfd-8tju.md) |  | 2015&#x2011;07&#x2011;30
 [Battery Drop Off Locations: 2016](../datasets/y4h7-ti7f.md) | Environmental | 2016&#x2011;02&#x2011;19
@@ -140,14 +140,14 @@ Name | Category | Published
 [Campaign Finance - Pre-Election Summary](../datasets/xbpn-n65g.md) | Financial | 2016&#x2011;11&#x2011;01
 [Campaign Finance Data - Committee Purpose](../datasets/u3cd-iecr.md) | Financial | 2016&#x2011;07&#x2011;18
 [Campaign Finance Data - Direct Campaign Expenditure Dataset](../datasets/8p2b-ewep.md) |  | 2016&#x2011;10&#x2011;05
-[Campaign Finance Data - Report Detail Dataset](../datasets/b2pc-2s8n.md) | Government | 2016&#x2011;10&#x2011;28
+[Campaign Finance Data - Report Detail Dataset](../datasets/b2pc-2s8n.md) | City Government | 2016&#x2011;10&#x2011;28
 [Capital Improvement Projects ( CIP) Expenditures](../datasets/mfi5-y32n.md) | Utility | 2016&#x2011;11&#x2011;08
 [Capital Improvement Projects Managed by Public Works (April 2016)](../datasets/39mp-u93d.md) | Government | 2016&#x2011;04&#x2011;15
 [Carbon Intensity](../datasets/hetr-8wqd.md) | Utility | 2016&#x2011;05&#x2011;12
 [Carver Events 2017](../datasets/su5u-tfet.md) |  | 2017&#x2011;03&#x2011;09
 [Category Tiles](../datasets/jukz-za6j.md) |  | 2016&#x2011;06&#x2011;23
 [Cemeteries Location](../datasets/a2zj-3chk.md) | Government | 2015&#x2011;09&#x2011;22
-[City Social Media Inventory](../datasets/yph5-vg2u.md) |  | 2017&#x2011;02&#x2011;13
+[City Social Media Inventory](../datasets/yph5-vg2u.md) | City Government | 2017&#x2011;02&#x2011;13
 [City of Austin Demographics Current Representation By Quarter](../datasets/gyp3-3bx3.md) | Workforce Development | 2015&#x2011;11&#x2011;02
 [City of Austin Employee Detail Information](../datasets/853s-zeff.md) | Business | 2015&#x2011;08&#x2011;28
 [City of Austin Lawsuit Settlements](../datasets/w8rr-4qky.md) | Government | 2015&#x2011;08&#x2011;11
@@ -168,10 +168,10 @@ Name | Category | Published
 [December 2013 Live Outcomes](../datasets/7it9-7pjx.md) | Government | 2014&#x2011;01&#x2011;03
 [December 2013 Outcome Count](../datasets/5ywf-kvta.md) | Government | 2014&#x2011;01&#x2011;02
 [Declared Dangerous Dogs](../datasets/ykw4-j3aj.md) | Public Safety | 2016&#x2011;05&#x2011;09
-[Department English- Spanish Terminology Bank](../datasets/hpf7-4b4e.md) | Government | 2017&#x2011;01&#x2011;26
+[Department English- Spanish Terminology Bank](../datasets/hpf7-4b4e.md) | City Government | 2017&#x2011;07&#x2011;20
 [Digital Inclusion Organization Inventory](../datasets/nw8s-p3bj.md) | Neighborhood | 2015&#x2011;08&#x2011;21
 [Disconnects For Non-pay](../datasets/vqjt-678g.md) | Utility | 2016&#x2011;11&#x2011;14
-[Discount Program- Electric Only](../datasets/53x2-di4n.md) | Utility | 2016&#x2011;10&#x2011;28
+[Discount Program- Electric Only](../datasets/53x2-di4n.md) | Utilities and City Services | 2016&#x2011;10&#x2011;28
 [Draft Additional Imagine Austin Indicators](../datasets/7dis-buys.md) | Government | 2013&#x2011;10&#x2011;25
 [Draft Imagine Austin Indicators](../datasets/d7k5-jyb8.md) | Government | 2013&#x2011;07&#x2011;18
 [EMS - Administrative Measures - Finance](../datasets/uc3g-2rk9.md) | Public Safety | 2016&#x2011;07&#x2011;29
@@ -201,17 +201,17 @@ Name | Category | Published
 [Electric System Equipment](../datasets/bdrj-yu8a.md) | Utility | 2016&#x2011;11&#x2011;01
 [Electric Utility Discount Program By Year](../datasets/gdnf-za7q.md) | Utility | 2016&#x2011;11&#x2011;07
 [Email Addresses for all City of Austin Employees](../datasets/8ujy-upsv.md) | Business | 2015&#x2011;10&#x2011;09
-[Emissions By Plant](../datasets/ukf5-i76d.md) | Utility | 2016&#x2011;10&#x2011;25
+[Emissions By Plant](../datasets/ukf5-i76d.md) | Utilities and City Services | 2016&#x2011;10&#x2011;25
 [Energy Efficiency Annual Energy Savings](../datasets/fw3c-w5de.md) | Utility | 2016&#x2011;06&#x2011;24
 [Energy Efficiency Annual Energy Savings ( MWH)](../datasets/28vy-j5vt.md) | Utility | 2016&#x2011;11&#x2011;29
 [Energy Efficiency Avoided Emissions 2012](../datasets/69ir-67ws.md) | Utility | 2016&#x2011;11&#x2011;07
 [Energy Efficiency Peak Demand Reduction](../datasets/3d4a-wzcg.md) | Utility | 2016&#x2011;12&#x2011;05
 [Energy Efficiency Program Expenditures](../datasets/ep87-3zpp.md) | Utility | 2016&#x2011;12&#x2011;05
 [Energy Efficiency Program Participation](../datasets/h47z-b72v.md) | Utility | 2016&#x2011;12&#x2011;15
-[Energy Sales - kilowatt hours by Customer Class](../datasets/t4zw-f3yr.md) | Utility | 2016&#x2011;06&#x2011;24
+[Energy Sales - kilowatt hours by Customer Class](../datasets/t4zw-f3yr.md) | Utilities and City Services | 2016&#x2011;06&#x2011;24
 [Equivalent Availability Factor](../datasets/mpip-i8mq.md) | Utility | 2016&#x2011;10&#x2011;18
 [Event Waivers](../datasets/fytz-zuei.md) | Permitting | 2015&#x2011;08&#x2011;06
-[FY 2016 Proposed Operating Budget Expenditures – Line Item Detail](../datasets/c9gq-k8de.md) | Government | 2015&#x2011;08&#x2011;14
+[FY 2016 Proposed Operating Budget Expenditures – Line Item Detail](../datasets/c9gq-k8de.md) | Budget and Finance | 2015&#x2011;08&#x2011;14
 [FY11 Day Labor Placements](../datasets/m9jn-qzir.md) |  | 2012&#x2011;07&#x2011;11
 [FY12 Day Labor Placements](../datasets/utnt-hag5.md) | Workforce Development | 2012&#x2011;10&#x2011;05
 [FY13 Day Labor Placements](../datasets/ykzu-pxxq.md) | Workforce Development | 2013&#x2011;10&#x2011;10
@@ -219,7 +219,7 @@ Name | Category | Published
 [FY14 HSEM Response Time - Open Data](../datasets/drfs-g7hw.md) | Public Safety | 2015&#x2011;08&#x2011;10
 [FY15 Day Labor Placements](../datasets/m6s3-9c5q.md) | Health | 2015&#x2011;10&#x2011;21
 [FY16 Day Labor Placements](../datasets/sq83-5vi5.md) | Workforce Development | 2016&#x2011;10&#x2011;10
-[FY17 Budget Simulator data](../datasets/2u4b-s8xd.md) | Financial | 2016&#x2011;08&#x2011;31
+[FY17 Budget Simulator data](../datasets/2u4b-s8xd.md) | Budget and Finance | 2016&#x2011;08&#x2011;31
 [FY2015 Annual Report DMO Contacts](../datasets/me9g-u32f.md) |  | 2016&#x2011;09&#x2011;23
 [FY2015 Annual Report EMS Public Information Office Activities](../datasets/hghw-zjns.md) | Public Safety | 2016&#x2011;12&#x2011;15
 [FY2015 Annual Report EMS Safety Data](../datasets/a6uh-avtt.md) | Public Safety | 2016&#x2011;12&#x2011;29
@@ -286,7 +286,7 @@ Name | Category | Published
 [Officer Involved Shooting 2000-2014](../datasets/63p6-iegi.md) |  | 2015&#x2011;11&#x2011;02
 [On- Site Energy Resources](../datasets/ktsk-a3bg.md) | Utility | 2016&#x2011;11&#x2011;15
 [Open Data Initiative Progress Report - Participation Sprint](../datasets/8qty-vat2.md) | Government | 2015&#x2011;11&#x2011;02
-[Operations And Maintenance Expenditures](../datasets/q3b3-ezki.md) | Utility | 2016&#x2011;10&#x2011;31
+[Operations And Maintenance Expenditures](../datasets/q3b3-ezki.md) | Utilities and City Services | 2016&#x2011;10&#x2011;31
 [Parking Lot Entranaces and Exits](../datasets/ij6a-fwpi.md) |  | 2016&#x2011;12&#x2011;12
 [Parkranger 2016 10](../datasets/kp5v-bj5i.md) |  | 2017&#x2011;02&#x2011;24
 [Payment Arrangements](../datasets/qhxa-cink.md) | Utility | 2016&#x2011;10&#x2011;24
@@ -300,10 +300,10 @@ Name | Category | Published
 [Previous Standard Product Lists](../datasets/askc-vuqf.md) | Government | 2016&#x2011;10&#x2011;06
 [Program Budget Operating Budget Vs Expense Raw Data](../datasets/g5k8-8sud.md) | Financial | 2014&#x2011;10&#x2011;09
 [Properties Affected by Organics Diversion Requirements of Universal Recycling Ordinance](../datasets/a3pf-9u7n.md) | Environmental | 2017&#x2011;01&#x2011;04
-[Proposed One- Day- Per- Week Watering Schedule](../datasets/q86y-e7vw.md) | Utility | 2016&#x2011;02&#x2011;11
+[Proposed One- Day- Per- Week Watering Schedule](../datasets/q86y-e7vw.md) | City Government | 2016&#x2011;02&#x2011;11
 [Purchase Order Quantity Price detail for Commodity/Goods procurements](../datasets/3ebq-e9iz.md) | Financial | 2014&#x2011;10&#x2011;08
-[Purchase Power Agreements](../datasets/jttf-iwhx.md) | Utility | 2016&#x2011;08&#x2011;02
-[Purchase Power Agreements](../datasets/jttf-iwhx.md) | Utility | 2016&#x2011;08&#x2011;02
+[Purchase Power Agreements](../datasets/jttf-iwhx.md) | Utilities and City Services | 2016&#x2011;08&#x2011;02
+[Purchase Power Agreements](../datasets/jttf-iwhx.md) | Utilities and City Services | 2016&#x2011;08&#x2011;02
 [R2 R 2009](../datasets/sc8s-w4ka.md) | Government | 2016&#x2011;09&#x2011;20
 [R2R 2010](../datasets/q5ym-htjz.md) | Government | 2016&#x2011;09&#x2011;20
 [R2R 2013](../datasets/qxx9-6iwk.md) | Government | 2016&#x2011;09&#x2011;20
@@ -312,9 +312,9 @@ Name | Category | Published
 [Racial Profiling Dataset 2015- Arrests](../datasets/vykk-upaj.md) | Public Safety | 2016&#x2011;03&#x2011;10
 [Racial Profiling Dataset 2015- Citations](../datasets/sc6h-qr9f.md) | Public Safety | 2016&#x2011;03&#x2011;10
 [Recreation Centers](../datasets/8dff-2vkt.md) | Government | 2016&#x2011;05&#x2011;11
-[Recycle Drop Off Locations](../datasets/qzi7-nx8g.md) | Environmental | 2013&#x2011;09&#x2011;18
+[Recycle Drop Off Locations](../datasets/qzi7-nx8g.md) | Environment | 2013&#x2011;09&#x2011;18
 [Recycling Schedules](../datasets/rfif-mmvg.md) | Government | 2013&#x2011;03&#x2011;07
-[Residential Average Monthly kWh and Bills](../datasets/d9pb-3vh7.md) | Utility | 2016&#x2011;10&#x2011;13
+[Residential Average Monthly kWh and Bills](../datasets/d9pb-3vh7.md) | Utilities and City Services | 2016&#x2011;10&#x2011;13
 [Resolutions Summary](../datasets/paa2-kvza.md) |  | 2015&#x2011;04&#x2011;01
 [Response To Resistance 2014](../datasets/5pnt-e38e.md) |  | 2015&#x2011;10&#x2011;29
 [SXSW 2014 Post-Evaluation Survey](../datasets/4us7-37cx.md) | Government | 2014&#x2011;06&#x2011;09
@@ -326,9 +326,9 @@ Name | Category | Published
 [Sep 2013 Austin Animal Center Outcome Count](../datasets/drnt-j5qy.md) | Government | 2013&#x2011;11&#x2011;21
 [September 2014 Austin Animal Center Intake Data](../datasets/8jjf-bejx.md) | Government | 2014&#x2011;10&#x2011;01
 [September 2014 Austin Animal Center Live Outcome Rate Data](../datasets/rbfq-6fgu.md) | Government | 2014&#x2011;10&#x2011;01
-[September 2014 Austin Animal Center Outcome Data](../datasets/e2a3-3mi6.md) | Government | 2014&#x2011;10&#x2011;01
+[September 2014 Austin Animal Center Outcome Data](../datasets/e2a3-3mi6.md) | Health and Community Services | 2014&#x2011;10&#x2011;01
 [Social Media - Top Commenters](../datasets/aqaz-cxjw.md) | Government | 2015&#x2011;07&#x2011;16
-[Solar For Schools](../datasets/6egj-ay6c.md) | Utility | 2016&#x2011;10&#x2011;14
+[Solar For Schools](../datasets/6egj-ay6c.md) | Utilities and City Services | 2016&#x2011;10&#x2011;14
 [Solar On City Facilities](../datasets/3kyh-ggqg.md) | Utility | 2016&#x2011;11&#x2011;14
 [Solar Program Current Incentive Levels and Available Capacity](../datasets/vxq2-zjmn.md) | Utility | 2017&#x2011;03&#x2011;20
 [Solar Rebate Program](../datasets/9daw-gnsy.md) | Utility | 2016&#x2011;11&#x2011;14
@@ -339,7 +339,7 @@ Name | Category | Published
 [Stores Supplying Extra Trash Stickers](../datasets/gpeq-wpdt.md) |  | 2016&#x2011;03&#x2011;07
 [Synchronized Traffic Signal Corridors](../datasets/efct-8fs9.md) |  | 2017&#x2011;03&#x2011;09
 [System Fuel Cost Average](../datasets/6yrz-de8g.md) | Utility | 2016&#x2011;09&#x2011;30
-[System Production Cost](../datasets/d683-uqui.md) | Utility | 2016&#x2011;09&#x2011;30
+[System Production Cost](../datasets/d683-uqui.md) | Utilities and City Services | 2016&#x2011;09&#x2011;30
 [System Reliability](../datasets/ddh8-gyev.md) | Utility | 2016&#x2011;10&#x2011;03
 [Tcta 2015](../datasets/im9u-snku.md) | Government | 2015&#x2011;10&#x2011;29
 [Test Dataset](../datasets/v63w-n57w.md) |  | 2016&#x2011;03&#x2011;29
@@ -362,7 +362,7 @@ Name | Category | Published
 [Water Quality Sampling Locations](../datasets/t9gx-rxwg.md) | Environmental | 2015&#x2011;08&#x2011;14
 [Watershed Reach Index and Problem Scores](../datasets/vk3r-6prc.md) | Environmental | 2015&#x2011;04&#x2011;14
 [Watersheds](../datasets/ec78-i9z5.md) | Government | 2013&#x2011;12&#x2011;11
-[Weatherization Assistance Program](../datasets/fnns-rqqh.md) | Utility | 2016&#x2011;09&#x2011;30
+[Weatherization Assistance Program](../datasets/fnns-rqqh.md) | Utilities and City Services | 2016&#x2011;09&#x2011;30
 [Wireless Usage at Austin Public Library](../datasets/cr83-wy4q.md) | Neighborhood | 2017&#x2011;04&#x2011;03
 [Zilker Botanical Garden Sept-Nov 2015 events](../datasets/m87q-f83v.md) |  | 2015&#x2011;12&#x2011;17
 [[DEPRECATED] Austin Animal Center Outcomes](../datasets/jpst-ix7f.md) | Health | 2017&#x2011;01&#x2011;11

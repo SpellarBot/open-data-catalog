@@ -44,11 +44,11 @@ Excluded Fields = additional_address_info
 ## Data Commands
 
 ```ls
-series e:eb3y-vtsa d:2015-11-06T11:14:16.000Z t:phone_number=417-993-4403 t:county=Dallas t:hours_of_operation="3RD T 2-7" t:agency_name="Prairie Chapel United Methodist" m:row_number.eb3y-vtsa=1
+series e:eb3y-vtsa d:2015-11-06T11:14:16.000Z t:hours_of_operation="3RD T 2-7" t:agency_name="Prairie Chapel United Methodist" t:county=Dallas t:phone_number=417-993-4403 m:row_number.eb3y-vtsa=1
 
-series e:eb3y-vtsa d:2015-11-06T11:25:06.000Z t:phone_number=417-466-7536 t:county=Lawrence t:hours_of_operation="3RD W 10-11 & PREVIOUS M 6-7" t:agency_name="St. Susanne Catholic Church" m:row_number.eb3y-vtsa=2
+series e:eb3y-vtsa d:2015-11-06T11:25:06.000Z t:hours_of_operation="3RD W 10-11 & PREVIOUS M 6-7" t:agency_name="St. Susanne Catholic Church" t:county=Lawrence t:phone_number=417-466-7536 m:row_number.eb3y-vtsa=2
 
-series e:eb3y-vtsa d:2015-11-06T11:28:09.000Z t:phone_number=417-967-4484 t:county=Texas t:hours_of_operation="T-F 10-2" t:agency_name="Texas County Food Pantry" m:row_number.eb3y-vtsa=3
+series e:eb3y-vtsa d:2015-11-06T11:28:09.000Z t:hours_of_operation="T-F 10-2" t:agency_name="Texas County Food Pantry" t:county=Texas t:phone_number=417-967-4484 m:row_number.eb3y-vtsa=3
 ```
 
 ## Meta Commands
@@ -58,11 +58,11 @@ metric m:row_number.eb3y-vtsa p:long l:"Row Number"
 
 entity e:eb3y-vtsa l:"Food Pantry List" t:url=https://data.mo.gov/api/views/eb3y-vtsa
 
-property e:eb3y-vtsa t:meta.view d:2017-06-09T13:55:17.754Z v:id=eb3y-vtsa v:category="Social Services" v:averageRating=0 v:name="Food Pantry List"
+property e:eb3y-vtsa t:meta.view d:2017-09-25T07:26:43.501Z v:averageRating=0 v:name="Food Pantry List" v:id=eb3y-vtsa v:category="Social Services"
 
-property e:eb3y-vtsa t:meta.view.owner d:2017-06-09T13:55:17.754Z v:id=jzbz-iqr6 v:screenName=Breanna v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.owner d:2017-09-25T07:26:43.501Z v:displayName=Breanna v:lastNotificationSeenAt=1504107758 v:id=jzbz-iqr6 v:screenName=Breanna
 
-property e:eb3y-vtsa t:meta.view.tableauthor d:2017-06-09T13:55:17.754Z v:id=jzbz-iqr6 v:screenName=Breanna v:roleName=administrator v:lastNotificationSeenAt=1496427887 v:displayName=Breanna
+property e:eb3y-vtsa t:meta.view.tableauthor d:2017-09-25T07:26:43.501Z v:displayName=Breanna v:lastNotificationSeenAt=1504107758 v:roleName=administrator v:id=jzbz-iqr6 v:screenName=Breanna
 ```
 
 ## Top Records

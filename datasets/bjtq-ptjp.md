@@ -53,11 +53,11 @@ Excluded Fields = year
 ## Data Commands
 
 ```ls
-series e:bjtq-ptjp d:2006-01-01T00:00:00.000Z t:row_id=Orleans2006 t:parish=Orleans m:very_poor=28 m:total_verygood_good_fair=35 m:poor=37 m:good=14 m:fair=18 m:very_good=3
+series e:bjtq-ptjp d:2006-01-01T00:00:00.000Z t:parish=Orleans t:row_id=Orleans2006 m:poor=37 m:very_poor=28 m:very_good=3 m:fair=18 m:good=14 m:total_verygood_good_fair=35
 
-series e:bjtq-ptjp d:2006-01-01T00:00:00.000Z t:row_id=Jefferson2006 t:parish=Jefferson m:very_poor=6 m:total_verygood_good_fair=75 m:poor=19 m:good=35 m:fair=28 m:very_good=12
+series e:bjtq-ptjp d:2006-01-01T00:00:00.000Z t:parish=Jefferson t:row_id=Jefferson2006 m:poor=19 m:very_poor=6 m:very_good=12 m:fair=28 m:good=35 m:total_verygood_good_fair=75
 
-series e:bjtq-ptjp d:2007-01-01T00:00:00.000Z t:row_id=Orleans2007 t:parish=Orleans m:very_poor=10 m:total_verygood_good_fair=65 m:poor=25 m:good=25 m:fair=34 m:very_good=6
+series e:bjtq-ptjp d:2007-01-01T00:00:00.000Z t:parish=Orleans t:row_id=Orleans2007 m:poor=25 m:very_poor=10 m:very_good=6 m:fair=34 m:good=25 m:total_verygood_good_fair=65
 ```
 
 ## Meta Commands
@@ -77,13 +77,13 @@ metric m:total_verygood_good_fair p:integer l:Total_VeryGood_Good_Fair t:dataTyp
 
 entity e:bjtq-ptjp l:"Trash Control and Pickup Rating (2006 - Present)" t:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey" t:url=https://data.nola.gov/api/views/bjtq-ptjp
 
-property e:bjtq-ptjp t:meta.view d:2017-06-09T13:58:49.389Z v:id=bjtq-ptjp v:category="Customer Service" v:attributionLink=http://www.uno.edu/cola/political-science/survey-research-center-studies.aspx v:averageRating=0 v:name="Trash Control and Pickup Rating (2006 - Present)" v:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey"
+property e:bjtq-ptjp t:meta.view d:2017-09-25T07:30:13.677Z v:averageRating=0 v:name="Trash Control and Pickup Rating (2006 - Present)" v:attribution="The University of New Orleans Survey Research Center's Quality of Life Survey" v:attributionLink=http://www.uno.edu/cola/political-science/survey-research-center-studies.aspx v:id=bjtq-ptjp v:category="Customer Service"
 
-property e:bjtq-ptjp t:meta.view.owner d:2017-06-09T13:58:49.389Z v:id=ii98-542e v:screenName=mschigoda v:displayName=mschigoda
+property e:bjtq-ptjp t:meta.view.owner d:2017-09-25T07:30:13.677Z v:displayName=mschigoda v:id=ii98-542e v:screenName=mschigoda
 
-property e:bjtq-ptjp t:meta.view.tableauthor d:2017-06-09T13:58:49.389Z v:id=ii98-542e v:screenName=mschigoda v:roleName=publisher v:displayName=mschigoda
+property e:bjtq-ptjp t:meta.view.tableauthor d:2017-09-25T07:30:13.677Z v:displayName=mschigoda v:roleName=publisher v:id=ii98-542e v:screenName=mschigoda
 
-property e:bjtq-ptjp t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:49.389Z v:Contact_Email=data@nola.gov
+property e:bjtq-ptjp t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:13.677Z v:Contact_Email=data@nola.gov
 ```
 
 ## Top Records

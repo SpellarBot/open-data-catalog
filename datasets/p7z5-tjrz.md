@@ -45,11 +45,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:degree_desc=AA t:major_desc=Business/Admin./Mgmt. t:course_title="INTRODUCTION TO BUSINESS" t:department=Police t:school_desc="Montgomery College Rockville Campus" t:course_desc="An introductory course designed to survey the field of business and its environment in order to give the student a broad overview of the principles, practices, institutions, and functions of business." m:cost=392
+series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:course_desc="An introductory course designed to survey the field of business and its environment in order to give the student a broad overview of the principles, practices, institutions, and functions of business." t:major_desc=Business/Admin./Mgmt. t:degree_desc=AA t:school_desc="Montgomery College Rockville Campus" t:course_title="INTRODUCTION TO BUSINESS" t:department=Police m:cost=392
 
-series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:degree_desc=AA t:major_desc=Business/Admin./Mgmt. t:course_title="MA 160" t:department=Police t:school_desc="Montgomery College Rockville Campus" t:course_desc="A general calculus course primarily for business students. Topics include algebraic, exponential, and logarithmic functions and their graphs; an intuitive approach to limits; differentiation; integration; and functions of several variables. Major emphasis" m:cost=392
+series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:course_desc="A general calculus course primarily for business students. Topics include algebraic, exponential, and logarithmic functions and their graphs; an intuitive approach to limits; differentiation; integration; and functions of several variables. Major emphasis" t:major_desc=Business/Admin./Mgmt. t:degree_desc=AA t:school_desc="Montgomery College Rockville Campus" t:course_title="MA 160" t:department=Police m:cost=392
 
-series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:degree_desc=AA t:major_desc=Business/Admin./Mgmt. t:course_title="INTRO TO AMERICAN MUSIC" t:department=Police t:school_desc="Montgomery College Rockville Campus" t:course_desc="A survey of American popular music from the turn of the 20th century to the present with an emphasis on rock music." m:cost=392
+series e:p7z5-tjrz d:2015-08-15T00:33:50.000Z t:course_desc="A survey of American popular music from the turn of the 20th century to the present with an emphasis on rock music." t:major_desc=Business/Admin./Mgmt. t:degree_desc=AA t:school_desc="Montgomery College Rockville Campus" t:course_title="INTRO TO AMERICAN MUSIC" t:department=Police m:cost=392
 ```
 
 ## Meta Commands
@@ -59,11 +59,11 @@ metric m:cost p:double l:Cost t:dataTypeName=money
 
 entity e:p7z5-tjrz l:"Tuition Assistance" t:url=https://data.montgomerycountymd.gov/api/views/p7z5-tjrz
 
-property e:p7z5-tjrz t:meta.view d:2017-06-09T14:00:24.458Z v:id=p7z5-tjrz v:category=Education v:averageRating=0 v:name="Tuition Assistance"
+property e:p7z5-tjrz t:meta.view d:2017-09-25T07:31:40.990Z v:averageRating=0 v:name="Tuition Assistance" v:id=p7z5-tjrz v:category=Education
 
-property e:p7z5-tjrz t:meta.view.owner d:2017-06-09T14:00:24.458Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.owner d:2017-09-25T07:31:40.990Z v:displayName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:id=ajn4-zy65 v:screenName="MCG ESB Service"
 
-property e:p7z5-tjrz t:meta.view.tableauthor d:2017-06-09T14:00:24.458Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:p7z5-tjrz t:meta.view.tableauthor d:2017-09-25T07:31:40.990Z v:displayName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:roleName=administrator v:id=ajn4-zy65 v:screenName="MCG ESB Service"
 ```
 
 ## Top Records

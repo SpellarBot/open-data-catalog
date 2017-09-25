@@ -66,11 +66,11 @@ Excluded Fields = enacted_date,effective_date,displayorder,year,quarter
 ## Data Commands
 
 ```ls
-series e:itia-u6fu d:1995-10-01T00:00:00.000Z t:locationabbr=AK t:locationdesc=Alaska t:topicid=1043LEG t:provisiondesc="Smokefree Campus" t:measureid=1017PUS t:measuredesc="Public Schools (K-12)" t:provisiongroupdesc=Restrictions t:provisiongroupid=10GRP t:provisionvalue="No Provision" t:provisionid=525 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:itia-u6fu d:1995-10-01T00:00:00.000Z t:measureid=1017PUS t:measuredesc="Public Schools (K-12)" t:provisiondesc="Smokefree Campus" t:locationabbr=AK t:locationdesc=Alaska t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:provisionid=525 t:topicid=1043LEG t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG t:provisionvalue="No Provision" t:provisiongroupid=10GRP t:provisiongroupdesc=Restrictions m:provisionaltvalue=0
 
-series e:itia-u6fu d:2014-01-01T00:00:00.000Z t:locationabbr=WY t:locationdesc=Wyoming t:topicid=1043LEG t:provisiondesc="Type of Restriction on Bus" t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiongroupdesc="Restriction Areas" t:provisiongroupid=15GRP t:provisionvalue="No Provision" t:provisionid=548 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:itia-u6fu d:2014-01-01T00:00:00.000Z t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiondesc="Type of Restriction on Bus" t:locationabbr=WY t:locationdesc=Wyoming t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:provisionid=548 t:topicid=1043LEG t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG t:provisionvalue="No Provision" t:provisiongroupid=15GRP t:provisiongroupdesc="Restriction Areas" m:provisionaltvalue=0
 
-series e:itia-u6fu d:2004-10-01T00:00:00.000Z t:locationabbr=RI t:locationdesc="Rhode Island" t:topicid=1043LEG t:provisiondesc="Type of Restriction Indoors" t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiongroupdesc="Restriction Areas" t:provisiongroupid=15GRP t:provisionvalue="No Provision" t:provisionid=543 t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG m:provisionaltvalue=0
+series e:itia-u6fu d:2004-10-01T00:00:00.000Z t:measureid=1015PRK t:measuredesc="Private Schools (K-12)" t:provisiondesc="Type of Restriction Indoors" t:locationabbr=RI t:locationdesc="Rhode Island" t:topicdesc="Legislation - E-Cigarette - Smokefree Campus" t:provisionid=543 t:topicid=1043LEG t:datatype=Ranking t:datasource=OSH t:topictypeid=LEG t:provisionvalue="No Provision" t:provisiongroupid=15GRP t:provisiongroupdesc="Restriction Areas" m:provisionaltvalue=0
 ```
 
 ## Meta Commands
@@ -80,15 +80,15 @@ metric m:provisionaltvalue p:integer l:ProvisionAltValue d:"Alternate numeric va
 
 entity e:itia-u6fu l:"CDC STATE System E-Cigarette Legislation - Smokefree Campus" t:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" t:url=https://data.cdc.gov/api/views/itia-u6fu
 
-property e:itia-u6fu t:meta.view d:2017-06-09T13:53:04.978Z v:id=itia-u6fu v:category=Legislation v:attributionLink=http://www.cdc.gov/STATESystem v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Smokefree Campus" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health"
+property e:itia-u6fu t:meta.view d:2017-09-25T07:24:25.033Z v:averageRating=0 v:name="CDC STATE System E-Cigarette Legislation - Smokefree Campus" v:attribution="Centers for Disease Control and Prevention, National Center for Chronic Disease Prevention and Health Promotion, Office on Smoking and Health" v:attributionLink=http://www.cdc.gov/STATESystem v:id=itia-u6fu v:category=Legislation
 
-property e:itia-u6fu t:meta.view.license d:2017-06-09T13:53:04.978Z v:name="Public Domain"
+property e:itia-u6fu t:meta.view.license d:2017-09-25T07:24:25.033Z v:name="Public Domain"
 
-property e:itia-u6fu t:meta.view.owner d:2017-06-09T13:53:04.978Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:displayName=OSHData
+property e:itia-u6fu t:meta.view.owner d:2017-09-25T07:24:25.033Z v:displayName=OSHData v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:id=p5wh-zttj v:screenName=OSHData v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB
 
-property e:itia-u6fu t:meta.view.tableauthor d:2017-06-09T13:53:04.978Z v:id=p5wh-zttj v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:screenName=OSHData v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:roleName=administrator v:displayName=OSHData
+property e:itia-u6fu t:meta.view.tableauthor d:2017-09-25T07:24:25.033Z v:displayName=OSHData v:profileImageUrlLarge=/api/users/p5wh-zttj/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/p5wh-zttj/profile_images/TINY v:id=p5wh-zttj v:screenName=OSHData v:profileImageUrlMedium=/api/users/p5wh-zttj/profile_images/THUMB
 
-property e:itia-u6fu t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:04.978Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:itia-u6fu t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:24:25.033Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

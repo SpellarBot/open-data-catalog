@@ -47,11 +47,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:hkfu-49xs d:2016-11-22T00:00:00.000Z t:account_desc="OFFICE SUPPLIES" t:check=4229 t:department="OSPCD ADMINISTRATION" t:item=1 t:vendor_name=4IMPRINT t:org_description="OSPCD-ADMIN ORDINARY MAINT" t:category_of_gov="General Government" m:amount=870.66
+series e:hkfu-49xs d:2016-11-22T00:00:00.000Z t:org_description="OSPCD-ADMIN ORDINARY MAINT" t:item=1 t:account_desc="OFFICE SUPPLIES" t:category_of_gov="General Government" t:vendor_name=4IMPRINT t:check=4229 t:department="OSPCD ADMINISTRATION" m:amount=870.66
 
-series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc="PRINTING & STATIONERY" t:check=3991 t:department="POLICE DEPARTMENT" t:item=2 t:vendor_name=4IMPRINT t:org_description="POLICE ORDINARY MAINTENANCE" t:category_of_gov="General Government" m:amount=357.44
+series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:org_description="POLICE ORDINARY MAINTENANCE" t:item=2 t:account_desc="PRINTING & STATIONERY" t:category_of_gov="General Government" t:vendor_name=4IMPRINT t:check=3991 t:department="POLICE DEPARTMENT" m:amount=357.44
 
-series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:account_desc=STATIONERY t:check=3992 t:department="POLICE DEPARTMENT" t:item=3 t:vendor_name=4IMPRINT t:org_description="POLICE-ANIMAL CTL ORD MAINT" t:category_of_gov="General Government" m:amount=722.6
+series e:hkfu-49xs d:2016-08-31T00:00:00.000Z t:org_description="POLICE-ANIMAL CTL ORD MAINT" t:item=3 t:account_desc=STATIONERY t:category_of_gov="General Government" t:vendor_name=4IMPRINT t:check=3992 t:department="POLICE DEPARTMENT" m:amount=722.6
 ```
 
 ## Meta Commands
@@ -61,13 +61,13 @@ metric m:amount p:float l:Amount t:dataTypeName=number
 
 entity e:hkfu-49xs l:"Open Checkbook Data FY17" t:attribution="City of Somerville Finance Department" t:url=https://data.somervillema.gov/api/views/hkfu-49xs
 
-property e:hkfu-49xs t:meta.view d:2017-06-09T13:51:45.131Z v:id=hkfu-49xs v:category=Finance v:attributionLink=http://www.somervillema.gov/departments/finance v:averageRating=0 v:name="Open Checkbook Data FY17" v:attribution="City of Somerville Finance Department"
+property e:hkfu-49xs t:meta.view d:2017-09-25T07:23:04.091Z v:averageRating=0 v:name="Open Checkbook Data FY17" v:attribution="City of Somerville Finance Department" v:attributionLink=http://www.somervillema.gov/departments/finance v:id=hkfu-49xs v:category=Finance
 
-property e:hkfu-49xs t:meta.view.license d:2017-06-09T13:51:45.131Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
+property e:hkfu-49xs t:meta.view.license d:2017-09-25T07:23:04.091Z v:name="Open Data Commons Open Database License" v:termsLink=http://opendatacommons.org/licenses/odbl/1.0/
 
-property e:hkfu-49xs t:meta.view.owner d:2017-06-09T13:51:45.131Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:displayName="Michael Mastrobuoni"
+property e:hkfu-49xs t:meta.view.owner d:2017-09-25T07:23:04.091Z v:displayName="Michael Mastrobuoni" v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 
-property e:hkfu-49xs t:meta.view.tableauthor d:2017-06-09T13:51:45.131Z v:id=j34k-s96t v:screenName="Michael Mastrobuoni" v:roleName=administrator v:displayName="Michael Mastrobuoni"
+property e:hkfu-49xs t:meta.view.tableauthor d:2017-09-25T07:23:04.091Z v:displayName="Michael Mastrobuoni" v:roleName=administrator v:id=j34k-s96t v:screenName="Michael Mastrobuoni"
 ```
 
 ## Top Records

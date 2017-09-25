@@ -42,11 +42,11 @@ Format & Zone = seconds
 ## Data Commands
 
 ```ls
-series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type="Apple Cider" m:other_source_outside_new_york_state_availability_period=0 m:from_new_york_state_source=158 m:other_source_during_new_york_state_availability_period=0
+series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type="Apple Cider" m:other_source_outside_new_york_state_availability_period=0 m:other_source_during_new_york_state_availability_period=0 m:from_new_york_state_source=158
 
-series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type=Apples m:other_source_outside_new_york_state_availability_period=2429 m:from_new_york_state_source=42896 m:other_source_during_new_york_state_availability_period=8106
+series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type=Apples m:other_source_outside_new_york_state_availability_period=2429 m:other_source_during_new_york_state_availability_period=8106 m:from_new_york_state_source=42896
 
-series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type=Asparagus m:other_source_outside_new_york_state_availability_period=143 m:from_new_york_state_source=292 m:other_source_during_new_york_state_availability_period=791
+series e:2rd2-9uwy d:2015-12-17T08:38:00.000Z t:food_type=Asparagus m:other_source_outside_new_york_state_availability_period=143 m:other_source_during_new_york_state_availability_period=791 m:from_new_york_state_source=292
 ```
 
 ## Meta Commands
@@ -60,11 +60,11 @@ metric m:other_source_outside_new_york_state_availability_period p:integer l:"Ot
 
 entity e:2rd2-9uwy l:"Local Law 50 New York State Food Purchasing FY15" t:attribution="Mayor's Office of Contract Services (MOCS)" t:url=https://data.cityofnewyork.us/api/views/2rd2-9uwy
 
-property e:2rd2-9uwy t:meta.view d:2017-06-09T13:55:24.653Z v:id=2rd2-9uwy v:category="City Government" v:averageRating=0 v:name="Local Law 50 New York State Food Purchasing FY15" v:attribution="Mayor's Office of Contract Services (MOCS)"
+property e:2rd2-9uwy t:meta.view d:2017-09-25T07:26:48.417Z v:averageRating=0 v:name="Local Law 50 New York State Food Purchasing FY15" v:attribution="Mayor's Office of Contract Services (MOCS)" v:id=2rd2-9uwy v:category="City Government"
 
-property e:2rd2-9uwy t:meta.view.owner d:2017-06-09T13:55:24.653Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:2rd2-9uwy t:meta.view.owner d:2017-09-25T07:26:48.417Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 
-property e:2rd2-9uwy t:meta.view.tableauthor d:2017-06-09T13:55:24.653Z v:id=5fuc-pqz2 v:screenName="NYC OpenData" v:roleName=administrator v:lastNotificationSeenAt=1496414226 v:displayName="NYC OpenData"
+property e:2rd2-9uwy t:meta.view.tableauthor d:2017-09-25T07:26:48.417Z v:displayName="NYC OpenData" v:lastNotificationSeenAt=1496414226 v:roleName=administrator v:id=5fuc-pqz2 v:screenName="NYC OpenData"
 ```
 
 ## Top Records

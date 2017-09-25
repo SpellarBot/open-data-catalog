@@ -38,11 +38,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Adams m:asian_non_hispanic=37 m:indian_non_hispanic=31 m:black_non_hispanic=46 m:white_non_hispanic=1574 m:hispanic=4932
+series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Adams m:indian_non_hispanic=31 m:black_non_hispanic=46 m:hispanic=4932 m:asian_non_hispanic=37 m:white_non_hispanic=1574
 
-series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Asotin m:asian_non_hispanic=52 m:indian_non_hispanic=112 m:black_non_hispanic=75 m:white_non_hispanic=4131 m:hispanic=293
+series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Asotin m:indian_non_hispanic=112 m:black_non_hispanic=75 m:hispanic=293 m:asian_non_hispanic=52 m:white_non_hispanic=4131
 
-series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Benton m:asian_non_hispanic=1474 m:indian_non_hispanic=453 m:black_non_hispanic=1110 m:white_non_hispanic=30847 m:hispanic=14429
+series e:j5r5-zefd d:2012-01-01T00:00:00.000Z t:county=Benton m:indian_non_hispanic=453 m:black_non_hispanic=1110 m:hispanic=14429 m:asian_non_hispanic=1474 m:white_non_hispanic=30847
 ```
 
 ## Meta Commands
@@ -60,13 +60,13 @@ metric m:hispanic p:integer l:Hispanic t:dataTypeName=number
 
 entity e:j5r5-zefd l:"2012 Age 0-17 Youth Population by Race/Ethnicity by County" t:attribution="Office of Juvenile Justice" t:url=https://data.wa.gov/api/views/j5r5-zefd
 
-property e:j5r5-zefd t:meta.view d:2017-06-09T13:57:01.007Z v:id=j5r5-zefd v:attributionLink=https://dshs.wa.gov/ra/office-juvenile-justice/washington-state-juvenile-justice-annual-report v:averageRating=100 v:name="2012 Age 0-17 Youth Population by Race/Ethnicity by County" v:attribution="Office of Juvenile Justice"
+property e:j5r5-zefd t:meta.view d:2017-09-25T07:28:23.391Z v:averageRating=100 v:name="2012 Age 0-17 Youth Population by Race/Ethnicity by County" v:attribution="Office of Juvenile Justice" v:attributionLink=https://dshs.wa.gov/ra/office-juvenile-justice/washington-state-juvenile-justice-annual-report v:id=j5r5-zefd
 
-property e:j5r5-zefd t:meta.view.license d:2017-06-09T13:57:01.007Z v:name="Public Domain"
+property e:j5r5-zefd t:meta.view.license d:2017-09-25T07:28:23.391Z v:name="Public Domain"
 
-property e:j5r5-zefd t:meta.view.owner d:2017-06-09T13:57:01.007Z v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:displayName="Alysa Kipersztok"
+property e:j5r5-zefd t:meta.view.owner d:2017-09-25T07:28:23.391Z v:displayName="Alysa Kipersztok" v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:id=6p7r-jviv v:screenName="Alysa Kipersztok" v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB
 
-property e:j5r5-zefd t:meta.view.tableauthor d:2017-06-09T13:57:01.007Z v:id=6p7r-jviv v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:screenName="Alysa Kipersztok" v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:roleName=viewer v:displayName="Alysa Kipersztok"
+property e:j5r5-zefd t:meta.view.tableauthor d:2017-09-25T07:28:23.391Z v:displayName="Alysa Kipersztok" v:profileImageUrlLarge=/api/users/6p7r-jviv/profile_images/LARGE v:roleName=viewer v:profileImageUrlSmall=/api/users/6p7r-jviv/profile_images/TINY v:id=6p7r-jviv v:screenName="Alysa Kipersztok" v:profileImageUrlMedium=/api/users/6p7r-jviv/profile_images/THUMB
 ```
 
 ## Top Records

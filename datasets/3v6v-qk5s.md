@@ -63,17 +63,17 @@ Excluded Fields = quarter_begin,latitude,longitude,period_covered,quarter
 ## Data Commands
 
 ```ls
-series e:3v6v-qk5s d:2016-10-01T00:00:00.000Z t:product_fda_list_name=ACYCLOVIR t:ndc=65162083596 t:package_size=96 t:state_code=FL t:labeler_code=65162 t:product_code=0835 t:utilization_type=MCOU t:suppression_used=false m:medicaid_amount_reimbursed=180412.58 m:total_amount_reimbursed=180412.58 m:number_of_prescriptions=435 m:units_reimbursed=13200 m:non_medicaid_amount_reimbursed=0
+series e:3v6v-qk5s d:2016-10-01T00:00:00.000Z t:package_size=96 t:product_fda_list_name=ACYCLOVIR t:labeler_code=65162 t:suppression_used=false t:product_code=0835 t:ndc=65162083596 t:state_code=FL t:utilization_type=MCOU m:total_amount_reimbursed=180412.58 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=13200 m:medicaid_amount_reimbursed=180412.58 m:number_of_prescriptions=435
 
-series e:3v6v-qk5s d:2016-04-01T00:00:00.000Z t:product_fda_list_name=Gemcitabin t:ndc=16729011711 t:package_size=11 t:state_code=RI t:labeler_code=16729 t:product_code=0117 t:utilization_type=MCOU t:suppression_used=false m:medicaid_amount_reimbursed=12717.64 m:total_amount_reimbursed=12717.64 m:number_of_prescriptions=32 m:units_reimbursed=64 m:non_medicaid_amount_reimbursed=0
+series e:3v6v-qk5s d:2016-04-01T00:00:00.000Z t:package_size=11 t:product_fda_list_name=Gemcitabin t:labeler_code=16729 t:suppression_used=false t:product_code=0117 t:ndc=16729011711 t:state_code=RI t:utilization_type=MCOU m:total_amount_reimbursed=12717.64 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=64 m:medicaid_amount_reimbursed=12717.64 m:number_of_prescriptions=32
 
-series e:3v6v-qk5s d:2016-10-01T00:00:00.000Z t:product_fda_list_name=BUTALBITAL t:ndc=00143178701 t:package_size=01 t:state_code=WA t:labeler_code=00143 t:product_code=1787 t:utilization_type=MCOU t:suppression_used=false m:medicaid_amount_reimbursed=4202.08 m:total_amount_reimbursed=4202.08 m:number_of_prescriptions=153 m:units_reimbursed=5594 m:non_medicaid_amount_reimbursed=0
+series e:3v6v-qk5s d:2016-10-01T00:00:00.000Z t:package_size=05 t:product_fda_list_name=ISOSORBIDE t:labeler_code=68382 t:suppression_used=false t:product_code=0650 t:ndc=68382065005 t:state_code=FL t:utilization_type=FFSU m:total_amount_reimbursed=345.88 m:non_medicaid_amount_reimbursed=0 m:units_reimbursed=1245 m:medicaid_amount_reimbursed=345.88 m:number_of_prescriptions=34
 ```
 
 ## Meta Commands
 
 ```ls
-metric m:units_reimbursed p:double l:"Units Reimbursed" t:dataTypeName=number
+metric m:units_reimbursed p:integer l:"Units Reimbursed" t:dataTypeName=number
 
 metric m:number_of_prescriptions p:integer l:"Number of Prescriptions" t:dataTypeName=number
 
@@ -85,15 +85,15 @@ metric m:non_medicaid_amount_reimbursed p:double l:"Non Medicaid Amount Reimburs
 
 entity e:3v6v-qk5s l:"State Drug Utilization Data 2016" t:attribution="Centers for Medicare and Medicaid" t:url=https://data.medicaid.gov/api/views/3v6v-qk5s
 
-property e:3v6v-qk5s t:meta.view d:2017-06-09T13:53:06.532Z v:id=3v6v-qk5s v:category="State Drug Utilization" v:attributionLink=https://medicaid.gov v:averageRating=0 v:name="State Drug Utilization Data 2016" v:attribution="Centers for Medicare and Medicaid"
+property e:3v6v-qk5s t:meta.view d:2017-09-25T07:24:26.873Z v:averageRating=0 v:name="State Drug Utilization Data 2016" v:attribution="Centers for Medicare and Medicaid" v:attributionLink=https://medicaid.gov v:id=3v6v-qk5s v:category="State Drug Utilization"
 
-property e:3v6v-qk5s t:meta.view.license d:2017-06-09T13:53:06.532Z v:name="Public Domain"
+property e:3v6v-qk5s t:meta.view.license d:2017-09-25T07:24:26.873Z v:name="Public Domain"
 
-property e:3v6v-qk5s t:meta.view.owner d:2017-06-09T13:53:06.532Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:displayName=Medicaid.gov
+property e:3v6v-qk5s t:meta.view.owner d:2017-09-25T07:24:26.873Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:3v6v-qk5s t:meta.view.tableauthor d:2017-06-09T13:53:06.532Z v:id=di3h-9ddn v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:screenName=Medicaid.gov v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:roleName=administrator v:displayName=Medicaid.gov
+property e:3v6v-qk5s t:meta.view.tableauthor d:2017-09-25T07:24:26.873Z v:displayName=Medicaid.gov v:profileImageUrlLarge=/api/users/di3h-9ddn/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/di3h-9ddn/profile_images/TINY v:id=di3h-9ddn v:screenName=Medicaid.gov v:profileImageUrlMedium=/api/users/di3h-9ddn/profile_images/THUMB
 
-property e:3v6v-qk5s t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:53:06.532Z v:Bureau_Code=009:00 v:Program_Code=009:076
+property e:3v6v-qk5s t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:24:26.873Z v:Program_Code=009:076 v:Bureau_Code=009:00
 ```
 
 ## Top Records
@@ -103,12 +103,12 @@ property e:3v6v-qk5s t:meta.view.metadata.custom_fields.common_core d:2017-06-09
 | ================ | ========== | ============ | ============ | ============ | ============== | ======= | ===================== | ================ | ================ | ======================= | ======================= | ========================== | ============================== | ============= | =================== | ======== | ========= | =========== | 
 | MCOU             | FL         | 65162        | 0835         | 96           | 2016           | 4       | ACYCLOVIR             | false            | 13200            | 435                     | 180412.58               | 180412.58                  | 0                              | 10/1          | 2016-10-01T00:00:00 | 27.8333  | -81.717   | 65162083596 | 
 | MCOU             | RI         | 16729        | 0117         | 11           | 2016           | 2       | Gemcitabin            | false            | 64               | 32                      | 12717.64                | 12717.64                   | 0                              | 4/1           | 2016-04-01T00:00:00 | 41.6772  | -71.5101  | 16729011711 | 
-| MCOU             | WA         | 00143        | 1787         | 01           | 2016           | 4       | BUTALBITAL            | false            | 5594             | 153                     | 4202.08                 | 4202.08                    | 0                              | 10/1          | 2016-10-01T00:00:00 | 47.3917  | -121.5708 | 00143178701 | 
 | FFSU             | FL         | 68382        | 0650         | 05           | 2016           | 4       | ISOSORBIDE            | false            | 1245             | 34                      | 345.88                  | 345.88                     | 0                              | 10/1          | 2016-10-01T00:00:00 | 27.8333  | -81.717   | 68382065005 | 
 | FFSU             | KY         | 00536        | 4544         | 10           | 2016           | 3       | SODIUM BIC            | false            | 1580             | 23                      | 122.86                  | 122.86                     | 0                              | 7/1           | 2016-07-01T00:00:00 | 37.669   | -84.6514  | 00536454410 | 
-| MCOU             | IA         | 00186        | 4050         | 01           | 2016           | 4       | Nexium For            | true             |                  |                         |                         |                            |                                | 10/1          | 2016-10-01T00:00:00 | 42.0046  | -93.214   | 00186405001 | 
 | FFSU             | AR         | 43598        | 0208         | 52           | 2016           | 4       | AMOXICILLI            | true             |                  |                         |                         |                            |                                | 10/1          | 2016-10-01T00:00:00 | 34.9513  | -92.3809  | 43598020852 | 
-| MCOU             | NJ         | 00409        | 4332         | 01           | 2016           | 4       | VANCOMYCIN            | false            | 465.69           | 70                      | 3333.27                 | 2165.36                    | 1167.91                        | 10/1          | 2016-10-01T00:00:00 | 40.314   | -74.5089  | 00409433201 | 
 | MCOU             | SC         | 16729        | 0019         | 01           | 2016           | 3       | MYCOPHENOL            | false            | 4050             | 42                      | 4634.98                 | 4634.98                    | 0                              | 7/1           | 2016-07-01T00:00:00 | 33.8191  | -80.9066  | 16729001901 | 
 | FFSU             | UT         | 68134        | 0201         | 16           | 2016           | 4       | Naproxen O            | true             |                  |                         |                         |                            |                                | 10/1          | 2016-10-01T00:00:00 | 40.1135  | -111.8535 | 68134020116 | 
+| FFSU             | ND         | 24208        | 0463         | 25           | 2016           | 4       | LATANOPROS            | true             |                  |                         |                         |                            |                                | 10/1          | 2016-10-01T00:00:00 | 47.5362  | -99.793   | 24208046325 | 
+| MCOU             | VA         | 57237        | 0002         | 05           | 2016           | 4       | Hydrochlor            | true             |                  |                         |                         |                            |                                | 10/1          | 2016-10-01T00:00:00 | 37.768   | -78.2057  | 57237000205 | 
+| MCOU             | XX         | 00093        | 7810         | 56           | 2016           | 3       | AMLODIPINE            | false            | 2760             | 92                      | 10581.58                | 10563.58                   | 18                             | 7/1           | 2016-07-01T00:00:00 |          |           | 00093781056 | 
 ```

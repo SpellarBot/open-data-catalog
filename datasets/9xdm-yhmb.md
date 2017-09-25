@@ -12,7 +12,7 @@
 | Id | 9xdm-yhmb |
 | Name | Austin Energy Customer Data by Customer Class 2006 - 2014 |
 | Attribution | Austin Energy |
-| Category | Utility |
+| Category | Utilities and City Services |
 | Tags | residential, industrial, commercial, "percentage of revenue", kwh, "cents per kwh", "percentage of mwh", mwh, "number of customers" |
 | Created | 2015-08-18T18:33:48Z |
 | Publication Date | 2016-09-22T14:25:34Z |
@@ -53,11 +53,11 @@ Format & Zone = yyyy
 ## Data Commands
 
 ```ls
-series e:9xdm-yhmb d:2006-01-01T00:00:00.000Z t:customer_class=Residential m:cents_per_kwh=9.499 m:percentage_of_mwh=36 m:percentage_of_revenue=41 m:number_of_customers=338184 m:revenue=387540000
+series e:9xdm-yhmb d:2006-01-01T00:00:00.000Z t:customer_class=Residential m:revenue=387540000 m:cents_per_kwh=9.499 m:number_of_customers=338184 m:percentage_of_revenue=41 m:percentage_of_mwh=36
 
-series e:9xdm-yhmb d:2007-01-01T00:00:00.000Z t:customer_class=Residential m:cents_per_kwh=9.112 m:percentage_of_mwh=35 m:percentage_of_revenue=39 m:number_of_customers=345197 m:revenue=356143000
+series e:9xdm-yhmb d:2007-01-01T00:00:00.000Z t:customer_class=Residential m:revenue=356143000 m:cents_per_kwh=9.112 m:number_of_customers=345197 m:percentage_of_revenue=39 m:percentage_of_mwh=35
 
-series e:9xdm-yhmb d:2008-01-01T00:00:00.000Z t:customer_class=Residential m:cents_per_kwh=9.863 m:percentage_of_mwh=35 m:percentage_of_revenue=39 m:number_of_customers=352574 m:revenue=416809000
+series e:9xdm-yhmb d:2008-01-01T00:00:00.000Z t:customer_class=Residential m:revenue=416809000 m:cents_per_kwh=9.863 m:number_of_customers=352574 m:percentage_of_revenue=39 m:percentage_of_mwh=35
 ```
 
 ## Meta Commands
@@ -75,13 +75,13 @@ metric m:percentage_of_mwh p:float l:"Percentage of MWh" t:dataTypeName=percent
 
 entity e:9xdm-yhmb l:"Austin Energy Customer Data by Customer Class 2006 - 2014" t:attribution="Austin Energy" t:url=https://data.austintexas.gov/api/views/9xdm-yhmb
 
-property e:9xdm-yhmb t:meta.view d:2017-06-09T13:59:16.392Z v:id=9xdm-yhmb v:category=Utility v:averageRating=0 v:name="Austin Energy Customer Data by Customer Class 2006 - 2014" v:attribution="Austin Energy"
+property e:9xdm-yhmb t:meta.view d:2017-09-25T07:30:37.204Z v:averageRating=0 v:name="Austin Energy Customer Data by Customer Class 2006 - 2014" v:attribution="Austin Energy" v:id=9xdm-yhmb v:category="Utilities and City Services"
 
-property e:9xdm-yhmb t:meta.view.license d:2017-06-09T13:59:16.392Z v:name="Public Domain"
+property e:9xdm-yhmb t:meta.view.license d:2017-09-25T07:30:37.204Z v:name="Public Domain"
 
-property e:9xdm-yhmb t:meta.view.owner d:2017-06-09T13:59:16.392Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:displayName="Shannon Wisner"
+property e:9xdm-yhmb t:meta.view.owner d:2017-09-25T07:30:37.204Z v:displayName="Shannon Wisner" v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:id=fxfz-wsmq v:screenName="Shannon Wisner" v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB
 
-property e:9xdm-yhmb t:meta.view.tableauthor d:2017-06-09T13:59:16.392Z v:id=fxfz-wsmq v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:screenName="Shannon Wisner" v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:roleName=publisher v:displayName="Shannon Wisner"
+property e:9xdm-yhmb t:meta.view.tableauthor d:2017-09-25T07:30:37.204Z v:displayName="Shannon Wisner" v:profileImageUrlLarge=/api/users/fxfz-wsmq/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/fxfz-wsmq/profile_images/TINY v:id=fxfz-wsmq v:screenName="Shannon Wisner" v:profileImageUrlMedium=/api/users/fxfz-wsmq/profile_images/THUMB
 ```
 
 ## Top Records

@@ -51,11 +51,11 @@ Excluded Fields = address
 ## Data Commands
 
 ```ls
-series e:wryv-d7zf d:2013-08-26T12:36:45.000Z t:zip_code=60068 t:company="Trader Joe's" t:state=IL t:store_type=Specialty t:city="Park Ridge" m:row_number.wryv-d7zf=1
+series e:wryv-d7zf d:2013-08-26T12:36:45.000Z t:city="Park Ridge" t:company="Trader Joe's" t:store_type=Specialty t:state=IL t:zip_code=60068 m:row_number.wryv-d7zf=1
 
-series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:zip_code=60202 t:company="Food 4 Less" t:state=IL t:store_type=FullService t:city=Evanston m:row_number.wryv-d7zf=2
+series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:city=Evanston t:company="Food 4 Less" t:store_type=FullService t:state=IL t:zip_code=60202 m:row_number.wryv-d7zf=2
 
-series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:zip_code=60804 t:company=Aldi t:state=IL t:store_type=Discount t:city=Cicero m:row_number.wryv-d7zf=3
+series e:wryv-d7zf d:2013-08-26T12:36:46.000Z t:city=Cicero t:company=Aldi t:store_type=Discount t:state=IL t:zip_code=60804 m:row_number.wryv-d7zf=3
 ```
 
 ## Meta Commands
@@ -65,11 +65,11 @@ metric m:row_number.wryv-d7zf p:long l:"Row Number"
 
 entity e:wryv-d7zf l:"Nearby Cook County Grocery Store Chains" t:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center" t:url=https://data.cityofchicago.org/api/views/wryv-d7zf
 
-property e:wryv-d7zf t:meta.view d:2017-06-09T13:59:11.966Z v:id=wryv-d7zf v:category="Community & Economic Development" v:attributionLink=http://www.csu.edu/nac/ v:averageRating=0 v:name="Nearby Cook County Grocery Store Chains" v:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center"
+property e:wryv-d7zf t:meta.view d:2017-09-25T07:30:31.286Z v:averageRating=0 v:name="Nearby Cook County Grocery Store Chains" v:attribution="Danny Block, Chicago State University, and Frederick Blum Neighborhood Assistance Center" v:attributionLink=http://www.csu.edu/nac/ v:id=wryv-d7zf v:category="Community & Economic Development"
 
-property e:wryv-d7zf t:meta.view.owner d:2017-06-09T13:59:11.966Z v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:lastNotificationSeenAt=1491330280 v:displayName="Tom Schenk Jr"
+property e:wryv-d7zf t:meta.view.owner d:2017-09-25T07:30:31.286Z v:displayName="Tom Schenk Jr" v:lastNotificationSeenAt=1491330280 v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:id=3qqc-w7ag v:screenName="Tom Schenk Jr" v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB
 
-property e:wryv-d7zf t:meta.view.tableauthor d:2017-06-09T13:59:11.966Z v:id=3qqc-w7ag v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:screenName="Tom Schenk Jr" v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:roleName=administrator v:lastNotificationSeenAt=1491330280 v:displayName="Tom Schenk Jr"
+property e:wryv-d7zf t:meta.view.tableauthor d:2017-09-25T07:30:31.286Z v:displayName="Tom Schenk Jr" v:lastNotificationSeenAt=1491330280 v:profileImageUrlLarge=/api/users/3qqc-w7ag/profile_images/LARGE v:roleName=administrator v:profileImageUrlSmall=/api/users/3qqc-w7ag/profile_images/TINY v:id=3qqc-w7ag v:screenName="Tom Schenk Jr" v:profileImageUrlMedium=/api/users/3qqc-w7ag/profile_images/THUMB
 ```
 
 ## Top Records

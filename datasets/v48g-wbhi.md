@@ -50,11 +50,11 @@ Excluded Fields = _
 ## Data Commands
 
 ```ls
-series e:v48g-wbhi d:2004-01-01T00:00:00.000Z m:percent_diverted=32.5 m:disposed_statewide=1427904 m:diverted_statewide=688820 m:produced_statewide=2116724
+series e:v48g-wbhi d:2004-01-01T00:00:00.000Z m:percent_diverted=32.5 m:produced_statewide=2116724 m:disposed_statewide=1427904 m:diverted_statewide=688820
 
-series e:v48g-wbhi d:2005-01-01T00:00:00.000Z m:percent_diverted=36 m:disposed_statewide=1425752 m:diverted_statewide=801373 m:produced_statewide=2227124
+series e:v48g-wbhi d:2005-01-01T00:00:00.000Z m:percent_diverted=36 m:produced_statewide=2227124 m:disposed_statewide=1425752 m:diverted_statewide=801373
 
-series e:v48g-wbhi d:2006-01-01T00:00:00.000Z m:percent_diverted=31.4 m:disposed_statewide=1733889 m:diverted_statewide=792245 m:produced_statewide=2526134
+series e:v48g-wbhi d:2006-01-01T00:00:00.000Z m:percent_diverted=31.4 m:produced_statewide=2526134 m:disposed_statewide=1733889 m:diverted_statewide=792245
 ```
 
 ## Meta Commands
@@ -70,13 +70,13 @@ metric m:percent_diverted p:float l:"Percent Diverted" t:dataTypeName=percent
 
 entity e:v48g-wbhi l:"Table 17: Solid Waste Recycled (in tons)" t:attribution=DOH t:url=https://data.hawaii.gov/api/views/v48g-wbhi
 
-property e:v48g-wbhi t:meta.view d:2017-06-09T13:52:27.132Z v:id=v48g-wbhi v:category=Health v:attributionLink=http://hawaii.gov/doh v:averageRating=0 v:name="Table 17: Solid Waste Recycled (in tons)" v:attribution=DOH
+property e:v48g-wbhi t:meta.view d:2017-09-25T07:23:49.773Z v:averageRating=0 v:name="Table 17: Solid Waste Recycled (in tons)" v:attribution=DOH v:attributionLink=http://hawaii.gov/doh v:id=v48g-wbhi v:category=Health
 
-property e:v48g-wbhi t:meta.view.license d:2017-06-09T13:52:27.132Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
+property e:v48g-wbhi t:meta.view.license d:2017-09-25T07:23:49.773Z v:name="Creative Commons Attribution 3.0 Unported" v:termsLink=http://creativecommons.org/licenses/by/3.0/legalcode v:logoUrl=images/licenses/cc30by.png
 
-property e:v48g-wbhi t:meta.view.owner d:2017-06-09T13:52:27.132Z v:id=8c9u-vteh v:screenName=lorrink v:displayName=lorrink
+property e:v48g-wbhi t:meta.view.owner d:2017-09-25T07:23:49.773Z v:displayName=lorrink v:id=8c9u-vteh v:screenName=lorrink
 
-property e:v48g-wbhi t:meta.view.tableauthor d:2017-06-09T13:52:27.132Z v:id=8c9u-vteh v:screenName=lorrink v:roleName=editor v:displayName=lorrink
+property e:v48g-wbhi t:meta.view.tableauthor d:2017-09-25T07:23:49.773Z v:displayName=lorrink v:roleName=editor v:id=8c9u-vteh v:screenName=lorrink
 ```
 
 ## Top Records

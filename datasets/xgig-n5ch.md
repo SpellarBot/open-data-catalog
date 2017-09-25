@@ -15,7 +15,7 @@
 | Category | Human Services |
 | Tags | community services, medicaid utilization |
 | Created | 2014-07-11T21:16:37Z |
-| Publication Date | 2017-02-08T23:03:41Z |
+| Publication Date | 2017-08-02T22:02:23Z |
 
 ## Description
 
@@ -55,11 +55,11 @@ Excluded Fields = service_year
 ## Data Commands
 
 ```ls
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:rate_code_group="Clinic Treatment" t:county_label=Allegany t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:recipient_count_by_county=443 m:paid_claim_total=273141 m:units_total=2674 m:count_of_recipients_by_rate_code_group_and_county=345
+series e:xgig-n5ch d:2017-07-19T09:44:43.000Z t:rate_code_group="Day Treatment" t:omh_region_code=3 t:county_label=Ulster t:age_group=CHILD t:omh_region_label="Hudson River" m:paid_claim_total=313495 m:recipient_count_by_county=714 m:units_total=953 m:count_of_recipients_by_rate_code_group_and_county=39
 
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:rate_code_group="Community Residence" t:county_label=Allegany t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:recipient_count_by_county=443 m:paid_claim_total=289091 m:units_total=128 m:count_of_recipients_by_rate_code_group_and_county=20
+series e:xgig-n5ch d:2017-07-19T09:44:43.000Z t:rate_code_group="Family Based Treatment/Teaching Family Home" t:omh_region_code=3 t:county_label=Ulster t:age_group=CHILD t:omh_region_label="Hudson River" m:paid_claim_total=293742 m:recipient_count_by_county=714 m:units_total=40 m:count_of_recipients_by_rate_code_group_and_county=10
 
-series e:xgig-n5ch d:2017-01-18T12:08:00.000Z t:rate_code_group="Health Home" t:county_label=Allegany t:age_group=ADULT t:omh_region_label="Western NY" t:omh_region_code=1 m:recipient_count_by_county=443 m:paid_claim_total=109393 m:units_total=237 m:count_of_recipients_by_rate_code_group_and_county=33
+series e:xgig-n5ch d:2017-07-19T09:44:43.000Z t:rate_code_group="Psychiatric Inpatient" t:omh_region_code=3 t:county_label=Ulster t:age_group=CHILD t:omh_region_label="Hudson River" m:paid_claim_total=2873 m:recipient_count_by_county=714 m:units_total=3 m:count_of_recipients_by_rate_code_group_and_county=1
 ```
 
 ## Meta Commands
@@ -69,34 +69,34 @@ metric m:recipient_count_by_county p:integer l:"Recipient Count By County" d:"Co
 
 metric m:count_of_recipients_by_rate_code_group_and_county p:integer l:"Count Of Recipients By Rate Code Group And County" d:"Count of distinct Client Identification Numbers by rate code group and county." t:dataTypeName=number
 
-metric m:units_total p:integer l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: “Notes” link at “http://bi.omh.ny.gov/cmhp/mh-services”)" t:dataTypeName=number
+metric m:units_total p:float l:"Units Total" d:"Sum of mental health service Units provided. Service Units may be measured in Days or Months depending on service category and provider specialty. (see also: “Notes” link at “http://bi.omh.ny.gov/cmhp/mh-services”)" t:dataTypeName=number
 
-metric m:paid_claim_total p:integer l:"Paid Claim Total" d:"Sum of total payment or reimbursement amount for a claim or claim line." t:dataTypeName=number
+metric m:paid_claim_total p:double l:"Paid Claim Total" d:"Sum of total payment or reimbursement amount for a claim or claim line." t:dataTypeName=number
 
 entity e:xgig-n5ch l:"County Mental Health Profiles: Beginning 2006" t:attribution="New York State Office of Mental Health" t:url=https://data.ny.gov/api/views/xgig-n5ch
 
-property e:xgig-n5ch t:meta.view d:2017-06-09T13:58:59.284Z v:id=xgig-n5ch v:category="Human Services" v:attributionLink=http://bi.omh.ny.gov/cmhp/mh-services v:averageRating=0 v:name="County Mental Health Profiles: Beginning 2006" v:attribution="New York State Office of Mental Health"
+property e:xgig-n5ch t:meta.view d:2017-09-25T07:30:20.230Z v:averageRating=0 v:name="County Mental Health Profiles: Beginning 2006" v:attribution="New York State Office of Mental Health" v:attributionLink=http://bi.omh.ny.gov/cmhp/mh-services v:id=xgig-n5ch v:category="Human Services"
 
-property e:xgig-n5ch t:meta.view.owner d:2017-06-09T13:58:59.284Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:displayName="NY Open Data"
+property e:xgig-n5ch t:meta.view.owner d:2017-09-25T07:30:20.230Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:xgig-n5ch t:meta.view.tableauthor d:2017-06-09T13:58:59.284Z v:id=xzik-pf59 v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:screenName="NY Open Data" v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:roleName=publisher v:displayName="NY Open Data"
+property e:xgig-n5ch t:meta.view.tableauthor d:2017-09-25T07:30:20.230Z v:displayName="NY Open Data" v:profileImageUrlLarge=/api/users/xzik-pf59/profile_images/LARGE v:roleName=publisher v:profileImageUrlSmall=/api/users/xzik-pf59/profile_images/TINY v:id=xzik-pf59 v:screenName="NY Open Data" v:profileImageUrlMedium=/api/users/xzik-pf59/profile_images/THUMB
 
-property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:58:59.284Z v:Contact_Email=opendata@its.ny.gov v:Publisher="State of New York" v:Contact_Name="Open Data NY"
+property e:xgig-n5ch t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:30:20.230Z v:Contact_Email=opendata@its.ny.gov v:Contact_Name="Open Data NY" v:Publisher="State of New York"
 ```
 
 ## Top Records
 
 ```ls
-| row_created_date_time | service_year | omh_region_code | omh_region_label | county_label | age_group | rate_code_group                          | recipient_count_by_county | count_of_recipients_by_rate_code_group_and_county | units_total | paid_claim_total | 
-| ===================== | ============ | =============== | ================ | ============ | ========= | ======================================== | ========================= | ================================================= | =========== | ================ | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Clinic Treatment                         | 443                       | 345                                               | 2674        | 273141           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Community Residence                      | 443                       | 20                                                | 128         | 289091           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Health Home                              | 443                       | 33                                                | 237         | 109393           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | ADULT     | Personalized Recovery Oriented Services  | 443                       | 124                                               | 1768        | 706777           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | CHILD     | Clinic Treatment                         | 154                       | 109                                               | 725         | 64106            | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | CHILD     | Community Residence                      | 154                       | 1                                                 | 8           | 18465            | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Allegany     | CHILD     | Targeted Case Management (ICM, BCM, SCM) | 154                       | 56                                                | 360         | 170648           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Cattaraugus  | ADULT     | Continuing Day Treatment                 | 1170                      | 42                                                | 6453        | 327955           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Cattaraugus  | ADULT     | Clinic Treatment                         | 1170                      | 701                                               | 5948        | 765771           | 
-| 2017-01-18T12:08:00   | 2014         | 1               | Western NY       | Cattaraugus  | ADULT     | Community Residence                      | 1170                      | 79                                                | 761         | 2318750          | 
+| row_created_date_time | service_year | omh_region_code | omh_region_label | county_label | age_group | rate_code_group                             | recipient_count_by_county | count_of_recipients_by_rate_code_group_and_county | units_total | paid_claim_total | 
+| ===================== | ============ | =============== | ================ | ============ | ========= | =========================================== | ========================= | ================================================= | =========== | ================ | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Ulster       | CHILD     | Day Treatment                               | 714                       | 39                                                | 953.000     | 313495.00        | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Ulster       | CHILD     | Family Based Treatment/Teaching Family Home | 714                       | 10                                                | 40.000      | 293742.00        | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Ulster       | CHILD     | Psychiatric Inpatient                       | 714                       | 1                                                 | 3.000       | 2873.00          | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Ulster       | CHILD     | Partial Hospitalization                     | 714                       | 32                                                | 416.000     | 51516.00         | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Ulster       | CHILD     | Targeted Case Management (ICM, BCM, SCM)    | 714                       | 40                                                | 191.000     | 105932.00        | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Warren       | ADULT     | Continuing Day Treatment                    | 950                       | 52                                                | 5059.000    | 244036.00        | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Warren       | ADULT     | Clinic Treatment                            | 950                       | 706                                               | 8239.000    | 677531.00        | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Warren       | ADULT     | Community Residence                         | 950                       | 14                                                | 83.000      | 182253.00        | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Warren       | ADULT     | Psychiatric Inpatient                       | 950                       | 273                                               | 2417.000    | 1749725.00       | 
+| 2017-07-19T09:44:43   | 2011         | 3               | Hudson River     | Warren       | ADULT     | Targeted Case Management (ICM, BCM, SCM)    | 950                       | 55                                                | 393.000     | 261659.00        | 
 ```

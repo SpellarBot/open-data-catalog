@@ -97,8 +97,8 @@ Name | Host | Published
 [DOF: Cooperative Comparable Rental Income ? Queens ? FY 2011/2012](../datasets/sjpy-4cc9.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2009/2010](../datasets/9sfa-4geq.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [DOF: Cooperative Comparable Rental Income ? Staten Island ? FY 2011/2012](../datasets/2zbg-i8fx.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
-[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
+[DOF: Cooperative Comparable Rental Income – Manhattan– FY 2011/2012](../datasets/m56g-jpua.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;16
+[DOF: Cooperative Comparable Rental Income – Staten Island – FY 2008/2009](../datasets/97iw-vtbx.md) | data.cityofnewyork.us | 2017&#x2011;09&#x2011;16
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2007](../datasets/hdu7-ujt4.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2008](../datasets/ugc2-6t2g.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;26
 [DOF: Summary of Neighborhood Sales Citywide for Class 1-, 2- and 3-Family homes - 2009](../datasets/5ps9-yuef.md) | data.cityofnewyork.us | 2013&#x2011;06&#x2011;21

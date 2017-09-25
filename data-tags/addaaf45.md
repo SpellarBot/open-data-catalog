@@ -102,7 +102,7 @@ Name | Host | Published
 [Fiscal Year 2014 Budget](../datasets/85n2-q296.md) | data.montgomerycountymd.gov | 2013&#x2011;08&#x2011;20
 [Fiscal Year 2015 Budget](../datasets/ss4y-xia2.md) | data.montgomerycountymd.gov | 2014&#x2011;08&#x2011;18
 [General City Budget Incremental Changes](../datasets/k4k6-bwwv.md) | data.lacity.org | 2016&#x2011;07&#x2011;11
-[General Fund Revenue](../datasets/qrkr-kfbh.md) | data.lacity.org | 2017&#x2011;05&#x2011;19
+[General Fund Revenue](../datasets/qrkr-kfbh.md) | data.lacity.org | 2017&#x2011;08&#x2011;04
 [General Fund Revenues 2010](../datasets/bqg4-c485.md) | data.kingcounty.gov | 2011&#x2011;04&#x2011;17
 [Health Care Expenditures](../datasets/impj-6vgn.md) | data.kingcounty.gov | 2012&#x2011;09&#x2011;06
 [Historical Budget Summary by Category FY14-FY05](../datasets/nbhj-n6p6.md) | data.somervillema.gov | 2015&#x2011;08&#x2011;18

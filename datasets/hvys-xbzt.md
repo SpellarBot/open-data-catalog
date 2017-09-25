@@ -43,11 +43,11 @@ Format & Zone = yyyy-MM-dd'T'HH:mm:ss
 ## Data Commands
 
 ```ls
-series e:hvys-xbzt d:2012-07-02T00:00:00.000Z t:compensation_method="Time and Materials" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:organization="University of Oregon" t:contractor="Stedman Sheet Metal, Inc." t:supplement_number=UO-636-C-12-1 t:mwesb=No m:price=50000
+series e:hvys-xbzt d:2012-07-02T00:00:00.000Z t:supplement_number=UO-636-C-12-1 t:contractor="Stedman Sheet Metal, Inc." t:compensation_method="Time and Materials" t:organization="University of Oregon" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:mwesb=No m:price=50000
 
-series e:hvys-xbzt d:2012-07-05T00:00:00.000Z t:compensation_method=Fixed t:retainer_period="July 2012 - June 2014" t:project="Magruder Hall Chiller Replacement" t:organization="Oregon State University" t:contractor="Hammerquist, Inc." t:supplement_number=OSU-131-C-12-1 t:mwesb=No m:price=56801
+series e:hvys-xbzt d:2012-07-05T00:00:00.000Z t:supplement_number=OSU-131-C-12-1 t:contractor="Hammerquist, Inc." t:compensation_method=Fixed t:organization="Oregon State University" t:retainer_period="July 2012 - June 2014" t:project="Magruder Hall Chiller Replacement" t:mwesb=No m:price=56801
 
-series e:hvys-xbzt d:2012-07-06T00:00:00.000Z t:compensation_method="Time and Materials" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:organization="University of Oregon" t:contractor="Office World, Inc." t:supplement_number=UO-574-C-12-2 t:mwesb=No m:price=50000
+series e:hvys-xbzt d:2012-07-06T00:00:00.000Z t:supplement_number=UO-574-C-12-2 t:contractor="Office World, Inc." t:compensation_method="Time and Materials" t:organization="University of Oregon" t:retainer_period="July 2012 - June 2014" t:project="Miscellaneous Small Campus Projects" t:mwesb=No m:price=50000
 ```
 
 ## Meta Commands
@@ -57,11 +57,11 @@ metric m:price p:double l:Price t:dataTypeName=number
 
 entity e:hvys-xbzt l:"Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013" t:url=https://data.oregon.gov/api/views/hvys-xbzt
 
-property e:hvys-xbzt t:meta.view d:2017-06-09T13:58:43.889Z v:id=hvys-xbzt v:category="Revenue & Expense" v:averageRating=0 v:name="Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013"
+property e:hvys-xbzt t:meta.view d:2017-09-25T07:30:02.348Z v:averageRating=0 v:name="Contracts: OUS: Captial Construction Retainer Program: CRS Supplements: FY2013" v:id=hvys-xbzt v:category="Revenue & Expense"
 
-property e:hvys-xbzt t:meta.view.owner d:2017-06-09T13:58:43.889Z v:id=d6zz-js5q v:screenName="Paula N." v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:hvys-xbzt t:meta.view.owner d:2017-09-25T07:30:02.348Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:id=d6zz-js5q v:screenName="Paula N."
 
-property e:hvys-xbzt t:meta.view.tableauthor d:2017-06-09T13:58:43.889Z v:id=d6zz-js5q v:screenName="Paula N." v:roleName=administrator v:lastNotificationSeenAt=1495038840 v:displayName="Paula N."
+property e:hvys-xbzt t:meta.view.tableauthor d:2017-09-25T07:30:02.348Z v:displayName="Paula N." v:lastNotificationSeenAt=1500509429 v:roleName=administrator v:id=d6zz-js5q v:screenName="Paula N."
 ```
 
 ## Top Records

@@ -70,11 +70,11 @@ Excluded Fields = data_value_unit,data_value_type,data_value_footnote_symbol,dat
 ## Data Commands
 
 ```ls
-series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:topic="Prenatal Care - Visits" t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP44 t:class="Control Variable" t:break_out="Age 18 - 44" t:questionid=QUO171 t:response=NO t:locationid=2 t:breakoutid=AGE1844ALL t:responseid=RES23 t:break_out_category="Maternal Age - 18 to 44 years only" t:question="Indicator of no prenatal care" t:breakoutcategoryid=BOC16 t:datasource=PRAMS t:classid=CLA1 m:data_value=99.1
+series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:breakoutcategoryid=BOC16 t:questionid=QUO171 t:question="Indicator of no prenatal care" t:locationabbr=AK t:break_out="Age 18 - 44" t:locationdesc=Alaska t:topicid=TOP44 t:classid=CLA1 t:break_out_category="Maternal Age - 18 to 44 years only" t:datasource=PRAMS t:response=NO t:locationid=2 t:breakoutid=AGE1844ALL t:topic="Prenatal Care - Visits" t:class="Control Variable" t:responseid=RES23 m:data_value=99.1
 
-series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:questionid=QUO17 t:locationid=2 t:breakoutid=BOC1 t:break_out_category="Birth Weight" t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:data_value=35
+series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:breakoutcategoryid=BOC1 t:questionid=QUO17 t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP12 t:classid=CLA10 t:break_out_category="Birth Weight" t:datasource=PRAMS t:locationid=2 t:breakoutid=BOC1 t:topic=Medicaid t:class=Insurance/Medicaid/Services m:data_value=35
 
-series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:topic=Medicaid t:locationabbr=AK t:locationdesc=Alaska t:topicid=TOP12 t:class=Insurance/Medicaid/Services t:break_out="LBW (<=2500g)" t:questionid=QUO17 t:response=NO t:locationid=2 t:breakoutid=BWT1 t:responseid=RES23 t:break_out_category="Birth Weight" t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:breakoutcategoryid=BOC1 t:datasource=PRAMS t:classid=CLA10 m:high_confidence_limit=87.1 m:sample_size=324 m:data_value=85.1 m:low_confidence_limit=82.8
+series e:akmt-4qtj d:2006-01-01T00:00:00.000Z t:breakoutcategoryid=BOC1 t:questionid=QUO17 t:question="Just before you got pregnant  were you on Medicaid? (years 2000 - 2008)" t:locationabbr=AK t:break_out="LBW (<=2500g)" t:locationdesc=Alaska t:topicid=TOP12 t:classid=CLA10 t:break_out_category="Birth Weight" t:datasource=PRAMS t:response=NO t:locationid=2 t:breakoutid=BWT1 t:topic=Medicaid t:class=Insurance/Medicaid/Services t:responseid=RES23 m:sample_size=324 m:data_value=85.1 m:high_confidence_limit=87.1 m:low_confidence_limit=82.8
 ```
 
 ## Meta Commands
@@ -90,15 +90,15 @@ metric m:sample_size p:integer l:Sample_Size t:dataTypeName=number
 
 entity e:akmt-4qtj l:"CDC PRAMStat Data for 2006" t:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" t:url=https://chronicdata.cdc.gov/api/views/akmt-4qtj
 
-property e:akmt-4qtj t:meta.view d:2017-06-09T13:51:53.696Z v:id=akmt-4qtj v:category="Maternal & Child Health" v:attributionLink=http://www.cdc.gov/prams/Index v:averageRating=0 v:name="CDC PRAMStat Data for 2006" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)"
+property e:akmt-4qtj t:meta.view d:2017-09-25T07:23:14.791Z v:averageRating=0 v:name="CDC PRAMStat Data for 2006" v:attribution="Centers for Disease Control and Prevention Division of Reproductive Health Pregnancy Risk Assessment Monitoring System (PRAMS)" v:attributionLink=http://www.cdc.gov/prams/Index v:id=akmt-4qtj v:category="Maternal & Child Health"
 
-property e:akmt-4qtj t:meta.view.license d:2017-06-09T13:51:53.696Z v:name="Public Domain"
+property e:akmt-4qtj t:meta.view.license d:2017-09-25T07:23:14.791Z v:name="Public Domain"
 
-property e:akmt-4qtj t:meta.view.owner d:2017-06-09T13:51:53.696Z v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:displayName="PRAMStat Administrator"
+property e:akmt-4qtj t:meta.view.owner d:2017-09-25T07:23:14.791Z v:displayName="PRAMStat Administrator" v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator"
 
-property e:akmt-4qtj t:meta.view.tableauthor d:2017-06-09T13:51:53.696Z v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator" v:roleName=publisher v:displayName="PRAMStat Administrator"
+property e:akmt-4qtj t:meta.view.tableauthor d:2017-09-25T07:23:14.791Z v:displayName="PRAMStat Administrator" v:roleName=publisher v:id=7gh3-3zr5 v:screenName="PRAMStat Administrator"
 
-property e:akmt-4qtj t:meta.view.metadata.custom_fields.common_core d:2017-06-09T13:51:53.696Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Bureau_Code=009:20 v:Program_Code=009:020
+property e:akmt-4qtj t:meta.view.metadata.custom_fields.common_core d:2017-09-25T07:23:14.791Z v:Contact_Email=cdcinfo@cdc.gov v:Contact_Name="CDC INFO" v:Program_Code=009:020 v:Publisher="Centers for Disease Control and Prevention" v:Bureau_Code=009:20 v:Public_Access_Level="Public Domain"
 ```
 
 ## Top Records

@@ -66,11 +66,11 @@ Excluded Fields = license_date,issued_date,last_renewal_date,next_renewal_date,e
 ## Data Commands
 
 ```ls
-series e:q9df-sa9r d:2004-06-16T09:06:18.000Z t:stno=11918 t:zip=20854 t:license_no=203907 t:applicationtype="AGRICULTURAL PRODUCERS CERTIF" t:product_sold=PRODUCE t:state=MD t:farm_name="LEWIS ORCHARD" t:stname="GLEN MILL" t:in_county=Y t:out_county=N t:suffix=RD t:city=POTOMAC m:row_number.q9df-sa9r=1
+series e:q9df-sa9r d:2004-06-16T09:06:18.000Z t:zip=20854 t:license_no=203907 t:in_county=Y t:out_county=N t:stno=11918 t:city=POTOMAC t:state=MD t:suffix=RD t:product_sold=PRODUCE t:applicationtype="AGRICULTURAL PRODUCERS CERTIF" t:farm_name="LEWIS ORCHARD" t:stname="GLEN MILL" m:row_number.q9df-sa9r=1
 
-series e:q9df-sa9r d:2003-10-01T03:10:24.000Z t:stno=23830 t:zip=20842 t:license_no=203032 t:applicationtype="AGRICULTURAL PRODUCERS CERTIF" t:product_sold=PRODUCE t:state=MD t:farm_name="HEISLER FARM" t:stname="OLD HUNDRED" t:in_county=Y t:out_county=N t:suffix=RD t:city=DICKERSON m:row_number.q9df-sa9r=2
+series e:q9df-sa9r d:2003-10-01T03:10:24.000Z t:zip=20842 t:license_no=203032 t:in_county=Y t:out_county=N t:stno=23830 t:city=DICKERSON t:state=MD t:suffix=RD t:product_sold=PRODUCE t:applicationtype="AGRICULTURAL PRODUCERS CERTIF" t:farm_name="HEISLER FARM" t:stname="OLD HUNDRED" m:row_number.q9df-sa9r=2
 
-series e:q9df-sa9r d:2014-04-10T09:04:35.000Z t:stno=1500 t:zip=20910 t:license_no=221024 t:applicationtype="AGRICULTURAL PRODUCERS CERTIF" t:product_sold=PRODUCE t:state=MD t:farm_name="CALVERT FARM" t:stname="FOREST GLEN" t:in_county=Y t:out_county=N t:suffix=RD t:city="SILVER SPRING" m:row_number.q9df-sa9r=3
+series e:q9df-sa9r d:2014-04-10T09:04:35.000Z t:zip=20910 t:license_no=221024 t:in_county=Y t:out_county=N t:stno=1500 t:city="SILVER SPRING" t:state=MD t:suffix=RD t:product_sold=PRODUCE t:applicationtype="AGRICULTURAL PRODUCERS CERTIF" t:farm_name="CALVERT FARM" t:stname="FOREST GLEN" m:row_number.q9df-sa9r=3
 ```
 
 ## Meta Commands
@@ -80,13 +80,13 @@ metric m:row_number.q9df-sa9r p:long l:"Row Number"
 
 entity e:q9df-sa9r l:"Agricultural Producer  Certificates" t:attribution="Montgomery County, MD" t:url=https://data.montgomerycountymd.gov/api/views/q9df-sa9r
 
-property e:q9df-sa9r t:meta.view d:2017-06-09T13:51:43.342Z v:id=q9df-sa9r v:category=Licenses/Permits v:averageRating=0 v:name="Agricultural Producer  Certificates" v:attribution="Montgomery County, MD"
+property e:q9df-sa9r t:meta.view d:2017-09-25T07:23:02.160Z v:averageRating=0 v:name="Agricultural Producer  Certificates" v:attribution="Montgomery County, MD" v:id=q9df-sa9r v:category=Licenses/Permits
 
-property e:q9df-sa9r t:meta.view.license d:2017-06-09T13:51:43.342Z v:name="Public Domain"
+property e:q9df-sa9r t:meta.view.license d:2017-09-25T07:23:02.160Z v:name="Public Domain"
 
-property e:q9df-sa9r t:meta.view.owner d:2017-06-09T13:51:43.342Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:q9df-sa9r t:meta.view.owner d:2017-09-25T07:23:02.160Z v:displayName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:id=ajn4-zy65 v:screenName="MCG ESB Service"
 
-property e:q9df-sa9r t:meta.view.tableauthor d:2017-06-09T13:51:43.342Z v:id=ajn4-zy65 v:screenName="MCG ESB Service" v:roleName=administrator v:lastNotificationSeenAt=1491401045 v:displayName="MCG ESB Service"
+property e:q9df-sa9r t:meta.view.tableauthor d:2017-09-25T07:23:02.160Z v:displayName="MCG ESB Service" v:lastNotificationSeenAt=1491401045 v:roleName=administrator v:id=ajn4-zy65 v:screenName="MCG ESB Service"
 ```
 
 ## Top Records
