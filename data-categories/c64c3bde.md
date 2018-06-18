@@ -1,6 +1,6 @@
 # Oral Health
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [ASTDD Synopses of State Oral Health Programs - Selected indicators](../datasets/vwmz-4ja3.md) | data.cdc.gov | 2017-02-02
 [NOHSS Adult Indicators](../datasets/jz6n-v26y.md) | data.cdc.gov | 2016-11-17

@@ -1,6 +1,6 @@
 # NCHS
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [NCHS - Age-adjusted Death Rates for Selected Major Causes of Death: United States, 1900-2013](../datasets/6rkc-nb2q.md) | data.cdc.gov | 2016-06-22
 [NCHS - Age-adjusted Death Rates for the Top 10 Leading Causes of Death: United States, 2013](../datasets/bi63-dtpu.md) | data.cdc.gov | 2015-12-02

@@ -1,6 +1,6 @@
 # Hospice Data Directory
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [Hospice Agencies](../datasets/s8t3-rfbq.md) | data.medicare.gov | 2017-02-22
 [Hospice CASPER/ASPEN Contacts](../datasets/qx7x-wipa.md) | data.medicare.gov | 2016-10-19

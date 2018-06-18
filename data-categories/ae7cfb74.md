@@ -1,6 +1,6 @@
 # Regulatory
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [County Clerk License Information](../datasets/hbmv-rqk9.md) | data.mo.gov | 2017-04-20
 [Credit Union](../datasets/r843-p6xb.md) | data.mo.gov | 2017-04-19

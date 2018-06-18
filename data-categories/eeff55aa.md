@@ -1,6 +1,6 @@
 # Healthy People 2020
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
-[Healthy People 2020 Tobacco Use Objectives](../datasets/hhew-mxbt.md) | data.cdc.gov | 2016&#x2011;10&#x2011;21
+[Healthy People 2020 Tobacco Use Objectives](../datasets/hhew-mxbt.md) | data.cdc.gov | 2016-10-21
 

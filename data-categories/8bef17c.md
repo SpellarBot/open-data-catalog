@@ -1,6 +1,6 @@
 # Government
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [2-16 to 2-22-14 Austin Animal Center Intakes](../datasets/db24-fcaw.md) | data.austintexas.gov | 2014-02-24
 [2-16 to 2-22-14 Austin Animal Center Outcomes](../datasets/vs6n-chuq.md) | data.austintexas.gov | 2014-02-24

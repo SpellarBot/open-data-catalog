@@ -1,0 +1,37 @@
+# Reporting Agencies
+
+Name | Dataset Count
+---- | --------------
+[chronicdata.cdc.gov](data-hosts/chronicdata.cdc.gov.md) | 31
+[data.austintexas.gov](data-hosts/data.austintexas.gov.md) | 365
+[data.baltimorecity.gov](data-hosts/data.baltimorecity.gov.md) | 96
+[data.brla.gov](data-hosts/data.brla.gov.md) | 23
+[data.cdc.gov](data-hosts/data.cdc.gov.md) | 220
+[data.cityofchicago.org](data-hosts/data.cityofchicago.org.md) | 370
+[data.cityofnewyork.us](data-hosts/data.cityofnewyork.us.md) | 1055
+[data.ct.gov](data-hosts/data.ct.gov.md) | 307
+[data.energystar.gov](data-hosts/data.energystar.gov.md) | 33
+[data.hartford.gov](data-hosts/data.hartford.gov.md) | 42
+[data.hawaii.gov](data-hosts/data.hawaii.gov.md) | 377
+[data.honolulu.gov](data-hosts/data.honolulu.gov.md) | 30
+[data.illinois.gov](data-hosts/data.illinois.gov.md) | 505
+[data.imls.gov](data-hosts/data.imls.gov.md) | 70
+[data.iowa.gov](data-hosts/data.iowa.gov.md) | 255
+[data.jacksonms.gov](data-hosts/data.jacksonms.gov.md) | 37
+[data.kingcounty.gov](data-hosts/data.kingcounty.gov.md) | 231
+[data.lacity.org](data-hosts/data.lacity.org.md) | 213
+[data.maryland.gov](data-hosts/data.maryland.gov.md) | 310
+[data.medicaid.gov](data-hosts/data.medicaid.gov.md) | 29
+[data.medicare.gov](data-hosts/data.medicare.gov.md) | 85
+[data.mo.gov](data-hosts/data.mo.gov.md) | 134
+[data.montgomerycountymd.gov](data-hosts/data.montgomerycountymd.gov.md) | 111
+[data.nola.gov](data-hosts/data.nola.gov.md) | 81
+[data.ny.gov](data-hosts/data.ny.gov.md) | 518
+[data.oregon.gov](data-hosts/data.oregon.gov.md) | 456
+[data.seattle.gov](data-hosts/data.seattle.gov.md) | 244
+[data.sfgov.org](data-hosts/data.sfgov.org.md) | 327
+[data.somervillema.gov](data-hosts/data.somervillema.gov.md) | 25
+[data.srcity.org](data-hosts/data.srcity.org.md) | 30
+[data.wa.gov](data-hosts/data.wa.gov.md) | 303
+[datacatalog.cookcountyil.gov](data-hosts/datacatalog.cookcountyil.gov.md) | 257
+[opendata.fcc.gov](data-hosts/opendata.fcc.gov.md) | 1

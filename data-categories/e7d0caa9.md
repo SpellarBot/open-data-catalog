@@ -1,6 +1,6 @@
 # Parks & Recreation
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [Beach Lab Data](../datasets/2ivx-z93u.md) | data.cityofchicago.org | 2017-02-16
 [Beach Swim Advisories](../datasets/t62e-8nvc.md) | data.cityofchicago.org | 2016-06-10

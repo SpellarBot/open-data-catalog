@@ -1,6 +1,6 @@
 # Active Specifications
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [ENERGY STAR Certified Audio Video](../datasets/ewhi-bvce.md) | data.energystar.gov | 2016-08-19
 [ENERGY STAR Certified Boilers](../datasets/6rww-hpns.md) | data.energystar.gov | 2016-12-29

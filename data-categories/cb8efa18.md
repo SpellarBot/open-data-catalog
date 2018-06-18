@@ -1,6 +1,6 @@
 # Health & Human Services
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [2015 Catheter-Associated Urinary Tract Infections (CAUTI) Table](../datasets/wic4-44s9.md) | data.oregon.gov | 2016-09-29
 [2015 Central Line-Associated Bloodstream Infections (CLABSI) Table](../datasets/4arj-uxbw.md) | data.oregon.gov | 2016-09-23

@@ -1,6 +1,6 @@
 # Housing, Land Use, and Blight
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [Accela Legacy Hearings](../datasets/d2is-2r79.md) | data.nola.gov | 2013-10-31
 [Certified Green Buildings (2005 - Present)](../datasets/crd6-2w8k.md) | data.nola.gov | 2016-01-25

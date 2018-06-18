@@ -1,6 +1,6 @@
 # Administration & Finance
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [33rd Ward Alderman Applicants - 2013](../datasets/ht96-cigt.md) | data.cityofchicago.org | 2013-08-15
 [4th Ward Alderman Applicants - 2016](../datasets/5hda-ha8b.md) | data.cityofchicago.org | 2016-05-05

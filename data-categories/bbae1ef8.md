@@ -1,6 +1,6 @@
 # Communities & People
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [Assessed Property Values By Tax District and Year](../datasets/p8sk-8ig7.md) | data.iowa.gov | 2014-11-20
 [IPERS Service Purchases by Membership Group and Location](../datasets/ia29-w2ai.md) | data.iowa.gov | 2017-03-14

@@ -1,6 +1,6 @@
 # Administrative
 
-Name | Host | Published
+Name | Agency | Published
 ---- | ---- | ---------
 [Active Assumed Business Name Registrations (ABN)](../datasets/vt5w-tv2x.md) | data.oregon.gov | 2017-04-19
 [Active Businesses - excluding ABNs and LLCs](../datasets/vd6m-2vq9.md) | data.oregon.gov | 2017-04-19
