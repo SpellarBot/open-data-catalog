@@ -12,6 +12,12 @@ The listing is grouped by reporting agency (host), category, and catalog tag:
 * [Categories](./data-categories/README.md)
 * [Catalog tags](./data-tags/README.md)
 
+The summary page for each dataset provides metadata about the published information as well as a subset of records in various formats. 
+
+Note that some agencies may require the user to be authenticated in order to download the data.
+
+-----
+
 ## Analyzing Data
 
 To analyze a dataset with SQL queries you can automatically load it into Axibase Time Series Database (ATSD), a non-relational database optimized for storing and analyzing time-series data.
@@ -27,7 +33,7 @@ curl -o docker-compose.yml \
 
 Launch ATSD and Axibase Collector containers and specify the URL to the dataset in the `DATASET_URL` variable.
 
-For this walk-through, the dataset is [Seattle City Budget](./datasets/socrata/55z8-f4gi.md) and the URL is provided in the **Data: JSON** field.
+For this walk-through, the dataset is [Seattle City Budget](./socrata/55z8-f4gi.md) published at the following URL which is also listed in the **Data: JSON** field on the dataset summary page.
 
 ```elm
 https://data.seattle.gov/api/views/55z8-f4gi/rows.json
@@ -98,4 +104,4 @@ Review the results which can be also exported in CSV and Excel formats.
 
 ![](./resources/sql-console.png)
 
-Review [SQL syntax](https://axibase.com/docs/atsd/) and [SQL examples](https://axibase.com/docs/atsd/sql/examples/) in ATSD documentation for insights and ideas on how to analyze the data.
+Review [SQL syntax](https://axibase.com/docs/atsd/sql) and [SQL examples](https://axibase.com/docs/atsd/sql/examples/) in ATSD documentation for insights and ideas on how to analyze the data.
