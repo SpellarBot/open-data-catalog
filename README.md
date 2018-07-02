@@ -2,7 +2,7 @@
 
 ## Overview
 
-The list contains [U.S. Government open data](http://www.data.gov/) datasets with a **time-series** dimension.
+The list contains [U.S. Government open data](http://www.data.gov/) datasets with a **datetime** dimension.
 
 The total number of entries is **7,190** out of **280,000** available in the [catalog](https://catalog.data.gov) and includes only datasets published in the [Socrata](https://dev.socrata.com/docs/formats) format.
 
