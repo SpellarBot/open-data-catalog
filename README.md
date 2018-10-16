@@ -16,7 +16,7 @@ The listing is grouped by reporting agency (host), category, and catalog tag:
 
 The summary page for each dataset provides metadata about the published information as well as a subset of records in various formats.
 
-Note that some agencies may require a user be authenticated in order to download data.
+Note that some agencies may require a user be authenticated to download data.
 
 -----
 
