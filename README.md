@@ -4,7 +4,7 @@
 
 ## Overview
 
-The resource contains [U.S. Government open data](http://www.data.gov/) datasets that contain a **datetime** dimension.
+The resource contains [U.S. Government open data](http://www.data.gov/) datasets with a **datetime** dimension.
 
 The total number of entries is **7,190** of **280,000** available in the [catalog](https://catalog.data.gov) and includes only datasets published in [Socrata](https://dev.socrata.com/docs/formats) format.
 
@@ -16,7 +16,7 @@ The listing is grouped by reporting agency (host), category, and catalog tag:
 
 The summary page for each dataset provides metadata about the published information as well as a subset of records in various formats.
 
-Note that some agencies may require a user to be authenticated in order to download data.
+Note that some agencies may require a user be authenticated in order to download data.
 
 -----
 
@@ -62,7 +62,7 @@ docker logs -f atsd
 
 Log in to ATSD web interface on HTTPS port `8443`.
 
-Open **Entities** tab in the main menu, locate entity `55z8-f4gi` which refers to dataset identifier in the `DATASET_URL` variable and click **Metrics** to view a list of metrics collected in this dataset.
+Open the **Entities** tab in the main menu, locate entity `55z8-f4gi` which refers to dataset identifier in the `DATASET_URL` variable and click **Metrics** to view a list of metrics collected in this dataset.
 
 ![](./resources/dataset-entity.png)
 
