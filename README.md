@@ -1,10 +1,12 @@
-# Time Series Socrata Datasets
+# Time Series Datasets
+
+![](./resources/axibase-and-socrata.png)
 
 ## Overview
 
-The list contains [U.S. Government open data](http://www.data.gov/) datasets with a **datetime** dimension.
+The resource contains [U.S. Government open data](http://www.data.gov/) datasets with a **datetime** dimension.
 
-The total number of entries is **7,190** out of **280,000** available in the [catalog](https://catalog.data.gov) and includes only datasets published in the [Socrata](https://dev.socrata.com/docs/formats) format.
+The total number of entries is **7,190** of **280,000** available in the [catalog](https://catalog.data.gov) and includes only datasets published in [Socrata](https://dev.socrata.com/docs/formats) format.
 
 The listing is grouped by reporting agency (host), category, and catalog tag:
 
@@ -12,34 +14,32 @@ The listing is grouped by reporting agency (host), category, and catalog tag:
 * [Categories](./data-categories/README.md)
 * [Catalog tags](./data-tags/README.md)
 
-The summary page for each dataset provides metadata about the published information as well as a subset of records in various formats. 
+The summary page for each dataset provides metadata about the published information as well as a subset of records in various formats.
 
-Note that some agencies may require the user to be authenticated in order to download the data.
+Note that some agencies may require a user be authenticated to download data.
 
 -----
 
 ## Analyzing Data
 
-To analyze a dataset with SQL queries you can automatically load it into Axibase Time Series Database (ATSD), a non-relational database optimized for storing and analyzing time-series data.
+* To analyze a dataset with [SQL](https://axibase.com/docs/atsd/sql/), load it into [ATSD](https://axibase.com/docs/atsd/), which is optimized for storing and analyzing time-series data.
+* Install [Docker](https://docs.docker.com/engine/installation/).
+* Download the [`docker-compose.yml`](./resources/docker-compose.yml) file.
 
-Install [Docker](https://docs.docker.com/engine/installation/).
+  ```bash
+  curl -o docker-compose.yml \
+    https://raw.githubusercontent.  com/axibase/open-data-catalog/master/resources/docker-compose.yml
+  ```
 
-Download the [`docker-compose.yml`](./resources/docker-compose.yml) file.
+Launch ATSD and [Axibase Collector](https://axibase.com/docs/axibase-collector/) containers and specify the URL to the dataset in the `DATASET_URL` variable.
 
-```bash
-curl -o docker-compose.yml \
-  https://raw.githubusercontent.com/axibase/open-data-catalog/master/resources/docker-compose.yml
-```
-
-Launch ATSD and Axibase Collector containers and specify the URL to the dataset in the `DATASET_URL` variable.
-
-For this walk-through, the dataset is [Seattle City Budget](./socrata/55z8-f4gi.md) published at the following URL which is also listed in the **Data: JSON** field on the dataset summary page.
+This tutorial explores [Seattle City Budget Data](./socrata/55z8-f4gi.md) published at the URL below (also listed in the **Data: JSON** field on the dataset summary page).
 
 ```elm
 https://data.seattle.gov/api/views/55z8-f4gi/rows.json
 ```
 
-Remove the `?max_rows=100` parameter from the URL to load the entire dataset.
+> Remove the `?max_rows=100` parameter from the URL to load the entire dataset.
 
 ```bash
 export DATASET_URL=https://data.seattle.gov/api/views/55z8-f4gi/rows.json; \
@@ -60,13 +60,13 @@ docker logs -f atsd
 [ATSD] Collector account 'myuser' created. Type: 'api-rw'.
 ```
 
-Login into ATSD web interface on port `8443` (https).
+Log in to ATSD web interface on HTTPS port `8443`.
 
-Open **Entities** tab in the main menu, locate the `55z8-f4gi` entity which refers to dataset identifier in the `DATASET_URL` variable and click **Metrics** to view a list of metrics collected in this dataset.
+Open the **Entities** tab in the main menu, locate entity `55z8-f4gi` which refers to dataset identifier in the `DATASET_URL` variable and click **Metrics** to view a list of metrics collected in this dataset.
 
 ![](./resources/dataset-entity.png)
 
-Choose one of the available metrics and click **Series** icon to open a list of all series collected for this entity and metric.
+Choose one of the available metrics and click the **Series** icon to open a list of all series collected for this entity and metric.
 
 ![](./resources/dataset-metrics.png)
 
@@ -76,7 +76,7 @@ Select a series and open the **Series Statistics** page. The page contains summa
 
 ![](./resources/dataset-series-statistics.png)
 
-Click **SQL** to open the **SQL Console** with a sample pre-generated query that selects last 100 values for the given series.
+Open **SQL > SQL Console** with a sample pre-generated query that selects last `100` values for the given series.
 
 ![](./resources/dataset-series-query.png)
 
@@ -104,4 +104,4 @@ Review the results which can be also exported in CSV and Excel formats.
 
 ![](./resources/sql-console.png)
 
-Review [SQL syntax](https://axibase.com/docs/atsd/sql) and [SQL examples](https://axibase.com/docs/atsd/sql/examples/) in ATSD documentation for insights and ideas on how to analyze the data.
+Review additional [SQL examples](https://axibase.com/docs/atsd/sql/examples/) for further insights and ideas on how to analyze this and other data.
